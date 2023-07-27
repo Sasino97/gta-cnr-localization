@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Entries>
+    <!-- ========================= -->
+    <!-- Death Options -->
+    <!-- ========================= -->
     <Entry Id="call_911">
         <String xml:lang="en-US">Call 911</String>
     </Entry>
@@ -9,6 +12,9 @@
         <String xml:lang="en-US">Respawn</String>
     </Entry>
 
+    <!-- ========================= -->
+    <!-- Death EMS Notification -->
+    <!-- ========================= -->
     <Entry Id="no_paramedics">
         <String xml:lang="en-US">There were no ~p~paramedics ~s~nearby and you were automatically transferred to a ~r~hospital~s~.</String>
     </Entry>
@@ -17,6 +23,9 @@
         <String xml:lang="en-US">There are one or more ~p~paramedics ~s~nearby. You can't respawn until the timer runs out, the paramedics leave the area, or they die.</String>
     </Entry>
 
+    <!-- ========================= -->
+    <!-- Spawn Protection -->
+    <!-- ========================= -->
     <Entry Id="spawn_protection_on">
         <String xml:lang="en-US">Spawn protection ~g~enabled~s~.</String>
     </Entry>
@@ -25,6 +34,9 @@
         <String xml:lang="en-US">Spawn protection ~r~disabled~s~.</String>
     </Entry>
 
+    <!-- ========================= -->
+    <!-- Death Messages -->
+    <!-- ========================= -->
     <Entry Id="died">
         <String xml:lang="en-US">{0} ~s~has died.</String>
     </Entry>
@@ -57,6 +69,9 @@
         <String xml:lang="en-US">{0} ~s~has died in a ~r~fire~s~.</String>
     </Entry>
 
+    <!-- ========================= -->
+    <!-- Death Weapons/Causes -->
+    <!-- ========================= -->
     <Entry Id="with_explosives">
         <String xml:lang="en-US">with an ~r~explosive~s~</String>
     </Entry>
@@ -129,6 +144,9 @@
         <String xml:lang="en-US">with a ~r~weapon~s~</String>
     </Entry>
 
+    <!-- ========================= -->
+    <!-- Death Special Cases -->
+    <!-- ========================= -->
     <Entry Id="for_bounty">
         <String xml:lang="en-US">for ~g~{0}~s~</String>
     </Entry>
@@ -145,6 +163,9 @@
         <String xml:lang="en-US">in a ~r~redzone~s~</String>
     </Entry>
 
+    <!-- ========================= -->
+    <!-- Kill Messages -->
+    <!-- ========================= -->
     <Entry Id="kill_msg_1">
         <String xml:lang="en-US">{0} killed {1} {2}.</String>
     </Entry>
@@ -153,6 +174,9 @@
         <String xml:lang="en-US">{0} ~s~killed {1} ~s~{2}.</String>
     </Entry>
 
+    <!-- ========================= -->
+    <!-- Revive Messages -->
+    <!-- ========================= -->
     <Entry Id="medic_revived">
         <String xml:lang="en-US">Paramedic {0} revived you.</String>
     </Entry>
