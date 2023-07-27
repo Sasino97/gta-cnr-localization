@@ -121,15 +121,16 @@ Text can also be highlighted with the `<C></C>` tags. Unfortunately, since those
 
 ## Used ISO Language Codes
 - English (US): `en-US`
-- Spanish (Spain): `es-ES`
-- French (France): `fr-FR`
 - German (Germany): `de-DE`
+- French (France): `fr-FR`
+- Dutch (Netherlands): `nl-NL`
+- Italian (Italy): `it-IT`
+- Spanish (Spain): `es-ES`
 - Polish (Poland): `pl-PL`
+- Portuguese (Brazil): `pt-BR`
+- Hindustani (Romanized): `hi-Latn`
+- Arabic (Modern Standard): `ar-001`
 - Chinese (Simplified): `zh-Hans`
 - Chinese (Traditional): `zh-Hant`
-- Arabic (Brazil): `pt-BR`
-- Italian (Italy): `it-IT`
-- Dutch (Netherlands): `nl-NL`
-- Arabic (Modern Standard): `ar-001`
 - Vietnamese (Vietnam): `vi-VN`
 - Thai (Thailand): `th-TH`
