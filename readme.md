@@ -101,3 +101,35 @@ Then we have section comments:
 ```
 
 These delimit different categories of message inside the same file, and help keep it organized.
+
+## GTA Formatting
+
+### Colors
+Sometimes you will find strings that contain symbols like the following: `~r~`. This simply means that from there on, the string will become red. Another common one is `~s~`, which will erase color formatting and return to the default color (white or black depending on the background). That how GTA color coding works, and we make extensive use of those in CnR because we have used the native GUI of GTA V a lot, and that's the way colors are coded.
+
+When you are translating from English to another language and there is color formatting, you need to try to best of your ability to colorize the corresponding words, and not to change the colors to other colors.
+
+[List of GTA Colors](https://wiki.rage.mp/index.php?title=Fonts_and_Colors#GTA_Colors).
+
+### Highlighting
+Text can also be highlighted with the `<C></C>` tags. Unfortunately, since those tags are XML-like, but they are not to be interpreted by my script but by GTA, they have to be escaped, so if you ever find them in the strings to translate, they will actually be like this:
+```xml
+&lt;C&gt;WORD TO HIGHLIGHT&lt;/C&gt;
+```
+
+[Highlighting](https://wiki.rage.mp/index.php?title=Fonts_and_Colors#Highlighting)
+
+## Used ISO Language Codes
+- English (US): `en-US`
+- Spanish (Spain): `es-ES`
+- French (France): `fr-FR`
+- German (Germany): `de-DE`
+- Polish (Poland): `pl-PL`
+- Chinese (Simplified): `zh-Hans`
+- Chinese (Traditional): `zh-Hant`
+- Arabic (Brazil): `pt-BR`
+- Italian (Italy): `it-IT`
+- Dutch (Netherlands): `nl-NL`
+- Arabic (Modern Standard): `ar-001`
+- Vietnamese (Vietnam): `vi-VN`
+- Thai (Thailand): `th-TH`
