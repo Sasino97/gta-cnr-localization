@@ -13,15 +13,45 @@ This repository contains the necessary files for the localization of CnR.
 - Then select `Terminal > New Terminal`
 - Run the following command: `git clone https://github.com/Sasino97/gta-cnr-localization.git`
 
-### Troubleshooting
-#### Missing permissions?
+## Usage of the Git repository
+We use Git to manage the teamwork of this repository. To make everything easier, we don't use the command line interface directly unless strictly necessary, and we prefer to rely on VSCode's GUI which is much more user-friendly and easy to understand. We also don't make use of branches, pull requests and similar features, to streamline the process and avoid adding unnecessary complications.
+
+This is the correct routine for a normal work session:
+- Open VSCode
+- Switch to the Source Control tab (the 3rd from the top, or press Ctrl+Shift+G)
+- Sync other people's changes (click the sync icon)
+- Work
+- Go back to the Source Control tab
+- Commit your work (with a short description of your changes)
+- Sync your changes (click the sync icon again)
+
+## Troubleshooting
+### Missing permissions?
 Login to GitHub by following the steps on screen, make sure to use the same account that has access to this page.
 
-#### Must set username/email before committing?
+### Must set username/email before committing?
 - In a VSCode Terminal, run `git config --global user.name "USERNAME"`
 - Then `git config --global user.email "NAME@EXAMPLE.COM"`
 
 Obviously, replace those placeholders with your actual data.
+
+### Merge conflicts
+This should not happen unless you have edited the same line which is unlikely in this type of work. But just in case, if you have a merge conflict, open the file, make sure to correctly merge your changes and the other person's change without damaging neither.
+
+Let's say for example that the other person had made a mistake in the xml:lang attribute and you spotted it and fixed it for them, so you changed the wrong `de_DE` to the correct `de-DE`, but before you committed and they pulled your change, they have made a different change to the same line, let's say they changed `Rache` to `Revenge`. In that case, a merge would look like this:
+```
+<<<<<< HEAD (Current change)
+        <String xml:lang="en-US">Revenge information</String>
+        <String xml:lang="de-DE">Rache Informationen</String>
+======
+        <String xml:lang="en-US">Revenge information</String>
+        <String xml:lang="de_DE">Revenge Informationen</String>
+>>>>>> some_long_ahh_number (Incoming Change)
+```
+Note: I have removed some of the special characters (`<`, `>`, `=`) otherwise Git will actually recognize it as an unmerged part of this document.
+
+### Still need help?
+We are here to help, just make a thread in `#lang-forum` and whoever has an answer will help you out.
 
 ## Format
 The file format utilized for translations is XML (Extensible Markup Language). You can learn more about XML on [Wikipedia](https://en.wikipedia.org/wiki/XML). We will use a different XML file for each category, to have better separation.
