@@ -27,16 +27,19 @@
     <Entry Id="tune_sugg_freq">
         <String xml:lang="en-US">Do you want to tune in to the recommended ~b~radio frequency ~s~(~y~{0}~s~)?</String>
         <String xml:lang="it-IT">Vuoi sintonizzarti sulla ~b~frequenza ~s~consigliata (~y~{0}~s~)?</String>
+        <String xml:lang="fr-FR">Est-ce que tu veux te connecter à la ~b~fréquence radio ~s~recommendée (~y~{0}~s~)?</String>
     </Entry>
 
     <Entry Id="btn_tune_in">
         <String xml:lang="en-US">Tune in</String>
         <String xml:lang="it-IT">Sintonizzati</String>
+        <String xml:lang="fr-FR">Transmettre</String>
     </Entry>
 
     <Entry Id="btn_tune_in_hold">
         <String xml:lang="en-US">Tune in (hold)</String>
         <String xml:lang="it-IT">Sintonizzati (tieni premuto)</String>
+        <String xml:lang="fr-FR">Transmettre (rester appuyé)</String>
     </Entry>
 
     <!-- ========================= -->
@@ -53,7 +56,7 @@
     <Entry Id="some_paramedics">
         <String xml:lang="en-US">There are one or more ~p~paramedics ~s~nearby. You can't respawn until the timer runs out, the paramedics leave the area, or they die.</String>
         <String xml:lang="de-DE">Es sind ein oder mehrere ~p~Sanitäter ~s~in der Nähe. Du kannst erst wieder respawnen, wenn der Timer abgelaufen ist, die Sanitäter das Gebiet verlassen oder sie sterben.</String>
-        <String xml:lang="fr-FR">Il y a un ou plusieurs ~p~EMS ~s~à proximité. Tu ne peux pas réapparaître tant que les EMS n'ont pas quittés la zone ou ne soient tués.</String>
+        <String xml:lang="fr-FR">Il y a un ou plusieurs ~p~EMS ~s~à proximité. Tu ne peux pas réapparaître avant la fin du décompte tant que les EMS n'ont pas quittés la zone ou ne soient tués.</String>
         <String xml:lang="nl-NL">Er zijn één of meerdere ~p~ambulanciers ~s~in de buurt. Je kan niet respawnen totdat de timer afloopt, de ambulanciers het gebied verlaten, of ze dood gaan.</String>
         <String xml:lang="it-IT">Ci sono uno o più ~p~paramedici ~s~nelle vicinanze. Non puoi respawnare finché il timer non scade, i paramedici non lasciano l'area, o muoiono.</String>
     </Entry>
@@ -230,7 +233,7 @@
     <Entry Id="with_shotgun">
         <String xml:lang="en-US">with a ~r~shotgun~s~</String>
         <String xml:lang="de-DE">mit einer ~r~Schrotflinte~s~</String>
-        <String xml:lang="fr-FR">avec un ~r~fusil à pompe~s~</String>
+        <String xml:lang="fr-FR">avec un ~r~fusil de calibre 12~s~</String>
         <String xml:lang="nl-NL">met een ~r~shotgun~s~</String>
         <String xml:lang="it-IT">con uno ~r~shotgun~s~</String>
     </Entry>
@@ -435,24 +438,28 @@
         <String xml:lang="en-US">No revenge targets :(</String>
         <String xml:lang="it-IT">Nessun bersaglio di vendetta :(</String>
         <String xml:lang="de-DE">Keine Rache Ziele :(</String>
+        <String xml:lang="fr-FR">Aucune cibles de revanche :(</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_targets_descr">
         <String xml:lang="en-US">Sorry, there's no one you can kill in revenge at this time.</String>
         <String xml:lang="it-IT">Ci dispiace, non c&apos;è nessuno che puoi uccidere per vendetta al momento.</String>
         <String xml:lang="de-DE">Sorry, aktuell gibt es niemanden, den du aus Rache tötten darfst.</String>
+        <String xml:lang="fr-FR">Désolé, il n'y a personne que tu peux tuer par revanche pour le moment.</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_claimants_text">
         <String xml:lang="en-US">No revenge claimants :)</String>
         <String xml:lang="it-IT">Nessun reclamante di vendetta :)</String>
         <String xml:lang="de-DE">Keine Rache Geschädigten</String>
+        <String xml:lang="fr-FR">Aucune menace de revanche :)</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_claimants_descr">
         <String xml:lang="en-US">Yay! Nobody is trying to kill you in revenge!</String>
         <String xml:lang="it-IT">Evvai! Nessuno sta cercando di ucciderti per vendetta!</String>
         <String xml:lang="de-DE">Yay! Niemand versucht dich aus Rache zu töten.</String>
+        <String xml:lang="fr-FR">Youhou! Personne n'essaie de te tuer par revanche!</String>
     </Entry>
 
     <!-- 0 = job name, for example Police Officer -->
@@ -460,6 +467,7 @@
         <String xml:lang="en-US">~r~You can't take revenge on other players as a {0}.</String>
         <String xml:lang="it-IT">~r~Non puoi prenderti vendetta sugli altri giocatori come {0}.</String>
         <String xml:lang="de-DE">~r~Du darfst keine Rache an anderen Spielern als {0} nehmen.</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas prendre ta revanche sur un autre joueur en tant que {0}.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -470,30 +478,35 @@
         <String xml:lang="en-US">~p~Hospital bill</String>
         <String xml:lang="it-IT">~p~Fattura dell&apos;ospedale</String>
         <String xml:lang="de-DE">~p~Krankenhausrechnung</String>
+        <String xml:lang="fr-FR">~p~Facture des soins</String>
     </Entry>
 
     <Entry Id="health_ins_activated">
         <String xml:lang="en-US">~b~Health insurance ~s~activated</String>
         <String xml:lang="it-IT">~b~Assicurazione sanitaria ~s~attivata</String>
         <String xml:lang="de-DE">~b~Krankenversicherung ~s~aktiviert</String>
+        <String xml:lang="fr-FR">~b~Mutuelle santé ~s~activée</String>
     </Entry>
 
     <Entry Id="covered_by_insurance">
         <String xml:lang="en-US">Covered by insurance: ~b~{0}</String>
         <String xml:lang="it-IT">Coperto dall'assicurazione: ~b~{0}</String>
         <String xml:lang="de-DE">Von der Versicherung übernommen: ~b~{0}</String>
+        <String xml:lang="fr-FR">Prise en charge de la mutuelle: ~b~{0}</String>
     </Entry>
 
     <Entry Id="paid_by_check">
         <String xml:lang="en-US">Paid by check: ~g~{0}</String>
         <String xml:lang="it-IT">Pagato con assegno: ~g~{0}</String>
         <String xml:lang="de-DE">Per Scheck bezahlt: ~g~{0}</String>
+        <String xml:lang="fr-FR">Payé par chèque bancaire: ~g~{0}</String>
     </Entry>
 
     <Entry Id="paid_in_cash">
         <String xml:lang="en-US">Paid in cash: ~g~{0}</String>
         <String xml:lang="it-IT">Pagato in contanti: ~g~{0}</String>
         <String xml:lang="de-DE">Bar bezahlt: ~g~{0}</String>
+        <String xml:lang="fr-FR">Payé en espèces: ~g~{0}</String>
     </Entry>
 
     <!-- I just changed this from "unpaid" to "outstanding" in English too, as it gives a better understanding -->
@@ -502,6 +515,7 @@
         <String xml:lang="en-US">Outstanding: ~r~{0}</String>
         <String xml:lang="it-IT">Insoluto: ~r~{0}</String>
         <String xml:lang="de-DE">Ausstehend: ~r~{0}</String>
+        <String xml:lang="fr-FR">Insolvable: ~r~{0}</String>
     </Entry>
 
     <!-- But, if you are a healthcare worker, it's free for you. Make it all caps if it makes sense in your language. -->
@@ -509,5 +523,6 @@
         <String xml:lang="en-US">~g~FREE</String>
         <String xml:lang="it-IT">~g~GRATIS</String>
         <String xml:lang="de-DE">~g~KOSTENLOS</String>
+        <String xml:lang="fr-FR">~g~GRATUIT</String>
     </Entry>
 </Entries>
