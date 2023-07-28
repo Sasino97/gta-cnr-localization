@@ -95,23 +95,33 @@ This is unlikely to actually happen, but if you need to actually show the `{` or
 ## Special XML characters
 If you want to display the following characters literally, they <b>MUST</b> be escaped as follows:
 ```xml
-"    &quot;
-'    &apos;
 <    &lt;
 >    &gt;
 &    &amp;
 ```
 
 For example, you <b>cannot</b> write:
-```
-<String xml:lang="en-US">Your crew name is "SWAT"</String> <!-- BAD EXAMPLE -->
+```xml
+<String xml:lang="en-US">You have > 10 items</String> <!-- BAD EXAMPLE -->
 ```
 You must replace the quotes with their appropriate escape code:
 ```xml
-<String xml:lang="en-US">Your crew name is &quot;SWAT&quot;</String>
+<String xml:lang="en-US">You have &gt; 10 items</String>
 ```
 
 Otherwise you will break the whole XML file and it won't load. The same applies to all those characters shown above.
+
+### Unnecessary escapes
+The following characters should be escaped in a standard XML file, however, the parser we are using doesn't have issues with those, so we'll not escape them and we'll use the literal strings, for simplicity.
+```
+"    &quot;
+'    &apos;
+```
+
+So, it's OK to write
+```xml
+<String xml:lang="en-US">You can't do that</String>
+```
 
 ## Comments
 Have you ever found one of those websites where something is grammatically correct but it makes no sense in that context? Well, whether you have encountered such a website or not, we definitely don't want to commit that mistake, that's why there are comments in the code, and you can add your own if you think they are necessary.
