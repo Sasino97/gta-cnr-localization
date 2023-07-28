@@ -182,7 +182,7 @@
         <String xml:lang="de-DE">mit einem ~r~Revolver~s~</String>
         <String xml:lang="fr-FR">avec un ~r~revolver~s~</String>
         <String xml:lang="nl-NL">met een ~r~revolver~s~</String>
-        <String xml:lang="it-IT">con un ~r~revolver~s~</String>
+        <String xml:lang="it-IT">con una ~r~rivoltella~s~</String>
     </Entry>
 
     <Entry Id="with_pistol">
@@ -214,7 +214,7 @@
         <String xml:lang="de-DE">mit einer ~r~Schrotflinte~s~</String>
         <String xml:lang="fr-FR">avec un ~r~fusil à pompe~s~</String>
         <String xml:lang="nl-NL">met een ~r~shotgun~s~</String>
-        <String xml:lang="it-IT">con un ~r~fucile a canna liscia~s~</String>
+        <String xml:lang="it-IT">con uno ~r~shotgun~s~</String>
     </Entry>
 
     <Entry Id="with_assault_rifle">
@@ -321,15 +321,7 @@
     <!--                      [    {0}    ]        [    {1}   ] [       {2}       ] [  {3} ] [   {4}   ] -->
     <!-- I know that the headshot part is complicated to insert due to grammatical rules, if that's the case then just wrap the translation of the "headshot" -->
     <!-- entry in parenthesis, that way it should not break the grammatical structure. If it still does then please contact Sasino and we can find another way. -->
-    <Entry Id="kill_msg_1">
-        <String xml:lang="en-US">{0} killed {1} {2} {3} {4}</String>
-        <String xml:lang="de-DE">{0} hat {1} {2} getötet {3} {4}</String>
-        <String xml:lang="fr-FR">{0} a tué {1} {2} {3} {4}</String>
-        <String xml:lang="nl-NL">{0} heeft {1} vermoord {2} {3} {4}</String>
-        <String xml:lang="it-IT">{0} ha ucciso {1} {2} {3} {4}</String>
-    </Entry>
-
-    <Entry Id="kill_msg_2">
+    <Entry Id="kill_msg">
         <String xml:lang="en-US">{0} ~s~killed {1} ~s~{2} {3} {4}</String>
         <String xml:lang="de-DE">{0} ~s~hat {1} ~s~{2} getötet {3} {4}</String>
         <String xml:lang="fr-FR">{0} ~s~a tué {1} ~s~{2} {3} {4}</String>
@@ -363,7 +355,7 @@
 
     <!-- This shows up when you are typing the /revenge command -->
     <Entry Id="sugg_revenge">
-        <String xml:lang="en-US">View the list of players that you can take revenge on and that claim revenge on you.</String>
+        <String xml:lang="en-US">View a list of players that you can take revenge on and that can take revenge on you.</String>
         <String xml:lang="de-DE">Zeigt die Liste mit Spielern, an welchen du Rache nehmen kannst und welche Rache an dir nehmen können.</String>
         <String xml:lang="fr-FR">Voir la liste de joueurs sur lesquels tu as une revanche et ceux qui en ont une sur toi.</String>
         <String xml:lang="nl-NL">Bekijk de lijst van spelers waar je revenge op kan nemen en die op jou revenge kunnen claimen.</String>
@@ -421,4 +413,31 @@
         <String xml:lang="nl-NL">Lijst van spelers die op jou ~r~revenge ~s~kunnen nemen</String>
         <String xml:lang="it-IT">Lista di giocatori che possono ucciderti per ~r~vendetta~s~.</String>
     </Entry>
+
+    <Entry Id="menu_revenge_no_targets_text">
+        <String xml:lang="en-US">No revenge targets :(</String>
+        <String xml:lang="it-IT">Nessun bersaglio di vendetta :(</String>
+    </Entry>
+
+    <Entry Id="menu_revenge_no_targets_descr">
+        <String xml:lang="en-US">Sorry, there's no one you can kill in revenge at this time.</String>
+        <String xml:lang="it-IT">Ci dispiace, non c'è nessuno che puoi uccidere per vendetta al momento.</String>
+    </Entry>
+
+    <Entry Id="menu_revenge_no_claimants_text">
+        <String xml:lang="en-US">No revenge claimants :)</String>
+        <String xml:lang="it-IT">Nessun reclamante di vendetta :)</String>
+    </Entry>
+
+    <Entry Id="menu_revenge_no_claimants_descr">
+        <String xml:lang="en-US">Yay! Nobody is trying to kill you in revenge!</String>
+        <String xml:lang="it-IT">Evvai! Nessuno sta cercando di ucciderti per vendetta!</String>
+    </Entry>
+
+    <!-- 0 = job name, for example Police Officer -->
+    <Entry Id="menu_revenge_invalid_job">
+        <String xml:lang="en-US">~r~You can't take revenge on other players as a {0}.</String>
+        <String xml:lang="it-IT">~r~Non puoi prenderti vendetta sugli altri giocatori come {0}.</String>
+    </Entry>
+    
 </Entries>
