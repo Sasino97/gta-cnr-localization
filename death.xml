@@ -241,14 +241,6 @@
         <String xml:lang="it-IT">con un'~r~arma da fuoco~s~</String>
     </Entry>
 
-    <Entry Id="headshot">
-        <String xml:lang="en-US">~r~headshot~s~</String>
-        <String xml:lang="de-DE">~r~Kopfschuss~s~</String>
-        <String xml:lang="fr-FR">~r~tir à la tête~s~~</String>
-        <String xml:lang="nl-NL">~r~headshot~s~</String>
-        <String xml:lang="it-IT">~r~colpo di testa~s~</String>
-    </Entry>
-
     <Entry Id="with_fire">
         <String xml:lang="en-US">with ~r~fire~s~</String>
         <String xml:lang="de-DE">mit ~r~Feuer~s~</String>
@@ -276,6 +268,14 @@
     <!-- ========================= -->
     <!-- Death Special Cases -->
     <!-- ========================= -->
+    <Entry Id="headshot">
+        <String xml:lang="en-US">~r~headshot~s~</String>
+        <String xml:lang="de-DE">~r~Kopfschuss~s~</String>
+        <String xml:lang="fr-FR">~r~tir à la tête~s~~</String>
+        <String xml:lang="nl-NL">~r~headshot~s~</String>
+        <String xml:lang="it-IT">~r~(colpo di testa)~s~</String>
+    </Entry>
+
     <Entry Id="for_bounty">
         <String xml:lang="en-US">for ~g~{0}~s~</String>
         <String xml:lang="de-DE">für ~g~{0}~s~</String>
@@ -311,31 +311,41 @@
     <!-- ========================= -->
     <!-- Kill Messages -->
     <!-- ========================= -->
+    <!-- {0} = killer -->
+    <!-- {1} = victim -->
+    <!-- {2} = cause string -->
+    <!-- {3} = headshot string -->
+    <!-- {4} = special case string (bounty/revenge/redzone) -->
+    <!-- Add spaces as necessary, assuming a full message, don't worry if the string doesn't show up then the script will remove the extra spaces -->
+    <!-- Example kill message: Sasino (152) killed theDoc (249) with a sniper rifle headshot in revenge. -->
+    <!--                      [    {0}    ]        [    {1}   ] [       {2}       ] [  {3} ] [   {4}   ] -->
+    <!-- I know that the headshot part is complicated to insert due to grammatical rules, if that's the case then just wrap the translation of the "headshot" -->
+    <!-- entry in parenthesis, that way it should not break the grammatical structure. If it still does then please contact Sasino and we can find another way. -->
     <Entry Id="kill_msg_1">
-        <String xml:lang="en-US">{0} killed {1} {2}.</String>
-        <String xml:lang="de-DE">{0} hat {1} {2} getötet.</String>
-        <String xml:lang="fr-FR">{0} a tué {1} {2}.</String>
-        <String xml:lang="nl-NL">{0} heeft {1} vermoord {2}.</String>
-        <String xml:lang="it-IT">{0} ha ucciso {1} {2}.</String>
+        <String xml:lang="en-US">{0} killed {1} {2} {3} {4}</String>
+        <String xml:lang="de-DE">{0} hat {1} {2} getötet {3} {4}</String>
+        <String xml:lang="fr-FR">{0} a tué {1} {2} {3} {4}</String>
+        <String xml:lang="nl-NL">{0} heeft {1} vermoord {2} {3} {4}</String>
+        <String xml:lang="it-IT">{0} ha ucciso {1} {2} {3} {4}</String>
     </Entry>
 
     <Entry Id="kill_msg_2">
-        <String xml:lang="en-US">{0} ~s~killed {1} ~s~{2}.</String>
-        <String xml:lang="de-DE">{0} ~s~hat {1} ~s~{2} getötet.</String>
-        <String xml:lang="fr-FR">{0} ~s~a tué {1} ~s~{2}.</String>
-        <String xml:lang="nl-NL">{0} ~s~heeft {1} ~s~vermoord {2}.</String>
-        <String xml:lang="it-IT">{0} ~s~ha ucciso {1} ~s~{2}.</String>
+        <String xml:lang="en-US">{0} ~s~killed {1} ~s~{2} {3} {4}</String>
+        <String xml:lang="de-DE">{0} ~s~hat {1} ~s~{2} getötet {3} {4}</String>
+        <String xml:lang="fr-FR">{0} ~s~a tué {1} ~s~{2} {3} {4}</String>
+        <String xml:lang="nl-NL">{0} ~s~heeft {1} ~s~vermoord {2} {3} {4}</String>
+        <String xml:lang="it-IT">{0} ~s~ha ucciso {1} ~s~{2} {3} {4}</String>
     </Entry>
 
     <!-- ========================= -->
     <!-- Revive Messages -->
     <!-- ========================= -->
     <Entry Id="medic_revived">
-        <String xml:lang="en-US">Paramedic {0} revived you.</String>
-        <String xml:lang="de-DE">Sanitäter {0} hat dich wiederbelebt.</String>
-        <String xml:lang="fr-FR">L'EMS {0} t'as réanimé.</String>
-        <String xml:lang="nl-NL">Ambulancier {0} heeft je gereanimeerd.</String>
-        <String xml:lang="it-IT">Il paramedico {0} ti ha rianimato.</String>
+        <String xml:lang="en-US">Paramedic {0} ~s~revived you.</String>
+        <String xml:lang="de-DE">Sanitäter {0} ~s~hat dich wiederbelebt.</String>
+        <String xml:lang="fr-FR">L'EMS {0} ~s~t'as réanimé.</String>
+        <String xml:lang="nl-NL">Ambulancier {0} ~s~heeft je gereanimeerd.</String>
+        <String xml:lang="it-IT">Il paramedico {0} ~s~ti ha rianimato.</String>
     </Entry>
 
     <Entry Id="medic_failed">
@@ -343,7 +353,7 @@
         <String xml:lang="de-DE">Der ~p~Sanitäter ~s~hat ~r~versagt ~s~dich wiederzubeleben und du wurdest in ein ~r~Krankenhaus~s~ verlegt.</String>
         <String xml:lang="fr-FR">L'~p~EMS ~s~n'a ~r~pas réussi ~s~à te réanimer et tu as été transporté vers un ~r~hôpital~s~.</String>
         <String xml:lang="nl-NL">Het is de ~p~ambulancier ~r~niet gelukt ~s~om jou te reanimeren en je bent gestuurd naar een ~r~ziekenhuis~s~.</String>
-        <String xml:lang="it-IT">Il ~p~paramedico ~s~ha ~r~fallito ~s~la rianimazione e sei stato trasferito a un ~r~ospedale~s~.</String>
+        <String xml:lang="it-IT">Il ~p~paramedico ~s~ha ~r~fallito ~s~la rianimazione quindi sei stato trasferito a un ~r~ospedale~s~.</String>
     </Entry>
 
 
@@ -403,7 +413,7 @@
         <String xml:lang="nl-NL">Revenge eisers</String>
         <String xml:lang="it-IT">Reclamanti vendetta</String>
     </Entry>
-    
+
     <Entry Id="menu_revenge_claimants_descr">
         <String xml:lang="en-US">List of players that can take ~r~revenge ~s~on you.</String>
         <String xml:lang="de-DE">Liste von Spielern, welche sich an dir ~r~rächen ~s~können.</String>
