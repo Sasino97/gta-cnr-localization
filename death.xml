@@ -291,7 +291,7 @@
         <String xml:lang="de-DE">~r~Kopfschuss~s~</String>
         <String xml:lang="fr-FR">~r~tir à la tête~s~~</String>
         <String xml:lang="nl-NL">~r~headshot~s~</String>
-        <String xml:lang="it-IT">~r~(colpo di testa)~s~</String>
+        <String xml:lang="it-IT">~r~(colpo alla testa)~s~</String>
     </Entry>
 
     <Entry Id="for_bounty">
@@ -380,7 +380,6 @@
         <String xml:lang="it-IT">Visualizza la lista di giocatori sui quali ti puoi vendicare e quelli che cercano vendetta su di te.</String>
     </Entry>
 
-
     <!-- ========================= -->
     <!-- Revenge Menu -->
     <!-- ========================= -->
@@ -458,4 +457,45 @@
         <String xml:lang="it-IT">~r~Non puoi prenderti vendetta sugli altri giocatori come {0}.</String>
     </Entry>
     
+    <!-- ========================= -->
+    <!-- Hospital Bill -->
+    <!-- ========================= -->
+    <!-- Healthcare ain't free! -->
+    <Entry Id="hospital_bill">
+        <String xml:lang="en-US">~p~Hospital bill</String>
+        <String xml:lang="it-IT">~p~Fattura dell'ospedale</String>
+    </Entry>
+
+    <Entry Id="health_ins_activated">
+        <String xml:lang="en-US">~b~Health insurance ~s~activated</String>
+        <String xml:lang="it-IT">~b~Assicurazione sanitaria ~s~attivata</String>
+    </Entry>
+
+    <Entry Id="covered_by_insurance">
+        <String xml:lang="en-US">Covered by insurance: ~b~{0}</String>
+        <String xml:lang="it-IT">Coperto dall'assicurazione: ~b~{0}</String>
+    </Entry>
+
+    <Entry Id="paid_by_check">
+        <String xml:lang="en-US">Paid by check: ~g~{0}</String>
+        <String xml:lang="it-IT">Pagato con assegno: ~g~{0}</String>
+    </Entry>
+
+    <Entry Id="paid_in_cash">
+        <String xml:lang="en-US">Paid in cash: ~g~{0}</String>
+        <String xml:lang="it-IT">Pagato in contanti: ~g~{0}</String>
+    </Entry>
+
+    <!-- I just changed this from "unpaid" to "outstanding" in English too, as it gives a better understanding -->
+    <!-- that you are actually gonna have to pay it 😂 it's not free just cause you don't have the money! -->
+    <Entry Id="outstanding">
+        <String xml:lang="en-US">Outstanding: ~r~{0}</String>
+        <String xml:lang="it-IT">Insoluto: ~r~{0}</String>
+    </Entry>
+    
+    <!-- But, if you are a healthcare worker, it's free for you. Make it all caps if it makes sense in your language. -->
+    <Entry Id="free">
+        <String xml:lang="en-US">~g~FREE</String>
+        <String xml:lang="it-IT">~g~GRATIS</String>
+    </Entry>
 </Entries>
