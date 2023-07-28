@@ -47,7 +47,7 @@
         <String xml:lang="de-DE">Es waren keine ~p~Sanitäter ~s~in der Nähe. Du wurdest automatisch in ein ~r~Krankenhaus ~s~verlegt.</String>
         <String xml:lang="fr-FR">Il n'y avait pas d'~p~EMS ~s~à proximité et tu as été automatiquement transferré vers un ~r~hôpital~s~.</String>
         <String xml:lang="nl-NL">Er zijn geen ~p~ambulanciers ~s~in de buurt en je bent automatisch doorgestuurd naar een ~r~ziekenhuis~s~.</String>
-        <String xml:lang="it-IT">Non c'era alcun ~p~paramedico ~s~nelle vicinanze e sei stato trasferito automaticamente a un ~r~ospedale~s~.</String>
+        <String xml:lang="it-IT">Non era presente alcun ~p~paramedico ~s~nelle vicinanze quindi sei stato trasferito automaticamente a un ~r~ospedale~s~.</String>
     </Entry>
 
     <Entry Id="some_paramedics">
@@ -55,7 +55,7 @@
         <String xml:lang="de-DE">Es sind ein oder mehrere ~p~Sanitäter ~s~in der Nähe. Du kannst erst wieder respawnen, wenn der Timer abgelaufen ist, die Sanitäter das Gebiet verlassen oder sie sterben.</String>
         <String xml:lang="fr-FR">Il y a un ou plusieurs ~p~EMS ~s~à proximité. Tu ne peux pas réapparaître tant que les EMS n'ont pas quittés la zone ou ne soient tués.</String>
         <String xml:lang="nl-NL">Er zijn één of meerdere ~p~ambulanciers ~s~in de buurt. Je kan niet respawnen totdat de timer afloopt, de ambulanciers het gebied verlaten, of ze dood gaan.</String>
-        <String xml:lang="it-IT">Ci sono uno o più ~p~paramedici ~s~nelle vicinanze. Non puoi respawnare finché il timer non scade, i paramedici lasciano l'area, o muoiono.</String>
+        <String xml:lang="it-IT">Ci sono uno o più ~p~paramedici ~s~nelle vicinanze. Non puoi respawnare finché il timer non scade, i paramedici non lasciano l'area, o muoiono.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -66,7 +66,7 @@
         <String xml:lang="de-DE">Spawn-Schutz ~g~aktiviert~s~.</String>
         <String xml:lang="fr-FR">Spawn protection ~g~activée~s~.</String>
         <String xml:lang="nl-NL">Spawn protectie ~g~ingeschakeld~s~.</String>
-        <String xml:lang="it-IT">Protezione di spawn ~g~attivata~s~.</String>
+        <String xml:lang="it-IT">Protezione per lo spawn ~g~attivata~s~.</String>
     </Entry>
 
     <Entry Id="spawn_protection_off">
@@ -74,7 +74,7 @@
         <String xml:lang="de-DE">Spawn-Schutz ~r~deaktiviert~s~.</String>
         <String xml:lang="fr-FR">Spawn protection ~r~désactivée~s~.</String>
         <String xml:lang="nl-NL">Spawn protectie ~r~uitgeschakeld~s~.</String>
-        <String xml:lang="it-IT">Protezione di spawn ~r~disattivata~s~.</String>
+        <String xml:lang="it-IT">Protezione per lo spawn ~r~disattivata~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -133,7 +133,7 @@
         <String xml:lang="de-DE">{0} ~s~ist durch eine ~r~Explosion~s~ gestorben.</String>
         <String xml:lang="fr-FR">{0} ~s~est mort d'une ~r~explosion~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~is doodgegaan door een ~r~explosie~s~.</String>
-        <String xml:lang="it-IT">{0} ~s~è morto per un'~r~esplosione~s~.</String>
+        <String xml:lang="it-IT">{0} ~s~è morto da un&apos;~r~esplosione~s~.</String>
     </Entry>
 
     <Entry Id="died_in_fire">
@@ -184,7 +184,7 @@
         <String xml:lang="de-DE">mit einem ~r~Messer~s~</String>
         <String xml:lang="fr-FR">avec un ~r~couteau~s~</String>
         <String xml:lang="nl-NL">met een ~r~mes~s~</String>
-        <String xml:lang="it-IT">con un'~r~arma da taglio~s~</String>
+        <String xml:lang="it-IT">con un&apos;~r~arma da taglio~s~</String>
     </Entry>
 
     <Entry Id="with_melee_weapon">
@@ -192,7 +192,7 @@
         <String xml:lang="de-DE">mit einer ~r~Nahkampfwaffe~s~</String>
         <String xml:lang="fr-FR">avec une ~r~arme blanche~s~</String>
         <String xml:lang="nl-NL">met een ~r~steekwapen~s~</String>
-        <String xml:lang="it-IT">con un'~r~arma da mischia~s~</String>
+        <String xml:lang="it-IT">con un&apos;~r~arma da mischia~s~</String>
     </Entry>
 
     <Entry Id="with_revolver">
@@ -200,7 +200,7 @@
         <String xml:lang="de-DE">mit einem ~r~Revolver~s~</String>
         <String xml:lang="fr-FR">avec un ~r~revolver~s~</String>
         <String xml:lang="nl-NL">met een ~r~revolver~s~</String>
-        <String xml:lang="it-IT">con una ~r~rivoltella~s~</String>
+        <String xml:lang="it-IT">con una ~r~revolver~s~</String>
     </Entry>
 
     <Entry Id="with_pistol">
@@ -238,9 +238,9 @@
     <Entry Id="with_assault_rifle">
         <String xml:lang="en-US">with an ~r~assault rifle~s~</String>
         <String xml:lang="de-DE">mit einem ~r~Sturmgewehr~s~</String>
-        <String xml:lang="fr-FR">avec un ~r~fusil d'assaut~s~</String>
+        <String xml:lang="fr-FR">avec un ~r~fusil d&apos;assaut~s~</String>
         <String xml:lang="nl-NL">met een ~r~assault rifle~s~</String>
-        <String xml:lang="it-IT">con un ~r~fucile d'assalto~s~</String>
+        <String xml:lang="it-IT">con un ~r~fucile d&apos;assalto~s~</String>
     </Entry>
 
     <Entry Id="with_precision_rifle">
@@ -256,7 +256,7 @@
         <String xml:lang="de-DE">mit einer ~r~Schusswaffe~s~</String>
         <String xml:lang="fr-FR">avec une ~r~arme à feu~s~</String>
         <String xml:lang="nl-NL">met een ~r~vuurwapen~s~</String>
-        <String xml:lang="it-IT">con un'~r~arma da fuoco~s~</String>
+        <String xml:lang="it-IT">con un&apos;~r~arma da fuoco~s~</String>
     </Entry>
 
     <Entry Id="with_fire">
@@ -280,7 +280,7 @@
         <String xml:lang="de-DE">mit einer ~r~Waffe~s~</String>
         <String xml:lang="fr-FR">avec une ~r~arme~s~</String>
         <String xml:lang="nl-NL">met een ~r~wapen~s~</String>
-        <String xml:lang="it-IT">con un'~r~arma~s~</String>
+        <String xml:lang="it-IT">con un&apos;~r~arma~s~</String>
     </Entry>
 
     <!-- ========================= -->
@@ -363,7 +363,7 @@
         <String xml:lang="de-DE">Der ~p~Sanitäter ~s~hat ~r~versagt ~s~dich wiederzubeleben und du wurdest in ein ~r~Krankenhaus~s~ verlegt.</String>
         <String xml:lang="fr-FR">L'~p~EMS ~s~n'a ~r~pas réussi ~s~à te réanimer et tu as été transporté vers un ~r~hôpital~s~.</String>
         <String xml:lang="nl-NL">Het is de ~p~ambulancier ~r~niet gelukt ~s~om jou te reanimeren en je bent gestuurd naar een ~r~ziekenhuis~s~.</String>
-        <String xml:lang="it-IT">Il ~p~paramedico ~s~ha ~r~fallito ~s~la rianimazione quindi sei stato trasferito a un ~r~ospedale~s~.</String>
+        <String xml:lang="it-IT">Il ~p~paramedico ~s~ha ~r~fallito ~s~la rianimazione quindi sei stato trasferito in un ~r~ospedale~s~.</String>
     </Entry>
 
 
@@ -439,7 +439,7 @@
 
     <Entry Id="menu_revenge_no_targets_descr">
         <String xml:lang="en-US">Sorry, there's no one you can kill in revenge at this time.</String>
-        <String xml:lang="it-IT">Ci dispiace, non c'è nessuno che puoi uccidere per vendetta al momento.</String>
+        <String xml:lang="it-IT">Ci dispiace, non c&apos;è nessuno che puoi uccidere per vendetta al momento.</String>
         <String xml:lang="de-DE">Sorry, aktuell gibt es niemanden, den du aus Rache tötten darfst.</String>
     </Entry>
 
@@ -468,7 +468,7 @@
     <!-- Healthcare ain't free! -->
     <Entry Id="hospital_bill">
         <String xml:lang="en-US">~p~Hospital bill</String>
-        <String xml:lang="it-IT">~p~Fattura dell'ospedale</String>
+        <String xml:lang="it-IT">~p~Fattura dell&apos;ospedale</String>
         <String xml:lang="de-DE">~p~Krankenhausrechnung</String>
     </Entry>
 
