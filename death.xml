@@ -5,7 +5,7 @@
     <!-- Death Options -->
     <!-- ========================= -->
     <!-- Please, keep 911, don't change it to your country's emergency number, thanks -->
-    <Entry Id="call_911">
+    <Entry Id="btn_call_911">
         <String xml:lang="en-US">Call 911</String>
         <String xml:lang="de-DE">Informiere 911</String>
         <String xml:lang="fr-FR">Appeler le 911</String>
@@ -13,12 +13,30 @@
         <String xml:lang="it-IT">Chiama il 911</String>
     </Entry>
 
-    <Entry Id="respawn">
+    <Entry Id="btn_respawn">
         <String xml:lang="en-US">Respawn</String>
         <String xml:lang="de-DE">Respawnen</String>
         <String xml:lang="fr-FR">Réapparaître</String>
         <String xml:lang="nl-NL">Respawnen</String>
         <String xml:lang="it-IT">Respawna</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Recommended Frequency on Respawn -->
+    <!-- ========================= -->
+    <Entry Id="tune_sugg_freq">
+        <String xml:lang="en-US">Do you want to tune in to the recommended ~b~radio frequency ~s~(~y~{0}~s~)?</String>
+        <String xml:lang="it-IT">Vuoi sintonizzarti sulla ~b~frequenza ~s~consigliata (~y~{0}~s~)?</String>
+    </Entry>
+
+    <Entry Id="btn_tune_in">
+        <String xml:lang="en-US">Tune in</String>
+        <String xml:lang="it-IT">Sintonizzati</String>
+    </Entry>
+
+    <Entry Id="btn_tune_in_hold">
+        <String xml:lang="en-US">Tune in (hold)</String>
+        <String xml:lang="it-IT">Sintonizzati (tieni premuto)</String>
     </Entry>
 
     <!-- ========================= -->
