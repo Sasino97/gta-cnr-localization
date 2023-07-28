@@ -393,7 +393,7 @@
 
     <Entry Id="menu_revenge_subtitle">
         <String xml:lang="en-US">Revenge information</String>
-        <String xml:lang="de-DE">Rache Informationen</String>
+        <String xml:lang="de-DE">Revanche Informationen</String>
         <String xml:lang="fr-FR">Information Revanche</String>
         <String xml:lang="nl-NL">Revenge informatie</String>
         <String xml:lang="it-IT">Informazioni di vendetta</String>
@@ -417,7 +417,7 @@
 
     <Entry Id="menu_revenge_claimants_text">
         <String xml:lang="en-US">Revenge Claimants</String>
-        <String xml:lang="de-DE">Revenge Geschädigte</String>
+        <String xml:lang="de-DE">Rache Geschädigte</String>
         <String xml:lang="fr-FR">Revanches dont tu es la Cible</String>
         <String xml:lang="nl-NL">Revenge eisers</String>
         <String xml:lang="it-IT">Reclamanti vendetta</String>
@@ -434,29 +434,34 @@
     <Entry Id="menu_revenge_no_targets_text">
         <String xml:lang="en-US">No revenge targets :(</String>
         <String xml:lang="it-IT">Nessun bersaglio di vendetta :(</String>
+        <String xml:lang="de-DE">Keine Rache Ziele :(</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_targets_descr">
         <String xml:lang="en-US">Sorry, there's no one you can kill in revenge at this time.</String>
         <String xml:lang="it-IT">Ci dispiace, non c'è nessuno che puoi uccidere per vendetta al momento.</String>
+        <String xml:lang="de-DE">Sorry, aktuell gibt es niemanden, den du aus Rache tötten darfst.</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_claimants_text">
         <String xml:lang="en-US">No revenge claimants :)</String>
         <String xml:lang="it-IT">Nessun reclamante di vendetta :)</String>
+        <String xml:lang="de-DE">Keine Rache Geschädigten</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_claimants_descr">
         <String xml:lang="en-US">Yay! Nobody is trying to kill you in revenge!</String>
         <String xml:lang="it-IT">Evvai! Nessuno sta cercando di ucciderti per vendetta!</String>
+        <String xml:lang="de-DE">Yay! Niemand versucht dich aus Rache zu töten.</String>
     </Entry>
 
     <!-- 0 = job name, for example Police Officer -->
     <Entry Id="menu_revenge_invalid_job">
         <String xml:lang="en-US">~r~You can't take revenge on other players as a {0}.</String>
         <String xml:lang="it-IT">~r~Non puoi prenderti vendetta sugli altri giocatori come {0}.</String>
+        <String xml:lang="de-DE">~r~Du darfst keine Rache an anderen Spielern als {0} nehmen.</String>
     </Entry>
-    
+
     <!-- ========================= -->
     <!-- Hospital Bill -->
     <!-- ========================= -->
@@ -464,26 +469,31 @@
     <Entry Id="hospital_bill">
         <String xml:lang="en-US">~p~Hospital bill</String>
         <String xml:lang="it-IT">~p~Fattura dell'ospedale</String>
+        <String xml:lang="de-DE">~p~Krankenhausrechnung</String>
     </Entry>
 
     <Entry Id="health_ins_activated">
         <String xml:lang="en-US">~b~Health insurance ~s~activated</String>
         <String xml:lang="it-IT">~b~Assicurazione sanitaria ~s~attivata</String>
+        <String xml:lang="de-DE">~b~Krankenversicherung ~s~aktiviert</String>
     </Entry>
 
     <Entry Id="covered_by_insurance">
         <String xml:lang="en-US">Covered by insurance: ~b~{0}</String>
         <String xml:lang="it-IT">Coperto dall'assicurazione: ~b~{0}</String>
+        <String xml:lang="de-DE">Von der Versicherung übernommen: ~b~{0}</String>
     </Entry>
 
     <Entry Id="paid_by_check">
         <String xml:lang="en-US">Paid by check: ~g~{0}</String>
         <String xml:lang="it-IT">Pagato con assegno: ~g~{0}</String>
+        <String xml:lang="de-DE">Per Scheck bezahlt: ~g~{0}</String>
     </Entry>
 
     <Entry Id="paid_in_cash">
         <String xml:lang="en-US">Paid in cash: ~g~{0}</String>
         <String xml:lang="it-IT">Pagato in contanti: ~g~{0}</String>
+        <String xml:lang="de-DE">Bar bezahlt: ~g~{0}</String>
     </Entry>
 
     <!-- I just changed this from "unpaid" to "outstanding" in English too, as it gives a better understanding -->
@@ -491,11 +501,13 @@
     <Entry Id="outstanding">
         <String xml:lang="en-US">Outstanding: ~r~{0}</String>
         <String xml:lang="it-IT">Insoluto: ~r~{0}</String>
+        <String xml:lang="de-DE">Ausstehend: ~r~{0}</String>
     </Entry>
-    
+
     <!-- But, if you are a healthcare worker, it's free for you. Make it all caps if it makes sense in your language. -->
     <Entry Id="free">
         <String xml:lang="en-US">~g~FREE</String>
         <String xml:lang="it-IT">~g~GRATIS</String>
+        <String xml:lang="de-DE">~g~KOSTENLOS</String>
     </Entry>
 </Entries>
