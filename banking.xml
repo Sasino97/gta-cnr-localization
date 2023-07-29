@@ -7,155 +7,186 @@
     <Entry Id="menu_atm_title">
         <String xml:lang="en-US">ATM</String>
         <String xml:lang="it-IT">Bancomat</String>
+        <String xml:lang="de-DE">Geldautomat</String>
     </Entry>
-    
+
     <Entry Id="menu_atm_subtitle">
         <String xml:lang="en-US">Fleeca Bank</String>
         <String xml:lang="it-IT">Banca Fleeca</String>
+        <String xml:lang="de-DE">Fleeca Bank</String>
     </Entry>
-    
+
     <Entry Id="menu_atm_custom_amount">
         <String xml:lang="en-US">~b~Custom amount</String>
         <String xml:lang="it-IT">~b~Importo personalizzato</String>
+        <String xml:lang="de-DE">~b~eigener Betrag</String>
     </Entry>
-    
+
     <Entry Id="menu_atm_no_funds">
         <String xml:lang="en-US">~r~No funds</String>
         <String xml:lang="it-IT">~r~Nessun fondo</String>
+        <String xml:lang="de-DE">~r~kein Guthaben</String>
     </Entry>
-    
+
     <Entry Id="menu_atm_withdraw_text">
         <String xml:lang="en-US">Withdraw</String>
         <String xml:lang="it-IT">Preleva</String>
+        <String xml:lang="de-DE">Abheben</String>
     </Entry>
-    
+
     <Entry Id="menu_atm_withdraw_descr">
         <String xml:lang="en-US">Withdraw your cash.~n~Fee: ~r~{0}</String>
         <String xml:lang="it-IT">Preleva il contante.~n~Tassa: ~r~{0}</String>
+        <String xml:lang="de-DE">Hebe dein Bargeld ab.~n~Tassa: ~r~{0}</String>
     </Entry>
-    
+
     <Entry Id="menu_atm_deposit_text">
         <String xml:lang="en-US">Deposit</String>
         <String xml:lang="it-IT">Deposita</String>
+        <String xml:lang="de-DE">Einzahlen</String>
     </Entry>
-    
+
     <Entry Id="menu_atm_deposit_descr">
         <String xml:lang="en-US">Deposit to your account.~n~Fee: ~r~{0}</String>
         <String xml:lang="it-IT">Deposita sul tuo conto.~n~Tassa: ~r~{0}</String>
+        <String xml:lang="de-DE">Auf dein Konto einzahlen.~n~Tassa: ~r~{0}</String>
     </Entry>
-    
+
     <Entry Id="menu_atm_transfer_text">
         <String xml:lang="en-US">Transfer</String>
         <String xml:lang="it-IT">Trasferisci</String>
+        <String xml:lang="de-DE">Überweisen</String>
     </Entry>
-    
+
     <Entry Id="menu_atm_transfer_descr">
         <String xml:lang="en-US">Transfer money to another account.~n~~r~This feature is not available yet.</String>
         <String xml:lang="it-IT">Trasferisci soldi a un altro conto.~n~~r~Questa funzione non è ancora disponibile.</String>
+        <String xml:lang="de-DE">Überweise Geld auf ein anderes Konto~n~~r~Diese Funktion ist noch nicht verfügbar.</String>
     </Entry>
-    
+
     <Entry Id="menu_atm_history_text">
         <String xml:lang="en-US">History</String>
         <String xml:lang="it-IT">Cronologia</String>
+        <String xml:lang="de-DE">Verlauf</String>
     </Entry>
-    
+
     <Entry Id="menu_atm_history_descr">
         <String xml:lang="en-US">Obtain a list of your recent transactions.~n~~r~This feature is not available yet.</String>
         <String xml:lang="it-IT">Ottieni una lista delle tue transazioni recenti.~n~~r~Questa funzione non è ancora disponibile.</String>
+        <String xml:lang="de-DE">Erhalte eine Liste deiner letzten Transaktionen~n~~r~Diese Funktion ist noch nicht verfügbar.</String>
     </Entry>
 
     <Entry Id="atm_cuffed">
         <String xml:lang="en-US">You can't use an ~y~ATM ~s~when you are ~r~cuffed~s~!</String>
         <String xml:lang="it-IT">Non puoi utilizzare un ~y~bancomat ~s~mentre sei ~r~ammanettato~s~!</String>
+        <String xml:lang="de-DE">Du kannst keinen ~y~Geldautomaten ~s~verwenden, wenn du ~r~gefesselt~s~ bist!</String>
     </Entry>
-    
+
     <Entry Id="atm_out_of_service">
         <String xml:lang="en-US">This ~y~ATM ~s~is ~r~out of service~s~!</String>
         <String xml:lang="it-IT">Questo ~y~bancomat ~s~è ~r~fuori servizio~s~!</String>
+        <String xml:lang="de-DE">Dieser ~y~Geldautomat ~s~ist ~r~außer Betrieb~s~!</String>
     </Entry>
-    
+
     <Entry Id="input_atm_withdraw_title">
         <String xml:lang="en-US">Withdraw</String>
         <String xml:lang="it-IT">Preleva</String>
+        <String xml:lang="de-DE">Abheben</String>
     </Entry>
-    
+
     <Entry Id="input_atm_withdraw_content">
         <String xml:lang="en-US">Enter an amount to withdraw.</String>
         <String xml:lang="it-IT">Inserire l'importo da prelevare.</String>
+        <String xml:lang="de-DE">Gib einen eigenen Betrag zum Geld abheben ein.</String>
     </Entry>
-    
+
     <Entry Id="withdraw_too_little">
         <String xml:lang="en-US">~r~You can't withdraw less than ~s~{0} ~r~at a time.</String>
         <String xml:lang="it-IT">~r~Non puoi prelevare meno di ~s~{0} ~r~alla volta.</String>
+        <String xml:lang="de-DE">~r~Du kannst nicht weniger als ~s~{0} ~r~auf einmal abheben.</String>
     </Entry>
-    
+
     <Entry Id="withdraw_too_much">
         <String xml:lang="en-US">~r~You can only withdraw ~s~{0} ~r~at a time.</String>
         <String xml:lang="it-IT">~r~Puoi solo prelevare ~s~{0} ~r~alla volta.</String>
+        <String xml:lang="de-DE">~r~Du kannst nur ~s~{0} ~r~auf einmal abheben.</String>
     </Entry>
-    
+
     <Entry Id="atm_insufficient_funds">
         <String xml:lang="en-US">You have ~r~insufficient ~s~funds!</String>
         <String xml:lang="it-IT">I tuoi fondi sono ~r~insufficienti~s~!</String>
+        <String xml:lang="de-DE">Du hast ~r~nicht genug ~s~Guthaben!</String>
     </Entry>
-    
+
     <Entry Id="atm_invalid_amount">
         <String xml:lang="en-US">You entered an ~r~invalid ~s~amount!</String>
         <String xml:lang="it-IT">L'importo inserito ~r~non è valido~s~!</String>
+        <String xml:lang="de-DE">Du hast einen ~r~ungültigen ~s~Betrag eingegeben!</String>
     </Entry>
-    
+
     <Entry Id="atm_cant_pay_fee">
         <String xml:lang="en-US">Your balance doesn't cover ~r~ATM fees~s~!</String>
         <String xml:lang="it-IT">Il tuo credito non copre le ~r~tasse del bancomat~s~!</String>
+        <String xml:lang="de-DE">Dein Guthaben deckt die ~r~Gebühren des Geldautomates ~s~nicht!</String>
     </Entry>
-    
+
     <Entry Id="input_atm_deposit_title">
         <String xml:lang="en-US">Deposit</String>
         <String xml:lang="it-IT">Deposita</String>
+        <String xml:lang="de-DE">Einzahlen</String>
     </Entry>
-    
+
     <Entry Id="input_atm_deposit_content">
         <String xml:lang="en-US">Enter an amount to deposit.</String>
         <String xml:lang="it-IT">Inserire l'importo da depositare.</String>
+        <String xml:lang="de-DE">Gib einen Betrag zum Einzahlen ein.</String>
     </Entry>
-    
+
     <Entry Id="deposit_too_little">
         <String xml:lang="en-US">~r~You can't deposit less than ~s~{0} ~r~at a time.</String>
         <String xml:lang="it-IT">~r~Non puoi depositare meno di ~s~{0} ~r~alla volta.</String>
+        <String xml:lang="de-DE">~r~Du kannst nicht weniger als~s~{0} ~r~auf einmal einzahlen.</String>
     </Entry>
-    
+
     <Entry Id="deposit_too_much">
         <String xml:lang="en-US">~r~You can only deposit ~s~{0} ~r~at a time.</String>
         <String xml:lang="it-IT">~r~Puoi solo depositare ~s~{0} ~r~alla volta.</String>
+        <String xml:lang="de-DE">~r~Du kannst nur ~s~{0} ~r~auf einmal einzahlen.</String>
     </Entry>
-    
+
     <Entry Id="atm_no_hacking_device">
         <String xml:lang="en-US">You need an ~y~{0}~s~.</String>
         <String xml:lang="it-IT">Ti serve un ~y~{0}~s~.</String>
+        <String xml:lang="de-DE">Du benötigst ein~y~{0}~s~.</String>
     </Entry>
-    
+
     <Entry Id="btn_atm_use">
         <String xml:lang="en-US">Use ATM</String>
         <String xml:lang="it-IT">Utilizza il bancomat</String>
+        <String xml:lang="de-DE">Benutze Geldautomat</String>
     </Entry>
-    
+
     <Entry Id="btn_atm_hack">
         <String xml:lang="en-US">Hack</String>
         <String xml:lang="it-IT">Hackera</String>
+        <String xml:lang="de-DE">Hacken</String>
     </Entry>
-    
+
     <Entry Id="atm_hacking_cooldown">
         <String xml:lang="en-US">You need to wait ~r~{0} seconds ~s~before hacking another ~y~ATM~s~.</String>
         <String xml:lang="it-IT">Devi aspettare ~r~{0} secondi ~s~prima di hackerare un altro ~y~bancomat~s~.</String>
+        <String xml:lang="de-DE">Du musst ~r~{0} Sekunden ~s~warten, bevor du einen weiteren ~y~Geldautomat~s~ hacken kannst.</String>
     </Entry>
-    
+
     <Entry Id="atm_hacking_success">
         <String xml:lang="en-US">You hacked the ~r~ATM~s~ and you stole ~g~{0}~s~!</String>
         <String xml:lang="it-IT">Hai hackerato il ~r~bancomat~s~ e hai rubato ~g~{0}~s~!</String>
+        <String xml:lang="de-DE">Du hast den ~r~Geldautomat~s~ gehackt und ~g~{0}~s~ gestohlen!</String>
     </Entry>
-    
+
     <Entry Id="atm_hacking_success_announcement">
         <String xml:lang="en-US">{0} hacked an ATM and stole {1}.</String>
         <String xml:lang="it-IT">{0} ha hackerato un bancomat e ha rubato {1}.</String>
+        <String xml:lang="de-DE">{0} hat einen Geldautomaten gehackt und {1} gestohlen.</String>
     </Entry>
 </Entries>
