@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Entries>
+    <!-- ========================= -->
+    <!-- ATMs -->
+    <!-- ========================= -->
+    <Entry Id="menu_atm_title">
+        <String xml:lang="en-US">ATM</String>
+    </Entry>
+    
+    <Entry Id="menu_atm_subtitle">
+        <String xml:lang="en-US">Fleeca Bank</String>
+    </Entry>
+    
+    <Entry Id="menu_atm_custom_amount">
+        <String xml:lang="en-US">~b~Custom amount</String>
+    </Entry>
+    
+    <Entry Id="menu_atm_no_funds">
+        <String xml:lang="en-US">~r~No funds</String>
+    </Entry>
+    
+    <Entry Id="menu_atm_withdraw_text">
+        <String xml:lang="en-US">Withdraw</String>
+    </Entry>
+    
+    <Entry Id="menu_atm_withdraw_descr">
+        <String xml:lang="en-US">Withdraw your cash.~n~Fee: ~r~{0}</String>
+    </Entry>
+    
+    <Entry Id="menu_atm_deposit_text">
+        <String xml:lang="en-US">Deposit</String>
+    </Entry>
+    
+    <Entry Id="menu_atm_deposit_descr">
+        <String xml:lang="en-US">Deposit to your account.~n~Fee: ~r~{0}</String>
+    </Entry>
+    
+    <Entry Id="menu_atm_transfer_text">
+        <String xml:lang="en-US">Transfer</String>
+    </Entry>
+    
+    <Entry Id="menu_atm_transfer_descr">
+        <String xml:lang="en-US">Transfer money to another account.~n~~r~This feature is not available yet.</String>
+    </Entry>
+    
+    <Entry Id="menu_atm_history_text">
+        <String xml:lang="en-US">History</String>
+    </Entry>
+    
+    <Entry Id="menu_atm_history_descr">
+        <String xml:lang="en-US">Obtain a list of your recent transactions.~n~~r~This feature is not available yet.</String>
+    </Entry>
+
+    <Entry Id="atm_cuffed">
+        <String xml:lang="en-US">You can't use an ~y~ATM ~s~when you are ~r~cuffed~s~!</String>
+    </Entry>
+    
+    <Entry Id="atm_out_of_service">
+        <String xml:lang="en-US">This ~y~ATM ~s~is ~r~out of service~s~!</String>
+    </Entry>
+    
+    <Entry Id="input_atm_withdraw_title">
+        <String xml:lang="en-US">Withdraw</String>
+    </Entry>
+    
+    <Entry Id="input_atm_withdraw_content">
+        <String xml:lang="en-US">Enter an amount to withdraw.</String>
+    </Entry>
+    
+    <Entry Id="withdraw_too_little">
+        <String xml:lang="en-US">~r~You can't withdraw less than ~s~{0} ~r~at a time.</String>
+    </Entry>
+    
+    <Entry Id="withdraw_too_much">
+        <String xml:lang="en-US">~r~You can only withdraw ~s~{0} ~r~at a time.</String>
+    </Entry>
+    
+    <Entry Id="atm_insufficient_funds">
+        <String xml:lang="en-US">You have ~r~insufficient ~s~funds!</String>
+    </Entry>
+    
+    <Entry Id="atm_invalid_amount">
+        <String xml:lang="en-US">You entered an ~r~invalid ~s~amount!</String>
+    </Entry>
+    
+    <Entry Id="atm_cant_pay_fee">
+        <String xml:lang="en-US">Your balance doesn't cover ~r~ATM fees~s~!</String>
+    </Entry>
+    
+    <Entry Id="input_atm_deposit_title">
+        <String xml:lang="en-US">Deposit</String>
+    </Entry>
+    
+    <Entry Id="input_atm_deposit_content">
+        <String xml:lang="en-US">Enter an amount to deposit.</String>
+    </Entry>
+    
+    <Entry Id="deposit_too_little">
+        <String xml:lang="en-US">~r~You can't deposit less than ~s~{0} ~r~at a time.</String>
+    </Entry>
+    
+    <Entry Id="deposit_too_much">
+        <String xml:lang="en-US">~r~You can only deposit ~s~{0} ~r~at a time.</String>
+    </Entry>
+    
+    <Entry Id="atm_no_hacking_device">
+        <String xml:lang="en-US">You need an ~y~{0}~s~.</String>
+    </Entry>
+    
+    <Entry Id="btn_atm_use">
+        <String xml:lang="en-US">Use ATM</String>
+    </Entry>
+    
+    <Entry Id="btn_atm_hack">
+        <String xml:lang="en-US">Hack</String>
+    </Entry>
+    
+    <Entry Id="atm_hacking_cooldown">
+        <String xml:lang="en-US">You need to wait ~r~{0} seconds ~s~before hacking another ~y~ATM~s~.</String>
+    </Entry>
+    
+    <Entry Id="atm_hacking_success">
+        <String xml:lang="en-US">You hacked the ~r~ATM~s~ and you stole ~g~{0}~s~!</String>
+    </Entry>
+    
+    <Entry Id="atm_hacking_success_announcement">
+        <String xml:lang="en-US">{0} hacked an ATM and stole {1}.</String>
+    </Entry>
+</Entries>
