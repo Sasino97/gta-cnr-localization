@@ -11,6 +11,7 @@
         <String xml:lang="fr-FR">Appeler le 911</String>
         <String xml:lang="nl-NL">Bel 911</String>
         <String xml:lang="it-IT">Chiama il 911</String>
+        <String xml:lang="pl-PL">Zadzwoń na 911</String>
     </Entry>
 
     <Entry Id="btn_respawn">
@@ -19,6 +20,7 @@
         <String xml:lang="fr-FR">Réapparaître</String>
         <String xml:lang="nl-NL">Respawnen</String>
         <String xml:lang="it-IT">Respawna</String>
+        <String xml:lang="pl-PL">Odródź się</String>
     </Entry>
 
     <!-- ========================= -->
@@ -28,18 +30,21 @@
         <String xml:lang="en-US">Do you want to tune in to the recommended ~b~radio frequency ~s~(~y~{0}~s~)?</String>
         <String xml:lang="fr-FR">Est-ce que tu veux te connecter à la ~b~fréquence radio ~s~recommendée (~y~{0}~s~)?</String>
         <String xml:lang="it-IT">Vuoi sintonizzarti sulla ~b~frequenza ~s~consigliata (~y~{0}~s~)?</String>
+        <String xml:lang="pl-PL">Czy chcesz połączyć się z rekomendowaną ~b~częstotliwością radiową ~s~(~y~{0}~s~)?</String>
     </Entry>
 
     <Entry Id="btn_tune_in">
         <String xml:lang="en-US">Tune in</String>
         <String xml:lang="fr-FR">Transmettre</String>
         <String xml:lang="it-IT">Sintonizzati</String>
+        <String xml:lang="pl-PL">Połącz się</String>
     </Entry>
 
     <Entry Id="btn_tune_in_hold">
         <String xml:lang="en-US">Tune in (hold)</String>
         <String xml:lang="fr-FR">Transmettre (rester appuyé)</String>
         <String xml:lang="it-IT">Sintonizzati (tieni premuto)</String>
+        <String xml:lang="pl-PL">Połącz się (przytrzymaj)</String>
     </Entry>
 
     <!-- ========================= -->
@@ -51,6 +56,7 @@
         <String xml:lang="fr-FR">Il n'y avait pas d'~p~EMS ~s~à proximité et tu as été automatiquement transferré vers un ~r~hôpital~s~.</String>
         <String xml:lang="nl-NL">Er zijn geen ~p~ambulanciers ~s~in de buurt en je bent automatisch doorgestuurd naar een ~r~ziekenhuis~s~.</String>
         <String xml:lang="it-IT">Non era presente alcun ~p~paramedico ~s~nelle vicinanze quindi sei stato trasferito automaticamente a un ~r~ospedale~s~.</String>
+        <String xml:lang="pl-PL">W pobliżu nie było ~p~medyków ~s~, a ty zostałeś przetransportowany do ~r~szpitala~s~.</String>
     </Entry>
 
     <Entry Id="some_paramedics">
@@ -59,6 +65,7 @@
         <String xml:lang="fr-FR">Il y a un ou plusieurs ~p~EMS ~s~à proximité. Tu ne peux pas réapparaître avant la fin du décompte tant que les EMS n'ont pas quittés la zone ou ne soient tués.</String>
         <String xml:lang="nl-NL">Er zijn één of meerdere ~p~ambulanciers ~s~in de buurt. Je kan niet respawnen totdat de timer afloopt, de ambulanciers het gebied verlaten, of ze dood gaan.</String>
         <String xml:lang="it-IT">Ci sono uno o più ~p~paramedici ~s~nelle vicinanze. Non puoi respawnare finché il timer non scade, i paramedici non lasciano l'area, o muoiono.</String>
+        <String xml:lang="pl-PL">W pobliżu jest co najmniej jeden ~p~medyk ~s~ Nie możesz się odrodzić do póki nie minie czas, medycy oddalą się z okolicy lub zginą.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -70,6 +77,7 @@
         <String xml:lang="fr-FR">Spawn protection ~g~activée~s~.</String>
         <String xml:lang="nl-NL">Spawn protectie ~g~ingeschakeld~s~.</String>
         <String xml:lang="it-IT">Protezione per lo spawn ~g~attivata~s~.</String>
+        <String xml:lang="pl-PL">Ochrona po odrodzeniu ~g~aktywna~s~.</String>
     </Entry>
 
     <Entry Id="spawn_protection_off">
@@ -78,6 +86,7 @@
         <String xml:lang="fr-FR">Spawn protection ~r~désactivée~s~.</String>
         <String xml:lang="nl-NL">Spawn protectie ~r~uitgeschakeld~s~.</String>
         <String xml:lang="it-IT">Protezione per lo spawn ~r~disattivata~s~.</String>
+        <String xml:lang="pl-PL">Ochrona po odrodzeniu ~g~nieaktywna~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -89,6 +98,8 @@
         <String xml:lang="fr-FR">{0} ~s~est mort.</String>
         <String xml:lang="nl-NL">{0} ~s~is doodgegaan.</String>
         <String xml:lang="it-IT">{0} ~s~è morto.</String>
+        <String xml:lang="pl-PL">{0} ~s~zginął</String>
+        
     </Entry>
 
     <Entry Id="killed_by_npc">
@@ -97,6 +108,8 @@
         <String xml:lang="fr-FR">{0} ~s~a été tué par un ~r~PNJ~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~is vermoord door een ~r~NPC~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è stato ucciso da un ~r~NPC~s~.</String>
+        <String xml:lang="pl-PL">{0} ~s~został zabity przez ~r~bota~s~.</String>
+        
     </Entry>
 
     <Entry Id="killed_by_animal">
@@ -105,6 +118,7 @@
         <String xml:lang="fr-FR">{0} ~s~a été tué par un ~r~animal~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~is vermoord door een ~r~dier~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è stato ucciso da un ~r~animale~s~.</String>
+        <String xml:lang="pl-PL">{0} ~s~został zabity przez ~r~zwierzę~s~.</String>
     </Entry>
 
     <Entry Id="killed_by_od">
@@ -113,6 +127,7 @@
         <String xml:lang="fr-FR">{0} ~s~est mort d'une ~r~overdose~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~is doodgegaan van een ~r~overdosis~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è morto di ~r~overdose~s~.</String>
+        <String xml:lang="pl-PL">{0} ~s~zginął z ~r~przedawkowania narkotyków~s~.</String>
     </Entry>
 
     <Entry Id="drowned">
@@ -121,6 +136,7 @@
         <String xml:lang="fr-FR">{0} ~s~s'est ~r~noyé~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~is ~r~verdronken~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è ~r~annegato~s~.</String>
+        <String xml:lang="pl-PL">{0} ~s~ ~r~utonął~s~.</String>
     </Entry>
 
     <Entry Id="died_from_fall">
@@ -129,6 +145,7 @@
         <String xml:lang="fr-FR">{0} ~s~est mort de dégâts de ~r~chute~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~is doodgegaan van een ~r~val~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è morto per una ~r~caduta~s~.</String>
+        <String xml:lang="pl-PL">{0} ~s~zginał od ~r~upadku~s~.</String>
     </Entry>
 
     <Entry Id="died_from_explosion">
@@ -137,6 +154,7 @@
         <String xml:lang="fr-FR">{0} ~s~est mort d'une ~r~explosion~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~is doodgegaan door een ~r~explosie~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è morto da un'~r~esplosione~s~.</String>
+        <String xml:lang="pl-PL">{0} ~s~został ~r~wysadzony~s~ w powietrze.</String>
     </Entry>
 
     <Entry Id="died_in_fire">
@@ -145,6 +163,7 @@
         <String xml:lang="fr-FR">{0} ~s~est mort ~r~brûlé~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~is doodgegaan in een ~r~brand~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è morto in un ~r~incendio~s~.</String>
+        <String xml:lang="pl-PL">{0} ~s~zginął w ~r~pożarze~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -156,6 +175,7 @@
         <String xml:lang="fr-FR">avec un ~r~explosif~s~</String>
         <String xml:lang="nl-NL">met een ~r~explosief~s~</String>
         <String xml:lang="it-IT">con un ~r~esplosivo~s~</String>
+        <String xml:lang="pl-PL">~r~eksplozją~s~</String>
     </Entry>
 
     <Entry Id="with_vehicle">
@@ -164,6 +184,7 @@
         <String xml:lang="fr-FR">avec un ~r~véhicule~s~</String>
         <String xml:lang="nl-NL">met een ~r~voertuig~s~</String>
         <String xml:lang="it-IT">con un ~r~veicolo~s~.</String>
+        <String xml:lang="pl-PL">~r~pojazdem~s~</String>
     </Entry>
 
     <Entry Id="with_water_cannon">
@@ -172,6 +193,7 @@
         <String xml:lang="fr-FR">avec un ~r~canon à eau~s~</String>
         <String xml:lang="nl-NL">met een ~r~water kanon~s~</String>
         <String xml:lang="it-IT">con un ~r~cannone ad acqua~s~</String>
+        <String xml:lang="pl-PL">~r~działkiem wodnym~s~</String>
     </Entry>
 
     <Entry Id="with_fists">
@@ -180,6 +202,7 @@
         <String xml:lang="fr-FR">avec ~r~ses poings~s~</String>
         <String xml:lang="nl-NL">met ~r~vuisten~s~</String>
         <String xml:lang="it-IT">a ~r~pugni~s~</String>
+        <String xml:lang="pl-PL">~r~pięściami~s~</String> 
     </Entry>
 
     <Entry Id="with_blade">
@@ -188,6 +211,7 @@
         <String xml:lang="fr-FR">avec un ~r~couteau~s~</String>
         <String xml:lang="nl-NL">met een ~r~mes~s~</String>
         <String xml:lang="it-IT">con un'~r~arma da taglio~s~</String>
+        <String xml:lang="pl-PL">~r~ostrzem~s~</String>
     </Entry>
 
     <Entry Id="with_melee_weapon">
@@ -196,6 +220,7 @@
         <String xml:lang="fr-FR">avec une ~r~arme blanche~s~</String>
         <String xml:lang="nl-NL">met een ~r~steekwapen~s~</String>
         <String xml:lang="it-IT">con un'~r~arma da mischia~s~</String>
+        <String xml:lang="pl-PL">~r~bronią białą~s~</String>
     </Entry>
 
     <Entry Id="with_revolver">
@@ -204,6 +229,7 @@
         <String xml:lang="fr-FR">avec un ~r~revolver~s~</String>
         <String xml:lang="nl-NL">met een ~r~revolver~s~</String>
         <String xml:lang="it-IT">con una ~r~revolver~s~</String>
+        <String xml:lang="pl-PL">~r~rewolwerem~s~</String>
     </Entry>
 
     <Entry Id="with_pistol">
@@ -212,6 +238,7 @@
         <String xml:lang="fr-FR">avec un ~r~pistolet~s~</String>
         <String xml:lang="nl-NL">met een ~r~pistool~s~</String>
         <String xml:lang="it-IT">con una ~r~pistola~s~</String>
+        <String xml:lang="pl-PL">~r~pistoletem~s~</String>
     </Entry>
 
     <Entry Id="with_smg">
@@ -220,6 +247,7 @@
         <String xml:lang="fr-FR">avec une ~r~mitraillette~s~</String>
         <String xml:lang="nl-NL">met een ~r~SMG~s~</String>
         <String xml:lang="it-IT">con una ~r~mitraglietta~s~</String>
+        <String xml:lang="pl-PL">~r~pistoletem maszynowym~s~</String>
     </Entry>
 
     <Entry Id="with_lmg">
@@ -228,6 +256,7 @@
         <String xml:lang="fr-FR">avec une ~r~mitrailleuse~s~</String>
         <String xml:lang="nl-NL">met een ~r~LMG~s~</String>
         <String xml:lang="it-IT">con un ~r~mitra~s~</String>
+        <String xml:lang="pl-PL">~r~karabinem maszynowym~s~</String>
     </Entry>
 
     <Entry Id="with_shotgun">
@@ -236,6 +265,7 @@
         <String xml:lang="fr-FR">avec un ~r~fusil de calibre 12~s~</String>
         <String xml:lang="nl-NL">met een ~r~shotgun~s~</String>
         <String xml:lang="it-IT">con uno ~r~shotgun~s~</String>
+        <String xml:lang="pl-PL">~r~śrutówką~s~</String>
     </Entry>
 
     <Entry Id="with_assault_rifle">
@@ -244,6 +274,7 @@
         <String xml:lang="fr-FR">avec un ~r~fusil d'assaut~s~</String>
         <String xml:lang="nl-NL">met een ~r~assault rifle~s~</String>
         <String xml:lang="it-IT">con un ~r~fucile d'assalto~s~</String>
+        <String xml:lang="pl-PL">~r~karabinem szturmowym~s~</String>
     </Entry>
 
     <Entry Id="with_precision_rifle">
@@ -252,6 +283,7 @@
         <String xml:lang="fr-FR">avec un ~r~fusil de précision~s~</String>
         <String xml:lang="nl-NL">met een ~r~scherpschutter~s~</String>
         <String xml:lang="it-IT">con un ~r~fucile di precisione~s~</String>
+        <String xml:lang="pl-PL">~r~snajperką~s~</String>
     </Entry>
 
     <Entry Id="with_firearm">
@@ -260,6 +292,7 @@
         <String xml:lang="fr-FR">avec une ~r~arme à feu~s~</String>
         <String xml:lang="nl-NL">met een ~r~vuurwapen~s~</String>
         <String xml:lang="it-IT">con un'~r~arma da fuoco~s~</String>
+        <String xml:lang="pl-PL">~r~bronią palną~s~</String>
     </Entry>
 
     <Entry Id="with_fire">
@@ -268,6 +301,7 @@
         <String xml:lang="fr-FR">avec du ~r~feu~s~</String>
         <String xml:lang="nl-NL">met ~r~vuur~s~</String>
         <String xml:lang="it-IT">con il ~r~fuoco~s~</String>
+        <String xml:lang="pl-PL">~r~ogniem~s~</String>
     </Entry>
 
     <Entry Id="with_gas">
@@ -276,6 +310,7 @@
         <String xml:lang="fr-FR">avec du ~r~gaz~s~</String>
         <String xml:lang="nl-NL">met ~r~gas~s~</String>
         <String xml:lang="it-IT">con il ~r~gas~s~</String>
+        <String xml:lang="pl-PL">~r~gazem~s~</String>
     </Entry>
 
     <Entry Id="with_weapon">
@@ -284,6 +319,7 @@
         <String xml:lang="fr-FR">avec une ~r~arme~s~</String>
         <String xml:lang="nl-NL">met een ~r~wapen~s~</String>
         <String xml:lang="it-IT">con un'~r~arma~s~</String>
+        <String xml:lang="pl-PL">~r~bronią~s~</String>
     </Entry>
 
     <!-- ========================= -->
@@ -295,6 +331,7 @@
         <String xml:lang="fr-FR">~r~tir à la tête~s~~</String>
         <String xml:lang="nl-NL">~r~headshot~s~</String>
         <String xml:lang="it-IT">~r~(colpo alla testa)~s~</String>
+        <String xml:lang="pl-PL">~r~strzałem w głowę~s~</String>
     </Entry>
 
     <Entry Id="for_bounty">
@@ -303,6 +340,7 @@
         <String xml:lang="fr-FR">pour ~g~{0}~s</String>
         <String xml:lang="nl-NL">voor ~g~{0}~s~</String>
         <String xml:lang="it-IT">per ~g~{0}~s~</String>
+        <String xml:lang="pl-PL">by zdobyć nagrodę ~g~{0}~s~</String>
     </Entry>
 
     <Entry Id="in_self_defense">
@@ -311,6 +349,7 @@
         <String xml:lang="fr-FR">en ~g~légitime défense~s~</String>
         <String xml:lang="nl-NL">in ~g~zelfverdediging~s~</String>
         <String xml:lang="it-IT">per ~g~legittima difesa~s~</String>
+        <String xml:lang="pl-PL">w ~r~samoobronie~s~</String>
     </Entry>
 
     <Entry Id="in_revenge">
@@ -319,6 +358,7 @@
         <String xml:lang="fr-FR">en ~r~revanche~s~</String>
         <String xml:lang="nl-NL">in ~r~revenge~s~</String>
         <String xml:lang="it-IT">per ~r~vendetta~s~</String>
+        <String xml:lang="pl-PL">w ~r~zemście~s~</String>
     </Entry>
 
     <Entry Id="in_redzone">
@@ -327,6 +367,7 @@
         <String xml:lang="fr-FR">dans une ~r~zone rouge~s~</String>
         <String xml:lang="nl-NL">in een ~r~redzone~s~</String>
         <String xml:lang="it-IT">in una ~r~zona rossa~s~</String>
+        <String xml:lang="pl-PL">w ~r~strefie zagrożonej~s~</String>
     </Entry>
 
     <!-- ========================= -->
@@ -348,6 +389,7 @@
         <String xml:lang="fr-FR">{0} ~s~a tué {1} ~s~{2} {3} {4}</String>
         <String xml:lang="nl-NL">{0} ~s~heeft {1} ~s~vermoord {2} {3} {4}</String>
         <String xml:lang="it-IT">{0} ~s~ha ucciso {1} ~s~{2} {3} {4}</String>
+        <String xml:lang="pl-PL">{0} ~s~zabił {1} ~s~ {3} {2} {4}</String>
     </Entry>
 
     <!-- ========================= -->
@@ -359,6 +401,7 @@
         <String xml:lang="fr-FR">L'EMS {0} ~s~t'as réanimé.</String>
         <String xml:lang="nl-NL">Ambulancier {0} ~s~heeft je gereanimeerd.</String>
         <String xml:lang="it-IT">Il paramedico {0} ~s~ti ha rianimato.</String>
+        <String xml:lang="pl-PL">Medyk {0} ~s~cię ocucił.</String>
     </Entry>
 
     <Entry Id="medic_failed">
@@ -367,6 +410,7 @@
         <String xml:lang="fr-FR">L'~p~EMS ~s~n'a ~r~pas réussi ~s~à te réanimer et tu as été transporté vers un ~r~hôpital~s~.</String>
         <String xml:lang="nl-NL">Het is de ~p~ambulancier ~r~niet gelukt ~s~om jou te reanimeren en je bent gestuurd naar een ~r~ziekenhuis~s~.</String>
         <String xml:lang="it-IT">Il ~p~paramedico ~s~ha ~r~fallito ~s~la rianimazione quindi sei stato trasferito in un ~r~ospedale~s~.</String>
+        <String xml:lang="pl-PL">~p~Medykowi ~r~nie udało się ~s~ciebie ocucić i zostałeś przetransportowany do ~r~szpitala~s~.</String>
     </Entry>
 
 
@@ -381,6 +425,7 @@
         <String xml:lang="fr-FR">Voir la liste de joueurs sur lesquels tu as une revanche et ceux qui en ont une sur toi.</String>
         <String xml:lang="nl-NL">Bekijk de lijst van spelers waar je revenge op kan nemen en die op jou revenge kunnen claimen.</String>
         <String xml:lang="it-IT">Visualizza la lista di giocatori sui quali ti puoi vendicare e quelli che cercano vendetta su di te.</String>
+        <String xml:lang="pl-PL">Zobacz listę graczy na których możesz się zemścić oraz mogących zemścić się na tobie.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -392,6 +437,7 @@
         <String xml:lang="fr-FR">Revanche</String>
         <String xml:lang="nl-NL">Revenge</String>
         <String xml:lang="it-IT">Vendetta</String>
+        <String xml:lang="pl-PL">Zemsta</String>
     </Entry>
 
     <Entry Id="menu_revenge_subtitle">
@@ -400,6 +446,7 @@
         <String xml:lang="fr-FR">Information Revanche</String>
         <String xml:lang="nl-NL">Revenge informatie</String>
         <String xml:lang="it-IT">Informazioni su vendetta</String>
+        <String xml:lang="pl-PL">Informacje na temat zemsty</String>
     </Entry>
 
     <Entry Id="menu_revenge_targets_text">
@@ -408,6 +455,7 @@
         <String xml:lang="fr-FR">Cibles de ta Revanche</String>
         <String xml:lang="nl-NL">Revenge Doelwitten</String>
         <String xml:lang="it-IT">Bersagli vendetta</String>
+        <String xml:lang="pl-PL">Cele zemsty</String>
     </Entry>
 
     <Entry Id="menu_revenge_targets_descr">
@@ -416,6 +464,7 @@
         <String xml:lang="fr-FR">Liste des joueurs sur lesquels tu as une ~r~revanche~s~.</String>
         <String xml:lang="nl-NL">Lijst van spelers waar je ~r~revenge ~s~op kan nemen.</String>
         <String xml:lang="it-IT">Lista di giocatori che puoi uccidere per ~r~vendetta~s~.</String>
+        <String xml:lang="pl-PL">Lista graczy na których możesz się ~r~zemścić ~s~</String>
     </Entry>
 
     <Entry Id="menu_revenge_claimants_text">
@@ -424,6 +473,7 @@
         <String xml:lang="fr-FR">Revanches dont tu es la Cible</String>
         <String xml:lang="nl-NL">Revenge eisers</String>
         <String xml:lang="it-IT">Reclamanti vendetta</String>
+        <String xml:lang="pl-PL">Żądający zemsty</String>
     </Entry>
 
     <Entry Id="menu_revenge_claimants_descr">
@@ -432,6 +482,7 @@
         <String xml:lang="fr-FR">Liste des joueurs qui possèdent une ~r~revanche ~s~sur toi.</String>
         <String xml:lang="nl-NL">Lijst van spelers die op jou ~r~revenge ~s~kunnen nemen</String>
         <String xml:lang="it-IT">Lista di giocatori che possono ucciderti per ~r~vendetta~s~.</String>
+        <String xml:lang="pl-PL">Lista graczy którzy mogą się na tobie ~r~zemścić ~s~</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_targets_text">
@@ -440,6 +491,7 @@
         <String xml:lang="fr-FR">Aucune cibles de revanche :(</String>
         <String xml:lang="nl-NL">Geen revenge targets :(</String>
         <String xml:lang="it-IT">Nessun bersaglio di vendetta :(</String>
+        <String xml:lang="pl-PL">Brak celów do zemsty :(</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_targets_descr">
@@ -448,6 +500,7 @@
         <String xml:lang="fr-FR">Désolé, il n'y a personne que tu peux tuer par revanche pour le moment.</String>
         <String xml:lang="nl-NL">Sorry, er is op dit moment niemand waar je revenge op kan nemen.</String>
         <String xml:lang="it-IT">Ci dispiace, non puoi uccidere nessuno per vendetta al momento.</String>
+        <String xml:lang="pl-PL">Niestety nie możesz zabić nikogo w zemście.</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_claimants_text">
@@ -456,6 +509,7 @@
         <String xml:lang="fr-FR">Aucune menace de revanche :)</String>
         <String xml:lang="nl-NL">Geen mensen die op jou revenge kunnen nemen :)</String>
         <String xml:lang="it-IT">Nessun reclamante di vendetta :)</String>
+        <String xml:lang="pl-PL">Brak żdających zemsty :)</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_claimants_descr">
@@ -464,6 +518,7 @@
         <String xml:lang="fr-FR">Youhou! Personne n'essaie de te tuer par revanche!</String>
         <String xml:lang="nl-NL">Hoera! Niemand probeert op jou revenge te nemen!</String>
         <String xml:lang="it-IT">Evvai! Nessuno sta cercando di ucciderti per vendetta!</String>
+        <String xml:lang="pl-PL">Hurra! Nikt nie próbuje zabić cię w zemście!</String>
     </Entry>
 
     <!-- 0 = job name, for example Police Officer -->
@@ -473,6 +528,7 @@
         <String xml:lang="fr-FR">~r~Tu ne peux pas prendre ta revanche sur un autre joueur en tant que {0}.</String>
         <String xml:lang="nl-NL">~r~Je mag geen revenge nemen op andere spelers als een {0}</String>
         <String xml:lang="it-IT">~r~Non puoi reclamare vendetta sugli altri giocatori come {0}.</String>
+        <String xml:lang="pl-PL">~r~Nie możesz zabijać w zemście jako {0}.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -485,6 +541,7 @@
         <String xml:lang="fr-FR">~p~Facture des soins</String>
         <String xml:lang="nl-NL">~p~Ziekenhuis Rekening</String>
         <String xml:lang="it-IT">~p~Fattura dell'ospedale</String>
+        <String xml:lang="pl-PL">~p~Rachunek za leczenie</String>
     </Entry>
 
     <Entry Id="health_ins_activated">
@@ -493,6 +550,7 @@
         <String xml:lang="fr-FR">~b~Mutuelle santé ~s~activée</String>
         <String xml:lang="nl-NL">~b~Zorgverzekering ~s~ geactiveerd</String>
         <String xml:lang="it-IT">~b~Assicurazione sanitaria ~s~attivata</String>
+        <String xml:lang="pl-PL">~b~Ubezpieczenie zdrowotne ~s~aktywowane</String>
     </Entry>
 
     <Entry Id="covered_by_insurance">
@@ -501,6 +559,7 @@
         <String xml:lang="fr-FR">Prise en charge de la mutuelle: ~b~{0}</String>
         <String xml:lang="nl-NL">Gedekt door je zorgverzekering: ~b~{0}</String>
         <String xml:lang="it-IT">Coperto dall'assicurazione: ~b~{0}</String>
+        <String xml:lang="pl-PL">Pokryte przez ubezpieczenie: ~b~{0}</String>
     </Entry>
 
     <Entry Id="paid_by_check">
@@ -509,6 +568,7 @@
         <String xml:lang="fr-FR">Payé par chèque bancaire: ~g~{0}</String>
         <String xml:lang="nl-NL">Per cheque betaald: ~g~{0}</String>
         <String xml:lang="it-IT">Pagato con assegno: ~g~{0}</String>
+        <String xml:lang="pl-PL">Zapłacone przelewem: ~g~{0}</String> <!-- Replaced check with wire transfer as checks are not available in Poland, many people I know, don't know what a check is -->
     </Entry>
 
     <Entry Id="paid_in_cash">
@@ -517,6 +577,7 @@
         <String xml:lang="fr-FR">Payé en espèces: ~g~{0}</String>
         <String xml:lang="nl-NL">Contant betaald: ~g~{0}</String>
         <String xml:lang="it-IT">Pagato in contanti: ~g~{0}</String>
+        <String xml:lang="pl-PL">Zapłacono gotówką: ~g~{0}</String>
     </Entry>
 
     <!-- I just changed this from "unpaid" to "outstanding" in English too, as it gives a better understanding -->
@@ -527,5 +588,6 @@
         <String xml:lang="fr-FR">Insolvable: ~r~{0}</String>
         <String xml:lang="nl-NL">Openstaand: ~r~{0}</String>
         <String xml:lang="it-IT">Insoluto: ~r~{0}</String>
+        <String xml:lang="pl-PL">Dług: ~g~{0}</String>
     </Entry>
 </Entries>
