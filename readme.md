@@ -167,6 +167,7 @@ Text can also be highlighted with the `<C></C>` tags. Unfortunately, since those
 - Italian (Italy): `it-IT`
 - Spanish (Spain): `es-ES`
 - Polish (Poland): `pl-PL`
+- Turkish (Turkey): `tr-TR`
 - Portuguese (Brazil): `pt-BR`
 - Hindustani (Romanized): `hi-Latn`
 - Arabic (Modern Standard): `ar-001`
