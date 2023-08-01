@@ -123,6 +123,9 @@ So, it's OK to write
 <String xml:lang="en-US">You can't do that</String>
 ```
 
+## Consistency
+When you translate certain technical terms of the game, choose the best that you can choose, a term that applies in all cases, and then stick to it. For example, if you choose to translate `Inventory` in a certain way, then stick to that term in all the translation, don't suddenly change it to `Backpack` or `Pocket` in other parts of the UI.
+
 ## Comments
 Have you ever found one of those websites where something is grammatically correct but it makes no sense in that context? Well, whether you have encountered such a website or not, we definitely don't want to commit that mistake, that's why there are comments in the code, and you can add your own if you think they are necessary.
 
