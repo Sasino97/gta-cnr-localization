@@ -166,12 +166,12 @@ Text can also be highlighted with the `<C></C>` tags. Unfortunately, since those
 - Dutch (Netherlands): `nl-NL`
 - Italian (Italy): `it-IT`
 - Spanish (Spain): `es-ES`
+- Portuguese (Brazil): `pt-BR`
 - Polish (Poland): `pl-PL`
 - Turkish (Turkey): `tr-TR`
-- Portuguese (Brazil): `pt-BR`
-- Hindustani (Romanized): `hi-Latn`
-- Arabic (Modern Standard): `ar-001`
+- Arabic (Romanized): `ar-Latn`
 - Chinese (Simplified): `zh-Hans`
 - Chinese (Traditional): `zh-Hant`
+- Hindustani (Romanized): `hi-Latn`
 - Vietnamese (Vietnam): `vi-VN`
 - Thai (Thailand): `th-TH`
