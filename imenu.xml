@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Entries>
+    <!-- ========================= -->
+    <!-- Command Suggestions -->
+    <!-- ========================= -->
+    <Entry Id="sugg_menu">
+        <String xml:lang="en-US">Opens your interaction menu.</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Main Menu -->
+    <!-- ========================= -->
+    <Entry Id="imenu_inventory">
+        <String xml:lang="en-US">Inventory</String>
+    </Entry>
+
+    <Entry Id="imenu_inventory_descr">
+        <String xml:lang="en-US">View and manage your items. ~p~Did you know? ~s~You can also ~y~press F2 ~s~to open this menu.</String>
+    </Entry>
+    
+    <Entry Id="imenu_wardrobe">
+        <String xml:lang="en-US">Wardrobe</String>
+    </Entry>
+
+    <Entry Id="imenu_wardrobe_descr">
+        <String xml:lang="en-US">View and manage your clothes and accessories.</String>
+    </Entry>
+    
+    <Entry Id="imenu_armory">
+        <String xml:lang="en-US">Armory</String>
+    </Entry>
+
+    <Entry Id="imenu_armory_descr">
+        <String xml:lang="en-US">View and manage your weapons, ammo and attachments.</String>
+    </Entry>
+    
+    <Entry Id="imenu_vehicles">
+        <String xml:lang="en-US">Vehicles</String>
+    </Entry>
+
+    <Entry Id="imenu_vehicles_descr">
+        <String xml:lang="en-US">Manage your owned or rented vehicles.</String>
+    </Entry>
+    
+    <Entry Id="imenu_properties">
+        <String xml:lang="en-US">Properties</String>
+    </Entry>
+
+    <Entry Id="imenu_properties_descr">
+        <String xml:lang="en-US">View and navigate to your owned or rented properties.</String>
+    </Entry>
+    
+    <Entry Id="imenu_services">
+        <String xml:lang="en-US">Services</String>
+    </Entry>
+
+    <Entry Id="imenu_services_descr">
+        <String xml:lang="en-US">Request useful services.</String>
+    </Entry>
+    
+    <Entry Id="imenu_stats">
+        <String xml:lang="en-US">Stats</String>
+    </Entry>
+
+    <Entry Id="imenu_stats_descr">
+        <String xml:lang="en-US">View your full stats.</String>
+    </Entry>
+    
+    <Entry Id="imenu_options">
+        <String xml:lang="en-US">Options</String>
+    </Entry>
+    
+    <Entry Id="imenu_options_descr">
+        <String xml:lang="en-US">Manage your account and configure GTA ~b~Cops ~s~and ~r~Robbers ~s~specific options.</String>
+    </Entry>
+    
+    <Entry Id="imenu_help">
+        <String xml:lang="en-US">Help</String>
+    </Entry>
+    
+    <Entry Id="imenu_help_descr">
+        <String xml:lang="en-US">Obtain help with a problem.</String>
+    </Entry>
+    
+    <Entry Id="imenu_job">
+        <String xml:lang="en-US">Job Menu</String>
+    </Entry>
+
+    <Entry Id="imenu_job_descr_none">
+        <String xml:lang="en-US">~r~To access this menu you need to get a job first.</String>
+    </Entry>
+    
+    <Entry Id="imenu_job_descr_drug_dealer">
+        <String xml:lang="en-US">Manage your drugs stock, view recent calls and past sales.</String>
+    </Entry>
+    
+    <Entry Id="imenu_job_descr_mechanic">
+        <String xml:lang="en-US">Manage the tools and items you sell, view recent calls and past sales.</String>
+    </Entry>
+    
+    <Entry Id="imenu_job_descr_police">
+        <String xml:lang="en-US">Use your radio and view recent calls.</String>
+    </Entry>
+    
+    <Entry Id="imenu_job_descr_paramedic">
+        <String xml:lang="en-US">Use your radio and view recent calls.</String>
+    </Entry>
+    
+    <!-- ========================= -->
+    <!-- Inventory Menu -->
+    <!-- ========================= -->
+    <Entry Id="imenu_inventory_subtitle">
+        <String xml:lang="en-US">Select a category</String>
+    </Entry>
+    
+    <Entry Id="btn_imenu_inventory_give">
+        <String xml:lang="en-US">Give</String>
+    </Entry>
+    
+    <Entry Id="btn_imenu_inventory_use">
+        <String xml:lang="en-US">Use</String>
+    </Entry>
+    
+    <Entry Id="btn_imenu_inventory_drop">
+        <String xml:lang="en-US">Drop</String>
+    </Entry>
+    
+    <Entry Id="imenu_inventory_stock">
+        <String xml:lang="en-US">~b~Stock</String>
+    </Entry>
+    
+    <Entry Id="imenu_inventory_stock_descr">
+        <String xml:lang="en-US">Manage your stock and set prices.</String>
+    </Entry>
+    
+    <Entry Id="imenu_inventory_empty">
+        <String xml:lang="en-US">No items in your inventory :(</String>
+    </Entry>
+    
+    <Entry Id="imenu_inventory_empty_descr">
+        <String xml:lang="en-US">Visit stores and buy some stuff!</String>
+    </Entry>
+    
+    <Entry Id="input_imenu_inventory_send_amount">
+        <String xml:lang="en-US">Amount to send</String>
+    </Entry>
+    
+    <Entry Id="input_imenu_inventory_send_amount_descr">
+        <String xml:lang="en-US">Enter the amount of {0} you want to send {1}.</String>
+    </Entry>
+    
+    <Entry Id="imenu_inventory_invalid_amount">
+        <String xml:lang="en-US">~r~You have entered an invalid amount.</String>
+    </Entry>
+    
+    <Entry Id="imenu_inventory_fractional_amount">
+        <String xml:lang="en-US">~r~This item can't be split. Please enter a whole number.</String>
+    </Entry>
+    
+    <!-- 0 = Other player's name -->
+    <!-- 1 = Amount -->
+    <!-- 2 = Item name -->
+    <!-- Example: You gave Sasino (2) 3 Heavy Armor. -->
+    <!--                   [   {0}  ][{1}][   {2}  ] -->
+    <Entry Id="imenu_inventory_item_sent">
+        <String xml:lang="en-US">You gave {0} ~y~{1} {2}~s~.</String>
+    </Entry>
+    
+    <!-- Same as before, but for items that have a measure unit -->
+    <!-- 0 = Other player's name -->
+    <!-- 1 = Amount -->
+    <!-- 2 = Unit of measurement -->
+    <!-- 3 = Item name -->
+    <!-- Example: You gave Sasino (2) 5g of Cocaine. -->
+    <Entry Id="imenu_inventory_item_sent_unit">
+        <String xml:lang="en-US">You gave {0} ~y~{1}{2} of {3}~s~.</String>
+    </Entry>
+    
+    <Entry Id="imenu_inventory_send_cant_give_item">
+        <String xml:lang="en-US">This item can't be ~r~given ~s~to other players.</String>
+    </Entry>
+    
+    <!-- 0 = Item name -->
+    <Entry Id="imenu_inventory_send_insufficient_amount">
+        <String xml:lang="en-US">You do not have enough ~r~{0}~s~.</String>
+    </Entry>
+    
+    <!-- 0 = Player name -->
+    <Entry Id="imenu_inventory_send_insufficient_space">
+        <String xml:lang="en-US">{0} doesn't have enough space in their inventory.</String>
+    </Entry>
+    
+    <!-- 0 = Player name -->
+    <!-- 1 = Amount -->
+    <!-- 2 = Item name -->
+    <Entry Id="imenu_inventory_send_limit_reached">
+        <String xml:lang="en-US">{0} can't hold ~r~{1} ~s~more ~r~{2}~s~.</String>
+    </Entry>
+    
+    <!-- 0 = Player name -->
+    <!-- 1 = Amount -->
+    <!-- 2 = Unit of measurement -->
+    <!-- 3 = Item name -->
+    <!-- Example: Sasino can't hold 2 more g of Cocaine. -->
+    <Entry Id="imenu_inventory_send_limit_reached_unit">
+        <String xml:lang="en-US">{0} can't hold ~r~{1} ~s~more {2} of ~r~{3}~s~.</String>
+    </Entry>
+    
+    <Entry Id="imenu_inventory_no_items_in_category">
+        <String xml:lang="en-US">There are no items in this category</String>
+    </Entry>
+</Entries>
