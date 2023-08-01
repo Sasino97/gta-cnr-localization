@@ -35,7 +35,7 @@
         <String xml:lang="nl-NL">Wil je je radio op de aangeraden ~b~radio frequentie ~s~(~y~{0}~s~) instellen?</String>
         <String xml:lang="it-IT">Vuoi sintonizzarti sulla ~b~frequenza ~s~consigliata (~y~{0}~s~)?</String>
         <String xml:lang="pl-PL">Czy chcesz połączyć się z rekomendowaną ~b~częstotliwością radiową ~s~(~y~{0}~s~)?</String>
-        <String xml:lang="tr-TR">Önerilenlere göre ayarlamak ister misin ~b~radyo frekansı ~s~(~y~{0}~s~)?</String>
+        <String xml:lang="tr-TR">Tavsiye edilen seviyede olmasını ister  ~b~radyo frekansının ~s~(~y~{0}~s~)?</String>
     </Entry>
 
     <Entry Id="btn_tune_in">
@@ -68,7 +68,7 @@
         <String xml:lang="nl-NL">Er zijn geen ~p~ambulanciers ~s~in de buurt en je bent automatisch doorgestuurd naar een ~r~ziekenhuis~s~.</String>
         <String xml:lang="it-IT">Non era presente alcun ~p~paramedico ~s~nelle vicinanze quindi sei stato trasferito automaticamente a un ~r~ospedale~s~.</String>
         <String xml:lang="pl-PL">W pobliżu nie było ~p~medyków ~s~, a ty zostałeś przetransportowany do ~r~szpitala~s~.</String>
-        <String xml:lang="tr-TR">Yakınlarda değildi ~p~sağlık görevlileri ~s~, ve otomatik olarak bir yere nakledildin ~r~hastane~s~.</String>
+        <String xml:lang="tr-TR">Yakınlarda ~p~sağlık görevlileri ~s~, yoktu ve otomatik olarak bir yere nakledildin ~r~hastane~s~.</String>
     </Entry>
 
     <Entry Id="some_paramedics">
@@ -78,7 +78,7 @@
         <String xml:lang="nl-NL">Er zijn één of meerdere ~p~ambulanciers ~s~in de buurt. Je kan niet respawnen totdat de timer afloopt, de ambulanciers het gebied verlaten, of ze dood gaan.</String>
         <String xml:lang="it-IT">Ci sono uno o più ~p~paramedici ~s~nelle vicinanze. Non puoi respawnare finché il timer non scade, i paramedici non lasciano l'area, o muoiono.</String>
         <String xml:lang="pl-PL">W pobliżu jest co najmniej jeden ~p~medyk ~s~ Nie możesz się odrodzić do póki nie minie czas, medycy oddalą się z okolicy lub zginą.</String>
-        <String xml:lang="tr-TR">Bir veya daha fazla var ~p~sağlık görevlileri ~s~ Zamanlayıcı bitene, sağlık görevlileri bölgeyi terk edene veya onlar ölene kadar yeniden doğamazsınız.</String>
+        <String xml:lang="tr-TR">Yakınlarda bir veya daha fazla ~p~sağlık görevlisi ~s~ var. Zamanlayıcı bitene, sağlık görevlileri bölgeyi terk edene veya onlar ölene kadar yeniden doğamazsınız.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -197,7 +197,7 @@
         <String xml:lang="nl-NL">met een ~r~explosief~s~</String>
         <String xml:lang="it-IT">con un ~r~esplosivo~s~</String>
         <String xml:lang="pl-PL">~r~eksplozją~s~</String>
-        <String xml:lang="tr-TR">~r~bir patlayıcı ile~s~</String>
+        <String xml:lang="tr-TR">bir ~r~patlayıcıyla~s~</String>
     </Entry>
 
     <Entry Id="with_vehicle">
@@ -217,7 +217,7 @@
         <String xml:lang="nl-NL">met een ~r~water kanon~s~</String>
         <String xml:lang="it-IT">con un ~r~cannone ad acqua~s~</String>
         <String xml:lang="pl-PL">~r~działkiem wodnym~s~</String>
-        <String xml:lang="tr-TR">ile ~r~tazyikli su~s~</String>
+        <String xml:lang="tr-TR">~r~tazyikli su~s~</String>
     </Entry>
 
     <Entry Id="with_fists">
@@ -227,7 +227,7 @@
         <String xml:lang="nl-NL">met ~r~vuisten~s~</String>
         <String xml:lang="it-IT">a ~r~pugni~s~</String>
         <String xml:lang="pl-PL">~r~pięściami~s~</String>
-        <String xml:lang="tr-TR">ile ~r~yumruklar~s~</String>
+        <String xml:lang="tr-TR">~r~yumrukla~s~</String>
     </Entry>
 
     <Entry Id="with_blade">
@@ -237,7 +237,7 @@
         <String xml:lang="nl-NL">met een ~r~mes~s~</String>
         <String xml:lang="it-IT">con un'~r~arma da taglio~s~</String>
         <String xml:lang="pl-PL">~r~ostrzem~s~</String>
-        <String xml:lang="tr-TR">ile ~r~bıçak~s~</String>
+        <String xml:lang="tr-TR">~r~bıçakla~s~</String>
     </Entry>
 
     <Entry Id="with_melee_weapon">
@@ -247,7 +247,7 @@
         <String xml:lang="nl-NL">met een ~r~steekwapen~s~</String>
         <String xml:lang="it-IT">con un'~r~arma da mischia~s~</String>
         <String xml:lang="pl-PL">~r~bronią białą~s~</String>
-        <String xml:lang="tr-TR">ile ~r~yakın dövüş silahı~s~</String>
+        <String xml:lang="tr-TR">~r~yakın dövüş silahlarıyla~s~</String>
     </Entry>
 
     <Entry Id="with_revolver">
@@ -257,7 +257,7 @@
         <String xml:lang="nl-NL">met een ~r~revolver~s~</String>
         <String xml:lang="it-IT">con una ~r~revolver~s~</String>
         <String xml:lang="pl-PL">~r~rewolwerem~s~</String>
-        <String xml:lang="tr-TR">ile ~r~revolver~s~</String>
+        <String xml:lang="tr-TR">~r~revolver~s~</String>
     </Entry>
 
     <Entry Id="with_pistol">
@@ -267,7 +267,7 @@
         <String xml:lang="nl-NL">met een ~r~pistool~s~</String>
         <String xml:lang="it-IT">con una ~r~pistola~s~</String>
         <String xml:lang="pl-PL">~r~pistoletem~s~</String>
-        <String xml:lang="tr-TR">ile ~r~tabanca~s~</String>
+        <String xml:lang="tr-TR">~r~tabancayla~s~</String>
     </Entry>
 
     <Entry Id="with_smg">
@@ -277,7 +277,7 @@
         <String xml:lang="nl-NL">met een ~r~SMG~s~</String>
         <String xml:lang="it-IT">con una ~r~mitraglietta~s~</String>
         <String xml:lang="pl-PL">~r~pistoletem maszynowym~s~</String>
-        <String xml:lang="tr-TR">ile ~r~hafif makineli tüfek~s~</String>
+        <String xml:lang="tr-TR">~r~hafif makineli tüfekle~s~</String>
     </Entry>
 
     <Entry Id="with_lmg">
@@ -287,7 +287,7 @@
         <String xml:lang="nl-NL">met een ~r~LMG~s~</String>
         <String xml:lang="it-IT">con un ~r~mitra~s~</String>
         <String xml:lang="pl-PL">~r~karabinem maszynowym~s~</String>
-        <String xml:lang="tr-TR">ile ~r~makineli tüfek~s~</String>
+        <String xml:lang="tr-TR">~r~makineli tüfekle~s~</String>
     </Entry>
 
     <Entry Id="with_shotgun">
@@ -297,7 +297,7 @@
         <String xml:lang="nl-NL">met een ~r~shotgun~s~</String>
         <String xml:lang="it-IT">con uno ~r~shotgun~s~</String>
         <String xml:lang="pl-PL">~r~śrutówką~s~</String>
-        <String xml:lang="tr-TR">ile ~r~pompalı tüfek~s~</String>
+        <String xml:lang="tr-TR">~r~pompalı tüfekle~s~</String>
     </Entry>
 
     <Entry Id="with_assault_rifle">
@@ -307,7 +307,7 @@
         <String xml:lang="nl-NL">met een ~r~assault rifle~s~</String>
         <String xml:lang="it-IT">con un ~r~fucile d'assalto~s~</String>
         <String xml:lang="pl-PL">~r~karabinem szturmowym~s~</String>
-        <String xml:lang="tr-TR">ile ~r~saldırı tüfeği~s~</String>
+        <String xml:lang="tr-TR">~r~saldırı tüfeğiyle~s~</String>
     </Entry>
 
     <Entry Id="with_precision_rifle">
@@ -317,7 +317,7 @@
         <String xml:lang="nl-NL">met een ~r~scherpschutter~s~</String>
         <String xml:lang="it-IT">con un ~r~fucile di precisione~s~</String>
         <String xml:lang="pl-PL">~r~snajperką~s~</String>
-        <String xml:lang="tr-TR">ile ~r~keskin nişancı~s~</String>
+        <String xml:lang="tr-TR">bir ~r~keskin nişancıyla~s~</String>
     </Entry>
 
     <Entry Id="with_firearm">
@@ -327,7 +327,7 @@
         <String xml:lang="nl-NL">met een ~r~vuurwapen~s~</String>
         <String xml:lang="it-IT">con un'~r~arma da fuoco~s~</String>
         <String xml:lang="pl-PL">~r~bronią palną~s~</String>
-        <String xml:lang="tr-TR">ile ~r~ateşli silah~s~</String>
+        <String xml:lang="tr-TR">~r~ateşli silahla~s~</String>
     </Entry>
 
     <Entry Id="with_fire">
@@ -337,7 +337,7 @@
         <String xml:lang="nl-NL">met ~r~vuur~s~</String>
         <String xml:lang="it-IT">con il ~r~fuoco~s~</String>
         <String xml:lang="pl-PL">~r~ogniem~s~</String>
-        <String xml:lang="tr-TR">ile ~r~ateş~s~</String>
+        <String xml:lang="tr-TR">~r~ateş~s~</String>
     </Entry>
 
     <Entry Id="with_gas">
@@ -347,7 +347,7 @@
         <String xml:lang="nl-NL">met ~r~gas~s~</String>
         <String xml:lang="it-IT">con il ~r~gas~s~</String>
         <String xml:lang="pl-PL">~r~gazem~s~</String>
-        <String xml:lang="tr-TR">ile ~r~gaz~s~</String>
+        <String xml:lang="tr-TR">~r~gazla~s~</String>
     </Entry>
 
     <Entry Id="with_weapon">
@@ -357,7 +357,7 @@
         <String xml:lang="nl-NL">met een ~r~wapen~s~</String>
         <String xml:lang="it-IT">con un'~r~arma~s~</String>
         <String xml:lang="pl-PL">~r~bronią~s~</String>
-        <String xml:lang="tr-TR">ile ~r~silah~s~</String>
+        <String xml:lang="tr-TR">~r~silahla~s~</String>
     </Entry>
 
     <!-- ========================= -->
@@ -380,7 +380,7 @@
         <String xml:lang="nl-NL">voor ~g~{0}~s~</String>
         <String xml:lang="it-IT">per ~g~{0}~s~</String>
         <String xml:lang="pl-PL">by zdobyć nagrodę ~g~{0}~s~</String>
-        <String xml:lang="tr-TR">için ~g~{0}~s~</String>
+        <String xml:lang="tr-TR">ödül kazanmak ~g~{0}~s~</String>
     </Entry>
 
     <Entry Id="in_self_defense">
