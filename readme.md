@@ -175,6 +175,6 @@ Text can also be highlighted with the `<C></C>` tags. Unfortunately, since those
 - Arabic (Romanized): `ar-Latn`
 - Chinese (Simplified): `zh-Hans`
 - Chinese (Traditional): `zh-Hant`
-- Hindustani (Romanized): `hi-Latn`
+- Hindi (Romanized): `hi-Latn`
 - Vietnamese (Vietnam): `vi-VN`
 - Thai (Thailand): `th-TH`
