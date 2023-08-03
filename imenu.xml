@@ -427,7 +427,20 @@
         <String xml:lang="fr-FR">{0} ne peut pas porter plus de ~r~{1} {2} ~s~de ~r~{3}~s~.</String>
     </Entry>
 
+    <Entry Id="imenu_inventory_empty">
+        <String xml:lang="en-US">No items in your inventory :(</String>
+        <String xml:lang="pl-PL">Twój ekwipunek jest pusty :(</String>
+        <String xml:lang="tr-TR">Envanterinizde öğe yok :(</String>
+        <String xml:lang="de-DE">Keine Gegenständ ein deinem Inventar. :(</String>
+        <String xml:lang="it-IT">Nessun oggetto nel tuo inventario. :(</String>
+        <String xml:lang="fr-FR">Ton inventaire est vide :(</String>
+    </Entry>
+
     <Entry Id="imenu_inventory_no_items_in_category">
+        <String xml:lang="en-US">No items in this category :(</String>
+    </Entry>
+
+    <Entry Id="imenu_inventory_no_items_in_category_descr">
         <String xml:lang="en-US">There are no items in this category.</String>
         <String xml:lang="pl-PL">Nie ma przedmiotów w tej kategorii.</String>
         <String xml:lang="tr-TR">Bu kategoride ürün yok.</String>
@@ -435,4 +448,13 @@
         <String xml:lang="it-IT">Non ci sono oggetti in questa categoria.</String>
         <String xml:lang="fr-FR">Il n'y a pas d'objets dans cette catégorie</String>
     </Entry>
+
+    <Entry Id="imenu_inventory_cant_use">
+        <String xml:lang="en-US">You ~r~cannot ~s~use this item directly from the inventory.</String>
+    </Entry>
+
+    <Entry Id="imenu_inventory_rate_limit">
+        <String xml:lang="en-US">You have been ~r~rate limited~s~.</String>
+    </Entry>
+    
 </Entries>
