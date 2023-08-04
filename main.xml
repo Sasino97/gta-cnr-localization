@@ -12,6 +12,7 @@
         <String xml:lang="fr-FR">~r~Une erreur inattendue s'est produite.</String>
         <String xml:lang="pl-PL">~r~Wystąpił nieoczekiwany błąd.</String>
         <String xml:lang="tr-TR">~r~Beklenmeyen bir hata oluştu.</String>
+        <String xml:lang="zh-Hant">~r~發生意外的錯誤.</String>
     </Entry>
 
     <Entry Id="unexpected_error_code">
@@ -22,6 +23,7 @@
         <String xml:lang="fr-FR">~r~Une erreur inattendue s'est produite ({0}).</String>
         <String xml:lang="pl-PL">~r~Wystąpił nieoczekiwany błąd ({0}).</String>
         <String xml:lang="tr-TR">~r~Beklenmeyen bir hata oluştu ({0}).</String>
+        <String xml:lang="zh-Hant">~r~發生意外的錯誤 ({0}).</String>
     </Entry>
 
     <Entry Id="unexpected_error_press_f8">
@@ -32,12 +34,12 @@
         <String xml:lang="fr-FR">Appuie sur F8 pour les détails</String>
         <String xml:lang="pl-PL">Kliknij F8 dla szczegółow</String>
         <String xml:lang="tr-TR">Ayrıntılar için F8'e basın</String>
+        <String xml:lang="zh-Hant">按下F8查看詳情.</String>
     </Entry>
 
     <!-- ========================= -->
     <!-- Generic Messages -->
     <!-- ========================= -->
-    <!-- "Alert" or "Attention", this is shown in important full-screen messages, usually in yellow -->
     <Entry Id="alert">
         <String xml:lang="en-US">Alert</String>
         <String xml:lang="it-IT">Attenzione</String>
@@ -46,6 +48,7 @@
         <String xml:lang="fr-FR">Alerte</String>
         <String xml:lang="pl-PL">Uwaga</String>
         <String xml:lang="tr-TR">Uyarı</String>
+        <String xml:lang="zh-Hant">警告</String>
     </Entry>
 
     <Entry Id="loading">
@@ -56,6 +59,7 @@
         <String xml:lang="fr-FR">Chargement</String>
         <String xml:lang="pl-PL">Wczytywanie</String>
         <String xml:lang="tr-TR">Yükleniyor</String>
+        <String xml:lang="zh-Hant">載入中</String>
     </Entry>
 
     <Entry Id="not_implemented">
@@ -66,6 +70,7 @@
         <String xml:lang="fr-FR">~r~Désolé, cette fonctionnalité n'a pas encore été implantée!</String>
         <String xml:lang="pl-PL">~r~Przepraszamy, ta funkcja nie jest jeszcze dostępna!</String>
         <String xml:lang="tr-TR">~r~Üzgünüz, bu özellik henüz kullanılamıyor!</String>
+        <String xml:lang="zh-Hant">~r~抱歉,該功能尚未開啟</String>
     </Entry>
 
     <!-- ========================= -->
@@ -73,42 +78,31 @@
     <!-- ========================= -->
     <Entry Id="btn_select">
         <String xml:lang="en-US">Select</String>
-        <String xml:lang="it-IT">Seleziona</String>
-        <String xml:lang="nl-NL">Selecteer</String>
         <String xml:lang="pl-PL">Wybierz</String>
         <String xml:lang="tr-TR">Seçmek</String>
-        <String xml:lang="fr-FR">Sélectionner</String>
-        <String xml:lang="de-DE">Auswählen</String>
+        <String xml:lang="zh-Hant">選擇</String>
+        
     </Entry>
-
+    
     <Entry Id="btn_back">
         <String xml:lang="en-US">Back</String>
-        <String xml:lang="it-IT">Indietro</String>
-        <String xml:lang="nl-NL">Terug</String>
         <String xml:lang="pl-PL">Cofnij</String>
         <String xml:lang="tr-TR">Geri</String>
-        <String xml:lang="fr-FR">Retour</String>
-        <String xml:lang="de-DE">Zurück</String>
+        <String xml:lang="zh-Hant">返回</String>
     </Entry>
-
+    
     <Entry Id="btn_search">
         <String xml:lang="en-US">Search</String>
-        <String xml:lang="it-IT">Cerca</String>
-        <String xml:lang="nl-NL">Zoeken</String>
         <String xml:lang="pl-PL">Wyszukaj</String>
         <String xml:lang="tr-TR">Aramak</String>
-        <String xml:lang="fr-FR">Chercher</String>
-        <String xml:lang="de-DE">Suchen</String>
+        <String xml:lang="zh-Hant">搜尋</String>
     </Entry>
-
+    
     <Entry Id="btn_refresh">
         <String xml:lang="en-US">Refresh</String>
-        <String xml:lang="it-IT">Aggiorna</String>
-        <String xml:lang="nl-NL">Verversen</String>
         <String xml:lang="pl-PL">Odśwież</String>
         <String xml:lang="tr-TR">Yenile</String>
-        <String xml:lang="fr-FR">Rafraîchir</String>
-        <String xml:lang="de-DE">Aktualisieren</String>
+        <String xml:lang="zh-Hant">刷新</String>
     </Entry>
 
     <!-- ========================= -->
@@ -122,5 +116,6 @@
         <String xml:lang="it-IT">~g~GRATIS</String>
         <String xml:lang="pl-PL">~g~GRATIS</String>
         <String xml:lang="tr-TR">~g~UCRETSIZ</String>
+        <String xml:lang="zh-Hant">~g~免費</String>
     </Entry>
 </Entries>
