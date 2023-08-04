@@ -94,7 +94,7 @@
         <String xml:lang="fr-FR">Véhicules</String>
         <String xml:lang="zh-Hant">載具</String>
     </Entry>
-    
+
     <Entry Id="imenu_vehicles_descr">
         <String xml:lang="en-US">Manage your owned or rented vehicles.</String>
         <String xml:lang="pl-PL">Zarządzaj pojazdami które kupiłeś lub wynająłeś.</String>
@@ -116,7 +116,7 @@
         <String xml:lang="fr-FR">Propriétés</String>
         <String xml:lang="zh-Hant">房產</String>
     </Entry>
-    
+
     <Entry Id="imenu_properties_descr">
         <String xml:lang="en-US">View and navigate to your owned or rented properties.</String>
         <String xml:lang="pl-PL">Podejrzyj i zarządzaj posiadłościami które kupiłeś lub wynająłeś.</String>
@@ -127,7 +127,7 @@
         <String xml:lang="fr-FR">Gestion des propriétés immobilières achetées ou louées.</String>
         <String xml:lang="zh-Hant">查看和管理你名下的房產或租用的房產</String>
     </Entry>
-    
+
     <Entry Id="imenu_services">
         <String xml:lang="en-US">Services</String>
         <String xml:lang="pl-PL">Usługi</String>
@@ -137,6 +137,7 @@
         <String xml:lang="it-IT">Servizi</String>
         <String xml:lang="fr-FR">Services</String>
         <String xml:lang="zh-Hant">服務</String>
+        <String xml:lang="de-DE">Dienstleistungen</String>
     </Entry>
 
     <Entry Id="imenu_services_descr">
@@ -144,12 +145,12 @@
         <String xml:lang="pl-PL">Skorzystaj z przydatnych usług. </String>
         <String xml:lang="nl-NL">Verzoek nuttige diensten.</String>
         <String xml:lang="tr-TR">Yararlı hizmetler talep edin.</String>
-        <String xml:lang="de-DE">Fordere nützliche Dienstleitungen an.</String>
+        <String xml:lang="de-DE">Fordere nützliche Dienstleistungen an.</String>
         <String xml:lang="it-IT">Richiedi dei servizi utili alla tua posizione.</String>
         <String xml:lang="fr-FR">Faire la demande de services utiles.</String>
         <String xml:lang="zh-Hant">請求有用的服務</String>
     </Entry>
-    
+
     <Entry Id="imenu_stats">
         <String xml:lang="en-US">Stats</String>
         <String xml:lang="pl-PL">Statystyki</String>
@@ -232,7 +233,7 @@
         <String xml:lang="pl-PL">~r~By uzyskać dostęp do tego menu, musisz znaleźć pracę.</String>
         <String xml:lang="nl-NL">~r~Om dit menu te kunnen gebruiken, moet je eerst een baan krijgen.</String>
         <String xml:lang="tr-TR">~r~Bu menüye erişmek için önce bir iş bulmanız gerekir.</String>
-        <String xml:lang="de-DE">~r~Du musst zuerst einen Job suchen, um auf dieses Menü zuzugreifen.</String>
+        <String xml:lang="de-DE">~r~Du musst dir zuerst einen Job suchen, um auf dieses Menü zuzugreifen.</String>
         <String xml:lang="it-IT">~r~Per accedere a questo menu prima devi ottenere un lavoro.</String>
         <String xml:lang="fr-FR">~r~Pour accéder à ce menu, il faut nécessairement que tu sois employé.</String>
         <String xml:lang="zh-Hant">~r~你必須先有一個職業才可以使用此選單</String>
@@ -519,7 +520,7 @@
         <String xml:lang="pl-PL">Twój ekwipunek jest pusty :(</String>
         <String xml:lang="tr-TR">Envanterinizde öğe yok :(</String>
         <String xml:lang="nl-NL">Geen voorwerpen in je inventaris :(</String>
-        <String xml:lang="de-DE">Keine Gegenständ ein deinem Inventar. :(</String>
+        <String xml:lang="de-DE">Keine Gegenstände ein deinem Inventar. :(</String>
         <String xml:lang="it-IT">Non ci sono oggetti nel tuo inventario. :(</String>
         <String xml:lang="fr-FR">Ton inventaire est vide :(</String>
         <String xml:lang="zh-Hant">{0} 無法攜帶 ~r~{1}{2} ~s~或以上的 ~r~{3}~s~.</String>
@@ -529,7 +530,8 @@
         <String xml:lang="en-US">No items in this category :(</String>
         <String xml:lang="nl-NL">Geen voorwerpen in deze categorie :(</String>
         <String xml:lang="it-IT">Non ci sono oggetti in questa categoria. :(</String>
-        
+        <String xml:lang="de-DE">Keine Gegenstände in dieser Kategorie .:(</String>
+
     </Entry>
 
     <Entry Id="imenu_inventory_no_items_in_category_descr">
@@ -548,6 +550,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz ~s~użyć tego przedmiotu prosto z ekwipunku.</String>
         <String xml:lang="nl-NL">Dit voorwerp kan je ~r~niet~s~ direct vanuit je inventaris gebruiken.</String>
         <String xml:lang="it-IT">~r~Non puoi ~s~usare questo oggetto direttamente dal tuo inventario.</String>
+        <String xml:lang="de-DE">Du kannst diesen Gegenstand ~r~nicht ~s~direkt aus deinem Inventar nutzen.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_rate_limit">
@@ -555,5 +558,6 @@
         <String xml:lang="pl-PL">Nie tak szybko! Zostałeś ~r~tymczasowo ograniczony~s~.</String>
         <String xml:lang="nl-NL">Je verzoeken zijn ~r~gelimiteerd~s~.</String>
         <String xml:lang="it-IT">Le tue richieste sono state ~r~limitate~s~.</String>
+        <String xml:lang="de-DE">Deine Höchstgrenze wurde ~r~eingeschränkt.~s~. </String>
     </Entry>
 </Entries>
