@@ -13,6 +13,7 @@
         <String xml:lang="it-IT">Chiama il 911</String>
         <String xml:lang="pl-PL">Zadzwoń na 911</String>
         <String xml:lang="tr-TR">911'i ara</String>
+        <String xml:lang="zh-Hant">撥打 911</String>
     </Entry>
 
     <Entry Id="btn_respawn">
@@ -23,6 +24,7 @@
         <String xml:lang="it-IT">Respawna</String>
         <String xml:lang="pl-PL">Odródź się</String>
         <String xml:lang="tr-TR">Yeniden doğma</String>
+        <String xml:lang="zh-Hant">復活</String>
     </Entry>
 
     <!-- ========================= -->
@@ -36,6 +38,7 @@
         <String xml:lang="it-IT">Vuoi sintonizzarti sulla ~b~frequenza ~s~consigliata (~y~{0}~s~)?</String>
         <String xml:lang="pl-PL">Czy chcesz połączyć się z rekomendowaną ~b~częstotliwością radiową ~s~(~y~{0}~s~)?</String>
         <String xml:lang="tr-TR">Tavsiye edilen seviyede olmasını ister misin  ~b~radyo frekansının ~s~(~y~{0}~s~)?</String>
+        <String xml:lang="zh-Hant">您想收聽推薦的 ~b~無線電頻率 ~s~(~y~{0}~s~)嗎?</String>
     </Entry>
 
     <Entry Id="btn_tune_in">
@@ -46,6 +49,7 @@
         <String xml:lang="nl-NL">Radio instellen</String>
         <String xml:lang="pl-PL">Połącz się</String>
         <String xml:lang="tr-TR">Ayarla</String>
+        <String xml:lang="zh-Hant">收聽</String>
     </Entry>
 
     <Entry Id="btn_tune_in_hold">
@@ -56,6 +60,7 @@
         <String xml:lang="nl-NL">Radio instellen (vasthouden)</String>
         <String xml:lang="pl-PL">Połącz się (przytrzymaj)</String>
         <String xml:lang="tr-TR">Ayarla (basılı tutun)</String>
+        <String xml:lang="zh-Hant">收聽（按住）</String>
     </Entry>
 
     <!-- ========================= -->
@@ -69,6 +74,7 @@
         <String xml:lang="it-IT">Non era presente alcun ~p~paramedico ~s~nelle vicinanze quindi sei stato trasferito automaticamente a un ~r~ospedale~s~.</String>
         <String xml:lang="pl-PL">W pobliżu nie było ~p~medyków ~s~, a ty zostałeś przetransportowany do ~r~szpitala~s~.</String>
         <String xml:lang="tr-TR">Yakınlarda ~p~sağlık görevlileri ~s~, yoktu ve otomatik olarak bir yere nakledildin ~r~hastane~s~.</String>
+        <String xml:lang="zh-Hant">附近沒有~p~醫護~s~,你被自動轉移到~r~醫院~s~.</String>
     </Entry>
 
     <Entry Id="some_paramedics">
@@ -79,6 +85,7 @@
         <String xml:lang="it-IT">Ci sono uno o più ~p~paramedici ~s~nelle vicinanze. Non puoi respawnare finché il timer non scade, i paramedici non lasciano l'area, o muoiono.</String>
         <String xml:lang="pl-PL">W pobliżu jest co najmniej jeden ~p~medyk ~s~ Nie możesz się odrodzić do póki nie minie czas, medycy oddalą się z okolicy lub zginą.</String>
         <String xml:lang="tr-TR">Yakınlarda bir veya daha fazla ~p~sağlık görevlisi ~s~ var. Zamanlayıcı bitene, sağlık görevlileri bölgeyi terk edene veya onlar ölene kadar yeniden doğamazsınız.</String>
+        <String xml:lang="zh-Hant">附近有一名或多名護理人員. 在倒數計時結束或護理人員離開該區域或死亡之前,您無法重生.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -92,6 +99,7 @@
         <String xml:lang="it-IT">Protezione per lo spawn ~g~attivata~s~.</String>
         <String xml:lang="pl-PL">Ochrona po odrodzeniu ~g~aktywna~s~.</String>
         <String xml:lang="tr-TR">Yeniden doğma koruması ~g~aktif~s~.</String>
+        <String xml:lang="zh-Hant">復活保護 ~g~啟用~s~.</String>
     </Entry>
 
     <Entry Id="spawn_protection_off">
@@ -102,6 +110,7 @@
         <String xml:lang="it-IT">Protezione per lo spawn ~r~disattivata~s~.</String>
         <String xml:lang="pl-PL">Ochrona po odrodzeniu ~r~nieaktywna~s~.</String>
         <String xml:lang="tr-TR">Yeniden doğma koruması ~r~devre dışı bırakıldı~s~.</String>
+        <String xml:lang="zh-Hant">復活保護 ~g~停用~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -115,6 +124,7 @@
         <String xml:lang="it-IT">{0} ~s~è morto.</String>
         <String xml:lang="pl-PL">{0} ~s~zginął.</String>
         <String xml:lang="tr-TR">{0} ~s~öldü.</String>
+        <String xml:lang="zh-Hant">{0} ~s~死亡了.</String>
     </Entry>
 
     <Entry Id="killed_by_npc">
@@ -124,7 +134,8 @@
         <String xml:lang="nl-NL">{0} ~s~is vermoord door een ~r~NPC~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è stato ucciso da un ~r~NPC~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~został zabity przez ~r~bota~s~.</String>
-        <String xml:lang="tr-TR">{0} ~s~tarafından öldürüldü ~r~NPC~s~.</String>
+        <String xml:lang="tr-TR">{0} ~s~tarafından öldürüldü ~r~NPC~s~.</String>  
+        <String xml:lang="zh-Hant">{0} ~s~被 ~r~NPC~s~ 擊殺了.</String>
     </Entry>
 
     <Entry Id="killed_by_animal">
@@ -135,6 +146,7 @@
         <String xml:lang="it-IT">{0} ~s~è stato ucciso da un ~r~animale~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~został zabity przez ~r~zwierzę~s~.</String>
         <String xml:lang="tr-TR">{0} ~s~tarafından öldürüldü ~r~hayvan~s~.</String>
+        <String xml:lang="zh-Hant">{0} ~s~被 ~r~動物~s~ 擊殺了.</String>
     </Entry>
 
     <Entry Id="killed_by_od">
@@ -145,6 +157,7 @@
         <String xml:lang="it-IT">{0} ~s~è morto di ~r~overdose~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~zginął z ~r~przedawkowania narkotyków~s~.</String>
         <String xml:lang="tr-TR">{0} ~s~sonucu öldü ~r~aşırı doz~s~.</String>
+        <String xml:lang="zh-Hant">{0} ~s~死於~r~使用藥物過量~s.</String>
     </Entry>
 
     <Entry Id="drowned">
@@ -155,6 +168,7 @@
         <String xml:lang="it-IT">{0} ~s~è ~r~annegato~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~ ~r~utonął~s~.</String>
         <String xml:lang="tr-TR">{0} ~s~ ~r~boğuldu~s~.</String>
+        <String xml:lang="zh-Hant">{0} ~s~ ~r~溺死了~s~.</String>
     </Entry>
 
     <Entry Id="died_from_fall">
@@ -165,6 +179,7 @@
         <String xml:lang="it-IT">{0} ~s~è morto per una ~r~caduta~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~zginał od ~r~upadku~s~.</String>
         <String xml:lang="tr-TR">{0} ~s~sonucu öldü ~r~yüksekten düşme~s~.</String>
+        <String xml:lang="zh-Hant">{0} ~s~死於~r~墜落~s~.</String>
     </Entry>
 
     <Entry Id="died_from_explosion">
@@ -172,9 +187,10 @@
         <String xml:lang="de-DE">{0} ~s~ist durch eine ~r~Explosion~s~ gestorben.</String>
         <String xml:lang="fr-FR">{0} ~s~est mort d'une ~r~explosion~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~is doodgegaan door een ~r~explosie~s~.</String>
-        <String xml:lang="it-IT">{0} ~s~è stato ucciso da un'~r~esplosione~s~.</String>
+        <String xml:lang="it-IT">{0} ~s~è morto da un'~r~esplosione~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~został ~r~wysadzony~s~ w powietrze.</String>
         <String xml:lang="tr-TR">{0} ~s~sonucu öldü ~r~patlama~s~.</String>
+        <String xml:lang="zh-Hant">{0} ~s~死於~r~爆炸~s~.</String>
     </Entry>
 
     <Entry Id="died_in_fire">
@@ -185,6 +201,7 @@
         <String xml:lang="it-IT">{0} ~s~è morto in un ~r~incendio~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~zginął w ~r~pożarze~s~.</String>
         <String xml:lang="tr-TR">{0} ~s~sonucu öldü ~r~yangın~s~.</String>
+        <String xml:lang="zh-Hant">{0} ~s~ ~r~被燒死了~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -198,6 +215,7 @@
         <String xml:lang="it-IT">con un ~r~esplosivo~s~</String>
         <String xml:lang="pl-PL">~r~eksplozją~s~</String>
         <String xml:lang="tr-TR">bir ~r~patlayıcıyla~s~</String>
+        <String xml:lang="zh-Hant">用~r~爆裂物~s~</String>
     </Entry>
 
     <Entry Id="with_vehicle">
@@ -208,6 +226,7 @@
         <String xml:lang="it-IT">con un ~r~veicolo~s~</String>
         <String xml:lang="pl-PL">~r~pojazdem~s~</String>
         <String xml:lang="tr-TR">bir ~r~araçla~s~</String>
+        <String xml:lang="zh-Hant">用~r~載具~s~</String>
     </Entry>
 
     <Entry Id="with_water_cannon">
@@ -217,7 +236,8 @@
         <String xml:lang="nl-NL">met een ~r~water kanon~s~</String>
         <String xml:lang="it-IT">con un ~r~cannone ad acqua~s~</String>
         <String xml:lang="pl-PL">~r~działkiem wodnym~s~</String>
-        <String xml:lang="tr-TR">bir ~r~tazyikli suyla~s~</String>
+        <String xml:lang="tr-TR">~r~tazyikli su~s~</String>
+        <String xml:lang="zh-Hant">用~r~水砲~s~</String>
     </Entry>
 
     <Entry Id="with_fists">
@@ -227,7 +247,8 @@
         <String xml:lang="nl-NL">met ~r~vuisten~s~</String>
         <String xml:lang="it-IT">a ~r~pugni~s~</String>
         <String xml:lang="pl-PL">~r~pięściami~s~</String>
-        <String xml:lang="tr-TR">~r~yumruklarla~s~</String>
+        <String xml:lang="tr-TR">~r~yumrukla~s~</String>
+        <String xml:lang="zh-Hant">用~r~拳頭~s~</String>
     </Entry>
 
     <Entry Id="with_blade">
@@ -237,7 +258,8 @@
         <String xml:lang="nl-NL">met een ~r~mes~s~</String>
         <String xml:lang="it-IT">con un'~r~arma da taglio~s~</String>
         <String xml:lang="pl-PL">~r~ostrzem~s~</String>
-        <String xml:lang="tr-TR">bir ~r~bıçakla~s~</String>
+        <String xml:lang="tr-TR">~r~bıçakla~s~</String>
+        <String xml:lang="zh-Hant">用~r~刀子~s~</String>
     </Entry>
 
     <Entry Id="with_melee_weapon">
@@ -247,7 +269,8 @@
         <String xml:lang="nl-NL">met een ~r~steekwapen~s~</String>
         <String xml:lang="it-IT">con un'~r~arma da mischia~s~</String>
         <String xml:lang="pl-PL">~r~bronią białą~s~</String>
-        <String xml:lang="tr-TR">bir ~r~yakın dövüş silahıyla~s~</String>
+        <String xml:lang="tr-TR">~r~yakın dövüş silahlarıyla~s~</String>
+        <String xml:lang="zh-Hant">用~r~近戰武器~s~</String>
     </Entry>
 
     <Entry Id="with_revolver">
@@ -257,7 +280,8 @@
         <String xml:lang="nl-NL">met een ~r~revolver~s~</String>
         <String xml:lang="it-IT">con una ~r~revolver~s~</String>
         <String xml:lang="pl-PL">~r~rewolwerem~s~</String>
-        <String xml:lang="tr-TR">bir ~r~revolverla~s~</String>
+        <String xml:lang="tr-TR">~r~revolver~s~</String>
+        <String xml:lang="zh-Hant">用~r~左輪手槍~s~</String>
     </Entry>
 
     <Entry Id="with_pistol">
@@ -267,7 +291,8 @@
         <String xml:lang="nl-NL">met een ~r~pistool~s~</String>
         <String xml:lang="it-IT">con una ~r~pistola~s~</String>
         <String xml:lang="pl-PL">~r~pistoletem~s~</String>
-        <String xml:lang="tr-TR">~bir r~tabancayla~s~</String>
+        <String xml:lang="tr-TR">~r~tabancayla~s~</String>
+        <String xml:lang="zh-Hant">用~r~手槍~s~</String>
     </Entry>
 
     <Entry Id="with_smg">
@@ -277,7 +302,8 @@
         <String xml:lang="nl-NL">met een ~r~SMG~s~</String>
         <String xml:lang="it-IT">con una ~r~mitraglietta~s~</String>
         <String xml:lang="pl-PL">~r~pistoletem maszynowym~s~</String>
-        <String xml:lang="tr-TR">bir ~r~hafif makineli tüfekle~s~</String>
+        <String xml:lang="tr-TR">~r~hafif makineli tüfekle~s~</String>
+        <String xml:lang="zh-Hant">用~r~衝鋒槍~s~</String>
     </Entry>
 
     <Entry Id="with_lmg">
@@ -287,7 +313,8 @@
         <String xml:lang="nl-NL">met een ~r~LMG~s~</String>
         <String xml:lang="it-IT">con un ~r~mitra~s~</String>
         <String xml:lang="pl-PL">~r~karabinem maszynowym~s~</String>
-        <String xml:lang="tr-TR">bir ~r~makineli tüfekle~s~</String>
+        <String xml:lang="tr-TR">~r~makineli tüfekle~s~</String>
+        <String xml:lang="zh-Hant">用~r~輕機槍~s~</String>
     </Entry>
 
     <Entry Id="with_shotgun">
@@ -297,7 +324,8 @@
         <String xml:lang="nl-NL">met een ~r~shotgun~s~</String>
         <String xml:lang="it-IT">con uno ~r~shotgun~s~</String>
         <String xml:lang="pl-PL">~r~śrutówką~s~</String>
-        <String xml:lang="tr-TR">bir ~r~pompalı tüfekle~s~</String>
+        <String xml:lang="tr-TR">~r~pompalı tüfekle~s~</String>
+        <String xml:lang="zh-Hant">用~r~霰彈槍~s~</String>
     </Entry>
 
     <Entry Id="with_assault_rifle">
@@ -307,7 +335,8 @@
         <String xml:lang="nl-NL">met een ~r~assault rifle~s~</String>
         <String xml:lang="it-IT">con un ~r~fucile d'assalto~s~</String>
         <String xml:lang="pl-PL">~r~karabinem szturmowym~s~</String>
-        <String xml:lang="tr-TR">bir ~r~saldırı tüfeğiyle~s~</String>
+        <String xml:lang="tr-TR">~r~saldırı tüfeğiyle~s~</String>
+        <String xml:lang="zh-Hant">用~r~突擊步槍~s~</String>
     </Entry>
 
     <Entry Id="with_precision_rifle">
@@ -317,7 +346,8 @@
         <String xml:lang="nl-NL">met een ~r~scherpschutter~s~</String>
         <String xml:lang="it-IT">con un ~r~fucile di precisione~s~</String>
         <String xml:lang="pl-PL">~r~snajperką~s~</String>
-        <String xml:lang="tr-TR">bir ~r~hassas tüfekle~s~</String>
+        <String xml:lang="tr-TR">~r~keskin nişancıyla~s~</String>
+        <String xml:lang="zh-Hant">用~r~精準步槍~s~</String>
     </Entry>
 
     <Entry Id="with_firearm">
@@ -327,7 +357,8 @@
         <String xml:lang="nl-NL">met een ~r~vuurwapen~s~</String>
         <String xml:lang="it-IT">con un'~r~arma da fuoco~s~</String>
         <String xml:lang="pl-PL">~r~bronią palną~s~</String>
-        <String xml:lang="tr-TR">bir ~r~ateşli silahla~s~</String>
+        <String xml:lang="tr-TR">~r~ateşli silahla~s~</String>
+        <String xml:lang="zh-Hant">用~r~重型武器~s~</String>
     </Entry>
 
     <Entry Id="with_fire">
@@ -337,7 +368,8 @@
         <String xml:lang="nl-NL">met ~r~vuur~s~</String>
         <String xml:lang="it-IT">con il ~r~fuoco~s~</String>
         <String xml:lang="pl-PL">~r~ogniem~s~</String>
-        <String xml:lang="tr-TR">~r~ateşle~s~</String>
+        <String xml:lang="tr-TR">~r~ateş~s~</String>
+        <String xml:lang="zh-Hant">用~r~火~s~</String>
     </Entry>
 
     <Entry Id="with_gas">
@@ -348,6 +380,7 @@
         <String xml:lang="it-IT">con il ~r~gas~s~</String>
         <String xml:lang="pl-PL">~r~gazem~s~</String>
         <String xml:lang="tr-TR">~r~gazla~s~</String>
+        <String xml:lang="zh-Hant">用~r~氣體~s~</String>
     </Entry>
 
     <Entry Id="with_weapon">
@@ -357,7 +390,8 @@
         <String xml:lang="nl-NL">met een ~r~wapen~s~</String>
         <String xml:lang="it-IT">con un'~r~arma~s~</String>
         <String xml:lang="pl-PL">~r~bronią~s~</String>
-        <String xml:lang="tr-TR">bir ~r~silahla~s~</String>
+        <String xml:lang="tr-TR">~r~silahla~s~</String>
+        <String xml:lang="zh-Hant">用~r~武器~s~</String>
     </Entry>
 
     <!-- ========================= -->
@@ -371,6 +405,7 @@
         <String xml:lang="it-IT">~r~(colpo alla testa)~s~</String>
         <String xml:lang="pl-PL">~r~strzałem w głowę~s~</String>
         <String xml:lang="tr-TR">~r~kafadan vuruş~s~</String>
+        <String xml:lang="zh-Hant">~r~爆頭~s~</String>
     </Entry>
 
     <Entry Id="for_bounty">
@@ -381,6 +416,7 @@
         <String xml:lang="it-IT">per ~g~{0}~s~</String>
         <String xml:lang="pl-PL">by zdobyć nagrodę ~g~{0}~s~</String>
         <String xml:lang="tr-TR">için ~g~{0}~s~</String>
+        <String xml:lang="zh-Hant">贏得獎金 ~g~{0}~s~</String>
     </Entry>
 
     <Entry Id="in_self_defense">
@@ -390,7 +426,8 @@
         <String xml:lang="nl-NL">in ~g~zelfverdediging~s~</String>
         <String xml:lang="it-IT">per ~g~legittima difesa~s~</String>
         <String xml:lang="pl-PL">w ~r~samoobronie~s~</String>
-        <String xml:lang="tr-TR">~g~nefsi müdafaa~s~</String>
+        <String xml:lang="tr-TR">için ~g~kendini savunduğu~s~</String>
+        <String xml:lang="zh-Hant">~g~自我防衛~s~</String>
     </Entry>
 
     <Entry Id="in_revenge">
@@ -401,6 +438,7 @@
         <String xml:lang="it-IT">per ~r~vendetta~s~</String>
         <String xml:lang="pl-PL">w ~r~zemście~s~</String>
         <String xml:lang="tr-TR">için ~r~intikam~s~</String>
+        <String xml:lang="zh-Hant">~r~復仇~s~</String>
     </Entry>
 
     <Entry Id="in_redzone">
@@ -411,6 +449,7 @@
         <String xml:lang="it-IT">in ~r~zona rossa~s~</String>
         <String xml:lang="pl-PL">w ~r~strefie zagrożonej~s~</String>
         <String xml:lang="tr-TR">içinde ~r~kırmızı bölge~s~</String>
+        <String xml:lang="zh-Hant">在 ~r~紅區~s~</String>
     </Entry>
 
     <!-- ========================= -->
@@ -434,6 +473,7 @@
         <String xml:lang="it-IT">{0} ~s~ha ucciso {1} ~s~{2} {3} {4}</String>
         <String xml:lang="pl-PL">{0} ~s~zabił {1} ~s~ {3} {2} {4}</String>
         <String xml:lang="tr-TR">{0} ~s~öldürdü {1} ~s~{2} {3} {4}</String>
+        <String xml:lang="zh-Hant">{0} ~s~{2} ~s~{4} {3} 擊殺了 {1}</String>
     </Entry>
 
     <!-- ========================= -->
@@ -447,6 +487,7 @@
         <String xml:lang="it-IT">Il paramedico {0} ti ha rianimato.</String>
         <String xml:lang="pl-PL">Medyk {0} cię ocucił.</String>
         <String xml:lang="tr-TR">Sağlık görevlisi {0} seni canlandırdı.</String>
+        <String xml:lang="zh-Hant">醫護 {0} 復活了你.</String>
     </Entry>
 
     <Entry Id="medic_failed">
@@ -457,6 +498,7 @@
         <String xml:lang="it-IT">Il ~p~paramedico ~s~ha ~r~fallito ~s~la rianimazione quindi sei stato trasferito in un ~r~ospedale~s~.</String>
         <String xml:lang="pl-PL">~p~Medykowi ~r~nie udało się ~s~ciebie ocucić i zostałeś przetransportowany do ~r~szpitala~s~.</String>
         <String xml:lang="tr-TR">~p~Sağlık görevlisi ~r~başaramadı ~s~seni canlandırmak için başka bir yere nakledildin ~r~hastane~s~.</String>
+        <String xml:lang="zh-Hant">~p~護理人員~s~~r~未能及時~s~救活你，你被轉移到~r~醫院~s~.</String>
     </Entry>
 
 
@@ -473,6 +515,7 @@
         <String xml:lang="it-IT">Visualizza la lista di giocatori sui quali ti puoi vendicare e quelli che cercano vendetta su di te.</String>
         <String xml:lang="pl-PL">Zobacz listę graczy na których możesz się zemścić oraz mogących zemścić się na tobie.</String>
         <String xml:lang="tr-TR">İntikam alabileceğiniz ve sizden intikam alabilecek oyuncuların listesini görün.</String>
+        <String xml:lang="zh-Hant">查看你可以進行報復或可以報復你的玩家列表.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -486,6 +529,7 @@
         <String xml:lang="it-IT">Vendetta</String>
         <String xml:lang="pl-PL">Zemsta</String>
         <String xml:lang="tr-TR">İntikam</String>
+        <String xml:lang="zh-Hant">復仇</String>
     </Entry>
 
     <Entry Id="menu_revenge_subtitle">
@@ -496,6 +540,7 @@
         <String xml:lang="it-IT">Informazioni su vendetta</String>
         <String xml:lang="pl-PL">Informacje na temat zemsty</String>
         <String xml:lang="tr-TR">İntikam bilgisi</String>
+        <String xml:lang="zh-Hant">復仇資訊</String>
     </Entry>
 
     <Entry Id="menu_revenge_targets_text">
@@ -506,6 +551,7 @@
         <String xml:lang="it-IT">Bersagli vendetta</String>
         <String xml:lang="pl-PL">Cele zemsty</String>
         <String xml:lang="tr-TR">İntikam hedefleri</String>
+        <String xml:lang="zh-Hant">復仇目標</String>
     </Entry>
 
     <Entry Id="menu_revenge_targets_descr">
@@ -516,16 +562,18 @@
         <String xml:lang="it-IT">Lista di giocatori che puoi uccidere per ~r~vendetta~s~.</String>
         <String xml:lang="pl-PL">Lista graczy na których możesz się ~r~zemścić ~s~</String>
         <String xml:lang="tr-TR">Alabileceğiniz oyuncuların listesi ~r~intikam ~s~.</String>
+        <String xml:lang="zh-Hant">你可以~r~復仇~s~的玩家列表.</String>
     </Entry>
 
     <Entry Id="menu_revenge_claimants_text">
         <String xml:lang="en-US">Revenge Claimants</String>
         <String xml:lang="de-DE">Rache Geschädigte</String>
         <String xml:lang="fr-FR">Revanches dont tu es la Cible</String>
-        <String xml:lang="nl-NL">Revenge Eisers</String>
+        <String xml:lang="nl-NL">Revenge eisers</String>
         <String xml:lang="it-IT">Reclamanti vendetta</String>
         <String xml:lang="pl-PL">Żądający zemsty</String>
         <String xml:lang="tr-TR">İntikam alacaklılar</String>
+        <String xml:lang="zh-Hant">復仇索賠者</String>
     </Entry>
 
     <Entry Id="menu_revenge_claimants_descr">
@@ -536,6 +584,7 @@
         <String xml:lang="it-IT">Lista di giocatori che possono ucciderti per ~r~vendetta~s~.</String>
         <String xml:lang="pl-PL">Lista graczy którzy mogą się na tobie ~r~zemścić ~s~</String>
         <String xml:lang="tr-TR">Alabilecek oyuncuların listesi ~r~intikam ~s~</String>
+        <String xml:lang="zh-Hant">可以對你進行~r~復仇~s~的玩家列表.</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_targets_text">
@@ -546,6 +595,7 @@
         <String xml:lang="it-IT">Nessun bersaglio di vendetta :(</String>
         <String xml:lang="pl-PL">Brak celów do zemsty :(</String>
         <String xml:lang="tr-TR">İntikam için hedef yok :(</String>
+        <String xml:lang="zh-Hant">沒有可復仇目標 :(</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_targets_descr">
@@ -556,6 +606,7 @@
         <String xml:lang="it-IT">Ci dispiace, non puoi uccidere nessuno per vendetta al momento.</String>
         <String xml:lang="pl-PL">Niestety nie możesz zabić nikogo w zemście.</String>
         <String xml:lang="tr-TR">Üzgünüm, şu anda intikam için öldürebileceğin kimse yok.</String>
+        <String xml:lang="zh-Hant">抱歉,目前你無法殺死任何人來報仇.</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_claimants_text">
@@ -566,6 +617,7 @@
         <String xml:lang="it-IT">Nessun reclamante di vendetta :)</String>
         <String xml:lang="pl-PL">Brak żdających zemsty :)</String>
         <String xml:lang="tr-TR">İntikam talep eden yok :)</String>
+        <String xml:lang="zh-Hant">沒有尋仇者:)</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_claimants_descr">
@@ -576,6 +628,7 @@
         <String xml:lang="it-IT">Evvai! Nessuno sta cercando di ucciderti per vendetta!</String>
         <String xml:lang="pl-PL">Hurra! Nikt nie próbuje zabić cię w zemście!</String>
         <String xml:lang="tr-TR">Yaşasın! İntikam için kimse seni öldürmeye çalışmıyor!</String>
+        <String xml:lang="zh-Hant">耶!沒有人想殺你來報復!</String>
     </Entry>
 
     <!-- 0 = job name, for example Police Officer -->
@@ -584,9 +637,10 @@
         <String xml:lang="de-DE">~r~Du darfst keine Rache an anderen Spielern als {0} nehmen.</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas prendre ta revanche sur un autre joueur en tant que {0}.</String>
         <String xml:lang="nl-NL">~r~Je mag geen revenge nemen op andere spelers als een {0}</String>
-        <String xml:lang="it-IT">~r~Non puoi reclamare vendetta su altri giocatori come {0}.</String>
+        <String xml:lang="it-IT">~r~Non puoi reclamare vendetta sugli altri giocatori come {0}.</String>
         <String xml:lang="pl-PL">~r~Nie możesz zabijać w zemście jako {0}.</String>
         <String xml:lang="tr-TR">~r~Diğer oyunculardan intikam alamazsınız {0}.</String>
+        <String xml:lang="zh-Hant">~r~作為一名 {0}，你不能報復其他玩家.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -601,6 +655,7 @@
         <String xml:lang="it-IT">~p~Fattura dell'ospedale</String>
         <String xml:lang="pl-PL">~p~Rachunek za leczenie</String>
         <String xml:lang="tr-TR">~p~Hastane faturası</String>
+        <String xml:lang="zh-Hant">~p~醫院帳單.</String>
     </Entry>
 
     <Entry Id="health_ins_activated">
@@ -611,6 +666,7 @@
         <String xml:lang="it-IT">~b~Assicurazione sanitaria ~g~attivata</String>
         <String xml:lang="pl-PL">~b~Ubezpieczenie zdrowotne ~s~aktywowane</String>
         <String xml:lang="tr-TR">~b~Sağlık sigortası ~s~etkinleştirildi</String>
+        <String xml:lang="zh-Hant">~b~健康保險 ~s~已啟動</String>
     </Entry>
 
     <Entry Id="covered_by_insurance">
@@ -621,6 +677,7 @@
         <String xml:lang="it-IT">Coperto dall'assicurazione: ~b~{0}</String>
         <String xml:lang="pl-PL">Pokryte przez ubezpieczenie: ~b~{0}</String>
         <String xml:lang="tr-TR">Sigorta kapsamında: ~b~{0}</String>
+        <String xml:lang="zh-Hant">受保險保障: ~b~{0}</String>
     </Entry>
 
     <Entry Id="paid_by_check">
@@ -631,6 +688,7 @@
         <String xml:lang="it-IT">Pagato con assegno: ~g~{0}</String>
         <String xml:lang="pl-PL">Zapłacone przelewem: ~g~{0}</String> <!-- Replaced check with wire transfer as checks are not available in Poland, many people I know, don't know what a check is -->
         <String xml:lang="tr-TR">Banka havalesi ile ödenir: ~g~{0}</String>
+        <String xml:lang="zh-Hant">通過支票支付: ~b~{0}</String>
     </Entry>
 
     <Entry Id="paid_in_cash">
@@ -641,6 +699,7 @@
         <String xml:lang="it-IT">Pagato in contanti: ~g~{0}</String>
         <String xml:lang="pl-PL">Zapłacono gotówką: ~g~{0}</String>
         <String xml:lang="tr-TR">Nakit ödeme: ~g~{0}</String>
+        <String xml:lang="zh-Hant">通過現金支付: ~b~{0}</String>
     </Entry>
 
     <!-- I just changed this from "unpaid" to "outstanding" in English too, as it gives a better understanding -->
@@ -653,5 +712,6 @@
         <String xml:lang="it-IT">Insoluto: ~r~{0}</String>
         <String xml:lang="pl-PL">Dług: ~g~{0}</String>
         <String xml:lang="tr-TR">Borç: ~r~{0}</String>
+        <String xml:lang="zh-Hant">傑出的: ~b~{0}</String>
     </Entry>
 </Entries>
