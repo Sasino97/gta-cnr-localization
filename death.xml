@@ -255,7 +255,7 @@
         <String xml:lang="nl-NL">met een ~r~water kanon~s~</String>
         <String xml:lang="it-IT">con un ~r~cannone ad acqua~s~</String>
         <String xml:lang="pl-PL">~r~działkiem wodnym~s~</String>
-        <String xml:lang="tr-TR">bir ~r~tazyikli suyla~s~</String>
+        <String xml:lang="tr-TR">~r~tazyikli suyla~s~</String>
         <String xml:lang="zh-Hant">用~r~水砲~s~</String>
         <String xml:lang="es-ES">con un ~r~cañón de agua~s~</String>
     </Entry>
@@ -267,7 +267,7 @@
         <String xml:lang="nl-NL">met ~r~vuisten~s~</String>
         <String xml:lang="it-IT">a ~r~pugni~s~</String>
         <String xml:lang="pl-PL">~r~pięściami~s~</String>
-        <String xml:lang="tr-TR">~r~yumruklarla~s~</String>
+        <String xml:lang="tr-TR">~r~yumrukla~s~</String>
         <String xml:lang="zh-Hant">用~r~拳頭~s~</String>
         <String xml:lang="es-ES">con ~r~puños~s~</String>
     </Entry>
@@ -308,7 +308,7 @@
         <String xml:lang="es-ES">con un ~r~revólver~s~</String>
     </Entry>
 
-     <Entry Id="with_revolver_headshot">
+    <Entry Id="with_revolver_headshot">
         <String xml:lang="en-US">with a ~r~revolver headshot~s~</String>
         <String xml:lang="de-DE">mit einem ~r~Revolver Kopfschuss~s~</String>
         <String xml:lang="it-IT">con un ~r~colpo di revolver alla testa~s~</String>
@@ -323,7 +323,7 @@
         <String xml:lang="nl-NL">met een ~r~pistool~s~</String>
         <String xml:lang="it-IT">con una ~r~pistola~s~</String>
         <String xml:lang="pl-PL">~r~pistoletem~s~</String>
-        <String xml:lang="tr-TR">~bir r~tabancayla~s~</String>
+        <String xml:lang="tr-TR">bir ~r~tabancayla~s~</String>
         <String xml:lang="zh-Hant">用~r~手槍~s~</String>
         <String xml:lang="es-ES">con una ~r~pistola~s~</String>
     </Entry>
@@ -423,7 +423,7 @@
         <String xml:lang="nl-NL">met een ~r~scherpschutter~s~</String>
         <String xml:lang="it-IT">con un ~r~fucile di precisione~s~</String>
         <String xml:lang="pl-PL">~r~snajperką~s~</String>
-        <String xml:lang="tr-TR">bir ~r~hassas tüfekle~s~</String>
+        <String xml:lang="tr-TR">bir ~r~keskin nişancıyla~s~</String>
         <String xml:lang="zh-Hant">用~r~精準步槍~s~</String>
         <String xml:lang="es-ES">con un ~r~rifle de precisión~s~</String>
     </Entry>
@@ -487,7 +487,7 @@
         <String xml:lang="nl-NL">met een ~r~wapen~s~</String>
         <String xml:lang="it-IT">con un'~r~arma~s~</String>
         <String xml:lang="pl-PL">~r~bronią~s~</String>
-        <String xml:lang="tr-TR">bir ~r~silahla~s~</String>
+        <String xml:lang="tr-TR">~r~silahla~s~</String>
         <String xml:lang="zh-Hant">用~r~武器~s~</String>
         <String xml:lang="es-ES">con un ~r~arma~s~</String>
     </Entry>
@@ -495,16 +495,6 @@
     <!-- ========================= -->
     <!-- Death Special Cases -->
     <!-- ========================= -->
-    <Entry Id="headshot">
-        <String xml:lang="en-US">~r~headshot~s~</String>
-        <String xml:lang="de-DE">~r~-Kopfschuss~s~</String>
-        <String xml:lang="fr-FR">~r~(tir dans la tête)~s~</String>
-        <String xml:lang="nl-NL">~r~headshot~s~</String>
-        <String xml:lang="it-IT">~r~(colpo alla testa)~s~</String>
-        <String xml:lang="pl-PL">~r~strzałem w głowę~s~</String>
-        <String xml:lang="tr-TR">~r~kafadan vuruş~s~</String>
-        <String xml:lang="es-ES">~r~(disparo a la cabeza)~s~</String>
-    </Entry>
 
     <Entry Id="for_bounty">
         <String xml:lang="en-US">for ~g~{0}~s~</String>
@@ -525,7 +515,7 @@
         <String xml:lang="nl-NL">in ~g~zelfverdediging~s~</String>
         <String xml:lang="it-IT">per ~g~legittima difesa~s~</String>
         <String xml:lang="pl-PL">w ~r~samoobronie~s~</String>
-        <String xml:lang="tr-TR">~g~nefsi müdafaa~s~</String>
+        <String xml:lang="tr-TR">için ~g~nefsi müdafaa~s~</String>
         <String xml:lang="zh-Hant">~g~自我防衛~s~</String>
         <String xml:lang="es-ES">en ~g~defensa propia~s~</String>
     </Entry>
@@ -560,21 +550,20 @@
     <!-- {0} = killer -->
     <!-- {1} = victim -->
     <!-- {2} = cause string -->
-    <!-- {3} = headshot string -->
-    <!-- {4} = special case string (bounty/revenge/redzone) -->
+    <!-- {3} = special case string (bounty/revenge/redzone) -->
     <!-- Add spaces as necessary, assuming a full message, don't worry if the string doesn't show up then the script will remove the extra spaces -->
     <!-- Example kill message: Sasino (152) killed theDoc (249) with a sniper rifle headshot in revenge. -->
-    <!--                      [    {0}    ]        [    {1}   ] [       {2}       ] [  {3} ] [   {4}   ] -->
+    <!--                       [    {0}    ]        [    {1}   ] [          {2}            ] [   {3}  ] -->
     <!-- I know that the headshot part is complicated to insert due to grammatical rules, if that's the case then just wrap the translation of the "headshot" -->
     <!-- entry in parenthesis, that way it should not break the grammatical structure. If it still does then please contact Sasino and we can find another way. -->
     <Entry Id="kill_msg">
-        <String xml:lang="en-US">{0} ~s~killed {1} ~s~{2} {3} {4}</String>
-        <String xml:lang="de-DE">{0} ~s~hat {1} ~s~{2} {3} {4} getötet</String>
-        <String xml:lang="fr-FR">{0} ~s~a tué {1} ~s~{2} {3} {4}</String>
-        <String xml:lang="nl-NL">{0} ~s~heeft {1} ~s~vermoord {2} {3} {4}</String>
-        <String xml:lang="it-IT">{0} ~s~ha ucciso {1} ~s~{2} {3} {4}</String>
-        <String xml:lang="pl-PL">{0} ~s~zabił {1} ~s~ {3} {2} {4}</String>
-        <String xml:lang="tr-TR">{0} ~s~öldürdü {1} ~s~{2} {3} {4}</String>
+        <String xml:lang="en-US">{0} ~s~killed {1} ~s~{2} {3}</String>
+        <String xml:lang="de-DE">{0} ~s~hat {1} ~s~{2} {3} getötet</String>
+        <String xml:lang="fr-FR">{0} ~s~a tué {1} ~s~{2} {3}</String>
+        <String xml:lang="nl-NL">{0} ~s~heeft {1} ~s~vermoord {2} {3}</String>
+        <String xml:lang="it-IT">{0} ~s~ha ucciso {1} ~s~{2} {3}</String>
+        <String xml:lang="pl-PL">{0} ~s~zabił {1} ~s~ {2} {3}</String>
+        <String xml:lang="tr-TR">{0} ~s~öldürdü {1} ~s~{2} {3}</String>
         <String xml:lang="zh-Hant">{0} ~s~{2} ~s~{3} 擊殺了 {1}</String>
         <String xml:lang="es-ES">{0} ~s~mató a {1} ~s~{2} {3} {4}</String>
     </Entry>
@@ -680,7 +669,7 @@
         <String xml:lang="de-DE">Rache Geschädigte</String>
         <String xml:lang="fr-FR">Revanches dont tu es la Cible</String>
         <String xml:lang="nl-NL">Revenge Eisers</String>
-        <String xml:lang="it-IT">Reclamanti vendetta</String>
+        <String xml:lang="it-IT">Reclamanti Vendetta</String>
         <String xml:lang="pl-PL">Żądający zemsty</String>
         <String xml:lang="tr-TR">İntikam alacaklılar</String>
         <String xml:lang="zh-Hant">復仇索賠者</String>
@@ -731,7 +720,7 @@
         <String xml:lang="it-IT">Nessun reclamante di vendetta :)</String>
         <String xml:lang="pl-PL">Brak żdających zemsty :)</String>
         <String xml:lang="tr-TR">İntikam talep eden yok :)</String>
-        <String xml:lang="zh-Hant">沒有尋仇者:)</String>       
+        <String xml:lang="zh-Hant">沒有尋仇者 :)</String>       
         <String xml:lang="es-ES">Sin reclamantes de venganza :)</String>
     </Entry>
 
