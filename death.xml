@@ -284,6 +284,10 @@
         <String xml:lang="zh-Hant">用~r~左輪手槍~s~</String>
     </Entry>
 
+    <Entry Id="with_revolver_headshot">
+        <String xml:lang="en-US">with a ~r~revolver headshot~s~</String>
+    </Entry>
+
     <Entry Id="with_pistol">
         <String xml:lang="en-US">with a ~r~pistol~s~</String>
         <String xml:lang="de-DE">mit einer ~r~Pistole~s~</String>
@@ -293,6 +297,10 @@
         <String xml:lang="pl-PL">~r~pistoletem~s~</String>
         <String xml:lang="tr-TR">bir ~r~tabancayla~s~</String>
         <String xml:lang="zh-Hant">用~r~手槍~s~</String>
+    </Entry>
+
+    <Entry Id="with_pistol_headshot">
+        <String xml:lang="en-US">with a ~r~pistol headshot~s~</String>
     </Entry>
 
     <Entry Id="with_smg">
@@ -306,6 +314,10 @@
         <String xml:lang="zh-Hant">用~r~衝鋒槍~s~</String>
     </Entry>
 
+    <Entry Id="with_smg_headshot">
+        <String xml:lang="en-US">with an ~r~SMG headshot~s~</String>
+    </Entry>
+
     <Entry Id="with_lmg">
         <String xml:lang="en-US">with an ~r~LMG~s~</String>
         <String xml:lang="de-DE">mit einem ~r~Leichten Maschinengewehr~s~</String>
@@ -315,6 +327,10 @@
         <String xml:lang="pl-PL">~r~karabinem maszynowym~s~</String>
         <String xml:lang="tr-TR">bir ~r~makineli tüfekle~s~</String>
         <String xml:lang="zh-Hant">用~r~輕機槍~s~</String>
+    </Entry>
+
+    <Entry Id="with_lmg_headshot">
+        <String xml:lang="en-US">with an ~r~LMG headshot~s~</String>
     </Entry>
 
     <Entry Id="with_shotgun">
@@ -328,6 +344,10 @@
         <String xml:lang="zh-Hant">用~r~霰彈槍~s~</String>
     </Entry>
 
+    <Entry Id="with_shotgun_headshot">
+        <String xml:lang="en-US">with a ~r~shotgun headshot~s~</String>
+    </Entry>
+
     <Entry Id="with_assault_rifle">
         <String xml:lang="en-US">with an ~r~assault rifle~s~</String>
         <String xml:lang="de-DE">mit einem ~r~Sturmgewehr~s~</String>
@@ -337,6 +357,10 @@
         <String xml:lang="pl-PL">~r~karabinem szturmowym~s~</String>
         <String xml:lang="tr-TR">bir ~r~saldırı tüfeğiyle~s~</String>
         <String xml:lang="zh-Hant">用~r~突擊步槍~s~</String>
+    </Entry>
+
+    <Entry Id="with_assault_rifle_headshot">
+        <String xml:lang="en-US">with an ~r~assault rifle headshot~s~</String>
     </Entry>
 
     <Entry Id="with_precision_rifle">
@@ -350,6 +374,10 @@
         <String xml:lang="zh-Hant">用~r~精準步槍~s~</String>
     </Entry>
 
+    <Entry Id="with_precision_rifle_headshot">
+        <String xml:lang="en-US">with a ~r~precision rifle headshot~s~</String>
+    </Entry>
+
     <Entry Id="with_firearm">
         <String xml:lang="en-US">with a ~r~firearm~s~</String>
         <String xml:lang="de-DE">mit einer ~r~Schusswaffe~s~</String>
@@ -359,6 +387,10 @@
         <String xml:lang="pl-PL">~r~bronią palną~s~</String>
         <String xml:lang="tr-TR">bir ~r~ateşli silahla~s~</String>
         <String xml:lang="zh-Hant">用~r~重型武器~s~</String>
+    </Entry>
+
+    <Entry Id="with_firearm_headshot">
+        <String xml:lang="en-US">with a ~r~firearm headshot~s~</String>
     </Entry>
 
     <Entry Id="with_fire">
@@ -397,17 +429,6 @@
     <!-- ========================= -->
     <!-- Death Special Cases -->
     <!-- ========================= -->
-    <Entry Id="headshot">
-        <String xml:lang="en-US">~r~headshot~s~</String>
-        <String xml:lang="de-DE">~r~-Kopfschuss~s~</String>
-        <String xml:lang="fr-FR">~r~(tir dans la tête)~s~</String>
-        <String xml:lang="nl-NL">~r~headshot~s~</String>
-        <String xml:lang="it-IT">~r~(colpo alla testa)~s~</String>
-        <String xml:lang="pl-PL">~r~strzałem w głowę~s~</String>
-        <String xml:lang="tr-TR">~r~kafadan vuruş~s~</String>
-        <String xml:lang="zh-Hant">~r~爆頭~s~</String>
-    </Entry>
-
     <Entry Id="for_bounty">
         <String xml:lang="en-US">for ~g~{0}~s~</String>
         <String xml:lang="de-DE">für ~g~{0}~s~</String>
@@ -458,22 +479,21 @@
     <!-- {0} = killer -->
     <!-- {1} = victim -->
     <!-- {2} = cause string -->
-    <!-- {3} = headshot string -->
-    <!-- {4} = special case string (bounty/revenge/redzone) -->
+    <!-- {3} = special case string (bounty/revenge/redzone) -->
     <!-- Add spaces as necessary, assuming a full message, don't worry if the string doesn't show up then the script will remove the extra spaces -->
     <!-- Example kill message: Sasino (152) killed theDoc (249) with a sniper rifle headshot in revenge. -->
-    <!--                      [    {0}    ]        [    {1}   ] [       {2}       ] [  {3} ] [   {4}   ] -->
+    <!--                      [    {0}    ]        [    {1}   ] [           {2}            ] [   {3}   ] -->
     <!-- I know that the headshot part is complicated to insert due to grammatical rules, if that's the case then just wrap the translation of the "headshot" -->
     <!-- entry in parenthesis, that way it should not break the grammatical structure. If it still does then please contact Sasino and we can find another way. -->
     <Entry Id="kill_msg">
-        <String xml:lang="en-US">{0} ~s~killed {1} ~s~{2} {3} {4}</String>
-        <String xml:lang="de-DE">{0} ~s~hat {1} ~s~{2} {3} {4} getötet</String>
-        <String xml:lang="fr-FR">{0} ~s~a tué {1} ~s~{2} {3} {4}</String>
-        <String xml:lang="nl-NL">{0} ~s~heeft {1} ~s~vermoord {2} {3} {4}</String>
-        <String xml:lang="it-IT">{0} ~s~ha ucciso {1} ~s~{2} {3} {4}</String>
-        <String xml:lang="pl-PL">{0} ~s~zabił {1} ~s~ {3} {2} {4}</String>
-        <String xml:lang="tr-TR">{0} ~s~öldürdü {1} ~s~{2} {3} {4}</String>
-        <String xml:lang="zh-Hant">{0} ~s~{2} ~s~{4} {3} 擊殺了 {1}</String>
+        <String xml:lang="en-US">{0} ~s~killed {1} ~s~{2} {3}</String>
+        <String xml:lang="de-DE">{0} ~s~hat {1} ~s~{2} {3} getötet</String>
+        <String xml:lang="fr-FR">{0} ~s~a tué {1} ~s~{2} {3}</String>
+        <String xml:lang="nl-NL">{0} ~s~heeft {1} ~s~vermoord {2} {3}</String>
+        <String xml:lang="it-IT">{0} ~s~ha ucciso {1} ~s~{2} {3}</String>
+        <String xml:lang="pl-PL">{0} ~s~zabił {1} ~s~ {2} {3}</String>
+        <String xml:lang="tr-TR">{0} ~s~öldürdü {1} ~s~{2} {3}</String>
+        <String xml:lang="zh-Hant">{0} ~s~{2} ~s~{3} 擊殺了 {1}</String>
     </Entry>
 
     <!-- ========================= -->
