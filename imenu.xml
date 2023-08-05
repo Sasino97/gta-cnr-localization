@@ -92,9 +92,9 @@
     </Entry>
 
     <Entry Id="imenu_armory_magazine_remove">
-        <String xml:lang="en-US">You cannot ~r~remove ~s~the magazine."</String>
-        <String xml:lang="de-DE">Du kannst das Magazine nicht ~r~entfernen~s~."</String>
+        <String xml:lang="en-US">You cannot ~r~remove ~s~the magazine.</String>
         <String xml:lang="nl-NL">Je kan niet het magazijn ~r~verwijderen~s~.</String>
+        <String xml:lang="de-DE">Du kannst das Magazine nicht ~r~entfernen~s~.</String>
     </Entry>
 
 
@@ -670,8 +670,8 @@
 
     <Entry Id="imenu_jobmenu_stock_price_unchanged">
         <String xml:lang="en-US">The price remains ~p~unchanged~s~.</String>
-        <String xml:lang="de-DE">Der Preis verbleibt unverändert.</String>
         <String xml:lang="nl-NL">De prijs ~p~blijft hetzelfde~s~.</String>
+        <String xml:lang="de-DE">Der Preis ~p~verbleibt unverändert~s~.</String>
     </Entry>
 
     <Entry Id="imenu_jobmenu_stock_numeric_value">
@@ -697,14 +697,14 @@
 
     <Entry Id="imenu_jobmenu_stock_inventory_move">
         <String xml:lang="en-US">You moved ~p~{0}{1} {2} ~s~to your inventory.</String>
-        <String xml:lang="en-US">Du hast ~p~{0}{1} {2} ~r~in dein Inventar verschoben.</String>
         <String xml:lang="nl-NL">Je hebt ~p~{0}{1} {2}~s~ naar je inventaris verschoven.</String>
+        <String xml:lang="en-US">Du hast ~p~{0}{1} {2} ~s~in dein Inventar verschoben.</String>
     </Entry>
 
     <Entry Id="imenu_jobmenu_stock_inventory_cant_hold">
         <String xml:lang="en-US">~r~You can't hold {0}{1} more {2} in your inventory.</String>
-        <String xml:lang="de-DE">Du kannst nicht mehr {0}{1} {2} in deinem Inventar halten.</String>
         <String xml:lang="nl-NL">~r~Je kan niet meer {0}{1} van {2} in je inventaris houden.</String>
+        <String xml:lang="de-DE">~r~Du kannst nicht mehr {0}{1} {2} in deinem Inventar halten.</String>
     </Entry>
 
     <Entry Id="imenu_jobmenu_stock_inventory_not_enough_space">
@@ -744,8 +744,8 @@
 
     <Entry Id="imenu_warehouse_cant_move">
         <String xml:lang="en-US">You put {0} ~p~{1} ~s~in your warehouse.</String>
-        <String xml:lang="de-DE">Du hast {0} ~p~{1} ~s~ in dein Lagerhaus gelegt.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~in je warenhuis gestopt.</String>
+        <String xml:lang="de-DE">Du hast {0} ~p~{1} ~s~in dein Lagerhaus gelegt.</String>
     </Entry>
 
     <Entry Id="imenu_warehouse_cant_move">
@@ -802,16 +802,20 @@
     <!-- {0} = verb -->
     <!-- {1} = vehicle name -->
     <!-- {2} = cash-amount -->
+    <!-- You bought a Nero Custom for $22,500,000. -->
+    <!--     [{0} ]   [   {1}   ]     [   {2}   ]  -->
     <Entry Id="imenu_dealership_vanity_word">
         <String xml:lang="en-US">You {0} a ~p~{1} ~s~for ~r~{2}~s~.</String>
-        <String xml:lang="de-DE">Du hast ein ~p~{1} ~s~für ~r~{2}~s~ {0}. </String>
         <String xml:lang="nl-NL">Je hebt een {1} {0} ~s~voor ~r~{2}~s~.</String>
+        <String xml:lang="de-DE">Du hast ein ~p~{1} ~s~für ~r~{2}~s~ {0}.</String>
     </Entry>
 
     <!-- {0} = verb -->
     <!-- {1} = vehicle name -->
     <!-- {2} = gift-card-amount -->
     <!-- {3} = cash-amount -->
+    <!-- You bought a Nero Custom for $12,500,000 in gift card balance and $10,000,000 by check. -->
+    <!--     [{0} ]   [   {1}   ]     [   {2}   ]                          [   {3}   ]           -->
     <Entry Id="imenu_dealership_vanity_word">
         <String xml:lang="en-US">You {0} a ~b~{1} ~s~for ~b~{2} ~s~in gift card balance and ~r~{3} ~s~by check.</String>
         <String xml:lang="nl-NL">Je hebt een {1} {0} ~s~voor ~r~{2}~s~ in cadeaukaart balans en ~r~{3} ~s~in cash.</String>
