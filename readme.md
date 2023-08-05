@@ -155,9 +155,9 @@ When you are translating from English to another language and there is color for
 [List of GTA Colors](https://wiki.rage.mp/index.php?title=Fonts_and_Colors#GTA_Colors).
 
 ### Highlighting
-Text can also be highlighted with the `<C></C>` tags. Unfortunately, since those tags are XML-like, but they are not to be interpreted by my script but by GTA, they have to be escaped, so if you ever find them in the strings to translate, they will actually be like this:
+Text can also be highlighted with the `(C)(/C)` tags.
 ```xml
-&lt;C&gt;WORD TO HIGHLIGHT&lt;/C&gt;
+(C)WORD TO HIGHLIGHT(/C)
 ```
 
 [Highlighting](https://wiki.rage.mp/index.php?title=Fonts_and_Colors#Highlighting)
