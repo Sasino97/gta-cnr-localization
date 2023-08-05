@@ -7,6 +7,7 @@
     <Entry Id="abandoned_robbery">
         <String xml:lang="en-US">~r~You abandoned the robbery!</String>
         <String xml:lang="de-DE">~r~Du hast den Überfall abgebrochen!</String>
+        <String xml:lang="tr-TR">~r~Soygunu bıraktın!"</String>
     </Entry>
 
     <!-- ========================= -->
@@ -16,46 +17,55 @@
     <Entry Id="robbing">
         <String xml:lang="en-US">{0} is robbing {1}.</String>
         <String xml:lang="de-DE">{0} überfällt {1}.</String>
+        <String xml:lang="tr-TR">{0} soyuyor {1}."</String>
     </Entry>
 
     <Entry Id="joined_robbery">
         <String xml:lang="en-US">{0} has ~g~joined ~s~the robbery.</String>
         <String xml:lang="de-DE">{0} ist dem Überfall ~g~beigetreten~s~.</String>
+        <String xml:lang="tr-TR">{0} ~g~katıldı ~s~soyguna."</String>
     </Entry>
 
     <Entry Id="died_robbery">
         <String xml:lang="en-US">{0} has ~r~died~s~.</String>
         <String xml:lang="de-DE">{0} ist ~r~gestorben~s~.</String>
+        <String xml:lang="tr-TR">{0} ~r~öldü~s~."</String>
     </Entry>
 
     <Entry Id="cuffed_robbery">
         <String xml:lang="en-US">{0} has been ~r~cuffed~s~.</String>
         <String xml:lang="de-DE">{0} wurde ~r~festgenommen~s~.</String>
+        <String xml:lang="tr-TR">{0} ~r~kelepçelendi~s~."</String>
     </Entry>
 
     <Entry Id="player_abandoned_robbery">
         <String xml:lang="en-US">{0} has ~r~abandoned ~s~the robbery.</String>
         <String xml:lang="de-DE">{0} hat den ~r~Überfall abgebrochen~s~.</String>
+        <String xml:lang="tr-TR">{0} ~r~terk edilmiş ~s~soygun."</String>
     </Entry>
 
     <Entry Id="player_cracking_safe">
         <String xml:lang="en-US">{0} is cracking the ~b~safe~s~.</String>
         <String xml:lang="de-DE">{0} knackt den ~b~Safe~s~.</String>
+        <String xml:lang="tr-TR">{0} kırıyor ~b~kasayı~s~."</String>
     </Entry>
 
     <Entry Id="player_successfully_cracking_safe">
         <String xml:lang="en-US">{0} has ~g~successfully ~s~cracked the ~b~safe~s~.</String>
         <String xml:lang="de-DE">{0} hat den ~b~Safe~s~ ~g~erfolgreich ~s~geknackt.</String>
+        <String xml:lang="tr-TR">{0} ~g~başarıyla ~s~kırdı ~b~kasayı~s~."</String>
     </Entry>
 
     <Entry Id="player_failed_cracking_safe">
         <String xml:lang="en-US">{0} has ~r~failed ~s~to crack the ~b~safe~s~.</String>
         <String xml:lang="de-DE">{0} hat es ~r~nicht geschafft~s~, den ~b~Safe~s~ zu knacken.</String>
+        <String xml:lang="tr-TR">{0} ~r~başarısız oldu ~s~kırarken ~b~kasayı~s~."</String>
     </Entry>
 
     <Entry Id="player_canceled_cracking_safe">
         <String xml:lang="en-US">{0} ~r~canceled ~s~cracking the ~b~safe~s~.</String>
         <String xml:lang="de-DE">{0} hat das Knacken des ~b~Safes~s~ ~r~abgebrochen~s~.</String>
+        <String xml:lang="tr-TR">{0} ~r~iptal edildi ~s~kırma ~b~kasayı~s~."</String>
     </Entry>
 
     <!-- ========================= -->
@@ -69,6 +79,7 @@
     <Entry Id="player_drug_call">
         <String xml:lang="en-US">Go to ~y~{0} ~s~and sell drugs to {1}{2} ({3})~s~.</String>
         <String xml:lang="de-DE">Gehe zu ~y~ und verkaufe {1}{2} ({3}) Drogen.</String>
+        <String xml:lang="tr-TR">Git ~y~{0} ~s~ve uyuşturucu sat {1}{2} ({3})~s~."</String
     </Entry>
 
     <!-- {0} = Amount -->
@@ -77,16 +88,19 @@
     <Entry Id="drug_sell_npc">
         <String xml:lang="en-US">You sold ~p~{0}g ~s~of ~r~{1} ~s~to an NPC for ~g~{2}~s~.</String>
         <String xml:lang="de-DE">Du hast ~p~{0}g~s~ ~r~{1}~s~ an einen NPC für ~g~{2}~s~ verkauft.</String>
+        <String xml:lang="tr-TR">Sattın ~p~{0}g ~s~ile ilgili ~r~{1} ~s~için bir NPC'ye ~g~{2}~s~."</String>
     </Entry>
 
     <Entry Id="drug_sell_npc">
         <String xml:lang="en-US">You purchased ~p~{0}g ~s~of ~p~{1} ~s~for ~r~{2}</String>
         <String xml:lang="de-DE">Du hast ~p~{0}g ~p~{1} ~s~für ~r~{2}~s~ gekauft.</String>
+        <String xml:lang="tr-TR">Satın aldın ~p~{0}g ~s~ile ilgili ~p~{1} ~s~için ~r~{2}"</String>
     </Entry>
 
-    <Entry Id="dealer_description ">
+    <Entry Id="dealer_description">
         <String xml:lang="en-US">~c~(C)Drug Dealer:(/C) ~s~sell ~r~drugs ~s~to earn money.</String>
         <String xml:lang="de-DE">~c~(C)Drogen Dealer:(/C) ~s~verkaufe ~r~Drogen~s~, um Geld zu verdienen.</String>
+        <String xml:lang="tr-TR">~c~(C)Uyuşturucu satıcısı:(/C) ~s~satmak ~r~uyuşturucu ~s~para kazanmak."</String>
     </Entry>
 
     <!-- ========================= -->
@@ -100,43 +114,51 @@
     <Entry Id="player_mechanic_call">
         <String xml:lang="en-US">Go to ~y~{1} ~s~and assist {1}{2} ({3})~s~.</String>
         <String xml:lang="de-DE">Gehe zu ~y~{1} ~s~und hilf {1}{2} ({3})~s~.</String>
+        <String xml:lang="tr-TR">Git  ~y~{1} ~s~ve yardım et {1}{2} ({3})~s~."</String>
     </Entry>
 
     <Entry Id="mechanic_description">
         <String xml:lang="en-US">(C)Mechanic:(/C) ~s~repair and mod players' ~y~vehicles ~s~to earn money.</String>
         <String xml:lang="de-DE">(C)Mechanic:(/C) ~s~repariere und modifiziere ~y~Fahrzeuge ~s~ von Spielern, um Geld zu verdienen.</String>
+        <String xml:lang="tr-TR">(C)Tamirci:(/C) ~s~onarım ve mod oyuncuları' ~y~araçlar ~s~para kazanmak."</String>
     </Entry>
 
     <Entry Id="mechanic_plate_word">
         <String xml:lang="en-US">~r~Your license plate cannot contain that word.</String>
         <String xml:lang="de-DE">~r~Dein Wunschkennzeichen kann dieses Wort nicht beinhalten.</String>
+        <String xml:lang="tr-TR">~r~Plakanız bu kelimeyi içeremez."</String>
     </Entry>
 
     <Entry Id="mechanic_plate_numbers_latin">
         <String xml:lang="en-US">~r~Your license plate can only contain numbers and latin letters.</String>
         <String xml:lang="de-DE">~r~Dein Wunschkennzeichen darf ausschließlich Zahlen und lateinische Buchstaben enthalten.</String>
+        <String xml:lang="tr-TR">~r~Araç plakanız yalnızca rakamlar ve latin harfleri içerebilir."</String>
     </Entry>
 
     <Entry Id="mechanic_plate_taken">
         <String xml:lang="en-US">~r~This license plate has been taken by someone else.</String>
         <String xml:lang="de-DE">~r~Dieses Wunschkennzeichen wurde von jemand anderem beansprucht.</String>
+        <String xml:lang="tr-TR">~r~Bu plaka başkası tarafından alınmış.</String>
     </Entry>
 
     <!-- {0} = Input -->
     <Entry Id="mechanic_plate_set_saved">
         <String xml:lang="en-US">~p~Your vanity license plate has been set to ~s~{0} ~p~and saved.</String>
         <String xml:lang="de-DE">~p~Dein Wunschkennzeichen wurde zu ~s~{0}~p~ geändert und gespeichert.</String>
+        <String xml:lang="tr-TR">~p~Özel plakanız olarak ayarlandı ~s~{0} ~p~ve kaydedildi."</String>
     </Entry>
 
     <Entry Id="mechanic_plate_rented_car">
         <String xml:lang="en-US">You cannot change the license plate of a rented vehicle.</String>
         <String xml:lang="de-DE">Du kannst das Kennzeichen eines gemieteten Fahrzeuges nicht ändern.</String>
+        <String xml:lang="tr-TR">Kiralanan bir aracın plakasını değiştiremezsiniz."</String>
     </Entry>
 
     <!-- {0} = Input -->
     <Entry Id="mechanic_plate_set">
         <String xml:lang="en-US">Your vanity license plate has been set to ~s~{0}~p~.</String>
         <String xml:lang="de-DE">Dein Wunschkennzeichen wurde zu ~s~{0}~p~ geändert.</String>
+        <String xml:lang="tr-TR">Özel araç plakanız şu şekilde ayarlandı ~s~{0}~p~."</String>
     </Entry>
 
     <!-- ========================= -->
@@ -145,41 +167,49 @@
     <Entry Id="towing_attach_moving">
         <String xml:lang="en-US">You cannot attach a vehicle while ~r~moving~s~.</String>
         <String xml:lang="de-DE">Du kannst kein Fahrzeug anhängen, solange du dich ~r~bewegst~s~.</String>
+        <String xml:lang="tr-TR">iken araç bağlayamazsınız. ~r~hareketli~s~."</String>
     </Entry>
 
     <Entry Id="towing_type_cannot_moved">
         <String xml:lang="en-US">Vehicles of this type ~r~cannot be towed~s~.</String>
         <String xml:lang="de-DE">Fahrzeuge dieser Art können ~r~nicht angehangen werden.~s~</String>
+        <String xml:lang="tr-TR">Bu tip araçlar ~r~çekilemez~s~."</String>
     </Entry>
 
     <Entry Id="towing_already_attached_other">
         <String xml:lang="en-US">The vehicle is ~r~already ~s~attached to another truck.</String>
         <String xml:lang="de-DE">Das Fahrzeug ist ~r~bereits~s~ an einem anderen Abschlepper angehangen.</String>
+        <String xml:lang="tr-TR">"Araç ~r~zaten ~s~başka bir kamyona bağlanmıştır."</String>
     </Entry>
 
     <Entry Id="towing_vehicle_occupied">
         <String xml:lang="en-US">The vehicle is ~r~occupied~s~.</String>
         <String xml:lang="de-DE">Das Fahrzeug ist ~r~besetzt~s~.</String>
+        <String xml:lang="tr-TR">Araç ~r~dolu~s~."</String>
     </Entry>
 
     <Entry Id="towing_vehicle_too_big">
         <String xml:lang="en-US">The vehicle is ~r~too big ~s~for this truck.</String>
         <String xml:lang="de-DE">Das Fahrzeug ist ~r~zu groß ~s~für diesen Abschlepper.</String>
+        <String xml:lang="tr-TR">Araç ~r~çok büyük ~s~bu kamyon için."</String>
     </Entry>
 
     <Entry Id="towing_detach_moving">
         <String xml:lang="en-US">You cannot detach the vehicle while ~r~moving~s~.</String>
         <String xml:lang="de-DE">Du kannst das Fahrzeug nicht abkoppeln, solange du dich ~r~bewegst~s~.</String>
+        <String xml:lang="tr-TR">Halindeyken aracı ayıramazsınız ~r~hareket~s~."</String>
     </Entry>
 
     <Entry Id="towing_description">
         <String xml:lang="en-US">You are towing a ~y~player's vehicle ~s~for ~g~extra money~s~, but you have limited time. When the timer ~r~runs out~s~, the owner will be able to ~y~recall ~s~it.</String>
         <String xml:lang="de-DE">Du schleppst das Fahrzeug eines ~y~Spielers ~s~für ~g~extra Geld~s~ ab, aber du hast nur begrenzte Zeit. Wenn die Zeit ~r~ausläuft~s~, wird der Besitzer in der Lage sein ~y~das Fahrzeug ~s~zurückzurufen.</String>
+        <String xml:lang="tr-TR">Çekiyorsunuz ~y~bir oyuncunun aracını ~g~ekstra para için~s~, ancak zamanınız kısıtlı. zamanlayıcı ~r~biterse~s~, sahibi onu ~y~geri çağırabilecek."</String>
     </Entry>
 
     <Entry Id="towing_illegally_parked">
         <String xml:lang="en-US">You have parked your vehicle ~r~illegally ~s~and it might be towed at your expense.</String>
         <String xml:lang="de-DE">Du hast dein Fahrzeug ~r~widerrechtlich ~s~geparkt und es könnte auf deine Kosten abgeschleppt werden.</String>
+        <String xml:lang="tr-TR">Aracınızı şekilde park ettiniz ~r~yasa dışı ~s~ve masrafları size ait olmak üzere çekilebilir."</String>
     </Entry>
 
     <!-- ========================= -->
@@ -188,12 +218,14 @@
     <Entry Id="paramedic_team_defense_warning">
         <String xml:lang="en-US">~y~(C)Reminder:(/C) ~s~you can only shoot in self-defense, and you can't team up with ~o~criminals~s~.</String>
         <String xml:lang="de-DE">~y~(C)Erinnerung:(/C) ~s~du darfst nur in Selbstverteidigung schießen und du darfst dich nicht mit ~o~Kriminellen~s~ verbünden.</String>
+        <String xml:lang="tr-TR">~y~(C)Hatırlatma:(/C) ~s~sadece nefsi müdafaa için ateş edebilirsin ve takım kuramazsın ~o~suçlularla ~s~."</String>
     </Entry>
 
     <!-- {0} = Clothing name -->
     <Entry Id="paramedic_clothing_obtain">
         <String xml:lang="en-US">You obtained ~b~{0}.</String>
         <String xml:lang="de-DE">Du hast ~b~{0}~s~ erhalten.</String>
+        <String xml:lang="tr-TR">Elde ettin ~b~{0}."</String>
     </Entry>
 
     <!-- {0} = Location name -->
@@ -203,16 +235,19 @@
     <Entry Id="player_paramedic_call">
         <String xml:lang="en-US">Go to ~y~{0} ~s~and assist {1}{2} ({3})~s~.</String>
         <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und hilf {1}{2} ({3})~s~.</String>
+        <String xml:lang="tr-TR">Git ~y~{0} ~s~ve yardım et {1}{2} ({3})~s~."</String>
     </Entry>
 
     <Entry Id="paramedic_revival_fail">
         <String xml:lang="en-US">~r~Your revival attempt has failed.</String>
         <String xml:lang="de-DE">~r~Dein Wiederbelebungsversuch ist gescheitert.</String>
+        <String xml:lang="tr-TR">~r~Canlandırma girişiminiz başarısız oldu."</String>
     </Entry>
 
     <Entry Id="paramedic_npc_loss">
         <String xml:lang="en-US">~p~Paramedics ~s~are expected to save the lives of citizens. Innocent civilian NPC casualties will result in small ~r~XP losses~s~.</String>
         <String xml:lang="de-DE">~p~Sanitäter ~s~ sollen das Leben der Bürger retten. Das Verletzen unschuldiger NPCs führt zu geringen ~r~XP-Verlusten~s~.</String>
+        <String xml:lang="tr-TR">~p~Sağlık görevlileri ~s~vatandaşların hayatını kurtarması bekleniyor. Masum sivil NPC kayıpları küçük ~r~XP kayıpları~s~."</String>
     </Entry>
 
     <!-- ========================= -->
@@ -222,6 +257,7 @@
     <Entry Id="police_cuff_fail">
         <String xml:lang="en-US">~r~You have failed to cuff {0}.</String>
         <String xml:lang="de-DE">~r~Du hast versagt, {0} festzunehmen.</String>
+        <String xml:lang="tr-TR">~r~kelepçelemeyi başaramadın {0}."</String>
     </Entry>
 
     <!-- {0} = Location name -->
@@ -231,22 +267,26 @@
     <Entry Id="player_police_call">
         <String xml:lang="en-US">Go to ~y~{0} ~s~and assist {1}{2} ({3})~s~.</String>
         <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und hilf {1}{2} ({3})~s~.</String>
+        <String xml:lang="tr-TR">Git ~y~{0} ~s~ve yardım et {1}{2} ({3})~s~."</String>
     </Entry>
 
     <Entry Id="police_npc_loss">
         <String xml:lang="en-US">~b~Police officers ~s~are expected to protect and serve citizens. Innocent civilian NPC casualties will result in small ~r~XP losses~s~.</String>
         <String xml:lang="de-DE">~b~Polizisten ~s~sollten Bürger schützen und ihnen dienen. Das Verletzen unschuldiger NPCs führt zu geringen ~r~XP-Verlusten~s~.</String>
+        <String xml:lang="tr-TR">~b~Polis memurları ~s~vatandaşları korumaları ve onlara hizmet etmeleri beklenmektedir. Masum sivil NPC kayıpları küçük ~r~XP kayıpları~s~."</String>
     </Entry>
 
     <!-- {0} = Clothing name -->
     <Entry Id="police_clothing_obtain">
         <String xml:lang="en-US">You obtained ~b~{0}.</String>
         <String xml:lang="de-DE">Du hast ~b~{0}~s~ erhalten.</String>
+        <String xml:lang="tr-TR">Elde ettin ~b~{0}."</String>
     </Entry>
 
     <Entry Id="police_shoot_warning">
         <String xml:lang="en-US">~y~(C)Reminder:(/C) ~s~you can only shoot at ~r~most wanted ~s~and threatening ~o~criminals~s~.</String>
         <String xml:lang="de-DE">~y~(C)Erinnerung:(/C) ~s~du darfst nur auf die ~r~meistgesuchten~s~ und bedrohlichen ~o~Kriminelle~s~ schießen.</String>
+        <String xml:lang="tr-TR">~y~(C)Hatırlatma:(/C) ~s~sadece şunlara ateş edebilirsin ~r~en çok aranan ~s~ve tehdit oluşturan ~o~suçlular~s~."</String>
     </Entry>
 
     <!-- ========================= -->
@@ -258,16 +298,19 @@
     <Entry Id="vehicle_export_mw">
         <String xml:lang="en-US">(C){0}(/C) exported today's most wanted vehicle (C){1}(/C) for (C){2}(/C).</String>
         <String xml:lang="de-DE">(C){0}(/C) hat das meistgesuchte Fahrzeug (C){1}(/C) von heute für (C){2}(/C) exportiert.</String>
+        <String xml:lang="tr-TR">(C){0}(/C) bugünün en çok aranan aracını ihraç etti (C){1}(/C) için (C){2}(/C)."</String>
     </Entry>
 
     <Entry Id="vehicle_export_cant_export">
         <String xml:lang="en-US">Public officers and emergency workers can't illegally export vehicles.</String>
         <String xml:lang="de-DE">Beamte und Einsatzkräfte können keine Fahrzeuge illegal exportieren.</String>
+        <String xml:lang="tr-TR">Kamu görevlileri ve acil durum çalışanları yasa dışı yollardan araç ihraç edemez."</String>
     </Entry>
 
     <Entry Id="vehicle_export_no_mw_vehicle">
         <String xml:lang="en-US">There's currently no most wanted vehicle. Please, wait until 5:00am.</String>
         <String xml:lang="de-DE">Aktuell gibt es kein meistgesuchtes Fahrzeug. Bitte warte bis 5:00 Uhr.</String>
+        <String xml:lang="tr-TR">Şu anda en çok aranan araç yok. Lütfen, sabah 5:00'e kadar bekleyin."</String>
     </Entry>
 
 </Entries>
