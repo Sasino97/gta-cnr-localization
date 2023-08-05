@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Entries>
+    <!-- ========================= -->
+    <!-- Robbery -->
+    <!-- ========================= -->
+    <Entry Id="abandoned_robbery">
+        <String xml:lang="en-US">"~r~You abandoned the robbery!"</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- {0} = User -->
+    <!-- {1} = Location -->
+    <!-- ========================= -->
+    <Entry Id="robbing">
+        <String xml:lang="en-US">"{0} is robbing {1}."</String>
+    </Entry>
+
+    <Entry Id="joined_robbery">
+        <String xml:lang="en-US">"{0} has ~g~joined ~s~the robbery."</String>
+    </Entry>
+
+    <Entry Id="died_robbery">
+        <String xml:lang="en-US">"{0} has ~r~died~s~."</String>
+    </Entry>
+
+    <Entry Id="cuffed_robbery">
+        <String xml:lang="en-US">"{0} has been ~r~cuffed~s~."</String>
+    </Entry>
+
+    <Entry Id="player_abandoned_robbery">
+        <String xml:lang="en-US">"{0} has ~r~abandoned ~s~the robbery."</String>
+    </Entry>
+
+    <Entry Id="player_cracking_safe">
+        <String xml:lang="en-US">"{0} is cracking the ~b~safe~s~."</String>
+    </Entry>
+
+    <Entry Id="player_successfully_cracking_safe">
+        <String xml:lang="en-US">"{0} has ~g~successfully ~s~cracked the ~b~safe~s~."</String>
+    </Entry>
+
+    <Entry Id="player_failed_cracking_safe">
+        <String xml:lang="en-US">"{0} has ~r~failed ~s~to crack the ~b~safe~s~."</String>
+    </Entry>
+
+    <Entry Id="player_canceled_cracking_safe">
+        <String xml:lang="en-US">"{0} ~r~canceled ~s~cracking the ~b~safe~s~."</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Drug dealer -->
+    <!-- {0} = Location name -->
+    <!-- {1} = Displayed Colour (red, ...) -->
+    <!-- {2} = Player Name -->
+    <!-- {3} = Player ID -->
+    <!-- ========================= -->
+
+    <Entry Id="player_drug_call">
+        <String xml:lang="en-US">"Go to ~y~{0} ~s~and sell drugs to {1}{2} ({3})~s~."</String>
+    </Entry>
+
+    <!-- {0} = Amount -->
+    <!-- {1} = Item -->
+    <!-- {2} = Price -->
+    <Entry Id="drug_sell_npc">
+        <String xml:lang="en-US">"You sold ~p~{0}g ~s~of ~r~{1} ~s~to an NPC for ~g~{2}~s~."</String>
+    </Entry>
+
+    <Entry Id="drug_sell_npc">
+        <String xml:lang="en-US">"You purchased ~p~{0}g ~s~of ~p~{1} ~s~for ~r~{2}"</String>
+    </Entry>
+
+    <Entry Id="dealer_description ">
+        <String xml:lang="en-US">"~c~(C)Drug Dealer:(/C) ~s~sell ~r~drugs ~s~to earn money."</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Mechanic -->
+    <!-- {0} = Location name -->
+    <!-- {1} = Displayed Colour (red, ...) -->
+    <!-- {2} = Player Name -->
+    <!-- {3} = Player ID -->
+    <!-- ========================= -->
+
+    <Entry Id="player_mechanic_call">
+        <String xml:lang="en-US">"Go to ~y~{1} ~s~and assist {1}{2} ({3})~s~."</String>
+    </Entry>
+
+    <Entry Id="mechanic_description">
+        <String xml:lang="en-US">"(C)Mechanic:(/C) ~s~repair and mod players' ~y~vehicles ~s~to earn money."</String>
+    </Entry>
+
+    <Entry Id="mechanic_plate_word">
+        <String xml:lang="en-US">"~r~Your license plate cannot contain that word."</String>
+    </Entry>
+
+    <Entry Id="mechanic_plate_numbers_latin">
+        <String xml:lang="en-US">"~r~Your license plate can only contain numbers and latin letters."</String>
+    </Entry>
+
+    <Entry Id="mechanic_plate_taken">
+        <String xml:lang="en-US">"~r~This license plate has been taken by someone else."</String>
+    </Entry>
+
+    <!-- {0} = Input -->
+    <Entry Id="mechanic_plate_set_saved">
+        <String xml:lang="en-US">"~p~Your vanity license plate has been set to ~s~{0} ~p~and saved."</String>
+    </Entry>
+
+    <Entry Id="mechanic_plate_rented_car">
+        <String xml:lang="en-US">"You cannot change the license plate of a rented vehicle."</String>
+    </Entry>
+
+    <!-- {0} = Input -->
+    <Entry Id="mechanic_plate_set">
+        <String xml:lang="en-US">"Your vanity license plate has been set to ~s~{0}~p~."</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Tow trucks -->
+    <!-- ========================= -->
+    <Entry Id="towing_attach_moving">
+        <String xml:lang="en-US">"You cannot attach a vehicle while ~r~moving~s~."</String>
+    </Entry>
+
+    <Entry Id="towing_type_cannot_moved">
+        <String xml:lang="en-US">"Vehicles of this type ~r~cannot be towed~s~."</String>
+    </Entry>
+
+    <Entry Id="towing_already_attached_other">
+        <String xml:lang="en-US">"The vehicle is ~r~already ~s~attached to another truck."</String>
+    </Entry>
+
+    <Entry Id="towing_vehicle_occupied">
+        <String xml:lang="en-US">"The vehicle is ~r~occupied~s~."</String>
+    </Entry>
+
+    <Entry Id="towing_vehicle_too_big">
+        <String xml:lang="en-US">"The vehicle is ~r~too big ~s~for this truck."</String>
+    </Entry>
+
+    <Entry Id="towing_detach_moving">
+        <String xml:lang="en-US">"You cannot detach the vehicle while ~r~moving~s~."</String>
+    </Entry>
+
+    <Entry Id="towing_description">
+        <String xml:lang="en-US">"You are towing a ~y~player's vehicle ~s~for ~g~extra money~s~, but you have limited time. When the timer ~r~runs out~s~, the owner will be able to ~y~recall ~s~it."</String>
+    </Entry>
+
+    <Entry Id="towing_illegally_parked">
+        <String xml:lang="en-US">"You have parked your vehicle ~r~illegally ~s~and it might be towed at your expense."</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Paramedics -->
+    <!-- ========================= -->
+    <Entry Id="paramedic_team_defense_warning">
+        <String xml:lang="en-US">"~y~(C)Reminder:(/C) ~s~you can only shoot in self-defense, and you can't team up with ~o~criminals~s~."</String>
+    </Entry>
+
+    <!-- {0} = Clothing name -->
+    <Entry Id="paramedic_clothing_obtain">
+        <String xml:lang="en-US">"You obtained ~b~{0}."</String>
+    </Entry>
+
+    <!-- {0} = Location name -->
+    <!-- {1} = Displayed Colour (red, ...) -->
+    <!-- {2} = Player Name -->
+    <!-- {3} = Player ID -->
+    <Entry Id="player_paramedic_call">
+        <String xml:lang="en-US">"Go to ~y~{0} ~s~and assist {1}{2} ({3})~s~."</String>
+    </Entry>
+
+    <Entry Id="paramedic_revival_fail">
+        <String xml:lang="en-US">"~r~Your revival attempt has failed."</String>
+    </Entry>
+
+    <Entry Id="paramedic_npc_loss">
+        <String xml:lang="en-US">"~p~Paramedics ~s~are expected to save the lives of citizens. Innocent civilian NPC casualties will result in small ~r~XP losses~s~."</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Police officers -->
+    <!-- ========================= -->
+    <!-- {0} = Player -->
+    <Entry Id="police_cuff_fail">
+        <String xml:lang="en-US">"~r~You have failed to cuff {0}."</String>
+    </Entry>
+
+    <!-- {0} = Location name -->
+    <!-- {1} = Displayed Colour (red, ...) -->
+    <!-- {2} = Player Name -->
+    <!-- {3} = Player ID -->
+    <Entry Id="player_police_call">
+        <String xml:lang="en-US">"Go to ~y~{0} ~s~and assist {1}{2} ({3})~s~."</String>
+    </Entry>
+
+    <Entry Id="police_npc_loss">
+        <String xml:lang="en-US">"~b~Police officers ~s~are expected to protect and serve citizens. Innocent civilian NPC casualties will result in small ~r~XP losses~s~."</String>
+    </Entry>
+
+    <!-- {0} = Clothing name -->
+    <Entry Id="police_clothing_obtain">
+        <String xml:lang="en-US">"You obtained ~b~{0}."</String>
+    </Entry>
+
+    <Entry Id="police_shoot_warning">
+        <String xml:lang="en-US">"~y~(C)Reminder:(/C) ~s~you can only shoot at ~r~most wanted ~s~and threatening ~o~criminals~s~."</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Vehicle export -->
+    <!-- ========================= -->
+    <!-- {0} = Player -->
+    <!-- {1} = Vehicle name -->
+    <!-- {2} = Profit -->
+    <Entry Id="vehicle_export_mw">
+        <String xml:lang="en-US">"(C){0}(/C) exported today's most wanted vehicle (C){1}(/C) for (C){2}(/C)."</String>
+    </Entry>
+
+    <Entry Id="vehicle_export_cant_export">
+        <String xml:lang="en-US">"Public officers and emergency workers can't illegally export vehicles."</String>
+    </Entry>
+
+    <Entry Id="vehicle_export_no_mw_vehicle">
+        <String xml:lang="en-US">"There's currently no most wanted vehicle. Please, wait until 5:00am."</String>
+    </Entry>
+
+</Entries>

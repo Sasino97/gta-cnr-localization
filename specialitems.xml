@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Entries>
+    <!-- ========================= -->
+    <!-- Armor usage -->
+    <!-- ========================= -->
+    <Entry Id="specialitem_armor_at_time">
+        <String xml:lang="en-US">You can only use ~r~one ~s~body armor at a time.</String>
+    </Entry>
+
+    <Entry Id="specialitem_armor_cooldown">
+        <String xml:lang="en-US">You need to ~r~wait ~s~{0} seconds to use this type of ~p~body armor ~s~again.</String>
+    </Entry>
+
+
+    <!-- ========================= -->
+    <!-- Item usage -->
+    <!-- ========================= -->
+    <!-- {0} = drug name -->
+    <!-- {1} = activity -->
+    <Entry Id="specialitem_usage">
+        <String xml:lang="en-US">You can't use ~r~{0} ~s~when you're {1} </String>
+    </Entry>
+
+    <!-- items -->
+    <Entry Id="medkit">
+        <String xml:lang="en-US">medkit</String>
+    </Entry>
+
+    <Entry Id="bandage">
+        <String xml:lang="en-US">bandage</String>
+    </Entry>
+
+    <Entry Id="body_armor">
+        <String xml:lang="en-US">body armor</String>
+    </Entry>
+
+    <!-- activites -->
+    <Entry Id="on_fire">
+        <String xml:lang="en-US">~b~on fire~s~.</String>
+    </Entry>
+
+    <Entry Id="on_duty">
+        <String xml:lang="en-US">~b~on duty~s~.</String>
+    </Entry>
+
+    <Entry Id="being_stunned">
+        <String xml:lang="en-US">being ~b~stunned~s~.</String>
+    </Entry>
+
+    <Entry Id="being_cuffed">
+        <String xml:lang="en-US">being ~b~cuffed~s~.</String>
+    </Entry>
+
+    <Entry Id="cuffed">
+        <String xml:lang="en-US">~b~cuffed~s~.</String>
+    </Entry>
+
+    <Entry Id="specialitem_bandage">
+        <String xml:lang="en-US">You've used a ~p~bandage~s~.</String>
+    </Entry>
+
+    <Entry Id="specialitem_bandage_piece">
+        <String xml:lang="en-US">You've used a piece of ~p~bandage~s~.</String>
+    </Entry>
+
+    <Entry Id="specialitem_bandage_amount">
+        <String xml:lang="en-US">You've used {amount:0.##} ~p~bandages~s~.</String>
+    </Entry>
+
+    <Entry Id="specialitem_medkit">
+        <String xml:lang="en-US">You've used a ~p~medkit~s~.</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Repair kit -->
+    <!-- ========================= -->
+    <Entry Id="specialitem_repairkit_vehicle_missing">
+        <String xml:lang="en-US">You don't have a ~r~vehicle~s~.</String>
+    </Entry>
+
+    <!-- {0} = item name -->
+    <Entry Id="specialitem_repairkit_vehicle_inside">
+        <String xml:lang="en-US">You ~r~can't use ~s~a ~b~{0} ~s~when you're inside a vehicle.</String>
+    </Entry>
+
+    <Entry Id="specialitem_repairkit_vehicle_close">
+        <String xml:lang="en-US">You're not ~r~close enough ~s~to use a ~b~{0} ~s~on your vehicle.</String>
+    </Entry>
+
+    <Entry Id="specialitem_repairkit_vehicle_control">
+        <String xml:lang="en-US">Unable to take control of the ~b~vehicle~s~. If other ~r~players ~s~are inside it, ask them to exit.</String>
+    </Entry>
+
+    <Entry Id="specialitem_repairkit_vehicle_type">
+        <String xml:lang="en-US">You ~r~can't use ~s~a ~b~{0} ~s~on vehicles of this type.</String>
+    </Entry>
+
+    <Entry Id="specialitem_repairkit_vehicle_hood">
+        <String xml:lang="en-US">Your vehicle's ~y~hood ~s~must be open in order to use a ~b~{0}~s~.</String>
+    </Entry>
+
+    <!-- {0} = remaining seconds -->
+    <!-- {1} = item name -->
+    <Entry Id="specialitem_repairkit_cooldown">
+        <String xml:lang="en-US">You must wait ~r~{0} seconds ~s~before using another ~b~{1}~s~.</String>
+    </Entry>
+
+    <Entry Id="specialitem_repairkit_cooldown">
+        <String xml:lang="en-US">You must wait ~r~{0} seconds ~s~before using another ~b~{1}~s~.</String>
+    </Entry>
+
+    <Entry Id="specialitem_repairkit_engine_repair">
+        <String xml:lang="en-US">You have repaired your ~b~vehicle~s~'s engine.</String>
+    </Entry>
+
+    <Entry Id="specialitem_repairkit_tire_repair">
+        <String xml:lang="en-US">You have repaired your ~b~vehicle~s~'s tires.</String>
+    </Entry>
+
+    <Entry Id="specialitem_repairkit_vehicle_clean">
+        <String xml:lang="en-US">You have cleaned your ~b~vehicle~s~.</String>
+    </Entry>
+
+</Entries>
