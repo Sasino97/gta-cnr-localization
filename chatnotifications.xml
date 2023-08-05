@@ -5,47 +5,50 @@
     <!-- Chat notifications -->
     <!-- ========================= -->
     <Entry Id="unblock_player">
-        <String xml:lang="en-US">"You have ~r~unblocked ~s~{0}."</String>
-        <String xml:lang="tr-TR">"Onun ~r~engelini kaldırdın ~s~{0}."</String>
+        <String xml:lang="en-US">You have ~r~unblocked ~s~{0}.</String>
+        <String xml:lang="tr-TR">Onun ~r~engelini kaldırdın ~s~{0}.</String>
+        <String xml:lang="de-DE">Du hast {0} ~r~freigegeben~s~.</String>
     </Entry>
 
     <Entry Id="unable_unblock_player">
-        <String xml:lang="en-US">"Unable to ~r~unblock ~s~{0}."</String>
-        <String xml:lang="tr-TR">"Kaldırılamıyor ~r~engelleme ~s~{0}."</String>
+        <String xml:lang="en-US">Unable to ~r~unblock ~s~{0}.</String>
+        <String xml:lang="tr-TR">Kaldırılamıyor ~r~engelleme ~s~{0}.</String>
+        <String xml:lang="de-DE">{0} kann nicht ~r~freigegeben ~s~werden.</String>
     </Entry>
 
     <Entry Id="noti_fandom">
-        <String xml:lang="en-US">"Visit our community wiki at ~b~gtacnr.fandom.com ~s~for a ~y~detailed guide ~s~of the game."</String>
+        <String xml:lang="en-US">Visit our community wiki at ~b~gtacnr.fandom.com ~s~for a ~y~detailed guide ~s~of the game."</String>
         <String xml:lang="tr-TR">"Adresindeki topluluk wiki'mizi ziyaret edin ~b~gtacnr.fandom.com ~s~için ~y~ayrıntılı rehber ~s~oyun."</String>
+        <String xml:lang="de-DE">Besuche unsere Community Wiki unter ~b~gtacnr.fandom.com ~s~für einen ~y~ausführlichen Leitfaden ~s~zum Spiel.</String>
     </Entry>
 
     <Entry Id="noti_discord">
-        <String xml:lang="en-US">"Visit our Discord server at ~b~discord.gg/cnr~s~"</String>
-        <String xml:lang="tr-TR">"Discord sunucumuzu ziyaret edin ~b~discord.gg/cnr~s~"</String>
+        <String xml:lang="en-US">Visit our Discord server at ~b~discord.gg/cnr~s~</String>
+        <String xml:lang="tr-TR">Discord sunucumuzu ziyaret edin ~b~discord.gg/cnr~s~</String>
+        <String xml:lang="de-DE">Besuche unseren Discord server unter ~b~discord.gg/cnr~s~</String>
     </Entry>
 
-    <Entry Id="noti_discord">
-        <String xml:lang="en-US">"Visit our Discord server at ~b~discord.gg/cnr~s~"</String>
-        <String xml:lang="tr-TR">"Discord sunucumuzu ziyaret edin ~b~discord.gg/cnr~s~"</String>
-    </Entry>
 
     <Entry Id="weapon_reload_switching">
-        <String xml:lang="en-US">"~y~(C)Warning:(/C) ~s~\"reload-switching\" is ~r~not allowed ~s~on this server; abusing this glitch will force your character to reload without moving."</String>
-        <String xml:lang="tr-TR">"~y~(C)Uyarı:(/C) ~s~\"tekrar yükle-değiştirme\" dir ~r~izin verilmedi ~s~Bu aksaklığı kötüye kullanmak, karakterinizi hareket etmeden tekrar yüklemeye zorlar."</String>
+        <String xml:lang="en-US">~y~(C)Warning:(/C) ~s~\"reload-switching\" is ~r~not allowed ~s~on this server; abusing this glitch will force your character to reload without moving.</String>
+        <String xml:lang="tr-TR">~y~(C)Uyarı:(/C) ~s~\"tekrar yükle-değiştirme\" dir ~r~izin verilmedi ~s~Bu aksaklığı kötüye kullanmak, karakterinizi hareket etmeden tekrar yüklemeye zorlar.</String>
+        <String xml:lang="de-DE">~y~(C)Achtung:(/C) ~s~\"Reload-Switching\" ist auf diesem Server ~r~nicht erlaubt.~s~ Das Ausnutzen dieses Glitches führt dazu, dass du nachlädst, ohne, dass sich den Charakter bewegt.</String>
     </Entry>
 
     <!-- ========================= -->
     <!-- {0} = Restored weapons -->
     <!-- ========================= -->
     <Entry Id="shield_weapon_restore">
-        <String xml:lang="en-US">"~y~~h~Warning~h~~s~: You had lost {0} weapons, possibly done by a cheater, but (C)GTA CnR Shield(/C) ~g~restored ~s~them for you."</String>
-        <String xml:lang="tr-TR">"~y~~h~Uyarı~h~~s~: Kaybetmiştin {0} silahları, muhtemelen bir dolandırıcı tarafından yapılmıştır, ancak (C)GTA CnR Shield(/C) ~g~restore edildi ~s~senin için."</String>
+        <String xml:lang="en-US">~y~~h~Warning~h~~s~: You had lost {0} weapons, possibly done by a cheater, but (C)GTA CnR Shield(/C) ~g~restored ~s~them for you.</String>
+        <String xml:lang="tr-TR">~y~~h~Uyarı~h~~s~: Kaybetmiştin {0} silahları, muhtemelen bir dolandırıcı tarafından yapılmıştır, ancak (C)GTA CnR Shield(/C) ~g~restore edildi ~s~senin için.</String>
+        <String xml:lang="de-DE">~y~~h~Achtung~h~~s~: Du hast {0} Waffen verloren, möglicherweise durch einen Cheater, aber das (C)GTA CnR Shield(/C) hat sie für dich ~g~wiederhergestellt~s~.</String>
     </Entry>
 
     <!-- {0} = Removed weapons -->
     <Entry Id="shield_weapon_remove">
-        <String xml:lang="en-US">"~y~~h~Warning~h~~s~: You had {removedWeapons} unauthorized weapons, possibly spawned by a cheater to get you in trouble, but <C>GTA CnR Shield</C> ~r~removed ~s~them for you."</String>
-        <String xml:lang="tr-TR">"~y~~h~Uyarı~h~~s~: Sende vardı {Kaldırılan Silahlar} yetkisiz silahlar, muhtemelen başınızı belaya sokmak için bir dolandırıcı tarafından yaratılmıştır, ancak <C>GTA CnR Shield</C> ~r~kaldırıldı ~s~senin için."</String>
+        <String xml:lang="en-US">~y~~h~Warning~h~~s~: You had {0} unauthorized weapons, possibly spawned by a cheater to get you in trouble, but (C)GTA CnR Shield(/C) ~r~removed ~s~them for you.</String>
+        <String xml:lang="tr-TR">~y~~h~Uyarı~h~~s~: Sende vardı {0} yetkisiz silahlar, muhtemelen başınızı belaya sokmak için bir dolandırıcı tarafından yaratılmıştır, ancak (C)GTA CnR Shield(/C) ~r~kaldırıldı ~s~senin için.</String>
+        <String xml:lang="de-DE">~y~~h~Achtung~h~~s~: Du hast {0} unerlaubte Waffe, möglicherweise durch einen Cheater, um dich in Schwierigkeiten zu bringen, aber das (C)GTA CnR Shield(/C) hat sie für dich ~r~entfernt~s~.</String>
     </Entry>
 
 </Entries>
