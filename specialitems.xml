@@ -7,11 +7,13 @@
     <Entry Id="specialitem_armor_at_time">
         <String xml:lang="en-US">You can only use ~r~one ~s~body armor at a time.</String>
         <String xml:lang="de-DE">Du kannst Schutzwesten nur ~r~einzeln ~s~anlegen.</String>
+        <String xml:lang="es-ES">Sólo puedes usar ~r~una ~s~armadura a la vez.</String>
     </Entry>
 
     <Entry Id="specialitem_armor_cooldown">
         <String xml:lang="en-US">You need to ~r~wait ~s~{0} seconds to use this type of ~p~body armor ~s~again.</String>
         <String xml:lang="de-DE">Du musst {0} Sekunden ~r~warten~s~, bevor du diesen Typ Schutzweste wieder verwenden kannst. </String>
+        <String xml:lang="es-ES">Tienes que ~r~esperar ~s~{0} segundos para poder usar este tipo de ~p~armadura ~s~otravez</String>
     </Entry>
 
 
@@ -23,74 +25,88 @@
     <Entry Id="specialitem_usage">
         <String xml:lang="en-US">You can't use ~r~{0} ~s~when you're {1} </String>
         <String xml:lang="de-DE">Du kannst {0} nicht verwenden, wenn du {1}.</String>
+        <String xml:lang="es-ES">No puedes usar ~r~{0} ~s~cuando estas {1}</String>
     </Entry>
 
     <!-- items -->
     <Entry Id="medkit">
         <String xml:lang="en-US">medkit</String>
         <String xml:lang="de-DE">Verbandskasten</String>
+        <String xml:lang="es-ES">Botiquín</String>
     </Entry>
 
     <Entry Id="bandage">
         <String xml:lang="en-US">bandage</String>
         <String xml:lang="de-DE">Bandage</String>
+        <String xml:lang="es-ES">venda</String>
     </Entry>
 
     <Entry Id="body_armor">
         <String xml:lang="en-US">body armor</String>
         <String xml:lang="de-DE">Schutzweste</String>
+        <String xml:lang="es-ES">armadura</String>
     </Entry>
 
     <!-- activites -->
     <Entry Id="on_fire">
         <String xml:lang="en-US">~b~on fire~s~.</String>
         <String xml:lang="de-DE">~b~unter Beschuss~s~ bist.</String>
+        <String xml:lang="es-ES">~b~en llamas~s~.</String>
     </Entry>
 
     <Entry Id="on_duty">
         <String xml:lang="en-US">~b~on duty~s~.</String>
         <String xml:lang="de-DE">~b~im Dienst~s~ bist.</String>
+        <String xml:lang="es-ES">~b~de servicio~s~.</String>
     </Entry>
 
     <Entry Id="being_stunned">
         <String xml:lang="en-US">being ~b~stunned~s~.</String>
         <String xml:lang="de-DE">~b~betäubt~s~ bist.</String>
+        <String xml:lang="es-ES">estando ~b~aturdido~s~.</String>
     </Entry>
 
     <Entry Id="being_cuffed">
         <String xml:lang="en-US">being ~b~cuffed~s~.</String>
         <String xml:lang="de-DE">~b~festgenommen~s~ wirst.</String>
+        <String xml:lang="es-ES">estando ~b~esposado~s~.</String>
     </Entry>
 
     <Entry Id="cuffed">
         <String xml:lang="en-US">~b~cuffed~s~.</String>
         <String xml:lang="de-DE">~b~gefesselt~s~ bist.</String>
+        <String xml:lang="es-ES">~b~esposado~s~.</String>
     </Entry>
 
     <Entry Id="suffering_od">
         <String xml:lang="en-US">suffering from an ~r~overdose~s~.</String>
         <String xml:lang="de-DE">unter einer ~r~Überdosis~s~ leidst.</String>
+        <String xml:lang="es-ES">sufriendo de una ~r~sobredosis~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_bandage">
         <String xml:lang="en-US">You've used a ~p~bandage~s~.</String>
         <String xml:lang="de-DE">Du hast eine ~p~Bandage ~s~verwendet.</String>
+        <String xml:lang="es-ES">Has usado un ~p~vendaje~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_bandage_piece">
         <String xml:lang="en-US">You've used a piece of ~p~bandage~s~.</String>
         <String xml:lang="de-DE">Du hast ein Stück von der ~p~Bandage ~s~verwendet.</String>
+        <String xml:lang="es-ES">Has usado un trozo de ~p~vendaje~s~.</String>
     </Entry>
 
     <!-- {0} = amount of bandage  (0.1) -->
     <Entry Id="specialitem_bandage_amount">
         <String xml:lang="en-US">You've used {0} ~p~bandages~s~.</String>
         <String xml:lang="de-DE">Du hast {0} Bandagen verwendet.</String>
+        <String xml:lang="es-ES">Has usado {0} ~p~vendajes~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_medkit">
         <String xml:lang="en-US">You've used a ~p~medkit~s~.</String>
         <String xml:lang="de-DE">Du hast einen ~p~Verbandskasten~s~ verwendet.</String>
+        <String xml:lang="es-ES">Has usado un ~p~botiquín~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -99,32 +115,38 @@
     <Entry Id="specialitem_repairkit_vehicle_missing">
         <String xml:lang="en-US">You don't have a ~r~vehicle~s~.</String>
         <String xml:lang="de-DE">Du hast kein ~r~Fahrzeug~s~.</String>
+        <String xml:lang="es-ES">No tienes un ~r~vehículo~s~.</String>
     </Entry>
 
     <!-- {0} = item name -->
     <Entry Id="specialitem_repairkit_vehicle_inside">
         <String xml:lang="en-US">You ~r~can't use ~s~a ~b~{0} ~s~when you're inside a vehicle.</String>
         <String xml:lang="de-DE">Du kannst ~r~kein ~s~{0} verwenden, wenn du im Fahrzeug bist.</String>
+        <String xml:lang="es-ES">~r~No puedes usar ~s~un ~b~{0} ~s~cuando estás dentro de un vehículo.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_close">
         <String xml:lang="en-US">You're not ~r~close enough ~s~to use a ~b~{0} ~s~on your vehicle.</String>
         <String xml:lang="de-DE">Du bist nicht ~r~nah genug~s~, um ein {0} an deinem Fahrzeug zu verwenden.</String>
+        <String xml:lang="es-ES">No estás ~r~suficientemente cerca ~s~para usar un ~b~{0} ~s~en tu vehículo.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_control">
         <String xml:lang="en-US">Unable to take control of the ~b~vehicle~s~. If other ~r~players ~s~are inside it, ask them to exit.</String>
         <String xml:lang="de-DE">Die Kontrolle über das ~b~Fahrzeug~s~ kann nicht übernommen werden. Wenn andere ~r~Spieler~s~ im Fahrzeug sind, bitte sie, auszusteigen.</String>
+        <String xml:lang="es-ES">No se puede tomar el control de los ~b~vehículos~. Si hay otros ~r~jugadores ~s~ dentro, pídeles que salgan.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_type">
         <String xml:lang="en-US">You ~r~can't use ~s~a ~b~{0} ~s~on vehicles of this type.</String>
         <String xml:lang="de-DE">Du kannst kein {0} an diesem Fahrzeugtyp verwenden.</String>
+        <String xml:lang="es-ES">~r~No puedes usar ~s~un ~b~{0} ~s~en vehículos de este tipo.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_hood">
         <String xml:lang="en-US">Your vehicle's ~y~hood ~s~must be open in order to use a ~b~{0}~s~.</String>
         <String xml:lang="de-DE">Die ~y~Motorhaube~s~ deines Fahrzeuges muss geöffnet sein, damit du ein ~b~{0}~s~ verwenden kannst.</String>
+        <String xml:lang="es-ES">El ~y~capó ~s~de tu vehículo tiene que estar abierto para usar un ~b~{0}~s~.</String>
     </Entry>
 
     <!-- {0} = remaining seconds -->
@@ -132,21 +154,25 @@
     <Entry Id="specialitem_repairkit_cooldown">
         <String xml:lang="en-US">You must wait ~r~{0} seconds ~s~before using another ~b~{1}~s~.</String>
         <String xml:lang="de-DE">Du musst ~r~{0} Sekunden warten, bevor du ein weiteres ~b~{1}~s~ verwenden kannst.</String>
+        <String xml:lang="es-ES">Debes esperar ~r~{0} segundos ~s~ antes de usar otro ~b~{1}~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_engine_repair">
         <String xml:lang="en-US">You have repaired your ~b~vehicle~s~'s engine.</String>
         <String xml:lang="de-DE">Du hast den Motor deines ~b~Fahrzeuges ~s~repariert.</String>
+        <String xml:lang="es-ES">Has reparado el motor de tu ~b~vehículo~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_tire_repair">
         <String xml:lang="en-US">You have repaired your ~b~vehicle~s~'s tires.</String>
         <String xml:lang="de-DE">Du hast die Reifen deines ~b~Fahrzeuges ~s~repariert.</String>
+        <String xml:lang="es-ES">Has reparado los neumáticos de tu ~b~vehículo~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_clean">
         <String xml:lang="en-US">You have cleaned your ~b~vehicle~s~.</String>
         <String xml:lang="de-DE">Du hast dein ~b~Fahrzeug~s~ gereinigt.</String>
+        <String xml:lang="es-ES">Has limpiado tu ~b~vehículo~s~.</String>
     </Entry>
 
 </Entries>
