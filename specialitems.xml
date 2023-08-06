@@ -5,6 +5,7 @@
     <!-- {1} = Item name -->
     <Entry Id="specialitem_purchase">
         <String xml:lang="en-US">You need to ~r~wait {0} seconds ~s~before purchasing another ~p~{1}~s~.</String>
+        <String xml:lang="it-IT"></String>
     </Entry>
 
     <!-- ========================= -->
@@ -14,10 +15,12 @@
     <!-- {1} = Item name -->
     <Entry Id="specialitem_scratchcard_player_won">
         <String xml:lang="en-US">(C){0}(/C) won (C){1}(/C) from a scratch card!</String>
+        <String xml:lang="it-IT">(C){0}(/C) ha vinto (C){1}(/C) da un gratta e vinci!</String>
     </Entry>
 
     <Entry Id="specialitem_scratchcard_at_time">
         <String xml:lang="en-US">You can only use ~r~one ~s~scratch card at a time.</String>
+        <String xml:lang="it-IT">Puoi usare solo ~run ~s~gratta e vinci alla volta.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -25,7 +28,7 @@
     <!-- ========================= -->
     <Entry Id="specialitem_armor_at_time">
         <String xml:lang="en-US">You can only use ~r~one ~s~body armor at a time.</String>
-        <String xml:lang="it-IT">Puoi usare solo ~r~un ~s~armatura alla volta.</String>
+        <String xml:lang="it-IT">Puoi usare solo ~r~un ~s~giubbotto antiproiettile alla volta.</String>
         <String xml:lang="nl-NL">Je kan maar ~r~één ~s~kogelvrij vest tegelijk gebruiken.</String>
         <String xml:lang="de-DE">Du kannst Schutzwesten nur ~r~einzeln ~s~anlegen.</String>
         <String xml:lang="es-ES">Sólo puedes usar ~r~una ~s~armadura a la vez.</String>
@@ -34,7 +37,7 @@
 
     <Entry Id="specialitem_armor_cooldown">
         <String xml:lang="en-US">You need to ~r~wait ~s~{0} seconds to use this type of ~p~body armor ~s~again.</String>
-        <String xml:lang="it-IT">Devi ~r~aspettare ~s~{0} secondi prima di poter usare questo tipo di ~p~armatura ~s~ancora.</String>
+        <String xml:lang="it-IT">Devi ~r~aspettare ~s~{0} secondi prima di poter usare questo tipo di ~p~giubbotto antiproiettile ~s~ancora.</String>
         <String xml:lang="nl-NL">Je moet {0} seconden ~r~wachten ~s~voordat je dit type ~p~kogelvrij vest~s~ weer kan gebruiken.</String>
         <String xml:lang="de-DE">Du musst {0} Sekunden ~r~warten~s~, bevor du diesen Typ Schutzweste wieder verwenden kannst. </String>
         <String xml:lang="es-ES">Tienes que ~r~esperar ~s~{0} segundos para poder usar este tipo de ~p~armadura ~s~otravez</String>
@@ -71,14 +74,17 @@
     <!-- {2} = Player Id -->
     <Entry Id="player_used_medkit">
         <String xml:lang="en-US">(C){0}{1} ({2})(/C) ~s~used a ~p~medkit~s~.</String>
+        <String xml:lang="it-IT">(C){0}{1} ({2})(/C) ~s~ha usato un ~p~kit medico~s~.</String>
     </Entry>
 
     <Entry Id="medkit_cooldown">
         <String xml:lang="en-US">You need to ~r~wait ~s~30 seconds between ~p~medkit ~s~uses.</String>
+        <String xml:lang="it-IT">Devi ~r~aspetare ~s~30 secondi prima di poter usare un altro ~p~kit medico~s~.</String>
     </Entry>
 
     <Entry Id="medkit_at_time">
         <String xml:lang="en-US">You can only use ~r~one ~s~medkit at a time.</String>
+        <String xml:lang="it-IT">Puoi usare solo ~r~un ~s~kit medico alla volta.</String>
     </Entry>
 
     <Entry Id="bandage">
@@ -95,11 +101,12 @@
     <!-- {2} = Player Id -->
     <Entry Id="player_used_bandage">
         <String xml:lang="en-US">(C){0}{1} ({2})(/C) ~s~used a ~p~bandage~s~.</String>
+        <String xml:lang="it-IT">(C){0}{1} ({2})(/C) ~s~ha usato una ~p~benda~s~.</String>
     </Entry>
 
     <Entry Id="bodyarmor">
         <String xml:lang="en-US">body armor</String>
-        <String xml:lang="it-IT">armatura</String>
+        <String xml:lang="it-IT">giubbotto antiproiettile</String>
         <String xml:lang="nl-NL">kogelvrij vest</String>
         <String xml:lang="de-DE">Schutzweste</String>
         <String xml:lang="es-ES">armadura</String>
@@ -111,6 +118,7 @@
     <!-- {2} = Player Id -->
     <Entry Id="player_used_bodyarmor">
         <String xml:lang="en-US">(C){0}{1} ({2})(/C) ~s~equipped a ~p~body armor~s~.</String>
+        <String xml:lang="it-IT">(C){0}{1} ({2})(/C) ~s~ha equipaggiato un ~p~giubbotto antiproiettile~s~.</String>
     </Entry>
 
     <!-- activites -->
@@ -306,22 +314,27 @@
     <!-- ========================= -->
     <Entry Id="specialitem_halloween_second_pumpkin">
         <String xml:lang="en-US">Good! You got your second ~o~pumpkin~s~. Don't give up now!</String>
+        <String xml:lang="it-IT">Buono! Hai raccolto la tua seconda ~o~zucca~s~. Non arrenderti adesso!</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_third_pumpkin">
         <String xml:lang="en-US">Third ~o~pumpkin~s~! Collect ~o~20 pumpkins ~s~for a ~b~small reward~s~!</String>
+        <String xml:lang="it-IT">Terza ~o~zucca~s~! Raccogli ~o~20 zucche ~s~per una ~b~piccola ricompensa~s~!</String>
     </Entry>
 
     <Entry Id="specialitem_hallooween_twenty_pumpkin">
         <String xml:lang="en-US">Great! You collected ~o~20 pumpkins~s~! You received a ~b~bonus item ~s~in your inventory, try to use it!</String>
+        <String xml:lang="it-IT">Ottimo! Hai raccolto ~o~20 zucche~s~! Hai ricevuto un ~b~oggetto bonus ~s~nel tuo inventario, prova ad utilizzarlo!</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_twenty_more_pumpkin">
         <String xml:lang="en-US">You found 20 more ~o~pumpkins~s~! Check your inventory for your ~b~bonus item~s~.</String>
+        <String xml:lang="it-IT">Hai trovato altre 20 ~o~zucche~s~! Controlla il tuo inventario per ~b~l'oggetto bonus~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_hallooween_fifty_pumpkin">
         <String xml:lang="en-US">Yay! You made it to 50! You will receive this bonus every ~o~50 pumpkins ~s~found!</String>
+        <String xml:lang="it-IT">Eviva! Sei arrivato a 50! Riceverai questo bonus ogni volta che trovi ~o~50 zucche~s~!</String>
     </Entry>
 
     <!-- {0} = Text color -->
@@ -330,15 +343,18 @@
     <!-- {3} = Counter pumpkins -->
     <Entry Id="specialitem_halloween_pumpkin_counter">
         <String xml:lang="en-US">{0}{1} ({source.Handle/2}) ~s~has found {3} ~o~pumpkins~s~!</String>
+        <String xml:lang="it-IT">{0}{1} ({source.Handle/2}) ~s~ha trovato {3} ~o~zucche~s~!</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_candy_inventory_full">
         <String xml:lang="en-US">~r~Warning: ~s~You couldn't receive a halloween candy because your inventory is full.</String>
+        <String xml:lang="it-IT">~r~Attenzione: ~s~Non hai potuto ricevere la caramella di halloween poichè il tuo inventario è pieno.</String>
     </Entry>
 
     <!-- {0} = Error-code -->
     <Entry Id="specialitem_halloween_candy_error">
         <String xml:lang="en-US">~r~Warning: ~s~You couldn't receive a halloween candy due to an error 0x88-{0}.</String>
+        <String xml:lang="it-IT">~r~Attenzione: ~s~Non hai potuto ricevere la caramella di halloween a causa del errore 0x88-{0}.</String>
     </Entry>
 
     <!-- {0} = Text color -->
@@ -347,16 +363,19 @@
     <!-- {3} = Final price -->
     <Entry Id="specialitem_halloween_all_pumpkins">
         <String xml:lang="en-US">{0}{1} ({source.Handle/2}) ~s~has found all 500 ~o~pumpkins~s~ and received ~g~{3}~s~!</String>
+        <String xml:lang="it-IT">{0}{1} ({source.Handle/2}) ~s~ha trovato tutte le 500 ~o~zucche~s~ e ha ricevuto ~g~{3}~s~!</String>
     </Entry>
 
     <!-- {0} = Final price -->
     <Entry Id="specialitem_halloween_reward">
         <String xml:lang="en-US">You received ~g~{0} ~s~and the ~o~Freddy Krueger Outfit ~s~for your civilian character. Happy Halloween!</String>
+        <String xml:lang="it-IT">Hai ricevuto ~g~{0} ~s~e ~o~l'Outfit di Freddy Krueger ~s~per il tuo personaggio da civile. Buon Halloween!</String>
     </Entry>
 
     <!-- {0} = Cooldown -->
     <Entry Id="specialitem_hallooween_candy_cooldown">
         <String xml:lang="en-US">You must ~r~wait ~s~{0} seconds before eating another ~o~halloween candy~s~.</String>
+        <String xml:lang="it-IT">Devi ~r~aspettare ~s~{0} secondi prima di poter mangiare un altra ~o~caramella di halloween~s~.</String>
     </Entry>
 
 
