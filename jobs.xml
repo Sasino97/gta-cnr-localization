@@ -344,13 +344,15 @@
     <Entry Id="player_paramedic_call_intern">
         <String xml:lang="en-US">Paramedic ~p~(C){0} ({1})(/C) ~s~has responded to the call on (C){2} ({3})(/C).</String>
         <String xml:lang="it-IT">Il paramedico ~p~(C){0} ({1})(/C) ~s~ha risposto alla chiamata di (C){2} ({3})(/C).</String>
+        <String xml:lang="es-ES">El paramédico ~p~(C){0} ({1})(/C) ~s~ha respondido a la llamada en (C){2} ({3})(/C).</String>
     </Entry>
 
     <!-- {0} = Paramedics' name -->
     <!-- {1} = Paramedics' Id -->
     <Entry Id="player_paramedic_call_responded">
-        <String xml:lang="en-US">Paramedic ~p~(C){0} ({1})(/C) ~s~responded to your call.
+        <String xml:lang="en-US">Paramedic ~p~(C){0} ({1})(/C) ~s~responded to your call.</String>
         <String xml:lang="it-IT">Il paramedico ~p~(C){0} ({1})(/C) ~s~ha risposto alla tua chiamata.</String>
+        <String xml:lang="es-ES">El paramédico ~p~(C){0} ({1})(/C) ~s~respondió a su llamada.</String>
     </Entry>
 
     <Entry Id="paramedic_revival_fail">
@@ -366,6 +368,7 @@
     <Entry Id="paramedic_reviving">
         <String xml:lang="en-US">Paramedic (C){0}(/C) is reviving you.</String>
         <String xml:lang="it-IT">Il paramedico ~p~(C){0} ({1})(/C) ~s~ti sta rianimando.</String>
+        <String xml:lang="es-ES">El paramédico (C){0}(/C) te está reviviendo.</String>
     </Entry>
 
     <Entry Id="paramedic_npc_loss">
@@ -382,6 +385,7 @@
     <Entry Id="paramedic_on_scene">
         <String xml:lang="en-US">Paramedic ~p~(C){0} ({1})(/C) ~s~is on scene!</String>
         <String xml:lang="it-IT">Il paramedico ~p~(C){0} ({1})(/C) ~s~è sulla scena!</String>
+        <String xml:lang="es-ES">¡El paramédico ~p~(C){0} ({1})(/C) ~s~está en la escena!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -443,6 +447,7 @@
     <Entry Id="police_confiscate_weapon">
         <String xml:lang="en-US">Officer {0} has ~r~confiscated ~s~{1} ~s~from you.</String>
         <String xml:lang="it-IT">L'agente {0} ti ha ~r~confiscato ~s~{1}~s~.</String>
+        <String xml:lang="es-ES">El policia {0} ha ~r~confiscado ~s~{1}~s~de ti.</String>
     </Entry>
 
     <!-- {0} = Player name -->
@@ -450,6 +455,7 @@
     <Entry Id="police_confiscate_weapon">
         <String xml:lang="en-US">Officer ~b~(C){0} ({1})(/C) ~s~has responded to the call.</String>
         <String xml:lang="it-IT">L'agente ~b~(C){0} ({1})(/C) ~s~ha risposto alla chiamata.</String>
+        <String xml:lang="es-ES">El policia ~b~(C){0} ({1})(/C) ~s~ha respondido a la llamada.</String>
     </Entry>
 
     <!-- {0} = Officers' name -->
@@ -458,6 +464,7 @@
     <Entry Id="police_bribe_accepted_not_shared">
         <String xml:lang="en-US">{0} accepted {1}'s ~g~{2} ~s~bribe but didn't share it.</String>
         <String xml:lang="it-IT">{0} ha accettato la mazzetta di ~g~{2} ~s~offerta da {1} ma non l'ha condivisa.</String>
+        <String xml:lang="es-ES">{0} aceptó el ~g~{2} ~s~soborno de {1} pero no lo compartió.</String>
     </Entry>
 
     <!-- {0} = Officers' name -->
@@ -465,6 +472,7 @@
     <Entry Id="police_bribe_accepted_shared">
         <String xml:lang="en-US">{0} accepted {1}'s bribe and shared it with nearby officers.</String>
         <String xml:lang="it-IT">{0} ha accettato la mazzetta ~s~offerta da {1} e l'ha condivisa con gli agenti vicini.</String>
+        <String xml:lang="es-ES">{0} aceptó el soborno de {1} y lo compartió con los policias cercanos.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -510,6 +518,7 @@
     <Entry Id="vehicle_export_player_found_value">
         <String xml:lang="en-US">{0}{1} ({2}) ~s~has found today's ~b~most wanted vehicle ~s~in ~y~{3}~s~. Value: ~g~{4}~s~.</String>
         <String xml:lang="it-IT">{0}{1} ({2}) ~s~hha trovato il ~b~veicolo più ricercato ~s~di oggi in ~y~{3}~s~. Valore: ~g~{4}~s~.</String>
+        <String xml:lang="es-ES">{0}{1} ({2}) ~s~ha encontrado el ~b~vehículo más buscado de hoy ~s~en ~y~{3}~s~. Valor: ~g~{4}~s~.</String>
     </Entry>
 
 </Entries>
