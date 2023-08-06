@@ -145,4 +145,36 @@
         <String xml:lang="zh-Hant">~g~免費</String>
         <String xml:lang="es-ES">~g~GRATIS</String>
     </Entry>
+
+    <!-- ========================= -->
+    <!-- Bans -->
+    <!-- ========================= -->
+    <!-- {0} = Player name -->
+    <!-- {1} = Player Id -->
+    <!-- {2} = Players' job -->
+    <!-- {3} = Duration -->
+    <Entry Id="player_job_ban">
+        <String xml:lang="en-US">🛡️ ~b~GTA CnR Shield ~s~banned {0} ({1}) from the {2} job for {3} days.</String>
+        <String xml:lang="it-IT">🛡️ ~b~GTA CnR Shield ~s~ha bannato {0} ({1}) dal lavoro di {2} per {3} days.</String>
+    </Entry>
+
+    <!-- {0} = Player name -->
+    <!-- {1} = Duration -->
+    <!-- {2} = Reason -->
+    <!-- {3} = Count -->
+    <Entry Id="player_job_ban">
+        <String xml:lang="en-US">🛡️ ~b~GTA CnR Shield ~s~banned {0} (offline) for {1} for ~r~{2}~s~. Total players banned: {3}</String>
+        <String xml:lang="it-IT">🛡️ ~b~GTA CnR Shield ~s~ha bannato {0} (offline) per {1} per ~r~{2}~s~. Player totali bannati: {3}</String>
+    </Entry>
+
+    <!-- {0} = Player name -->
+    <!-- {1} = Player Id -->
+    <!-- {2} = Duration -->
+    <!-- {3} = Reason -->
+    <!-- {4} = Count -->
+    <Entry Id="player_job_ban">
+        <String xml:lang="en-US">🛡️ ~b~GTA CnR Shield ~s~banned {0} ({1}) for {2} for ~r~{3}~s~. Total players banned: {4}</String>
+        <String xml:lang="it-IT">🛡️ ~b~GTA CnR Shield ~s~ha bannato {0} ({1}) per {2} per ~r~{3}~s~. Player totali bannati: {4}</String>
+    </Entry>
+
 </Entries>
