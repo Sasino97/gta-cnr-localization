@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Entries>
+
+    <!-- ========================= -->
+    <!-- Warehouse -->
+    <!-- ========================= -->
+    <!-- {0} = amount -->
+    <!-- {1} = item name -->
+    <Entry Id="warehouse_cant_move">
+        <String xml:lang="en-US">You cannot ~r~move ~s~this item into a warehouse.</String>
+        <String xml:lang="nl-NL">Je kan dit voorwerp niet in een warenhuis ~r~leggen~s~.</String>
+        <String xml:lang="it-IT">Non puoi ~r~depositare ~s~questo oggetto in un magazzino.</String>
+        <String xml:lang="de-DE">Du kannst diesen Gegenstand nicht in dein Lagerhaus ~r~legen~s~.</String>
+        <String xml:lang="es-ES">No puedes ~r~eliminar ~s~este artículo en un almacén.</String>
+    </Entry>
+
+    <Entry Id="warehouse_cant_move">
+        <String xml:lang="en-US">You put {0} ~p~{1} ~s~in your warehouse.</String>
+        <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~in je warenhuis gestopt.</String>
+        <String xml:lang="it-IT">Hai depositato {0} ~p~{1} ~s~nel tuo magazzino.</String>
+        <String xml:lang="de-DE">Du hast {0} ~p~{1} ~s~in dein Lagerhaus gelegt.</String>
+        <String xml:lang="es-ES">Has puesto {0} ~p~{1} ~s~en tu almacén.</String>
+    </Entry>
+
+    <Entry Id="warehouse_cant_move">
+        <String xml:lang="en-US">You cannot ~r~move ~s~this item out of your warehouse.</String>
+        <String xml:lang="nl-NL">Je kan dit voorwerp niet uit je warenhuis ~r~halen~s~.</String>
+        <String xml:lang="it-IT">Non puoi ~r~spostare ~s~questo oggetto fuori dal tuo magazzino.</String>
+        <String xml:lang="de-DE">Du kannst diesen Gegenstand nicht aus deinem Lagerhaus ~r~nehmen~s~.</String>
+        <String xml:lang="es-ES">No puede ~r~eliminar ~s~este artículo de tu almacén.</String>
+    </Entry>
+
+    <Entry Id="warehouse_cant_move">
+        <String xml:lang="en-US">You took {0} ~p~{1} ~s~from your warehouse.</String>
+        <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~uit je warenhuis gehaald.</String>
+        <String xml:lang="it-IT">Hai ritirato {0} ~p~{1} ~s~dal tuo magazzino.</String>
+        <String xml:lang="de-DE">Du hast {0} ~p~ {1} ~s~auf deinem Lagerhaus genommen.</String>
+        <String xml:lang="es-ES">Has cogido {0} ~p~{1} ~s~ de tu almacén.</String>
+    </Entry>
+
+    <!-- {0} = Player name -->
+    <!-- {1} = Warehouse name -->
+    <Entry Id="warehouse_player_enter">
+        <String xml:lang="en-US">(C){0}(/C) entered ~y~{1}~s~.</String>
+        <String xml:lang="it-IT">(C){0}(/C) è entrato in ~y~{1}~s~.</String>
+    </Entry>
+
+    <Entry Id="warehouse_player_entered">
+        <String xml:lang="en-US">(C){0}(/C) ~g~entered the warehouse~s~.</String>
+        <String xml:lang="it-IT">(C){0}(/C) ~g~è entrato ~s~nel magazzino.</String>
+    </Entry>
+
+    <Entry Id="warehouse_player_forcibly_enter">
+        <String xml:lang="en-US">(C){0}(/C) forcibly entered ~y~{1}~s~.</String>
+        <String xml:lang="it-IT">(C){0}(/C) è entrato forzatamente in ~y~{1}~s~.</String>
+    </Entry>
+
+    <Entry Id="warehouse_player_forcibly_entered">
+        <String xml:lang="en-US">(C){0}(/C) ~r~forcibly entered ~s~the warehouse~s~.</String>
+        <String xml:lang="it-IT">(C){0}(/C) è ~r~entrato forzatamente ~s~nel magazzino.</String>
+    </Entry>
+
+
+
+    <!-- ========================= -->
+    <!-- Garage -->
+    <!-- ========================= -->
+    <!-- {0} = Player name -->
+    <!-- {1} = Player ID -->
+    <!-- {2} = Garage name -->
+    <Entry Id="garage_player_enter">
+        <String xml:lang="en-US">(C){0} ({1})(/C) entered ~y~{2}~s~.</String>
+        <String xml:lang="it-IT">(C){0} ({1})(/C) è entrato in ~y~{2}~s~.</String>
+    </Entry>
+
+
+
+</Entries>
