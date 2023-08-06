@@ -7,7 +7,7 @@
     <!-- ========================= -->
     <!-- {0} = amount -->
     <!-- {1} = item name -->
-    <Entry Id="warehouse_cant_move">
+    <Entry Id="warehouse_cant_move_in">
         <String xml:lang="en-US">You cannot ~r~move ~s~this item into a warehouse.</String>
         <String xml:lang="nl-NL">Je kan dit voorwerp niet in een warenhuis ~r~leggen~s~.</String>
         <String xml:lang="it-IT">Non puoi ~r~depositare ~s~questo oggetto in un magazzino.</String>
@@ -15,7 +15,7 @@
         <String xml:lang="es-ES">No puedes ~r~eliminar ~s~este artículo en un almacén.</String>
     </Entry>
 
-    <Entry Id="warehouse_cant_move">
+    <Entry Id="warehouse_item_put">
         <String xml:lang="en-US">You put {0} ~p~{1} ~s~in your warehouse.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~in je warenhuis gestopt.</String>
         <String xml:lang="it-IT">Hai depositato {0} ~p~{1} ~s~nel tuo magazzino.</String>
@@ -23,7 +23,7 @@
         <String xml:lang="es-ES">Has puesto {0} ~p~{1} ~s~en tu almacén.</String>
     </Entry>
 
-    <Entry Id="warehouse_cant_move">
+    <Entry Id="warehouse_cant_move_out">
         <String xml:lang="en-US">You cannot ~r~move ~s~this item out of your warehouse.</String>
         <String xml:lang="nl-NL">Je kan dit voorwerp niet uit je warenhuis ~r~halen~s~.</String>
         <String xml:lang="it-IT">Non puoi ~r~spostare ~s~questo oggetto fuori dal tuo magazzino.</String>
@@ -31,7 +31,7 @@
         <String xml:lang="es-ES">No puede ~r~eliminar ~s~este artículo de tu almacén.</String>
     </Entry>
 
-    <Entry Id="warehouse_cant_move">
+    <Entry Id="warehouse_item_taken">
         <String xml:lang="en-US">You took {0} ~p~{1} ~s~from your warehouse.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~uit je warenhuis gehaald.</String>
         <String xml:lang="it-IT">Hai ritirato {0} ~p~{1} ~s~dal tuo magazzino.</String>
@@ -41,7 +41,7 @@
 
     <!-- {0} = Player name -->
     <!-- {1} = Warehouse name -->
-    <Entry Id="warehouse_player_enter">
+    <Entry Id="warehouse_player_entered_specific">
         <String xml:lang="en-US">(C){0}(/C) entered ~y~{1}~s~.</String>
         <String xml:lang="it-IT">(C){0}(/C) è entrato in ~y~{1}~s~.</String>
     </Entry>
@@ -61,19 +61,14 @@
         <String xml:lang="it-IT">(C){0}(/C) è ~r~entrato forzatamente ~s~nel magazzino.</String>
     </Entry>
 
-
-
     <!-- ========================= -->
     <!-- Garage -->
     <!-- ========================= -->
     <!-- {0} = Player name -->
-    <!-- {1} = Player ID -->
-    <!-- {2} = Garage name -->
+    <!-- {1} = Garage name -->
     <Entry Id="garage_player_enter">
-        <String xml:lang="en-US">(C){0} ({1})(/C) entered ~y~{2}~s~.</String>
-        <String xml:lang="it-IT">(C){0} ({1})(/C) è entrato in ~y~{2}~s~.</String>
+        <String xml:lang="en-US">(C){0}(/C) entered ~y~{1}~s~.</String>
+        <String xml:lang="it-IT">(C){0}(/C) è entrato in ~y~{1}~s~.</String>
     </Entry>
-
-
 
 </Entries>
