@@ -37,7 +37,7 @@
         <String xml:lang="nl-NL">Bekijk en beheer je voorwerpen. ~p~Wist je dat? ~s~Je kan ook ~y~op F2 drukken ~s~ om dit menu te openen.</String>
         <String xml:lang="tr-TR">Öğelerinizi görüntüleyin ve yönetin. ~p~Biliyor musun? ~s~Ayrıca yapabilirsin ~y~F2'ye basın ~s~menüyü açmak</String>
         <String xml:lang="de-DE">Zeige und verwalte deine Gegenstände. ~p~Schon gewusst? ~s~Du kannst ~y~F2 drücken ~s~,um das Menü zu öffnen.</String>
-        <String xml:lang="it-IT">Visualizza e gestisci i tuoi oggetti.~n~~p~Lo sapevi? ~s~Puoi accedere a questo menu anche ~y~premendo F2~s~.</String>
+        <String xml:lang="it-IT">Visualizza e gestisci i tuoi oggetti. ~p~Lo sapevi? ~s~Puoi accedere a questo menu anche ~y~premendo F2~s~.</String>
         <String xml:lang="fr-FR">Gestion des objets. ~p~Le savais-tu? ~s~Tu peux aussi ~y~appuyer sur F2 ~s~pour ouvrir ce menu.</String>
         <String xml:lang="zh-Hant">查看和管理您的項目. ~p~你知道嗎? ~s~您也可以 ~y~按 F2 ~s~打開選單.</String>
         <String xml:lang="es-ES">Mira y gestione tus artículos. ~p~¿Sabías? ~s~También puedes ~y~presionar F2 ~s~para abrir este menú.</String>
@@ -94,6 +94,7 @@
     <Entry Id="imenu_armory_magazine_remove">
         <String xml:lang="en-US">You cannot ~r~remove ~s~the magazine.</String>
         <String xml:lang="nl-NL">Je kan niet het magazijn ~r~verwijderen~s~.</String>
+        <String xml:lang="it-IT">Non puoi ~r~rimuovere ~s~il caricatore.</String>
         <String xml:lang="de-DE">Du kannst das Magazine nicht ~r~entfernen~s~.</String>
     </Entry>
 
@@ -246,24 +247,28 @@
     <Entry Id="imenu_help_player_not_connected">
         <String xml:lang="en-US">That player is ~r~not connected~s~.</String>
         <String xml:lang="nl-NL">Deze speler is ~r~niet verbonden~s~.</String>
+        <String xml:lang="it-IT">Questo giocatore ~r~non è connesso~s~.</String>
         <String xml:lang="de-DE">Dieser Spieler ist ~r~nicht verbunden~s~.</String>
     </Entry>
 
     <Entry Id="imenu_help_invalid_id">
         <String xml:lang="en-US">You did not enter a ~r~valid player id~s~.</String>
         <String xml:lang="nl-NL">Je hebt een ~r~ongeldig speler-ID~s~ ingegeven.</String>
+        <String xml:lang="it-IT">Non hai inserito un ~r~ID del giocatore valido~s~.</String>
         <String xml:lang="de-DE">Du hast eine ~r~ungültige Spieler-ID ~s~eingegeben.</String>
     </Entry>
 
     <Entry Id="imenu_help_report_not_submitted">
         <String xml:lang="en-US">~r~Attention: ~s~the report has ~r~not ~s~been submitted!</String>
         <String xml:lang="nl-NL">~r~Waarschuwing: ~s~de report is ~r~niet ~s~verstuurd!</String>
+        <String xml:lang="it-IT">~r~Attenzione: ~s~la segnalazione ~r~non ~s~è stata inviata!</String>
         <String xml:lang="de-DE">~r~Achtung: Der Report wurde ~r~nicht ~s~eingreicht!</String>
     </Entry>
 
     <Entry Id="imenu_help_report_canceled">
         <String xml:lang="en-US">You ~r~canceled ~s~the report.</String>
         <String xml:lang="nl-NL">Je hebt de report ~r~geannuleerd~s~.</String>
+        <String xml:lang="it-IT">Hai ~r~annullato ~s~la segnalazione.</String>
         <String xml:lang="de-DE">Du hast den Report ~r~abgebrochen~s~.</String>
     </Entry>
 
@@ -490,6 +495,7 @@
     <Entry Id="imenu_inventory_refresh">
         <String xml:lang="en-US">You must ~r~wait ~s~before refreshing the inventory again.</String>
         <String xml:lang="nl-NL">Je moet ~r~wachten ~s~voordat je de inventory opnieuw ververst.</String>
+        <String xml:lang="it-IT">Devi ~r~aspettare ~s~prima di aggiornare l'inventario ancora.</String>
         <String xml:lang="de-DE">Du musst ~r~warten~s~, bevor du dein Inventar erneut aktualisieren kannst.</String>
         <String xml:lang="es-ES">Tienes que ~r~esperar ~s~antes de volver a actualizar el inventario.</String>
     </Entry>
@@ -575,7 +581,7 @@
         <String xml:lang="nl-NL">{0} kan niet ~r~{1} ~s~meer ~r~{2} ~s~dragen.</String>
         <String xml:lang="tr-TR">{0} taşıyamaz ~r~{1} ~s~daha fazlasını ~r~{2}~s~.</String>
         <String xml:lang="de-DE">{0} kann nicht ~r~{1} ~s~weitere/n ~r~{2}~s~ halten.</String>
-        <String xml:lang="it-IT">{0} non può tenere altri ~r~{1} ~r~{2}~s~.</String>
+        <String xml:lang="it-IT">{0} non può contenere altri ~r~{1} ~r~{2}~s~.</String>
         <String xml:lang="fr-FR">{0} ne peut pas porter plus de ~r~{1} {2}~s~.</String>
         <String xml:lang="zh-Hant">{0} 的背包已經沒有多餘的空間了.</String>
         <String xml:lang="es-ES">{0} no puedes tener ~r~{1} ~s~más ~r~{2}~s~.</String>
@@ -653,6 +659,7 @@
     <Entry Id="imenu_jobmenu_mechanic_changes">
         <String xml:lang="en-US">The ~b~changes ~s~have been saved.</String>
         <String xml:lang="nl-NL">De ~b~aanpassingen ~s~zijn opgeslagen.</String>
+        <String xml:lang="it-IT">Le ~b~modifiche ~s~sono state salvate.</String>
         <String xml:lang="de-DE">Die Änderungen wurden gespeichert.</String>
         <String xml:lang="es-ES">Los ~b~cambios ~s~ se han guardado.</String>
     </Entry>
@@ -660,6 +667,7 @@
     <Entry Id="imenu_jobmenu_stock_price_lower">
         <String xml:lang="en-US">The price of this item can't be lower than ~r~{0}~s~.</String>
         <String xml:lang="nl-NL">De prijs van dit voorwerp mag niet lager zijn dan ~r~{0}~s~.</String>
+        <String xml:lang="it-IT">Il prezzo di questo oggetto non può essere inferiore a ~r~{0}~s~.</String>
         <String xml:lang="de-DE">Der Preis dieses Gegenstandes kann nicht kleiner als ~r~{0}~s~sein.</String>
         <String xml:lang="es-ES">El precio de este artículo no puede ser inferior a ~r~{0}~s~.</String>
     </Entry>
@@ -667,6 +675,7 @@
     <Entry Id="imenu_jobmenu_stock_price_higher">
         <String xml:lang="en-US">The price of this item can't be higher than ~r~{0}~s~.</String>
         <String xml:lang="nl-NL">De prijs van dit voorwerp mag niet hoger zijn dan ~r~{0}~s~.</String>
+        <String xml:lang="it-IT">Il prezzo di questo oggetto non può essere maggiore a ~r~{0}~s~.</String>
         <String xml:lang="de-DE">Der Preis dieses Gegenstandes kann nicht höcher als ~r~{0}~s~sein.</String>
         <String xml:lang="es-ES">El precio de este artículo no puede ser superior a ~r~{0}~s~.</String>
     </Entry>
@@ -674,6 +683,7 @@
     <Entry Id="imenu_jobmenu_stock_price_unchanged">
         <String xml:lang="en-US">The price remains ~p~unchanged~s~.</String>
         <String xml:lang="nl-NL">De prijs ~p~blijft hetzelfde~s~.</String>
+        <String xml:lang="it-IT">Il prezzo rimane ~p~invariato~s~.</String>
         <String xml:lang="de-DE">Der Preis ~p~verbleibt unverändert~s~.</String>
         <String xml:lang="es-ES">El precio permanece ~p~sin cambios~s~.</String>
     </Entry>
@@ -681,6 +691,7 @@
     <Entry Id="imenu_jobmenu_stock_numeric_value">
         <String xml:lang="en-US">You must enter a ~r~numeric value~s~.</String>
         <String xml:lang="nl-NL">Je moet een ~r~nummer~s~ invoeren.</String>
+        <String xml:lang="it-IT">Devi inserire un ~r~valore numerico~s~.</String>
         <String xml:lang="de-DE">Du musst einen ~r~Zahlenwert ~s~eingeben.</String>
         <String xml:lang="es-ES">Debe introducir un ~r~valor numérico~s~.</String>
     </Entry>
@@ -688,6 +699,7 @@
     <Entry Id="imenu_jobmenu_stock_multiple">
         <String xml:lang="en-US">~r~The amount must be a multiple of 0.1.</String>
         <String xml:lang="nl-NL">~r~Het aantal moet een veelvoud van 0.1 zijn.</String>
+        <String xml:lang="it-IT">~r~La quantità deve essere un multiplo di 0.1.</String>
         <String xml:lang="de-DE">~r~Der Wert muss ein Vielfaches von 0.1 sein.</String>
         <String xml:lang="es-ES">~r~La cantidad debe ser un múltiplo de 0.1.</String>
     </Entry>
@@ -698,6 +710,7 @@
     <Entry Id="imenu_jobmenu_stock_dont_have">
         <String xml:lang="en-US">~r~You don't have {0}{1} {2}.</String>
         <String xml:lang="nl-NL">~r~Je hebt geen {0}{1} {2}.</String>
+        <String xml:lang="it-IT">~r~Non hai {0}{1} {2}.</String>
         <String xml:lang="de-DE">~r~Du hast nicht {0}{1} {2}.</String>
         <String xml:lang="es-ES">Alerta</String>
     </Entry>
@@ -705,6 +718,7 @@
     <Entry Id="imenu_jobmenu_stock_inventory_move">
         <String xml:lang="en-US">You moved ~p~{0}{1} {2} ~s~to your inventory.</String>
         <String xml:lang="nl-NL">Je hebt ~p~{0}{1} {2}~s~ naar je inventaris verschoven.</String>
+        <String xml:lang="it-IT">Hai spostato ~p~{0}{1} {2}~s~ nel tuo inventario.</String>
         <String xml:lang="de-DE">Du hast ~p~{0}{1} {2} ~s~in dein Inventar verschoben.</String>
         <String xml:lang="es-ES">Has movido ~p~{0}{1} {2} ~s~a su inventario.</String>
     </Entry>
@@ -712,6 +726,7 @@
     <Entry Id="imenu_jobmenu_stock_inventory_cant_hold">
         <String xml:lang="en-US">~r~You can't hold {0}{1} more {2} in your inventory.</String>
         <String xml:lang="nl-NL">~r~Je kan niet meer {0}{1} van {2} in je inventaris houden.</String>
+        <String xml:lang="it-IT">~r~Non puoi contenere altri ~p~{0}{1} {2} ~s~nel tuo inventario.</String>
         <String xml:lang="de-DE">~r~Du kannst nicht mehr {0}{1} {2} in deinem Inventar halten.</String>
         <String xml:lang="es-ES">~r~No puedes tener {0}{1} más {2} en tu inventario.</String>
     </Entry>
@@ -719,6 +734,7 @@
     <Entry Id="imenu_jobmenu_stock_inventory_not_enough_space">
         <String xml:lang="en-US">~r~You don't have enough space for {0}{1} {2} in your inventory.</String>
         <String xml:lang="nl-NL">~r~Je hebt niet genoeg ruimte voor {0}{1} {2} in je inventaris.</String>
+        <String xml:lang="it-IT">~r~Non hai abbastanza spazio per {0}{1} {2} nel tuo inventario.</String>
         <String xml:lang="de-DE">~r~Du hast nicht genug Platz für {0}{1} {2} in deinem Inventar.</String>
         <String xml:lang="es-ES">~r~No tienes suficiente espacio para {0}{1} {2} en su inventario.</String>
     </Entry>
@@ -729,6 +745,7 @@
     <Entry Id="imenu_options_language_relog">
         <String xml:lang="en-US">~y~(C)Notice:(/C) ~s~Not everything will refresh. To force the language you must relog.</String>
         <String xml:lang="nl-NL">~y~(C)Let op:(/C) ~s~Niet alles wordt ververst. Om de taal te forceren, moet je reloggen.</String>
+        <String xml:lang="it-IT">~y~(C)Nota:(/C) ~s~Non tutto verrà aggiornato. Devi rientrare per rendere effettivo il nuovo linguaggio.</String>
         <String xml:lang="de-DE">~y~(C)Beachte:(/C) ~s~Nicht alles wird aktualisiert. Um die Sprache zu erzwingen, musst du dich neu verbinden.</String>
         <String xml:lang="es-ES">~y~(C)Aviso:(/C) ~s~No todo se actualizará. Para forzar el idioma debes volver a iniciar sesión.</String>
     </Entry>
@@ -739,6 +756,7 @@
     <Entry Id="imenu_playermenu_wanted_changed">
         <String xml:lang="en-US">~r~Your wanted level has changed since you opened the menu, so it was refreshed to update the bribe amounts.</String>
         <String xml:lang="nl-NL">~r~Je wanted level is veranderd sinds dat je het menu hebt geopend, dus het is gerefreshed om de omkopingsbedragen bij te werken.</String>
+        <String xml:lang="it-IT">~r~Il tuo livello di sospetto è cambiato rispetto a quando hai aperto questo menu, perciò è stato aggiornato per aggiornare le nuove quantità di mazzette.</String>
         <String xml:lang="de-DE">~r~Dein Fahndungslevel hat sich geändert, seitdem du das Menü geöffnet hast. Es wurde aktualisiert, um die Bestechungsgelder anzupassen.</String>
         <String xml:lang="es-ES">~r~Tu nivel de búsqueda ha cambiado desde que abriste el menú, por lo que se actualizó para actualizar las cantidades de los sobornos.</String>
     </Entry>
@@ -751,6 +769,7 @@
     <Entry Id="imenu_warehouse_cant_move">
         <String xml:lang="en-US">You cannot ~r~move ~s~this item into a warehouse.</String>
         <String xml:lang="nl-NL">Je kan dit voorwerp niet in een warenhuis ~r~leggen~s~.</String>
+        <String xml:lang="it-IT">Non puoi ~r~depositare ~s~questo oggetto in un magazzino.</String>
         <String xml:lang="de-DE">Du kannst diesen Gegenstand nicht in dein Lagerhaus ~r~legen~s~.</String>
         <String xml:lang="es-ES">No puedes ~r~eliminar ~s~este artículo en un almacén.</String>
     </Entry>
@@ -758,6 +777,7 @@
     <Entry Id="imenu_warehouse_cant_move">
         <String xml:lang="en-US">You put {0} ~p~{1} ~s~in your warehouse.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~in je warenhuis gestopt.</String>
+        <String xml:lang="it-IT">Hai depositato {0} ~p~{1} ~s~nel tuo magazzino.</String>
         <String xml:lang="de-DE">Du hast {0} ~p~{1} ~s~in dein Lagerhaus gelegt.</String>
         <String xml:lang="es-ES">Has puesto {0} ~p~{1} ~s~en tu almacén.</String>
     </Entry>
@@ -765,6 +785,7 @@
     <Entry Id="imenu_warehouse_cant_move">
         <String xml:lang="en-US">You cannot ~r~move ~s~this item out of your warehouse.</String>
         <String xml:lang="nl-NL">Je kan dit voorwerp niet uit je warenhuis ~r~halen~s~.</String>
+        <String xml:lang="it-IT">Non puoi ~r~spostare ~s~questo oggetto fuori dal tuo magazzino.</String>
         <String xml:lang="de-DE">Du kannst diesen Gegenstand nicht aus deinem Lagerhaus ~r~nehmen~s~.</String>
         <String xml:lang="es-ES">No puede ~r~eliminar ~s~este artículo de tu almacén.</String>
     </Entry>
@@ -772,6 +793,7 @@
     <Entry Id="imenu_warehouse_cant_move">
         <String xml:lang="en-US">You took {0} ~p~{1} ~s~from your warehouse.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~uit je warenhuis gehaald.</String>
+        <String xml:lang="it-IT">Hai ritirato {0} ~p~{1} ~s~dal tuo magazzino.</String>
         <String xml:lang="de-DE">Du hast {0} ~p~ {1} ~s~auf deinem Lagerhaus genommen.</String>
         <String xml:lang="es-ES">Has cogido {0} ~p~{1} ~s~ de tu almacén.</String>
     </Entry>
@@ -782,6 +804,7 @@
     <Entry Id="imenu_dealership_vanity_cleared">
         <String xml:lang="en-US">~p~Your vanity license plate has been cleared.</String>
         <String xml:lang="nl-NL">~p~Je kenteken plaat is geleegd.</String>
+        <String xml:lang="it-IT">~p~La tua targa personalizzata è stata cancellata.</String>
         <String xml:lang="de-DE">~p~Dein Wunschkennzeichen wurde gelöscht.</String>
         <String xml:lang="es-ES">~p~Tu matrícula personalizada ha sido borrada.</String>
     </Entry>
@@ -789,6 +812,7 @@
     <Entry Id="imenu_dealership_vanity_word">
         <String xml:lang="en-US">~r~Your license plate cannot contain that word.</String>
         <String xml:lang="nl-NL">~r~Je kenteken plaat mag dit woord niet bevatten.</String>
+        <String xml:lang="it-IT">~r~La tua targa non può contenere quseta parola.</String>
         <String xml:lang="de-DE">~r~Dein Wunschkennzeichen kann dieses Wort nicht beinhalten.</String>
         <String xml:lang="es-ES">~r~Tu matrícula no puede contener esa palabra.</String>
     </Entry>
@@ -796,6 +820,7 @@
     <Entry Id="imenu_dealership_vanity_error">
         <String xml:lang="en-US">~r~Your license plate cannot be 'ERROR' because it's reserved for special use.</String>
         <String xml:lang="nl-NL">~r~Je kenteken plaat mag niet gelijk zijn aan 'ERROR' omdat het gereserveerd is voor speciaal gebruik.</String>
+        <String xml:lang="it-IT">~r~La tua targa non può essere 'ERROR' poichè riservata per uso speciale.</String>
         <String xml:lang="de-DE">~r~Dein Wunschkennzeichen darf nicht 'ERROR' lauten, da es für spezielle Zwecke reserviert ist.</String>
         <String xml:lang="es-ES">~r~Tu matrícula no puede ser 'ERROR' porque está reservada para un uso especial.</String>
     </Entry>
@@ -803,6 +828,7 @@
     <Entry Id="imenu_dealership_vanity_numbers_latin">
         <String xml:lang="en-US">~r~Your license plate can only contain numbers and latin letters.</String>
         <String xml:lang="nl-NL">~r~Je kenteken plaat mag alleen nummers en latijnse letters bevatten.</String>
+        <String xml:lang="it-IT">~r~La tua targa può solo contenere numeri e caratteri latini.</String>
         <String xml:lang="de-DE">~r~Dein Wunschkennzeichen darf ausschließlich Zahlen und lateinische Buchstaben enthalten.</String>
         <String xml:lang="es-ES">~r~Tu matrícula solo puede contener números y letras latinas.</String>
     </Entry>
@@ -810,6 +836,7 @@
     <Entry Id="imenu_dealership_vanity_taken">
         <String xml:lang="en-US">~r~This license plate has been taken by someone else.</String>
         <String xml:lang="nl-NL">~r~Dit kenteken plaat is al in gebruik door iemand anders.</String>
+        <String xml:lang="it-IT">~r~Questa targa è stata già scelta da qualcun altro.</String>
         <String xml:lang="de-DE">~r~Dieses Wunschkennzeichen wurde von jemand anderem beansprucht.</String>
         <String xml:lang="es-ES">~r~Otra persona ha elegido esta matrícula.</String>
     </Entry>
@@ -817,6 +844,7 @@
     <Entry Id="imenu_dealership_vanity_now">
         <String xml:lang="en-US">~p~Your vanity license plate is now ~s~{0}~p~.</String>
         <String xml:lang="nl-NL">~p~Je kenteken plaat is nu ~s~{0}~p~.</String>
+        <String xml:lang="it-IT">~p~La tua targa personalizzata adesso è ~s~{0}~p~.</String>
         <String xml:lang="de-DE">~p~Dein Wunschkennzeichen lautet nun ~s~{0}~p~.</String>
         <String xml:lang="es-ES">~p~Tu matrícula personalizada ahora es ~s~{0}~p~</String>
     </Entry>
@@ -829,6 +857,7 @@
     <Entry Id="imenu_dealership_vanity_word">
         <String xml:lang="en-US">You {0} a ~p~{1} ~s~for ~r~{2}~s~.</String>
         <String xml:lang="nl-NL">Je hebt een {1} {0} ~s~voor ~r~{2}~s~.</String>
+        <String xml:lang="it-IT">Hai {0} un ~p~{1} ~s~per ~r~{2}~s~.</String>
         <String xml:lang="de-DE">Du hast ein ~p~{1} ~s~für ~r~{2}~s~ {0}.</String>
         <String xml:lang="es-ES">Eres {0} una ~p~{1} ~s~para ~r~{2}~s~.</String>
     </Entry>
@@ -842,6 +871,7 @@
     <Entry Id="imenu_dealership_vanity_word">
         <String xml:lang="en-US">You {0} a ~b~{1} ~s~for ~b~{2} ~s~in gift card balance and ~r~{3} ~s~by check.</String>
         <String xml:lang="nl-NL">Je hebt een {1} {0} ~s~voor ~r~{2}~s~ in cadeaukaart balans en ~r~{3} ~s~in cash.</String>
+        <String xml:lang="it-IT">Hai {0} un ~p~{1} ~s~per ~b~{2}~s~ di credito della carta regalo ed ~r~{3} ~s~con assegno.</String>
         <String xml:lang="de-DE">Du hast ein ~b~{1} ~s~für {2} ~s~in Geschenkkartenguthaben und ~r~{3} mit Scheck {0}.</String>
         <String xml:lang="es-ES">Has comprado {0} un ~b~{1} ~s~por ~b~{2} ~s~en saldo de la tarjeta de regalo y ~r~{3} ~s~por cheque.</String>
     </Entry>
@@ -850,6 +880,7 @@
     <Entry Id="imenu_dealership_bought">
         <String xml:lang="en-US">bought</String>
         <String xml:lang="nl-NL">gekocht</String>
+        <String xml:lang="it-IT">comprato</String>
         <String xml:lang="de-De">gekauft</String>
         <String xml:lang="es-ES">compre</String>
     </Entry>
@@ -857,6 +888,7 @@
     <Entry Id="imenu_dealership_sold">
         <String xml:lang="en-US">sold</String>
         <String xml:lang="nl-NL">verkocht</String>
+        <String xml:lang="it-IT">venduto</String>
         <String xml:lang="de-DE">verkauft</String>
         <String xml:lang="es-ES">vendido</String>
     </Entry>
@@ -864,7 +896,8 @@
     <Entry Id="imenu_dealership_rented">
         <String xml:lang="en-US">rented</String>
         <String xml:lang="nl-NL">gehuurd</String>
-        <String xml:lang="en-US">gemietet</String>
+        <String xml:lang="it-IT">noleggiato</String>
+        <String xml:lang="de-DE">gemietet</String>
         <String xml:lang="es-ES">alquilado</String>
     </Entry>
 </Entries>
