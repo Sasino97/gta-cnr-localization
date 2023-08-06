@@ -34,7 +34,7 @@
     <Entry Id="imenu_inventory_descr">
         <String xml:lang="en-US">View and manage your items. ~p~Did you know? ~s~You can also ~y~press F2 ~s~to open this menu.</String>
         <String xml:lang="pl-PL">Podejrzyj oraz zarządzaj swoimi przedmiotemi. ~p~Czy wiedziałeś że ~s~możesz też~y~kliknąć F2 ~s~by otworzyć to menu?</String>
-        <String xml:lang="nl-NL">Bekijk en beheer je voorwerpen. ~p~Wist je dat? ~s~Je kan ook ~y~op F2 drukken ~s~ om dit menu te openen.</String>
+        <String xml:lang="nl-NL">Bekijk en beheer je voorwerpen. ~p~Wist je dat? ~s~Je kan ook ~y~op F2 drukken ~s~om dit menu te openen.</String>
         <String xml:lang="tr-TR">Öğelerinizi görüntüleyin ve yönetin. ~p~Biliyor musun? ~s~Ayrıca yapabilirsin ~y~F2'ye basın ~s~menüyü açmak</String>
         <String xml:lang="de-DE">Zeige und verwalte deine Gegenstände. ~p~Schon gewusst? ~s~Du kannst ~y~F2 drücken ~s~,um das Menü zu öffnen.</String>
         <String xml:lang="it-IT">Visualizza e gestisci i tuoi oggetti.~n~~p~Lo sapevi? ~s~Puoi accedere a questo menu anche ~y~premendo F2~s~.</String>
@@ -779,92 +779,71 @@
     <!-- ========================= -->
     <!-- Dealership -->
     <!-- ========================= -->
-    <Entry Id="imenu_dealership_vanity_cleared">
+    <Entry Id="imenu_dealership_plate_cleared">
         <String xml:lang="en-US">~p~Your vanity license plate has been cleared.</String>
         <String xml:lang="nl-NL">~p~Je kenteken plaat is geleegd.</String>
         <String xml:lang="de-DE">~p~Dein Wunschkennzeichen wurde gelöscht.</String>
         <String xml:lang="es-ES">~p~Tu matrícula personalizada ha sido borrada.</String>
     </Entry>
 
-    <Entry Id="imenu_dealership_vanity_word">
+    <Entry Id="imenu_dealership_plate_forbidden_word">
         <String xml:lang="en-US">~r~Your license plate cannot contain that word.</String>
         <String xml:lang="nl-NL">~r~Je kenteken plaat mag dit woord niet bevatten.</String>
         <String xml:lang="de-DE">~r~Dein Wunschkennzeichen kann dieses Wort nicht beinhalten.</String>
         <String xml:lang="es-ES">~r~Tu matrícula no puede contener esa palabra.</String>
     </Entry>
 
-    <Entry Id="imenu_dealership_vanity_error">
+    <!-- Please don't translate the word 'ERROR', keep it in English -->
+    <Entry Id="imenu_dealership_plate_error">
         <String xml:lang="en-US">~r~Your license plate cannot be 'ERROR' because it's reserved for special use.</String>
         <String xml:lang="nl-NL">~r~Je kenteken plaat mag niet gelijk zijn aan 'ERROR' omdat het gereserveerd is voor speciaal gebruik.</String>
         <String xml:lang="de-DE">~r~Dein Wunschkennzeichen darf nicht 'ERROR' lauten, da es für spezielle Zwecke reserviert ist.</String>
         <String xml:lang="es-ES">~r~Tu matrícula no puede ser 'ERROR' porque está reservada para un uso especial.</String>
     </Entry>
 
-    <Entry Id="imenu_dealership_vanity_numbers_latin">
+    <Entry Id="imenu_dealership_plate_invalid_characters">
         <String xml:lang="en-US">~r~Your license plate can only contain numbers and latin letters.</String>
         <String xml:lang="nl-NL">~r~Je kenteken plaat mag alleen nummers en latijnse letters bevatten.</String>
         <String xml:lang="de-DE">~r~Dein Wunschkennzeichen darf ausschließlich Zahlen und lateinische Buchstaben enthalten.</String>
         <String xml:lang="es-ES">~r~Tu matrícula solo puede contener números y letras latinas.</String>
     </Entry>
 
-    <Entry Id="imenu_dealership_vanity_taken">
+    <Entry Id="imenu_dealership_plate_taken">
         <String xml:lang="en-US">~r~This license plate has been taken by someone else.</String>
         <String xml:lang="nl-NL">~r~Dit kenteken plaat is al in gebruik door iemand anders.</String>
         <String xml:lang="de-DE">~r~Dieses Wunschkennzeichen wurde von jemand anderem beansprucht.</String>
         <String xml:lang="es-ES">~r~Otra persona ha elegido esta matrícula.</String>
     </Entry>
 
-    <Entry Id="imenu_dealership_vanity_now">
+    <Entry Id="imenu_dealership_plate_changed_successfully">
         <String xml:lang="en-US">~p~Your vanity license plate is now ~s~{0}~p~.</String>
         <String xml:lang="nl-NL">~p~Je kenteken plaat is nu ~s~{0}~p~.</String>
         <String xml:lang="de-DE">~p~Dein Wunschkennzeichen lautet nun ~s~{0}~p~.</String>
         <String xml:lang="es-ES">~p~Tu matrícula personalizada ahora es ~s~{0}~p~</String>
     </Entry>
 
-    <!-- {0} = verb -->
-    <!-- {1} = vehicle name -->
-    <!-- {2} = cash-amount -->
-    <!-- You bought a Nero Custom for $22,500,000. -->
-    <!--     [{0} ]   [   {1}   ]     [   {2}   ]  -->
-    <Entry Id="imenu_dealership_vanity_word">
-        <String xml:lang="en-US">You {0} a ~p~{1} ~s~for ~r~{2}~s~.</String>
-        <String xml:lang="nl-NL">Je hebt een {1} {0} ~s~voor ~r~{2}~s~.</String>
-        <String xml:lang="de-DE">Du hast ein ~p~{1} ~s~für ~r~{2}~s~ {0}.</String>
-        <String xml:lang="es-ES">Eres {0} una ~p~{1} ~s~para ~r~{2}~s~.</String>
+    <!-- {0} = vehicle name -->
+    <!-- {1} = amount paid -->
+    <!-- You purchased a Nero Custom for $22,500,000. -->
+    <!--                 [   {0}   ]     [   {1}   ]  -->
+    <Entry Id="imenu_dealership_purchase_vehicle">
+        <String xml:lang="en-US">You purchased a ~p~{0} ~s~for ~r~{1}~s~.</String>
     </Entry>
 
-    <!-- {0} = verb -->
-    <!-- {1} = vehicle name -->
-    <!-- {2} = gift-card-amount -->
-    <!-- {3} = cash-amount -->
-    <!-- You bought a Nero Custom for $12,500,000 in gift card balance and $10,000,000 by check. -->
-    <!--     [{0} ]   [   {1}   ]     [   {2}   ]                          [   {3}   ]           -->
-    <Entry Id="imenu_dealership_vanity_word">
-        <String xml:lang="en-US">You {0} a ~b~{1} ~s~for ~b~{2} ~s~in gift card balance and ~r~{3} ~s~by check.</String>
-        <String xml:lang="nl-NL">Je hebt een {1} {0} ~s~voor ~r~{2}~s~ in cadeaukaart balans en ~r~{3} ~s~in cash.</String>
-        <String xml:lang="de-DE">Du hast ein ~b~{1} ~s~für {2} ~s~in Geschenkkartenguthaben und ~r~{3} mit Scheck {0}.</String>
-        <String xml:lang="es-ES">Has comprado {0} un ~b~{1} ~s~por ~b~{2} ~s~en saldo de la tarjeta de regalo y ~r~{3} ~s~por cheque.</String>
+    <!-- {0} = vehicle name -->
+    <!-- {1} = gift card amount -->
+    <!-- {2} = check amount -->
+    <!-- You purchased a Nero Custom for $12,500,000 in gift card balance and $10,000,000 by check. -->
+    <!--                 [   {0}   ]     [   {1}   ]                          [   {2}   ]           -->
+    <Entry Id="imenu_dealership_purchase_vehicle_with_gift_card">
+        <String xml:lang="en-US">You purchased a ~b~{0} ~s~for ~b~{1} ~s~in gift card balance and ~r~{2} ~s~by check.</String>
     </Entry>
 
-    <!-- verbs -->
-    <Entry Id="imenu_dealership_bought">
-        <String xml:lang="en-US">bought</String>
-        <String xml:lang="nl-NL">gekocht</String>
-        <String xml:lang="de-De">gekauft</String>
-        <String xml:lang="es-ES">compre</String>
-    </Entry>
-
-    <Entry Id="imenu_dealership_sold">
-        <String xml:lang="en-US">sold</String>
-        <String xml:lang="nl-NL">verkocht</String>
-        <String xml:lang="de-DE">verkauft</String>
-        <String xml:lang="es-ES">vendido</String>
-    </Entry>
-
-    <Entry Id="imenu_dealership_rented">
-        <String xml:lang="en-US">rented</String>
-        <String xml:lang="nl-NL">gehuurd</String>
-        <String xml:lang="en-US">gemietet</String>
-        <String xml:lang="es-ES">alquilado</String>
+    <!-- {0} = vehicle name -->
+    <!-- {1} = amount paid -->
+    <!-- You rented a Asterope RS for $60,000. -->
+    <!--              [   {0}   ]     [ {1} ]  -->
+    <Entry Id="imenu_dealership_rent_vehicle">
+        <String xml:lang="en-US">You rented a ~p~{0} ~s~for ~r~{1}~s~/week.</String>
     </Entry>
 </Entries>
