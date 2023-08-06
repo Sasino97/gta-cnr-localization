@@ -29,7 +29,7 @@
     <Entry Id="joined_robbery">
         <String xml:lang="en-US">{0} has ~g~joined ~s~the robbery.</String>
         <String xml:lang="it-IT"{0} si è ~g~unito ~s~alla rapina.></String>
-        <String xml:lang="nl-NL">{0} is de overval ~g~toegetreden~s~.</String>
+<String xml:lang="nl-NL">{0} is de overval ~g~toegetreden~s~.</String>
         <String xml:lang="de-DE">{0} ist dem Überfall ~g~beigetreten~s~.</String>
         <String xml:lang="tr-TR">{0} ~g~katıldı ~s~soyguna.</String>
         <String xml:lang="es-ES">{0} se ha ~g~unido ~s~al robo.</String>
@@ -337,109 +337,169 @@
         <String xml:lang="es-ES">Ve a ~y~{0} ~s~y ayuda a {1}{2} ({3})~s~.</String>
     </Entry>
 
-    <Entry Id="paramedic_revival_fail">
-        <String xml:lang="en-US">~r~Your revival attempt has failed.</String>
-        <String xml:lang="it-IT">~r~Il tuo tentativo di rianimazione è fallito.</String>
-        <String xml:lang="nl-NL">~r~Je poging tot reanimatie is mislukt.</String>
-        <String xml:lang="de-DE">~r~Dein Wiederbelebungsversuch ist gescheitert.</String>
-        <String xml:lang="tr-TR">~r~Canlandırma girişiminiz başarısız oldu.</String>
-        <String xml:lang="es-ES">~r~Tu intento de revivir ha fallado.</String>
+    <!-- {0} = Paramedics' name -->
+    <!-- {1} = Paramedics' Id -->
+    <!-- {2} = Victims' name -->
+    <!-- {3} = Victims' Id -->
+    <Entry Id="player_paramedic_call_intern">
+        <String xml:lang="en-US">Paramedic ~p~(C){0} ({1})(/C) ~s~has responded to the call on (C){2} ({3})(/C).</String>
     </Entry>
 
-    <Entry Id="paramedic_npc_loss">
-        <String xml:lang="en-US">~p~Paramedics ~s~are expected to save the lives of citizens. Innocent civilian NPC casualties will result in small ~r~XP losses~s~.</String>
-        <String xml:lang="it-IT">I ~p~Paramedici ~s~sono tenuti a salvare le vite dei cittadini. Causare vittime civili di NPC innocenti risulterà in piccole ~r~perdite di XP~s~.</String>
-        <String xml:lang="nl-NL">~p~Ambulanciers ~s~worden verwacht om levens te redden van burgers. Ongelukken met onschuldige NPCS resulteert in kleine ~r~XP-verliezen~s~.</String>
-        <String xml:lang="de-DE">~p~Sanitäter ~s~sollen das Leben der Bürger retten. Das Verletzen unschuldiger NPCs führt zu geringen ~r~XP-Verlusten~s~.</String>
-        <String xml:lang="tr-TR">~p~Sağlık görevlileri ~s~vatandaşların hayatını kurtarması bekleniyor. Masum sivil NPC kayıpları küçük ~r~XP kayıpları~s~.</String>
-        <String xml:lang="es-ES">~p~Se espera que los paramédicos ~s~salven la vida de los ciudadanos. Las bajas civiles inocentes de NPC resultarán en pequeñas pérdidas de ~r~XP~s~.</String>
-    </Entry>
+    <!-- {0} = Paramedics' name -->
+    <!-- {1} = Paramedics' Id -->
+    <Entry Id="player_paramedic_call_responded">
+        <String xml:lang="en-US">Paramedic ~p~(C){0} ({1})(/C) ~s~responded to your call.
 
-    <!-- ========================= -->
-    <!-- Police officers -->
-    <!-- ========================= -->
-    <!-- {0} = Player -->
-    <Entry Id="police_cuff_fail">
-        <String xml:lang="en-US">~r~You have failed to cuff {0}.</String>
-        <String xml:lang="it-IT">~r~Hai fallitto nel ammanettare {0}.</String>
-        <String xml:lang="nl-NL">~r~Het is mislukt om {0} te boeien.</String>
-        <String xml:lang="de-DE">~r~Du hast versagt, {0} festzunehmen.</String>
-        <String xml:lang="tr-TR">~r~kelepçelemeyi başaramadın {0}.</String>
-        <String xml:lang="es-ES">~r~No ha podido esposar a {0}.</String>
-    </Entry>
+            <Entry Id="paramedic_revival_fail">
+                <String xml:lang="en-US">~r~Your revival attempt has failed.</String>
+                <String xml:lang="it-IT">~r~Il tuo tentativo di rianimazione è fallito.</String>
+                <String xml:lang="nl-NL">~r~Je poging tot reanimatie is mislukt.</String>
+                <String xml:lang="de-DE">~r~Dein Wiederbelebungsversuch ist gescheitert.</String>
+                <String xml:lang="tr-TR">~r~Canlandırma girişiminiz başarısız oldu.</String>
+                <String xml:lang="es-ES">~r~Tu intento de revivir ha fallado.</String>
+            </Entry>
 
-    <!-- {0} = Location name -->
-    <!-- {1} = Displayed Colour (red, ...) -->
-    <!-- {2} = Player Name -->
-    <!-- {3} = Player ID -->
-    <Entry Id="player_police_call">
-        <String xml:lang="en-US">Go to ~y~{0} ~s~and assist {1}{2} ({3})~s~.</String>
-        <String xml:lang="it-IT">Raggiungi ~y~{0} ~s~ed aiuta {1}{2} ({3})~s~.</String>
-        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en assisteer {1}{2} ({3})~s~.</String>
-        <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und hilf {1}{2} ({3})~s~.</String>
-        <String xml:lang="tr-TR">Git ~y~{0} ~s~ve yardım et {1}{2} ({3})~s~.</String>
-        <String xml:lang="es-ES">Ve a ~y~{0} ~s~y ayuda a {1}{2} ({3})~s~.</String>
-    </Entry>
+            <!-- {0} = Player Name -->
+            <Entry Id="paramedic_reviving">
+                <String xml:lang="en-US">Paramedic (C){0}(/C) is reviving you.</String>
+            </Entry>
 
-    <Entry Id="police_npc_loss">
-        <String xml:lang="en-US">~b~Police officers ~s~are expected to protect and serve citizens. Innocent civilian NPC casualties will result in small ~r~XP losses~s~.</String>
-        <String xml:lang="it-IT">Gli ~b~Agenti di Polizia ~s~sono tenuti a proteggere e servire i cittadini. Causare vittime civili di NPC innocenti risulterà in piccole ~r~perdite di XP~s~.</String>
-        <String xml:lang="nl-NL">~p~Politieagenten ~s~worden verwacht om om burgers te beschermen en te dienen. Ongelukken met onschuldige NPCS resulteert in kleine ~r~XP-verliezen~s~.</String>
-        <String xml:lang="de-DE">~b~Polizisten ~s~sollten Bürger schützen und ihnen dienen. Das Verletzen unschuldiger NPCs führt zu geringen ~r~XP-Verlusten~s~.</String>
-        <String xml:lang="tr-TR">~b~Polis memurları ~s~vatandaşları korumaları ve onlara hizmet etmeleri beklenmektedir. Masum sivil NPC kayıpları küçük ~r~XP kayıpları~s~.</String>
-        <String xml:lang="es-ES">~b~Se espera que los oficiales de policía ~s~protejan y sirvan a los ciudadanos. Las bajas civiles inocentes de NPC resultarán en pequeñas pérdidas de ~r~XP~s~.</String>
-    </Entry>
+            <Entry Id="paramedic_npc_loss">
+                <String xml:lang="en-US">~p~Paramedics ~s~are expected to save the lives of citizens. Innocent civilian NPC casualties will result in small ~r~XP losses~s~.</String>
+                <String xml:lang="it-IT">I ~p~Paramedici ~s~sono tenuti a salvare le vite dei cittadini. Causare vittime civili di NPC innocenti risulterà in piccole ~r~perdite di XP~s~.</String>
+                <String xml:lang="nl-NL">~p~Ambulanciers ~s~worden verwacht om levens te redden van burgers. Ongelukken met onschuldige NPCS resulteert in kleine ~r~XP-verliezen~s~.</String>
+                <String xml:lang="de-DE">~p~Sanitäter ~s~sollen das Leben der Bürger retten. Das Verletzen unschuldiger NPCs führt zu geringen ~r~XP-Verlusten~s~.</String>
+                <String xml:lang="tr-TR">~p~Sağlık görevlileri ~s~vatandaşların hayatını kurtarması bekleniyor. Masum sivil NPC kayıpları küçük ~r~XP kayıpları~s~.</String>
+                <String xml:lang="es-ES">~p~Se espera que los paramédicos ~s~salven la vida de los ciudadanos. Las bajas civiles inocentes de NPC resultarán en pequeñas pérdidas de ~r~XP~s~.</String>
+            </Entry>
 
-    <!-- {0} = Clothing name -->
-    <Entry Id="police_clothing_obtain">
-        <String xml:lang="en-US">You obtained ~b~{0}.</String>
-        <String xml:lang="it-IT">Hai ottenuto ~b~{0}.</String>
-        <String xml:lang="nl-NL">Je hebt ~b~{0}~s~ gekregen.</String>
-        <String xml:lang="de-DE">Du hast ~b~{0}~s~ erhalten.</String>
-        <String xml:lang="tr-TR">Elde ettin ~b~{0}.</String>
-        <String xml:lang="es-ES">Has obtenido ~b~{0}.</String>
-    </Entry>
+            <!-- {0} = Player Name -->
+            <!-- {0} = Player Id -->
+            <Entry Id="paramedic_on_scene">
+                <String xml:lang="en-US">Paramedic ~p~(C){0} ({1})(/C) ~s~is on scene!</String>
+            </Entry>
 
-    <Entry Id="police_shoot_warning">
-        <String xml:lang="en-US">~y~(C)Reminder:(/C) ~s~you can only shoot at ~r~most wanted ~s~and threatening ~o~criminals~s~.</String>
-        <String xml:lang="it-IT">~y~(C)Promemoria:(/C) ~s~puoi solamente sparare ai ~r~più ricercati ~s~e ~o~criminali ~s~costituenti una minaccia.</String>
-        <String xml:lang="nl-NL">~y~(C)Herinnering:(/C) ~s~je mag alleen schieten op ~r~meestgezochte ~s~en bedreigende ~o~criminelen~s~.</String>
-        <String xml:lang="de-DE">~y~(C)Erinnerung:(/C) ~s~du darfst nur auf die ~r~meistgesuchten~s~ und bedrohlichen ~o~Kriminelle~s~ schießen.</String>
-        <String xml:lang="tr-TR">~y~(C)Hatırlatma:(/C) ~s~sadece şunlara ateş edebilirsin ~r~en çok aranan ~s~ve tehdit oluşturan ~o~suçlular~s~.</String>
-        <String xml:lang="es-ES">~y~(C)Recordatorio:(/C) ~s~solo puedes disparar a los ~s~más buscados~s~y amenazantes ~o~criminales~s~.</String>
-    </Entry>
+            <!-- ========================= -->
+            <!-- Police officers -->
+            <!-- ========================= -->
+            <!-- {0} = Player -->
+            <Entry Id="police_cuff_fail">
+                <String xml:lang="en-US">~r~You have failed to cuff {0}.</String>
+                <String xml:lang="it-IT">~r~Hai fallitto nel ammanettare {0}.</String>
+                <String xml:lang="nl-NL">~r~Het is mislukt om {0} te boeien.</String>
+                <String xml:lang="de-DE">~r~Du hast versagt, {0} festzunehmen.</String>
+                <String xml:lang="tr-TR">~r~kelepçelemeyi başaramadın {0}.</String>
+                <String xml:lang="es-ES">~r~No ha podido esposar a {0}.</String>
+            </Entry>
 
-    <!-- ========================= -->
-    <!-- Vehicle export -->
-    <!-- ========================= -->
-    <!-- {0} = Player -->
-    <!-- {1} = Vehicle name -->
-    <!-- {2} = Profit -->
-    <Entry Id="vehicle_export_mw">
-        <String xml:lang="en-US">(C){0}(/C) exported today's most wanted vehicle (C){1}(/C) for (C){2}(/C).</String>
-        <String xml:lang="it-IT">(C){0}(/C) ha esportato il veicolo (C){1}(/C) più ricercato di oggi per (C){2}(/C).</String>
-        <String xml:lang="nl-NL">(C){0}(/C) heeft het meestgezochte voertuig (C){1}(/C) van vandaag voor (C){2}(/C) geëxporteerd.</String>
-        <String xml:lang="de-DE">(C){0}(/C) hat das meistgesuchte Fahrzeug (C){1}(/C) von heute für (C){2}(/C) exportiert.</String>
-        <String xml:lang="tr-TR">(C){0}(/C) bugünün en çok aranan aracını ihraç etti (C){1}(/C) için (C){2}(/C).</String>
-        <String xml:lang="es-ES">(C){0}(/C) exportó el vehículo más buscado de hoy (C){1}(/C) por (C){2}(/C).</String>
-    </Entry>
+            <!-- {0} = Location name -->
+            <!-- {1} = Displayed Colour (red, ...) -->
+            <!-- {2} = Player Name -->
+            <!-- {3} = Player ID -->
+            <Entry Id="player_police_call">
+                <String xml:lang="en-US">Go to ~y~{0} ~s~and assist {1}{2} ({3})~s~.</String>
+                <String xml:lang="it-IT">Raggiungi ~y~{0} ~s~ed aiuta {1}{2} ({3})~s~.</String>
+                <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en assisteer {1}{2} ({3})~s~.</String>
+                <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und hilf {1}{2} ({3})~s~.</String>
+                <String xml:lang="tr-TR">Git ~y~{0} ~s~ve yardım et {1}{2} ({3})~s~.</String>
+                <String xml:lang="es-ES">Ve a ~y~{0} ~s~y ayuda a {1}{2} ({3})~s~.</String>
+            </Entry>
 
-    <Entry Id="vehicle_export_cant_export">
-        <String xml:lang="en-US">Public officers and emergency workers can't illegally export vehicles.</String>
-        <String xml:lang="it-IT">Agenti di polizia e soccorritori non possono esportare veicoli illegalmente.</String>
-        <String xml:lang="nl-NL">Ambtenaren en noodhulpdiensten kunnen geen voertuigen exporteren op een illegale wijze.</String>
-        <String xml:lang="de-DE">Beamte und Einsatzkräfte können keine Fahrzeuge illegal exportieren.</String>
-        <String xml:lang="tr-TR">Kamu görevlileri ve acil durum çalışanları yasa dışı yollardan araç ihraç edemez.</String>
-        <String xml:lang="es-ES">Los oficiales de policia y los trabajadores de emergencia no pueden exportar vehículos ilegalmente.</String>
-    </Entry>
+            <Entry Id="police_npc_loss">
+                <String xml:lang="en-US">~b~Police officers ~s~are expected to protect and serve citizens. Innocent civilian NPC casualties will result in small ~r~XP losses~s~.</String>
+                <String xml:lang="it-IT">Gli ~b~Agenti di Polizia ~s~sono tenuti a proteggere e servire i cittadini. Causare vittime civili di NPC innocenti risulterà in piccole ~r~perdite di XP~s~.</String>
+                <String xml:lang="nl-NL">~p~Politieagenten ~s~worden verwacht om om burgers te beschermen en te dienen. Ongelukken met onschuldige NPCS resulteert in kleine ~r~XP-verliezen~s~.</String>
+                <String xml:lang="de-DE">~b~Polizisten ~s~sollten Bürger schützen und ihnen dienen. Das Verletzen unschuldiger NPCs führt zu geringen ~r~XP-Verlusten~s~.</String>
+                <String xml:lang="tr-TR">~b~Polis memurları ~s~vatandaşları korumaları ve onlara hizmet etmeleri beklenmektedir. Masum sivil NPC kayıpları küçük ~r~XP kayıpları~s~.</String>
+                <String xml:lang="es-ES">~b~Se espera que los oficiales de policía ~s~protejan y sirvan a los ciudadanos. Las bajas civiles inocentes de NPC resultarán en pequeñas pérdidas de ~r~XP~s~.</String>
+            </Entry>
 
-    <Entry Id="vehicle_export_no_mw_vehicle">
-        <String xml:lang="en-US">There's currently no most wanted vehicle. Please, wait until 5:00am.</String>
-        <String xml:lang="it-IT">Non è presente alcun veicolo più ricercato. Perpiacere, aspetta fino alle 5:00am.</String>
-        <String xml:lang="nl-NL">Op dit moment is er geen meestgezocht voertuig. Wacht alstublieft tot 5:00.</String>
-        <String xml:lang="de-DE">Aktuell gibt es kein meistgesuchtes Fahrzeug. Bitte warte bis 5:00 Uhr.</String>
-        <String xml:lang="tr-TR">Şu anda en çok aranan araç yok. Lütfen, sabah 5:00'e kadar bekleyin.</String>
-        <String xml:lang="es-ES">Actualmente no hay ningún vehículo más buscado. Por favor, espere hasta las 5:00 am.</String>
-    </Entry>
+            <!-- {0} = Clothing name -->
+            <Entry Id="police_clothing_obtain">
+                <String xml:lang="en-US">You obtained ~b~{0}.</String>
+                <String xml:lang="it-IT">Hai ottenuto ~b~{0}.</String>
+                <String xml:lang="nl-NL">Je hebt ~b~{0}~s~ gekregen.</String>
+                <String xml:lang="de-DE">Du hast ~b~{0}~s~ erhalten.</String>
+                <String xml:lang="tr-TR">Elde ettin ~b~{0}.</String>
+                <String xml:lang="es-ES">Has obtenido ~b~{0}.</String>
+            </Entry>
 
-</Entries>
+            <Entry Id="police_shoot_warning">
+                <String xml:lang="en-US">~y~(C)Reminder:(/C) ~s~you can only shoot at ~r~most wanted ~s~and threatening ~o~criminals~s~.</String>
+                <String xml:lang="it-IT">~y~(C)Promemoria:(/C) ~s~puoi solamente sparare ai ~r~più ricercati ~s~e ~o~criminali ~s~costituenti una minaccia.</String>
+                <String xml:lang="nl-NL">~y~(C)Herinnering:(/C) ~s~je mag alleen schieten op ~r~meestgezochte ~s~en bedreigende ~o~criminelen~s~.</String>
+                <String xml:lang="de-DE">~y~(C)Erinnerung:(/C) ~s~du darfst nur auf die ~r~meistgesuchten~s~ und bedrohlichen ~o~Kriminelle~s~ schießen.</String>
+                <String xml:lang="tr-TR">~y~(C)Hatırlatma:(/C) ~s~sadece şunlara ateş edebilirsin ~r~en çok aranan ~s~ve tehdit oluşturan ~o~suçlular~s~.</String>
+                <String xml:lang="es-ES">~y~(C)Recordatorio:(/C) ~s~solo puedes disparar a los ~s~más buscados~s~y amenazantes ~o~criminales~s~.</String>
+            </Entry>
+
+            <!-- {0} = Player ({0} could be: "254 LMG Rounds, 155 SMG Incendiary Rounds, 3g Cocaine, 3 ATM Hacking Device, 1 Machine Gun, 1 Gusenberg Sweeper, 1 AP Pistol")-->
+            <!-- {1} = Vehicle name -->
+            <Entry Id="police_confiscate_weapon">
+                <String xml:lang="en-US">Officer {0} has ~r~confiscated ~s~{1} ~s~from you.</String>
+            </Entry>
+
+            <!-- {0} = Player name -->
+            <!-- {1} = Player Id -->
+            <Entry Id="police_confiscate_weapon">
+                <String xml:lang="en-US">Officer ~b~(C){0} ({1})(/C) ~s~has responded to the call.</String>
+            </Entry>
+
+            <!-- {0} = Officers' name -->
+            <!-- {1} = Criminals' name -->
+            <!-- {2} = Bribe amount -->
+            <Entry Id="police_bribe_accepted_not_shared">
+                <String xml:lang="en-US">{0} accepted {1}'s ~g~{2} ~s~bribe but didn't share it.</String>
+            </Entry>
+
+            <!-- {0} = Officers' name -->
+            <!-- {1} = Criminals' name -->
+            <Entry Id="police_bribe_accepted_shared">
+                <String xml:lang="en-US">{0} accepted {1}'s bribe and shared it with nearby officers.</String>
+            </Entry>
+
+            <!-- ========================= -->
+            <!-- Vehicle export -->
+            <!-- ========================= -->
+            <!-- {0} = Player -->
+            <!-- {1} = Vehicle name -->
+            <!-- {2} = Profit -->
+            <Entry Id="vehicle_export_mw">
+                <String xml:lang="en-US">(C){0}(/C) exported today's most wanted vehicle (C){1}(/C) for (C){2}(/C).</String>
+                <String xml:lang="it-IT">(C){0}(/C) ha esportato il veicolo (C){1}(/C) più ricercato di oggi per (C){2}(/C).</String>
+                <String xml:lang="nl-NL">(C){0}(/C) heeft het meestgezochte voertuig (C){1}(/C) van vandaag voor (C){2}(/C) geëxporteerd.</String>
+                <String xml:lang="de-DE">(C){0}(/C) hat das meistgesuchte Fahrzeug (C){1}(/C) von heute für (C){2}(/C) exportiert.</String>
+                <String xml:lang="tr-TR">(C){0}(/C) bugünün en çok aranan aracını ihraç etti (C){1}(/C) için (C){2}(/C).</String>
+                <String xml:lang="es-ES">(C){0}(/C) exportó el vehículo más buscado de hoy (C){1}(/C) por (C){2}(/C).</String>
+            </Entry>
+
+            <Entry Id="vehicle_export_cant_export">
+                <String xml:lang="en-US">Public officers and emergency workers can't illegally export vehicles.</String>
+                <String xml:lang="it-IT">Agenti di polizia e soccorritori non possono esportare veicoli illegalmente.</String>
+                <String xml:lang="nl-NL">Ambtenaren en noodhulpdiensten kunnen geen voertuigen exporteren op een illegale wijze.</String>
+                <String xml:lang="de-DE">Beamte und Einsatzkräfte können keine Fahrzeuge illegal exportieren.</String>
+                <String xml:lang="tr-TR">Kamu görevlileri ve acil durum çalışanları yasa dışı yollardan araç ihraç edemez.</String>
+                <String xml:lang="es-ES">Los oficiales de policia y los trabajadores de emergencia no pueden exportar vehículos ilegalmente.</String>
+            </Entry>
+
+            <Entry Id="vehicle_export_no_mw_vehicle">
+                <String xml:lang="en-US">There's currently no most wanted vehicle. Please, wait until 5:00am.</String>
+                <String xml:lang="it-IT">Non è presente alcun veicolo più ricercato. Perpiacere, aspetta fino alle 5:00am.</String>
+                <String xml:lang="nl-NL">Op dit moment is er geen meestgezocht voertuig. Wacht alstublieft tot 5:00.</String>
+                <String xml:lang="de-DE">Aktuell gibt es kein meistgesuchtes Fahrzeug. Bitte warte bis 5:00 Uhr.</String>
+                <String xml:lang="tr-TR">Şu anda en çok aranan araç yok. Lütfen, sabah 5:00'e kadar bekleyin.</String>
+                <String xml:lang="es-ES">Actualmente no hay ningún vehículo más buscado. Por favor, espere hasta las 5:00 am.</String>
+            </Entry>
+
+            <!-- {0} = Player color (red, ...) -->
+            <!-- {1} = Player name-->
+            <!-- {2} = Player Id-->
+            <!-- {3} = Location name-->
+            <!-- {4} = Vehicle Price -->
+            <!-- (red name)Sasino (1) has found today's most wanted vehicle in {Legion Square}~s~. Value: $350,000. -->
+            <!--   [{0}]  [ {1} ][{2}]                                          [   {3}   ]            [   {4}   ]  -->
+            <Entry Id="vehicle_export_player_found_value">
+                <String xml:lang="en-US">{0}{1} ({2}) ~s~has found today's ~b~most wanted vehicle ~s~in ~y~{3}~s~. Value: ~g~{4}~s~.</String>
+            </Entry>
+
+        </Entries>
