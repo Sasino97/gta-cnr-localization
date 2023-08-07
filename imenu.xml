@@ -251,6 +251,7 @@
         <String xml:lang="it-IT">Questo giocatore ~r~non è connesso~s~.</String>
         <String xml:lang="de-DE">Dieser Spieler ist ~r~nicht verbunden~s~.</String>
         <String xml:lang="pl-PL">Ten gracz ~r~nie jest połączony~s~.</String>
+        <String xml:lang="es-ES">Ese jugador  ~r~no está conectado~s~.</String>
     </Entry>
 
     <Entry Id="imenu_help_invalid_id">
@@ -259,6 +260,7 @@
         <String xml:lang="it-IT">Non hai inserito un ~r~ID del giocatore valido~s~.</String>
         <String xml:lang="de-DE">Du hast eine ~r~ungültige Spieler-ID ~s~eingegeben.</String>
         <String xml:lang="pl-PL">Podałeś nieprawidłowy ~r~ID gracza~s~.</String>
+        <String xml:lang="es-ES">No ingresaste una ~r~ID de jugador válida~s~.</String>
     </Entry>
 
     <Entry Id="imenu_help_report_not_submitted">
@@ -267,6 +269,7 @@
         <String xml:lang="it-IT">~r~Attenzione: ~s~la segnalazione ~r~non ~s~è stata inviata!</String>
         <String xml:lang="de-DE">~r~Achtung: Der Report wurde ~r~nicht ~s~eingreicht!</String>
         <String xml:lang="pl-PL">~r~Uwaga: ~s~zgłoszenie ~r~nie zostało ~s~wysłane!</String>
+        <String xml:lang="es-ES">~r~Atención: ~s~el reporte ~r~no ~s~ha sido enviado.</String>
     </Entry>
 
     <Entry Id="imenu_help_report_canceled">
@@ -275,6 +278,7 @@
         <String xml:lang="it-IT">Hai ~r~annullato ~s~la segnalazione.</String>
         <String xml:lang="de-DE">Du hast den Report ~r~abgebrochen~s~.</String>
         <String xml:lang="pl-PL">~r~Anulowałeś ~s~zgłoszenie.</String>
+        <String xml:lang="es-ES">Tu ~r~cancelaste ~s~el informe.</String>
     </Entry>
 
 
@@ -843,6 +847,7 @@
     <Entry Id="imenu_dealership_purchase_vehicle">
         <String xml:lang="en-US">You purchased a ~p~{0} ~s~for ~r~{1}~s~.</String>
         <String xml:lang="pl-PL">Kupiłeś ~p~{0} ~s~za ~r~{1}~s~.</String>
+        <String xml:lang="es-ES">Compraste un ~p~{0} ~s~ por ~r~{1}~s~.</String>
     </Entry>
 
     <!-- {0} = vehicle name -->
@@ -853,6 +858,7 @@
     <Entry Id="imenu_dealership_purchase_vehicle_with_gift_card">
         <String xml:lang="en-US">You purchased a ~b~{0} ~s~for ~b~{1} ~s~in gift card balance and ~r~{2} ~s~by check.</String>
         <String xml:lang="pl-PL">Kupiłeś ~b~{0} ~s~za ~b~{1} ~s~w kuponach oraz ~r~{2} ~s~przelewem.</String> <!-- again changed check to wire transfer, checks are not available and not in use in Poland since 2006-->
+        <String xml:lang="es-ES">Has comprado un ~b~{0} ~s~por ~b~{1} ~s~en el saldo de la tarjeta de regalo y ~r~{2} ~s~con cheque.</String>
     </Entry>
 
     <!-- {0} = vehicle name -->
@@ -862,5 +868,6 @@
     <Entry Id="imenu_dealership_rent_vehicle">
         <String xml:lang="en-US">You rented a ~p~{0} ~s~for ~r~{1}~s~/week.</String>
         <String xml:lang="pl-PL">Wynająłeś ~p~{0} ~s~za ~r~{1}~s~/tydzień.</String>
+        <String xml:lang="es-ES">Alquilaste un ~p~{0} ~s~por ~r~{1}~s~/semana.</String>
     </Entry>
 </Entries>
