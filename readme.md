@@ -212,7 +212,7 @@ Text can also be highlighted with the `(C)(/C)` tags.
 - Portuguese (Brazil): `pt-BR`
 - Polish (Poland): `pl-PL`
 - Turkish (Turkey): `tr-TR`
-- Arabic (Romanized): `ar-Latn`
+- Arabic (Modern Standard): `ar-001`
 - Chinese (Simplified): `zh-Hans`
 - Chinese (Traditional): `zh-Hant`
 - Hindi (Romanized): `hi-Latn`
