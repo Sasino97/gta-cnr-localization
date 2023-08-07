@@ -8,17 +8,20 @@
     <!-- ========================= -->
     <Entry Id="jobs_min_level">
         <String xml:lang="en-US">You must be at least ~r~level {0} ~s~to become a ~p~{1}~s~.</String>
+        <String xml:lang="de-DE">Du musst mindestens ~r~Level {0} ~s~sein, um ein ~p~{1}~s~ zu werden.</String>
     </Entry>
 
     <!-- {0} = required playtime -->
     <!-- {1} = Job name -->
     <Entry Id="jobs_min_playtime">
         <String xml:lang="en-US">You need to play for ~r~{0} hours ~s~to become a ~p~{1}~s~.</String>
+        <String xml:lang="de-DE">Du musst mindestens ~r~{0} Stunden ~s~spielen, um ein ~p~{1}~s~ zu werden.</String>
     </Entry>
 
     <!-- {0} = Job name -->
     <Entry Id="jobs_switch_cooldown">
         <String xml:lang="en-US">You need to ~r~wait ~s~before becoming a ~p~{0} ~s~again.</String>
+        <String xml:lang="de-DE">Du musst ~r~warten~s~, bevor du erneut ein ~p~{0} ~s~werden kannst. </String>
     </Entry>
 
     <!-- ========================= -->
@@ -173,7 +176,7 @@
         <String xml:lang="en-US">~c~(C)Drug Dealer:(/C) ~s~sell ~r~drugs ~s~to earn money.</String>
         <String xml:lang="it-IT">~c~(C)Spacciatore:(/C) ~s~vendi ~r~droga ~s~per guadagnare soldi.</String>
         <String xml:lang="nl-NL">~c~(C)Drugs Dealer:(/C) ~s~verkoop ~r~drugs ~s~om geld te verdienen.</String>
-        <String xml:lang="de-DE">~c~(C)Drogen Dealer:(/C) ~s~verkaufe ~r~Drogen~s~, um Geld zu verdienen.</String>
+        <String xml:lang="de-DE">~c~(C)Drogendealer:(/C) ~s~verkaufe ~r~Drogen~s~, um Geld zu verdienen.</String>
         <String xml:lang="tr-TR">~c~(C)Uyuşturucu satıcısı:(/C) ~s~satmak ~r~uyuşturucu ~s~para kazanmak.</String>
         <String xml:lang="es-ES">~c~(C)Traficante de drogas:(/C) ~s~vende ~r~drogas ~s~para ganar dinero.</String>
         <String xml:lang="pl-PL">~c~(C)Diler Narkotykowy:(/C) ~s~sprzedawaj ~r~narkotyki ~s~by zarabiać forsę.</String>
@@ -184,35 +187,43 @@
     <!-- {1} = Location -->
     <Entry Id="dealer_player_looking">
         <String xml:lang="en-US">{0} ~s~is looking for a drug dealer in ~y~{1}.</String>
+        <String xml:lang="de-DE">{0} ~s~ sucht nach einem Drogendealer in ~y~{1}.</String>
     </Entry>
 
     <Entry Id="dealer_on_drug_spot">
         <String xml:lang="en-US">You are in a ~r~drug spot~s~. Stay here and ~y~NPCs ~s~will ask you for drugs.</String>
+        <String xml:lang="de-DE">Du befindest dich an einem ~r~Drogenumschlagplatz~s~. Bleibe hier und ~y~NPCs~s~ werden dich nach Drogen fragen.</String>
     </Entry>
 
     <!-- {0} = Cooldown -->
     <Entry Id="dealer_called_cops">
         <String xml:lang="en-US">Someone has called the ~b~cops~s~, you can't use this ~r~drug spot ~s~for the next ~p~{0} minutes~s~.</String>
+        <String xml:lang="de-DE">JEmand hat die ~b~Polizei~s~ gerufen. Du kannst diesen ~r~Drogenumschlagplatz ~s~für die nächsten ~p~{0} Minuten ~s~nicht benutzen. </String>
     </Entry>
 
     <Entry Id="dealer_left_drug_spot">
         <String xml:lang="en-US">You left the ~r~drug spot~s~.</String>
+        <String xml:lang="de-DE">Du hast den ~r~Drogenumschlagplatz ~s~verlassen.</String>
     </Entry>
 
     <Entry Id="dealer_weapon_on_spot">
         <String xml:lang="en-US">You have a weapon! Fewer ~y~NPCs ~s~will buy drugs.</String>
+        <String xml:lang="de-DE">Du hast eine Waffe! Weniger ~y~NPCs ~s~werden Drogen bei dir kaufen.</String>
     </Entry>
 
     <Entry Id="dealer_ongoing_shooting">
         <String xml:lang="en-US">There's an active ~r~shooting~s~! ~y~NPCs ~s~will not buy drugs.</String>
+        <String xml:lang="de-DE">Es gibt eine aktive ~r~Schießerei~s~! ~y~NPCs ~s~werden keine Drogen kaufen.</String>
     </Entry>
 
     <Entry Id="dealer_dead_body_nearby">
         <String xml:lang="en-US">There's a ~r~dead body ~s~nearby. ~y~NPCs ~s~will not buy drugs.</String>
+        <String xml:lang="de-DE">Es gibt eine ~r~Leiche ~s~in der Nähe. ~y~NPCs ~s~werden keine Drogen kaufen.</String>
     </Entry>
 
     <Entry Id="dealer_too_many_dealers">
         <String xml:lang="en-US">There are too many ~r~drug dealers ~s~in the drug spot.</String>
+        <String xml:lang="de-DE">Es sind zu viele ~r~Drogendealer ~s~an diesem Drogenumschlagplatz.</String>
     </Entry>
 
     <!-- {0} = Amount -->
@@ -220,53 +231,60 @@
     <!-- {2} = Offer Text (Z to sell) -->
     <Entry Id="dealer_npc_wants">
         <String xml:lang="en-US">The ~y~NPC ~s~wants ~p~{0}g ~s~of ~r~{1}~s~.{2}</String>
+        <String xml:lang="de-DE">Der ~y~NPC ~s~möchte ~p~{0}g ~r~ {1} ~s~kaufen. {2}</String>
     </Entry>
 
     <!-- {0} = Drug name -->
     <Entry Id="dealer_not_enough_drug">
         <String xml:lang="en-US">You do not have enough ~r~{0}~s~.</String>
+        <String xml:lang="de-DE">Du hast nicht genug ~r~{0}~s~.</String>
     </Entry>
 
     <Entry Id="dealer_npc_price_too_high">
         <String xml:lang="en-US">The ~y~NPC ~s~said your price is ~r~too high~s~.</String>
+        <String xml:lang="de-DE">Der ~y~NPC ~s~sagte, dass dein Preis ~r~zu hoch ~s~ist.</String>
     </Entry>
 
     <Entry Id="dealer_npc_no_longer_interested">
         <String xml:lang="en-US">The ~y~NPC ~s~is no longer interested.</String>
+        <String xml:lang="de-DE">Der ~y~NPC ~s~ ist nicht länger interessiert.</String>
     </Entry>
 
     <!-- {0} = Main menu hotkey (M) -->
     <Entry Id="dealer_manage_supplies">
         <String xml:lang="en-US">You can manage your drug supplies in your {0} ~b~Menu ~s~> ~b~Job Menu.</String>
-    </Entry>
-
-    <Entry Id="dealer_not_enough_money">
-        <String xml:lang="en-US">~r~You don't have enough money!</String>
+        <String xml:lang="de-DE">Du kannst deine Vorräte in deinem {0} ~b~Menu ~s~> ~b~Job Menu verwalten.</String>
     </Entry>
 
     <Entry Id="dealer_no_inventory_space">
         <String xml:lang="en-US">~r~You don't have enough space in your inventory!</String>
+        <String xml:lang="de-DE">~r~Du hast nicht genügend Platz in deinem Inventar!</String>
     </Entry>
 
     <Entry Id="dealer_cant_buy_amount">
         <String xml:lang="en-US">~r~You can't purchase that amount more of this item!</String>
+        <String xml:lang="de-DE">~r~Du kannst nicht mehr so viel von diesem Artikel kaufen!</String>
     </Entry>
 
     <Entry Id="dealer_far_business_loc">
         <String xml:lang="en-US">~r~You are too far from the business location!</String>
+        <String xml:lang="de-DE">~r~Du bist zu weit vom Geschäftspunkt entfernt!</String>
     </Entry>
 
     <Entry Id="dealer_have_to_be_dealer_to_purchase">
         <String xml:lang="en-US">~r~You have to be a drug dealer to purchase from this supplier!</String>
+        <String xml:lang="de-DE">~r~Du musst ein Drogendealer sein, um von diesem Händler zu kaufen!</String>
     </Entry>
 
     <Entry Id="dealer_cant_change_job_inside_vehicle">
         <String xml:lang="en-US">~r~You cannot change your job while you're in a vehicle.</String>
+        <String xml:lang="de-DE">~r~Du kannst deinen Job nicht wechseln, während du dich in einem Fahrzeug befindest.</String>
     </Entry>
 
     <!-- {0} = Required level -->
     <Entry Id="dealer_min_level_unlock_supplier">
         <String xml:lang="en-US">You need to be ~b~level {0} ~s~to unlock this ~r~drug supplier~s~. Find another supplier!</String>
+        <String xml:lang="de-DE">Du musst ~b~ Level {0}~s~ sein, um diesen ~r~Händler freizuschalten. Finde einen anderen Händler!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -292,55 +310,60 @@
     <!-- {1} = Location -->
     <Entry Id="mechanic_player_looking">
         <String xml:lang="en-US">{0} ~s~is looking for a mechanic in ~y~{1}.</String>
+        <String xml:lang="de-DE">{0} ~s~is sucht nach einem Mechaniker in ~y~{1}.</String>
     </Entry>
 
     <!-- {0} = Paid amount -->
     <!-- {1} = Vehicle name -->
     <Entry Id="mechanic_impound_paid">
         <String xml:lang="en-US">You paid ~g~{0} ~s~to the impound office. Your ~b~{1} ~s~has been returned to your garage.</String>
+        <String xml:lang="de-DE">Du hast ~g~{0} ~s~ an die Verwahrstelle bezahlt. Dein ~b~{1} wurde in deine Garage zurückgebracht. </String>
     </Entry>
 
     <Entry Id="mechanic_dont_have_vehicle_repair">
         <String xml:lang="en-US">~r~You don't have a vehicle to repair!</String>
+        <String xml:lang="de-DE">~r~Du hast kein Fahrzeug zum Reparieren!</String>
     </Entry>
 
     <Entry Id="mechanic_dont_have_vehicle">
         <String xml:lang="en-US">~r~You don't have a vehicle!</String>
+        <String xml:lang="de-DE">~r~Du hast kein Fahrzeug!</String>
     </Entry>
 
     <Entry Id="mechanic_cant_change_plate_others">
         <String xml:lang="en-US">~r~You can't change someone else's license plate!</String>
+        <String xml:lang="de-DE">~r~Du kannst das Kennzeichen von jemand anderem nicht ändern!</String>
     </Entry>
 
     <Entry Id="mechanic_vehicle_repaired">
         <String xml:lang="en-US">Your vehicle has been ~g~repaired~s~.</String>
-    </Entry>
-
-    <Entry Id="mechanic_not_enough_money">
-        <String xml:lang="en-US">~r~You don't have enough money.</String>
+        <String xml:lang="de-DE">Dein Fahrzeug wurde ~g~repariert~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_too_far_repairpoint">
         <String xml:lang="en-US">~r~You are too far from the mechanic.</String>
+        <String xml:lang="de-DE">~r~Du bist zu weit vom Mechaniker entfernt.</String>
     </Entry>
 
     <Entry Id="mechanic_repaired_too_recently">
         <String xml:lang="en-US">~r~This vehicle was repaired too recently.</String>
+        <String xml:lang="de-DE">~r~Dieses Fahrzeug wurde kürzlich repariert.</String>
     </Entry>
-
-
 
     <Entry Id="mechanic_cant_impound_vehicle">
         <String xml:lang="en-US">~r~You can't impound this vehicle.</String>
+        <String xml:lang="de-DE">~r~Du kannst dieses Fahrzeug nicht verwahren.</String>
     </Entry>
 
     <!-- {0} = Hotkey -->
     <Entry Id="mechanic_cant_impound_vehicle">
         <String xml:lang="en-US">Hold {0} to drop the ~r~vehicle ~s~off.</String>
+        <String xml:lang="de-DE">Halte {0} um das ~r~Fahrzeug ~s~abzukoppeln.</String>
     </Entry>
 
     <Entry Id="mechanic_tow_instructions">
         <String xml:lang="en-US">Tow illegally parked ~y~vehicles ~s~marked by a yellow cone to an ~g~impound lot~s~.</String>
+        <String xml:lang="de-DE">Schleppe widerrechtlich geparkte Fahrzeug, die mit einem gelben Kegel markiert sind, zu einem Abschleppplatz.</String>
     </Entry>
 
     <Entry Id="mechanic_description">
@@ -545,6 +568,7 @@
         <String xml:lang="it-IT">Il paramedico ~p~(C){0} ({1})(/C) ~s~ha risposto alla chiamata di (C){2} ({3})(/C).</String>
         <String xml:lang="es-ES">El paramédico ~p~(C){0} ({1})(/C) ~s~ha respondido a la llamada en (C){2} ({3})(/C).</String>
         <String xml:lang="pl-PL">Medyk ~p~(C){0} ({1})(/C) ~s~ odpowiedział do zawołania (C){2} ({3})(/C).</String>
+        <String xml:lang="de-DE">Der Sanitäter ~p~ (C){0} ({1})(/C)~s~ hat den Anruf von (C){2} ({3})(/C) angenommen.</String>
     </Entry>
 
     <!-- {0} = Paramedics' name -->
@@ -554,6 +578,7 @@
         <String xml:lang="it-IT">Il paramedico ~p~(C){0} ({1})(/C) ~s~ha risposto alla tua chiamata.</String>
         <String xml:lang="es-ES">El paramédico ~p~(C){0} ({1})(/C) ~s~respondió a su llamada.</String>
         <String xml:lang="pl-PL">Medyk ~p~(C){0} ({1})(/C) ~s~odpowiedział na twoje zawołanie.</String>
+        <String xml:lang="de-DE">Der Sanitäter ~p~ (C){0} ({1})(/C)~s~ hat deinen Anruf angenommen.</String>
     </Entry>
 
     <Entry Id="paramedic_revival_fail">
@@ -572,6 +597,7 @@
         <String xml:lang="it-IT">Il paramedico ~p~(C){0} ({1})(/C) ~s~ti sta rianimando.</String>
         <String xml:lang="es-ES">El paramédico (C){0}(/C) te está reviviendo.</String>
         <String xml:lang="pl-PL">Medyk (C){0}(/C) cię ocuca.</String>
+        <String xml:lang="de-DE">Der Sanitäter (C){0}(/C) hat dich wiederbelebt.</String>
     </Entry>
 
     <Entry Id="paramedic_npc_loss">
@@ -591,6 +617,7 @@
         <String xml:lang="it-IT">Il paramedico ~p~(C){0} ({1})(/C) ~s~è sulla scena!</String>
         <String xml:lang="es-ES">¡El paramédico ~p~(C){0} ({1})(/C) ~s~está en la escena!</String>
         <String xml:lang="pl-PL">Medyk ~p~(C){0} ({1})(/C) ~s~jest na miejscu wypadku!</String>
+        <String xml:lang="de-DE">Der Sanitäter ~p~(C){0} ({1})(/C) ~s~ist vor Ort!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -659,15 +686,17 @@
         <String xml:lang="it-IT">L'agente {0} ti ha ~r~confiscato ~s~{1}~s~.</String>
         <String xml:lang="es-ES">El policia {0} ha ~r~confiscado ~s~{1}~s~de ti.</String>
         <String xml:lang="pl-PL">Oficer {0} ~r~skonfiskował ~s~{1} ~s~od ciebie.</String>
+        <String xml:lang="de-DE">Der Polizist {0} hat {1} ~s~von dir ~r~beschlagnahmt~s~.</String>
     </Entry>
 
     <!-- {0} = Player name -->
     <!-- {1} = Player Id -->
-    <Entry Id="police_confiscate_weapon">
+    <Entry Id="police_respond_call">
         <String xml:lang="en-US">Officer ~b~(C){0} ({1})(/C) ~s~has responded to the call.</String>
         <String xml:lang="it-IT">L'agente ~b~(C){0} ({1})(/C) ~s~ha risposto alla chiamata.</String>
         <String xml:lang="es-ES">El policia ~b~(C){0} ({1})(/C) ~s~ha respondido a la llamada.</String>
         <String xml:lang="pl-PL">Oficer ~p~(C){0} ({1})(/C) ~s~odpowiedział na zawołanie.</String>
+        <String xml:lang="pl-PL">Der Polizist ~p~ (C){0} ({1})(/C)~s~ hat den Anruf angenommen.</String>
     </Entry>
 
     <!-- {0} = Officers' name -->
@@ -678,6 +707,7 @@
         <String xml:lang="it-IT">{0} ha accettato la mazzetta di ~g~{2} ~s~offerta da {1} ma non l'ha condivisa.</String>
         <String xml:lang="es-ES">{0} aceptó el ~g~{2} ~s~soborno de {1} pero no lo compartió.</String>
         <String xml:lang="pl-PL">{0} przyjął ~g~{2} ~s~łapówki {1} ale się nią nie podzielił.</String>
+        <String xml:lang="de-DE">{0} nahm {1}'s ~g~{2} ~s~Bestechung aber hat nicht geteilt.</String>
     </Entry>
 
     <!-- {0} = Officers' name -->
@@ -687,6 +717,7 @@
         <String xml:lang="it-IT">{0} ha accettato la mazzetta ~s~offerta da {1} e l'ha condivisa con gli agenti vicini.</String>
         <String xml:lang="es-ES">{0} aceptó el soborno de {1} y lo compartió con los policias cercanos.</String>
         <String xml:lang="pl-PL">{0} przyjął łapówkę gracza {1} i podzielił się nią z pobliskimi glinami.</String>
+        <String xml:lang="de-DE">{0} hat {1}'s Bestechung angenommen und mit allen Polizisten in der Nähe geteilt.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -737,6 +768,7 @@
         <String xml:lang="it-IT">{0}{1} ({2}) ~s~hha trovato il ~b~veicolo più ricercato ~s~di oggi in ~y~{3}~s~. Valore: ~g~{4}~s~.</String>
         <String xml:lang="es-ES">{0}{1} ({2}) ~s~ha encontrado el ~b~vehículo más buscado de hoy ~s~en ~y~{3}~s~. Valor: ~g~{4}~s~.</String>
         <String xml:lang="pl-PL">{0}{1} ({2}) ~s~znalazł dzisiejszy ~b~poszukiwany pojazd ~s~ w ~y~{3}~s~. Wartość: ~g~{4}~s~.</String>
+        <String xml:lang="de-DE">{0}{1} ({2}) ~s~hat das meistgesuchte Fahrzeug von heute ~s~in ~y~{3}~s~ gefunden. Wert: ~g~{4}~s~.</String>
     </Entry>
 
 </Entries>
