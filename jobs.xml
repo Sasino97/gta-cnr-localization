@@ -2,6 +2,26 @@
 
 <Entries>
     <!-- ========================= -->
+    <!-- Job requirements -->
+    <!-- {0} = required level -->
+    <!-- {1} = Job name -->
+    <!-- ========================= -->
+    <Entry Id="jobs_min_level">
+        <String xml:lang="en-US">You must be at least ~r~level {0} ~s~to become a ~p~{1}~s~.</String>
+    </Entry>
+
+    <!-- {0} = required playtime -->
+    <!-- {1} = Job name -->
+    <Entry Id="jobs_min_playtime">
+        <String xml:lang="en-US">You need to play for ~r~{0} hours ~s~to become a ~p~{1}~s~.</String>
+    </Entry>
+
+    <!-- {0} = Job name -->
+    <Entry Id="jobs_switch_cooldown">
+        <String xml:lang="en-US">You need to ~r~wait ~s~before becoming a ~p~{0} ~s~again.</String>
+    </Entry>
+
+    <!-- ========================= -->
     <!-- Robbery -->
     <!-- ========================= -->
     <Entry Id="abandoned_robbery">
@@ -159,6 +179,96 @@
         <String xml:lang="pl-PL">~c~(C)Diler Narkotykowy:(/C) ~s~sprzedawaj ~r~narkotyki ~s~by zarabiać forsę.</String>
     </Entry>
 
+
+    <!-- {0} = Player -->
+    <!-- {1} = Location -->
+    <Entry Id="dealer_player_looking">
+        <String xml:lang="en-US">{0} ~s~is looking for a drug dealer in ~y~{1}.</String>
+    </Entry>
+
+    <Entry Id="dealer_on_drug_spot">
+        <String xml:lang="en-US">You are in a ~r~drug spot~s~. Stay here and ~y~NPCs ~s~will ask you for drugs.</String>
+    </Entry>
+
+    <!-- {0} = Cooldown -->
+    <Entry Id="dealer_called_cops">
+        <String xml:lang="en-US">Someone has called the ~b~cops~s~, you can't use this ~r~drug spot ~s~for the next ~p~{0} minutes~s~.</String>
+    </Entry>
+
+    <Entry Id="dealer_left_drug_spot">
+        <String xml:lang="en-US">You left the ~r~drug spot~s~.</String>
+    </Entry>
+
+    <Entry Id="dealer_weapon_on_spot">
+        <String xml:lang="en-US">You have a weapon! Fewer ~y~NPCs ~s~will buy drugs.</String>
+    </Entry>
+
+    <Entry Id="dealer_ongoing_shooting">
+        <String xml:lang="en-US">There's an active ~r~shooting~s~! ~y~NPCs ~s~will not buy drugs.</String>
+    </Entry>
+
+    <Entry Id="dealer_dead_body_nearby">
+        <String xml:lang="en-US">There's a ~r~dead body ~s~nearby. ~y~NPCs ~s~will not buy drugs.</String>
+    </Entry>
+
+    <Entry Id="dealer_too_many_dealers">
+        <String xml:lang="en-US">There are too many ~r~drug dealers ~s~in the drug spot.</String>
+    </Entry>
+
+    <!-- {0} = Amount -->
+    <!-- {1} = Drug name -->
+    <!-- {2} = Offer Text (Z to sell) -->
+    <Entry Id="dealer_npc_wants">
+        <String xml:lang="en-US">The ~y~NPC ~s~wants ~p~{0}g ~s~of ~r~{1}~s~.{2}</String>
+    </Entry>
+
+    <!-- {0} = Drug name -->
+    <Entry Id="dealer_not_enough_drug">
+        <String xml:lang="en-US">You do not have enough ~r~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="dealer_npc_price_too_high">
+        <String xml:lang="en-US">The ~y~NPC ~s~said your price is ~r~too high~s~.</String>
+    </Entry>
+
+    <Entry Id="dealer_npc_no_longer_interested">
+        <String xml:lang="en-US">The ~y~NPC ~s~is no longer interested.</String>
+    </Entry>
+
+    <!-- {0} = Main menu hotkey (M) -->
+    <Entry Id="dealer_manage_supplies">
+        <String xml:lang="en-US">You can manage your drug supplies in your {0} ~b~Menu ~s~> ~b~Job Menu.</String>
+    </Entry>
+
+    <Entry Id="dealer_not_enough_money">
+        <String xml:lang="en-US">~r~You don't have enough money!</String>
+    </Entry>
+
+    <Entry Id="dealer_no_inventory_space">
+        <String xml:lang="en-US">~r~You don't have enough space in your inventory!</String>
+    </Entry>
+
+    <Entry Id="dealer_cant_buy_amount">
+        <String xml:lang="en-US">~r~You can't purchase that amount more of this item!</String>
+    </Entry>
+
+    <Entry Id="dealer_far_business_loc">
+        <String xml:lang="en-US">~r~You are too far from the business location!</String>
+    </Entry>
+
+    <Entry Id="dealer_have_to_be_dealer_to_purchase">
+        <String xml:lang="en-US">~r~You have to be a drug dealer to purchase from this supplier!</String>
+    </Entry>
+
+    <Entry Id="dealer_cant_change_job_inside_vehicle">
+        <String xml:lang="en-US">~r~You cannot change your job while you're in a vehicle.</String>
+    </Entry>
+
+    <!-- {0} = Required level -->
+    <Entry Id="dealer_min_level_unlock_supplier">
+        <String xml:lang="en-US">You need to be ~b~level {0} ~s~to unlock this ~r~drug supplier~s~. Find another supplier!</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Mechanic -->
     <!-- {0} = Location name -->
@@ -175,6 +285,62 @@
         <String xml:lang="tr-TR">Git ~y~{0} ~s~ve yardım et {1}{2} ({3})~s~.</String>
         <String xml:lang="es-ES">Ve a ~y~{0} ~s~y ayuda a {1}{2} ({3})~s~.</String>
         <String xml:lang="pl-PL">Pójdź do ~y~{0} ~s~i pomóż {1}{2} ({3})~s~.</String>
+    </Entry>
+
+
+    <!-- {0} = Player -->
+    <!-- {1} = Location -->
+    <Entry Id="mechanic_player_looking">
+        <String xml:lang="en-US">{0} ~s~is looking for a mechanic in ~y~{1}.</String>
+    </Entry>
+
+    <!-- {0} = Paid amount -->
+    <!-- {1} = Vehicle name -->
+    <Entry Id="mechanic_impound_paid">
+        <String xml:lang="en-US">You paid ~g~{0} ~s~to the impound office. Your ~b~{1} ~s~has been returned to your garage.</String>
+    </Entry>
+
+    <Entry Id="mechanic_dont_have_vehicle_repair">
+        <String xml:lang="en-US">~r~You don't have a vehicle to repair!</String>
+    </Entry>
+
+    <Entry Id="mechanic_dont_have_vehicle">
+        <String xml:lang="en-US">~r~You don't have a vehicle!</String>
+    </Entry>
+
+    <Entry Id="mechanic_cant_change_plate_others">
+        <String xml:lang="en-US">~r~You can't change someone else's license plate!</String>
+    </Entry>
+
+    <Entry Id="mechanic_vehicle_repaired">
+        <String xml:lang="en-US">Your vehicle has been ~g~repaired~s~.</String>
+    </Entry>
+
+    <Entry Id="mechanic_not_enough_money">
+        <String xml:lang="en-US">~r~You don't have enough money.</String>
+    </Entry>
+
+    <Entry Id="mechanic_too_far_repairpoint">
+        <String xml:lang="en-US">~r~You are too far from the mechanic.</String>
+    </Entry>
+
+    <Entry Id="mechanic_repaired_too_recently">
+        <String xml:lang="en-US">~r~This vehicle was repaired too recently.</String>
+    </Entry>
+
+
+
+    <Entry Id="mechanic_cant_impound_vehicle">
+        <String xml:lang="en-US">~r~You can't impound this vehicle.</String>
+    </Entry>
+
+    <!-- {0} = Hotkey -->
+    <Entry Id="mechanic_cant_impound_vehicle">
+        <String xml:lang="en-US">Hold {0} to drop the ~r~vehicle ~s~off.</String>
+    </Entry>
+
+    <Entry Id="mechanic_tow_instructions">
+        <String xml:lang="en-US">Tow illegally parked ~y~vehicles ~s~marked by a yellow cone to an ~g~impound lot~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_description">
