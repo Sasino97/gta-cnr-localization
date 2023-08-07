@@ -6,6 +6,7 @@
     <Entry Id="specialitem_purchase">
         <String xml:lang="en-US">You need to ~r~wait {0} seconds ~s~before purchasing another ~p~{1}~s~.</String>
         <String xml:lang="it-IT">Devi ~r~aspettare {0} secondi ~s~prima di comprare un altro ~p~{1}~s~.</String>
+        <String xml:lang="pl-PL">Musisz ~r~poczekać {0} sekund ~s~zanim kupisz kolejny ~p~{1}~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -16,11 +17,13 @@
     <Entry Id="specialitem_scratchcard_player_won">
         <String xml:lang="en-US">(C){0}(/C) won (C){1}(/C) from a scratch card!</String>
         <String xml:lang="it-IT">(C){0}(/C) ha vinto (C){1}(/C) da un gratta e vinci!</String>
+        <String xml:lang="pl-PL">(C){0}(/C) wygrał (C){1}(/C) ze zdrapki!</String>
     </Entry>
 
     <Entry Id="specialitem_scratchcard_at_time">
         <String xml:lang="en-US">You can only use ~r~one ~s~scratch card at a time.</String>
         <String xml:lang="it-IT">Puoi usare solo ~run ~s~gratta e vinci alla volta.</String>
+        <String xml:lang="pl-PL">Możesz użyć tylko ~r~jedną ~s~zdrapkę w danym momencie.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -33,6 +36,7 @@
         <String xml:lang="de-DE">Du kannst Schutzwesten nur ~r~einzeln ~s~anlegen.</String>
         <String xml:lang="es-ES">Sólo puedes usar ~r~una ~s~armadura a la vez.</String>
         <String xml:lang="tr-TR">Bir seferde yalnızca ~r~bir ~s~vücut zırhı kullanabilirsiniz.</String>
+        <String xml:lang="pl-PL">Możesz użyć tylko ~r~jedną ~s~kamizelkę kuloodporną w danym momencie.</String>
     </Entry>
 
     <Entry Id="specialitem_armor_cooldown">
@@ -42,6 +46,7 @@
         <String xml:lang="de-DE">Du musst {0} Sekunden ~r~warten~s~, bevor du diesen Typ Schutzweste wieder verwenden kannst. </String>
         <String xml:lang="es-ES">Tienes que ~r~esperar ~s~{0} segundos para poder usar este tipo de ~p~armadura ~s~otravez</String>
         <String xml:lang="tr-TR">Gerekli {0} saniye ~r~beklemelisin~s~, bu tip vücut zırhını tekrar kullanmadan önce.</String>
+        <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~{0} sekund zanim użyjesz ten typ ~p~kamizelki kuloodpornej ~s~ponownie.</String>
     </Entry>
 
 
@@ -57,6 +62,7 @@
         <String xml:lang="de-DE">Du kannst {0} nicht verwenden, wenn du {1}</String>
         <String xml:lang="es-ES">No puedes usar ~r~{0} ~s~cuando estas {1}</String>
         <String xml:lang="tr-TR">Kullanamazsınız {0} şu durumlarda {1}</String>
+        <String xml:lang="pl-PL">Nie możesz użyć ~r~{0} ~s~gdy jesteś {1}</String>
     </Entry>
 
     <!-- items -->
@@ -67,6 +73,7 @@
         <String xml:lang="de-DE">Verbandskasten</String>
         <String xml:lang="es-ES">Botiquín</String>
         <String xml:lang="tr-TR">ilk yardım çantası</String>
+        <String xml:lang="pl-PL">apteczka</String>
     </Entry>
 
     <!-- {0} = Player color -->
@@ -75,16 +82,19 @@
     <Entry Id="player_used_medkit">
         <String xml:lang="en-US">(C){0}{1} ({2})(/C) ~s~used a ~p~medkit~s~.</String>
         <String xml:lang="it-IT">(C){0}{1} ({2})(/C) ~s~ha usato un ~p~kit medico~s~.</String>
+        <String xml:lang="pl-PL">(C){0}{1} ({2})(/C) ~s~użył ~p~apteczkę~s~.</String>
     </Entry>
 
     <Entry Id="medkit_cooldown">
         <String xml:lang="en-US">You need to ~r~wait ~s~30 seconds between ~p~medkit ~s~uses.</String>
         <String xml:lang="it-IT">Devi ~r~aspetare ~s~30 secondi prima di poter usare un altro ~p~kit medico~s~.</String>
+        <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~30 sekund zanim użyjesz ~p~apteczkę ~s~ponownie.</String>
     </Entry>
 
     <Entry Id="medkit_at_time">
         <String xml:lang="en-US">You can only use ~r~one ~s~medkit at a time.</String>
         <String xml:lang="it-IT">Puoi usare solo ~r~un ~s~kit medico alla volta.</String>
+        <String xml:lang="pl-PL">Możesz użyć tylko ~r~jedną ~s~apteczkę w danym momencie.</String>
     </Entry>
 
     <Entry Id="bandage">
@@ -94,6 +104,7 @@
         <String xml:lang="de-DE">Bandage</String>
         <String xml:lang="es-ES">venda</String>
         <String xml:lang="tr-TR">bandaj</String>
+        <String xml:lang="pl-PL">bandaż</String>
     </Entry>
 
     <!-- {0} = Player color -->
@@ -102,6 +113,7 @@
     <Entry Id="player_used_bandage">
         <String xml:lang="en-US">(C){0}{1} ({2})(/C) ~s~used a ~p~bandage~s~.</String>
         <String xml:lang="it-IT">(C){0}{1} ({2})(/C) ~s~ha usato una ~p~benda~s~.</String>
+        <String xml:lang="pl-PL">(C){0}{1} ({2})(/C) ~p~zabandażował~s~ się.</String>
     </Entry>
 
     <Entry Id="bodyarmor">
@@ -111,6 +123,7 @@
         <String xml:lang="de-DE">Schutzweste</String>
         <String xml:lang="es-ES">armadura</String>
         <String xml:lang="tr-TR">vucüt zırhı</String>
+        <String xml:lang="pl-PL">kamizelka kuloodporna</String>
     </Entry>
 
     <!-- {0} = Player color -->
@@ -119,6 +132,7 @@
     <Entry Id="player_used_bodyarmor">
         <String xml:lang="en-US">(C){0}{1} ({2})(/C) ~s~equipped a ~p~body armor~s~.</String>
         <String xml:lang="it-IT">(C){0}{1} ({2})(/C) ~s~ha equipaggiato un ~p~giubbotto antiproiettile~s~.</String>
+        <String xml:lang="pl-PL">(C){0}{1} ({2})(/C) ~s~ubrał ~p~kamizelkę kuloodporną~s~.</String>
     </Entry>
 
     <!-- activites -->
@@ -129,6 +143,7 @@
         <String xml:lang="de-DE">~b~unter Beschuss~s~ bist.</String>
         <String xml:lang="es-ES">~b~en llamas~s~.</String>
         <String xml:lang="tr-TR">~b~yanıyor~s~.</String>
+        <String xml:lang="pl-PL">~b~w płomieniach~s~.</String>
     </Entry>
 
     <Entry Id="on_duty">
@@ -138,6 +153,7 @@
         <String xml:lang="de-DE">~b~im Dienst~s~ bist.</String>
         <String xml:lang="es-ES">~b~de servicio~s~.</String>
         <String xml:lang="tr-TR">~b~görevde~s~.</String>
+        <String xml:lang="pl-PL">~b~na służbie~s~.</String>
     </Entry>
 
     <Entry Id="being_stunned">
@@ -147,6 +163,7 @@
         <String xml:lang="de-DE">~b~getasert~s~ wurdest.</String>
         <String xml:lang="es-ES">estando ~b~aturdido~s~.</String>
         <String xml:lang="tr-TR">~b~sersemlemiş ~s~olmak.</String>
+        <String xml:lang="pl-PL">~b~sparaliżowany~s~.</String>
     </Entry>
 
     <Entry Id="being_cuffed">
@@ -156,6 +173,7 @@
         <String xml:lang="de-DE">~b~festgenommen~s~ wirst.</String>
         <String xml:lang="es-ES">estando ~b~esposado~s~.</String>
         <String xml:lang="tr-TR">~b~kelepçeli ~s~olmak.</String>
+        <String xml:lang="pl-PL">~b~zakuwanym~s~.</String>
     </Entry>
 
     <Entry Id="cuffed">
@@ -165,6 +183,7 @@
         <String xml:lang="de-DE">~b~gefesselt~s~ bist.</String>
         <String xml:lang="es-ES">~b~esposado~s~.</String>
         <String xml:lang="tr-TR">~b~kelepçeli~s~.</String>
+        <String xml:lang="pl-PL">~b~zakuty~s~.</String>
     </Entry>
 
     <Entry Id="suffering_od">
@@ -174,6 +193,7 @@
         <String xml:lang="de-DE">unter einer ~r~Überdosis~s~ leidst.</String>
         <String xml:lang="es-ES">sufriendo de una ~r~sobredosis~s~.</String>
         <String xml:lang="tr-TR">~r~aşırı dozdan ~s~muzdarip.</String>
+        <String xml:lang="pl-PL">~r~po przedawkowaniu~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_bandage">
@@ -183,6 +203,7 @@
         <String xml:lang="de-DE">Du hast eine ~p~Bandage ~s~verwendet.</String>
         <String xml:lang="es-ES">Has usado un ~p~vendaje~s~.</String>
         <String xml:lang="tr-TR">~p~bandajı ~s~kullandın.</String>
+        <String xml:lang="pl-PL">Użyłeś ~p~bandaż~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_bandage_piece">
@@ -192,6 +213,7 @@
         <String xml:lang="de-DE">Du hast ein Stück von der ~p~Bandage ~s~verwendet.</String>
         <String xml:lang="es-ES">Has usado un trozo de ~p~vendaje~s~.</String>
         <String xml:lang="tr-TR">Bir parça ~p~bandaj ~s~kullandın.</String>
+        <String xml:lang="pl-PL">Użyłeś sztukę ~p~bandażu~s~.</String>
     </Entry>
 
     <!-- {0} = amount of bandage  (0.1) -->
@@ -202,6 +224,7 @@
         <String xml:lang="de-DE">Du hast {0} Bandagen verwendet.</String>
         <String xml:lang="es-ES">Has usado {0} ~p~vendajes~s~.</String>
         <String xml:lang="tr-TR">Bir miktar {0} ~p~bandaj ~s~kullandın.</String>
+        <String xml:lang="pl-PL">Użyłeś {0} ~p~bandaża~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_medkit">
@@ -211,6 +234,7 @@
         <String xml:lang="de-DE">Du hast einen ~p~Verbandskasten~s~ verwendet.</String>
         <String xml:lang="es-ES">Has usado un ~p~botiquín~s~.</String>
         <String xml:lang="tr-TR">~p~ilk yardım çantası ~s~kullandın.</String>
+        <String xml:lang="pl-PL">Użyłeś ~p~apteczkę~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -223,6 +247,7 @@
         <String xml:lang="de-DE">Du hast kein ~r~Fahrzeug~s~.</String>
         <String xml:lang="es-ES">No tienes un ~r~vehículo~s~.</String>
         <String xml:lang="tr-TR">Bir ~r~aracınız ~s~yok.</String>
+        <String xml:lang="pl-PL">Nie masz ~r~pojazdu~s~.</String>
     </Entry>
 
     <!-- {0} = item name -->
@@ -233,6 +258,7 @@
         <String xml:lang="de-DE">Du kannst ~r~kein ~s~{0} verwenden, wenn du im Fahrzeug bist.</String>
         <String xml:lang="es-ES">~r~No puedes usar ~s~un ~b~{0} ~s~cuando estás dentro de un vehículo.</String>
         <String xml:lang="tr-TR">Sen ~r~kullanamazsın ~b~{0} ~s~bir aracın içindeyken.</String>
+        <String xml:lang="pl-PL">~r~Nie możesz użyć ~s~a ~b~{0} ~s~w środku pojazdu.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_close">
@@ -242,6 +268,7 @@
         <String xml:lang="de-DE">Du bist nicht ~r~nah genug~s~, um ein {0} an deinem Fahrzeug zu verwenden.</String>
         <String xml:lang="es-ES">No estás ~r~suficientemente cerca ~s~para usar un ~b~{0} ~s~en tu vehículo.</String>
         <String xml:lang="tr-TR">Sen ~r~yeterince yakın ~s~değilsin ~b~{0} ~s~aracında kullanmak için.</String>
+        <String xml:lang="pl-PL">Nie jesteś ~r~wystarczająco blisko ~s~by użyć ~b~{0} ~s~na swoim pojeździe.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_control">
@@ -250,7 +277,7 @@
         <String xml:lang="nl-NL">Niet in staat om controle over het ~b~voertuig ~s~ te nemen. Als er andere ~r~spelers ~s~in zitten, vraag ze om uit te stappen.</String>
         <String xml:lang="de-DE">Die Kontrolle über das ~b~Fahrzeug~s~ kann nicht übernommen werden. Wenn andere ~r~Spieler~s~ im Fahrzeug sind, bitte sie, auszusteigen.</String>
         <String xml:lang="es-ES">No se puede tomar el control de los ~b~vehículos~. Si hay otros ~r~jugadores ~s~ dentro, pídeles que salgan.</String>
-        <String xml:lang="tr-TR">Kontrolü ele alınamıyor ~b~aracın~s~. başka ~r~oyuncular ~s~varsa, çıkmalarını isteyin.</String>
+        <String xml:lang="pl-PL">Nie możesz wziąć kontroli nad ~b~pojazdem~s~. Jeśli ~r~gracze ~s~są w środku, każ im wyjść.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_type">
@@ -260,6 +287,7 @@
         <String xml:lang="de-DE">Du kannst kein {0} an diesem Fahrzeugtyp verwenden.</String>
         <String xml:lang="es-ES">~r~No puedes usar ~s~un ~b~{0} ~s~en vehículos de este tipo.</String>
         <String xml:lang="tr-TR">Sen ~r~kullanamazsın ~b~{0} ~s~bu tip araçlarda.</String>
+        <String xml:lang="pl-PL">~r~Nie możesz użyć~s~ ~b~{0} ~s~na pojazdach tego typu.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_hood">
@@ -269,6 +297,7 @@
         <String xml:lang="de-DE">Die ~y~Motorhaube~s~ deines Fahrzeuges muss geöffnet sein, damit du ein ~b~{0}~s~ verwenden kannst.</String>
         <String xml:lang="es-ES">El ~y~capó ~s~de tu vehículo tiene que estar abierto para usar un ~b~{0}~s~.</String>
         <String xml:lang="tr-TR">Aracınızın ~y~kaportası ~s~kullanılabilmesi için açık olması gerekmektedir ~b~{0}~s~.</String>
+        <String xml:lang="pl-PL">~y~Maska ~s~twego samochodu musi być otwarta byś mógł użyć ~b~{0}~s~.</String>
     </Entry>
 
     <!-- {0} = remaining seconds -->
@@ -280,6 +309,7 @@
         <String xml:lang="de-DE">Du musst ~r~{0} Sekunden warten, bevor du ein weiteres ~b~{1}~s~ verwenden kannst.</String>
         <String xml:lang="es-ES">Debes esperar ~r~{0} segundos ~s~ antes de usar otro ~b~{1}~s~.</String>
         <String xml:lang="tr-TR">Beklemeniz gerekir ~r~{0} saniye ~s~başka birini kullanmadan önce ~b~{1}~s~.</String>
+        <String xml:lang="pl-PL">Musisz poczekać ~r~{0} sekund ~s~zanim użyjesz kolejny ~b~{1}~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_engine_repair">
@@ -289,6 +319,7 @@
         <String xml:lang="de-DE">Du hast den Motor deines ~b~Fahrzeuges ~s~repariert.</String>
         <String xml:lang="es-ES">Has reparado el motor de tu ~b~vehículo~s~.</String>
         <String xml:lang="tr-TR">Tamir ettiniz ~b~arac~s~'ın moturunu.</String>
+        <String xml:lang="pl-PL">Naprawiłeś silnik swojego ~b~pojazdu~s~</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_tire_repair">
@@ -298,6 +329,7 @@
         <String xml:lang="de-DE">Du hast die Reifen deines ~b~Fahrzeuges ~s~repariert.</String>
         <String xml:lang="es-ES">Has reparado los neumáticos de tu ~b~vehículo~s~.</String>
         <String xml:lang="tr-TR">Tamir ettiniz ~b~arac~s~'ın lastiklerini.</String>
+        <String xml:lang="pl-PL">Naprawiłeś opony swojego ~b~pojazdu~s~</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_clean">
@@ -307,6 +339,7 @@
         <String xml:lang="de-DE">Du hast dein ~b~Fahrzeug~s~ gereinigt.</String>
         <String xml:lang="es-ES">Has limpiado tu ~b~vehículo~s~.</String>
         <String xml:lang="tr-TR">Temizledin ~b~aracını~s~.</String>
+        <String xml:lang="pl-PL">Umyłeś swój ~b~pojazd~s~</String>
     </Entry>
 
     <!-- ========================= -->
@@ -315,26 +348,31 @@
     <Entry Id="specialitem_halloween_second_pumpkin">
         <String xml:lang="en-US">Good! You got your second ~o~pumpkin~s~. Don't give up now!</String>
         <String xml:lang="it-IT">Buono! Hai raccolto la tua seconda ~o~zucca~s~. Non arrenderti adesso!</String>
+        <String xml:lang="pl-PL">Znalazłeś swoją drugą ~o~dynię~s~. Nie poddawaj się teraz!</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_third_pumpkin">
         <String xml:lang="en-US">Third ~o~pumpkin~s~! Collect ~o~20 pumpkins ~s~for a ~b~small reward~s~!</String>
         <String xml:lang="it-IT">Terza ~o~zucca~s~! Raccogli ~o~20 zucche ~s~per una ~b~piccola ricompensa~s~!</String>
+        <String xml:lang="pl-PL">Trzecia ~o~dynia~s~! Znajdź ~o~20 dyń ~s~dla ~b~małej nagrody~s~!</String>
     </Entry>
 
     <Entry Id="specialitem_hallooween_twenty_pumpkin">
         <String xml:lang="en-US">Great! You collected ~o~20 pumpkins~s~! You received a ~b~bonus item ~s~in your inventory, try to use it!</String>
         <String xml:lang="it-IT">Ottimo! Hai raccolto ~o~20 zucche~s~! Hai ricevuto un ~b~oggetto bonus ~s~nel tuo inventario, prova ad utilizzarlo!</String>
+        <String xml:lang="pl-PL">Genialnie! Znalazłeś ~o~20 dyń~s~! Dostałeś za to ~b~bonus ~s~do ekwipunku, użyj go!</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_twenty_more_pumpkin">
         <String xml:lang="en-US">You found 20 more ~o~pumpkins~s~! Check your inventory for your ~b~bonus item~s~.</String>
         <String xml:lang="it-IT">Hai trovato altre 20 ~o~zucche~s~! Controlla il tuo inventario per ~b~l'oggetto bonus~s~.</String>
+        <String xml:lang="pl-PL">Znalazłeś 20 kolejnych ~o~dyń~s~! Sprawdź swój ekwipunek dla ~b~bonusów~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_hallooween_fifty_pumpkin">
         <String xml:lang="en-US">Yay! You made it to 50! You will receive this bonus every ~o~50 pumpkins ~s~found!</String>
         <String xml:lang="it-IT">Eviva! Sei arrivato a 50! Riceverai questo bonus ogni volta che trovi ~o~50 zucche~s~!</String>
+        <String xml:lang="pl-PL">Super! To już 50! Otrzymasz ten bonus co ~o~50 dyń ~s~które znajdziesz!</String>
     </Entry>
 
     <!-- {0} = Text color -->
@@ -344,17 +382,20 @@
     <Entry Id="specialitem_halloween_pumpkin_counter">
         <String xml:lang="en-US">{0}{1} ({source.Handle/2}) ~s~has found {3} ~o~pumpkins~s~!</String>
         <String xml:lang="it-IT">{0}{1} ({source.Handle/2}) ~s~ha trovato {3} ~o~zucche~s~!</String>
+        <String xml:lang="pl-PL">{0}{1} ({source.Handle/2}) ~s~znalazł {3} ~o~dyń~s~!</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_candy_inventory_full">
         <String xml:lang="en-US">~r~Warning: ~s~You couldn't receive a halloween candy because your inventory is full.</String>
         <String xml:lang="it-IT">~r~Attenzione: ~s~Non hai potuto ricevere la caramella di halloween poichè il tuo inventario è pieno.</String>
+        <String xml:lang="pl-PL">~r~Uwaga: ~s~Nie dostałeś cukierka halloweenowego bo twój ekwipunek jest pełny.</String>
     </Entry>
 
     <!-- {0} = Error-code -->
     <Entry Id="specialitem_halloween_candy_error">
         <String xml:lang="en-US">~r~Warning: ~s~You couldn't receive a halloween candy due to an error 0x88-{0}.</String>
         <String xml:lang="it-IT">~r~Attenzione: ~s~Non hai potuto ricevere la caramella di halloween a causa del errore 0x88-{0}.</String>
+        <String xml:lang="pl-PL">~r~Uwaga: ~s~Nie dostałeś cukierka halloweenowego z powodu błędu 0x88-{0}.</String>
     </Entry>
 
     <!-- {0} = Text color -->
@@ -364,18 +405,21 @@
     <Entry Id="specialitem_halloween_all_pumpkins">
         <String xml:lang="en-US">{0}{1} ({source.Handle/2}) ~s~has found all 500 ~o~pumpkins~s~ and received ~g~{3}~s~!</String>
         <String xml:lang="it-IT">{0}{1} ({source.Handle/2}) ~s~ha trovato tutte le 500 ~o~zucche~s~ e ha ricevuto ~g~{3}~s~!</String>
+        <String xml:lang="pl-PL">{0}{1} ({source.Handle/2}) ~s~znalazł wszystkie 500 ~o~dyń~s~ i otrzymał ~g~{3}~s~!</String>
     </Entry>
 
     <!-- {0} = Final price -->
     <Entry Id="specialitem_halloween_reward">
         <String xml:lang="en-US">You received ~g~{0} ~s~and the ~o~Freddy Krueger Outfit ~s~for your civilian character. Happy Halloween!</String>
         <String xml:lang="it-IT">Hai ricevuto ~g~{0} ~s~e ~o~l'Outfit di Freddy Krueger ~s~per il tuo personaggio da civile. Buon Halloween!</String>
+        <String xml:lang="pl-PL">Otrzymałeś ~g~{0} ~s~i ~o~Strój Freddiego Kruegera  ~s~dla twojej postaci cywilnej. Szczęśliwego Halloween!</String>
     </Entry>
 
     <!-- {0} = Cooldown -->
     <Entry Id="specialitem_hallooween_candy_cooldown">
         <String xml:lang="en-US">You must ~r~wait ~s~{0} seconds before eating another ~o~halloween candy~s~.</String>
         <String xml:lang="it-IT">Devi ~r~aspettare ~s~{0} secondi prima di poter mangiare un altra ~o~caramella di halloween~s~.</String>
+        <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~{0} sekund przed zjedzeniem kolejnego ~o~cukierka halloweenowego~s~.</String>
     </Entry>
 
 
