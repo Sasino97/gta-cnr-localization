@@ -388,15 +388,13 @@
         <String xml:lang="es-ES">¡Hurra! ¡Llegaste a los 50! ¡Recibirás esta bonificación cada ~o~50 calabazas ~s~que encuentres!</String> 
     </Entry>
 
-    <!-- {0} = Text color -->
-    <!-- {1} = remaining seconds -->
-    <!-- {2} = unsure - will fix once sasino answers -->
-    <!-- {3} = Counter pumpkins -->
+    <!-- {0} = Player name -->
+    <!-- {1} = Pumpkin count -->
     <Entry Id="specialitem_halloween_pumpkin_counter">
-        <String xml:lang="en-US">{0}{1} ({source.Handle/2}) ~s~has found {3} ~o~pumpkins~s~!</String>
-        <String xml:lang="it-IT">{0}{1} ({source.Handle/2}) ~s~ha trovato {3} ~o~zucche~s~!</String>
-        <String xml:lang="pl-PL">{0}{1} ({source.Handle/2}) ~s~znalazł {3} ~o~dyń~s~!</String>
-        <String xml:lang="es-ES">¡{0}{1} ({source.Handle/2}) ~s~ha encontrado {3} ~o~calabazas~s~!</String> 
+        <String xml:lang="en-US">{0} ~s~has found {1} ~o~pumpkins~s~!</String>
+        <String xml:lang="it-IT">{0} ~s~ha trovato {1} ~o~zucche~s~!</String>
+        <String xml:lang="pl-PL">{0} ~s~znalazł {1} ~o~dyń~s~!</String>
+        <String xml:lang="es-ES">¡{0} ~s~ha encontrado {1} ~o~calabazas~s~!</String> 
     </Entry>
 
     <Entry Id="specialitem_halloween_candy_inventory_full">
@@ -414,18 +412,16 @@
         <String xml:lang="es-ES">~r~Advertencia: ~s~No pudiste recibir un dulce de Halloween debido a un error 0x88-{0}.</String> 
     </Entry>
 
-    <!-- {0} = Text color -->
-    <!-- {1} = remaining seconds -->
-    <!-- {2} = unsure - will fix once sasino answers -->
-    <!-- {3} = Final price -->
+    <!-- {0} = Player name -->
+    <!-- {1} = Final prize -->
     <Entry Id="specialitem_halloween_all_pumpkins">
-        <String xml:lang="en-US">{0}{1} ({source.Handle/2}) ~s~has found all 500 ~o~pumpkins~s~ and received ~g~{3}~s~!</String>
-        <String xml:lang="it-IT">{0}{1} ({source.Handle/2}) ~s~ha trovato tutte le 500 ~o~zucche~s~ e ha ricevuto ~g~{3}~s~!</String>
-        <String xml:lang="pl-PL">{0}{1} ({source.Handle/2}) ~s~znalazł wszystkie 500 ~o~dyń~s~ i otrzymał ~g~{3}~s~!</String>
-        <String xml:lang="es-ES">¡{0}{1} ({source.Handle/2}) ~s~ha encontrado las 500 ~o~calabazas~s~ y ha recibido ~g~{3}~s~!</String> 
+        <String xml:lang="en-US">{0} ~s~has found all 500 ~o~pumpkins~s~ and received ~g~{1}~s~!</String>
+        <String xml:lang="it-IT">{0} ~s~ha trovato tutte le 500 ~o~zucche~s~ e ha ricevuto ~g~{1}~s~!</String>
+        <String xml:lang="pl-PL">{0} ~s~znalazł wszystkie 500 ~o~dyń~s~ i otrzymał ~g~{1}~s~!</String>
+        <String xml:lang="es-ES">¡{0} ~s~ha encontrado las 500 ~o~calabazas~s~ y ha recibido ~g~{1}~s~!</String> 
     </Entry>
 
-    <!-- {0} = Final price -->
+    <!-- {0} = Final prize -->
     <Entry Id="specialitem_halloween_reward">
         <String xml:lang="en-US">You received ~g~{0} ~s~and the ~o~Freddy Krueger Outfit ~s~for your civilian character. Happy Halloween!</String>
         <String xml:lang="it-IT">Hai ricevuto ~g~{0} ~s~e ~o~l'Outfit di Freddy Krueger ~s~per il tuo personaggio da civile. Buon Halloween!</String>
