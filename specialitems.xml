@@ -8,6 +8,7 @@
         <String xml:lang="it-IT">Devi ~r~aspettare {0} secondi ~s~prima di comprare un altro ~p~{1}~s~.</String>
         <String xml:lang="pl-PL">Musisz ~r~poczekać {0} sekund ~s~zanim kupisz kolejny ~p~{1}~s~.</String>
         <String xml:lang="es-ES">Tu debes de ~r~esperar {0} segundos ~s~antes de comprar otro ~p~{1}~s~.</String>
+        <String xml:lang="de-DE">Du musst {0} Sekunden ~r~wait ~s~bevor du ein weitere/s ~p~{1}~s~ kaufst.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -20,6 +21,7 @@
         <String xml:lang="it-IT">(C){0}(/C) ha vinto (C){1}(/C) da un gratta e vinci!</String>
         <String xml:lang="pl-PL">(C){0}(/C) wygrał (C){1}(/C) ze zdrapki!</String>
         <String xml:lang="es-ES">¡(C){0}(/C) ganó (C){1}(/C) con una tarjeta de rasca y gana!</String>
+        <String xml:lang="de-DE">(C){0}(/C) hat (C){1}(/C) aus einem Rubbellos gewonnen!</String>d
     </Entry>
 
     <Entry Id="specialitem_scratchcard_at_time">
@@ -27,6 +29,7 @@
         <String xml:lang="it-IT">Puoi usare solo ~run ~s~gratta e vinci alla volta.</String>
         <String xml:lang="pl-PL">Możesz użyć tylko ~r~jedną ~s~zdrapkę w danym momencie.</String>
         <String xml:lang="es-ES">Solo puede usar ~r~una ~s~tarjeta de rasca y gana a la vez.</String>
+        <String xml:lang="de-DE">Du kannst nur ~r~ein ~s~Rubbellos gleichzeitig nutzen.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -86,21 +89,24 @@
         <String xml:lang="en-US">(C){0}{1} ({2})(/C) ~s~used a ~p~medkit~s~.</String>
         <String xml:lang="it-IT">(C){0}{1} ({2})(/C) ~s~ha usato un ~p~kit medico~s~.</String>
         <String xml:lang="pl-PL">(C){0}{1} ({2})(/C) ~s~użył ~p~apteczkę~s~.</String>
-        <String xml:lang="es-ES">(C){0}{1} ({2})(/C) ~s~usaste un ~p~botiquín~s~.</String> 
+        <String xml:lang="es-ES">(C){0}{1} ({2})(/C) ~s~usaste un ~p~botiquín~s~.</String>
+        <String xml:lang="de-DE">(C){0}{1} ({2})(/C) ~s~hat einen ~p~Verbandskasten genutzt~s~.</String>
     </Entry>
 
     <Entry Id="medkit_cooldown">
         <String xml:lang="en-US">You need to ~r~wait ~s~30 seconds between ~p~medkit ~s~uses.</String>
         <String xml:lang="it-IT">Devi ~r~aspetare ~s~30 secondi prima di poter usare un altro ~p~kit medico~s~.</String>
         <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~30 sekund zanim użyjesz ~p~apteczkę ~s~ponownie.</String>
-        <String xml:lang="es-ES">Tienes que ~r~esperar ~s~30 segundos entre usos de ~p~botiquínes ~s~.</String> 
+        <String xml:lang="es-ES">Tienes que ~r~esperar ~s~30 segundos entre usos de ~p~botiquínes ~s~.</String>
+        <String xml:lang="de-DE">Du musst zwischen der Verwendung von ~p~Verbandskästen~s~ 30 Sekunden ~r~warten~s~.</String>
     </Entry>
 
     <Entry Id="medkit_at_time">
         <String xml:lang="en-US">You can only use ~r~one ~s~medkit at a time.</String>
         <String xml:lang="it-IT">Puoi usare solo ~r~un ~s~kit medico alla volta.</String>
         <String xml:lang="pl-PL">Możesz użyć tylko ~r~jedną ~s~apteczkę w danym momencie.</String>
-       <String xml:lang="es-ES">Solo puedes usar ~r~un ~s~botiquín a la vez.</String> 
+        <String xml:lang="es-ES">Solo puedes usar ~r~un ~s~botiquín a la vez.</String>
+        <String xml:lang="de-DE">Du kannst nur ~r~einen ~s~Verbandskasten gleichzeitig nutzen.</String>
     </Entry>
 
     <Entry Id="bandage">
@@ -120,7 +126,8 @@
         <String xml:lang="en-US">(C){0}{1} ({2})(/C) ~s~used a ~p~bandage~s~.</String>
         <String xml:lang="it-IT">(C){0}{1} ({2})(/C) ~s~ha usato una ~p~benda~s~.</String>
         <String xml:lang="pl-PL">(C){0}{1} ({2})(/C) ~p~zabandażował~s~ się.</String>
-        <String xml:lang="es-ES">(C){0}{1} ({2})(/C) ~s~has usado un ~p~vendaje~s~.</String> 
+        <String xml:lang="es-ES">(C){0}{1} ({2})(/C) ~s~has usado un ~p~vendaje~s~.</String>
+        <String xml:lang="de-DE">(C){0}{1} ({2})(/C) ~s~hat eine ~p~Bandage~s~ verwendet.</String>
     </Entry>
 
     <Entry Id="bodyarmor">
@@ -140,7 +147,8 @@
         <String xml:lang="en-US">(C){0}{1} ({2})(/C) ~s~equipped a ~p~body armor~s~.</String>
         <String xml:lang="it-IT">(C){0}{1} ({2})(/C) ~s~ha equipaggiato un ~p~giubbotto antiproiettile~s~.</String>
         <String xml:lang="pl-PL">(C){0}{1} ({2})(/C) ~s~ubrał ~p~kamizelkę kuloodporną~s~.</String>
-        <String xml:lang="es-ES">(C){0}{1} ({2})(/C) ~s~equipó una ~p~armadura corporal~s~.</String> 
+        <String xml:lang="es-ES">(C){0}{1} ({2})(/C) ~s~equipó una ~p~armadura corporal~s~.</String>
+        <String xml:lang="de-DE">(C){0}{1} ({2})(/C) ~s~hat eine ~p~Schutzweste ~s~angezogen.</String>
     </Entry>
 
     <!-- activites -->
@@ -357,35 +365,40 @@
         <String xml:lang="en-US">Good! You got your second ~o~pumpkin~s~. Don't give up now!</String>
         <String xml:lang="it-IT">Buono! Hai raccolto la tua seconda ~o~zucca~s~. Non arrenderti adesso!</String>
         <String xml:lang="pl-PL">Znalazłeś swoją drugą ~o~dynię~s~. Nie poddawaj się teraz!</String>
-        <String xml:lang="es-ES">¡Bien! Tienes tu segunda ~o~calabaza~s~. ¡No te rindas ahora!</String> 
+        <String xml:lang="es-ES">¡Bien! Tienes tu segunda ~o~calabaza~s~. ¡No te rindas ahora!</String>
+        <String xml:lang="de-DE">Sehr gut! Du hast deinen zweiten ~o~Kürbis~s~ gefunden. Gib jetzt nicht auf!</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_third_pumpkin">
         <String xml:lang="en-US">Third ~o~pumpkin~s~! Collect ~o~20 pumpkins ~s~for a ~b~small reward~s~!</String>
         <String xml:lang="it-IT">Terza ~o~zucca~s~! Raccogli ~o~20 zucche ~s~per una ~b~piccola ricompensa~s~!</String>
         <String xml:lang="pl-PL">Trzecia ~o~dynia~s~! Znajdź ~o~20 dyń ~s~dla ~b~małej nagrody~s~!</String>
-        <String xml:lang="es-ES">¡Tercera ~o~calabaza~s~! ¡Consigue ~o~20 calabazas ~s~ para una ~b~pequeña recompensa~s~!</String> 
+        <String xml:lang="es-ES">¡Tercera ~o~calabaza~s~! ¡Consigue ~o~20 calabazas ~s~ para una ~b~pequeña recompensa~s~!</String>
+        <String xml:lang="en-US">Der dritte ~o~Kürbis~s~! Sammle ~o~20 Kürbis ~s~für einen ~b~kleinen Preis~s~!</String>
     </Entry>
 
     <Entry Id="specialitem_hallooween_twenty_pumpkin">
         <String xml:lang="en-US">Great! You collected ~o~20 pumpkins~s~! You received a ~b~bonus item ~s~in your inventory, try to use it!</String>
         <String xml:lang="it-IT">Ottimo! Hai raccolto ~o~20 zucche~s~! Hai ricevuto un ~b~oggetto bonus ~s~nel tuo inventario, prova ad utilizzarlo!</String>
         <String xml:lang="pl-PL">Genialnie! Znalazłeś ~o~20 dyń~s~! Dostałeś za to ~b~bonus ~s~do ekwipunku, użyj go!</String>
-        <String xml:lang="es-ES">¡Excelente! ¡Recolectaste ~o~20 calabazas~s~! Has recivido un ~b~objeto de bonificación ~s~en tu inventario, ¡intenta usarlo!</String> 
+        <String xml:lang="es-ES">¡Excelente! ¡Recolectaste ~o~20 calabazas~s~! Has recivido un ~b~objeto de bonificación ~s~en tu inventario, ¡intenta usarlo!</String>
+        <String xml:lang="de-DE">Gut gemacht! Du hast ~o~20 Kürbisse~s~ gesammelt! Du hast einen ~b~Bonus-Gegenstand ~s~in dein Inventar erhalten, versuche sie zu verwenden!</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_twenty_more_pumpkin">
         <String xml:lang="en-US">You found 20 more ~o~pumpkins~s~! Check your inventory for your ~b~bonus item~s~.</String>
         <String xml:lang="it-IT">Hai trovato altre 20 ~o~zucche~s~! Controlla il tuo inventario per ~b~l'oggetto bonus~s~.</String>
         <String xml:lang="pl-PL">Znalazłeś 20 kolejnych ~o~dyń~s~! Sprawdź swój ekwipunek dla ~b~bonusów~s~.</String>
-        <String xml:lang="es-ES">¡Encontraste 20 ~o~calabazas~s~ más! Revisa tu inventario para encontrar tu ~b~objeto de bonificación~s~.</String> 
+        <String xml:lang="es-ES">¡Encontraste 20 ~o~calabazas~s~ más! Revisa tu inventario para encontrar tu ~b~objeto de bonificación~s~.</String>
+        <String xml:lang="de-DE">Du hast 20 weitere ~o~Kürbisse~s~ gefunden! Überprüfe dein Inventat für deinen ~b~Bonus-Gegenstand~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_hallooween_fifty_pumpkin">
         <String xml:lang="en-US">Yay! You made it to 50! You will receive this bonus every ~o~50 pumpkins ~s~found!</String>
         <String xml:lang="it-IT">Eviva! Sei arrivato a 50! Riceverai questo bonus ogni volta che trovi ~o~50 zucche~s~!</String>
         <String xml:lang="pl-PL">Super! To już 50! Otrzymasz ten bonus co ~o~50 dyń ~s~które znajdziesz!</String>
-        <String xml:lang="es-ES">¡Hurra! ¡Llegaste a los 50! ¡Recibirás esta bonificación cada ~o~50 calabazas ~s~que encuentres!</String> 
+        <String xml:lang="es-ES">¡Hurra! ¡Llegaste a los 50! ¡Recibirás esta bonificación cada ~o~50 calabazas ~s~que encuentres!</String>
+        <String xml:lang="de-DE">Glückwunsch! Du hast es zu den 50 geschafft! Du wirst diesen Bonus alle ~o~50 Kürbisse ~s~erhalten, die du findest!</String>
     </Entry>
 
     <!-- {0} = Player name -->
@@ -394,14 +407,16 @@
         <String xml:lang="en-US">{0} ~s~has found {1} ~o~pumpkins~s~!</String>
         <String xml:lang="it-IT">{0} ~s~ha trovato {1} ~o~zucche~s~!</String>
         <String xml:lang="pl-PL">{0} ~s~znalazł {1} ~o~dyń~s~!</String>
-        <String xml:lang="es-ES">¡{0} ~s~ha encontrado {1} ~o~calabazas~s~!</String> 
+        <String xml:lang="es-ES">¡{0} ~s~ha encontrado {1} ~o~calabazas~s~!</String>
+        <String xml:lang="de-DE">{0} ~s~hat {1} ~o~Kürbisse~s~ gefunden!</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_candy_inventory_full">
         <String xml:lang="en-US">~r~Warning: ~s~You couldn't receive a halloween candy because your inventory is full.</String>
         <String xml:lang="it-IT">~r~Attenzione: ~s~Non hai potuto ricevere la caramella di halloween poichè il tuo inventario è pieno.</String>
         <String xml:lang="pl-PL">~r~Uwaga: ~s~Nie dostałeś cukierka halloweenowego bo twój ekwipunek jest pełny.</String>
-        <String xml:lang="es-ES">~r~Advertencia: ~s~No pudiste recibir un dulce de Halloween porque tu inventario está lleno.</String> 
+        <String xml:lang="es-ES">~r~Advertencia: ~s~No pudiste recibir un dulce de Halloween porque tu inventario está lleno.</String>
+        <String xml:lang="de-DE">~r~Achtung: ~s~Du konntest keine Halloween-Süßigkeiten erhalten, weil dein Inventar voll ist.</String>
     </Entry>
 
     <!-- {0} = Error-code -->
@@ -409,7 +424,8 @@
         <String xml:lang="en-US">~r~Warning: ~s~You couldn't receive a halloween candy due to an error 0x88-{0}.</String>
         <String xml:lang="it-IT">~r~Attenzione: ~s~Non hai potuto ricevere la caramella di halloween a causa del errore 0x88-{0}.</String>
         <String xml:lang="pl-PL">~r~Uwaga: ~s~Nie dostałeś cukierka halloweenowego z powodu błędu 0x88-{0}.</String>
-        <String xml:lang="es-ES">~r~Advertencia: ~s~No pudiste recibir un dulce de Halloween debido a un error 0x88-{0}.</String> 
+        <String xml:lang="es-ES">~r~Advertencia: ~s~No pudiste recibir un dulce de Halloween debido a un error 0x88-{0}.</String>
+        <String xml:lang="de-DE">~r~Achtung: ~s~Du konntest keine Halloween-Süßigkeiten erhalten aufgrund eines Fehlers: 0x88-{0}.</String>
     </Entry>
 
     <!-- {0} = Player name -->
@@ -418,7 +434,8 @@
         <String xml:lang="en-US">{0} ~s~has found all 500 ~o~pumpkins~s~ and received ~g~{1}~s~!</String>
         <String xml:lang="it-IT">{0} ~s~ha trovato tutte le 500 ~o~zucche~s~ e ha ricevuto ~g~{1}~s~!</String>
         <String xml:lang="pl-PL">{0} ~s~znalazł wszystkie 500 ~o~dyń~s~ i otrzymał ~g~{1}~s~!</String>
-        <String xml:lang="es-ES">¡{0} ~s~ha encontrado las 500 ~o~calabazas~s~ y ha recibido ~g~{1}~s~!</String> 
+        <String xml:lang="es-ES">¡{0} ~s~ha encontrado las 500 ~o~calabazas~s~ y ha recibido ~g~{1}~s~!</String>
+        <String xml:lang="de-DE">{0} ~s~hat alle 500 ~o~Kürbisse~s~ gefunden und hat ~g~{1}~s~ erhalten!</String>
     </Entry>
 
     <!-- {0} = Final prize -->
@@ -426,7 +443,8 @@
         <String xml:lang="en-US">You received ~g~{0} ~s~and the ~o~Freddy Krueger Outfit ~s~for your civilian character. Happy Halloween!</String>
         <String xml:lang="it-IT">Hai ricevuto ~g~{0} ~s~e ~o~l'Outfit di Freddy Krueger ~s~per il tuo personaggio da civile. Buon Halloween!</String>
         <String xml:lang="pl-PL">Otrzymałeś ~g~{0} ~s~i ~o~Strój Freddiego Kruegera  ~s~dla twojej postaci cywilnej. Szczęśliwego Halloween!</String>
-        <String xml:lang="es-ES">Recibiste ~g~{0} ~s~y el ~o~traje de Freddy Krueger ~s~para tu personaje civil. ¡Feliz Halloween!</String> 
+        <String xml:lang="es-ES">Recibiste ~g~{0} ~s~y el ~o~traje de Freddy Krueger ~s~para tu personaje civil. ¡Feliz Halloween!</String>
+        <String xml:lang="de-DE">Du hast ~g~{0} ~s~und das ~o~Freddy Krueger Outfit ~s~für deinen zivilen Charakter erhalten. Happy Halloween!</String>
     </Entry>
 
     <!-- {0} = Cooldown -->
@@ -434,7 +452,8 @@
         <String xml:lang="en-US">You must ~r~wait ~s~{0} seconds before eating another ~o~halloween candy~s~.</String>
         <String xml:lang="it-IT">Devi ~r~aspettare ~s~{0} secondi prima di poter mangiare un altra ~o~caramella di halloween~s~.</String>
         <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~{0} sekund przed zjedzeniem kolejnego ~o~cukierka halloweenowego~s~.</String>
-        <String xml:lang="es-ES">Tu tienes que ~r~esperar ~s~{0} segundos antes de comer otro ~o~dulce de Halloween~s~.</String> 
+        <String xml:lang="es-ES">Tu tienes que ~r~esperar ~s~{0} segundos antes de comer otro ~o~dulce de Halloween~s~.</String>
+        <String xml:lang="de-DE">Du musst {0} Sekunden ~r~warten, bevor du eine weitere Halloween-Süßigkeit isst.</String>
     </Entry>
 
 
