@@ -10,6 +10,7 @@
         <String xml:lang="en-US">You must be at least ~r~level {0} ~s~to become a ~p~{1}~s~.</String>
         <String xml:lang="it-IT">Devi essere almeno ~r~livello {0} ~s~per diventare un ~p~{1}~s~.</String>
         <String xml:lang="de-DE">Du musst mindestens ~r~Level {0} ~s~sein, um ein ~p~{1}~s~ zu werden.</String>
+        <String xml:lang="pl-PL">Musisz być co najmniej ~r~na poziomie {0} ~s~by zostać ~p~{1}~s~.</String>
     </Entry>
 
     <!-- {0} = required playtime -->
@@ -18,6 +19,7 @@
         <String xml:lang="en-US">You need to play for ~r~{0} hours ~s~to become a ~p~{1}~s~.</String>
         <String xml:lang="it-IT">Devi giocare per almeno ~r~{0} ore ~s~per diventare un ~p~{1}~s~.</String>
         <String xml:lang="de-DE">Du musst mindestens ~r~{0} Stunden ~s~spielen, um ein ~p~{1}~s~ zu werden.</String>
+        <String xml:lang="pl-PL">Musisz grać conajmniej ~r~{0} godzin ~s~by zostać ~p~{1}~s~.</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -25,6 +27,7 @@
         <String xml:lang="en-US">You need to ~r~wait ~s~before becoming a ~p~{0} ~s~again.</String>
         <String xml:lang="it-IT">Devi ~r~aspettare ~s~prima di diventare un ~p~{0} ~s~nuovamente.</String>
         <String xml:lang="de-DE">Du musst ~r~warten~s~, bevor du erneut ein ~p~{0} ~s~werden kannst. </String>
+        <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~zanim zostaniesz ~p~{0}em ~s~ponownie.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -190,6 +193,7 @@
     <!-- {1} = Location -->
     <Entry Id="dealer_player_looking">
         <String xml:lang="en-US">{0} ~s~is looking for a drug dealer in ~y~{1}~s~.</String>
+        <String xml:lang="pl-PL">{0} ~s~szuka dilera w ~y~{1}~s~.</String>
         <String xml:lang="it-IT">{0} ~s~sta cercando uno spacciatore  in ~y~{1}~s~.</String>
         <String xml:lang="de-DE">{0} ~s~sucht nach einem Drogendealer in ~y~{1}~s~.</String>
     </Entry>
@@ -198,6 +202,7 @@
         <String xml:lang="en-US">You are in a ~r~drug spot~s~. Stay here and ~y~NPCs ~s~will ask you for drugs.</String>
         <String xml:lang="it-IT">Sei nella ~r~zona di spaccio~s~. Resta qui e gli ~y~NPC ~s~ti chiederanno la droga.</String>
         <String xml:lang="de-DE">Du befindest dich an einem ~r~Drogenumschlagplatz~s~. Bleibe hier und ~y~NPCs~s~ werden dich nach Drogen fragen.</String>
+        <String xml:lang="pl-PL">Jesteś w ~r~ukąciku narkotykowym~s~. Zostań tutaj, a ~y~boty ~s~będą cię prosić o narkotyki.</String>
     </Entry>
 
     <!-- {0} = Cooldown -->
@@ -205,36 +210,42 @@
         <String xml:lang="en-US">Someone has called the ~b~cops~s~, you can't use this ~r~drug spot ~s~for the next ~p~{0} minutes~s~.</String>
         <String xml:lang="it-IT">Qualcuno ha chiamato la ~b~polizia~s~, non potrai usare questa ~r~zona di spaccio ~s~per i prossimi ~p~{0} minuti~s~.</String>
         <String xml:lang="de-DE">JEmand hat die ~b~Polizei~s~ gerufen. Du kannst diesen ~r~Drogenumschlagplatz ~s~für die nächsten ~p~{0} Minuten ~s~nicht benutzen. </String>
+        <String xml:lang="pl-PL">Konfident zawiadomił ~b~gliny~s~, nie możesz użyć tego ~r~kącika ~s~przez następne ~p~{0} minut~s~.</String>
     </Entry>
 
     <Entry Id="dealer_left_drug_spot">
         <String xml:lang="en-US">You left the ~r~drug spot~s~.</String>
         <String xml:lang="it-IT">Hai lasciato la ~r~zona di spaccio~s~.</String>
         <String xml:lang="de-DE">Du hast den ~r~Drogenumschlagplatz ~s~verlassen.</String>
+        <String xml:lang="pl-PL">Opuściłeś ~r~kącik narkotykowy~s~.</String>
     </Entry>
 
     <Entry Id="dealer_weapon_on_spot">
         <String xml:lang="en-US">You have a weapon! Fewer ~y~NPCs ~s~will buy drugs.</String>
         <String xml:lang="it-IT">Hai un arma! Pochi ~y~NPC ~s~compreranno la droga.</String>
         <String xml:lang="de-DE">Du hast eine Waffe! Weniger ~y~NPCs ~s~werden Drogen bei dir kaufen.</String>
+        <String xml:lang="pl-PL">Jesteś uzbrojony! Mniej ~y~botów ~s~będzie kupować narkotyki.</String>
     </Entry>
 
     <Entry Id="dealer_ongoing_shooting">
         <String xml:lang="en-US">There's an active ~r~shooting~s~! ~y~NPCs ~s~will not buy drugs.</String>
         <String xml:lang="it-IT">È in corso una ~r~sparatoria~s~! Gli ~y~NPC ~s~non compreranno la droga.</String>
         <String xml:lang="de-DE">Es gibt eine aktive ~r~Schießerei~s~! ~y~NPCs ~s~werden keine Drogen kaufen.</String>
+        <String xml:lang="pl-PL">W pobliżu jest ~r~strzelanina~s~! ~y~Boty ~s~nie będą kupować narkotków.</String>
     </Entry>
 
     <Entry Id="dealer_dead_body_nearby">
         <String xml:lang="en-US">There's a ~r~dead body ~s~nearby. ~y~NPCs ~s~will not buy drugs.</String>
         <String xml:lang="it-IT">È presente un ~r~cadavere ~s~nelle vicinanze. Gli ~y~NPC ~s~non compreranno la droga.</String>
         <String xml:lang="de-DE">Es gibt eine ~r~Leiche ~s~in der Nähe. ~y~NPCs ~s~werden keine Drogen kaufen.</String>
+        <String xml:lang="pl-PL">W pobliżu jest ~r~trup~s~! ~y~Boty ~s~nie będą kupować narkotków.</String>
     </Entry>
 
     <Entry Id="dealer_too_many_dealers">
         <String xml:lang="en-US">There are too many ~r~drug dealers ~s~in the drug spot.</String>
         <String xml:lang="it-IT">Sono presenti troppi ~r~spacciatori ~s~in questa zona di spaccio.</String>
         <String xml:lang="de-DE">Es sind zu viele ~r~Drogendealer ~s~an diesem Drogenumschlagplatz.</String>
+        <String xml:lang="pl-PL">Za dużo ~r~dilerów ~s~sprzedaje w kąciku.</String>
     </Entry>
 
     <!-- {0} = Amount -->
@@ -244,6 +255,7 @@
         <String xml:lang="en-US">The ~y~NPC ~s~wants ~p~{0}g ~s~of ~r~{1}~s~. {2}</String>
         <String xml:lang="it-IT">L'~y~NPC ~s~desidera ~p~{0}g ~s~di ~r~{1}~s~. {2}</String>
         <String xml:lang="de-DE">Der ~y~NPC ~s~möchte ~p~{0}g ~r~ {1} ~s~kaufen. {2}</String>
+        <String xml:lang="pl-PL">~y~Bot ~s~chce ~p~{0}g ~s~ ~r~{1}~s~. {2}</String>
     </Entry>
 
     <!-- {0} = Drug name -->
@@ -251,18 +263,21 @@
         <String xml:lang="en-US">You do not have enough ~r~{0}~s~.</String>
         <String xml:lang="it-IT">Non hai abbastanza ~r~{0}~s~.</String>
         <String xml:lang="de-DE">Du hast nicht genug ~r~{0}~s~.</String>
+        <String xml:lang="pl-PL">Nie masz wystarczająco dużo ~r~{0}~s~.</String>
     </Entry>
 
     <Entry Id="dealer_npc_price_too_high">
         <String xml:lang="en-US">The ~y~NPC ~s~said your price is ~r~too high~s~.</String>
         <String xml:lang="it-IT">L'~y~NPC ~s~ritiene che il tuo prezzo è ~r~troppo alto~s~.</String>
         <String xml:lang="de-DE">Der ~y~NPC ~s~sagte, dass dein Preis ~r~zu hoch ~s~ist.</String>
+        <String xml:lang="pl-PL">~y~Bot ~s~powiedział że twoje ceny są ~r~za wysokie~s~.</String>
     </Entry>
 
     <Entry Id="dealer_npc_no_longer_interested">
         <String xml:lang="en-US">The ~y~NPC ~s~is no longer interested.</String>
         <String xml:lang="it-IT">L'~y~NPC ~s~non è più interessato.</String>
         <String xml:lang="de-DE">Der ~y~NPC ~s~ ist nicht länger interessiert.</String>
+        <String xml:lang="pl-PL">~y~Bot ~s~nie jest już zainteresowany.</String>
     </Entry>
 
     <!-- {0} = Main menu hotkey (M) -->
@@ -270,36 +285,42 @@
         <String xml:lang="en-US">You can manage your drug supplies in your {0} ~b~Menu ~s~> ~b~Job Menu.</String>
         <String xml:lang="it-IT">Puoi gestire le tue scorte di droga nel tuo ~b~Menu ~s~{0} > ~b~Menu Lavoro.</String>
         <String xml:lang="de-DE">Du kannst deine Vorräte in deinem {0} ~b~Menu ~s~> ~b~Job Menu verwalten.</String>
+        <String xml:lang="pl-PL">Możesz zarządzać swoim towarem w swoim {0} ~b~Menu ~s~> ~b~Menu Pracy.</String>
     </Entry>
 
     <Entry Id="dealer_no_inventory_space">
         <String xml:lang="en-US">~r~You don't have enough space in your inventory!</String>
         <String xml:lang="it-IT">~r~Non hai abbastanza spazio nel tuo inventario!</String>
         <String xml:lang="de-DE">~r~Du hast nicht genügend Platz in deinem Inventar!</String>
+        <String xml:lang="pl-PL">~r~Brakuje ci miejsca w ekwipunku!</String>
     </Entry>
 
     <Entry Id="dealer_cant_buy_amount">
         <String xml:lang="en-US">~r~You can't purchase that amount more of this item!</String>
         <String xml:lang="it-IT">~r~Non è possibile acquistare più tale quantità di questo oggetto!</String>
         <String xml:lang="de-DE">~r~Du kannst nicht mehr so viel von diesem Artikel kaufen!</String>
+        <String xml:lang="pl-PL">~r~Nie możesz kupić tyle sztuk tego przedmiotu!</String>
     </Entry>
 
     <Entry Id="dealer_far_business_loc">
         <String xml:lang="en-US">~r~You are too far from the business location!</String>
         <String xml:lang="it-IT">~r~Sei troppo lontano dal luogo di attività!</String>
         <String xml:lang="de-DE">~r~Du bist zu weit vom Geschäftspunkt entfernt!</String>
+        <String xml:lang="pl-PL">~r~Jesteś za daleko od lokacji biznesu!</String>
     </Entry>
 
     <Entry Id="dealer_have_to_be_dealer_to_purchase">
         <String xml:lang="en-US">~r~You have to be a drug dealer to purchase from this supplier!</String>
         <String xml:lang="it-IT">~r~Devi essere uno spacciatore per poter acquistare da questo fornitore!</String>
         <String xml:lang="de-DE">~r~Du musst ein Drogendealer sein, um von diesem Händler zu kaufen!</String>
+        <String xml:lang="pl-PL">~r~Musisz być dilerem by kupić coś z tej dziupli!</String>
     </Entry>
 
     <Entry Id="dealer_cant_change_job_inside_vehicle">
         <String xml:lang="en-US">~r~You cannot change your job while you're in a vehicle.</String>
         <String xml:lang="it-IT">~r~Non puoi cambiare lavoro mentre sei in un veicolo!</String>
         <String xml:lang="de-DE">~r~Du kannst deinen Job nicht wechseln, während du dich in einem Fahrzeug befindest.</String>
+        <String xml:lang="pl-PL">~r~Nie możesz zmienić pracy w pojeździe.</String>
     </Entry>
 
     <!-- {0} = Required level -->
@@ -307,6 +328,7 @@
         <String xml:lang="en-US">You need to be ~b~level {0} ~s~to unlock this ~r~drug supplier~s~. Find another supplier!</String>
         <String xml:lang="it-IT">Devi essere ~b~livello {0} ~s~per sbloccare questo ~r~spacciatore~s~. Cerca un altro spacciatore!</String>
         <String xml:lang="de-DE">Du musst ~b~ Level {0}~s~ sein, um diesen ~r~Händler freizuschalten. Finde einen anderen Händler!</String>
+        <String xml:lang="pl-PL">Musisz mieć co najmniej ~b~poziom {0} ~s~by odblokować tą ~r~dziuplę narkotykową~s~. Znajdź inną!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -342,48 +364,56 @@
         <String xml:lang="en-US">You paid ~g~{0} ~s~to the impound office. Your ~b~{1} ~s~has been returned to your garage.</String>
         <String xml:lang="it-IT">Hai pagato ~g~{0} ~s~all'ufficio deposito. Il tuo ~b~{1} ~s~è stato restituito nel tuo garage.</String>
         <String xml:lang="de-DE">Du hast ~g~{0} ~s~ an die Verwahrstelle bezahlt. Dein ~b~{1} wurde in deine Garage zurückgebracht. </String>
+        <String xml:lang="pl-PL">Zapłaciłeś ~g~{0} ~s~do firmy holowniczej. Twój ~b~{1} ~s~został zwrócony do garażu.</String>
     </Entry>
 
     <Entry Id="mechanic_dont_have_vehicle_repair">
         <String xml:lang="en-US">~r~You don't have a vehicle to repair!</String>
         <String xml:lang="it-IT">~r~Non hai un veicolo da riparare!</String>
         <String xml:lang="de-DE">~r~Du hast kein Fahrzeug zum Reparieren!</String>
+        <String xml:lang="pl-PL">~r~Nie masz pojazdu do naprawy!</String>
     </Entry>
 
     <Entry Id="mechanic_dont_have_vehicle">
         <String xml:lang="en-US">~r~You don't have a vehicle!</String>
         <String xml:lang="it-IT">~r~Non hai un veicolo!</String>
         <String xml:lang="de-DE">~r~Du hast kein Fahrzeug!</String>
+        <String xml:lang="pl-PL">~r~Nie masz pojazdu!</String>
     </Entry>
 
     <Entry Id="mechanic_cant_change_plate_others">
         <String xml:lang="en-US">~r~You can't change someone else's license plate!</String>
         <String xml:lang="it-IT">~r~Non puoi cambiare la targa di qualcun'altro!</String>
         <String xml:lang="de-DE">~r~Du kannst das Kennzeichen von jemand anderem nicht ändern!</String>
+        <String xml:lang="pl-PL">~r~Nie możesz zmieniać tablic rejestracyjnych innych! </String>
     </Entry>
 
     <Entry Id="mechanic_vehicle_repaired">
         <String xml:lang="en-US">Your vehicle has been ~g~repaired~s~.</String>
         <String xml:lang="it-IT">Il tuo veicolo è stato ~g~riparato~s~.</String>
         <String xml:lang="de-DE">Dein Fahrzeug wurde ~g~repariert~s~.</String>
+        <String xml:lang="pl-PL">Twój pojazd został ~g~naprawiony~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_too_far_repairpoint">
         <String xml:lang="en-US">~r~You are too far from the mechanic.</String>
         <String xml:lang="it-IT">~r~Sei troppo lontano dal meccanico.</String>
         <String xml:lang="de-DE">~r~Du bist zu weit vom Mechaniker entfernt.</String>
+        <String xml:lang="pl-PL">~r~Jesteś za daleko od mechanika.</String>
     </Entry>
 
     <Entry Id="mechanic_repaired_too_recently">
         <String xml:lang="en-US">~r~This vehicle was repaired too recently.</String>
         <String xml:lang="it-IT">~r~Questo veicolo è stato riparato troppo recentemente.</String>
         <String xml:lang="de-DE">~r~Dieses Fahrzeug wurde kürzlich repariert.</String>
+        <String xml:lang="pl-PL">~r~Ten pojazd został przed chwilą naprawiony.</String>
     </Entry>
 
     <Entry Id="mechanic_cant_impound_vehicle">
         <String xml:lang="en-US">~r~You can't impound this vehicle.</String>
         <String xml:lang="it-IT">~r~Non puoi sequestrare questo veicolo.</String>
         <String xml:lang="de-DE">~r~Du kannst dieses Fahrzeug nicht verwahren.</String>
+        <String xml:lang="pl-PL">~r~Nie możesz skonfiskować tego pojazdu.</String>
     </Entry>
 
     <!-- {0} = Hotkey -->
@@ -391,12 +421,14 @@
         <String xml:lang="en-US">Hold {0} to drop the ~r~vehicle ~s~off.</String>
         <String xml:lang="it-IT">Tieni premuto {0} per lasciare il ~r~veicolo~s~.</String>
         <String xml:lang="de-DE">Halte {0} um das ~r~Fahrzeug ~s~abzukoppeln.</String>
+        <String xml:lang="pl-PL">Przytrzymaj {0} aby odstawić ~r~pojazd.</String>
     </Entry>
 
     <Entry Id="mechanic_tow_instructions">
         <String xml:lang="en-US">Tow illegally parked ~y~vehicles ~s~marked by a yellow cone to an ~g~impound lot~s~.</String>
         <String xml:lang="it-IT">Traina i ~y~veicoli ~s~parcheggiati abusivamente segnati con un cono giallo al ~g~deposito~s~.</String>
         <String xml:lang="de-DE">Schleppe widerrechtlich geparkte Fahrzeug, die mit einem gelben Kegel markiert sind, zu einem Abschleppplatz.</String>
+        <String xml:lang="pl-PL">Holuj nieprawidłowo zaparkowane ~y~pojazdy ~s~zaznaczone żółtym pachołkiem do ~g~biura konfiskat~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_description">
