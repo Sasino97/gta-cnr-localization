@@ -787,22 +787,27 @@
     <!--                  {0}         {1}  -->
     <Entry Id="committed_crime">
         <String xml:lang="en-US">You committed a {0} ~s~- {1}</String>
+        <String xml:lang="de-DE">Du hast eine {0} begangen ~s~- {1}</String>
     </Entry>
 
     <Entry Id="felony">
         <String xml:lang="en-US">~o~Felony</String>
+        <String xml:lang="de-DE">~o~Straftat</String>
     </Entry>
 
     <Entry Id="major_felony">
         <String xml:lang="en-US">~r~Major felony</String>
+        <String xml:lang="de-DE">~r~schwere Straftat</String>
     </Entry>
 
     <Entry Id="crime_warrant_issued">
         <String xml:lang="en-US">~o~Arrest warrant ~s~issued - leave the area and stay away from the ~b~cops~s~!</String>
+        <String xml:lang="de-DE">~o~Haftbefehl ~s~ausgestellt - verlasse das Gebiet und halte dich von den ~b~Polizisten~s~ fern!</String>
     </Entry>
 
     <Entry Id="crime_most_wanted">
         <String xml:lang="en-US">You are ~r~most wanted~s~ - other players can kill you on sight!</String>
+        <String xml:lang="de-DE">Du bist ~r~meistgesucht~s~ - andere Spieler dürfen dich bei Sichtkontakt töten!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -810,14 +815,17 @@
     <!-- ========================= -->
     <Entry Id="cannot_shop_gun_story_bounty">
         <String xml:lang="en-US">You cannot shop at gun stores when you have a ~r~bounty~s~.</String>
+        <String xml:lang="de-DE">Du kannst nicht bei Waffenläden einkaufen, wenn du ein ~r~Kopfgeld~s~ hast.</String>
     </Entry>
 
     <Entry Id="cannot_shop_store_on_duty">
         <String xml:lang="en-US">You cannot shop at this store when you are ~b~on-duty~s~.</String>
+        <String xml:lang="de-DE">Du kannst bei diesem Laden nicht einkaufen, wenn du ~b~im Dienst~s~ bist.</String>
     </Entry>
 
     <Entry Id="only_shop_police">
         <String xml:lang="en-US">Only ~b~police officers ~s~can shop at this store.</String>
+        <String xml:lang="de-DE">Ausschließlich ~b~Polizisten ~s~können in diesem Laden einkaufen.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -826,26 +834,27 @@
     <!-- Gun stores -->
     <Entry Id="already_own_weapon">
         <String xml:lang="en-US">~r~You already own this weapon!</String>
+        <String xml:lang="de-DE">~r~Du besitzt diese Waffe bereits!</String>
     </Entry>
 
     <Entry Id="already_own_attachment">
         <String xml:lang="en-US">~r~You already own this attachment!</String>
+        <String xml:lang="de-DE">~r~Du besitzt dieses Zubehör bereits!</String>
     </Entry>
 
     <Entry Id="disclaimer_illegal_weapons_ammo">
         <String xml:lang="en-US">~r~Illegal weapons and ammo ~s~can be confiscated by the ~b~police ~s~if they search you, however, weapon customizations will save.</String>
-    </Entry>
-
-    <Entry Id="disclaimer_illegal_weapons_ammo">
-        <String xml:lang="en-US">~r~Illegal weapons and ammo ~s~can be confiscated by the ~b~police ~s~if they search you, however, weapon customizations will save.</String>
+        <String xml:lang="de-DE">~r~Illegale Waffen und Munition ~s~können von der ~b~Polizei beschlagnahmt werden, ~s~wenn sie dich durchsuchen, Waffenmodifikationen werden jedoch gespeichert.</String>
     </Entry>
 
     <Entry Id="dont_have_required_level_item">
         <String xml:lang="en-US">~r~You don't have the required level to buy this item!</String>
+        <String xml:lang="de-DE">~r~Du hast nicht das benötigte Level, um diesen Gegenstand zu kaufen!</String>
     </Entry>
 
     <Entry Id="item_requires_membership">
         <String xml:lang="en-US">~r~This item requires a premium membership subscription!</String>
+        <String xml:lang="de-DE">~r~Dieser Gegenstand erfordert ein Premium-Mitgliedschaftsabonnement!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -853,87 +862,102 @@
     <!-- ========================= -->
     <Entry Id="public_officer_cant_rob">
         <String xml:lang="en-US">~r~Public officers can't shoplift!</String>
+        <String xml:lang="de-DE">~r~Beamte können keinen Laden ausrauben!</String>
     </Entry>
 
     <Entry Id="cannot_rob_same_store_twice">
         <String xml:lang="en-US">You ~r~cannot rob ~s~the same ~y~store ~s~twice in a row.</String>
+        <String xml:lang="de-DE">Du ~r~kannst nicht ~s~denselben Laden zwei Mal hintereinander ~r~ausrauben~s~.  </String>
     </Entry>
 
     <Entry Id="business_cannot_be_robbed_yet">
         <String xml:lang="en-US">This business ~r~cannot be robbed ~s~yet. This robbery is coming in a ~b~future update~s~.</String>
+        <String xml:lang="de-DE">Dieses Geschäft kann derzeit ~r~noch nicht ausgeraubt ~s~werden. Diese ~b~Raub-Funktion ~s~kommt in einem späteren Update.</String>
     </Entry>
 
     <Entry Id="business_cannot_be_robbed">
         <String xml:lang="en-US">This business ~r~cannot be robbed~s~.</String>
+        <String xml:lang="de-DE">Dises Geschäft ~r~kann nicht ausgeraubt werden~s~.</String>
     </Entry>
 
     <Entry Id="business_recently_robbed">
         <String xml:lang="en-US">This business has been ~r~recently ~s~robbed. Try again later.</String>
+        <String xml:lang="de-DE">Dieses Geschäft wurde ~r~vor kurzem ~s~ausgeraubt. Versuche es später erneut.</String>
     </Entry>
 
     <!-- {0} = Required cops to rob business -->
     <Entry Id="business_recently_robbed">
         <String xml:lang="en-US">You can't rob this ~r~business ~s~when there are less than ~b~{0} cops ~s~online.</String>
+        <String xml:lang="de-DE">Du kannst dieses ~r~Geschäft~s~ nicht ausrauben, wenn weniger als ~b~{0} Polizisten ~s~online sind. </String>
     </Entry>
 
     <!-- {0} = Location -->
     <!-- {1} = Amount -->
     <Entry Id="robbery_complete_cut">
         <String xml:lang="en-US">~b~Robbery complete! ~s~You have successfully robbed ~y~{0}~s~. Your cut is ~g~{1}~s~.</String>
+        <String xml:lang="de-DE">~b~Überfall abgeschlossen! ~s~Du hast erfolgreich ~y~{0}~s~ausgeraubt. Dein Anteil beträgt ~g~{1}~s~.</String>
     </Entry>
 
     <Entry Id="robbery_complete">
         <String xml:lang="en-US">~b~Robbery complete! ~s~You have successfully robbed ~y~{0} ~s~and earned ~g~{1}~s~!</String>
+        <String xml:lang="de-DE">~b~Überfall abgeschlossen! ~s~Du hast erfolgreich ~y~{0} ~s~ausgeraubt und ~g~{1}~s~ verdient!</String>
     </Entry>
 
     <Entry Id="robbery_fail_clerk_killed">
         <String xml:lang="en-US">~r~Robbery failed! Killing the clerk was not in the plan!</String>
+        <String xml:lang="de-DE">~r~Überfall fehlgeschlagen! Den Angestellten zu töten war nicht der Plan!</String>
     </Entry>
 
     <Entry Id="robbery_fail_clerk_not_intimidated">
         <String xml:lang="en-US">~r~Robbery failed! The clerk is no longer intimidated.</String>
-    </Entry>
-
-    <Entry Id="robbery_fail_clerk_not_intimidated">
-        <String xml:lang="en-US">~r~Robbery failed! The clerk is no longer intimidated.</String>
+        <String xml:lang="de-DE">~r~Überfall fehlgeschlagen! Der Angestellte ist nicht länger eingeschüchtert.</String>
     </Entry>
 
     <Entry Id="robbery_shots_called_police">
         <String xml:lang="en-US">Someone heard shots and called the ~r~police~s~!</String>
+        <String xml:lang="de-DE">Jemand hat Schüsse gehört und die ~r~Polizei~s~ gerufen!</String>
     </Entry>
 
     <!-- {0} = Player name -->
     <Entry Id="robbery_player_spotted">
         <String xml:lang="en-US">{0} has spotted the robbery!</String>
+        <String xml:lang="de-DE">{0} hat den Überfall gesehen!</String>
     </Entry>
 
     <Entry Id="robbery_player_called_police">
         <String xml:lang="en-US">{0} has called the ~r~police ~s~on you!</String>
+        <String xml:lang="de-DE">{0} hat die ~r~Polizei ~s~auf dich gehetzt!</String>
     </Entry>
 
     <!-- {0} = Cooldown -->
     <Entry Id="robbery_caught_shoplifting">
         <String xml:lang="en-US">You have been caught ~r~shoplifting ~s~here. Come back in ~y~{0}~s~.</String>
+        <String xml:lang="de-DE">Du wurdest hier beim ~r~Ladendiebstahl~s~ erwischt. Komm in ~y~{0}~s~ zurück.</String>
     </Entry>
 
     <Entry Id="robbery_caught_shoplifting_cant_buy">
         <String xml:lang="en-US">You have been caught ~r~shoplifting ~s~here. You can't purchase items from this store for ~y~{0} seconds~s~.</String>
+        <String xml:lang="de-DE">Du wurdest hier beim ~r~Ladendiebstahl ~s~erwischt. Du kannst keine Gegenstände dieses Ladens für ~y~{0} Sekunden~s~ kaufen.</String>
     </Entry>
 
     <Entry Id="robbery_caught_shoplifting_reported_police">
         <String xml:lang="en-US">~r~Your shoplifting attempt has been spotted! You have been reported to the police.</String>
+        <String xml:lang="de-DE">~r~Dein Ladendiebstahlversuch wurde bemerkt! Du wurdest bei der Polizei gemeldet.</String>
     </Entry>
 
     <Entry Id="robbery_caught_shoplifting_wait">
         <String xml:lang="en-US">~r~You need to wait before shoplifting this store again!</String>
+        <String xml:lang="de-DE">~r~Du musst warten, bevor du diesen Laden erneut ausraubst.</String>
     </Entry>
 
     <Entry Id="robbery_steal_weapon">
         <String xml:lang="en-US">~r~You can't steal a weapon!</String>
+        <String xml:lang="de-DE">~r~Du kannst keine Waffe stehlen!</String>
     </Entry>
 
     <Entry Id="robbery_steal_weapon_attachment">
         <String xml:lang="en-US">~r~You can't steal a weapon attachment!</String>
+        <String xml:lang="de-DE">~r~Du kannst kein Waffenzubehör stehlen!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -982,22 +1006,17 @@
 
     <Entry Id="robbery_cracked_safe">
         <String xml:lang="en-US">You ~g~successfully ~s~cracked the safe!</String>
+        <String xml:lang="de-DE">Du hast den Safe ~g~erfolgreich~s~ geknackt!</String>
     </Entry>
 
     <Entry Id="robbery_extra_security_safe">
         <String xml:lang="en-US">This safe has extra security and you ~r~failed ~s~to crack it!</String>
+        <String xml:lang="de-DE">Dieser Safe hat zusätzliche Sicherheitsmechanismen und es ist dir ~r~nicht gelungen~s~, ihn zu knacken.</String>
     </Entry>
 
     <Entry Id="robbery_canceled_safe">
         <String xml:lang="en-US">You ~r~canceled ~s~the safe robbery!</String>
-    </Entry>
-
-    <Entry Id="robbery_canceled_safe">
-        <String xml:lang="en-US">You ~r~canceled ~s~the safe robbery!</String>
-    </Entry>
-
-    <Entry Id="robbery_cracking_safe">
-        <String xml:lang="en-US">You are cracking the ~b~safe~s~.</String>
+        <String xml:lang="de-DE">Du hast den Saferaub ~r~abgebrochen~s~!</String>
     </Entry>
 
 </Entries>
