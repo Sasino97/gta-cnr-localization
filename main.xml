@@ -82,6 +82,22 @@
         <String xml:lang="pl-PL">~r~Wystąpił nieoczekiwany błąd! (0x56-{0}).</String>
     </Entry>
 
+    <Entry Id="unexpected_error_85">
+        <String xml:lang="en-US">~r~An unexpected error has occurred (0x85-{0}).</String>
+    </Entry>
+
+    <Entry Id="unexpected_error_86">
+        <String xml:lang="en-US">~r~An unexpected error has occurred (0x86-{0}).</String>
+    </Entry>
+
+    <Entry Id="unexpected_error_robbery_canceled">
+        <String xml:lang="en-US">~r~An unexpected error has occurred on the server and the robbery has been canceled.</String>
+    </Entry>
+
+    <Entry Id="unexpected_error_2A">
+        <String xml:lang="en-US">~r~An unexpected error has occurred! (0x2A-{0})</String>
+    </Entry>
+
     <Entry Id="munexpected_error_C0">
         <String xml:lang="en-US">~r~An unexpected error has occurred! (0xC0-{0}).</String>
         <String xml:lang="it-IT">~r~Si è verificato un errore inaspettato! (0xC0-{0}).</String>
@@ -108,6 +124,10 @@
         <String xml:lang="it-IT">~r~Si è verificato un errore inaspettato! (0xC3 - impossibile cambiare lavoro).</String>
         <String xml:lang="de-DE">~r~Ein unerwarteter Fehler ist aufgetreten! (0xC3 - unable to change job).</String>
         <String xml:lang="pl-PL">~r~Wystąpił nieoczekiwany błąd! (0xC3 - nie można zmienić pracy).</String>
+    </Entry>
+
+    <Entry Id="invalid_item">
+        <String xml:lang="en-US">~r~Invalid item.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -154,6 +174,36 @@
         <String xml:lang="en-US">~r~You don't have enough money.</String>
         <String xml:lang="it-IT">~r~Non hai abbastanza soldi.</String>
         <String xml:lang="de-DE">~r~Du hast nicht genügend Geld.</String>
+    </Entry>
+
+
+    <Entry Id="not_enough_inventory_space">
+        <String xml:lang="en-US">~r~You don't have enough space in your inventory!</String>
+        <String xml:lang="it-IT">~r~Non hai abbastanza spazio nel tuo inventario!</String>
+        <String xml:lang="de-DE">~r~Du hast nicht genügend Platz in deinem Inventar!</String>
+        <String xml:lang="pl-PL">~r~Brakuje ci miejsca w ekwipunku!</String>
+    </Entry>
+
+    <Entry Id="cant_purchase_that_amount">
+        <String xml:lang="en-US">~r~You can't purchase that amount more of this item!</String>
+        <String xml:lang="it-IT">~r~Non è possibile acquistare più tale quantità di questo oggetto!</String>
+        <String xml:lang="de-DE">~r~Du kannst nicht mehr so viel von diesem Artikel kaufen!</String>
+        <String xml:lang="pl-PL">~r~Nie możesz kupić tyle sztuk tego przedmiotu!</String>
+    </Entry>
+
+    <Entry Id="far_business_loc">
+        <String xml:lang="en-US">~r~You are too far from the business location!</String>
+        <String xml:lang="it-IT">~r~Sei troppo lontano dal luogo di attività!</String>
+        <String xml:lang="de-DE">~r~Du bist zu weit vom Geschäftspunkt entfernt!</String>
+        <String xml:lang="pl-PL">~r~Jesteś za daleko od lokacji biznesu!</String>
+    </Entry>
+
+    <Entry Id="cant_purchase_amount">
+        <String xml:lang="en-US">~r~You can't purchase {0} more of this item!</String>
+    </Entry>
+
+    <Entry Id="cant_hold_more_item">
+        <String xml:lang="en-US">You can't hold any more of this item!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -263,6 +313,18 @@
         <String xml:lang="es-ES">🛡️ ~b~GTA CnR Shield ~s~baneo {0} ({1}) por {2} por ~r~{3}~s~. Total de jugadores baneados: {4}</String>
         <String xml:lang="fr-FR">🛡️ ~b~GTA CnR Shield ~s~a banni {0} ({1}) pendant {2} pour ~r~{3}~s~. Total de joueurs bannis: {4}</String>
         <String xml:lang="de-DE">🛡️ ~b~GTA CnR Shield ~s~hat {0} ({1}) für {2} wegen ~r~{3}~s~gebannt. Insgesamt gebannte Spieler: {4}</String>
+    </Entry>
+
+    <Entry Id="vehicle_cannot_be_used">
+        <String xml:lang="en-US">That ~r~vehicle ~s~cannot be used in this server!</String>
+    </Entry>
+
+    <Entry Id="weapon_cannot_be_used">
+        <String xml:lang="en-US">That ~r~weapon ~s~cannot be used in this server!</String>
+    </Entry>
+
+    <Entry Id="weapon_can_only_be_used_by_police">
+        <String xml:lang="en-US">That ~r~weapon ~s~can only be used by the police!</String>
     </Entry>
 
 </Entries>

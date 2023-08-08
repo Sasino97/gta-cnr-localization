@@ -63,7 +63,7 @@
     <Entry Id="joined_robbery">
         <String xml:lang="en-US">{0} has ~g~joined ~s~the robbery.</String>
         <String xml:lang="it-IT"{0} si è ~g~unito ~s~alla rapina.></String>
-        <String xml:lang="nl-NL">{0} is de overval ~g~toegetreden~s~.</String>
+<String xml:lang="nl-NL">{0} is de overval ~g~toegetreden~s~.</String>
         <String xml:lang="de-DE">{0} ist dem Überfall ~g~beigetreten~s~.</String>
         <String xml:lang="tr-TR">{0} ~g~katıldı ~s~soyguna.</String>
         <String xml:lang="es-ES">{0} se ha ~g~unido ~s~al robo.</String>
@@ -98,46 +98,6 @@
         <String xml:lang="tr-TR">{0} ~r~terk edilmiş ~s~soygun.</String>
         <String xml:lang="es-ES">{0} ha ~r~abandonado ~s~el robo.</String>
         <String xml:lang="pl-PL">{0} ~r~porzucił ~s~napad.</String>
-    </Entry>
-
-    <Entry Id="player_cracking_safe">
-        <String xml:lang="en-US">{0} is cracking the ~b~safe~s~.</String>
-        <String xml:lang="it-IT">{0} sta scassinando la ~b~cassaforte~s~.</String>
-        <String xml:lang="nl-NL">{0} is de ~b~kluis~s~ aan het kraken.</String>
-        <String xml:lang="de-DE">{0} knackt den ~b~Safe~s~.</String>
-        <String xml:lang="tr-TR">{0} kırıyor ~b~kasayı~s~.</String>
-        <String xml:lang="es-ES">{0} está rompiendo la ~b~caja fuerte~s~.</String>
-        <String xml:lang="pl-PL">{0} rozpracowywuje ~b~sejf~s~.</String>
-    </Entry>
-
-    <Entry Id="player_successfully_cracking_safe">
-        <String xml:lang="en-US">{0} has ~g~successfully ~s~cracked the ~b~safe~s~.</String>
-        <String xml:lang="it-IT">{0} ha scassinato la ~b~cassaforte ~s~con ~g~successo~s~.</String>
-        <String xml:lang="nl-NL">{0} heeft ~b~met succes~s~ de ~b~kluis~s~ opengebroken.</String>
-        <String xml:lang="de-DE">{0} hat den ~b~Safe~s~ ~g~erfolgreich ~s~geknackt.</String>
-        <String xml:lang="tr-TR">{0} ~g~başarıyla ~s~kırdı ~b~kasayı~s~.</String>
-        <String xml:lang="es-ES">{0} ~g~ a abierto ~s~con éxito la ~b~caja fuerte~s~.</String>
-        <String xml:lang="pl-PL">{0} ~g~z powodzeniem ~s~rozpracował ~b~sejf~s~.</String>
-    </Entry>
-
-    <Entry Id="player_failed_cracking_safe">
-        <String xml:lang="en-US">{0} has ~r~failed ~s~to crack the ~b~safe~s~.</String>
-        <String xml:lang="it-IT">{0} ha ~r~fallito ~s~nel scassinare la ~b~cassaforte~s~.</String>
-        <String xml:lang="nl-NL">{0} is het ~r~niet gelukt~s~ om de ~b~kluis~s~ open te breken.</String>
-        <String xml:lang="de-DE">{0} hat es ~r~nicht geschafft~s~, den ~b~Safe~s~ zu knacken.</String>
-        <String xml:lang="tr-TR">{0} ~r~başarısız oldu ~s~kırarken ~b~kasayı~s~.</String>
-        <String xml:lang="es-ES">{0} ~r~no ha ~s~abierto la ~b~caja fuerte~s~.</String>
-        <String xml:lang="pl-PL">{0} ~r~niw udało się ~s~rozpracować ~b~sejfu~s~.</String>
-    </Entry>
-
-    <Entry Id="player_canceled_cracking_safe">
-        <String xml:lang="en-US">{0} ~r~canceled ~s~cracking the ~b~safe~s~.</String>
-        <String xml:lang="it-IT">{0} ha ~r~smesso ~s~di scassinare la ~b~cassaforte~s~.</String>
-        <String xml:lang="nl-NL">{0} heeft het kraken van de ~b~kluis ~r~afgebroken~s~.</String>
-        <String xml:lang="de-DE">{0} hat das Knacken des ~b~Safes~s~ ~r~abgebrochen~s~.</String>
-        <String xml:lang="tr-TR">{0} ~r~iptal edildi ~s~kırma ~b~kasayı~s~.</String>
-        <String xml:lang="es-ES">{0} ~r~canceló~s~ en abrir la ~b~caja fuerte~s~.</String>
-        <String xml:lang="pl-PL">{0} ~r~anulowano ~s~rozpracowywanie  ~b~sejfu~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -289,27 +249,6 @@
         <String xml:lang="it-IT">Puoi gestire le tue scorte di droga nel tuo ~b~Menu ~s~{0} > ~b~Menu Lavoro.</String>
         <String xml:lang="de-DE">Du kannst deine Vorräte in deinem {0} ~b~Menu ~s~> ~b~Job Menu verwalten.</String>
         <String xml:lang="pl-PL">Możesz zarządzać swoim towarem w swoim {0} ~b~Menu ~s~> ~b~Menu Pracy.</String>
-    </Entry>
-
-    <Entry Id="dealer_no_inventory_space">
-        <String xml:lang="en-US">~r~You don't have enough space in your inventory!</String>
-        <String xml:lang="it-IT">~r~Non hai abbastanza spazio nel tuo inventario!</String>
-        <String xml:lang="de-DE">~r~Du hast nicht genügend Platz in deinem Inventar!</String>
-        <String xml:lang="pl-PL">~r~Brakuje ci miejsca w ekwipunku!</String>
-    </Entry>
-
-    <Entry Id="dealer_cant_buy_amount">
-        <String xml:lang="en-US">~r~You can't purchase that amount more of this item!</String>
-        <String xml:lang="it-IT">~r~Non è possibile acquistare più tale quantità di questo oggetto!</String>
-        <String xml:lang="de-DE">~r~Du kannst nicht mehr so viel von diesem Artikel kaufen!</String>
-        <String xml:lang="pl-PL">~r~Nie możesz kupić tyle sztuk tego przedmiotu!</String>
-    </Entry>
-
-    <Entry Id="dealer_far_business_loc">
-        <String xml:lang="en-US">~r~You are too far from the business location!</String>
-        <String xml:lang="it-IT">~r~Sei troppo lontano dal luogo di attività!</String>
-        <String xml:lang="de-DE">~r~Du bist zu weit vom Geschäftspunkt entfernt!</String>
-        <String xml:lang="pl-PL">~r~Jesteś za daleko od lokacji biznesu!</String>
     </Entry>
 
     <Entry Id="dealer_have_to_be_dealer_to_purchase">
@@ -837,6 +776,228 @@
         <String xml:lang="es-ES">{0}{1} ({2}) ~s~ha encontrado el ~b~vehículo más buscado de hoy ~s~en ~y~{3}~s~. Valor: ~g~{4}~s~.</String>
         <String xml:lang="pl-PL">{0}{1} ({2}) ~s~znalazł dzisiejszy ~b~poszukiwany pojazd ~s~ w ~y~{3}~s~. Wartość: ~g~{4}~s~.</String>
         <String xml:lang="de-DE">{0}{1} ({2}) ~s~hat das meistgesuchte Fahrzeug von heute ~s~in ~y~{3}~s~ gefunden. Wert: ~g~{4}~s~.</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Criminals -->
+    <!-- ========================= -->
+    <!-- {0} = "~o~Felony" or "~r~Major felony" -->
+    <!-- {1} = Crime description (will get added as strings later)-->
+    <!-- You committed a Felony - Vehicle Theft -->
+    <!--                  {0}         {1}  -->
+    <Entry Id="committed_crime">
+        <String xml:lang="en-US">You committed a {0} ~s~- {1}</String>
+    </Entry>
+
+    <Entry Id="felony">
+        <String xml:lang="en-US">~o~Felony</String>
+    </Entry>
+
+    <Entry Id="major_felony">
+        <String xml:lang="en-US">~r~Major felony</String>
+    </Entry>
+
+    <Entry Id="crime_warrant_issued">
+        <String xml:lang="en-US">~o~Arrest warrant ~s~issued - leave the area and stay away from the ~b~cops~s~!</String>
+    </Entry>
+
+    <Entry Id="crime_most_wanted">
+        <String xml:lang="en-US">You are ~r~most wanted~s~ - other players can kill you on sight!</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Shop at stores -->
+    <!-- ========================= -->
+    <Entry Id="cannot_shop_gun_story_bounty">
+        <String xml:lang="en-US">You cannot shop at gun stores when you have a ~r~bounty~s~.</String>
+    </Entry>
+
+    <Entry Id="cannot_shop_store_on_duty">
+        <String xml:lang="en-US">You cannot shop at this store when you are ~b~on-duty~s~.</String>
+    </Entry>
+
+    <Entry Id="only_shop_police">
+        <String xml:lang="en-US">Only ~b~police officers ~s~can shop at this store.</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Shops -->
+    <!-- ========================= -->
+    <!-- Gun stores -->
+    <Entry Id="already_own_weapon">
+        <String xml:lang="en-US">~r~You already own this weapon!</String>
+    </Entry>
+
+    <Entry Id="already_own_attachment">
+        <String xml:lang="en-US">~r~You already own this attachment!</String>
+    </Entry>
+
+    <Entry Id="disclaimer_illegal_weapons_ammo">
+        <String xml:lang="en-US">~r~Illegal weapons and ammo ~s~can be confiscated by the ~b~police ~s~if they search you, however, weapon customizations will save.</String>
+    </Entry>
+
+    <Entry Id="disclaimer_illegal_weapons_ammo">
+        <String xml:lang="en-US">~r~Illegal weapons and ammo ~s~can be confiscated by the ~b~police ~s~if they search you, however, weapon customizations will save.</String>
+    </Entry>
+
+    <Entry Id="dont_have_required_level_item">
+        <String xml:lang="en-US">~r~You don't have the required level to buy this item!</String>
+    </Entry>
+
+    <Entry Id="item_requires_membership">
+        <String xml:lang="en-US">~r~This item requires a premium membership subscription!</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Robberies -->
+    <!-- ========================= -->
+    <Entry Id="public_officer_cant_rob">
+        <String xml:lang="en-US">~r~Public officers can't shoplift!</String>
+    </Entry>
+
+    <Entry Id="cannot_rob_same_store_twice">
+        <String xml:lang="en-US">You ~r~cannot rob ~s~the same ~y~store ~s~twice in a row.</String>
+    </Entry>
+
+    <Entry Id="business_cannot_be_robbed_yet">
+        <String xml:lang="en-US">This business ~r~cannot be robbed ~s~yet. This robbery is coming in a ~b~future update~s~.</String>
+    </Entry>
+
+    <Entry Id="business_cannot_be_robbed">
+        <String xml:lang="en-US">This business ~r~cannot be robbed~s~.</String>
+    </Entry>
+
+    <Entry Id="business_recently_robbed">
+        <String xml:lang="en-US">This business has been ~r~recently ~s~robbed. Try again later.</String>
+    </Entry>
+
+    <!-- {0} = Required cops to rob business -->
+    <Entry Id="business_recently_robbed">
+        <String xml:lang="en-US">You can't rob this ~r~business ~s~when there are less than ~b~{0} cops ~s~online.</String>
+    </Entry>
+
+    <!-- {0} = Location -->
+    <!-- {1} = Amount -->
+    <Entry Id="robbery_complete_cut">
+        <String xml:lang="en-US">~b~Robbery complete! ~s~You have successfully robbed ~y~{0}~s~. Your cut is ~g~{1}~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_complete">
+        <String xml:lang="en-US">~b~Robbery complete! ~s~You have successfully robbed ~y~{0} ~s~and earned ~g~{1}~s~!</String>
+    </Entry>
+
+    <Entry Id="robbery_fail_clerk_killed">
+        <String xml:lang="en-US">~r~Robbery failed! Killing the clerk was not in the plan!</String>
+    </Entry>
+
+    <Entry Id="robbery_fail_clerk_not_intimidated">
+        <String xml:lang="en-US">~r~Robbery failed! The clerk is no longer intimidated.</String>
+    </Entry>
+
+    <Entry Id="robbery_fail_clerk_not_intimidated">
+        <String xml:lang="en-US">~r~Robbery failed! The clerk is no longer intimidated.</String>
+    </Entry>
+
+    <Entry Id="robbery_shots_called_police">
+        <String xml:lang="en-US">Someone heard shots and called the ~r~police~s~!</String>
+    </Entry>
+
+    <!-- {0} = Player name -->
+    <Entry Id="robbery_player_spotted">
+        <String xml:lang="en-US">{0} has spotted the robbery!</String>
+    </Entry>
+
+    <Entry Id="robbery_player_called_police">
+        <String xml:lang="en-US">{0} has called the ~r~police ~s~on you!</String>
+    </Entry>
+
+    <!-- {0} = Cooldown -->
+    <Entry Id="robbery_caught_shoplifting">
+        <String xml:lang="en-US">You have been caught ~r~shoplifting ~s~here. Come back in ~y~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_caught_shoplifting_cant_buy">
+        <String xml:lang="en-US">You have been caught ~r~shoplifting ~s~here. You can't purchase items from this store for ~y~{0} seconds~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_caught_shoplifting_reported_police">
+        <String xml:lang="en-US">~r~Your shoplifting attempt has been spotted! You have been reported to the police.</String>
+    </Entry>
+
+    <Entry Id="robbery_caught_shoplifting_wait">
+        <String xml:lang="en-US">~r~You need to wait before shoplifting this store again!</String>
+    </Entry>
+
+    <Entry Id="robbery_steal_weapon">
+        <String xml:lang="en-US">~r~You can't steal a weapon!</String>
+    </Entry>
+
+    <Entry Id="robbery_steal_weapon_attachment">
+        <String xml:lang="en-US">~r~You can't steal a weapon attachment!</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Safes -->
+    <!-- ========================= -->
+
+    <Entry Id="robbery_player_cracking_safe">
+        <String xml:lang="en-US">{0} is cracking the ~b~safe~s~.</String>
+        <String xml:lang="it-IT">{0} sta scassinando la ~b~cassaforte~s~.</String>
+        <String xml:lang="nl-NL">{0} is de ~b~kluis~s~ aan het kraken.</String>
+        <String xml:lang="de-DE">{0} knackt den ~b~Safe~s~.</String>
+        <String xml:lang="tr-TR">{0} kırıyor ~b~kasayı~s~.</String>
+        <String xml:lang="es-ES">{0} está rompiendo la ~b~caja fuerte~s~.</String>
+        <String xml:lang="pl-PL">{0} rozpracowywuje ~b~sejf~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_player_successfully_cracking_safe">
+        <String xml:lang="en-US">{0} has ~g~successfully ~s~cracked the ~b~safe~s~.</String>
+        <String xml:lang="it-IT">{0} ha scassinato la ~b~cassaforte ~s~con ~g~successo~s~.</String>
+        <String xml:lang="nl-NL">{0} heeft ~b~met succes~s~ de ~b~kluis~s~ opengebroken.</String>
+        <String xml:lang="de-DE">{0} hat den ~b~Safe~s~ ~g~erfolgreich ~s~geknackt.</String>
+        <String xml:lang="tr-TR">{0} ~g~başarıyla ~s~kırdı ~b~kasayı~s~.</String>
+        <String xml:lang="es-ES">{0} ~g~ a abierto ~s~con éxito la ~b~caja fuerte~s~.</String>
+        <String xml:lang="pl-PL">{0} ~g~z powodzeniem ~s~rozpracował ~b~sejf~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_player_failed_cracking_safe">
+        <String xml:lang="en-US">{0} has ~r~failed ~s~to crack the ~b~safe~s~.</String>
+        <String xml:lang="it-IT">{0} ha ~r~fallito ~s~nel scassinare la ~b~cassaforte~s~.</String>
+        <String xml:lang="nl-NL">{0} is het ~r~niet gelukt~s~ om de ~b~kluis~s~ open te breken.</String>
+        <String xml:lang="de-DE">{0} hat es ~r~nicht geschafft~s~, den ~b~Safe~s~ zu knacken.</String>
+        <String xml:lang="tr-TR">{0} ~r~başarısız oldu ~s~kırarken ~b~kasayı~s~.</String>
+        <String xml:lang="es-ES">{0} ~r~no ha ~s~abierto la ~b~caja fuerte~s~.</String>
+        <String xml:lang="pl-PL">{0} ~r~niw udało się ~s~rozpracować ~b~sejfu~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_player_canceled_cracking_safe">
+        <String xml:lang="en-US">{0} ~r~canceled ~s~cracking the ~b~safe~s~.</String>
+        <String xml:lang="it-IT">{0} ha ~r~smesso ~s~di scassinare la ~b~cassaforte~s~.</String>
+        <String xml:lang="nl-NL">{0} heeft het kraken van de ~b~kluis ~r~afgebroken~s~.</String>
+        <String xml:lang="de-DE">{0} hat das Knacken des ~b~Safes~s~ ~r~abgebrochen~s~.</String>
+        <String xml:lang="tr-TR">{0} ~r~iptal edildi ~s~kırma ~b~kasayı~s~.</String>
+        <String xml:lang="es-ES">{0} ~r~canceló~s~ en abrir la ~b~caja fuerte~s~.</String>
+        <String xml:lang="pl-PL">{0} ~r~anulowano ~s~rozpracowywanie  ~b~sejfu~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_cracked_safe">
+        <String xml:lang="en-US">You ~g~successfully ~s~cracked the safe!</String>
+    </Entry>
+
+    <Entry Id="robbery_extra_security_safe">
+        <String xml:lang="en-US">This safe has extra security and you ~r~failed ~s~to crack it!</String>
+    </Entry>
+
+    <Entry Id="robbery_canceled_safe">
+        <String xml:lang="en-US">You ~r~canceled ~s~the safe robbery!</String>
+    </Entry>
+
+    <Entry Id="robbery_canceled_safe">
+        <String xml:lang="en-US">You ~r~canceled ~s~the safe robbery!</String>
+    </Entry>
+
+    <Entry Id="robbery_cracking_safe">
+        <String xml:lang="en-US">You are cracking the ~b~safe~s~.</String>
     </Entry>
 
 </Entries>
