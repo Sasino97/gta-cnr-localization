@@ -65,7 +65,7 @@
 
     <Entry Id="joined_robbery">
         <String xml:lang="en-US">{0} has ~g~joined ~s~the robbery.</String>
-        <String xml:lang="it-IT"{0} si è ~g~unito ~s~alla rapina.></String>
+        <String xml:lang="it-IT">{0} si è ~g~unito ~s~alla rapina.</String>
         <String xml:lang="nl-NL">{0} is de overval ~g~toegetreden~s~.</String>
         <String xml:lang="de-DE">{0} ist dem Überfall ~g~beigetreten~s~.</String>
         <String xml:lang="tr-TR">{0} ~g~katıldı ~s~soyguna.</String>
@@ -134,7 +134,7 @@
         <String xml:lang="pl-PL">Sprzedałeś ~p~{0}g ~s~ ~r~{1} ~s~botowi za ~g~{2}~s~.</String>
     </Entry>
 
-    <Entry Id="drug_sell_npc">
+    <Entry Id="drug_buy_from_npc">
         <String xml:lang="en-US">You purchased ~p~{0}g ~s~of ~p~{1} ~s~for ~r~{2}</String>
         <String xml:lang="it-IT">Hai comprato ~p~{0}g ~s~di ~p~{1} ~s~per ~r~{2}</String>
         <String xml:lang="nl-NL">Je hebt ~p~{0}g ~s~van ~p~{1} ~s~ gekocht voor ~r~{2}</String>
@@ -387,7 +387,7 @@
     </Entry>
 
     <!-- {0} = Hotkey -->
-    <Entry Id="mechanic_cant_impound_vehicle">
+    <Entry Id="mechanic_drop_off_instructions">
         <String xml:lang="en-US">Hold {0} to drop the ~r~vehicle ~s~off.</String>
         <String xml:lang="it-IT">Tieni premuto {0} per lasciare il ~r~veicolo~s~.</String>
         <String xml:lang="de-DE">Halte {0} um das ~r~Fahrzeug ~s~abzukoppeln.</String>
@@ -716,8 +716,8 @@
         <String xml:lang="pl-PL">~y~(C)Przypomnienie:(/C) ~s~możesz tylko strzelać do ~r~najbardziej poszukiwanych ~s~oraz groźnych ~o~kryminalistów~s~.</String>
     </Entry>
 
-    <!-- {0} = Player ({0} could be: "254 LMG Rounds, 155 SMG Incendiary Rounds, 3g Cocaine, 3 ATM Hacking Device, 1 Machine Gun, 1 Gusenberg Sweeper, 1 AP Pistol")-->
-    <!-- {1} = Vehicle name -->
+    <!-- {0} = Player -->
+    <!-- {1} = Items (example: "254 LMG Rounds, 155 SMG Incendiary Rounds, 3g Cocaine, 3 ATM Hacking Device, 1 Machine Gun, 1 Gusenberg Sweeper, 1 AP Pistol") -->
     <Entry Id="police_confiscate_weapon">
         <String xml:lang="en-US">Officer {0} has ~r~confiscated ~s~{1} ~s~from you.</String>
         <String xml:lang="it-IT">L'agente {0} ti ha ~r~confiscato ~s~{1}~s~.</String>
@@ -733,7 +733,7 @@
         <String xml:lang="it-IT">L'agente ~b~(C){0} ({1})(/C) ~s~ha risposto alla chiamata.</String>
         <String xml:lang="es-ES">El policia ~b~(C){0} ({1})(/C) ~s~ha respondido a la llamada.</String>
         <String xml:lang="pl-PL">Oficer ~p~(C){0} ({1})(/C) ~s~odpowiedział na zawołanie.</String>
-        <String xml:lang="pl-PL">Der Polizist ~p~ (C){0} ({1})(/C)~s~ hat den Anruf angenommen.</String>
+        <String xml:lang="de-DE">Der Polizist ~p~ (C){0} ({1})(/C)~s~ hat den Anruf angenommen.</String>
     </Entry>
 
     <!-- {0} = Officers' name -->
@@ -934,7 +934,7 @@
     </Entry>
 
     <!-- {0} = Required cops to rob business -->
-    <Entry Id="business_recently_robbed">
+    <Entry Id="business_not_enough_cops">
         <String xml:lang="en-US">You can't rob this ~r~business ~s~when there are less than ~b~{0} cops ~s~online.</String>
         <String xml:lang="de-DE">Du kannst dieses ~r~Geschäft~s~ nicht ausrauben, wenn weniger als ~b~{0} Polizisten ~s~online sind. </String>
         <String xml:lang="es-ES">No puedes robar este ~r~negocio ~s~cuando hay menos de ~b~{0} policías ~s~en línea.</String>
@@ -945,7 +945,6 @@
     <Entry Id="robbery_complete_cut">
         <String xml:lang="en-US">~b~Robbery complete! ~s~You have successfully robbed ~y~{0}~s~. Your cut is ~g~{1}~s~.</String>
         <String xml:lang="de-DE">~b~Überfall abgeschlossen! ~s~Du hast erfolgreich ~y~{0}~s~ausgeraubt. Dein Anteil beträgt ~g~{1}~s~.</String>
-        <String xml:lang="es-ES">AAAAA</String>
     </Entry>
 
     <Entry Id="robbery_complete">
