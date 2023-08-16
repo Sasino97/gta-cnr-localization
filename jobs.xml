@@ -39,16 +39,19 @@
     <Entry Id="jobs_cant_change_inside_vehicle">
         <String xml:lang="en-US">~r~You cannot change your job while you're in a vehicle.</String>
         <String xml:lang="it-IT">~r~Non puoi cambiare lavoro mentre sei in un veicolo.</String>
+        <String xml:lang="es-ES">~r~No puedes cambiar de trabajo mientras estás en un vehículo.</String>
     </Entry>
 
     <Entry Id="jobs_cant_become_when_wanted">
         <String xml:lang="en-US">You cannot become a ~p~{0} ~s~when you are ~o~wanted~s~.</String>
         <String xml:lang="it-IT">Non puoi diventare un ~p~{0} ~s~quando sei ~o~ricercato~s~.</String>
+        <String xml:lang="es-ES">No puedes convertirte en un ~p~{0} ~s~cuando estas ~o~en busqueda.~s~.</String>
     </Entry>
 
     <Entry Id="jobs_temp_banned">
         <String xml:lang="en-US">You are temporarily ~r~banned ~s~from the ~p~{0} ~s~job.</String>
         <String xml:lang="it-IT">Sei temporaneamente ~r~bannato ~s~dal lavoro di ~p~{0}.</String>
+        <String xml:lang="es-ES">Está ~r~baneado temporalmente ~s~del trabajo ~p~{0} ~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -716,43 +719,51 @@
     <Entry Id="paramedic_crossteam_warn">
         <String xml:lang="en-US">You can't heal ~o~criminals ~s~when they're involved in a ~r~shooting ~s~with the ~b~police~s~, as it is considered ~r~cross-teaming~s~.</String>
         <String xml:lang="it-IT">Non puoi curare ~o~criminali ~s~mentre sono coinvolti in una ~r~sparatoria ~s~contro la ~b~polizia~s~, poiché è considerato ~r~cross-teaming~s~.</String>
+        <String xml:lang="es-ES">No puedes curar ~o~criminales ~s~ cuando están involucrados en un ~r~tiroteo ~s~con la ~b~policía~s~, ya que se considera ~r~cross-teaming~s~.</String>
     </Entry>
 
     <!-- {0} = Player Name -->
     <Entry Id="paramedic_heal_player">
         <String xml:lang="en-US">You ~p~healed ~s~{0}.</String>
         <String xml:lang="it-IT">Hai ~p~curato ~s~{0}.</String>
+        <String xml:lang="es-ES">Tú ~p~curaste a ~s~{0}.</String>
     </Entry>
 
     <!-- {0} = Counter -->
     <Entry Id="paramedic_heal_player">
         <String xml:lang="en-US">You ~p~healed ~s~{0} players.</String>
         <String xml:lang="it-IT">Hai ~p~curato ~s~{0} giocatori.</String>
+        <String xml:lang="es-ES">Tú~p~curaste a ~s~{0} jugadores.</String>
     </Entry>
 
     <Entry Id="too_far_from_hospital">
         <String xml:lang="en-US">~r~You are too far from the hospital!</String>
         <String xml:lang="it-IT">~r~Sei troppo lontano dall'ospedale!</String>
+        <String xml:lang="es-ES">~r~¡Estás demasiado lejos del hospital!</String>
     </Entry>
 
     <Entry Id="received_med_treatment">
         <String xml:lang="en-US">You have received ~p~medical treatment ~s~at the hospital.</String>
         <String xml:lang="it-IT">Hai ricevuto un ~p~trattamento medico ~s~all'ospedale.</String>
+        <String xml:lang="es-ES">Has recibido un ~p~tratamiento médico ~s~en el hospital.</String>
     </Entry>
 
     <Entry Id="plastic_surgery_downtown">
         <String xml:lang="en-US">Please go to ~b~Pillbox Hill Medical Center ~s~(Downtown Los Santos) for plastic surgery.</String>
         <String xml:lang="it-IT">Per favore, vai al ~b~Pillbox Hill Medical Center ~s~(Downtown Los Santos) per la chirurgia plastica.</String>
+        <String xml:lang="es-ES">Diríjete al ~b~Centro Médico Pillbox Hill ~s~(Centro de Los Santos) para someterse a una cirugía plástica.</String>
     </Entry>
 
     <Entry Id="paramedic_wanted_come_back_later">
         <String xml:lang="en-US">You are ~o~wanted ~s~by the police! Please, come back later.</String>
         <String xml:lang="it-IT">Sei ~o~ricercato ~s~dalla polizia! Per favore, torna più tardi.</String>
+        <String xml:lang="es-ES">Estas ~o~en busqueda ~s~ por la policía! Por favor regresa más tarde.</String>
     </Entry>
 
     <Entry Id="paramedic_active_shootout_cant_revive">
         <String xml:lang="en-US">There's an active ~r~shooting~s~! You can't revive ~o~wanted suspects ~s~now.</String>
         <String xml:lang="it-IT">È in croso una ~r~sparatoria~s~! Non puoi rianimare gli ~o~sospettati ~s~ora.</String>
+        <String xml:lang="es-ES">¡Hay un ~r~tiroteo~s~ activo! No puedes revivir ~o~sospechosos en busqueda ~s~ahora.</String>
     </Entry>
 
     <!-- {0} = Player name -->
@@ -760,6 +771,7 @@
     <Entry Id="paramedic_player_revived">
         <String xml:lang="en-US">You ~p~revived ~s~{0}!{1}</String>
         <String xml:lang="it-IT">Hai ~p~rianimato ~s~{0}!{1}</String>
+        <String xml:lang="es-ES">Tú~p~reviviste ~s~{0}!{1}</String>
     </Entry>
 
     <!-- ========================= -->
@@ -865,6 +877,7 @@
     <Entry Id="player_called_911">
         <String xml:lang="en-US">{0} ~s~called 911 in ~y~{1}</String>
         <String xml:lang="it-IT">{0} ~s~ha chiamato il 911 in ~y~{1}</String>
+        <String xml:lang="es-ES">{0} ~s~llamó al 911 en ~y~{1}</String>
     </Entry>
 
     <!-- {0} = Officers' name -->
@@ -872,282 +885,341 @@
     <Entry Id="police_officer_holding_in_custody">
         <String xml:lang="en-US">Officer {0} is already holding {1} in custody.</String>
         <String xml:lang="it-IT">L'agente {0} ha già in custodia {1}.</String>
+        <String xml:lang="es-ES">El oficial {0} ya tiene a {1} bajo custodia.</String>
     </Entry>
 
     <Entry Id="police_already_in_custody">
         <String xml:lang="en-US">~o~{0} ~s~is already in police custody.</String>
+        <String xml:lang="es-ES">~o~{0} ~s~ya está bajo custodia policial.</String>
     </Entry>
 
     <Entry Id="police_not_in_custody">
         <String xml:lang="en-US">{0} ~r~is not in custody!</String>
         <String xml:lang="it-IT">{0} ~r~non è in custodia!</String>
+        <String xml:lang="es-ES">¡{0} ~r~no está bajo custodia!</String>
     </Entry>
 
     <Entry Id="police_holding_you_in_custody">
         <String xml:lang="en-US">Officer ~b~{0} ~s~is now holding you in custody.</String>
         <String xml:lang="it-IT">L'agente ~b~{0} ~s~adesso ti sta tenendo in custodia.</String>
+        <String xml:lang="es-ES">El oficial ~b~{0} ~s~ahora te tiene bajo custodia.</String>
     </Entry>
 
     <Entry Id="police_suspect_arrested_by_other">
         <String xml:lang="en-US">~r~This suspect is being arrested by another police officer.</String>
         <String xml:lang="it-IT">~r~Questo sospettato sta per essere arrestato da un altro agente di polizia.</String>
+        <String xml:lang="es-ES">~r~Este sospechoso está siendo arrestado por otro oficial de policía.</String>
     </Entry>
 
     <Entry Id="police_suspect_already_following_other">
         <String xml:lang="en-US">The ~o~suspect ~s~is already following another officer.</String>
         <String xml:lang="it-IT">Il ~o~sospettato ~s~sta già seguendo un altro agente.</String>
+        <String xml:lang="es-ES">El ~o~sospechoso ~s~ ya está siguiendo a otro oficial de policia.</String>
     </Entry>
 
     <Entry Id="police_suspect_following_other">
         <String xml:lang="en-US">The ~o~suspect ~s~is following another officer.</String>
         <String xml:lang="it-IT">Il ~o~sospettato ~s~sta seguendo un altro agente.</String>
+        <String xml:lang="es-ES">El ~o~sospechoso ~s~ está siguiendo a otro oficial de policia.</String>
     </Entry>
 
     <Entry Id="police_cuffing_you">
         <String xml:lang="en-US">Officer {0} is cuffing you.{1}</String>
         <String xml:lang="it-IT">L'agente {0} ti sta ammanettando.{1}</String>
+        <String xml:lang="es-ES">El oficial {0} te está esposando. {1}</String>
     </Entry>
 
     <Entry Id="police_cuffed_you">
         <String xml:lang="en-US">Officer {0} has cuffed you.</String>
         <String xml:lang="it-IT">L'agente {0} ti ha ammanettato.</String>
+        <String xml:lang="es-ES">El oficial {0} te ha esposado.</String>
     </Entry>
 
     <Entry Id="police_failed_to_cuff_you">
         <String xml:lang="en-US">Officer {0} has failed to cuff you.</String>
         <String xml:lang="it-IT">L'agente {0} non è riuscito ad ammanettarti.</String>
+        <String xml:lang="es-ES">El oficial {0} no ha podido esposarte.</String>
     </Entry>
 
     <Entry Id="police_uncuffing_you">
         <String xml:lang="en-US">Officer {0} ~s~is uncuffing you.</String>
         <String xml:lang="it-IT">L'agente {0} ~s~ti sta togliendo le manette.</String>
+        <String xml:lang="es-ES">El oficial {0} ~s~te está quitando las esposas.</String>
     </Entry>
 
     <Entry Id="police_uncuffed_you">
         <String xml:lang="en-US">Officer {0} ~s~uncuffed you.</String>
         <String xml:lang="it-IT">L'agente {0} ~s~ti ha tolto le manette.</String>
+        <String xml:lang="es-ES">El oficial {0} ~s~te quito las esposas.</String>
     </Entry>
 
     <Entry Id="police_ordered_you_get_vehicle">
         <String xml:lang="en-US">The ~b~police officers ~s~ordered you to get in the ~b~vehicle~s~.</String>
         <String xml:lang="it-IT">Gli ~b~agenti di polizia ~s~ti hanno ordinato di salire nel ~b~veicolo~s~.</String>uncuffing
+        <String xml:lang="es-ES">Los ~b~policías ~s~te ordenaron que te subieras en el ~b~vehículos~.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_you_get_vehicle">
         <String xml:lang="en-US">~b~Officer {0} ~s~ordered you to get in the ~b~vehicle~s~!</String>
         <String xml:lang="it-IT">L'~b~agente {0} ~s~ti ha ordinato di salire nel ~b~veicolo~b~!</String>
+        <String xml:lang="es-ES">¡~b~El oficial {0} ~s~te ordenó que te subieras al ~b~vehículo~s~!</String>
     </Entry>
 
     <Entry Id="police_you_ordered_suspect_get_vehicle">
         <String xml:lang="en-US">You ordered ~o~{0} ~s~to enter your ~b~vehicle~s~.</String>
         <String xml:lang="it-IT">Hai ordinato a ~o~{0} ~s~di entrare nel tuo ~b~veicolo~s~.</String>
+        <String xml:lang="es-ES">Tu ordenaste a ~o~{0} ~s~ entrar en tu ~b~vehículo~s~.</String>
     </Entry>
 
     <Entry Id="police_you_ordered_suspect_exit_vehicle">
         <String xml:lang="en-US">You ordered ~o~{targetName} ({targetServerId}) ~s~to exit the vehicle.</String>
+        <String xml:lang="es-ES">Tú ordenaste a ~o~{targetName} ({targetServerId}) ~s~que saliera del vehículo.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_you_exit_vehicle">
         <String xml:lang="en-US">~b~Officer {0} ~s~ordered you to exit the ~b~vehicle~s~.</String>
         <String xml:lang="it-IT">L'~b~agente {0} ~s~ti ha ordinato di uscire dal ~b~veicolo~s~.</String>
+        <String xml:lang="es-ES">~b~El oficial {0} ~s~te ordenó que salieras del ~b~vehículo~s~.</String>
     </Entry>
 
     <Entry Id="police_suspect_in_vehicle">
         <String xml:lang="en-US">The ~o~suspect ~s~is already in a vehicle.</String>
         <String xml:lang="it-IT">Il ~o~sospettato ~s~è già in un veicolo.</String>
+        <String xml:lang="es-ES">El ~o~sospechoso ~s~ya está en un vehículo.</String>
     </Entry>
 
     <Entry Id="police_suspect_not_in_vehicle">
         <String xml:lang="en-US">The ~o~suspect ~s~is not in a vehicle.</String>
+        <String xml:lang="es-ES">El ~o~sospechoso ~s~no está en un vehículo.</String>
     </Entry>
 
     <!-- {0} = Player's name -->
     <!-- {1} = Action (Freeze, ...) -->
     <Entry Id="police_asked_to_action">
         <String xml:lang="en-US">You asked ~o~{0} ~s~to ~b~{1}!</String>
+        <String xml:lang="es-ES">¡Le preguntaste a ~o~{0} ~s~que ~b~{1}!</String>
     </Entry>
 
     <!-- {0} = Officer's name -->
     <!-- {1} = Action (Freeze, ...) -->
     <Entry Id="police_asked_to_action_officer">
         <String xml:lang="en-US">Officer ~b~{0} ~s~asked you to ~r~{1}!</String>
+        <String xml:lang="es-ES">El oficial ~b~{0} ~s~te pidió que ~r~{1}!</String>
     </Entry>
 
     <Entry Id="police_player_surrender_warn">
         <String xml:lang="en-US">{0} ~s~surrenders! ~r~Do not shoot.</String>
+        <String xml:lang="es-ES">¡{0} ~s~ se rinde! ~r~No dispares.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_follow">
         <String xml:lang="en-US">~b~Officer {0} ~s~ordered you to follow them.</String>
         <String xml:lang="it-IT">L'~b~agente {0} ~s~ti ha ordinato di seguirlo.</String>
+        <String xml:lang="es-ES">~b~El oficial {0} ~s~te ordenó que le siguieras.</String>
     </Entry>
 
     <Entry Id="police_dont_have_police_vehicle">
         <String xml:lang="en-US">You don't have a ~b~police vehicle~s~.</String>
         <String xml:lang="it-IT">Non hai un ~b~veicolo della polizia~s~.</String>
+        <String xml:lang="es-ES">No tienes un ~b~vehículo policial~s~.</String>
     </Entry>
 
     <Entry Id="police_need_police_vehicle_to_transport">
         <String xml:lang="en-US">You need a ~p~police vehicle ~s~to transport a suspect to jail.</String>
         <String xml:lang="it-IT">Hai bisogno di un ~p~veicolo della polizia ~s~per trasportare un sospettato in prigione.</String>
+        <String xml:lang="es-ES">Necesitas un ~p~vehículo policial ~s~para transportar a un sospechoso a la cárcel.</String>
     </Entry>
 
     <Entry Id="police_need_police_vehicle_with_rearseat_to_transport">
         <String xml:lang="en-US">You need a ~p~vehicle ~s~with rear seats to transport a suspect.</String>
         <String xml:lang="it-IT">Hai bisogno di un ~p~veicolo ~s~con posti posteriori per trasportare un sospettato.</String>
+        <String xml:lang="es-ES">Necesita un ~p~vehículo ~s~con asientos traseros para transportar a un sospechoso.</String>
     </Entry>
 
     <Entry Id="police_need_police_vehicle_with_backseat_occupied">
         <String xml:lang="en-US">Your ~b~vehicle's back seat ~s~is occupied.</String>
         <String xml:lang="it-IT">Il ~b~posto posteriore ~s~del tuo ~b~veicolo ~s~è occupato.</String>
+        <String xml:lang="es-ES">El asiento trasero de su ~b~vehículo ~s~está ocupado.</String>
     </Entry>
 
     <Entry Id="police_vehicle_too_far">
         <String xml:lang="en-US">Your ~b~vehicle ~s~is ~r~too far~s~.</String>
         <String xml:lang="it-IT">Il tuo ~b~veicolo ~s~è ~r~troppo lontano~s~.</String>
+        <String xml:lang="es-ES">Tu ~b~vehículo ~s~está ~r~demasiado lejos~s~.</String>
     </Entry>
 
     <Entry Id="police_you_officer_ordered_follow">
         <String xml:lang="en-US">You ordered ~o~{0} ~s~to follow you.</String>
         <String xml:lang="it-IT">Hai ordinato a ~o~{0} ~s~di seguirti.</String>
+        <String xml:lang="es-ES">Tu ordenaste a ~o~{0} ~s~ que te siguiera.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_stop_follow">
         <String xml:lang="en-US">~b~Officer {0} ~s~ordered you to stop following.</String>
         <String xml:lang="it-IT">L'~b~agente {0} ~s~ti ha ordinato di smettere di seguirlo.</String>
+        <String xml:lang="es-ES">~b~El oficial {0} ~s~te ordenó que dejara de seguir.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_you_stop_follow">
         <String xml:lang="en-US">You ordered ~o~{0} ~s~to stop following you.</String>
         <String xml:lang="it-IT">Hai ordinato a ~o~{0} ~s~di smettere di seguirti.</String>
+        <String xml:lang="es-ES">Tu ordenaste a ~o~{0} ~s~ que te dejara de seguir.</String>
     </Entry>
 
     <Entry Id="police_called_transport_unit_for_you">
         <String xml:lang="en-US">Officer {0} called a transport unit for you.</String>
         <String xml:lang="it-IT">L'agente {0} ha chiamato un'unità di trasporto per te.</String>
+        <String xml:lang="es-ES">El oficial {0} llamó a una unidad de transporte para ti.</String>
     </Entry>
 
     <Entry Id="police_not_watching_lockpick">
         <String xml:lang="en-US">The ~b~cops ~s~are not watching you, it's time to go! Use a ~y~lockpick ~s~to unlock your handcuffs.</String>
         <String xml:lang="it-IT">Gli ~b~agenti ~s~non ti stanno guardando, è il momento di andare! Usa un ~y~grimaldello ~s~per toglierti le manette.</String>
+        <String xml:lang="es-ES">Los ~b~policías ~s~ no te están mirando, ¡es hora de irte! Usa una ~y~ganzúa ~s~para desbloquear las esposas.</String>
     </Entry>
 
     <Entry Id="police_suspect_in_vehicle">
         <String xml:lang="en-US">The ~o~suspect ~s~is in a vehicle.</String>
         <String xml:lang="it-IT">Il ~o~sospettato ~s~è in un veicolo.</String>
+        <String xml:lang="es-ES">El ~o~sospechoso ~s~está en un vehículo.</String>
     </Entry>
 
     <Entry Id="police_suspect_too_far">
         <String xml:lang="en-US">The ~o~suspect ~s~is ~r~too far~s~.</String>
         <String xml:lang="it-IT">Il ~o~sospettato ~s~è ~r~troppo lontalo~s~.</String>
+        <String xml:lang="es-ES">El ~o~sospechoso ~s~está ~r~demasiado lejos~s~.</String>
     </Entry>
 
     <Entry Id="police_suspect_not_cuffed">
         <String xml:lang="en-US">~r~The suspect is not cuffed.</String>
         <String xml:lang="it-IT">~r~Il sospettato non è ammanettato.</String>
+        <String xml:lang="es-ES">~r~El sospechoso no está esposado.</String>
     </Entry>
 
     <Entry Id="police_called_transport_unit">
         <String xml:lang="en-US">~r~A transport unit has been called for the suspect.</String>
         <String xml:lang="it-IT">~r~È stata chiamata un'unità di trasporto per il sospettato.</String>
+        <String xml:lang="es-ES">~r~Se ha llamado a una unidad de transporte para el sospechoso.</String>
     </Entry>
 
     <Entry Id="police_already_way_transport_unit">
         <String xml:lang="en-US">~r~A transport unit for this suspect is already on the way!</String>
+        <String xml:lang="es-ES">~r~¡Ya está en camino una unidad de transporte para este sospechoso!</String>
     </Entry>
 
     <Entry Id="police_request_transport_unit">
         <String xml:lang="en-US">You requested a ~b~transport unit ~s~for the suspect!</String>
+        <String xml:lang="es-ES">Tu has solicitado una ~b~unidad de transporte ~s~ para el sospechoso!</String>
     </Entry>
 
     <Entry Id="police_cant_transport_suspect_not_custody">
         <String xml:lang="en-US">The ~b~transport unit ~s~can't transport a ~o~suspect~s~ that's not in custody.</String>
+        <String xml:lang="es-ES">La ~b~unidad de transporte ~s~no puede transportar a un ~o~sospechoso~s~ que no esté bajo custodia.</String>
     </Entry>
 
     <Entry Id="police_transport_unit_couldnt_find_suspect">
         <String xml:lang="en-US">The ~b~transport unit ~s~couldn't find the suspect.</String>
+        <String xml:lang="es-ES">La ~b~unidad de transporte ~s~no pudo encontrar al sospechoso.</String>
     </Entry>
 
     <Entry Id="police_cant_transport_injured_suspect_not_custody">
         <String xml:lang="en-US">The ~b~transport unit ~s~can't transport an injured ~o~suspect.</String>
+        <String xml:lang="es-ES">La ~b~unidad de transporte ~s~no puede transportar a un ~o~sospechoso herido.</String>
     </Entry>
 
     <!-- {0} = Player -->
     <Entry Id="police_searching_suspect">
         <String xml:lang="en-US">You are searching {0}~s~.</String>
         <String xml:lang="it-IT">Stai perquisendo {0}~s~.</String>
+        <String xml:lang="es-ES">Estás buscando a {0}~s~.</String>
     </Entry>
 
     <Entry Id="police_cuffing_suspect">
         <String xml:lang="en-US">You are cuffing {0}</String>
+        <String xml:lang="es-ES">Estás esposando a {0}</String>
     </Entry>
 
     <Entry Id="police_cuffed_suspect">
         <String xml:lang="en-US">You have cuffed {0}</String>
+        <String xml:lang="es-ES">Has esposado a {0}</String>
     </Entry>
 
     <Entry Id="police_already_cuffed_suspect">
         <String xml:lang="en-US">{0} was already cuffed.</String>
+        <String xml:lang="es-ES">AAAA</String>
     </Entry>
 
     <Entry Id="police_already_cuffed_suspect">
         <String xml:lang="en-US">{0} was already cuffed.</String>
+        <String xml:lang="es-ES">{0} ya estaba esposado.</String>
     </Entry>
 
     <Entry Id="police_uncuffing_player">
         <String xml:lang="en-US">You are uncuffing {0}</String>
+        <String xml:lang="es-ES">Estás quitando las esposas a {0}</String>
     </Entry>
 
     <Entry Id="police_uncuffed_suspect">
         <String xml:lang="en-US">You have uncuffed {0}</String>
+        <String xml:lang="es-ES">Has quitado las esposas a {0}</String>
     </Entry>
 
     <Entry Id="police_already_uncuffed_suspect">
         <String xml:lang="en-US">{0} was already uncuffed.</String>
+        <String xml:lang="es-ES">{0} ya estaba sin las esposas..</String>
     </Entry>
 
     <Entry Id="police_no_longer_around">
         <String xml:lang="en-US">The ~b~cops ~s~are no longer around!</String>
+        <String xml:lang="es-ES">¡Los ~b~policías ~s~ya no están alrededor!</String>
     </Entry>
 
     <Entry Id="police_you_surrendered">
         <String xml:lang="en-US">You surrendered to the ~b~police~s~!</String>
+        <String xml:lang="es-ES">¡Te rendiste a la ~b~policía~s~!</String>
     </Entry>
 
     <!-- {0} = Player -->
     <Entry Id="police_searching_illegal_items">
         <String xml:lang="en-US">You found ~r~illegal items ~s~on {0}~s~!</String>
         <String xml:lang="it-IT">Hai trovato ~r~oggetti illegali ~s~su {0}~s~!</String>
+        <String xml:lang="es-ES">¡Encontraste ~r~artículos ilegales ~s~en {0}~s~!</String>
     </Entry>
 
     <Entry Id="police_searching_no_illegal_items">
         <String xml:lang="en-US">You didn't find ~r~anything ~s~on {0}.</String>
         <String xml:lang="it-IT">Non hai trovato ~r~nulla ~s~su {0}.</String>
+        <String xml:lang="es-ES">No encontraste ~r~nada ~s~en {0}.</String>
     </Entry>
 
     <Entry Id="police_already_searched">
         <String xml:lang="en-US">~r~The suspect has already been searched.</String>
         <String xml:lang="it-IT">~r~Il sospettato è già stato perquisito.</String>
+        <String xml:lang="es-ES">~r~El sospechoso ya ha sido cacheado.</String>
     </Entry>
 
     <Entry Id="police_you_asked_for_bribe">
         <String xml:lang="en-US">You asked {0} to ~o~bribe ~s~you.</String>
         <String xml:lang="it-IT">Hai chiesto a {0} di ~o~corromperti~s~.</String>
+        <String xml:lang="es-ES">Le pediste a {0} que te ~o~sobornara.</String>
     </Entry>
 
     <Entry Id="police_asked_to_bribe">
         <String xml:lang="en-US">~b~Officer {0} asked you to ~o~bribe ~s~them.</String>
         <String xml:lang="it-IT">L'~b~agente {0} ~s~ti ha chiesto di ~o~corromperlo~s~.</String>
+        <String xml:lang="es-ES">~b~El oficial {0} te pidió que ~o~lo sobornes.</String>
     </Entry>
 
     <Entry Id="police_seized_all">
         <String xml:lang="en-US">You seized all of {0}'s ~r~illegal items~s~.</String>
         <String xml:lang="it-IT">Hai sequestrato tutti gli ~r~oggetti illegali~s~ di {0}.</String>
+        <String xml:lang="es-ES">Has confiscado todos los ~r~artículos ilegales~s~ de {0}.</String>
     </Entry>
 
     <Entry Id="stunned_by_police">
         <String xml:lang="en-US">You've been stunned by the ~b~police~s~. You're going nowhere!</String>
         <String xml:lang="it-IT">Sei stato stordito dalla ~b~polizia~s~. Non andrai da nessuna parte!</String>
+        <String xml:lang="es-ES">Te han sorprendido los ~b~policías~. ¡No vas a ninguna parte!</String>
     </Entry>
 
     <!-- ========================= -->
