@@ -900,6 +900,7 @@
 
     <Entry Id="police_already_in_custody">
         <String xml:lang="en-US">~o~{0} ~s~is already in police custody.</String>
+        <String xml:lang="it-IT">~o~{0} ~s~è già in custodia della polizia.</String>
         <String xml:lang="es-ES">~o~{0} ~s~ya está bajo custodia policial.</String>
     </Entry>
 
@@ -983,6 +984,7 @@
 
     <Entry Id="police_you_ordered_suspect_exit_vehicle">
         <String xml:lang="en-US">You ordered ~o~{targetName} ({targetServerId}) ~s~to exit the vehicle.</String>
+        <String xml:lang="it-IT">Hai ordinato a ~o~{targetName} ({targetServerId}) ~s~di uscire dal veicolo.</String>
         <String xml:lang="es-ES">Tú ordenaste a ~o~{targetName} ({targetServerId}) ~s~que saliera del vehículo.</String>
     </Entry>
 
@@ -1000,25 +1002,29 @@
 
     <Entry Id="police_suspect_not_in_vehicle">
         <String xml:lang="en-US">The ~o~suspect ~s~is not in a vehicle.</String>
+        <String xml:lang="it-IT">Il ~o~sospettato ~s~non è in un veicolo.</String>
         <String xml:lang="es-ES">El ~o~sospechoso ~s~no está en un vehículo.</String>
     </Entry>
 
     <!-- {0} = Player's name -->
     <!-- {1} = Action (Freeze, ...) -->
     <Entry Id="police_asked_to_action">
-        <String xml:lang="en-US">You asked ~o~{0} ~s~to ~b~{1}!</String>
-        <String xml:lang="es-ES">¡Has preguntado a ~o~{0} ~s~que ~b~{1}!</String>
+        <String xml:lang="en-US">You asked ~o~{0} ~s~to ~b~{1}~s~!</String>
+        <String xml:lang="it-IT">Hai chiesto a ~o~{0} ~s~di ~b~{1}~s~!</String>
+        <String xml:lang="es-ES">¡Has preguntado a ~o~{0} ~s~que ~b~{1}~s~!</String>
     </Entry>
 
     <!-- {0} = Officer's name -->
     <!-- {1} = Action (Freeze, ...) -->
     <Entry Id="police_asked_to_action_officer">
-        <String xml:lang="en-US">Officer ~b~{0} ~s~asked you to ~r~{1}!</String>
-        <String xml:lang="es-ES">El oficial ~b~{0} ~s~te pidió que ~r~{1}!</String>
+        <String xml:lang="en-US">Officer ~b~{0} ~s~asked you to ~r~{1}~s~!</String>
+        <String xml:lang="it-IT">L'agente ~b~{0} ~s~ti ha chiesto di ~r~{1}~s~!</String>
+        <String xml:lang="es-ES">El oficial ~b~{0} ~s~te pidió que ~r~{1}~s~!</String>
     </Entry>
 
     <Entry Id="police_player_surrender_warn">
         <String xml:lang="en-US">{0} ~s~surrenders! ~r~Do not shoot.</String>
+        <String xml:lang="it-IT">{0} ~s~si è arreso! ~r~Non sparare.</String>
         <String xml:lang="es-ES">¡{0} ~s~ se rinde! ~r~No dispares.</String>
     </Entry>
 
@@ -1114,26 +1120,31 @@
 
     <Entry Id="police_already_way_transport_unit">
         <String xml:lang="en-US">~r~A transport unit for this suspect is already on the way!</String>
+        <String xml:lang="it-IT">~r~È già in arrivo n'unità di trasporto per questo sospettato!</String>
         <String xml:lang="es-ES">~r~¡Ya está en camino una unidad de transporte para este sospechoso!</String>
     </Entry>
 
     <Entry Id="police_request_transport_unit">
         <String xml:lang="en-US">You requested a ~b~transport unit ~s~for the suspect!</String>
+        <String xml:lang="it-IT">Hai richiesto un'~b~unità di trasporto ~s~per il sospettato!</String>
         <String xml:lang="es-ES">Tu has solicitado una ~b~unidad de transporte ~s~ para el sospechoso!</String>
     </Entry>
 
     <Entry Id="police_cant_transport_suspect_not_custody">
         <String xml:lang="en-US">The ~b~transport unit ~s~can't transport a ~o~suspect~s~ that's not in custody.</String>
+        <String xml:lang="it-IT">L'~b~unità di trasporto ~s~non può trasportare un ~o~osospettato~s~ che non è in custodia.</String>
         <String xml:lang="es-ES">La ~b~unidad de transporte ~s~no puede transportar a un ~o~sospechoso~s~ que no esté bajo custodia.</String>
     </Entry>
 
     <Entry Id="police_transport_unit_couldnt_find_suspect">
         <String xml:lang="en-US">The ~b~transport unit ~s~couldn't find the suspect.</String>
+        <String xml:lang="it-IT">L'~b~unità di trasporto ~s~non è riuscita a trovare il sospettato.</String>
         <String xml:lang="es-ES">La ~b~unidad de transporte ~s~no pudo encontrar al sospechoso.</String>
     </Entry>
 
     <Entry Id="police_cant_transport_injured_suspect_not_custody">
         <String xml:lang="en-US">The ~b~transport unit ~s~can't transport an injured ~o~suspect.</String>
+        <String xml:lang="it-IT">L'~b~unità di trasporto ~s~non può trasportare un ~o~sospettato~s~ ferito.</String>
         <String xml:lang="es-ES">La ~b~unidad de transporte ~s~no puede transportar a un ~o~sospechoso herido.</String>
     </Entry>
 
@@ -1146,46 +1157,55 @@
 
     <Entry Id="police_cuffing_suspect">
         <String xml:lang="en-US">You are cuffing {0}</String>
+        <String xml:lang="it-IT">Stai ammanettando {0}</String>
         <String xml:lang="es-ES">Estás esposando a {0}</String>
     </Entry>
 
     <Entry Id="police_cuffed_suspect">
         <String xml:lang="en-US">You have cuffed {0}</String>
+        <String xml:lang="it-IT">Hai ammanettando {0}</String>
         <String xml:lang="es-ES">Has esposado a {0}</String>
     </Entry>
 
     <Entry Id="police_already_cuffed_suspect">
         <String xml:lang="en-US">{0} was already cuffed.</String>
+        <String xml:lang="it-IT">{0} era già ammanettato.</String>
         <String xml:lang="es-ES">AAAA</String>
     </Entry>
 
     <Entry Id="police_already_cuffed_suspect">
         <String xml:lang="en-US">{0} was already cuffed.</String>
+        <String xml:lang="it-IT">{0} era già ammanettato.</String>
         <String xml:lang="es-ES">{0} ya estaba esposado.</String>
     </Entry>
 
     <Entry Id="police_uncuffing_player">
         <String xml:lang="en-US">You are uncuffing {0}</String>
+        <String xml:lang="it-IT">Stai togliendo le manette a {0}</String>
         <String xml:lang="es-ES">Estás quitando las esposas a {0}</String>
     </Entry>
 
     <Entry Id="police_uncuffed_suspect">
         <String xml:lang="en-US">You have uncuffed {0}</String>
+        <String xml:lang="it-IT">hai tolto le manette a {0}</String>
         <String xml:lang="es-ES">Has quitado las esposas a {0}</String>
     </Entry>
 
     <Entry Id="police_already_uncuffed_suspect">
         <String xml:lang="en-US">{0} was already uncuffed.</String>
-        <String xml:lang="es-ES">{0} ya estaba sin las esposas..</String>
+        <String xml:lang="it-IT">{0} era già smanettato.</String>
+        <String xml:lang="es-ES">{0} ya estaba sin las esposas.</String>
     </Entry>
 
     <Entry Id="police_no_longer_around">
         <String xml:lang="en-US">The ~b~cops ~s~are no longer around!</String>
+        <String xml:lang="it-IT">Gli ~b~aggenti ~s~non sono più in zona!!</String>
         <String xml:lang="es-ES">¡Los ~b~policías ~s~ya no están alrededor!</String>
     </Entry>
 
     <Entry Id="police_you_surrendered">
         <String xml:lang="en-US">You surrendered to the ~b~police~s~!</String>
+        <String xml:lang="it-IT">Ti sei arresto alla ~b~polizia~s~!</String>
         <String xml:lang="es-ES">¡Te rendiste a la ~b~policía~s~!</String>
     </Entry>
 
