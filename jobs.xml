@@ -58,6 +58,62 @@
     </Entry>
 
     <!-- ========================= -->
+    <!-- Sell To Players -->
+    <!-- ========================= -->
+
+    <Entry Id="stp_offered_service">
+        <String xml:lang="en-US">You've offered your ~y~services ~s~to {0}~s~.</String>
+    </Entry>
+
+    <!-- {0} = Player -->
+    <!-- {1} = Hotkey -->
+    <Entry Id="stp_player_offered_service">
+        <String xml:lang="en-US">{0} ~s~has offered you ~y~their services~s~. {1} to view their menu.</String>
+    </Entry>
+
+    <!-- {0} = Job -->
+    <!-- {1} = Limit in percentage -->
+    <Entry Id="stp_player_limit">
+        <String xml:lang="en-US">You can't become a ~b~{0} ~s~because the {1}% player limit has been reached.</String>
+    </Entry>
+
+    <Entry Id="stp_too_far">
+        <String xml:lang="en-US">{0} is ~r~too far ~s~from you.</String>
+    </Entry>
+
+    <Entry Id="stp_need_vehicle_to_purchase">
+        <String xml:lang="en-US">~r~You need a vehicle to purchase this service.</String>
+    </Entry>
+
+    <Entry Id="stp_cant_purchase_service_while_moving">
+        <String xml:lang="en-US">~r~You can't purchase this service when the vehicle is moving.</String>
+    </Entry>
+
+    <Entry Id="stp_cant_purchase_when_seller_in_vehicle">
+        <String xml:lang="en-US">~r~You can't purchase this service when the seller is inside a vehicle.</String>
+    </Entry>
+
+    <Entry Id="stp_too_far_from_seller">
+        <String xml:lang="en-US">~r~You are too far from the seller!</String>
+    </Entry>
+
+    <Entry Id="stp_seller_doesnt_have_enough">
+        <String xml:lang="en-US">~r~The seller doesn't have enough {0}!</String>
+    </Entry>
+
+    <Entry Id="stp_seller_doesnt_have_enough_supplies">
+        <String xml:lang="en-US">~r~The seller doesn't have enough supplies to provide the ~s~{0} ~r~service!</String>
+    </Entry>
+
+    <Entry Id="stp_seller_doesnt_have_required_certification">
+        <String xml:lang="en-US">~r~The seller doesn't have the required certification to provide the ~s~{0} ~r~service!</String>
+    </Entry>
+
+    <Entry Id="stp_seller_updated_prices">
+        <String xml:lang="en-US">~r~The seller has updated their prices. The menu has been refreshed.</String>
+    </Entry>
+
+    <!-- ========================= -->
     <!-- Robbery -->
     <!-- ========================= -->
     <Entry Id="abandoned_robbery">
@@ -538,6 +594,10 @@
         <String xml:lang="es-ES">Tu placa personalizada se ha establecido como ~s~{0}~p~.</String>
         <String xml:lang="pl-PL">Twoja blacha to teraz ~s~{0}~p~.</String>
         <String xml:lang="zh-Hant">你的個性化車牌已被設置為 ~s~{0}~p~.</String>
+    </Entry>
+
+    <Entry Id="mechanic_cant_modify_rented_vehicle">
+        <String xml:lang="en-US">~r~You cannot modify a rented vehicle!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1156,11 +1216,6 @@
 
     <Entry Id="police_already_cuffed_suspect">
         <String xml:lang="en-US">{0} was already cuffed.</String>
-        <String xml:lang="es-ES">AAAA</String>
-    </Entry>
-
-    <Entry Id="police_already_cuffed_suspect">
-        <String xml:lang="en-US">{0} was already cuffed.</String>
         <String xml:lang="es-ES">{0} ya estaba esposado.</String>
     </Entry>
 
@@ -1218,6 +1273,99 @@
         <String xml:lang="en-US">~b~Officer {0} asked you to ~o~bribe ~s~them.</String>
         <String xml:lang="it-IT">L'~b~agente {0} ~s~ti ha chiesto di ~o~corromperlo~s~.</String>
         <String xml:lang="es-ES">~b~El oficial {0} te pidió que ~o~lo sobornes.</String>
+    </Entry>
+
+    <!-- {0} = Player -->
+    <Entry Id="police_ignored_bribe">
+        <String xml:lang="en-US">You ignored {0}'s bribe offer.</String>
+    </Entry>
+
+    <Entry Id="police_too_far_to_accept_bribe">
+        <String xml:lang="en-US">You are ~r~too far ~s~from {0}, you can't accept or refuse the ~r~bribe~s~.</String>
+    </Entry>
+
+    <Entry Id="police_wait_ten_minutes_bribe">
+        <String xml:lang="en-US">You must wait 10 minutes before accepting a ~r~bribe ~s~from the same player again.</String>
+    </Entry>
+
+    <Entry Id="police_could_not_afford_bribe">
+        <String xml:lang="en-US">{0} could not afford the ~r~bribe~s~.</String>
+    </Entry>
+
+    <!-- {0} = Player -->
+    <!-- {1} = Amount -->
+    <Entry Id="police_offered_amount_bribe">
+        <String xml:lang="en-US">You offered {0} ~s~a ~g~{1} ~s~bribe.</String>
+    </Entry>
+
+    <Entry Id="police_no_longer_connected_bribe">
+        <String xml:lang="en-US">~r~{0} is no longer connected to the server.</String>
+    </Entry>
+
+    <Entry Id="police_not_close_enough_to_bribe">
+        <String xml:lang="en-US">~r~{0} is not close enough to offer them a bribe.</String>
+    </Entry>
+
+    <Entry Id="police_already_have_open_offer">
+        <String xml:lang="en-US">~r~You already have an active bribe offer.</String>
+    </Entry>
+
+    <Entry Id="police_officer_already_have_open_offer">
+        <String xml:lang="en-US">~r~{0} already has an active bribe offer.</String>
+    </Entry>
+
+    <Entry Id="police_cant_bribe_same_officer_within_ten">
+        <String xml:lang="en-US">~r~You cannot bribe the same officer twice within 10 minutes.</String>
+    </Entry>
+
+    <Entry Id="police_cant_bribe_after_revive_auto_cuff">
+        <String xml:lang="en-US">~r~You cannot bribe a police officer for 2 minutes after being revived and auto-cuffed.</String>
+    </Entry>
+
+    <Entry Id="police_viewing_bribe">
+        <String xml:lang="en-US">{0} is ~y~viewing ~s~your bribe offer.</String>
+    </Entry>
+
+    <Entry Id="police_player_left_canceled_bribe">
+        <String xml:lang="en-US">{0} has ~r~left the server ~s~ and your bribe offer was canceled.</String>
+    </Entry>
+
+    <Entry Id="police_accepted_bribe">
+        <String xml:lang="en-US">{0} has ~g~accepted ~s~your bribe offer.</String>
+    </Entry>
+
+    <Entry Id="police_refused_wanted_level_bribe">
+        <String xml:lang="en-US">{0} has ~r~refused ~s~your bribe offer and reported the incident. You gained a wanted level.</String>
+    </Entry>
+
+    <!-- {0} = Player -->
+    <!-- {1} = Reason -->
+    <Entry Id="police_player_911_call">
+        <String xml:lang="en-US">{0} {1}</String>
+    </Entry>
+
+    <!-- {0} = countdown -->
+    <Entry Id="police_leaving_us_offduty">
+        <String xml:lang="en-US">~y~Warning: ~s~you are leaving the ~b~United States~s~. You will go off duty in {0} seconds.</String>
+    </Entry>
+
+    <Entry Id="police_no_arrest_warrant">
+        <String xml:lang="en-US">~r~You do not have an arrest warrant.</String>
+    </Entry>
+
+    <Entry Id="police_cant_turn_yourself_in_officers_nearby">
+        <String xml:lang="en-US">~r~You cannot turn yourself in at the police station because there are police officers nearby.</String>
+    </Entry>
+
+    <Entry Id="police_unmarked_vehicle">
+        <String xml:lang="en-US">~b~Unmarked police vehicle!\n~s~Civilians won't see your marker as ~b~blue ~s~until you get close enough or turn on your siren.</String>
+    </Entry>
+
+    <!-- {0} = Player -->
+    <!-- {1} = Amount -->
+    <!-- {2} = Key (Z) -->
+    <Entry Id="police_cant_bribe_after_revive_auto_cuff">
+        <String xml:lang="en-US">{0} ~s~has offered you a ~g~{1} ~s~bribe. {2} to view the offer.</String>
     </Entry>
 
     <Entry Id="police_seized_all">
@@ -1592,6 +1740,41 @@
         <String xml:lang="it-IT">Hai ~r~smesso ~sdi rapinare la cassaforte!</String>
         <String xml:lang="de-DE">Du hast den Saferaub ~r~abgebrochen~s~!</String>
         <String xml:lang="es-ES">¡Has ~r~cancelado ~s~el robo de la caja fuerte!</String>
+    </Entry>
+
+    <Entry Id="no_nearby_players_give_weapon">
+        <String xml:lang="en-US">There are no ~r~nearby players ~s~to give your weapon to.</String>
+    </Entry>
+
+    <Entry Id="cant_give_weapon_to_dead">
+        <String xml:lang="en-US">~r~You can't give a weapon to a dead player.</String>
+    </Entry>
+
+    <Entry Id="player_too_far_give_weapon">
+        <String xml:lang="en-US">~r~The player is too far, you can't give them a weapon.</String>
+    </Entry>
+
+
+    <!-- {0} = Player -->
+    <!-- {1} = Weapon -->
+    <Entry Id="player_gave_weapon">
+        <String xml:lang="en-US">You gave {0} a ~y~{1}~s~.</String>
+    </Entry>
+
+    <Entry Id="player_gave_weapon">
+        <String xml:lang="en-US">You gave {0} a ~y~{1}~s~.</String>
+    </Entry>
+
+    <!-- {0} = Player -->
+    <!-- {1} = Weapon -->
+    <Entry Id="player_already_has_weapon">
+        <String xml:lang="en-US">{0} already has a ~y~{1}~s~.</String>
+    </Entry>
+
+    <!-- {0} = Weapon -->
+    <!-- {1} = Player -->
+    <Entry Id="player_received_weapon">
+        <String xml:lang="en-US">Received a ~y~{0} ~s~from (C){0}(/C).</String>
     </Entry>
 
 </Entries>
