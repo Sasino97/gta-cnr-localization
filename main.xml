@@ -93,6 +93,7 @@
         <String xml:lang="it-IT">~r~Si è verificato un errore inaspettato (0x85-{0}).</String>
         <String xml:lang="de-DE">~r~Ein unerwarteter Fehler ist aufgetreten! (0x85-{0}).</String>
         <String xml:lang="es-ES">~r~Ha ocurrido un error inesperado (0x85-{0}).</String>
+        <String xml:lang="pl-PL">~r~Wystąpił nieoczekiwany błąd! (0x85-{0}).</String>
     </Entry>
 
     <Entry Id="unexpected_error_86">
@@ -100,6 +101,7 @@
         <String xml:lang="it-IT">~r~Si è verificato un errore inaspettato (0x86-{0}).</String>
         <String xml:lang="de-DE">~r~Ein unerwarteter Fehler ist aufgetreten! (0x86-{0}).</String>
         <String xml:lang="es-ES">~r~Ha ocurrido un error inesperado (0x86-{0}).</String>
+        <String xml:lang="pl-PL">~r~Wystąpił nieoczekiwany błąd! (0x86-{0}).</String>
     </Entry>
 
     <Entry Id="unexpected_error_robbery_canceled">
@@ -107,6 +109,7 @@
         <String xml:lang="it-IT">~r~Si è verificato un errore inaspettato sul server e la rapina è stata anullata.</String>
         <String xml:lang="de-DE">~r~Ein unerwarteter Fehler ist auf dem Server aufgetreten und der Überfall wurde abgebrochen!</String>
         <String xml:lang="es-ES">~r~Ha ocurrido un error inesperado en el servidor y el robo ha sido cancelado.</String>
+        <String xml:lang="pl-PL">~r~Wystąpił nieoczekiwany błąd i napad został anulowany.</String>
     </Entry>
 
     <Entry Id="unexpected_error_2A">
@@ -114,6 +117,7 @@
         <String xml:lang="it-IT">~r~Si è verificato un errore inaspettato! (0x2A-{0}).</String>
         <String xml:lang="de-DE">~r~Ein unerwarteter Fehler ist aufgetreten! (0x-2A{0}).</String>
         <String xml:lang="es-ES">~r~¡Ha ocurrido un error inesperado! (0x2A-{0}).</String>
+        <String xml:lang="pl-PL">~r~Wystąpił nieoczekiwany błąd! (0x2A-{0}).</String>
     </Entry>
 
     <Entry Id="munexpected_error_C0">
@@ -153,10 +157,12 @@
         <String xml:lang="it-IT">~r~Oggetto non valido.</String>
         <String xml:lang="de-DE">~r~Ungültiger Gegenstand.</String>
         <String xml:lang="es-ES">~r~Artículo no válido.</String>
+        <String xml:lang="pl-PL">~r~Nieprawidłowy przedmiot.</String>
     </Entry>
 
     <Entry Id="error_loading_loadout">
         <String xml:lang="en-US">~r~Warning: ~s~there was an error loading your loadout. Re-logging may fix this problem.</String>
+        <String xml:lang="pl-PL">~r~Ostrzeżenie: ~s~wystąpił błąd wczytując twoje uzbrojenie. Ponowne zalogowanie może naprawić ten problem.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -204,6 +210,7 @@
         <String xml:lang="it-IT">~r~Non hai abbastanza soldi.</String>
         <String xml:lang="de-DE">~r~Du hast nicht genügend Geld.</String>
         <String xml:lang="es-ES">~r~No tienes suficiente dinero.</String>
+        <String xml:lang="pl-PL">~r~Nie masz wystarczająco dużo forsy.</String>
     </Entry>
 
 
@@ -235,17 +242,20 @@
         <String xml:lang="en-US">~r~You can't purchase {0} more of this item!</String>
         <String xml:lang="it-IT">~r~Non puoi più acquistare {0} altri di questi oggetti!</String>
         <String xml:lang="es-ES">~r~¡No puedes comprar {0} más de este artículo!</String>
+        <String xml:lang="pl-PL">~r~Nie możesz kupić {0} więcej tego przedmiotu!</String>
     </Entry>
 
     <Entry Id="cant_hold_more_item">
         <String xml:lang="en-US">You can't hold any more of this item!</String>
         <String xml:lang="it-IT">Non puoi più reggere altri di questi oggetti!</String>
         <String xml:lang="es-ES">¡No puedes sostener más de este artículo!</String>
+        <String xml:lang="pl-PL">Nie możesz trzymać więcej tego przedmiotu!</String>
     </Entry>
 
     <Entry Id="feature_not_implemented_yet">
         <String xml:lang="en-US">~r~Sorry, this feature was not implemented yet!</String>
         <String xml:lang="it-IT">~r~Ci dispiace, questa funzione non è ancora stata implementata!</String>
+        <String xml:lang="pl-PL">~r~Przepraszamy, ta funkcja nie jest jeszcze wprowadzona!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -356,6 +366,7 @@
         <String xml:lang="it-IT">Quel ~r~veicolo ~s~non puo essere usato in questo server!</String>
         <String xml:lang="de-DE">Dieses ~r~Fahrzeug ~s~kann auf diesem Server nicht verwendet werden!</String>
         <String xml:lang="es-ES">¡Ese ~r~vehículo ~s~no se puede usar en este servidor!</String>
+        <String xml:lang="pl-PL">Ten ~r~pojazd ~s~nie może być użyty na tym serwerze!</String>
     </Entry>
 
     <Entry Id="weapon_cannot_be_used">
@@ -363,6 +374,7 @@
         <String xml:lang="it-IT">Quel ~r~arma ~s~non puo essere usata in questo server!</String>
         <String xml:lang="de-DE">Diese ~r~Waffe ~s~kann auf diesem Server nicht verwendet werden!</String>
         <String xml:lang="es-ES">¡Esa ~r~arma ~s~no se puede usar en este servidor!</String>
+        <String xml:lang="pl-PL">Ta ~r~broń ~s~nie może być użyta na tym serwerze!</String>
     </Entry>
 
     <Entry Id="weapon_can_only_be_used_by_police">
@@ -370,6 +382,7 @@
         <String xml:lang="it-IT">Quel ~r~arma ~s~può essere usata solo dalla polizia!</String>
         <String xml:lang="de-DE">Diese ~r~Waffe ~s~kann ausschließlich von der Polizei genutzt werden!</String>
         <String xml:lang="es-ES">¡Esa ~r~arma ~s~ sólo puede ser utilizada por la policía!</String>
+        <String xml:lang="pl-PL">Ta ~r~broń ~s~może być użyta na tylko przez policję!</String>
     </Entry>
 
 </Entries>
