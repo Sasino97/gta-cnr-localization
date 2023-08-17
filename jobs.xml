@@ -215,20 +215,18 @@
     <!-- ========================= -->
     <!-- Drug dealer -->
     <!-- {0} = Location name -->
-    <!-- {1} = Displayed Colour (red, ...) -->
-    <!-- {2} = Player Name -->
-    <!-- {3} = Player ID -->
+    <!-- {1} = Customer -->
     <!-- ========================= -->
 
     <Entry Id="player_drug_call">
-        <String xml:lang="en-US">Go to ~y~{0} ~s~and sell drugs to {1}{2} ({3})~s~.</String>
-        <String xml:lang="it-IT">Raggiungi ~y~{0} ~s~e vendi droghe a {1}{2} ({3})~s~.</String>
-        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en verkoop drugs aan {1}{2} ({3})~s~.</String>
-        <String xml:lang="de-DE">Gehe zu ~y~ und verkaufe {1}{2} ({3}) Drogen.</String>
-        <String xml:lang="tr-TR">Git ~y~{0} ~s~ve uyuşturucu sat {1}{2} ({3})~s~.</String>
-        <String xml:lang="es-ES">Ve a ~y~{0} ~s~y vende drogas a {1}{2} ({3})~s~.</String>
-        <String xml:lang="pl-PL">Pójdź do ~y~{0} ~s~i sprzedaj narkotyki {1}{2} ({3})~s~.</String>
-        <String xml:lang="zh-Hant">前往 ~y~{0} ~s~將毒品販售給 {1}{2} ({3})~s~.</String>
+        <String xml:lang="en-US">Go to ~y~{0} ~s~and sell drugs to {1}.</String>
+        <String xml:lang="it-IT">Raggiungi ~y~{0} ~s~e vendi droghe a {1}.</String>
+        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en verkoop drugs aan {1}.</String>
+        <String xml:lang="de-DE">Gehe zu ~y~ und verkaufe {1} Drogen.</String>
+        <String xml:lang="tr-TR">Git ~y~{0} ~s~ve uyuşturucu sat {1}.</String>
+        <String xml:lang="es-ES">Ve a ~y~{0} ~s~y vende drogas a {1}.</String>
+        <String xml:lang="pl-PL">Pójdź do ~y~{0} ~s~i sprzedaj narkotyki {1}.</String>
+        <String xml:lang="zh-Hant">前往 ~y~{0} ~s~將毒品販售給 {1}.</String>
     </Entry>
 
     <!-- {0} = Amount -->
@@ -424,20 +422,18 @@
     <!-- ========================= -->
     <!-- Mechanic -->
     <!-- {0} = Location name -->
-    <!-- {1} = Displayed Colour (red, ...) -->
-    <!-- {2} = Player Name -->
-    <!-- {3} = Player ID -->
+    <!-- {1} = Customer -->
     <!-- ========================= -->
 
     <Entry Id="player_mechanic_call">
-        <String xml:lang="en-US">Go to ~y~{0} ~s~and assist {1}{2} ({3})~s~.</String>
-        <String xml:lang="it-IT">Raggiungi ~y~{0} ~s~ed aiuta {1}{2} ({3})~s~.</String>
-        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en assisteer {1}{2} ({3})~s~.</String>
-        <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und hilf {1}{2} ({3})~s~.</String>
-        <String xml:lang="tr-TR">Git ~y~{0} ~s~ve yardım et {1}{2} ({3})~s~.</String>
-        <String xml:lang="es-ES">Ve a ~y~{0} ~s~y ayuda a {1}{2} ({3})~s~.</String>
-        <String xml:lang="pl-PL">Pójdź do ~y~{0} ~s~i pomóż {1}{2} ({3})~s~.</String>
-        <String xml:lang="zh-Hant">前往 ~y~{0} ~s~並協助 {1}{2} ({3})~s~</String>
+        <String xml:lang="en-US">Go to ~y~{0} ~s~and assist {1}.</String>
+        <String xml:lang="it-IT">Raggiungi ~y~{0} ~s~ed aiuta {1}.</String>
+        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en assisteer {1}.</String>
+        <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und hilf {1}.</String>
+        <String xml:lang="tr-TR">Git ~y~{0} ~s~ve yardım et {1}.</String>
+        <String xml:lang="es-ES">Ve a ~y~{0} ~s~y ayuda a {1}.</String>
+        <String xml:lang="pl-PL">Pójdź do ~y~{0} ~s~i pomóż {1}.</String>
+        <String xml:lang="zh-Hant">前往 ~y~{0} ~s~並協助 {1}</String>
     </Entry>
 
 
@@ -742,41 +738,35 @@
     </Entry>
 
     <!-- {0} = Location name -->
-    <!-- {1} = Displayed Colour (red, ...) -->
-    <!-- {2} = Player Name -->
-    <!-- {3} = Player ID -->
+    <!-- {2} = Customer -->
     <Entry Id="player_paramedic_call">
-        <String xml:lang="en-US">Go to ~y~{0} ~s~and assist {1}{2} ({3})~s~.</String>
-        <String xml:lang="it-IT">Raggiungi ~y~{0} ~s~ed aiuta {1}{2} ({3})~s~.</String>
-        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en assisteer {1}{2} ({3})~s~.</String>
-        <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und hilf {1}{2} ({3})~s~.</String>
-        <String xml:lang="tr-TR">Git ~y~{0} ~s~ve yardım et {1}{2} ({3})~s~.</String>
-        <String xml:lang="es-ES">Ve a ~y~{0} ~s~y ayuda a {1}{2} ({3})~s~.</String>
-        <String xml:lang="pl-PL">Pójdź do ~y~{0} ~s~i pomóż {1}{2} ({3})~s~.</String>
+        <String xml:lang="en-US">Go to ~y~{0} ~s~and assist {1}.</String>
+        <String xml:lang="it-IT">Raggiungi ~y~{0} ~s~ed aiuta {1}.</String>
+        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en assisteer {1}.</String>
+        <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und hilf {1}.</String>
+        <String xml:lang="tr-TR">Git ~y~{0} ~s~ve yardım et {1}.</String>
+        <String xml:lang="es-ES">Ve a ~y~{0} ~s~y ayuda a {1}.</String>
+        <String xml:lang="pl-PL">Pójdź do ~y~{0} ~s~i pomóż {1}.</String>
     </Entry>
 
-    <!-- {0} = Paramedics' name -->
-    <!-- {1} = Paramedics' Id -->
-    <!-- {2} = Victims' name -->
-    <!-- {3} = Victims' Id -->
+    <!-- {0} = Paramedic -->
+    <!-- {1} = Patient -->
     <Entry Id="player_paramedic_call_intern">
-        <String xml:lang="en-US">Paramedic ~p~(C){0} ({1})(/C) ~s~has responded to the call on (C){2} ({3})(/C).</String>
-        <String xml:lang="it-IT">Il paramedico ~p~(C){0} ({1})(/C) ~s~ha risposto alla chiamata di (C){2} ({3})(/C).</String>
-        <String xml:lang="es-ES">El paramédico ~p~(C){0} ({1})(/C) ~s~ha respondido a la llamada en (C){2} ({3})(/C).</String>
-        <String xml:lang="pl-PL">Medyk ~p~(C){0} ({1})(/C) ~s~ odpowiedział do zawołania (C){2} ({3})(/C).</String>
-        <String xml:lang="de-DE">Der Sanitäter ~p~ (C){0} ({1})(/C)~s~ hat den Anruf von (C){2} ({3})(/C) angenommen.</String>
-        <String xml:lang="pl-PL">Medyk ~p~(C){0} ({1})(/C) ~s~odpowiedział do zawołania w (C){2} ({3})(/C).</String>
+        <String xml:lang="en-US">Paramedic {0} has responded to the call of {1}.</String>
+        <String xml:lang="it-IT">Il paramedico {0} ha risposto alla chiamata di {1}.</String>
+        <String xml:lang="es-ES">El paramédico {0} ha respondido a la llamada en {1}.</String>
+        <String xml:lang="de-DE">Der Sanitäter {0} hat den Anruf von {1} angenommen.</String>
+        <String xml:lang="pl-PL">Medyk ~p~{0} ~s~odpowiedział do zawołania {1}.</String>
     </Entry>
 
-    <!-- {0} = Paramedics' name -->
-    <!-- {1} = Paramedics' Id -->
+    <!-- {0} = Paramedic -->
     <Entry Id="player_paramedic_call_responded">
-        <String xml:lang="en-US">Paramedic ~p~(C){0} ({1})(/C) ~s~responded to your call.</String>
-        <String xml:lang="it-IT">Il paramedico ~p~(C){0} ({1})(/C) ~s~ha risposto alla tua chiamata.</String>
-        <String xml:lang="es-ES">El paramédico ~p~(C){0} ({1})(/C) ~s~respondió a su llamada.</String>
-        <String xml:lang="pl-PL">Medyk ~p~(C){0} ({1})(/C) ~s~odpowiedział na twoje zawołanie.</String>
-        <String xml:lang="de-DE">Der Sanitäter ~p~ (C){0} ({1})(/C)~s~ hat deinen Anruf angenommen.</String>
-        <String xml:lang="pl-PL">Medyj ~p~(C){0} ({1})(/C) ~s~odpowiedział na twoje zawołanie.</String>
+        <String xml:lang="en-US">Paramedic {0} responded to your call.</String>
+        <String xml:lang="it-IT">Il paramedico {0} ha risposto alla tua chiamata.</String>
+        <String xml:lang="es-ES">El paramédico {0} respondió a su llamada.</String>
+        <String xml:lang="pl-PL">Medyk {0} odpowiedział na twoje zawołanie.</String>
+        <String xml:lang="de-DE">Der Sanitäter {0} hat deinen Anruf angenommen.</String>
+        <String xml:lang="pl-PL">Medyj {0} odpowiedział na twoje zawołanie.</String>
     </Entry>
 
     <Entry Id="paramedic_revival_fail">
@@ -791,12 +781,12 @@
 
     <!-- {0} = Player Name -->
     <Entry Id="paramedic_reviving">
-        <String xml:lang="en-US">Paramedic (C){0}(/C) is reviving you.</String>
-        <String xml:lang="it-IT">Il paramedico ~p~(C){0} ({1})(/C) ~s~ti sta rianimando.</String>
-        <String xml:lang="es-ES">El paramédico (C){0}(/C) te está reviviendo.</String>
-        <String xml:lang="pl-PL">Medyk (C){0}(/C) cię ocuca.</String>
-        <String xml:lang="de-DE">Der Sanitäter (C){0}(/C) hat dich wiederbelebt.</String>
-        <String xml:lang="pl-PL">Medyk (C){0}(/C) cię ocuca.    </String>
+        <String xml:lang="en-US">Paramedic {0} is reviving you.</String>
+        <String xml:lang="it-IT">Il paramedico {0} ti sta rianimando.</String>
+        <String xml:lang="es-ES">El paramédico {0} te está reviviendo.</String>
+        <String xml:lang="pl-PL">Medyk {0} cię ocuca.</String>
+        <String xml:lang="de-DE">Der Sanitäter {0} hat dich wiederbelebt.</String>
+        <String xml:lang="pl-PL">Medyk {0} cię ocuca.</String>
     </Entry>
 
     <Entry Id="paramedic_npc_loss">
@@ -809,14 +799,13 @@
         <String xml:lang="pl-PL">~p~Medycy ~s~mają ratować życia mieszkańców. Zabijanie niewinnych botów wiąże się ze ~r~stratami XP~s~.</String>
     </Entry>
 
-    <!-- {0} = Player Name -->
-    <!-- {1} = Player Id -->
+    <!-- {0} = Paramedic -->
     <Entry Id="paramedic_on_scene">
-        <String xml:lang="en-US">Paramedic ~p~(C){0} ({1})(/C) ~s~is on scene!</String>
-        <String xml:lang="it-IT">Il paramedico ~p~(C){0} ({1})(/C) ~s~è sulla scena!</String>
-        <String xml:lang="es-ES">¡El paramédico ~p~(C){0} ({1})(/C) ~s~está en la escena!</String>
-        <String xml:lang="pl-PL">Medyk ~p~(C){0} ({1})(/C) ~s~jest na miejscu wypadku!</String>
-        <String xml:lang="de-DE">Der Sanitäter ~p~(C){0} ({1})(/C) ~s~ist vor Ort!</String>
+        <String xml:lang="en-US">Paramedic {0} ~s~is on scene!</String>
+        <String xml:lang="it-IT">Il paramedico {0} ~s~è sulla scena!</String>
+        <String xml:lang="es-ES">¡El paramédico {0} ~s~está en la escena!</String>
+        <String xml:lang="pl-PL">Medyk {0} ~s~jest na miejscu wypadku!</String>
+        <String xml:lang="de-DE">Der Sanitäter {0} ~s~ist vor Ort!</String>
     </Entry>
 
     <Entry Id="paramedic_crossteam_warn">
@@ -826,7 +815,7 @@
         <String xml:lang="pl-PL">Nie możesz leczyć ~o~kryminalistów ~s~gdy są w ~r~strzelaninie ~s~z ~b~glinami~s~, ajest to uznawane za ~r~cross-teaming~s~.</String>
     </Entry>
 
-    <!-- {0} = Player Name -->
+    <!-- {0} = Patient -->
     <Entry Id="paramedic_heal_player">
         <String xml:lang="en-US">You ~p~healed ~s~{0}.</String>
         <String xml:lang="it-IT">Hai ~p~curato ~s~{0}.</String>
@@ -838,7 +827,7 @@
     <Entry Id="paramedic_heal_player">
         <String xml:lang="en-US">You ~p~healed ~s~{0} players.</String>
         <String xml:lang="it-IT">Hai ~p~curato ~s~{0} giocatori.</String>
-        <String xml:lang="es-ES">Tú~p~curaste a ~s~{0} jugadores.</String>
+        <String xml:lang="es-ES">Tú ~p~curaste a ~s~{0} jugadores.</String>
         <String xml:lang="pl-PL">~p~Uleczyłeś ~s~{0} graczy.</String>
     </Entry>
 
@@ -874,16 +863,15 @@
         <String xml:lang="en-US">There's an active ~r~shooting~s~! You can't revive ~o~wanted suspects ~s~now.</String>
         <String xml:lang="it-IT">È in croso una ~r~sparatoria~s~! Non puoi rianimare gli ~o~sospettati ~s~ora.</String>
         <String xml:lang="es-ES">¡Hay un ~r~tiroteo~s~ activo! No puedes revivir ~o~sospechosos en busqueda ~s~ahora.</String>
-        <String xml:lang="pl-PL">Jest ~r~strzelanina~s~! Nie możesz ocucać w tej chwili ~o~poszukiwanych kryminalistów ~s~.</String>
+        <String xml:lang="pl-PL">Jest ~r~strzelanina~s~! Nie możesz ocucać w tej chwili ~o~poszukiwanych kryminalistów~s~.</String>
     </Entry>
 
     <!-- {0} = Player name -->
-    <!-- {1} = "ambulanceStr" -->
     <Entry Id="paramedic_player_revived">
-        <String xml:lang="en-US">You ~p~revived ~s~{0}!{1}</String>
-        <String xml:lang="it-IT">Hai ~p~rianimato ~s~{0}!{1}</String>
-        <String xml:lang="es-ES">Tú~p~reviviste ~s~{0}!{1}</String>
-        <String xml:lang="pl-PL">~p~Ocuciłeś ~s~{0}!{1}</String>
+        <String xml:lang="en-US">You ~p~revived ~s~{0}!</String>
+        <String xml:lang="it-IT">Hai ~p~rianimato ~s~{0}!</String>
+        <String xml:lang="es-ES">Tú ~p~reviviste ~s~{0}!</String>
+        <String xml:lang="pl-PL">~p~Ocuciłeś ~s~{0}!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -901,17 +889,15 @@
     </Entry>
 
     <!-- {0} = Location name -->
-    <!-- {1} = Displayed Colour (red, ...) -->
-    <!-- {2} = Player Name -->
-    <!-- {3} = Player ID -->
+    <!-- {2} = Caller -->
     <Entry Id="player_police_call">
-        <String xml:lang="en-US">Go to ~y~{0} ~s~and assist {1}{2} ({3})~s~.</String>
-        <String xml:lang="it-IT">Raggiungi ~y~{0} ~s~ed aiuta {1}{2} ({3})~s~.</String>
-        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en assisteer {1}{2} ({3})~s~.</String>
-        <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und hilf {1}{2} ({3})~s~.</String>
-        <String xml:lang="tr-TR">Git ~y~{0} ~s~ve yardım et {1}{2} ({3})~s~.</String>
-        <String xml:lang="es-ES">Ve a ~y~{0} ~s~y ayuda a {1}{2} ({3})~s~.</String>
-        <String xml:lang="pl-PL">Pójdź do ~y~{0} ~s~i pomóż {1}{2} ({3})~s~.</String>
+        <String xml:lang="en-US">Go to ~y~{0} ~s~and assist {1}.</String>
+        <String xml:lang="it-IT">Raggiungi ~y~{0} ~s~ed aiuta {1}.</String>
+        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en assisteer {1}.</String>
+        <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und hilf {1}.</String>
+        <String xml:lang="tr-TR">Git ~y~{0} ~s~ve yardım et {1}.</String>
+        <String xml:lang="es-ES">Ve a ~y~{0} ~s~y ayuda a {1}.</String>
+        <String xml:lang="pl-PL">Pójdź do ~y~{0} ~s~i pomóż {1}.</String>
     </Entry>
 
     <Entry Id="police_npc_loss">
@@ -955,14 +941,13 @@
         <String xml:lang="de-DE">Der Polizist {0} hat {1} ~s~von dir ~r~beschlagnahmt~s~.</String>
     </Entry>
 
-    <!-- {0} = Player name -->
-    <!-- {1} = Player Id -->
+    <!-- {0} = Officer -->
     <Entry Id="police_respond_call">
-        <String xml:lang="en-US">Officer ~b~(C){0} ({1})(/C) ~s~has responded to the call.</String>
-        <String xml:lang="it-IT">L'agente ~b~(C){0} ({1})(/C) ~s~ha risposto alla chiamata.</String>
-        <String xml:lang="es-ES">El policia ~b~(C){0} ({1})(/C) ~s~ha respondido a la llamada.</String>
-        <String xml:lang="pl-PL">Oficer ~p~(C){0} ({1})(/C) ~s~odpowiedział na zawołanie.</String>
-        <String xml:lang="de-DE">Der Polizist ~p~ (C){0} ({1})(/C)~s~ hat den Anruf angenommen.</String>
+        <String xml:lang="en-US">Officer {0} has responded to the call.</String>
+        <String xml:lang="it-IT">L'agente {0} ha risposto alla chiamata.</String>
+        <String xml:lang="es-ES">El policia {0} ha respondido a la llamada.</String>
+        <String xml:lang="pl-PL">Oficer {0} odpowiedział na zawołanie.</String>
+        <String xml:lang="de-DE">Der Polizist {0} hat den Anruf angenommen.</String>
     </Entry>
 
     <!-- {0} = Officers' name -->
