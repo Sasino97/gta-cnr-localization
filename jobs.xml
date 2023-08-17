@@ -66,6 +66,7 @@
 
     <Entry Id="stp_offered_service">
         <String xml:lang="en-US">You've offered your ~y~services ~s~to {0}~s~.</String>
+        <String xml:lang="it-IT">Hai offerto i tuoi ~y~servizi ~s~a {0}~s~.</String>
         <String xml:lang="pl-PL">Zaoferowałeś swoje ~y~usługi ~s~ {0}~s~.</String>
     </Entry>
 
@@ -73,6 +74,7 @@
     <!-- {1} = Hotkey -->
     <Entry Id="stp_player_offered_service">
         <String xml:lang="en-US">{0} ~s~has offered you ~y~their services~s~. {1} to view their menu.</String>
+        <String xml:lang="it-IT">{0} ~s~ti ha offerto i ~y~suoi servizi~s~. {1} per visualizzare il suo menu.</String>
         <String xml:lang="epl-PL">{0} ~s~zaoferował ci ~y~swoje usługi~s~. {1} by zobaczyć ich menu.</String>
     </Entry>
 
@@ -80,51 +82,61 @@
     <!-- {1} = Limit in percentage -->
     <Entry Id="stp_player_limit">
         <String xml:lang="en-US">You can't become a ~b~{0} ~s~because the {1}% player limit has been reached.</String>
+        <String xml:lang="it-IT">Non puoi diventare un ~b~{0} ~s~perché è stato raggiunto il limite del {1}% dei giocatori.</String>
         <String xml:lang="pl-PL">Nie możesz zostać ~b~{0} ~s~bo {1}% limit graczy został osiągnięty</String>
     </Entry>
 
     <Entry Id="stp_too_far">
         <String xml:lang="en-US">{0} is ~r~too far ~s~from you.</String>
+        <String xml:lang="it-IT">{0} è ~r~troppo lontano ~s~da te.</String>
         <String xml:lang="pl-PL">{0} jest ~r~za daleko ~s~od ciebie.</String>
     </Entry>
 
     <Entry Id="stp_need_vehicle_to_purchase">
         <String xml:lang="en-US">~r~You need a vehicle to purchase this service.</String>
+        <String xml:lang="it-IT">~r~Ti serve un veicolo per acquistare questo servizio.</String>
         <String xml:lang="pl-PL">~r~Potrzebujesz pojazdu by kupić tą usługę.</String>
     </Entry>
 
     <Entry Id="stp_cant_purchase_service_while_moving">
         <String xml:lang="en-US">~r~You can't purchase this service when the vehicle is moving.</String>
+        <String xml:lang="it-IT">~r~Non puoi acquistare questo servizio quando il veicolo è in movimento.</String>
         <String xml:lang="pl-PL">~r~Nie możesz kupić tej usługi gdy pojazd się rusza.</String>
     </Entry>
 
     <Entry Id="stp_cant_purchase_when_seller_in_vehicle">
         <String xml:lang="en-US">~r~You can't purchase this service when the seller is inside a vehicle.</String>
+        <String xml:lang="it-IT">~r~Non puoi acquistare questo servizio quando il venditore è dentro un veicolo.</String>
         <String xml:lang="pl-PL">~r~Nie możesz kupić tej usługi gdy usługowdawca jest w pojeździe.</String>
     </Entry>
 
     <Entry Id="stp_too_far_from_seller">
         <String xml:lang="en-US">~r~You are too far from the seller!</String>
+        <String xml:lang="it-IT">~r~Sei troppo lontano dal venditore!</String>
         <String xml:lang="pl-PL">~r~Jesteś za daleko od usługodawcy!</String>
     </Entry>
 
     <Entry Id="stp_seller_doesnt_have_enough">
         <String xml:lang="en-US">~r~The seller doesn't have enough {0}!</String>
+        <String xml:lang="it-IT">~r~Questo venditore non ha abbastanza {0}!</String>
         <String xml:lang="pl-PL">~r~Usługodawca nie ma wystarczająco dużo {0}!</String>
     </Entry>
 
     <Entry Id="stp_seller_doesnt_have_enough_supplies">
         <String xml:lang="en-US">~r~The seller doesn't have enough supplies to provide the ~s~{0} ~r~service!</String>
+        <String xml:lang="it-IT">~r~Il venditore non ha abbastanza rifornimenti per offrire il servizio ~s~{0}~r~!</String>
         <String xml:lang="pl-PL">~r~usługowdawca nie ma wystarczająco dużo materiałów by wykonać ~s~{0} ~r~usługę!</String>
     </Entry>
 
     <Entry Id="stp_seller_doesnt_have_required_certification">
         <String xml:lang="en-US">~r~The seller doesn't have the required certification to provide the ~s~{0} ~r~service!</String>
+        <String xml:lang="it-IT">~r~Il venditore non ha la certificazione necessaria per fornire il servizio ~s~{0}~r~!</String>
         <String xml:lang="pl-PL">~r~usługowdawca nie ma wymaganej certyfikacji do wykonania ~s~{0} ~r~usługi!</String>
     </Entry>
 
     <Entry Id="stp_seller_updated_prices">
         <String xml:lang="en-US">~r~The seller has updated their prices. The menu has been refreshed.</String>
+        <String xml:lang="it-IT">~r~Il venditore ha aggiornato i prezzi. Il menu è stato aggiornato.</String>
         <String xml:lang="pl-PL">~r~Usługodawca zmienił ceny. Menu zostało odświeżone. {0}!</String>
     </Entry>
 
@@ -614,6 +626,7 @@
 
     <Entry Id="mechanic_cant_modify_rented_vehicle">
         <String xml:lang="en-US">~r~You cannot modify a rented vehicle!</String>
+        <String xml:lang="it-IT">~r~Non puoi modificare un veicolo noleggiato!</String>
         <String xml:lang="pl-PL">~r~Nie możesz modyfikować wynajętego pojazdu!</String>
     </Entry>
 
@@ -957,7 +970,7 @@
     <!-- {2} = Bribe amount -->
     <Entry Id="police_bribe_accepted_not_shared">
         <String xml:lang="en-US">{0} accepted {1}'s ~g~{2} ~s~bribe but didn't share it.</String>
-        <String xml:lang="it-IT">{0} ha accettato la mazzetta di ~g~{2} ~s~offerta da {1} ma non l'ha condivisa.</String>
+        <String xml:lang="it-IT">{0} ha accettato l'offerta di corruzione di ~g~{2} ~s~da {1} senza condividerla.</String>
         <String xml:lang="es-ES">{0} aceptó el ~g~{2} ~s~soborno de {1} pero no lo compartió.</String>
         <String xml:lang="pl-PL">{0} przyjął ~g~{2} ~s~łapówki {1} ale się nią nie podzielił.</String>
         <String xml:lang="de-DE">{0} nahm {1}'s ~g~{2} ~s~Bestechung aber hat nicht geteilt.</String>
@@ -967,7 +980,7 @@
     <!-- {1} = Criminals' name -->
     <Entry Id="police_bribe_accepted_shared">
         <String xml:lang="en-US">{0} accepted {1}'s bribe and shared it with nearby officers.</String>
-        <String xml:lang="it-IT">{0} ha accettato la mazzetta ~s~offerta da {1} e l'ha condivisa con gli agenti vicini.</String>
+        <String xml:lang="it-IT">{0} ha accettato l'~s~offerta di corruzione da {1} e l'ha condivisa con gli agenti vicini.</String>
         <String xml:lang="es-ES">{0} aceptó el soborno de {1} y lo compartió con los policias cercanos.</String>
         <String xml:lang="pl-PL">{0} przyjął łapówkę gracza {1} i podzielił się nią z pobliskimi glinami.</String>
         <String xml:lang="de-DE">{0} hat {1}'s Bestechung angenommen und mit allen Polizisten in der Nähe geteilt.</String>
@@ -1380,21 +1393,25 @@
     <!-- {0} = Player -->
     <Entry Id="police_ignored_bribe">
         <String xml:lang="en-US">You ignored {0}'s bribe offer.</String>
+        <String xml:lang="it-IT">Hai ignorato l'offerta di corruzione di {0}.</String>
         <String xml:lang="pl-PL">Zignorowałeś łapówkę {0}.</String>
     </Entry>
 
     <Entry Id="police_too_far_to_accept_bribe">
         <String xml:lang="en-US">You are ~r~too far ~s~from {0}, you can't accept or refuse the ~r~bribe~s~.</String>
+        <String xml:lang="it-IT">Sei ~r~troppo lontano~s~ da {0}, non puoi accettare o rifiutare l'~r~offerta di corruzione~s~.</String>
         <String xml:lang="pl-PL">Jesteś ~r~za daleko ~s~od {0}, nie możesz akceptować ani odrzucić ~r~łapówki~s~.</String>
     </Entry>
 
     <Entry Id="police_wait_ten_minutes_bribe">
         <String xml:lang="en-US">You must wait 10 minutes before accepting a ~r~bribe ~s~from the same player again.</String>
+        <String xml:lang="it-IT">Devi aspettare 10 minuti prima di accettare nuovamente un'~r~offerta di corruzione ~s~dallo stesso giocatore.</String>
         <String xml:lang="pl-PL">Musisz poczekać 10 minut zanim zaakceptujesz ~r~łapówkę ~s~od tego samego gracza.</String>
     </Entry>
 
     <Entry Id="police_could_not_afford_bribe">
         <String xml:lang="en-US">{0} could not afford the ~r~bribe~s~.</String>
+        <String xml:lang="it-IT">{0} non può permettersi di pagare l'~r~offerta di corruzione~s~.</String>
         <String xml:lang="pl-PL">{0} nie stać na zapłącenie ~r~łapówki~s~.</String>
     </Entry>
 
@@ -1402,58 +1419,69 @@
     <!-- {1} = Amount -->
     <Entry Id="police_offered_amount_bribe">
         <String xml:lang="en-US">You offered {0} ~s~a ~g~{1} ~s~bribe.</String>
+        <String xml:lang="it-IT">Hai offerto ~g~{1} ~s~per corrompere {0}~s~.</String>
         <String xml:lang="pl-PL">Oferowałeś {0} ~g~{1} ~s~łapówkę.</String>
 
     </Entry>
 
     <Entry Id="police_no_longer_connected_bribe">
         <String xml:lang="en-US">~r~{0} is no longer connected to the server.</String>
+        <String xml:lang="it-IT">~r~{0} non è più connesso al server.</String>
         <String xml:lang="pl-PL">~r~{0} wyszedł z serwera.</String>
     </Entry>
 
     <Entry Id="police_not_close_enough_to_bribe">
         <String xml:lang="en-US">~r~{0} is not close enough to offer them a bribe.</String>
+        <String xml:lang="it-IT">~r~{0} non gli è abbastanza vicino per fare un'offerta di corruzione.</String>
         <String xml:lang="pl-PL">~r~{0} jest za daleko by oferować mu łapówkę.</String>
     </Entry>
 
     <Entry Id="police_already_have_open_offer">
         <String xml:lang="en-US">~r~You already have an active bribe offer.</String>
+        <String xml:lang="it-IT">~r~Hai già un'offerta di corruzione attiva.</String>
         <String xml:lang="pl-PL">~r~Masz już aktywną ofertę łapówki.</String>
     </Entry>
 
     <Entry Id="police_officer_already_have_open_offer">
         <String xml:lang="en-US">~r~{0} already has an active bribe offer.</String>
+        <String xml:lang="it-IT">~r~{0} ha già un'offerta di corruzione attiva.</String>
         <String xml:lang="pl-PL">~r~{0} ma już aktywną ofertę łapówki.</String>
     </Entry>
 
     <Entry Id="police_cant_bribe_same_officer_within_ten">
         <String xml:lang="en-US">~r~You cannot bribe the same officer twice within 10 minutes.</String>
+        <String xml:lang="it-IT">~r~Non puoi corrompere lo stesso agente due volte in 10 minuti.</String>
         <String xml:lang="pl-PL">~r~Nie możesz przekupić tego samego gliniarza dwa razy przez 10 minut.</String>
     </Entry>
 
     <Entry Id="police_cant_bribe_after_revive_auto_cuff">
         <String xml:lang="en-US">~r~You cannot bribe a police officer for 2 minutes after being revived and auto-cuffed.</String>
+        <String xml:lang="it-IT">~r~Non puoi corrompere un agente di polizia per 2 minuti dopo essere stato rianimato e ammanettato automaticamente.</String>
         <String xml:lang="pl-PL">~r~Nie możesz przekupić gliniarzy przez 2 minuty po zostaniu ocuconym i automatycznie zakutym.</String>
 
     </Entry>
 
     <Entry Id="police_viewing_bribe">
         <String xml:lang="en-US">{0} is ~y~viewing ~s~your bribe offer.</String>
+        <String xml:lang="it-IT">{0} sta ~y~guardando ~s~la tua offerta di corruzione.</String>
         <String xml:lang="pl-PL">{0} ~y~ogląda ~s~twoją ofertę łapówki.</String>
     </Entry>
 
     <Entry Id="police_player_left_canceled_bribe">
-        <String xml:lang="en-US">{0} has ~r~left the server ~s~ and your bribe offer was canceled.</String>
+        <String xml:lang="en-US">{0} has ~r~left the server ~s~and your bribe offer was canceled.</String>
+        <String xml:lang="it-IT">{0} è ~r~uscito dal server ~s~e la tua offerta di corruzione è stata annullata.</String>
         <String xml:lang="pl-PL">{0} ~r~wyszedł z serwera~s~, a twoja oferta łapówki została anulowana.</String>
     </Entry>
 
     <Entry Id="police_accepted_bribe">
         <String xml:lang="en-US">{0} has ~g~accepted ~s~your bribe offer.</String>
+        <String xml:lang="it-IT">{0} ha ~g~accettato ~s~la tua offerta di corruzione.</String>
         <String xml:lang="pl-PL">{0} ~g~zaakeceptował ~s~twoją łapówkę.</String>
     </Entry>
 
     <Entry Id="police_refused_wanted_level_bribe">
         <String xml:lang="en-US">{0} has ~r~refused ~s~your bribe offer and reported the incident. You gained a wanted level.</String>
+        <String xml:lang="it-IT">{0} ha ~r~rifiutato ~s~la tua offerta di corruzione e ha segnalato l'incidente. Il tuo livello di ricercato è salito.</String>
         <String xml:lang="pl-PL">{0} ~r~odrzucił ~s~twoją łapówkę i zgłosił zdarzenie. Dostałeś za to poziom pościgu.</String>
     </Entry>
 
@@ -1461,27 +1489,32 @@
     <!-- {1} = Reason -->
     <Entry Id="police_player_911_call">
         <String xml:lang="en-US">{0} {1}</String>
+        <String xml:lang="it-IT">{0} {1}</String>
         <String xml:lang="pl-PL">{0} {1}</String>
     </Entry>
 
     <!-- {0} = countdown -->
     <Entry Id="police_leaving_us_offduty">
         <String xml:lang="en-US">~y~Warning: ~s~you are leaving the ~b~United States~s~. You will go off duty in {0} seconds.</String>
+        <String xml:lang="it-IT">~y~Attenzione: ~s~stai lasciando gli ~b~Stati Uniti~s~. Fra {0} secondi sarai fuori servizio.</String>
         <String xml:lang="pl-PL">~y~Ostrzeżenie: ~s~opuszczasz ~b~Stany Zjednoczone~s~. Opuścisz pracę za {0} sekund.</String>
     </Entry>
 
     <Entry Id="police_no_arrest_warrant">
         <String xml:lang="en-US">~r~You do not have an arrest warrant.</String>
+        <String xml:lang="it-IT">~r~Non hai un mandato d'arresto.</String>
         <String xml:lang="pl-PL">~r~Nie masz listu gończego</String>
     </Entry>
 
     <Entry Id="police_cant_turn_yourself_in_officers_nearby">
         <String xml:lang="en-US">~r~You cannot turn yourself in at the police station because there are police officers nearby.</String>
+        <String xml:lang="it-IT">~r~Non puoi consegnarti alla stazione di polizia perché ci sono agenti di polizia nelle vicinanze.</String>
         <String xml:lang="pl-PL">~r~Nie możesz poddać się na komendzie bo w pobliżu są gliny</String>
     </Entry>
 
     <Entry Id="police_unmarked_vehicle">
         <String xml:lang="en-US">~b~Unmarked police vehicle!\n~s~Civilians won't see your marker as ~b~blue ~s~until you get close enough or turn on your siren.</String>
+        <String xml:lang="it-IT">~B~Auto borghese della polizia!\n~s~I civili civili non vedranno il tuo indicatore ~b~blu ~s~finché non ti avvicini abbastanza o accendi la sirena.</String>
         <String xml:lang="pl-PL">~b~Nieoznaczony pojazd policyjny!\n~s~Cywile nie zobaczą twojego markera jako ~b~niebieski ~s~dopóki nie będziesz wystarczająco blisko lub aktywujesz syrenę.</String>
     </Entry>
 
@@ -1490,6 +1523,7 @@
     <!-- {2} = Key (Z) -->
     <Entry Id="police_cant_bribe_after_revive_auto_cuff">
         <String xml:lang="en-US">{0} ~s~has offered you a ~g~{1} ~s~bribe. {2} to view the offer.</String>
+        <String xml:lang="it-IT">{0} ~s~ti ha fatto un offerta di corruzione di ~g~{1}~s~. {2} per visualizzare l'offerta.</String>
         <String xml:lang="epl-PL">{0} ~s~oferował ci ~g~{1} ~s~łapówkę. {2} by zobaczyć ofertę.</String>
     </Entry>
 
@@ -1906,16 +1940,19 @@
 
     <Entry Id="no_nearby_players_give_weapon">
         <String xml:lang="en-US">There are no ~r~nearby players ~s~to give your weapon to.</String>
+        <String xml:lang="it-IT">Non ci sono ~r~giocatori nelle vicinanze ~s~a cui dare la tua arma.</String>
         <String xml:lang="pl-PL">Nie ma w ~r~pobliżu graczy ~s~którym mógłbyś dać swoją broń.</String>
     </Entry>
 
     <Entry Id="cant_give_weapon_to_dead">
         <String xml:lang="en-US">~r~You can't give a weapon to a dead player.</String>
+        <String xml:lang="it-IT">~r~Non puoi dare un'arma a un giocatore morto.</String>
         <String xml:lang="pl-PL">~r~Nie możesz dać broni trupowi.</String>
     </Entry>
 
     <Entry Id="player_too_far_give_weapon">
         <String xml:lang="en-US">~r~The player is too far, you can't give them a weapon.</String>
+        <String xml:lang="it-IT">~r~Il giocatore è troppo lontano, non puoi dargli un'arma.</String>
         <String xml:lang="pl-PL">~r~Gracz jest za daleko, nie możesz dać mu broni.</String>
     </Entry>
 
@@ -1924,6 +1961,7 @@
     <!-- {1} = Weapon -->
     <Entry Id="player_gave_weapon">
         <String xml:lang="en-US">You gave {0} a ~y~{1}~s~.</String>
+        <String xml:lang="it-IT">Hai dato a {0} ~y~{1}~s~</String>
         <String xml:lang="pl-PL">Przekazałeś {0} ~y~{1}~s~.</String>
     </Entry>
 
@@ -1931,6 +1969,7 @@
     <!-- {1} = Weapon -->
     <Entry Id="player_already_has_weapon">
         <String xml:lang="en-US">{0} already has a ~y~{1}~s~.</String>
+        <String xml:lang="it-IT">{0} ha già {0} ~y~{1}~s~</String>
         <String xml:lang="pl-PL">{0} ma już ~y~{1}~s~.</String>
     </Entry>
 
@@ -1938,6 +1977,7 @@
     <!-- {1} = Player -->
     <Entry Id="player_received_weapon">
         <String xml:lang="en-US">Received a ~y~{0} ~s~from (C){0}(/C).</String>
+        <String xml:lang="it-IT">Hai ricevuto ~y~{0} ~s~da (C){0}(/C).</String>
         <String xml:lang="pl-PL">Dostałeś ~y~{0} ~s~od (C){0}(/C).</String>
     </Entry>
 
