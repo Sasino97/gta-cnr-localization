@@ -1096,7 +1096,7 @@
         <String xml:lang="pl-PL">~b~Oficer {0} ~s~kazał ci wyjść z ~b~pojazdu~s~.</String>
     </Entry>
 
-    <Entry Id="police_suspect_in_vehicle">
+    <Entry Id="police_suspect_already_in_vehicle">
         <String xml:lang="en-US">The ~o~suspect ~s~is already in a vehicle.</String>
         <String xml:lang="it-IT">Il ~o~sospettato ~s~è già in un veicolo.</String>
         <String xml:lang="es-ES">El ~o~sospechoso ~s~ya está en un vehículo.</String>
@@ -1503,11 +1503,11 @@
 
     <!-- {0} = Player -->
     <!-- {1} = Amount -->
-    <!-- {2} = Key (Z) -->
-    <Entry Id="police_cant_bribe_after_revive_auto_cuff">
+    <!-- {2} = Control instructions (for example: "Press Z", "Press Y", "Hold 🔼") -->
+    <Entry Id="police_received_bribe">
         <String xml:lang="en-US">{0} ~s~has offered you a ~g~{1} ~s~bribe. {2} to view the offer.</String>
         <String xml:lang="it-IT">{0} ~s~ti ha fatto un offerta di corruzione di ~g~{1}~s~. {2} per visualizzare l'offerta.</String>
-        <String xml:lang="epl-PL">{0} ~s~oferował ci ~g~{1} ~s~łapówkę. {2} by zobaczyć ofertę.</String>
+        <String xml:lang="pl-PL">{0} ~s~oferował ci ~g~{1} ~s~łapówkę. {2} by zobaczyć ofertę.</String>
     </Entry>
 
     <Entry Id="police_seized_all">
