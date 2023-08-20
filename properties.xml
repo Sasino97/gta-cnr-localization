@@ -43,16 +43,6 @@
         <String xml:lang="pl-PL">Wziąłeś {0} ~p~{1} ~s~ze swojego magazynu.</String>'
     </Entry>
 
-    <!-- {0} = Player name -->
-    <!-- {1} = Warehouse name -->
-    <Entry Id="warehouse_player_entered_specific">
-        <String xml:lang="en-US">(C){0}(/C) entered ~y~{1}~s~.</String>
-        <String xml:lang="it-IT">(C){0}(/C) è entrato in ~y~{1}~s~.</String>
-        <String xml:lang="pl-PL">(C){0}(/C) wszedł do ~y~{1}~s~.</String>
-        <String xml:lang="es-ES">(C){0}(/C) entro en ~y~{1}~s~.</String>
-        <String xml:lang="de-DE">(C){0}(/C) hat ~y~{1}~s~ betreten.</String>
-    </Entry>
-
     <Entry Id="warehouse_player_entered">
         <String xml:lang="en-US">(C){0}(/C) ~g~entered the warehouse~s~.</String>
         <String xml:lang="it-IT">(C){0}(/C) ~g~è entrato ~s~nel magazzino.</String>
@@ -88,6 +78,15 @@
         <String xml:lang="pl-PL">(C){0}(/C) wszedł do ~y~{1}~s~.</String>
         <String xml:lang="es-ES">(C){0}(/C) entro en ~y~{1}~s~.</String>
         <String xml:lang="de-DE">(C){0}(/C) hat ~y~{1}~s~ betreten.</String>
+    </Entry>
+
+    <Entry Id="vehicle_gps_set">
+        <String xml:lang="en-US">~r~You have to be in a vehicle to set the GPS.</String>
+    </Entry>
+
+    <!-- {0} = Property name (warehouse; garage; ...) -->
+    <Entry Id="property_navigating">
+        <String xml:lang="en-US">Navigating to ~y~{0}~s~.</String>
     </Entry>
 
 </Entries>
