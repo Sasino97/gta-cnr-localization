@@ -81,6 +81,9 @@
         <String xml:lang="pl-PL">~y~Ostrzeżenie! ~s~Weszłeś do ~r~strefy zagrożonej~s~. Cywile i kryminaliści mogą zabijać tu zabijać wszystkich.</String>
     </Entry>
 
+    <!-- ========================= -->
+    <!-- Report -->
+    <!-- ========================= -->
     <Entry Id="report_submitted">
         <String xml:lang="en-US">Your ~g~report ~s~on ~r~{0} ~s~has been submitted.</String>
         <String xml:lang="it-IT">La tua ~g~segnalazione ~s~su ~r~{0} ~s~è stata inviata.</String>
@@ -91,6 +94,129 @@
         <String xml:lang="en-US">~r~You cannot report the same player that soon.</String>
         <String xml:lang="it-IT">~r~Non puoi segnalare lo stesso giocatore così presto.</String>
         <String xml:lang="pl-PL">~r~Nie możesz tak szybko zgłosić tego samego gracza.</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Services / Linking -->
+    <!-- ========================= -->
+    <Entry Id="service_cant_unlink_all">
+        <String xml:lang="en-US">~r~You cannot unlink all services. There must be at least one service linked.</String>
+    </Entry>
+
+    <!-- {0} = Service name (Discord; FiveM; Steam; ...) -->
+    <Entry Id="service_unlinked">
+        <String xml:lang="en-US">You ~g~successfully ~s~unlinked {0} from your account.</String>
+    </Entry>
+
+    <Entry Id="service_linked">
+        <String xml:lang="en-US">You've ~g~successfully ~s~linked ~b~{0} ~s~to your account.</String>
+    </Entry>
+
+    <Entry Id="service_mail_already_linked">
+        <String xml:lang="en-US">~r~This email address is already linked to another account.</String>
+    </Entry>
+
+    <Entry Id="service_mail_cooldown">
+        <String xml:lang="en-US">~r~You must wait 2 minutes between email change attempts.</String>
+    </Entry>
+
+    <Entry Id="service_mail_invalid">
+        <String xml:lang="en-US">~r~{0} is not a valid email address.</String>
+    </Entry>
+
+    <!-- {0} = both the same -> Service name (Discord; FiveM; Steam; ...) -->
+    <Entry Id="service_account_not_found_restart">
+        <String xml:lang="en-US">{0} account not found. Make sure your {0} desktop app is running, then restart FiveM and retry.</String>
+    </Entry>
+
+    <Entry Id="service_account_not_found_disconnect">
+        <String xml:lang="en-US">{0} account not found. Disconnect and go back to the FiveM launcher, then log in to your FiveM account and retry.</String>
+    </Entry>
+
+    <Entry Id="server_processing_request">
+        <String xml:lang="en-US">~r~The server is still processing your previous request. Please, wait before sending another one.</String>
+    </Entry>
+
+    <Entry Id="entered_password_too_short">
+        <String xml:lang="en-US">~r~The entered password is too short (min 8 characters). Operation canceled.</String>
+    </Entry>
+
+    <Entry Id="entered_password_dont_match">
+        <String xml:lang="en-US">~r~The entered passwords don't match. Operation canceled.</String>
+    </Entry>
+
+    <Entry Id="password_changed">
+        <String xml:lang="en-US">Your ~b~password ~s~has been ~g~successfully changed~s~.</String>
+    </Entry>
+
+    <Entry Id="cant_do_while_fake_username">
+        <String xml:lang="en-US">~r~You cannot do this while you're using a fake username.</String>
+    </Entry>
+
+    <!-- {0} = Item name (Membership, Name-change token, ...) -->
+    <Entry Id="successfully_activated_item">
+        <String xml:lang="en-US">You successfully activated your ~p~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="already_active_subscription">
+        <String xml:lang="en-US">~r~You already have an active subscription. If you need help, open a support ticket on Discord.</String>
+    </Entry>
+
+    <Entry Id="unable_deactivate_silver_membership">
+        <String xml:lang="en-US">~r~Unable to deactivate your current Silver Membership to upgrade. If the error persists, please open a support ticket on our Discord.</String>
+    </Entry>
+
+    <Entry Id="visit_hospital_plastic_surgery">
+        <String xml:lang="en-US">Visit a ~r~hospital ~s~to get a ~p~plastic surgery~s~.</String>
+    </Entry>
+
+    <Entry Id="operation_canceled">
+        <String xml:lang="en-US">~r~Operation canceled.</String>
+    </Entry>
+
+    <Entry Id="account_menu_change_username">
+        <String xml:lang="en-US">Go back to the ~b~Account ~s~menu to change your username.</String>
+    </Entry>
+
+    <Entry Id="item_cant_used">
+        <String xml:lang="en-US">This kind of item ~r~cannot be used~s~.</String>
+    </Entry>
+
+    <Entry Id="username_change_cooldown">
+        <String xml:lang="en-US">You need to ~r~wait ~s~before changing your ~b~username ~s~again.</String>
+    </Entry>
+
+    <!-- {0} = New username -->
+    <Entry Id="username_new_already_taken">
+        <String xml:lang="en-US">The name ~b~{0} ~s~is already taken.</String>
+    </Entry>
+
+    <!-- {0} = Discord -->
+    <Entry Id="username_new_already_taken">
+        <String xml:lang="en-US">~g~Staff members ~s~must contact an admin or manager for a ~b~name change~s~. The admin must make sure that the in-game name matches the name on {0} and is not obscene or vulgar.</String>
+    </Entry>
+
+    <Entry Id="entered_code_incorrect">
+        <String xml:lang="en-US">~r~The code you entered is incorrect.</String>
+    </Entry>
+
+    <Entry Id="entered_code_expired">
+        <String xml:lang="en-US">~r~The code has expired.</String>
+    </Entry>
+
+    <!-- {0} = Amount -->
+    <!-- {0} = Item -->
+    <!-- {0} = User's name -->
+    <Entry Id="successfully_transferred">
+        <String xml:lang="en-US">You successfully transferred {am00ount} ~p~{1} ~s~to ~y~{2}~s~.</String>
+    </Entry>
+
+    <Entry Id="unable_to_find_player">
+        <String xml:lang="en-US">~r~The server is unable to find the specified player.</String>
+    </Entry>
+
+    <Entry Id="cant_send_gift_yourself">
+        <String xml:lang="en-US">~r~You can't send a gift to yourself.</String>
     </Entry>
 
 </Entries>
