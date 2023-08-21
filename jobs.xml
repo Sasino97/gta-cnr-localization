@@ -1666,12 +1666,14 @@
     <!-- {2} = Control instructions (for example: "Press Z", "Press Y", "Hold 🔼") -->
     <Entry Id="police_received_bribe">
         <String xml:lang="en-US">{0} ~s~has offered you a ~g~{1} ~s~bribe. {2} to view the offer.</String>
+        <String xml:lang="nl-NL">{0} ~s~heeft een omkopingsoffer van ~g~{1} ~s~gestuurd. {2} om het te bekijken.</String>
         <String xml:lang="it-IT">{0} ~s~ti ha fatto un offerta di corruzione di ~g~{1}~s~. {2} per visualizzare l'offerta.</String>
         <String xml:lang="pl-PL">{0} ~s~oferował ci ~g~{1} ~s~łapówkę. {2} by zobaczyć ofertę.</String>
     </Entry>
 
     <Entry Id="police_seized_all">
         <String xml:lang="en-US">You seized all of {0}'s ~r~illegal items~s~.</String>
+        <String xml:lang="nl-NL">Je hebt alle ~r~illegale items~s~ van {0} in beslag genomen.</String>
         <String xml:lang="it-IT">Hai sequestrato tutti gli ~r~oggetti illegali~s~ di {0}.</String>
         <String xml:lang="es-ES">Has confiscado todos los ~r~artículos ilegales~s~ de {0}.</String>
         <String xml:lang="pl-PL">Skonfiskowałeś ~r~nielegalne przedmioty~s~ {0}.</String>
@@ -1679,6 +1681,7 @@
 
     <Entry Id="stunned_by_police">
         <String xml:lang="en-US">You've been stunned by the ~b~police~s~. You're going nowhere!</String>
+        <String xml:lang="nl-NL">Je bent gestunned door de ~b~politie~s~. Je gaat nergens heen!</String>
         <String xml:lang="it-IT">Sei stato stordito dalla ~b~polizia~s~. Non andrai da nessuna parte!</String>
         <String xml:lang="es-ES">Te han sorprendido los ~b~policías~. ¡No vas a ninguna parte!</String>
         <String xml:lang="pl-PL">Zostałeś sparaliżowany przez ~b~policję~s~. Trzeba było spieprzać szybciej!</String>
@@ -1729,6 +1732,7 @@
     <!--   [{0}]  [ {1} ][{2}]                                          [   {3}   ]            [   {4}   ]  -->
     <Entry Id="vehicle_export_player_found_value">
         <String xml:lang="en-US">{0}{1} ({2}) ~s~has found today's ~b~most wanted vehicle ~s~in ~y~{3}~s~. Value: ~g~{4}~s~.</String>
+        <String xml:lang="nl-NL">{0}{1} ({2}) ~s~heeft ~b~most wanted vehicle ~s~ van vandaag gevonden in ~y~{3}~s~. Waarde: ~g~{4}~s~.</String>
         <String xml:lang="it-IT">{0}{1} ({2}) ~s~hha trovato il ~b~veicolo più ricercato ~s~di oggi in ~y~{3}~s~. Valore: ~g~{4}~s~.</String>
         <String xml:lang="es-ES">{0}{1} ({2}) ~s~ha encontrado el ~b~vehículo más buscado de hoy ~s~en ~y~{3}~s~. Valor: ~g~{4}~s~.</String>
         <String xml:lang="pl-PL">{0}{1} ({2}) ~s~znalazł dzisiejszy ~b~poszukiwany pojazd ~s~ w ~y~{3}~s~. Wartość: ~g~{4}~s~.</String>
@@ -1744,14 +1748,16 @@
     <!--                  {0}         {1}  -->
     <Entry Id="committed_crime">
         <String xml:lang="en-US">You committed a {0} ~s~- {1}</String>
+        <String xml:lang="nl-NL">Je hebt een {0}~s~ gepleegd - {1}</String>
         <String xml:lang="it-IT">Hai commesso un {0} ~s~- {1}</String>
-        <String xml:lang="de-DE">Du hast eine {0} begangen ~s~- {1}</String>
+        <String xml:lang="de-DE">Du hast eine {0}~s~ begangen - {1}</String>
         <String xml:lang="es-ES">Cometiste un {0} ~s~- {1}</String>
         <String xml:lang="pl-PL">Popełniłeś {0} ~s~- {1}</String>
     </Entry>
 
     <Entry Id="felony">
         <String xml:lang="en-US">~o~Felony</String>
+        <String xml:lang="nl-NL">~o~Misdrijf</String>
         <String xml:lang="it-IT">~o~Reato</String>
         <String xml:lang="de-DE">~o~Straftat</String>
         <String xml:lang="es-ES">~o~Delito</String>
@@ -1760,6 +1766,7 @@
 
     <Entry Id="major_felony">
         <String xml:lang="en-US">~r~Major felony</String>
+        <String xml:lang="nl-NL">~o~Groot misdrijf</String>
         <String xml:lang="it-IT">~r~Reato grave</String>
         <String xml:lang="de-DE">~r~schwere Straftat</String>
         <String xml:lang="es-ES">~r~Delito grave</String>
@@ -1768,6 +1775,7 @@
 
     <Entry Id="crime_warrant_issued">
         <String xml:lang="en-US">~o~Arrest warrant ~s~issued - leave the area and stay away from the ~b~cops~s~!</String>
+        <String xml:lang="nl-NL">~o~Arrestatiebevel ~s~uitgedeeld - verlaat de regio en blijf weg van de ~b~politie~s~!</String>
         <String xml:lang="it-IT">~s~Emesso ~o~mandato d'arresto~s~ - lascia l'area e resta lontano dalla ~b~polizia~s~!</String>
         <String xml:lang="de-DE">~o~Haftbefehl ~s~ausgestellt - verlasse das Gebiet und halte dich von den ~b~Polizisten~s~ fern!</String>
         <String xml:lang="es-ES">~o~Orden de arresto ~s~emitida. ¡Abandone el área y manténgase alejado de los ~b~policías~s~!</String>
@@ -1776,6 +1784,7 @@
 
     <Entry Id="crime_most_wanted">
         <String xml:lang="en-US">You are ~r~most wanted~s~ - other players can kill you on sight!</String>
+        <String xml:lang="nl-NL">Je bent ~r~meest gezocht~s~ - andere spelers mogen jou op zicht vermoorden!</String>
         <String xml:lang="it-IT">Sei il ~r~più ricercato~s~ - altri giocatori possono ucciderti a vista!</String>
         <String xml:lang="de-DE">Du bist ~r~meistgesucht~s~ - andere Spieler dürfen dich bei Sichtkontakt töten!</String>
         <String xml:lang="es-ES">Eres ~r~más buscado~s~ - ¡otros jugadores pueden matarte a la vista!</String>
@@ -1787,6 +1796,7 @@
     <!-- ========================= -->
     <Entry Id="cannot_shop_gun_story_bounty">
         <String xml:lang="en-US">You cannot shop at gun stores when you have a ~r~bounty~s~.</String>
+        <String xml:lang="nl-NL">Je kan niet winkelen bij wapenwinkels wanneer je een ~r~bounty~s~ hebt.</String>
         <String xml:lang="it-IT">Non puoi fare acquisti nelle armerie mentre è presente una ~r~taglia~s~ su di te!</String>
         <String xml:lang="de-DE">Du kannst nicht bei Waffenläden einkaufen, wenn du ein ~r~Kopfgeld~s~ hast.</String>
         <String xml:lang="es-ES">No puedes comprar en tiendas de armas cuando tienes una ~r~recompensa~s~.</String>
@@ -1795,6 +1805,7 @@
 
     <Entry Id="cannot_shop_store_on_duty">
         <String xml:lang="en-US">You cannot shop at this store when you are ~b~on-duty~s~.</String>
+        <String xml:lang="nl-NL">Je kan niet winkelen bij deze winkel wanneer je ~b~in dienst~s~ bent.</String>
         <String xml:lang="it-IT">Non puoi fare acquisti in questo negozio mentre sei ~b~in servizio~s~!</String>
         <String xml:lang="de-DE">Du kannst bei diesem Laden nicht einkaufen, wenn du ~b~im Dienst~s~ bist.</String>
         <String xml:lang="es-ES">No puedes comprar en esta tienda cuando estás ~b~de servicio~s~.</String>
@@ -1803,6 +1814,7 @@
 
     <Entry Id="only_shop_police">
         <String xml:lang="en-US">Only ~b~police officers ~s~can shop at this store.</String>
+        <String xml:lang="nl-NL">Alleen ~b~politieagenten ~s~kunnen winkelen bij deze winkel.</String>
         <String xml:lang="it-IT">Solo gli ~b~agenti di polizia ~s~possono fare acquisti in questo negozio!</String>
         <String xml:lang="de-DE">Ausschließlich ~b~Polizisten ~s~können in diesem Laden einkaufen.</String>
         <String xml:lang="es-ES">Solo ~b~los agentes de policía ~s~pueden comprar en esta tienda.</String>
@@ -1815,6 +1827,7 @@
     <!-- Gun stores -->
     <Entry Id="already_own_weapon">
         <String xml:lang="en-US">~r~You already own this weapon!</String>
+        <String xml:lang="nl-NL">~r~Je hebt dit wapen al!</String>
         <String xml:lang="it-IT">~r~Possiedi già quest'arma!</String>
         <String xml:lang="de-DE">~r~Du besitzt diese Waffe bereits!</String>
         <String xml:lang="es-ES">~r~¡Ya tienes este arma!</String>
@@ -1823,6 +1836,7 @@
 
     <Entry Id="already_own_attachment">
         <String xml:lang="en-US">~r~You already own this attachment!</String>
+        <String xml:lang="nl-NL">~r~Je hebt dit accessoire al!</String>
         <String xml:lang="it-IT">~r~Possiedi già questo accessorio!</String>
         <String xml:lang="de-DE">~r~Du besitzt dieses Zubehör bereits!</String>
         <String xml:lang="es-ES">~r~¡Ya tienes este archivo adjunto!</String>
@@ -1831,6 +1845,7 @@
 
     <Entry Id="disclaimer_illegal_weapons_ammo">
         <String xml:lang="en-US">~r~Illegal weapons and ammo ~s~can be confiscated by the ~b~police ~s~if they search you, however, weapon customizations will save.</String>
+        <String xml:lang="nl-NL">~r~Illegale wapens en munitie ~s~kunnen in beslag genomen worden door de ~b~politie ~s~als ze je fouilleren, echter, wapen aanpassingen slaan wel op.</String>
         <String xml:lang="it-IT">~r~Armi e munizioni illegali ~s~possono essere confiscate dalla ~b~polizia ~s~se ti perquisiscono, però, le personalizzazioni sulle armi restano salvata.</String>
         <String xml:lang="de-DE">~r~Illegale Waffen und Munition ~s~können von der ~b~Polizei beschlagnahmt werden, ~s~wenn sie dich durchsuchen, Waffenmodifikationen werden jedoch gespeichert.</String>
         <String xml:lang="es-ES">~r~Las armas y municiones ilegales ~s~ pueden ser confiscadas por la ~b~policía ~s~si te registran, sin embargo, las personalizaciones de armas se salvarán.</String>
@@ -1839,6 +1854,7 @@
 
     <Entry Id="dont_have_required_level_item">
         <String xml:lang="en-US">~r~You don't have the required level to buy this item!</String>
+        <String xml:lang="nl-NL">~r~Je hebt niet het vereiste level om dit item te kunnen kopen!</String>
         <String xml:lang="it-IT">~r~Non hai il livello richiesto per aqcuistare questo oggetto!</String>
         <String xml:lang="de-DE">~r~Du hast nicht das benötigte Level, um diesen Gegenstand zu kaufen!</String>
         <String xml:lang="es-ES">~r~¡No tienes el nivel necesario para comprar este artículo!</String>
@@ -1847,6 +1863,7 @@
 
     <Entry Id="item_requires_membership">
         <String xml:lang="en-US">~r~This item requires a premium membership subscription!</String>
+        <String xml:lang="nl-NL">~r~Dit item vereist een premium lidmaatschap!</String>
         <String xml:lang="it-IT">~r~Questo oggetto richiede l'iscrizione ad un abbonamento premium!</String>
         <String xml:lang="de-DE">~r~Dieser Gegenstand erfordert ein Premium-Mitgliedschaftsabonnement!</String>
         <String xml:lang="es-ES">~r~¡Este artículo requiere una suscripción de membresía premium!</String>
@@ -1858,6 +1875,7 @@
     <!-- ========================= -->
     <Entry Id="public_officer_cant_rob">
         <String xml:lang="en-US">~r~Public officers can't shoplift!</String>
+        <String xml:lang="nl-NL">~r~Ambtenaren kunnen niet stelen!</String>
         <String xml:lang="it-IT">~r~Gli aggenti di polizia non possono rubare!</String>
         <String xml:lang="de-DE">~r~Beamte können keinen Laden ausrauben!</String>
         <String xml:lang="es-ES">~r~¡Los oficiales públicos no pueden robar!</String>
@@ -1866,14 +1884,16 @@
 
     <Entry Id="cannot_rob_same_store_twice">
         <String xml:lang="en-US">You ~r~cannot rob ~s~the same ~y~store ~s~twice in a row.</String>
+        <String xml:lang="nl-NL">Je ~r~kan niet~s~ dezelfde ~y~winkel~s~ twee keer achter elkaar ~r~overvallen~~.</String>
         <String xml:lang="it-IT">~r~Non puoi rapinare ~s~lo stesso ~y~negozio ~s~due volte di fila.</String>
-        <String xml:lang="de-DE">Du ~r~kannst nicht ~s~denselben Laden zwei Mal hintereinander ~r~ausrauben~s~.  </String>
+        <String xml:lang="de-DE">Du ~r~kannst nicht ~s~denselben Laden zwei Mal hintereinander ~r~ausrauben~s~.</String>
         <String xml:lang="es-ES">~r~No puedes robar ~s~la misma ~y~tienda ~s~dos veces seguidas.</String>
         <String xml:lang="pl-PL">~r~Nie możesz rabować ~s~tego samego ~y~sklepu ~s~dwa razy pod rząd.</String>
     </Entry>
 
     <Entry Id="business_cannot_be_robbed_yet">
         <String xml:lang="en-US">This business ~r~cannot be robbed ~s~yet. This robbery is coming in a ~b~future update~s~.</String>
+        <String xml:lang="nl-NL">Dit bedrijf ~r~kan ~s~nog~r~ niet overvallen worden~s~. Deze overval wordt in een ~b~latere update~s~ toegevoegd.</String>
         <String xml:lang="it-IT">Quest'attivita ~r~non può essere rapinata ~s~ancora. Questa rapina arriverà in un ~b~update futuro~s~.</String>
         <String xml:lang="de-DE">Dieses Geschäft kann derzeit ~r~noch nicht ausgeraubt ~s~werden. Diese ~b~Raub-Funktion ~s~kommt in einem späteren Update.</String>
         <String xml:lang="es-ES">Este negocio ~r~no puede ser robado ~s~todavía. Este robo llegará en una ~b~actualización futura~s~.</String>
@@ -1882,6 +1902,7 @@
 
     <Entry Id="business_cannot_be_robbed">
         <String xml:lang="en-US">This business ~r~cannot be robbed~s~.</String>
+        <String xml:lang="nl-NL">Dit bedrijf ~r~kan niet worden overvallen~s~.</String>
         <String xml:lang="it-IT">Quest'attivita ~r~non può essere rapinata ~s~.</String>
         <String xml:lang="de-DE">Dises Geschäft ~r~kann nicht ausgeraubt werden~s~.</String>
         <String xml:lang="es-ES">Este negocio ~r~no puede ser robado~s~.</String>
@@ -1890,6 +1911,7 @@
 
     <Entry Id="business_recently_robbed">
         <String xml:lang="en-US">This business has been ~r~recently ~s~robbed. Try again later.</String>
+        <String xml:lang="nl-NL">Dit bedrijf is ~r~recent ~s~al overvallen. Probeer later nog een keer.</String>
         <String xml:lang="it-IT">Quest'attivita è stata rapinata ~r~recentemente~s~. Prova più tardi.</String>
         <String xml:lang="de-DE">Dieses Geschäft wurde ~r~vor kurzem ~s~ausgeraubt. Versuche es später erneut.</String>
         <String xml:lang="es-ES">Este negocio ha sido ~r~recientemente ~robado. Vuelva a intentarlo más tarde.</String>
@@ -1899,6 +1921,7 @@
     <!-- {0} = Required cops to rob business -->
     <Entry Id="business_not_enough_cops">
         <String xml:lang="en-US">You can't rob this ~r~business ~s~when there are less than ~b~{0} cops ~s~online.</String>
+        <String xml:lang="nl-NL">Je kan dit ~r~bedrijf ~s~niet overvallen wanneer er minder dan ~b~{0} agenten ~s~online zijn.</String>
         <String xml:lang="it-IT">Non puoi rapinare quest'~r~attivita ~s~quando ci sono meno di ~b~{0} poliziotti ~s~online.</String>
         <String xml:lang="de-DE">Du kannst dieses ~r~Geschäft~s~ nicht ausrauben, wenn weniger als ~b~{0} Polizisten ~s~online sind. </String>
         <String xml:lang="es-ES">No puedes robar este ~r~negocio ~s~cuando hay menos de ~b~{0} policías ~s~en línea.</String>
@@ -1909,6 +1932,7 @@
     <!-- {1} = Amount -->
     <Entry Id="robbery_complete_cut">
         <String xml:lang="en-US">~b~Robbery complete! ~s~You have successfully robbed ~y~{0}~s~. Your cut is ~g~{1}~s~.</String>
+        <String xml:lang="nl-NL">~b~Overval compleet! ~s~Je hebt succesvol ~y~{0}~s~ overvallen. Jouw deel is ~g~{1}~s~.</String>
         <String xml:lang="it-IT">~b~Rapina completata! ~s~Hai rapinato con successo ~y~{0}~s~. La tua taglia è ~g~{1}~s~.</String>
         <String xml:lang="de-DE">~b~Überfall abgeschlossen! ~s~Du hast erfolgreich ~y~{0}~s~ausgeraubt. Dein Anteil beträgt ~g~{1}~s~.</String>
         <String xml:lang="es-ES">~b~¡Robo completo! ~s~Has robado con éxito ~y~{0}~s~. Tu parte es ~g~{1}~s~.</String>
@@ -1917,6 +1941,7 @@
 
     <Entry Id="robbery_complete">
         <String xml:lang="en-US">~b~Robbery complete! ~s~You have successfully robbed ~y~{0} ~s~and earned ~g~{1}~s~!</String>
+        <String xml:lang="nl-NL">~b~Overval compleet! ~s~Je hebt succesvol ~y~{0}~s~ overvallen en hebt ~g~{1}~s~ verdient!</String>
         <String xml:lang="it-IT">~b~Rapina completata! ~s~Hai rapinato con successo ~y~{0} ~s~e guadagnato ~g~{1}~s~!</String>
         <String xml:lang="de-DE">~b~Überfall abgeschlossen! ~s~Du hast erfolgreich ~y~{0} ~s~ausgeraubt und ~g~{1}~s~ verdient!</String>
         <String xml:lang="es-ES">~b~¡Robo completo! ~s~¡Has robado con éxito ~y~{0} ~s~ y ganado ~g~{1}~s~!</String>
@@ -1925,6 +1950,7 @@
 
     <Entry Id="robbery_fail_clerk_killed">
         <String xml:lang="en-US">~r~Robbery failed! Killing the clerk was not in the plan!</String>
+        <String xml:lang="nl-NL">~r~Overval mislukt! Het vermoorden van de medewerker was niet het plan!</String>
         <String xml:lang="it-IT">~b~Rapina fallita! Uccidere l'impiegato non era nel piano!</String>
         <String xml:lang="de-DE">~r~Überfall fehlgeschlagen! Den Angestellten zu töten war nicht der Plan!</String>
         <String xml:lang="es-ES">~r~¡El robo falló! ¡Matar al empleado no estaba en el plan!</String>
@@ -1933,6 +1959,7 @@
 
     <Entry Id="robbery_fail_clerk_not_intimidated">
         <String xml:lang="en-US">~r~Robbery failed! The clerk is no longer intimidated.</String>
+        <String xml:lang="nl-NL">~r~Overval mislukt! De medewerker is niet meer geïntimideerd.</String>
         <String xml:lang="it-IT">~b~Rapina fallita! L'impiegato non più intimidito.</String>
         <String xml:lang="de-DE">~r~Überfall fehlgeschlagen! Der Angestellte ist nicht länger eingeschüchtert.</String>
         <String xml:lang="es-ES">~r~¡El robo falló! El empleado ya no esta intimidado.</String>
@@ -1941,6 +1968,7 @@
 
     <Entry Id="robbery_shots_called_police">
         <String xml:lang="en-US">Someone heard shots and called the ~r~police~s~!</String>
+        <String xml:lang="nl-NL">Iemand heeft schoten gehoord en heeft de ~r~politie~s~ gebeld!</String>
         <String xml:lang="it-IT">Qualcuno ha sentito gli spari e ha chiamato la ~r~polizia~s~!</String>
         <String xml:lang="de-DE">Jemand hat Schüsse gehört und die ~r~Polizei~s~ gerufen!</String>
         <String xml:lang="es-ES">¡Alguien escuchó disparos y llamó a la ~r~policía~s~!</String>
@@ -1950,6 +1978,7 @@
     <!-- {0} = Player name -->
     <Entry Id="robbery_player_spotted">
         <String xml:lang="en-US">{0} has spotted the robbery!</String>
+        <String xml:lang="nl-NL">{0} heeft de overval gespot!</String>
         <String xml:lang="it-IT">{0} ha individuato la rapina!</String>
         <String xml:lang="de-DE">{0} hat den Überfall gesehen!</String>
         <String xml:lang="es-ES">¡{0} ha visto el robo!</String>
@@ -1958,6 +1987,7 @@
 
     <Entry Id="robbery_player_called_police">
         <String xml:lang="en-US">{0} has called the ~r~police ~s~on you!</String>
+        <String xml:lang="nl-NL">{0} heeft de ~r~politie~s~ op jou gebeld!</String>
         <String xml:lang="it-IT">{0} ha chiamato la ~r~polizia ~s~su di te!</String>
         <String xml:lang="de-DE">{0} hat die ~r~Polizei ~s~auf dich gehetzt!</String>
         <String xml:lang="es-ES">¡{0} ha llamado a la ~r~policía ~s~sobre ti!</String>
@@ -1967,6 +1997,7 @@
     <!-- {0} = Cooldown -->
     <Entry Id="robbery_caught_shoplifting">
         <String xml:lang="en-US">You have been caught ~r~shoplifting ~s~here. Come back in ~y~{0}~s~.</String>
+        <String xml:lang="nl-NL">Je bent gepakt voor ~r~stelen ~s~hier. Kom terug in ~y~{0}~s~.</String>
         <String xml:lang="it-IT">Sei stato colto in flagrante mentre ~r~rubavi ~s~qui. Torna in ~y~{0}~s~.</String>
         <String xml:lang="de-DE">Du wurdest hier beim ~r~Ladendiebstahl~s~ erwischt. Komm in ~y~{0}~s~ zurück.</String>
         <String xml:lang="es-ES">Te han pillado ~r~robando ~s~aquí. Vuelve en ~y~{0}~s~.</String>
@@ -1975,6 +2006,7 @@
 
     <Entry Id="robbery_caught_shoplifting_cant_buy">
         <String xml:lang="en-US">You have been caught ~r~shoplifting ~s~here. You can't purchase items from this store for ~y~{0} seconds~s~.</String>
+        <String xml:lang="nl-NL">Je bent gepakt voor ~r~stelen ~s~hier. Je kan geen items kopen van deze winkel voor ~y~{0} seconden~s~.</String>
         <String xml:lang="it-IT">Sei stato colto in flagrante mentre ~r~rubavi ~s~qui. Non puoi acquistare oggetti da questo negozio per ~y~{0} ~s~secondi.</String>
         <String xml:lang="de-DE">Du wurdest hier beim ~r~Ladendiebstahl ~s~erwischt. Du kannst keine Gegenstände dieses Ladens für ~y~{0} Sekunden~s~ kaufen.</String>
         <String xml:lang="es-ES">Te han pillado ~r~robando ~s~aquí. No puedes comprar artículos en esta tienda durante ~y~{0} segundos~s~.</String>
@@ -1983,6 +2015,7 @@
 
     <Entry Id="robbery_caught_shoplifting_reported_police">
         <String xml:lang="en-US">~r~Your shoplifting attempt has been spotted! You have been reported to the police.</String>
+        <String xml:lang="nl-NL">~r~Je diefstal poging is gespot! Je bent aangegeven bij de politie.</String>
         <String xml:lang="it-IT">~r~Sei stato colto in flagrante mentre cercavi di rubare! Sei stato segnalato alla polizia.</String>
         <String xml:lang="de-DE">~r~Dein Ladendiebstahlversuch wurde bemerkt! Du wurdest bei der Polizei gemeldet.</String>
         <String xml:lang="es-ES">~r~¡Tu intento de robo ha sido detectado! Tu has sido denunciado a la policía.</String>
@@ -1991,6 +2024,7 @@
 
     <Entry Id="robbery_caught_shoplifting_wait">
         <String xml:lang="en-US">~r~You need to wait before shoplifting this store again!</String>
+        <String xml:lang="nl-NL">~r~Je moet wachten voordat je nog een diefstal poging doet in deze winkel!</String>
         <String xml:lang="it-IT">~r~Devi aspettare prima di rubare in questo negozio ancora!</String>
         <String xml:lang="de-DE">~r~Du musst warten, bevor du diesen Laden erneut ausraubst.</String>
         <String xml:lang="es-ES">~r~¡Tienes que esperar antes de volver a robar en esta tienda!</String>
@@ -1999,6 +2033,7 @@
 
     <Entry Id="robbery_steal_weapon">
         <String xml:lang="en-US">~r~You can't steal a weapon!</String>
+        <String xml:lang="nl-NL">~r~Je kan geen wapen stelen!</String>
         <String xml:lang="it-IT">~r~Non puoi rubare un arma!</String>
         <String xml:lang="de-DE">~r~Du kannst keine Waffe stehlen!</String>
         <String xml:lang="es-ES">~r~¡No puedes robar un arma!</String>
@@ -2007,6 +2042,7 @@
 
     <Entry Id="robbery_steal_weapon_attachment">
         <String xml:lang="en-US">~r~You can't steal a weapon attachment!</String>
+        <String xml:lang="nl-NL">~r~Je kan geen wapen accessoire stelen!</String>
         <String xml:lang="it-IT">~r~Non puoi rubare un accessorio per le armi!</String>
         <String xml:lang="de-DE">~r~Du kannst kein Waffenzubehör stehlen!</String>
         <String xml:lang="es-ES">~r~¡No puedes robar un accesorio de arma!</String>
@@ -2059,6 +2095,7 @@
 
     <Entry Id="robbery_cracked_safe">
         <String xml:lang="en-US">You ~g~successfully ~s~cracked the safe!</String>
+        <String xml:lang="nl-NL">Je hebt de kluis ~g~succesvol ~s~gekraakt!</String>
         <String xml:lang="it-IT">Hai scassinato la cassaforte con ~g~successo~s~!</String>
         <String xml:lang="de-DE">Du hast den Safe ~g~erfolgreich~s~ geknackt!</String>
         <String xml:lang="es-ES">¡Has roto ~g~ con éxito~g~ la caja fuerte!</String>
@@ -2067,6 +2104,7 @@
 
     <Entry Id="robbery_extra_security_safe">
         <String xml:lang="en-US">This safe has extra security and you ~r~failed ~s~to crack it!</String>
+        <String xml:lang="nl-NL">Deze kluis heeft extra beveiliging en het is ~r~niet gelukt ~s~om het te kraken!</String>
         <String xml:lang="it-IT">Questa cassaforte ha sicurezza extra e hai ~r~fallito ~s~nel tentativo di scassinarla!</String>
         <String xml:lang="de-DE">Dieser Safe hat zusätzliche Sicherheitsmechanismen und es ist dir ~r~nicht gelungen~s~, ihn zu knacken.</String>
         <String xml:lang="es-ES">¡Esta caja fuerte tiene seguridad extra y ~r~fallaste ~s~ al descifrarla!</String>
@@ -2075,6 +2113,7 @@
 
     <Entry Id="robbery_canceled_safe">
         <String xml:lang="en-US">You ~r~canceled ~s~the safe robbery!</String>
+        <String xml:lang="nl-NL">Je hebt de kluis overval ~r~geannuleerd~s~!</String>
         <String xml:lang="it-IT">Hai ~r~smesso ~sdi rapinare la cassaforte!</String>
         <String xml:lang="de-DE">Du hast den Saferaub ~r~abgebrochen~s~!</String>
         <String xml:lang="es-ES">¡Has ~r~cancelado ~s~el robo de la caja fuerte!</String>
@@ -2083,18 +2122,21 @@
 
     <Entry Id="no_nearby_players_give_weapon">
         <String xml:lang="en-US">There are no ~r~nearby players ~s~to give your weapon to.</String>
+        <String xml:lang="nl-NL">Er zijn geen ~r~dichtbijzijnde spelers ~s~om je wapen aan te geven.</String>
         <String xml:lang="it-IT">Non ci sono ~r~giocatori nelle vicinanze ~s~a cui dare la tua arma.</String>
         <String xml:lang="pl-PL">Nie ma w ~r~pobliżu graczy ~s~którym mógłbyś dać swoją broń.</String>
     </Entry>
 
     <Entry Id="cant_give_weapon_to_dead">
         <String xml:lang="en-US">~r~You can't give a weapon to a dead player.</String>
+        <String xml:lang="nl-NL">~r~Je kan je wapen niet geven aan een dode speler.</String>
         <String xml:lang="it-IT">~r~Non puoi dare un'arma a un giocatore morto.</String>
         <String xml:lang="pl-PL">~r~Nie możesz dać broni trupowi.</String>
     </Entry>
 
     <Entry Id="player_too_far_give_weapon">
         <String xml:lang="en-US">~r~The player is too far, you can't give them a weapon.</String>
+        <String xml:lang="nl-NL">~r~Deze speler is te ver weg, je kan hem geen wapen geven..</String>
         <String xml:lang="it-IT">~r~Il giocatore è troppo lontano, non puoi dargli un'arma.</String>
         <String xml:lang="pl-PL">~r~Gracz jest za daleko, nie możesz dać mu broni.</String>
     </Entry>
@@ -2104,6 +2146,7 @@
     <!-- {1} = Weapon -->
     <Entry Id="player_gave_weapon">
         <String xml:lang="en-US">You gave {0} a ~y~{1}~s~.</String>
+        <String xml:lang="nl-NL">Je geeft {0} een ~y~{1}~s~.</String>
         <String xml:lang="it-IT">Hai dato a {0} un ~y~{1}~s~</String>
         <String xml:lang="pl-PL">Przekazałeś {0} ~y~{1}~s~.</String>
     </Entry>
@@ -2112,6 +2155,7 @@
     <!-- {1} = Weapon -->
     <Entry Id="player_already_has_weapon">
         <String xml:lang="en-US">{0} already has a ~y~{1}~s~.</String>
+        <String xml:lang="nl-NL">{0} heeft al een ~y~{1}~s~.</String>
         <String xml:lang="it-IT">{0} ha già un {0} ~y~{1}~s~</String>
         <String xml:lang="pl-PL">{0} ma już ~y~{1}~s~.</String>
     </Entry>
@@ -2120,6 +2164,7 @@
     <!-- {1} = Player -->
     <Entry Id="player_received_weapon">
         <String xml:lang="en-US">Received a ~y~{0} ~s~from (C){0}(/C).</String>
+        <String xml:lang="nl-NL">Je hebt een ~y~{0} ~s~ ontvangen van (C){0}(/C).</String>
         <String xml:lang="it-IT">Hai ricevuto un ~y~{0} ~s~da (C){0}(/C).</String>
         <String xml:lang="pl-PL">Dostałeś ~y~{0} ~s~od (C){0}(/C).</String>
     </Entry>
