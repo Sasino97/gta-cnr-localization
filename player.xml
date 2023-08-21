@@ -239,178 +239,211 @@
 
     <Entry Id="unable_to_find_player">
         <String xml:lang="en-US">~r~The server is unable to find the specified player.</String>
-        <String xml:lang="it-IT">~r~Il server non riesce a trovare il giocatore specificato.</String>
+        <String xml:lang="it-IT">~r~Il server non ha potuto trovare il giocatore specificato.</String>
     </Entry>
 
     <Entry Id="cant_send_gift_yourself">
         <String xml:lang="en-US">~r~You can't send a gift to yourself.</String>
         <String xml:lang="it-IT">~r~Non puoi inviare un regalo a te stesso.</String>
     </Entry>
-
+09
     <Entry Id="too_far_from_player">
         <String xml:lang="en-US">You're ~r~too far ~s~from the player!</String>
+        <String xml:lang="it-IT">Sei ~r~troppo lontano ~s~dal giocatore!</String>
     </Entry>
 
     <Entry Id="too_far_from_recipient">
         <String xml:lang="en-US">You are ~r~too far ~s~from the recipient.</String>
+        <String xml:lang="it-IT">Sei ~r~troppo lontano ~s~dal destinatario.</String>
     </Entry>
 
     <!-- {0} = Max-Amount -->
     <Entry Id="player_only_send_at_a_time">
         <String xml:lang="en-US">You can only send ~r~{0} ~s~at a time.</String>
+        <String xml:lang="it-IT">Puoi inviarne solo ~r~{0} ~s~alla volta.</String>
     </Entry>
 
     <!-- {0} = Player -->
     <!-- {1} = Amount money -->
     <Entry Id="you_gave_currency">
         <String xml:lang="en-US">You gave {0} ~r~{1}~s~.</String>
-    </Entry>
-
-    <Entry Id="you_gave_currency">
-        <String xml:lang="en-US">You gave {0} ~r~{1}~s~.</String>
+        <String xml:lang="it-IT">Hai dato a {0} ~r~{1}~s~.</String>
     </Entry>
 
     <Entry Id="amount_entered_invalid">
         <String xml:lang="en-US">The amount you entered is ~r~invalid~s~!</String>
+        <String xml:lang="it-IT">La quantità che hai inserito ~r~non è valida~s~!</String>
     </Entry>
 
     <Entry Id="recipient_no_longer_online">
         <String xml:lang="en-US">The recipient is ~r~no longer online~s~.</String>
+        <String xml:lang="it-IT">Il destinatario non è ~r~più online~s~.</String>
     </Entry>
 
     <Entry Id="dont_have_required_level_transfer_money">
         <String xml:lang="en-US">You don't have the ~r~required level ~s~to transfer money to other players.</String>
+        <String xml:lang="it-IT">Non hai il ~r~livello richiesto ~s~per trasferire denaro ad altri giocatori.</String>
     </Entry>
 
     <Entry Id="sent_too_much_money_another_session">
         <String xml:lang="en-US">You sent ~r~too much money~s~. Please, retry in ~r~another session~s~.</String>
+        <String xml:lang="it-IT">Hai inviato ~r~troppo denaro~s~. Per favore, riprova in ~r~un'altra sessione~s~.</String>
     </Entry>
 
     <Entry Id="sending_money_too_fast">
         <String xml:lang="en-US">You are sending ~r~money too fast~s~. Please, ~r~wait ~s~before sending money again.</String>
+        <String xml:lang="it-IT">Stai inviando ~r~denaro troppo velocemente~s~. Per favore, ~r~aspetta~s~ prima di inviare denaro di nuovo.</String>
     </Entry>
 
     <Entry Id="player_received_too_much_money">
         <String xml:lang="en-US">This player has received ~r~too much money~s~. Please, try again ~r~later~s~.</String>
+        <String xml:lang="it-IT">Questo giocatore ha ricevuto ~r~troppo denaro~s~. Per favore, prova ~r~più tardi~s~.</String>
     </Entry>
 
     <Entry Id="player_received_too_much_money">
         <String xml:lang="en-US">This player has ~r~recently ~s~received money. Please, try again ~r~later~s~.</String>
+        <String xml:lang="it-IT">Questo giocatore ha ~r~recentemente ~s~ricevuto denaro. Per favore, prova ~r~più tardi~s~.</String>
     </Entry>
 
     <Entry Id="dont_have_vehicle_with_plate">
         <String xml:lang="en-US">~r~You don't have a vehicle with that license plate.</String>
+        <String xml:lang="it-IT">~r~Non possiedi un veicolo con quella targa.</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <Entry Id="vehicle_recalled">
         <String xml:lang="en-US">{0} ~s~has been officially ~r~recalled ~s~by GTA CnR. You can sell this vehicle for the ~g~FULL ~s~original price below.</String>
+        <String xml:lang="it-IT">{0} ~s~è stato ufficialmente ~r~richiamato ~s~da GTA CnR. Puoi vendere questo veicolo per il prezzo ~g~ORIGINALE COMPLETO~s~ qui sotto.</String>
     </Entry>
 
     <Entry Id="unable_to_deliver_move">
         <String xml:lang="en-US">~r~Unable to deliver a vehicle here! Please, move to another location.</String>
+        <String xml:lang="it-IT">~r~Impossibile consegnare un veicolo qui! Per favore, spostati in un'altra posizione.</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <Entry Id="unable_to_deliver">
         <String xml:lang="en-US">Your ~b~{0} ~s~is on the way! Please, stay in the area.</String>
+        <String xml:lang="it-IT">La tua ~b~{0} ~s~è in arrivo! Per favore, rimani nell'area.</String>
     </Entry>
 
     <Entry Id="cant_deliver_here">
         <String xml:lang="en-US">~r~You can't get a vehicle delivered here!</String>
+        <String xml:lang="it-IT">~r~Il tuo veicolo non può essere consegnato qui!</String>
     </Entry>
 
     <!-- {0} = Current job -->
     <Entry Id="cant_get_delivered_as_job">
         <String xml:lang="en-US">~r~You can't get this vehicle delivered as a {0}!</String>
+        <String xml:lang="it-IT">~r~Non puoi ricevere la consegna di questo veicolo come {0}!</String>
     </Entry>
 
     <Entry Id="vehicle_attached_to_tow_truck">
         <String xml:lang="en-US">~r~Your current vehicle is attached to a tow truck!</String>
+        <String xml:lang="it-IT">~r~Il tuo veicolo attuale è attaccato ad un carro attrezzi!</String>
     </Entry>
 
     <Entry Id="cant_store_vehicle_when_inside">
         <String xml:lang="en-US">~r~You can't store your personal vehicle while you're inside it!</String>
+        <String xml:lang="it-IT">~r~Non puoi riporre il tuo veicolo personale mentre sei dentro di esso!</String>
     </Entry>
 
     <Entry Id="changed_jobs_delivery_canceled">
-        <String xml:lang="en-US">You have changed your ~b~job~s~. Your vehicle delivery has been ~r~canceled.</String>
+        <String xml:lang="en-US">You have changed your ~b~job~s~. Your vehicle delivery has been ~r~canceled~s~.</String>
+        <String xml:lang="it-IT">Hai cambiato ~b~lavoro~s~. La consegna del tuo veicolo è stata ~r~annullata~s~.</String>
     </Entry>
 
     <Entry Id="area_left_delivery_canceled">
-        <String xml:lang="en-US">You ~r~left the area~s~. Your vehicle delivery has been ~r~canceled.</String>
+        <String xml:lang="en-US">You ~r~left the area~s~. Your vehicle delivery has been ~r~canceled~s~.</String>
+        <String xml:lang="it-IT">Hai ~r~lasciato l'area~s~. La consegna del tuo veicolo è stata ~r~annullata~s~.</String>
     </Entry>
 
     <Entry Id="valet_killed_delivery_canceled">
         <String xml:lang="en-US">Your valet has been ~r~killed~s~. Your vehicle delivery has been ~r~canceled~s~.</String>
+        <String xml:lang="it-IT">Il tuo parcheggiatore è stato ~r~ucciso~s~. La consegna del tuo veicolo è stata ~r~annullata~s~.</String>
     </Entry>
 
     <Entry Id="too_far_from_road_delivery_canceled">
         <String xml:lang="en-US">~r~You're too far from any road. Your vehicle delivery has been canceled.</String>
+        <String xml:lang="it-IT">~r~Sei troppo lontano da qualsiasi strada. La consegna del tuo veicolo è stata annullata.</String>
     </Entry>
 
     <!-- {0} = Vehicle -->
     <Entry Id="vehicle_returned_garage">
         <String xml:lang="en-US">Your ~b~{0} ~s~has been returned to your garage!</String>
+        <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata riportata al tuo garage!</String>
     </Entry>
 
     <Entry Id="cant_do_when_cuffed">
         <String xml:lang="en-US">~r~You can't do this when you are cuffed.</String>
+        <String xml:lang="it-IT">~r~Non puoi fare questo mentre sei ammanettato.</String>
     </Entry>
 
     <Entry Id="cant_send_personal_vehicle_to_maintenance_when_inside">
         <String xml:lang="en-US">~r~You can't send your personal vehicle to maintenance when you're inside it!</String>
+        <String xml:lang="it-IT">~r~Non puoi inviare il tuo veicolo personale in manutenzione mentre sei dentro di esso!</String>
     </Entry>
 
     <Entry Id="vehicle_sent_to_maintenance">
         <String xml:lang="en-US">Your ~b~{0} ~s~has been sent to maintenance. This will take a few minutes.</String>
+        <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata mandata in manutenzione. Questo richiederà alcuni minuti.</String>
     </Entry>
 
     <Entry Id="vehicle_already_in_maintenance">
         <String xml:lang="en-US">~r~This vehicle is already in maintenance!</String>
+        <String xml:lang="it-IT">~r~Questo veicolo è già in manutenzione!</String>
     </Entry>
 
     <!-- {0} = Vehicle -->
     <Entry Id="vehicle_completed_maintenance">
         <String xml:lang="en-US">The maintenance of your ~b~{0} ~s~has been completed.</String>
+        <String xml:lang="it-IT">La manutenzione della tua ~b~{0} ~s~è stata completata.</String>
     </Entry>
 
     <!-- {0} = Vehicle -->
     <Entry Id="vehicle_replaced_transported_garage">
         <String xml:lang="en-US">Your ~b~{0} ~s~has been replaced and transported to your garage!</String>
+        <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata sostituita e trasportata al tuo garage!</String>
     </Entry>
 
     <Entry Id="vehicle_replaced">
         <String xml:lang="en-US">Your ~b~{0} ~s~has been replaced.</String>
+        <String xml:lang="it-IT">{0} ~s~è stata sostituita.</String>
     </Entry>
 
     <!-- {0} = Vehicle -->
     <!-- {0} = Amount (money) -->
     <Entry Id="vehicle_rental_extended_another_game_week">
         <String xml:lang="en-US">Your ~b~{0}~s~'s rental has been extended for another game week for ~g~{1}~s~!</String>
+        <String xml:lang="it-IT">Il noleggio per la tua ~b~{0} ~s~è stato esteso per un'altra settimana di gioco per ~g~{1}~s~!</String>
     </Entry>
 
     <Entry Id="vehicle_rental_terminated">
         <String xml:lang="en-US">Your ~b~{0}~s~'s rental has been terminated!</String>
+        <String xml:lang="it-IT">Il noleggio per la tua ~b~{0} ~s~è terminato!</String>
     </Entry>
 
     <!-- {0} = Vehicle -->
     <!-- {0} = Amount (money) -->
     <Entry Id="vehicle_sold_to_server">
         <String xml:lang="en-US">You sold your ~b~{0} ~s~to the server for ~g~{1}~s~.</String>
+        <String xml:lang="it-IT">Hai venduto la tua ~b~{0} ~s~al server per ~g~{1}~s~.</String>
     </Entry>
 
     <!-- {0} = Attempts/MaxAttempts -->
     <Entry Id="unable_to_download_vehicle_model">
         <String xml:lang="en-US">Unable to download the ~y~vehicle model~s~. Retrying ({0})...</String>
+        <String xml:lang="it-IT">Impossibile scaricare il ~y~modello del veicolo~s~. Sto riprovando ({0})...</String>
     </Entry>
 
     <Entry Id="unable_to_download_vehicle_model_5c_3">
         <String xml:lang="en-US">~r~Unable to load the vehicle model (0x5C-3). Please, try again later later.</String>
+        <String xml:lang="it-IT">~r~Impossibile caricare il modello del veicolo (0x5C-3). Per favore, prova di nuovo più tardi.</String>
     </Entry>
 
     <Entry Id="unable_to_download_vehicle_model_5c_4">
         <String xml:lang="en-US">~r~Unable to obtain vehicle network id (0x5C-4). Please, try again later later.</String>
+        <String xml:lang="it-IT">~r~Impossibile ottenere l'ID di rete del veicolo (0x5C-4). Per favore, prova di nuovo più tardi.</String>
     </Entry>
 
 </Entries>
