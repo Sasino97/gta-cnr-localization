@@ -45,6 +45,7 @@
 
     <Entry Id="warehouse_player_entered">
         <String xml:lang="en-US">(C){0}(/C) ~g~entered the warehouse~s~.</String>
+        <String xml:lang="nl-NL">(C){0}(/C) ~g~is het warenhuis toegetreden~s~.</String>
         <String xml:lang="it-IT">(C){0}(/C) ~g~è entrato ~s~nel magazzino.</String>
         <String xml:lang="pl-PL">(C){0}(/C) ~g~wszedł do magazynu~s~.</String>
         <String xml:lang="es-ES">(C){0}(/C) ~g~entró en el almacén~s~.</String>
@@ -53,6 +54,7 @@
 
     <Entry Id="warehouse_player_forcibly_entered_specific">
         <String xml:lang="en-US">(C){0}(/C) forcibly entered ~y~{1}~s~.</String>
+        <String xml:lang="nl-NL">(C){0}(/C) is met geweld ~y~{1}~s~ binnengetreden.</String>
         <String xml:lang="it-IT">(C){0}(/C) è entrato forzatamente in ~y~{1}~s~.</String>
         <String xml:lang="pl-PL">(C){0}(/C) włamał się do ~y~{1}~s~.</String>
         <String xml:lang="es-ES">(C){0}(/C) entro a la fuerza en ~y~{1}~s~.</String>
@@ -61,6 +63,7 @@
 
     <Entry Id="warehouse_player_forcibly_entered">
         <String xml:lang="en-US">(C){0}(/C) ~r~forcibly entered ~s~the warehouse~s~.</String>
+        <String xml:lang="nl-NL">(C){0}(/C) ~r~is met geweld het warenhuis binnengetreden~s~.</String>
         <String xml:lang="it-IT">(C){0}(/C) è ~r~entrato forzatamente ~s~nel magazzino.</String>
         <String xml:lang="pl-PL">(C){0}(/C) ~g~włamał się do magazynu~s~.</String>
         <String xml:lang="es-ES">(C){0}(/C) ~r~entro a la fuerza ~s~al almacén~s~.</String>
@@ -74,6 +77,7 @@
     <!-- {1} = Garage name -->
     <Entry Id="garage_player_enter">
         <String xml:lang="en-US">(C){0}(/C) entered ~y~{1}~s~.</String>
+        <String xml:lang="nl-NL">(C){0}(/C) is ~y~{1}~s~ binnengetreden.</String>
         <String xml:lang="it-IT">(C){0}(/C) è entrato in ~y~{1}~s~.</String>
         <String xml:lang="pl-PL">(C){0}(/C) wszedł do ~y~{1}~s~.</String>
         <String xml:lang="es-ES">(C){0}(/C) entro en ~y~{1}~s~.</String>
@@ -82,12 +86,14 @@
 
     <Entry Id="vehicle_gps_set">
         <String xml:lang="en-US">~r~You have to be in a vehicle to set the GPS.</String>
+        <String xml:lang="nl-NL">~r~Je moet in een voertuig zitten om de GPS te zetten.</String>
         <String xml:lang="it-IT">~r~Devi essere in un veicolo per poter impostare il GPS.</String>
     </Entry>
 
     <!-- {0} = Property name (warehouse; garage; ...) -->
     <Entry Id="property_navigating">
         <String xml:lang="en-US">Navigating to ~y~{0}~s~.</String>
+        <String xml:lang="nl-NL">Navigeren naar ~y~{0}~s~.</String>
         <String xml:lang="it-IT">Navigando verso ~y~{0}~s~.</String>
     </Entry>
 
