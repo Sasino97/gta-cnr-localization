@@ -475,5 +475,43 @@
         <String xml:lang="de-DE">Du musst {0} Sekunden ~r~warten, bevor du eine weitere Halloween-Süßigkeit isst.</String>
     </Entry>
 
+    <Entry Id="specialitem_halloween_find_all_pumpkins">
+        <String xml:lang="en-US">Find all the ~o~Pumpkins ~s~before the end of the ~o~event ~s~to win a ~g~big prize~s~.</String>
+    </Entry>
+
+    <!-- {0} = Pumpkin id -->
+    <Entry Id="specialitem_halloween_pumpkin_specific_number">
+        <String xml:lang="en-US">~r~You've already collected this pumpkin ({0}).</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Christmas -->
+    <!-- ========================= -->
+    <Entry Id="specialitem_christmas_pick_snowball">
+        <String xml:lang="en-US">Press {0} to pick up ~b~snowballs~s~.</String>
+    </Entry>
+
+    <Entry Id="specialitem_christmas_present_collected_inventory">
+        <String xml:lang="en-US">You collected a ~g~present~s~! You can open your presents in ~b~M ~s~&gt; ~b~Inventory~s~!</String>
+    </Entry>
+
+    <Entry Id="specialitem_christmas_present_collect_cooldown">
+        <String xml:lang="en-US">You must ~r~wait ~s~before collecting another ~g~present~s~!</String>
+    </Entry>
+
+    <Entry Id="specialitem_christmas_present_despawned">
+        <String xml:lang="en-US">The ~g~present ~s~has ~r~despawned~s~.</String>
+    </Entry>
+
+    <Entry Id="specialitem_christmas_present_nearby">
+        <String xml:lang="en-US">The ~g~present dropped by ~r~Santa Claus ~s~is nearby!</String>
+    </Entry>
+
+    <!-- {0} = Max amount of snowballs you can carry -->
+    <Entry Id="specialitem_christmas_max_capacity_snowballs">
+        <String xml:lang="en-US">You can't carry more than ~b~{0} snowballs~s~!</String>
+    </Entry>
+
+
 
 </Entries>

@@ -1742,6 +1742,70 @@
         <String xml:lang="de-DE">{0}{1} ({2}) ~s~hat das meistgesuchte Fahrzeug von heute ~s~in ~y~{3}~s~ gefunden. Wert: ~g~{4}~s~.</String>
     </Entry>
 
+    <!-- {0} = Has been "mwveh" (probably for colours) -->
+    <!-- {1} = Value -->
+    <!-- {2} = Has been "ctrls" -->
+    <Entry Id="vehicle_you_can_export">
+        <String xml:lang="en-US">{0}You can export this vehicle for ~g~{1}~s~. {2}</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <!-- {1} = Value -->
+    <Entry Id="vehicle_you_exported">
+        <String xml:lang="en-US">You exported a ~b~{0} ~s~for ~g~{1}~s~.</String>
+    </Entry>
+
+    <Entry Id="vehicle_too_damaged_to_export">
+        <String xml:lang="en-US">This vehicle is ~r~too damaged ~s~to be exported!</String>
+    </Entry>
+
+    <Entry Id="vehicle_not_wanted_for_export">
+        <String xml:lang="en-US">This vehicle is ~r~not wanted ~s~for exportation!</String>
+    </Entry>
+
+    <Entry Id="vehicle_cant_illegally_export_on_job">
+        <String xml:lang="en-US">~r~You cannot illegally export vehicles on this job!</String>
+    </Entry>
+
+    <Entry Id="vehicle_export_cops_nearby">
+        <String xml:lang="en-US">~b~Cops are nearby! ~r~Get rid ~s~of them before exporting the vehicle.</String>
+    </Entry>
+
+    <Entry Id="vehicle_export_personal_vehicle">
+        <String xml:lang="en-US">~r~You cannot export a personal vehicle!</String>
+    </Entry>
+
+    <Entry Id="vehicle_cant_export_vehicle">
+        <String xml:lang="en-US">~r~You cannot export this vehicle!</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Scrapping -->
+    <!-- ========================= -->
+    <!-- {0} = Value -->
+    <!-- {1} = Has been "ctrls" -->
+    <Entry Id="vehicle_scrap_price">
+        <String xml:lang="en-US">You can scrap this vehicle for ~g~{0}~s~. {1}</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <!-- {1} = Value -->
+    <Entry Id="vehicle_scrap_sold">
+        <String xml:lang="en-US">You sold a ~b~{0} ~s~for ~g~{1}~s~.</String>
+    </Entry>
+
+    <Entry Id="vehicle_scrap_not_wanted">
+        <String xml:lang="en-US">This vehicle is ~r~not wanted ~s~for scrap!</String>
+    </Entry>
+
+    <Entry Id="vehicle_scrap_not_on_job">
+        <String xml:lang="en-US">~r~You cannot scrap stolen vehicles on this job!</String>
+    </Entry>
+
+    <Entry Id="vehicle_scrap_personal">
+        <String xml:lang="en-US">~r~You cannot scrap a personal vehicle!</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Criminals -->
     <!-- ========================= -->
@@ -2170,6 +2234,52 @@
         <String xml:lang="nl-NL">Je hebt een ~y~{0} ~s~ ontvangen van (C){0}(/C).</String>
         <String xml:lang="it-IT">Hai ricevuto un ~y~{0} ~s~da (C){0}(/C).</String>
         <String xml:lang="pl-PL">Dostałeś ~y~{0} ~s~od (C){0}(/C).</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Dealership -->
+    <!-- ========================= -->
+    <Entry Id="dealership_too_far_away">
+        <String xml:lang="en-US">You are getting ~r~a little too far ~s~from the ~y~dealership~s~!</String>
+    </Entry>
+
+    <!-- {0} = Job name -->
+    <Entry Id="dealership_not_accessible_when_job">
+        <String xml:lang="en-US">~r~This dealership is not accessible when you are a {0}.</String>
+    </Entry>
+
+    <Entry Id="dealership_cant_enter_when_job">
+        <String xml:lang="en-US">~r~You cannot enter a vehicle dealership when you are a {0}.</String>
+    </Entry>
+
+    <Entry Id="dealership_need_garage_first">
+        <String xml:lang="en-US">~r~You need to own a garage before purchasing a vehicle.</String>
+    </Entry>
+
+    <!-- {0} = Verb (probably police; civilian; ...) -->
+    <!-- {1} = Hotkey -->
+    <Entry Id="dealership_need_garage_first">
+        <String xml:lang="en-US">Manage your {0} vehicles in {1} ~y~Menu ~s~&gt; ~y~Vehicles</String>
+    </Entry>
+
+    <Entry Id="dealership_dont_have_required_membership_tier">
+        <String xml:lang="en-US">~p~You don't have the required membership tier.</String>
+    </Entry>
+
+    <Entry Id="dealership_dont_have_required_membership_tier_to_use_garage">
+        <String xml:lang="en-US">~p~You don't have the required membership tier to use this garage. Please, select another garage.</String>
+    </Entry>
+
+    <Entry Id="dealership_dont_have_required_level">
+        <String xml:lang="en-US">~b~You don't have the required level.</String>
+    </Entry>
+
+    <Entry Id="dealership_specified_plate_taken">
+        <String xml:lang="en-US">~r~The specified license plate is already taken.</String>
+    </Entry>
+
+    <Entry Id="dealership_garage_full_use_another">
+        <String xml:lang="en-US">~r~Your garage is full. Please, select another garage.</String>
     </Entry>
 
 </Entries>
