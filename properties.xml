@@ -2,6 +2,14 @@
 
 <Entries>
 
+    <Entry Id="warehouse">
+        <String xml:lang="en-US">Warehouse</String>
+    </Entry>
+
+    <Entry Id="garage">
+        <String xml:lang="en-US">Garage</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Warehouse -->
     <!-- ========================= -->
@@ -70,6 +78,47 @@
         <String xml:lang="de-DE">(C){0}(/C) ~r~ist gewaltsam in ein Lagerhaus eingedrungen.</String>
     </Entry>
 
+    <Entry Id="warehouse_dont_have_amount_item">
+        <String xml:lang="en-US">~r~You don't have that amount of this item!</String>
+    </Entry>
+
+    <Entry Id="warehouse_not_enough_space_left">
+        <String xml:lang="en-US">~r~There's not enough space left!</String>
+    </Entry>
+
+    <Entry Id="warehouse_cant_hold_amount">
+        <String xml:lang="en-US">~r~You can't hold that many of this item!</String>
+    </Entry>
+
+    <Entry Id="warehouse_dont_have_required_level">
+        <String xml:lang="en-US">~r~You don't have the required level to purchase this warehouse.</String>
+    </Entry>
+
+    <!-- {0} = Player name -->
+    <Entry Id="warehouse_knocked_wait_answer">
+        <String xml:lang="en-US">You knocked at {0}'s warehouse. Wait for them to answer.</String>
+    </Entry>
+
+    <Entry Id="warehouse_knocking_cooldown">
+        <String xml:lang="en-US">~r~You must wait before knocking again.</String>
+    </Entry>
+
+    <Entry Id="warehouse_entered_players">
+        <String xml:lang="en-US">You ~b~entered {0}'s warehouse.</String>
+    </Entry>
+
+    <Entry Id="warehouse_dont_have_warrant">
+        <String xml:lang="en-US">You don't have a ~o~warrant ~s~to enter this warehouse. You can only enter when you spot a ~o~wanted suspect ~s~enter.</String>
+    </Entry>
+
+    <Entry Id="warehouse_attempt_cooldown">
+        <String xml:lang="en-US">~r~You must wait before attempting to enter again.</String>
+    </Entry>
+
+    <Entry Id="warehouse_fell_out_teleport">
+        <String xml:lang="en-US">You fell out of the property interior, so you were teleported back in.</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Garage -->
     <!-- ========================= -->
@@ -84,6 +133,46 @@
         <String xml:lang="de-DE">(C){0}(/C) hat ~y~{1}~s~ betreten.</String>
     </Entry>
 
+    <Entry Id="garage_dont_have_required_level">
+        <String xml:lang="en-US">~r~You don't have the required level to purchase this garage.</String>
+    </Entry>
+
+    <Entry Id="garage_dont_have_required_membership_tier">
+        <String xml:lang="en-US">~r~You don't have the required membership tier to purchase this garage.</String>
+    </Entry>
+
+    <Entry Id="garage_cant_store_vehicle">
+        <String xml:lang="en-US">~r~You cannot store this vehicle in a garage.</String>
+    </Entry>
+
+    <Entry Id="garage_stolen_vehicle_parked">
+        <String xml:lang="en-US">This ~r~stolen vehicle ~s~has been parked in your ~y~garage~s~.</String>
+    </Entry>
+
+    <Entry Id="garage_personal_vehicle_returned">
+        <String xml:lang="en-US">This ~b~personal vehicle ~s~has been returned to your ~y~garage~s~.</String>
+    </Entry>
+
+    <Entry Id="garage_personal_vehicle_moved">
+        <String xml:lang="en-US">This ~b~personal vehicle ~s~has been moved to this ~y~garage~s~.</String>
+    </Entry>
+
+    <Entry Id="garage_cant_park_vehicle_current_job">
+        <String xml:lang="en-US">~r~You cannot park vehicles in a garage on your current job.</String>
+    </Entry>
+
+    <Entry Id="garage_cant_park_someone_elses_vehicle">
+        <String xml:lang="en-US">~r~You cannot park vehicles in a garage on your current job.</String>
+    </Entry>
+
+    <Entry Id="garage_full">
+        <String xml:lang="en-US">~r~Your garage is full.</String>
+    </Entry>
+
+    <Entry Id="garage_cant_take_vehicle_out_current_job">
+        <String xml:lang="en-US">~r~You cannot take vehicles out of a garage on your current job.</String>
+    </Entry>
+
     <Entry Id="vehicle_gps_set">
         <String xml:lang="en-US">~r~You have to be in a vehicle to set the GPS.</String>
         <String xml:lang="nl-NL">~r~Je moet in een voertuig zitten om de GPS te zetten.</String>
@@ -95,6 +184,30 @@
         <String xml:lang="en-US">Navigating to ~y~{0}~s~.</String>
         <String xml:lang="nl-NL">Navigeren naar ~y~{0}~s~.</String>
         <String xml:lang="it-IT">Navigando verso ~y~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="property_purchased">
+        <String xml:lang="en-US">You purchased ~y~{0} ~s~for ~g~{1}~s~.</String>
+    </Entry>
+
+    <!-- {0} = Property name (warehouse; garage; ...) -->
+    <Entry Id="property_not_authorized_enter">
+        <String xml:lang="en-US">~r~You're not authorized to enter this {0}.</String>
+    </Entry>
+
+    <Entry Id="property_owner_offline">
+        <String xml:lang="en-US">~r~The owner of this {0} is offline.</String>
+    </Entry>
+
+    <!-- {0} = Player's name -->
+    <!-- {0} = Property name -->
+    <Entry Id="property_player_knocking_at">
+        <String xml:lang="en-US">{0} ~s~is knocking at ~y~{1}~s~.</String>
+    </Entry>
+
+    <!-- {0} = Player's name -->
+    <Entry Id="property_answered">
+        <String xml:lang="en-US">You answered {0}~s~.</String>
     </Entry>
 
 </Entries>

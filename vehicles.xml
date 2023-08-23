@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Entries>
+    <!-- {0} = Vehicle -->
+    <Entry Id="vehicle_returned_garage">
+        <String xml:lang="en-US">Your ~b~{0} ~s~has been returned to your garage!</String>
+        <String xml:lang="nl-NL">Je ~b~{0} ~s~is teruggebracht naar je garage!</String>
+        <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata riportata al tuo garage!</String>
+    </Entry>
+
+    <Entry Id="cant_do_when_cuffed">
+        <String xml:lang="en-US">~r~You can't do this when you are cuffed.</String>
+        <String xml:lang="nl-NL">~r~Je kan dit niet doen wanneer je geboeid bent.</String>
+        <String xml:lang="it-IT">~r~Non puoi fare questo mentre sei ammanettato.</String>
+    </Entry>
+
+    <Entry Id="cant_send_personal_vehicle_to_maintenance_when_inside">
+        <String xml:lang="en-US">~r~You can't send your personal vehicle to maintenance when you're inside it!</String>
+        <String xml:lang="nl-NL">~r~Je kan je persoonlijke voertuig niet naar een onderhoudsbeurt sturen wanneer je erin zit!</String>
+        <String xml:lang="it-IT">~r~Non puoi inviare il tuo veicolo personale in manutenzione mentre sei dentro di esso!</String>
+    </Entry>
+
+    <Entry Id="vehicle_sent_to_maintenance">
+        <String xml:lang="en-US">Your ~b~{0} ~s~has been sent to maintenance. This will take a few minutes.</String>
+        <String xml:lang="nl-NL">Je ~b~{0} ~s~is gestuurd naar een onderhoudsbeurt. Dit zal een paar minuten duren.</String>
+        <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata mandata in manutenzione. Questo richiederà alcuni minuti.</String>
+    </Entry>
+
+    <Entry Id="vehicle_already_in_maintenance">
+        <String xml:lang="en-US">~r~This vehicle is already in maintenance!</String>
+        <String xml:lang="nl-NL">~r~Er is al een onderhoudsbeurt bezig op dit voertuig!</String>
+        <String xml:lang="it-IT">~r~Questo veicolo è già in manutenzione!</String>
+    </Entry>
+
+    <!-- {0} = Vehicle -->
+    <Entry Id="vehicle_completed_maintenance">
+        <String xml:lang="en-US">The maintenance of your ~b~{0} ~s~has been completed.</String>
+        <String xml:lang="nl-NL">De onderhoudsbeurt van je ~b~{0} ~s~is klaar.</String>
+        <String xml:lang="it-IT">La manutenzione della tua ~b~{0} ~s~è stata completata.</String>
+    </Entry>
+
+    <!-- {0} = Vehicle -->
+    <Entry Id="vehicle_replaced_transported_garage">
+        <String xml:lang="en-US">Your ~b~{0} ~s~has been replaced and transported to your garage!</String>
+        <String xml:lang="nl-NL">Je ~b~{0} ~s~is vervangen en getransporteerd naar je garage!</String>
+        <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata sostituita e trasportata al tuo garage!</String>
+    </Entry>
+
+    <Entry Id="vehicle_replaced">
+        <String xml:lang="en-US">Your ~b~{0} ~s~has been replaced.</String>
+        <String xml:lang="nl-NL">Je ~b~{0} ~s~is vervangen.</String>
+        <String xml:lang="it-IT">{0} ~s~è stata sostituita.</String>
+    </Entry>
+
+    <!-- {0} = Vehicle -->
+    <!-- {1} = Amount (money) -->
+    <Entry Id="vehicle_rental_extended_another_game_week">
+        <String xml:lang="en-US">Your ~b~{0}~s~'s rental has been extended for another game week for ~g~{1}~s~!</String>
+        <String xml:lang="nl-NL">Je ~b~{0}~s~'s huurcontract is verlengt voor één game week voor ~g~{1}~s~!</String>
+        <String xml:lang="it-IT">Il noleggio per la tua ~b~{0} ~s~è stato esteso per un'altra settimana di gioco per ~g~{1}~s~!</String>
+    </Entry>
+
+    <Entry Id="vehicle_rental_terminated">
+        <String xml:lang="en-US">Your ~b~{0}~s~'s rental has been terminated!</String>
+        <String xml:lang="nl-NL">Je ~b~{0}~s~'s huurcontract is beëindigd!</String>
+        <String xml:lang="it-IT">Il noleggio per la tua ~b~{0} ~s~è terminato!</String>
+    </Entry>
+
+    <!-- {0} = Vehicle -->
+    <!-- {1} = Amount (money) -->
+    <Entry Id="vehicle_sold_to_server">
+        <String xml:lang="en-US">You sold your ~b~{0} ~s~to the server for ~g~{1}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt je ~b~{0} ~s~verkocht aan de server voor ~g~{1}~s~.</String>
+        <String xml:lang="it-IT">Hai venduto la tua ~b~{0} ~s~al server per ~g~{1}~s~.</String>
+    </Entry>
+    <!-- {0} = Fuel/Battery -->
+    <Entry Id="running_low_fuel">
+        <String xml:lang="en-US">You are running low on ~r~{0}~s~. Navigate to the nearest ~y~gas station~s~?</String>
+    </Entry>
+
+    <Entry Id="on_foot_to_use_fuel_pump">
+        <String xml:lang="en-US">You must be ~r~on foot ~s~to use a fuel pump.</String>
+    </Entry>
+
+    <Entry Id="vehicle_in_maintenance">
+        <String xml:lang="en-US">~r~This vehicle is in maintenance.</String>
+    </Entry>
+
+    <Entry Id="active_vehicle_destroyed">
+        <String xml:lang="en-US">Your active vehicle has been ~r~destroyed~s~! You can request a replacement in {0} ~y~Menu ~s~&gt; ~y~Vehicles~s~.</String>
+    </Entry>
+
+    <Entry Id="vehicle_impounded">
+        <String xml:lang="en-US">Your ~y~vehicle ~s~has been ~o~impounded~s~. Go to an impound lot and pay a fee to claim it back.</String>
+    </Entry>
+
+    <Entry Id="vehicle_cant_lock_unlock_when_cuffed">
+        <String xml:lang="en-US">You can't lock or unlock your ~b~vehicle ~s~when you are ~r~cuffed~s~.</String>
+    </Entry>
+
+    <Entry Id="vehicle_out_of_range">
+        <String xml:lang="en-US">Your ~b~vehicle ~s~is ~r~out of range~s~.</String>
+    </Entry>
+
+    <Entry Id="vehicle_out_of_range">
+        <String xml:lang="en-US">Your ~b~vehicle ~s~is ~r~out of range~s~.</String>
+    </Entry>
+
+    <!-- {0} = Locked/Unlocked -->
+    <Entry Id="vehicle_lock_unlock">
+        <String xml:lang="en-US">You {0} ~s~your ~b~vehicle~s~.</String>
+    </Entry>
+
+    <Entry Id="vehicle_ejecting_passenger_cooldown">
+        <String xml:lang="en-US">Please ~r~wait ~s~before ejecting another ~b~passenger~s~.</String>
+    </Entry>
+
+    <!-- {0} = Player name -->
+    <Entry Id="player_ejected">
+        <String xml:lang="en-US">{0} has been ~r~ejected~s~.</String>
+    </Entry>
+
+    <Entry Id="player_ejected_you">
+        <String xml:lang="en-US">{0} has ~r~ejected ~s~you from their vehicle.</String>
+    </Entry>
+
+    <!-- {0} = Key -->
+    <Entry Id="press_to_open_vehicle_menu">
+        <String xml:lang="en-US">Press {0} to access the ~b~vehicle menu~s~.</String>
+    </Entry>
+
+    <Entry Id="double_press_to_open_vehicle_menu">
+        <String xml:lang="en-US">Double press {0} to access the ~b~vehicle menu~s~.</String>
+    </Entry>
+
+</Entries>
