@@ -5,7 +5,7 @@
     <Entry Id="vehicle_returned_garage">
         <String xml:lang="en-US">Your ~b~{0} ~s~has been returned to your garage!</String>
         <String xml:lang="nl-NL">Je ~b~{0} ~s~is teruggebracht naar je garage!</String>
-        <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata riportata al tuo garage!</String>
+        <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata restituito al tuo garage!</String>
     </Entry>
 
     <Entry Id="cant_do_when_cuffed">
@@ -76,61 +76,70 @@
     <!-- {0} = Fuel/Battery -->
     <Entry Id="running_low_fuel">
         <String xml:lang="en-US">You are running low on ~r~{0}~s~. Navigate to the nearest ~y~gas station~s~?</String>
+        <String xml:lang="it-IT">Stai esaurendo il ~r~{0}~s~. Vuoi navigare alla ~y~stazione di servizio~s~ più vicina?</String>
     </Entry>
 
     <Entry Id="on_foot_to_use_fuel_pump">
         <String xml:lang="en-US">You must be ~r~on foot ~s~to use a fuel pump.</String>
+        <String xml:lang="it-IT">Devi essere a ~r~piedi ~s~per utilizzare una pompa di carburante.</String>
     </Entry>
 
     <Entry Id="vehicle_in_maintenance">
         <String xml:lang="en-US">~r~This vehicle is in maintenance.</String>
+        <String xml:lang="it-IT">~r~Questo veicolo è in manutenzione.</String>
     </Entry>
 
     <Entry Id="active_vehicle_destroyed">
         <String xml:lang="en-US">Your active vehicle has been ~r~destroyed~s~! You can request a replacement in {0} ~y~Menu ~s~&gt; ~y~Vehicles~s~.</String>
+        <String xml:lang="it-IT">Il tuo veicolo attivo è stato ~r~distrutto~s~! Puoi richiedere la sostituzione dal ~y~Menu ~s~{0} &gt; ~y~Veicoli~s~.</String>
     </Entry>
 
     <Entry Id="vehicle_impounded">
         <String xml:lang="en-US">Your ~y~vehicle ~s~has been ~o~impounded~s~. Go to an impound lot and pay a fee to claim it back.</String>
+        <String xml:lang="it-IT">Il tuo ~y~veicolo~s~ è stato ~o~sequestrato~s~. Vai in un deposito e paga una tassa per riaverlo.</String>
     </Entry>
 
     <Entry Id="vehicle_cant_lock_unlock_when_cuffed">
         <String xml:lang="en-US">You can't lock or unlock your ~b~vehicle ~s~when you are ~r~cuffed~s~.</String>
+        <String xml:lang="it-IT">Non puoi chiudere o aprire il tuo ~b~veicolo~s~ mentre sei ~r~ammanettato~s~.</String>
     </Entry>
 
     <Entry Id="vehicle_out_of_range">
         <String xml:lang="en-US">Your ~b~vehicle ~s~is ~r~out of range~s~.</String>
-    </Entry>
-
-    <Entry Id="vehicle_out_of_range">
-        <String xml:lang="en-US">Your ~b~vehicle ~s~is ~r~out of range~s~.</String>
+        <String xml:lang="it-IT">Il tuo ~b~veicolo ~s~è ~r~fuori portata~s~.</String>
     </Entry>
 
     <!-- {0} = Locked/Unlocked -->
     <Entry Id="vehicle_lock_unlock">
         <String xml:lang="en-US">You {0} ~s~your ~b~vehicle~s~.</String>
+        <String xml:lang="it-IT">Hai {0} ~s~il tuo ~b~veicolo~s~.</String>
     </Entry>
 
     <Entry Id="vehicle_ejecting_passenger_cooldown">
         <String xml:lang="en-US">Please ~r~wait ~s~before ejecting another ~b~passenger~s~.</String>
+        <String xml:lang="it-IT">Per favore, ~r~aspetta ~s~prima di espellere un altro ~b~passeggero~s~.</String>
     </Entry>
 
     <!-- {0} = Player name -->
     <Entry Id="player_ejected">
         <String xml:lang="en-US">{0} has been ~r~ejected~s~.</String>
+        <String xml:lang="it-IT">{0} è stato ~r~espulso~s~.</String>
     </Entry>
 
     <Entry Id="player_ejected_you">
         <String xml:lang="en-US">{0} has ~r~ejected ~s~you from their vehicle.</String>
+        <String xml:lang="it-IT">{0} ti ha ~r~espulso ~s~dal suo veicolo.</String>
     </Entry>
 
     <!-- {0} = Key -->
     <Entry Id="press_to_open_vehicle_menu">
         <String xml:lang="en-US">Press {0} to access the ~b~vehicle menu~s~.</String>
+        <String xml:lang="it-IT">Premi {0} per accedere al ~b~menu veicolo~s~.</String>
     </Entry>
 
     <Entry Id="double_press_to_open_vehicle_menu">
         <String xml:lang="en-US">Double press {0} to access the ~b~vehicle menu~s~.</String>
+        <String xml:lang="it-IT">Premi due volte {0} per accedere al ~b~menu del veicolo~s~.</String>
     </Entry>
 
 </Entries>
