@@ -115,6 +115,7 @@
         <String xml:lang="en-US">~r~You cannot unlink all services. There must be at least one service linked.</String>
         <String xml:lang="nl-NL">~r~Je kan niet alle services verwijderen. Er moet minimaal één service gelinkt zijn.</String>
         <String xml:lang="it-IT">~r~Non puoi scollegare tutti i servizi. Almeno un servizio deve restare collegato.</String>
+        <String xml:lang="pl-PL">~r~Nie możesz odpiąć wszystkich usług. Co najmniej jedna usługa musi być podpięta.</String>
     </Entry>
 
     <!-- {0} = Service name (Discord; FiveM; Steam; ...) -->
@@ -122,30 +123,35 @@
         <String xml:lang="en-US">You ~g~successfully ~s~unlinked {0} from your account.</String>
         <String xml:lang="nl-NL">Je hebt ~g~succesvol ~s~{0} verwijderd van je account.</String>
         <String xml:lang="it-IT">Hai scollegato con ~g~successo ~s~{0} dal tuo account.</String>
+        <String xml:lang="pl-PL">~g~Udało ci się ~s~odpiąć {0} od twojego konta.</String>
     </Entry>
 
     <Entry Id="service_linked">
         <String xml:lang="en-US">You've ~g~successfully ~s~linked ~b~{0} ~s~to your account.</String>
         <String xml:lang="nl-NL">Je hebt ~g~succesvol ~s~{0} gelinkt aan je account.</String>
         <String xml:lang="it-IT">Hai collegato con ~g~successo ~b~{0} ~s~al tuo account.</String>
+        <String xml:lang="pl-PL">~g~Udało ci się ~s~podpiąć {0} do twojego konta.</String>
     </Entry>
 
     <Entry Id="service_mail_already_linked">
         <String xml:lang="en-US">~r~This email address is already linked to another account.</String>
         <String xml:lang="nl-NL">~r~Dit email adres is al gelinkt aan een ander account.</String>
         <String xml:lang="it-IT">~r~Questo indirizzo email è già collegato ad un altro account.</String>
+        <String xml:lang="pl-PL">~r~Ten adres email jest już podpięty do innego konta.</String>
     </Entry>
 
     <Entry Id="service_mail_cooldown">
         <String xml:lang="en-US">~r~You must wait 2 minutes between email change attempts.</String>
         <String xml:lang="nl-NL">~r~Je moet 2 minuten wachten tussen email aanpassingen.</String>
         <String xml:lang="it-IT">~r~Devi aspettare 2 minuti tra i tentativi di cambio dell'indirizzo email.</String>
+        <String xml:lang="pl-PL">~r~Musisz poczekać 2 minuty pomiędzy zmianami emaila.</String>
     </Entry>
 
     <Entry Id="service_mail_invalid">
         <String xml:lang="en-US">~r~{0} is not a valid email address.</String>
         <String xml:lang="nl-NL">~r~{0} is niet een geldig email adres.</String>
         <String xml:lang="it-IT">~r~{0} non è un indirizzo email valido.</String>
+        <String xml:lang="pl-PL">~r~{0} nie jest prawidłowym adresem email.</String>
     </Entry>
 
     <!-- {0} = both the same -> Service name (Discord; FiveM; Steam; ...) -->
@@ -153,42 +159,49 @@
         <String xml:lang="en-US">{0} account not found. Make sure your {0} desktop app is running, then restart FiveM and retry.</String>
         <String xml:lang="nl-NL">{0} account niet gevonden. Zorg ervoor dat de {0} desktop app aan staat, herstart FiveM en probeer opnieuw.</String>
         <String xml:lang="it-IT">Account {0} non trovato. Assicurati che l'applicazione {0} sia in esecuzione sul desktop, poi riavvia FiveM e riprova.</String>
+        <String xml:lang="pl-PL">{0} konto nie znalezione. Upewnij się że aplikacja {0} jest uruchomiona , a potem zrestartuj FiveM i spróbuj ponownie.</String>
     </Entry>
 
     <Entry Id="service_account_not_found_disconnect">
         <String xml:lang="en-US">{0} account not found. Disconnect and go back to the FiveM launcher, then log in to your FiveM account and retry.</String>
         <String xml:lang="nl-NL">{0} account niet gevonden. Disconnect en ga terug naar de FiveM laucnher, log in op de FiveM account en probeer opnieuw.</String>
         <String xml:lang="it-IT">Account {0} non trovato. Disconnettiti e torna al launcher di FiveM, poi effettua l'accesso al tuo account FiveM e riprova.</String>
+        <String xml:lang="pl-PL">{0} konto nie znalezione. Rozłącz się i zrestartuj FiveM, potem zaloguj się do konta FiveM i spróbuj ponownie.</String>
     </Entry>
 
     <Entry Id="server_processing_request">
         <String xml:lang="en-US">~r~The server is still processing your previous request. Please, wait before sending another one.</String>
         <String xml:lang="nl-NL">~r~De server is nog je vorige aanvraag aan het verwerken. Wacht alstublieft voordat je een nieuwe stuurt.</String>
         <String xml:lang="it-IT">~r~Il server sta ancora elaborando la tua richiesta precedente. Per favore, attendi prima di inviarne un'altra.</String>
+        <String xml:lang="pl-PL">~r~Serwer nadal przetwarza twoją ostatnią akcję. Poczekaj zanim wykonasz kolejną.</String>
     </Entry>
 
     <Entry Id="entered_password_too_short">
         <String xml:lang="en-US">~r~The entered password is too short (min 8 characters). Operation canceled.</String>
         <String xml:lang="nl-NL">~r~Het ingevoerde wachtwoord is te kort (min 8 karakters). Operatie geannuleerd.</String>
         <String xml:lang="it-IT">~r~La password inserita è troppo corta (minimo 8 caratteri). Operazione annullata.</String>
+        <String xml:lang="pl-PL">~r~Hasło jest za krótkie (minimum 8 znaków). Operacja anulowana.</String>
     </Entry>
 
     <Entry Id="entered_password_dont_match">
         <String xml:lang="en-US">~r~The entered passwords don't match. Operation canceled.</String>
         <String xml:lang="nl-NL">~r~De ingevoerde wachtwoorden zijn incorrect. Operatie geannuleerd.</String>
         <String xml:lang="it-IT">~r~Le password inserite non corrispondono. Operazione annullata.</String>
+        <String xml:lang="pl-PL">~r~Hasła się nie zgadzają. Operacja anulowana.</String>
     </Entry>
 
     <Entry Id="password_changed">
         <String xml:lang="en-US">Your ~b~password ~s~has been ~g~successfully changed~s~.</String>
         <String xml:lang="nl-NL">Je ~b~wachtwoord ~s~is ~g~succesvol aangepast~s~.</String>
         <String xml:lang="it-IT">La tua ~b~password ~s~è stata ~g~cambiata con successo~s~.</String>
+        <String xml:lang="pl-PL">Twoje ~b~hasło ~s~zostało ~g~pomyślnie zmienione~s~.</String>
     </Entry>
 
     <Entry Id="cant_do_while_fake_username">
         <String xml:lang="en-US">~r~You cannot do this while you're using a fake username.</String>
         <String xml:lang="nl-NL">~r~Je kan dit niet doen terwijl je een fake username gebruikt.</String>
         <String xml:lang="it-IT">~r~Non puoi fare questo mentre stai usando un nome utente falso.</String>
+        <String xml:lang="pl-PL">~r~Nie możesz tego zrobić gdy używasz fałszywego nicku.</String>
     </Entry>
 
     <!-- {0} = Item name (Membership, Name-change token, ...) -->
@@ -196,36 +209,42 @@
         <String xml:lang="en-US">You successfully activated your ~p~{0}~s~.</String>
         <String xml:lang="nl-NL">Je hebt met succes je ~p~{0}~s~ gebruikt.</String>
         <String xml:lang="it-IT">Hai attivato con successo il tuo ~p~{0}~s~.</String>
+        <String xml:lang="pl-PL">Pomyślnie aktywowałeś swój ~p~{0}~s~.</String>
     </Entry>
 
     <Entry Id="already_active_subscription">
         <String xml:lang="en-US">~r~You already have an active subscription. If you need help, open a support ticket on our Discord.</String>
         <String xml:lang="nl-NL">~r~Je hebt al een actieve subscriptie. Als je hulp nodig hebt, maak een support ticket in onze Discord.</String>
         <String xml:lang="it-IT">~r~Hai già un abbonamento attivo. Se hai bisogno di aiuto, apri un support ticket sul nostro Discord.</String>
+        <String xml:lang="pl-PL">~r~Masz już aktywną subskrypcję. Jeśli potrzebujesz pomocy, otwórz ticket w naszym Discordzie.</String>
     </Entry>
 
     <Entry Id="unable_deactivate_silver_membership">
         <String xml:lang="en-US">~r~Unable to deactivate your current Silver Membership to upgrade. If the error persists, please open a support ticket on our Discord.</String>
         <String xml:lang="nl-NL">~r~Niet gelukt om je Silver Membership te upgraden. Als deze error blijft voorkomen, maak alstublieft een support ticket in onze Discord.</String>
         <String xml:lang="it-IT">~r~Impossibile disattivare la tua l'iscrizione all'abbonamento Silver per l'aggiornamento. Se l'errore persiste, apri un support ticket sul nostro Discord.</String>
+        <String xml:lang="pl-PL">~r~Deaktywacja twego obecnego Srebrnego Członkostwa nie powiodła się. Jeśli błąd dalej będzie występował, otwórz ticket na naszym Discordzie.</String>
     </Entry>
 
     <Entry Id="visit_hospital_plastic_surgery">
         <String xml:lang="en-US">Visit a ~r~hospital ~s~to get a ~p~plastic surgery~s~.</String>
         <String xml:lang="nl-NL">Bezoek een ~r~ziekenhuis ~s~om ~p~plastische chirurgie~s~ te krijgen.</String>
         <String xml:lang="it-IT">Visita un ~r~ospedale ~s~per effetuare una ~p~chirurgia plastica~s~.</String>
+        <String xml:lang="pl-PL">Odwiedź ~r~szpital ~s~aby wykonać ~p~operację plastyczną~s~.</String>
     </Entry>
 
     <Entry Id="operation_canceled">
         <String xml:lang="en-US">~r~Operation canceled.</String>
         <String xml:lang="nl-NL">~r~Operatie geannuleerd.</String>
         <String xml:lang="it-IT">~r~Operazione annullata.</String>
+        <String xml:lang="pl-PL">~r~Operacja anulowana.</String>
     </Entry>
 
     <Entry Id="account_menu_change_username">
         <String xml:lang="en-US">Go back to the ~b~Account ~s~menu to change your username.</String>
         <String xml:lang="nl-NL">Ga terug naar het ~b~Account ~s~menu om je gebruikersnaam aan te passen.</String>
         <String xml:lang="it-IT">Torna nel menu ~b~Account ~s~per cambiare il tuo nome utente.</String>
+        <String xml:lang="pl-PL">Wróć do ~s~Menu ~b~Konta~s~ aby zmienić swój nick.</String>
     </Entry>
 
     <Entry Id="item_cant_used">
