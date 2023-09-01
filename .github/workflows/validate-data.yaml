@@ -1,0 +1,26 @@
+name: Localization Files Validation
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+          check-latest: false
+          update-environment: true
+
+      - name: Validate localization files
+        run: |
+          python validator.py
