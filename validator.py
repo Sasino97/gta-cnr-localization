@@ -36,6 +36,7 @@ class Validator:
     display_limit: int = 10
     show_lang: str | None = None
     found_missing_lang: int = 0
+    total_strings: int = 0
     custom_xml_parser = None
 
     @staticmethod
@@ -151,8 +152,13 @@ class Validator:
                         continue
                     if Validator.check_unknown_tag(child, ["Entry"], path):
                         Validator.check_entries(child, path)
-            except (FileNotFoundError) as err:    
+                        Validator.total_strings += 1
+            except FileNotFoundError as err:    
                 Validator.print_error(f"Invalid file: {err}", [file])
+            except xml.sax.SAXParseException as err:
+                Validator.print_error(f"Invalid file: {err.getMessage()}", [file], custom_file_cursor=(err.getLineNumber(), err.getColumnNumber()))
+            except xml.sax._exceptions.SAXNotSupportedException:
+                pass
 
 
     @staticmethod
@@ -164,6 +170,7 @@ class Validator:
         else:
             if element_found_id in Validator.used_ids:
                 Validator.print_error(f"Found element duplicate with id {repr(element_found_id)}!", path, custom_file_cursor=element_location)
+                Validator.total_strings -= 1
             Validator.used_ids.add(element_found_id)
             path = [*path, Validator.entry_pretty_print(entry)]
         found_langs: list[str] = []
@@ -198,7 +205,8 @@ if __name__ == '__main__':
         Validator.xml_files = json.load(index_file)
     Validator.check_xml_files()
     if Validator.show_lang is not None:
-        print(f"Total missing translations for {repr(Validator.show_lang)}: {Validator.found_missing_lang}")
+        print(f"Total missing translations for {repr(Validator.show_lang)}: {Validator.found_missing_lang}. "
+              f"Progress: {Validator.total_strings - Validator.found_missing_lang}/{Validator.total_strings}")
     if Validator.errors > 0:
         print(f"Errors: {Validator.errors}")
         sys.exit(1)
