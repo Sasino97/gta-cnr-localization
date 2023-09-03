@@ -169,7 +169,7 @@
         <String xml:lang="it-IT">{0} ~s~è morto di ~r~overdose~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~zginął z ~r~przedawkowania narkotyków~s~.</String>
         <String xml:lang="tr-TR">{0} ~s~sonucu öldü ~r~aşırı doz~s~.</String>
-        <String xml:lang="zh-Hant">{0} ~s~死於~r~使用藥物過量~s.</String>
+        <String xml:lang="zh-Hant">{0} ~s~死於~r~使用藥物過量~s~.</String>
         <String xml:lang="es-ES">{0} ~s~ha muerto a causa de una ~r~sobredosis de drogas~s~.</String>
     </Entry>
 
@@ -523,7 +523,7 @@
     <Entry Id="for_bounty">
         <String xml:lang="en-US">for ~g~{0}~s~</String>
         <String xml:lang="de-DE">für ~g~{0}~s~</String>
-        <String xml:lang="fr-FR">pour ~g~{0}~s</String>
+        <String xml:lang="fr-FR">pour ~g~{0}~s~</String>
         <String xml:lang="nl-NL">voor ~g~{0}~s~</String>
         <String xml:lang="it-IT">per ~g~{0}~s~</String>
         <String xml:lang="pl-PL">by zdobyć nagrodę ~g~{0}~s~</String>
@@ -794,7 +794,7 @@
         <String xml:lang="de-DE">~b~Krankenversicherung ~s~aktiviert</String>
         <String xml:lang="fr-FR">~b~Mutuelle santé ~s~activée</String>
         <String xml:lang="nl-NL">~b~Zorgverzekering ~s~geactiveerd</String>
-        <String xml:lang="it-IT">~b~Assicurazione sanitaria ~g~attivata</String>
+        <String xml:lang="it-IT">~b~Assicurazione sanitaria ~s~attivata</String>
         <String xml:lang="pl-PL">~b~Ubezpieczenie zdrowotne ~s~aktywowane</String>
         <String xml:lang="tr-TR">~b~Sağlık sigortası ~s~etkinleştirildi</String>
         <String xml:lang="zh-Hant">~b~健康保險 ~s~已啟動</String>
@@ -821,7 +821,7 @@
         <String xml:lang="it-IT">Pagato con assegno: ~g~{0}</String>
         <String xml:lang="pl-PL">Zapłacone przelewem: ~g~{0}</String> <!-- Replaced check with wire transfer as checks are not available in Poland, many people I know, don't know what a check is -->
         <String xml:lang="tr-TR">Banka havalesi ile ödenir: ~g~{0}</String>
-        <String xml:lang="zh-Hant">通過支票支付: ~b~{0}</String>
+        <String xml:lang="zh-Hant">通過支票支付: ~g~{0}</String>
         <String xml:lang="es-ES">Pagado con cheque: ~g~{0}</String>
     </Entry>
 
@@ -833,7 +833,7 @@
         <String xml:lang="it-IT">Pagato in contanti: ~g~{0}</String>
         <String xml:lang="pl-PL">Zapłacono gotówką: ~g~{0}</String>
         <String xml:lang="tr-TR">Nakit ödeme: ~g~{0}</String>
-        <String xml:lang="zh-Hant">通過現金支付: ~b~{0}</String>
+        <String xml:lang="zh-Hant">通過現金支付: ~g~{0}</String>
         <String xml:lang="es-ES">Pagado en efectivo: ~g~{0}</String>
     </Entry>
 
@@ -845,9 +845,9 @@
         <String xml:lang="fr-FR">Insolvable: ~r~{0}</String>
         <String xml:lang="nl-NL">Openstaand: ~r~{0}</String>
         <String xml:lang="it-IT">Insoluto: ~r~{0}</String>
-        <String xml:lang="pl-PL">Dług: ~g~{0}</String>
+        <String xml:lang="pl-PL">Dług: ~r~{0}</String>
         <String xml:lang="tr-TR">Borç: ~r~{0}</String>
-        <String xml:lang="zh-Hant">傑出的: ~b~{0}</String>
+        <String xml:lang="zh-Hant">傑出的: ~r~{0}</String>
         <String xml:lang="es-ES">Pendiente: ~r~{0}</String>
     </Entry>
 </Entries>
