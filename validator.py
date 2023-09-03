@@ -3,6 +3,7 @@ import json
 import sys
 import xml.dom.minidom
 import xml.sax
+import re
 
 USE_COLORAMA = True
 
@@ -10,6 +11,11 @@ try:
     import colorama
 except ModuleNotFoundError:
     USE_COLORAMA = False
+
+
+def get_text_from_node(node: xml.dom.minidom.Node):
+    return "".join(t.nodeValue for t in node.childNodes if t.nodeType == t.TEXT_NODE)
+
 
 class Validator:
     """XML Validation
@@ -175,16 +181,43 @@ class Validator:
             path = [*path, Validator.entry_pretty_print(entry)]
         found_langs: list[str] = []
         lang_attrib =  "xml:lang"
+        should_end_with_format = None
+        required_variables = []
+        good_string_entries = []
+        FORMAT_REGEX = r"~.~"
+        VARIABLE_REGEX = r"{[0-9]+}"
         for string_entry in entry.childNodes:
             if isinstance(string_entry, xml.dom.minidom.Text):
                 continue
             string_entry: xml.dom.minidom.Element
             if Validator.check_unknown_tag(string_entry, ["String"], path):
+                good_string_entries.append(string_entry)
                 for key, value in string_entry.attributes.items():
                     if key == lang_attrib:
+                        if value == "en-US":
+                            found_formats = re.findall(FORMAT_REGEX, get_text_from_node(string_entry))
+                            if (len(found_formats)>0):
+                                should_end_with_format = found_formats[-1]
+                            required_variables = re.findall(VARIABLE_REGEX, get_text_from_node(string_entry))
                         found_langs.append(value)
                     else:
                         Validator.print_error(f"Unknown attribute: {repr(key)}", path, string_entry.parse_position)
+        for string_entry in good_string_entries:
+            text = get_text_from_node(string_entry)
+            found_formats = re.findall(FORMAT_REGEX, text)
+            if len(found_formats)>0 and should_end_with_format is not None:
+                found_format = found_formats[-1]
+                if found_format != should_end_with_format:
+                    Validator.print_error(f"String ends with a wrong format {repr(found_format)}, expected {repr(should_end_with_format)}", path, string_entry.parse_position)
+            found_variables = re.findall(VARIABLE_REGEX, text)
+            if len(found_variables) < len(required_variables):
+                missing_variables = [var for var in required_variables if var not in found_variables]
+                if missing_variables:
+                    Validator.print_error(f"Missing variables: {', '.join(missing_variables)}", path, string_entry.parse_position)
+            elif len(found_variables) > len(required_variables):
+                unneeded_variables = [var for var in found_variables if var not in required_variables]
+                if unneeded_variables:
+                    Validator.print_error(f"Found too many variables: {', '.join(unneeded_variables)}", path, string_entry.parse_position)
         if (Validator.show_lang is not None) and (Validator.show_lang not in found_langs):
             if Validator.found_missing_lang <= Validator.display_limit:
                 Validator.print_warning(f"Missing translation for {repr(Validator.show_lang)}!", path, element_location)
