@@ -57,7 +57,7 @@
         <String xml:lang="zh-Hant">~r~餘額不足</String>
         <String xml:lang="es-ES">~r~Sin fondos</String>
         <String xml:lang="ar-001">~r~لا يوجد رصيد</String>
-        <String xml:lang="pt-BR">~r~Sem fundos</String>
+        <String xml:lang="pt-BR">~r~Sem saldo</String>
     </Entry>
 
     <Entry Id="menu_atm_withdraw_text">
@@ -197,7 +197,7 @@
         <String xml:lang="zh-Hant">這台 ~y~提款機 ~s~目前 ~r~無法使用~s~!</String>
         <String xml:lang="es-ES">!Este ~y~cajero automático ~s~está ~r~fuera de servicio~s~!</String>
         <String xml:lang="ar-001">~y~ماكينة الصراف الآلي ~r~خارجه عن الخدمة~s~!</String>
-        <String xml:lang="pt-BR">!O ~y~Caixa eletrônico ~s~is ~r~está fora de serviço~s~!</String>
+        <String xml:lang="pt-BR">!O ~y~Caixa eletrônico ~s~está ~r~ fora de serviço~s~!</String>
     </Entry>
 
     <Entry Id="input_atm_withdraw_title">
@@ -253,7 +253,7 @@
         <String xml:lang="zh-Hant">~r~一次只能提現~s~{0} ~r~.</String>
         <String xml:lang="es-ES">~r~Solo puedes retirar ~s~{0} ~r~a la vez.</String>
         <String xml:lang="ar-001">~r~يمكنك فقط سحب ~s~{0} ~r~في المره الواحده.</String>
-        <String xml:lang="pt-BR">~r~Você só pode sacar ~s~{0} ~r~ao mesmo tempo.</String>
+        <String xml:lang="pt-BR">~r~Você só pode retirar de  ~s~{0} ~r~ao mesmo tempo.</String>
     </Entry>
 
     <Entry Id="atm_insufficient_funds">
@@ -267,7 +267,7 @@
         <String xml:lang="zh-Hant">您的~r~存款不足~s~.</String>
         <String xml:lang="es-ES">!No tienes saldo ~r~suficientes ~s~!</String>
         <String xml:lang="ar-001">ليس لديك ~r~كافيه ~s~نقود!</String>
-        <String xml:lang="pt-BR">Você não tem fundos ~r~suficientes ~s~!</String>
+        <String xml:lang="pt-BR">Você não tem saldos ~r~suficientes ~s~!</String>
     </Entry>
 
     <Entry Id="atm_invalid_amount">
@@ -293,9 +293,9 @@
         <String xml:lang="pl-PL">Nie stać cię na zapłacenie ~r~opłat bankomatowych~s~!</String>
         <String xml:lang="tr-TR">Ödeyemezsiniz ~r~Bankamatik ücretlerini~s~!</String>
         <String xml:lang="zh-Hant">您的餘額不足以支付~r~提款機的手續費~s~!</String>
-        <String xml:lang="es-ES">¡Tu saldo no cubre los ~r~Impuestos ded cajero automático~s~!</String>
+        <String xml:lang="es-ES">¡Tu saldo no cubre los ~r~Impuestos del cajero automático~s~!</String>
         <String xml:lang="ar-001">رصيدك لا يغطي ~r~رسوم ماكينة الصراف الآلي~s~!</String>
-        <String xml:lang="pt-BR">Seu saldo não cobre as ~r~taxas de caixa eletrônico~s~!</String>
+        <String xml:lang="pt-BR">Seu saldo não cobre os ~r~taxas do caixa eletrônico~s~!</String>
     </Entry>
 
     <Entry Id="input_atm_deposit_title">
@@ -379,7 +379,7 @@
         <String xml:lang="zh-Hant">使用提款機</String>
         <String xml:lang="es-ES">Usar el cajero automático</String>
         <String xml:lang="ar-001">استخدم جهاز الصراف الآلي</String>
-        <String xml:lang="pt-BR">Usando a caixa eletrônico</String>
+        <String xml:lang="pt-BR">Usar o caixa eletrônico</String>
     </Entry>
 
     <Entry Id="btn_atm_hack">
@@ -421,7 +421,7 @@
         <String xml:lang="zh-Hant">你駭入了 ~r~提款機~s~ 並獲取了 ~g~{0}~s~!</String>
         <String xml:lang="es-ES">¡Hackeaste el ~r~Cajero automatico~s~ y robaste ~g~{0}~s~!</String>
         <String xml:lang="ar-001">لقد اخترقت ~r~ماكينة صرف آلي~s~ و سرقت منها  ~g~{0}~s~!</String>
-        <String xml:lang="pt-BR">Você Hackeo o  ~r~caixa eletrônico~s~ a roubado ~g~{0}~s~!</String>
+        <String xml:lang="pt-BR">Você Hackeou o  ~r~caixa eletrônico~s~ você roubou ~g~{0}~s~!</String>
     </Entry>
 
     <Entry Id="atm_hacking_success_announcement">
@@ -435,6 +435,6 @@
         <String xml:lang="zh-Hant">{0} 駭入並搶劫了提款機內的 {1}.</String>
         <String xml:lang="es-ES">{0} hackeo un cajero automático y robó {1}.</String>
         <String xml:lang="ar-001">{0} اخترقت جهاز الصراف الآلي وسرقت {1}.</String>
-        <String xml:lang="pt-BR">{0} hackero um caixaa eletrônico e roubou {1}.</String>
+        <String xml:lang="pt-BR">{0} hackeou um caixaa eletrônico e roubou {1}.</String>
     </Entry>
 </Entries>
