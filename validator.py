@@ -204,6 +204,7 @@ class Validator:
                         Validator.print_error(f"Unknown attribute: {repr(key)}", path, string_entry.parse_position)
         for string_entry in good_string_entries:
             text = get_text_from_node(string_entry)
+            current_lang = dict(string_entry.attributes.items()).get(lang_attrib)
             found_formats = re.findall(FORMAT_REGEX, text)
             if len(found_formats)>0 and should_end_with_format is not None:
                 found_format = found_formats[-1]
@@ -218,6 +219,11 @@ class Validator:
                 unneeded_variables = [var for var in found_variables if var not in required_variables]
                 if unneeded_variables:
                     Validator.print_error(f"Found too many variables: {', '.join(unneeded_variables)}", path, string_entry.parse_position)
+            text_without_formatting = re.sub(FORMAT_REGEX, "", text)
+            if text_without_formatting.find("~") != -1:
+                Validator.print_error(f"Found invalid text formatting (~)", path, string_entry.parse_position)
+            if re.findall(r"\s\s+", text_without_formatting):
+                Validator.print_error(f"Found too many spaces between words", path, string_entry.parse_position)
         if (Validator.show_lang is not None) and (Validator.show_lang not in found_langs):
             if Validator.found_missing_lang <= Validator.display_limit:
                 Validator.print_warning(f"Missing translation for {repr(Validator.show_lang)}!", path, element_location)
