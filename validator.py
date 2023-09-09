@@ -186,6 +186,7 @@ class Validator:
         good_string_entries = []
         FORMAT_REGEX = r"~.~"
         VARIABLE_REGEX = r"{[0-9]+}"
+        WRONG_PUNCTUATION_REGEX = r"\s[.,?,!]"
         for string_entry in entry.childNodes:
             if isinstance(string_entry, xml.dom.minidom.Text):
                 continue
@@ -224,6 +225,8 @@ class Validator:
                 Validator.print_error(f"Found invalid text formatting (~)", path, string_entry.parse_position)
             if re.findall(r"\s\s+", text_without_formatting):
                 Validator.print_error(f"Found too many spaces between words", path, string_entry.parse_position)
+            if re.findall(WRONG_PUNCTUATION_REGEX, text_without_formatting):
+                Validator.print_error(f"Found invalid punctuation mark placement", path, string_entry.parse_position)
         if (Validator.show_lang is not None) and (Validator.show_lang not in found_langs):
             if Validator.found_missing_lang <= Validator.display_limit:
                 Validator.print_warning(f"Missing translation for {repr(Validator.show_lang)}!", path, element_location)
