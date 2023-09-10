@@ -452,7 +452,7 @@ class Validator:
 
     def add_formatted_text_to_html(text: str):
         text = regex_replace_multiple(text, GTA_FORMAT_REPLACEMENT_TABLE)
-        GROUP_REGEX = r"~h~|~n~|~bold~|~italic~|<C>|<\/C>|~HUD_COLOUR_.+?~|~HC_.+?~|~CC_[0-9]{1,3}_[0-9]{1,3}_[0-9]{1,3}~"
+        GROUP_REGEX = r"~h~|~n~|~bold~|~italic~|\(C\)|\(\/C\)|~HUD_COLOUR_.+?~|~HC_.+?~|~CC_[0-9]{1,3}_[0-9]{1,3}_[0-9]{1,3}~"
         bolded = False
         italic = False
         color = "rgb(205,205,205)"
@@ -470,9 +470,9 @@ class Validator:
                     bolded = not bolded
                 case "~italic~":
                     italic = not italic
-                case "<C>":
+                case "(C)":
                     condensed += 1
-                case "</C>":
+                case "(/C)":
                     condensed -= 1
                 case "~n~":
                     new_line = not new_line
