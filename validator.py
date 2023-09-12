@@ -282,10 +282,11 @@ def regex_replace_multiple(text: str, replacement_table: list[list[str]]) -> str
         text = re.sub(replacement[0], replacement[1], text)
     return text
 
-def get_consecutive_duplicate(lst: list):
+def get_consecutive_duplicate(lst: list, exceptions: list = []):
     for i in range(len(lst) - 1):
-        if lst[i] == lst[i + 1]:
-            return lst[i]
+        if lst[i] not in exceptions:
+            if lst[i] == lst[i + 1]:
+                return lst[i]
     return None
 
 
@@ -589,7 +590,7 @@ class Validator:
                 found_formats_set = set(found_formats)
                 invalid_text_formatting = found_formats_set.difference(required_text_formatting)
                 missing_text_formatting = required_text_formatting.difference(found_formats_set)
-                formatting_duplicate = get_consecutive_duplicate(found_formats)
+                formatting_duplicate = get_consecutive_duplicate(found_formats, exceptions=["~h~","~n~","~s~"])
                 if invalid_text_formatting:
                     Validator.print_error(f"Found invalid text formatting: {', '.join(invalid_text_formatting)}", path1, string_entry.parse_position)
                 if missing_text_formatting:
