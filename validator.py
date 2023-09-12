@@ -549,7 +549,7 @@ class Validator:
         required_text_formatting = set()
         required_variables = []
         good_string_entries = []
-        FORMAT_REGEX = r"~.~"
+        FORMAT_REGEX = r"~[s,b,r,n,y,p,g,o,h,c]~"
         VARIABLE_REGEX = r"{[0-9]+}"
         WRONG_PUNCTUATION_REGEX = r"\s[.,?,!]"
         for string_entry in entry.childNodes:
@@ -572,6 +572,7 @@ class Validator:
         for string_entry in good_string_entries:
             text = get_text_from_node(string_entry)
             current_lang = dict(string_entry.attributes.items()).get(lang_attrib)
+            path1 = [*path, current_lang]
             if DOMINATE_INSTALLED and Validator.preview_formatting:
                 with Validator.main_doc.body:
                     dominate.tags.h3(current_lang)
@@ -582,28 +583,28 @@ class Validator:
                 invalid_text_formatting = found_formats_set.difference(required_text_formatting)
                 missing_text_formatting = required_text_formatting.difference(found_formats_set)
                 if invalid_text_formatting:
-                    Validator.print_error(f"Found invalid text formatting: {', '.join(invalid_text_formatting)}", path, string_entry.parse_position)
+                    Validator.print_error(f"Found invalid text formatting: {', '.join(invalid_text_formatting)}", path1, string_entry.parse_position)
                 if missing_text_formatting:
-                    Validator.print_error(f"Missing text formatting: {', '.join(missing_text_formatting)}", path, string_entry.parse_position)
+                    Validator.print_error(f"Missing text formatting: {', '.join(missing_text_formatting)}", path1, string_entry.parse_position)
                 found_format = found_formats[-1]
                 if found_format != should_end_with_format:
-                    Validator.print_error(f"String ends with a wrong format {repr(found_format)}, expected {repr(should_end_with_format)}", path, string_entry.parse_position)
+                    Validator.print_error(f"String ends with a wrong format {repr(found_format)}, expected {repr(should_end_with_format)}", path1, string_entry.parse_position)
             found_variables = re.findall(VARIABLE_REGEX, text)
             if len(found_variables) < len(required_variables):
                 missing_variables = [var for var in required_variables if var not in found_variables]
                 if missing_variables:
-                    Validator.print_error(f"Missing variables: {', '.join(missing_variables)}", path, string_entry.parse_position)
+                    Validator.print_error(f"Missing variables: {', '.join(missing_variables)}", path1, string_entry.parse_position)
             elif len(found_variables) > len(required_variables):
                 unneeded_variables = [var for var in found_variables if var not in required_variables]
                 if unneeded_variables:
-                    Validator.print_error(f"Found too many variables: {', '.join(unneeded_variables)}", path, string_entry.parse_position)
+                    Validator.print_error(f"Found too many variables: {', '.join(unneeded_variables)}", path1, string_entry.parse_position)
             text_without_formatting = re.sub(FORMAT_REGEX, "", text)
             if text_without_formatting.find("~") != -1:
-                Validator.print_error(f"Found invalid text formatting (~)", path, string_entry.parse_position)
+                Validator.print_error(f"Found invalid text formatting (~)", path1, string_entry.parse_position)
             if re.findall(r"\s\s+", text_without_formatting):
-                Validator.print_error(f"Found too many spaces between words", path, string_entry.parse_position)
+                Validator.print_error(f"Found too many spaces between words", path1, string_entry.parse_position)
             if re.findall(WRONG_PUNCTUATION_REGEX, text_without_formatting):
-                Validator.print_error(f"Found invalid punctuation mark placement", path, string_entry.parse_position)
+                Validator.print_error(f"Found invalid punctuation mark placement", path1, string_entry.parse_position)
         if (Validator.show_lang is not None) and (Validator.show_lang not in found_langs):
             if Validator.found_missing_lang <= Validator.display_limit:
                 Validator.print_warning(f"Missing translation for {repr(Validator.show_lang)}!", path, element_location)
@@ -630,13 +631,13 @@ if __name__ == '__main__':
     if Validator.show_lang is not None:
         print(f"Total missing translations for {repr(Validator.show_lang)}: {Validator.found_missing_lang}. "
               f"Progress: {Validator.total_strings - Validator.found_missing_lang}/{Validator.total_strings}")
+    if Validator.preview_formatting and DOMINATE_INSTALLED:
+        with open("preview.html", "w", encoding="utf-8") as file:
+            file.write(Validator.main_doc.render(pretty=False))
     if Validator.errors > 0:
         print(f"Errors: {Validator.errors}")
         sys.exit(1)
     else:
         print("No errors found")
-    if Validator.preview_formatting and DOMINATE_INSTALLED:
-        with open("preview.html", "w", encoding="utf-8") as file:
-            file.write(Validator.main_doc.render(pretty=False))
     if COLORAMA_INSTALLED:
         colorama.deinit()
