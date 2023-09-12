@@ -546,6 +546,7 @@ class Validator:
         found_langs: list[str] = []
         lang_attrib =  "xml:lang"
         should_end_with_format = None
+        required_text_formatting = set()
         required_variables = []
         good_string_entries = []
         FORMAT_REGEX = r"~.~"
@@ -562,6 +563,7 @@ class Validator:
                         if value == "en-US":
                             found_formats = re.findall(FORMAT_REGEX, get_text_from_node(string_entry))
                             if (len(found_formats)>0):
+                                required_text_formatting = set(found_formats)
                                 should_end_with_format = found_formats[-1]
                             required_variables = re.findall(VARIABLE_REGEX, get_text_from_node(string_entry))
                         found_langs.append(value)
@@ -576,6 +578,13 @@ class Validator:
                 Validator.add_formatted_text_to_html(text)
             found_formats = re.findall(FORMAT_REGEX, text)
             if len(found_formats)>0 and should_end_with_format is not None:
+                found_formats_set = set(found_formats)
+                invalid_text_formatting = found_formats_set.difference(required_text_formatting)
+                missing_text_formatting = required_text_formatting.difference(found_formats_set)
+                if invalid_text_formatting:
+                    Validator.print_error(f"Found invalid text formatting: {', '.join(invalid_text_formatting)}", path, string_entry.parse_position)
+                if missing_text_formatting:
+                    Validator.print_error(f"Missing text formatting: {', '.join(missing_text_formatting)}", path, string_entry.parse_position)
                 found_format = found_formats[-1]
                 if found_format != should_end_with_format:
                     Validator.print_error(f"String ends with a wrong format {repr(found_format)}, expected {repr(should_end_with_format)}", path, string_entry.parse_position)
