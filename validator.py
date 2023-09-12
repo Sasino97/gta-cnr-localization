@@ -282,6 +282,13 @@ def regex_replace_multiple(text: str, replacement_table: list[list[str]]) -> str
         text = re.sub(replacement[0], replacement[1], text)
     return text
 
+def get_consecutive_duplicate(lst: list):
+    for i in range(len(lst) - 1):
+        if lst[i] == lst[i + 1]:
+            return lst[i]
+    return None
+
+
 class Validator:
     """XML Validation
 
@@ -582,10 +589,13 @@ class Validator:
                 found_formats_set = set(found_formats)
                 invalid_text_formatting = found_formats_set.difference(required_text_formatting)
                 missing_text_formatting = required_text_formatting.difference(found_formats_set)
+                formatting_duplicate = get_consecutive_duplicate(found_formats)
                 if invalid_text_formatting:
                     Validator.print_error(f"Found invalid text formatting: {', '.join(invalid_text_formatting)}", path1, string_entry.parse_position)
                 if missing_text_formatting:
                     Validator.print_error(f"Missing text formatting: {', '.join(missing_text_formatting)}", path1, string_entry.parse_position)
+                if formatting_duplicate:
+                    Validator.print_error(f"Found text formatting duplicate: {formatting_duplicate}", path1, string_entry.parse_position)
                 found_format = found_formats[-1]
                 if found_format != should_end_with_format:
                     Validator.print_error(f"String ends with a wrong format {repr(found_format)}, expected {repr(should_end_with_format)}", path1, string_entry.parse_position)
