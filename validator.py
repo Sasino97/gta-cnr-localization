@@ -319,6 +319,7 @@ class Validator:
     custom_xml_parser = None
     preview_formatting = False
     main_doc = None
+    warnings_as_errors = False
 
     @staticmethod
     def setup_xml_parser():
@@ -377,6 +378,7 @@ class Validator:
             print(f"{colorama.Fore.RED}{txt}{colorama.Fore.RESET}")
         else:
             print(txt)
+        print()
 
 
     @staticmethod
@@ -395,11 +397,20 @@ class Validator:
             print(f"{colorama.Fore.YELLOW}{txt}{colorama.Fore.RESET}")
         else:
             print(txt)
+        print()
+
+
+    @staticmethod
+    def print_warning_or_error(warning: str, location: list[str], custom_file_cursor: tuple[int] | None = None):
+        if Validator.warnings_as_errors:
+            Validator.print_error(warning, location, custom_file_cursor)
+        else:
+            Validator.print_warning(warning, location, custom_file_cursor)
 
 
     @staticmethod
     def entry_pretty_print(entry: xml.dom.minidom.Element) -> str:
-        return f"{entry.tagName}<Id:{repr(dict(entry.attributes.items()).get('Id'))}>"
+        return f"{entry.tagName}({repr(dict(entry.attributes.items()).get('Id'))})"
 
 
     @staticmethod
@@ -613,12 +624,12 @@ class Validator:
             if text_without_formatting.find("~") != -1:
                 Validator.print_error(f"Found invalid text formatting (~)", path1, string_entry.parse_position)
             if re.findall(r"\s\s+", text_without_formatting):
-                Validator.print_error(f"Found too many spaces between words", path1, string_entry.parse_position)
+                Validator.print_warning_or_error(f"Found too many spaces between words", path1, string_entry.parse_position)
             if re.findall(WRONG_PUNCTUATION_REGEX, text_without_formatting):
-                Validator.print_error(f"Found invalid punctuation mark placement", path1, string_entry.parse_position)
+                Validator.print_warning_or_error(f"Found invalid punctuation mark placement", path1, string_entry.parse_position)
         if (Validator.show_lang is not None) and (Validator.show_lang not in found_langs):
             if Validator.found_missing_lang <= Validator.display_limit:
-                Validator.print_warning(f"Missing translation for {repr(Validator.show_lang)}!", path, element_location)
+                Validator.print_warning_or_error(f"Missing translation for {repr(Validator.show_lang)}!", path, element_location)
             Validator.found_missing_lang += 1
 
 
@@ -628,6 +639,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Validates localization files')
     parser.add_argument('--show_lang', type=str, help='Show missing language localizations', choices=Validator.supported_langs)
     parser.add_argument('--preview_formatting', action='store_true', help='Show formatted localizations as HTML file')
+    parser.add_argument('--treat_warnings_as_errors', action='store_true', help='Treat warnings as errors')
     parser.add_argument('--display_limit', type=int, default=10, help='Set display limit for missing translations')
     args = parser.parse_args()
     Validator.custom_xml_parser = Validator.setup_xml_parser()
@@ -635,6 +647,7 @@ if __name__ == '__main__':
         Validator.preview_formatting = True
         Validator.setup_html_doc()
     Validator.display_limit = args.display_limit
+    Validator.warnings_as_errors = args.treat_warnings_as_errors
     Validator.show_lang = args.show_lang
     with open("index.json", "r", encoding="utf-8") as index_file:
         Validator.xml_files = json.load(index_file)
