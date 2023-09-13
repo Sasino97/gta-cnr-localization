@@ -658,6 +658,7 @@ if __name__ == '__main__':
     if Validator.preview_formatting and DOMINATE_INSTALLED:
         with open("preview.html", "w", encoding="utf-8") as file:
             file.write(Validator.main_doc.render(pretty=False))
+        print("Formatting preview has been generated in preview.html\n")
     if Validator.errors > 0:
         print(f"Errors: {Validator.errors}")
         sys.exit(1)
