@@ -585,6 +585,8 @@ class Validator:
                                 required_text_formatting = set(found_formats)
                                 should_end_with_format = found_formats[-1]
                             required_variables = re.findall(VARIABLE_REGEX, get_text_from_node(string_entry))
+                        if value in found_langs:
+                            Validator.print_error(f"Found duplicate string for {value}", path, string_entry.parse_position)
                         found_langs.append(value)
                     else:
                         Validator.print_error(f"Unknown attribute: {repr(key)}", path, string_entry.parse_position)
