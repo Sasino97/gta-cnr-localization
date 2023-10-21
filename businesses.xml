@@ -9,6 +9,7 @@
         <String xml:lang="es-ES">Tienda</String>
         <String xml:lang="pt-BR">Loja</String>
         <String xml:lang="ar-001">متجر</String>
+        <String xml:lang="de-DE">Laden</String>
     </Entry>
 
     <Entry Id="menu_store_subtitle">
@@ -19,7 +20,7 @@
         <String xml:lang="es-ES">Canjear tarjetas de regalo</String>
         <String xml:lang="pt-BR">Resgatar cartões-presente</String>
         <String xml:lang="ar-001">استرداد بطاقات الهدايا</String>
-
+        <String xml:lang="de-DE">Löse Geschenkgutscheine ein</String>
     </Entry>
 
 
@@ -32,6 +33,7 @@
         <String xml:lang="es-ES">Negocio</String>
         <String xml:lang="pt-BR">Negócios</String>
         <String xml:lang="ar-001">عمل</String>
+        <String xml:lang="de-DE">Unternehmen</String>
     </Entry>
 
     <!-- UNUSED FOR NOW: you can skip this if you wish -->
@@ -43,6 +45,7 @@
         <String xml:lang="es-ES">Menú para creación de Negocios para desarrolladores. </String>
         <String xml:lang="pt-BR">Menu de início de negócios para desenvolvedores.</String>
         <String xml:lang="ar-001">قائمة إنشاء الأعمال للمطورين</String>
+        <String xml:lang="de-DE">Unternehmen-Erstellungsmenü für Entwickler</String>
     </Entry>
 
     <!-- UNUSED FOR NOW: you can skip this if you wish -->
@@ -54,6 +57,7 @@
         <String xml:lang="es-ES">Nuevo negocio</String>
         <String xml:lang="pt-BR">Novos negócios</String>
         <String xml:lang="ar-001">أعمال جديدة</String>
+        <String xml:lang="de-DE">Neues Unternehmen</String>
     </Entry>
 
     <!-- UNUSED FOR NOW: you can skip this if you wish -->
@@ -65,6 +69,7 @@
         <String xml:lang="es-ES">Gestionar nuevo negocio</String>
         <String xml:lang="pt-BR">Gerenciamento de novos negócios</String>
         <String xml:lang="ar-001">إدارة الأعمال الجديدة</String>
+        <String xml:lang="de-DE">Verwalte das neue Unternehmen</String>
     </Entry>
 
     <!-- UNUSED FOR NOW: you can skip this if you wish -->
@@ -76,6 +81,7 @@
         <String xml:lang="es-ES">Negocios creados</String>
         <String xml:lang="pt-BR">Negócios criados</String>
         <String xml:lang="ar-001">العمل الذي تم انشاؤه</String>
+        <String xml:lang="de-DE">Erstellte Unternehmen</String>
     </Entry>
 
     <!-- UNUSED FOR NOW: you can skip this if you wish -->
@@ -87,6 +93,7 @@
         <String xml:lang="es-ES">Lista de negocios creados</String>
         <String xml:lang="pt-BR">Lista de negócios criadas</String>
         <String xml:lang="ar-001">قائمة العمل التي تم إنشاؤها</String>
+        <String xml:lang="de-DE">Liste von den erstellen Unternehmen</String>
     </Entry>
 
     <!-- UNUSED FOR NOW: you can skip this if you wish -->
@@ -98,6 +105,7 @@
         <String xml:lang="es-ES">Tipos</String>
         <String xml:lang="pt-BR">Tipos</String>
         <String xml:lang="ar-001">أنواع</String>
+        <String xml:lang="de-DE">Arten</String>
     </Entry>
 
     <!-- UNUSED FOR NOW: you can skip this if you wish -->
@@ -109,6 +117,7 @@
         <String xml:lang="es-ES">Selecione el tipo de negocio</String>
         <String xml:lang="pt-BR">Selecione o tipo de negócio</String>
         <String xml:lang="ar-001">اختر نوع العمل</String>
+        <String xml:lang="de-DE">Wähle die Unternehmensart</String>
     </Entry>
 
     <!-- UNUSED FOR NOW: you can skip this if you wish -->
@@ -120,6 +129,7 @@
         <String xml:lang="es-ES">Entidades</String>
         <String xml:lang="pt-BR">Entidades</String>
         <String xml:lang="ar-001">جهات</String>
+        <String xml:lang="de-DE">Entitäten</String>
     </Entry>
 
     <!-- UNUSED FOR NOW: you can skip this if you wish -->
@@ -131,6 +141,7 @@
         <String xml:lang="es-ES">Administrar Entidades</String>
         <String xml:lang="pt-BR">Gerenciar entidades vizinhas</String>
         <String xml:lang="ar-001">إدارة الجهات القريبة</String>
+        <String xml:lang="de-DE">Verwalte naheliegende Entitäten</String>
     </Entry>
 
     <!-- ========================= -->
@@ -140,16 +151,19 @@
     <Entry Id="menu_supply_title">
         <String xml:lang="en-US">Store</String>
         <String xml:lang="it-IT">Negozio</String>
+        <String xml:lang="de-DE">Laden</String>
     </Entry>
 
     <Entry Id="menu_supply_subtitle">
         <String xml:lang="en-US">{0} Supplies</String>
         <String xml:lang="it-IT">{0} Provviste</String>
+        <String xml:lang="de-DE">{0} Vorräte</String>
     </Entry>
 
     <Entry Id="menu_store_part_subtitle">
         <String xml:lang="en-US">part</String>
         <String xml:lang="it-IT">pezzo</String>
+        <String xml:lang="de-DE">Teil</String>
     </Entry>
 
     <!-- ========================= -->
@@ -158,11 +172,13 @@
     <Entry Id="menu_crime_commited_title">
         <String xml:lang="en-US">Crimes</String>
         <String xml:lang="it-IT">Crimini</String>
+        <String xml:lang="de-DE">Verbrechen</String>
     </Entry>
 
     <Entry Id="menu_crime_commited_subtitle">
         <String xml:lang="en-US">Crimes committed in this session</String>
         <String xml:lang="it-IT">Crimini commessi in questa sessione</String>
+        <String xml:lang="de-DE">Verbrechen, die in dieser Sitzung begangen wurden</String>
     </Entry>
 
     <!-- ========================= -->
@@ -171,36 +187,43 @@
     <Entry Id="menu_crews_title">
         <String xml:lang="en-US">Crews</String>
         <String xml:lang="it-IT">Crews</String>
+        <String xml:lang="de-DE">Crews</String>
     </Entry>
 
     <Entry Id="menu_crews_subtitle">
         <String xml:lang="en-US">Crew Menu</String>
         <String xml:lang="it-IT">Menu Crew</String>
+        <String xml:lang="de-DE">Crew-Menü</String>
     </Entry>
 
     <Entry Id="menu_crews_apply_subtitle">
         <String xml:lang="en-US">Select a crew to apply for.</String>
         <String xml:lang="it-IT">Seleziona una crew per cui applicarsi.</String>
+        <String xml:lang="de-DE">Wähle eine Crew, für die du dich bewerben möchtest.</String>
     </Entry>
 
     <Entry Id="menu_crews_application_subtitle">
         <String xml:lang="en-US">Crew Application</String>
         <String xml:lang="it-IT">Applicazioni Crew</String>
+        <String xml:lang="de-DE">Crew-Bewerbung</String>
     </Entry>
 
     <Entry Id="menu_crews_members_subtitle">
         <String xml:lang="en-US">Members</String>
         <String xml:lang="it-IT">Membri</String>
+        <String xml:lang="de-DE">Mitglieder</String>
     </Entry>
 
     <Entry Id="menu_crews_action_subtitle">
         <String xml:lang="en-US">Select an action</String>
         <String xml:lang="it-IT">Selezionare un'azione</String>
+        <String xml:lang="de-DE">Wähle eine Aktion</String>
     </Entry>
 
     <Entry Id="menu_crews_rank_subtitle">
         <String xml:lang="en-US">Rank</String>
         <String xml:lang="it-IT">Grado</String>
+        <String xml:lang="de-DE">Rang</String>
     </Entry>
 
     <!-- ========================= -->
@@ -209,6 +232,7 @@
     <Entry Id="menu_armsdealer_title">
         <String xml:lang="en-US">Arms Dealer</String>
         <String xml:lang="it-IT">Trafficante d'Armi</String>
+        <String xml:lang="de-DE">Waffenhändler</String>
     </Entry>
 
     <!-- ========================= -->
@@ -217,11 +241,13 @@
     <Entry Id="menu_dispatch_title">
         <String xml:lang="en-US">Calls</String>
         <String xml:lang="it-IT">Chiamate</String>
+        <String xml:lang="de-DE">Anrufe</String>
     </Entry>
 
     <Entry Id="menu_dispatch_subtitle">
         <String xml:lang="en-US">Recent calls</String>
         <String xml:lang="it-IT">Chiamate recenti</String>
+        <String xml:lang="de-DE">Aktuelle Anrufe</String>
     </Entry>
 
     <!-- ========================= -->
@@ -230,16 +256,19 @@
     <Entry Id="menu_npcoffer_title">
         <String xml:lang="en-US">NPC Offer</String>
         <String xml:lang="it-IT">Offerte NPC</String>
+        <String xml:lang="de-DE">NPC-Angebote</String>
     </Entry>
 
     <Entry Id="menu_npcoffer_subtitle">
         <String xml:lang="en-US">Make the NPC an offer</String>
         <String xml:lang="it-IT">Fai un offerta all'NPC</String>
+        <String xml:lang="de-DE">Mache dem NPC ein Angebot</String>
     </Entry>
 
     <Entry Id="menu_drugsupplier_title">
         <String xml:lang="en-US">Drug Supplier</String>
         <String xml:lang="it-IT">Rifornitore di Droga</String>
+        <String xml:lang="de-DE">Drogenlieferant</String>
     </Entry>
 
     <!-- ========================= -->
@@ -248,56 +277,67 @@
     <Entry Id="menu_impound_title">
         <String xml:lang="en-US">Impound</String>
         <String xml:lang="it-IT">Sequestri</String>
+        <String xml:lang="de-DE">Verwahrung</String>
     </Entry>
 
     <Entry Id="menu_impound_subtitle">
         <String xml:lang="en-US">Impounded vehicles</String>
         <String xml:lang="it-IT">Veicoli Sequestrati</String>
+        <String xml:lang="de-DE">Verwahrte Fahrzeuge</String>
     </Entry>
 
     <Entry Id="menu_mechanic_title">
         <String xml:lang="en-US">Mechanic</String>
         <String xml:lang="it-IT">Meccanico</String>
+        <String xml:lang="de-DE">Mechaniker</String>
     </Entry>
 
     <Entry Id="menu_mechanic_available_subtitle">
         <String xml:lang="en-US">Available Mechanic</String>
         <String xml:lang="it-IT">Meccanici Disponibili</String>
+        <String xml:lang="de-DE">Verfügbare Mechaniker</String>
     </Entry>
 
     <Entry Id="menu_mechanic_mods_subtitle">
         <String xml:lang="en-US">Mods</String>
         <String xml:lang="it-IT">Modifiche</String>
+        <String xml:lang="de-DE">Modifikationen</String>
     </Entry>
 
     <Entry Id="menu_mechanic_respray_subtitle">
         <String xml:lang="en-US">Respray</String>
         <String xml:lang="it-IT">Riverniciatura</String>
+        <String xml:lang="de-DE">Umlackieren</String>
     </Entry>
 
     <Entry Id="menu_mechanic_primarycolor_subtitle">
         <String xml:lang="en-US">Primary Color</String>
         <String xml:lang="it-IT">Colore Primario</String>
+        <String xml:lang="de-DE">Primärfarbe</String>
     </Entry>
 
     <Entry Id="menu_mechanic_secondarycolor_subtitle">
         <String xml:lang="en-US">Secondary Color</String>
         <String xml:lang="it-IT">Colore Secondario</String>
+        <String xml:lang="de-DE">Sekundärfarbe</String>
     </Entry>
 
     <Entry Id="menu_mechanic_trimcolor_subtitle">
         <String xml:lang="en-US">Trim Color</String>
         <String xml:lang="it-IT">Colore Finiture</String>
+        <String xml:lang="de-DE">Ausstattungsfarbe</String>
     </Entry>
 
     <Entry Id="menu_mechanic_dashboardcolor_subtitle">
         <String xml:lang="en-US">Dashboard Color</String>
         <String xml:lang="it-IT">Colore Cruscotto</String>
+        <String xml:lang="de-DE">Farbe des Armaturenbretts</String>
     </Entry>
 
     <Entry Id="menu_mechanic_liveries_subtitle">
         <String xml:lang="en-US">Liveries Color</String>
         <String xml:lang="it-IT">Colore Livrea</String>
+        <String xml:lang="de-DE">Farbe der Folierung</String>
     </Entry>
     <!-- ========================= -->
     <!-- Hospital Menu -->
@@ -305,11 +345,13 @@
     <Entry Id="menu_hospital_title">
         <String xml:lang="en-US">Hospital</String>
         <String xml:lang="it-IT">Ospedale</String>
+        <String xml:lang="de-DE">Krankenhaus</String>
     </Entry>
 
     <Entry Id="menu_hospital_clothing_subtitle">
         <String xml:lang="en-US">Clothing</String>
         <String xml:lang="it-IT">Abbigliamento</String>
+        <String xml:lang="de-DE">Kleidung</String>
     </Entry>
 
     <!-- ========================= -->
@@ -318,21 +360,25 @@
     <Entry Id="menu_arrest_title">
         <String xml:lang="en-US">Arrest Menu</String>
         <String xml:lang="it-IT">Menu Arresto</String>
+        <String xml:lang="de-DE">Festnahme-Menü</String>
     </Entry>
 
     <Entry Id="menu_arrest_subtitle">
         <String xml:lang="en-US">Interact with the arrested player</String>
         <String xml:lang="it-IT">Interagisci con il giocatore arrestato</String>
+        <String xml:lang="de-DE">Interagiere mit dem verhafteten Spieler</String>
     </Entry>
 
     <Entry Id="menu_search_results_title">
         <String xml:lang="en-US">Search Results</String>
         <String xml:lang="it-IT">Risultato Perquisizione</String>
+        <String xml:lang="de-DE">Durchsuchungsergebnisse</String>
     </Entry>
 
     <Entry Id="menu_bribe_title">
         <String xml:lang="en-US">Bribe</String>
         <String xml:lang="it-IT">Corrompi</String>
+        <String xml:lang="de-DE">Bestechung</String>
     </Entry>
 
     <!-- ========================= -->
@@ -341,26 +387,31 @@
     <Entry Id="menu_policefd_station_title">
         <String xml:lang="en-US">Police Station</String>
         <String xml:lang="it-IT">Stazione di Polizia</String>
+        <String xml:lang="de-DE">Polizeistation</String>
     </Entry>
 
     <Entry Id="menu_policefd_station_arrest_subtitle">
         <String xml:lang="en-US">Arrest Warrants</String>
         <String xml:lang="it-IT">Mandati d'Arresto</String>
+        <String xml:lang="de-DE">Haftbefehle</String>
     </Entry>
 
     <Entry Id="menu_policefd_station_mw_subtitle">
         <String xml:lang="en-US">Most Wanted Players</String>
         <String xml:lang="it-IT">I Giocatori Più Ricercati</String>
+        <String xml:lang="de-DE">Meistgesuchte Spieler</String>
     </Entry>
 
     <Entry Id="menu_policefd_station_bounties_subtitle">
         <String xml:lang="en-US">Bounties</String>
         <String xml:lang="it-IT">Taglie</String>
+        <String xml:lang="de-DE">Kopfgelder</String>
     </Entry>
 
     <Entry Id="menu_policefd_station_clothing_subtitle">
         <String xml:lang="en-US">Clothing</String>
         <String xml:lang="it-IT">Abbigliamento</String>
+        <String xml:lang="de-DE">Kleidung</String>
     </Entry>
 
     <!-- ========================= -->
@@ -369,11 +420,13 @@
     <Entry Id="menu_stp_buy_title">
         <String xml:lang="en-US">Buy</String>
         <String xml:lang="it-IT">Compra</String>
+        <String xml:lang="de-DE">Kaufen</String>
     </Entry>
 
     <Entry Id="menu_stp_select_dest_subtitle">
         <String xml:lang="en-US">Select destination</String>
         <String xml:lang="it-IT">Seleziona la destinazione</String>
+        <String xml:lang="de-DE">Ziel wählen</String>
     </Entry>
 
     <!-- ========================= -->
@@ -382,5 +435,6 @@
     <Entry Id="menu_truckstation_delivery_title">
         <String xml:lang="en-US">Delivery Driver</String>
         <String xml:lang="it-IT">Corriere</String>
+        <String xml:lang="de-DE">Auslieferungsfahrer</String>
     </Entry>
 </Entries>
