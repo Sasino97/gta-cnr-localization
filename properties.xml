@@ -7,6 +7,7 @@
         <String xml:lang="it-IT">Magazzino</String>
         <String xml:lang="es-ES">Almacén</String>
         <String xml:lang="pt-BR">Depósito</String>
+        <String xml:lang="de-DE">Lagerhaus</String>
     </Entry>
 
     <Entry Id="garage">
@@ -14,6 +15,7 @@
         <String xml:lang="it-IT">Garage</String>
         <String xml:lang="es-ES">Garaje</String>
         <String xml:lang="pt-BR">Garagem</String>
+        <String xml:lang="de-DE">Garage</String>
     </Entry>
 
     <!-- ========================= -->
@@ -96,6 +98,7 @@
         <String xml:lang="it-IT">~r~Non possiedi quella quantità di questo oggetto!</String>
         <String xml:lang="es-ES">~r~¡No tienes esa cantidad de este artículo!</String>
         <String xml:lang="pt-BR">~r~Você não tem essa quantidade de itens!</String>
+        <String xml:lang="de-DE">~r~Du besitzt diese Menge von diesem Gegenstand nicht!</String>
     </Entry>
 
     <Entry Id="warehouse_not_enough_space_left">
@@ -103,6 +106,7 @@
         <String xml:lang="it-IT">~r~Non c'è abbastanza spazio rimasto!</String>
         <String xml:lang="es-ES">~r~¡No queda espacio!</String>
         <String xml:lang="pt-BR">~r~Não há mais espaço!</String>
+        <String xml:lang="de-DE">~r~Es ist nicht genug Platz übrig!</String>
     </Entry>
 
     <Entry Id="warehouse_cant_hold_amount">
@@ -110,6 +114,7 @@
         <String xml:lang="it-IT">~r~Non puoi tenere così tanti di questo oggetto!</String>
         <String xml:lang="es-ES">~r~No puedes tener tanto de este artículo.</String>
         <String xml:lang="pt-BR">~r~Você não pode ter muito desse artigo.</String>
+        <String xml:lang="de-DE">~r~Du kannst nicht so viel von diesem Gegenstand halten!</String>
     </Entry>
 
     <Entry Id="warehouse_dont_have_required_level">
@@ -117,6 +122,7 @@
         <String xml:lang="it-IT">~r~Non hai il livello richiesto per acquistare questo magazzino.</String>
         <String xml:lang="es-ES">~r~No tienes el nivel necesario para comprar este almacén.</String>
         <String xml:lang="pt-BR">~r~Você não tem o nível necessário para comprar este depósito.</String>
+        <String xml:lang="de-DE">~r~Du besitzt nicht das benötigte Level, um dieses Lagerhaus zu kaufen.</String>
     </Entry>
 
     <!-- {0} = Player name -->
@@ -125,6 +131,7 @@
         <String xml:lang="it-IT">Hai bussato al magazzino di {0}. Attendi che risponda.</String>
         <String xml:lang="es-ES">Has llamado al almacén de {0}. Espera a que contesten.</String>
         <String xml:lang="pt-BR">Você ligou para o armazém {0}. Aguarde até que eles atendam.</String>
+        <String xml:lang="de-DE">Du hast an {0}'s Lagerhaus geklopft. Warte auf deren Antwort.</String>
     </Entry>
 
     <Entry Id="warehouse_knocking_cooldown">
@@ -132,6 +139,7 @@
         <String xml:lang="it-IT">~r~Devi aspettare prima di bussare nuovamente.</String>
         <String xml:lang="es-ES">~r~Debe esperar antes de volver a llamar.</String>
         <String xml:lang="pt-BR">~r~Você deve aguardar antes de retornar a ligação.</String>
+        <String xml:lang="de-DE">~r~Du musst warten, bevor du erneut klopfst.</String>
     </Entry>
 
     <Entry Id="warehouse_entered_players">
@@ -139,6 +147,7 @@
         <String xml:lang="it-IT">Sei ~b~entrato nel magazzino di {0}.</String>
         <String xml:lang="es-ES">Has ~b~entrado en el almacén de {0}.</String>
         <String xml:lang="pt-BR">Você ~b~entrou no depósito de {0}.</String>
+        <String xml:lang="de-DE">Du hast ~b~{0}'s Lagerhaus betreten.</String>
     </Entry>
 
     <Entry Id="warehouse_dont_have_warrant">
@@ -146,6 +155,7 @@
         <String xml:lang="it-IT">Non hai un ~o~mandato ~s~per entrare in questo magazzino. Puoi entrarci solo quando individui un ~o~ricercato ~s~che entra.</String>
         <String xml:lang="es-ES">No tienes una ~o~orden ~s~para entrar en este almacén. Sólo se puede entrar cuando se ve un ~o~sospechoso buscado ~s~entrando.</String>
         <String xml:lang="pt-BR">Você não tem um ~o~mandado ~s~para entrar neste depósito. Você só pode entrar quando vir um ~o~suspeito procurado ~s~entrando.</String>
+        <String xml:lang="de-DE">Du hast keinen ~o~Durchsuchungsbefehl~s~, um dieses Lagerhaus zu betreten. Du kannst es nur betreten, wenn du einen gesuchten Verdächtigen siehst, wie er das Lagerhaus betritt.</String>
     </Entry>
 
     <Entry Id="warehouse_attempt_cooldown">
@@ -153,6 +163,7 @@
         <String xml:lang="it-IT">~r~Devi attendere prima di tentare di entrare di nuovo.</String>
         <String xml:lang="es-ES">~r~Debe esperar antes de intentar entrar de nuevo.</String>
         <String xml:lang="pt-BR">~r~Você deve aguardar antes de tentar entrar novamente.</String>
+        <String xml:lang="de-DE">~r~Du musst warten, bevor du erneut versuchst, das Lagerhaus zu betreten.</String>
     </Entry>
 
     <Entry Id="warehouse_fell_out_teleport">
@@ -160,6 +171,7 @@
         <String xml:lang="it-IT">Sei caduto fuori dagli interni della proprietà, perciò sei stato trasportato dentro nuovamente.</String>
         <String xml:lang="es-ES">Te caíste del interior de la propiedad, así que te teletransportaron de vuelta.</String>
         <String xml:lang="pt-BR">Você caiu do interior da propriedade, então eles o teletransportaram de volta.</String>
+        <String xml:lang="de-DE">Du bist aus dem Innenbereich deiner Immobilie gefallen, du wurdest zurück rein teleportiert.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -182,6 +194,7 @@
         <String xml:lang="it-IT">~r~Non hai il livello richiesto per acquistare questo garage.</String>
         <String xml:lang="es-ES">~r~No tienes el nivel necesario para comprar este garaje.</String>
         <String xml:lang="pt-BR">~r~Você não tem o nível necessário para comprar essa garagem.</String>
+        <String xml:lang="de-DE">~r~Du besitzt nicht das benötigte Level, um diese Garage zu kaufen.</String>
     </Entry>
 
     <Entry Id="garage_dont_have_required_membership_tier">
@@ -189,6 +202,7 @@
         <String xml:lang="it-IT">~r~Non hai l'iscrizione all'abbonamento richiesto per acquistare questo garage.</String>
         <String xml:lang="es-ES">~r~No tienes el nivel de afiliación necesario para comprar este garaje.</String>
         <String xml:lang="pt-BR">~r~Você não tem o nível de associação necessário para comprar essa garagem.</String>
+        <String xml:lang="de-DE">~r~Du besitzt nicht die benötigte Mitgliedschaftsstufe, um diese Garage zu kaufen.</String>
     </Entry>
 
     <Entry Id="garage_cant_store_vehicle">
@@ -196,6 +210,7 @@
         <String xml:lang="it-IT">~r~Non puoi parcheggiare questo veicolo in un garage.</String>
         <String xml:lang="es-ES">~r~No puede guardar este vehículo en un garaje.</String>
         <String xml:lang="pt-BR">~r~Você não tem o nível de associação necessário para comprar essa garagem.</String>
+        <String xml:lang="de-DE">~r~Du kannst dieses Fahrzeug nicht in einer Garage lagern.</String>
     </Entry>
 
     <Entry Id="garage_stolen_vehicle_parked">
@@ -203,6 +218,7 @@
         <String xml:lang="it-IT">Questo ~r~veicolo rubato ~s~è stato parcheggiato nel tuo ~y~garage~s~.</String>
         <String xml:lang="es-ES">Este ~r~vehículo robado ~s~se a estado aparcado en su ~y~garaje~s~.</String>
         <String xml:lang="pt-BR">Esse ~r~veículo roubado ~s~foi estacionado em sua ~y~garagem~s~.</String>
+        <String xml:lang="de-DE">Dieses ~r~gestohlene Fahrzeug~s~ wurde in deiner ~y~Garage~s~ geparkt.</String>
     </Entry>
 
     <Entry Id="garage_personal_vehicle_returned">
@@ -210,6 +226,7 @@
         <String xml:lang="it-IT">Questo ~b~veicolo personale ~s~è stato restituito al tuo ~y~garage~s~.</String>
         <String xml:lang="es-ES">Este ~b~vehículo personal ~s~ha sido devuelto a su ~y~garaje~s~.</String>
         <String xml:lang="pt-BR">Esse ~b~veículo pessoal ~s~foi devolvido à sua ~y~garagem~s~.</String>
+        <String xml:lang="de-DE">Dieses ~b~persönliche Fahrzeuge ~s~wurde zurück in deine ~y~Garage ~s~gebracht.</String>
     </Entry>
 
     <Entry Id="garage_personal_vehicle_moved">
@@ -217,6 +234,7 @@
         <String xml:lang="it-IT">Questo ~b~veicolo personale ~s~è stato spostato in questo ~y~garage~s~.</String>
         <String xml:lang="es-ES">Este ~b~vehículo personal ~s~ha sido trasladado a este ~y~garaje~s~.</String>
         <String xml:lang="pt-BR">Este ~b~veículo pessoal ~s~foi transferido para esta ~y~garagem~s~.</String>
+        <String xml:lang="de-DE">Dieses ~b~persönliche Fahrzeug~s~ wurde in diese ~y~Garage ~s~verschoben.</String>
     </Entry>
 
     <Entry Id="garage_cant_park_vehicle_current_job">
@@ -224,13 +242,15 @@
         <String xml:lang="it-IT">~r~Non puoi parcheggiare veicoli in un garage con il tuo lavoro attuale.</String>
         <String xml:lang="es-ES">~r~No puede aparcar vehículos en un garaje de su trabajo actual.</String>
         <String xml:lang="pt-BR">~r~Você não pode estacionar veículos em uma garagem no seu emprego atual.</String>
+        <String xml:lang="de-DE">~r~Du kannst bei deinem aktuellen Job keine Fahrzeuge in einer Garage parken.</String>
     </Entry>
 
     <Entry Id="garage_cant_park_someone_elses_vehicle">
         <String xml:lang="en-US">~r~You cannot park someone else's vehicle in a garage.</String>
         <String xml:lang="it-IT">~r~Non puoi parcheggiare il veicolo di qualcun altro nel tuo garage.</String>
         <String xml:lang="es-ES">~r~No se puede aparcar el vehículo de otra persona en un garaje.</String>
-        <String xml:lang="pt-BR">~r~Não é possível estacionar o veículo de outra pessoa em uma garagem..</String>
+        <String xml:lang="pt-BR">~r~Não é possível estacionar o veículo de outra pessoa em uma garagem.</String>
+        <String xml:lang="de-DE">~r~Du kannst keine persönlichen Fahrzeuge von anderen Spielern in einer Garage parken.</String>
     </Entry>
 
     <Entry Id="garage_full">
@@ -238,6 +258,7 @@
         <String xml:lang="it-IT">~r~Il tuo garage è pieno.</String>
         <String xml:lang="es-ES">~r~Su garaje está lleno.</String>
         <String xml:lang="pt-BR">~r~Su garaje está lleno.</String>
+        <String xml:lang="de-DE">~r~Deine Garage ist voll.</String>
     </Entry>
 
     <Entry Id="garage_cant_take_vehicle_out_current_job">
@@ -245,6 +266,7 @@
         <String xml:lang="it-IT">~r~Non puoi far uscire i veicoli da un garage con il tuo lavoro attuale.</String>
         <String xml:lang="es-ES">~r~No puede sacar vehículos de un garaje en su trabajo actual.</String>
         <String xml:lang="pt-BR">~r~Você não pode retirar veículos de uma garagem em seu trabalho atual.</String>
+        <String xml:lang="de-DE">~r~Du kannst bei deinem aktuellen Job keine Fahrzeuge aus einer Garage nehmen.</String>
     </Entry>
 
     <Entry Id="vehicle_gps_set">
@@ -253,6 +275,7 @@
         <String xml:lang="it-IT">~r~Devi essere in un veicolo per poter impostare il GPS.</String>
         <String xml:lang="es-ES">~r~Tienes que estar en un vehículo para ajustar el GPS.</String>
         <String xml:lang="pt-BR">~r~É preciso estar em um veículo para ajustar o GPS.</String>
+        <String xml:lang="de-DE">~r~Du musst dich in einem Fahrzeug befinden, um eine GPS zu setzen.</String>
     </Entry>
 
     <!-- {0} = Property name (warehouse; garage; ...) -->
@@ -262,6 +285,7 @@
         <String xml:lang="it-IT">Navigando verso ~y~{0}~s~.</String>
         <String xml:lang="es-ES">Navegar a ~y~{0}~s~.</String>
         <String xml:lang="pt-BR">Navegue até ~y~{0}~s~.</String>
+        <String xml:lang="de-DE">Navigiere zu ~y~{0}~s~.</String>
     </Entry>
 
     <Entry Id="property_purchased">
@@ -269,6 +293,7 @@
         <String xml:lang="it-IT">Hai acquistato ~y~{0} ~s~per ~g~{1}~s~.</String>
         <String xml:lang="es-ES">Usted compró ~y~{0} ~s~por ~g~{1}~s~.</String>
         <String xml:lang="pt-BR">Você comprou ~y~{0} ~s~por ~g~{1}~s~.</String>
+        <String xml:lang="de-DE">Du hast ~y~{0} für ~g~{1} ~s~gekauft.</String>
     </Entry>
 
     <!-- {0} = Property name (warehouse; garage; ...) -->
@@ -277,6 +302,7 @@
         <String xml:lang="it-IT">~r~Non sei autorizzato ad entrare in questo {0}.</String>
         <String xml:lang="es-ES">~r~No está autorizado a entrar en este {0}.</String>
         <String xml:lang="pt-BR">~r~Você não está autorizado a entrar neste site {0}.</String>
+        <String xml:lang="de-DE">~r~Du bist nicht dazu autorisiert, um diese/s {0} zu betreten.</String>
     </Entry>
 
     <Entry Id="property_owner_offline">
@@ -284,6 +310,7 @@
         <String xml:lang="it-IT">~r~Il proprietario di questo {0} è offline.</String>
         <String xml:lang="es-ES">~r~El propietario de este {0} está desconectado.</String>
         <String xml:lang="pt-BR">~r~O proprietário desse {0} está off-line.</String>
+        <String xml:lang="de-DE">~r~Dieser Besitzer von diese/m {0} ist offline.</String>
     </Entry>
 
     <!-- {0} = Player's name -->
@@ -293,6 +320,7 @@
         <String xml:lang="it-IT">{0} ~s~sta bussando a ~y~{1}~s~.</String>
         <String xml:lang="es-ES">{0} ~s~está llamando a ~y~{1}~s~.</String>
         <String xml:lang="pt-BR">{0} ~s~está ligando a ~y~{1}~s~.</String>
+        <String xml:lang="de-DE">{0} ~s~klopft an ~y~{1}~s~.</String>
     </Entry>
 
     <!-- {0} = Player's name -->
@@ -301,6 +329,7 @@
         <String xml:lang="it-IT">Hai risposto a {0}~s~.</String>
         <String xml:lang="es-ES">Usted respondió a {0}~s~.</String>
         <String xml:lang="pt-BR">Você respondeu a {0}~s~.</String>
+        <String xml:lang="de-DE">Du hast {0}~s~ geantwortet.</String>
     </Entry>
 
 </Entries>
