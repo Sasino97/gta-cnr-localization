@@ -218,3 +218,4 @@ Text can also be highlighted with the `(C)(/C)` tags.
 - Hindi (Romanized): `hi-Latn`
 - Vietnamese (Vietnam): `vi-VN`
 - Thai (Thailand): `th-TH`
+- Indonesian (Indonesia): `id-ID`
