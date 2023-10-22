@@ -662,6 +662,8 @@
         <String xml:lang="zh-Hant">你給了 {0} ~y~{1} 個 {2}~s~.</String>
         <String xml:lang="zh-Hans">你给了 {0} ~y~{1} 个 {2}~s~.</String>
         <String xml:lang="pt-BR">Você deu a {0} ~y~{1} {2}~s~.</String>
+        <String xml:lang="ar-001">لقد أعطيت {0} ~y~{1} {2}~s~.</String>
+
     </Entry>
 
     <!-- Same as before, but for items that have a measure unit -->
@@ -682,6 +684,7 @@
         <String xml:lang="zh-Hans">你给了 {0} ~y~{1} {2} {3}~s~.</String>
         <String xml:lang="es-ES">Has dado a {0} ~y~{1}{2} de {3}~s~.</String>
         <String xml:lang="pt-BR">Você deu a {0} ~y~{1}{2} de {3}~s~.</String>
+        <String xml:lang="ar-001">لقد أعطيت {0} ~y~{1}{2} من {3}~s~.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_send_cant_give_item">
@@ -696,6 +699,7 @@
         <String xml:lang="zh-Hans">这个物品 ~r~不能给予 ~s~其他玩家.</String>
         <String xml:lang="es-ES">Este objeto no se puede ~r~dar ~s~a otros jugadores.</String>
         <String xml:lang="pt-BR">esse item não pode ser ~r~dado ~s~a outros jogadores.</String>
+        <String xml:lang="ar-001">لا يمكن ~r~منح هذا الشئ ~s~للاعبين آخرين</String>
     </Entry>
 
     <!-- 0 = Item name -->
@@ -711,6 +715,7 @@
         <String xml:lang="zh-Hans">你没有足够的 ~r~{0}~s~.</String>
         <String xml:lang="es-ES">No tienes suficientes ~r~{0}~s~.</String>
         <String xml:lang="pt-BR">Você não tem o suficiente ~r~{0}~s~.</String>
+        <String xml:lang="ar-001">ليس لديك ما يكفي من ~r~{0}~s~.</String>
     </Entry>
 
     <!-- 0 = Player name -->
@@ -726,6 +731,7 @@
         <String xml:lang="zh-Hans">{0} 的背包已经没有多余的空间了.</String>
         <String xml:lang="es-ES">{0} no tienes suficiente espacio en tu inventario.</String>
         <String xml:lang="pt-BR">{0} você não tem espaço suficiente em seu inventário.</String>
+        <String xml:lang="ar-001">ليس لدى {0} مساحة كافية في مخزونه.</String>
     </Entry>
 
     <!-- 0 = Player name -->
@@ -743,6 +749,7 @@
         <String xml:lang="zh-Hans">{0} 无法携带 ~r~{1} ~s~个或以上的 ~r~{2}~s~.</String>
         <String xml:lang="es-ES">{0} no puedes tener ~r~{1} ~s~más ~r~{2}~s~.</String>
         <String xml:lang="pt-BR">{0} você não pode ter ~r~{1} ~s~mais ~r~{2}~s~.</String>
+        <String xml:lang="ar-001">{0} لا يمكنه استقبال ~r~{1} ~s~اكثر~r~{2}~s~.</String>
     </Entry>
 
     <!-- 0 = Player name -->
@@ -762,6 +769,7 @@
         <String xml:lang="zh-Hans">{0} 无法携带 ~r~{1} ~s~{2}或以上的 ~r~{3}~s~.</String>
         <String xml:lang="es-ES">{0} no puedes tener ~r~{1} ~s~más {2} de ~r~{3}~s~.</String>
         <String xml:lang="pt-BR">{0} você não pode ter ~r~{1} ~s~mais {2} de ~r~{3}~s~.</String>
+        <String xml:lang="ar-001">{0} لا يمكنه استقبال ~r~{1} ~s~اكثر{2} من ~r~{3}~s~.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_no_items_in_category">
@@ -775,6 +783,7 @@
         <String xml:lang="zh-Hant">這個分類裡沒有東西 :(</String>
         <String xml:lang="zh-Hans">这个分类里没有东西 :(</String>
         <String xml:lang="pt-BR">Não há artigos nesta categoria :(</String>
+        <String xml:lang="ar-001">لا يوجد شيء في هذه المجموعة :(</String>
     </Entry>
 
     <Entry Id="imenu_inventory_no_items_in_category_descr">
@@ -789,6 +798,7 @@
         <String xml:lang="zh-Hans">这个类别内没有物品.</String>
         <String xml:lang="es-ES">No hay artículos en esta categoría.</String>
         <String xml:lang="pt-BR">Não tem artigos nesta categoria.</String>
+        <String xml:lang="ar-001">لا يوجد شيء في هذه المجموعة </String>
     </Entry>
 
     <Entry Id="imenu_inventory_cant_use">
@@ -802,6 +812,7 @@
         <String xml:lang="zh-Hant">你 ~r~不能 ~s~直接從庫存中使用該物品.</String>
         <String xml:lang="zh-Hans">你 ~r~不能 ~s~直接从库存中使用该物品.</String>
         <String xml:lang="pt-BR">Você ~r~não pode ~s~usar esse item diretamente do inventário.</String>
+        <String xml:lang="ar-001">انت ~r~لا يمكنك ~s~استخدام هذا العنصر مباشرةً من المخزون.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_rate_limit">
@@ -1165,6 +1176,7 @@
         <String xml:lang="es-ES">vehículos</String>
         <String xml:lang="pt-BR">Veículos</String>
         <String xml:lang="de-DE">Fahrzeuge</String>
+        <String xml:lang="ar-001">المركبات</String>
     </Entry>
 
     <Entry Id="menu_submenu_title_settings_title">
@@ -1174,5 +1186,6 @@
         <String xml:lang="es-ES">Ajustes</String>
         <String xml:lang="pt-BR">Configurações</String>
         <String xml:lang="de-DE">Einstellungen</String>
+        <String xml:lang="ar-001">الأعدادات</String>
     </Entry>
 </Entries>
