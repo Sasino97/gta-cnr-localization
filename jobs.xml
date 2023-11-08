@@ -53,7 +53,8 @@
         <String xml:lang="zh-Hant">~r~你不能在車內更換你的職業.</String>
         <String xml:lang="zh-Hans">~r~你不能在车内更换你的职业.</String>
         <String xml:lang="pl-PL">~r~Nie możesz zmienić pracy w pojeździe.</String>
-        <String xml:lang="pt-BR">~r~Você não pode mudar de emprego enquanto estiver em um veículo..</String>
+        <String xml:lang="pt-BR">~r~Você não pode mudar de emprego enquanto estiver em um veículo.</String>
+        <String xml:lang="de-DE">~r~Du kannst deinen Job nicht wechseln, während du in einem Fahrzeug bist.</String>
     </Entry>
 
     <Entry Id="jobs_cant_become_when_wanted">
@@ -65,6 +66,7 @@
         <String xml:lang="zh-Hans">~s~当你被 ~o~通缉时 ~s~你不能成为一个 ~p~{0}~s~.</String>
         <String xml:lang="pl-PL">Nie możesz zostać ~p~{0} ~s~gdy jesteś ~o~poszukiwany~s~.</String>
         <String xml:lang="pt-BR">Você não pode se tornar um ~p~{0} ~s~quando se está ~o~busca e apreensão~s~.</String>
+        <String xml:lang="de-DE">Du kannst kein ~p~{0} werden, wenn du ~o~gesucht ~s~wirst.</String>
     </Entry>
 
     <!-- Add ban reason & time left here? -->
@@ -77,6 +79,7 @@
         <String xml:lang="zh-Hans">你已被 ~p~{0} ~s~职业暂时 ~r~封禁~s~.</String>
         <String xml:lang="pl-PL">Jesteś tymczasowo ~r~zbanowany ~s~z pracy ~p~{0}~s~.</String>
         <String xml:lang="pt-BR">Você esta temporariamente ~r~banido ~s~do ~p~{0} ~s~trabalho.</String>
+        <String xml:lang="de-DE">Du bist temporär vom ~p~{0}~s~-Job ~r~gebannt~s~.</String>
     </Entry>
 
     <Entry Id="jobs_gps_set_call">
@@ -86,6 +89,7 @@
         <String xml:lang="pl-PL">Twój ~b~GPS ~s~został ustawiony do lokalizacji wybranego ~y~zawołania~s~.</String>
         <String xml:lang="es-ES">Tu ~b~GPS ~s~se ha configurado en la ubicación de la ~y~llamada seleccionada~s~.</String>
         <String xml:lang="pt-BR">Seu ~b~GPS ~s~foi definido para o local da ~y~chamada selecionada~s~.</String>
+        <String xml:lang="de-DE">Dein ~b~GPS~s~ wurde auf die Position vom gewählten ~y~Anruf ~s~gesetzt.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -99,6 +103,7 @@
         <String xml:lang="pl-PL">Zaoferowałeś swoje ~y~usługi ~s~{0}~s~.</String>
         <String xml:lang="es-ES">Has ofrecido tus ~y~servicios ~s~a {0}~s~.</String>
         <String xml:lang="pt-BR">Você ofereceu seus ~y~serviços ~s~para {0}~s~.</String>
+        <String xml:lang="de-DE">Du hast {0} deine ~y~Service ~s~angeboten.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -110,6 +115,7 @@
         <String xml:lang="pl-PL">{0} ~s~zaoferował ci ~y~swoje usługi~s~. {1} by zobaczyć ich menu.</String>
         <String xml:lang="es-ES">{0} ~s~te a ofrecido sus ~y~servicos~s~. {1} para ver su menú.</String>
         <String xml:lang="pt-BR">{0} ~s~ofereceu seus ~y~serviços~s~ a você. {1} para ver seu menu.</String>
+        <String xml:lang="de-DE">{0} ~s~hat dir ~y~seinen Service~s~ angeboten. {1} um das Menü zu sehen.</String>
     </Entry>
 
     <!-- {0} = Job -->
@@ -121,6 +127,7 @@
         <String xml:lang="pl-PL">Nie możesz zostać ~b~{0} ~s~bo {1}% limit graczy został osiągnięty</String>
         <String xml:lang="es-ES">No puedes convertirte en ~b~{0} ~s~porque se llego al limite del {1}% de jugadores.</String>
         <String xml:lang="pt-BR">Você não pode se tornar um ~b~{0} ~s~porque o limite de {1}% de jogadores foi atingido..</String>
+        <String xml:lang="de-DE">Du kannst kein ~b~{0} ~s~werden, da das {1}% Spielerlimit erreicht wurde.</String>
     </Entry>
 
     <Entry Id="stp_too_far">
@@ -130,6 +137,7 @@
         <String xml:lang="pl-PL">{0} jest ~r~za daleko ~s~od ciebie.</String>
         <String xml:lang="es-ES">{0} esta ~r~muy lejos ~s~de ti.</String>
         <String xml:lang="pt-BR">{0} está ~r~muito longe ~s~de você.</String>
+        <String xml:lang="de-DE">{0} ist ~r~zu weit ~s~von dir entfernt.</String>
     </Entry>
 
     <Entry Id="stp_need_vehicle_to_purchase">
@@ -139,24 +147,27 @@
         <String xml:lang="pl-PL">~r~Potrzebujesz pojazdu by kupić tą usługę.</String>
         <String xml:lang="es-ES">~r~Necesitas un vehículo para contratar este servicio.</String>
         <String xml:lang="pt-BR">~r~Você precisa de um veículo para adquirir esse serviço.</String>
+        <String xml:lang="de-DE">~r~Du brauchst ein Fahrzeug, um diesen Service kaufen zu können.</String>
     </Entry>
 
     <Entry Id="stp_cant_purchase_service_while_moving">
         <String xml:lang="en-US">~r~You can't purchase this service when the vehicle is moving.</String>
         <String xml:lang="nl-NL">~r~Je kan deze dienst niet kopen wanneer het voertuig in beweging is.</String>
-        <String xml:lang="it-IT">~r~Non puoi acquistare questo servizio quando il veicolo è in movimento.</String>
+        <String xml:lang="it-IT">~r~Non puoi acquistare questo servizio mentre il veicolo è in movimento.</String>
         <String xml:lang="pl-PL">~r~Nie możesz kupić tej usługi gdy pojazd się rusza.</String>
         <String xml:lang="es-ES">~r~No puedes contratar este servicio cuando el vehículo está en movimiento.</String>
         <String xml:lang="pt-BR">~r~Não é possível contratar esse serviço quando o veículo estiver em movimento.</String>
+        <String xml:lang="de-DE">~r~Du kannst diesen Service nicht kaufen, wenn das Fahrzeug in Bewegung ist.</String>
     </Entry>
 
     <Entry Id="stp_cant_purchase_when_seller_in_vehicle">
         <String xml:lang="en-US">~r~You can't purchase this service when the seller is inside a vehicle.</String>
         <String xml:lang="nl-NL">~r~Je kan deze dienst niet kopen wanneer de verkoper in een voertuig zit.</String>
-        <String xml:lang="it-IT">~r~Non puoi acquistare questo servizio quando il venditore è dentro un veicolo.</String>
+        <String xml:lang="it-IT">~r~Non puoi acquistare questo servizio mentre il venditore è dentro un veicolo.</String>
         <String xml:lang="pl-PL">~r~Nie możesz kupić tej usługi gdy usługowdawca jest w pojeździe.</String>
         <String xml:lang="es-ES">~r~No puedes contratar este servicio cuando el vendedor se encuentra dentro de un vehículo.</String>
         <String xml:lang="pt-BR">~r~Não é possível contratar esse serviço quando o vendedor estiver dentro de um veículo.</String>
+        <String xml:lang="de-DE">~r~Du kannst diesen Service nicht kaufen, wenn der Verkäufer in einem Fahrzeug sitzt.</String>
     </Entry>
 
     <Entry Id="stp_too_far_from_seller">
@@ -166,6 +177,7 @@
         <String xml:lang="pl-PL">~r~Jesteś za daleko od usługodawcy!</String>
         <String xml:lang="es-ES">~r~¡Estás demasiado lejos de la vendedor/a!</String>
         <String xml:lang="pt-BR">~r~Você está muito longe do vendedor!</String>
+        <String xml:lang="de-DE">~r~Du bist zu weit vom Verkäufer entfernt!</String>
     </Entry>
 
     <Entry Id="stp_seller_doesnt_have_enough">
@@ -175,6 +187,7 @@
         <String xml:lang="pl-PL">~r~Usługodawca nie ma wystarczająco dużo {0}!</String>
         <String xml:lang="es-ES">~r~El vendedor no tiene suficiente {0}!</String>
         <String xml:lang="pt-BR">~r~O vendedor não tem o suficiente {0}!</String>
+        <String xml:lang="de-DE">~r~Der Verkäufer hat nicht genug {0}!</String>
     </Entry>
 
     <Entry Id="stp_seller_doesnt_have_enough_supplies">
@@ -184,15 +197,17 @@
         <String xml:lang="pl-PL">~r~usługowdawca nie ma wystarczająco dużo materiałów by wykonać ~s~{0} ~r~usługę!</String>
         <String xml:lang="es-ES">~r~El vendedor no tiene suficientes suministros para brindar el ~s~{0} ~r~servicio!</String>
         <String xml:lang="pt-BR">~r~O fornecedor não tem suprimentos suficientes para prestar o ~s~{0} ~r~serviço!</String>
+        <String xml:lang="de-DE">~r~Der Verkäufer hat nicht genug Vorräte, um den ~s~{0}~r~-Service anzubieten!</String>
     </Entry>
 
     <Entry Id="stp_seller_doesnt_have_required_certification">
         <String xml:lang="en-US">~r~The seller doesn't have the required certification to provide the ~s~{0} ~r~service!</String>
         <String xml:lang="nl-NL">~r~De verkoper heeft niet het verplichte certificaat om de ~s~{0} ~r~dienst te leveren!</String>
-        <String xml:lang="it-IT">~r~Il venditore non ha la certificazione necessaria per fornire il servizio ~s~{0}~r~!</String>
+        <String xml:lang="it-IT">~r~Il venditore non ha la certificazione necessaria per fornire il servizio di ~s~{0}~r~!</String>
         <String xml:lang="pl-PL">~r~usługowdawca nie ma wymaganej certyfikacji do wykonania ~s~{0} ~r~usługi!</String>
         <String xml:lang="es-ES">~r~El vendedor no tiene la certificación requerida para proporcionar el~s~{0} ~r~servicio!</String>
         <String xml:lang="pt-BR">~r~O fornecedor não tem a certificação necessária para fornecer o ~s~{0} ~r~serviço!</String>
+        <String xml:lang="de-DE">~r~Der Verkäufer hat nicht die erforderlichen Zertifikationen, um den ~s~{0}~r~-Service anzubieten!</String>
     </Entry>
 
     <Entry Id="stp_seller_updated_prices">
@@ -202,6 +217,7 @@
         <String xml:lang="pl-PL">~r~Usługodawca zmienił ceny. Menu zostało odświeżone.</String>
         <String xml:lang="es-ES">~r~El vendedor ha actualizado sus precios. El menú ha sido renovado.</String>
         <String xml:lang="pt-BR">~r~O fornecedor atualizou seus preços. O cardápio foi renovado.</String>
+        <String xml:lang="de-DE">~r~Der Verkäufer hat seine Preise aktualisiert. Das Menü wurde aktualisiert.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -280,7 +296,7 @@
         <String xml:lang="en-US">{0} has ~r~abandoned ~s~the robbery.</String>
         <String xml:lang="it-IT">{0} ha ~r~abbandonato ~s~la rapina.</String>
         <String xml:lang="nl-NL">{0} is van de overval ~r~afgebroken~s~.</String>
-        <String xml:lang="de-DE">{0} hat den ~r~Überfall abgebrochen~s~.</String>
+        <String xml:lang="de-DE">{0} hat den Überfall ~r~abgebrochen~s~.</String>
         <String xml:lang="tr-TR">{0} ~r~terk edilmiş ~s~soygun.</String>
         <String xml:lang="es-ES">{0} ha ~r~abandonado ~s~el robo.</String>
         <String xml:lang="pl-PL">{0} ~r~porzucił ~s~napad.</String>
@@ -403,7 +419,7 @@
     <Entry Id="dealer_weapon_on_spot">
         <String xml:lang="en-US">You have a weapon! Fewer ~y~NPCs ~s~will buy drugs.</String>
         <String xml:lang="nl-NL">Je hebt een wapen! Minder ~y~NPCs ~s~gaan drugs kopen.</String>
-        <String xml:lang="it-IT">Hai un arma! Pochi ~y~NPC ~s~compreranno la droga.</String>
+        <String xml:lang="it-IT">Hai un arma! Meno ~y~NPC ~s~compreranno la droga.</String>
         <String xml:lang="de-DE">Du hast eine Waffe! Weniger ~y~NPCs ~s~werden Drogen bei dir kaufen.</String>
         <String xml:lang="pl-PL">Jesteś uzbrojony! Mniej ~y~botów ~s~będzie kupować narkotyki.</String>
         <String xml:lang="es-ES">¡Tienes un arma! Menos ~y~NPCs ~s~comprarán drogas.</String>
@@ -510,7 +526,7 @@
         <String xml:lang="es-ES">Tu puedes administrar tus suministros de drugas en su {0} ~b~Menú~s~ &gt; ~b~Menú de trabajo.</String>
         <String xml:lang="zh-Hant">你可以在 {0} ~b~選單~s~ &gt; ~b~職業選單 內察看你的毒品供應鏈.</String>
         <String xml:lang="zh-Hans">你可以在 {0} ~b~选单~s~ &gt; ~b~职业选单 内察看你的毒品供应链.</String>
-        <String xml:lang="pt-BR">Você pode gerenciar seus suprimentos de medicamentos em seu {0} ~b~Menu~s~ &gt; ~b~Menu de trabalho.</String>
+        <String xml:lang="pt-BR">Você pode gerenciar seus suprimentos de drogas em seu {0} ~b~Menu~s~ &gt; ~b~Menu de trabalho.</String>
     </Entry>
 
     <Entry Id="dealer_have_to_be_dealer_to_purchase">
@@ -541,7 +557,7 @@
     <Entry Id="dealer_min_level_unlock_supplier">
         <String xml:lang="en-US">You need to be ~b~level {0} ~s~to unlock this ~r~drug supplier~s~. Find another supplier!</String>
         <String xml:lang="nl-NL">Je moet ~b~level {0} ~s~zijn om deze ~r~drug leverancier~s~ te ontgrendelen. Zoek een andere leverancier!</String>
-        <String xml:lang="it-IT">Devi essere ~b~livello {0} ~s~per sbloccare questo ~r~spacciatore~s~. Cerca un altro spacciatore!</String>
+        <String xml:lang="it-IT">Devi essere di ~b~livello {0} ~s~per sbloccare questo ~r~spacciatore~s~. Cerca un altro spacciatore!</String>
         <String xml:lang="de-DE">Du musst ~b~Level {0}~s~ sein, um diesen ~r~Händler~s~ freizuschalten. Finde einen anderen Händler!</String>
         <String xml:lang="pl-PL">Musisz mieć co najmniej ~b~poziom {0} ~s~by odblokować tą ~r~dziuplę narkotykową~s~. Znajdź inną!</String>
         <String xml:lang="es-ES">Necesitas ser ~b~nivel {0} ~s~para desbloquear este ~r~proveedor de drogas~s~. ¡Encuentra otro proveedor!</String>
@@ -661,7 +677,7 @@
     <Entry Id="mechanic_repaired_too_recently">
         <String xml:lang="en-US">~r~This vehicle was repaired too recently.</String>
         <String xml:lang="nl-NL">~r~Dit voertuig is te recent gerepareerd.</String>
-        <String xml:lang="it-IT">~r~Questo veicolo è stato riparato troppo recentemente.</String>
+        <String xml:lang="it-IT">~r~Questo veicolo è stato già riparato recentemente.</String>
         <String xml:lang="de-DE">~r~Dieses Fahrzeug wurde kürzlich repariert.</String>
         <String xml:lang="pl-PL">~r~Ten pojazd został przed chwilą naprawiony.</String>
         <String xml:lang="es-ES">~r~Este vehículo se reparó hace muy poco tiempo.</String>
@@ -809,6 +825,7 @@
         <String xml:lang="zh-Hans">~r~你无法对一台租赁车辆进行调整!</String>
         <String xml:lang="es-ES">~r~¡No puedes modificar un vehículo alquilado!</String>
         <String xml:lang="pt-BR">~r~Não é possível modificar um veículo alugado!</String>
+        <String xml:lang="de-DE">~r~Du kannst ein gemietetes Fahrzeug nicht modifizieren.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -829,7 +846,7 @@
 
     <Entry Id="towing_type_cannot_moved">
         <String xml:lang="en-US">Vehicles of this type ~r~cannot be towed~s~.</String>
-        <String xml:lang="it-IT">Questo genere di veicolo ~r~non possono essere trainati~s~.</String>
+        <String xml:lang="it-IT">Questo genere di veicoli ~r~non possono essere trainati~s~.</String>
         <String xml:lang="nl-NL">Voertuigen van dit type ~r~kunnen niet worden gesleept~s~.</String>
         <String xml:lang="de-DE">Fahrzeuge dieser Art können ~r~nicht angehangen werden.~s~</String>
         <String xml:lang="tr-TR">Bu tip araçlar ~r~çekilemez~s~.</String>
@@ -894,7 +911,7 @@
 
     <Entry Id="towing_description">
         <String xml:lang="en-US">You are towing a ~y~player's vehicle ~s~for ~g~extra money~s~, but you have limited time. When the timer ~r~runs out~s~, the owner will be able to ~y~recall ~s~it.</String>
-        <String xml:lang="it-IT">Stay trainando il ~y~veicolo di un giocatore ~s~per ~g~soldi extra~s~, ma hai un tempo limitato. Quando il timer ~r~scade~s~ il proprietario sarà in grado di ~y~richiamarlo~s~.</String>
+        <String xml:lang="it-IT">Stai trainando il ~y~veicolo di un giocatore ~s~per ~g~soldi extra~s~, ma hai un tempo limitato. Quando il timer ~r~scade~s~ il proprietario sarà in grado di ~y~richiamarlo~s~.</String>
         <String xml:lang="nl-NL">Je bent een ~y~speler's voertuig ~s~aan het slepen voor ~g~extra geld~s~, maar je hebt beperkt tijd. Wanneer de timer ~r~afloopt~s~, kan de eigenaar zijn voertuig ~y~terugroepen~s~.</String>
         <String xml:lang="de-DE">Du schleppst das Fahrzeug eines ~y~Spielers ~s~für ~g~extra Geld~s~ ab, aber du hast nur begrenzte Zeit. Wenn die Zeit ~r~ausläuft~s~, wird der Besitzer in der Lage sein ~y~das Fahrzeug ~s~zurückzurufen.</String>
         <String xml:lang="tr-TR">Çekiyorsunuz ~y~bir oyuncunun aracını ~g~ekstra para için~s~, ancak zamanınız kısıtlı. zamanlayıcı ~r~biterse~s~, sahibi onu ~y~geri çağırabilecek~s~.</String>
@@ -971,10 +988,10 @@
         <String xml:lang="nl-NL">Ambulancier {0} heeft de oproep van {1} geaccepteerd.</String>
         <String xml:lang="it-IT">Il paramedico {0} ha risposto alla chiamata di {1}.</String>
         <String xml:lang="es-ES">El paramédico {0} ha respondido a la llamada en {1}.</String>
-        <String xml:lang="de-DE">Der Sanitäter {0} hat den Anruf von {1} angenommen.</String>
         <String xml:lang="pl-PL">Medyk ~p~{0} ~s~odpowiedział do zawołania {1}.</String>
         <String xml:lang="pt-BR">O paramédico {0} respondeu à chamada em {1}.</String>
         <String xml:lang="zh-Hant">護理人員 {0} 已響應 {1} 的呼叫.</String>
+        <String xml:lang="de-DE">Der Sanitäter {0} hat auf den Anruf von {1} reagiert.</String>
     </Entry>
 
     <!-- {0} = Paramedic -->
@@ -984,9 +1001,9 @@
         <String xml:lang="it-IT">Il paramedico {0} ha risposto alla tua chiamata.</String>
         <String xml:lang="es-ES">El paramédico {0} respondió a su llamada.</String>
         <String xml:lang="pl-PL">Medyk {0} odpowiedział na twoje zawołanie.</String>
-        <String xml:lang="de-DE">Der Sanitäter {0} hat deinen Anruf angenommen.</String>
         <String xml:lang="pt-BR">O paramédico {0} atendeu seu chamado</String>
         <String xml:lang="zh-Hant">護理人員 {0} 已響應你的呼叫.</String>
+        <String xml:lang="de-DE">Der Sanitäter {0} hat auf deinen Anruf reagiert.</String>
     </Entry>
 
     <Entry Id="paramedic_revival_fail">
@@ -1008,9 +1025,9 @@
         <String xml:lang="it-IT">Il paramedico {0} ti sta rianimando.</String>
         <String xml:lang="es-ES">El paramédico {0} te está reviviendo.</String>
         <String xml:lang="pl-PL">Medyk {0} cię ocuca.</String>
-        <String xml:lang="de-DE">Der Sanitäter {0} hat dich wiederbelebt.</String>
         <String xml:lang="pt-BR">O paramédico {0} está revivendo você.</String>
         <String xml:lang="zh-Hant">醫護人員 {0} 正在復活你.</String>
+        <String xml:lang="de-DE">Der Sanitäter {0} belebt dich wieder.</String>
     </Entry>
 
     <Entry Id="paramedic_npc_loss">
@@ -1045,6 +1062,7 @@
         <String xml:lang="pl-PL">Nie możesz leczyć ~o~kryminalistów ~s~gdy są w ~r~strzelaninie ~s~z ~b~glinami~s~, ajest to uznawane za ~r~cross-teaming~s~.</String>
         <String xml:lang="pt-BR">Você não pode curar ~o~criminosos ~s~quando estiver envolvido em um ~r~tiroteio ~s~com a ~b~polícia~s~, porque isso é considerado ~r~cross-teaming~s~.</String>
         <String xml:lang="zh-Hant">當~o~罪犯~s~與~b~警察~s~參與~r~射擊~s~時,你無法治愈~o~罪犯~s~,因為這被認為是~r~交叉組隊~s~.</String>
+        <String xml:lang="de-DE">Du kannst keine ~o~Kriminellen~s~ heilen, wenn diese in eine ~r~Schießerei ~s~mit der ~b~Polizei~s~ involviert sind, da es als ~r~Cross-Teaming~s~ gewertet wird.</String>
     </Entry>
 
     <!-- {0} = Patient -->
@@ -1056,6 +1074,7 @@
         <String xml:lang="pl-PL">~p~Uleczyłeś ~s~{0}.</String>
         <String xml:lang="pt-BR">Você ~p~curou a ~s~{0}.</String>
         <String xml:lang="zh-Hant">你 ~p~治癒了 ~s~{0}.</String>
+        <String xml:lang="de-DE">Du hast {0} ~p~geheilt~s~.</String>
     </Entry>
 
     <!-- {0} = Counter -->
@@ -1067,6 +1086,7 @@
         <String xml:lang="pl-PL">~p~Uleczyłeś ~s~{0} graczy.</String>
         <String xml:lang="pt-BR">Você ~p~curou ~s~{0} jogadores.</String>
         <String xml:lang="zh-Hant">你 ~p~治癒了 ~s~{0} 位玩家.</String>
+        <String xml:lang="de-DE">Du hast {0} Spieler ~p~geheilt~s~.</String>
     </Entry>
 
     <Entry Id="too_far_from_hospital">
@@ -1077,6 +1097,7 @@
         <String xml:lang="pl-PL">~r~Jesteś za daleko od szpitala!</String>
         <String xml:lang="pt-BR">~r~Você está muito longe do hospital!</String>
         <String xml:lang="zh-Hant">~r~你離醫院太遠了!</String>
+        <String xml:lang="de-DE">~r~Du bist zu weit von einem Krankenhaus entfernt.</String>
     </Entry>
 
     <Entry Id="received_med_treatment">
@@ -1087,6 +1108,7 @@
         <String xml:lang="pl-PL">Otrzymałeś ~p~pomoc medyczną ~s~w szpitalu.</String>
         <String xml:lang="pt-BR">Você recebeu ~p~tratamento médico ~s~em um hospital.</String>
         <String xml:lang="zh-Hant">你已在醫院接受了 ~p~治療~s~.</String>
+        <String xml:lang="de-DE">Du hast eine ~p~medizinische Versorgung ~s~bei einem Krankenhaus erhalten.</String>
     </Entry>
 
     <Entry Id="plastic_surgery_downtown">
@@ -1097,6 +1119,7 @@
         <String xml:lang="pl-PL">Udaj się do ~b~Pillbox Hill Medical Center ~s~(Downtown Los Santos) dla operacji plastycznej.</String>
         <String xml:lang="pt-BR">Ir para ~b~Pillbox Hill Medical Center ~s~(Centro de Los Santos) para se submeter à uma cirurgia plástica.</String>
         <String xml:lang="zh-Hant">請前往 ~b~Pillbox Hill醫療中心 ~s~(洛聖都市中心) 進行整型手術.</String>
+        <String xml:lang="de-DE">Bitte gehe zum ~b~Pillbox Hill Krankenhaus ~s~(Downtown Los Santos) um eine Schönheitsoperation vorzunehmen.</String>
     </Entry>
 
     <Entry Id="paramedic_wanted_come_back_later">
@@ -1107,16 +1130,18 @@
         <String xml:lang="pl-PL">Jesteś ~o~poszukiwany ~s~przez gliny! Wróć jak ich zgubisz.</String>
         <String xml:lang="pt-BR">Você é ~o~procurado ~s~pela polícia! Por favor, volte mais tarde.</String>
         <String xml:lang="zh-Hant">你正在被警察 ~o~通緝~s~! 請稍後再回來.</String>
+        <String xml:lang="de-DE">Du wirst von der Polizei ~o~gesucht~s~! Bitte komm später wieder.</String>
     </Entry>
 
     <Entry Id="paramedic_active_shootout_cant_revive">
         <String xml:lang="en-US">There's an active ~r~shooting~s~! You can't revive ~o~wanted suspects ~s~now.</String>
         <String xml:lang="nl-NL">Er is een actief ~r~schietgevecht~s~! Je kan geen ~o~gezochte verdachten ~s~reanimeren op dit moment.</String>
-        <String xml:lang="it-IT">È in croso una ~r~sparatoria~s~! Non puoi rianimare gli ~o~sospettati ~s~ora.</String>
+        <String xml:lang="it-IT">È in croso una ~r~sparatoria~s~! Non puoi rianimare i ~o~sospettati ~s~per il momento.</String>
         <String xml:lang="es-ES">¡Hay un ~r~tiroteo~s~ activo! No puedes revivir ~o~sospechosos en busqueda ~s~ahora.</String>
         <String xml:lang="pl-PL">Jest ~r~strzelanina~s~! Nie możesz ocucać w tej chwili ~o~poszukiwanych kryminalistów~s~.</String>
         <String xml:lang="pt-BR">Há um ~r~tiroteio ativo~s~! Não é possível reanimar ~o~suspeitos em busca ~s~agora.</String>
         <String xml:lang="zh-Hant">這裡正在進行 ~r~槍戰~s~! 你現在無法復活 ~o~通緝犯~s~.</String>
+        <String xml:lang="de-DE">Eine aktive ~r~chießerei ~s~findet statt! Du kannst gerade keine ~o~gesuchte Verdächtigen ~s~wiederbeleben.</String>
     </Entry>
 
     <!-- {0} = Player name -->
@@ -1128,6 +1153,7 @@
         <String xml:lang="pl-PL">~p~Ocuciłeś ~s~{0}!</String>
         <String xml:lang="pt-BR">Você ~p~reviveu a ~s~{0}!</String>
         <String xml:lang="zh-Hant">你 ~p~復活了 ~s~{0}!</String>
+        <String xml:lang="de-DE">Du hast {0} ~p~wiederbelebt~s~!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1257,6 +1283,7 @@
         <String xml:lang="pl-PL">{0} ~s~zadzwonił na 911 ~y~{1}~s~</String>
         <String xml:lang="zh-Hant">{0} 在 ~y~{1} ~s~撥打了 911.</String>
         <String xml:lang="pt-BR">{0} ~s~ligou para o 911 em ~y~{1}~s~</String>
+        <String xml:lang="de-DE">{0} hat 911 zu ~y~{1} ~s~gerufen</String>
     </Entry>
 
     <!-- {0} = Officers' name -->
@@ -1264,11 +1291,12 @@
     <Entry Id="police_officer_holding_in_custody">
         <String xml:lang="en-US">Officer {0} is already holding {1} in custody.</String>
         <String xml:lang="nl-NL">Agent {0} houdt {1} al in hechtenis.</String>
-        <String xml:lang="it-IT">L'agente {0} ha già in custodia {1}.</String>
+        <String xml:lang="it-IT">L'agente {0} tiene già in custodia {1}.</String>
         <String xml:lang="es-ES">El oficial {0} ya tiene a {1} bajo custodia.</String>
         <String xml:lang="pl-PL">Oficer {0} trzyma już {1} w areszcie.</String>
         <String xml:lang="pt-BR">O policial {0} já tem {1} em custódia.</String>
         <String xml:lang="zh-Hant">警員 {0} 已拘留 {1}.</String>
+        <String xml:lang="de-DE">Der Polizist {0} hält {1} bereits in Gewahrsam.</String>
     </Entry>
 
     <Entry Id="police_already_in_custody">
@@ -1279,6 +1307,7 @@
         <String xml:lang="pl-PL">~o~{0} ~s~jest już aresztowany.</String>
         <String xml:lang="pt-BR">~o~{0} ~s~já está sob custódia da polícia.</String>
         <String xml:lang="zh-Hant">~o~{0} ~s~已被警方拘留.</String>
+        <String xml:lang="de-DE">~o~{0} ~s~befindet sich bereits in Polizeigewahrsam.</String>
     </Entry>
 
     <Entry Id="police_not_in_custody">
@@ -1289,6 +1318,7 @@
         <String xml:lang="pl-PL">{0} ~r~nie jest już trzymany w areszcie!</String>
         <String xml:lang="pt-BR">{0} ~r~não está sob custódia!</String>
         <String xml:lang="zh-Hant">{0} ~r~沒有被拘留!</String>
+        <String xml:lang="de-DE">{0} ~r~befindet sich nicht in Gewahrsam!</String>
     </Entry>
 
     <Entry Id="police_holding_you_in_custody">
@@ -1299,6 +1329,7 @@
         <String xml:lang="es-ES">El oficial ~b~{0} ~s~ahora lo tiene bajo custodia.</String>
         <String xml:lang="pt-BR">O policial ~b~{0} ~s~agora o tem sob custódia.</String>
         <String xml:lang="zh-Hant">警員 ~b~{0} ~s~現在正將你拘留.</String>
+        <String xml:lang="de-DE">Der Polizist ~b~{0} ~s~hält dich nun in gewahrsam.</String>
     </Entry>
 
     <Entry Id="police_suspect_arrested_by_other">
@@ -1309,6 +1340,7 @@
         <String xml:lang="pl-PL">~r~Ten podejrzany jest już aresztowany przez innego policjanta.</String>
         <String xml:lang="pt-BR">~r~Esse suspeito está sendo preso por outro policial.</String>
         <String xml:lang="zh-Hant">~r~這名嫌犯已被其他警員逮捕.</String>
+        <String xml:lang="de-DE">~r~Dieser Verdächtige wird von einem anderen Polizeibeamten festgenommen.</String>
     </Entry>
 
     <Entry Id="police_suspect_already_following_other">
@@ -1319,16 +1351,7 @@
         <String xml:lang="pl-PL">~o~Podejrzany ~s~już idzie za innym policjantem.</String>
         <String xml:lang="pt-BR">O ~o~suspeito ~s~já está seguindo outro policial.</String>
         <String xml:lang="zh-Hant">這名 ~o~嫌犯 ~s~已經在跟隨其他警員.</String>
-    </Entry>
-
-    <Entry Id="police_suspect_following_other">
-        <String xml:lang="en-US">The ~o~suspect ~s~is following another officer.</String>
-        <String xml:lang="nl-NL">De ~o~verdacht ~s~is een andere agent aan het volgen.</String>
-        <String xml:lang="it-IT">Il ~o~sospettato ~s~sta seguendo un altro agente.</String>
-        <String xml:lang="es-ES">El ~o~sospechoso ~s~está siguiendo a otro oficial de policia.</String>
-        <String xml:lang="pl-PL">~o~Podejrzany ~s~idzie za innym policjantem.</String>
-        <String xml:lang="pt-BR">O ~o~suspeito ~s~está seguindo outro policial..</String>
-        <String xml:lang="zh-Hant">這名 ~o~嫌犯 ~s~正在跟隨其他警員.</String>
+        <String xml:lang="de-DE">Der ~o~Verdächtige ~s~folgt bereits einem anderen Polizist.</String>
     </Entry>
 
     <Entry Id="police_cuffing_you">
@@ -1339,6 +1362,7 @@
         <String xml:lang="pl-PL">Oficer {0} cię zakuwa.{1}</String>
         <String xml:lang="pt-BR">O policial {0} está algemando você.{1}</String>
         <String xml:lang="zh-Hant">警員 {0} 正在對你進行上銬.{1}</String>
+        <String xml:lang="de-DE">Der Polizist {0} verhaftet dich.{1}</String>
     </Entry>
 
     <Entry Id="police_cuffed_you">
@@ -1349,6 +1373,7 @@
         <String xml:lang="pl-PL">Oficer {0} cię zakuł.</String>
         <String xml:lang="pt-BR">O policial {0} algemou você.</String>
         <String xml:lang="zh-Hant">警員 {0} 正在對你進行上銬.</String>
+        <String xml:lang="de-DE">Der Polizist {0} hat dich festgenommen.</String>
     </Entry>
 
     <Entry Id="police_failed_to_cuff_you">
@@ -1359,6 +1384,7 @@
         <String xml:lang="pl-PL">Oficerowi {0} nie udało się ciebie zakuć.</String>
         <String xml:lang="pt-BR">O policial {0} não conseguiu algemá-lo.</String>
         <String xml:lang="zh-Hant">警員 {0} 對你進行上銬失敗.</String>
+        <String xml:lang="de-DE">Der Polizist {0} hat es nicht geschafft, dich festzunehmen.</String>
     </Entry>
 
     <Entry Id="police_uncuffing_you">
@@ -1369,6 +1395,7 @@
         <String xml:lang="pl-PL">Oficer {0} cię ~s~odkuwa.</String>
         <String xml:lang="pt-BR">O policial {0} ~s~te está removendo suas algemas.</String>
         <String xml:lang="zh-Hant">警員 {0} ~s~正在對你進行解銬.</String>
+        <String xml:lang="de-DE">Der Polizist {0} ~s~lässt dich frei.</String>
     </Entry>
 
     <Entry Id="police_uncuffed_you">
@@ -1379,6 +1406,7 @@
         <String xml:lang="pl-PL">Oficer {0} cię ~s~odkuł.</String>
         <String xml:lang="pt-BR">O policial {0} ~s~tirou suas algemas.</String>
         <String xml:lang="zh-Hant">警員 {0} ~s~已解銬你.</String>
+        <String xml:lang="de-DE">Der Polizist {0} ~s~hat dich freigelassen</String>
     </Entry>
 
     <Entry Id="police_ordered_you_get_vehicle">
@@ -1389,6 +1417,7 @@
         <String xml:lang="pl-PL">~b~Gliniarze ~s~kazali ci wejść do ~b~pojazdu~s~.</String>
         <String xml:lang="pt-BR">A ~b~polícia ~s~ordenou que você entrasse no ~b~veículo~s~.</String>
         <String xml:lang="zh-Hant">~b~警員 ~s~命令你進入 ~b~載具~s~.</String>
+        <String xml:lang="de-DE">Der ~b~Polizeibeamte ~s~hat angeordnet, dass du in das ~b~Fahrzeug ~s~einsteigen sollst.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_you_get_vehicle">
@@ -1399,6 +1428,7 @@
         <String xml:lang="pl-PL">~b~Oficer {0} ~s~kazał ci wejść do ~b~pojazdu~s~!</String>
         <String xml:lang="pt-BR">~b~O policial {0} ~s~ordenou que você entrasse no ~b~veículo~s~!</String>
         <String xml:lang="zh-Hant">~b~警員 {0} ~s~命令你進入 ~b~載具~s~!</String>
+        <String xml:lang="de-DE">Der ~b~Polizist {0} ~s~hat angeordnet, dass du in das ~b~Fahrzeug ~s~einsteigen sollst.</String>
     </Entry>
 
     <Entry Id="police_you_ordered_suspect_get_vehicle">
@@ -1409,16 +1439,18 @@
         <String xml:lang="pl-PL">Kazałeś ~o~{0} ~s~wejść do twojego ~b~pojazdu~s~.</String>
         <String xml:lang="pt-BR">Você ordenou que ~o~{0} ~s~entrassem em seu ~b~veículo~s~.</String>
         <String xml:lang="zh-Hant">你命令 ~o~{0} ~s~進入你的 ~b~載具~s~.</String>
+        <String xml:lang="de-DE">Du hast ~o~{0} angewiesen, in dein ~b~Fahrzeug ~s~zu steigen.</String>
     </Entry>
 
     <Entry Id="police_you_ordered_suspect_exit_vehicle">
-        <String xml:lang="en-US">You ordered ~o~{targetName} ({targetServerId}) ~s~to exit the vehicle.</String>
-        <String xml:lang="nl-NL">Je beveelt ~o~{targetName} ({targetServerId}) ~s~om uit jouw voertuig te stappen.</String>
-        <String xml:lang="it-IT">Hai ordinato a ~o~{targetName} ({targetServerId}) ~s~di uscire dal veicolo.</String>
-        <String xml:lang="es-ES">Tú ordenaste a ~o~{targetName} ({targetServerId}) ~s~que saliera del vehículo.</String>
-        <String xml:lang="pl-PL">Kazałeś ~o~{targetName} ({targetServerId}) ~s~wyjść z pojazdu.</String>
-        <String xml:lang="pt-BR">você ordenou que ~o~{targetName} ({targetServerId}) ~s~saísse do veículo.</String>
-        <String xml:lang="zh-Hant">你命令 ~o~{targetName} ({targetServerId}) ~s~離開載具.</String>
+        <String xml:lang="en-US">You ordered ~o~{0} ~s~to exit the vehicle.</String>
+        <String xml:lang="nl-NL">Je beveelt ~o~{0} ~s~om uit jouw voertuig te stappen.</String>
+        <String xml:lang="it-IT">Hai ordinato a ~o~{0} ~s~di uscire dal veicolo.</String>
+        <String xml:lang="es-ES">Tú ordenaste a ~o~{0} ~s~que saliera del vehículo.</String>
+        <String xml:lang="pl-PL">Kazałeś ~o~{0} ~s~wyjść z pojazdu.</String>
+        <String xml:lang="pt-BR">você ordenou que ~o~{0} ~s~saísse do veículo.</String>
+        <String xml:lang="zh-Hant">你命令 ~o~{0} ~s~離開載具.</String>
+        <String xml:lang="de-DE">Du hast ~o~{0} ~s~angewiesen, aus dem Fahrzeug auszusteigen.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_you_exit_vehicle">
@@ -1429,6 +1461,7 @@
         <String xml:lang="pl-PL">~b~Oficer {0} ~s~kazał ci wyjść z ~b~pojazdu~s~.</String>
         <String xml:lang="pt-BR">~b~O policial {0} ~s~disse para você sair do ~b~veículo~s~.</String>
         <String xml:lang="zh-Hant">~b~警員 {0} ~s~命令你離開 ~b~載具~s~.</String>
+        <String xml:lang="de-DE">Der ~b~Polizist {0} ~s~hat angewiesen, dass du sein ~b~Fahrzeug ~s~verlassen sollst.</String>
     </Entry>
 
     <Entry Id="police_suspect_already_in_vehicle">
@@ -1439,6 +1472,7 @@
         <String xml:lang="pl-PL">~o~Podejrzany ~s~jest już w pojeździe.</String>
         <String xml:lang="pt-BR">O ~o~suspeito ~s~já está em um veículo.</String>
         <String xml:lang="zh-Hant">~o~嫌犯 ~s~已在車內.</String>
+        <String xml:lang="de-DE">Der ~o~Verdächtige ~s~befindet sich bereits in einem Fahrzeug.</String>
     </Entry>
 
     <Entry Id="police_suspect_not_in_vehicle">
@@ -1449,6 +1483,7 @@
         <String xml:lang="pl-PL">~o~Podejrzanego ~s~nie ma w pojeździe.</String>
         <String xml:lang="pt-BR">O ~o~suspeito ~s~não está em um veículo.</String>
         <String xml:lang="zh-Hant">~o~嫌犯 ~s~不在載具內.</String>
+        <String xml:lang="de-DE">Der ~o~Verdächtige ~s~befindet sich nicht in einem Fahrzeug.</String>
     </Entry>
 
     <!-- {0} = Player's name -->
@@ -1460,6 +1495,7 @@
         <String xml:lang="es-ES">¡Has preguntado a ~o~{0} ~s~que ~b~{1}~s~!</String>
         <String xml:lang="pl-PL">Kazałeś ~o~{0} ~s~się ~b~{1}~s~!</String>
         <String xml:lang="pt-BR">Você já perguntou a ~o~{0} ~s~que ~b~{1}~s~!</String>
+        <String xml:lang="de-DE">Du hast ~o~{0} ~s~aufgefordert, ~b~{1}~s~!</String>
     </Entry>
 
     <!-- {0} = Officer's name -->
@@ -1471,6 +1507,7 @@
         <String xml:lang="es-ES">El oficial ~b~{0} ~s~te pidió que ~r~{1}~s~!</String>
         <String xml:lang="pl-PL">Oficer ~b~{0} ~s~kazał ci ~r~{1}~s~!</String>
         <String xml:lang="pt-BR">O oficial ~b~{0} ~s~te pediu que ~r~{1}~s~!</String>
+        <String xml:lang="de-DE">Der ~b~Polizist {0} ~s~hat dich aufgefordert ~r~{1}~s~!</String>
     </Entry>
 
     <Entry Id="police_player_surrender_warn">
@@ -1480,6 +1517,7 @@
         <String xml:lang="es-ES">¡{0} ~s~se rinde! ~r~No dispares.</String>
         <String xml:lang="pl-PL">{0} ~s~się poddaje! ~r~Nie strzelaj.</String>
         <String xml:lang="pt-BR">{0} ~s~se rendeu! ~r~Não atire.</String>
+        <String xml:lang="de-DE">{0} ~s~ergibt sich! ~r~Nicht schießen.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_follow">
@@ -1489,6 +1527,7 @@
         <String xml:lang="es-ES">~b~El oficial {0} ~s~te ordenó que le siguieras.</String>
         <String xml:lang="pl-PL">~b~Oficer {0} ~s~kazał ci za nim iść.</String>
         <String xml:lang="pt-BR">~b~O policial {0} ~s~ordenou que você o seguisse.</String>
+        <String xml:lang="de-DE">Der ~b~Polizist {0} ~s~hat angewiesen, dass du ihm folgen sollst.</String>
     </Entry>
 
     <Entry Id="police_dont_have_police_vehicle">
@@ -1498,6 +1537,7 @@
         <String xml:lang="pl-PL">Nie masz ~b~pojazdu policyjnego~s~.</String>
         <String xml:lang="es-ES">No tienes un ~b~vehículo policial~s~.</String>
         <String xml:lang="pt-BR">Você não tem um ~b~veículo policial~s~.</String>
+        <String xml:lang="de-DE">Du hast kein ~b~Polizeifahrzeug~s~.</String>
     </Entry>
 
     <Entry Id="police_need_police_vehicle_to_transport">
@@ -1507,6 +1547,7 @@
         <String xml:lang="es-ES">Necesitas un ~p~vehículo policial ~s~para transportar a un sospechoso a la cárcel.</String>
         <String xml:lang="pl-PL">Potrzebujesz ~p~pojazd policyjny ~s~by transportować podejrzanych na komendę.</String>
         <String xml:lang="pt-BR">Você precisa de um ~p~veículo policial ~s~para transportar um suspeito para a cadeia.</String>
+        <String xml:lang="de-DE">Du benötigst ein ~p~Polizeifahrzeug~s~, um einen Verdächtigen zu einem Gefängnis zu transportieren.</String>
     </Entry>
 
     <Entry Id="police_need_police_vehicle_with_rearseat_to_transport">
@@ -1516,6 +1557,7 @@
         <String xml:lang="es-ES">Necesita un ~p~vehículo ~s~con asientos traseros para transportar a un sospechoso.</String>
         <String xml:lang="pl-PL">Potrzebujesz ~p~pojazd ~s~z tylnymi siedzeniami transportować podejrzanych na komendę.</String>
         <String xml:lang="pt-BR">Você precisa de um ~p~veículo ~s~com assentos traseiros para transportar um suspeito.</String>
+        <String xml:lang="de-DE">Du benötigst ein ~p~Fahrzeug ~s~mit einer Rückbank, um einen Verdächtigen zu transportieren.</String>
     </Entry>
 
     <Entry Id="police_need_police_vehicle_with_backseat_occupied">
@@ -1525,6 +1567,7 @@
         <String xml:lang="es-ES">El ~b~asiento trasero ~s~de su vehículo está ocupado.</String>
         <String xml:lang="pl-PL">~b~Tylne siedzenie twojego pojazdu~s~jest zajęte.</String>
         <String xml:lang="pt-BR">O ~b~banco traseiro ~s~de seu veículo está ocupado.</String>
+        <String xml:lang="de-DE">Die ~b~Rückbank deines Fahrzeuges~s~ ist besetzt.</String>
     </Entry>
 
     <Entry Id="police_vehicle_too_far">
@@ -1534,6 +1577,7 @@
         <String xml:lang="es-ES">Tu ~b~vehículo ~s~está ~r~demasiado lejos~s~.</String>
         <String xml:lang="pl-PL">Twój ~b~pojazd ~s~jest ~r~za daleko~s~.</String>
         <String xml:lang="pt-BR">Seu ~b~veículo ~s~está ~r~muito longe~s~.</String>
+        <String xml:lang="de-DE">Dein ~b~Fahrzeug ~s~ist zu ~r~weit weg~s~.</String>
     </Entry>
 
     <Entry Id="police_you_officer_ordered_follow">
@@ -1543,6 +1587,7 @@
         <String xml:lang="es-ES">Tu ordenaste a ~o~{0} ~s~que te siguiera.</String>
         <String xml:lang="pl-PL">Kazałeś ~o~{0} ~s~iść za tobą.</String>
         <String xml:lang="pt-BR">Você ordenou que ~o~{0} ~s~o seguisse.</String>
+        <String xml:lang="de-DE">Du hast ~o~{0} ~s~angewiesen, dir zu folgen.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_stop_follow">
@@ -1552,6 +1597,7 @@
         <String xml:lang="es-ES">~b~El oficial {0} ~s~te ordenó que dejara de seguir.</String>
         <String xml:lang="pl-PL">~b~Oficer {0} ~s~kazał ci przestać za nim iść.</String>
         <String xml:lang="pt-BR">~b~O policial {0} ~s~te ordenou que ele parasse de perseguir.</String>
+        <String xml:lang="de-DE">Der ~b~Polizist {0} hat ~s~angewiesen, dass du ihm nicht länger folgen sollst.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_you_stop_follow">
@@ -1561,6 +1607,7 @@
         <String xml:lang="es-ES">Tu ordenaste a ~o~{0} ~s~que te dejara de seguir.</String>
         <String xml:lang="pl-PL">Kazałeś ~o~{0} ~s~przestać za tobą iść.</String>
         <String xml:lang="pt-BR">Você ordenou que ~o~{0} ~s~parasse de segui-lo.</String>
+        <String xml:lang="de-DE">Du hast ~o~{0} ~s~angewiesen, dass er dir nicht länger folgen soll.</String>
     </Entry>
 
     <Entry Id="police_called_transport_unit_for_you">
@@ -1570,6 +1617,7 @@
         <String xml:lang="es-ES">El oficial {0} llamó a una unidad de transporte para ti.</String>
         <String xml:lang="pl-PL">Oficer {0} wezwał dla ciebie transport.</String>
         <String xml:lang="pt-BR">O policial {0} chamou uma unidade de transporte para você.</String>
+        <String xml:lang="de-DE">Der Polizist {0} hat eine Transporteinheit für dich angefordert.</String>
     </Entry>
 
     <Entry Id="police_not_watching_lockpick">
@@ -1579,6 +1627,7 @@
         <String xml:lang="es-ES">Los ~b~policías ~s~no te están mirando, ¡es hora de irte! Usa una ~y~ganzúa ~s~para liberarte de las esposas.</String>
         <String xml:lang="pl-PL">~b~Gliny ~s~cię nie pilnują, czas spieprzać! Użyj ~y~wytrychów ~s~by odblokować swoje kajdanki.</String>
         <String xml:lang="pt-BR">A ~b~polícia ~s~não está observando você, é hora de ir! Use um ~y~hook ~s~para destravar as algemas.</String>
+        <String xml:lang="de-DE">Die ~b~Polizisten ~s~beaufsichtigen dich nicht, es ist Zeit zu flüchten! Nutze einen ~y~Dietrich~s~, um deine Handschellen zu lösen.</String>
 
     </Entry>
 
@@ -1589,6 +1638,7 @@
         <String xml:lang="es-ES">El ~o~sospechoso ~s~está en un vehículo.</String>
         <String xml:lang="pl-PL">~o~Podejrzany ~s~jest w pojeździe.</String>
         <String xml:lang="pt-BR">O ~o~suspeito ~s~está em um veículo.</String>
+        <String xml:lang="de-DE">Der ~o~Verdächtige ~s~befindet sich in einem Fahrzeug.</String>
     </Entry>
 
     <Entry Id="police_suspect_too_far">
@@ -1598,6 +1648,7 @@
         <String xml:lang="es-ES">El ~o~sospechoso ~s~está ~r~demasiado lejos~s~.</String>
         <String xml:lang="pl-PL">~o~Podejrzany ~s~jest ~r~za daleko~s~.</String>
         <String xml:lang="pt-BR">O ~o~suspeito ~s~está ~r~muito longe~s~.</String>
+        <String xml:lang="de-DE">Der ~o~Verdächtige ~s~ist zu ~r~weit weg~s~.</String>
     </Entry>
 
     <Entry Id="police_suspect_not_cuffed">
@@ -1607,6 +1658,7 @@
         <String xml:lang="es-ES">~r~El sospechoso no está esposado.</String>
         <String xml:lang="pl-PL">~r~Podejrzany nie jest zakuty.</String>
         <String xml:lang="pt-BR">~r~O suspeito não está algemado.</String>
+        <String xml:lang="de-DE">~r~Der Verdächtige ist nicht festgenommen.</String>
     </Entry>
 
     <Entry Id="police_called_transport_unit">
@@ -1616,6 +1668,7 @@
         <String xml:lang="es-ES">~r~Se ha llamado a una unidad de transporte para el sospechoso.</String>
         <String xml:lang="pl-PL">~r~Transport został wezwany dla podejrzanego.</String>
         <String xml:lang="pt-BR">~r~Uma unidade de transporte foi chamada para buscar o suspeito.</String>
+        <String xml:lang="de-DE">~r~Eine Transporteinheit wurde für den Verdächtigen gerufen.</String>
     </Entry>
 
     <Entry Id="police_already_way_transport_unit">
@@ -1625,6 +1678,7 @@
         <String xml:lang="es-ES">~r~¡Ya está en camino una unidad de transporte para este sospechoso!</String>
         <String xml:lang="pl-PL">~r~Transport dla tego podejrzanego jest już w drodze!</String>
         <String xml:lang="pt-BR">~r~Uma unidade de transporte para esse suspeito já está a caminho!</String>
+        <String xml:lang="de-DE">~r~Eine Transporteinheit befindet sich bereits auf dem Weg!</String>
     </Entry>
 
     <Entry Id="police_request_transport_unit">
@@ -1634,6 +1688,7 @@
         <String xml:lang="es-ES">Tu has solicitado una ~b~unidad de transporte ~s~para el sospechoso!</String>
         <String xml:lang="pl-PL">Wezwałeś ~b~transport ~s~fdla podejrzanego!</String>
         <String xml:lang="pt-BR">Você solicitou uma ~b~unidade de transporte ~s~para o suspeito!</String>
+        <String xml:lang="de-DE">Du hast eine ~b~Transporteinheit ~s~für den Verdächtigen angefordert!</String>
     </Entry>
 
     <Entry Id="police_cant_transport_suspect_not_custody">
@@ -1643,6 +1698,7 @@
         <String xml:lang="es-ES">La ~b~unidad de transporte ~s~no puede transportar a un ~o~sospechoso~s~ que no esté bajo custodia.</String>
         <String xml:lang="pl-PL">~b~Jednostka transportowa ~s~nie może przenieść ~o~podejrzanego~s~ który zwiał.</String>
         <String xml:lang="pt-BR">A ~b~unidade de transporte ~s~não pode transportar um ~o~suspeito~s~ que não esteja sob custódia.</String>
+        <String xml:lang="de-DE">Die ~b~Transporteinheit ~s~kann einen ~o~Verdächtigen~s~, welcher sich nicht in Gewahrsam findet, transportieren.</String>
     </Entry>
 
     <Entry Id="police_transport_unit_couldnt_find_suspect">
@@ -1652,6 +1708,7 @@
         <String xml:lang="es-ES">La ~b~unidad de transporte ~s~no pudo encontrar al sospechoso.</String>
         <String xml:lang="pl-PL">~b~Jednostka transportowa ~s~nie znalazła podejrzanego.</String>
         <String xml:lang="pt-BR">A ~b~unidade de transporte ~s~não conseguiu encontrar o suspeito.</String>
+        <String xml:lang="de-DE">Die ~b~Transporteinheit ~s~konnte den Verdächtigen nicht finden.</String>
     </Entry>
 
     <Entry Id="police_cant_transport_injured_suspect_not_custody">
@@ -1661,6 +1718,7 @@
         <String xml:lang="es-ES">La ~b~unidad de transporte ~s~no puede transportar a un ~o~sospechoso herido~s~.</String>
         <String xml:lang="pl-PL">~b~Jednostka transportowa ~s~nie może przenosić rannych ~o~podejrzanych~s~.</String>
         <String xml:lang="pt-BR">A ~b~unidade de transporte ~s~não pode transportar um ~o~suspeito ferido~s~.</String>
+        <String xml:lang="de-DE">Die ~b~Transporteinheit ~s~kann einen verletzten ~o~Verdächtigen~s~ nicht transportieren.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1671,24 +1729,27 @@
         <String xml:lang="es-ES">Estás cacheando a {0}~s~.</String>
         <String xml:lang="pl-PL">Przeszukujesz {0}~s~.</String>
         <String xml:lang="pt-BR">você está revistando o {0}~s~.</String>
+        <String xml:lang="de-DE">Du durchsuchst {0}~s~.</String>
     </Entry>
 
     <Entry Id="police_cuffing_suspect">
-        <String xml:lang="en-US">You are cuffing {0}</String>
-        <String xml:lang="nl-NL">Je bent {0}~s~ aan het boeien</String>
-        <String xml:lang="it-IT">Stai ammanettando {0}</String>
-        <String xml:lang="es-ES">Estás esposando a {0}</String>
-        <String xml:lang="pl-PL">Zakuwasz {0}</String>
-        <String xml:lang="pt-BR">Você está algemando a {0}</String>
+        <String xml:lang="en-US">You are cuffing {0}.</String>
+        <String xml:lang="nl-NL">Je bent {0}~s~ aan het boeien.</String>
+        <String xml:lang="it-IT">Stai ammanettando {0}.</String>
+        <String xml:lang="es-ES">Estás esposando a {0}.</String>
+        <String xml:lang="pl-PL">Zakuwasz {0}.</String>
+        <String xml:lang="pt-BR">Você está algemando a {0}.</String>
+        <String xml:lang="de-DE">Du nimmst {0} fest.</String>
     </Entry>
 
     <Entry Id="police_cuffed_suspect">
-        <String xml:lang="en-US">You have cuffed {0}</String>
+        <String xml:lang="en-US">You have cuffed {0}.</String>
         <String xml:lang="nl-NL">Je hebt {0}~s~ geboeid</String>
-        <String xml:lang="it-IT">Hai ammanettando {0}</String>
+        <String xml:lang="it-IT">Hai ammanettando {0}.</String>
         <String xml:lang="es-ES">Has esposado a {0}</String>
-        <String xml:lang="pl-PL">Zakułeś {0}</String>
-        <String xml:lang="pt-BR">Você algemou a {0}</String>
+        <String xml:lang="pl-PL">Zakułeś {0}.</String>
+        <String xml:lang="pt-BR">Você algemou a {0}.</String>
+        <String xml:lang="de-DE">Du hast {0} festgenommen.</String>
     </Entry>
 
     <Entry Id="police_already_cuffed_suspect">
@@ -1698,16 +1759,17 @@
         <String xml:lang="pl-PL">{0} jest już zakuty.</String>
         <String xml:lang="es-ES">{0} ya estaba esposado.</String>
         <String xml:lang="pt-BR">{0} já estava algemado.</String>
-
+        <String xml:lang="de-DE">{0} wurde bereits festgenommen.</String>
     </Entry>
 
     <Entry Id="police_uncuffing_player">
-        <String xml:lang="en-US">You are uncuffing {0}</String>
-        <String xml:lang="nl-NL">Je bent de boeien van {0}~s~ aan het losmaken</String>
-        <String xml:lang="it-IT">Stai togliendo le manette a {0}</String>
-        <String xml:lang="es-ES">Estás quitando las esposas a {0}</String>
-        <String xml:lang="pl-PL">Odkuwasz {0}</String>
-        <String xml:lang="pt-BR">Você está tirando as algemas de {0}</String>
+        <String xml:lang="en-US">You are uncuffing {0}.</String>
+        <String xml:lang="nl-NL">Je bent de boeien van {0}~s~ aan het losmaken.</String>
+        <String xml:lang="it-IT">Stai togliendo le manette a {0}.</String>
+        <String xml:lang="es-ES">Estás quitando las esposas a {0}.</String>
+        <String xml:lang="pl-PL">Odkuwasz {0}.</String>
+        <String xml:lang="pt-BR">Você está tirando as algemas de {0}.</String>
+        <String xml:lang="de-DE">Du lässt {0} frei.</String>
     </Entry>
 
     <Entry Id="police_uncuffed_suspect">
@@ -1717,6 +1779,7 @@
         <String xml:lang="es-ES">Has quitado las esposas a {0}</String>
         <String xml:lang="pl-PL">Odkułeś {0}</String>
         <String xml:lang="pt-BR">Você tirou as algemas de {0}</String>
+        <String xml:lang="de-DE">Du hast {0} freigelassen.</String>
     </Entry>
 
     <Entry Id="police_already_uncuffed_suspect">
@@ -1726,6 +1789,7 @@
         <String xml:lang="es-ES">{0} ya estaba sin las esposas.</String>
         <String xml:lang="pl-PL">{0} jest już odkuty.</String>
         <String xml:lang="pt-BR">{0} já estava sem algemas.</String>
+        <String xml:lang="de-DE">{0} wurde bereits festgenommen.</String>
     </Entry>
 
     <Entry Id="police_cant_uncuff_when_stunned">
@@ -1735,7 +1799,7 @@
         <String xml:lang="pl-PL">Nie możesz ~o~odkuć ~s~kogoś gdy jesteś ~b~paraliżowany~s~.</String>
         <String xml:lang="es-ES">No puedes ~o~desesposar ~s~a alguien cuando estás ~b~aturdido~s~.</String>
         <String xml:lang="pt-BR">Você não pode ~o~tirar as algemas ~s~de alguém quando se está ~b~saturado~s~.</String>
-
+        <String xml:lang="de-DE">Du kannst niemanden ~o~freilassen~s~, während du ~b~überwältigt ~s~bist.</String>
     </Entry>
 
     <Entry Id="police_cant_uncuff_when_cuffed">
@@ -1745,15 +1809,17 @@
         <String xml:lang="pl-PL">Nie możesz ~o~odkuć ~s~kogoś gdy sam jesteś ~b~zakuwany~s~.</String>
         <String xml:lang="es-ES">No puedes ~o~quitarle las esposas ~s~a alguien cuando tu estás ~b~esposado~s~.</String>
         <String xml:lang="pt-BR">Você não pode ~o~tirar as algemas ~s~de alguém quando se está ~b~algemado~s~.</String>
+        <String xml:lang="de-DE">Du kannst niemanden ~o~freilassen~s~, wenn du selbst ~b~gefesselt ~s~bist.</String>
     </Entry>
 
     <Entry Id="police_no_longer_around">
         <String xml:lang="en-US">The ~b~cops ~s~are no longer around!</String>
         <String xml:lang="nl-NL">De ~b~politie ~s~zijn niet meer in de buurt!</String>
-        <String xml:lang="it-IT">Gli ~b~aggenti ~s~non sono più in zona!!</String>
+        <String xml:lang="it-IT">Gli ~b~aggenti ~s~non sono più in zona!</String>
         <String xml:lang="es-ES">¡Los ~b~policías ~s~ya no están por la zona!</String>
         <String xml:lang="pl-PL">Wstawaj, w pobliżu nie ma już ~b~glin~s~!</String>
         <String xml:lang="pt-BR">A ~b~polícia ~s~não está mais na área!</String>
+        <String xml:lang="de-DE">Die ~b~Polizisten ~s~sind nicht mehr anwesend!</String>
     </Entry>
 
     <Entry Id="police_you_surrendered">
@@ -1763,6 +1829,7 @@
         <String xml:lang="es-ES">¡Te entregaste a la ~b~policía~s~!</String>
         <String xml:lang="pl-PL">Poddałeś się ~b~glinom~s~!</String>
         <String xml:lang="pt-BR">Você se entregou à ~b~polícia~s~!</String>
+        <String xml:lang="de-DE">Du hast dich der ~b~Polizei ~s~ergeben!</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1773,6 +1840,7 @@
         <String xml:lang="es-ES">¡Encontraste ~r~artículos ilegales ~s~en las pertenencias de {0}~s~!</String>
         <String xml:lang="pl-PL">Znalazłeś ~r~nielegalne przedmioty ~s~u {0}~s~!</String>
         <String xml:lang="pt-BR">Você encontrou ~r~artigos ~s~ilegais ~s~nos pertences de {0}~s~!</String>
+        <String xml:lang="de-DE">Du hast ~r~illegale Gegenstände ~s~bei {0} ~s~gefunden!</String>
     </Entry>
 
     <Entry Id="police_searching_no_illegal_items">
@@ -1782,6 +1850,7 @@
         <String xml:lang="es-ES">No encontraste ~r~nada ~s~en las pertenecias de {0}.</String>
         <String xml:lang="pl-PL">Nie znalazłeś ~r~kompletnie niczego ~s~u {0}~s~.</String>
         <String xml:lang="pt-BR">Você não encontrou ~r~nada ~s~nos pertences de {0}.</String>
+        <String xml:lang="de-DE">Du hast ~r~nichts ~s~an {0} gefunden.</String>
     </Entry>
 
     <Entry Id="police_already_searched">
@@ -1791,6 +1860,7 @@
         <String xml:lang="es-ES">~r~El sospechoso ya ha sido cacheado.</String>
         <String xml:lang="pl-PL">~r~Podejrzany został już przeszukany.</String>
         <String xml:lang="pt-BR">~r~O suspeito já foi revistado.</String>
+        <String xml:lang="de-DE">~r~Der Verdächtige wurde bereits durchsucht.</String>
     </Entry>
 
     <Entry Id="police_you_asked_for_bribe">
@@ -1800,6 +1870,7 @@
         <String xml:lang="es-ES">Le pediste a {0} que te ofrezca un ~o~soborno~s~.</String>
         <String xml:lang="pl-PL">Zasugerowałeś {0} ~o~łapówkę~s~.</String>
         <String xml:lang="pt-BR">Você pediu a {0} que lhe oferecesse um ~o~suborno~s~.</String>
+        <String xml:lang="de-DE">Du hast {0} gefragt, ob er dich ~o~bestechen ~s~will.</String>
     </Entry>
 
     <Entry Id="police_asked_to_bribe">
@@ -1809,6 +1880,7 @@
         <String xml:lang="es-ES">~b~El oficial {0} te pidió que ~o~lo sobornes~s~.</String>
         <String xml:lang="pl-PL">~b~Oficer {0} zasugerował ~o~łapówkę~s~.</String>
         <String xml:lang="pt-BR">~b~O policial {0} pediu que você o ~o~subornasse~s~.</String>
+        <String xml:lang="de-DE">Der ~b~Polizist {0}~s~ hat dich gefragt, ob du ihn ~o~bestechen ~s~willst.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1819,6 +1891,7 @@
         <String xml:lang="pl-PL">Zignorowałeś łapówkę {0}.</String>
         <String xml:lang="es-ES">Ignoraste la oferta de soborno de {0}.</String>
         <String xml:lang="pt-BR">Você ignorou a oferta de suborno de {0}.</String>
+        <String xml:lang="de-DE">Du hast {0}'s Bestechungsversuch ignoriert.</String>
     </Entry>
 
     <Entry Id="police_too_far_to_accept_bribe">
@@ -1828,6 +1901,7 @@
         <String xml:lang="pl-PL">Jesteś ~r~za daleko ~s~od {0}, nie możesz akceptować ani odrzucić ~r~łapówki~s~.</String>
         <String xml:lang="es-ES">Estás ~r~demasiado lejos ~s~de {0}, y no puedes aceptar ni rechazar el ~r~soborno~s~.</String>
         <String xml:lang="pt-BR">Você está ~r~muito longe ~s~de {0} e não pode aceitar nem rejeitar o suborno.</String>
+        <String xml:lang="de-DE">Du bist zu ~r~weit ~s~von {0} ~r~weg, du kannst Bestechungen ~s~nicht annehmen oder ablehnen.</String>
     </Entry>
 
     <Entry Id="police_wait_ten_minutes_bribe">
@@ -1837,6 +1911,7 @@
         <String xml:lang="pl-PL">Musisz poczekać 10 minut zanim zaakceptujesz ~r~łapówkę ~s~od tego samego gracza.</String>
         <String xml:lang="es-ES">Debes esperar 10 minutos antes de volver a aceptar un ~r~soborno ~s~del mismo jugador.</String>
         <String xml:lang="pt-BR">Você deve esperar 10 minutos antes de aceitar outro ~r~suborno ~s~do mesmo jogador.</String>
+        <String xml:lang="de-DE">Du musst 10 Minuten warten, bevor du eine ~r~Bestechung ~s~von dem selben Spieler wieder annehmen kannst.</String>
     </Entry>
 
     <Entry Id="police_could_not_afford_bribe">
@@ -1846,6 +1921,7 @@
         <String xml:lang="pl-PL">{0} nie stać na zapłącenie ~r~łapówki~s~.</String>
         <String xml:lang="es-ES">{0} no podía pagar el ~r~soborno~s~.</String>
         <String xml:lang="pt-BR">{0} não podiam pagar os ~r~subornos~s~.</String>
+        <String xml:lang="de-DE">{0} kann sich die ~r~Bestechung ~s~nicht leisten.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1857,6 +1933,7 @@
         <String xml:lang="pl-PL">Oferowałeś {0} ~g~{1} ~s~łapówkę.</String>
         <String xml:lang="es-ES">Ofreciste a {0} ~g~{1} ~s~para sobornarle.</String>
         <String xml:lang="pt-BR">Você ofereceu a {0} ~g~{1} ~s~para suborná-lo.</String>
+        <String xml:lang="de-DE">Du hast {0} eine ~g~{1} ~s~Bestechung angeboten.</String>
     </Entry>
 
     <Entry Id="police_no_longer_connected_bribe">
@@ -1866,15 +1943,17 @@
         <String xml:lang="pl-PL">~r~{0} wyszedł z serwera.</String>
         <String xml:lang="es-ES">~r~{0} ya no está conectada al servidor.</String>
         <String xml:lang="pt-BR">~r~{0} não está mais conectado ao servidor.</String>
+        <String xml:lang="de-DE">~r~{0} befindet sich nich mehr auf dem Server.</String>
     </Entry>
 
     <Entry Id="police_not_close_enough_to_bribe">
         <String xml:lang="en-US">~r~{0} is not close enough to offer them a bribe.</String>
         <String xml:lang="nl-NL">~r~{0} is niet dichtbij genoeg om hem een omkoping aan te bieden.</String>
-        <String xml:lang="it-IT">~r~{0} non gli è abbastanza vicino per fare un'offerta di corruzione.</String>
+        <String xml:lang="it-IT">~r~{0} non è abbastanza vicino per fargli un'offerta di corruzione.</String>
         <String xml:lang="pl-PL">~r~{0} jest za daleko by oferować mu łapówkę.</String>
         <String xml:lang="es-ES">~r~{0} no está lo suficientemente cerca como para ofrecerles un soborno.</String>
         <String xml:lang="pt-BR">~r~{0} não está perto o suficiente para lhes oferecer um suborno.</String>
+        <String xml:lang="de-DE">~r~{0} ist nicht nah genug, damit du ihm eine Bestechung anbieten kannst.</String>
     </Entry>
 
     <Entry Id="police_already_have_open_offer">
@@ -1884,15 +1963,7 @@
         <String xml:lang="pl-PL">~r~Masz już aktywną ofertę łapówki.</String>
         <String xml:lang="es-ES">~r~Ya tienes una oferta de soborno activa.</String>
         <String xml:lang="pt-BR">~r~Você já tem uma oferta de suborno ativa.</String>
-    </Entry>
-
-    <Entry Id="police_officer_already_have_open_offer">
-        <String xml:lang="en-US">~r~{0} already has an active bribe offer.</String>
-        <String xml:lang="nl-NL">~r~{0} heeft al een actieve omkopingsoffer.</String>
-        <String xml:lang="it-IT">~r~{0} ha già un'offerta di corruzione attiva.</String>
-        <String xml:lang="pl-PL">~r~{0} ma już aktywną ofertę łapówki.</String>
-        <String xml:lang="es-ES">~r~{0} ya tiene una oferta de soborno activa.</String>
-        <String xml:lang="pt-BR">~r~{0} já tem uma oferta de suborno ativa.</String>
+        <String xml:lang="de-DE">~r~Du hast bereits ein aktives Bestechungsangebot.</String>
     </Entry>
 
     <Entry Id="police_cant_bribe_same_officer_within_ten">
@@ -1902,6 +1973,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz przekupić tego samego gliniarza dwa razy przez 10 minut.</String>
         <String xml:lang="es-ES">~r~No se puede sobornar al mismo oficial dos veces en 10 minutos.</String>
         <String xml:lang="pt-BR">~r~Não é possível subornar o mesmo policial duas vezes em 10 minutos.</String>
+        <String xml:lang="de-DE">~r~Du kannst nicht denselben Polizisten innerhalb von 10 Minuten bestechen.</String>
     </Entry>
 
     <Entry Id="police_cant_bribe_after_revive_auto_cuff">
@@ -1911,6 +1983,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz przekupić gliniarzy przez 2 minuty po zostaniu ocuconym i automatycznie zakutym.</String>
         <String xml:lang="es-ES">~r~No se puede sobornar a un oficial de policía durante 2 minutos después de haber sido reanimado y esposado automáticamente.</String>
         <String xml:lang="pt-BR">~r~Um policial não pode ser subornado por 2 minutos após ser reanimado e automaticamente algemado.</String>
+        <String xml:lang="de-DE">~r~Du kannst keinen Polizeibeamten für 2 Minuten bestechen, nachdem du wiederbelebt und automatisch festgenommen wurdest.</String>
     </Entry>
 
     <Entry Id="police_viewing_bribe">
@@ -1920,6 +1993,7 @@
         <String xml:lang="pl-PL">{0} ~y~ogląda ~s~twoją ofertę łapówki.</String>
         <String xml:lang="es-ES">{0} está ~y~viendo ~s~tu oferta de soborno.</String>
         <String xml:lang="pt-BR">{0} está ~y~vendo ~s~sua oferta de suborno</String>
+        <String xml:lang="de-DE">{0} schaut sich dein Bestechungsangebot an.</String>
     </Entry>
 
     <Entry Id="police_player_left_canceled_bribe">
@@ -1929,6 +2003,7 @@
         <String xml:lang="pl-PL">{0} ~r~wyszedł z serwera~s~, a twoja oferta łapówki została anulowana.</String>
         <String xml:lang="es-ES">{0} ~r~dejó el servidor ~s~y tu oferta de soborno fue cancelada.</String>
         <String xml:lang="pt-BR">{0} ~r~deixou o servidor ~s~e sua oferta de suborno foi cancelada.</String>
+        <String xml:lang="de-DE">{0} hat den ~r~Server verlassen ~s~und dein Bestechungsangebot wurde abgebrochen.</String>
     </Entry>
 
     <Entry Id="police_accepted_bribe">
@@ -1938,6 +2013,7 @@
         <String xml:lang="pl-PL">{0} ~g~zaakeceptował ~s~twoją łapówkę.</String>
         <String xml:lang="es-ES">{0} ha ~g~aceptado ~s~tu oferta de soborno.</String>
         <String xml:lang="pt-BR">{0} ~g~aceitou ~s~sua oferta de suborno.</String>
+        <String xml:lang="de-DE">{0} hat dein Bestechungsangebot angenommen.</String>
     </Entry>
 
     <Entry Id="police_refused_wanted_level_bribe">
@@ -1947,6 +2023,7 @@
         <String xml:lang="pl-PL">{0} ~r~odrzucił ~s~twoją łapówkę i zgłosił zdarzenie. Dostałeś za to poziom pościgu.</String>
         <String xml:lang="es-ES">{0} ~r~rechazó ~s~tu oferta de soborno y denunció el incidente. Obtuviste un nivel de búsqueda.</String>
         <String xml:lang="pt-BR">{0} ~r~recusou ~s~sua oferta de suborno e relatou o incidente. Você obteve um nível de busca</String>
+        <String xml:lang="de-DE">{0} hat dein Bestechungsangebot ~r~abgelehnt ~s~und den Vorfall gemeldet. Du hast ein Fahndungslevel dazugewonnen.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1958,6 +2035,7 @@
         <String xml:lang="pl-PL">{0} {1}</String>
         <String xml:lang="es-ES">{0} {1}</String>
         <String xml:lang="pt-BR">{0} {1}</String>
+        <String xml:lang="de-DE">{0} {1}</String>
     </Entry>
 
     <!-- {0} = countdown -->
@@ -1968,6 +2046,7 @@
         <String xml:lang="pl-PL">~y~Ostrzeżenie: ~s~opuszczasz ~b~Stany Zjednoczone~s~. Opuścisz pracę za {0} sekund.</String>
         <String xml:lang="es-ES">~y~Advertencia: ~s~te vas de ~b~Estados Unidos~s~. Saldrás de servicio en {0} segundas.</String>
         <String xml:lang="pt-BR">~y~Advertência: ~s~Você está saindo dos ~b~Estados Unidos~s~. Você partirá para o serviço em {0} segundos.</String>
+        <String xml:lang="de-DE">~y~Warnung: ~s~Du verlässt die ~b~Vereinigten Staaten~s~. Du gehst in {0} Sekunden außer Dienst.</String>
     </Entry>
 
     <Entry Id="police_no_arrest_warrant">
@@ -1977,6 +2056,7 @@
         <String xml:lang="pl-PL">~r~Nie masz listu gończego</String>
         <String xml:lang="es-ES">~r~No tienes orden de arresto.</String>
         <String xml:lang="pt-BR">~r~Você não tem um mandado de prisão.</String>
+        <String xml:lang="de-DE">~r~Du hast keinen Haftbefehl.</String>
     </Entry>
 
     <Entry Id="police_cant_turn_yourself_in_officers_nearby">
@@ -1986,6 +2066,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz poddać się na komendzie bo w pobliżu są gliny</String>
         <String xml:lang="es-ES">~r~No puedes entregarte en la comisaría porque hay policías cerca.</String>
         <String xml:lang="pt-BR">~r~Você não pode se entregar na delegacia de polícia porque há policiais por perto.</String>
+        <String xml:lang="de-DE">~r~Du kannst dich nicht an einer Polizeistation stellen, da sich Polizeibeamte in der Nähe befinden.</String>
     </Entry>
 
     <Entry Id="police_unmarked_vehicle">
@@ -1995,6 +2076,7 @@
         <String xml:lang="pl-PL">~b~Nieoznaczony pojazd policyjny!\n~s~Cywile nie zobaczą twojego markera jako ~b~niebieski ~s~dopóki nie będziesz wystarczająco blisko lub aktywujesz syrenę.</String>
         <String xml:lang="es-ES">~b~Vehículo policial sin marcar!\n~s~Los civiles no verán tu marcador como ~b~azul ~s~hasta que te acerques lo suficiente o enciendas la sirena.</String>
         <String xml:lang="pt-BR">~b~Veículo policial sem identificação!\n~s~Os civis não verão seu marcador como ~b~azul ~s~até que você se aproxime o suficiente ou ligue a sirene.</String>
+        <String xml:lang="de-DE">~b~Unmarkiertes Polizeifahrzeut!\n~s~Zivilisten werden Marker erst dann als ~b~blau ~s~sehen, wenn sie nah genug sind oder du deine Sirene einschaltest.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -2007,6 +2089,7 @@
         <String xml:lang="pl-PL">{0} ~s~oferował ci ~g~{1} ~s~łapówkę. {2} by zobaczyć ofertę.</String>
         <String xml:lang="es-ES">{0} ~s~te ha ofrecido ~g~{1} ~s~para sobornarte. {2} para ver la oferta.</String>
         <String xml:lang="pt-BR">{0} ~s~lhe ofereceu ~g~{1} ~s~para suborná-lo. {2} para ver a oferta.</String>
+        <String xml:lang="de-DE">{0} hat dir eine {0}-Bestechung angeboten. {2} um das Angebot anzusehen.</String>
     </Entry>
 
     <Entry Id="police_seized_all">
@@ -2016,6 +2099,7 @@
         <String xml:lang="es-ES">Has confiscado todos los ~r~artículos ilegales~s~ de {0}.</String>
         <String xml:lang="pl-PL">Skonfiskowałeś ~r~nielegalne przedmioty~s~ {0}.</String>
         <String xml:lang="pt-BR">Você confiscou todos os ~r~artigos~s~ ilegais ~s~de {0}.</String>
+        <String xml:lang="de-DE">Du hast alle ~r~illegalen Gegenstände ~s~von {0} beschlagnahmt~s~.</String>
     </Entry>
 
     <Entry Id="stunned_by_police">
@@ -2025,6 +2109,7 @@
         <String xml:lang="es-ES">Te han aturdido los ~b~policías~s~. ¡No vas a ninguna parte!</String>
         <String xml:lang="pl-PL">Zostałeś sparaliżowany przez ~b~policję~s~. Trzeba było spieprzać szybciej!</String>
         <String xml:lang="pt-BR">Você foi atordoado pela ~b~policia~s~. Você não vai a lugar algum!</String>
+        <String xml:lang="de-DE">Du wurdest von der ~b~Polizei ~s~überwältigt. Du gehst nirgendswo hin!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2058,7 +2143,7 @@
 
     <Entry Id="vehicle_export_no_mw_vehicle">
         <String xml:lang="en-US">There's currently no most wanted vehicle. Please, wait until 5:00am.</String>
-        <String xml:lang="it-IT">Non è presente alcun veicolo più ricercato. Perpiacere, aspetta fino alle 5:00am.</String>
+        <String xml:lang="it-IT">Non è presente alcun veicolo più ricercato. Perpiacere, aspetta fino alle 5:00.</String>
         <String xml:lang="nl-NL">Op dit moment is er geen meestgezocht voertuig. Wacht alstublieft tot 5:00.</String>
         <String xml:lang="de-DE">Aktuell gibt es kein meistgesuchtes Fahrzeug. Bitte warte bis 5:00 Uhr.</String>
         <String xml:lang="tr-TR">Şu anda en çok aranan araç yok. Lütfen, sabah 5:00'e kadar bekleyin.</String>
@@ -2093,6 +2178,7 @@
         <String xml:lang="pl-PL">{0}Możesz eksportować ten pojazd za ~g~{1}~s~. {2}</String>
         <String xml:lang="es-ES">{0}Puedes exportar este vehículo por ~g~{1}~s~. {2}</String>
         <String xml:lang="pt-BR">{0}Você pode exportar esse veículo por ~g~{1}~s~. {2}</String>
+        <String xml:lang="de-DE">{0}Du kannst dieses Fahrzeug für ~g~{1} ~s~exportieren. {2}</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
@@ -2103,6 +2189,7 @@
         <String xml:lang="pl-PL">Eksportowałeś ~b~{0} ~s~za ~g~{1}~s~.</String>
         <String xml:lang="es-ES">Exportaste un ~b~{0} ~s~por ~g~{1}~s~.</String>
         <String xml:lang="pt-BR">Você exportou um ~b~{0} ~s~por ~g~{1}~s~.</String>
+        <String xml:lang="de-DE">Du hast einen ~b~{0} ~s~für ~g~{1}~s~ exportiert.</String>
     </Entry>
 
     <Entry Id="vehicle_too_damaged_to_export">
@@ -2111,6 +2198,7 @@
         <String xml:lang="pl-PL">Czy ja ci wyglądam na złomiarza? Ten pojazd jest ~r~zbyt zniszczony ~s~dla eksportu!</String>
         <String xml:lang="es-ES">¡Este vehículo ~r~está demasiado dañado ~s~para ser exportad</String>
         <String xml:lang="pt-BR">Esse veículo ~r~está muito danificado ~s~para ser exportado.</String>
+        <String xml:lang="de-DE">Dieses Fahrzeug ist ~r~zu beschädigt~s~, um exportiert zu werden!</String>
     </Entry>
 
     <Entry Id="vehicle_not_wanted_for_export">
@@ -2119,6 +2207,7 @@
         <String xml:lang="pl-PL">Ten pojazd nie jest ~r~poszukiwany ~s~do eksportu!</String>
         <String xml:lang="es-ES">¡Este vehículo ~r~no deseado ~s~para la exportación!</String>
         <String xml:lang="pt-BR">Esse veículo não é procurado para exportação!</String>
+        <String xml:lang="de-DE">Dieses Fahrzeug ist ~r~nicht ~s~für die Exportierung ~r~gesucht~s~!</String>
     </Entry>
 
     <Entry Id="vehicle_cant_illegally_export_on_job">
@@ -2127,6 +2216,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz nielegalnie eksportować fur w tej pracy!</String>
         <String xml:lang="es-ES">~r~En este trabajo no se pueden exportar vehículos ilegalmente.</String>
         <String xml:lang="pt-BR">~r~Nesse trabalho, os veículos não podem ser exportados ilegalmente!.</String>
+        <String xml:lang="de-DE">~r~Du kannst keine Fahrzeuge illegal exportieren in diesem Job!</String>
     </Entry>
 
     <Entry Id="vehicle_export_cops_nearby">
@@ -2135,6 +2225,7 @@
         <String xml:lang="pl-PL">~b~Gliny tu węszą! ~r~Pozbądź ~s~się ich zanim eksportujesz pojazd.</String>
         <String xml:lang="es-ES">~b~¡La policía está cerca! ~r~Deshazte ~s~de ellos antes de exportar el vehículo.</String>
         <String xml:lang="pt-BR">~b~A polícia está por perto! ~r~Livre-se deles ~s~antes de exportar o veículo.</String>
+        <String xml:lang="de-DE">~b~Polizisten befinden sich in der Nähe! ~r~Werde sie los~s~, bevor du das Fahrzeug exportierst.</String>
     </Entry>
 
     <Entry Id="vehicle_export_personal_vehicle">
@@ -2143,6 +2234,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz eksportować pojazdu osobistego!</String>
         <String xml:lang="es-ES">~r~No se puede exportar un vehículo personal</String>
         <String xml:lang="pt-BR">~r~Não é possível exportar um veículo pessoal</String>
+        <String xml:lang="de-DE">~r~Du kannst persönliche Fahrzeuge nicht exportieren!</String>
     </Entry>
 
     <Entry Id="vehicle_cant_export_vehicle">
@@ -2151,6 +2243,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz eksportować tego pojazdu!</String>
         <String xml:lang="es-ES">~r~¡No se puede exportar este vehículo!</String>
         <String xml:lang="pt-BR">~r~Esse veículo não pode ser exportado!</String>
+        <String xml:lang="de-DE">~r~Du kannst dieses Fahrzeug nicht exportieren!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2164,6 +2257,7 @@
         <String xml:lang="pl-PL">Możesz zezłomować ten pojazd za ~g~{0}~s~. {1}</String>
         <String xml:lang="es-ES">Puedes desguazar este vehículo por ~g~{0}~s~. {1}</String>
         <String xml:lang="pt-BR">Você pode sucatear esse veículo por ~g~{0}~s~. {1}</String>
+        <String xml:lang="de-DE">Du kannst dieses Fahrzeug für ~g~{0}~s~ exportieren, {1}.</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
@@ -2174,6 +2268,7 @@
         <String xml:lang="pl-PL">Sprzedałeś ~b~{0} ~s~za ~g~{1}~s~.</String>
         <String xml:lang="es-ES">Vendiste un ~b~{0} ~s~por ~g~{1}~s~.</String>
         <String xml:lang="pt-BR">Você vendeu um ~b~{0} ~s~por ~g~{1}~s~.</String>
+        <String xml:lang="de-DE">Du hast einen ~b~{0} für ~g~{1} ~s~verkauft.</String>
     </Entry>
 
     <Entry Id="vehicle_scrap_not_wanted">
@@ -2182,14 +2277,16 @@
         <String xml:lang="pl-PL">Ten pojazd ~r~nie nadaje się ~s~do zezłomowania!</String>
         <String xml:lang="es-ES">¡Este vehículo es ~r~no se busca ~s~para chatarra!</String>
         <String xml:lang="pt-BR">Este veículo ~r~não é procurado ~s~para sucata!</String>
+        <String xml:lang="de-DE">Dieses Fahrzeug ist ~r~nicht ~s~für die Verschrottung ~r~gesucht~s~!</String>
     </Entry>
 
     <Entry Id="vehicle_scrap_not_on_job">
         <String xml:lang="en-US">~r~You cannot scrap stolen vehicles on this job!</String>
         <String xml:lang="it-IT">~r~Non puoi smantellare veicoli rubati con questo lavoro!</String>
         <String xml:lang="pl-PL">~r~Nie możesz złomować kradzionych fur w tej pracy!</String>
-        <String xml:lang="es-ES">~r~En este trabajo no se pueden desguazar vehículos robados.</String>
-        <String xml:lang="pt-BR">~r~Nesse trabalho, os veículos roubados não podem ser sucateados.</String>
+        <String xml:lang="es-ES">~r~En este trabajo no se pueden desguazar vehículos robados!</String>
+        <String xml:lang="pt-BR">~r~Nesse trabalho, os veículos roubados não podem ser sucateados!</String>
+        <String xml:lang="de-DE">~r~Du kannst gestohlene Fahrzeuge bei diesem Job nicht verschrotten!</String>
     </Entry>
 
     <Entry Id="vehicle_scrap_personal">
@@ -2198,6 +2295,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz zezłomować pojazdu osobistego!</String>
         <String xml:lang="es-ES">~r~No se puede desguazar un vehículo personal.</String>
         <String xml:lang="pt-BR">~r~Um veículo pessoal não pode ser sucateado.</String>
+        <String xml:lang="de-DE">~r~Du kannst persönliche Fahrzeuge nicht verschrotten.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2515,7 +2613,7 @@
     <Entry Id="robbery_caught_shoplifting_wait">
         <String xml:lang="en-US">~r~You need to wait before shoplifting this store again!</String>
         <String xml:lang="nl-NL">~r~Je moet wachten voordat je nog een diefstal poging doet in deze winkel!</String>
-        <String xml:lang="it-IT">~r~Devi aspettare prima di rubare in questo negozio ancora!</String>
+        <String xml:lang="it-IT">~r~Devi aspettare prima di rubare in questo negozio di nuovo!</String>
         <String xml:lang="de-DE">~r~Du musst warten, bevor du diesen Laden erneut ausraubst.</String>
         <String xml:lang="es-ES">~r~¡Tienes que esperar antes de volver a robar en esta tienda!</String>
         <String xml:lang="pl-PL">~r~Musisz poczekać zanim znowu okradniesz ten sklep!</String>
@@ -2627,6 +2725,7 @@
         <String xml:lang="pl-PL">Nie ma w ~r~pobliżu graczy ~s~którym mógłbyś dać swoją broń.</String>
         <String xml:lang="es-ES">No hay ~r~jugadores cercanos ~s~a los que dar tu arma.</String>
         <String xml:lang="pt-BR">Não há ~r~jogadores próximos ~s~a quem você possa dar sua arma.</String>
+        <String xml:lang="de-DE">Es befinden sich keine ~r~Spieler in der Nähe~s~, welchen du deine Waffen geben kannst.</String>
     </Entry>
 
     <Entry Id="cant_give_weapon_to_dead">
@@ -2636,6 +2735,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz dać broni trupowi.</String>
         <String xml:lang="es-ES">~r~No se puede dar un arma a un jugador muerto.</String>
         <String xml:lang="pt-BR">~r~Você não pode dar uma arma a um jogador morto..</String>
+        <String xml:lang="de-DE">~r~Du kannst deine Waffen nicht an einen toten Spieler geben.</String>
     </Entry>
 
     <Entry Id="player_too_far_give_weapon">
@@ -2645,6 +2745,7 @@
         <String xml:lang="pl-PL">~r~Gracz jest za daleko, nie możesz dać mu broni.</String>
         <String xml:lang="es-ES">~r~El jugador está demasiado lejos, no puedes darle un arma.</String>
         <String xml:lang="pt-BR">~r~O jogador está muito longe, não é possível dar a ele uma arma.</String>
+        <String xml:lang="de-DE">~r~Der Spieler ist zu weit weg, du kannst ihm keine Waffe geben.</String>
     </Entry>
 
 
@@ -2657,6 +2758,7 @@
         <String xml:lang="pl-PL">Przekazałeś {0} ~y~{1}~s~.</String>
         <String xml:lang="es-ES">Le diste a {0} un ~y~{1}~s~.</String>
         <String xml:lang="pt-BR">Você deu a {0} um ~y~{1}~s~.</String>
+        <String xml:lang="de-DE">Du hast {0} ein/e~y~{1}~s~.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -2668,17 +2770,19 @@
         <String xml:lang="pl-PL">{0} ma już ~y~{1}~s~.</String>
         <String xml:lang="es-ES">{0} ya tiene un ~y~{1}~s~.</String>
         <String xml:lang="pt-BR">{0} já tem um ~y~{1}~s~.</String>
+        <String xml:lang="de-DE">{0} besitzt bereits ein/e ~y~{1}~s~.</String>
     </Entry>
 
     <!-- {0} = Weapon -->
     <!-- {1} = Player -->
     <Entry Id="player_received_weapon">
-        <String xml:lang="en-US">Received a ~y~{0} ~s~from (C){0}(/C).</String>
-        <String xml:lang="nl-NL">Je hebt een ~y~{0} ~s~ontvangen van (C){0}(/C).</String>
-        <String xml:lang="it-IT">Hai ricevuto un ~y~{0} ~s~da (C){0}(/C).</String>
-        <String xml:lang="pl-PL">Dostałeś ~y~{0} ~s~od (C){0}(/C).</String>
-        <String xml:lang="es-ES">Recibido un ~y~{0} ~s~de (C){0}(/C).</String>
-        <String xml:lang="pt-BR">Recebeu um ~y~{0} ~s~de (C){0}(/C).</String>
+        <String xml:lang="en-US">Received a ~y~{0} ~s~from (C){1}(/C).</String>
+        <String xml:lang="nl-NL">Je hebt een ~y~{0} ~s~ontvangen van (C){1}(/C).</String>
+        <String xml:lang="it-IT">Hai ricevuto un ~y~{0} ~s~da (C){1}(/C).</String>
+        <String xml:lang="pl-PL">Dostałeś ~y~{0} ~s~od (C){1}(/C).</String>
+        <String xml:lang="es-ES">Recibido un ~y~{0} ~s~de (C){1}(/C).</String>
+        <String xml:lang="pt-BR">Recebeu um ~y~{0} ~s~de (C){1}(/C).</String>
+        <String xml:lang="de-DE">Du hast ein/e ~y~{0} ~s~von (C){1}(/C).</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2690,6 +2794,7 @@
         <String xml:lang="pl-PL">Jesteś ~r~troszkę za daleko ~s~od ~y~salonu~s~!</String>
         <String xml:lang="es-ES">Te estás ~r~alejando demasiado ~s~del ~y~concesionario~s~!</String>
         <String xml:lang="pt-BR">Você está ~r~muito longe ~s~da ~y~concessionária~s~!</String>
+        <String xml:lang="de-DE">Du entfernst dich ~r~ein wenig zu weit ~s~von dem ~y~Händler~s~!</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -2699,6 +2804,7 @@
         <String xml:lang="pl-PL">~r~Ten salon nie jest dostępny gdy jesteś {0}.</String>
         <String xml:lang="es-ES">~r~No se puede acceder a este concesionario cuando se es un {0}.</String>
         <String xml:lang="pt-BR">~r~Não é possível acessar essa concessionária quando você é um {0}.</String>
+        <String xml:lang="de-DE">~r~Dieser Händler ist nicht nutzbar, wenn du {0} bist.</String>
     </Entry>
 
     <Entry Id="dealership_cant_enter_when_job">
@@ -2707,6 +2813,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz wejść do salonu gdy jesteś {0}.</String>
         <String xml:lang="es-ES">~r~No se puede entrar en un concesionario de vehículos siendo {0}.</String>
         <String xml:lang="pt-BR">~r~Não é possível entrar em uma concessionária de automóveis sendo um {0}.</String>
+        <String xml:lang="de-DE">~r~Du kannst keinen Fahrzeughändler nutzen, wenn du {0} bist.</String>
     </Entry>
 
     <Entry Id="dealership_need_garage_first">
@@ -2715,6 +2822,7 @@
         <String xml:lang="pl-PL">~r~Musisz posiadać garaż zanim kupisz pojazd.</String>]
         <String xml:lang="es-ES">~r~Es necesario tener un garaje antes de comprar un vehículo.</String>
         <String xml:lang="pt-BR">~r~É necessário ter uma garagem antes de comprar um veículo.</String>
+        <String xml:lang="de-DE">~r~Du benötigst eine eigene Garage, bevor du ein Fahrzeug kaufen kannst.</String>
     </Entry>
 
 
@@ -2726,6 +2834,7 @@
         <String xml:lang="pl-PL">Manage swoimi {0} pojazdami w {1} ~y~Menu ~s~&gt; ~y~Pojazdów</String>
         <String xml:lang="es-ES">Gestione sus {0} vehículos en {1} ~y~Menu ~s~&gt; ~y~Vehículos</String>
         <String xml:lang="pt-BR">Gerencie seus {0} veículos em {1} ~y~Menu ~s~&gt; ~y~Veículos</String>
+        <String xml:lang="de-DE">Verwalte deine {0} Fahrzeuge im {1} ~y~Menü ~s~&gt; ~y~Fahrzeuge</String>
     </Entry>
 
     <Entry Id="dealership_dont_have_required_membership_tier">
@@ -2734,6 +2843,7 @@
         <String xml:lang="pl-PL">~p~Nie masz wymaganego stopnia członkostwa.</String>
         <String xml:lang="es-ES">~p~No tiene el nivel de afiliación requerido.</String>
         <String xml:lang="pt-BR">~p~Não tem o nível de associação exigido.</String>
+        <String xml:lang="de-DE">~p~Du besitzt nicht die benötigte Mitgliedschafst-Stufe</String>
     </Entry>
 
     <Entry Id="dealership_dont_have_required_membership_tier_to_use_garage">
@@ -2742,6 +2852,7 @@
         <String xml:lang="pl-PL">~p~Nie masz wymaganego stopnia członkostwa by używać tego garażu, wybierz jakiś inny.</String>
         <String xml:lang="es-ES">~p~No tienes el nivel de afiliación requerido para utilizar este garaje. Por favor, selecciona otro garaje.</String>
         <String xml:lang="pt-BR">~p~Você não tem o nível de associação necessário para usar esta garagem. Selecione outra garagem.</String>
+        <String xml:lang="de-DE">~p~Du besitzt nicht die benötigte Mitgliedschafst-Stufe, um diese Garage zu verwenden. Bitte wähle eine andere Garage.</String>
     </Entry>
 
     <Entry Id="dealership_dont_have_required_level">
@@ -2750,6 +2861,7 @@
         <String xml:lang="pl-PL">~b~Nie masz wymaganego poziomu.</String>
         <String xml:lang="es-ES">~b~No tiene el nivel requerido.</String>
         <String xml:lang="pt-BR">~b~Não tem o nível necessário.</String>
+        <String xml:lang="de-DE">~b~Du besitzt nicht das benötigte Level.</String>
     </Entry>
 
     <Entry Id="dealership_specified_plate_taken">
@@ -2758,6 +2870,7 @@
         <String xml:lang="pl-PL">~r~Ta tablica rejestracyjna jest już zajęta.</String>
         <String xml:lang="es-ES">~r~La matrícula indicada ya está ocupada.</String>
         <String xml:lang="pt-BR">~r~A placa de número indicada já está ocupada.</String>
+        <String xml:lang="de-DE">~r~Das Wunschkennzeichen ist bereits vergeben.</String>
     </Entry>
 
     <Entry Id="dealership_garage_full_use_another">
@@ -2766,6 +2879,7 @@
         <String xml:lang="pl-PL">~r~Ten garaż jest pełny, wybierz jakiś inny.</String>
         <String xml:lang="es-ES">~r~Su garaje está lleno. Por favor, seleccione otro garaje.</String>
         <String xml:lang="pt-BR">~r~Sua garagem está cheia. Por favor, selecione outra garagem</String>
+        <String xml:lang="de-DE">~r~Deine Garage ist voll. Bitte wähle eine andere Garage.</String>
     </Entry>
 
 </Entries>

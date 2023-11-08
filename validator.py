@@ -308,7 +308,7 @@ class Validator:
         customXMLParser(XMLReader): Custom parser for XML validation.
     """
     xml_files: list[str] = []
-    supported_langs: list[str] = ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES", "pt-BR", "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH"]
+    supported_langs: list[str] = ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES", "pt-BR", "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH", "id-ID"]
     used_ids: set = set()
     errors: int = 0
     warnings: int = 0
