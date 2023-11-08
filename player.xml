@@ -111,6 +111,7 @@
         <String xml:lang="pl-PL">Twoje ~g~zgłoszenie ~r~{0} ~s~zostało przyjęte.</String>
         <String xml:lang="es-ES">Su ~g~informe ~s~sobre ~r~{0} ~s~ha sido presentado.</String>
         <String xml:lang="pt-BR">Seu ~g~report ~s~sobre ~r~{0} ~s~foi enviado.</String>
+        <String xml:lang="de-DE">Deine ~g~Meldung gegem ~r~{0} ~s~wurde eingereicht.</String>
     </Entry>
 
     <Entry Id="report_cant_report_player_that_soon">
@@ -120,6 +121,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz tak szybko zgłosić tego samego gracza.</String>
         <String xml:lang="es-ES">~r~No se puede denunciar al mismo jugador tan pronto.</String>
         <String xml:lang="pt-BR">~r~O mesmo jogador não pode ser denunciado tão cedo.</String>
+        <String xml:lang="de-DE">~r~Du kannst denselben Spieler so schnell nicht noch einmal melden.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -132,6 +134,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz odpiąć wszystkich usług. Co najmniej jedna usługa musi być podpięta.</String>
         <String xml:lang="es-ES">~r~No se pueden desvincular todos los servicios. Debe haber al menos un servicio vinculado.</String>
         <String xml:lang="pt-BR">~r~Nem todos os serviços podem ser desvinculados. Deve haver pelo menos um serviço vinculado.</String>
+        <String xml:lang="de-DE">~r~Du kannst nicht alle Dienste entkoppeln. Es muss mindestens einen verknüpften Dienst geben.</String>
     </Entry>
 
     <!-- {0} = Service name (Discord; FiveM; Steam; ...) -->
@@ -142,6 +145,7 @@
         <String xml:lang="pl-PL">~g~Udało ci się ~s~odpiąć {0} od twojego konta.</String>
         <String xml:lang="es-ES">Has ~g~desvinculado ~s~con éxito {0} de tu cuenta.</String>
         <String xml:lang="pt-BR">Você ~g~desvinculou ~s~com sucesso {0} de sua conta.</String>
+        <String xml:lang="de-DE">Du hast die {0}-Verknüpfung ~g~erfolgreich ~s~von deinem Account aufgehoben.</String>
     </Entry>
 
     <Entry Id="service_linked">
@@ -151,6 +155,7 @@
         <String xml:lang="pl-PL">~g~Udało ci się ~s~podpiąć ~b~{0} ~s~do twojego konta.</String>
         <String xml:lang="es-ES">Usted ha ~g~con éxito ~s~vinculado ~b~{0} ~s~a su cuenta.</String>
         <String xml:lang="pt-BR">Você foi ~g~sucessivamente ~s~vinculado ~b~{0} ~s~à sua conta.</String>
+        <String xml:lang="de-DE">Du hast ~g~erfolgreich~s~ ~b~{0} ~s~mit deinem Account verknüpft.</String>
     </Entry>
 
     <Entry Id="service_mail_already_linked">
@@ -160,6 +165,7 @@
         <String xml:lang="pl-PL">~r~Ten adres email jest już podpięty do innego konta.</String>
         <String xml:lang="es-ES">~r~Su dirección de correo electrónico ya está vinculada a otra cuenta.</String>
         <String xml:lang="pt-BR">~r~Seu endereço de e-mail já está vinculado a outra conta.</String>
+        <String xml:lang="de-DE">~r~Diese Email-Adresse ist bereits mit einem anderen Account verknüpft.</String>
     </Entry>
 
     <Entry Id="service_mail_cooldown">
@@ -169,6 +175,7 @@
         <String xml:lang="pl-PL">~r~Musisz poczekać 2 minuty pomiędzy zmianami emaila.</String>
         <String xml:lang="es-ES">~r~Debe esperar 2 minutos entre los intentos de cambio de correo electrónico.</String>
         <String xml:lang="pt-BR">~r~É necessário aguardar 2 minutos entre as tentativas de alteração de e-mail.</String>
+        <String xml:lang="de-DE">~r~Du musst 2 Minuten zwischen Email-Änderungsversuchen warten.</String>
     </Entry>
 
     <Entry Id="service_mail_invalid">
@@ -178,6 +185,7 @@
         <String xml:lang="pl-PL">~r~{0} nie jest prawidłowym adresem email.</String>
         <String xml:lang="es-ES">~r~{0} no es una dirección de correo electrónico válida.</String>
         <String xml:lang="pt-BR">~r~{0} não é um endereço de e-mail válido.</String>
+        <String xml:lang="de-DE">~r~{0} ist keine gültige Email-Adresse.</String>
     </Entry>
 
     <!-- {0} = both the same -> Service name (Discord; FiveM; Steam; ...) -->
@@ -188,6 +196,7 @@
         <String xml:lang="pl-PL">{0} konto nie znalezione. Upewnij się że aplikacja {0} jest uruchomiona, a potem zrestartuj FiveM i spróbuj ponownie.</String>
         <String xml:lang="es-ES">{0} cuenta no encontrada. Asegúrese de que su aplicación de escritorio {0} se está ejecutando, reinicie FiveM y vuelva a intentarlo.</String>
         <String xml:lang="pt-BR">{0} cuenta no encontrada. Asegúrese de que su aplicación de escritorio {0} se está ejecutando, reinicie FiveM y vuelva a intentarlo.</String>
+        <String xml:lang="de-DE">{0} Account wurde nicht gefunden. Stelle sicher, dass deine {0} Desktop-App läuft, starte danach FiveM neu und versuche es erneut.</String>
     </Entry>
 
     <Entry Id="service_account_not_found_disconnect">
@@ -197,6 +206,7 @@
         <String xml:lang="pl-PL">{0} konto nie znalezione. Rozłącz się i zrestartuj FiveM, potem zaloguj się do konta FiveM i spróbuj ponownie.</String>
         <String xml:lang="es-ES">{0} cuenta no encontrada. Desconéctese y vuelva al lanzador FiveM, luego inicie sesión en su cuenta FiveM y vuelva a intentarlo.</String>
         <String xml:lang="pt-BR">{0} conta não encontrada. Faça logout e retorne ao inicializador do FiveM, depois faça login na sua conta do FiveM e tente novamente.</String>
+        <String xml:lang="de-DE">{0} Account wurde nicht gefunden. Trenne die Verbindung und gehe zurück in den FiveM Launcher, logge dich in deinen FiveM Account ein und versuche es erneut.</String>
     </Entry>
 
     <Entry Id="server_processing_request">
@@ -206,6 +216,7 @@
         <String xml:lang="pl-PL">~r~Serwer nadal przetwarza twoją ostatnią akcję. Poczekaj zanim wykonasz kolejną.</String>
         <String xml:lang="es-ES">~r~El servidor aún está procesando su solicitud anterior. Por favor, espere antes de enviar otra.</String>
         <String xml:lang="pt-BR">~r~O servidor ainda está processando sua solicitação anterior. Aguarde antes de enviar outra.</String>
+        <String xml:lang="de-DE">~r~Der Server verarbeitet immernoch deine vorherige Anfrage. Bitte warte, bevor du eine weitere sendes.</String>
     </Entry>
 
     <Entry Id="entered_password_too_short">
@@ -215,6 +226,7 @@
         <String xml:lang="pl-PL">~r~Hasło jest za krótkie (minimum 8 znaków). Operacja anulowana.</String>
         <String xml:lang="es-ES">~r~La contraseña introducida es demasiado corta (mínimo 8 caracteres). Operación cancelada.</String>
         <String xml:lang="pt-BR">~r~A senha digitada é muito curta (mínimo de 8 caracteres). Operação cancelada.</String>
+        <String xml:lang="de-DE">~r~Das eingegebene Passwort ist zu kurz (mindestens 8 Zeichen). Vorgang abgebrochen.</String>
     </Entry>
 
     <Entry Id="entered_password_dont_match">
@@ -224,6 +236,7 @@
         <String xml:lang="pl-PL">~r~Hasła się nie zgadzają. Operacja anulowana.</String>
         <String xml:lang="es-ES">~r~Las contraseñas introducidas no coinciden. Operación cancelada.</String>
         <String xml:lang="pt-BR">~r~As senhas inseridas não correspondem. Operação cancelada.</String>
+        <String xml:lang="de-DE">~r~Die eingegebenen Passwörter stimmen nicht überein. Vorgang abgebrochen.</String>
     </Entry>
 
     <Entry Id="password_changed">
@@ -233,15 +246,17 @@
         <String xml:lang="pl-PL">Twoje ~b~hasło ~s~zostało ~g~pomyślnie zmienione~s~.</String>
         <String xml:lang="es-ES">Su ~b~contraseña ~s~ha sido ~g~cambiada con éxito~s~.</String>
         <String xml:lang="pt-BR">Sua ~b~senha ~s~foi ~g~alterada com sucesso~s~.</String>
+        <String xml:lang="de-DE">Dein ~b~Passwort ~s~wurde ~g~erfolgreich geändert~s~.</String>
     </Entry>
 
     <Entry Id="cant_do_while_fake_username">
         <String xml:lang="en-US">~r~You cannot do this while you're using a fake username.</String>
         <String xml:lang="nl-NL">~r~Je kan dit niet doen terwijl je een fake username gebruikt.</String>
-        <String xml:lang="it-IT">~r~Non puoi fare questo mentre stai usando un nome utente falso.</String>
+        <String xml:lang="it-IT">~r~Non puoi farlo mentre stai usando un nome utente falso.</String>
         <String xml:lang="pl-PL">~r~Nie możesz tego zrobić gdy używasz fałszywego nicku.</String>
         <String xml:lang="es-ES">~r~No puedes hacer esto mientras estés usando un nombre de usuario falso.</String>
         <String xml:lang="pt-BR">~r~Não é possível fazer isso enquanto estiver usando um nome de usuário falso.</String>
+        <String xml:lang="de-DE">~r~Du kannst das nicht tun, während du einen Fake-Username nutzt.</String>
     </Entry>
 
     <!-- {0} = Item name (Membership, Name-change token, ...) -->
@@ -252,6 +267,7 @@
         <String xml:lang="pl-PL">Pomyślnie aktywowałeś swój ~p~{0}~s~.</String>
         <String xml:lang="es-ES">Ha activado correctamente su~p~{0}~s~.</String>
         <String xml:lang="pt-BR">Você ativou com sucesso seu~p~{0}~s~.</String>
+        <String xml:lang="de-DE">Du hast dein ~p~{0} ~s~erfolgreich aktiviert.</String>
     </Entry>
 
     <Entry Id="already_active_subscription">
@@ -261,6 +277,7 @@
         <String xml:lang="pl-PL">~r~Masz już aktywną subskrypcję. Jeśli potrzebujesz pomocy, otwórz ticket w naszym Discordzie.</String>
         <String xml:lang="es-ES">~r~Ya tienes una suscripción activa. Si necesitas ayuda, abre un ticket de soporte en nuestro Discord..</String>
         <String xml:lang="pt-BR">~r~Você já tem uma assinatura ativa. Se precisar de ajuda, abra um tíquete de suporte em nosso Discord..</String>
+        <String xml:lang="de-DE">~r~Du hast bereits ein aktives Abonnement. Falls du Hilfe benötigst, kannst du ein Ticket auf unserem Discord öffnen.</String>
     </Entry>
 
     <Entry Id="unable_deactivate_silver_membership">
@@ -270,6 +287,7 @@
         <String xml:lang="pl-PL">~r~Deaktywacja twego obecnego Srebrnego Członkostwa nie powiodła się. Jeśli błąd dalej będzie występował, otwórz ticket na naszym Discordzie.</String>
         <String xml:lang="es-ES">~r~No se ha podido desactivar la suscripción Silver actual para actualizarla. Si el error persiste, por favor abra un ticket de soporte en nuestro Discord.</String>
         <String xml:lang="pt-BR">~r~A assinatura Silver atual não pôde ser desativada para upgrade. Se o erro persistir, abra um tíquete de suporte em nosso Discord.</String>
+        <String xml:lang="de-DE">~r~Du kannst deine aktuelle Silber-Mitgliedschaft nicht deaktivieren, um upzugraden. Falls dieser Fehler weiterhin auftritt öffne bitte ein Ticket auf unserem Discord.</String>
     </Entry>
 
     <Entry Id="visit_hospital_plastic_surgery">
@@ -279,6 +297,7 @@
         <String xml:lang="pl-PL">Odwiedź ~r~szpital ~s~aby wykonać ~p~operację plastyczną~s~.</String>
         <String xml:lang="es-ES">Visita un ~r~hospital ~s~para obtener una ~p~cirugía plástica~s~.</String>
         <String xml:lang="pt-BR">Visite um ~r~hospital ~s~para fazer uma ~p~cirurgia plástica~s~.</String>
+        <String xml:lang="de-DE">Bersuche ein ~r~Krankenhaus ~s~um eine ~p~Schönheitsoperation ~s~vorzunehmen.</String>
     </Entry>
 
     <Entry Id="operation_canceled">
@@ -288,6 +307,7 @@
         <String xml:lang="pl-PL">~r~Operacja anulowana.</String>
         <String xml:lang="es-ES">~r~Operación cancelada.</String>
         <String xml:lang="pt-BR">~r~Operação cancelada.</String>
+        <String xml:lang="de-DE">~r~Vorgang wurde abgebrochen.</String>
     </Entry>
 
     <Entry Id="account_menu_change_username">
@@ -297,6 +317,7 @@
         <String xml:lang="pl-PL">Wróć do ~s~Menu ~b~Konta~s~ aby zmienić swój nick.</String>
         <String xml:lang="es-ES">Vuelve al menú de ~b~Cuenta ~s~para cambiar tu nombre de usuario.</String>
         <String xml:lang="pt-BR">Volte ao menu ~b~Account ~s~para alterar seu nome de usuário.</String>
+        <String xml:lang="de-DE">Gehe zurück zum ~b~Account ~s~Menü, um deinen Nutzernamen zu ändern.</String>
     </Entry>
 
     <Entry Id="item_cant_used">
@@ -306,6 +327,7 @@
         <String xml:lang="pl-PL">Przedmiot tego typu nie może ~r~zostać użyty~s~.</String>
         <String xml:lang="es-ES">Este tipo de artículo ~r~no se puede utilizar~s~.</String>
         <String xml:lang="pt-BR">Esse tipo de artigo ~r~não pode ser usado~s~.</String>
+        <String xml:lang="de-DE">Diese Art von Items ~r~kann nicht benutzt werden~s~.</String>
     </Entry>
 
     <Entry Id="username_change_cooldown">
@@ -315,6 +337,7 @@
         <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~zanim ponownie zmienisz swój ~b~nick~s~.</String>
         <String xml:lang="es-ES">Tienes que ~r~esperar ~s~antes de cambiar tu ~b~nombre de usuario ~s~de nuevo.</String>
         <String xml:lang="pt-BR">Você deve ~r~esperar ~s~antes de alterar seu ~b~nome de usuário ~s~novamente.</String>
+        <String xml:lang="de-DE">Du musst ~r~warten~s~, bevor du deinen ~b~Nutzernamen ~s~erneut ändern kannst.</String>
     </Entry>
 
     <!-- {0} = New username -->
@@ -325,6 +348,7 @@
         <String xml:lang="pl-PL">Nick ~b~{0} ~s~jest już zajęty.</String>
         <String xml:lang="es-ES">El nombre ~b~{0} ~s~ya está tomado.</String>
         <String xml:lang="pt-BR">O nome ~b~{0} ~s~já está sendo usado.</String>
+        <String xml:lang="de-DE">Der Name ~b~{0} ~s~wird bereits verwendet.</String>
     </Entry>
 
     <!-- {0} = Discord -->
@@ -335,6 +359,7 @@
         <String xml:lang="pl-PL">~g~Staff musi skontaktować się z adminem lub managerem dla ~b~zmiany nicku~s~. Admin musi się upewnić że nick w grze jest taki sam jak w {0} i nie jest wulgarny lub nieodpowiedni.</String>
         <String xml:lang="es-ES">~g~Los miembros del staff ~s~deben contactar con un admin o manager para un ~b~cambio de nombre~s~. El administrador debe asegurarse de que el nombre en el juego coincide con el nombre en {0} y no es obsceno o vulgar.</String>
         <String xml:lang="pt-BR">~g~Os membros da equipe ~s~devem entrar em contato com um administrador ou gerente para uma ~b~alteração de nome~s~. O administrador deve garantir que o nome no jogo corresponda ao nome em {0} e não seja obsceno ou vulgar.</String>
+        <String xml:lang="de-DE">~g~Teammitglieder müssen einen Admin oder Manager kontaktieren, bevor sie ihren ~b~Namen ändern~s~. Der Admin muss sicherstellen, dass der Ingame-Name mit dem Namen auf {0} übereinstimmt und nicht obszön oder vulgär ist.</String>
     </Entry>
 
     <Entry Id="entered_code_incorrect">
@@ -344,6 +369,7 @@
         <String xml:lang="pl-PL">~r~Kod który wpisałeś jest nieprawidłowy.</String>
         <String xml:lang="es-ES">~r~El código introducido es incorrecto.</String>
         <String xml:lang="pt-BR">~r~O código inserido está incorreto.</String>
+        <String xml:lang="de-DE">~r~Der eingegebene Code ist nicht vollständig.</String>
     </Entry>
 
     <Entry Id="entered_code_expired">
@@ -353,6 +379,7 @@
         <String xml:lang="pl-PL">~r~Kod wygasł.</String>
         <String xml:lang="es-ES">~r~TEl código ha caducado.</String>
         <String xml:lang="pt-BR">~r~O código expirou.</String>
+        <String xml:lang="de-DE">~r~Der Code ist abgelaufen.</String>
     </Entry>
 
     <!-- {0} = Amount -->
@@ -365,6 +392,7 @@
         <String xml:lang="pl-PL">Pomyślnie przekazałeś {0} ~p~{1} ~s~do ~y~{2}~s~.</String>
         <String xml:lang="es-ES">Has transferido con éxito {0} ~p~{1} ~s~a ~y~{2}~s~.</String>
         <String xml:lang="pt-BR">Você transferiu com sucesso {0} ~p~{1} ~s~a ~y~{2}~s~.</String>
+        <String xml:lang="de-DE">Du hast {0} ~p~{1} ~s~erfolgreich zu ~y~{2}~s~ übertragen.</String>
     </Entry>
 
     <Entry Id="unable_to_find_player">
@@ -374,6 +402,7 @@
         <String xml:lang="pl-PL">~r~Serwer nie mógł znaleść podanego gracza.</String>
         <String xml:lang="es-ES">~r~El servidor no puede encontrar al jugador especificado.</String>
         <String xml:lang="pt-BR">~r~O servidor não consegue encontrar o jogador especificado.</String>
+        <String xml:lang="de-DE">~r~Der Server ist nicht in der Lage, diesen bestimmten Spieler zu finden.</String>
     </Entry>
 
     <Entry Id="cant_send_gift_yourself">
@@ -383,6 +412,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz wysłać sobie prezentu.</String>
         <String xml:lang="es-ES">~r~No puedes enviarte un regalo a ti mismo.</String>
         <String xml:lang="pt-BR">~r~Não é possível enviar um presente para você mesmo.</String>
+        <String xml:lang="de-DE">~r~Du kannst dir selbst keine Geschenke schicken.</String>
     </Entry>
 
     <Entry Id="too_far_from_player">
@@ -392,6 +422,7 @@
         <String xml:lang="pl-PL">Jesteś ~r~za daleko ~s~od gracza!</String>
         <String xml:lang="es-ES">¡Estás ~r~demasiado ~s~lejos del jugador!</String>
         <String xml:lang="pt-BR">Você está ~r~muito longe ~s~do jogador!</String>
+        <String xml:lang="de-DE">Du bist ~r~zu weit ~s~von diesem Spieler ~r~sentfernt~s~!</String>
     </Entry>
 
     <Entry Id="too_far_from_recipient">
@@ -401,6 +432,7 @@
         <String xml:lang="pl-PL">Jesteś ~r~za daleko ~s~od odbiorcy!</String>
         <String xml:lang="es-ES">Estás ~r~demasiado lejos ~s~del destinatario.</String>
         <String xml:lang="pt-BR">Você está ~r~muito longe do ~s~do destinatário.</String>
+        <String xml:lang="de-DE">Du bist ~r~zu weit~s~ von dem Empfänger ~r~entfernt~s~.</String>
     </Entry>
 
     <!-- {0} = Max-Amount -->
@@ -411,6 +443,7 @@
         <String xml:lang="pl-PL">Możesz tylko wysłać ~r~{0} ~s~na raz.</String>
         <String xml:lang="es-ES">Sólo puede enviar ~r~{0} ~s~a la vez.</String>
         <String xml:lang="pt-BR">Só pode enviar ~r~{0} ~s~de cada vez.</String>
+        <String xml:lang="de-DE">Du kannst nur ~r~{0} ~s~zur gleichen Zeit senden.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -422,6 +455,7 @@
         <String xml:lang="pl-PL">Przekazałeś {0} ~r~{1}~s~.</String>
         <String xml:lang="es-ES">Le diste a {0} ~r~{1}~s~.</String>
         <String xml:lang="pt-BR">Você deu a {0} ~r~{1}~s~.</String>
+        <String xml:lang="de-DE">Du hast {0} ~r~{1}~s~ gegeben.</String>
     </Entry>
 
     <Entry Id="amount_entered_invalid">
@@ -431,6 +465,7 @@
         <String xml:lang="pl-PL">Podana wartość jest ~r~nieprawidłowa~s~!</String>
         <String xml:lang="es-ES">La cantidad que ha introducido ~r~no es válida~s~!</String>
         <String xml:lang="pt-BR">A quantidade que você inseriu ~r~não é válida~s~!</String>
+        <String xml:lang="de-DE">Der Betrag, den du eingegeben hast, ist ~r~ungültig~s~.</String>
     </Entry>
 
     <Entry Id="recipient_no_longer_online">
@@ -440,6 +475,7 @@
         <String xml:lang="pl-PL">Odbiorca ~r~nie jest już online~s~.</String>
         <String xml:lang="es-ES">El destinatario ya ~r~no está conectado~s~.</String>
         <String xml:lang="pt-BR">O destinatário ~r~não está mais on-line~s~.</String>
+        <String xml:lang="de-DE">Der Empfänger ist ~r~nicht länger online~s~.</String>
     </Entry>
 
     <Entry Id="dont_have_required_level_transfer_money">
@@ -449,6 +485,7 @@
         <String xml:lang="pl-PL">Nie masz ~r~wymaganego poziomu ~s~do przekazywania pieniędzy graczom.</String>
         <String xml:lang="es-ES">No tienes el nivel ~r~necesario ~s~para transferir dinero a otros jugadores.</String>
         <String xml:lang="pt-BR">Você não tem o nível ~r~necessário ~s~para transferir dinheiro para outros jogadores.</String>
+        <String xml:lang="de-DE">Du besitzt nicht das ~r~benötigte Level~s~, um Geld an andere Spieler zu übergeben.</String>
     </Entry>
 
     <Entry Id="sent_too_much_money_another_session">
@@ -458,6 +495,7 @@
         <String xml:lang="pl-PL">Wysłałeś ~r~za dużo pieniędzy~s~. Proszę, spróbuj w ~r~innej sesji~s~.</String>
         <String xml:lang="es-ES">Usted envió ~r~demasiado dinero~s~. Por favor, vuelva a intentarlo en ~r~otra sesión~s~.</String>
         <String xml:lang="pt-BR">Você enviou ~r~muito dinheiro~s~. Tente novamente em ~r~outra sessão~s~.</String>
+        <String xml:lang="de-DE">Du hast ~r~zu viel Geld ~s~verschickt. Bitte versuche es in einer ~r~anderen Spielsitzung ~s~erneut.</String>
     </Entry>
 
     <Entry Id="sending_money_too_fast">
@@ -467,6 +505,7 @@
         <String xml:lang="pl-PL">Wysyłasz ~r~pieniądze za szybko~s~. Proszę, ~r~poczekaj ~s~zanim wyślesz pieniądze ponownie.</String>
         <String xml:lang="es-ES">Está enviando ~r~dinero demasiado rápido~s~. Por favor, ~r~espera ~s~antes de volver a enviar dinero.</String>
         <String xml:lang="pt-BR">Você enviou ~r~muito dinheiro~s~. Tente novamente em outra sessão.</String>
+        <String xml:lang="de-DE">Du sendest das ~r~Geld zu schnell~s~. Bite ~r~warte~s~, bevor du erneut Geld sendest.</String>
     </Entry>
 
     <Entry Id="player_received_too_much_money">
@@ -476,6 +515,7 @@
         <String xml:lang="pl-PL">Ten gracz otrzymał ~r~za dużo pieniędzy~s~. Proszę, spróbuj ponownie ~r~później~s~.</String>
         <String xml:lang="es-ES">Este jugador ha recibido ~r~demasiado dinero~s~. Por favor, inténtelo de nuevo ~r~más tarde~s~.</String>
         <String xml:lang="pt-BR">Este jogador recebeu ~r~muito dinheiro~s~. Por favor, tente novamente ~r~mais tarde~s~.</String>
+        <String xml:lang="de-DE">Dieser Spieler hat ~r~zu viel Geld ~s~erhalten. Bitte versuche es ~r~später erneut~s~.</String>
     </Entry>
 
     <Entry Id="player_received_money_recently">
@@ -485,6 +525,7 @@
         <String xml:lang="pl-PL">Ten gracz otrzymał ~r~przed chwilą ~s~pieniądze. Proszę, spróbuj ponownie ~r~później~s~.</String>
         <String xml:lang="es-ES">Este jugador ha ~r~recientemente ~s~recibido dinero. Por favor, inténtelo de nuevo ~r~más tarde~s~.</String>
         <String xml:lang="pt-BR">Este jogador ~r~recebeu dinheiro recentemente~s~. Por favor, tente novamente ~r~mais tarde~s~.</String>
+        <String xml:lang="de-DE">Dieser Spieler hat ~r~vor Kurzem ~s~Geld erhalten. Bitte warte versuche es ~r~später erneut~s~.</String>
     </Entry>
 
     <Entry Id="dont_have_vehicle_with_plate">
@@ -494,6 +535,7 @@
         <String xml:lang="pl-PL">~r~Nie masz pojazdu z tą tablicą rejestracyjną.</String>
         <String xml:lang="es-ES">~r~Usted no tiene un vehículo con esa matrícula.</String>
         <String xml:lang="pt-BR">~r~Você não tem um veículo com esse registro.</String>
+        <String xml:lang="de-DE">~r~Du hast kein Fahrzeug mit diesem Kennzeichen.</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
@@ -504,6 +546,7 @@
         <String xml:lang="pl-PL">{0} ~s~został ~r~wycofany ~s~przez GTA CnR. Możesz sprzedać ten pojazd za ~g~PEŁNĄ ~s~oryginalną cenę poniżej.</String>
         <String xml:lang="es-ES">{0} ~s~ha sido oficialmente ~r~retirado ~s~por GTA CnR. Usted puede vender este vehículo por el precio ~g~COMPLETO ~s~original a continuación.</String>
         <String xml:lang="pt-BR">{0} ~s~foi oficialmente ~r~retirado ~s~pela GTA CnR. Você pode vender esse veículo pelo preço ~g~COMPLETO ~s~original da seguinte forma.</String>
+        <String xml:lang="de-DE">{0} ~s~wurde offiziell von GTA CnR ~r~zurückgerufen~s~. Du kannst dieses Fahrzeug für den ~g~VOLLEN~s~, Originalpreis unten verkaufen.</String>
     </Entry>
 
     <Entry Id="unable_to_deliver_move">
@@ -513,6 +556,7 @@
         <String xml:lang="pl-PL">~r~Nie można dostarczyć tu pojazdu! Proszę, pójdź do innej lokalizacji.</String>
         <String xml:lang="es-ES">~r~¡No se puede entregar un vehículo aquí! Por favor, desplácese a otra ubicación.</String>
         <String xml:lang="pt-BR">~r~Um veículo não pode ser entregue aqui! Por favor, vá para outro local.</String>
+        <String xml:lang="de-DE">~r~Hier kann kein Fahrzeug geliefert werden! Bitte gehe zu einer anderen Position.</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
@@ -520,9 +564,10 @@
         <String xml:lang="en-US">Your ~b~{0} ~s~is on the way! Please, stay in the area.</String>
         <String xml:lang="nl-NL">Je ~b~{0} ~s~is onderweg! Alstublieft, blijf in de buurt.</String>
         <String xml:lang="it-IT">La tua ~b~{0} ~s~è in arrivo! Per favore, rimani nell'area.</String>
-        <String xml:lang="pl-PL">Twój ~b~{0} ~s~jest w drodze! Proszę, pozostań w okolicy.</String> 
+        <String xml:lang="pl-PL">Twój ~b~{0} ~s~jest w drodze! Proszę, pozostań w okolicy.</String>
         <String xml:lang="es-ES">¡Su ~b~{0} ~s~está en camino! Por favor, quédate en la zona.</String>
         <String xml:lang="pt-BR">Seu ~b~{0} ~s~está a caminho! Por favor, permaneça na área.</String>
+        <String xml:lang="de-DE">Dein ~b~{0} ~s~ist auf dem Weg! Bitte bleibe in der Umgebung.</String>
     </Entry>
 
     <Entry Id="cant_deliver_here">
@@ -532,6 +577,7 @@
         <String xml:lang="pl-PL">~r~Pojazd nie może być tu dostarczony!</String>
         <String xml:lang="es-ES">~r~¡No puedes conseguir que te entreguen un vehículo aquí!</String>
         <String xml:lang="pt-BR">~r~Você não pode receber um veículo entregue aqui!</String>
+        <String xml:lang="de-DE">~r~Du kannst hier kein Fahrzeug geliefert bekommen!</String>
     </Entry>
 
     <!-- {0} = Current job -->
@@ -542,6 +588,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz zlecić dostarczenia tego pojazdu jako {0}!</String>
         <String xml:lang="es-ES">~r~Usted no puede conseguir este vehículo entregado como un {0}!</String>
         <String xml:lang="pt-BR">~r~Você não pode receber esse veículo como um {0}!</String>
+        <String xml:lang="de-DE">~r~Du kannst dieses Fahrzeug nicht als {0} geliefert bekommen!</String>
     </Entry>
 
     <Entry Id="vehicle_attached_to_tow_truck">
@@ -551,6 +598,7 @@
         <String xml:lang="pl-PL">~r~Twój obecny pojazd jest na lawecie!</String>
         <String xml:lang="es-ES">~r~¡Su vehículo actual está enganchado a una grúa!</String>
         <String xml:lang="pt-BR">~r~Seu veículo atual está conectado a um caminhão de reboque!</String>
+        <String xml:lang="de-DE">~r~Dein aktuelles Fahrzeug ist an einem Abschlepper angehakt!</String>
     </Entry>
 
     <Entry Id="cant_store_vehicle_when_inside">
@@ -559,7 +607,8 @@
         <String xml:lang="it-IT">~r~Non puoi riporre il tuo veicolo personale mentre sei dentro di esso!</String>
         <String xml:lang="pl-PL">~r~Nie możesz schować swojego pojazdu osobistego gdy w nim jesteś!</String>
         <String xml:lang="es-ES">~r~No puedes guardar tu vehículo personal mientras estés dentro de él.</String>
-        <String xml:lang="pt-BT">~r~Você não pode guardar seu veículo pessoal enquanto estiver dentro dele.</String>
+        <String xml:lang="pt-BR">~r~Você não pode guardar seu veículo pessoal enquanto estiver dentro dele.</String>
+        <String xml:lang="de-DE">~r~Du kannst dein persönliches Fahrzeug nicht einlagern, während du dich darin befindest!</String>
     </Entry>
 
     <Entry Id="changed_jobs_delivery_canceled">
@@ -569,6 +618,7 @@
         <String xml:lang="pl-PL">Zmieniłeś ~b~pracę~s~. Dostawa pojazdu została ~r~anulowana~s~.</String>
         <String xml:lang="es-ES">Usted ha cambiado su ~b~trabajo~s~. La entrega de su vehículo ha sido ~r~canceladado~s~.</String>
         <String xml:lang="pt-BR">Você mudou de ~b~emprego~s~. A entrega de seu veículo foi ~r~cancelada~s~.</String>
+        <String xml:lang="de-DE">Du hast deinen ~b~Job ~s~gewechselt. Deine Fahrzeuglieferung wurde ~r~abgebrochen~s~.</String>
     </Entry>
 
     <Entry Id="area_left_delivery_canceled">
@@ -578,6 +628,7 @@
         <String xml:lang="pl-PL">~r~Opuściłeś okolicę~s~. Dostawa pojazdu została ~r~anulowana~s~.</String>
         <String xml:lang="es-ES">Ha ~r~abandonado la zona~s~. La entrega de su vehículo ha sido ~r~cancelada~s~.</String>
         <String xml:lang="pt-BR">Você ~r~abandonou a área~s~. A entrega de seu veículo foi ~r~cancelada~s~.</String>
+        <String xml:lang="de-DE">Du hast den ~r~Bereich verlassen~s~. Deine Fahrzeuglieferung wurde ~r~abgebrochen~s~.</String>
     </Entry>
 
     <Entry Id="valet_killed_delivery_canceled">
@@ -587,6 +638,7 @@
         <String xml:lang="pl-PL">Twój parkingowy został ~r~zabity~s~. Dostawa pojazdu została ~r~anulowana~s~.</String>
         <String xml:lang="es-ES">Su valet ha sido ~r~asesinado~s~. La entrega de su vehículo ha sido ~r~cancelada~s~.</String>
         <String xml:lang="pt-BR">Seu manobrista foi ~r~assassinado~s~. A entrega de seu veículo foi ~r~cancelada~s~.</String>
+        <String xml:lang="de-DE">Dein Lieferant wurde ~r~getötet~s~. Deine Fahrzeuglieferung wurde ~r~abgebrochen~s~.</String>
     </Entry>
 
     <Entry Id="too_far_from_road_delivery_canceled">
@@ -596,6 +648,7 @@
         <String xml:lang="pl-PL">~r~Jesteś za daleko od jakiejkolwiek drogi. Dostawa pojazdu została anulowana.</String>
         <String xml:lang="es-ES">~r~Estás demasiado lejos de cualquier carretera. Se ha cancelado la entrega de tu vehículo.</String>
         <String xml:lang="pt-BR">~r~Você está muito longe de qualquer estrada. A entrega de seu veículo foi cancelada.</String>
+        <String xml:lang="de-DE">~r~Du bist zu weit von einer Straße entfernt. Deine Fahrzeuglieferung wurde abgebrochen.</String>
     </Entry>
 
     <!-- {0} = Attempts/MaxAttempts -->
@@ -606,6 +659,7 @@
         <String xml:lang="pl-PL">Nie udało się pobrać ~y~modelu pojazdu~s~. Ponawianie ({0})...</String>
         <String xml:lang="es-ES">No se han podido descargar los modelos de los ~y~vehículos~s~. Reintentando ({0})...</String>
         <String xml:lang="pt-BR">Não foi possível fazer o download dos modelos do ~y~veículos~s~. Nova tentativa ({0})...</String>
+        <String xml:lang="de-DE">Dieses ~y~Fahrzeug-Modell~s~ kann nicht geladen werden. Erneuter Versuch ({0})...</String>
     </Entry>
 
     <Entry Id="unable_to_download_vehicle_model_5c_3">
@@ -614,7 +668,8 @@
         <String xml:lang="it-IT">~r~Impossibile caricare il modello del veicolo (0x5C-3). Per favore, prova di nuovo più tardi.</String>
         <String xml:lang="pl-PL">~r~Pobranie modelu pojazdu niepomyślne (0x5C-3). Spróbuj ponownie później.</String>
         <String xml:lang="es-ES">~r~No se ha podido cargar el modelo de vehículo (0x5C-3). Por favor, inténtelo de nuevo más tarde.</String>
-        <String xml:lang="pt-BE">~r~O modelo do veículo (0x5C-3) não pôde ser carregado. Tente novamente mais tarde.</String>
+        <String xml:lang="pt-BR">~r~O modelo do veículo (0x5C-3) não pôde ser carregado. Tente novamente mais tarde.</String>
+        <String xml:lang="de-DE">~r~Dieses Fahrzeug-Modell kann nicht geladen werden (0x5C-3). Bitte versuche es später erneut.</String>
     </Entry>
 
     <Entry Id="unable_to_download_vehicle_model_5c_4">
@@ -624,14 +679,16 @@
         <String xml:lang="pl-PL">~r~Pobranie ID sieciowego pojazdu niepomyślne (0x5C-4). Spróbuj ponownie później.</String>
         <String xml:lang="es-ES">~r~No se ha podido obtener el identificador de red del vehículo (0x5C-4). Por favor, inténtelo de nuevo más tarde.</String>
         <String xml:lang="pt-BR">~r~Não foi possível obter o identificador de rede do veículo (0x5C-4). Tente novamente mais tarde.</String>
+        <String xml:lang="de-DE">~r~Diese Fahrzeug Netzwerk-ID kann nicht geladen werden (0x5C-4). Bitte versuche es später erneut.</String>
     </Entry>
 
     <Entry Id="cant_use_wardrobe_not_gtao_character">
         <String xml:lang="en-US">~r~You can't use the wardrobe when you're not the GTA:O character.</String>
         <String xml:lang="it-IT">~r~Non puoi usare l'armadio quando non sei il personaggio di GTA:O.</String>
         <String xml:lang="pl-PL">~r~Nie możesz uzywać garderoby gdy nie jesteś postacią z GTA:O.</String>
-        <String xml:lang="es-ES">~r~No puedes usar el guardarropa cuando no eres el personaje de GTA:O.</String>
-        <String xml:lang="pt-BR">~r~Não é possível usar o guarda-roupa quando você não é o personagem do GTA:O.</String>
+        <String xml:lang="es-ES">~r~No puedes usar el armario cuando no eres el personaje de GTA:O.</String>
+        <String xml:lang="pt-BR">~r~Não é possível usar o armário quando você não é o personagem do GTA:O.</String>
+        <String xml:lang="de-DE">~r~Du kannst den Kleiderschrank nicht nutzen, wenn du kein GTA:O Charakter bist.</String>
     </Entry>
 
     <Entry Id="ptt_spam_time_out_radio">
@@ -640,6 +697,7 @@
         <String xml:lang="pl-PL">~r~Spamowanie ~s~przycisku PTT spowoduje ~r~zablokowanie ~s~możliwości użytku ~b~radia~s~.</String>
         <String xml:lang="es-ES">~r~Spamear ~s~la tecla PTT hará que usted sea ~r~muteado ~s~de la radio ~b~radio~s~.</String>
         <String xml:lang="pt-BR">~r~Pressionar ~s~a tecla PTT fará com que você seja ~r~desligado ~s~do rádio ~b~rádio~s~.</String>
+        <String xml:lang="de-DE">~r~Das Spammen ~s~der PTT-Taste wird dafür sorgen, dass du vom ~b~Funk~s~ ~r~temporär gesperrt ~s~wirst.</String>
     </Entry>
 
     <Entry Id="radio_cooldown">
@@ -648,6 +706,7 @@
         <String xml:lang="pl-PL">Musisz poczekać ~r~{0} sekund ~s~przed ponownym włączeniem radia.</String>
         <String xml:lang="es-ES">Usted debe esperar ~r~{0} segundos ~s~antes de encender su radio de nuevo.</String>
         <String xml:lang="pt-BR">Você deve esperar ~r~{0} segundos ~s~antes de ligar o rádio novamente.</String>
+        <String xml:lang="de-DE">Du musst ~r~{0} Sekunden ~s~warten, bevor du deinen Funk erneut einschalten kannst.</String>
     </Entry>
 
     <!-- {0} = Item name -->
@@ -657,13 +716,15 @@
         <String xml:lang="pl-PL">~r~Przedawkowałeś ~s~{0} i potrzebujesz ~p~pomocy medycznej~s~.</String>
         <String xml:lang="es-ES">Usted tiene ~r~sobredosis ~s~{0} y necesita ~p~atención médica~s~.</String>
         <String xml:lang="pt-BR">Você teve uma ~r~overdose de ~s~{0} e precisa de ~p~atenção médica~s~.</String>
+        <String xml:lang="de-DE">Du erleidest eine ~r~Überdosis ~s~{0} und du benötigst ~p~medizinische Versorgung~s~.</String>
     </Entry>
 
     <Entry Id="recovered_from_overdose">
-        <String xml:lang="en-US">You ~r~overdosed ~s~{0} and you need ~p~medical attention~s~.</String> 
+        <String xml:lang="en-US">You ~r~overdosed ~s~{0} and you need ~p~medical attention~s~.</String>
         <String xml:lang="it-IT">Ti sei ~r~ripristinato ~s~da un'overdose di {0} e hai bisogno di ~p~assistenza medica~s~.</String>
-        <String xml:lang="es-ES">Usted tiene ~r~sobredosis ~s~{0} y necesita ~p~atención médica~s~.</String> 
-        <String xml:lang="pt-BR">Você teve uma ~r~overdose de ~s~{0} e precisa de ~p~atenção médica~s~.</String> 
+        <String xml:lang="es-ES">Usted tiene ~r~sobredosis ~s~{0} y necesita ~p~atención médica~s~.</String>
+        <String xml:lang="pt-BR">Você teve uma ~r~overdose de ~s~{0} e precisa de ~p~atenção médica~s~.</String>
+        <String xml:lang="de-DE">Du erleidest eine ~r~Überdosis ~s~{0} und du benötigst ~p~medizinische Versorgung~s~.</String>
     </Entry>
 
     <Entry Id="wanted_by_police">
@@ -672,6 +733,286 @@
         <String xml:lang="pl-PL">~r~Jesteś poszukiwany przez policję. Wróć gdy ich zgubisz!</String>
         <String xml:lang="es-ES">~r~Te busca la policía. ¡Vuelve cuando estés limpio!</String>
         <String xml:lang="pt-BR">~r~A polícia está procurando por você. Volte quando estiver limpo!</String>
+        <String xml:lang="de-DE">~r~Du wirst von der Polizei gesucht. Komm zurück, wenn du sauber bist!</String>
     </Entry>
 
+    <!-- ========================= -->
+    <!-- Emotes -->
+    <!-- ========================= -->
+    <Entry Id="menu_emotes_title">
+        <String xml:lang="en-US">Emotes</String>
+        <String xml:lang="it-IT">Emotes</String>
+        <String xml:lang="de-DE">Emotes</String>
+        <String xml:lang="es-ES">Emotes</String>
+        <String xml:lang="pt-BR">Emotes</String>
+    </Entry>
+
+    <Entry Id="menu_emotes_subtitle">
+        <String xml:lang="en-US">Play animations.</String>
+        <String xml:lang="it-IT">Riproduci le animazioni.</String>
+        <String xml:lang="de-DE">Spiele Animationen.</String>
+        <String xml:lang="es-ES">Reproducir animaciones.</String>
+        <String xml:lang="pt-BR">Reproduzir animações.</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Help menu -->
+    <!-- ========================= -->
+    <Entry Id="menu_help_title">
+        <String xml:lang="en-US">Help Center</String>
+        <String xml:lang="it-IT">Centro assistenza</String>
+        <String xml:lang="de-DE">Hilfszentrum</String>
+        <String xml:lang="es-ES">Centro de ayuda</String>
+        <String xml:lang="pt-BR">Central de ajuda</String>
+    </Entry>
+
+    <Entry Id="menu_help_subtitle">
+        <String xml:lang="en-US">GTA CnR Help Center</String>
+        <String xml:lang="it-IT">Centro assistenza di GTA CnR</String>
+        <String xml:lang="de-DE">GTA CnR Hilfszentrum</String>
+        <String xml:lang="es-ES">GTA CnR Centro de ayuda</String>
+        <String xml:lang="pt-BR">GTA CnR Central de ajuda</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Report -->
+    <!-- ========================= -->
+    <Entry Id="menu_report_title">
+        <String xml:lang="en-US">Report</String>
+        <String xml:lang="it-IT">Segnala</String>
+        <String xml:lang="de-DE">Meldung</String>
+        <String xml:lang="es-ES">Reportar</String>
+        <String xml:lang="pt-BR">Denunciar</String>
+    </Entry>
+
+    <Entry Id="menu_report_subtitle">
+        <String xml:lang="en-US">Reporting player</String>
+        <String xml:lang="it-IT">Segnalando il giocatore</String>
+        <String xml:lang="de-DE">Melde einen Spieler</String>
+        <String xml:lang="es-ES">Jugador reportado</String>
+        <String xml:lang="pt-BR">Jogador denunciado</String>
+    </Entry>
+
+    <Entry Id="menu_reports_title">
+        <String xml:lang="en-US">Reports</String>
+        <String xml:lang="it-IT">Segnalazioni</String>
+        <String xml:lang="de-DE">Meldungen</String>
+        <String xml:lang="es-ES">Reportes</String>
+        <String xml:lang="pt-BR">Denuncias</String>
+    </Entry>
+
+    <Entry Id="menu_reports_subtitle">
+        <String xml:lang="en-US">View the status of your reports</String>
+        <String xml:lang="it-IT">Visualizza lo stato delle tue segnalazioni</String>
+        <String xml:lang="de-DE">Sieh dir den Statur deiner Meldungen an</String>
+        <String xml:lang="es-ES">Ver el estado de sus reportes</String>
+        <String xml:lang="pt-BR">Visualizar o status de seus denuncias</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Options menu -->
+    <!-- ========================= -->
+    <Entry Id="menu_options_title">
+        <String xml:lang="en-US">Options</String>
+        <String xml:lang="it-IT">Opzioni</String>
+        <String xml:lang="de-DE">Optionen</String>
+        <String xml:lang="es-ES">Opciones</String>
+        <String xml:lang="pt-BR">Opções</String>
+    </Entry>
+
+    <Entry Id="menu_options_subtitle">
+        <String xml:lang="en-US">Customize your CnR experience</String>
+        <String xml:lang="it-IT">Personalizza la tua esperienza in CnR</String>
+        <String xml:lang="de-DE">Individualisiere deine CnR Erfahrung</String>
+        <String xml:lang="es-ES">Personalice su experiencia en CnR</String>
+        <String xml:lang="pt-BR">Personalize sua experiência no CnR</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_title">
+        <String xml:lang="en-US">Account</String>
+        <String xml:lang="it-IT">Account</String>
+        <String xml:lang="de-DE">Store</String>
+        <String xml:lang="es-ES">Cuenta</String>
+        <String xml:lang="pt-BR">Conta</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_subhistory_subtitle">
+        <String xml:lang="en-US">Subscription History</String>
+        <String xml:lang="it-IT">Storico degli abbonamenti</String>
+        <String xml:lang="de-DE">Abonnementshistorie</String>
+        <String xml:lang="es-ES">Historial de suscripciones</String>
+        <String xml:lang="pt-BR">Histórico de assinaturas</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_purchases_subtitle">
+        <String xml:lang="en-US">Purchases</String>
+        <String xml:lang="it-IT">Acquisti</String>
+        <String xml:lang="de-DE">Einkäufe</String>
+        <String xml:lang="es-ES">Compras</String>
+        <String xml:lang="pt-BR">Compras</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_linkedservices_subtitle">
+        <String xml:lang="en-US">Linked Services</String>
+        <String xml:lang="it-IT">Servizi collegati</String>
+        <String xml:lang="de-DE">Verknüpfte Dienste</String>
+        <String xml:lang="es-ES">Servicios vinculados</String>
+        <String xml:lang="pt-BR">Serviços vinculados</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_title">
+        <String xml:lang="en-US">Display</String>
+        <String xml:lang="it-IT">Schermo</String>
+        <String xml:lang="de-DE">Anzeige</String>
+        <String xml:lang="es-ES">Pantalla</String>
+        <String xml:lang="pt-BR">Exibição</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_subtitle">
+        <String xml:lang="en-US">Change display settings</String>
+        <String xml:lang="it-IT">Cambia le impostazioni dello schermo</String>
+        <String xml:lang="de-DE">Ändere deine Anzeigeeinstellungen</String>
+        <String xml:lang="es-ES">Cambiar la configuración de la pantalla</String>
+        <String xml:lang="pt-BR">Alterar as configurações de exibição</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_title">
+        <String xml:lang="en-US">Accessibility</String>
+        <String xml:lang="it-IT">Accessibilità</String>
+        <String xml:lang="de-DE">Barrierefreiheit</String>
+        <String xml:lang="es-ES">Accesibilidad</String>
+        <String xml:lang="pt-BR">Acessibilidade</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_subtitle">
+        <String xml:lang="en-US">Accessibility settings</String>
+        <String xml:lang="it-IT">Impostazioni di accessibilità</String>
+        <String xml:lang="de-DE">Einstellungen zur Barrierefreiheit</String>
+        <String xml:lang="es-ES">Ajustes de accesibilidad</String>
+        <String xml:lang="pt-BR">Configurações de acessibilidade</String>
+    </Entry>
+
+    <Entry Id="menu_options_hotkeys_title">
+        <String xml:lang="en-US">Hotkeys</String>
+        <String xml:lang="it-IT">Tasti di scelta rapida</String>
+        <String xml:lang="de-DE">Tastenkombinationen</String>
+        <String xml:lang="es-ES">Teclas de acceso rápido</String>
+        <String xml:lang="pt-BR">Teclas de atalho</String>
+    </Entry>
+
+    <Entry Id="menu_options_chotkeys_subtitle">
+        <String xml:lang="en-US">Custom hotkeys</String>
+        <String xml:lang="it-IT">Personalizza i tasti di scelta rapida</String>
+        <String xml:lang="de-DE">Benutzerdefinierte Tastenkombinationen</String>
+        <String xml:lang="es-ES">Teclas de acceso rápido personalizadas</String>
+        <String xml:lang="pt-BR">Teclas de atalho personalizadas personalizadas</String>
+    </Entry>
+
+    <Entry Id="menu_options_hotkeys_subtitle">
+        <String xml:lang="en-US">Select an action type</String>
+        <String xml:lang="it-IT">Seleziona un tipo di azione</String>
+        <String xml:lang="de-DE">Wählen Sie eine Aktionsart</String>
+        <String xml:lang="es-ES">Seleccione un tipo de acción</String>
+        <String xml:lang="pt-BR">Selecione um tipo de ação</String>
+    </Entry>
+
+    <Entry Id="menu_options_weapons_title">
+        <String xml:lang="en-US">Weapons</String>
+        <String xml:lang="it-IT">Armi</String>
+        <String xml:lang="de-DE">Waffen</String>
+        <String xml:lang="es-ES">Armas</String>
+        <String xml:lang="pt-BR">Armamento</String>
+    </Entry>
+
+    <Entry Id="menu_options_weapons_subtitle">
+        <String xml:lang="en-US">Select a weapon to equip</String>
+        <String xml:lang="it-IT">Seleziona un'arma da equipaggiare</String>
+        <String xml:lang="de-DE">Wähle eine Waffe zum Ausrüsten</String>
+        <String xml:lang="es-ES">Selecciona un arma para equipar</String>
+        <String xml:lang="pt-BR">Selecione uma arma para equipar</String>
+    </Entry>
+
+    <Entry Id="menu_options_items_title">
+        <String xml:lang="en-US">Items</String>
+        <String xml:lang="it-IT">Oggetti</String>
+        <String xml:lang="de-DE">Gegenstände</String>
+        <String xml:lang="es-ES">Artículos</String>
+        <String xml:lang="pt-BR">Items</String>
+    </Entry>
+
+    <Entry Id="menu_options_items_subtitle">
+        <String xml:lang="en-US">Select an item to use</String>
+        <String xml:lang="it-IT">Seleziona un oggetto da utilizzare</String>
+        <String xml:lang="de-DE">Wähle ein Element zur Verwendung</String>
+        <String xml:lang="es-ES">Seleccione un elemento para utilizar</String>
+        <String xml:lang="pt-BR">Selecione um item para usar</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_title">
+        <String xml:lang="en-US">Miscellaneous</String>
+        <String xml:lang="it-IT">Miscellaneo</String>
+        <String xml:lang="de-DE">Sonstiges</String>
+        <String xml:lang="es-ES">Varios</String>
+        <String xml:lang="pt-BR">Diversos</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_subtitle">
+        <String xml:lang="en-US">Other settings</String>
+        <String xml:lang="it-IT">Altre impostazioni</String>
+        <String xml:lang="de-DE">Andere Einstellungen</String>
+        <String xml:lang="es-ES">Otros ajustes</String>
+        <String xml:lang="pt-BR">Outros ajustes</String>
+    </Entry>
+
+    <Entry Id="menu_options_experimental_title">
+        <String xml:lang="en-US">Experimental</String>
+        <String xml:lang="it-IT">Sperimentale</String>
+        <String xml:lang="de-DE">Experimentelles</String>
+        <String xml:lang="es-ES">Experimental</String>
+        <String xml:lang="pt-BR">Experimental</String>
+    </Entry>
+
+    <Entry Id="menu_options_experimental_subtitle">
+        <String xml:lang="en-US">Experimental settings</String>
+        <String xml:lang="it-IT">Impostazioni sperimentali</String>
+        <String xml:lang="de-DE">Experimentelle Einstellungen</String>
+        <String xml:lang="es-ES">Ajustes experimentales</String>
+        <String xml:lang="pt-BR">Configurações experimentais</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Player menu -->
+    <!-- ========================= -->
+    <Entry Id="menu_playermenu_title">
+        <String xml:lang="en-US">Player Menu</String>
+        <String xml:lang="es-ES">Menú del jugador</String>
+        <String xml:lang="pt-BR">Menu do jogador</String>
+    </Entry>
+
+    <Entry Id="menu_stats_title">
+        <String xml:lang="en-US">Statistics</String>
+        <String xml:lang="es-ES">Estadísticas</String>
+        <String xml:lang="pt-BR">Estatísticas</String>
+    </Entry>
+
+    <Entry Id="menu_stats_subtitle">
+        <String xml:lang="en-US">Stats</String>
+        <String xml:lang="es-ES">Estadísticas</String>
+        <String xml:lang="pt-BR">Estatísticas</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Wardrobe menu -->
+    <!-- ========================= -->
+    <Entry Id="menu_wardrobe_title">
+        <String xml:lang="en-US">Wardrobe</String>
+        <String xml:lang="es-ES">Vestimenta</String>
+        <String xml:lang="pt-BR">Vestuário</String>
+    </Entry>
+
+    <Entry Id="menu_wardrobe_subtitle">
+        <String xml:lang="en-US">Select a category</String>
+        <String xml:lang="es-ES">Seleccione una categoría</String>
+        <String xml:lang="pt-BR">Selecione uma categoria</String>
+    </Entry>
 </Entries>
