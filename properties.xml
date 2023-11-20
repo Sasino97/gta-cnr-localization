@@ -4,6 +4,7 @@
 
     <Entry Id="warehouse">
         <String xml:lang="en-US">Warehouse</String>
+        <String xml:lang="pl-PL">Magazyn</String>
         <String xml:lang="it-IT">Magazzino</String>
         <String xml:lang="es-ES">Almacén</String>
         <String xml:lang="pt-BR">Depósito</String>
@@ -12,6 +13,7 @@
 
     <Entry Id="garage">
         <String xml:lang="en-US">Garage</String>
+        <String xml:lang="pl-PL">Garaż</String>
         <String xml:lang="it-IT">Garage</String>
         <String xml:lang="es-ES">Garaje</String>
         <String xml:lang="pt-BR">Garagem</String>
@@ -111,7 +113,7 @@
 
     <Entry Id="warehouse_cant_hold_amount">
         <String xml:lang="en-US">~r~You can't hold that many of this item!</String>
-        <String xml:lang="it-IT">~r~Non puoi tenere così tanti di questo oggetto!</String>
+        <String xml:lang="it-IT">~r~Non puoi reggere così tanti di questo oggetto!</String>
         <String xml:lang="es-ES">~r~No puedes tener tanto de este artículo.</String>
         <String xml:lang="pt-BR">~r~Você não pode ter muito desse artigo.</String>
         <String xml:lang="de-DE">~r~Du kannst nicht so viel von diesem Gegenstand halten!</String>
@@ -330,6 +332,40 @@
         <String xml:lang="es-ES">Usted respondió a {0}~s~.</String>
         <String xml:lang="pt-BR">Você respondeu a {0}~s~.</String>
         <String xml:lang="de-DE">Du hast {0}~s~ geantwortet.</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Properties Menu -->
+    <!-- ========================= -->
+    <Entry Id="menu_properties_title">
+        <String xml:lang="en-US">Properties</String>
+        <String xml:lang="it-IT">Proprietà</String>
+        <String xml:lang="es-ES">Propiedades</String>
+        <String xml:lang="pt-BR">Propriedades</String>
+    </Entry>
+
+    <Entry Id="menu_properties_subtitle">
+        <String xml:lang="en-US">View your properties</String>
+        <String xml:lang="it-IT">Visualizza le tue proprietà</String>
+        <String xml:lang="es-ES">Ver tus propiedades</String>
+        <String xml:lang="pt-BR">Visualizar suas propriedades</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Garage Menu -->
+    <!-- ========================= -->
+    <Entry Id="menu_garage_title">
+        <String xml:lang="en-US">Garages</String>
+        <String xml:lang="it-IT">Garage</String>
+        <String xml:lang="es-ES">Garages</String>
+        <String xml:lang="pt-BR">Garagem</String>
+    </Entry>
+
+    <Entry Id="menu_garage_subtitle">
+        <String xml:lang="en-US">Select a garage</String>
+        <String xml:lang="it-IT">Seleziona un garage</String>
+        <String xml:lang="es-ES">Seleccione un garaje</String>
+        <String xml:lang="pt-BR">Selecione uma garagem</String>
     </Entry>
 
 </Entries>
