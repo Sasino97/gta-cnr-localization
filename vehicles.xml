@@ -27,7 +27,7 @@
         <String xml:lang="nl-NL">~r~Je kan je persoonlijke voertuig niet naar een onderhoudsbeurt sturen wanneer je erin zit!</String>
         <String xml:lang="it-IT">~r~Non puoi inviare il tuo veicolo personale in manutenzione mentre sei dentro di esso!</String>
         <String xml:lang="tr-TR">~r~Aracınızın içinde iken bakıma yollayamazsınız.</String>
-        <String xml:lang="es_ES">~r~No puedes enviar tu vehículo personal a mantenimiento cuando estás dentro de él.</String>
+        <String xml:lang="es-ES">~r~No puedes enviar tu vehículo personal a mantenimiento cuando estás dentro de él.</String>
         <String xml:lang="pt-BR">~r~Não é possível enviar seu veículo pessoal para manutenção quando você estiver dentro dele.</String>
         <String xml:lang="de-DE">~r~Du kannst dein persönliches Fahrzeug nicht zur Wartung schicken, wenn du dich darin befindest!</String>
     </Entry>
@@ -141,7 +141,7 @@
 
     <Entry Id="active_vehicle_destroyed">
         <String xml:lang="en-US">Your active vehicle has been ~r~destroyed~s~! You can request a replacement in {0} ~y~Menu ~s~&gt; ~y~Vehicles~s~.</String>
-        <String xml:lang="it-IT">Il tuo veicolo attivo è stato ~r~distrutto~s~! Puoi richiedere la sostituzione dal ~y~Menu ~s~{0} &gt; ~y~Veicoli~s~.</String>
+        <String xml:lang="it-IT">Il tuo veicolo attivo è stato ~r~distrutto~s~! Puoi richiederne la sostituzione dal ~y~Menu ~s~{0} &gt; ~y~Veicoli~s~.</String>
         <String xml:lang="es-ES">¡Su vehículo activo ha sido ~r~destruido~s~! Puede solicitar un reemplazo en {0} ~y~Menu ~s~&gt; ~y~vehículos~s~.</String>
         <String xml:lang="pt-BR">Seu veículo ativo foi ~r~destruído~s~! Você pode solicitar uma substituição em {0} ~y~Menu ~s~&gt; ~y~veículos~s~.</String>
         <String xml:lang="de-DE">Dein aktuelles Fahrzeug wurde ~r~zerstört~s~! Du kannst einen Ersatz in {0} ~y~Menü ~s~&gt; ~y~Fahrzeuge~s~ anfordern.</String>
@@ -149,7 +149,7 @@
 
     <Entry Id="vehicle_impounded">
         <String xml:lang="en-US">Your ~y~vehicle ~s~has been ~o~impounded~s~. Go to an impound lot and pay a fee to claim it back.</String>
-        <String xml:lang="it-IT">Il tuo ~y~veicolo~s~ è stato ~o~sequestrato~s~. Vai in un deposito e paga una tassa per riaverlo.</String>
+        <String xml:lang="it-IT">Il tuo ~y~veicolo~s~ è stato ~o~sequestrato~s~. Vai in un deposito e paga una commissione per riaverlo.</String>
         <String xml:lang="es-ES">Su ~y~vehículo ~s~ha sido ~o~incautado~s~. Vaya a un depósito y pague una tasa para recuperarlo.</String>
         <String xml:lang="pt-BR">Seu ~y~veículo ~s~foi ~o~apreendido~s~. Vá a um pátio de apreensão e pague uma taxa para recuperá-lo.</String>
         <String xml:lang="de-DE">Dein ~y~Fahrzeug ~s~wurde ~o~verwahrt~s~. Gehe zu einer Verwahrstelle und zahle die Gebühr, um es zurückzukriegen.</String>
@@ -192,7 +192,7 @@
     <Entry Id="player_ejected">
         <String xml:lang="en-US">{0} has been ~r~ejected~s~.</String>
         <String xml:lang="it-IT">{0} è stato ~r~espulso~s~.</String>
-        <String xml:lang="es_ES">{0} ha sido ~r~expulsado~s~.</String>
+        <String xml:lang="es-ES">{0} ha sido ~r~expulsado~s~.</String>
         <String xml:lang="pt-BR">{0} foi ~r~ejetado~s~.</String>
         <String xml:lang="de-DE">{0} wurde ~r~rausgeschmissen~s~.</String>
     </Entry>
@@ -222,4 +222,34 @@
         <String xml:lang="de-DE">Drücke {0} doppelt, um das ~b~Fahrzeug-Menü~s~ zu öffnen.</String>
     </Entry>
 
+    <!-- ========================= -->
+    <!-- Vehicles Menu -->
+    <!-- ========================= -->
+    <Entry Id="menu_vehicles_title">
+        <String xml:lang="en-US">Vehicles</String>
+        <String xml:lang="it-IT">Veicoli</String>
+        <String xml:lang="es-ES">Vehículos</String>
+        <String xml:lang="pt-BR">Veículos</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_subtitle">
+        <String xml:lang="en-US">Your vehicles</String>
+        <String xml:lang="it-IT">I tuoi veicoli</String>
+        <String xml:lang="es-ES">Tus vehículos</String>
+        <String xml:lang="pt-BR">Seus veículos</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_manage_subtitle">
+        <String xml:lang="en-US">Manage your vehicle</String>
+        <String xml:lang="it-IT">Gestisci il tuo veicolo</String>
+        <String xml:lang="es-ES">Gestionar tu vehículo</String>
+        <String xml:lang="pt-BR">Gerencie seu veículo</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_ownershiphist_subtitle">
+        <String xml:lang="en-US">Ownership history</String>
+        <String xml:lang="it-IT">Storico di proprietà</String>
+        <String xml:lang="es-ES">Historial de la propiedad</String>
+        <String xml:lang="pt-BR">Histórico da propriedade</String>
+    </Entry>
 </Entries>
