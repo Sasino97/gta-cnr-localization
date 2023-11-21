@@ -11,6 +11,7 @@
         <String xml:lang="es-ES">Tu debes de ~r~esperar {0} segundos ~s~antes de comprar otro ~p~{1}~s~.</String>
         <String xml:lang="de-DE">Du musst {0} Sekunden ~r~wait ~s~bevor du ein weitere/s ~p~{1}~s~ kaufst.</String>
         <String xml:lang="pt-BR">Você deve ~r~esperar {0} segundos ~s~antes de comprar outro ~p~{1}~s~.</String>
+        <String xml:lang="ar-001">يلزمك ~r~الانتظار {0} ثانية ~s~قبل شراء ~p~{1}~s~ أخرى.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -24,8 +25,9 @@
         <String xml:lang="it-IT">(C){0}(/C) ha vinto (C){1}(/C) da un gratta e vinci!</String>
         <String xml:lang="pl-PL">(C){0}(/C) wygrał (C){1}(/C) ze zdrapki!</String>
         <String xml:lang="es-ES">¡(C){0}(/C) ganó (C){1}(/C) con una tarjeta de rasca y gana!</String>
-        <String xml:lang="de-DE">(C){0}(/C) hat (C){1}(/C) aus einem Rubbellos gewonnen!</String>d
+        <String xml:lang="de-DE">(C){0}(/C) hat (C){1}(/C) aus einem Rubbellos gewonnen!</String>
         <String xml:lang="pt-BR">(C){0}(/C) ganhou (C){1}(/C) com uma raspadinha!</String>
+        <String xml:lang="ar-001">(C){0}(/C) فاز بـ (C){1}(/C) من بطاقة الخدش!</String>
     </Entry>
 
     <Entry Id="specialitem_scratchcard_at_time">
@@ -36,6 +38,7 @@
         <String xml:lang="es-ES">Solo puede usar ~r~una ~s~tarjeta de rasca y gana a la vez.</String>
         <String xml:lang="de-DE">Du kannst nur ~r~ein ~s~Rubbellos gleichzeitig nutzen.</String>
         <String xml:lang="pt-BR">Você só pode usar ~r~uma ~s~raspadinha por vez.</String>
+        <String xml:lang="ar-001">يمكنك فقط استخدام بطاقة الخدش ~r~واحدة ~s~في المرة الواحدة.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -50,6 +53,7 @@
         <String xml:lang="tr-TR">Bir seferde yalnızca ~r~bir ~s~vücut zırhı kullanabilirsiniz.</String>
         <String xml:lang="pl-PL">Możesz użyć tylko ~r~jedną ~s~kamizelkę kuloodporną w danym momencie.</String>
         <String xml:lang="pt-BR">Você só pode usar ~r~um ~s~colete à prova de balas por vez.</String>
+        <String xml:lang="ar-001">يمكنك فقط استخدام ~r~واحد ~s~من الدرع الواقي من الرصاص في المرة الواحدة.</String>
     </Entry>
 
     <Entry Id="specialitem_armor_cooldown">
@@ -61,6 +65,7 @@
         <String xml:lang="tr-TR">Gerekli {0} saniye ~r~beklemelisin~s~, bu tip ~p~vücut zırhını ~s~tekrar kullanmadan önce.</String>
         <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~{0} sekund zanim użyjesz ten typ ~p~kamizelki kuloodpornej ~s~ponownie.</String>
         <String xml:lang="pt-BR">Você precisa ~r~esperar ~s~{0} segundos para poder usar esse tipo de ~p~colete à prova de balas ~s~uma vez.</String>
+        <String xml:lang="ar-001">أنت بحاجة إلى ~r~الانتظار ~s~{0} ثانية لاستخدام هذا النوع من ~p~الدروع الواقية من الرصاص ~s~ مرة أخرى.</String>
     </Entry>
 
 
@@ -78,6 +83,7 @@
         <String xml:lang="tr-TR">Kullanamazsınız {0} şu durumlarda {1}</String>
         <String xml:lang="pl-PL">Nie możesz użyć ~r~{0} ~s~gdy jesteś {1}</String>
         <String xml:lang="pt-BR">Não é possível usar ~r~{0} ~s~quando você está {1}</String>
+        <String xml:lang="ar-001">لا يمكنك استخدام ~r~{0} ~s~عندما تكون {1}</String>
     </Entry>
 
     <!-- items -->
@@ -90,6 +96,7 @@
         <String xml:lang="tr-TR">ilk yardım çantası</String>
         <String xml:lang="pl-PL">apteczka</String>
         <String xml:lang="pt-BR">kit de primeiros socorros</String>
+        <String xml:lang="ar-001">حقيبة طبية</String>
     </Entry>
 
     <!-- {0} = Player color -->
@@ -103,6 +110,7 @@
         <String xml:lang="es-ES">(C){0}{1} ({2})(/C) ~s~usaste un ~p~botiquín~s~.</String>
         <String xml:lang="de-DE">(C){0}{1} ({2})(/C) ~s~hat einen ~p~Verbandskasten genutzt~s~.</String>
         <String xml:lang="pt-BR">(C){0}{1} ({2})(/C) ~s~usou um ~p~kit de primeiros socorros~s~.</String>
+        <String xml:lang="ar-001">(C){0}{1} ({2})(/C) ~s~استخدم ~p~حقيبة طبية~s~.</String>
     </Entry>
 
     <Entry Id="medkit_cooldown">
@@ -113,6 +121,7 @@
         <String xml:lang="es-ES">Tienes que ~r~esperar ~s~30 segundos para usar otro ~p~botiquín~s~.</String>
         <String xml:lang="de-DE">Du musst zwischen der Verwendung von ~p~Verbandskästen~s~ 30 Sekunden ~r~warten~s~.</String>
         <String xml:lang="pt-BR">Você precisa ~r~esperar ~s~30 segundos para usar outro ~p~kit de primeiros socorros~s~.</String>
+        <String xml:lang="ar-001">تحتاج إلى ~r~الأنتظار ~s~30 ثانية بين استخدامات ~p~حقيبة طبية~s~.</String>
     </Entry>
 
     <Entry Id="medkit_at_time">
@@ -123,6 +132,7 @@
         <String xml:lang="es-ES">Solo puedes usar ~r~un ~s~botiquín a la vez.</String>
         <String xml:lang="de-DE">Du kannst nur ~r~einen ~s~Verbandskasten gleichzeitig nutzen.</String>
         <String xml:lang="pt-BR">You can only use ~r~one ~s~medkit at a time.</String>
+        <String xml:lang="ar-001">يمكنك فقط استخدام ~r~واحدة ~s~حقيبة طبية في المرة الواحدة.</String>
     </Entry>
 
     <Entry Id="bandage">
@@ -134,6 +144,7 @@
         <String xml:lang="tr-TR">bandaj</String>
         <String xml:lang="pl-PL">bandaż</String>
         <String xml:lang="pt-BR">bendaje</String>
+        <String xml:lang="ar-001">ضمادة</String>
     </Entry>
 
     <!-- {0} = Player color -->
@@ -147,6 +158,7 @@
         <String xml:lang="es-ES">(C){0}{1} ({2})(/C) ~s~has usado un ~p~vendaje~s~.</String>
         <String xml:lang="de-DE">(C){0}{1} ({2})(/C) ~s~hat eine ~p~Bandage~s~ verwendet.</String>
         <String xml:lang="pt-BR">(C){0}{1} ({2})(/C) ~s~você usou uma ~p~bandagem~s~.</String>
+        <String xml:lang="ar-001">(C){0}{1} ({2})(/C) ~s~استخدم ~p~ضمادة~s~.</String>
     </Entry>
 
     <Entry Id="bodyarmor">
@@ -158,6 +170,7 @@
         <String xml:lang="tr-TR">vucüt zırhı</String>
         <String xml:lang="pl-PL">kamizelka kuloodporna</String>
         <String xml:lang="pt-BR">colete à prova de balas</String>
+        <String xml:lang="ar-001"></String>
     </Entry>
 
     <!-- {0} = Player color -->
@@ -171,6 +184,7 @@
         <String xml:lang="es-ES">(C){0}{1} ({2})(/C) ~s~utilizo un ~p~chaleco antibalas~s~.</String>
         <String xml:lang="de-DE">(C){0}{1} ({2})(/C) ~s~hat eine ~p~Schutzweste ~s~angezogen.</String>
         <String xml:lang="pt-BR">(C){0}{1} ({2})(/C) ~s~usou um ~p~colete à prova de balas~s~.</String>
+        <String xml:lang="ar-001">الدروع الواقية</String>
     </Entry>
 
     <!-- activites -->
@@ -183,6 +197,7 @@
         <String xml:lang="tr-TR">~b~yanıyor~s~.</String>
         <String xml:lang="pl-PL">~b~w płomieniach~s~.</String>
         <String xml:lang="pt-BR">~b~em chamas~s~.</String>
+        <String xml:lang="ar-001">~b~يحترق~s~.</String>
     </Entry>
 
     <Entry Id="on_duty">
@@ -194,6 +209,7 @@
         <String xml:lang="tr-TR">~b~görevde~s~.</String>
         <String xml:lang="pl-PL">~b~na służbie~s~.</String>
         <String xml:lang="pt-BR">~b~em serviço~s~.</String>
+        <String xml:lang="ar-001">~b~في الخدمة~s~.</String>
     </Entry>
 
     <Entry Id="being_stunned">
@@ -205,6 +221,7 @@
         <String xml:lang="tr-TR">~b~sersemlemiş ~s~olmak.</String>
         <String xml:lang="pl-PL">~b~sparaliżowany~s~.</String>
         <String xml:lang="pt-BR">você está ~b~atordoado~s~.</String>
+        <String xml:lang="ar-001">~b~معمي~s~.</String>
     </Entry>
 
     <Entry Id="being_cuffed">
@@ -216,6 +233,7 @@
         <String xml:lang="tr-TR">~b~kelepçeli ~s~olmak.</String>
         <String xml:lang="pl-PL">~b~zakuwanym~s~.</String>
         <String xml:lang="pt-BR">enquanto ~b~algemado~s~.</String>
+        <String xml:lang="ar-001">يتم~b~تقييد~s~.</String>
     </Entry>
 
     <Entry Id="cuffed">
@@ -227,6 +245,7 @@
         <String xml:lang="tr-TR">~b~kelepçeli~s~.</String>
         <String xml:lang="pl-PL">~b~zakuty~s~.</String>
         <String xml:lang="pt-BR">~b~algemado~s~.</String>
+        <String xml:lang="ar-001">~b~مقيد~s~.</String>
     </Entry>
 
     <Entry Id="suffering_od">
