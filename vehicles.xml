@@ -10,7 +10,7 @@
         <String xml:lang="es-ES">¡Tu ~b~{0} ~s~ha sido devuelta a tu garaje!</String>
         <String xml:lang="pt-BR">Seu ~b~{0} ~s~foi devolvido à sua garagem!</String>
         <String xml:lang="de-DE">Dein ~b~{0} ~s~wurde zurück zur Garage gebracht!</String>
-        <String xml:lang="ar-001">لقد تم إرجاع ~b~{0} ~s~ الخاص بك إلى المرآب الخاص بك!</String>
+        <String xml:lang="ar-001">لقد تم إرجاع ~b~{0}~s~ الخاص بك إلى المرآب الخاص بك!</String>
     </Entry>
 
     <Entry Id="cant_do_when_cuffed">
@@ -43,7 +43,7 @@
         <String xml:lang="es-ES">Su ~b~{0} ~s~ha sido enviado a mantenimiento. Esto tomará unos minutos.</String>
         <String xml:lang="pt-BR">Seu ~b~{0} ~s~foi enviado para manutenção. Isso levará alguns minutos.</String>
         <String xml:lang="de-DE">Dein ~b~{0} ~s~wurde zur Wartung geschickt. Es wird einige Minuten dauern.</String>
-        <String xml:lang="ar-001">تم إرسال ~b~{0} ~s~ الخاص بك إلى الصيانة. هذا سوف يستغرق بضع دقائق</String>
+        <String xml:lang="ar-001">تم إرسال ~b~{0}~s~ الخاص بك إلى الصيانة. هذا سوف يستغرق بضع دقائق</String>
     </Entry>
 
     <Entry Id="vehicle_already_in_maintenance">
@@ -66,7 +66,7 @@
         <String xml:lang="es-ES">El mantenimiento de su ~b~{0} ~s~ha finalizado.</String>
         <String xml:lang="pt-BR">A manutenção de seu ~b~{0} ~s~foi concluída.</String>
         <String xml:lang="de-DE">Die Wartung von deinem ~b~{0} ~s~wurde abgeschlossen.</String>
-        <String xml:lang="ar-001">تم الانتهاء من صيانة ~b~{0} ~s~.</String>
+        <String xml:lang="ar-001">تم الانتهاء من صيانة ~b~{0}~s~.</String>
     </Entry>
 
     <!-- {0} = Vehicle -->
@@ -78,7 +78,7 @@
         <String xml:lang="es-ES">¡Su ~b~{0} ~s~ha sido sustituido y transportado a su garaje!</String>
         <String xml:lang="pt-BR">Seu ~b~{0} ~s~foi substituído e transportado para sua garagem!</String>
         <String xml:lang="de-DE">Dein ~b~{0} ~s~wurde ersetzt und zu deiner Garage transportiert!</String>
-        <String xml:lang="ar-001">لقد تم استبدال ~b~{0} ~s~ الخاص بك ونقله إلى المرآب الخاص بك!</String>
+        <String xml:lang="ar-001">لقد تم استبدال ~b~{0} ~s~الخاص بك ونقله إلى المرآب الخاص بك!</String>
     </Entry>
 
     <Entry Id="vehicle_replaced">
@@ -89,7 +89,7 @@
         <String xml:lang="es-ES">Su ~b~{0} ~s~ha sido sustituido.</String>
         <String xml:lang="pt-BR">Seu ~b~{0} ~s~foi substituído.</String>
         <String xml:lang="de-DE">Dein ~b~{0} ~s~wurde ersetzt.</String>
-        <String xml:lang="ar-001">لقد تم استبدال ~b~{0} ~s~ الخاص بك</String>
+        <String xml:lang="ar-001">لقد تم استبدال ~b~{0} ~s~الخاص بك</String>
     </Entry>
 
     <!-- {0} = Vehicle -->
@@ -123,7 +123,7 @@
         <String xml:lang="es-ES">Vendiste tu ~b~{0} ~s~al servidor por ~g~{1}~s~.</String>
         <String xml:lang="pt-BR">Você vendeu seu ~b~{0} ~s~para o servidor por ~g~{1}~s~.</String>
         <String xml:lang="de-DE">Du hast dein ~b~{0} an den Server für ~g~{1}~s~ verkauft.</String>
-        <String xml:lang="ar-001">لقد قمت ببيع ~b~{0} ~s~ إلى السيرفر مقابل ~g~{1}~s~.</String>
+        <String xml:lang="ar-001">لقد قمت ببيع ~b~{0} ~s~إلى السيرفر مقابل ~g~{1}~s~.</String>
     </Entry>
     <!-- {0} = Fuel/Battery -->
     <Entry Id="running_low_fuel">
@@ -177,7 +177,7 @@
         <String xml:lang="es-ES">Usted no puede bloquear o desbloquear su ~b~vehículo ~s~cuando usted está ~r~esposado~s~.</String>
         <String xml:lang="pt-BR">Você não pode trancar ou destrancar seu ~b~veículo ~s~quando estiver ~r~algemado~s~.</String>
         <String xml:lang="de-DE">Du kannst dein ~b~Fahrzeug ~s~nicht verriegeln und entriegeln, wenn du ~r~festgenommen ~s~bist.</String>
-        <String xml:lang="ar-001">لا يمكنك قفل أو فتح ~b~سيارتك ~s~ عندما تكون ~r~مقيد~s~.</String>
+        <String xml:lang="ar-001">لا يمكنك قفل أو فتح ~b~سيارتك ~s~عندما تكون ~r~مقيد~s~.</String>
     </Entry>
 
     <Entry Id="vehicle_out_of_range">
@@ -186,7 +186,7 @@
         <String xml:lang="es-ES">Su ~b~vehículo ~s~está ~r~fuera de alcance~s~.</String>
         <String xml:lang="pt-BR">Seu ~b~veículo ~s~está ~r~fora de alcance~s~.</String>
         <String xml:lang="de-DE">Dein ~b~Fahrzeug ~s~befindet sich ~r~außerhalb der Reichweite~s~.</String>
-        <String xml:lang="ar-001">~b~مركبتك ~s~ ~r~خارج النطاق~s~.</String>
+        <String xml:lang="ar-001">~b~مركبتك~s~ ~r~خارج النطاق~s~.</String>
     </Entry>
 
     <!-- {0} = Locked/Unlocked -->
@@ -196,7 +196,7 @@
         <String xml:lang="es-ES">Tu {0} ~s~tu ~b~vehículo~s~.</String>
         <String xml:lang="pt-BR">Seu {0} ~s~seu ~b~veículo~s~.</String>
         <String xml:lang="de-DE">Du hast dein ~b~Fahrzeug ~s~{0}~s~.</String>
-        <String xml:lang="ar-001">أنت {0} ~s~b~مركبتك~.</String>
+        <String xml:lang="ar-001">أنت ~s~{0} ~b~مركبتك~s~.</String>
     </Entry>
 
     <Entry Id="vehicle_ejecting_passenger_cooldown">
@@ -205,7 +205,7 @@
         <String xml:lang="es-ES">Por favor, ~r~espere ~s~antes de expulsar a otro ~b~pasajero~s~.</String>
         <String xml:lang="pt-BR">Por favor, ~r~espere ~s~antes de ejetar outro ~b~passageiro~s~.</String>
         <String xml:lang="de-DE">Bitte ~r~warte~s~, bevor du einen weiteren ~b~Beifahrer ~s~rausschmeißt.</String>
-        <String xml:lang="ar-001">الرجاء ~r~الانتظار ~s~ قبل إخراج ~b~راكب~s~ آخر.</String>
+        <String xml:lang="ar-001">الرجاء ~r~الانتظار ~s~قبل إخراج ~b~راكب~s~ آخر.</String>
     </Entry>
 
     <!-- {0} = Player name -->
