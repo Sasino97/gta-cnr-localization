@@ -645,9 +645,13 @@ if __name__ == '__main__':
     parser.add_argument('--display_limit', type=int, default=10, help='Set display limit for missing translations')
     args = parser.parse_args()
     Validator.custom_xml_parser = Validator.setup_xml_parser()
-    if args.preview_formatting and DOMINATE_INSTALLED:
-        Validator.preview_formatting = True
-        Validator.setup_html_doc()
+    if args.preview_formatting:
+        if DOMINATE_INSTALLED:
+            Validator.preview_formatting = True
+            Validator.setup_html_doc()
+        else:
+            print("Unable to generate preview, dominate is not installed")
+            print("You need to install it with 'pip install dominate'")
     Validator.display_limit = args.display_limit
     Validator.warnings_as_errors = args.treat_warnings_as_errors
     Validator.show_lang = args.show_lang
@@ -657,7 +661,7 @@ if __name__ == '__main__':
     if Validator.show_lang is not None:
         print(f"Total missing translations for {repr(Validator.show_lang)}: {Validator.found_missing_lang}. "
               f"Progress: {Validator.total_strings - Validator.found_missing_lang}/{Validator.total_strings}")
-    if Validator.preview_formatting and DOMINATE_INSTALLED:
+    if Validator.preview_formatting:
         with open("preview.html", "w", encoding="utf-8") as file:
             file.write(Validator.main_doc.render(pretty=False))
         print("Formatting preview has been generated in preview.html\n")
