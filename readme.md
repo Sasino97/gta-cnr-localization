@@ -208,7 +208,7 @@ Text can also be highlighted with the `(C)(/C)` tags.
 - French (France): `fr-FR`
 - Dutch (Netherlands): `nl-NL`
 - Italian (Italy): `it-IT`
-- Spanish (Spain): `es-ES`
+- Spanish (Spain-Latam): `es-ES`
 - Portuguese (Brazil): `pt-BR`
 - Polish (Poland): `pl-PL`
 - Turkish (Turkey): `tr-TR`
