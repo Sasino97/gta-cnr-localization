@@ -173,18 +173,16 @@
         <String xml:lang="ar-001"></String>
     </Entry>
 
-    <!-- {0} = Player color -->
-    <!-- {1} = Player name -->
-    <!-- {2} = Player Id -->
+    <!-- {0} = Player name/id -->
     <Entry Id="player_used_bodyarmor">
-        <String xml:lang="en-US">(C){0}{1} ({2})(/C) ~s~equipped a ~p~body armor~s~.</String>
-        <String xml:lang="nl-NL">(C){0}{1} ({2})(/C) ~s~gebruikt een ~p~kogelvrij vest~s~.</String>
-        <String xml:lang="it-IT">(C){0}{1} ({2})(/C) ~s~ha equipaggiato un ~p~giubbotto antiproiettile~s~.</String>
-        <String xml:lang="pl-PL">(C){0}{1} ({2})(/C) ~s~ubrał ~p~kamizelkę kuloodporną~s~.</String>
-        <String xml:lang="es-ES">(C){0}{1} ({2})(/C) ~s~utilizo un ~p~chaleco antibalas~s~.</String>
-        <String xml:lang="de-DE">(C){0}{1} ({2})(/C) ~s~hat eine ~p~Schutzweste ~s~angezogen.</String>
-        <String xml:lang="pt-BR">(C){0}{1} ({2})(/C) ~s~usou um ~p~colete à prova de balas~s~.</String>
-        <String xml:lang="ar-001">الدروع الواقية</String>
+        <String xml:lang="en-US">{0} ~s~equipped a ~p~body armor~s~.</String>
+        <String xml:lang="nl-NL">{0} ~s~gebruikt een ~p~kogelvrij vest~s~.</String>
+        <String xml:lang="it-IT">{0} ~s~ha equipaggiato un ~p~giubbotto antiproiettile~s~.</String>
+        <String xml:lang="pl-PL">{0} ~s~ubrał ~p~kamizelkę kuloodporną~s~.</String>
+        <String xml:lang="es-ES">{0} ~s~utilizo un ~p~chaleco antibalas~s~.</String>
+        <String xml:lang="de-DE">{0} ~s~hat eine ~p~Schutzweste ~s~angezogen.</String>
+        <String xml:lang="pt-BR">{0} ~s~usou um ~p~colete à prova de balas~s~.</String>
+        <String xml:lang="ar-001">{0} ~s~استخدم ~p~درع واقي للرصاص~s~.</String>
     </Entry>
 
     <!-- activites -->
@@ -346,7 +344,7 @@
         <String xml:lang="tr-TR">Sen ~r~yeterince yakın ~s~değilsin ~b~{0} ~s~aracında kullanmak için.</String>
         <String xml:lang="pl-PL">Nie jesteś ~r~wystarczająco blisko ~s~by użyć ~b~{0} ~s~na swoim pojeździe.</String>
         <String xml:lang="pt-BR">Você não está ~r~próximo o suficiente ~s~para usar um ~b~{0} ~s~em seu veículo..</String>
-        <String xml:lang="ar-001">أنت لست قريبًا بدرجة كافية من ~s~لاستخدام ~b~{0} ~s~في سيارتك.</String>
+        <String xml:lang="ar-001">أنت لست ~r~قريبًا بدرجة كافية من ~s~لاستخدام ~b~{0} ~s~في سيارتك.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_control">
@@ -571,7 +569,7 @@
         <String xml:lang="es-ES">Encuentra todas las ~o~calabazas ~s~antes de que termine el ~o~evento ~s~para ganar un ~g~gran premio~s~.</String>
         <String xml:lang="pt-BR">Encontre todas as ~o~abóboras ~s~antes que o ~o~evento ~s~termine para ganhar um ~g~grande prêmio~s~.</String>
         <String xml:lang="de-DE">Finde alle ~o~Kürbisse~s~, bevor das ~o~Event ~s~endet, um einen ~g~großen Preis ~s~zu gewinnen.</String>
-        <String xml:lang="ar-001">ابحث عن جميع ~o~اليقطين ~s~قبل نهاية ~o~الحدث ~s~للفوز بالجائزة الكبرى~s~.</String>
+        <String xml:lang="ar-001">ابحث عن جميع ~o~اليقطين ~s~قبل نهاية ~o~الحدث ~s~للفوز ~g~بالجائزة الكبرى~s~.</String>
     </Entry>
 
     <!-- {0} = Pumpkin id -->
