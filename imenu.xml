@@ -47,7 +47,7 @@
         <String xml:lang="de-DE">Zeige und verwalte deine Gegenstände. ~p~Schon gewusst? ~s~Du kannst ~y~F2 drücken~s~, um das Menü zu öffnen.</String>
         <String xml:lang="it-IT">Visualizza e gestisci i tuoi oggetti. ~p~Lo sapevi? ~s~Puoi accedere a questo menu anche ~y~premendo F2~s~.</String>
         <String xml:lang="fr-FR">Gestion des objets. ~p~Le savais-tu? ~s~Tu peux aussi ~y~appuyer sur F2 ~s~pour ouvrir ce menu.</String>
-        <String xml:lang="zh-Hant">查看和管理您的項目. ~p~你知道嗎? ~s~您也可以 ~y~按 F2 ~s~打開選單.</String>
+        <String xml:lang="zh-Hant">查看和管理您的背包. ~p~你知道嗎? ~s~您也可以 ~y~按 F2 ~s~打開選單.</String>
         <String xml:lang="zh-Hans">查看和管理您的项目. ~p~你知道吗? ~s~您也可以 ~y~按 F2 ~s~打开选单.</String>
         <String xml:lang="es-ES">Mira y gestione tus artículos. ~p~¿Sabías que? ~s~También puedes ~y~presionar F2 ~s~para abrir este menú.</String>
         <String xml:lang="pt-BR">Visualizar e gerenciar seus artigos. ~p~¿Você sabia que? ~s~Você também ~y~pode pressionar f2 ~s~para abrir este menu.</String>
@@ -63,7 +63,7 @@
         <String xml:lang="de-DE">Kleiderschrank</String>
         <String xml:lang="it-IT">Guardaroba</String>
         <String xml:lang="fr-FR">Garde-robe</String>
-        <String xml:lang="zh-Hant">衣櫃</String>
+        <String xml:lang="zh-Hant">服飾</String>
         <String xml:lang="zh-Hans">衣柜</String>
         <String xml:lang="es-ES">Armario</String>
         <String xml:lang="pt-BR">Armário</String>
@@ -79,7 +79,7 @@
         <String xml:lang="de-DE">Zeige und verwalte deine Kleidung und deine Accessories.</String>
         <String xml:lang="it-IT">Visualizza e gestisci i tuoi vestiti ed accessori.</String>
         <String xml:lang="fr-FR">Gestion des vêtements et accessoires.</String>
-        <String xml:lang="zh-Hant">查看和管理你的衣服和配件</String>
+        <String xml:lang="zh-Hant">查看和管理你的衣服或配件</String>
         <String xml:lang="zh-Hans">查看和管理你的衣服和配件</String>
         <String xml:lang="es-ES">Mira y gestiona tu ropa y accesorios.</String>
         <String xml:lang="pt-BR">Visualize e gerencie suas roupas e acessórios.</String>
@@ -95,7 +95,7 @@
         <String xml:lang="de-DE">Waffenkammer</String>
         <String xml:lang="it-IT">Armeria</String>
         <String xml:lang="fr-FR">Armurerie</String>
-        <String xml:lang="zh-Hant">軍械庫</String>
+        <String xml:lang="zh-Hant">槍枝管理</String>
         <String xml:lang="zh-Hans">军械库</String>
         <String xml:lang="es-ES">Armería</String>
         <String xml:lang="pt-BR">Arsenal</String>
@@ -130,6 +130,7 @@
         <String xml:lang="pt-BR">Não é possível ~r~remover ~s~o carregador.</String>
         <String xml:lang="ar-001">لا يمكنك ~r~ازالة ~s~خزنة الذخيرة</String>
         <String xml:lang="th-TH">คุณไม่สามารถ ~r~ถอด ~s~แม็กกาซีนได้</String>
+        <String xml:lang="zh-Hant">你不能 ~r~移除 ~r~彈夾</String>
     </Entry>
 
 
@@ -239,7 +240,7 @@
         <String xml:lang="de-DE">Statistiken</String>
         <String xml:lang="it-IT">Statistiche</String>
         <String xml:lang="fr-FR">Statistiques</String>
-        <String xml:lang="zh-Hant">統計</String>
+        <String xml:lang="zh-Hant">遊戲資料</String>
         <String xml:lang="zh-Hans">统计</String>
         <String xml:lang="es-ES">Estadísticas</String>
         <String xml:lang="pt-BR">Stats</String>
@@ -255,7 +256,7 @@
         <String xml:lang="de-DE">Zeige deine vollständige Statistik an.</String>
         <String xml:lang="it-IT">Visualizza tutte le tue statistiche.</String>
         <String xml:lang="fr-FR">Visualisation des statistiques complètes.</String>
-        <String xml:lang="zh-Hant">查看你的所有統計數值</String>
+        <String xml:lang="zh-Hant">查看你的所有統計數據</String>
         <String xml:lang="zh-Hans">查看你的所有统计数值</String>
         <String xml:lang="es-ES">Ver tus estadísticas completas</String>
         <String xml:lang="pt-BR">Ver suas estatísticas completas.</String>
@@ -337,7 +338,8 @@
         <String xml:lang="fr-FR">Ce joueur n'est ~r~pas connecté~s~.</String>
         <String xml:lang="pt-BR">Esse jogador ~r~não está conectado~s~.</String>
         <String xml:lang="ar-001">هذا اللاعب ~r~غير متصل~s~.</String>
-         <String xml:lang="th-TH">ผู้เล่นคนนี้ ~r~ไม่เชื่อมต่อ~s~</String>
+        <String xml:lang="th-TH">ผู้เล่นคนนี้ ~r~ไม่เชื่อมต่อ~s~</String>
+        <String xml:lang="zh-Hant">該位玩家 ~r~不在線~r~</String>
     </Entry>
 
     <Entry Id="imenu_help_invalid_id">
@@ -351,6 +353,7 @@
         <String xml:lang="pt-BR">Você não inseriu uma ~r~ID de jogador válido~s~.</String>
         <String xml:lang="ar-001">لم تقم بإدخال ~r~معرف لاعب صالح~s~.</String>
         <String xml:lang="th-TH">คุณไม่ได้ป้อน ~r~รหัสผู้เล่นที่ถูกต้อง~s~</String>
+        <String xml:lang="zh-Hant">請輸入 ~r~再線玩家的ID~r~</String>
     </Entry>
 
     <Entry Id="imenu_help_report_not_submitted">
@@ -364,6 +367,7 @@
         <String xml:lang="pt-BR">~r~Atenção: ~s~o relatório ~r~não ~s~foi enviado!</String>
         <String xml:lang="ar-001">~r~انتبه: ~s~لم يتم إرسال البلاغ!</String>
         <String xml:lang="th-TH">~r~โปรดทราบ: ~s~รายงาน ~r~ไม่ได้ ~s~ถูกส่ง!</String>
+        <String xml:lang="zh-Hant">~r~注意:~r~ 此舉報還未被提交!</String>
     </Entry>
 
     <Entry Id="imenu_help_report_canceled">
@@ -377,6 +381,7 @@
         <String xml:lang="pt-BR"> Você ~r~cancelou ~s~o relatório.</String>
         <String xml:lang="ar-001">انت قمت ~r~بألغاء ~s~البلاغ</String>
         <String xml:lang="th-TH">คุณ ~r~ยกเลิก ~s~รายงาน</String>
+        <String xml:lang="zh-Hant">你 ~r~取消~r~ 了此次舉報</String>
     </Entry>
 
 
@@ -420,7 +425,7 @@
         <String xml:lang="de-DE">Verwalte deinen Drogenbestand, zeige die letzten Anrufe und deine letzten Verkäufe an.</String>
         <String xml:lang="it-IT">Gestisci la tua scorta di droghe, visualizza le chiamate recenti e le vendite precedenti.</String>
         <String xml:lang="fr-FR">Gestion de ton stock de drogue, voir les appels récents et ton historique de ventes.</String>
-        <String xml:lang="zh-Hant">管理您的藥品庫存,查看最近的通話和過去的銷售情況.</String>
+        <String xml:lang="zh-Hant">管理您的毒品庫存,查看最近的通話和過去的銷售情況.</String>
         <String xml:lang="zh-Hans">管理您的药品库存,查看最近的通话和过去的销售情况.</String>
         <String xml:lang="es-ES">Gestiona tu stock de drogas, ver las llamadas recientes y las ventas anteriores.</String>
         <String xml:lang="pt-BR">Gerencie seu estoque de drogas, visualize chamadas recentes e vendas anteriores.</String>
@@ -436,7 +441,7 @@
         <String xml:lang="de-DE">Verwalte deine Werkzeuge und Gegenstände die du verkaufst, zeige die letzten Anrufe und deine letzten Verkäufe an.</String>
         <String xml:lang="it-IT">Gestisci gli oggetti ed attrezzi che vendi, visualizza le chiamate recenti e le vendite precedenti.</String>
         <String xml:lang="fr-FR">Gestion de tes outils et des objets que tu peux vendre, voir les appels récents et ton historique de ventes.</String>
-        <String xml:lang="zh-Hant">管理您銷售的工具和商品,查看最近的通話和過去的銷售.</String>
+        <String xml:lang="zh-Hant">管理您銷售的工具或商品,查看最近的通話紀錄或過去的銷售.</String>
         <String xml:lang="zh-Hans">管理您销售的工具和商品,查看最近的通话和过去的销售.</String>
         <String xml:lang="es-ES">Gestiona las herramientas y artículos que vendes, ver las llamadas recientes y las ventas anteriores.</String>
         <String xml:lang="pt-BR">Manage the tools and items you sell, view recent calls and past sales.</String>
@@ -452,7 +457,7 @@
         <String xml:lang="de-DE">Benutze dein Funkgerät und zeige die letzten Anrufe an.</String>
         <String xml:lang="it-IT">Utilizza la tua radio e visualizza le chiamate recenti.</String>
         <String xml:lang="fr-FR">Utiliser ta radio et voir les appels récents.</String>
-        <String xml:lang="zh-Hant">使用你的無線電和查看最近的通話</String>
+        <String xml:lang="zh-Hant">使用你的無線電或查看最近的通話</String>
         <String xml:lang="zh-Hans">使用你的无线电和查看最近的通话</String>
         <String xml:lang="es-ES">Utiliza tu radio y mira las llamadas recientes</String>
         <String xml:lang="pt-BR">Use seu rádio e veja as chamadas recentes.</String>
@@ -468,7 +473,7 @@
         <String xml:lang="de-DE">Benutze dein Funkgerät und zeige die letzten Anrufe an.</String>
         <String xml:lang="it-IT">Utilizza la tua radio e visualizza le chiamate recenti.</String>
         <String xml:lang="fr-FR">Utiliser ta radio et voir les appels récents.</String>
-        <String xml:lang="zh-Hant">使用你的無線電和查看最近的通話</String>
+        <String xml:lang="zh-Hant">使用你的無線電或查看最近的通話</String>
         <String xml:lang="zh-Hans">使用你的无线电和查看最近的通话</String>
         <String xml:lang="es-ES">Utiliza tu radio y mira las llamadas recientes</String>
         <String xml:lang="pt-BR">Use seu rádio e veja as chamadas recentes.</String>
@@ -551,8 +556,8 @@
         <String xml:lang="de-DE">~b~Bestand</String>
         <String xml:lang="it-IT">~b~Scorta</String>
         <String xml:lang="fr-FR">~b~Stock</String>
-        <String xml:lang="zh-Hant">倉庫</String>
-        <String xml:lang="zh-Hans">仓库</String>
+        <String xml:lang="zh-Hant">~b~貨品</String>
+        <String xml:lang="zh-Hans">~b~仓库</String>
         <String xml:lang="es-ES">~b~Stock</String>
         <String xml:lang="pt-BR">~b~Stock</String>
         <String xml:lang="ar-001">~b~الأسهم</String>
@@ -567,7 +572,7 @@
         <String xml:lang="de-DE">Verwalte deinen Bestand und setze die Preise fest.</String>
         <String xml:lang="it-IT">Gestisci le tue scorte ed imposta i prezzi.</String>
         <String xml:lang="fr-FR">Gère ton stock et tes prix de vente.</String>
-        <String xml:lang="zh-Hant">管理你的倉庫和設定價格</String>
+        <String xml:lang="zh-Hant">管理你的倉庫或設定價格</String>
         <String xml:lang="zh-Hans">管理你的仓库和设定价格</String>
         <String xml:lang="es-ES">Gestiona tu stock y pon los precios.</String>
         <String xml:lang="pt-BR">Gerencie seu estoque e defina preços.</String>
@@ -599,7 +604,7 @@
         <String xml:lang="de-DE">Besuche Geschäfte und kaufe ein paar Sachen!</String>
         <String xml:lang="it-IT">Visita un negozio e comprati qualcosa!</String>
         <String xml:lang="fr-FR">Rends-toi dans un magasin et achète des objets!</String>
-        <String xml:lang="zh-Hant">造訪商店和購買一些物品!</String>
+        <String xml:lang="zh-Hant">關顧商店和購買一些物品!</String>
         <String xml:lang="zh-Hans">造访商店和购买一些物品!</String>
         <String xml:lang="es-ES">Visita las tiendas y compra algunas cosas!</String>
         <String xml:lang="pt-BR">Visite as lojas e compre algumas coisas!</String>
@@ -829,7 +834,7 @@
         <String xml:lang="es-ES">No hay artículos en esta categoría :(</String>
         <String xml:lang="pl-PL">Brak przedmiotów w tej kategorii :(</String>
         <String xml:lang="fr-FR">Pas d'objets dans cette catégorie :(</String>
-        <String xml:lang="zh-Hant">這個分類裡沒有東西 :(</String>
+        <String xml:lang="zh-Hant">這個分類裡沒有物品 :(</String>
         <String xml:lang="zh-Hans">这个分类里没有东西 :(</String>
         <String xml:lang="pt-BR">Não há artigos nesta categoria :(</String>
         <String xml:lang="ar-001">لا يوجد شيء في هذه المجموعة :(</String>
@@ -1249,7 +1254,7 @@
         <String xml:lang="es-ES">Puedes acceder a tu armario en tu {0} ~y~Menú ~s~&gt; ~y~Armario~s~.</String>
         <String xml:lang="fr-FR">Tu peux accéder à tes vêtements dans ton {0} ~y~Menu ~s~&gt; ~y~Garde-robe~s~.</String>
         <String xml:lang="pl-PL">Możesz zarządzać swoją garderobą w swoim {0} ~y~Menu ~s~&gt; ~y~Garderoby~s~.</String>
-        <String xml:lang="zh-Hant">你可以管理你的服裝在你的 {0} ~y~選單~s~&gt; ~y~衣櫃~s~.</String>
+        <String xml:lang="zh-Hant">你可以管理你的服裝在你的 {0} ~y~選單~s~&gt; ~y~服飾~s~.</String>
         <String xml:lang="zh-Hans">你可以管理你的服装在你的 {0} ~y~选单~s~&gt; ~y~衣柜~s~.</String>
         <String xml:lang="pt-BR">Você pode acessar seu armario em seu {0} ~y~Menu ~s~&gt; ~y~Armario~s~.</String>
         <String xml:lang="ar-001">يمكنك الوصول إلى خزانة ملابسك من خلال {0} ~y~القائمة~s~&gt; ~y~خزانة الملابس~s~.</String>
@@ -1280,6 +1285,7 @@
         <String xml:lang="de-DE">Fahrzeuge</String>
         <String xml:lang="ar-001">المركبات</String>
         <String xml:lang="th-TH">ยานพาหนะ</String>
+        <String xml:lang="zh-Hant">車輛</String>
     </Entry>
 
     <Entry Id="menu_submenu_title_settings_title">
@@ -1291,5 +1297,6 @@
         <String xml:lang="de-DE">Einstellungen</String>
         <String xml:lang="ar-001">الأعدادات</String>
         <String xml:lang="th-TH">การตั้งค่า</String>
+        <String xml:lang="zh-Hant">設定</String>
     </Entry>
 </Entries>
