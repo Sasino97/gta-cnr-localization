@@ -17,7 +17,7 @@
         <String xml:lang="es-ES">Debes de ser minimo ~r~nivel {0} ~s~para convertirte en un ~p~{1}~s~.</String>
         <String xml:lang="pt-BR">Você deve ter pelo menos o ~r~level {0} ~s~to become a ~p~{1}~s~.</String>
         <String xml:lang="ar-001">يجب أن تكون على الأقل ~r~مستوي {0} ~s~لكي تصبح ~p~{1}~s~.</String>
-        <String xml:lang="th-TH">คุณต้องมีอย่างน้อย ~r~เลเวล {0} ~s~ถึงจะเป็น ~p~{1}~s~</String>
+        <String xml:lang="th-TH">คุณต้องมีอย่างน้อย ~r~เลเวล {0} ~s~ ถึงจะเป็น ~p~{1}~s~</String>
     </Entry>
 
     <!-- {0} = required playtime -->
@@ -70,7 +70,7 @@
         <String xml:lang="nl-NL">Je kan geen ~p~{0} ~s~worden wanneer je ~o~gezocht~s~ bent.</String>
         <String xml:lang="it-IT">Non puoi diventare un ~p~{0} ~s~quando sei ~o~ricercato~s~.</String>
         <String xml:lang="es-ES">No puedes convertirte en un ~p~{0} ~s~cuando estas ~o~en busqueda y captura.~s~.</String>
-        <String xml:lang="zh-Hant">~s~當你被 ~o~通緝時 ~s~你不能成為一個 ~p~{0}~s~.</String>
+        <String xml:lang="zh-Hant">~s~當你被 ~o~通緝時 ~s~你不能成為 ~p~{0}~s~.</String>
         <String xml:lang="zh-Hans">~s~当你被 ~o~通缉时 ~s~你不能成为一个 ~p~{0}~s~.</String>
         <String xml:lang="pl-PL">Nie możesz zostać ~p~{0} ~s~gdy jesteś ~o~poszukiwany~s~.</String>
         <String xml:lang="pt-BR">Você não pode se tornar um ~p~{0} ~s~quando se está ~o~busca e apreensão~s~.</String>
@@ -103,7 +103,8 @@
         <String xml:lang="pt-BR">Seu ~b~GPS ~s~foi definido para o local da ~y~chamada selecionada~s~.</String>
         <String xml:lang="de-DE">Dein ~b~GPS~s~ wurde auf die Position vom gewählten ~y~Anruf ~s~gesetzt.</String>
         <String xml:lang="ar-001">تم ضبط ~b~GPS ~s~على موقع ~y~call~s~ المحدد.</String>
-        <String xml:lang="th-TH">~b~GPS ~s~ของคุณได้รับการตั้งค่าไปยังตำแหน่งของ ~y~call~s~ ที่เลือกแล้ว</String>
+        <String xml:lang="th-TH">~b~GPS ~s~ ของคุณได้รับการตั้งค่าไปยังตำแหน่งของ ~y~call~s~ ที่เลือกแล้ว</String>
+        <String xml:lang="zh-Hant">您的 ~b~GPS~s~ 已被設置到 ~y~來電~s~ 的位置.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -119,7 +120,8 @@
         <String xml:lang="pt-BR">Você ofereceu seus ~y~serviços ~s~para {0}~s~.</String>
         <String xml:lang="de-DE">Du hast {0} deine ~y~Service ~s~angeboten.</String>
         <String xml:lang="ar-001">لقد عرضت ~y~خدماتك ~s~على {0}~s~.</String>
-        <String xml:lang="th-TH">คุณได้เสนอ ~y~บริการ ~s~ให้กับ {0}~s~</String>
+        <String xml:lang="th-TH">คุณได้เสนอ ~y~บริการ ~s~ ให้กับ {0}~s~</String>
+        <String xml:lang="zh-Hant">您已經把您的~y~服務項目 ~s~給予 {0}~s~查看.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -134,6 +136,7 @@
         <String xml:lang="de-DE">{0} ~s~hat dir ~y~seinen Service~s~ angeboten. {1} um das Menü zu sehen.</String>
         <String xml:lang="ar-001">{0} ~s~عرض عليك ~y~خدماته~s~. {1} لعرض القائمة الخاصة به.</String>
         <String xml:lang="th-TH">{0} ~s~ได้เสนอ ~y~บริการของเขา~s~ ให้กับคุณ {1} เพื่อดูเมนูของพวกเขา</String>
+        <String xml:lang="zh-Hant">{0} ~s~將 ~y~他的服務項目~s~. {1} 以查看他的服務項目.</String>
     </Entry>
 
     <!-- {0} = Job -->
@@ -147,7 +150,8 @@
         <String xml:lang="pt-BR">Você não pode se tornar um ~b~{0} ~s~porque o limite de {1}% de jogadores foi atingido..</String>
         <String xml:lang="de-DE">Du kannst kein ~b~{0} ~s~werden, da das {1}% Spielerlimit erreicht wurde.</String>
         <String xml:lang="ar-001">لا يمكنك أن تصبح ~b~{0} ~s~لأنه تم الوصول إلى الحد الأقصى لعدد اللاعبين بنسبة {1}%.</String>
-        <String xml:lang="th-TH">คุณไม่สามารถเป็น ~b~{0} ~s~ได้เนื่องจากมีผู้เล่นถึงขีดจำกัด {1}% แล้ว</String>
+        <String xml:lang="th-TH">คุณไม่สามารถเป็น ~b~{0} ~s~ ได้เนื่องจากมีผู้เล่นถึงขีดจำกัด {1}% แล้ว</String>
+        <String xml:lang="zh-Hant">你不能成為 ~b~{0} ~s~ 因為有超過 {1}% 的玩家選取了該職業</String>
     </Entry>
 
     <Entry Id="stp_too_far">
@@ -160,6 +164,7 @@
         <String xml:lang="de-DE">{0} ist ~r~zu weit ~s~von dir entfernt.</String>
         <String xml:lang="ar-001">{0} ~r~بعيد جدًا ~s~عنك.</String>
         <String xml:lang="th-TH">{0} ~r~อยู่ไกล ~s~จากคุณมากเกินไป</String>
+        <String xml:lang="zh-Hant">{0} ~r~離~s~你太遠了</String>
     </Entry>
 
     <Entry Id="stp_need_vehicle_to_purchase">
@@ -172,6 +177,7 @@
         <String xml:lang="de-DE">~r~Du brauchst ein Fahrzeug, um diesen Service kaufen zu können.</String>
         <String xml:lang="ar-001">~r~أنت بحاجة إلى سيارة لشراء هذه الخدمة.</String>
         <String xml:lang="th-TH">~r~คุณต้องมียานพาหนะในการซื้อบริการนี้</String>
+        <String xml:lang="zh-Hant">~r~您需要一台車輛以使用此服務</String>
     </Entry>
 
     <Entry Id="stp_cant_purchase_service_while_moving">
@@ -184,6 +190,7 @@
         <String xml:lang="de-DE">~r~Du kannst diesen Service nicht kaufen, wenn das Fahrzeug in Bewegung ist.</String>
         <String xml:lang="ar-001">~r~لا يمكنك شراء هذه الخدمة أثناء تحرك السيارة.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถซื้อบริการนี้ได้ในขณะที่ยานพาหนะกำลังเคลื่อนที่</String>
+        <String xml:lang="zh-Hant">~r~您不能再車輛移動時使用此服務</String>
     </Entry>
 
     <Entry Id="stp_cant_purchase_when_seller_in_vehicle">
@@ -196,6 +203,7 @@
         <String xml:lang="de-DE">~r~Du kannst diesen Service nicht kaufen, wenn der Verkäufer in einem Fahrzeug sitzt.</String>
         <String xml:lang="ar-001">~r~لا يمكنك شراء هذه الخدمة عندما يكون البائع داخل السيارة.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถซื้อบริการนี้ได้เมื่อผู้ขายอยู่ภายในยานพาหนะ</String>
+        <String xml:lang="zh-Hant">~r~當賣家在車內時，您將不能使用此服務</String>
     </Entry>
 
     <Entry Id="stp_too_far_from_seller">
@@ -208,6 +216,7 @@
         <String xml:lang="de-DE">~r~Du bist zu weit vom Verkäufer entfernt!</String>
         <String xml:lang="ar-001">~r~أنت بعيد جدًا عن البائع!</String>
         <String xml:lang="th-TH">~r~คุณอยู่ไกลจากผู้ขายเกินไป!</String>
+        <String xml:lang="zh-Hant">~r~賣家離你太遠了!</String>
     </Entry>
 
     <Entry Id="stp_seller_doesnt_have_enough">
@@ -219,6 +228,7 @@
         <String xml:lang="pt-BR">~r~O vendedor não tem o suficiente {0}!</String>
         <String xml:lang="de-DE">~r~Der Verkäufer hat nicht genug {0}!</String>
         <String xml:lang="th-TH">~r~ผู้ขายมี {0} ไม่พอ!</String>
+        <String xml:lang="zh-Hant">~r~賣家沒有足夠的 {0} 來銷售</String>
     </Entry>
 
     <Entry Id="stp_seller_doesnt_have_enough_supplies">
@@ -229,7 +239,8 @@
         <String xml:lang="es-ES">~r~El vendedor no tiene suficientes suministros para brindar el ~s~{0} ~r~servicio!</String>
         <String xml:lang="pt-BR">~r~O fornecedor não tem suprimentos suficientes para prestar o ~s~{0} ~r~serviço!</String>
         <String xml:lang="de-DE">~r~Der Verkäufer hat nicht genug Vorräte, um den ~s~{0}~r~-Service anzubieten!</String>
-        <String xml:lang="th-TH">~r~ผู้ขายมีสินค้าไม่เพียงพอที่จะให้บริการ ~s~{0}~r~!</String>
+        <String xml:lang="th-TH">~r~ผู้ขายมีสินค้าไม่เพียงพอที่จะให้บริการ ~s~{0} ~r~!</String>
+        <String xml:lang="zh-Hant">~r~賣家沒有足夠的補給以實行 ~s~{0}~r~ 業務</String>
     </Entry>
 
     <Entry Id="stp_seller_doesnt_have_required_certification">
@@ -240,7 +251,8 @@
         <String xml:lang="es-ES">~r~El vendedor no tiene la certificación requerida para proporcionar el~s~{0} ~r~servicio!</String>
         <String xml:lang="pt-BR">~r~O fornecedor não tem a certificação necessária para fornecer o ~s~{0} ~r~serviço!</String>
         <String xml:lang="de-DE">~r~Der Verkäufer hat nicht die erforderlichen Zertifikationen, um den ~s~{0}~r~-Service anzubieten!</String>
-        <String xml:lang="th-TH">~r~ผู้ขายไม่มีทำหน้าที่ในการให้บริการ ~s~{0}~r~!</String>
+        <String xml:lang="th-TH">~r~ผู้ขายไม่มีทำหน้าที่ในการให้บริการ ~s~{0} ~r~!</String>
+        <String xml:lang="zh-Hant">~r~賣家沒有獲得需要的證書以行使 ~r~{0}~r~</String>
     </Entry>
 
     <Entry Id="stp_seller_updated_prices">
@@ -252,6 +264,7 @@
         <String xml:lang="pt-BR">~r~O fornecedor atualizou seus preços. O cardápio foi renovado.</String>
         <String xml:lang="de-DE">~r~Der Verkäufer hat seine Preise aktualisiert. Das Menü wurde aktualisiert.</String>
         <String xml:lang="th-TH">~r~ผู้ขายอัพเดทราคาแล้ว เมนูได้รับการรีเฟรชแล้ว</String>
+        <String xml:lang="zh-Hant">~r~賣家已經重新訂價，購買菜單已被重新整理</String>
     </Entry>
 
     <!-- ========================= -->
@@ -377,7 +390,7 @@
         <String xml:lang="zh-Hant">你販售了 ~p~{0}g ~s~個 ~r~{1} ~s~給 NPC 並賺取了 ~g~{2}~s~</String>
         <String xml:lang="zh-Hans">你贩售了 ~p~{0}g ~s~个 ~r~{1} ~s~给 NPC 并赚取了 ~g~{2}~s~</String>
         <String xml:lang="pt-BR">Você vendeu ~p~{0}g ~s~de ~r~{1} ~s~a um NPC por ~g~{2}~s~.</String>
-        <String xml:lang="th-TH">คุณขาย ~p~{0}g ~s~of ~r~{1} ~s~ให้กับ NPC ในราคา ~g~{2}~s~</String>
+        <String xml:lang="th-TH">คุณขาย ~p~{0}g ~s~of ~r~{1} ~s~ ให้กับ NPC ในราคา ~g~{2}~s~</String>
     </Entry>
 
     <Entry Id="drug_buy_from_npc">
@@ -446,10 +459,10 @@
         <String xml:lang="de-DE">JEmand hat die ~b~Polizei~s~ gerufen. Du kannst diesen ~r~Drogenumschlagplatz ~s~für die nächsten ~p~{0} Minuten ~s~nicht benutzen. </String>
         <String xml:lang="pl-PL">Konfident zawiadomił ~b~gliny~s~, nie możesz użyć tego ~r~kącika ~s~przez następne ~p~{0} minut~s~.</String>
         <String xml:lang="es-ES">Alguien ha llamado a la ~b~policía~s~, no podras vender en este ~r~punto de drogas ~s~durante los próximos ~p~{0} minutos~s~.</String>
-        <String xml:lang="zh-Hant">某人 ~b~報警了~s~,這個 ~r~毒品販售點 ~s~在未來 ~p~{0} 分鐘內不可用~s~.</String>
+        <String xml:lang="zh-Hant">某人 ~b~告知了警方~s~,這個 ~r~毒品販售點 ~s~在未來的 ~p~{0} 分鐘內將不可用~s~.</String>
         <String xml:lang="zh-Hans">某人 ~b~报警了~s~,这个 ~r~毒品贩售点 ~s~在未来 ~p~{0} 分钟内不可用~s~.</String>
         <String xml:lang="pt-BR">Alguém chamou a ~b~policia~s~, você não poderá vender neste ~r~ponto de drogas ~s~nos próximos ~p~{0} minutos~s~.</String>
-        <String xml:lang="th-TH">มีคนโทรหา ~b~ตำรวจ~s~ คุณไม่สามารถใช้ ~r~จุดขายยา ~s~ไปอีก ~p~{0} นาที~s~</String>
+        <String xml:lang="th-TH">มีคนโทรหา ~b~ตำรวจ~s~ คุณไม่สามารถใช้ ~r~จุดขายยา ~s~ ไปอีก ~p~{0} นาที~s~</String>
     </Entry>
 
     <Entry Id="dealer_left_drug_spot">
@@ -475,7 +488,7 @@
         <String xml:lang="zh-Hant">你持有武器! 向你購買毒品的 ~y~NPCs ~s~將會減少.</String>
         <String xml:lang="zh-Hans">你持有武器! 向你购买毒品的 ~y~NPCs ~s~将会减少.</String>
         <String xml:lang="pt-BR">Você tem uma arma! Menos ~y~NPCs ~s~comprarão drogas.</String>
-        <String xml:lang="th-TH">คุณมีอาวุธ! ~y~NPC ~s~จะซื้อยาน้อยลง</String>
+        <String xml:lang="th-TH">คุณมีอาวุธ! ~y~NPC ~s~ จะซื้อยาน้อยลง</String>
     </Entry>
 
     <Entry Id="dealer_ongoing_shooting">
@@ -485,7 +498,7 @@
         <String xml:lang="de-DE">Es gibt eine aktive ~r~Schießerei~s~! ~y~NPCs ~s~werden keine Drogen kaufen.</String>
         <String xml:lang="pl-PL">W pobliżu jest ~r~strzelanina~s~! ~y~Boty ~s~nie będą kupować narkotków.</String>
         <String xml:lang="es-ES">¡Hay un ~r~tiroteo~s~ activo! ~y~Los NPC ~s~no comprarán drogas.</String>
-        <String xml:lang="zh-Hant">這裡有正在進行的 ~r~槍戰~s~! ~y~NPCs ~s~將停止購買毒品.</String>
+        <String xml:lang="zh-Hant">這裡正在進行的 ~r~槍戰~s~! ~y~NPCs ~s~將停止購買毒品.</String>
         <String xml:lang="zh-Hans">这里有正在进行的 ~r~枪战~s~! ~y~NPCs ~s~将停止购买毒品.</String>
         <String xml:lang="pt-BR">Há um ~r~tiroteio ativo~s~! ~y~NPCs ~s~não compraram drogas.</String>
         <String xml:lang="th-TH">มี ~r~การยิง~s~! ~y~NPCs ~s~จะไม่ซื้อยา</String>
@@ -511,7 +524,7 @@
         <String xml:lang="de-DE">Es sind zu viele ~r~Drogendealer ~s~an diesem Drogenumschlagplatz.</String>
         <String xml:lang="pl-PL">Za dużo ~r~dilerów ~s~sprzedaje w kąciku.</String>
         <String xml:lang="es-ES">Hay demasiados ~r~traficantes de drogas ~s~en el punto de las drogas.</String>
-        <String xml:lang="zh-Hant">這裡已經有太多 ~r~毒品買家 ~s~在毒品販售點內了.</String>
+        <String xml:lang="zh-Hant">這裡已經有太多 ~r~毒品賣家 ~s~在毒品販售點內了.</String>
         <String xml:lang="zh-Hans">这里已经有太多 ~r~毒品买家 ~s~在毒品贩售点内了.</String>
         <String xml:lang="pt-BR">Excesso de ~r~traficantes de drogas ~s~no ponto de venda de drogas.</String>
         <String xml:lang="th-TH">มี ~r~ผู้ค้ายา ~s~อยู่ในจุดขายยามากเกินไป</String>
@@ -594,7 +607,7 @@
         <String xml:lang="de-DE">~r~Du musst ein Drogendealer sein, um von diesem Händler zu kaufen!</String>
         <String xml:lang="pl-PL">~r~Musisz być dilerem by kupić coś z tej dziupli!</String>
         <String xml:lang="es-ES">~r~¡Tienes que ser traficante de drogas para comprarle a este proveedor!</String>
-        <String xml:lang="zh-Hant">~r~您必須是毒販才能從該供應商那邊購買毒品.</String>
+        <String xml:lang="zh-Hant">~r~您必須是藥頭才能從供應商那購買毒品.</String>
         <String xml:lang="zh-Hans">~r~您必须是毒贩才能从该供应商那边购买毒品.</String>
         <String xml:lang="pt-BR">~r~É preciso ser um traficante de drogas para comprar desse fornecedor!</String>
         <String xml:lang="th-TH">"~r~คุณต้องเป็นผู้ค้ายาจึงจะซื้อจากซัพพลาเออร์ยรายนี้ได้!</String>
@@ -621,10 +634,10 @@
         <String xml:lang="de-DE">Du musst ~b~Level {0}~s~ sein, um diesen ~r~Händler~s~ freizuschalten. Finde einen anderen Händler!</String>
         <String xml:lang="pl-PL">Musisz mieć co najmniej ~b~poziom {0} ~s~by odblokować tą ~r~dziuplę narkotykową~s~. Znajdź inną!</String>
         <String xml:lang="es-ES">Necesitas ser ~b~nivel {0} ~s~para desbloquear este ~r~proveedor de drogas~s~. ¡Encuentra otro proveedor!</String>
-        <String xml:lang="zh-Hant">你必須達到 ~b~等級 {0} ~s~才能解鎖 ~r~毒品供應商~s~. 尋找其他供應商吧!</String>
+        <String xml:lang="zh-Hant">你必須達到 ~b~等級 {0} ~s~才能解鎖 ~r~藥頭~s~. 尋找其他供應商吧!</String>
         <String xml:lang="zh-Hans">你必须达到 ~b~等级 {0} ~s~才能解锁 ~r~毒品供应商~s~. 寻找其他供应商吧!</String>
         <String xml:lang="pt-BR">Você precisa estar no ~b~nivel {0} ~s~para desbloquear esse ~r~fornecedor de drogas~s~. Encontre outro fornecedor!</String>
-        <String xml:lang="th-TH">คุณต้องเป็น ~b~ระดับ {0} ~s~เพื่อปลดล็อก ~r~ผู้จัดหายา~s~ ค้นหาซัพพลายเออร์รายอื่น!</String>
+        <String xml:lang="th-TH">คุณต้องเป็น ~b~ระดับ {0} ~s~ เพื่อปลดล็อก ~r~ผู้จัดหายา~s~ ค้นหาซัพพลายเออร์รายอื่น!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -657,7 +670,7 @@
         <String xml:lang="de-DE">{0} ~s~is sucht nach einem Mechaniker in ~y~{1}~s~.</String>
         <String xml:lang="es-ES">{0} ~s~está buscando un mecánico en ~y~{1}~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~szuka mechanika w ~y~{1}~s~.</String>
-        <String xml:lang="zh-Hant">{0} 正在 ~y~{1} ~s~尋找技師.</String>
+        <String xml:lang="zh-Hant">{0} 正在 ~y~{1} ~s~尋找修車工.</String>
         <String xml:lang="zh-Hans">{0} 正在 ~y~{1} ~s~寻找技师.</String>
         <String xml:lang="pt-BR">{0} ~s~está procurando um mecânico em ~y~{1}~s~.</String>
         <String xml:lang="th-TH">{0} ~s~กำลังมองหาช่างเครื่องใน ~y~{1}~s~</String>
@@ -737,7 +750,7 @@
         <String xml:lang="de-DE">~r~Du bist zu weit vom Mechaniker entfernt.</String>
         <String xml:lang="pl-PL">~r~Jesteś za daleko od mechanika.</String>
         <String xml:lang="es-ES">~r~Estás demasiado lejos del mecánico.</String>
-        <String xml:lang="zh-Hant">~r~你離技工太遠了.</String>
+        <String xml:lang="zh-Hant">~r~你離修車工太遠了.</String>
         <String xml:lang="zh-Hans">~r~你离技工太远了.</String>
         <String xml:lang="pt-BR">~r~Você está muito longe do mecânico.</String>
         <String xml:lang="th-TH">~r~คุณอยู่ไกลจากช่างมากเกินไป</String>
@@ -807,7 +820,7 @@
         <String xml:lang="zh-Hant">(C)技工:(/C) ~s~修理和改裝玩家的 ~y~車輛 ~s~來賺取現金.</String>
         <String xml:lang="zh-Hans">(C)技工:(/C) ~s~修理和改装玩家的 ~y~车辆 ~s~来赚取现金.</String>
         <String xml:lang="pt-BR">(C)Mecânico:(/C) ~s~repara e modifica os ~y~veículos ~s~dos jogadores para ganhar dinheiro.</String>
-        <String xml:lang="th-TH">(C)ช่างเครื่อง:(/C) ~s~ซ่อมแซมและดัดแปลงผู้เล่น '~y~ยานพาหนะ ~s~เพื่อรับเงิน</String>
+        <String xml:lang="th-TH">(C) ช่างเครื่อง: (/ C) ~ s ~ ซ่อมแซมและดัดแปลงผู้เล่น ' ~ y ~ ยานพาหนะ ~ s ~ เพื่อรับเงิน</String>
     </Entry>
 
     <Entry Id="mechanic_plate_word">
@@ -861,7 +874,7 @@
         <String xml:lang="tr-TR">~p~Özel plakanız olarak ayarlandı ~s~{0} ~p~ve kaydedildi.</String>
         <String xml:lang="es-ES">~p~Tu placa personalizada se ha configurado como ~s~{0} ~p~y se ha guardado.</String>
         <String xml:lang="pl-PL">~p~Twoja tablica rejestracyjna została ustawiona do ~s~{0} ~p~i zapisana.</String>
-        <String xml:lang="zh-Hant">~p~您的個性化車牌已設置為 ~s~{0} ~p~並已保存.</String>
+        <String xml:lang="zh-Hant">~p~您的客製化車牌已設置為 ~s~{0} ~p~並已保存.</String>
         <String xml:lang="zh-Hans">~p~您的个性化车牌已设置为 ~s~{0} ~p~并已保存.</String>
         <String xml:lang="pt-BR">~p~Seu crachá personalizado foi configurado como ~s~{0} ~p~e salvo.</String>
         <String xml:lang="th-TH">~p~ป้ายทะเบียนโต๊ะเครื่องแป้งของคุณได้รับการตั้งค่าเป็น ~s~{0} ~p~และบันทึกไว้แล้ว</String>
@@ -890,7 +903,7 @@
         <String xml:lang="tr-TR">Özel araç plakanız şu şekilde ayarlandı ~s~{0}~p~.</String>
         <String xml:lang="es-ES">Tu placa personalizada se ha establecido como ~s~{0}~p~.</String>
         <String xml:lang="pl-PL">Twoja tablica rejestracyjna to teraz ~s~{0}~p~.</String>
-        <String xml:lang="zh-Hant">你的個性化車牌已被設置為 ~s~{0}~p~.</String>
+        <String xml:lang="zh-Hant">你的客製化車牌已被設置為 ~s~{0}~p~.</String>
         <String xml:lang="zh-Hans">你的个性化车牌已被设置为 ~s~{0}~p~.</String>
         <String xml:lang="pt-BR">Seu crachá personalizado foi definido como ~s~{0}~p~.</String>
         <String xml:lang="th-TH">ป้ายทะเบียนโต๊ะเครื่องแป้งของคุณตั้งค่าเป็น ~s~{0}~p~</String>
@@ -1018,10 +1031,10 @@
         <String xml:lang="tr-TR">Aracınızı şekilde park ettiniz ~r~yasa dışı ~s~ve masrafları size ait olmak üzere çekilebilir.</String>
         <String xml:lang="es-ES">Has aparcado tu vehículo ~r~ilegalmente ~s~y podría ser remolcado </String>
         <String xml:lang="pl-PL">Zaparkowałeś ~r~nielegalnie ~s~i twój pojazd może być odholowany na twój koszt.</String>
-        <String xml:lang="zh-Hant">您已將車輛停放在 ~r~非法地區 ~s~並且可能會被拖走,費用將由您承擔.</String>
+        <String xml:lang="zh-Hant">您已將車輛停放的位置 ~r~不符合法規 ~s~並且可能會被拖走,費用將由您承擔.</String>
         <String xml:lang="zh-Hans">您已将车辆停放在 ~r~非法地区 ~s~并且可能会被拖走,费用将由您承担.</String>
         <String xml:lang="pt-BR">Você estacionou seu veículo ~r~ilegalmente ~s~e ele pode ser rebocado.</String>
-        <String xml:lang="th-TH">คุณได้จอดรถของคุณ ~r~อย่างผิดกฎหมาย ~s~และอาจถูกลากโดยคุณต้องรับผิดชอบค่าใช้จ่ายเอง</String>
+        <String xml:lang="th-TH">คุณได้จอดรถของคุณ ~r~อย่างผิดกฎหมาย ~s~ และอาจถูกลากโดยคุณต้องรับผิดชอบค่าใช้จ่ายเอง</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1035,7 +1048,7 @@
         <String xml:lang="tr-TR">~y~(C)Hatırlatma:(/C) ~s~sadece nefsi müdafaa için ateş edebilirsin ve takım kuramazsın ~o~suçlularla~s~.</String>
         <String xml:lang="es-ES">~y~(C)Recordatorio:(/C) ~s~solo puedes disparar en defensa propia y no puedes unirte con ~o~criminales~s~.</String>
         <String xml:lang="pl-PL">~y~(C)Przypomnienie:(/C) ~s~możesz strzelać tylko w samoobronie i nie możesz "teamować" się z ~o~kryminalistami~s~.</String>
-        <String xml:lang="zh-Hant">~y~(C)溫馨提示:(/C) ~s~你只能做自衛射擊，不能與 ~o~罪犯 ~s~組隊.</String>
+        <String xml:lang="zh-Hant">~y~(C)溫馨提示:(/C) ~s~你只能以自衛為由射擊，不能與 ~o~罪犯 ~s~組隊.</String>
         <String xml:lang="zh-Hans">~y~(C)温馨提示:(/C) ~s~你只能做自卫射击，不能与 ~o~罪犯 ~s~组队.</String>
         <String xml:lang="pt-BR">~y~(C)Lembrançar:(/C) ~s~você só pode atirar em legítima defesa e não pode se aliar a ~o~criminosos~s~.</String>
         <String xml:lang="th-TH">~y~(C)คำเตือน:(/C) ~s~คุณสามารถยิงเพื่อป้องกันตัวเท่านั้น และคุณไม่สามารถร่วมมือกับ ~o~อาชญากร~s~</String>
@@ -1082,7 +1095,7 @@
         <String xml:lang="es-ES">El paramédico {0} ha respondido a la llamada en {1}.</String>
         <String xml:lang="pl-PL">Medyk ~p~{0} ~s~odpowiedział do zawołania {1}.</String>
         <String xml:lang="pt-BR">O paramédico {0} respondeu à chamada em {1}.</String>
-        <String xml:lang="zh-Hant">護理人員 {0} 已響應 {1} 的呼叫.</String>
+        <String xml:lang="zh-Hant">護理人員 {0} 已回答 {1} 的呼叫.</String>
         <String xml:lang="de-DE">Der Sanitäter {0} hat auf den Anruf von {1} reagiert.</String>
         <String xml:lang="th-TH">เจ้าหน้าที่การแพทย์ {0} ตอบสนองต่อการโทรของ {1}</String>
     </Entry>
@@ -1095,7 +1108,7 @@
         <String xml:lang="es-ES">El paramédico {0} respondió a su llamada.</String>
         <String xml:lang="pl-PL">Medyk {0} odpowiedział na twoje zawołanie.</String>
         <String xml:lang="pt-BR">O paramédico {0} atendeu seu chamado</String>
-        <String xml:lang="zh-Hant">護理人員 {0} 已響應你的呼叫.</String>
+        <String xml:lang="zh-Hant">護理人員 {0} 已回答您的呼叫.</String>
         <String xml:lang="de-DE">Der Sanitäter {0} hat auf deinen Anruf reagiert.</String>
         <String xml:lang="th-TH">เจ้าหน้าที่การแพทย์ {0} ตอบรับการโทรของคุณ</String>
     </Entry>
@@ -1109,7 +1122,7 @@
         <String xml:lang="es-ES">~r~Tu intento para revivir ha fallado.</String>
         <String xml:lang="pl-PL">~r~Próba ocucenia nieudana.</String>
         <String xml:lang="pt-BR">~r~Sua tentativa de reviver falhou.</String>
-        <String xml:lang="zh-Hant">~r~你的複活嘗試失敗了.</String>
+        <String xml:lang="zh-Hant">~r~你嘗試復活但失敗了.</String>
         <String xml:lang="th-TH">~r~ความพยายามในการฟื้นฟูของคุณล้มเหลว</String>
     </Entry>
 
@@ -1135,8 +1148,8 @@
         <String xml:lang="es-ES">~p~Los paramédicos ~s~deben salvar las vidas de los ciudadanos. El asesinato de civiles inocentes, de NPC resultarán en pequeñas pérdidas de ~r~XP~s~.</String>
         <String xml:lang="pl-PL">~p~Medycy ~s~mają ratować życia mieszkańców. Zabijanie niewinnych botów wiąże się ze ~r~stratami XP~s~.</String>
         <String xml:lang="pt-BR">~p~Os paramédicos devem ~s~devem salvar a vida dos cidadãos. O assassinato de civis inocentes e de NPCs resultará em pequenas perdas de ~r~XP~s~.</String>
-        <String xml:lang="zh-Hant">~p~護理人員~s~應該拯救公民的生命.無辜的平民 NPC 傷亡將導致少量~r~經驗值損失~s~</String>
-        <String xml:lang="th-TH">~p~หน่วยแพทย์ ~s~ได้รับการคาดหวังให้ช่วยชีวิตประชาชนได้ การบาดเจ็บล้มตายของ NPC พลเรือนผู้บริสุทธิ์จะส่งผลให้เกิดการสูญเสีย ~r~XP~s~ เล็กน้อย</String>
+        <String xml:lang="zh-Hant">~p~護理人員~s~應該拯救公民的生命.無辜的平民 NPC 傷亡將導致少量的~r~經驗值損失~s~</String>
+        <String xml:lang="th-TH">~p~หน่วยแพทย์ ~s~ ได้รับการคาดหวังให้ช่วยชีวิตประชาชนได้ การบาดเจ็บล้มตายของ NPC พลเรือนผู้บริสุทธิ์จะส่งผลให้เกิดการสูญเสีย ~r~XP~s~ เล็กน้อย</String>
     </Entry>
 
     <!-- {0} = Paramedic -->
@@ -1149,7 +1162,7 @@
         <String xml:lang="de-DE">Der Sanitäter {0} ~s~ist vor Ort!</String>
         <String xml:lang="pt-BR">O paramédico {0} ~s~está na área!</String>
         <String xml:lang="zh-Hant">救護人員 {0} ~s~已經抵達現場!</String>
-        <String xml:lang="th-TH">หน่วยแพทย์ {0} ~s~อยู่ในที่เกิดเหตุ!</String>
+        <String xml:lang="th-TH">หน่วยแพทย์ {0} ~s~ อยู่ในที่เกิดเหตุ!</String>
     </Entry>
 
     <Entry Id="paramedic_crossteam_warn">
@@ -1159,7 +1172,7 @@
         <String xml:lang="es-ES">No puedes curar ~o~criminales ~s~cuando están involucrados en un ~r~tiroteo ~s~con la ~b~policía~s~, ya que se considera ~r~cross-teaming~s~.</String>
         <String xml:lang="pl-PL">Nie możesz leczyć ~o~kryminalistów ~s~gdy są w ~r~strzelaninie ~s~z ~b~glinami~s~, ajest to uznawane za ~r~cross-teaming~s~.</String>
         <String xml:lang="pt-BR">Você não pode curar ~o~criminosos ~s~quando estiver envolvido em um ~r~tiroteio ~s~com a ~b~polícia~s~, porque isso é considerado ~r~cross-teaming~s~.</String>
-        <String xml:lang="zh-Hant">當~o~罪犯~s~與~b~警察~s~參與~r~射擊~s~時,你無法治愈~o~罪犯~s~,因為這被認為是~r~交叉組隊~s~.</String>
+        <String xml:lang="zh-Hant">當~o~罪犯~s~與~b~警察~s~參與~r~射擊~s~時,你無法治愈~o~罪犯~s~,因為這被認為是~r~非法組隊~s~.</String>
         <String xml:lang="de-DE">Du kannst keine ~o~Kriminellen~s~ heilen, wenn diese in eine ~r~Schießerei ~s~mit der ~b~Polizei~s~ involviert sind, da es als ~r~Cross-Teaming~s~ gewertet wird.</String>
         <String xml:lang="th-TH">คุณไม่สามารถรักษา ~o~อาชญากร ~s~ได้เมื่อพวกเขาพัวพันกับ ~r~การยิง ~s~กับ ~b~ตำรวจ~s~ เนื่องจากถือว่าเป็น ~r~การร่วมมือกันข้ามทีม~s~</String>
     </Entry>
@@ -1235,7 +1248,7 @@
         <String xml:lang="pt-BR">Você é ~o~procurado ~s~pela polícia! Por favor, volte mais tarde.</String>
         <String xml:lang="zh-Hant">你正在被警察 ~o~通緝~s~! 請稍後再回來.</String>
         <String xml:lang="de-DE">Du wirst von der Polizei ~o~gesucht~s~! Bitte komm später wieder.</String>
-        <String xml:lang="th-TH">คุณ ~o~ต้องการ ~s~โดยตำรวจ! โปรดกลับมาใหม่</String>
+        <String xml:lang="th-TH">คุณ ~o~ต้องการ ~s~ โดยตำรวจ! โปรดกลับมาใหม่</String>
     </Entry>
 
     <Entry Id="paramedic_active_shootout_cant_revive">
@@ -1304,7 +1317,7 @@
         <String xml:lang="es-ES">~b~Se supone que los oficiales de policía ~s~protejan y sirvan a los ciudadanos. Las bajas civiles inocentes de NPC resultarán en pequeñas pérdidas de ~r~XP~s~.</String>
         <String xml:lang="pl-PL">~b~Gliny ~s~mają chronić i służyć mieszkańcom. Zabijanie niewinnych botów wiąże się ze ~r~stratami XP~s~.</String>
         <String xml:lang="pt-BR">~b~Os policiais devem ~s~proteger e servir os cidadãos. baixas civis inocentes de NPCs resultarão em pequenas perdas de ~r~XP~s~.</String>
-        <String xml:lang="zh-Hant">~b~警察~s~應該保護和服務公民.無辜平民 NPC 傷亡將導致少量 ~r~經驗值損失~s~.</String>
+        <String xml:lang="zh-Hant">~b~警察~s~應該保護和服務公民.無辜平民 NPC 傷亡將導致少量的 ~r~經驗值損失~s~.</String>
         <String xml:lang="th-TH">~b~เจ้าหน้าที่ตำรวจ ~s~ได้รับการคาดหวังให้ปกป้องและรับใช้ประชาชน การบาดเจ็บล้มตายของ NPC พลเรือนผู้บริสุทธิ์จะส่งผลให้เกิดการสูญเสีย ~r~XP~s~ เล็กน้อย</String>
     </Entry>
 
@@ -1331,7 +1344,7 @@
         <String xml:lang="es-ES">~y~(C)Recordatorio:(/C) ~s~solo puedes disparar a los ~r~más buscados~s~ amenazantes ~o~criminales~s~.</String>
         <String xml:lang="pl-PL">~y~(C)Przypomnienie:(/C) ~s~możesz tylko strzelać do ~r~najbardziej poszukiwanych ~s~oraz groźnych ~o~kryminalistów~s~.</String>
         <String xml:lang="pt-BR">~y~(C)Lembrança:(/C) ~s~você só pode atirar ~r~nos criminosos~s~,mais procurados e ~o~ameaçadores~s~.</String>
-        <String xml:lang="zh-Hant">~y~(C)提醒:(/C) ~s~你只能向~r~頭號通緝~s~和威脅~o~罪犯~s~開槍.</String>
+        <String xml:lang="zh-Hant">~y~(C)提醒:(/C) ~s~你只能向~r~通緝犯(紅色玩家)~s~和對你有威脅的~o~罪犯~s~開槍.</String>
         <String xml:lang="th-TH">~y~(C)คำเตือน:(/C) ~s~คุณสามารถยิงได้เฉพาะที่ ~r~ที่ต้องการตัวมากที่สุดเท่านั้น ~s~และคุกคาม ~o~อาชญากร~s~</String>
     </Entry>
 
@@ -1346,7 +1359,7 @@
         <String xml:lang="de-DE">Der Polizist {0} hat {1} ~s~von dir ~r~beschlagnahmt~s~.</String>
         <String xml:lang="pt-BR">O policial {0} ~r~confiscou ~s~{1} ~s~de você.</String>
         <String xml:lang="zh-Hant">警員 {0} 已經 ~r~沒收了你的 ~s~{1}~s~.</String>
-        <String xml:lang="th-TH">เจ้าหน้าที่ {0} ได้ ~r~ยึด ~s~{1} ~s~จากคุณ</String>
+        <String xml:lang="th-TH">เจ้าหน้าที่ {0} ได้ ~r~ยึด ~s~{1} ~s~ จากคุณ</String>
     </Entry>
 
     <!-- {0} = Officer -->
@@ -1358,7 +1371,7 @@
         <String xml:lang="pl-PL">Oficer {0} odpowiedział na zawołanie.</String>
         <String xml:lang="de-DE">Der Polizist {0} hat den Anruf angenommen.</String>
         <String xml:lang="pt-BR">O policial {0} respondeu ao chamado.</String>
-        <String xml:lang="zh-Hant">警員 {0} 響應了報警.</String>
+        <String xml:lang="zh-Hant">警員 {0} 接收到了您的報警.</String>
         <String xml:lang="th-TH">เจ้าหน้าที่ {0} ตอบรับสายแล้ว</String>
     </Entry>
 
@@ -1412,7 +1425,7 @@
         <String xml:lang="es-ES">El oficial {0} ya tiene a {1} bajo custodia.</String>
         <String xml:lang="pl-PL">Oficer {0} trzyma już {1} w areszcie.</String>
         <String xml:lang="pt-BR">O policial {0} já tem {1} em custódia.</String>
-        <String xml:lang="zh-Hant">警員 {0} 已拘留 {1}.</String>
+        <String xml:lang="zh-Hant">警員 {0} 正在拘留 {1}.</String>
         <String xml:lang="de-DE">Der Polizist {0} hält {1} bereits in Gewahrsam.</String>
         <String xml:lang="th-TH">เจ้าหน้าที่ {0} ได้ควบคุมตัว {1} แล้ว</String>
     </Entry>
@@ -1619,6 +1632,7 @@
         <String xml:lang="pl-PL">Kazałeś ~o~{0} ~s~się ~b~{1}~s~!</String>
         <String xml:lang="pt-BR">Você já perguntou a ~o~{0} ~s~que ~b~{1}~s~!</String>
         <String xml:lang="de-DE">Du hast ~o~{0} ~s~aufgefordert, ~b~{1}~s~!</String>
+        <String xml:lang="zh-Hant">你像 ~o~{0} ~s~ 要求他~b~(1)~s~! </String>
     </Entry>
 
     <!-- {0} = Officer's name -->
