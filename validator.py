@@ -569,8 +569,10 @@ class Validator:
         required_variables = []
         good_string_entries = []
         FORMAT_REGEX = r"~[s,b,r,n,y,p,g,o,h,c]~"
+        TOO_MANY_SPACES_REGEX = r"\s~[s,b,r,n,y,p,g,o,h,c]~\s|\s\s+"
         VARIABLE_REGEX = r"{[0-9]+}"
-        WRONG_PUNCTUATION_REGEX = r"\s[.,?,!]"
+        PUNCTUATION_MARKS_REGEX = r"[.,?,!]"
+        WRONG_PUNCTUATION_REGEX = r"\s" + PUNCTUATION_MARKS_REGEX + r"|\s" + FORMAT_REGEX + PUNCTUATION_MARKS_REGEX
         for string_entry in entry.childNodes:
             if isinstance(string_entry, xml.dom.minidom.Text):
                 continue
@@ -592,7 +594,8 @@ class Validator:
                         Validator.print_error(f"Unknown attribute: {repr(key)}", path, string_entry.parse_position)
         for string_entry in good_string_entries:
             text = get_text_from_node(string_entry)
-            current_lang = dict(string_entry.attributes.items()).get(lang_attrib)
+            current_lang: str = dict(string_entry.attributes.items()).get(lang_attrib)
+            start_position: tuple[int] = (string_entry.parse_position[0], string_entry.parse_position[1]+len('<String xml:lang="')+len(current_lang)+len('">'))
             path1 = [*path, current_lang]
             if DOMINATE_INSTALLED and Validator.preview_formatting:
                 with Validator.main_doc.body:
@@ -623,12 +626,26 @@ class Validator:
                 if unneeded_variables:
                     Validator.print_error(f"Found too many variables: {', '.join(unneeded_variables)}", path1, string_entry.parse_position)
             text_without_formatting = re.sub(FORMAT_REGEX, "", text)
-            if text_without_formatting.find("~") != -1:
-                Validator.print_error(f"Found invalid text formatting (~)", path1, string_entry.parse_position)
-            if re.findall(r"\s\s+", text_without_formatting):
-                Validator.print_warning_or_error(f"Found too many spaces between words", path1, string_entry.parse_position)
-            if re.findall(WRONG_PUNCTUATION_REGEX, text_without_formatting):
-                Validator.print_warning_or_error(f"Found invalid punctuation mark placement", path1, string_entry.parse_position)
+            invalid_text_formatting_loc = text_without_formatting.find("~")
+            if invalid_text_formatting_loc != -1:
+                offset: int = 0
+                for valid_text_formatting_match in re.finditer(FORMAT_REGEX, text):
+                    valid_text_formatting_match: re.Match
+                    if valid_text_formatting_match.end() < invalid_text_formatting_loc + offset:
+                        offset += valid_text_formatting_match.end()-valid_text_formatting_match.start()
+                    else:
+                        break
+                real_location = text[(invalid_text_formatting_loc + offset):].find("~")+(invalid_text_formatting_loc + offset)
+                position: tuple[int] = (start_position[0], start_position[1]+real_location)
+                Validator.print_error(f"Found invalid text formatting (~)", path1, position)
+            too_many_spaces_match: re.Match = re.search(TOO_MANY_SPACES_REGEX, text)
+            if too_many_spaces_match:
+                position: tuple[int] = (start_position[0], start_position[1]+too_many_spaces_match.end()-1)
+                Validator.print_warning_or_error(f"Found too many spaces between words", path1, position)
+            wrong_punctuation_match: re.Match = re.search(WRONG_PUNCTUATION_REGEX, text)
+            if wrong_punctuation_match:
+                position: tuple[int] = (start_position[0], start_position[1]+wrong_punctuation_match.start())
+                Validator.print_warning_or_error(f"Found invalid punctuation mark placement", path1, position)
         if (Validator.show_lang is not None) and (Validator.show_lang not in found_langs):
             if Validator.found_missing_lang <= Validator.display_limit:
                 Validator.print_warning_or_error(f"Missing translation for {repr(Validator.show_lang)}!", path, element_location)
