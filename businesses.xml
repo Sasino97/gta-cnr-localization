@@ -133,7 +133,8 @@
         <String xml:lang="en-US">You don't have any gun that can use this type of ammo.</String>
     </Entry>
 
-    <!-- {0} = Cooldown/time left -->
+    <!-- {0} = Cooldown/time left. -->
+    <!-- Please don't add a time word like minutes/seconds/hours... Assume it can be any of those, that's for some other Entry. -->
     <Entry Id="menu_store_shoplifting_cooldown">
         <String xml:lang="en-US">You have been caught ~r~shoplifting ~s~here. Come back in ~y~{0}~s~.</String>
         <String xml:lang="nl-NL">Je bent gepakt voor ~r~stelen ~s~hier. Kom terug in ~y~{0}~s~.</String>
@@ -146,14 +147,32 @@
     
     <Entry Id="menu_store_bounty">
         <String xml:lang="en-US">You cannot shop at gun stores when you have a ~r~bounty~s~.</String>
+        <String xml:lang="nl-NL">Je kan niet winkelen bij wapenwinkels wanneer je een ~r~bounty~s~ hebt.</String>
+        <String xml:lang="it-IT">Non puoi fare acquisti nelle armerie mentre è presente una ~r~taglia~s~ su di te!</String>
+        <String xml:lang="de-DE">Du kannst nicht bei Waffenläden einkaufen, wenn du ein ~r~Kopfgeld~s~ hast.</String>
+        <String xml:lang="es-ES">No puedes comprar en tiendas de armas cuando tienes una ~r~recompensa~s~.</String>
+        <String xml:lang="pl-PL">Nie możesz kupować w sklepach z bronią z ~r~nagrodą za głowę~s~.</String>
+        <String xml:lang="pt-BR">Você não pode comprar em lojas de armas quando tiver uma ~r~recompensa~s~. </String>
     </Entry>
     
     <Entry Id="menu_store_duty">
         <String xml:lang="en-US">You cannot shop at this store when you are ~b~on-duty~s~.</String>
+        <String xml:lang="nl-NL">Je kan niet winkelen bij deze winkel wanneer je ~b~in dienst~s~ bent.</String>
+        <String xml:lang="it-IT">Non puoi fare acquisti in questo negozio mentre sei ~b~in servizio~s~!</String>
+        <String xml:lang="de-DE">Du kannst bei diesem Laden nicht einkaufen, wenn du ~b~im Dienst~s~ bist.</String>
+        <String xml:lang="es-ES">No puedes comprar en esta tienda cuando estás ~b~de servicio~s~.</String>
+        <String xml:lang="pl-PL">Nie możesz kupować w tym sklepie ~b~na służbie~s~.</String>
+        <String xml:lang="pt-BR">Você não pode fazer compras nesta loja quando ~b~estiver em serviço~s~.</String>
     </Entry>
     
     <Entry Id="menu_store_cops_only">
         <String xml:lang="en-US">Only ~b~police officers ~s~can shop at this store.</String>
+        <String xml:lang="nl-NL">Alleen ~b~politieagenten ~s~kunnen winkelen bij deze winkel.</String>
+        <String xml:lang="it-IT">Solo gli ~b~agenti di polizia ~s~possono fare acquisti in questo negozio!</String>
+        <String xml:lang="de-DE">Ausschließlich ~b~Polizisten ~s~können in diesem Laden einkaufen.</String>
+        <String xml:lang="es-ES">Solo ~b~los agentes de policía ~s~pueden comprar en esta tienda.</String>
+        <String xml:lang="pl-PL">Tylko ~b~gliniarze ~s~mogą kupować w tym sklepie.</String>
+        <String xml:lang="pt-BR">Somente ~b~policiais ~s~podem fazer compras nessa loja.</String>
     </Entry>
     
     <!-- ========================= -->
