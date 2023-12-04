@@ -2,7 +2,7 @@
 
 <Entries>
     <!-- ========================= -->
-    <!-- Stores -->
+    <!-- Stores - Main strings -->
     <!-- ========================= -->
     <Entry Id="menu_store_title">
         <String xml:lang="en-US">Store</String>
@@ -20,6 +20,13 @@
     </Entry>
 
     <Entry Id="menu_store_subtitle">
+        <String xml:lang="en-US">Select an item</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Gift Cards -->
+    <!-- ========================= -->
+    <Entry Id="menu_store_redeem_gift_cards">
         <String xml:lang="en-US">Redeem Gift Cards</String>
         <String xml:lang="it-IT">Riscatta Buoni Regalo</String>
         <String xml:lang="pl-PL">Używaj Karty Podarunkowe</String>
@@ -35,43 +42,96 @@
     </Entry>
 
     <!-- ========================= -->
-    <!-- Supply Menu-->
+    <!-- When a store menu is empty -->
     <!-- ========================= -->
-    <!-- {0} = Job name -->
-    <Entry Id="menu_supply_title">
-        <String xml:lang="en-US">Store</String>
-        <String xml:lang="it-IT">Negozio</String>
-        <String xml:lang="ar-001">المتجر</String>
-        <String xml:lang="de-DE">Laden</String>
-        <String xml:lang="es-ES">Tienda</String>
-        <String xml:lang="pt-BR">Loja</String>
-        <String xml:lang="pl-PL">Sklep</String>
-        <String xml:lang="th-TH">ร้านค้า</String>
-        <String xml:lang="zh-Hant">商店</String>
+
+    <Entry Id="menu_store_no_items_text">
+        <String xml:lang="en-US">No items :(</String>
     </Entry>
 
+    <Entry Id="menu_store_no_items_desc">
+        <String xml:lang="en-US">This business doesn't have any goods or services for sale.</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Instructional buttons -->
+    <!-- ========================= -->
+    <Entry Id="menu_store_btn_purchase">
+        <String xml:lang="en-US">Purchase</String>
+    </Entry>
+
+    <Entry Id="menu_store_btn_browse">
+        <String xml:lang="en-US">Browse</String>
+    </Entry>
+
+    <Entry Id="menu_store_btn_steal">
+        <String xml:lang="en-US">Steal</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Item/Supply Attributes -->
+    <!-- ========================= -->
+    <!-- Shows up in shops when you focus on an item that you already have -->
+    <Entry Id="item_attribute_owned">
+        <String xml:lang="en-US">Owned</String>
+    </Entry>
+    
+    <!-- Shows up in red in the description of illegal items -->
+    <Entry Id="item_attribute_illegal">
+        <String xml:lang="en-US">ILLEGAL</String>
+    </Entry>
+    
+    <!-- Shows up in yellow for newly added items -->
+    <Entry Id="item_attribute_new">
+        <String xml:lang="en-US">NEW!</String>
+    </Entry>
+    
+    <!-- Shows up in red for items that are expiring soon -->
+    <Entry Id="item_attribute_limited">
+        <String xml:lang="en-US">LIMITED!</String>
+    </Entry>
+
+    <!-- {0} = Date -->
+    <Entry Id="item_attribute_limited_descr">
+        <String xml:lang="en-US">~r~Limited time offer: ~s~available until ~r~{0}~s~.</String>
+    </Entry>
+
+    <!-- Shows up for items who require a certain minimum level -->
+    <!-- {0} = Level -->
+    <Entry Id="item_attribute_unlock_level">
+        <String xml:lang="en-US">Unlocked at level {0}</String>
+    </Entry>
+
+    <!-- Shows up for items who require a membership -->
+    <!-- {0} = Membership Tier -->
+    <!-- {1} = Website URL -->
+    <Entry Id="item_attribute_requires_membership">
+        <String xml:lang="en-US">Requires {0}~n~~s~Purchase at ~b~{1}</String>
+    </Entry>
+    
+    <!-- ========================= -->
+    <!-- Weapon/ammo menus  -->
+    <!-- ========================= -->
+    <Entry Id="menu_store_no_gun_for_ammo_type">
+        <String xml:lang="en-US">You don't have any gun that can use this type of ammo.</String>
+    </Entry>
+    
+    <!-- ========================= -->
+    <!-- Menu for Job Supplies-->
+    <!-- ========================= -->
+
+    <!-- {0} = Job name -->
+    <!-- Example: "Mechanic Supplies" at the Hardware Store -->
     <Entry Id="menu_supply_subtitle">
         <String xml:lang="en-US">{0} Supplies</String>
-        <String xml:lang="it-IT">{0} Provviste</String>
-        <String xml:lang="ar-001"> لوازم</String>
+        <String xml:lang="it-IT">Provviste {0}</String>
+        <String xml:lang="ar-001">{0} لوازم</String>
         <String xml:lang="de-DE">{0} Vorräte</String>
-        <String xml:lang="es-ES">{0} Suministros</String>
-        <String xml:lang="pt-BR">{0} Suprimentos</String>
+        <String xml:lang="es-ES">Suministros {0}</String>
+        <String xml:lang="pt-BR">Suprimentos {0}</String>
         <String xml:lang="pl-PL">Zasoby {0}a </String>
         <String xml:lang="th-TH">{0} จำนวน</String>
-        <String xml:lang="zh-Hant">補給品</String>
-    </Entry>
-
-    <Entry Id="menu_store_part_subtitle">
-        <String xml:lang="en-US">part</String>
-        <String xml:lang="it-IT">pezzo</String>
-        <String xml:lang="ar-001">جزء</String>
-        <String xml:lang="de-DE">Teil</String>
-        <String xml:lang="es-ES">pieza</String>
-        <String xml:lang="pt-BR">peça</String>
-        <String xml:lang="pl-PL">część</String>
-        <String xml:lang="th-TH">ชิ้นส่วน</String>
-        <String xml:lang="zh-Hant">部分</String>
+        <String xml:lang="zh-Hant">{0}補給品</String>
     </Entry>
 
     <!-- ========================= -->
