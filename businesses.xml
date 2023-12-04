@@ -129,10 +129,6 @@
     <!-- ========================= -->
     <!-- Store Restrictions and Cooldowns -->
     <!-- ========================= -->
-    <Entry Id="menu_store_no_gun_for_ammo_type">
-        <String xml:lang="en-US">You don't have any gun that can use this type of ammo.</String>
-    </Entry>
-
     <!-- {0} = Cooldown/time left. -->
     <!-- Please don't add a time word like minutes/seconds/hours... Assume it can be any of those, that's for some other Entry. -->
     <Entry Id="menu_store_shoplifting_cooldown">
@@ -174,20 +170,80 @@
         <String xml:lang="pl-PL">Tylko ~b~gliniarze ~s~mogą kupować w tym sklepie.</String>
         <String xml:lang="pt-BR">Somente ~b~policiais ~s~podem fazer compras nessa loja.</String>
     </Entry>
+
+    <!-- ========================= -->
+    <!-- Gun Store -->
+    <!-- ========================= -->
+    <!-- {0} = Item name -->
+    <Entry Id="menu_store_cant_purchase_more">
+        <String xml:lang="en-US">You can't ~r~purchase ~s~any more ~y~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_store_no_gun_for_ammo_type">
+        <String xml:lang="en-US">You don't have any gun that can use this type of ammo.</String>
+    </Entry>
+
+    <Entry Id="already_own_weapon">
+        <String xml:lang="en-US">~r~You already own this weapon!</String>
+        <String xml:lang="nl-NL">~r~Je hebt dit wapen al!</String>
+        <String xml:lang="it-IT">~r~Possiedi già quest'arma!</String>
+        <String xml:lang="de-DE">~r~Du besitzt diese Waffe bereits!</String>
+        <String xml:lang="es-ES">~r~¡Ya tienes este arma!</String>
+        <String xml:lang="pl-PL">~r~Masz już tą broń!</String>
+        <String xml:lang="pt-BR">~r~Você já tem essa arma!</String>
+    </Entry>
+
+    <Entry Id="already_own_attachment">
+        <String xml:lang="en-US">~r~You already own this attachment!</String>
+        <String xml:lang="nl-NL">~r~Je hebt dit accessoire al!</String>
+        <String xml:lang="it-IT">~r~Possiedi già questo accessorio!</String>
+        <String xml:lang="de-DE">~r~Du besitzt dieses Zubehör bereits!</String>
+        <String xml:lang="es-ES">~r~¡Ya posee este accesorio!</String>
+        <String xml:lang="pl-PL">~r~Masz już ten dodatek!</String>
+        <String xml:lang="pt-BR">~r~Já possui esse acessório!</String>
+    </Entry>
+
+    <Entry Id="menu_store_no_gun_for_ammo_type">
+        <String xml:lang="en-US">You don't have any gun that can use this type of ammo.</String>
+    </Entry>
+
+    <!-- {0} = Weapon Attachment -->
+    <Entry Id="menu_store_attachment_warning">
+        <String xml:lang="en-US">If you buy this attachment you will lose your ~y~{0} ~s~on this weapon. Do you want to proceed?</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Store Pricing -->
+    <!-- ========================= -->
+    <!-- This is shown in shop menus when you can purchase more of a certain items -->
+    <!-- Example: Heavy Armor        2 for $2500 -->
+    <!-- {0} = Amount -->
+    <!-- {1} = Price -->
+    <Entry Id="menu_store_amount_for_price">
+        <String xml:lang="en-US">{0} for {1}</String>
+    </Entry>
+
+    <!-- Displays the unit price in the description -->
+    <!-- Example: Price: $1250/piece -->
+    <!-- {0} = Price -->
+    <!-- {1} = Unit -->
+    <Entry Id="menu_store_unit_price">
+        <String xml:lang="en-US">Price: {0}/{1}</String>
+    </Entry>
     
     <!-- ========================= -->
     <!-- Menu for Job Supplies-->
     <!-- ========================= -->
     <!-- {0} = Job name -->
     <!-- Example: "Mechanic Supplies" at the Hardware Store -->
-    <Entry Id="menu_supply_subtitle">
+    <Entry Id="menu_store_job_supplies">
         <String xml:lang="en-US">{0} Supplies</String>
         <String xml:lang="it-IT">Provviste {0}</String>
         <String xml:lang="ar-001">{0} لوازم</String>
         <String xml:lang="de-DE">{0} Vorräte</String>
         <String xml:lang="es-ES">Suministros {0}</String>
         <String xml:lang="pt-BR">Suprimentos {0}</String>
-        <String xml:lang="pl-PL">Zasoby {0}a </String>
+        <String xml:lang="pl-PL">Zasoby {0}</String>
         <String xml:lang="th-TH">{0} จำนวน</String>
         <String xml:lang="zh-Hant">{0}補給品</String>
     </Entry>
@@ -398,17 +454,6 @@
         <String xml:lang="zh-Hant">藥頭</String>
     </Entry>
 
-    <Entry Id="menu_drugdealer_subtitle">
-        <String xml:lang="en-US">Select an option</String>
-        <String xml:lang="it-IT">Seleziona un opzione</String>
-        <String xml:lang="de-DE">Wähle eine Option.</String>
-        <String xml:lang="es-ES">Seleccione una opción</String>
-        <String xml:lang="pt-BR">Selecione uma opção</String>
-        <String xml:lang="pl-PL">Wybierz opcję</String>
-        <String xml:lang="th-TH">เลือกตัวเลือก</String>
-        <String xml:lang="zh-Hant">選擇一個選項</String>
-    </Entry>
-
     <Entry Id="menu_drugdealer_calls_subtitle">
         <String xml:lang="en-US">Calls</String>
         <String xml:lang="it-IT">Chiamate</String>
@@ -465,18 +510,6 @@
         <String xml:lang="pt-BR">Mecânico</String>
         <String xml:lang="th-TH">ช่าง</String>
         <String xml:lang="zh-Hant">修車工</String>
-    </Entry>
-
-    <Entry Id="menu_mechanic_subtitle">
-        <String xml:lang="en-US">Select an option</String>
-        <String xml:lang="it-IT">Seleziona un opzione</String>
-        <String xml:lang="de-DE">Wähle eine option</String>
-        <String xml:lang="es-ES">Seleccione una opción</String>
-        <String xml:lang="pt-BR">Selecione uma opção</String>
-        <String xml:lang="th-TH">เลือกตัวเลือก</String>
-        <String xml:lang="vn-VN">Chọn một tuỳ chọn</String>
-        <String xml:lang="id-ID">Pilih salah satu opsi</String>
-        <String xml:lang="zh-Hant">選擇一個選項</String>
     </Entry>
 
     <Entry Id="menu_mechanic_services_subtitle">
@@ -897,19 +930,6 @@
         <String xml:lang="zh-Hant">醫護人員</String>
     </Entry>
 
-    <Entry Id="menu_paramedic_subtitle">
-        <String xml:lang="en-US">Select an option</String>
-        <String xml:lang="it-IT">Seleziona un opzione</String>
-        <String xml:lang="de-DE">Wähle eine Option</String>
-        <String xml:lang="es-ES">Seleccione una opción</String>
-        <String xml:lang="pt-BR">Selecione uma opção</String>
-        <String xml:lang="ar-001">حدد اختيارا</String>
-        <String xml:lang="th-TH">เลือกตัวเลือก</String>
-        <String xml:lang="vn-VN">Chọn một tuỳ chọn</String>
-        <String xml:lang="id-ID">Pilih salah satu opsi</String>
-        <String xml:lang="zh-Hant">選擇一個選項</String>
-    </Entry>
-
     <Entry Id="menu_paramedic_calls_subtitle">
         <String xml:lang="en-US">Calls</String>
         <String xml:lang="it-IT">Chiamate</String>
@@ -937,19 +957,6 @@
         <String xml:lang="vn-VN">Cảnh sát</String>
         <String xml:lang="id-ID">Petugas Kepolisian</String>
         <String xml:lang="zh-Hant">警員</String>
-    </Entry>
-
-    <Entry Id="menu_policeofficer_subtitle">
-        <String xml:lang="en-US">Select an option</String>
-        <String xml:lang="it-IT">Seleziona un opzione</String>
-        <String xml:lang="de-DE">Wähle eine Option</String>
-        <String xml:lang="es-ES">Seleccione una opción</String>
-        <String xml:lang="pt-BR">Selecione uma opção</String>
-        <String xml:lang="ar-001">حدد اختيارا</String>
-        <String xml:lang="th-TH">เลือกตัวเลือก</String>
-        <String xml:lang="vn-VN">Chọn một tuỳ chọn</String>
-        <String xml:lang="id-ID">Pilih salah satu opsi</String>
-        <String xml:lang="zh-Hant">選擇一個選項</String>
     </Entry>
 
     <Entry Id="menu_policeofficer_calls_subtitle">
