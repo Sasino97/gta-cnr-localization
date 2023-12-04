@@ -23,6 +23,7 @@
         <String xml:lang="de-DE">Garage</String>
         <String xml:lang="ar-001">جراج</String>
         <String xml:lang="id-ID">Garasi</String>
+        <String xml:lang="th-TH">โรงรถ</String>
     </Entry>
 
     <!-- ========================= -->
@@ -40,6 +41,7 @@
         <String xml:lang="pt-BR">Não é possível ~r~deletar ~s~este item em um depósito.</String>
         <String xml:lang="ar-001">لا يمكنك ~r~نقل ~s~هذا العنصر إلى المستودع.</String>
         <String xml:lang="id-ID">Anda tidak dapat ~r~memindahkan ~s~barang ini kedalam gudang.</String>
+        <String xml:lang="th-TH">คุณไม่สามารถ ~r~ย้าย ~s~รายการนี้เข้าไปในโกดังได้</String>
     </Entry>
 
     <Entry Id="warehouse_item_put">
@@ -52,6 +54,7 @@
         <String xml:lang="pt-BR">Você colocou {0} ~p~{1} ~s~em seu depósito.</String>
         <String xml:lang="ar-001">قمت بوضع {0} ~p~{1} ~s~في المستودع الخاص بك.</String>
         <String xml:lang="id-ID">Anda memasukkan {0} ~p~{1} ~s~kedalam gudang anda.</String>
+        <String xml:lang="th-TH">คุณใส่ {0} ~p~{1} ~s~ ไว้ในคลังสินค้าของคุณ</String>
     </Entry>
 
     <Entry Id="warehouse_cant_move_out">
@@ -64,6 +67,7 @@
         <String xml:lang="pt-BR">Você não pode ~r~excluir ~s~esse item de su depósito.</String>
         <String xml:lang="ar-001">لا يمكنك ~r~نقل ~s~هذا العنصر خارج المستودع الخاص بك</String>
         <String xml:lang="id-ID">Anda tidak dapat ~r~memindahkan ~s~barang ini keluar dari gudang.</String>
+        <String xml:lang="th-TH">คุณไม่สามารถ ~r~ย้าย ~s~รายการนี้ออกจากคลังสินค้าของคุณได้</String>
     </Entry>
 
     <Entry Id="warehouse_item_taken">
@@ -76,6 +80,7 @@
         <String xml:lang="pt-BR">Você retirou {0} ~p~{1} ~s~de sua depósito.</String>
         <String xml:lang="ar-001">لقد حصلت على {0} ~p~{1} ~s~من المستودع الخاص بك.</String>
         <String xml:lang="id-ID">Anda mengambil {0} ~p~{1} ~s~dari gudang anda.</String>
+        <String xml:lang="th-TH">คุณนำ {0} ~p~{1} ~s~ จากคลังสินค้าของคุณ</String>
     </Entry>
 
     <Entry Id="warehouse_player_entered">
@@ -88,6 +93,7 @@
         <String xml:lang="pt-BR">(C){0}(/C) ~g~entraram no depósito~s~.</String>
         <String xml:lang="ar-001">(C){0}(/C) ~g~دخلت إلى المستودع~s~.</String>
         <String xml:lang="id-ID">(C){0}(/C) ~g~Anda memasuki gudang~s~.</String>
+        <String xml:lang="th-TH">(C){0}(/C) ~g~เข้าไปในโกดัง~s~</String>
     </Entry>
 
     <Entry Id="warehouse_player_forcibly_entered_specific">
@@ -100,6 +106,7 @@
         <String xml:lang="pt-BR">(C){0}(/C) forçou sua entrada em ~y~{1}~s~.</String>
         <String xml:lang="ar-001">(C){0}(/C) تم إدخاله بالقوة ~y~{1}~s~.</String>
         <String xml:lang="id-ID">(C){0}(/C) Memaksa masuk ~y~{1}~s~.</String>
+        <String xml:lang="th-TH">(C){0}(/C) บังคับให้ป้อน ~y~{1}~s~</String>
     </Entry>
 
     <Entry Id="warehouse_player_forcibly_entered">
@@ -112,6 +119,7 @@
         <String xml:lang="pt-BR">(C){0}(/C) ~r~entrada forçada ~s~no depósito.</String>
         <String xml:lang="ar-001">(C){0}(/C) ~r~دخل بالقوة ~s~المستودع.</String>
         <String xml:lang="id-ID">(C){0}(/C) ~r~Memaksa memasuki ~s~gudang.</String>
+        <String xml:lang="th-TH">(C){0}(/C) ~r~บังคับให้เข้าไปใน ~s~โกดัง</String>
     </Entry>
 
     <Entry Id="warehouse_dont_have_amount_item">
@@ -122,6 +130,8 @@
         <String xml:lang="de-DE">~r~Du besitzt diese Menge von diesem Gegenstand nicht!</String>
         <String xml:lang="ar-001">~r~ليس لديك هذا القدر من هذا العنصر!</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki barang ini sebanyak itu!</String>
+        <String xml:lang="th-TH">~r~คุณไม่มีไอเท็มชิ้นนี้จำนวนนั้น!</String>
+
     </Entry>
 
     <Entry Id="warehouse_not_enough_space_left">
@@ -132,6 +142,7 @@
         <String xml:lang="de-DE">~r~Es ist nicht genug Platz übrig!</String>
         <String xml:lang="ar-001">~r~ليس هناك مساحة كافية!</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki ruang tersedia!</String>
+        <String xml:lang="th-TH">~r~มีพื้นที่เหลือไม่เพียงพอ!</String>
     </Entry>
 
     <Entry Id="warehouse_cant_hold_amount">
@@ -142,6 +153,7 @@
         <String xml:lang="de-DE">~r~Du kannst nicht so viel von diesem Gegenstand halten!</String>
         <String xml:lang="ar-001">~r~لا يمكنك الاحتفاظ بهذا العدد الكبير من هذا العنصر!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat membawa barang ini sebanyak itu!</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถถือไอเทมชิ้นนี้ได้มากขนาดนั้น!</String>
     </Entry>
 
     <Entry Id="warehouse_dont_have_required_level">
@@ -152,6 +164,7 @@
         <String xml:lang="de-DE">~r~Du besitzt nicht das benötigte Level, um dieses Lagerhaus zu kaufen.</String>
         <String xml:lang="ar-001">~r~ليس لديك المستوى المطلوب لشراء هذا المستودع.</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki level yang dibutuhkan untuk membeli gudang ini.</String>
+        <String xml:lang="th-TH">~r~คุณไม่มีระดับที่กำหนดในการซื้อโกดังนี้</String>
     </Entry>
 
     <!-- {0} = Player name -->
@@ -163,6 +176,7 @@
         <String xml:lang="de-DE">Du hast an {0}'s Lagerhaus geklopft. Warte auf deren Antwort.</String>
         <String xml:lang="ar-001">لقد طرقت على المستودع {0}. انتظر منهم.</String>
         <String xml:lang="id-ID">anda mengetuk pintu gudang milik {0}. Silahkan tunggu jawaban dia.</String>
+        <String xml:lang="th-TH">คุณเคาะที่โกดังของ {0} รอให้พวกเขาตอบ</String>
     </Entry>
 
     <Entry Id="warehouse_knocking_cooldown">
@@ -173,6 +187,7 @@
         <String xml:lang="de-DE">~r~Du musst warten, bevor du erneut klopfst.</String>
         <String xml:lang="ar-001">~r~يجب عليك الانتظار قبل أن تطرق الباب مرة أخرى.</String>
         <String xml:lang="id-ID">~r~Silahkan tunggu beberapa saat sebelum mengetuk pintu lagi.</String>
+        <String xml:lang="th-TH">~r~คุณต้องรอก่อนที่จะเคาะอีกครั้ง</String>
     </Entry>
 
     <Entry Id="warehouse_entered_players">
@@ -183,6 +198,7 @@
         <String xml:lang="de-DE">Du hast ~b~{0}'s Lagerhaus betreten.</String>
         <String xml:lang="ar-001">لقد ~b~دخلت إلى مستودع {0}</String>
         <String xml:lang="id-ID">Anda ~b~memasuki gudang milik {0}.</String>
+        <String xml:lang="th-TH">คุณ ~b~เข้าไปในโกดังของ {0}</String>
     </Entry>
 
     <Entry Id="warehouse_dont_have_warrant">
@@ -193,6 +209,7 @@
         <String xml:lang="de-DE">Du hast keinen ~o~Durchsuchungsbefehl~s~, um dieses Lagerhaus zu betreten. Du kannst es nur betreten, wenn du einen gesuchten Verdächtigen siehst, wie er das Lagerhaus betritt.</String>
         <String xml:lang="ar-001">ليس لديك ~o~ضمان ~s~لدخول هذا المستودع.لا يمكنك الدخول إلا عندما تكتشف ~o~دخول~s~ أحد المشتبه بهم المطلوبين</String>
         <String xml:lang="id-ID">Anda tidak memiliki ~o~surat geledah ~s~untuk memasuki gudang ini. Anda hanya dapat memasuki tempat yang ~s~dimasuki ~o~buronan.</String>
+        <String xml:lang="th-TH">คุณไม่มี ~o~หมายจับ ~s~เพื่อเข้าสู่โกดังแห่งนี้ คุณสามารถเข้าไปได้ก็ต่อเมื่อคุณพบ ~o~ผู้ต้องสงสัยที่ต้องการ ~s~เข้ามา</String>
     </Entry>
 
     <Entry Id="warehouse_attempt_cooldown">
@@ -203,6 +220,7 @@
         <String xml:lang="de-DE">~r~Du musst warten, bevor du erneut versuchst, das Lagerhaus zu betreten.</String>
         <String xml:lang="ar-001">~r~يجب عليك الانتظار قبل محاولة الدخول مرة أخرى.</String>
         <String xml:lang="id-ID">~r~Anda harus menunggu beberapa saat sebelum mencoba untuk masuk kembali.</String>
+        <String xml:lang="th-TH">~r~คุณต้องรอก่อนที่จะพยายามเข้าอีกครั้ง</String>
     </Entry>
 
     <Entry Id="warehouse_fell_out_teleport">
@@ -213,6 +231,7 @@
         <String xml:lang="de-DE">Du bist aus dem Innenbereich deiner Immobilie gefallen, du wurdest zurück rein teleportiert.</String>
         <String xml:lang="ar-001">لقد سقطت من داخل العقار، لذلك تم نقلك إلى الداخل مرة أخرى.</String>
         <String xml:lang="id-ID">Anda terjatuh dari interior properti, sehingga anda dipindahkan kedalam lagi.</String>
+        <String xml:lang="th-TH">คุณตกจากภายในทรัพย์สิน จึงถูกเคลื่อนย้ายกลับเข้าไป</String>
     </Entry>
 
     <!-- ========================= -->
@@ -230,6 +249,7 @@
         <String xml:lang="pt-BR">(C){0}(/C) Eu entro em ~y~{1}~s~.</String>
         <String xml:lang="ar-001">(C){0}(/C) تم إدخال ~y~{1}~s~.</String>
         <String xml:lang="id-ID">~y~{1}~s~ masuk (C){0}(/C).</String>
+        <String xml:lang="th-TH">(C){0}(/C) เข้าสู่ ~y~{1}~s~</String>
     </Entry>
 
     <Entry Id="garage_dont_have_required_level">
@@ -240,6 +260,7 @@
         <String xml:lang="de-DE">~r~Du besitzt nicht das benötigte Level, um diese Garage zu kaufen.</String>
         <String xml:lang="ar-001">~r~ليس لديك المستوى المطلوب لشراء هذا الجراج.</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki level yang dibutuhkan untuk membeli garasi ini.</String>
+        <String xml:lang="th-TH">~r~คุณไม่ต้องมีเลเวลในการซื้อโรงรถนี้</String>
     </Entry>
 
     <Entry Id="garage_dont_have_required_membership_tier">
@@ -250,6 +271,7 @@
         <String xml:lang="de-DE">~r~Du besitzt nicht die benötigte Mitgliedschaftsstufe, um diese Garage zu kaufen.</String>
         <String xml:lang="ar-001">~r~ليس لديك مستوى العضوية المطلوب لشراء هذا الجراج.</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki tingkat keanggotan yang diperlukan untuk membeli garasi ini.</String>
+        <String xml:lang="th-TH">~r~คุณไม่ต้องมีระดับสมาชิกที่ต้องการในการซื้อโรงรถนี้</String>
     </Entry>
 
     <Entry Id="garage_cant_store_vehicle">
@@ -260,6 +282,7 @@
         <String xml:lang="de-DE">~r~Du kannst dieses Fahrzeug nicht in einer Garage lagern.</String>
         <String xml:lang="ar-001">~r~لا يمكنك تخزين هذه السيارة في الجراج.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat menaruh kendaraan ini kedalam garasi.</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถเก็บรถคันนี้ไว้ในโรงรถได้</String>
     </Entry>
 
     <Entry Id="garage_stolen_vehicle_parked">
@@ -270,6 +293,7 @@
         <String xml:lang="de-DE">Dieses ~r~gestohlene Fahrzeug~s~ wurde in deiner ~y~Garage~s~ geparkt.</String>
         <String xml:lang="ar-001">هذه ~r~السيارة المسروقة ~s~تم تخزينها في ~y~الجراج الخاص بك~s~.</String>
         <String xml:lang="id-ID">Kendaraan ~r~curian ini ~s~sudah terparkir didalam ~y~garasi~s~.</String>
+        <String xml:lang="th-TH">~r~ยานพาหนะที่ถูกขโมย ~s~นี้จอดอยู่ใน ~y~โรงรถ~s~ ของคุณ</String>
     </Entry>
 
     <Entry Id="garage_personal_vehicle_returned">
@@ -280,6 +304,7 @@
         <String xml:lang="de-DE">Dieses ~b~persönliche Fahrzeuge ~s~wurde zurück in deine ~y~Garage ~s~gebracht.</String>
         <String xml:lang="ar-001">تمت إعادة ~b~هذه السيارة الشخصية ~s~الي ~y~الجراج الخاص بك~s~.</String>
         <String xml:lang="id-ID">~b~Kendaraan personal ini ~s~sudah dikembalikan ke ~y~garasi~s~.</String>
+        <String xml:lang="th-TH">~b~ยานพาหนะส่วนตัว ~s~นี้ได้ถูกส่งคืนไปยัง ~y~โรงรถ~s~ ของคุณแล้ว</String>
     </Entry>
 
     <Entry Id="garage_personal_vehicle_moved">
@@ -290,6 +315,7 @@
         <String xml:lang="de-DE">Dieses ~b~persönliche Fahrzeug~s~ wurde in diese ~y~Garage ~s~verschoben.</String>
         <String xml:lang="ar-001">لقد تم نقل ~b~هذه السيارة الشخصية ~s~الي هذا ~y~الجراج~s~.</String>
         <String xml:lang="id-ID">~b~Kendaraan personal ini ~s~telah dipindahkan ke ~y~garasi~s~ ini.</String>
+        <String xml:lang="th-TH">~b~ยานพาหนะส่วนตัว ~s~นี้ถูกย้ายไปที่ ~y~โรงรถ~s~ แล้ว</String>
     </Entry>
 
     <Entry Id="garage_cant_park_vehicle_current_job">
@@ -300,6 +326,7 @@
         <String xml:lang="de-DE">~r~Du kannst bei deinem aktuellen Job keine Fahrzeuge in einer Garage parken.</String>
         <String xml:lang="ar-001">~r~لا يمكنك ركن المركبات في الجراج في وظيفتك الحالية.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat memarkir kendaraan ini kedalam garasi dalam kerjaan anda saat ini.</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถจอดรถในโรงรถในงานปัจจุบันของคุณได้</String>
     </Entry>
 
     <Entry Id="garage_cant_park_someone_elses_vehicle">
@@ -310,6 +337,7 @@
         <String xml:lang="de-DE">~r~Du kannst keine persönlichen Fahrzeuge von anderen Spielern in einer Garage parken.</String>
         <String xml:lang="ar-001">~r~لا يمكنك ركن سيارة شخص آخر في الجراج.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat memarkir kendaraan orang lain kedalam garasi.</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถจอดรถของคนอื่นในโรงรถได้</String>
     </Entry>
 
     <Entry Id="garage_full">
@@ -320,6 +348,7 @@
         <String xml:lang="de-DE">~r~Deine Garage ist voll.</String>
         <String xml:lang="ar-001">~r~الجراج الخاص بك ممتلئ.</String>
         <String xml:lang="id-ID">~r~Garasi anda sudah penuh.</String>
+        <String xml:lang="th-TH">~r~โรงรถของคุณเต็มแล้ว</String>
     </Entry>
 
     <Entry Id="garage_cant_take_vehicle_out_current_job">
@@ -330,6 +359,7 @@
         <String xml:lang="de-DE">~r~Du kannst bei deinem aktuellen Job keine Fahrzeuge aus einer Garage nehmen.</String>
         <String xml:lang="ar-001">~r~لا يمكنك إخراج المركبات من الجراج في وظيفتك الحالية.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat mengambil kendaraan ini dengan pekerjaan anda saat ini.</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถนำยานพาหนะออกจากโรงรถในงานปัจจุบันของคุณได้</String>
     </Entry>
 
     <Entry Id="vehicle_gps_set">
@@ -341,6 +371,7 @@
         <String xml:lang="de-DE">~r~Du musst dich in einem Fahrzeug befinden, um eine GPS zu setzen.</String>
         <String xml:lang="ar-001">~r~يجب أن تكون في السيارة لتتمكن من ضبط نظام تحديد المواقع العالمي (GPS).</String>
         <String xml:lang="id-ID">~r~Anda harus berada didalam kendaran untuk menandai di GPS</String>
+        <String xml:lang="th-TH">~r~คุณต้องอยู่ในยานพาหนะเพื่อตั้งค่า GPS</String>
     </Entry>
 
     <!-- {0} = Property name (warehouse; garage; ...) -->
@@ -353,6 +384,7 @@
         <String xml:lang="de-DE">Navigiere zu ~y~{0}~s~.</String>
         <String xml:lang="ar-001">تم تحديد الوجهة الي ~y~{0}~s~.</String>
         <String xml:lang="id-ID">Menunjukan jalan ke ~y~{0}~s~.</String>
+        <String xml:lang="th-TH">กำลังนำทางไปยัง ~y~{0}~s~</String>
     </Entry>
 
     <Entry Id="property_purchased">
@@ -363,6 +395,7 @@
         <String xml:lang="de-DE">Du hast ~y~{0} für ~g~{1} ~s~gekauft.</String>
         <String xml:lang="ar-001">لقد قمت بشراء ~y~{0} ~s~لـ ~g~{1}~s~.</String>
         <String xml:lang="id-ID">Anda telah membeli ~y~{0} ~s~seharga ~g~{1}~s~.</String>
+        <String xml:lang="th-TH">คุณซื้อ ~y~{0} ~s~สำหรับ ~g~{1}~s~</String>
     </Entry>
 
     <!-- {0} = Property name (warehouse; garage; ...) -->
@@ -374,6 +407,7 @@
         <String xml:lang="de-DE">~r~Du bist nicht dazu autorisiert, um diese/s {0} zu betreten.</String>
         <String xml:lang="ar-001">~r~غير مصرح لك بإدخال هذا {0}.</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki otoritas untuk memasuki ini {0}.</String>
+        <String xml:lang="th-TH">~r~คุณไม่ได้รับอนุญาตให้เข้าสู่ {0} นี้</String>
     </Entry>
 
     <Entry Id="property_owner_offline">
@@ -384,6 +418,7 @@
         <String xml:lang="de-DE">~r~Dieser Besitzer von diese/m {0} ist offline.</String>
         <String xml:lang="ar-001">~r~مالك هذا {0} غير متصل.</String>
         <String xml:lang="id-ID">~r~Pemilik properti ini {0} sedang offline.</String>
+        <String xml:lang="th-TH">~r~เจ้าของ {0} นี้อยู่ในสถานะออฟไลน์</String>
     </Entry>
 
     <!-- {0} = Player's name -->
@@ -396,6 +431,7 @@
         <String xml:lang="de-DE">{0} ~s~klopft an ~y~{1}~s~.</String>
         <String xml:lang="ar-001">{0} ~s~يطرق على ~y~{1}~s~.</String>
         <String xml:lang="id-ID">{0} sedang mengetuk di ~y~{1}~s~.</String>
+        <String xml:lang="th-TH">{0} ~s~กำลังเคาะที่ ~y~{1}~s~</String>
     </Entry>
 
     <!-- {0} = Player's name -->
@@ -407,6 +443,7 @@
         <String xml:lang="de-DE">Du hast {0}~s~ geantwortet.</String>
         <String xml:lang="ar-001">لقد أجبت {0}~s~.</String>
         <String xml:lang="id-ID">Anda telah menjawab {0}~s~.</String>
+        <String xml:lang="th-TH">คุณตอบ {0}~s~</String>
     </Entry>
 
     <!-- ========================= -->
@@ -419,6 +456,7 @@
         <String xml:lang="pt-BR">Propriedades</String>
         <String xml:lang="ar-001">الممتلكات</String>
         <String xml:lang="id-ID">properti</String>
+        <String xml:lang="th-TH">คุณสมบัติ</String>
     </Entry>
 
     <Entry Id="menu_properties_subtitle">
@@ -428,6 +466,7 @@
         <String xml:lang="pt-BR">Visualizar suas propriedades</String>
         <String xml:lang="ar-001">عرض الممتلكات الخاصة بك</String>
         <String xml:lang="id-ID">Melihat properti anda</String>
+        <String xml:lang="th-TH">ดูคุณสมบัติของคุณ</String>
     </Entry>
 
     <!-- ========================= -->
@@ -440,6 +479,7 @@
         <String xml:lang="pt-BR">Garagem</String>
         <String xml:lang="ar-001">الجراجات</String>
         <String xml:lang="id-ID">Garasi</String>
+        <String xml:lang="th-TH">โรงรถ</String>
     </Entry>
 
     <Entry Id="menu_garage_subtitle">
@@ -449,6 +489,7 @@
         <String xml:lang="pt-BR">Selecione uma garagem</String>
         <String xml:lang="ar-001">اختر جراج</String>
         <String xml:lang="id-ID">Pilih garasi</String>
+        <String xml:lang="th-TH">เลือกโรงรถ</String>
     </Entry>
 
 </Entries>
