@@ -41,6 +41,11 @@
         <String xml:lang="id-ID">Tukarkan kupon hadiah</String>
     </Entry>
 
+    <!-- {0} = Current balance -->
+    <Entry Id="menu_store_gift_card_balance">
+        <String xml:lang="en-US">GIFT CARD: {0}</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- When a store menu is empty -->
     <!-- ========================= -->
@@ -120,18 +125,26 @@
     <Entry Id="item_attribute_unlocked_with_membership_requires_lower_tier">
         <String xml:lang="en-US">(requires {0})</String>
     </Entry>
-    
+
     <!-- ========================= -->
-    <!-- Weapon/ammo menus  -->
+    <!-- Store Restrictions and Cooldowns -->
     <!-- ========================= -->
     <Entry Id="menu_store_no_gun_for_ammo_type">
         <String xml:lang="en-US">You don't have any gun that can use this type of ammo.</String>
+    </Entry>
+
+    <!-- {0} = Cooldown/time left -->
+    <Entry Id="menu_store_shoplifting_cooldown">
+        <String xml:lang="en-US">You have been caught ~r~shoplifting ~s~here. Come back in ~y~{0}~s~.</String>
+    </Entry>
+    
+    <Entry Id="menu_store_bounty">
+        <String xml:lang="en-US">You cannot shop at gun stores when you have a ~r~bounty~s~.</String>
     </Entry>
     
     <!-- ========================= -->
     <!-- Menu for Job Supplies-->
     <!-- ========================= -->
-
     <!-- {0} = Job name -->
     <!-- Example: "Mechanic Supplies" at the Hardware Store -->
     <Entry Id="menu_supply_subtitle">
