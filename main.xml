@@ -66,7 +66,7 @@
         <String xml:lang="ar-001">~r~حدث خطأ غير متوقع على الخادم وتم إلغاء عملية السرقة.</String>
         <String xml:lang="id-ID">~r~Telah terjadi sebuah kesalahan yang tidak terduga pada server dan perampokan telah dibatalkan.</String>
         <String xml:lang="th-TH">~r~เกิดข้อผิดพลาดที่ไม่คาดคิดบนเซิร์ฟเวอร์และการโจรกรรมได้ถูกยกเลิกแล้ว</String>
-
+        <String xml:lang="zh-Hant">~r~伺服器發生了未曾發生的錯誤，所以搶劫已被取消。</String>
     </Entry>
 
     <Entry Id="invalid_item">
@@ -80,6 +80,7 @@
         <String xml:lang="ar-001">~r~غرض غير صالح.</String>
         <String xml:lang="id-ID">~r~Barang tidak valid.</String>
         <String xml:lang="th-TH">~r~รายการไม่ถูกต้อง</String>
+        <String xml:lang="zh-Hant">~r~無效的物品.</String>
     </Entry>
 
     <Entry Id="error_loading_loadout">
@@ -93,6 +94,7 @@
         <String xml:lang="ar-001">~r~تحذير: ~s~حدث خطأ أثناء تحميل العتاد الخاص بك. قد تؤدي إعادة التسجيل إلى حل هذه المشكلة.</String>
         <String xml:lang="id-ID">~r~Peringatan: ~s~Telah terjadi kesalahan dalam memuat persenjataan anda. Login ulang dapat membantu untuk memperbaiki masalah ini.</String>
         <String xml:lang="th-TH">~r~คำเตือน: ~s~มีข้อผิดพลาดในการโหลดชุดปรับแต่งของคุณ การบันทึกซ้ำอาจแก้ไขปัญหานี้ได้</String>
+        <String xml:lang="zh-Hant">~r~警告: ~s~加載您的裝載時出現了錯誤，重新登入以修復此問題。</String>
     </Entry>
 
     <!-- ========================= -->
@@ -141,7 +143,7 @@
         <String xml:lang="fr-FR">~r~Désolé, cette fonctionnalité n'a pas encore été implantée!</String>
         <String xml:lang="pl-PL">~r~Przepraszamy, ta funkcja nie jest jeszcze dostępna!</String>
         <String xml:lang="tr-TR">~r~Üzgünüz, bu özellik henüz kullanılamıyor!</String>
-        <String xml:lang="zh-Hant">~r~抱歉,該功能尚未開啟</String>
+        <String xml:lang="zh-Hant">~r~抱歉,該功能尚未啟用</String>
         <String xml:lang="zh-Hans">~r~抱歉,该功能尚未开启</String>
         <String xml:lang="es-ES">~r~Lo sentimos, esta función aún no se ha implementado!</String>
         <String xml:lang="pt-BR">~r~Desculpe, mas essa função ainda não foi implementada!</String>
@@ -161,6 +163,7 @@
         <String xml:lang="ar-001">~r~ليس لديك ما يكفي من المال.</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki uang yang cukup.</String>
         <String xml:lang="th-TH">~r~คุณมีเงินไม่พอ</String>
+        <String xml:lang="zh-Hant">~r~您沒有足夠的現金.</String>
     </Entry>
 
     <Entry Id="not_enough_money_bank_account">
@@ -174,6 +177,7 @@
         <String xml:lang="ar-001">~r~ليس لديك ما يكفي من المال في حسابك البنكي!</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki uang yang cukup didalam rekening bank anda.</String>
         <String xml:lang="th-TH">~r~คุณมีเงินในบัญชีธนาคารไม่เพียงพอ!</String>
+        <String xml:lang="zh-Hant">~r~您的銀行內沒有足夠的存款!</String>
     </Entry>
 
     <Entry Id="not_enough_inventory_space">
@@ -187,6 +191,7 @@
         <String xml:lang="ar-001">~r~ليس لديك مساحة كافية في مخزونك!</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki ruang yang cukup didalam inventory anda.</String>
         <String xml:lang="th-TH">~r~คุณมีพื้นที่ในสินค้าคงคลังไม่เพียงพอ!</String>
+        <String xml:lang="zh-Hant">~r~您的背包沒有足夠的空間!</String>
 
     </Entry>
 
@@ -201,6 +206,7 @@
         <String xml:lang="ar-001">~r~لا يمكنك شراء هذه الكمية من هذا العنصر!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat membeli barang ini dengan jumlah tersebut.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถซื้อไอเท็มชิ้นนี้เพิ่มในจำนวนนั้นได้!</String>
+        <String xml:lang="zh-Hant">~r~您不能再購買該數量的該商品</String>
     </Entry>
 
     <Entry Id="far_business_loc">
@@ -214,6 +220,7 @@
         <String xml:lang="ar-001">~r~أنت بعيد جدًا عن موقع العمل!</String>
         <String xml:lang="id-ID">~r~Anda terlalu jauh dari lokasi bisnis!</String>
         <String xml:lang="th-TH">~r~คุณอยู่ไกลจากที่ตั้งธุรกิจมากเกินไป!</String>
+        <String xml:lang="zh-Hant">~r~您離購買地點太遠了!</String>
     </Entry>
 
     <Entry Id="cant_purchase_amount">
@@ -227,6 +234,7 @@
         <String xml:lang="ar-001">~r~لا يمكنك شراء {0} المزيد من هذا العنصر!</String>
         <String xml:lang="id-ID">~r~Anda tidak bisa membeli lebih banyak {0}!</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถซื้อรายการนี้ได้อีก {0} รายการ!</String>
+        <String xml:lang="zh-Hant">~r~您不能買超過 {0} 個該物品!</String>
     </Entry>
 
     <Entry Id="cant_hold_more_item">
@@ -240,6 +248,7 @@
         <String xml:lang="ar-001">لا يمكنك الاحتفاظ بأي المزيد من هذا العنصر!</String>
         <String xml:lang="id-ID">~r~Anda tidak bisa membawa lebih banyak barang ini!</String>
         <String xml:lang="th-TH">คุณไม่สามารถถือรายการนี้อีกต่อไป!</String>
+        <String xml:lang="zh-Hant">您無法持有更多該物品!</String>
     </Entry>
 
     <Entry Id="feature_not_implemented_yet">
@@ -253,6 +262,7 @@
         <String xml:lang="ar-001">~r~عذرًا، لم يتم تنفيذ هذه الميزة بعد!</String>
         <String xml:lang="id-ID">~r~Mohon maaf, Fitur ini belom tersedia untuk saat ini!</String>
         <String xml:lang="th-TH">~r~ขออภัย ฟีเจอร์นี้ยังไม่ได้ใช้งาน!</String>
+        <String xml:lang="zh-Hant">~r~抱歉,此功能還未被被應用!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -336,6 +346,7 @@
         <String xml:lang="pt-BR">Escolha uma opção</String>
         <String xml:lang="ar-001">حدد اختيارا</String>
         <String xml:lang="th-TH">เลือกตัวเลือก</String>
+        <String xml:lang="zh-Hant">選擇一個選項</String>
     </Entry>
 
     <!-- ========================= -->
@@ -376,6 +387,7 @@
         <String xml:lang="ar-001">🛡️ ~b~GTA CnR Shield ~s~حذر {0} من العمل {1} لمدة {2} يومًا.</String>
         <String xml:lang="id-ID">🛡️ ~b~GTA CnR Shield ~s~{0} telah di ban dari {1} selama {2} hari.</String>
         <String xml:lang="th-TH">🛡️ ~b~GTA CnR Shield ~s~ถูกแบน {0} จากงาน {1} เป็นเวลา {2} วัน</String>
+        <String xml:lang="zh-Hant">🛡️ ~b~GTA CnR 守護者 ~s~封禁 {0} 遊玩 {1} {2}天.</String>
     </Entry>
 
     <!-- {0} = Player name -->
@@ -394,6 +406,7 @@
         <String xml:lang="ar-001">🛡️ ~b~GTA CnR Shield ~s~حظر {0} لـ {1} لـ ~r~{2}~s~. إجمالي اللاعبين المحظورين: {3}</String>
         <String xml:lang="id-ID">🛡️ ~b~GTA CnR Shield ~s~{0} telah di ban dari server selama {1} karena ~r~{2}~s~. Jumlah Pemain yang telah di ban: {3}</String>
         <String xml:lang="th-TH">🛡️ ~b~GTA CnR Shield ~s~ถูกแบน {0} สำหรับ {1} สำหรับ ~r~{2}~s~ ผู้เล่นทั้งหมดถูกแบน: {3}</String>
+        <String xml:lang="zh-Hant">🛡️ ~b~GTA CnR 守護者 ~s~以封禁 {0}  {1} 次， 因為 ~r~{2}~s~. 玩家被封禁次數: {3}</String>
     </Entry>
 
     <Entry Id="offline">
@@ -408,6 +421,7 @@
         <String xml:lang="ar-001">غير متصل</String>
         <String xml:lang="id-ID">offline</String>
         <String xml:lang="th-TH">ออฟไลน์</String>
+        <String xml:lang="zh-Hant">離線</String>
     </Entry>
 
     <Entry Id="vehicle_cannot_be_used">
@@ -421,6 +435,7 @@
         <String xml:lang="ar-001">هذه ~r~السيارة ~s~لا يمكن استخدامها في هذا السيرفر!</String>
         <String xml:lang="id-ID">~r~Kendaraan ~s~Itu tidak dapat digunakan dalam server ini!</String>
         <String xml:lang="th-TH">~r~vehicle ~s~ นั้นไม่สามารถใช้ในเซิร์ฟเวอร์นี้ได้!</String>
+        <String xml:lang="zh-Hant">此 ~r~車輛 ~s~無法在本伺服器內使用!</String>
     </Entry>
 
     <Entry Id="weapon_cannot_be_used">
@@ -434,6 +449,7 @@
         <String xml:lang="ar-001">هذا ~r~السلاح ~s~لا يمكن استخدامه في هذا السيرفر!</String>
         <String xml:lang="id-ID">~r~Senjata ~s~Itu tidak dapat digunakan dalam server ini!</String>
         <String xml:lang="th-TH">~r~weapon ~s~ นั้นไม่สามารถใช้ในเซิร์ฟเวอร์นี้ได้!</String>
+        <String xml:lang="zh-Hant">此 ~r~武器 ~s~無法在本伺服器內使用!</String>
     </Entry>
 
     <Entry Id="weapon_can_only_be_used_by_police">
@@ -447,6 +463,7 @@
         <String xml:lang="ar-001">هذا ~r~السلاح ~s~لا يمكن استخدامه إلا من قبل الشرطة!!</String>
         <String xml:lang="id-ID">~r~Senjata ~s~Itu hanya dapat digunakan oleh kepolisian!</String>
         <String xml:lang="th-TH">~r~weapon ~s~นั้นมีเพียงตำรวจเท่านั้นที่สามารถใช้ได้!</String>
+        <String xml:lang="zh-Hant">此 ~r~武器 ~s~只能被警察使用!</String>
     </Entry>
 
     <Entry Id="language_changed">
@@ -460,6 +477,7 @@
         <String xml:lang="ar-001">تم تغيير اللغة إلى ~b~{0}~s~</String>
         <String xml:lang="id-ID">Bahasa telah diubah menjadi ~b~{0}~s~</String>
         <String xml:lang="th-TH">ภาษาเปลี่ยนเป็น ~b~{0}~s~</String>
+        <String xml:lang="zh-Hant">語言切換至 ~b~{0}~s~</String>
     </Entry>
 
     <Entry Id="menu_blocked_title">
@@ -471,5 +489,6 @@
         <String xml:lang="ar-001">اللاعبين المحظورين</String>
         <String xml:lang="id-ID">Player yang di blokir</String>
         <String xml:lang="th-TH">ผู้เล่นที่ถูกบล็อก</String>
+        <String xml:lang="zh-Hant">封鎖玩家</String>
     </Entry>
 </Entries>
