@@ -215,7 +215,6 @@ Text can also be highlighted with the `(C)(/C)` tags.
 - Arabic (Modern Standard): `ar-001`
 - Chinese (Simplified): `zh-Hans`
 - Chinese (Traditional): `zh-Hant`
-- Hindi (Romanized): `hi-Latn`
 - Vietnamese (Vietnam): `vi-VN`
 - Thai (Thailand): `th-TH`
 - Indonesian (Indonesia): `id-ID`
