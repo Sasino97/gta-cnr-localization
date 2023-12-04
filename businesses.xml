@@ -136,10 +136,24 @@
     <!-- {0} = Cooldown/time left -->
     <Entry Id="menu_store_shoplifting_cooldown">
         <String xml:lang="en-US">You have been caught ~r~shoplifting ~s~here. Come back in ~y~{0}~s~.</String>
+        <String xml:lang="nl-NL">Je bent gepakt voor ~r~stelen ~s~hier. Kom terug in ~y~{0}~s~.</String>
+        <String xml:lang="it-IT">Sei stato colto in flagrante mentre ~r~rubavi ~s~qui. Torna in ~y~{0}~s~.</String>
+        <String xml:lang="de-DE">Du wurdest hier beim ~r~Ladendiebstahl~s~ erwischt. Komm in ~y~{0}~s~ zurück.</String>
+        <String xml:lang="es-ES">Te han pillado ~r~robando ~s~aquí. Vuelve en ~y~{0}~s~.</String>
+        <String xml:lang="pl-PL">Zostałeś złapany tu na ~r~kradzieży~s~. Wróć za ~y~{0}~s~.</String>
+        <String xml:lang="pt-BR">Você foi pego ~r~roubando ~s~aqui. Volte para dentro ~y~{0}~s~.</String>
     </Entry>
     
     <Entry Id="menu_store_bounty">
         <String xml:lang="en-US">You cannot shop at gun stores when you have a ~r~bounty~s~.</String>
+    </Entry>
+    
+    <Entry Id="menu_store_duty">
+        <String xml:lang="en-US">You cannot shop at this store when you are ~b~on-duty~s~.</String>
+    </Entry>
+    
+    <Entry Id="menu_store_cops_only">
+        <String xml:lang="en-US">Only ~b~police officers ~s~can shop at this store.</String>
     </Entry>
     
     <!-- ========================= -->
