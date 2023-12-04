@@ -108,6 +108,18 @@
     <Entry Id="item_attribute_requires_membership">
         <String xml:lang="en-US">Requires {0}~n~~s~Purchase at ~b~{1}</String>
     </Entry>
+
+    <!-- Shows up for items who require a membership, and you have that membership tier or higher -->
+    <!-- {0} = Membership Tier -->
+    <Entry Id="item_attribute_unlocked_with_membership">
+        <String xml:lang="en-US">Unlocked with your {0}</String>
+    </Entry>
+
+    <!-- Shows up after the previous string when you have a tier higher than the required one (e.g. you have Gold and the item is Silver) -->
+    <!-- {0} = Membership Tier -->
+    <Entry Id="item_attribute_unlocked_with_membership_requires_lower_tier">
+        <String xml:lang="en-US">(requires {0})</String>
+    </Entry>
     
     <!-- ========================= -->
     <!-- Weapon/ammo menus  -->
@@ -989,30 +1001,6 @@
         <String xml:lang="vn-VN">Lựa chọn</String>
         <String xml:lang="id-ID">Pilihan</String>
         <String xml:lang="zh-Hant">選項</String>
-    </Entry>
-
-    <Entry Id="menu_dealership_store_title">
-        <String xml:lang="en-US">Store</String>
-        <String xml:lang="it-IT">Negozio</String>
-        <String xml:lang="es-ES">Tienda</String>
-        <String xml:lang="pt-BR">Loja</String>
-        <String xml:lang="ar-001">محل</String>
-        <String xml:lang="th-TH">ร้านค้า</String>
-        <String xml:lang="vn-VN">Cửa hàng</String>
-        <String xml:lang="id-ID">Toko</String>
-        <String xml:lang="zh-Hant">商店</String>
-    </Entry>
-
-    <Entry Id="menu_dealership_store_subtitle">
-        <String xml:lang="en-US">Redeem Gift Cards</String>
-        <String xml:lang="it-IT">Riscatta Buoni Regalo</String>
-        <String xml:lang="es-ES">Canjear tarjetas regalo</String>
-        <String xml:lang="pt-BR">Resgate de cartões-presente</String>
-        <String xml:lang="ar-001">استرداد بطاقات الهدايا</String>
-        <String xml:lang="th-TH">แลกบัตรของขวัญ</String>
-        <String xml:lang="vn-VN">Đổi thẻ quà tặng</String>
-        <String xml:lang="id-ID">menebus kupon hadiah</String>
-        <String xml:lang="zh-Hant">獲取點數卡</String>
     </Entry>
 
     <Entry Id="menu_dealership_rental_title">
