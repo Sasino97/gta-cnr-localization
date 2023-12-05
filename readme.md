@@ -183,6 +183,9 @@ These delimit different categories of message inside the same file, and help kee
 
 ## GTA Formatting
 
+### New Lines
+New lines are represented with either `\n` or `~n~`. These special character combinations are interpreted as a new line by the game.
+
 ### Colors
 
 Sometimes you will find strings that contain symbols like the following: `~r~`. This simply means that from there on, the string will become red. Another common one is `~s~`, which will erase color formatting and return to the default color (white or black depending on the background). That how GTA color coding works, and we make extensive use of those in CnR because we have used the native GUI of GTA V a lot, and that's the way colors are coded.
@@ -215,7 +218,6 @@ Text can also be highlighted with the `(C)(/C)` tags.
 - Arabic (Modern Standard): `ar-001`
 - Chinese (Simplified): `zh-Hans`
 - Chinese (Traditional): `zh-Hant`
-- Hindi (Romanized): `hi-Latn`
 - Vietnamese (Vietnam): `vi-VN`
 - Thai (Thailand): `th-TH`
 - Indonesian (Indonesia): `id-ID`
