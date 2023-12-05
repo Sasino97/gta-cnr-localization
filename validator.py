@@ -649,6 +649,8 @@ class Validator:
                 unneeded_variables = [var for var in found_variables if var not in required_variables]
                 if unneeded_variables:
                     Validator.print_error(f"Found too many variables: {', '.join(unneeded_variables)}", path1, string_entry.parse_position)
+            if len(text) == 0:
+                Validator.print_error(f"Found empty translation", path1, start_position)
             text_without_formatting = re.sub(FORMAT_REGEX, "", text)
             invalid_text_formatting_loc = text_without_formatting.find("~")
             if invalid_text_formatting_loc != -1:
