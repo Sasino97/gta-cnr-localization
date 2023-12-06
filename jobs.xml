@@ -1191,6 +1191,7 @@
         <String xml:lang="pt-BR">~p~Os paramédicos devem ~s~devem salvar a vida dos cidadãos. O assassinato de civis inocentes e de NPCs resultará em pequenas perdas de ~r~XP~s~.</String>
         <String xml:lang="zh-Hant">~p~護理人員~s~應該拯救公民的生命.無辜的平民 NPC 傷亡將導致少量的~r~經驗值損失~s~</String>
         <String xml:lang="th-TH">~p~หน่วยแพทย์ ~s~ ได้รับการคาดหวังให้ช่วยชีวิตประชาชนได้ การบาดเจ็บล้มตายของ NPC พลเรือนผู้บริสุทธิ์จะส่งผลให้เกิดการสูญเสีย ~r~XP~s~ เล็กน้อย</String>
+        <String xml:lang="ar-001">~p~المسعفون ~s~من المتوقع أن يقوموا بإنقاذ حياة المواطنين. ستؤدي الخسائر البشرية الأبرياء من البوتات إلى خسائر صغيرة في ~r~نقاط الخبرة~s~.</String>
     </Entry>
 
     <!-- {0} = Paramedic -->
@@ -1204,6 +1205,7 @@
         <String xml:lang="pt-BR">O paramédico {0} ~s~está na área!</String>
         <String xml:lang="zh-Hant">救護人員 {0} ~s~已經抵達現場!</String>
         <String xml:lang="th-TH">หน่วยแพทย์ {0} ~s~ อยู่ในที่เกิดเหตุ!</String>
+        <String xml:lang="ar-001">لمسعف {0} ~s~موجود في مكان الحادث!</String>
     </Entry>
 
     <Entry Id="paramedic_crossteam_warn">
@@ -1216,7 +1218,7 @@
         <String xml:lang="zh-Hant">當~o~罪犯~s~與~b~警察~s~參與~r~射擊~s~時,你無法治愈~o~罪犯~s~,因為這被認為是~r~非法組隊~s~.</String>
         <String xml:lang="de-DE">Du kannst keine ~o~Kriminellen~s~ heilen, wenn diese in eine ~r~Schießerei ~s~mit der ~b~Polizei~s~ involviert sind, da es als ~r~Cross-Teaming~s~ gewertet wird.</String>
         <String xml:lang="th-TH">คุณไม่สามารถรักษา ~o~อาชญากร ~s~ได้เมื่อพวกเขาพัวพันกับ ~r~การยิง ~s~กับ ~b~ตำรวจ~s~ เนื่องจากถือว่าเป็น ~r~การร่วมมือกันข้ามทีม~s~</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">لا يمكنك شفاء ~o~المجرمين ~s~عندما يكونون متورطين في عملية ~r~إطلاق نار ~s~مع الشرطة~s~, حيث يعتبر ذلك بمثابة ~r~فريق مشترك~s~.</String>
     </Entry>
 
     <!-- {0} = Patient -->
@@ -1230,7 +1232,7 @@
         <String xml:lang="zh-Hant">你 ~p~治癒了 ~s~{0}.</String>
         <String xml:lang="de-DE">Du hast {0} ~p~geheilt~s~.</String>
         <String xml:lang="th-TH">คุณ ~p~หายเป็นปกติแล้ว ~s~{0}</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">لقد ~p~شفيت ~s~{0}.</String>
     </Entry>
 
     <!-- {0} = Counter -->
@@ -1244,7 +1246,7 @@
         <String xml:lang="zh-Hant">你 ~p~治癒了 ~s~{0} 位玩家.</String>
         <String xml:lang="de-DE">Du hast {0} Spieler ~p~geheilt~s~.</String>
         <String xml:lang="th-TH">คุณ ~p~รักษา ~s~{0} ผู้เล่นแล้ว</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">لقد قمت ~p~بشفاء ~s~{0} اللاعبين.</String>
     </Entry>
 
     <Entry Id="too_far_from_hospital">
@@ -1257,7 +1259,7 @@
         <String xml:lang="zh-Hant">~r~你離醫院太遠了!</String>
         <String xml:lang="de-DE">~r~Du bist zu weit von einem Krankenhaus entfernt.</String>
         <String xml:lang="th-TH">~r~คุณอยู่ไกลจากโรงพยาบาลเกินไป!</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~أنت بعيد جدًا عن المستشفى!</String>
     </Entry>
 
     <Entry Id="received_med_treatment">
@@ -1270,7 +1272,7 @@
         <String xml:lang="zh-Hant">你已在醫院接受了 ~p~治療~s~.</String>
         <String xml:lang="de-DE">Du hast eine ~p~medizinische Versorgung ~s~bei einem Krankenhaus erhalten.</String>
         <String xml:lang="th-TH">คุณได้รับ ~p~การรักษาพยาบาล ~s~ที่โรงพยาบาล</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">لقد تلقيت ~p~العلاج الطبي ~s~في المستشفى.</String>
     </Entry>
 
     <Entry Id="plastic_surgery_downtown">
@@ -1283,7 +1285,7 @@
         <String xml:lang="zh-Hant">請前往 ~b~Pillbox Hill醫療中心 ~s~(洛聖都市中心) 進行整型手術.</String>
         <String xml:lang="de-DE">Bitte gehe zum ~b~Pillbox Hill Krankenhaus ~s~(Downtown Los Santos) um eine Schönheitsoperation vorzunehmen.</String>
         <String xml:lang="th-TH">โปรดไปที่ ~b~Pillbox Hill Medical Center ~s~(Downtown Los Santos) เพื่อทำศัลยกรรมพลาสติก</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">يرجى الذهاب إلى ~b~Pillbox Hill Medical Center ~s~(Downtown Los Santos) لإجراء الجراحة التجميلية.</String>
     </Entry>
 
     <Entry Id="paramedic_wanted_come_back_later">
@@ -1296,6 +1298,7 @@
         <String xml:lang="zh-Hant">你正在被警察 ~o~通緝~s~! 請稍後再回來.</String>
         <String xml:lang="de-DE">Du wirst von der Polizei ~o~gesucht~s~! Bitte komm später wieder.</String>
         <String xml:lang="th-TH">คุณ ~o~ต้องการ ~s~ โดยตำรวจ! โปรดกลับมาใหม่</String>
+        <String xml:lang="ar-001">أنت ~o~مطلوب ~s~للشرطة! من فضلك, عود لاحقا</String>
     </Entry>
 
     <Entry Id="paramedic_active_shootout_cant_revive">
@@ -1308,7 +1311,7 @@
         <String xml:lang="zh-Hant">這裡正在進行 ~r~槍戰~s~! 你現在無法復活 ~o~通緝犯~s~.</String>
         <String xml:lang="de-DE">Eine aktive ~r~chießerei ~s~findet statt! Du kannst gerade keine ~o~gesuchte Verdächtigen ~s~wiederbeleben.</String>
         <String xml:lang="th-TH">มี ~r~การยิง~s~! คุณไม่สามารถฟื้น ~o~ผู้ต้องสงสัยที่ต้องการ ~s~ตอนนี้ได้</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">هناك ~r~ضرب نار~s~! لا يمكنك إحياء ~o~المشتبه بهم المطلوبين ~s~الآن.</String>
     </Entry>
 
     <!-- {0} = Player name -->
@@ -1322,7 +1325,7 @@
         <String xml:lang="zh-Hant">你 ~p~復活了 ~s~{0}!</String>
         <String xml:lang="de-DE">Du hast {0} ~p~wiederbelebt~s~!</String>
         <String xml:lang="th-TH">คุณ ~p~ฟื้นคืนชีพแล้ว ~s~{0}!</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">قد قمت ~p~بإحياء ~s~{0}!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1340,7 +1343,7 @@
         <String xml:lang="pt-BR">~r~Ele não foi capaz de algemar {0}.</String>
         <String xml:lang="zh-Hant">~r~你沒有成功上銬 {0}.</String>
         <String xml:lang="th-TH">~r~คุณล้มเหลวในการใส่กุญแจมือ {0}</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~لقد فشلت في تقييد {0}</String>
     </Entry>
 
     <!-- {0} = Location name -->
@@ -1356,7 +1359,7 @@
         <String xml:lang="pt-BR">Ir à ~y~{0} ~s~e ajudar o {1}.</String>
         <String xml:lang="zh-Hant">前往 ~y~{0} ~s~並逮捕 {1}.</String>
         <String xml:lang="th-TH">ไปที่ ~y~{0} ~s~และช่วยเหลือ {1}</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">نتقل إلى ~y~{0} ~s~وساعد {1}.</String>
     </Entry>
 
     <Entry Id="police_npc_loss">
@@ -1370,7 +1373,7 @@
         <String xml:lang="pt-BR">~b~Os policiais devem ~s~proteger e servir os cidadãos. baixas civis inocentes de NPCs resultarão em pequenas perdas de ~r~XP~s~.</String>
         <String xml:lang="zh-Hant">~b~警察~s~應該保護和服務公民.無辜平民 NPC 傷亡將導致少量的 ~r~經驗值損失~s~.</String>
         <String xml:lang="th-TH">~b~เจ้าหน้าที่ตำรวจ ~s~ได้รับการคาดหวังให้ปกป้องและรับใช้ประชาชน การบาดเจ็บล้มตายของ NPC พลเรือนผู้บริสุทธิ์จะส่งผลให้เกิดการสูญเสีย ~r~XP~s~ เล็กน้อย</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~b~ضباط الشرطة ~s~من المتوقع أن يقوموا بحماية المواطنين وخدمتهم .ستؤدي الخسائر البشرية الأبرياء من البوتات إلى خسائر صغيرة في ~r~نقاط الخبرة~s~.</String>
     </Entry>
 
     <!-- {0} = Clothing name -->
@@ -1385,7 +1388,7 @@
         <String xml:lang="pt-BR">você obteve um (a) ~b~{0}~s~.</String>
         <String xml:lang="zh-Hant">你更換了 ~b~{0}~s~.</String>
         <String xml:lang="th-TH">คุณได้รับ ~b~{0}~s~</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">لقد حصلت على ~b~{0}~s~.</String>
     </Entry>
 
     <Entry Id="police_shoot_warning">
@@ -1399,7 +1402,7 @@
         <String xml:lang="pt-BR">~y~(C)Lembrança:(/C) ~s~você só pode atirar ~r~nos criminosos~s~,mais procurados e ~o~ameaçadores~s~.</String>
         <String xml:lang="zh-Hant">~y~(C)提醒:(/C) ~s~你只能向~r~通緝犯(紅色玩家)~s~和對你有威脅的~o~罪犯~s~開槍.</String>
         <String xml:lang="th-TH">~y~(C)คำเตือน:(/C) ~s~คุณสามารถยิงได้เฉพาะที่ ~r~ที่ต้องการตัวมากที่สุดเท่านั้น ~s~และคุกคาม ~o~อาชญากร~s~</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~y~(C)تذكير:(/C) ~s~يمكنك فقط إطلاق النار على ~r~المطلوبين ~s~وتهديد ~o~المجرمين~s~.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1414,6 +1417,7 @@
         <String xml:lang="pt-BR">O policial {0} ~r~confiscou ~s~{1} ~s~de você.</String>
         <String xml:lang="zh-Hant">警員 {0} 已經 ~r~沒收了你的 ~s~{1}~s~.</String>
         <String xml:lang="th-TH">เจ้าหน้าที่ {0} ได้ ~r~ยึด ~s~{1} ~s~จากคุณ</String>
+        <String xml:lang="ar-001">الضابط {0} قام ~r~بمصادرة ~s~{1} ~s~منك.</String>
     </Entry>
 
     <!-- {0} = Officer -->
@@ -1427,6 +1431,7 @@
         <String xml:lang="pt-BR">O policial {0} respondeu ao chamado.</String>
         <String xml:lang="zh-Hant">警員 {0} 接收到了您的報警.</String>
         <String xml:lang="th-TH">เจ้าหน้าที่ {0} ตอบรับสายแล้ว</String>
+        <String xml:lang="ar-001">استجاب الضابط {0} للمكالمة.</String>
     </Entry>
 
     <!-- {0} = Officers' name -->
@@ -1442,6 +1447,7 @@
         <String xml:lang="pt-BR">{0} aceitou ~g~{2} ~s~de suborno de {1} mas não o compartilhou.</String>
         <String xml:lang="zh-Hant">{0} 接受了 {1} 的 ~g~{2} ~s~賄絡但並未與其他警員分享.</String>
         <String xml:lang="th-TH">{0} ยอมรับ ~g~{2} ~s~สินบน ของ {1} แต่ไม่ได้แบ่งปัน</String>
+        <String xml:lang="ar-001">{0} قبل ~s~رشوة من {1}~g~{2} ولكنه لم يشاركها.</String>
     </Entry>
 
     <!-- {0} = Officers' name -->
@@ -1456,6 +1462,7 @@
         <String xml:lang="pt-BR">{0} aceitou o suborno de {1} e o compartilhou com os policiais próximos.</String>
         <String xml:lang="zh-Hant">{0} 接受了 {1} 的賄絡並與附近的警員分享.</String>
         <String xml:lang="th-TH">{0} รับสินบนของ {1} และแบ่งปันให้กับเจ้าหน้าที่ที่อยู่ใกล้เคียง</String>
+        <String xml:lang="ar-001">قبل {0} رشوة {1} وشاركها مع الضباط القريبين.</String>
     </Entry>
 
     <Entry Id="player_called_911">
@@ -1468,6 +1475,7 @@
         <String xml:lang="pt-BR">{0} ~s~ligou para o 911 em ~y~{1}~s~</String>
         <String xml:lang="de-DE">{0} hat 911 zu ~y~{1} ~s~gerufen</String>
         <String xml:lang="th-TH">{0} ~s~เรียก 911 ใน ~y~{1}~s~</String>
+        <String xml:lang="ar-001">{0} ~s~تم الاتصال بالرقم 911 في ~y~{1}~s~</String>
     </Entry>
 
     <!-- {0} = Officers' name -->
@@ -1482,6 +1490,7 @@
         <String xml:lang="zh-Hant">警員 {0} 正在拘留 {1}.</String>
         <String xml:lang="de-DE">Der Polizist {0} hält {1} bereits in Gewahrsam.</String>
         <String xml:lang="th-TH">เจ้าหน้าที่ {0} ได้ควบคุมตัว {1} แล้ว</String>
+        <String xml:lang="ar-001">الضابط {0} يحتجز {1} بالفعل</String>
     </Entry>
 
     <Entry Id="police_already_in_custody">
@@ -1494,6 +1503,7 @@
         <String xml:lang="zh-Hant">~o~{0} ~s~已被警方拘留.</String>
         <String xml:lang="de-DE">~o~{0} ~s~befindet sich bereits in Polizeigewahrsam.</String>
         <String xml:lang="th-TH">~o~{0} ~s~อยู่ในการควบคุมตัวของตำรวจแล้ว</String>
+        <String xml:lang="ar-001">~o~{0} ~s~محتجز بالفعل لدى الشرطة</String>
     </Entry>
 
     <Entry Id="police_not_in_custody">
@@ -1506,6 +1516,7 @@
         <String xml:lang="zh-Hant">{0} ~r~沒有被拘留!</String>
         <String xml:lang="de-DE">{0} ~r~befindet sich nicht in Gewahrsam!</String>
         <String xml:lang="th-TH">{0} ~r~ไม่ได้ถูกควบคุมตัว!</String>
+        <String xml:lang="ar-001">{0} ~r~ليس محتجزًا!</String>
     </Entry>
 
     <Entry Id="police_holding_you_in_custody">
@@ -1518,6 +1529,7 @@
         <String xml:lang="zh-Hant">警員 ~b~{0} ~s~現在正將你拘留.</String>
         <String xml:lang="de-DE">Der Polizist ~b~{0} ~s~hält dich nun in gewahrsam.</String>
         <String xml:lang="th-TH">ขณะนี้เจ้าหน้าที่ ~b~{0} ~s~กำลังควบคุมตัวคุณอยู่</String>
+        <String xml:lang="ar-001">الضابط ~b~{0} ~s~يحتجزك الآن في الحجز.</String>
     </Entry>
 
     <Entry Id="police_suspect_arrested_by_other">
@@ -1529,6 +1541,7 @@
         <String xml:lang="pt-BR">~r~Esse suspeito está sendo preso por outro policial.</String>
         <String xml:lang="zh-Hant">~r~這名嫌犯已被其他警員逮捕.</String>
         <String xml:lang="de-DE">~r~Dieser Verdächtige wird von einem anderen Polizeibeamten festgenommen.</String>
+        <String xml:lang="ar-001">~r~تم القبض على هذا المشتبه به من قبل ضابط شرطة آخر.</String>
     </Entry>
 
     <Entry Id="police_suspect_already_following_other">
@@ -1541,6 +1554,7 @@
         <String xml:lang="zh-Hant">這名 ~o~嫌犯 ~s~已經在跟隨其他警員.</String>
         <String xml:lang="de-DE">Der ~o~Verdächtige ~s~folgt bereits einem anderen Polizist.</String>
         <String xml:lang="th-TH">~o~ผู้ต้องสงสัย ~s~กำลังติดตามเจ้าหน้าที่คนอื่นไปแล้ว</String>
+        <String xml:lang="ar-001">~o~لمشتبه به ~s~بالفعل ضابطًا آخر.</String>
     </Entry>
 
     <Entry Id="police_cuffing_you">
@@ -1552,6 +1566,7 @@
         <String xml:lang="pt-BR">O policial {0} está algemando você.{1}</String>
         <String xml:lang="zh-Hant">警員 {0} 正在對你進行上銬.{1}</String>
         <String xml:lang="de-DE">Der Polizist {0} verhaftet dich.{1}</String>
+        <String xml:lang="ar-001">الضابط {0} يقيدك.{1}</String>
     </Entry>
 
     <Entry Id="police_cuffed_you">
@@ -1563,6 +1578,7 @@
         <String xml:lang="pt-BR">O policial {0} algemou você.</String>
         <String xml:lang="zh-Hant">警員 {0} 正在對你進行上銬.</String>
         <String xml:lang="de-DE">Der Polizist {0} hat dich festgenommen.</String>
+        <String xml:lang="ar-001">لقد قام الضابط {0} بتقييدك.</String>
     </Entry>
 
     <Entry Id="police_failed_to_cuff_you">
@@ -1574,6 +1590,7 @@
         <String xml:lang="pt-BR">O policial {0} não conseguiu algemá-lo.</String>
         <String xml:lang="zh-Hant">警員 {0} 對你進行上銬失敗.</String>
         <String xml:lang="de-DE">Der Polizist {0} hat es nicht geschafft, dich festzunehmen.</String>
+        <String xml:lang="ar-001">لقد فشل الضابط {0} في تقييدك.</String>
     </Entry>
 
     <Entry Id="police_uncuffing_you">
@@ -1585,6 +1602,7 @@
         <String xml:lang="pt-BR">O policial {0} ~s~te está removendo suas algemas.</String>
         <String xml:lang="zh-Hant">警員 {0} ~s~正在對你進行解銬.</String>
         <String xml:lang="de-DE">Der Polizist {0} ~s~lässt dich frei.</String>
+        <String xml:lang="ar-001">الضابط {0} ~s~يفك قيدك.</String>
     </Entry>
 
     <Entry Id="police_uncuffed_you">
@@ -1596,6 +1614,7 @@
         <String xml:lang="pt-BR">O policial {0} ~s~tirou suas algemas.</String>
         <String xml:lang="zh-Hant">警員 {0} ~s~已解銬你.</String>
         <String xml:lang="de-DE">Der Polizist {0} ~s~hat dich freigelassen</String>
+        <String xml:lang="ar-001">قام الضابط {0} ~s~بفك قيودك.</String>
     </Entry>
 
     <Entry Id="police_ordered_you_get_vehicle">
