@@ -825,7 +825,7 @@
         <String xml:lang="zh-Hans">将有黄色标记的 ~y~非法停放车辆 拖至 ~g~扣押处~s~.</String>
         <String xml:lang="pt-BR">Reboque de ~y~veiculos ~s~estacionados ilegalmente, marcados com um cone amarelo ~g~para um lote apreendido~s~.</String>
         <String xml:lang="th-TH">ลากจูงจอดอย่างผิดกฎหมาย ~y~ยานพาหนะ ~s~ทำเครื่องหมายด้วยกรวยสีเหลืองถึง ~g~ยึดล็อต~s~</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">قم بسحب ~y~المركبات ~s~والمميزة بمخروط أصفر إلى ~g~منطقة الحجز~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_description">
@@ -840,6 +840,7 @@
         <String xml:lang="zh-Hans">(C)技工:(/C) ~s~修理和改装玩家的 ~y~车辆 ~s~来赚取现金.</String>
         <String xml:lang="pt-BR">(C)Mecânico:(/C) ~s~repara e modifica os ~y~veículos ~s~dos jogadores para ganhar dinheiro.</String>
         <String xml:lang="th-TH">(C) ช่างเครื่อง: (/ C) ~ s ~ ซ่อมแซมและดัดแปลงผู้เล่น ' ~ y ~ ยานพาหนะ ~ s ~ เพื่อรับเงิน</String>
+        <String xml:lang="ar-001">(C)ميكانيكي:(/C) ~s~يقوم بإصلاح وتعديل ~y~مركبات اللاعبين ~s~لكسب المال.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_word">
@@ -854,7 +855,7 @@
         <String xml:lang="zh-Hans">~r~你的车牌不能包含这个词.</String>
         <String xml:lang="pt-BR">~r~Sua placa de identificação não pode conter essa palavra.</String>
         <String xml:lang="th-TH">~r~ป้ายทะเบียนของคุณต้องไม่มีคำนั้น</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~لا يمكن أن تحتوي لوحة الترخيص الخاصة بك على هذه الكلمة.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_numbers_latin">
@@ -869,7 +870,7 @@
         <String xml:lang="zh-Hans">~r~您的车牌只能包含数字和拉丁字母.</String>
         <String xml:lang="pt-BR">~r~Sua placa de identificação só pode conter números e letras em latim..</String>
         <String xml:lang="th-TH">~r~ป้ายทะเบียนของคุณต้องมีเฉพาะตัวเลขและตัวอักษรละตินเท่านั้น</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~يمكن أن تحتوي لوحة الترخيص الخاصة بك على أرقام وأحرف لاتينية فقط.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_taken">
@@ -884,7 +885,7 @@
         <String xml:lang="zh-Hans">~r~这个车牌已被他人使用.</String>
         <String xml:lang="pt-BR">~r~Outra pessoa escolheu este prato.</String>
         <String xml:lang="th-TH">~r~ป้ายทะเบียนนี้ถูกคนอื่นเอาไปแล้ว</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~تم أخذ لوحة الترخيص هذه من قبل شخص آخر.</String>
     </Entry>
 
     <!-- {0} = Input -->
@@ -900,7 +901,7 @@
         <String xml:lang="zh-Hans">~p~您的个性化车牌已设置为 ~s~{0} ~p~并已保存.</String>
         <String xml:lang="pt-BR">~p~Seu crachá personalizado foi configurado como ~s~{0} ~p~e salvo.</String>
         <String xml:lang="th-TH">~p~ป้ายทะเบียนโต๊ะเครื่องแป้งของคุณได้รับการตั้งค่าเป็น ~s~{0} ~p~และบันทึกไว้แล้ว</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~p~تم تعيين لوحة الترخيص الخاصة بك على ~s~{0} ~p~وتم حفظها.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_rented_car">
@@ -915,7 +916,7 @@
         <String xml:lang="zh-Hans">你不能更改租赁车辆的车牌.</String>
         <String xml:lang="pt-BR">Não é possível alterar o número de registro de um veículo alugado.</String>
         <String xml:lang="th-TH">คุณไม่สามารถเปลี่ยนป้ายทะเบียนของรถเช่าได้</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">لا يمكنك تغيير لوحة ترخيص السيارة المستأجرة.</String>
     </Entry>
 
     <!-- {0} = Input -->
@@ -931,7 +932,7 @@
         <String xml:lang="zh-Hans">你的个性化车牌已被设置为 ~s~{0}~p~.</String>
         <String xml:lang="pt-BR">Seu crachá personalizado foi definido como ~s~{0}~p~.</String>
         <String xml:lang="th-TH">ป้ายทะเบียนโต๊ะเครื่องแป้งของคุณตั้งค่าเป็น ~s~{0}~p~</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">تم ضبط لوحة الترخيص الخاصة بك على ~s~{0}~p~.</String>
     </Entry>
 
     <Entry Id="mechanic_cant_modify_rented_vehicle">
@@ -945,7 +946,7 @@
         <String xml:lang="pt-BR">~r~Não é possível modificar um veículo alugado!</String>
         <String xml:lang="de-DE">~r~Du kannst ein gemietetes Fahrzeug nicht modifizieren.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถปรับเปลี่ยนรถเช่าได้!</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~لا يمكنك تعديل مركبة مستأجرة!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -963,7 +964,7 @@
         <String xml:lang="zh-Hans">你无法在 ~r~行进中~s~ 连接一辆车.</String>
         <String xml:lang="pt-BR">Não é possível engatar um veículo enquanto ~r~em movimento~s~.</String>
         <String xml:lang="th-TH">คุณไม่สามารถแนบยานพาหนะได้ในขณะที่ ~r~กำลังเคลื่อนที่~s~</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">لا يمكنك إرفاق مركبة أثناء ~r~تحركها~s~.</String>
     </Entry>
 
     <Entry Id="towing_type_cannot_moved">
@@ -978,7 +979,7 @@
         <String xml:lang="zh-Hans">这种款式的车辆 ~r~无法被拖吊~s~.</String>
         <String xml:lang="pt-BR">Veículos desse tipo ~r~não podem ser rebocados~s~.</String>
         <String xml:lang="th-TH">ยานพาหนะประเภทนี้ ~r~ไม่สามารถลากจูงได้~s~</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">لا يمكن ~r~قطر~s~ مركبات من هذا النوع.</String>
     </Entry>
 
     <Entry Id="towing_already_attached_other">
@@ -993,7 +994,7 @@
         <String xml:lang="zh-Hans">这辆车 ~r~已经 ~s~被连接到其他台卡车上.</String>
         <String xml:lang="pt-BR">O veículo ~r~já ~s~está conectado a outro caminhão.</String>
         <String xml:lang="th-TH">ยานพาหนะคือ ~r~แล้ว ~s~ติดอยู่กับรถบรรทุกคันอื่น</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">السيارة ~r~بالفعل ~s~متصلة بشاحنة أخرى.</String>
     </Entry>
 
     <Entry Id="towing_vehicle_occupied">
@@ -1008,7 +1009,7 @@
         <String xml:lang="zh-Hans">这辆车上 ~r~已经有人~s~.</String>
         <String xml:lang="pt-BR">O veículo está ~r~ocupado~s~.</String>
         <String xml:lang="th-TH">ยานพาหนะคันนี้ ~r~ถูกครอบครอง~s~</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">السيارة ~r~مشغولة~s~.</String>
     </Entry>
 
     <Entry Id="towing_vehicle_too_big">
@@ -1023,7 +1024,7 @@
         <String xml:lang="zh-Hans">这辆载具 对这辆卡车 来说 ~r~太大了~s~.</String>
         <String xml:lang="pt-BR">O veículo é ~r~muito grande ~s~para este caminhão.</String>
         <String xml:lang="th-TH">ยานพาหนะ ~r~ใหญ่เกินไป ~s~สำหรับรถบรรทุกคันนี้</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">السيارة ~r~كبيرة جدًا ~s~بالنسبة لهذه الشاحنة.</String>
     </Entry>
 
     <Entry Id="towing_detach_moving">
@@ -1038,7 +1039,7 @@
         <String xml:lang="zh-Hans">你无法在这辆载具 ~r~正在移动时~s~ 将其分离.</String>
         <String xml:lang="pt-BR">Não é possível desmontar o veículo enquanto o ~r~te se move~s~.</String>
         <String xml:lang="th-TH">คุณไม่สามารถแยกยานพาหนะออกได้ในขณะที่ ~r~กำลังเคลื่อนที่~s~</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">لا يمكنك فصل السيارة أثناء ~r~التحرك~s~.</String>
     </Entry>
 
     <Entry Id="towing_description">
@@ -1053,7 +1054,7 @@
         <String xml:lang="zh-Hans">你正在为了赚取 ~g~额外的钱~s~ 而拖吊 ~y~玩家的载具~s~, 但你必须在时间内完成. 当计时器 ~r~倒数结束~s~, 车辆的拥有者将会 ~y~调回 ~s~它.</String>
         <String xml:lang="pt-BR">Você está rebocando o veículo de um ~y~jogador~s~por ~g~dinheiro extra~s~, mas tem um tempo limitado. ~r~Quando o tempo acabar~s~, o proprietário poderá ~y~chamá-lo ~s~novamente.</String>
         <String xml:lang="th-TH">คุณกำลังลาก ~y~ยานพาหนะของผู้เล่น ~s~สำหรับ ~g~เงินพิเศษ~s~ แต่คุณมีเวลาจำกัด เมื่อเวลา ~r~หมด~s~ เจ้าของจะสามารถ ~y~recall ~s~it</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">أنت تقوم بقطر مركبة أحد ~y~اللاعبين ~s~مقابل أموال إضافية~s~, ولكن لديك وقت محدود. عندما ~r~ينفد المؤقت~s~, سيكون المالك قادرًا على ~y~استدعائها ~s~.</String>
     </Entry>
 
     <Entry Id="towing_illegally_parked">
@@ -1068,6 +1069,7 @@
         <String xml:lang="zh-Hans">您已将车辆停放在 ~r~非法地区 ~s~并且可能会被拖走,费用将由您承担.</String>
         <String xml:lang="pt-BR">Você estacionou seu veículo ~r~ilegalmente ~s~e ele pode ser rebocado.</String>
         <String xml:lang="th-TH">คุณได้จอดรถของคุณ ~r~อย่างผิดกฎหมาย ~s~ และอาจถูกลากโดยคุณต้องรับผิดชอบค่าใช้จ่ายเอง</String>
+        <String xml:lang="ar-001">لقد قمت بإيقاف سيارتك بشكل ~r~غير قانوني ~s~وقد يتم سحبها على نفقتك الخاصة.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1085,7 +1087,7 @@
         <String xml:lang="zh-Hans">~y~(C)温馨提示:(/C) ~s~你只能做自卫射击，不能与 ~o~罪犯 ~s~组队.</String>
         <String xml:lang="pt-BR">~y~(C)Lembrançar:(/C) ~s~você só pode atirar em legítima defesa e não pode se aliar a ~o~criminosos~s~.</String>
         <String xml:lang="th-TH">~y~(C)คำเตือน:(/C) ~s~คุณสามารถยิงเพื่อป้องกันตัวเท่านั้น และคุณไม่สามารถร่วมมือกับ ~o~อาชญากร~s~</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~y~(C)تذكير:(/C) ~s~يمكنك إطلاق النار فقط دفاعًا عن النفس، ولا يمكنك التعاون مع ~o~المجرمين~s~.</String>
     </Entry>
 
     <!-- {0} = Clothing name -->
@@ -1101,7 +1103,7 @@
         <String xml:lang="zh-Hans">您获得了 ~b~{0}~s~.</String>
         <String xml:lang="pt-BR">Você obteve um(a) ~b~{0}~s~.</String>
         <String xml:lang="th-TH">คุณได้รับ ~b~{0}~s~</String>
-
+        <String xml:lang="ar-001">لقد حصلت على ~b~{0}~s~.</String>
     </Entry>
 
     <!-- {0} = Location name -->
@@ -1118,7 +1120,7 @@
         <String xml:lang="zh-Hans">前往 ~y~{0} ~s~然后协助 {1}.</String>
         <String xml:lang="pt-BR">Vá para ~y~{0} ~s~e ajude {1}.</String>
         <String xml:lang="th-TH">ไปที่ ~y~{0} ~s~และช่วยเหลือ {1}</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">انتقل إلى ~y~{0} ~s~وساعد {1}.</String>
     </Entry>
 
     <!-- {0} = Paramedic -->
@@ -1133,7 +1135,7 @@
         <String xml:lang="zh-Hant">護理人員 {0} 已回答 {1} 的呼叫.</String>
         <String xml:lang="de-DE">Der Sanitäter {0} hat auf den Anruf von {1} reagiert.</String>
         <String xml:lang="th-TH">เจ้าหน้าที่การแพทย์ {0} ตอบสนองต่อการโทรของ {1}</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">استجاب المسعف {0} لنداء {1}.</String>
     </Entry>
 
     <!-- {0} = Paramedic -->
@@ -1147,7 +1149,7 @@
         <String xml:lang="zh-Hant">護理人員 {0} 已回答您的呼叫.</String>
         <String xml:lang="de-DE">Der Sanitäter {0} hat auf deinen Anruf reagiert.</String>
         <String xml:lang="th-TH">เจ้าหน้าที่การแพทย์ {0} ตอบรับการโทรของคุณ</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">استجاب المسعف {0} لمكالمتك.</String>
     </Entry>
 
     <Entry Id="paramedic_revival_fail">
@@ -1161,7 +1163,7 @@
         <String xml:lang="pt-BR">~r~Sua tentativa de reviver falhou.</String>
         <String xml:lang="zh-Hant">~r~你嘗試復活但失敗了.</String>
         <String xml:lang="th-TH">~r~ความพยายามในการฟื้นฟูของคุณล้มเหลว</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~لقد فشلت محاولتك للإحياء.</String>
     </Entry>
 
     <!-- {0} = Player Name -->
@@ -1175,7 +1177,7 @@
         <String xml:lang="zh-Hant">醫護人員 {0} 正在復活你.</String>
         <String xml:lang="de-DE">Der Sanitäter {0} belebt dich wieder.</String>
         <String xml:lang="th-TH">เจ้าหน้าที่การแพทย์ {0} กำลังฟื้นคืนชีพคุณ</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">المسعف {0} يقوم بإحيائك.</String>
     </Entry>
 
     <Entry Id="paramedic_npc_loss">
