@@ -629,7 +629,7 @@
         <String xml:lang="zh-Hans">~r~你不能在车内更换你的职业.</String>
         <String xml:lang="pt-BR">~r~Você não pode mudar de emprego enquanto estiver em um veículo.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถเปลี่ยนงานในขณะที่อยู่ในยานพาหนะได้</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~لا يمكنك تغيير وظيفتك أثناء وجودك في السيارة.</String>
     </Entry>
 
     <!-- {0} = Required level -->
@@ -644,6 +644,7 @@
         <String xml:lang="zh-Hans">你必须达到 ~b~等级 {0} ~s~才能解锁 ~r~毒品供应商~s~. 寻找其他供应商吧!</String>
         <String xml:lang="pt-BR">Você precisa estar no ~b~nivel {0} ~s~para desbloquear esse ~r~fornecedor de drogas~s~. Encontre outro fornecedor!</String>
         <String xml:lang="th-TH">คุณต้องเป็น ~b~ระดับ {0} ~s~ เพื่อปลดล็อก ~r~ผู้จัดหายา~s~ ค้นหาซัพพลายเออร์รายอื่น!</String>
+        <String xml:lang="ar-001">يجب أن تكون ~b~المستوى {0} ~s~لفتح ~r~مورد المخدرات~s~. ابحث عن مورد آخر!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -664,7 +665,7 @@
         <String xml:lang="zh-Hans">前往 ~y~{0} ~s~并协助 {1}</String>
         <String xml:lang="pt-BR">Vá para ~y~{0} ~s~e ajude {1}.</String>
         <String xml:lang="th-TH">ไปที่ ~y~{0} ~s~และช่วยเหลือ {1}</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">انتقل إلى ~y~{0} ~s~وساعد {1}.</String>
     </Entry>
 
 
@@ -681,7 +682,7 @@
         <String xml:lang="zh-Hans">{0} 正在 ~y~{1} ~s~寻找技师.</String>
         <String xml:lang="pt-BR">{0} ~s~está procurando um mecânico em ~y~{1}~s~.</String>
         <String xml:lang="th-TH">{0} ~s~กำลังมองหาช่างเครื่องใน ~y~{1}~s~</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">{0} ~s~يبحث عن ميكانيكي في ~y~{1}~s~.</String>
     </Entry>
 
     <!-- {0} = Paid amount -->
@@ -697,7 +698,7 @@
         <String xml:lang="zh-Hans">你支付了 ~g~{0} ~s~给扣押场的员工. 你的 ~b~{1} ~s~现在已经回到你的车库.</String>
         <String xml:lang="pt-BR">Você pagou ~g~{0} ~s~ao escritório de apreensão e. Seu ~b~{1}~s~ foi devolvido à garagem..</String>
         <String xml:lang="th-TH">คุณจ่ายเงิน ~g~{0} ~s~ให้กับสำนักงานยึดแล้ว ~b~{1} ~s~ของคุณถูกส่งกลับไปยังโรงรถของคุณแล้ว</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">لقد دفعت ~g~{0}~s~لى مكتب الحجز لي ~b~{1} ~s~لقد تم إرجاعها الي الجراج الخاص بك.</String>
     </Entry>
 
     <Entry Id="mechanic_dont_have_vehicle_repair">
@@ -711,7 +712,7 @@
         <String xml:lang="zh-Hans">~r~你没有可进行维修的车辆!</String>
         <String xml:lang="pt-BR">~r~Você não tem um veículo para reparar!</String>
         <String xml:lang="th-TH">~r~คุณไม่มีรถให้ซ่อม!</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~ليس لديك سيارة لإصلاحها!</String>
     </Entry>
 
     <Entry Id="mechanic_dont_have_vehicle">
@@ -725,7 +726,7 @@
         <String xml:lang="zh-Hans">~r~你没有车子!</String>
         <String xml:lang="pt-BR">~r~Você não tem veículo!!</String>
         <String xml:lang="th-TH">~r~คุณไม่มียานพาหนะ!</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~ليس لديك سيارة!</String>
     </Entry>
 
     <Entry Id="mechanic_cant_change_plate_others">
@@ -739,7 +740,7 @@
         <String xml:lang="zh-Hans">~r~你不能修改别人的车牌!</String>
         <String xml:lang="pt-BR">~r~Não é possível alterar a placa de outra pessoa!</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถเปลี่ยนป้ายทะเบียนของคนอื่นได้!</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~لا يمكنك تغيير لوحة ترخيص شخص آخر!</String>
     </Entry>
 
     <Entry Id="mechanic_vehicle_repaired">
@@ -753,7 +754,7 @@
         <String xml:lang="zh-Hans">你的车子已被 ~g~修复~s~.</String>
         <String xml:lang="pt-BR">Seu veículo foi~g~reparado~s~.</String>
         <String xml:lang="th-TH">รถของคุณได้รับการ ~g~ซ่อมแซม~s~</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~g~لقد تم إصلاح~s~ سيارتك.</String>
     </Entry>
 
     <Entry Id="mechanic_too_far_repairpoint">
@@ -767,7 +768,7 @@
         <String xml:lang="zh-Hans">~r~你离技工太远了.</String>
         <String xml:lang="pt-BR">~r~Você está muito longe do mecânico.</String>
         <String xml:lang="th-TH">~r~คุณอยู่ไกลจากช่างมากเกินไป</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~أنت بعيد جدًا عن الميكانيكي.</String>
     </Entry>
 
     <Entry Id="mechanic_repaired_too_recently">
@@ -781,7 +782,7 @@
         <String xml:lang="zh-Hans">~r~这辆车才刚被修好.</String>
         <String xml:lang="pt-BR">~r~Esse veículo foi consertado muito recentemente.</String>
         <String xml:lang="th-TH">~r~รถคันนี้ได้รับการซ่อมแซมเร็วเกินไป</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~تم إصلاح هذه السيارة مؤخرًا.</String>
     </Entry>
 
     <Entry Id="mechanic_cant_impound_vehicle">
@@ -795,7 +796,7 @@
         <String xml:lang="zh-Hans">~r~你不能扣押这辆车.</String>
         <String xml:lang="pt-BR">~r~Você não pode apreender este veículo.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถยึดรถคันนี้ได้</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">~r~لا يمكنك حجز هذه السيارة.</String>
     </Entry>
 
     <!-- {0} = Hotkey -->
@@ -810,7 +811,7 @@
         <String xml:lang="zh-Hans">按住 {0} 将 ~r~车辆 ~s~放下</String>
         <String xml:lang="pt-BR">Pressione e mantenha pressionado {0} para liberar o ~r~veículo~s~.</String>
         <String xml:lang="th-TH">กด {0} ค้างไว้เพื่อปล่อย ~r~ยานพาหนะ ~s~ออก</String>
-        <String xml:lang="ar-001"></String>
+        <String xml:lang="ar-001">اضغط مع الاستمرار على {0} لإيقاف تشغيل ~r~السيارة~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_tow_instructions">
