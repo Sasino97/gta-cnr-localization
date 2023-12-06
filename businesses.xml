@@ -15,7 +15,7 @@
         <String xml:lang="ar-001">متجر</String>
         <String xml:lang="de-DE">Laden</String>
         <String xml:lang="th-TH">ร้านค้า</String>
-        <String xml:lang="vn-VN">Cửa hàng</String>
+        <String xml:lang="vi-VN">Cửa hàng</String>
         <String xml:lang="id-ID">Toko</String>
     </Entry>
 
@@ -37,7 +37,7 @@
         <String xml:lang="ar-001">استرداد بطاقات الهدايا</String>
         <String xml:lang="de-DE">Löse Geschenkkarten ein</String>
         <String xml:lang="th-TH">แลกบัตรของขวัญ</String>
-        <String xml:lang="vn-VN">Đổi thẻ quà tặng</String>
+        <String xml:lang="vi-VN">Đổi thẻ quà tặng</String>
         <String xml:lang="id-ID">Tukarkan kupon hadiah</String>
     </Entry>
 
@@ -129,10 +129,6 @@
     <!-- ========================= -->
     <!-- Store Restrictions and Cooldowns -->
     <!-- ========================= -->
-    <Entry Id="menu_store_no_gun_for_ammo_type">
-        <String xml:lang="en-US">You don't have any gun that can use this type of ammo.</String>
-    </Entry>
-
     <!-- {0} = Cooldown/time left. -->
     <!-- Please don't add a time word like minutes/seconds/hours... Assume it can be any of those, that's for some other Entry. -->
     <Entry Id="menu_store_shoplifting_cooldown">
@@ -174,20 +170,76 @@
         <String xml:lang="pl-PL">Tylko ~b~gliniarze ~s~mogą kupować w tym sklepie.</String>
         <String xml:lang="pt-BR">Somente ~b~policiais ~s~podem fazer compras nessa loja.</String>
     </Entry>
+
+    <!-- ========================= -->
+    <!-- Gun Store -->
+    <!-- ========================= -->
+    <!-- {0} = Item name -->
+    <Entry Id="menu_store_cant_purchase_more">
+        <String xml:lang="en-US">You can't ~r~purchase ~s~any more ~y~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_store_no_gun_for_ammo_type">
+        <String xml:lang="en-US">You don't have any gun that can use this type of ammo.</String>
+    </Entry>
+
+    <Entry Id="already_own_weapon">
+        <String xml:lang="en-US">~r~You already own this weapon!</String>
+        <String xml:lang="nl-NL">~r~Je hebt dit wapen al!</String>
+        <String xml:lang="it-IT">~r~Possiedi già quest'arma!</String>
+        <String xml:lang="de-DE">~r~Du besitzt diese Waffe bereits!</String>
+        <String xml:lang="es-ES">~r~¡Ya tienes este arma!</String>
+        <String xml:lang="pl-PL">~r~Masz już tą broń!</String>
+        <String xml:lang="pt-BR">~r~Você já tem essa arma!</String>
+    </Entry>
+
+    <Entry Id="already_own_attachment">
+        <String xml:lang="en-US">~r~You already own this attachment!</String>
+        <String xml:lang="nl-NL">~r~Je hebt dit accessoire al!</String>
+        <String xml:lang="it-IT">~r~Possiedi già questo accessorio!</String>
+        <String xml:lang="de-DE">~r~Du besitzt dieses Zubehör bereits!</String>
+        <String xml:lang="es-ES">~r~¡Ya posee este accesorio!</String>
+        <String xml:lang="pl-PL">~r~Masz już ten dodatek!</String>
+        <String xml:lang="pt-BR">~r~Já possui esse acessório!</String>
+    </Entry>
+
+    <!-- {0} = Weapon Attachment -->
+    <Entry Id="menu_store_attachment_warning">
+        <String xml:lang="en-US">If you buy this attachment you will lose your ~y~{0} ~s~on this weapon. Do you want to proceed?</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Store Pricing -->
+    <!-- ========================= -->
+    <!-- This is shown in shop menus when you can purchase more of a certain items -->
+    <!-- Example: Heavy Armor        2 for $2500 -->
+    <!-- {0} = Amount -->
+    <!-- {1} = Price -->
+    <Entry Id="menu_store_amount_for_price">
+        <String xml:lang="en-US">{0} for {1}</String>
+    </Entry>
+
+    <!-- Displays the unit price in the description -->
+    <!-- Example: Price: $1250/piece -->
+    <!-- {0} = Price -->
+    <!-- {1} = Unit -->
+    <Entry Id="menu_store_unit_price">
+        <String xml:lang="en-US">Price: {0}/{1}</String>
+    </Entry>
     
     <!-- ========================= -->
     <!-- Menu for Job Supplies-->
     <!-- ========================= -->
     <!-- {0} = Job name -->
     <!-- Example: "Mechanic Supplies" at the Hardware Store -->
-    <Entry Id="menu_supply_subtitle">
+    <Entry Id="menu_store_job_supplies">
         <String xml:lang="en-US">{0} Supplies</String>
         <String xml:lang="it-IT">Provviste {0}</String>
         <String xml:lang="ar-001">{0} لوازم</String>
         <String xml:lang="de-DE">{0} Vorräte</String>
         <String xml:lang="es-ES">Suministros {0}</String>
         <String xml:lang="pt-BR">Suprimentos {0}</String>
-        <String xml:lang="pl-PL">Zasoby {0}a </String>
+        <String xml:lang="pl-PL">Zasoby {0}</String>
         <String xml:lang="th-TH">{0} จำนวน</String>
         <String xml:lang="zh-Hant">{0}補給品</String>
     </Entry>
@@ -398,17 +450,6 @@
         <String xml:lang="zh-Hant">藥頭</String>
     </Entry>
 
-    <Entry Id="menu_drugdealer_subtitle">
-        <String xml:lang="en-US">Select an option</String>
-        <String xml:lang="it-IT">Seleziona un opzione</String>
-        <String xml:lang="de-DE">Wähle eine Option.</String>
-        <String xml:lang="es-ES">Seleccione una opción</String>
-        <String xml:lang="pt-BR">Selecione uma opção</String>
-        <String xml:lang="pl-PL">Wybierz opcję</String>
-        <String xml:lang="th-TH">เลือกตัวเลือก</String>
-        <String xml:lang="zh-Hant">選擇一個選項</String>
-    </Entry>
-
     <Entry Id="menu_drugdealer_calls_subtitle">
         <String xml:lang="en-US">Calls</String>
         <String xml:lang="it-IT">Chiamate</String>
@@ -467,18 +508,6 @@
         <String xml:lang="zh-Hant">修車工</String>
     </Entry>
 
-    <Entry Id="menu_mechanic_subtitle">
-        <String xml:lang="en-US">Select an option</String>
-        <String xml:lang="it-IT">Seleziona un opzione</String>
-        <String xml:lang="de-DE">Wähle eine option</String>
-        <String xml:lang="es-ES">Seleccione una opción</String>
-        <String xml:lang="pt-BR">Selecione uma opção</String>
-        <String xml:lang="th-TH">เลือกตัวเลือก</String>
-        <String xml:lang="vn-VN">Chọn một tuỳ chọn</String>
-        <String xml:lang="id-ID">Pilih salah satu opsi</String>
-        <String xml:lang="zh-Hant">選擇一個選項</String>
-    </Entry>
-
     <Entry Id="menu_mechanic_services_subtitle">
         <String xml:lang="en-US">Services</String>
         <String xml:lang="it-IT">Servizi</String>
@@ -486,7 +515,7 @@
         <String xml:lang="es-ES">Servicios</String>
         <String xml:lang="pt-BR">Serviços</String>
         <String xml:lang="th-TH">บริการ</String>
-        <String xml:lang="vn-VN">Dịch vụ</String>
+        <String xml:lang="vi-VN">Dịch vụ</String>
         <String xml:lang="id-ID">Layanan</String>
         <String xml:lang="zh-Hant">服務</String>
     </Entry>
@@ -497,7 +526,7 @@
         <String xml:lang="es-ES">Solicitar un servicio</String>
         <String xml:lang="pt-BR">Solicitar um serviço</String>
         <String xml:lang="th-TH">เรียกยานพาหนะ</String>
-        <String xml:lang="vn-VN">Yêu cầu một dịch vụ</String>
+        <String xml:lang="vi-VN">Yêu cầu một dịch vụ</String>
         <String xml:lang="id-ID">Meminta layanan</String>
         <String xml:lang="zh-Hant">請求一個服務</String>
     </Entry>
@@ -509,7 +538,7 @@
         <String xml:lang="es-ES">Llamada</String>
         <String xml:lang="pt-BR">Chamadas</String>
         <String xml:lang="th-TH">เรียก</String>
-        <String xml:lang="vn-VN">Cuộc gọi</String>
+        <String xml:lang="vi-VN">Cuộc gọi</String>
         <String xml:lang="id-ID">Panggilan</String>
         <String xml:lang="zh-Hant">來電</String>
     </Entry>
@@ -521,7 +550,7 @@
         <String xml:lang="es-ES">Ventas recientes</String>
         <String xml:lang="pt-BR">Vendas recentes</String>
         <String xml:lang="th-TH">ขายล่าสุด</String>
-        <String xml:lang="vn-VN">Hàng bán gần đây</String>
+        <String xml:lang="vi-VN">Hàng bán gần đây</String>
         <String xml:lang="id-ID">Penjualan terakhir</String>
         <String xml:lang="zh-Hant">近期銷售</String>
     </Entry>
@@ -534,7 +563,7 @@
         <String xml:lang="es-ES">Mecánico disponible</String>
         <String xml:lang="pt-BR">Mecânico disponível</String>
         <String xml:lang="th-TH">มีช่าง</String>
-        <String xml:lang="vn-VN">Thợ cơ khi đang có</String>
+        <String xml:lang="vi-VN">Thợ cơ khi đang có</String>
         <String xml:lang="id-ID">Mekanik yang tersedia</String>
         <String xml:lang="zh-Hant">有空的修車工</String>
     </Entry>
@@ -547,7 +576,7 @@
         <String xml:lang="es-ES">Modificaciones</String>
         <String xml:lang="pt-BR">Modificações</String>
         <String xml:lang="th-TH">แต่ง</String>
-        <String xml:lang="vn-VN">Độ xe</String>
+        <String xml:lang="vi-VN">Độ xe</String>
         <String xml:lang="id-ID">modifikasi</String>
         <String xml:lang="zh-Hant">車輛配件/升級</String>
     </Entry>
@@ -560,7 +589,7 @@
         <String xml:lang="es-ES">Repintado</String>
         <String xml:lang="pt-BR">Repintando</String>
         <String xml:lang="th-TH">เปลี่ยนสี</String>
-        <String xml:lang="vn-VN">Sơn xe</String>
+        <String xml:lang="vi-VN">Sơn xe</String>
         <String xml:lang="id-ID">Ganti warna</String>
         <String xml:lang="zh-Hant">噴漆/車輛顏色</String>
     </Entry>
@@ -573,7 +602,7 @@
         <String xml:lang="es-ES">Color Principal</String>
         <String xml:lang="pt-BR">Cor Principal</String>
         <String xml:lang="th-TH">สีหลัก</String>
-        <String xml:lang="vn-VN">Màu chính</String>
+        <String xml:lang="vi-VN">Màu chính</String>
         <String xml:lang="id-ID">Warna utama</String>
         <String xml:lang="zh-Hant">主要車輛顏色</String>
     </Entry>
@@ -586,7 +615,7 @@
         <String xml:lang="es-ES">Color Secundario</String>
         <String xml:lang="pt-BR">Cor Secundária</String>
         <String xml:lang="th-TH">สีรอง</String>
-        <String xml:lang="vn-VN">Màu phụ</String>
+        <String xml:lang="vi-VN">Màu phụ</String>
         <String xml:lang="id-ID">Warna sekunder</String>
         <String xml:lang="zh-Hant">次要車輛顏色</String>
     </Entry>
@@ -599,7 +628,7 @@
         <String xml:lang="es-ES">Color de los acabados</String>
         <String xml:lang="pt-BR">Cor dos acabamentos</String>
         <String xml:lang="th-TH">สีล้อ</String>
-        <String xml:lang="vn-VN">Thứ tự màu</String>
+        <String xml:lang="vi-VN">Thứ tự màu</String>
         <String xml:lang="id-ID">Warna Trim</String>
         <String xml:lang="zh-Hant">內飾顏色</String>
     </Entry>
@@ -612,7 +641,7 @@
         <String xml:lang="es-ES">Color del salpicadero</String>
         <String xml:lang="pt-BR">Cor do painel</String>
         <String xml:lang="th-TH">สีภายใน</String>
-        <String xml:lang="vn-VN">Màu biển số</String>
+        <String xml:lang="vi-VN">Màu biển số</String>
         <String xml:lang="id-ID">Warna Dasbor</String>
         <String xml:lang="zh-Hant">儀錶板顏色</String>
     </Entry>
@@ -625,7 +654,7 @@
         <String xml:lang="es-ES">Color de la Pegatina</String>
         <String xml:lang="pt-BR">Cor do adesivo</String>
         <String xml:lang="th-TH">ลวดลาย</String>
-        <String xml:lang="vn-VN">Màu Liveries</String>
+        <String xml:lang="vi-VN">Màu Liveries</String>
         <String xml:lang="id-ID">Warna Stiker</String>
         <String xml:lang="zh-Hant">車輛塗裝</String>
     </Entry>
@@ -640,7 +669,7 @@
         <String xml:lang="es-ES">Hospital</String>
         <String xml:lang="pt-BR">Hospital</String>
         <String xml:lang="th-TH">โรงพยาบาล</String>
-        <String xml:lang="vn-VN">Bệnh viện</String>
+        <String xml:lang="vi-VN">Bệnh viện</String>
         <String xml:lang="id-ID">Rumah Sakit</String>
         <String xml:lang="zh-Hant">醫院</String>
     </Entry>
@@ -653,7 +682,7 @@
         <String xml:lang="es-ES">Ropa</String>
         <String xml:lang="pt-BR">Vestuário</String>
         <String xml:lang="th-TH">ชุด</String>
-        <String xml:lang="vn-VN">Trang phục</String>
+        <String xml:lang="vi-VN">Trang phục</String>
         <String xml:lang="id-ID">Pakaian</String>
         <String xml:lang="zh-Hant">服飾</String>
     </Entry>
@@ -669,7 +698,7 @@
         <String xml:lang="es-ES">Menú de arrestos</String>
         <String xml:lang="pt-BR">Menu de detenções</String>
         <String xml:lang="th-TH">เมนูจับกลุม</String>
-        <String xml:lang="vn-VN">Menu bắt giữ</String>
+        <String xml:lang="vi-VN">Menu bắt giữ</String>
         <String xml:lang="id-ID">Menu penangkapan</String>
         <String xml:lang="zh-Hant">逮捕菜單</String>
     </Entry>
@@ -682,7 +711,7 @@
         <String xml:lang="es-ES">Interactuar con el jugador detenido</String>
         <String xml:lang="pt-BR">Interação com o jogador detido</String>
         <String xml:lang="th-TH">โต้ตอบกับผู้เล่นที่ถูกจับกุม</String>
-        <String xml:lang="vn-VN">Tương tác với người bị bắt</String>
+        <String xml:lang="vi-VN">Tương tác với người bị bắt</String>
         <String xml:lang="id-ID">Berinteraksi dengan pemain yang tertangkap</String>
         <String xml:lang="zh-Hant">與被逮捕的玩家互動</String>
     </Entry>
@@ -695,7 +724,7 @@
         <String xml:lang="es-ES">Resultados de la búsqueda</String>
         <String xml:lang="pt-Br">Resultados da pesquisa</String>
         <String xml:lang="th-TH">ผลลับการค้นหา</String>
-        <String xml:lang="vn-VN">Kết quả kiểm tra</String>
+        <String xml:lang="vi-VN">Kết quả kiểm tra</String>
         <String xml:lang="id-ID">Hasil penggeledahan</String>
         <String xml:lang="zh-Hant">搜身成果</String>
     </Entry>
@@ -708,7 +737,7 @@
         <String xml:lang="es-ES">Soborno</String>
         <String xml:lang="pt-BR">Suborno</String>
         <String xml:lang="th-TH">สินบน</String>
-        <String xml:lang="vn-VN">Hối lộ</String>
+        <String xml:lang="vi-VN">Hối lộ</String>
         <String xml:lang="id-ID">Suap</String>
         <String xml:lang="zh-Hant">賄賂</String>
     </Entry>
@@ -724,7 +753,7 @@
         <String xml:lang="es-ES">Comisaría de policía</String>
         <String xml:lang="pt-BR">Delegacia de polícia</String>
         <String xml:lang="th-TH">สถานีตำรวจ</String>
-        <String xml:lang="vn-VN">Trụ sở cảnh sát</String>
+        <String xml:lang="vi-VN">Trụ sở cảnh sát</String>
         <String xml:lang="id-ID">Kantor kepolisian</String>
         <String xml:lang="zh-Hant">警察局</String>
     </Entry>
@@ -737,7 +766,7 @@
         <String xml:lang="es-ES">Órdenes de detención</String>
         <String xml:lang="pt-BR">Mandados de prisão</String>
         <String xml:lang="th-TH">หมายจับ</String>
-        <String xml:lang="vn-VN">Lệnh bắt giữ</String>
+        <String xml:lang="vi-VN">Lệnh bắt giữ</String>
         <String xml:lang="id-ID">Daftar Burnonan</String>
         <String xml:lang="zh-Hant">逮捕遭通緝玩家</String>
     </Entry>
@@ -750,7 +779,7 @@
         <String xml:lang="es-ES">Jugadores más buscados</String>
         <String xml:lang="pt-BR">Jogadores mais procurados</String>
         <String xml:lang="th-TH">ผู้เล่นที่ต้องการตัวมากที่สุด</String>
-        <String xml:lang="vn-VN">Người bị truy nã cao nhất</String>
+        <String xml:lang="vi-VN">Người bị truy nã cao nhất</String>
         <String xml:lang="id-ID">Buronan paling dicari</String>
         <String xml:lang="zh-Hant">懸賞最高的玩家</String>
     </Entry>
@@ -763,7 +792,7 @@
         <String xml:lang="es-ES">Recompensas</String>
         <String xml:lang="pt-BR">Recompensas</String>
         <String xml:lang="th-TH">ค่าหัว</String>
-        <String xml:lang="vn-VN">Tiền thưởng</String>
+        <String xml:lang="vi-VN">Tiền thưởng</String>
         <String xml:lang="id-ID">hadiah</String>
         <String xml:lang="zh-Hant">懸賞</String>
     </Entry>
@@ -776,7 +805,7 @@
         <String xml:lang="es-ES">Ropa</String>
         <String xml:lang="pt-BR">Vestuário</String>
         <String xml:lang="th-TH">ชุด</String>
-        <String xml:lang="vn-VN">Trang phục</String>
+        <String xml:lang="vi-VN">Trang phục</String>
         <String xml:lang="id-ID">Pakaian</String>
         <String xml:lang="zh-Hant">服飾</String>
     </Entry>
@@ -792,7 +821,7 @@
         <String xml:lang="es-ES">Comprar</String>
         <String xml:lang="pt-BR">Comprar</String>
         <String xml:lang="th-TH">ซื้อ</String>
-        <String xml:lang="vn-VN">Mua</String>
+        <String xml:lang="vi-VN">Mua</String>
         <String xml:lang="id-ID">Membeli</String>
         <String xml:lang="zh-Hant">買</String>
     </Entry>
@@ -805,7 +834,7 @@
         <String xml:lang="es-ES">Seleccionar destino</String>
         <String xml:lang="pt-BR">Selecione o destino</String>
         <String xml:lang="th-TH">เลือกจุดหมายปลายทาง</String>
-        <String xml:lang="vn-VN">Lựa nơi đến</String>
+        <String xml:lang="vi-VN">Lựa nơi đến</String>
         <String xml:lang="id-ID">Pilih tujuan anda</String>
         <String xml:lang="zh-Hant">選擇一個地點</String>
     </Entry>
@@ -821,7 +850,7 @@
         <String xml:lang="es-ES">Conductor de reparto</String>
         <String xml:lang="pt-BR">Motorista de entrega</String>
         <String xml:lang="th-TH">คนขับรถส่งของ</String>
-        <String xml:lang="vn-VN">Tài xế giao hàng</String>
+        <String xml:lang="vi-VN">Tài xế giao hàng</String>
         <String xml:lang="id-ID">Kurir Pengantar</String>
         <String xml:lang="zh-Hant">運送司機</String>
     </Entry>
@@ -837,7 +866,7 @@
         <String xml:lang="pt-BR">Arsenal</String>
         <String xml:lang="ar-001">مستودع الأسلحة</String>
         <String xml:lang="th-TH">คลังแสง</String>
-        <String xml:lang="vn-VN">Kho vũ khí</String>
+        <String xml:lang="vi-VN">Kho vũ khí</String>
         <String xml:lang="id-ID">Gudang Senjata</String>
         <String xml:lang="zh-Hant">軍械庫</String>
     </Entry>
@@ -850,7 +879,7 @@
         <String xml:lang="pt-BR">gerencie suas armas</String>
         <String xml:lang="ar-001">إدارة الأسلحة الخاصة بك</String>
         <String xml:lang="th-TH">จัดการอาวุธของคุณ</String>
-        <String xml:lang="vn-VN">Kho vũ khí của bạn</String>
+        <String xml:lang="vi-VN">Kho vũ khí của bạn</String>
         <String xml:lang="id-ID">Kelola persenjataanmu</String>
         <String xml:lang="zh-Hant">管理你的武器</String>
     </Entry>
@@ -863,7 +892,7 @@
         <String xml:lang="pt-BR">Munição</String>
         <String xml:lang="ar-001">الذخيرة</String>
         <String xml:lang="th-TH">กระสุน</String>
-        <String xml:lang="vn-VN">Băng đạn</String>
+        <String xml:lang="vi-VN">Băng đạn</String>
         <String xml:lang="id-ID">Amunisi</String>
         <String xml:lang="zh-Hant">子彈</String>
     </Entry>
@@ -876,7 +905,7 @@
         <String xml:lang="pt-BR">Dar arma</String>
         <String xml:lang="ar-001">إعطاء السلاح</String>
         <String xml:lang="th-TH">ให้อาวุธ</String>
-        <String xml:lang="vn-VN">Đưa vũ khí</String>
+        <String xml:lang="vi-VN">Đưa vũ khí</String>
         <String xml:lang="id-ID">Berikan senjata</String>
         <String xml:lang="zh-Hant">給予武器</String>
     </Entry>
@@ -892,22 +921,9 @@
         <String xml:lang="pt-BR">Paramédico</String>
         <String xml:lang="ar-001">اخصائي طب</String>
         <String xml:lang="th-TH">หมอ</String>
-        <String xml:lang="vn-VN">Y tế</String>
+        <String xml:lang="vi-VN">Y tế</String>
         <String xml:lang="id-ID">paramedis</String>
         <String xml:lang="zh-Hant">醫護人員</String>
-    </Entry>
-
-    <Entry Id="menu_paramedic_subtitle">
-        <String xml:lang="en-US">Select an option</String>
-        <String xml:lang="it-IT">Seleziona un opzione</String>
-        <String xml:lang="de-DE">Wähle eine Option</String>
-        <String xml:lang="es-ES">Seleccione una opción</String>
-        <String xml:lang="pt-BR">Selecione uma opção</String>
-        <String xml:lang="ar-001">حدد اختيارا</String>
-        <String xml:lang="th-TH">เลือกตัวเลือก</String>
-        <String xml:lang="vn-VN">Chọn một tuỳ chọn</String>
-        <String xml:lang="id-ID">Pilih salah satu opsi</String>
-        <String xml:lang="zh-Hant">選擇一個選項</String>
     </Entry>
 
     <Entry Id="menu_paramedic_calls_subtitle">
@@ -918,7 +934,7 @@
         <String xml:lang="pt-BR">Chamadas</String>
         <String xml:lang="ar-001">المكالمات</String>
         <String xml:lang="th-TH">เรียก</String>
-        <String xml:lang="vn-VN">Cuộc gọi</String> 
+        <String xml:lang="vi-VN">Cuộc gọi</String> 
         <String xml:lang="id-ID">Panggilan</String>
         <String xml:lang="zh-Hant">來電</String>
     </Entry>
@@ -934,22 +950,9 @@
         <String xml:lang="pt-BR">Policial</String>
         <String xml:lang="ar-001">ضابط شرطة</String>
         <String xml:lang="th-TH">พนักงานตำรวจ</String>
-        <String xml:lang="vn-VN">Cảnh sát</String>
+        <String xml:lang="vi-VN">Cảnh sát</String>
         <String xml:lang="id-ID">Petugas Kepolisian</String>
         <String xml:lang="zh-Hant">警員</String>
-    </Entry>
-
-    <Entry Id="menu_policeofficer_subtitle">
-        <String xml:lang="en-US">Select an option</String>
-        <String xml:lang="it-IT">Seleziona un opzione</String>
-        <String xml:lang="de-DE">Wähle eine Option</String>
-        <String xml:lang="es-ES">Seleccione una opción</String>
-        <String xml:lang="pt-BR">Selecione uma opção</String>
-        <String xml:lang="ar-001">حدد اختيارا</String>
-        <String xml:lang="th-TH">เลือกตัวเลือก</String>
-        <String xml:lang="vn-VN">Chọn một tuỳ chọn</String>
-        <String xml:lang="id-ID">Pilih salah satu opsi</String>
-        <String xml:lang="zh-Hant">選擇一個選項</String>
     </Entry>
 
     <Entry Id="menu_policeofficer_calls_subtitle">
@@ -960,7 +963,7 @@
         <String xml:lang="pt-BR">Chamadas</String>
         <String xml:lang="ar-001">المكالمات</String>
         <String xml:lang="th-TH">เรียก</String>
-        <String xml:lang="vn-VN">Cuộc gọi</String>
+        <String xml:lang="vi-VN">Cuộc gọi</String>
         <String xml:lang="id-ID">Panggilan</String>
         <String xml:lang="zh-Hant">來電</String>
     </Entry>
@@ -976,7 +979,7 @@
         <String xml:lang="pt-BR">Estoque</String>
         <String xml:lang="ar-001">مخزون</String>
         <String xml:lang="th-TH">คลัง</String>
-        <String xml:lang="vn-VN">Kho</String>
+        <String xml:lang="vi-VN">Kho</String>
         <String xml:lang="id-ID">Stok</String>
         <String xml:lang="zh-Hant">貨品</String>
     </Entry>
@@ -989,7 +992,7 @@
         <String xml:lang="pt-BR">Inventário de vendas</String>
         <String xml:lang="ar-001">مخزون المبيعات</String>
         <String xml:lang="th-TH">ขายสินค้า</String>
-        <String xml:lang="vn-VN">Kho hàng</String>
+        <String xml:lang="vi-VN">Kho hàng</String>
         <String xml:lang="id-ID">Inventaris Penjualan</String>
         <String xml:lang="zh-Hant">銷售存貨</String>
     </Entry>
@@ -1002,7 +1005,7 @@
         <String xml:lang="pt-BR">Preços</String>
         <String xml:lang="ar-001">الأسعار</String>
         <String xml:lang="th-TH">ราคา</String>
-        <String xml:lang="vn-VN">Giá cả</String>
+        <String xml:lang="vi-VN">Giá cả</String>
         <String xml:lang="id-ID">Harga</String>
         <String xml:lang="zh-Hant">價格</String>
     </Entry>
@@ -1017,7 +1020,7 @@
         <String xml:lang="pt-BR">Rádio</String>
         <String xml:lang="ar-001">راديو</String>
         <String xml:lang="th-TH">วิทยุ</String>
-        <String xml:lang="vn-VN">Đàm</String>
+        <String xml:lang="vi-VN">Đàm</String>
         <String xml:lang="id-ID">Radio</String>
         <String xml:lang="zh-Hant">收音機</String>
     </Entry>
@@ -1032,7 +1035,7 @@
         <String xml:lang="pt-BR">Concessionária</String>
         <String xml:lang="ar-001">وكالة</String>
         <String xml:lang="th-TH">ตัวแทนจำหน่าย</String>
-        <String xml:lang="vn-VN">Đại lý</String>
+        <String xml:lang="vi-VN">Đại lý</String>
         <String xml:lang="id-ID">Dealer kendaraan</String>
         <String xml:lang="zh-Hant">車輛經銷商</String>
     </Entry>
@@ -1044,7 +1047,7 @@
         <String xml:lang="pt-BR">Opções</String>
         <String xml:lang="ar-001">خيارات</String>
         <String xml:lang="th-TH">ตัวเลือก</String>
-        <String xml:lang="vn-VN">Lựa chọn</String>
+        <String xml:lang="vi-VN">Lựa chọn</String>
         <String xml:lang="id-ID">Pilihan</String>
         <String xml:lang="zh-Hant">選項</String>
     </Entry>
@@ -1056,7 +1059,7 @@
         <String xml:lang="pt-BR">Aluguel</String>
         <String xml:lang="ar-001">تأجير</String>
         <String xml:lang="th-TH">เช่า</String>
-        <String xml:lang="vn-VN">Thuê</String>
+        <String xml:lang="vi-VN">Thuê</String>
         <String xml:lang="id-ID">Sewa</String>
         <String xml:lang="zh-Hant">租賃</String>
     </Entry>

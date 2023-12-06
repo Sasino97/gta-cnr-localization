@@ -12,6 +12,7 @@
         <String xml:lang="ar-001">مستودع</String>
         <String xml:lang="id-ID">Gudang</String>
         <String xml:lang="th-TH">คลังสินค้า</String>
+        <String xml:lang="zh-Hant">倉庫</String>
     </Entry>
 
     <Entry Id="garage">
@@ -24,6 +25,7 @@
         <String xml:lang="ar-001">جراج</String>
         <String xml:lang="id-ID">Garasi</String>
         <String xml:lang="th-TH">โรงรถ</String>
+        <String xml:lang="zh-Hant">車庫</String>
     </Entry>
 
     <!-- ========================= -->
@@ -42,6 +44,7 @@
         <String xml:lang="ar-001">لا يمكنك ~r~نقل ~s~هذا العنصر إلى المستودع.</String>
         <String xml:lang="id-ID">Anda tidak dapat ~r~memindahkan ~s~barang ini kedalam gudang.</String>
         <String xml:lang="th-TH">คุณไม่สามารถ ~r~ย้าย ~s~รายการนี้เข้าไปในโกดังได้</String>
+        <String xml:lang="zh-Hant">你不能將此物品 ~r~放入 ~s~倉庫.</String>
     </Entry>
 
     <Entry Id="warehouse_item_put">
@@ -54,7 +57,8 @@
         <String xml:lang="pt-BR">Você colocou {0} ~p~{1} ~s~em seu depósito.</String>
         <String xml:lang="ar-001">قمت بوضع {0} ~p~{1} ~s~في المستودع الخاص بك.</String>
         <String xml:lang="id-ID">Anda memasukkan {0} ~p~{1} ~s~kedalam gudang anda.</String>
-        <String xml:lang="th-TH">คุณใส่ {0} ~p~{1} ~s~ ไว้ในคลังสินค้าของคุณ</String>
+        <String xml:lang="th-TH">คุณใส่ {0} ~p~{1} ~s~ไว้ในคลังสินค้าของคุณ</String>
+        <String xml:lang="zh-Hant">你將 {0} 個 ~p~{1} ~s~放進了你的倉庫.</String>
     </Entry>
 
     <Entry Id="warehouse_cant_move_out">
@@ -68,6 +72,7 @@
         <String xml:lang="ar-001">لا يمكنك ~r~نقل ~s~هذا العنصر خارج المستودع الخاص بك</String>
         <String xml:lang="id-ID">Anda tidak dapat ~r~memindahkan ~s~barang ini keluar dari gudang.</String>
         <String xml:lang="th-TH">คุณไม่สามารถ ~r~ย้าย ~s~รายการนี้ออกจากคลังสินค้าของคุณได้</String>
+        <String xml:lang="zh-Hant">你不能將此物品 ~r~移出 ~s~你的倉庫.</String>
     </Entry>
 
     <Entry Id="warehouse_item_taken">
@@ -80,7 +85,8 @@
         <String xml:lang="pt-BR">Você retirou {0} ~p~{1} ~s~de sua depósito.</String>
         <String xml:lang="ar-001">لقد حصلت على {0} ~p~{1} ~s~من المستودع الخاص بك.</String>
         <String xml:lang="id-ID">Anda mengambil {0} ~p~{1} ~s~dari gudang anda.</String>
-        <String xml:lang="th-TH">คุณนำ {0} ~p~{1} ~s~ จากคลังสินค้าของคุณ</String>
+        <String xml:lang="th-TH">คุณนำ {0} ~p~{1} ~s~จากคลังสินค้าของคุณ</String>
+        <String xml:lang="zh-Hant">你將 {0} 個 ~p~{0} ~s~移出你的倉庫了.</String>
     </Entry>
 
     <Entry Id="warehouse_player_entered">
@@ -94,6 +100,7 @@
         <String xml:lang="ar-001">(C){0}(/C) ~g~دخلت إلى المستودع~s~.</String>
         <String xml:lang="id-ID">(C){0}(/C) ~g~Anda memasuki gudang~s~.</String>
         <String xml:lang="th-TH">(C){0}(/C) ~g~เข้าไปในโกดัง~s~</String>
+        <String xml:lang="zh-Hant">(C){0}(/C) ~g~進入倉庫~s~.</String>
     </Entry>
 
     <Entry Id="warehouse_player_forcibly_entered_specific">
@@ -107,6 +114,7 @@
         <String xml:lang="ar-001">(C){0}(/C) تم إدخاله بالقوة ~y~{1}~s~.</String>
         <String xml:lang="id-ID">(C){0}(/C) Memaksa masuk ~y~{1}~s~.</String>
         <String xml:lang="th-TH">(C){0}(/C) บังคับให้ป้อน ~y~{1}~s~</String>
+        <String xml:lang="zh-Hant">(C){0}(/C) 強行進入了倉庫 ~y~{1}~s~.</String>
     </Entry>
 
     <Entry Id="warehouse_player_forcibly_entered">
@@ -120,6 +128,7 @@
         <String xml:lang="ar-001">(C){0}(/C) ~r~دخل بالقوة ~s~المستودع.</String>
         <String xml:lang="id-ID">(C){0}(/C) ~r~Memaksa memasuki ~s~gudang.</String>
         <String xml:lang="th-TH">(C){0}(/C) ~r~บังคับให้เข้าไปใน ~s~โกดัง</String>
+        <String xml:lang="zh-Hant">(C){0}(/C) ~r~強行的進入了 ~s~倉庫.</String>
     </Entry>
 
     <Entry Id="warehouse_dont_have_amount_item">
@@ -131,7 +140,7 @@
         <String xml:lang="ar-001">~r~ليس لديك هذا القدر من هذا العنصر!</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki barang ini sebanyak itu!</String>
         <String xml:lang="th-TH">~r~คุณไม่มีไอเท็มชิ้นนี้จำนวนนั้น!</String>
-
+        <String xml:lang="zh-Hant">~r~你沒有那麼多的物品!</String>
     </Entry>
 
     <Entry Id="warehouse_not_enough_space_left">
@@ -143,6 +152,7 @@
         <String xml:lang="ar-001">~r~ليس هناك مساحة كافية!</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki ruang tersedia!</String>
         <String xml:lang="th-TH">~r~มีพื้นที่เหลือไม่เพียงพอ!</String>
+        <String xml:lang="zh-Hant">~r~那裏沒有剩下的空間了!</String>
     </Entry>
 
     <Entry Id="warehouse_cant_hold_amount">
@@ -154,6 +164,7 @@
         <String xml:lang="ar-001">~r~لا يمكنك الاحتفاظ بهذا العدد الكبير من هذا العنصر!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat membawa barang ini sebanyak itu!</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถถือไอเทมชิ้นนี้ได้มากขนาดนั้น!</String>
+        <String xml:lang="zh-Hant">~r~你無法持有那麼多的物品!</String>
     </Entry>
 
     <Entry Id="warehouse_dont_have_required_level">
@@ -165,6 +176,7 @@
         <String xml:lang="ar-001">~r~ليس لديك المستوى المطلوب لشراء هذا المستودع.</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki level yang dibutuhkan untuk membeli gudang ini.</String>
         <String xml:lang="th-TH">~r~คุณไม่มีระดับที่กำหนดในการซื้อโกดังนี้</String>
+        <String xml:lang="zh-Hant">~r~你的等級不足以購買這間倉庫.</String>
     </Entry>
 
     <!-- {0} = Player name -->
@@ -177,6 +189,7 @@
         <String xml:lang="ar-001">لقد طرقت على المستودع {0}. انتظر منهم.</String>
         <String xml:lang="id-ID">anda mengetuk pintu gudang milik {0}. Silahkan tunggu jawaban dia.</String>
         <String xml:lang="th-TH">คุณเคาะที่โกดังของ {0} รอให้พวกเขาตอบ</String>
+        <String xml:lang="zh-Hant">你敲了 {0} 倉庫的門，請等待他回應.</String>
     </Entry>
 
     <Entry Id="warehouse_knocking_cooldown">
@@ -188,6 +201,7 @@
         <String xml:lang="ar-001">~r~يجب عليك الانتظار قبل أن تطرق الباب مرة أخرى.</String>
         <String xml:lang="id-ID">~r~Silahkan tunggu beberapa saat sebelum mengetuk pintu lagi.</String>
         <String xml:lang="th-TH">~r~คุณต้องรอก่อนที่จะเคาะอีกครั้ง</String>
+        <String xml:lang="zh-Hant">~r~你要需要等一會再敲門.</String>
     </Entry>
 
     <Entry Id="warehouse_entered_players">
@@ -199,6 +213,7 @@
         <String xml:lang="ar-001">لقد ~b~دخلت إلى مستودع {0}</String>
         <String xml:lang="id-ID">Anda ~b~memasuki gudang milik {0}.</String>
         <String xml:lang="th-TH">คุณ ~b~เข้าไปในโกดังของ {0}</String>
+        <String xml:lang="zh-Hant">你 ~b~進入了 {0} 的倉庫.</String>
     </Entry>
 
     <Entry Id="warehouse_dont_have_warrant">
@@ -208,8 +223,9 @@
         <String xml:lang="pt-BR">Você não tem um ~o~mandado ~s~para entrar neste depósito. Você só pode entrar quando vir um ~o~suspeito procurado ~s~entrando.</String>
         <String xml:lang="de-DE">Du hast keinen ~o~Durchsuchungsbefehl~s~, um dieses Lagerhaus zu betreten. Du kannst es nur betreten, wenn du einen gesuchten Verdächtigen siehst, wie er das Lagerhaus betritt.</String>
         <String xml:lang="ar-001">ليس لديك ~o~ضمان ~s~لدخول هذا المستودع.لا يمكنك الدخول إلا عندما تكتشف ~o~دخول~s~ أحد المشتبه بهم المطلوبين</String>
-        <String xml:lang="id-ID">Anda tidak memiliki ~o~surat geledah ~s~untuk memasuki gudang ini. Anda hanya dapat memasuki tempat yang ~s~dimasuki ~o~buronan.</String>
+        <String xml:lang="id-ID">Anda tidak memiliki ~o~surat geledah ~s~untuk memasuki gudang ini. Anda hanya dapat memasuki tempat yang dimasuki ~o~buronan~s~.</String>
         <String xml:lang="th-TH">คุณไม่มี ~o~หมายจับ ~s~เพื่อเข้าสู่โกดังแห่งนี้ คุณสามารถเข้าไปได้ก็ต่อเมื่อคุณพบ ~o~ผู้ต้องสงสัยที่ต้องการ ~s~เข้ามา</String>
+        <String xml:lang="zh-Hant">你沒有 ~o~搜查令 ~s~已進入此倉庫，你必須看到一位 ~o~嫌犯 ~s~進入此倉庫才得以進入.</String>
     </Entry>
 
     <Entry Id="warehouse_attempt_cooldown">
@@ -221,6 +237,7 @@
         <String xml:lang="ar-001">~r~يجب عليك الانتظار قبل محاولة الدخول مرة أخرى.</String>
         <String xml:lang="id-ID">~r~Anda harus menunggu beberapa saat sebelum mencoba untuk masuk kembali.</String>
         <String xml:lang="th-TH">~r~คุณต้องรอก่อนที่จะพยายามเข้าอีกครั้ง</String>
+        <String xml:lang="zh-Hant">~r~你必須等待一會兒已再次進入.</String>
     </Entry>
 
     <Entry Id="warehouse_fell_out_teleport">
@@ -232,6 +249,7 @@
         <String xml:lang="ar-001">لقد سقطت من داخل العقار، لذلك تم نقلك إلى الداخل مرة أخرى.</String>
         <String xml:lang="id-ID">Anda terjatuh dari interior properti, sehingga anda dipindahkan kedalam lagi.</String>
         <String xml:lang="th-TH">คุณตกจากภายในทรัพย์สิน จึงถูกเคลื่อนย้ายกลับเข้าไป</String>
+        <String xml:lang="zh-Hant">你掉出了產權外，所以你被傳送回了.</String>
     </Entry>
 
     <!-- ========================= -->

@@ -62,6 +62,17 @@ Let's say for example that the other person had made a mistake in the xml:lang a
 
 Note: I have removed some of the special characters (`<`, `>`, `=`) otherwise Git will actually recognize it as an unmerged part of this document.
 
+How it should look after you merge the changes:
+```
+        <String xml:lang="en-US">Revenge information</String>
+        <String xml:lang="de-DE">Revenge Informationen</String>
+```
+
+You kept both your change and their change.
+If you are in doubt, keep their changes instead!
+
+After you merged, you need to right click on the file and "Stage" it.
+
 ### Still need help?
 
 We are here to help, just make a thread in `#lang-forum` and whoever has an answer will help you out.

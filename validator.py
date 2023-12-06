@@ -300,6 +300,7 @@ class Validator:
         supported_langs (list[str]): A list of supported language codes.
         nsmap (dict): A namespace mapping for XML namespaces.
         used_ids (set): A set of used IDs during validation.
+        fatal_errors (int): A count of encountered fatal errors during validation.
         errors (int): A count of encountered errors during validation.
         warnings (int): A count of encountered warnings during validation.
         known_display_limit (int): Display limit for known elements.
@@ -310,6 +311,7 @@ class Validator:
     xml_files: list[str] = []
     supported_langs: list[str] = ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES", "pt-BR", "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH", "id-ID"]
     used_ids: set = set()
+    fatal_errors: int = 0
     errors: int = 0
     warnings: int = 0
     display_limit: int = 10
@@ -376,6 +378,26 @@ class Validator:
         txt = f"[!] {Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)}:\n{error}"
         if COLORAMA_INSTALLED:
             print(f"{colorama.Fore.RED}{txt}{colorama.Fore.RESET}")
+        else:
+            print(txt)
+        print()
+
+
+    @staticmethod
+    def print_fatal_error(error: str, location: list[str], custom_file_cursor: tuple[int] | None = None):
+        """Prints an error message with the given location.
+
+        Args:
+            error (str): The error message to print.
+            location (list[str]): A list of strings representing the location of the error. 
+
+        Returns: 
+            None 
+        """
+        Validator.fatal_errors += 1
+        txt = f"[!!!] {Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)}:\n{error}"
+        if COLORAMA_INSTALLED:
+            print(f"{colorama.Fore.RED}{colorama.Style.BRIGHT}{txt}{colorama.Fore.RESET}{colorama.Style.NORMAL}")
         else:
             print(txt)
         print()
@@ -524,6 +546,7 @@ class Validator:
 
     @staticmethod
     def check_xml_files():
+        Validator.custom_xml_parser = Validator.setup_xml_parser()
         for file in Validator.xml_files:
             if DOMINATE_INSTALLED and Validator.preview_formatting:
                 with Validator.main_doc.body:
@@ -542,7 +565,8 @@ class Validator:
             except FileNotFoundError as err:    
                 Validator.print_error(f"Invalid file: {err}", [file])
             except xml.sax.SAXParseException as err:
-                Validator.print_error(f"Invalid file: {err.getMessage()}", [file], custom_file_cursor=(err.getLineNumber(), err.getColumnNumber()))
+                Validator.print_fatal_error(f"Invalid file: {err.getMessage()}", [file], custom_file_cursor=(err.getLineNumber(), err.getColumnNumber()))
+                Validator.custom_xml_parser = Validator.setup_xml_parser()
             except xml.sax._exceptions.SAXNotSupportedException:
                 pass
 
@@ -625,6 +649,8 @@ class Validator:
                 unneeded_variables = [var for var in found_variables if var not in required_variables]
                 if unneeded_variables:
                     Validator.print_error(f"Found too many variables: {', '.join(unneeded_variables)}", path1, string_entry.parse_position)
+            if len(text) == 0:
+                Validator.print_error(f"Found empty translation", path1, start_position)
             text_without_formatting = re.sub(FORMAT_REGEX, "", text)
             invalid_text_formatting_loc = text_without_formatting.find("~")
             if invalid_text_formatting_loc != -1:
@@ -661,7 +687,6 @@ if __name__ == '__main__':
     parser.add_argument('--treat_warnings_as_errors', action='store_true', help='Treat warnings as errors')
     parser.add_argument('--display_limit', type=int, default=10, help='Set display limit for missing translations')
     args = parser.parse_args()
-    Validator.custom_xml_parser = Validator.setup_xml_parser()
     if args.preview_formatting:
         if DOMINATE_INSTALLED:
             Validator.preview_formatting = True
@@ -682,8 +707,11 @@ if __name__ == '__main__':
         with open("preview.html", "w", encoding="utf-8") as file:
             file.write(Validator.main_doc.render(pretty=False))
         print("Formatting preview has been generated in preview.html\n")
+    if Validator.fatal_errors > 0:
+        print(f"Fatal errors: {Validator.fatal_errors}")
     if Validator.errors > 0:
         print(f"Errors: {Validator.errors}")
+    if Validator.errors > 0 or Validator.fatal_errors > 0:
         sys.exit(1)
     else:
         print("No errors found")
