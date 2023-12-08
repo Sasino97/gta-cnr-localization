@@ -21,6 +21,7 @@
 
     <Entry Id="menu_store_subtitle">
         <String xml:lang="en-US">Select an item</String>
+        <String xml:lang="it-IT">Seleziona un elemento</String>
     </Entry>
 
     <!-- ========================= -->
@@ -44,6 +45,7 @@
     <!-- {0} = Current balance -->
     <Entry Id="menu_store_gift_card_balance">
         <String xml:lang="en-US">GIFT CARD: {0}</String>
+        <String xml:lang="it-IT">BUONI REGALO: {0}</String>
     </Entry>
 
     <!-- ========================= -->
@@ -52,10 +54,12 @@
 
     <Entry Id="menu_store_no_items_text">
         <String xml:lang="en-US">No items :(</String>
+        <String xml:lang="it-IT">Nessun articolo :(</String>
     </Entry>
 
     <Entry Id="menu_store_no_items_desc">
         <String xml:lang="en-US">This business doesn't have any goods or services for sale.</String>
+        <String xml:lang="it-IT">Questo negozio non ha beni o servizi in vendita.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -63,14 +67,17 @@
     <!-- ========================= -->
     <Entry Id="menu_store_btn_purchase">
         <String xml:lang="en-US">Purchase</String>
+        <String xml:lang="it-IT">Acquista</String>
     </Entry>
 
     <Entry Id="menu_store_btn_browse">
         <String xml:lang="en-US">Browse</String>
+        <String xml:lang="it-IT">Sfoglia</String>
     </Entry>
 
     <Entry Id="menu_store_btn_steal">
         <String xml:lang="en-US">Steal</String>
+        <String xml:lang="it-IT">Ruba</String>
     </Entry>
 
     <!-- ========================= -->
@@ -79,32 +86,38 @@
     <!-- Shows up in shops when you focus on an item that you already have -->
     <Entry Id="item_attribute_owned">
         <String xml:lang="en-US">Owned</String>
+        <String xml:lang="it-IT">Posseduto</String>
     </Entry>
-    
+
     <!-- Shows up in red in the description of illegal items -->
     <Entry Id="item_attribute_illegal">
         <String xml:lang="en-US">ILLEGAL</String>
+        <String xml:lang="it-IT">ILLEGALE</String>
     </Entry>
-    
+
     <!-- Shows up in yellow for newly added items -->
     <Entry Id="item_attribute_new">
         <String xml:lang="en-US">NEW!</String>
+        <String xml:lang="it-IT">NUOVO!</String>
     </Entry>
-    
+
     <!-- Shows up in red for items that are expiring soon -->
     <Entry Id="item_attribute_limited">
         <String xml:lang="en-US">LIMITED!</String>
+        <String xml:lang="it-IT">LIMITATO!</String>
     </Entry>
 
     <!-- {0} = Date -->
     <Entry Id="item_attribute_limited_descr">
         <String xml:lang="en-US">~r~Limited time offer: ~s~available until ~r~{0}~s~.</String>
+        <String xml:lang="it-IT">~r~Offerta a tempo limitato: ~s~disponibile fino al ~r~{0}~s~.</String>
     </Entry>
 
     <!-- Shows up for items who require a certain minimum level -->
     <!-- {0} = Level -->
     <Entry Id="item_attribute_unlock_level">
         <String xml:lang="en-US">Unlocked at level {0}</String>
+        <String xml:lang="it-IT">Sbloccato al livello {0}</String>
     </Entry>
 
     <!-- Shows up for items who require a membership -->
@@ -112,18 +125,21 @@
     <!-- {1} = Website URL -->
     <Entry Id="item_attribute_requires_membership">
         <String xml:lang="en-US">Requires {0}~n~~s~Purchase at ~b~{1}</String>
+        <String xml:lang="it-IT">Richiede {0}~n~~s~Acquista su ~b~{1}</String>
     </Entry>
 
     <!-- Shows up for items who require a membership, and you have that membership tier or higher -->
     <!-- {0} = Membership Tier -->
     <Entry Id="item_attribute_unlocked_with_membership">
         <String xml:lang="en-US">Unlocked with your {0}</String>
+        <String xml:lang="it-IT">Sbloccato con il tuo {0}</String>
     </Entry>
 
     <!-- Shows up after the previous string when you have a tier higher than the required one (e.g. you have Gold and the item is Silver) -->
     <!-- {0} = Membership Tier -->
     <Entry Id="item_attribute_unlocked_with_membership_requires_lower_tier">
         <String xml:lang="en-US">(requires {0})</String>
+        <String xml:lang="it-IT">(richiede {0})</String>
     </Entry>
 
     <!-- ========================= -->
@@ -177,10 +193,12 @@
     <!-- {0} = Item name -->
     <Entry Id="menu_store_cant_purchase_more">
         <String xml:lang="en-US">You can't ~r~purchase ~s~any more ~y~{0}~s~.</String>
+        <String xml:lang="it-IT">Non puoi ~r~acquistare ~s~altri ~y~{0}~s~.</String>
     </Entry>
 
     <Entry Id="menu_store_no_gun_for_ammo_type">
         <String xml:lang="en-US">You don't have any gun that can use this type of ammo.</String>
+        <String xml:lang="it-IT">Non hai nessun'arma che può usare questo tipo di munizioni.</String>
     </Entry>
 
     <Entry Id="already_own_weapon">
@@ -206,6 +224,7 @@
     <!-- {0} = Weapon Attachment -->
     <Entry Id="menu_store_attachment_warning">
         <String xml:lang="en-US">If you buy this attachment you will lose your ~y~{0} ~s~on this weapon. Do you want to proceed?</String>
+        <String xml:lang="it-IT">Se acquisti questo accessorio, perderai il tuo ~y~{0} ~s~su quest'arma. Vuoi procedere?</String>
     </Entry>
 
     <!-- ========================= -->
@@ -217,6 +236,7 @@
     <!-- {1} = Price -->
     <Entry Id="menu_store_amount_for_price">
         <String xml:lang="en-US">{0} for {1}</String>
+        <String xml:lang="it-IT">{0} per {1}</String>
     </Entry>
 
     <!-- Displays the unit price in the description -->
@@ -225,6 +245,7 @@
     <!-- {1} = Unit -->
     <Entry Id="menu_store_unit_price">
         <String xml:lang="en-US">Price: {0}/{1}</String>
+        <String xml:lang="it-IT">Prezzo: {0}/{1}</String>
     </Entry>
     
     <!-- ========================= -->
