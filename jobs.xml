@@ -2399,7 +2399,7 @@
         <String xml:lang="es-ES">Actualmente no hay ningún vehículo más buscado. Por favor, espere hasta las 5:00 am.</String>
         <String xml:lang="pl-PL">Nie ma w tej chwili poszukiwanego pojazdu. Proszę, poczekaj do 5:00.</String>
         <String xml:lang="pt-BR">No momento, não há mais veículos procurados. Por favor, aguarde até as 5:00 am.</String>
-        <String xml:lang="th-TH"></String>
+        <String xml:lang="th-TH">ขณะนี้ยังไม่มียานพาหนะที่ต้องการมากที่สุด กรุณารอจนถึง 05.00 น.</String>
     </Entry>
 
     <!-- {0} = Player color (red, ...) -->
@@ -2417,7 +2417,7 @@
         <String xml:lang="pl-PL">{0}{1} ({2}) ~s~znalazł dzisiejszy ~b~poszukiwany pojazd ~s~w ~y~{3}~s~. Wartość: ~g~{4}~s~.</String>
         <String xml:lang="de-DE">{0}{1} ({2}) ~s~hat das ~b~meistgesuchte Fahrzeug von heute ~s~in ~y~{3}~s~ gefunden. Wert: ~g~{4}~s~.</String>
         <String xml:lang="pt-BR">{0}{1} ({2}) ~s~encontrou o ~b~veículo mais procurado da atualidade ~s~en ~y~{3}~s~. Valor: ~g~{4}~s~.</String>
-        <String xml:lang="th-TH">ขณะนี้ยังไม่มียานพาหนะที่ต้องการมากที่สุด กรุณารอจนถึง 05.00 น.</String>
+        <String xml:lang="th-TH">{0}{1} ({2}) ~s~ได้พบ ~b~ยานพาหนะที่เป็นที่ต้องการมากที่สุดของวันนี้ ~s~ใน ~y~{3}~s~ ค่า: ~g~{4}~s~</String>
     </Entry>
 
     <!-- {0} = Has been "mwveh" (probably for colours) -->
@@ -2482,7 +2482,7 @@
         <String xml:lang="es-ES">~b~¡La policía está cerca! ~r~Deshazte ~s~de ellos antes de exportar el vehículo.</String>
         <String xml:lang="pt-BR">~b~A polícia está por perto! ~r~Livre-se deles ~s~antes de exportar o veículo.</String>
         <String xml:lang="de-DE">~b~Polizisten befinden sich in der Nähe! ~r~Werde sie los~s~, bevor du das Fahrzeug exportierst.</String>
-        <String xml:lang="th-TH">~b~ตำรวจอยู่ใกล้ๆ! ~r~กำจัด ~s~ พวกมันก่อนที่จะส่งออกยานพาหนะ</String>
+        <String xml:lang="th-TH">~b~ตำรวจอยู่ใกล้ๆ! ~r~กำจัด ~s~พวกมันก่อนที่จะส่งออกยานพาหนะ</String>
     </Entry>
 
     <Entry Id="vehicle_export_personal_vehicle">
@@ -2549,7 +2549,7 @@
         <String xml:lang="es-ES">~r~En este trabajo no se pueden desguazar vehículos robados!</String>
         <String xml:lang="pt-BR">~r~Nesse trabalho, os veículos roubados não podem ser sucateados!</String>
         <String xml:lang="de-DE">~r~Du kannst gestohlene Fahrzeuge bei diesem Job nicht verschrotten!</String>
-        <String xml:lang="th-TH"></String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถทำลายยานพาหนะที่ถูกขโมยได้ในงานนี้!</String>
     </Entry>
 
     <Entry Id="vehicle_scrap_personal">
@@ -2670,7 +2670,7 @@
         <String xml:lang="es-ES">~r~Las armas y municiones ilegales ~s~pueden ser confiscadas por la ~b~policía ~s~si te registran, sin embargo, las personalizaciones de armas se salvarán.</String>
         <String xml:lang="pl-PL">~r~Nielegalne bronie i amunicja ~s~mogą być skonfiskowane przez ~b~policję ~s~przy przeszukaniu, ale dodatki do broni zostaną zapisane.</String>
         <String xml:lang="pt-BR">~r~Armas e munições ilegais ~s~podem ser confiscadas pela ~b~polícia ~s~se você for revistado, mas as personalizações das armas serão salvas.</String>
-        <String xml:lang="th-TH">~r~อาวุธและกระสุนผิดกฎหมาย ~s~สามารถยึดได้โดย ~b~ตำรวจ ~s~ หากพวกเขาค้นหาคุณ อย่างไรก็ตาม การปรับแต่งอาวุธจะถูกบันทึกไว้</String>
+        <String xml:lang="th-TH">~r~อาวุธและกระสุนผิดกฎหมาย ~s~สามารถยึดได้โดย ~b~ตำรวจ ~s~หากพวกเขาค้นหาคุณ อย่างไรก็ตาม การปรับแต่งอาวุธจะถูกบันทึกไว้</String>
     </Entry>
 
     <Entry Id="dont_have_required_level_item">
@@ -2681,7 +2681,7 @@
         <String xml:lang="es-ES">~r~¡No tienes el nivel necesario para comprar este artículo!</String>
         <String xml:lang="pl-PL">~r~Nie masz wymaganego poziomu by kupić ten przedmiot!</String>
         <String xml:lang="pt-BR">~r~Você não tem o nível necessário para comprar este item!</String>
-        <String xml:lang="th-TH"></String>
+        <String xml:lang="th-TH">~r~คุณไม่มีระดับที่กำหนดในการซื้อไอเท็มนี้!</String>
     </Entry>
 
     <Entry Id="item_requires_membership">
@@ -2728,7 +2728,7 @@
         <String xml:lang="es-ES">Este negocio ~r~no puede ser robado ~s~todavía. Este robo llegará en una ~b~actualización futura~s~.</String>
         <String xml:lang="pl-PL">To miejsce ~r~nie może być jeszcze okradzione~s~. Ten napad przyjdzie w ~b~przyszłej aktualizacji~s~.</String>
         <String xml:lang="pt-BR">Esse negócio ainda ~r~não pode ser roubado~s~. Esse roubo ocorrerá em uma ~b~futura atualização~s~.</String>
-        <String xml:lang="th-TH">ธุรกิจนี้ ~r~ยังไม่สามารถปล้นได้ ~s~ การปล้นครั้งนี้กำลังมาใน ~b~การอัปเดตในอนาคต~s~</String>
+        <String xml:lang="th-TH">ธุรกิจนี้ ~r~ยังไม่สามารถปล้นได้ ~s~การปล้นครั้งนี้กำลังมาใน ~b~การอัปเดตในอนาคต~s~</String>
     </Entry>
 
     <Entry Id="business_cannot_be_robbed">
