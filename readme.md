@@ -62,6 +62,39 @@ Let's say for example that the other person had made a mistake in the xml:lang a
 
 Note: I have removed some of the special characters (`<`, `>`, `=`) otherwise Git will actually recognize it as an unmerged part of this document.
 
+How it should look after you merge the changes:
+```
+        <String xml:lang="en-US">Revenge information</String>
+        <String xml:lang="de-DE">Revenge Informationen</String>
+```
+
+You kept both your change and their change.
+If you are in doubt, keep their changes instead!
+
+After you merged, you need to right click on the file and "Stage" it.
+
+### Validation errors
+When you push your changes to the Github repository, sometimes you will see a red ❌ icon near your last commit.
+
+This means that your commit (or a commit before yours) has introduced errors, and you should fix.
+
+Click on the ❌ then click on "Details".
+
+![Errors](docs/errors_1.png "Errors")
+
+In the details page, you will see a detailed list of errors that looks like this.
+
+![Errors](docs/errors_2.png "Errors")
+
+Each error in the list tells you:
+- File name
+- Line and position
+- Id of the string
+- Language where there's a problem
+- Description of the error
+
+You should do your best to understand and correct the error, but if you can't you can ask in the forum and others will help you.
+
 ### Still need help?
 
 We are here to help, just make a thread in `#lang-forum` and whoever has an answer will help you out.
