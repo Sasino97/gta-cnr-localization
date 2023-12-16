@@ -1,4 +1,4 @@
-# GTA CnR Localization
+# CnR V Localization
 
 This repository contains the necessary files for the localization of CnR.
 
