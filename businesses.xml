@@ -49,6 +49,7 @@
         <String xml:lang="en-US">GIFT CARD: {0}</String>
         <String xml:lang="it-IT">BUONI REGALO: {0}</String>
         <String xml:lang="th-TH">บัตรของขวัญ: {0}</String>
+        <String xml:lang="pl-PL">KARTA PODARUNKOWA: {0}</String>
     </Entry>
 
     <!-- ========================= -->
@@ -59,12 +60,14 @@
         <String xml:lang="en-US">No items :(</String>
         <String xml:lang="it-IT">Nessun articolo :(</String>
         <String xml:lang="th-TH">ไม่มีรายการ :(</String>
+        <String xml:lang="pl-PL">Brak przedmiotów :(</String>
     </Entry>
 
     <Entry Id="menu_store_no_items_desc">
         <String xml:lang="en-US">This business doesn't have any goods or services for sale.</String>
         <String xml:lang="it-IT">Questo negozio non ha beni o servizi in vendita.</String>
         <String xml:lang="th-TH">ธุรกิจนี้ไม่มีสินค้าหรือบริการสำหรับขาย</String>
+        <String xml:lang="pl-PL">Ten biznes nie ma żadnych dóbr lub usług na sprzedaż.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -74,18 +77,21 @@
         <String xml:lang="en-US">Purchase</String>
         <String xml:lang="it-IT">Acquista</String>
         <String xml:lang="th-TH">ซื้อ</String>
+        <String xml:lang="pl-PL">Kup</String>
     </Entry>
 
     <Entry Id="menu_store_btn_browse">
         <String xml:lang="en-US">Browse</String>
         <String xml:lang="it-IT">Sfoglia</String>
         <String xml:lang="th-TH">เรียกดู</String>
+        <String xml:lang="pl-PL">Przeglądaj</String>
     </Entry>
 
     <Entry Id="menu_store_btn_steal">
         <String xml:lang="en-US">Steal</String>
         <String xml:lang="it-IT">Ruba</String>
         <String xml:lang="th-TH">ขโมย</String>
+        <String xml:lang="pl-PL">Ukradnij</String>
     </Entry>
 
     <!-- ========================= -->
@@ -96,6 +102,7 @@
         <String xml:lang="en-US">Owned</String>
         <String xml:lang="it-IT">Posseduto</String>
         <String xml:lang="th-TH">เป็นเจ้าของ</String>
+        <String xml:lang="pl-PL">Posiadane</String>
     </Entry>
 
     <!-- Shows up in red in the description of illegal items -->
@@ -103,6 +110,7 @@
         <String xml:lang="en-US">ILLEGAL</String>
         <String xml:lang="it-IT">ILLEGALE</String>
         <String xml:lang="th-TH">ผิดกฎหมาย</String>
+        <String xml:lang="pl-PL">NIELEGALNE</String>
     </Entry>
 
     <!-- Shows up in yellow for newly added items -->
@@ -110,6 +118,7 @@
         <String xml:lang="en-US">NEW!</String>
         <String xml:lang="it-IT">NUOVO!</String>
         <String xml:lang="th-TH">ใหม่!</String>
+        <String xml:lang="pl-PL">NOWE!</String>
     </Entry>
 
     <!-- Shows up in red for items that are expiring soon -->
@@ -117,6 +126,7 @@
         <String xml:lang="en-US">LIMITED!</String>
         <String xml:lang="it-IT">LIMITATO!</String>
         <String xml:lang="th-TH">ลิมิเต็ด!</String>
+        <String xml:lang="pl-PL">OGRANICZONE!</String>
     </Entry>
 
     <!-- {0} = Date -->
@@ -124,6 +134,7 @@
         <String xml:lang="en-US">~r~Limited time offer: ~s~available until ~r~{0}~s~.</String>
         <String xml:lang="it-IT">~r~Offerta a tempo limitato: ~s~disponibile fino al ~r~{0}~s~.</String>
         <String xml:lang="th-TH">~r~ข้อเสนอมีเวลาจำกัด: ~s~ใช้ได้จนถึง ~r~{0}~s~</String>
+        <String xml:lang="pl-PL">~r~Oferta ograniczona czasowo: ~s~dostępna do ~r~{0}~s~.</String>
     </Entry>
 
     <!-- Shows up for items who require a certain minimum level -->
@@ -132,6 +143,7 @@
         <String xml:lang="en-US">Unlocked at level {0}</String>
         <String xml:lang="it-IT">Sbloccato al livello {0}</String>
         <String xml:lang="th-TH">ปลดล็อคที่เลเวล {0}</String>
+        <String xml:lang="pl-PL">Odblokowane na poziomie {0}</String>
     </Entry>
 
     <!-- Shows up for items who require a membership -->
@@ -141,6 +153,7 @@
         <String xml:lang="en-US">Requires {0}~n~~s~Purchase at ~b~{1}</String>
         <String xml:lang="it-IT">Richiede {0}~n~~s~Acquista su ~b~{1}</String>
         <String xml:lang="th-TH">ต้องการ {0}~n~~s~ซื้อที่ ~b~{1}</String>
+        <String xml:lang="pl-PL">Wymaga {0}~n~~s~Zakup na ~b~{1}</String>
     </Entry>
 
     <!-- Shows up for items who require a membership, and you have that membership tier or higher -->
@@ -149,6 +162,7 @@
         <String xml:lang="en-US">Unlocked with your {0}</String>
         <String xml:lang="it-IT">Sbloccato con il tuo {0}</String>
         <String xml:lang="th-TH">ปลดล็อคด้วย {0} ของคุณ</String>
+        <String xml:lang="pl-PL">Odblokowane z {0}</String>
     </Entry>
 
     <!-- Shows up after the previous string when you have a tier higher than the required one (e.g. you have Gold and the item is Silver) -->
@@ -157,6 +171,7 @@
         <String xml:lang="en-US">(requires {0})</String>
         <String xml:lang="it-IT">(richiede {0})</String>
         <String xml:lang="th-TH">(ต้องการ {0})</String>
+        <String xml:lang="pl-PL">(wymaga {0})</String>
     </Entry>
 
     <!-- ========================= -->
@@ -216,12 +231,14 @@
         <String xml:lang="en-US">You can't ~r~purchase ~s~any more ~y~{0}~s~.</String>
         <String xml:lang="it-IT">Non puoi ~r~acquistare ~s~altri ~y~{0}~s~.</String>
         <String xml:lang="th-TH">คุณไม่สามารถ ~r~ซื้อ ~s~อีกต่อไป ~y~{0}~s~</String>
+        <String xml:lang="pl-PL">Nie możesz ~r~kupić ~s~więcej ~y~{0}~s~.</String>
     </Entry>
 
     <Entry Id="menu_store_no_gun_for_ammo_type">
         <String xml:lang="en-US">You don't have any gun that can use this type of ammo.</String>
         <String xml:lang="it-IT">Non hai nessun'arma che può usare questo tipo di munizioni.</String>
         <String xml:lang="th-TH">คุณไม่มีปืนที่สามารถใช้กระสุนประเภทนี้ได้</String>
+        <String xml:lang="pl-PL">Nie posiadasz broni na ten typ amunicji.</String>
     </Entry>
 
     <Entry Id="already_own_weapon">
@@ -251,6 +268,7 @@
         <String xml:lang="en-US">If you buy this attachment you will lose your ~y~{0} ~s~on this weapon. Do you want to proceed?</String>
         <String xml:lang="it-IT">Se acquisti questo accessorio, perderai il tuo ~y~{0} ~s~su quest'arma. Vuoi procedere?</String>
         <String xml:lang="th-TH">หากคุณซื้อเอกสารแนบนี้ คุณจะสูญเสีย ~y~{0} ~s~บนอาวุธนี้ คุณต้องการดำเนินการต่อหรือไม่?</String>
+        <String xml:lang="pl-PL">Zakupując ten dodatek utracisz ~y~{0} ~s~na tej broni. Czy chcesz kontynuować?</String>
     </Entry>
 
     <!-- ========================= -->
@@ -264,6 +282,7 @@
         <String xml:lang="en-US">{0} for {1}</String>
         <String xml:lang="it-IT">{0} per {1}</String>
         <String xml:lang="th-TH">{0} สำหรับ {1}</String>
+        <String xml:lang="pl-PL">{0} za {1}</String>
     </Entry>
 
     <!-- Displays the unit price in the description -->
