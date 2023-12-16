@@ -1704,6 +1704,7 @@
         <String xml:lang="de-DE">~r~Dieser Verdächtige wird von einem anderen Polizeibeamten festgenommen.</String>
         <String xml:lang="ar-001">~r~تم القبض على هذا المشتبه به من قبل ضابط شرطة آخر.</String>
         <String xml:lang="id-ID">~r~Pelaku ini sudah ditahan oleh petugas kepolisian lain.</String>
+        <String xml:lang="th-TH">ขณะนี้เจ้าหน้าที่ ~b~{0} ~s~กำลังควบคุมตัวคุณอยู่</String>
     </Entry>
 
     <Entry Id="police_suspect_already_following_other">
@@ -1718,6 +1719,7 @@
         <String xml:lang="th-TH">~o~ผู้ต้องสงสัย ~s~กำลังติดตามเจ้าหน้าที่คนอื่นไปแล้ว</String>
         <String xml:lang="ar-001">~o~لمشتبه به ~s~بالفعل ضابطًا آخر.</String>
         <String xml:lang="id-ID">~o~Pelaku ~s~sudah mengikuti petugas lain.</String>
+        <String xml:lang="th-TH">เจ้าหน้าที่ {0} กำลังใส่กุญแจมือคุณ{1}</String>
     </Entry>
 
     <Entry Id="police_cuffing_you">
@@ -1731,6 +1733,7 @@
         <String xml:lang="de-DE">Der Polizist {0} verhaftet dich.{1}</String>
         <String xml:lang="ar-001">الضابط {0} يقيدك.{1}</String>
         <String xml:lang="id-ID">Petugas {0} mencoba memborgolmu.{1}</String>
+        <String xml:lang="th-TH">เจ้าหน้าที่ {0} กำลังใส่กุญแจมือคุณ{1}</String>
     </Entry>
 
     <Entry Id="police_cuffed_you">
@@ -1744,6 +1747,7 @@
         <String xml:lang="de-DE">Der Polizist {0} hat dich festgenommen.</String>
         <String xml:lang="ar-001">لقد قام الضابط {0} بتقييدك.</String>
         <String xml:lang="id-ID">Petugas {0} telah memborgol mu.</String>
+        <String xml:lang="th-TH">เจ้าหน้าที่ {0} ได้ใส่กุญแจมือคุณ</String>
     </Entry>
 
     <Entry Id="police_failed_to_cuff_you">
@@ -1770,6 +1774,7 @@
         <String xml:lang="de-DE">Der Polizist {0} ~s~lässt dich frei.</String>
         <String xml:lang="ar-001">الضابط {0} ~s~يفك قيدك.</String>
         <String xml:lang="id-ID">Petugas {0} ~s~telah melepaskan borgolmu.</String>
+        <String xml:lang="th-TH">เจ้าหน้าที่ {0} ~s~กำลังปลดกุญแจมือคุณ</String>
     </Entry>
 
     <Entry Id="police_uncuffed_you">
@@ -1783,6 +1788,7 @@
         <String xml:lang="de-DE">Der Polizist {0} ~s~hat dich freigelassen</String>
         <String xml:lang="ar-001">قام الضابط {0} ~s~بفك قيودك.</String>
         <String xml:lang="id-ID">Petugas {0} ~s~membuka borgolmu.</String>
+        <String xml:lang="th-TH">เจ้าหน้าที่ {0} ~s~ปลดกุญแจมือคุณ</String>
     </Entry>
 
     <Entry Id="police_ordered_you_get_vehicle">
@@ -1796,6 +1802,7 @@
         <String xml:lang="de-DE">Der ~b~Polizeibeamte ~s~hat angeordnet, dass du in das ~b~Fahrzeug ~s~einsteigen sollst.</String>
         <String xml:lang="ar-001">لقد ~s~أمرك ~b~ضباط الشرطة بالصعود إلى ~b~السيارة~s~.</String>
         <String xml:lang="id-ID">~b~Petugas kepolisian ~s~memerintahkanmu untuk masuk ~b~kendaraan~s~.</String>
+        <String xml:lang="th-TH">~b~เจ้าหน้าที่ตำรวจ ~s~สั่งให้คุณเข้าไปใน ~b~ยานพาหนะ~s~</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_you_get_vehicle">
@@ -1809,6 +1816,8 @@
         <String xml:lang="de-DE">Der ~b~Polizist {0} ~s~hat angeordnet, dass du in das ~b~Fahrzeug ~s~einsteigen sollst.</String>
         <String xml:lang="ar-001">~b~الضابط {0} ~s~أمرك بالصعود إلى ~b~السيارة~s~!</String>
         <String xml:lang="id-ID">~b~Petugas {0} ~s~memerintahkanmu untuk masuk kedalam ~b~kendaraan~s~!</String>
+         <String xml:lang="th-TH">~b~เจ้าหน้าที่ {0} ~s~สั่งให้คุณเข้าไปใน ~b~ยานพาหนะ~s~!</String>
+    </Entry>
     </Entry>
 
     <Entry Id="police_you_ordered_suspect_get_vehicle">
@@ -1822,6 +1831,7 @@
         <String xml:lang="de-DE">Du hast ~o~{0} angewiesen, in dein ~b~Fahrzeug ~s~zu steigen.</String>
         <String xml:lang="ar-001">لقد طلبت ~o~{0} ~s~لإدخال ~b~سيارتك~s~.</String>
         <String xml:lang="id-ID">Anda memerintahkan ~o~{0} ~s~untuk masuk kedalam ~b~kendaraan~s~.</String>
+        <String xml:lang="th-TH">คุณสั่งให้ ~o~{0} ~s~ป้อน ~b~ยานพาหนะ~s~ ของคุณ</String>
     </Entry>
 
     <Entry Id="police_you_ordered_suspect_exit_vehicle">
@@ -1835,6 +1845,7 @@
         <String xml:lang="de-DE">Du hast ~o~{0} ~s~angewiesen, aus dem Fahrzeug auszusteigen.</String>
         <String xml:lang="ar-001">لقد أمرت ~o~{0} ~s~بالخروج من السيارة.</String>
         <String xml:lang="id-ID">Anda memerintahkan ~o~{0} ~s~untuk keluar dari kendaraan.</String>
+        <String xml:lang="th-TH">คุณสั่งให้ ~o~{0} ~s~ออกจากยานพาหนะ</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_you_exit_vehicle">
@@ -1848,6 +1859,7 @@
         <String xml:lang="de-DE">Der ~b~Polizist {0} ~s~hat angewiesen, dass du sein ~b~Fahrzeug ~s~verlassen sollst.</String>
         <String xml:lang="ar-001">أمرك ~b~الضابط {0} ~s~بالخروج من ~b~السيارة~s~.</String>
         <String xml:lang="id-ID">~b~Petugas {0} ~s~memerintahkan anda untuk keluar dari ~b~kendaraan~s~.</String>
+        <String xml:lang="th-TH">~b~เจ้าหน้าที่ {0} ~s~สั่งให้คุณออกจาก ~b~ยานพาหนะ~s~</String>
     </Entry>
 
     <Entry Id="police_suspect_already_in_vehicle">
@@ -1861,6 +1873,7 @@
         <String xml:lang="de-DE">Der ~o~Verdächtige ~s~befindet sich bereits in einem Fahrzeug.</String>
         <String xml:lang="ar-001">~o~المشتبه به ~s~موجود بالفعل في السيارة.</String>
         <String xml:lang="id-ID">~o~Pelaku ~s~sudah berada di kendaraan.</String>
+        <String xml:lang="th-TH">~o~ผู้ต้องสงสัย ~s~อยู่ในยานพาหนะแล้ว</String>
     </Entry>
 
     <Entry Id="police_suspect_not_in_vehicle">
@@ -1889,6 +1902,7 @@
         <String xml:lang="zh-Hant">你要求 ~o~{0} ~s~以 ~b~{1}~s~!</String>
         <String xml:lang="ar-001">لقد طلبت ~o~{0} ~s~ل ~b~{1}~s~!</String>
         <String xml:lang="id-ID">Anda meminta ~o~{0} ~s~untuk ~b~{1}~s~!</String>
+        <String xml:lang="th-TH">คุณถาม ~o~{0} ~s~ถึง ~b~{1}~s~!</String>
     </Entry>
 
     <!-- {0} = Officer's name -->
@@ -1904,6 +1918,7 @@
         <String xml:lang="zh-Hant">警員 ~b~{0} ~s~要求你 ~r~{1}~s~! </String>
         <String xml:lang="ar-001">الضابط ~b~{0} ~s~طلب منك ~r~{1}~s~!</String>
         <String xml:lang="id-ID">Petugas ~b~{0} ~s~memintamu untuk ~r~{1}~s~!</String>
+        <String xml:lang="th-TH">เจ้าหน้าที่ ~b~{0} ~s~ขอให้คุณ ~r~{1}~s~!</String>
     </Entry>
 
     <Entry Id="police_player_surrender_warn">
@@ -1917,6 +1932,7 @@
         <String xml:lang="zh-Hant">{0} ~s~投降了! ~r~請不要傷害嫌犯.</String>
         <String xml:lang="ar-001">{0} ~s~ستسلم! ~r~لا تطلق النار.</String>
         <String xml:lang="id-ID">{0} ~s~menyerah! ~r~Jangan ditembak.</String>
+        <String xml:lang="th-TH">{0} ~s~ยอมแพ้! ~r~อย่ายิง</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_follow">
@@ -1930,6 +1946,7 @@
         <String xml:lang="zh-Hant">~b~警員 {0} ~s~要求你跟隨他</String>
         <String xml:lang="ar-001">~b~الضابط {0} ~s~أمرك بمتابعتهم.</String>
         <String xml:lang="id-ID">~b~Petugas {0} ~s~memerintakanmu untuk mengikutinya.</String>
+        <String xml:lang="th-TH">~b~เจ้าหน้าที่ {0} ~s~สั่งให้คุณติดตามพวกเขา</String>
     </Entry>
 
     <Entry Id="police_dont_have_police_vehicle">
@@ -1943,6 +1960,7 @@
         <String xml:lang="zh-Hant">你沒有可用的 ~b~警車~s~</String>
         <String xml:lang="ar-001">ليس لديك ~b~سيارة شرطة~s~.</String>
         <String xml:lang="id-ID">Anda tidak memiliki ~b~kendaraan polisi~s~.</String>
+        <String xml:lang="th-TH">คุณไม่มี ~b~รถตำรวจ~s~</String>
     </Entry>
 
     <Entry Id="police_need_police_vehicle_to_transport">
@@ -1956,6 +1974,7 @@
         <String xml:lang="zh-Hant">你需邀一輛警車以運送嫌犯至監獄.</String>
         <String xml:lang="ar-001">أنت بحاجة إلي ~p~سيارة شرطة ~s~لنقل المشتبه به إلى السجن.</String>
         <String xml:lang="id-ID">Andan membutuhkan ~p~kendaraan polisi ~s~untuk membawa pelaku ke penjara.</String>
+        <String xml:lang="th-TH">คุณต้องมี ~p~รถตำรวจ ~s~ เพื่อขนส่งผู้ต้องสงสัยเข้าคุก</String>
     </Entry>
 
     <Entry Id="police_need_police_vehicle_with_rearseat_to_transport">
@@ -1969,6 +1988,7 @@
         <String xml:lang="zh-Hant">你需要一輛~s~四門的~p~車輛~s~來運送嫌犯.</String>
         <String xml:lang="ar-001">أنت بحاجة إلى ~p~سيارة ~s~ذات مقاعد خلفية لنقل المشتبه به.</String>
         <String xml:lang="id-ID">Anda membutuhkan ~p~Kendaraan ~s~dengan kursi belakang untuk membawa pelaku.</String>
+        <String xml:lang="th-TH">คุณต้องมี ~p~ยานพาหนะ ~s~ที่มีเบาะหลังเพื่อขนส่งผู้ต้องสงสัย</String>    
     </Entry>
 
     <Entry Id="police_need_police_vehicle_with_backseat_occupied">
@@ -1982,6 +2002,7 @@
         <String xml:lang="zh-Hant">你的~b~車輛後座 ~s~已經被佔據了.</String>
         <String xml:lang="ar-001">~b~المقعد الخلفي لسيارتك ~s~مستخدم.</String>
         <String xml:lang="id-ID">~b~Kursi belakang kendaraan ~s~mu terisi.</String>
+        <String xml:lang="th-TH">~b~เบาะหลังรถของคุณ ~s~ถูกครอบครองแล้ว</String>
     </Entry>
 
     <Entry Id="police_vehicle_too_far">
@@ -1995,6 +2016,7 @@
         <String xml:lang="zh-Hant">你的~b~車輛 ~s~離你 ~r~太遠了~s~.</String>
         <String xml:lang="ar-001">~b~سيارتك ~r~بعيدة جدًا~s~.</String>
         <String xml:lang="id-ID">~b~Kendaraan ~s~anda ~r~terlalu jauh~s~.</String>
+        <String xml:lang="th-TH">~b~ยานพาหนะ ~s~ของคุณ ~r~ไกลเกินไป~s~</String>
     </Entry>
 
     <Entry Id="police_you_officer_ordered_follow">
@@ -2008,6 +2030,7 @@
         <String xml:lang="zh-Hant">你要求 ~o~{0} ~s~跟隨你.</String>
         <String xml:lang="ar-001">لقد أمرت ~o~{0} ~s~بمتابعتك.</String>
         <String xml:lang="id-ID">Anda memerintahkan ~o~{0} ~s~untuk mengikutimu.</String>
+        <String xml:lang="th-TH">คุณสั่งให้ ~o~{0} ~s~ติดตามคุณ</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_stop_follow">
@@ -2021,6 +2044,7 @@
         <String xml:lang="zh-Hant">~b~警員 {0} ~s~要求你停止跟隨.</String>
         <String xml:lang="ar-001">~b~الضابط {0} ~s~أمرك بالتوقف عن المتابعة.</String>
         <String xml:lang="id-ID">~b~Petugas {0} ~s~memerintahkanmu untuk berhenti mengikutinya.</String>
+        <String xml:lang="th-TH">~b~เจ้าหน้าที่ {0} ~s~สั่งให้คุณหยุดติดตาม</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_you_stop_follow">
@@ -2034,6 +2058,7 @@
         <String xml:lang="zh-Hant">你要求 ~o~{0} ~s~停止跟隨你.</String>
         <String xml:lang="ar-001">لقد أمرت ~o~{0} ~s~بالتوقف عن متابعتك.</String>
         <String xml:lang="id-ID">Anda memerintahkan ~o~{0} ~s~untuk berhenti mengikutimu.</String>
+        <String xml:lang="th-TH">คุณสั่งให้ ~o~{0} ~s~หยุดติดตามคุณ</String>
     </Entry>
 
     <Entry Id="police_called_transport_unit_for_you">
@@ -2047,6 +2072,7 @@
         <String xml:lang="zh-Hant">警員 {0} 已請求一支運輸隊伍以將你移送至監獄.</String>
         <String xml:lang="ar-001">اتصل الضابط {0} بوحدة النقل لنقلك.</String>
         <String xml:lang="id-ID">Petugas {0} memanggilkan unit pengantar untukmu.</String>
+        <String xml:lang="th-TH">เจ้าหน้าที่ {0} เรียกหน่วยขนส่งมาให้คุณ</String>
     </Entry>
 
     <Entry Id="police_not_watching_lockpick">
@@ -2060,6 +2086,7 @@
         <String xml:lang="zh-Hant">~b~警員 ~s~不在專注在你身上了，是時候用 ~y~萬能鑰匙 ~s~以解鎖你的手銬。</String>
         <String xml:lang="ar-001">~b~رجال الشرطة ~s~لا يراقبونك, حان وقت الرحيل! استخدم ~y~lockpick ~s~لفتح الكلبشات الخاصة بك.</String>
         <String xml:lang="id-ID">~b~Kepolisian ~s~sedang tidak melihatmu, waktunya pergi! Gunakan ~y~lockpick ~s~untuk membuka borgolmu.</String>
+        <String xml:lang="th-TH">~b~cops ~s~ไม่ได้จับตาดูคุณอยู่ ถึงเวลาไปแล้ว! ใช้ ~y~lockpick ~s~เพื่อปลดล็อคกุญแจมือของคุณ</String>
     </Entry>
 
     <Entry Id="police_suspect_in_vehicle">
@@ -2073,6 +2100,7 @@
         <String xml:lang="zh-Hant">~o~嫌犯 ~s~已經在車輛內.</String>
         <String xml:lang="ar-001">~o~المشتبه به ~s~موجود في السيارة.</String>
         <String xml:lang="id-ID">~o~Pelaku ~s~didalam kendaraan</String>
+        <String xml:lang="th-TH">~o~ผู้ต้องสงสัย ~s~อยู่ในยานพาหนะ</String>
     </Entry>
 
     <Entry Id="police_suspect_too_far">
@@ -2086,6 +2114,7 @@
         <String xml:lang="zh-Hant">~o~嫌犯 ~s~離你~r~太遠了~s~.</String>
         <String xml:lang="ar-001">إن ~o~المشتبه به ~r~بعيد جدًا~s~.</String>
         <String xml:lang="id-ID">~o~Pelaku ~s~berada ~r~terlalu jauh~s~.</String>
+        <String xml:lang="th-TH">~o~ผู้ต้องสงสัย ~s~อยู่ ~r~ไกลเกินไป~s~</String>
     </Entry>
 
     <Entry Id="police_suspect_not_cuffed">
@@ -2099,6 +2128,7 @@
         <String xml:lang="zh-Hant">~r~嫌犯未被上銬.</String>
         <String xml:lang="ar-001">~r~المشتبه به غير مقيد.</String>
         <String xml:lang="id-ID">~r~Pelaku belum terborgol.</String>
+        <String xml:lang="th-TH">~r~ผู้ต้องสงสัยไม่ได้ถูกใส่กุญแจมือ</String>
     </Entry>
 
     <Entry Id="police_called_transport_unit">
@@ -2112,6 +2142,7 @@
         <String xml:lang="zh-Hant">~r~運輸隊伍已經被請求了.</String>
         <String xml:lang="ar-001">~r~تم استدعاء وحدة نقل للمشتبه به.</String>
         <String xml:lang="id-ID">~r~Unit pengantar telah dipanggilkan untukmu.</String>
+        <String xml:lang="th-TH">~r~หน่วยขนส่งได้ถูกเรียกตัวไปหาผู้ต้องสงสัยแล้ว</String>
     </Entry>
 
     <Entry Id="police_already_way_transport_unit">
@@ -2125,6 +2156,7 @@
         <String xml:lang="zh-Hant">~r~給此嫌犯的運輸隊伍已經在路上了!</String>
         <String xml:lang="ar-001">~r~وحدة نقل لهذا المشتبه به في الطريق بالفعل!</String>
         <String xml:lang="id-ID">~r~Unit pengantar untuk pelaku ini sedang menuju kesini!</String>
+        <String xml:lang="th-TH">~r~หน่วยขนส่งสำหรับผู้ต้องสงสัยรายนี้กำลังเดินทางมาแล้ว!</String>
     </Entry>
 
     <Entry Id="police_request_transport_unit">
@@ -2138,6 +2170,7 @@
         <String xml:lang="zh-Hant">你給 ~b~嫌犯 請求了 ~s~運輸隊伍.</String>
         <String xml:lang="ar-001">لقد طلبت ~b~وحدة نقل ~s~للمشتبه به!</String>
         <String xml:lang="id-ID">Anda meminta ~b~unit pengantar ~s~untuk pelaku!</String>
+        <String xml:lang="th-TH">คุณร้องขอ ~b~หน่วยขนส่ง ~s~สำหรับผู้ต้องสงสัย!</String>
     </Entry>
 
     <Entry Id="police_cant_transport_suspect_not_custody">
@@ -2151,6 +2184,7 @@
         <String xml:lang="zh-Hant">當 ~o~嫌犯 ~s~不被拘留時 ~s~， ~b~運輸隊伍~s~沒辦法運送他至監獄.</String>
         <String xml:lang="ar-001">~b~وحدة النقل ~s~لا تستطيع نقل ~o~المشتبه به~s~ الذي ليس محتجزًا</String>
         <String xml:lang="id-ID">~b~Unit pengantar ~s~tidak dapat mengantarkan ~o~pelaku ~s~yang tidak sedang ditahan.</String>
+        <String xml:lang="th-TH">~b~หน่วยขนส่ง ~s~ไม่สามารถขนส่ง ~o~ผู้ต้องสงสัย~s~ ที่ไม่ได้อยู่ในการควบคุมตัวได้</String>
     </Entry>
 
     <Entry Id="police_transport_unit_couldnt_find_suspect">
@@ -2164,6 +2198,7 @@
         <String xml:lang="zh-Hant"> ~b~運輸隊伍 ~s~找不到嫌犯.</String>
         <String xml:lang="ar-001">~b~وحدة النقل ~s~لم تتمكن من العثور على المشتبه به.</String>
         <String xml:lang="id-ID">~b~Unit pengantar ~s~tidak dapat menemukan suspect.</String>
+        <String xml:lang="th-TH">~b~หน่วยขนส่ง ~s~ไม่พบผู้ต้องสงสัย</String>
     </Entry>
 
     <Entry Id="police_cant_transport_injured_suspect_not_custody">
@@ -2177,6 +2212,7 @@
         <String xml:lang="zh-Hant"> ~b~運輸隊伍 ~s~無法運輸受傷的 ~o~嫌犯~s~.</String>
         <String xml:lang="ar-001">~b~وحدة النقل ~s~لا تستطيع نقل ~o~المشتبه به~s~ المصاب.</String>
         <String xml:lang="id-ID">~b~Unit pengantar ~s~tidak dapat mengantarkan ~o~pelaku ~s~yang terluka.</String>
+        <String xml:lang="th-TH">~b~หน่วยขนส่ง ~s~ไม่สามารถขนส่ง ~o~ผู้ต้องสงสัย~s~ ได้</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -2191,6 +2227,7 @@
         <String xml:lang="zh-Hant">你正在搜查 {0}~s~</String>
         <String xml:lang="ar-001">أنت تبحث عن {0}~s~.</String>
         <String xml:lang="id-ID">Anda menggeledah {0}~s~.</String>
+        <String xml:lang="th-TH">คุณกำลังค้นหา {0}~s~</String>
     </Entry>
 
     <Entry Id="police_cuffing_suspect">
@@ -2204,6 +2241,7 @@
         <String xml:lang="zh-Hant">你正在上銬 {0}.</String>
         <String xml:lang="ar-001">أنت تقييد {0}.</String>
         <String xml:lang="id-ID">Anda mencoba memborgol {0}.</String>
+        <String xml:lang="th-TH">คุณกำลังใส่กุญแจมือ {0}</String>
     </Entry>
 
     <Entry Id="police_cuffed_suspect">
@@ -2217,6 +2255,7 @@
         <String xml:lang="zh-Hant">你上銬了 {0}.</String>
         <String xml:lang="ar-001">لقد قمت بتقييد {0}.</String>
         <String xml:lang="id-ID">Anda telah memborgol {0}.</String>
+        <String xml:lang="th-TH">คุณได้ใส่กุญแจมือ {0}</String>
     </Entry>
 
     <Entry Id="police_already_cuffed_suspect">
@@ -2230,6 +2269,7 @@
         <String xml:lang="zh-Hant">{0} 已經被上銬了.</String>
         <String xml:lang="ar-001">تم تقييد {0} بالفعل.</String>
         <String xml:lang="id-ID">{0} sudah di borgol.</String>
+        <String xml:lang="th-TH">{0} ถูกใส่กุญแจมือแล้ว</String>
     </Entry>
 
     <Entry Id="police_uncuffing_player">
@@ -2243,6 +2283,7 @@
         <String xml:lang="zh-Hant">你正在為 {0}解銬.</String>
         <String xml:lang="ar-001">أنت تقوم بفك قيود {0}.</String>
         <String xml:lang="id-ID">Anda membuka borgol {0}</String>
+        <String xml:lang="th-TH">คุณกำลังปลดกุญแจมือ {0}</String>
     </Entry>
 
     <Entry Id="police_uncuffed_suspect">
@@ -2256,6 +2297,7 @@
         <String xml:lang="zh-Hant">你將 {0}解銬了.</String>
         <String xml:lang="ar-001">لقد قمت بفك قيود {0}</String>
         <String xml:lang="id-ID">Anda telah membuka borgol {0}.</String>
+        <String xml:lang="th-TH">คุณได้ปลดล็อค {0}</String>
     </Entry>
 
     <Entry Id="police_already_uncuffed_suspect">
@@ -2269,6 +2311,7 @@
         <String xml:lang="zh-Hant">{0} 已經被解銬了.</String>
         <String xml:lang="ar-001">تم فك قيود {0} بالفعل.</String>
         <String xml:lang="id-ID">{0} sudah tidak diborgol.</String>
+        <String xml:lang="th-TH">{0} ไม่ได้ถูกใส่กุญแจมือแล้ว</String>
     </Entry>
 
     <Entry Id="police_cant_uncuff_when_stunned">
@@ -2282,6 +2325,7 @@
         <String xml:lang="zh-Hant">當你被~b~電擊~s~時，你無法為他人 ~o~解銬~s~.</String>
         <String xml:lang="ar-001">لا يمكنك ~o~فك قيود ~s~شخص ما عندما تكون ~b~فاقد صوابك~s~</String>
         <String xml:lang="id-ID">Anda tidak dapat ~o~membuka borgol ~s~seseorang ketika kalian sedang ~b~terkejut~s~.</String>
+        <String xml:lang="th-TH">คุณไม่สามารถ ~o~ปลดล็อค ~s~ใครบางคนได้ เมื่อคุณกำลัง ~b~สตั้น~s~</String>
     </Entry>
 
     <Entry Id="police_cant_uncuff_when_cuffed">
@@ -2295,6 +2339,7 @@
         <String xml:lang="zh-Hant">當你被~b~上銬~s~時，你無法將他人 ~o~解銬~s~.</String>
         <String xml:lang="ar-001">لا يمكنك ~o~فك قيود ~s~شخص ما عندما تكون ~b~مقيدًا ~s~بنفسك.</String>
         <String xml:lang="id-ID">Anda tidak dapat ~o~membuka borgol ~s~seseorang ketika anda sendiri sedang ~b~terborgol~s~.</String>
+        <String xml:lang="th-TH">คุณไม่สามารถ ~o~ปลดล็อค ~s~ใครบางคน เมื่อคุณ ~b~ถูกใส่กุญแจมือ ~s~ตัวคุณเอง</String>
     </Entry>
 
     <Entry Id="police_no_longer_around">
@@ -2308,6 +2353,7 @@
         <String xml:lang="zh-Hant">~b~警員 ~s~已不在附近!</String>
         <String xml:lang="ar-001">لم يعد ~b~رجال الشرطة ~s~موجودين!</String>
         <String xml:lang="id-ID">~b~Kepolisian ~s~sudah tidak disekitarmu!</String>
+        <String xml:lang="th-TH">~b~ตำรวจ ~s~ไม่อยู่แล้ว!</String>
     </Entry>
 
     <Entry Id="police_you_surrendered">
@@ -2321,6 +2367,7 @@
         <String xml:lang="zh-Hant">你像 ~b~警員 ~s~投降了!</String>
         <String xml:lang="ar-001">لقد استسلمت ~b~للشرطة~s~!</String>
         <String xml:lang="id-ID">Anda menyerah kepada ~b~kepolisian~s~!</String>
+        <String xml:lang="th-TH">~b~ตำรวจ ~s~ไม่อยู่แล้ว!</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -2335,6 +2382,7 @@
         <String xml:lang="zh-Hant">你在 {0} ~s~身上發現了 ~r~違禁品~s~!</String>
         <String xml:lang="ar-001">لقد عثرت على ~r~عناصر غير قانونية ~s~على {0}~s~!</String>
         <String xml:lang="id-ID">Anda menemukan ~r~barang ilegal ~s~pada {0}~s~!</String>
+        <String xml:lang="th-TH">คุณพบ ~r~รายการที่ผิดกฎหมาย ~s~บน {0}~s~!</String>
     </Entry>
 
     <Entry Id="police_searching_no_illegal_items">
@@ -2348,6 +2396,7 @@
         <String xml:lang="zh-Hant">你在 {0} ~s~身上沒有發現 ~r~任何 ~s~違禁品.</String>
         <String xml:lang="ar-001">لم تجد ~r~اي شئ ~s~على {0}.</String>
         <String xml:lang="id-ID">Anda tidak dapat menemukan ~r~apapun ~s~pada {0}.</String>
+        <String xml:lang="th-TH">คุณไม่พบ ~r~อะไร ~s~บน {0}</String>
     </Entry>
 
     <Entry Id="police_already_searched">
@@ -2361,6 +2410,7 @@
         <String xml:lang="zh-Hant">~r~嫌犯已經被搜查過了.</String>
         <String xml:lang="ar-001">~r~تم بالفعل تفتيش المشتبه به.</String>
         <String xml:lang="id-ID">~r~Pelaku sudah digeledah.</String>
+        <String xml:lang="th-TH">~r~ผู้ต้องสงสัยได้ถูกตรวจค้นแล้ว</String>
     </Entry>
 
     <Entry Id="police_you_asked_for_bribe">
@@ -2374,6 +2424,7 @@
         <String xml:lang="zh-Hant">你試問 {0} 是否要賄賂你.</String>
         <String xml:lang="ar-001">لقد طلبت من {0} ~o~رشوتك~s~.</String>
         <String xml:lang="id-ID">Anda meminta {0} untuk ~o~memberikan suap ~s~kepadamu.</String>
+        <String xml:lang="th-TH">คุณขอให้ {0} ~o~ติดสินบน ~s~คุณ</String>
     </Entry>
 
     <Entry Id="police_asked_to_bribe">
@@ -2387,6 +2438,7 @@
         <String xml:lang="zh-Hant">~b~警員 {0} ~s~問你要不要 ~o~賄賂 ~s~他.</String>
         <String xml:lang="ar-001">~b~الضابط {0} طلب منك ~o~رشوة~s~.</String>
         <String xml:lang="id-ID">~b~Petugas {0} memintamu untuk ~o~memberikan suap ~s~padanya.</String>
+        <String xml:lang="th-TH">~b~เจ้าหน้าที่ {0} ขอให้คุณ ~o~ติดสินบน ~s~พวกเขา</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -2401,6 +2453,7 @@
         <String xml:lang="zh-Hant">你不理會 {0} 的問題.</String>
         <String xml:lang="ar-001">لقد تجاهلت عرض الرشوة المقدم من {0}.</String>
         <String xml:lang="id-ID">Anda menghiraukan tawaran suap dari {0}.</String>
+        <String xml:lang="th-TH">คุณเพิกเฉยต่อข้อเสนอสินบนของ {0}</String>
     </Entry>
 
     <Entry Id="police_too_far_to_accept_bribe">
@@ -2414,6 +2467,7 @@
         <String xml:lang="zh-Hant">你離 {0} ~r~太遠了 ~s~，你不能接受或拒絕他的 ~r~賄賂 ~s~請求.</String>
         <String xml:lang="ar-001">أنت ~r~بعيد جدًا عن {0}, لا يمكنك قبول أو رفض ~r~الرشوة~s~.</String>
         <String xml:lang="id-ID">Anda ~r~terlalu jauh ~s~dari {0}, anda tidak dapat menerima atau menolak ~r~suap~s~.</String>
+        <String xml:lang="th-TH">คุณอยู่ไกล ~s~จาก {0} เกินไป คุณไม่สามารถยอมรับหรือปฏิเสธ ~r~bribe~s~ ได้</String>
     </Entry>
 
     <Entry Id="police_wait_ten_minutes_bribe">
@@ -2427,6 +2481,7 @@
         <String xml:lang="zh-Hant">你必須要等10分鐘已再次接受同個玩家的 `~r~賄賂~s~.</String>
         <String xml:lang="ar-001">يجب عليك الانتظار لمدة 10 دقائق قبل قبول ~r~الرشوة ~s~من نفس اللاعب مرة أخرى.</String>
         <String xml:lang="id-ID">Anda harus menunggu 10 menit sebelum dapat menerima ~r~suap ~s~dari pemain yang sama lagi.</String>
+        <String xml:lang="th-TH">คุณต้องรอ 10 นาทีก่อนที่จะรับ ~r~สินบน ~s~จากผู้เล่นคนเดิมอีกครั้ง</String>
     </Entry>
 
     <Entry Id="police_could_not_afford_bribe">
@@ -2440,6 +2495,7 @@
         <String xml:lang="zh-Hant">{0} 負擔不起 ~r~賄賂~s~.</String>
         <String xml:lang="ar-001">{0} لا يستطيع تحمل تكاليف ~r~الرشوة~s~.</String>
         <String xml:lang="id-ID">{0} tidak mampu membayar ~r~suap~s~.</String>
+        <String xml:lang="th-TH">{0} ไม่สามารถจ่าย ~r~สินบน~s~ ได้</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -2455,6 +2511,7 @@
         <String xml:lang="ar-001">لقد عرضت {0} ~s~ا ~g~{1} ~s~رشوة.</String>
         <String xml:lang="id-ID">Anda menawarkan {0} ~s~suap sebesar ~g~{1}~s~.</String>
         <String xml:lang="zh-Hant">你向 {0} ~s~要求了~g~ {1} ~s~的賄賂.</String>
+        <String xml:lang="th-TH">คุณเสนอเงินจำนวน {0} ~s~a ~g~{1} ~s~สินบน</String>
     </Entry>
 
     <Entry Id="police_no_longer_connected_bribe">
@@ -2468,6 +2525,7 @@
         <String xml:lang="ar-001">~r~{0} لم يعد متصلاً بالخادم.</String>
         <String xml:lang="id-ID">~r~{0} sudah tidak terkoneksi ke server.</String>
         <String xml:lang="zh-Hant">~r~{0} 已經不在線上了.</String>
+        <String xml:lang="th-TH">~r~{0} ไม่ได้เชื่อมต่อกับเซิร์ฟเวอร์อีกต่อไป</String>
     </Entry>
 
     <Entry Id="police_not_close_enough_to_bribe">
@@ -2481,6 +2539,7 @@
         <String xml:lang="ar-001">~r~{0} ليس قريبًا بدرجة كافية لتقديم رشوة لهم</String>
         <String xml:lang="id-ID">~r~{0} tidak berada cukup dekat untuk menawarkan mereka suap.</String>
         <String xml:lang="zh-Hant">~r~請離{0}近一點你才能詢問他們是否要賄賂你.</String>
+        <String xml:lang="th-TH">~r~{0} ไม่ใกล้พอที่จะเสนอสินบนให้พวกเขา</String>
     </Entry>
 
     <Entry Id="police_already_have_open_offer">
@@ -2494,6 +2553,7 @@
         <String xml:lang="ar-001">~r~لديك بالفعل عرض رشوة نشط.</String>
         <String xml:lang="id-ID">~r~Anda sudah memiliki penawaran suap kepada petugas.</String>
         <String xml:lang="zh-Hant">~r~你已經有一個可用的賄賂請求了.</String>
+        <String xml:lang="th-TH">~r~คุณมีข้อเสนอสินบนที่ยังดำเนินการอยู่</String>
     </Entry>
 
     <Entry Id="police_cant_bribe_same_officer_within_ten">
@@ -2507,6 +2567,7 @@
         <String xml:lang="ar-001">~r~لا يمكنك رشوة نفس الضابط مرتين خلال 10 دقائق.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat menyuap petugas yang sama dua kali dalam kurun waktu 10 menit.</String>
         <String xml:lang="zh-Hant">~r~你不能能在十分鐘內賄賂同個警員兩次.</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถติดสินบนเจ้าหน้าที่คนเดียวกันสองครั้งภายใน 10 นาที</String>
     </Entry>
 
     <Entry Id="police_cant_bribe_after_revive_auto_cuff">
@@ -2520,6 +2581,7 @@
         <String xml:lang="ar-001">~r~لا يمكنك رشوة ضابط شرطة لمدة دقيقتين بعد إحيائه وتقييده تلقائيًا.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat menyuap petugas kepolisian dalam waktu 2 menit setelah dibangungkan dan diborgol otomatis.</String>
         <String xml:lang="zh-Hant">~r~你不能在醫護治癒您時賄賂警員.</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถติดสินบนเจ้าหน้าที่ตำรวจได้เป็นเวลา 2 นาทีหลังจากฟื้นคืนชีพและใส่กุญแจมืออัตโนมัติ</String>
     </Entry>
 
     <Entry Id="police_viewing_bribe">
@@ -2532,6 +2594,7 @@
         <String xml:lang="de-DE">{0} schaut sich dein Bestechungsangebot an.</String>
         <String xml:lang="ar-001">{0} ~y~يشاهد ~s~عرض الرشوة الخاص بك.</String>
         <String xml:lang="id-ID">{0} sedang ~y~melihat ~s~tawaran suap anda.</String>
+        <String xml:lang="th-TH">{0} ~y~กำลังดู ~s~ข้อเสนอสินบนของคุณ</String>
     </Entry>
 
     <Entry Id="police_player_left_canceled_bribe">
@@ -2544,6 +2607,7 @@
         <String xml:lang="de-DE">{0} hat den ~r~Server verlassen ~s~und dein Bestechungsangebot wurde abgebrochen.</String>
         <String xml:lang="ar-001">{0} ~r~غادر السيرفر ~s~وتم إلغاء عرض الرشوة الخاص بك.</String>
         <String xml:lang="id-ID">{0} telah ~r~meninggalkan server ~s~dan penawaran suap telah dibatalkan.</String>
+        <String xml:lang="th-TH">{0} ~r~ออกจากเซิร์ฟเวอร์ ~s~ และข้อเสนอสินบนของคุณถูกยกเลิก</String>
     </Entry>
 
     <Entry Id="police_accepted_bribe">
@@ -2556,6 +2620,7 @@
         <String xml:lang="de-DE">{0} hat dein Bestechungsangebot angenommen.</String>
         <String xml:lang="ar-001">~g~لقد وافق {0} ~s~على عرض الرشوة الذي قدمته.</String>
         <String xml:lang="id-ID">{0} telah ~g~menerima ~s~tawaran suapmu.</String>
+        <String xml:lang="th-TH">{0} ได้ ~g~ยอมรับ ~s~ข้อเสนอสินบนของคุณ</String>
     </Entry>
 
     <Entry Id="police_refused_wanted_level_bribe">
@@ -2568,6 +2633,7 @@
         <String xml:lang="de-DE">{0} hat dein Bestechungsangebot ~r~abgelehnt ~s~und den Vorfall gemeldet. Du hast ein Fahndungslevel dazugewonnen.</String>
         <String xml:lang="ar-001">~r~لقد رفض {0} ~s~عرض الرشوة الخاص بك وأبلغ عن الحادث. لقد حصلت على المستوى مطلوب.</String>
         <String xml:lang="id-ID">{0} telah ~r~menolak ~s~tawaran suap anda dan melaporkan kejadian ini. Tingkat buronan anda telah bertambah.</String>
+        <String xml:lang="th-TH">{0} ได้ ~r~ปฏิเสธ ~s~ข้อเสนอสินบนของคุณและรายงานเหตุการณ์ดังกล่าว คุณได้รับระดับที่ต้องการ</String>
     </Entry>
 
     <!-- {0} = countdown -->
@@ -2581,6 +2647,7 @@
         <String xml:lang="de-DE">~y~Warnung: ~s~Du verlässt die ~b~Vereinigten Staaten~s~. Du gehst in {0} Sekunden außer Dienst.</String>
         <String xml:lang="ar-001">~y~تحذير: ~s~أنت تغادر ~b~الولايات المتحدة~s~. ستغادر الخدمة خلال {0} ثانية.</String>
         <String xml:lang="id-ID">~y~Peringatan : ~s~anda meninggalkan ~b~Amerika serikat~s~. Anda akan tidak aktif bertugas dalam {0} detik.</String>
+        <String xml:lang="th-TH">~y~คำเตือน: ~s~คุณกำลังออกจาก ~b~สหรัฐอเมริกา~s~ คุณจะออกจากหน้าที่ใน {0} วินาที</String>
     </Entry>
 
     <Entry Id="police_no_arrest_warrant">
@@ -2593,6 +2660,7 @@
         <String xml:lang="de-DE">~r~Du hast keinen Haftbefehl.</String>
         <String xml:lang="ar-001">~r~ليس لديك مذكرة اعتقال.</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki perintah penangkapan.</String>
+        <String xml:lang="th-TH">~r~คุณไม่มีหมายจับ</String>
     </Entry>
 
     <Entry Id="police_cant_turn_yourself_in_officers_nearby">
@@ -2605,6 +2673,7 @@
         <String xml:lang="de-DE">~r~Du kannst dich nicht an einer Polizeistation stellen, da sich Polizeibeamte in der Nähe befinden.</String>
         <String xml:lang="ar-001">~r~لا يمكنك تسليم نفسك إلى مركز الشرطة لأن هناك ضباط شرطة بالقرب منك.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat menyerahkan diri di kantor kepolisian karena ada petugas kepolisian didekat sini.</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถมอบตัวที่สถานีตำรวจได้ เนื่องจากมีเจ้าหน้าที่ตำรวจอยู่ใกล้ๆ</String>
     </Entry>
 
     <Entry Id="police_unmarked_vehicle">
@@ -2617,6 +2686,7 @@
         <String xml:lang="de-DE">~b~Unmarkiertes Polizeifahrzeut!\n~s~Zivilisten werden Marker erst dann als ~b~blau ~s~sehen, wenn sie nah genug sind oder du deine Sirene einschaltest.</String>
         <String xml:lang="ar-001">~b~مركبة شرطة غير مميزة!\n~s~لن يرى المدنيون العلامة الخاصة بك على أنها ~b~زرقاء ~s~حتى تقترب بدرجة كافية أو تقوم بتشغيل صفارة الإنذار.</String>
         <String xml:lang="id-ID">~b~Mobil polisi undercover!\n~s~Warga tidak akan melihat tanda mu dengan ~b~warna biru ~s~hingga kamu berada didekatnya atau menyalakan sirine.</String>
+        <String xml:lang="th-TH">~b~รถตำรวจที่ไม่มีเครื่องหมาย!~n~~s~พลเรือนจะไม่เห็นเครื่องหมายของคุณเป็น ~b~สีน้ำเงิน ~s~จนกว่าคุณจะเข้าใกล้เพียงพอหรือเปิดเสียงไซเรน</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -2632,6 +2702,7 @@
         <String xml:lang="de-DE">{0} hat dir eine {0}-Bestechung angeboten. {2} um das Angebot anzusehen.</String>
         <String xml:lang="ar-001">{0} ~s~عرض عليك ~g~{1} ~s~رشوة {2}لمشاهدة العرض.</String>
         <String xml:lang="id-ID">{0} ~s~telah menawarkanmu suap sebesar ~g~{1}~s~. {2} untuk melihat penawaran.</String>
+        <String xml:lang="th-TH">{0} ~s~เสนอ ~g~{1} ~s~สินบนแก่คุณ {2} เพื่อดูข้อเสนอ</String>
     </Entry>
 
     <Entry Id="police_seized_all">
@@ -2644,6 +2715,7 @@
         <String xml:lang="de-DE">Du hast alle ~r~illegalen Gegenstände ~s~von {0} beschlagnahmt~s~.</String>
         <String xml:lang="ar-001">لقد قمت بمصادرة كافة العناصر ~r~غير القانونية~s~ الخاصة بـ {0}.</String>
         <String xml:lang="id-ID">Anda telah menyita seluruh ~r~barang ilegal ~s~milik {0}.</String>
+        <String xml:lang="th-TH">คุณยึด ~r~สินค้าผิดกฎหมาย~s~ ของ {0} ทั้งหมดได้</String>
     </Entry>
 
     <Entry Id="stunned_by_police">
@@ -2656,6 +2728,7 @@
         <String xml:lang="de-DE">Du wurdest von der ~b~Polizei ~s~überwältigt. Du gehst nirgendswo hin!</String>
         <String xml:lang="ar-001">لقد صعقتك ~b~الشرطة~s~. أنت لن تذهب إلى أي مكان!</String>
         <String xml:lang="id-ID">Anda telah disetrum oleh ~b~kepolisian~s~. Anda tidak akan bisa lari!</String>
+        <String xml:lang="th-TH">คุณสตั้นโดย ~b~ตำรวจ~s~ คุณจะไม่ไปไหนเลย!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2675,6 +2748,7 @@
         <String xml:lang="pt-BR">(C){0}(/C) exportou o veículo mais procurado de hoje (C){1}(/C) por (C){2}(/C).</String>
         <String xml:lang="ar-001">(C){0}(/C) قام بتصدير السيارة الأكثر طلبًا اليوم (C){1}(/C) لـ (C){2}(/C).</String>
         <String xml:lang="id-ID">(C){0}(/C) telah mengexport kendaraan paling dicari hari ini (C){1}(/C) untuk (C){2}(/C).</String>
+        <String xml:lang="th-TH">(C){0}(/C) ส่งออกยานพาหนะที่เป็นที่ต้องการมากที่สุดในปัจจุบัน (C){1}(/C) สำหรับ (C){2}(/C)</String>
     </Entry>
 
     <Entry Id="vehicle_export_cant_export">
@@ -2687,6 +2761,8 @@
         <String xml:lang="pl-PL">Gliny i sanitariusze nie mogą nielegalnie eksportować pojazdów.</String>
         <String xml:lang="pt-BR">Policiais e equipes de emergência não têm permissão para exportar veículos ilegalmente.</String>
         <String xml:lang="id-ID">Petugas publik dan pekerja darurat tidak dapat mengexport kendaraan secara ilegal.</String>
+        <String xml:lang="th-TH">เจ้าหน้าที่ของรัฐและพนักงานฉุกเฉินไม่สามารถส่งออกยานพาหนะอย่างผิดกฎหมายได้</String>
+        <String xml:lang="ar-001">لا يجوز للموظفين العموميين وعمال الطوارئ تصدير المركبات بشكل غير قانوني.</String>
     </Entry>
 
     <Entry Id="vehicle_export_no_mw_vehicle">
@@ -2699,6 +2775,7 @@
         <String xml:lang="pl-PL">Nie ma w tej chwili poszukiwanego pojazdu. Proszę, poczekaj do 5:00.</String>
         <String xml:lang="pt-BR">No momento, não há mais veículos procurados. Por favor, aguarde até as 5:00 am.</String>
         <String xml:lang="id-ID">Untuk saat ini tidak ada kendaraan yang paling dicari. Mohon, tunggu hingga pukul 5:00 pagi.</String>
+        <String xml:lang="ar-001">لا يوجد حاليا أي مركبة مطلوبة. من فضلك انتظر حتى الساعة 5:00 صباحا.</String>
     </Entry>
 
     <!-- {0} = Player color (red, ...) -->
@@ -2730,6 +2807,7 @@
         <String xml:lang="pt-BR">{0}Você pode exportar esse veículo por ~g~{1}~s~. {2}</String>
         <String xml:lang="de-DE">{0}Du kannst dieses Fahrzeug für ~g~{1} ~s~exportieren. {2}</String>
         <String xml:lang="id-ID">{0}Anda dapat mengexport kendaraan ini dengan harga ~g~{1}~s~. {2}</String>
+        <String xml:lang="ar-001">{0}يمكنك تصدير هذه المركبة لـ ~g~{1}~s~. {2}</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
@@ -2742,6 +2820,7 @@
         <String xml:lang="pt-BR">Você exportou um ~b~{0} ~s~por ~g~{1}~s~.</String>
         <String xml:lang="de-DE">Du hast einen ~b~{0} ~s~für ~g~{1}~s~ exportiert.</String>
         <String xml:lang="id-ID">Anda telah mengexport ~b~{0} ~s~untuk ~g~{1}~s~.</String>
+        <String xml:lang="ar-001">لقد قمت بتصدير ~b~{0} ~s~لـ ~g~{1}~s~.</String>
     </Entry>
 
     <Entry Id="vehicle_too_damaged_to_export">
@@ -2752,6 +2831,8 @@
         <String xml:lang="pt-BR">Esse veículo ~r~está muito danificado ~s~para ser exportado.</String>
         <String xml:lang="de-DE">Dieses Fahrzeug ist ~r~zu beschädigt~s~, um exportiert zu werden!</String>
         <String xml:lang="id-ID">Kendaraan ini ~r~terlalu rusak ~s~untuk diexport!</String>
+        <String xml:lang="ar-001">هذه السيارة ~r~تالفة جدًا ~s~بحيث لا يمكن تصديرها!</String>
+
     </Entry>
 
     <Entry Id="vehicle_not_wanted_for_export">
@@ -2762,6 +2843,7 @@
         <String xml:lang="pt-BR">Esse veículo não é procurado para exportação!</String>
         <String xml:lang="de-DE">Dieses Fahrzeug ist ~r~nicht ~s~für die Exportierung ~r~gesucht~s~!</String>
         <String xml:lang="id-ID">Kendaraan ini ~r~tidak diinginkan ~s~untuk diexport!</String>
+        <String xml:lang="ar-001">هذه السيارة ~r~غير مرغوب فيها ~s~للتصدير!</String>
     </Entry>
 
     <Entry Id="vehicle_cant_illegally_export_on_job">
@@ -2772,6 +2854,7 @@
         <String xml:lang="pt-BR">~r~Nesse trabalho, os veículos não podem ser exportados ilegalmente!.</String>
         <String xml:lang="de-DE">~r~Du kannst keine Fahrzeuge illegal exportieren in diesem Job!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat mengexport kendaraan secara ilegal dalam pekerjaan ini!</String>
+        <String xml:lang="ar-001">~r~لا يمكنك تصدير المركبات بشكل غير قانوني في هذه المهمة!</String>    
     </Entry>
 
     <Entry Id="vehicle_export_cops_nearby">
@@ -2782,6 +2865,7 @@
         <String xml:lang="pt-BR">~b~A polícia está por perto! ~r~Livre-se deles ~s~antes de exportar o veículo.</String>
         <String xml:lang="de-DE">~b~Polizisten befinden sich in der Nähe! ~r~Werde sie los~s~, bevor du das Fahrzeug exportierst.</String>
         <String xml:lang="id-ID">~b~Kepolisian berada didekat sini! ~r~Singkirkan ~s~mereka sebelum mengexport kendaraan.</String>
+        <String xml:lang="ar-001">~b~رجال الشرطة في مكان قريب! ~r~تخلص ~s~منهم قبل تصدير السيارة.</String>
     </Entry>
 
     <Entry Id="vehicle_export_personal_vehicle">
@@ -2792,6 +2876,7 @@
         <String xml:lang="pt-BR">~r~Não é possível exportar um veículo pessoal</String>
         <String xml:lang="de-DE">~r~Du kannst persönliche Fahrzeuge nicht exportieren!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat mengexport kendaraan pribadi!</String>
+        <String xml:lang="ar-001">~r~لا يمكنك تصدير مركبة شخصية!</String>
     </Entry>
 
     <Entry Id="vehicle_cant_export_vehicle">
@@ -2802,6 +2887,7 @@
         <String xml:lang="pt-BR">~r~Esse veículo não pode ser exportado!</String>
         <String xml:lang="de-DE">~r~Du kannst dieses Fahrzeug nicht exportieren!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat mengexport kendaraan ini!</String>
+        <String xml:lang="ar-001">~r~لا يمكنك تصدير هذه المركبة!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2817,6 +2903,7 @@
         <String xml:lang="pt-BR">Você pode sucatear esse veículo por ~g~{0}~s~. {1}</String>
         <String xml:lang="de-DE">Du kannst dieses Fahrzeug für ~g~{0}~s~ exportieren, {1}.</String>
         <String xml:lang="id-ID">Anda dapat membongkar kendaraan ini untuk ~g~{0}~s~. {1}.</String>
+        <String xml:lang="ar-001">يمكنك التخلص من هذه المركبة لـ ~g~{0}~s~. {1}</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
@@ -2829,6 +2916,7 @@
         <String xml:lang="pt-BR">Você vendeu um ~b~{0} ~s~por ~g~{1}~s~.</String>
         <String xml:lang="de-DE">Du hast einen ~b~{0} für ~g~{1} ~s~verkauft.</String>
         <String xml:lang="id-ID">Anda menjual ~b~{0} ~s~untuk ~g~{1}~s~.</String>
+        <String xml:lang="ar-001">لقد قمت ببيع ~b~{0} ~s~مقابل ~g~{1}~s~.</String>
     </Entry>
 
     <Entry Id="vehicle_scrap_not_wanted">
@@ -2839,6 +2927,7 @@
         <String xml:lang="pt-BR">Este veículo ~r~não é procurado ~s~para sucata!</String>
         <String xml:lang="de-DE">Dieses Fahrzeug ist ~r~nicht ~s~für die Verschrottung ~r~gesucht~s~!</String>
         <String xml:lang="id-ID">Mobil ini ~r~tidak dicari ~s~untuk dibongkar!</String>
+        <String xml:lang="ar-001">هذه السيارة ~r~غير مرغوب فيها ~s~للخردة!</String>
     </Entry>
 
     <Entry Id="vehicle_scrap_not_on_job">
@@ -2849,6 +2938,7 @@
         <String xml:lang="pt-BR">~r~Nesse trabalho, os veículos roubados não podem ser sucateados!</String>
         <String xml:lang="de-DE">~r~Du kannst gestohlene Fahrzeuge bei diesem Job nicht verschrotten!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat membongkar kendaraan curian dalam pekerjaan ini!</String>
+        <String xml:lang="ar-001">~r~لا يمكنك التخلص من المركبات المسروقة في هذه المهمة!</String>
     </Entry>
 
     <Entry Id="vehicle_scrap_personal">
@@ -2859,6 +2949,7 @@
         <String xml:lang="pt-BR">~r~Um veículo pessoal não pode ser sucateado.</String>
         <String xml:lang="de-DE">~r~Du kannst persönliche Fahrzeuge nicht verschrotten.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat membongkar kendaraan pribadi!</String>
+        <String xml:lang="ar-001">~r~لا يمكنك التخلص من مركبة شخصية!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2877,6 +2968,7 @@
         <String xml:lang="pl-PL">Popełniłeś {0} ~s~- {1}</String>
         <String xml:lang="pt-BR">Você cometeu um {0} ~s~- {1}</String>
         <String xml:lang="id-ID">Anda telah melakukan {0} ~s~- {1}</String>
+        <String xml:lang="ar-001">لقد ارتكبت {0} ~s~- {1}</String>
     </Entry>
 
     <Entry Id="felony">
@@ -2888,6 +2980,7 @@
         <String xml:lang="pl-PL">~o~Przestępstwo</String>
         <String xml:lang="pt-BR">~o~Crime</String>
         <String xml:lang="id-ID">~o~Kejahatan</String>
+        <String xml:lang="ar-001">~o~جناية</String>
     </Entry>
 
     <Entry Id="major_felony">
@@ -2899,6 +2992,7 @@
         <String xml:lang="pl-PL">~r~Wielkie przestępstwo</String>
         <String xml:lang="pt-BR">~r~Crime grave</String>
         <String xml:lang="id-ID">~r~Kejahatan berat</String>
+        <String xml:lang="ar-001">~r~جناية كبرى</String>
     </Entry>
 
     <Entry Id="crime_warrant_issued">
@@ -2910,6 +3004,7 @@
         <String xml:lang="pl-PL">~o~List gończy ~s~wysłany - ucieknij z okolicy i nie przebywaj blisko ~b~gliniarzy~s~!</String>
         <String xml:lang="pt-BR">~o~Mandado de prisão ~s~emitido. Deixe a área e fique longe da ~b~polícia~s~!</String>
         <String xml:lang="id-ID">~o~Perintah penangkapan ~s~diterbitkan - tinggalkan area dan jauhi ~b~kepolisian~s~!</String>
+        <String xml:lang="ar-001">~o~مذكرة اعتقال ~s~تم اصدارها - غادر المنطقة وابتعد عن ~b~رجال الشرطة~s~!</String>
     </Entry>
 
     <Entry Id="crime_most_wanted">
@@ -2921,6 +3016,7 @@
         <String xml:lang="pl-PL">Jesteś ~r~najbardziej poszukiwany~s~ - inni gracze mogą cie zabić dla pieniędzy!</String>
         <String xml:lang="pt-BR">Você é o ~r~mais procurado~s~ - os outros jogadores podem matá-lo logo de cara!</String>
         <String xml:lang="id-ID">Anda adalah ~r~Buronan paling dicari~s~ - pemain lain dapat membunuh anda langsung!</String>
+        <String xml:lang="ar-001">أنت من ~r~أكثر المطلوبين~s~ - يمكن للاعبين الآخرين أن يقتلوك فور رؤيتهم!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2935,6 +3031,7 @@
         <String xml:lang="pl-PL">Nie możesz kupować w sklepach z bronią z ~r~nagrodą za głowę~s~.</String>
         <String xml:lang="pt-BR">Você não pode comprar em lojas de armas quando tiver uma ~r~recompensa~s~. </String>
         <String xml:lang="id-ID">Anda tidak bisa berbelanja di toko senjata ketika memiliki ~r~bounty~s~.</String>
+        <String xml:lang="ar-001">لا يمكنك التسوق في متاجر الأسلحة عندما يكون لديك ~r~مكافأة علي قتلك~s~.</String>
     </Entry>
 
     <Entry Id="cannot_shop_store_on_duty">
@@ -2946,6 +3043,7 @@
         <String xml:lang="pl-PL">Nie możesz kupować w tym sklepie ~b~na służbie~s~.</String>
         <String xml:lang="pt-BR">Você não pode fazer compras nesta loja quando ~b~estiver em serviço~s~.</String>
         <String xml:lang="id-ID">Anda tidak dapat berbelanja di toko ini ketika anda ~b~sedang bertugas~s~.</String>
+        <String xml:lang="ar-001">لا يمكنك التسوق في هذا المتجر عندما تكون ~b~في الخدمة~s~.</String>
     </Entry>
 
     <Entry Id="only_shop_police">
@@ -2957,6 +3055,7 @@
         <String xml:lang="pl-PL">Tylko ~b~gliniarze ~s~mogą kupować w tym sklepie.</String>
         <String xml:lang="pt-BR">Somente ~b~policiais ~s~podem fazer compras nessa loja.</String>
         <String xml:lang="id-ID">Hanya ~b~Petugas kepolisian ~s~yang dapat berbelanja di toko ini.</String>
+        <String xml:lang="ar-001">فقط ~b~ضباط الشرطة ~s~مكنهم التسوق في هذا المتجر.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2971,7 +3070,8 @@
         <String xml:lang="es-ES">~r~Las armas y municiones ilegales ~s~pueden ser confiscadas por la ~b~policía ~s~si te registran, sin embargo, las personalizaciones de armas se salvarán.</String>
         <String xml:lang="pl-PL">~r~Nielegalne bronie i amunicja ~s~mogą być skonfiskowane przez ~b~policję ~s~przy przeszukaniu, ale dodatki do broni zostaną zapisane.</String>
         <String xml:lang="pt-BR">~r~Armas e munições ilegais ~s~podem ser confiscadas pela ~b~polícia ~s~se você for revistado, mas as personalizações das armas serão salvas.</String>
-        <String xml:lang="id-ID">~r~Senjata dan amunisi ilegal ~s~bisa disita oleh ~b~kepolisian ~s~ketika mereka menggeledah mu, tetapi, aksesoris senjata tetap tersimpan.</String>
+        <String xml:lang="id-ID">~r~Senjata dan amunisi ilegal ~s~bisa disita oleh ~b~kepolisian ~s~ketika mereka menggeledah mu, tetapi, aksesoris senjata tetap tersimpan.</String>\
+        <String xml:lang="ar-001">~r~الأسلحة والذخيرة غير القانونية ~s~يمكن ~b~للشرطة ~s~إذا قاموا بتفتيشك بمصادرة الأسلحة ومع ذلك، سيتم حفظ تخصيصات الأسلحة</String>
     </Entry>
 
     <Entry Id="dont_have_required_level_item">
@@ -2983,6 +3083,7 @@
         <String xml:lang="pl-PL">~r~Nie masz wymaganego poziomu by kupić ten przedmiot!</String>
         <String xml:lang="pt-BR">~r~Você não tem o nível necessário para comprar este item!</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki level yang diperlukan untuk membeli barang ini!</String>
+        <String xml:lang="ar-001">~r~ليس لديك المستوى المطلوب لشراء هذا العنصر!</String>
     </Entry>
 
     <Entry Id="item_requires_membership">
@@ -2994,6 +3095,7 @@
         <String xml:lang="pl-PL">~r~Ten przedmiot wymaga subskrybcji premium!</String>
         <String xml:lang="pt-BR">~r~Este artigo requer uma assinatura premium!</String>
         <String xml:lang="id-ID">~r~Barang ini membutuhkan langganan keanggotaan premium.</String>
+        <String xml:lang="ar-001">~r~يتطلب هذا العنصر اشتراكًا مميزًا!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -3008,6 +3110,7 @@
         <String xml:lang="pl-PL">~r~Gliny mogą kraść tylko z pieniędzy podatników, nie sklepów!</String>
         <String xml:lang="pt-BR">~r~Funcionários públicos não podem roubar!</String>
         <String xml:lang="id-ID">~r~Petugas kepolisian tidak dapat mencuri!</String>
+        <String xml:lang="ar-001">~r~لا يمكن للموظفين العموميين سرقة المتاجر!</String>
     </Entry>
 
     <Entry Id="cannot_rob_same_store_twice">
@@ -3019,6 +3122,7 @@
         <String xml:lang="pl-PL">~r~Nie możesz rabować ~s~tego samego ~y~sklepu ~s~dwa razy pod rząd.</String>
         <String xml:lang="pt-BR">~r~Não se pode roubar ~s~a mesma ~y~loja ~s~duas vezes seguidas.</String>
         <String xml:lang="id-ID">Anda ~r~tidak bisa merampok ~s~~y~toko ~s~yang sama dua kali berturut-turut.</String>
+        <String xml:lang="ar-001">انت ~r~لا يمكنك سرقة ~s~نفس ~y~المتجر ~s~مرتين على التوالي.</String>
     </Entry>
 
     <Entry Id="business_cannot_be_robbed_yet">
@@ -3030,6 +3134,7 @@
         <String xml:lang="pl-PL">To miejsce ~r~nie może być jeszcze okradzione~s~. Ten napad przyjdzie w ~b~przyszłej aktualizacji~s~.</String>
         <String xml:lang="pt-BR">Esse negócio ainda ~r~não pode ser roubado~s~. Esse roubo ocorrerá em uma ~b~futura atualização~s~.</String>
         <String xml:lang="id-ID">Bisnis ini ~r~tidak dapat dirampok ~s~untuk saat ini. Perampokan ini akan muncul dalam ~b~update yang akan datang~s~.</String>
+        <String xml:lang="ar-001">لا يمكن ~r~سرقة هذا العمل ~s~حتى الآن. تأتي هذه السرقة في ~b~التحديث المستقبلي~s~.</String>
     </Entry>
 
     <Entry Id="business_cannot_be_robbed">
@@ -3041,6 +3146,7 @@
         <String xml:lang="pl-PL">To miejsce ~r~nie może być okradzione~s~.</String>
         <String xml:lang="pt-BR">Esse negócio ~r~não pode ser roubado~s~.</String>
         <String xml:lang="id-ID">Bisnis ini ~r~tidak dapat dirampok~s~.</String>
+        <String xml:lang="ar-001">هذا العمل ~r~لا يمكن سرقته~s~.</String>
     </Entry>
 
     <Entry Id="business_recently_robbed">
@@ -3052,6 +3158,7 @@
         <String xml:lang="pl-PL">To miejsce zostało ~r~niedawno ~s~okradzione. Spróbuj ponownie później.</String>
         <String xml:lang="pt-BR">This business has been ~r~recently ~s~robbed. Try again later.</String>
         <String xml:lang="id-ID">Bisnis ini ~r~Baru saja ~s~dirampok. Coba lagi nanti.</String>
+        <String xml:lang="ar-001">لقد تعرض هذا العمل ~s~للسرقة ~r~مؤخرًا. حاول مرة أخرى في وقت لاحق.</String>
     </Entry>
 
     <!-- {0} = Required cops to rob business -->
@@ -3064,6 +3171,7 @@
         <String xml:lang="pl-PL">Nie możesz okraść tego ~r~biznesu ~s~gdy na serwerze jest mniej niż ~b~{0} gliniarzy~s~.</String>
         <String xml:lang="pt-BR">Você não pode roubar esse ~r~negócio ~s~quando há menos de ~b~{0} policiais ~s~online.</String>
         <String xml:lang="id-ID">Anda tidak dapat merampok ~r~bisnis ~s~ini ketika polisi kurang dari ~b~{0} petugas ~s~yang bertugas.</String>
+        <String xml:lang="ar-001">لا يمكنك سرقة هذا ~r~العمل ~s~عندما يكون عدد رجال الشرطة أقل من ~b~{0} ~s~متصلين.</String>
     </Entry>
 
     <!-- {0} = Location -->
@@ -3077,6 +3185,7 @@
         <String xml:lang="pl-PL">~b~Napad Udany! ~s~udało ci się okraść ~y~{0}~s~. Twoja działka to ~g~{1}~s~.</String>
         <String xml:lang="pt-BR">~b~Roubo concluído! ~s~Você roubou ~y~{0}~s~ com sucesso. Sua parte é ~g~{1}~s~.</String>
         <String xml:lang="id-ID">~b~Perampokan berhasil! ~s~Anda berhasil mencuri ~y~{0}~s~. Bagian anda ~g~{1}~s~.</String>
+        <String xml:lang="ar-001">~b~السرقة اكتملت! ~s~لقد نجحت في سرقة ~y~{0}~s~. نصيبك هو ~g~{1}~s~.</String>
     </Entry>
 
     <Entry Id="robbery_complete">
@@ -3088,6 +3197,7 @@
         <String xml:lang="pl-PL">~b~Napad udany! ~s~udało ci się okraść ~y~{0}~s~ i zdobyć ~g~{1}~s~.</String>
         <String xml:lang="pt-BR">~b~Roubo concluído! ~s~Você roubou com sucesso e ~y~{0} ~s~y ganhou~g~{1}~s~!</String>
         <String xml:lang="id-ID">~b~Perampokan berhasil! ~s~Anda berhasil mencuri ~y~{0} ~s~dan mendapatkan ~g~{1}~s~!</String>
+        <String xml:lang="ar-001">~b~السرقة اكتملت! ~s~لقد نجحت في سرقة ~y~{0} ~s~وكسبت ~g~{1}~s~!</String>
     </Entry>
 
     <Entry Id="robbery_fail_clerk_killed">
@@ -3099,6 +3209,7 @@
         <String xml:lang="pl-PL">~r~Napad nieudany! Zabicie sprzedawcy nie było częścią planu!</String>
         <String xml:lang="pt-BR">~r~O roubo falhou e matar o funcionário não estava no plano!</String>
         <String xml:lang="id-ID">~r~Perampokan gagal! Membunuh penjaga toko tidak berada ada di rencana!</String>
+        <String xml:lang="ar-001">~r~فشلت عملية السرقة! قتل صاحب المتجر لم يكن في الخطة!</String>
     </Entry>
 
     <Entry Id="robbery_fail_clerk_not_intimidated">
@@ -3110,6 +3221,7 @@
         <String xml:lang="pl-PL">~r~Napad nieudany! Sprzedawca nie jest już wystraszony!</String>
         <String xml:lang="pt-BR">~r~O roubo falhou! O funcionário não se sente mais intimidado.</String>
         <String xml:lang="id-ID">~r~Perampokan gagal! Penjaga toko tidak lagi terintimidasi.</String>
+        <String xml:lang="ar-001">~r~فشلت عملية السرقة! صاحب المتجر لم يعد يخيف.</String>
     </Entry>
 
     <Entry Id="robbery_shots_called_police">
@@ -3121,6 +3233,7 @@
         <String xml:lang="pl-PL">Ktoś usłyszał strzały i wezwał ~r~policję~s~!</String>
         <String xml:lang="pt-BR">Alguém ouviu tiros e chamou a ~r~polícia~s~!</String>
         <String xml:lang="id-ID">Seseorang mendengar suara tembakan dan memanggil ~r~kepolisian~s~!</String>
+        <String xml:lang="ar-001">سمع شخص ما طلقات نارية واتصل ~r~بالشرطة~s~!</String>
     </Entry>
 
     <!-- {0} = Player name -->
@@ -3134,6 +3247,7 @@
         <String xml:lang="pt-BR">{0} viu o roubo!</String>
         <String xml:lang="ar-001">لقد اكتشف {0} عملية السرقة!</String>
         <String xml:lang="id-ID">{0} telah memergoki perampokan ini!</String>
+        <String xml:lang="th-TH">{0} พบเห็นการปล้นแล้ว!</String>
     </Entry>
 
     <Entry Id="robbery_player_called_police">
@@ -3145,6 +3259,7 @@
         <String xml:lang="pl-PL">{0} wezwał na ciebie ~r~policję~s~!</String>
         <String xml:lang="pt-BR">{0} chamou a ~r~polícia ~s~sobre você</String>
         <String xml:lang="id-ID">{0} telah menelpon ~r~kepolisian ~s~terhadapmu!</String>
+        <String xml:lang="ar-001">لقد قام {0} بالاتصال ~r~بالشرطة ~s~عليك!</String>
     </Entry>
 
     <!-- {0} = Cooldown -->
@@ -3157,6 +3272,7 @@
         <String xml:lang="pl-PL">Zostałeś złapany tu na ~r~kradzieży~s~. Wróć za ~y~{0}~s~.</String>
         <String xml:lang="pt-BR">Você foi pego ~r~roubando ~s~aqui. Volte para dentro ~y~{0}~s~.</String>
         <String xml:lang="id-ID">Anda telah kepergok ~r~mencuri ~s~disini. kembali dalam ~y~{0}~s~.</String>
+        <String xml:lang="ar-001">لقد تم القبض عليك وأنت ~r~تسرق من المتاجر ~s~هنا.عود بعد ~y~{0}~s~.</String>
     </Entry>
 
     <Entry Id="robbery_caught_shoplifting_cant_buy">
@@ -3168,6 +3284,7 @@
         <String xml:lang="pl-PL">Zostałeś złapany tu na ~r~kradzieży~s~. Nie możesz kupować przedmiotów z tego sklepu przez ~y~{0} sekund~s~.</String>
         <String xml:lang="pt-BR">Você foi pego ~r~roubando ~s~aqui. Você não poderá comprar itens nesta loja por ~y~{0} segundos~s~.</String>
         <String xml:lang="id-ID">Anda telah kepergok ~r~mencuri ~s~disini. Anda tidak dapat membeli barang dari toko sini selama ~y~{0} detik~s~.</String>
+        <String xml:lang="ar-001">لقد تم القبض عليك وأنت ~r~تسرق من المتاجر ~s~هنا. لا يمكنك شراء عناصر من هذا المتجر لمدة ~y~{0} ثانية~s~.</String>
     </Entry>
 
     <Entry Id="robbery_caught_shoplifting_reported_police">
@@ -3180,6 +3297,7 @@
         <String xml:lang="pt-BR">~r~Sua tentativa de roubo foi detectada! Você foi denunciado à polícia.</String>
         <String xml:lang="ar-001">~r~تم رصد محاولتك للسرقة من المتاجر! لقد تم إبلاغك للشرطة.</String>
         <String xml:lang="id-ID">~r~Percobaan mencuri anda telah diketahui! Anda telah dilaporan kepada kepolisian.</String>
+        
     </Entry>
 
     <Entry Id="robbery_caught_shoplifting_wait">
@@ -3232,6 +3350,7 @@
         <String xml:lang="pl-PL">{0} rozpracowywuje ~b~sejf~s~.</String>
         <String xml:lang="pt-BR">{0} está quebrando o ~b~cofre de segurança~s~.</String>
         <String xml:lang="id-ID">{0} sedang membobol ~b~brankas~s~.</String>
+        <String xml:lang="ar-001">يقوم {0} بكسر ~b~الخزنة~s~.</String>
     </Entry>
 
     <Entry Id="robbery_player_successfully_cracking_safe">
@@ -3244,6 +3363,7 @@
         <String xml:lang="pl-PL">{0} ~g~z powodzeniem ~s~rozpracował ~b~sejf~s~.</String>
         <String xml:lang="pt-BR">{0} ~g~abriu ~s~o cofre com ~b~sucesso~s~.</String>
         <String xml:lang="id-ID">{0} telah ~g~berhasil ~s~membobol ~b~brankas~s~.</String>
+        <String xml:lang="ar-001">{0} ~g~نجح ~s~في كسر ~b~الخزنة~s~.</String>
     </Entry>
 
     <Entry Id="robbery_player_failed_cracking_safe">
@@ -3256,6 +3376,7 @@
         <String xml:lang="pl-PL">{0} ~r~niw udało się ~s~rozpracować ~b~sejfu~s~.</String>
         <String xml:lang="pt-BR">{0} ~r~não ~s~abriu o ~b~cofre~s~.</String>
         <String xml:lang="id-ID">{0} telah ~r~gagal ~s~membobol ~b~brankas~s~.</String>
+        <String xml:lang="ar-001">{0} ~r~فشل ~s~في كسر ~b~الخزنة~s~.</String>
     </Entry>
 
     <Entry Id="robbery_player_canceled_cracking_safe">
@@ -3268,6 +3389,7 @@
         <String xml:lang="pl-PL">{0} ~r~anulowano ~s~rozpracowywanie ~b~sejfu~s~.</String>
         <String xml:lang="pt-BR">{0} ~r~cancelado~s~ na abertura do ~b~cofre~s~.</String>
         <String xml:lang="id-ID">{0} ~r~mengagalkan ~s~membobol ~b~brankas~s~.</String>
+        <String xml:lang="ar-001">{0} ~r~تم إلغاء ~s~تكسير ~b~الخزنة~s~.</String>
     </Entry>
 
     <Entry Id="robbery_cracked_safe">
@@ -3279,6 +3401,7 @@
         <String xml:lang="pl-PL">~g~Rozpracowałeś sejf~s~!</String>
         <String xml:lang="pt-BR">Você conseguiu "arrombar" o cofre ~g~com sucesso~s~!</String>
         <String xml:lang="id-ID">Anda ~g~berhasil ~s~membobol brankas~s~!</String>
+        <String xml:lang="ar-001">لقد ~g~نجحت ~s~في كسر الخزنة!</String>
     </Entry>
 
     <Entry Id="robbery_extra_security_safe">
@@ -3290,6 +3413,7 @@
         <String xml:lang="pl-PL">Ten sejf ma dodatkową ochronę i ~r~nie udało ~s~ci się go rozpracować!</String>
         <String xml:lang="pt-BR">Esse cofre tem segurança extra e você ~r~não conseguiu ~s~quebrá-lo!</String>
         <String xml:lang="id-ID">Brankas ini memiliki keamanan ganda dan anda ~r~gagal ~s~membobolnya!</String>
+        <String xml:lang="ar-001">تتمتع هذه الخزنة بأمان إضافي وقد ~r~فشلت ~s~في اختراقها!</String>
     </Entry>
 
     <Entry Id="robbery_canceled_safe">
@@ -3301,6 +3425,7 @@
         <String xml:lang="pl-PL">~r~Anulowałeś ~s~kradzież sejfu!</String>
         <String xml:lang="pt-BR">Você ~r~cancelou ~s~o roubo do cofre!</String>
         <String xml:lang="id-ID">Anda ~r~membatalkan ~s~perampokan brankas!</String>
+        <String xml:lang="ar-001">لقد ~r~ألغيت ~s~عملية السرقة!</String>
     </Entry>
 
     <Entry Id="no_nearby_players_give_weapon">
@@ -3312,6 +3437,7 @@
         <String xml:lang="pt-BR">Não há ~r~jogadores próximos ~s~a quem você possa dar sua arma.</String>
         <String xml:lang="de-DE">Es befinden sich keine ~r~Spieler in der Nähe~s~, welchen du deine Waffen geben kannst.</String>
         <String xml:lang="id-ID">Tidak ada ~r~pemain disekitar ~s~untuk diberikan senjata.</String>
+        <String xml:lang="ar-001">لا يوجد ~r~لاعبون قريبون ~s~لتعطيهم سلاحك.</String>
     </Entry>
 
     <Entry Id="cant_give_weapon_to_dead">
@@ -3323,6 +3449,7 @@
         <String xml:lang="pt-BR">~r~Você não pode dar uma arma a um jogador morto..</String>
         <String xml:lang="de-DE">~r~Du kannst deine Waffen nicht an einen toten Spieler geben.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat memberikan senjata kepada pemain yang meninggal.</String>
+        <String xml:lang="ar-001">~r~لا يمكنك إعطاء سلاح للاعب ميت.</String>
     </Entry>
 
     <Entry Id="player_too_far_give_weapon">
@@ -3334,6 +3461,7 @@
         <String xml:lang="pt-BR">~r~O jogador está muito longe, não é possível dar a ele uma arma.</String>
         <String xml:lang="de-DE">~r~Der Spieler ist zu weit weg, du kannst ihm keine Waffe geben.</String>
         <String xml:lang="id-ID">~r~Pemain tersebut telalu jauh, anda tidak dapat memberikan dia senjata.</String>
+        <String xml:lang="ar-001">~r~اللاعب بعيد جدًا، ولا يمكنك منحه سلاحًا.</String>
     </Entry>
 
 
@@ -3348,6 +3476,7 @@
         <String xml:lang="pt-BR">Você deu a {0} um ~y~{1}~s~.</String>
         <String xml:lang="de-DE">Du hast {0} ein/e~y~{1}~s~.</String>
         <String xml:lang="id-ID">Anda memberikan {0} kepada ~y~{1}~s~.</String>
+        <String xml:lang="ar-001">لقد أعطيت {0} ~y~{1}~s~.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -3361,6 +3490,7 @@
         <String xml:lang="pt-BR">{0} já tem um ~y~{1}~s~.</String>
         <String xml:lang="de-DE">{0} besitzt bereits ein/e ~y~{1}~s~.</String>
         <String xml:lang="id-ID">{0} sudah memiliki ~y~{1}~s~.</String>
+        <String xml:lang="ar-001">{0} لديه ~y~{1}~s~ بالفعل.</String>
     </Entry>
 
     <!-- {0} = Weapon -->
@@ -3374,6 +3504,7 @@
         <String xml:lang="pt-BR">Recebeu um ~y~{0} ~s~de (C){1}(/C).</String>
         <String xml:lang="de-DE">Du hast ein/e ~y~{0} ~s~von (C){1}(/C).</String>
         <String xml:lang="id-ID">Mendapatkan ~y~{0} ~s~dari (C){1}(/C).</String>
+        <String xml:lang="ar-001">تم استلام ~y~{0} ~s~من (C){1}(/C).</String>
     </Entry>
 
     <!-- ========================= -->
@@ -3387,6 +3518,7 @@
         <String xml:lang="pt-BR">Você está ~r~muito longe ~s~da ~y~concessionária~s~!</String>
         <String xml:lang="de-DE">Du entfernst dich ~r~ein wenig zu weit ~s~von dem ~y~Händler~s~!</String>
         <String xml:lang="id-ID">Anda ~r~sedikit terlalu jauh ~s~dari ~y~dealer kendaraan~s~!</String>
+        <String xml:lang="ar-001">لقد أصبحت ~r~بعيدًا جدًا ~s~عن ~y~وكالة البيع~s~!</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -3435,6 +3567,7 @@
         <String xml:lang="de-DE">Verwalte deine {0} Fahrzeuge im {1} ~y~Menü ~s~&gt; ~y~Fahrzeuge</String>
         <String xml:lang="ar-001">قم بإدارة {0} مركبات {1} ~y~القائمة ~s~&gt; ~y~المركبات</String>
         <String xml:lang="id-ID">Kelola kendaran {0} dengan menekan {1} ~y~Menu ~s~&gt; ~y~Kendaraan</String>
+        
     </Entry>
 
     <Entry Id="dealership_dont_have_required_membership_tier">
