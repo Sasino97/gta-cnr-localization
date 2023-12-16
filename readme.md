@@ -26,6 +26,8 @@ This is the correct routine for a normal work session:
 - Open VSCode
 - Switch to the Source Control tab (the 3rd from the top, or press Ctrl+Shift+G)
 - Sync other people's changes (click the sync icon)
+- If you get merge conflicts, please resolve them, then commit (without changing the commmit text please, leave "Merge branch 'master' of https://github.com/Sasino97/gta-cnr-localization")
+- Make sure your repository is clean (nothing to pull, nothing to commit)
 - Work
 - Go back to the Source Control tab
 - Commit your work (with a short description of your changes)
@@ -43,6 +45,14 @@ Login to GitHub by following the steps on screen, make sure to use the same acco
 - Then `git config --global user.email "NAME@EXAMPLE.COM"`
 
 Obviously, replace those placeholders with your actual data.
+
+### Clean repository tree before checking out
+
+When you get this error:
+
+![Errors](docs/merging_1.png "Errors")
+
+You simply need to make a commit before syncing/pulling.
 
 ### Merge conflicts
 
