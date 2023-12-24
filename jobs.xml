@@ -291,7 +291,7 @@
         <String xml:lang="de-DE">~r~Der Verkäufer hat nicht die erforderlichen Zertifikationen, um den ~s~{0}~r~-Service anzubieten!</String>
         <String xml:lang="th-TH">~r~ผู้ขายไม่มีทำหน้าที่ในการให้บริการ ~s~{0}~r~!</String>
         <String xml:lang="zh-Hant">~r~賣家沒有獲得需要的證書以行使 ~s~{0}~r~</String>
-        <String xml:lang="ar-001">~r~البائع ليس لديه الشهادة المطلوبة لتقديم ~r~خدمة ~s~{0}!</String>
+        <String xml:lang="ar-001">~r~البائع ليس لديه الشهادة المطلوبة لتقديم خدمة ~s~{0}~r~!</String>
         <String xml:lang="vi-VN">~r~Người bán hiện không có giấy chứng nhận ~s~{0} ~r~để phục vụ!</String>
         <String xml:lang="id-ID">~r~Penjual tidak memenuhi persyaratan sertifikasi untuk menyediakan jasa ~s~{0}~r~!</String>
     </Entry>
@@ -525,7 +525,7 @@
         <String xml:lang="zh-Hans">你正在 ~r~毒品贩售点~s~. 待在原地然后 ~y~NPCs ~s~会向你索取毒品.</String>
         <String xml:lang="pt-BR">Você está em um ~r~ponto de drogas~s~. Fique aqui e os ~y~NPCs ~s~lhe pedirão drogas.</String>
         <String xml:lang="th-TH">คุณอยู่ใน ~r~จุดยาเสพติด~s~ อยู่ที่นี่และ ~y~NPCs ~s~จะขอยาซื้อจากคุณ</String>
-        <String xml:lang="ar-001">أنت في ~r~مكان في بيع المخدرات~s~. ابق هنا ~s~وسوف تطلب منك ~y~البوتات المخدرات.</String>
+        <String xml:lang="ar-001">أنت في ~r~مكان في بيع المخدرات~s~. ابق هنا وسوف تطلب منك ~y~البوتات ~s~المخدرات.</String>
         <String xml:lang="id-ID">Anda sedang berada di ~r~tempat penjualan narkoba~s~. Tunggu disini dan ~y~NPC ~s~akan menanyakan anda perihal narkoba.</String>
         <String xml:lang="vi-VN">Bạn đang trong ~r~chỗ bán hàng lậu~s~. Đứng ở đây và ~y~NPCs ~s~sẽ tới và mua hàng của bạn</String>
     </Entry>
@@ -624,7 +624,7 @@
 
     <!-- {0} = Amount -->
     <!-- {1} = Drug name -->
-    <!-- {2} = Offer Text (Z to sell) -->
+    <!-- {2} = Offer Text ("Y/Z to sell") -->
     <Entry Id="dealer_npc_wants">
         <String xml:lang="en-US">The ~y~NPC ~s~wants ~p~{0}g ~s~of ~r~{1}~s~. {2}</String>
         <String xml:lang="nl-NL">De ~y~NPC ~s~wilt ~p~{0}g ~s~van ~r~{1}~s~. {2}</String>
@@ -635,7 +635,7 @@
         <String xml:lang="zh-Hant">這個 ~y~NPC ~s~想要向你購買 ~p~{0}g ~s~個 ~r~{1}~s~. {2}</String>
         <String xml:lang="zh-Hans">这个 ~y~NPC ~s~想要向你购买 ~p~{0}g ~s~个 ~r~{1}~s~. {2}</String>
         <String xml:lang="pt-BR">O ~y~NPC ~s~deseja ~p~{0}g ~s~de ~r~{1}~s~. {2}</String>
-        <String xml:lang="th-TH">~y~NPC ~s~ต้องการ ~p~{0}g ~s~ของ ~r~{1}~s~</String>
+        <String xml:lang="th-TH">~y~NPC ~s~ต้องการ ~p~{0}g ~s~ของ ~r~{1}~s~. {2}</String>
         <String xml:lang="ar-001">~y~البوت ~s~يريد ~p~{0}g ~s~من ~r~{1}~s~. {2}</String>
         <String xml:lang="id-ID">~y~NPC ~s~mau ~p~{0}g ~s~dari ~r~{1}~s~. {2}</String>
     </Entry>
@@ -715,21 +715,6 @@
         <String xml:lang="th-TH">"~r~คุณต้องเป็นผู้ค้ายาจึงจะซื้อจากซัพพลาเออร์ยรายนี้ได้!</String>
         <String xml:lang="ar-001">~r~يجب أن تكون تاجر مخدرات لتتمكن من الشراء من هذا المورد!</String>
         <String xml:lang="id-ID">~r~Anda harus menjadi pengedar narkoba untuk membeli dari pengedar ini!</String>
-    </Entry>
-
-    <Entry Id="dealer_cant_change_job_inside_vehicle">
-        <String xml:lang="en-US">~r~You cannot change your job while you're in a vehicle.</String>
-        <String xml:lang="nl-NL">~r~Je kan je baan niet aanpassen terwijl je in een voertuig zit.</String>
-        <String xml:lang="it-IT">~r~Non puoi cambiare lavoro mentre sei in un veicolo!</String>
-        <String xml:lang="de-DE">~r~Du kannst deinen Job nicht wechseln, während du dich in einem Fahrzeug befindest.</String>
-        <String xml:lang="pl-PL">~r~Nie możesz zmienić pracy w pojeździe.</String>
-        <String xml:lang="es-ES">~r~No puedes cambiar de trabajo mientras estás en un vehículo.</String>
-        <String xml:lang="zh-Hant">~r~你不能在車內更換你的職業.</String>
-        <String xml:lang="zh-Hans">~r~你不能在车内更换你的职业.</String>
-        <String xml:lang="pt-BR">~r~Você não pode mudar de emprego enquanto estiver em um veículo.</String>
-        <String xml:lang="th-TH">~r~คุณไม่สามารถเปลี่ยนงานในขณะที่อยู่ในยานพาหนะได้</String>
-        <String xml:lang="ar-001">~r~لا يمكنك تغيير وظيفتك أثناء وجودك في السيارة.</String>
-        <String xml:lang="id-ID">~r~Anda tidak dapat mengubah pekerjaan anda ketika berada didalam kendaraan.</String>
     </Entry>
 
     <!-- {0} = Required level -->
@@ -1181,7 +1166,7 @@
         <String xml:lang="zh-Hans">你正在为了赚取 ~g~额外的钱~s~ 而拖吊 ~y~玩家的载具~s~, 但你必须在时间内完成. 当计时器 ~r~倒数结束~s~, 车辆的拥有者将会 ~y~调回 ~s~它.</String>
         <String xml:lang="pt-BR">Você está rebocando o veículo de um ~y~jogador~s~por ~g~dinheiro extra~s~, mas tem um tempo limitado. ~r~Quando o tempo acabar~s~, o proprietário poderá ~y~chamá-lo ~s~novamente.</String>
         <String xml:lang="th-TH">คุณกำลังลาก ~y~ยานพาหนะของผู้เล่น ~s~สำหรับ ~g~เงินพิเศษ~s~ แต่คุณมีเวลาจำกัด เมื่อเวลา ~r~หมด~s~ เจ้าของจะสามารถ ~y~recall ~s~it</String>
-        <String xml:lang="ar-001">أنت تقوم بقطر مركبة أحد ~y~اللاعبين ~s~مقابل أموال إضافية~s~, ولكن لديك وقت محدود. عندما ~r~ينفد المؤقت~s~, سيكون المالك قادرًا على ~y~استدعائها~s~.</String>
+        <String xml:lang="ar-001">أنت تقوم بقطر مركبة أحد ~y~اللاعبين ~s~مقابل أموال ~g~إضافية~s~, ولكن لديك وقت محدود. عندما ~r~ينفد المؤقت~s~, سيكون المالك قادرًا على ~y~استدعائها~s~.</String>
         <String xml:lang="id-ID">Anda sedang towing ~r~kendaraan pemain ~s~untuk ~g~duit tambahan~s~, tapi anda memiliki waktu terbatas. ketika timer ~r~habis~s~, pemilik kendaraan dapat ~y~mengambilnya~s~.</String>
     </Entry>
 
@@ -1356,7 +1341,7 @@
         <String xml:lang="zh-Hant">當~o~罪犯~s~與~b~警察~s~參與~r~射擊~s~時,你無法治愈~o~罪犯~s~,因為這被認為是~r~非法組隊~s~.</String>
         <String xml:lang="de-DE">Du kannst keine ~o~Kriminellen~s~ heilen, wenn diese in eine ~r~Schießerei ~s~mit der ~b~Polizei~s~ involviert sind, da es als ~r~Cross-Teaming~s~ gewertet wird.</String>
         <String xml:lang="th-TH">คุณไม่สามารถรักษา ~o~อาชญากร ~s~ได้เมื่อพวกเขาพัวพันกับ ~r~การยิง ~s~กับ ~b~ตำรวจ~s~ เนื่องจากถือว่าเป็น ~r~การร่วมมือกันข้ามทีม~s~</String>
-        <String xml:lang="ar-001">لا يمكنك شفاء ~o~المجرمين ~s~عندما يكونون متورطين في عملية ~r~إطلاق نار ~s~مع الشرطة~s~, حيث يعتبر ذلك بمثابة ~r~فريق مشترك~s~.</String>
+        <String xml:lang="ar-001">لا يمكنك شفاء ~o~المجرمين ~s~عندما يكونون متورطين في عملية ~r~إطلاق نار ~s~مع ~b~الشرطة~s~, حيث يعتبر ذلك بمثابة ~r~فريق مشترك~s~.</String>
         <String xml:lang="id-ID">Anda tidak dapat menyembuhkan ~o~kriminal ~s~ketika mereka terlibat ~r~penembakan ~s~dengan ~b~kepolisian~s~, secara itu dianggap ~r~Cross-Teamin~s~.</String>
     </Entry>
 
