@@ -2,7 +2,7 @@
 
 <Entries>
     <!-- {0} = Vehicle -->
-    <Entry Id="_garage">
+    <Entry Id="vehicle_returned_garage">
         <String xml:lang="en-US">Your ~b~{0} ~s~has been returned to your garage!</String>
         <String xml:lang="pl-PL">Twój ~b~{0} ~s~został zwrócony do garażu!</String>
         <String xml:lang="nl-NL">Je ~b~{0} ~s~is teruggebracht naar je garage!</String>
@@ -34,7 +34,7 @@
 
     <Entry Id="cant_send_personal_vehicle_to_maintenance_when_inside">
         <String xml:lang="en-US">~r~You can't send your personal vehicle to maintenance when you're inside it!</String>
-        <String xml:lang="pl-PL">~r~Nie możesz wysłać swojego pojazdu na przegląd gdy jesteś w środku niego.</String>
+        <String xml:lang="pl-PL">~r~Nie możesz wysłać swojego pojazdu do konserwacji gdy jesteś w środku niego.</String>
         <String xml:lang="nl-NL">~r~Je kan je persoonlijke voertuig niet naar een onderhoudsbeurt sturen wanneer je erin zit!</String>
         <String xml:lang="it-IT">~r~Non puoi inviare il tuo veicolo personale in manutenzione mentre sei dentro di esso!</String>
         <String xml:lang="tr-TR">~r~Aracınızın içinde iken bakıma yollayamazsınız.</String>
@@ -49,7 +49,7 @@
 
     <Entry Id="vehicle_sent_to_maintenance">
         <String xml:lang="en-US">Your ~b~{0} ~s~has been sent to maintenance. This will take a few minutes.</String>
-        <String xml:lang="pl-PL">Twój ~b~{0} ~s~został wysłany na przegląd. This will take a few minutes.</String>
+        <String xml:lang="pl-PL">Twój ~b~{0} ~s~został wysłany do konserwacji. Potrwa to kilka minut.</String>
         <String xml:lang="nl-NL">Je ~b~{0} ~s~is gestuurd naar een onderhoudsbeurt. Dit zal een paar minuten duren.</String>
         <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata mandata in manutenzione. Questo richiederà alcuni minuti.</String>
         <String xml:lang="tr-TR">Senin ~b~{0} ~s~bakıma gönderildi. Bu birkaç dakika sürebilir.</String>
@@ -64,7 +64,7 @@
 
     <Entry Id="vehicle_already_in_maintenance">
         <String xml:lang="en-US">~r~This vehicle is already in maintenance!</String>
-        <String xml:lang="pl-PL">~r~Ten pojazd jest już w przeglądzie!</String>
+        <String xml:lang="pl-PL">~r~Ten pojazd jest już w trakcie konserwacji!</String>
         <String xml:lang="nl-NL">~r~Er is al een onderhoudsbeurt bezig op dit voertuig!</String>
         <String xml:lang="it-IT">~r~Questo veicolo è già in manutenzione!</String>
         <String xml:lang="tr-TR">~r~Bu araba zaten bakımda!</String>
@@ -80,7 +80,7 @@
     <!-- {0} = Vehicle -->
     <Entry Id="vehicle_completed_maintenance">
         <String xml:lang="en-US">The maintenance of your ~b~{0} ~s~has been completed.</String>
-        <String xml:lang="pl-PL">Przegląd twojego ~b~{0} ~s~został ukończony.</String>
+        <String xml:lang="pl-PL">Konserwacja twojego ~b~{0} ~s~została ukończona.</String>
         <String xml:lang="nl-NL">De onderhoudsbeurt van je ~b~{0} ~s~is klaar.</String>
         <String xml:lang="it-IT">La manutenzione della tua ~b~{0} ~s~è stata completata.</String>
         <String xml:lang="tr-TR">Senin aracın ~b~{0} ~s~tamiri tamamlandı.</String>
@@ -198,7 +198,7 @@
 
     <Entry Id="vehicle_in_maintenance">
         <String xml:lang="en-US">~r~This vehicle is in maintenance.</String>
-        <String xml:lang="pl-PL">~r~Ten pojazd jest w przeglądzie.</String>
+        <String xml:lang="pl-PL">~r~Ten pojazd jest w trakcie konserwacji.</String>
         <String xml:lang="it-IT">~r~Questo veicolo è in manutenzione.</String>
         <String xml:lang="es-ES">~r~TEste vehículo está en mantenimiento.</String>
         <String xml:lang="pt-BR">~r~Este veículo está em manutenção.</String>
