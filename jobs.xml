@@ -2797,7 +2797,7 @@
     </Entry>
 
     <Entry Id="police_exam_answer_tires_ramming">
-        <String xml:lang="en-US">When the suspect is ramming their patrol car</String>
+        <String xml:lang="en-US">When the suspect is ramming their patrol car that they are currently occupying</String>
     </Entry>
 
     <Entry Id="police_exam_answer_tires_shooting">
@@ -2977,6 +2977,20 @@
 
     <Entry Id="police_exam_terminate_message">
         <String xml:lang="en-US">Are you sure you want to terminate the exam?</String>
+    </Entry>
+
+    <!-- {0} = Final score -->
+    <!-- {1} = Max score -->
+    <!-- {2} = Passing score -->
+    <Entry Id="police_exam_response_passed">
+        <String xml:lang="en-US">~g~Congratulations! ~s~You have passed the exam with ~g~{0}~s~/{1} points ({2} to pass). You can now become a ~b~Police Officer~s~.</String>
+    </Entry>
+
+    <!-- {0} = Final score -->
+    <!-- {1} = Max score -->
+    <!-- {2} = Passing score -->
+    <Entry Id="police_exam_response_failed">
+        <String xml:lang="en-US">~r~Sorry! ~s~You have not passed the exam (~r~{0}~s~/{1} points) ({2} to pass).</String>
     </Entry>
 
 
