@@ -396,6 +396,10 @@
         <String xml:lang="tr-TR">Bu oturumda işlenmiş suçlar</String>
     </Entry>
 
+    <Entry Id="menu_crime_commited_suggestion">
+        <String xml:lang="en-US">Shows you the list of your most recent crimes.</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Crews Menu-->
     <!-- ========================= -->
@@ -629,6 +633,14 @@
         <String xml:lang="tr-TR">Son satışlar</String>
     </Entry>
 
+    <Entry Id="menu_drugdealer_calls_description">
+        <String xml:lang="en-US">View recent calls for a drug dealer.</String>
+    </Entry>
+
+    <Entry Id="menu_drugdealer_recentsales_description">
+        <String xml:lang="en-US">View your sales in the current session.</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Mechanic Menu -->
     <!-- ========================= -->
@@ -689,6 +701,10 @@
         <String xml:lang="tr-TR">Hizmetler</String>
     </Entry>
 
+    <Entry Id="menu_mechanic_services_description">
+        <String xml:lang="en-US">Manage your services.</String>
+    </Entry>
+
     <Entry Id="menu_mechanic_services_request_subtitle">
         <String xml:lang="en-US">Request a service</String>
         <String xml:lang="it-IT">Richiedi un servizio</String>
@@ -718,6 +734,10 @@
         <String xml:lang="tr-TR">Aramalar</String>
     </Entry>
 
+    <Entry Id="menu_mechanic_calls_description">
+        <String xml:lang="en-US">View recent calls for a mechanic.</String>
+    </Entry>
+
     <Entry Id="menu_mechanic_recentsales_subtitle">
         <String xml:lang="en-US">Recent sales</String>
         <String xml:lang="it-IT">Ultime vendite</String>
@@ -731,6 +751,10 @@
         <String xml:lang="zh-Hant">近期銷售</String>
         <String xml:lang="pl-PL">Ostatnie sprzedaże</String>
         <String xml:lang="tr-TR">Son satışlar</String>
+    </Entry>
+
+    <Entry Id="menu_mechanic_recentsales_description">
+        <String xml:lang="en-US">View your sales in the current session.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_available_subtitle">
@@ -1201,6 +1225,10 @@
         <String xml:lang="tr-TR">Aramalar</String>
     </Entry>
 
+    <Entry Id="menu_paramedic_calls_description">
+        <String xml:lang="en-US">View recent calls.</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Police Officer Menu -->
     <!-- ========================= -->
@@ -1234,6 +1262,10 @@
         <String xml:lang="zh-Hant">來電</String>
         <String xml:lang="pl-PL">Wezwania</String>
         <String xml:lang="tr-TR">Aramalar</String>
+    </Entry>
+
+    <Entry Id="menu_policeofficer_calls_description">
+        <String xml:lang="en-US">View recent calls.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1305,6 +1337,62 @@
         <String xml:lang="tr-TR">Radyo</String>
     </Entry>
 
+    <Entry Id="menu_radio_use_subtitle">
+        <String xml:lang="en-US">Use your radio.</String>
+    </Entry>
+
+    <Entry Id="menu_radio_power">
+        <String xml:lang="en-US">Power</String>
+    </Entry>
+
+    <Entry Id="menu_radio_channel">
+        <String xml:lang="en-US">Channel</String>
+    </Entry>
+
+    <Entry Id="menu_radio_volume">
+        <String xml:lang="en-US">Volume</String>
+    </Entry>
+
+    <Entry Id="radio_suggestion">
+        <String xml:lang="en-US">Opens the radio menu.</String>
+    </Entry>
+
+    <Entry Id="radio_text_suggestion">
+        <String xml:lang="en-US">Send a text message over your current radio.</String>
+    </Entry>
+
+    <Entry Id="radio_text_suggestion_message">
+        <String xml:lang="en-US">Message</String>
+    </Entry>
+
+    <Entry Id="radio_text_suggestion_content">
+        <String xml:lang="en-US">The content of the message to send.</String>
+    </Entry>
+
+    <Entry Id="radio_not_available">
+        <String xml:lang="en-US">There are no available radio channels for you.</String>
+    </Entry>
+
+    <Entry Id="radio_feature_notification">
+        <String xml:lang="en-US">~y~NEW! ~s~You can now send text in radio channels: prefix your message with an ~b~exclamation mark ~s~(~b~!~s~) to use this feature!</String>
+    </Entry>
+
+    <Entry Id="radio_on">
+        <String xml:lang="en-US">~g~ON</String>
+    </Entry>
+
+    <Entry Id="radio_off">
+        <String xml:lang="en-US">~r~OFF</String>
+    </Entry>
+
+    <Entry Id="radio_mute">
+        <String xml:lang="en-US">~r~Mute</String>
+    </Entry>
+
+    <Entry Id="radio_channel_none">
+        <String xml:lang="en-US">~r~None</String>
+    </Entry>
+    
     <!-- ========================= -->
     <!-- Dealership Menu -->
     <!-- ========================= -->
