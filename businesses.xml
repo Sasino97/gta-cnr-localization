@@ -224,6 +224,10 @@
         <String xml:lang="th-TH">คุณถูกจับได้ว่า ~r~ขโมยของในร้าน ~s~ที่นี่ กลับมาใน ~y~{0}~s~</String>
         <String xml:lang="tr-TR">Burada ~r~mağaza hırsızlığı ~s~yaparken yakalandınız. ~y~{0}~s~ Sonra tekrar gel.</String>
     </Entry>
+
+    <Entry Id="menu_store_shoplifting_cooldown_simple">
+        <String xml:lang="en-US">Wait before attempting to ~r~shoplift ~s~again.</String>
+    </Entry>
     
     <Entry Id="menu_store_bounty">
         <String xml:lang="en-US">You cannot shop at gun stores when you have a ~r~bounty~s~.</String>
@@ -259,6 +263,11 @@
         <String xml:lang="pt-BR">Somente ~b~policiais ~s~podem fazer compras nessa loja.</String>
         <String xml:lang="th-TH">มีเพียง ~b~เจ้าหน้าที่ตำรวจ ~s~เท่านั้นที่สามารถซื้อสินค้าที่ร้านนี้ได้</String>
         <String xml:lang="tr-TR">Sadece ~b~polis memurları ~s~bu mağazadan alışveriş yapabilir.</String>
+    </Entry>
+
+    <!-- {0} = Required level -->
+    <Entry Id="menu_store_level">
+        <String xml:lang="en-US">You need to be ~b~level {0} ~s~or above to use this ~r~store~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -344,6 +353,23 @@
         <String xml:lang="th-TH">ราคา: {0}/{1}</String>
         <String xml:lang="pl-PL">Cena: {0}/{1}</String>
         <String xml:lang="tr-TR">Fiyat: {0}/{1}</String>
+    </Entry>
+
+    <!-- Example: You purchased a ~p~Standard Armor ~s~for ~r~$2500. -->
+    <!-- {0} = Adjective -->
+    <!-- {1} = Name -->
+    <!-- {2} = Cash amount -->
+    <Entry Id="menu_store_purchased_cash">
+        <String xml:lang="en-US">You purchased {0} ~p~{1} ~s~for ~r~{2}.</String>
+    </Entry>
+
+    <!-- Example: You purchased a ~p~Standard Armor ~s~for ~r~$2000 ~s~in gift card balance and ~r~$500 ~s~in cash. -->
+    <!-- {0} = Adjective -->
+    <!-- {1} = Name -->
+    <!-- {2} = Gift card amount -->
+    <!-- {3} = Cash amount -->
+    <Entry Id="menu_store_purchased_gift_card">
+        <String xml:lang="en-US">You purchased {0} ~p~{1} ~s~for ~b~{2} ~s~in gift card balance and ~r~{3} ~s~in cash.</String>
     </Entry>
     
     <!-- ========================= -->
