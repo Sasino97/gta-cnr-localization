@@ -3533,6 +3533,22 @@
         <String xml:lang="th-TH">~b~การปล้นเสร็จสมบูรณ์! ~s~คุณได้ปล้น ~y~{0} ~s~และได้รับ ~g~{1}~s~ สำเร็จแล้ว!</String>
     </Entry>
 
+    <Entry Id="robbery_clerk_killed_cut">
+        <String xml:lang="en-US">~r~Killing the clerk was not in the plan! ~s~Your cut is ~g~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_clerk_killed_complete">
+        <String xml:lang="en-US">~r~Killing the clerk was not in the plan! ~s~You earned ~g~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_clerk_not_intimidated_cut">
+        <String xml:lang="en-US">~r~The clerk is no longer intimidated! ~s~Your cut is ~g~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_clerk_not_intimidated_complete">
+        <String xml:lang="en-US">~r~The clerk is no longer intimidated! ~s~You earned ~g~{0}~s~.</String>
+    </Entry>
+
     <Entry Id="robbery_fail_clerk_killed">
         <String xml:lang="en-US">~r~Robbery failed! Killing the clerk was not in the plan!</String>
         <String xml:lang="nl-NL">~r~Overval mislukt! Het vermoorden van de medewerker was niet het plan!</String>
@@ -3616,6 +3632,10 @@
         <String xml:lang="pt-BR">Você foi pego ~r~roubando ~s~aqui. Você não poderá comprar itens nesta loja por ~y~{0} segundos~s~.</String>
         <String xml:lang="id-ID">Anda telah kepergok ~r~mencuri ~s~disini. Anda tidak dapat membeli barang dari toko sini selama ~y~{0} detik~s~.</String>
         <String xml:lang="th-TH">คุณถูกจับได้ว่า ~r~ขโมยของในร้าน ~s~ที่นี่ คุณไม่สามารถซื้อสินค้าจากร้านค้านี้ได้เป็นเวลา ~y~{0} วินาที~s~</String>
+    </Entry>
+
+    <Entry Id="robbery_shoplifting_success">
+        <String xml:lang="en-US">You've ~r~stolen ~s~a ~p~{0}</String>
     </Entry>
 
     <Entry Id="robbery_caught_shoplifting_reported_police">
@@ -3737,6 +3757,10 @@
         <String xml:lang="th-TH">คุณ ~g~สำเร็จ ~s~ทำลายตู้เซฟ!</String>
     </Entry>
 
+    <Entry Id="robbery_cracking_safe">
+        <String xml:lang="en-US">You are cracking the ~b~safe~s~.</String>
+    </Entry>
+
     <Entry Id="robbery_extra_security_safe">
         <String xml:lang="en-US">This safe has extra security and you ~r~failed ~s~to crack it!</String>
         <String xml:lang="nl-NL">Deze kluis heeft extra beveiliging en het is ~r~niet gelukt ~s~om het te kraken!</String>
@@ -3759,6 +3783,62 @@
         <String xml:lang="pt-BR">Você ~r~cancelou ~s~o roubo do cofre!</String>
         <String xml:lang="id-ID">Anda ~r~membatalkan ~s~perampokan brankas!</String>
         <String xml:lang="th-TH">คุณ ~r~ยกเลิก ~s~การปล้นตู้เซฟ!</String>
+    </Entry>
+
+    <Entry Id="robbery_intimidation_bar">
+        <String xml:lang="en-US">INTIMIDATION</String>
+    </Entry>
+
+    <Entry Id="robbery_take_counter">
+        <String xml:lang="en-US">TAKE</String>
+    </Entry>
+
+    <Entry Id="robbery_cut_counter">
+        <String xml:lang="en-US">YOUR CUT</String>
+    </Entry>
+
+    <Entry Id="robbery_safe_counter">
+        <String xml:lang="en-US">SAFE</String>
+    </Entry>
+
+    <Entry Id="robbery_cash_register_counter">
+        <String xml:lang="en-US">CASH REGISTER</String>
+    </Entry>
+
+    <Entry Id="robbery_intimidation_hint">
+        <String xml:lang="en-US">Keep the ~r~cashier ~s~intimidated.</String>
+    </Entry>
+
+    <Entry Id="robbery_safe_hint">
+        <String xml:lang="en-US">You need a ~g~partner ~s~to crack the ~b~safe ~s~open.</String>
+    </Entry>
+
+    <Entry Id="robbery_wait_partner_crack_safe">
+        <String xml:lang="en-US">Wait for your partner to rob the ~y~store~s~, or crack the ~b~safe~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_find_safe_hint">
+        <String xml:lang="en-US">Find and crack the ~b~safe~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_wait_partner">
+        <String xml:lang="en-US">Wait for your partner to rob the ~y~store~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_eliminate_security">
+        <String xml:lang="en-US">Eliminate the ~r~security guards~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_help_partner">
+        <String xml:lang="en-US">Help your partner rob the ~y~store~s~.</String>
+    </Entry>
+
+    <Entry Id="robbery_instructional_crack">
+        <String xml:lang="en-US">Crack</String>
+    </Entry>
+
+    <Entry Id="robbery_instructional_stop">
+        <String xml:lang="en-US">Stop (hold)</String>
     </Entry>
 
     <Entry Id="no_nearby_players_give_weapon">
