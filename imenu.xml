@@ -350,6 +350,70 @@
         <String xml:lang="id-ID">Bantuan</String>
     </Entry>
 
+    <Entry Id="imenu_help_title">
+        <String xml:lang="en-US">Help Center</String>
+    </Entry>
+
+    <Entry Id="imenu_help_subtitle">
+        <String xml:lang="en-US">GTA CnR Help Center</String>
+    </Entry>
+
+    <Entry Id="imenu_help_block_title">
+        <String xml:lang="en-US">Block player</String>
+    </Entry>
+
+    <Entry Id="imenu_help_block_description">
+        <String xml:lang="en-US">Block a ~r~player~s~. You won't see text messages from blocked players. You can also use the ~b~/block (id) ~s~chat command.</String>
+    </Entry>
+
+    <Entry Id="imenu_help_report_title">
+        <String xml:lang="en-US">Report player</String>
+    </Entry>
+
+    <Entry Id="imenu_help_report_description">
+        <String xml:lang="en-US">Report a ~r~player ~s~for violating the server rules or terms of service. You can also use the ~b~/report (id) ~s~chat command.</String>
+    </Entry>
+
+    <Entry Id="imenu_help_blocked_players_description">
+        <String xml:lang="en-US">Check the list of ~r~players ~s~you've blocked.</String>
+    </Entry>
+
+    <Entry Id="imenu_help_report_list_title">
+        <String xml:lang="en-US">Your reports</String>
+    </Entry>
+
+    <Entry Id="imenu_help_report_list_description">
+        <String xml:lang="en-US">View your previous ~r~reports~s~.</String>
+    </Entry>
+
+    <Entry Id="imenu_help_wiki_title">
+        <String xml:lang="en-US">Wiki</String>
+    </Entry>
+
+    <Entry Id="imenu_help_support_title">
+        <String xml:lang="en-US">Support</String>
+    </Entry>
+
+    <Entry Id="imenu_help_support_description">
+        <String xml:lang="en-US">You can obtain support from our staff on our Discord server: ~b~discord.gg/cnr</String>
+    </Entry>
+
+    <Entry Id="imenu_help_rules_title">
+        <String xml:lang="en-US">Rules and Terms</String>
+    </Entry>
+
+    <Entry Id="imenu_help_rules_description">
+        <String xml:lang="en-US">You read our game rules at ~b~gtacnr.net/rules ~s~and our User Agreement at ~b~sasinosoft.com/agreement</String>
+    </Entry>
+
+    <Entry Id="imenu_help_privacy_title">
+        <String xml:lang="en-US">Privacy</String>
+    </Entry>
+
+    <Entry Id="imenu_help_privacy_description">
+        <String xml:lang="en-US">You read our privacy policy here: ~b~sasinosoft.com/privacy</String>
+    </Entry>
+
     <Entry Id="imenu_help_descr">
         <String xml:lang="en-US">Obtain help with a problem.</String>
         <String xml:lang="pl-PL">Znajdź rozwiązania dla problemów.</String>
@@ -402,6 +466,36 @@
         <String xml:lang="tr-TR">Geçerli bir oyuncunun ~r~id bilgisini ~s~girmediniz.</String>
     </Entry>
 
+    <Entry Id="imenu_help_blocking_canceled">
+        <String xml:lang="en-US">You ~r~canceled ~s~blocking.</String>
+    </Entry>
+
+    <Entry Id="imenu_help_block_input_title">
+        <String xml:lang="en-US">Block</String>
+    </Entry>
+
+    <!-- {0} = Number of blocked users -->
+    <Entry Id="imenu_blocked_players_pretext">
+        <String xml:lang="en-US">{0} blocked users</String>
+    </Entry>
+
+    <!-- {0} = Username -->
+    <Entry Id="imenu_blocked_players_menuitem_description">
+        <String xml:lang="en-US">You are ~r~not ~s~receiving any text/voice messages and pings from ~y~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="imenu_blocked_players_empty_menuitem_text">
+        <String xml:lang="en-US">No blocked players :)</String>
+    </Entry>
+
+    <Entry Id="imenu_blocked_players_empty_menuitem_description">
+        <String xml:lang="en-US">Type ~y~/block [player id] ~s~to block someone.</String>
+    </Entry>
+
+    <Entry Id="imenu_help_report_input_title">
+        <String xml:lang="en-US">Report</String>
+    </Entry>
+
     <Entry Id="imenu_help_report_not_submitted">
         <String xml:lang="en-US">~r~Attention: ~s~the report has ~r~not ~s~been submitted!</String>
         <String xml:lang="nl-NL">~r~Waarschuwing: ~s~de report is ~r~niet ~s~verstuurd!</String>
@@ -434,7 +528,6 @@
         <String xml:lang="vi-VN">Bạn ~r~đã huỷ bỏ ~s~bài tố cáo.</String>
         <String xml:lang="id-ID">Anda ~r~telah membatalkan ~s~laporan.</String>
     </Entry>
-
 
     <Entry Id="imenu_job">
         <String xml:lang="en-US">Job Menu</String>
