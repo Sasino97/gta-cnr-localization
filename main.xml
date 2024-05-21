@@ -523,4 +523,56 @@
         <String xml:lang="th-TH">ผู้เล่นที่ถูกบล็อก</String>
         <String xml:lang="zh-Hant">封鎖玩家</String>
     </Entry>
+
+    <Entry Id="btn_unblock">
+        <String xml:lang="en-US">Unblock</String>
+    </Entry>
+
+    <Entry Id="block_cmd_suggestion_help">
+        <String xml:lang="en-US">Blocks a player. You won't see any message from them until you unblock them. Don't enter an id to see the list of blocked players.</String>
+    </Entry>
+
+    <Entry Id="block_cmd_suggestion_param_name">
+        <String xml:lang="en-US">player id</String>
+    </Entry>
+
+    <Entry Id="block_cmd_suggestion_param_help">
+        <String xml:lang="en-US">The current id of the player you want to block.</String>
+    </Entry>
+
+    <Entry Id="block_cmd_error_already_blocked">
+        <String xml:lang="en-US">The specified player is already blocked. Use /unblock to unblock a player.</String>
+    </Entry>
+
+    <!-- {0} = player name -->
+    <Entry Id="block_cmd_success">
+        <String xml:lang="en-US">You have blocked {0}. Manage your block list in M &gt; Help &gt; Blocked players.</String>
+    </Entry>
+
+    <Entry Id="unblock_cmd_suggestion_help">
+        <String xml:lang="en-US">Unblocks a player.</String>
+    </Entry>
+
+    <Entry Id="unblock_cmd_suggestion_param_help">
+        <String xml:lang="en-US">The current id of the player you want to unblock.</String>
+    </Entry>
+
+    <Entry Id="unblock_cmd_error_not_blocked">
+        <String xml:lang="en-US">The specified player isn't blocked.</String>
+    </Entry>
+
+    <!-- {0} = player name -->
+    <Entry Id="unblock_cmd_success">
+        <String xml:lang="en-US">You have unblocked {0}. Manage your block list in M &gt; Help &gt; Blocked players.</String>
+    </Entry>
+
+    <!-- {0} = command + parameters -->
+    <!-- Example: Usage: /block [player id] -->
+    <Entry Id="cmd_usage">
+        <String xml:lang="en-US">Usage: {}</String>
+    </Entry>
+
+    <Entry Id="input_enter_id">
+        <String xml:lang="en-US">Enter the player's id.</String>
+    </Entry>
 </Entries>
