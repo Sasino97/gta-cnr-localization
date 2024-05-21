@@ -361,6 +361,7 @@
     <!-- {2} = Cash amount -->
     <Entry Id="menu_store_purchased_cash">
         <String xml:lang="en-US">You purchased {0} ~p~{1} ~s~for ~r~{2}.</String>
+        <String xml:lang="tr-TR">Bir {0} ~p~{1} ~s~için ~r~{2} ödediniz.</String>
     </Entry>
 
     <!-- Example: You purchased a ~p~Standard Armor ~s~for ~r~$2000 ~s~in gift card balance and ~r~$500 ~s~in cash. -->
@@ -370,6 +371,7 @@
     <!-- {3} = Cash amount -->
     <Entry Id="menu_store_purchased_gift_card">
         <String xml:lang="en-US">You purchased {0} ~p~{1} ~s~for ~b~{2} ~s~in gift card balance and ~r~{3} ~s~in cash.</String>
+        <String xml:lang="tr-TR">{0} ~p~{1}~s~, ~b~{2} ~s~hediye kartı bakiyesi ve ~r~{3} ~s~nakit ile satın aldınız.</String>
     </Entry>
     
     <!-- ========================= -->
@@ -425,6 +427,7 @@
     <Entry Id="menu_crime_committed_suggestion">
         <String xml:lang="en-US">Shows you the list of your most recent crimes.</String>
         <String xml:lang="nl-NL">Laat je de lijst zien van jouw meest recente misdaden.</String>
+        <String xml:lang="tr-TR">En son işlediğiniz suçlarınızın listesini gösterir.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1300,6 +1303,7 @@
     <Entry Id="menu_policeofficer_calls_description">
         <String xml:lang="en-US">View recent calls for police.</String>
         <String xml:lang="nl-NL">Bekijk de meeste recente politie oproepen.</String>
+        <String xml:lang="tr-TR">Polis için gelen son çağrılar.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1374,71 +1378,85 @@
     <Entry Id="menu_radio_use_subtitle">
         <String xml:lang="en-US">Use your radio.</String>
         <String xml:lang="nl-NL">Gebruik je portofoon.</String>
+        <String xml:lang="tr-TR">Radoyonu kullan.</String>
     </Entry>
 
     <Entry Id="menu_radio_power">
         <String xml:lang="en-US">Power</String>
         <String xml:lang="nl-NL">Status</String>
+        <String xml:lang="tr-TR">Güç</String>
     </Entry>
 
     <Entry Id="menu_radio_channel">
         <String xml:lang="en-US">Channel</String>
         <String xml:lang="nl-NL">Kanaal</String>
+        <String xml:lang="tr-TR">Kanal</String>
     </Entry>
 
     <Entry Id="menu_radio_volume">
         <String xml:lang="en-US">Volume</String>
         <String xml:lang="nl-NL">Volume</String>
+        <String xml:lang="tr-TR">Ses Seviyesi</String>
     </Entry>
 
     <Entry Id="radio_suggestion">
         <String xml:lang="en-US">Opens the radio menu.</String>
         <String xml:lang="nl-NL">Opent het portofoon menu.</String>
+        <String xml:lang="tr-TR">Radyo menüsünü aç.</String>
     </Entry>
 
     <Entry Id="radio_text_suggestion">
         <String xml:lang="en-US">Send a text message over your current radio.</String>
         <String xml:lang="nl-NL">Verstuur een tekstbericht over het huidige portofoon kanaal.</String>
+        <String xml:lang="tr-TR">Şu anki bulunduğun radyo üzerinden metin mesajı gönderin.</String>
     </Entry>
 
     <Entry Id="radio_text_suggestion_message">
         <String xml:lang="en-US">Message</String>
         <String xml:lang="nl-NL">Bericht</String>
+        <String xml:lang="tr-TR">Mesaj</String>
     </Entry>
 
     <Entry Id="radio_text_suggestion_content">
         <String xml:lang="en-US">The content of the message to send.</String>
         <String xml:lang="nl-NL">Inhoud van het bericht dat je wilt versturen.</String>
+        <String xml:lang="tr-TR">Gönderilecek mesajın içeriği.</String>
     </Entry>
 
     <Entry Id="radio_not_available">
         <String xml:lang="en-US">There are no available radio channels for you.</String>
         <String xml:lang="nl-NL">Er zijn geen portofoon kanalen beschikbaar voor jou.</String>
+        <String xml:lang="tr-TR">Senin için uygun radyo kanalları yok.</String>
     </Entry>
 
     <Entry Id="radio_feature_notification">
         <String xml:lang="en-US">~y~NEW! ~s~You can now send text in radio channels: prefix your message with an ~b~exclamation mark ~s~(~b~!~s~) to use this feature!</String>
         <String xml:lang="nl-NL">~y~NIEUW! ~s~Je kunt nu tekstberichten versturen in portofoon kanalen: voeg een ~b~uitroepteken ~s~(~b~!~s~) toe aan het begin van je bericht om deze functie te gebruiken!</String>
+        <String xml:lang="tr-TR">~y~YENİ! ~s~Artık radyo kanallarında mesaj gönderebilirsiniz: bu özelliği kullanmak için mesajınıza bir ~b~ünlem işareti ~s~(~b~!~s~) ekleyin!</String>
     </Entry>
 
     <Entry Id="radio_on">
         <String xml:lang="en-US">~g~ON</String>
         <String xml:lang="nl-NL">~g~AAN</String>
+        <String xml:lang="tr-TR">~g~Açık</String>
     </Entry>
 
     <Entry Id="radio_off">
         <String xml:lang="en-US">~r~OFF</String>
         <String xml:lang="nl-NL">~r~UIT</String>
+        <String xml:lang="tr-TR">~r~Kapalı</String>
     </Entry>
 
     <Entry Id="radio_mute">
         <String xml:lang="en-US">~r~Mute</String>
         <String xml:lang="nl-NL">~r~Dempen</String>
+        <String xml:lang="tr-TR">~r~Sessiz</String>
     </Entry>
 
     <Entry Id="radio_channel_none">
         <String xml:lang="en-US">~r~None</String>
         <String xml:lang="nl-NL">~r~Geen</String>
+        <String xml:lang="tr-TR">~r~Hiçbiri</String>
     </Entry>
     
     <!-- ========================= -->
@@ -1456,7 +1474,7 @@
         <String xml:lang="id-ID">Dealer kendaraan</String>
         <String xml:lang="zh-Hant">車輛經銷商</String>
         <String xml:lang="pl-PL">Salon</String>
-        <String xml:lang="tr-TR">Araç Bayisi</String>
+        <String xml:lang="tr-TR">Oto Galeri</String>
     </Entry>
 
     <Entry Id="menu_dealership_options_subtitle">
