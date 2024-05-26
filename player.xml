@@ -695,7 +695,7 @@
         <String xml:lang="id-ID">~r~Anda tidak memiliki kendaraan dengan plat nomer itu.</String>
     </Entry>
 
-    <!-- {0} = Vehicle name -->
+    <!-- {0} = vehicle_recalled_valid_name or vehicle_recalled_invalid_name -->
     <Entry Id="vehicle_recalled">
         <String xml:lang="en-US">{0} ~s~has been officially ~r~recalled ~s~by CnR V. You can sell this vehicle for the ~g~FULL ~s~original price below.</String>
         <String xml:lang="nl-NL">{0} ~s~is officieel ~r~teruggeroepen ~s~door CnR V. Je kan dit voertuig verkopen voor de ~g~VOLLEDIGE ~s~originele prijs hieronder.</String>
@@ -707,6 +707,15 @@
         <String xml:lang="ar-001">{0} ~r~تم استدعاء ~s~رسميًا ~s~بواسطة CnR V.يمكنك بيع هذه السيارة ~g~بالسعر الأصلي أدناه~s~.</String>
         <String xml:lang="th-TH">{0} ~s~ได้รับการ ~r~เรียกคืน ~s~อย่างเป็นทางการโดย CnR V คุณสามารถขายรถคันนี้ได้ในราคา ~g~เต็ม ~s~ราคาเดิมด้านล่าง</String>
         <String xml:lang="id-ID">{0} ~s~secara resmi ~r~ditarik kembali ~s~oleh CnR V. Anda dapat menjual kendaraan tersebut dengan ~g~harga penuh ~s~harga asli dibawah.</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <Entry Id="vehicle_recalled_valid_name">
+        <String xml:lang="en-US">The ~y~{0}</String>
+    </Entry>
+
+    <Entry Id="vehicle_recalled_invalid_name">
+        <String xml:lang="en-US">This vehicle</String>
     </Entry>
 
     <Entry Id="unable_to_deliver_move">
@@ -774,6 +783,18 @@
         <String xml:lang="ar-001">~r~سيارتك الحالية متصلة بشاحنة سحب!</String>
         <String xml:lang="th-TH">~r~ยานพาหนะปัจจุบันของคุณติดอยู่กับรถบรรทุกพ่วง!</String>
         <String xml:lang="id-ID">~r~Kendaraan anda saat ini sedang diderek mobil towing!</String>
+    </Entry>
+
+    <Entry Id="vehicle_rent_expired">
+        <String xml:lang="en-US">~r~The rent of this vehicle has expired!</String>
+    </Entry>
+
+    <Entry Id="unable_to_deliver_vehicle">
+        <String xml:lang="en-US">Unable to deliver your vehicle</String>
+    </Entry>
+
+    <Entry Id="vehicle_maintenance_completed_invalid_name">
+        <String xml:lang="en-US">vehicle</String>
     </Entry>
 
     <Entry Id="cant_store_vehicle_when_inside">
