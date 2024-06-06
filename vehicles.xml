@@ -17,6 +17,10 @@
         <String xml:lang="vi-VN">Xe ~b~{0} ~s~đã được cất vào trong gara của bạn!</String>
     </Entry>
 
+    <Entry Id="vehicle_returned_garage_invalid_vehicle">
+        <String xml:lang="en-US">vehicle</String>
+    </Entry>
+
     <Entry Id="cant_do_when_cuffed">
         <String xml:lang="en-US">~r~You can't do this when you are cuffed.</String>
         <String xml:lang="pl-PL">~r~Nie możesz tego zrobić gdy jesteś zakuty.</String>
@@ -30,6 +34,18 @@
         <String xml:lang="id-ID">~r~Anda tidak dapat melakukan ini ketika sedang diborgol.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถทำเช่นนี้เมื่อคุณถูกใส่กุญแจมือ</String>
         <String xml:lang="vi-VN">~r~Bạn không thể làm điều này trong khi đang bị còng.</String>
+    </Entry>
+
+    <Entry Id="cant_deliver_when_dead">
+        <String xml:lang="en-US">~r~You can't summon a personal vehicle when you're dead!</String>
+    </Entry>
+
+    <Entry Id="cant_store_when_dead">
+        <String xml:lang="en-US">~r~You can't store your personal vehicle when you're dead!</String>
+    </Entry>
+
+    <Entry Id="cant_store_when_cuffed">
+        <String xml:lang="en-US">~r~You can't store your personal vehicle when you're cuffed!</String>
     </Entry>
 
     <Entry Id="cant_send_personal_vehicle_to_maintenance_when_inside">
@@ -75,6 +91,19 @@
         <String xml:lang="id-ID">~r~Kendaraan ini sudah dalam perbaikan!</String>
         <String xml:lang="th-TH">~r~รถคันนี้อยู่ในการบำรุงรักษาแล้ว</String>
         <String xml:lang="vi-VN">~r~Chiếc xe này đang trong bảo dưỡng!</String>
+    </Entry>
+
+    <Entry Id="vehicle_already_in_delivery">
+        <String xml:lang="en-US">There's a vehicle delivery already in progress.</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <Entry Id="vehicle_delivered">
+        <String xml:lang="en-US">Your ~b~{0} ~s~has been delivered!</String>
+    </Entry>
+
+    <Entry Id="vehicle_delivered_prank">
+        <String xml:lang="en-US">~b~Sometimes we don't get what we want.</String>
     </Entry>
 
     <!-- {0} = Vehicle -->
@@ -142,7 +171,7 @@
 
     <Entry Id="vehicle_rental_terminated">
         <String xml:lang="en-US">Your ~b~{0}~s~'s rental has been terminated!</String>
-        <String xml:lang="pl-PL">Twój wynajem ~b~{0}~s~został anulowany!</String>
+        <String xml:lang="pl-PL">Twój wynajem ~b~{0} ~s~został anulowany!</String>
         <String xml:lang="nl-NL">Je ~b~{0}~s~'s huurcontract is beëindigd!</String>
         <String xml:lang="it-IT">Il noleggio per la tua ~b~{0} ~s~è terminato!</String>
         <String xml:lang="es-ES">¡El alquiler de su ~b~{0}~s~ ha terminado!</String>
@@ -184,6 +213,23 @@
         <String xml:lang="vi-VN">Xe của bạn đang dần cạn nhiên liệu ~r~{0}~s~. Tìm vị trí gần nhất để đến ~y~trạm xăng~s~?</String>
     </Entry>
 
+    <Entry Id="running_low_fuel_unit">
+        <String xml:lang="en-US">fuel</String>
+    </Entry>
+
+    <Entry Id="running_low_battery_unit">
+        <String xml:lang="en-US">battery</String>
+    </Entry>
+
+    <Entry Id="fuel_bar">
+        <String xml:lang="en-US">FUEL</String>
+    </Entry>
+
+    <Entry Id="battery_bar">
+        <String xml:lang="en-US">BATTERY</String>
+    </Entry>
+
+    <!-- TODO: Change "a fuel pump" to "a ~y~gas pump" -->
     <Entry Id="on_foot_to_use_fuel_pump">
         <String xml:lang="en-US">You must be ~r~on foot ~s~to use a fuel pump.</String>
         <String xml:lang="pl-PL">Musisz być ~r~pieszo ~s~by użyć dystrybutora paliw.</String>
@@ -196,6 +242,10 @@
         <String xml:lang="id-ID">Anda harus ~r~Turun dari mobil~s~untuk menggunakan pom bensin.</String>
         <String xml:lang="th-TH">คุณต้อง ~r~เดินเท้า ~s~จึงจะสามารถใช้ปั๊มน้ำมันเชื้อเพลิงได้</String>
         <String xml:lang="vi-VN">Bạn cần phải ~r~xuống xe ~s~để có thể sử dụng vòi bom nhiên liệu.</String>
+    </Entry>
+
+    <Entry Id="on_foot_to_use_ev_charger">
+        <String xml:lang="en-US">You must be ~r~on foot ~s~to use an ~g~EV charger~s~.</String>
     </Entry>
 
     <Entry Id="vehicle_in_maintenance">
@@ -283,6 +333,16 @@
         <String xml:lang="vi-VN">Bạn đã {0} ~b~xe ~s~của bạn</String>
     </Entry>
 
+    <Entry Id="vehicle_option_locked">
+        <String xml:lang="en-US">~g~locked</String>
+        <String xml:lang="nl-NL">~g~vergrendeld</String>
+    </Entry>
+
+    <Entry Id="vehicle_option_unlocked">
+        <String xml:lang="en-US">~r~unlocked</String>
+        <String xml:lang="nl-NL">~r~ontgrendeld</String>
+    </Entry>
+
     <Entry Id="vehicle_ejecting_passenger_cooldown">
         <String xml:lang="en-US">Please ~r~wait ~s~before ejecting another ~b~passenger~s~.</String>
         <String xml:lang="pl-PL">Proszę ~r~poczekaj ~s~przed wyrzuceniem kolejnego ~b~pasażera~s~.</String>
@@ -327,6 +387,7 @@
     </Entry>
 
     <!-- {0} = Key -->
+    <!-- TODO: Change "vehicle menu" to "vehicle dashboard" -->
     <Entry Id="press_to_open_vehicle_menu">
         <String xml:lang="en-US">Press {0} to access the ~b~vehicle menu~s~.</String>
         <String xml:lang="pl-PL">Wciśnij {0} by uzyskać dostęp do ~b~menu pojazdu~s~.</String>
@@ -341,6 +402,7 @@
         <String xml:lang="vi-VN">Nhấn {0} để truy cập ~b~Menu xe~s~.</String>
     </Entry>
 
+    <!-- TODO: Change "vehicle menu" to "vehicle dashboard" -->
     <Entry Id="double_press_to_open_vehicle_menu">
         <String xml:lang="en-US">Double press {0} to access the ~b~vehicle menu~s~.</String>
         <String xml:lang="pl-PL">Podwójnie wciśnij {0} by uzyskać dostęp do ~b~menu pojazdu~s~.</String>
@@ -384,6 +446,14 @@
         <String xml:lang="vi-VN">Xe của bạn</String>
     </Entry>
 
+    <Entry Id="menu_vehicles_manage_button">
+        <String xml:lang="en-US">Manage</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_favorite_button">
+        <String xml:lang="en-US">Favorite</String>
+    </Entry>
+
     <Entry Id="menu_vehicles_manage_subtitle">
         <String xml:lang="en-US">Manage your vehicle</String>
         <String xml:lang="pl-PL">Zarządzaj swoim pojazdem</String>
@@ -395,6 +465,16 @@
         <String xml:lang="id-ID">Kelola kendaraan anda</String>
         <String xml:lang="th-TH">จัดการยานพาหนะของคุณ</String>
         <String xml:lang="vi-VN">Quản lý xe của bạn</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <Entry Id="menu_vehicles_manage_subtitle_var">
+        <String xml:lang="en-US">Manage your {0}</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <Entry Id="menu_vehicles_manage_subtitle_var_rented">
+        <String xml:lang="en-US">Manage your rented {0}</String>
     </Entry>
 
     <Entry Id="menu_vehicles_ownershiphist_subtitle">
@@ -413,5 +493,244 @@
     <Entry Id="error_creating_vehicle">
         <String xml:lang="en-US">~r~Unable to create vehicle.</String>
         <String xml:lang="nl-NL">~r~Fout bij spawnen van voertuig.</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <Entry Id="menu_vehicles_favorite_removed">
+        <String xml:lang="en-US">You ~r~removed ~s~this ~p~{0} ~s~from your favorite vehicles. Refresh the menu to see the changes applied.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_favorite_added">
+        <String xml:lang="en-US">You ~g~added ~s~this ~p~{0} ~s~to your favorite vehicles. Refresh the menu to see the changes applied.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_category_favorite">
+        <String xml:lang="en-US">Favorite Vehicles</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_category_rented">
+        <String xml:lang="en-US">Rented Vehicles</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_search_text">
+        <String xml:lang="en-US">Enter the vehicle's model, make or license plate.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_rental_extend_confirm_title">
+        <String xml:lang="en-US">Extend</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <!-- {1} = Renewal cost -->
+    <Entry Id="menu_vehicles_rental_extend_confirm_message">
+        <String xml:lang="en-US">Do you really want to extend the rental of this ~b~{0} ~s~for ~g~{1}~s~?</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_rental_terminate_confirm_title">
+        <String xml:lang="en-US">Terminate</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <Entry Id="menu_vehicles_rental_terminate_confirm_message">
+        <String xml:lang="en-US">Do you really want to terminate the rental of this ~b~{0}~s~?</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_sell_confirm_title">
+        <String xml:lang="en-US">Sell</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <!-- {1} = Sell price -->
+    <Entry Id="menu_vehicles_sell_confirm_message">
+        <String xml:lang="en-US">Do you really want to sell your ~b~{0} ~s~to the server for ~g~{1}~s~?</String>
+    </Entry>
+
+    <!-- {0} = Number of vehicles -->
+    <Entry Id="menu_vehicles_counter_text">
+        <String xml:lang="en-US">{0} vehicles</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_empty_job_text">
+        <String xml:lang="en-US">No job vehicles :(</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_empty_job_description">
+        <String xml:lang="en-US">You don't have any vehicle for your ~b~current job~s~, and you ~r~can't ~s~use your personal vehicles while on this job. Buy job vehicles and they will show up in this menu.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_empty_personal_text">
+        <String xml:lang="en-US">No personal vehicles :(</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_empty_personal_description">
+        <String xml:lang="en-US">You don't own any personal vehicle. Buy vehicles and they will show up in this menu.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_store_title">
+        <String xml:lang="en-US">Store</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_store_your_garage">
+        <String xml:lang="en-US">your garage</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <!-- {1} = Garage name or menu_vehicles_store_your_garage -->
+    <Entry Id="menu_vehicles_store_description">
+        <String xml:lang="en-US">Send your ~b~{0} ~s~back to ~y~{1}~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_store_description_rented">
+        <String xml:lang="en-US">Send your rented ~b~{0} ~s~back to the storage.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_delivery_title">
+        <String xml:lang="en-US">Delivery</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_delivery_description">
+        <String xml:lang="en-US">Get your ~b~{0} ~s~delivered to your current location.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_delivery_description_rented">
+        <String xml:lang="en-US">Get your rented ~b~{0} ~s~delivered to your current location.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_delivery_info_destroyed">
+        <String xml:lang="en-US">~r~This vehicle has been destroyed.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_info_impounded">
+        <String xml:lang="en-US">~y~This vehicle has been impounded. Visit an impound lot to claim it back.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_info_in_maintenance">
+        <String xml:lang="en-US">~y~This vehicle has been sent to maintenance.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_delivery_info_recalled">
+        <String xml:lang="en-US">~o~This vehicle has been recalled by Cops and Robbers.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_info_rent_overdue">
+        <String xml:lang="en-US">~r~The rent of this vehicle is overdue.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_info_na">
+        <String xml:lang="en-US">N/A</String>
+    </Entry>
+
+    <!-- {0} = Membership name -->
+    <Entry Id="menu_vehicles_delivery_info_membership">
+        <String xml:lang="en-US">~p~This vehicle requires {0}.\n~s~You can still use it by taking it out of your ~y~garage~s~, but the ~y~Delivery ~s~feature has been disabled for it.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_delivery_info_garage_membership">
+        <String xml:lang="en-US">~p~The garage where this vehicle is parked requires {0}.\n~s~You can still use the vehicles inside it, but the ~y~Delivery ~s~feature has been disabled for them.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_maintenance_title">
+        <String xml:lang="en-US">Maintenance</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <Entry Id="menu_vehicles_maintenance_description">
+        <String xml:lang="en-US">Send your ~b~{0} ~s~to maintenance.</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <Entry Id="menu_vehicles_maintenance_description_rented">
+        <String xml:lang="en-US">Send your rented ~b~{0} ~s~to maintenance.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_maintenance_info_destroyed">
+        <String xml:lang="en-US">~r~This vehicle has been destroyed. Order a replacement.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_maintenance_info_in_maintenance">
+        <String xml:lang="en-US">~y~This vehicle has already been sent to maintenance.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_replace_title">
+        <String xml:lang="en-US">Replace</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_replace_description">
+        <String xml:lang="en-US">Order a replacement vehicle from the insurance company.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_replace_info_not_needed">
+        <String xml:lang="en-US">~r~This vehicle doesn't need to be replaced.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_rental_title">
+        <String xml:lang="en-US">Rental Info</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_rental_description">
+        <String xml:lang="en-US">~b~Start date: ~s~{0} UTC\n~b~End date: ~s~{1} UTC\n~b~Fee: ~g~{2} ~c~/week</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_rental_info_overdue">
+        <String xml:lang="en-US">~r~OVERDUE</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_rent_renew_title">
+        <String xml:lang="en-US">Extend Rental</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <Entry Id="menu_vehicles_rent_renew_description">
+        <String xml:lang="en-US">Renew the rental agreement of this ~b~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_rent_renew_info_ongoing">
+        <String xml:lang="en-US">~r~The rent of this vehicle is still ongoing.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_rent_end_title">
+        <String xml:lang="en-US">Terminate Rental</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <Entry Id="menu_vehicles_rent_end_description">
+        <String xml:lang="en-US">Return this ~b~{0} ~s~to the rental company.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_rent_end_info_destroyed">
+        <String xml:lang="en-US">~r~This vehicle has been destroyed. Request a replacement before returning it to the rental company.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_rent_end_info_ongoing">
+        <String xml:lang="en-US">~y~The rent of this vehicle is still ongoing and you will not be compensated for the time left.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_history_title">
+        <String xml:lang="en-US">History</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_history_description">
+        <String xml:lang="en-US">View this vehicle's ownership history.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_history_entry_description">
+        <String xml:lang="en-US">~b~Purchase Date: ~s~{0}\n~b~Purchase Price: ~s~{1}</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_history_empty_title">
+        <String xml:lang="en-US">No history :(</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_history_empty_description">
+        <String xml:lang="en-US">This vehicle has no recorded ownership history.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_sell_title">
+        <String xml:lang="en-US">Sell</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <Entry Id="menu_vehicles_sell_description">
+        <String xml:lang="en-US">Sell your ~b~{0} ~s~to the server for a percentage of the purchase price.</String>
     </Entry>
 </Entries>

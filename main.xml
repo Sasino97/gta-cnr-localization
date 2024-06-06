@@ -99,10 +99,16 @@
 
     <Entry Id="error_loading_purchase_data">
         <String xml:lang="en-US">Unable to load your purchase data.</String>
+        <String xml:lang="nl-NL">Fout tijdens het laden van je aankoop gegevens.</String>
     </Entry>
 
     <Entry Id="error_loading_subscription_data">
         <String xml:lang="en-US">Unable to load your subscription data.</String>
+        <String xml:lang="nl-NL">Fout tijdens het laden van je abonnement gegevens.</String>
+    </Entry>
+
+    <Entry Id="menu_error_item">
+        <String xml:lang="en-US">~r~Error!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -522,5 +528,69 @@
         <String xml:lang="id-ID">Player yang di blokir</String>
         <String xml:lang="th-TH">ผู้เล่นที่ถูกบล็อก</String>
         <String xml:lang="zh-Hant">封鎖玩家</String>
+    </Entry>
+
+    <Entry Id="btn_unblock">
+        <String xml:lang="en-US">Unblock</String>
+        <String xml:lang="nl-NL">Deblokkeer</String>
+    </Entry>
+
+    <Entry Id="block_cmd_suggestion_help">
+        <String xml:lang="en-US">Blocks a player. You won't see any message from them until you unblock them. Don't enter an id to see the list of blocked players.</String>
+        <String xml:lang="nl-NL">Blokeer een speler. Je zult geen berichten van hen zien totdat je ze deblokkeert. Voer geen id in om de lijst met geblokkeerde spelers te zien.</String>
+    </Entry>
+
+    <Entry Id="block_cmd_suggestion_param_name">
+        <String xml:lang="en-US">player id</String>
+        <String xml:lang="nl-NL">speler id</String>
+    </Entry>
+
+    <Entry Id="block_cmd_suggestion_param_help">
+        <String xml:lang="en-US">The current id of the player you want to block.</String>
+        <String xml:lang="nl-NL">Huidige id van de speler die je wilt blokkeren.</String>
+    </Entry>
+
+    <Entry Id="block_cmd_error_already_blocked">
+        <String xml:lang="en-US">The specified player is already blocked. Use /unblock to unblock a player.</String>
+        <String xml:lang="nl-NL">De gespecificeerde speler is al geblokkeerd. Gebruik /unblock om een speler te deblokkeren.</String>
+    </Entry>
+
+    <!-- {0} = player name -->
+    <Entry Id="block_cmd_success">
+        <String xml:lang="en-US">You have blocked {0}. Manage your block list in M &gt; Help &gt; Blocked players.</String>
+        <String xml:lang="nl-NL">Je hebt {0} geblokkeerd. Beheer je blokkeerlijst in M &gt; Help &gt; Geblokkeerde spelers.</String>
+    </Entry>
+
+    <Entry Id="unblock_cmd_suggestion_help">
+        <String xml:lang="en-US">Unblocks a player.</String>
+        <String xml:lang="nl-NL">Deblokkeert een speler.</String>
+    </Entry>
+
+    <Entry Id="unblock_cmd_suggestion_param_help">
+        <String xml:lang="en-US">The current id of the player you want to unblock.</String>
+        <String xml:lang="nl-NL">Huidige id van de speler die je wilt deblokkeren.</String>
+    </Entry>
+
+    <Entry Id="unblock_cmd_error_not_blocked">
+        <String xml:lang="en-US">The specified player isn't blocked.</String>
+        <String xml:lang="nl-NL">De gespecificeerde speler is niet geblokkeerd.</String>
+    </Entry>
+
+    <!-- {0} = player name -->
+    <Entry Id="unblock_cmd_success">
+        <String xml:lang="en-US">You have unblocked {0}. Manage your block list in M &gt; Help &gt; Blocked players.</String>
+        <String xml:lang="nl-NL">Je hebt {0} gedeblokkeerd. Beheer je blokkeerlijst in M &gt; Help &gt; Geblokkeerde spelers.</String>
+    </Entry>
+
+    <!-- {0} = command + parameters -->
+    <!-- Example: Usage: /block [player id] -->
+    <Entry Id="cmd_usage">
+        <String xml:lang="en-US">Usage: {}</String>
+        <String xml:lang="nl-NL">Gebruik: {}</String>
+    </Entry>
+
+    <Entry Id="input_enter_id">
+        <String xml:lang="en-US">Enter the player's id.</String>
+        <String xml:lang="nl-NL">Voer de id van speler in.</String>
     </Entry>
 </Entries>
