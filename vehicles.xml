@@ -19,6 +19,7 @@
 
     <Entry Id="vehicle_returned_garage_invalid_vehicle">
         <String xml:lang="en-US">vehicle</String>
+        <String xml:lang="nl-NL">voertuig</String>
     </Entry>
 
     <Entry Id="cant_do_when_cuffed">
@@ -38,14 +39,17 @@
 
     <Entry Id="cant_deliver_when_dead">
         <String xml:lang="en-US">~r~You can't summon a personal vehicle when you're dead!</String>
+        <String xml:lang="nl-NL">~r~Je kan je voertuig niet oproepen wanneer je dood bent!</String>
     </Entry>
 
     <Entry Id="cant_store_when_dead">
         <String xml:lang="en-US">~r~You can't store your personal vehicle when you're dead!</String>
+        <String xml:lang="nl-NL">~r~Je kan je voertuig niet opslaan wanneer je dood bent!</String>
     </Entry>
 
     <Entry Id="cant_store_when_cuffed">
         <String xml:lang="en-US">~r~You can't store your personal vehicle when you're cuffed!</String>
+        <String xml:lang="nl-NL">~r~Je kan je voertuig niet opslaan wanneer je geboeid bent!</String>
     </Entry>
 
     <Entry Id="cant_send_personal_vehicle_to_maintenance_when_inside">
@@ -95,15 +99,18 @@
 
     <Entry Id="vehicle_already_in_delivery">
         <String xml:lang="en-US">There's a vehicle delivery already in progress.</String>
+        <String xml:lang="nl-NL">Er is al een voertuig levering bezig.</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <Entry Id="vehicle_delivered">
         <String xml:lang="en-US">Your ~b~{0} ~s~has been delivered!</String>
+        <String xml:lang="nl-NL">Jouw ~b~{0} ~s~is bezorgd!</String>
     </Entry>
 
     <Entry Id="vehicle_delivered_prank">
         <String xml:lang="en-US">~b~Sometimes we don't get what we want.</String>
+        <String xml:lang="nl-NL">~b~Soms krijg je niet wat je wilt.</String>
     </Entry>
 
     <!-- {0} = Vehicle -->
@@ -215,18 +222,22 @@
 
     <Entry Id="running_low_fuel_unit">
         <String xml:lang="en-US">fuel</String>
+        <String xml:lang="nl-NL">brandstof</String>
     </Entry>
 
     <Entry Id="running_low_battery_unit">
         <String xml:lang="en-US">battery</String>
+        <String xml:lang="nl-NL">batterij</String>
     </Entry>
 
     <Entry Id="fuel_bar">
         <String xml:lang="en-US">FUEL</String>
+        <String xml:lang="nl-NL">BRANDSTOF</String>
     </Entry>
 
     <Entry Id="battery_bar">
         <String xml:lang="en-US">BATTERY</String>
+        <String xml:lang="nl-NL">BATTERIJ</String>
     </Entry>
 
     <!-- TODO: Change "a fuel pump" to "a ~y~gas pump" -->
@@ -246,6 +257,7 @@
 
     <Entry Id="on_foot_to_use_ev_charger">
         <String xml:lang="en-US">You must be ~r~on foot ~s~to use an ~g~EV charger~s~.</String>
+        <String xml:lang="nl-NL">Je moet ~r~te voet zijn ~s~om een ~g~EV oplader~s~ te gebruiken.</String>
     </Entry>
 
     <Entry Id="vehicle_in_maintenance">
@@ -448,10 +460,12 @@
 
     <Entry Id="menu_vehicles_manage_button">
         <String xml:lang="en-US">Manage</String>
+        <String xml:lang="nl-NL">Beheer</String>
     </Entry>
 
     <Entry Id="menu_vehicles_favorite_button">
         <String xml:lang="en-US">Favorite</String>
+        <String xml:lang="nl-NL">Stel in als favoriet</String>
     </Entry>
 
     <Entry Id="menu_vehicles_manage_subtitle">
@@ -470,11 +484,13 @@
     <!-- {0} = Vehicle name -->
     <Entry Id="menu_vehicles_manage_subtitle_var">
         <String xml:lang="en-US">Manage your {0}</String>
+        <String xml:lang="nl-NL">Beheer je {0}</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <Entry Id="menu_vehicles_manage_subtitle_var_rented">
         <String xml:lang="en-US">Manage your rented {0}</String>
+        <String xml:lang="nl-NL">Beheer je gehuurde {0}</String>
     </Entry>
 
     <Entry Id="menu_vehicles_ownershiphist_subtitle">
@@ -498,239 +514,295 @@
     <!-- {0} = Vehicle name -->
     <Entry Id="menu_vehicles_favorite_removed">
         <String xml:lang="en-US">You ~r~removed ~s~this ~p~{0} ~s~from your favorite vehicles. Refresh the menu to see the changes applied.</String>
+        <String xml:lang="nl-NL">Je hebt deze ~p~{0} ~r~verwijderd ~s~van je favoriete voertuigen. Ververs het menu om de aanpassingen te zien.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_favorite_added">
         <String xml:lang="en-US">You ~g~added ~s~this ~p~{0} ~s~to your favorite vehicles. Refresh the menu to see the changes applied.</String>
+        <String xml:lang="nl-NL">Je hebt deze ~p~{0} ~g~toegevoegd ~s~aan je favoriete voertuigen. Ververs het menu om de aanpassingen te zien.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_category_favorite">
         <String xml:lang="en-US">Favorite Vehicles</String>
+        <String xml:lang="nl-NL">Favoriete voertuigen</String>
     </Entry>
 
     <Entry Id="menu_vehicles_category_rented">
         <String xml:lang="en-US">Rented Vehicles</String>
+        <String xml:lang="nl-NL">Gehuurde voertuigen</String>
     </Entry>
 
     <Entry Id="menu_vehicles_search_text">
         <String xml:lang="en-US">Enter the vehicle's model, make or license plate.</String>
+        <String xml:lang="nl-NL">Voer het model, type of kentekenplaat in van het voertuig.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rental_extend_confirm_title">
         <String xml:lang="en-US">Extend</String>
+        <String xml:lang="nl-NL">Verleng</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <!-- {1} = Renewal cost -->
     <Entry Id="menu_vehicles_rental_extend_confirm_message">
         <String xml:lang="en-US">Do you really want to extend the rental of this ~b~{0} ~s~for ~g~{1}~s~?</String>
+        <String xml:lang="nl-NL">Weet je zeker dat je de huur van deze ~b~{0} ~s~wilt verlengen voor ~g~{1}~s~?</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rental_terminate_confirm_title">
         <String xml:lang="en-US">Terminate</String>
+        <String xml:lang="nl-NL">Beëindigen</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <Entry Id="menu_vehicles_rental_terminate_confirm_message">
         <String xml:lang="en-US">Do you really want to terminate the rental of this ~b~{0}~s~?</String>
+        <String xml:lang="nl-NL">Weet je zeker dat je de huur van deze ~b~{0}~s~ wilt beëindigen?</String>
     </Entry>
 
     <Entry Id="menu_vehicles_sell_confirm_title">
         <String xml:lang="en-US">Sell</String>
+        <String xml:lang="nl-NL">Verkoop</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <!-- {1} = Sell price -->
     <Entry Id="menu_vehicles_sell_confirm_message">
         <String xml:lang="en-US">Do you really want to sell your ~b~{0} ~s~to the server for ~g~{1}~s~?</String>
+        <String xml:lang="nl-NL">Weet je zeker dat je je ~b~{0} ~s~aan de server wilt verkopen voor ~g~{1}~s~?</String>
     </Entry>
 
     <!-- {0} = Number of vehicles -->
     <Entry Id="menu_vehicles_counter_text">
         <String xml:lang="en-US">{0} vehicles</String>
+        <String xml:lang="nl-NL">{0} voertuigen</String>
     </Entry>
 
     <Entry Id="menu_vehicles_empty_job_text">
         <String xml:lang="en-US">No job vehicles :(</String>
+        <String xml:lang="nl-NL">Geen baan voertuigen :(</String>
     </Entry>
 
     <Entry Id="menu_vehicles_empty_job_description">
         <String xml:lang="en-US">You don't have any vehicle for your ~b~current job~s~, and you ~r~can't ~s~use your personal vehicles while on this job. Buy job vehicles and they will show up in this menu.</String>
+        <String xml:lang="nl-NL">Je hebt geen voertuigen voor je ~b~huidige baan~s~, en je kan ~r~geen ~s~gebruik maken van je persoonlijke voertuigen tijdens deze baan. Koop baan voertuigen en ze zullen hier laten zien worden.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_empty_personal_text">
         <String xml:lang="en-US">No personal vehicles :(</String>
+        <String xml:lang="nl-NL">No personal vehicles :(</String>
     </Entry>
 
     <Entry Id="menu_vehicles_empty_personal_description">
         <String xml:lang="en-US">You don't own any personal vehicle. Buy vehicles and they will show up in this menu.</String>
+        <String xml:lang="nl-NL">Je hebt geen persoonlijke voertuigen. Koop voertuigen and they will show up in this menu.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_store_title">
         <String xml:lang="en-US">Store</String>
+        <String xml:lang="nl-NL">Opslaan</String>
     </Entry>
 
     <Entry Id="menu_vehicles_store_your_garage">
         <String xml:lang="en-US">your garage</String>
+        <String xml:lang="nl-NL">jouw garage</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <!-- {1} = Garage name or menu_vehicles_store_your_garage -->
     <Entry Id="menu_vehicles_store_description">
         <String xml:lang="en-US">Send your ~b~{0} ~s~back to ~y~{1}~s~.</String>
+        <String xml:lang="nl-NL">Stuur jouw ~b~{0} ~s~terug naar ~y~{1}~s~.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_store_description_rented">
         <String xml:lang="en-US">Send your rented ~b~{0} ~s~back to the storage.</String>
+        <String xml:lang="nl-NL">Stuur je gehuurde ~b~{0} ~s~terug naar opslag.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_delivery_title">
         <String xml:lang="en-US">Delivery</String>
+        <String xml:lang="nl-NL">Levering</String>
     </Entry>
 
     <Entry Id="menu_vehicles_delivery_description">
         <String xml:lang="en-US">Get your ~b~{0} ~s~delivered to your current location.</String>
+        <String xml:lang="nl-NL">Krijg jouw ~b~{0} ~s~geleverd naar je huidige locatie.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_delivery_description_rented">
         <String xml:lang="en-US">Get your rented ~b~{0} ~s~delivered to your current location.</String>
+        <String xml:lang="nl-NL">Krijg jouw gehuurde ~b~{0} ~s~geleverd naar je huidige locatie.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_delivery_info_destroyed">
         <String xml:lang="en-US">~r~This vehicle has been destroyed.</String>
+        <String xml:lang="nl-NL">~r~Dit voertuig is vernietigd.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_info_impounded">
         <String xml:lang="en-US">~y~This vehicle has been impounded. Visit an impound lot to claim it back.</String>
+        <String xml:lang="nl-NL">~y~Dit voertuig is in beslag genomen. Bezoek een bewaarterrein om het terug te krijgen.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_info_in_maintenance">
         <String xml:lang="en-US">~y~This vehicle has been sent to maintenance.</String>
+        <String xml:lang="nl-NL">~y~Dit voertuig is gestuurd voor onderhoud.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_delivery_info_recalled">
         <String xml:lang="en-US">~o~This vehicle has been recalled by Cops and Robbers.</String>
+        <String xml:lang="nl-NL">~o~Dit voertuig is teruggeroepen door Cops and Robbers.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_info_rent_overdue">
         <String xml:lang="en-US">~r~The rent of this vehicle is overdue.</String>
+        <String xml:lang="nl-NL">~r~De huur van dit voertuig is verlopen.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_info_na">
         <String xml:lang="en-US">N/A</String>
+        <String xml:lang="nl-NL">N.v.t</String>
     </Entry>
 
     <!-- {0} = Membership name -->
     <Entry Id="menu_vehicles_delivery_info_membership">
         <String xml:lang="en-US">~p~This vehicle requires {0}.\n~s~You can still use it by taking it out of your ~y~garage~s~, but the ~y~Delivery ~s~feature has been disabled for it.</String>
+        <String xml:lang="nl-NL">~p~Dit voertuig vereist {0}.\n~s~Je kan hem nogsteeds gebruiken door hem uit je ~y~garage~s~ te halen, maar de ~y~Bezorg ~s~functie is ervoor uitgeschakeld.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_delivery_info_garage_membership">
         <String xml:lang="en-US">~p~The garage where this vehicle is parked requires {0}.\n~s~You can still use the vehicles inside it, but the ~y~Delivery ~s~feature has been disabled for them.</String>
+        <String xml:lang="nl-NL">~p~De garage waar dit voertuig in is geparkeerd vereist {0}.\n~s~Je kan nogsteeds de voertuigen erin gebruiken, maar de ~y~Bezorg ~s~functie is ervoor uitgeschakeld.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_maintenance_title">
         <String xml:lang="en-US">Maintenance</String>
+        <String xml:lang="nl-NL">Onderhoud</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <Entry Id="menu_vehicles_maintenance_description">
         <String xml:lang="en-US">Send your ~b~{0} ~s~to maintenance.</String>
+        <String xml:lang="nl-NL">Stuur je ~b~{0} ~s~naar onderhoud.</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <Entry Id="menu_vehicles_maintenance_description_rented">
         <String xml:lang="en-US">Send your rented ~b~{0} ~s~to maintenance.</String>
+        <String xml:lang="nl-NL">Stuur je gehuurde ~b~{0} ~s~naar onderhoud.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_maintenance_info_destroyed">
         <String xml:lang="en-US">~r~This vehicle has been destroyed. Order a replacement.</String>
+        <String xml:lang="nl-NL">~r~Dit voertuig is vernietigd. Bestel een vervanger.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_maintenance_info_in_maintenance">
         <String xml:lang="en-US">~y~This vehicle has already been sent to maintenance.</String>
+        <String xml:lang="nl-NL">~y~Dit voertuig is al naar onderhoud gestuurd.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_replace_title">
         <String xml:lang="en-US">Replace</String>
+        <String xml:lang="nl-NL">Vervang</String>
     </Entry>
 
     <Entry Id="menu_vehicles_replace_description">
         <String xml:lang="en-US">Order a replacement vehicle from the insurance company.</String>
+        <String xml:lang="nl-NL">Bestel een vervangend voertuig van de verzekering.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_replace_info_not_needed">
         <String xml:lang="en-US">~r~This vehicle doesn't need to be replaced.</String>
+        <String xml:lang="nl-NL">~r~Dit voertuig hoeft niet vervangen te worden.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rental_title">
         <String xml:lang="en-US">Rental Info</String>
+        <String xml:lang="nl-NL">Verhuur Informatie</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rental_description">
         <String xml:lang="en-US">~b~Start date: ~s~{0} UTC\n~b~End date: ~s~{1} UTC\n~b~Fee: ~g~{2} ~c~/week</String>
+        <String xml:lang="nl-NL">~b~Start datum: ~s~{0} UTC\n~b~Eind date: ~s~{1} UTC\n~b~Kosten: ~g~{2} ~c~/week</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rental_info_overdue">
         <String xml:lang="en-US">~r~OVERDUE</String>
+        <String xml:lang="nl-NL">~r~VERLOPEN</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rent_renew_title">
         <String xml:lang="en-US">Extend Rental</String>
+        <String xml:lang="nl-NL">Verleng Huur</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <Entry Id="menu_vehicles_rent_renew_description">
         <String xml:lang="en-US">Renew the rental agreement of this ~b~{0}~s~.</String>
+        <String xml:lang="nl-NL">Vernieuw het huurcontract van deze ~b~{0}~s~.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rent_renew_info_ongoing">
         <String xml:lang="en-US">~r~The rent of this vehicle is still ongoing.</String>
+        <String xml:lang="nl-NL">~r~De huur van dit voertuig loopt nog.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rent_end_title">
         <String xml:lang="en-US">Terminate Rental</String>
+        <String xml:lang="nl-NL">Beëindig Huur</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <Entry Id="menu_vehicles_rent_end_description">
         <String xml:lang="en-US">Return this ~b~{0} ~s~to the rental company.</String>
+        <String xml:lang="nl-NL">Geef deze ~b~{0} ~s~terug aan het verhuurbedrijf.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rent_end_info_destroyed">
         <String xml:lang="en-US">~r~This vehicle has been destroyed. Request a replacement before returning it to the rental company.</String>
+        <String xml:lang="nl-NL">~r~Dit voertuig is vernietigd. Vraag een vervangend voertuig voordat je het terugbrengt naar het verhuurbedrijf.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rent_end_info_ongoing">
         <String xml:lang="en-US">~y~The rent of this vehicle is still ongoing and you will not be compensated for the time left.</String>
+        <String xml:lang="nl-NL">~y~De huur van dit actief is nogsteeds gaande en je wordt niet gecompenseert voor de overgebleven tijd.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_history_title">
         <String xml:lang="en-US">History</String>
+        <String xml:lang="nl-NL">Geschiedenis</String>
     </Entry>
 
     <Entry Id="menu_vehicles_history_description">
         <String xml:lang="en-US">View this vehicle's ownership history.</String>
+        <String xml:lang="nl-NL">Bekijk het eigendomsgeschiedenis van dit voertuig.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_history_entry_description">
         <String xml:lang="en-US">~b~Purchase Date: ~s~{0}\n~b~Purchase Price: ~s~{1}</String>
+        <String xml:lang="nl-NL">~b~Aankoop Datum: ~s~{0}\n~b~Aankoop Prijs: ~s~{1}</String>
     </Entry>
 
     <Entry Id="menu_vehicles_history_empty_title">
         <String xml:lang="en-US">No history :(</String>
+        <String xml:lang="nl-NL">Geen geschiedenis :(</String>
     </Entry>
 
     <Entry Id="menu_vehicles_history_empty_description">
         <String xml:lang="en-US">This vehicle has no recorded ownership history.</String>
+        <String xml:lang="nl-NL">Dit voertuig heeft geen eigendomsgeschiedenis.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_sell_title">
         <String xml:lang="en-US">Sell</String>
+        <String xml:lang="nl-NL">Verkoop</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
     <Entry Id="menu_vehicles_sell_description">
         <String xml:lang="en-US">Sell your ~b~{0} ~s~to the server for a percentage of the purchase price.</String>
+        <String xml:lang="nl-NL">Verkoop je ~b~{0} ~s~aan de server voor een percentage van de koopprijs.</String>
     </Entry>
 </Entries>
