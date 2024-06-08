@@ -335,6 +335,15 @@
         <String xml:lang="id-ID">~r~Anda tidak dapat melakukan ini dengan menggunakan nama panggilan palsu</String>
     </Entry>
 
+    <Entry Id="cant_do_when_dead">
+        <String xml:lang="en-US">~r~You can't do this when you are dead.</String>
+    </Entry>
+
+    <!-- {0} = Item name -->
+    <Entry Id="cant_use_when_cuffed">
+        <String xml:lang="en-US">~r~You can't use a {0} when you are cuffed.</String>
+    </Entry>
+
     <!-- {0} = Item name (Membership, Name-change token, ...) -->
     <Entry Id="successfully_activated_item">
         <String xml:lang="en-US">You successfully activated your ~p~{0}~s~.</String>
