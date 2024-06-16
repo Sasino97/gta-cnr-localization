@@ -1234,6 +1234,218 @@
         <String xml:lang="hi-Latn">Select destination</String>
     </Entry>
 
+    <Entry Id="menu_stp_stock_text">
+        <String xml:lang="en-US">~b~Stock</String>
+    </Entry>
+
+    <Entry Id="menu_stp_stock_description">
+        <String xml:lang="en-US">Put items here if you want to ~g~sell them ~s~later.</String>
+    </Entry>
+    
+    <Entry Id="menu_stp_inventory_text">
+        <String xml:lang="en-US">Inventory</String>
+    </Entry>
+
+    <Entry Id="menu_stp_inventory_description">
+        <String xml:lang="en-US">Put items here if you want to ~r~use them~s~.</String>
+    </Entry>
+
+    <Entry Id="btn_seller_buy">
+        <String xml:lang="en-US">Buy</String>
+    </Entry>
+
+    <Entry Id="btn_seller_cancel">
+        <String xml:lang="en-US">Cancel</String>
+    </Entry>
+
+    <Entry Id="btn_stp_offer">
+        <String xml:lang="en-US">Offer</String>
+    </Entry>
+
+    <!-- Example: Offer (hold) -->
+    <!-- {0} = Label -->
+    <Entry Id="btn_stp_label_hold">
+        <String xml:lang="en-US">{0} (hold)</String>
+    </Entry>
+
+    <Entry Id="stp_offered">
+        <String xml:lang="en-US">You've offered your ~y~services ~s~to {0}~s~.</String>
+    </Entry>
+
+    <!-- {0} = Button -->
+    <Entry Id="stp_press">
+        <String xml:lang="en-US">Press {0}</String>
+    </Entry>
+
+    <Entry Id="stp_hold">
+        <String xml:lang="en-US">Hold {0}</String>
+    </Entry>
+
+    <!-- {0} = Job name -->
+    <!-- {1} = Player -->
+    <!-- {2} = Input instructions -->
+    <Entry Id="stp_got_offer">
+        <String xml:lang="en-US">{0} {1} ~s~has offered you ~y~their services~s~. {2} to view their menu.</String>
+    </Entry>
+
+    <!-- {0} = Player -->
+    <!-- {1} = Amount -->
+    <!-- {2} = Item unit -->
+    <!-- {3} = Item name -->
+    <!-- {4} = Price -->
+    <Entry Id="stp_sold">
+        <String xml:lang="en-US">You sold {0} ~y~{1}{2} {3}~s~ for ~g~{4}~s~.</String>
+    </Entry>
+
+    <!-- Example: Metallic Black Respray -->
+    <!-- {0} = Color name -->
+    <Entry Id="stp_sold_service_respray">
+        <String xml:lang="en-US">{0} Respray</String>
+    </Entry>
+
+    <!-- {0} = Livery index -->
+    <Entry Id="stp_sold_service_livery">
+        <String xml:lang="en-US">Livery #{0} Respray</String>
+    </Entry>
+
+    <!-- {0} = Player -->
+    <!-- {1} = Service name -->
+    <!-- {2} = Price -->
+    <Entry Id="stp_sold_service">
+        <String xml:lang="en-US">You sold {0} a ~y~{1}~s~ for ~g~{2}~s~.</String>
+    </Entry>
+
+    <!-- {0} = Fee -->
+    <!-- {1} = Profit -->
+    <Entry Id="stp_sold_service_fee">
+        <String xml:lang="en-US">Shop fee: ~r~{0}~s~~n~Total earned: ~g~{1}</String>
+    </Entry>
+
+    <!-- {0} = Player -->
+    <Entry Id="stp_seller_too_far">
+        <String xml:lang="en-US">{0} is ~r~too far ~s~from you.</String>
+    </Entry>
+
+    <!-- {0} = Player -->
+    <Entry Id="menu_stp_seller_subtitle">
+        <String xml:lang="en-US">Buying from {0}</String>
+    </Entry>
+
+    <Entry Id="stp_service_fix_na">
+        <String xml:lang="en-US">UNDAMAGED</String>
+    </Entry>
+
+    <Entry Id="stp_service_wash_na">
+        <String xml:lang="en-US">CLEAN</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_no_tools">
+        <String xml:lang="en-US">~y~This mechanic doesn't have the necessary tools to provide this service.</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_not_certified">
+        <String xml:lang="en-US">~y~This mechanic is not certified to provide this service.</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_no_vehicle">
+        <String xml:lang="en-US">~y~You don't have a vehicle.</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_vehicle_not_owned">
+        <String xml:lang="en-US">~y~You don't own this vehicle.</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_mod_shop">
+        <String xml:lang="en-US">~y~You must be at a mod shop.</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_wanted">
+        <String xml:lang="en-US">~y~You cannot purchase this item when you have an arrest warrant.</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_vehicle_moving">
+        <String xml:lang="en-US">~r~You can't purchase this service when the vehicle is moving.</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_seller_inside">
+        <String xml:lang="en-US">~r~You can't purchase this service when the seller is inside a vehicle.</String>
+    </Entry>
+
+    <Entry Id="stp_item_no_stock">
+        <String xml:lang="en-US">~r~OUT OF STOCK</String>
+    </Entry>
+
+    <Entry Id="stp_item_unit_piece">
+        <String xml:lang="en-US">piece</String>
+    </Entry>
+
+    <!-- Example: Repair a broken car, truck or motorcycle engine on the go.~n~Price: ~b~5000~s~/piece -->
+    <!-- {0} = Item description -->
+    <!-- {1} = Price -->
+    <!-- {2} = Unit -->
+    <Entry Id="stp_item_description">
+        <String xml:lang="en-US">{0}~n~Price: ~b~{1}~s~/{2}</String>
+    </Entry>
+
+    <Entry Id="menu_stp_mods_none_text">
+        <String xml:lang="en-US">No mods available :(</String>
+    </Entry>
+
+    <Entry Id="menu_stp_mods_none_description">
+        <String xml:lang="en-US">~r~There are no mods available for this vehicle model.</String>
+    </Entry>
+
+    <!-- {0} = Livery index -->
+    <Entry Id="menu_stp_liveries_text">
+        <String xml:lang="en-US">Livery #{0}</String>
+    </Entry>
+
+    <Entry Id="menu_stp_liveries_none">
+        <String xml:lang="en-US">There are no ~r~liveries ~s~for this vehicle model.</String>
+    </Entry>
+
+    <Entry Id="menu_stp_liveries_mods">
+        <String xml:lang="en-US">This vehicle has ~y~liveries ~s~as mods.</String>
+    </Entry>
+
+    <Entry Id="stp_vehicle_too_far">
+        <String xml:lang="en-US">~r~The vehicle is too far from you.</String>
+    </Entry>
+
+    <!-- {0} = Amount -->
+    <!-- {1} = Item unit -->
+    <!-- {2} = Item name -->
+    <!-- {3} = Price -->
+    <Entry Id="stp_item_purchased">
+        <String xml:lang="en-US">You've purchased ~y~{0}{1} {2} ~s~for ~r~{3}~s~.</String>
+    </Entry>
+
+    <Entry Id="stp_item_error_too_far">
+        <String xml:lang="en-US">~r~You are too far from the seller!</String>
+    </Entry>
+
+    <!-- {0} = Item name -->
+    <Entry Id="stp_item_error_no_stock">
+        <String xml:lang="en-US">~r~The seller doesn't have enough {0}!</String>
+    </Entry>
+
+    <!-- {0} = Service name -->
+    <Entry Id="stp_service_error_no_stock">
+        <String xml:lang="en-US">~r~The seller doesn't have enough supplies to provide the ~s~{0} ~r~service!</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_not_certified_named">
+        <String xml:lang="en-US">~r~The seller doesn't have the required certification to provide the ~s~{0} ~r~service!</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_rented_vehicle">
+        <String xml:lang="en-US">~r~You cannot modify a rented vehicle!</String>
+    </Entry>
+
+    <Entry Id="stp_services_updated">
+        <String xml:lang="en-US">~r~The seller has updated their prices. The menu has been refreshed.</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Truck Station Menu -->
     <!-- ========================= -->
