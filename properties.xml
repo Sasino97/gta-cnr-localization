@@ -15,6 +15,7 @@
         <String xml:lang="th-TH">คลังสินค้า</String>
         <String xml:lang="zh-Hant">倉庫</String>
         <String xml:lang="fr-FR">Entrepôt</String>
+        <String xml:lang="hi-Latn">Warehouse</String>
     </Entry>
 
     <Entry Id="garage">
@@ -30,6 +31,7 @@
         <String xml:lang="th-TH">โรงรถ</String>
         <String xml:lang="zh-Hant">車庫</String>
         <String xml:lang="fr-FR">Garage</String>
+        <String xml:lang="hi-Latn">Garage</String>
     </Entry>
 
     <!-- ========================= -->
@@ -50,6 +52,7 @@
         <String xml:lang="th-TH">คุณไม่สามารถ ~r~ย้าย ~s~รายการนี้เข้าไปในโกดังได้</String>
         <String xml:lang="zh-Hant">你不能將此物品 ~r~放入 ~s~倉庫.</String>
         <String xml:lang="fr-FR">Tu ne peux pas ~r~déplacer cet ~s~objet dans ton entrepôt.</String>
+        <String xml:lang="hi-Latn">Aap nahi ~r~move ~s~kar sakte ye item ek warehouse mein.</String>
     </Entry>
 
     <Entry Id="warehouse_item_put">
@@ -65,6 +68,7 @@
         <String xml:lang="th-TH">คุณใส่ {0} ~p~{1} ~s~ไว้ในคลังสินค้าของคุณ</String>
         <String xml:lang="zh-Hant">你將 {0} 個 ~p~{1} ~s~放進了你的倉庫.</String>
         <String xml:lang="fr-FR">Tu as déposer {0} ~p~{1} ~s~dans ton entrepôt.</String>
+        <String xml:lang="hi-Latn">Aapne rakha {0} ~p~{1} ~s~apne warehouse mein.</String>
     </Entry>
 
     <Entry Id="warehouse_cant_move_out">
@@ -80,6 +84,7 @@
         <String xml:lang="th-TH">คุณไม่สามารถ ~r~ย้าย ~s~รายการนี้ออกจากคลังสินค้าของคุณได้</String>
         <String xml:lang="zh-Hant">你不能將此物品 ~r~移出 ~s~你的倉庫.</String>
         <String xml:lang="fr-FR">Tu ne peux pas ~r~sortir ~s~cet objet de ton entrepôt.</String>
+        <String xml:lang="hi-Latn">Aap nahi ~r~move ~s~kar sakte ye item apne warehouse se.</String>
     </Entry>
 
     <Entry Id="warehouse_item_taken">
@@ -95,6 +100,7 @@
         <String xml:lang="th-TH">คุณนำ {0} ~p~{1} ~s~จากคลังสินค้าของคุณ</String>
         <String xml:lang="zh-Hant">你將 {0} 個 ~p~{0} ~s~移出你的倉庫了.</String>
         <String xml:lang="fr-FR">Tu as pris {0} ~p~{1} ~s~de ton entrepôt.</String>
+        <String xml:lang="hi-Latn">Aapne liya {0} ~p~{1} ~s~Apne warehouse se.</String>
     </Entry>
 
     <Entry Id="warehouse_player_entered">
@@ -110,6 +116,7 @@
         <String xml:lang="th-TH">(C){0}(/C) ~g~เข้าไปในโกดัง~s~</String>
         <String xml:lang="zh-Hant">(C){0}(/C) ~g~進入倉庫~s~.</String>
         <String xml:lang="fr-FR">(C){0}(/C) ~g~est entrer dans l'entrepôt~s~.</String>
+        <String xml:lang="hi-Latn">(C){0}(/C) ~g~enter kare warehouse~s~.</String>
     </Entry>
 
     <Entry Id="warehouse_player_forcibly_entered_specific">
@@ -125,6 +132,7 @@
         <String xml:lang="th-TH">(C){0}(/C) บังคับให้ป้อน ~y~{1}~s~</String>
         <String xml:lang="zh-Hant">(C){0}(/C) 強行進入了倉庫 ~y~{1}~s~.</String>
         <String xml:lang="fr-FR">(C){0}(/C) est rentré de force ~y~{1}~s~.</String>
+        <String xml:lang="hi-Latn">(C){0}(/C) zabardasti enter kare ~y~{1}~s~.</String>
     </Entry>
 
     <Entry Id="warehouse_player_forcibly_entered">
@@ -140,6 +148,7 @@
         <String xml:lang="th-TH">(C){0}(/C) ~r~บังคับให้เข้าไปใน ~s~โกดัง</String>
         <String xml:lang="zh-Hant">(C){0}(/C) ~r~強行的進入了 ~s~倉庫.</String>
         <String xml:lang="fr-FR">(C){0}(/C) ~r~est rentré de force ~s~dans l'entrepôt.</String>
+        <String xml:lang="hi-Latn">(C){0}(/C) ~r~zabardasti enter kare ~s~warehouse mein.</String>
     </Entry>
 
     <Entry Id="warehouse_dont_have_amount_item">
@@ -155,6 +164,7 @@
         <String xml:lang="th-TH">~r~คุณไม่มีไอเท็มชิ้นนี้จำนวนนั้น!</String>
         <String xml:lang="zh-Hant">~r~你沒有那麼多的物品!</String>
         <String xml:lang="fr-FR">~r~Tu n'as pas assez de cet objet!</String>
+        <String xml:lang="hi-Latn">~r~Aapke paas itne amount ke item nahi hain!</String>
     </Entry>
 
     <Entry Id="warehouse_not_enough_space_left">
@@ -170,6 +180,7 @@
         <String xml:lang="th-TH">~r~มีพื้นที่เหลือไม่เพียงพอ!</String>
         <String xml:lang="zh-Hant">~r~那裏沒有剩下的空間了!</String>
         <String xml:lang="fr-FR">~r~Il n'y as pas assez d'espace!</String>
+        <String xml:lang="hi-Latn">~r~Yaha koi space bachi nahi hai!</String>
     </Entry>
 
     <Entry Id="warehouse_cant_hold_amount">
@@ -185,6 +196,7 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถถือไอเทมชิ้นนี้ได้มากขนาดนั้น!</String>
         <String xml:lang="zh-Hant">~r~你無法持有那麼多的物品!</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas porter autant de cet objet!</String>
+        <String xml:lang="hi-Latn">~r~Aap nahi rakh sakte ek item itne saare!</String>
     </Entry>
 
     <Entry Id="warehouse_dont_have_required_level">
@@ -200,6 +212,7 @@
         <String xml:lang="th-TH">~r~คุณไม่มีระดับที่กำหนดในการซื้อโกดังนี้</String>
         <String xml:lang="zh-Hant">~r~你的等級不足以購買這間倉庫.</String>
         <String xml:lang="fr-FR">~r~Tu n'as pas le niveau requis pour acheter cet entrepôt.</String>
+        <String xml:lang="hi-Latn">~r~Aapke pass required level nahi hai ye warehouse purchase karne ke liye.</String>
     </Entry>
 
     <!-- {0} = Player name -->
@@ -216,6 +229,7 @@
         <String xml:lang="th-TH">คุณเคาะที่โกดังของ {0} รอให้พวกเขาตอบ</String>
         <String xml:lang="zh-Hant">你敲了 {0} 倉庫的門，請等待他回應.</String>
         <String xml:lang="fr-FR">Tu as sonné as l'entrepôt de {0}. Attend sa réponse.</String>
+        <String xml:lang="hi-Latn">Aapne knock kiya {0}'s warehouse. Wait kare unke answer ka.</String>
     </Entry>
 
     <Entry Id="warehouse_knocking_cooldown">
@@ -231,6 +245,7 @@
         <String xml:lang="th-TH">~r~คุณต้องรอก่อนที่จะเคาะอีกครั้ง</String>
         <String xml:lang="zh-Hant">~r~你要需要等一會再敲門.</String>
         <String xml:lang="fr-FR">~r~Tu dois attendre avant de pouvoir sonner à nouveau.</String>
+        <String xml:lang="hi-Latn">~r~Aapko wait karna hoga phir knock karne se pehle.</String>
     </Entry>
 
     <Entry Id="warehouse_entered_players">
@@ -246,6 +261,7 @@
         <String xml:lang="th-TH">คุณ ~b~เข้าไปในโกดังของ {0}</String>
         <String xml:lang="zh-Hant">你 ~b~進入了 {0} 的倉庫.</String>
         <String xml:lang="fr-FR">Tu est ~b~rentré dans l'entrepôt de {0}.</String>
+        <String xml:lang="hi-Latn">Aapne ~b~enter kiya {0}'s warehouse.</String>
     </Entry>
 
     <Entry Id="warehouse_dont_have_warrant">
@@ -261,6 +277,7 @@
         <String xml:lang="th-TH">คุณไม่มี ~o~หมายจับ ~s~เพื่อเข้าสู่โกดังแห่งนี้ คุณสามารถเข้าไปได้ก็ต่อเมื่อคุณพบ ~o~ผู้ต้องสงสัยที่ต้องการ ~s~เข้ามา</String>
         <String xml:lang="zh-Hant">你沒有 ~o~搜查令 ~s~已進入此倉庫，你必須看到一位 ~o~嫌犯 ~s~進入此倉庫才得以進入.</String>
         <String xml:lang="fr-FR">Tu n'as pas de ~o~mandat d'arrêt ~s~pour entrer dans cet entrepôt. Tu peux entrer seulement quand tu as vu un ~o~suspect recherché ~s~entrer.</String>
+        <String xml:lang="hi-Latn">Aap ke paas ~o~warrant ~s~nahi hai warehouse mein ghusne ke liye. Aap enter sirf tab hi kar sakte hain jab aap ek ~o~wanted suspect ~s~ko enter karte dekhte hain toh.</String>
     </Entry>
 
     <Entry Id="warehouse_attempt_cooldown">
@@ -276,6 +293,7 @@
         <String xml:lang="th-TH">~r~คุณต้องรอก่อนที่จะพยายามเข้าอีกครั้ง</String>
         <String xml:lang="zh-Hant">~r~你必須等待一會兒已再次進入.</String>
         <String xml:lang="fr-FR">~r~Tu dois attendre avant de pouvoir entrer à nouveau.</String>
+        <String xml:lang="hi-Latn">~r~Aapko rukna hoga firse enter karne se pehle.</String>
     </Entry>
 
     <Entry Id="warehouse_fell_out_teleport">
@@ -291,6 +309,7 @@
         <String xml:lang="th-TH">คุณตกจากภายในทรัพย์สิน จึงถูกเคลื่อนย้ายกลับเข้าไป</String>
         <String xml:lang="zh-Hant">你掉出了產權外，所以你被傳送回了.</String>
         <String xml:lang="fr-FR">Tu est tombé en dehors de ta propriété, tu as été téléporté de nouveau à l'intérieur.</String>
+        <String xml:lang="hi-Latn">Aap bahar gir gaye thae ek property ke interior se, to aap wapas andar teleport kar diye gaye.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -310,6 +329,7 @@
         <String xml:lang="id-ID">~y~{1}~s~ masuk (C){0}(/C).</String>
         <String xml:lang="th-TH">(C){0}(/C) เข้าสู่ ~y~{1}~s~</String>
         <String xml:lang="fr-FR">(C){0}(/C) est rentrer dans ~y~{1}~s~</String>
+        <String xml:lang="hi-Latn">(C){0}(/C) enter kiye ~y~{1}~s~.</String>
     </Entry>
 
     <Entry Id="garage_dont_have_required_level">
@@ -324,6 +344,7 @@
         <String xml:lang="id-ID">~r~Anda tidak memiliki level yang dibutuhkan untuk membeli garasi ini.</String>
         <String xml:lang="th-TH">~r~คุณไม่ต้องมีเลเวลในการซื้อโรงรถนี้</String>
         <String xml:lang="fr-FR">~r~Tu n'as pas le niveau requis pour acheter ce garage.</String>
+        <String xml:lang="hi-Latn">~r~Aapke paas required level nahi hai ye garage purchase karne ke liye.</String>
     </Entry>
 
     <Entry Id="garage_dont_have_required_membership_tier">
@@ -338,6 +359,7 @@
         <String xml:lang="id-ID">~r~Anda tidak memiliki tingkat keanggotaan yang diperlukan untuk membeli garasi ini.</String>
         <String xml:lang="th-TH">~r~คุณไม่ต้องมีระดับสมาชิกที่ต้องการในการซื้อโรงรถนี้</String>
         <String xml:lang="fr-FR">~r~Tu n'as pas l'abonnement requis pour acheter ce garage.</String>
+        <String xml:lang="hi-Latn">~r~Aapke pass required membership tier nahi hai ye garage purchase karne ke liye.</String>
     </Entry>
 
     <Entry Id="garage_cant_store_vehicle">
@@ -352,6 +374,7 @@
         <String xml:lang="id-ID">~r~Anda tidak dapat menaruh kendaraan ini kedalam garasi.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถเก็บรถคันนี้ไว้ในโรงรถได้</String>
         <String xml:lang="fr-FR">~r~Tu ne peut pas stocker ce véhicule dans le garage.</String>
+        <String xml:lang="hi-Latn">~r~Aap vehicles store nahi kar sakte is garage mein.</String>
     </Entry>
 
     <Entry Id="garage_stolen_vehicle_parked">
@@ -366,6 +389,7 @@
         <String xml:lang="id-ID">Kendaraan ~r~curian ini ~s~sudah terparkir didalam ~y~garasi~s~.</String>
         <String xml:lang="th-TH">~r~ยานพาหนะที่ถูกขโมย ~s~นี้จอดอยู่ใน ~y~โรงรถ~s~ ของคุณ</String>
         <String xml:lang="fr-FR">Ce ~r~véhicule volé ~s~as été stocké dans ton ~y~garage~s~.</String>
+        <String xml:lang="hi-Latn">Ye ~r~churayi hui vehicle ~s~park ho hai aapke ~y~garage ~s~mein.</String>
     </Entry>
 
     <Entry Id="garage_personal_vehicle_returned">
@@ -380,6 +404,7 @@
         <String xml:lang="id-ID">~b~Kendaraan personal ini ~s~sudah dikembalikan ke ~y~garasi~s~.</String>
         <String xml:lang="th-TH">~b~ยานพาหนะส่วนตัว ~s~นี้ได้ถูกส่งคืนไปยัง ~y~โรงรถ~s~ ของคุณแล้ว</String>
         <String xml:lang="fr-FR">Ce ~b~véhicule personel ~s~as été retourner dans ton ~y~garage~s~.</String>
+        <String xml:lang="hi-Latn">Ye ~b~personal vehicle ~s~park ho hai aapke ~y~garage ~s~mein.</String>
     </Entry>
 
     <Entry Id="garage_personal_vehicle_moved">
@@ -394,6 +419,7 @@
         <String xml:lang="id-ID">~b~Kendaraan personal ini ~s~telah dipindahkan ke ~y~garasi~s~ ini.</String>
         <String xml:lang="th-TH">~b~ยานพาหนะส่วนตัว ~s~นี้ถูกย้ายไปที่ ~y~โรงรถ~s~ แล้ว</String>
         <String xml:lang="fr-FR">Ce ~b~véhicule personel ~s~as été déplacer à ce ~y~garage~s~.</String>
+        <String xml:lang="hi-Latn">Ye ~b~personal vehicle ~s~move kar di gayi hai aapke ~y~garage ~s~mein.</String>
         
     </Entry>
 
@@ -423,6 +449,7 @@
         <String xml:lang="id-ID">~r~Anda tidak dapat memarkir kendaraan orang lain kedalam garasi.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถจอดรถของคนอื่นในโรงรถได้</String>
         <String xml:lang="fr-FR">~r~You cannot park someone else's vehicle in a garage.</String>
+        <String xml:lang="hi-Latn">~r~Aap doosre ke garage mein apni gaadi park nahi kar sakte.</String>
     </Entry>
 
     <Entry Id="garage_full">
@@ -436,6 +463,7 @@
         <String xml:lang="ar-001">~r~الجراج الخاص بك ممتلئ.</String>
         <String xml:lang="id-ID">~r~Garasi anda sudah penuh.</String>
         <String xml:lang="th-TH">~r~โรงรถของคุณเต็มแล้ว</String>
+        <String xml:lang="hi-Latn">~r~Aapka garage full hai.</String>
     </Entry>
 
     <Entry Id="garage_cant_take_vehicle_out_current_job">
@@ -449,6 +477,7 @@
         <String xml:lang="ar-001">~r~لا يمكنك إخراج المركبات من الجراج في وظيفتك الحالية.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat mengambil kendaraan ini dengan pekerjaan anda saat ini.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถนำยานพาหนะออกจากโรงรถในงานปัจจุบันของคุณได้</String>
+        <String xml:lang="hi-Latn">~r~Aap apni current job mein vehicles bahar nahi nikaal sakte garage se.</String>
     </Entry>
 
     <Entry Id="vehicle_gps_set">
@@ -462,6 +491,7 @@
         <String xml:lang="ar-001">~r~يجب أن تكون في السيارة لتتمكن من ضبط نظام تحديد المواقع العالمي (GPS).</String>
         <String xml:lang="id-ID">~r~Anda harus berada didalam kendaran untuk menandai di GPS</String>
         <String xml:lang="th-TH">~r~คุณต้องอยู่ในยานพาหนะเพื่อตั้งค่า GPS</String>
+        <String xml:lang="hi-Latn">~r~Aapko vehicle ke andar hona hoga gps set karne ke liye.</String>
     </Entry>
 
     <!-- {0} = Property name (warehouse; garage; ...) -->
@@ -489,6 +519,7 @@
         <String xml:lang="ar-001">لقد قمت بشراء ~y~{0} ~s~لـ ~g~{1}~s~.</String>
         <String xml:lang="id-ID">Anda telah membeli ~y~{0} ~s~seharga ~g~{1}~s~.</String>
         <String xml:lang="th-TH">คุณซื้อ ~y~{0} ~s~สำหรับ ~g~{1}~s~</String>
+        <String xml:lang="hi-Latn">Aapne purchase kiya ~y~{0} ~s~for ~g~{1}~s~.</String>
     </Entry>
 
     <!-- {0} = Property name (warehouse; garage; ...) -->
@@ -503,6 +534,7 @@
         <String xml:lang="ar-001">~r~غير مصرح لك بإدخال هذا {0}.</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki otoritas untuk memasuki ini {0}.</String>
         <String xml:lang="th-TH">~r~คุณไม่ได้รับอนุญาตให้เข้าสู่ {0} นี้</String>
+        <String xml:lang="hi-Latn">~r~Aap authorized nahi hain yaha enter karne ke liye {0}.</String>
     </Entry>
 
     <Entry Id="property_owner_offline">
@@ -516,6 +548,7 @@
         <String xml:lang="ar-001">~r~مالك هذا {0} غير متصل.</String>
         <String xml:lang="id-ID">~r~Pemilik properti ini {0} sedang offline.</String>
         <String xml:lang="th-TH">~r~เจ้าของ {0} นี้อยู่ในสถานะออฟไลน์</String>
+        <String xml:lang="hi-Latn">~r~Is ke owner {0} offline hain.</String>
     </Entry>
 
     <!-- {0} = Player's name -->
@@ -531,6 +564,7 @@
         <String xml:lang="ar-001">{0} ~s~يطرق على ~y~{1}~s~.</String>
         <String xml:lang="id-ID">{0} sedang mengetuk di ~y~{1}~s~.</String>
         <String xml:lang="th-TH">{0} ~s~กำลังเคาะที่ ~y~{1}~s~</String>
+        <String xml:lang="hi-latn">{0} ~s~knock kar rahe hain at ~y~{1}~s~.</String>
     </Entry>
 
     <!-- {0} = Player's name -->
@@ -545,6 +579,7 @@
         <String xml:lang="ar-001">لقد أجبت {0}~s~.</String>
         <String xml:lang="id-ID">Anda telah menjawab {0}~s~.</String>
         <String xml:lang="th-TH">คุณตอบ {0}~s~</String>
+        <String xml:lang="hi-Latn">Aapne answer kiya {0}~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -572,6 +607,7 @@
         <String xml:lang="ar-001">عرض الممتلكات الخاصة بك</String>
         <String xml:lang="id-ID">Melihat properti anda</String>
         <String xml:lang="th-TH">ดูคุณสมบัติของคุณ</String>
+        <String xml:lang="hi-Latn">View kare apni properties</String>
     </Entry>
 
     <!-- ========================= -->
@@ -599,6 +635,7 @@
         <String xml:lang="ar-001">اختر جراج</String>
         <String xml:lang="id-ID">Pilih garasi</String>
         <String xml:lang="th-TH">เลือกโรงรถ</String>
+        <String xml:lang="hi-Latn">Select kare ek garage</String>
     </Entry>
 
 </Entries>
