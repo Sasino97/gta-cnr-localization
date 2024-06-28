@@ -1236,49 +1236,60 @@
 
     <Entry Id="menu_stp_stock_text">
         <String xml:lang="en-US">~b~Stock</String>
+        <String xml:lang="nl-NL">~b~Opslag</String>
     </Entry>
 
     <Entry Id="menu_stp_stock_description">
         <String xml:lang="en-US">Put items here if you want to ~g~sell them ~s~later.</String>
+        <String xml:lang="nl-NL">Sla hier je voorwerpen op als je ze later ~g~wilt verkopen~s~.</String>
     </Entry>
     
     <Entry Id="menu_stp_inventory_text">
         <String xml:lang="en-US">Inventory</String>
+        <String xml:lang="nl-NL">Inventaris</String>
     </Entry>
 
     <Entry Id="menu_stp_inventory_description">
         <String xml:lang="en-US">Put items here if you want to ~r~use them~s~.</String>
+        <String xml:lang="nl-NL">Zet hier je voorwerpen neer als je ze ~r~wilt gebruiken~s~.</String>
     </Entry>
 
     <Entry Id="btn_seller_buy">
         <String xml:lang="en-US">Buy</String>
+        <String xml:lang="nl-NL">Koop</String>
     </Entry>
 
     <Entry Id="btn_seller_cancel">
         <String xml:lang="en-US">Cancel</String>
+        <String xml:lang="nl-NL">Annuleer</String>
     </Entry>
 
     <Entry Id="btn_stp_offer">
         <String xml:lang="en-US">Offer</String>
+        <String xml:lang="nl-NL">Aanbieden</String>
     </Entry>
 
     <!-- Example: Offer (hold) -->
     <!-- {0} = Label -->
     <Entry Id="btn_stp_label_hold">
         <String xml:lang="en-US">{0} (hold)</String>
+        <String xml:lang="nl-NL">{0} (vasthouden)</String>
     </Entry>
 
     <Entry Id="stp_offered">
         <String xml:lang="en-US">You've offered your ~y~services ~s~to {0}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt je ~y~diensten ~s~aangeboden aan {0}~s~.</String>
     </Entry>
 
     <!-- {0} = Button -->
     <Entry Id="stp_press">
         <String xml:lang="en-US">Press {0}</String>
+        <String xml:lang="nl-NL">Druk {0}</String>
     </Entry>
 
     <Entry Id="stp_hold">
         <String xml:lang="en-US">Hold {0}</String>
+        <String xml:lang="nl-NL">Houdt {0} vast</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -1286,6 +1297,7 @@
     <!-- {2} = Input instructions -->
     <Entry Id="stp_got_offer">
         <String xml:lang="en-US">{0} {1} ~s~has offered you ~y~their services~s~. {2} to view their menu.</String>
+        <String xml:lang="nl-NL">{0} {1} ~s~heeft je ~y~zijn/haar diensten~s~ aangeboden. {2} om het menu te bekijken.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1295,17 +1307,20 @@
     <!-- {4} = Price -->
     <Entry Id="stp_sold">
         <String xml:lang="en-US">You sold {0} ~y~{1}{2} {3}~s~ for ~g~{4}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt {0} ~y~{1}{2} {3}~s~ verkocht voor ~g~{4}~s~.</String>
     </Entry>
 
     <!-- Example: Metallic Black Respray -->
     <!-- {0} = Color name -->
     <Entry Id="stp_sold_service_respray">
         <String xml:lang="en-US">{0} Respray</String>
+        <String xml:lang="nl-NL">{0} Kleur</String> <!-- ???? -->
     </Entry>
 
     <!-- {0} = Livery index -->
     <Entry Id="stp_sold_service_livery">
         <String xml:lang="en-US">Livery #{0} Respray</String>
+        <String xml:lang="nl-NL">Livery #{0} Respray</String> <!-- ???? -->
     </Entry>
 
     <!-- {0} = Player -->
@@ -1313,70 +1328,89 @@
     <!-- {2} = Price -->
     <Entry Id="stp_sold_service">
         <String xml:lang="en-US">You sold {0} a ~y~{1}~s~ for ~g~{2}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt {0} een ~y~{1}~s~ verkocht voor ~g~{2}~s~.</String>
     </Entry>
 
     <!-- {0} = Fee -->
     <!-- {1} = Profit -->
     <Entry Id="stp_sold_service_fee">
         <String xml:lang="en-US">Shop fee: ~r~{0}~s~~n~Total earned: ~g~{1}</String>
+        <String xml:lang="nl-NL">Locatie kosten: ~r~{0}~s~~n~Totaal verdient: ~g~{1}</String>
     </Entry>
 
     <!-- {0} = Player -->
     <Entry Id="stp_seller_too_far">
         <String xml:lang="en-US">{0} is ~r~too far ~s~from you.</String>
+        <String xml:lang="nl-NL">{0} is ~r~te ver weg ~s~van jou.</String>
     </Entry>
 
     <!-- {0} = Player -->
     <Entry Id="menu_stp_seller_subtitle">
         <String xml:lang="en-US">Buying from {0}</String>
+        <String xml:lang="nl-NL">Aan het kopen van {0}</String>
     </Entry>
 
     <Entry Id="stp_service_fix_na">
         <String xml:lang="en-US">UNDAMAGED</String>
+        <String xml:lang="nl-NL">NIET BESCHADIGD</String>
     </Entry>
 
     <Entry Id="stp_service_wash_na">
         <String xml:lang="en-US">CLEAN</String>
+        <String xml:lang="nl-NL">SCHOON</String>
     </Entry>
 
     <Entry Id="stp_service_error_no_tools">
         <String xml:lang="en-US">~y~This mechanic doesn't have the necessary tools to provide this service.</String>
+        <String xml:lang="nl-NL">~y~Deze monteur heeft niet de juiste gereedschappen om deze dienst te verlenen.</String>
     </Entry>
 
     <Entry Id="stp_service_error_not_certified">
         <String xml:lang="en-US">~y~This mechanic is not certified to provide this service.</String>
+        <String xml:lang="nl-NL">~y~Deze monteur is niet gecertificeerd om deze diensten te verlenen.</String>
     </Entry>
 
     <Entry Id="stp_service_error_no_vehicle">
         <String xml:lang="en-US">~y~You don't have a vehicle.</String>
+        <String xml:lang="nl-NL">~y~Je hebt geen voertuig.</String>
     </Entry>
 
     <Entry Id="stp_service_error_vehicle_not_owned">
         <String xml:lang="en-US">~y~You don't own this vehicle.</String>
+        <String xml:lang="nl-NL">~y~Je bent niet de eigenaar van dit voertuig.</String>
     </Entry>
 
     <Entry Id="stp_service_error_mod_shop">
         <String xml:lang="en-US">~y~You must be at a mod shop.</String>
+        <String xml:lang="nl-NL">~y~Je moet bij een mod shop zijn.</String>
     </Entry>
 
     <Entry Id="stp_service_error_wanted">
         <String xml:lang="en-US">~y~You cannot purchase this item when you have an arrest warrant.</String>
+        <String xml:lang="nl-NL">~y~Je kan dit voorwerp niet kopen wanneer je gezocht bent.</String>
     </Entry>
 
     <Entry Id="stp_service_error_vehicle_moving">
         <String xml:lang="en-US">~r~You can't purchase this service when the vehicle is moving.</String>
+        <String xml:lang="nl-NL">~r~Je kan deze dienst niet kopen wanneer het voertuig aan het bewegen is.</String>
     </Entry>
 
     <Entry Id="stp_service_error_seller_inside">
         <String xml:lang="en-US">~r~You can't purchase this service when the seller is inside a vehicle.</String>
+        <String xml:lang="nl-NL">~r~Je kan deze dienst niet kopen wanneer de verkoper in een voertuig is.</String>
     </Entry>
 
     <Entry Id="stp_item_no_stock">
         <String xml:lang="en-US">~r~OUT OF STOCK</String>
+        <String xml:lang="nl-NL">~r~GEEN VOORRAAD</String>
     </Entry>
 
+    <!--
+        [!!] Context needed for accurate translation
+    -->
     <Entry Id="stp_item_unit_piece">
         <String xml:lang="en-US">piece</String>
+        <String xml:lang="nl-NL">eenheid</String>
     </Entry>
 
     <!-- Example: Repair a broken car, truck or motorcycle engine on the go.~n~Price: ~b~5000~s~/piece -->
@@ -1385,31 +1419,38 @@
     <!-- {2} = Unit -->
     <Entry Id="stp_item_description">
         <String xml:lang="en-US">{0}~n~Price: ~b~{1}~s~/{2}</String>
+        <String xml:lang="nl-NL">{0}~n~Prijs: ~b~{1}~s~/{2}</String>
     </Entry>
 
     <Entry Id="menu_stp_mods_none_text">
         <String xml:lang="en-US">No mods available :(</String>
+        <String xml:lang="nl-NL">Geen aanpassingen beschikbaar :(</String>
     </Entry>
 
     <Entry Id="menu_stp_mods_none_description">
         <String xml:lang="en-US">~r~There are no mods available for this vehicle model.</String>
+        <String xml:lang="nl-NL">~r~Er zijn geen aanpassingen beschikbaar voor dit voertuig model.</String>
     </Entry>
 
     <!-- {0} = Livery index -->
     <Entry Id="menu_stp_liveries_text">
         <String xml:lang="en-US">Livery #{0}</String>
+        <String xml:lang="nl-NL">Livery #{0}</String>
     </Entry>
 
     <Entry Id="menu_stp_liveries_none">
         <String xml:lang="en-US">There are no ~r~liveries ~s~for this vehicle model.</String>
+        <String xml:lang="nl-NL">Er zijn geen ~r~liveries ~s~voor dit voertuig model.</String>
     </Entry>
 
     <Entry Id="menu_stp_liveries_mods">
         <String xml:lang="en-US">This vehicle has ~y~liveries ~s~as mods.</String>
+        <String xml:lang="nl-NL">Dit voertuig heeft ~y~liveries ~s~als aanpassingen.</String> <!-- ???? -->
     </Entry>
 
     <Entry Id="stp_vehicle_too_far">
         <String xml:lang="en-US">~r~The vehicle is too far from you.</String>
+        <String xml:lang="nl-NL">~r~Het voertuig is te ver weg van jou.</String>
     </Entry>
 
     <!-- {0} = Amount -->
@@ -1418,32 +1459,39 @@
     <!-- {3} = Price -->
     <Entry Id="stp_item_purchased">
         <String xml:lang="en-US">You've purchased ~y~{0}{1} {2} ~s~for ~r~{3}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt ~y~{0}{1} {2} ~s~gekocht voor ~r~{3}~s~.</String>
     </Entry>
 
     <Entry Id="stp_item_error_too_far">
         <String xml:lang="en-US">~r~You are too far from the seller!</String>
+        <String xml:lang="nl-NL">~r~Je bent te ver weg van de verkoper!</String>
     </Entry>
 
     <!-- {0} = Item name -->
     <Entry Id="stp_item_error_no_stock">
         <String xml:lang="en-US">~r~The seller doesn't have enough {0}!</String>
+        <String xml:lang="nl-NL">~r~De verkoper heeft niet genoeg {0}!</String>
     </Entry>
 
     <!-- {0} = Service name -->
     <Entry Id="stp_service_error_no_stock">
         <String xml:lang="en-US">~r~The seller doesn't have enough supplies to provide the ~s~{0} ~r~service!</String>
+        <String xml:lang="nl-NL">~r~De verkoper heeft niet genoeg voorraad om de ~s~{0} ~r~dienst te verlenen!</String>
     </Entry>
 
     <Entry Id="stp_service_error_not_certified_named">
         <String xml:lang="en-US">~r~The seller doesn't have the required certification to provide the ~s~{0} ~r~service!</String>
+        <String xml:lang="nl-NL">~r~De verkoper heeft niet de benodigde certificaten om de ~s~{0} ~r~dienst te verlenen!</String>
     </Entry>
 
     <Entry Id="stp_service_error_rented_vehicle">
         <String xml:lang="en-US">~r~You cannot modify a rented vehicle!</String>
+        <String xml:lang="nl-NL">~r~Je kan een gehuurd voertuig niet bewerken!</String>
     </Entry>
 
     <Entry Id="stp_services_updated">
         <String xml:lang="en-US">~r~The seller has updated their prices. The menu has been refreshed.</String>
+        <String xml:lang="nl-NL">~r~De verkoper heeft zijn prijzen aangepast. Het menu is ververst.</String>
     </Entry>
 
     <!-- ========================= -->
