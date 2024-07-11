@@ -888,6 +888,10 @@
         <String xml:lang="tr-TR">~r~Bir başkasının plakasını değiştiremezsiniz!</String>
     </Entry>
 
+    <Entry Id="mechanic_vehicle_repair_in_progress">
+        <String xml:lang="en-US">Your vehicle is being ~g~repaired~s~. Don't ~r~move ~s~the vehicle!</String>
+    </Entry>
+
     <Entry Id="mechanic_vehicle_repaired">
         <String xml:lang="en-US">Your vehicle has been ~g~repaired~s~.</String>
         <String xml:lang="nl-NL">Je voertuig is ~g~gerepareerd~s~.</String>
@@ -934,6 +938,37 @@
         <String xml:lang="ar-001">~r~تم إصلاح هذه السيارة مؤخرًا.</String>
         <String xml:lang="id-ID">~r~Kendaraan ini baru saja diperbaiki.</String>
         <String xml:lang="tr-TR">~r~Bu araç çok yakın zamanda tamir edildi.</String>
+    </Entry>
+
+    <Entry Id="mechanic_repair_canceled">
+        <String xml:lang="en-US">~r~The repair has been canceled.</String>
+    </Entry>
+
+    <Entry Id="mechanic_full_repair">
+        <String xml:lang="en-US">Full repair</String>
+    </Entry>
+
+    <!-- {0} = seconds needed for the repair -->
+    <Entry Id="mechanic_full_repair_desc">
+        <String xml:lang="en-US">Fully repair your vehicle. Time: ~b~{0} seconds~s~.</String>
+    </Entry>
+
+    <Entry Id="mechanic_quick_repair">
+        <String xml:lang="en-US">Quick fix</String>
+    </Entry>
+
+    <!-- {0} = seconds needed for the repair -->
+    <Entry Id="mechanic_quick_repair_desc">
+        <String xml:lang="en-US">Quickly fix your vehicle's engine up to 75% health. Time: ~b~{0} seconds~s~.</String>
+    </Entry>
+
+    <Entry Id="mechanic_tire_repair">
+        <String xml:lang="en-US">Fix tires</String>
+    </Entry>
+
+    <!-- {0} = seconds needed for the repair -->
+    <Entry Id="mechanic_tire_repair_desc">
+        <String xml:lang="en-US">Replace your vehicle's tires. Time: ~b~{0} seconds~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_cant_impound_vehicle">
