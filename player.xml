@@ -1458,6 +1458,7 @@
 
     <Entry Id="menu_trading_current_state">
         <String xml:lang="en-US">State: {0}</String>
+        <String xml:lang="nl-NL">Status: {0}</String>
     </Entry>
 
     <Entry Id="menu_trading_title">
@@ -1524,6 +1525,7 @@
 
     <Entry Id="trading_other_confirmed">
         <String xml:lang="en-US">{0} has confirmed the trade.</String>
+        <String xml:lang="nl-NL">{0} heeft de ruil bevestigd.</String>
     </Entry>
 
     <Entry Id="menu_trading_cash_label">
@@ -1548,37 +1550,46 @@
 
     <Entry Id="trading_response_success">
         <String xml:lang="en-US">Trade completed.</String>
+        <String xml:lang="nl-NL">Ruilen voltooid.</String>
     </Entry>
 
     <Entry Id="trading_response_amount">
         <String xml:lang="en-US">~r~Insufficient amount to complete the trade.</String>
+        <String xml:lang="nl-NL">~r~Aantal onvoldoende om de transactie te voltooien.</String>
     </Entry>
 
     <Entry Id="trading_response_item">
         <String xml:lang="en-US">~r~Invalid item was found in the trade.</String>
+        <String xml:lang="nl-NL">~r~Ongeldig voorwerp gevonden in transactie.</String>
     </Entry>
 
     <Entry Id="trading_response_item_limit">
         <String xml:lang="en-US">~r~Item limit reached, cannot complete the trade.</String>
+        <String xml:lang="nl-NL">~r~Voorwerp limiet bereikt, kan de transactie niet voltooien.</String>
     </Entry>
 
     <Entry Id="trading_response_not_transferable">
         <String xml:lang="en-US">~r~Item is not transferable.</String>
+        <String xml:lang="nl-NL">~r~Dit voorwerp mag je niet ruilen.</String>
     </Entry>
 
     <Entry Id="trading_response_job">
         <String xml:lang="en-US">~r~Job not allowed to perform trade on this item.</String>
+        <String xml:lang="nl-NL">~r~Je mag dit voorwerp niet ruilen met huidige baan.</String>
     </Entry>
 
     <Entry Id="trading_response_no_space">
         <String xml:lang="en-US">~r~No space left to complete the trade.</String>
+        <String xml:lang="nl-NL">~r~Geen ruimte meer om de transactie te voltooien.</String>
     </Entry>
 
     <Entry Id="trading_response_transfer_limit">
         <String xml:lang="en-US">~r~Money transfer limit of {0} or cooldown has been reached.</String>
+        <String xml:lang="nl-NL">~r~Geldoverdrachtlimiet van {0} bereikt of afkoelperiode is nog niet verstreken.</String>
     </Entry>
 
     <Entry Id="trading_response_transaction">
         <String xml:lang="en-US">~r~Transaction error occurred.</String>
+        <String xml:lang="nl-NL">~r~Transactiefout opgetreden.</String>
     </Entry>
 </Entries>
