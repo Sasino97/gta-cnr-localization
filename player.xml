@@ -1526,4 +1526,40 @@
     <Entry Id="menu_trading_add_purchaseable">
         <String xml:lang="en-US">Add Purchaseable</String>
     </Entry>
+
+    <Entry Id="trading_response_success">
+        <String xml:lang="en-US">Trade completed.</String>
+    </Entry>
+
+    <Entry Id="trading_response_amount">
+        <String xml:lang="en-US">~r~Insufficient amount to complete the trade.</String>
+    </Entry>
+
+    <Entry Id="trading_response_item">
+        <String xml:lang="en-US">~r~Invalid item was found in the trade.</String>
+    </Entry>
+
+    <Entry Id="trading_response_item_limit">
+        <String xml:lang="en-US">~r~Item limit reached, cannot complete the trade.</String>
+    </Entry>
+
+    <Entry Id="trading_response_not_transferable">
+        <String xml:lang="en-US">~r~Item is not transferable.</String>
+    </Entry>
+
+    <Entry Id="trading_response_job">
+        <String xml:lang="en-US">~r~Job not allowed to perform trade on this item.</String>
+    </Entry>
+
+    <Entry Id="trading_response_no_space">
+        <String xml:lang="en-US">~r~No space left to complete the trade.</String>
+    </Entry>
+
+    <Entry Id="trading_response_transfer_limit">
+        <String xml:lang="en-US">~r~Money transfer limit of {0} or cooldown has been reached.</String>
+    </Entry>
+
+    <Entry Id="trading_response_transaction">
+        <String xml:lang="en-US">~r~Transaction error occurred.</String>
+    </Entry>
 </Entries>
