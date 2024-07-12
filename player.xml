@@ -1453,6 +1453,10 @@
         <String xml:lang="en-US">Finalized</String>
     </Entry>
 
+    <Entry Id="menu_trading_current_state">
+        <String xml:lang="en-US">State: {0}</String>
+    </Entry>
+
     <Entry Id="menu_trading_title">
         <String xml:lang="en-US">Trading</String>
     </Entry>
@@ -1501,6 +1505,10 @@
     <!-- {1} = Input instructions -->
     <Entry Id="trading_got_offer">
         <String xml:lang="en-US">{0} sent you a trade request. {1} to view trading menu.</String>
+    </Entry>
+
+    <Entry Id="trading_other_confirmed">
+        <String xml:lang="en-US">{0} has confirmed the trade.</String>
     </Entry>
 
     <Entry Id="menu_trading_cash_label">
