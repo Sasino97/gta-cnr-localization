@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Entries>
+    <Entry Id="jobs_switch_to">
+        <String xml:lang="en-US">Switch to {0}</String>
+    </Entry>
+
+    <Entry Id="jobs_switch_to_description">
+        <String xml:lang="en-US">Save your current job progress and become a {0}.</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Job requirements -->
     <!-- {0} = required level -->
@@ -844,6 +852,10 @@
         <String xml:lang="tr-TR">Çekici Ofisine ~g~{0} ~s~ödediniz.. ~b~{1} ~s~garajınıza geri getirildi.</String>
     </Entry>
 
+    <Entry Id="mechanic_cert_obtained">
+        <String xml:lang="en-US">You obtained a ~b~{0}~s~!</String>
+    </Entry>
+
     <Entry Id="mechanic_dont_have_vehicle_repair">
         <String xml:lang="en-US">~r~You don't have a vehicle to repair!</String>
         <String xml:lang="nl-NL">~r~Je hebt geen voertuig om te repareren!</String>
@@ -874,6 +886,10 @@
         <String xml:lang="ar-001">~r~ليس لديك سيارة!</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki kendaraan!</String>
         <String xml:lang="tr-TR">~r~Aracınız yok!</String>
+    </Entry>
+
+    <Entry Id="mechanic_invalid_type">
+        <String xml:lang="en-US">~r~This type of vehicle cannot be repaired here!</String>
     </Entry>
 
     <Entry Id="mechanic_cant_change_plate_others">
@@ -1047,6 +1063,14 @@
         <String xml:lang="id-ID">(C)Mekanik:(/C) ~s~perbaiki dan modifikasi ~y~kendaraan ~s~pemain untuk mendapatkan uang.</String>
     </Entry>
 
+    <Entry Id="mechanic_plate_input_title">
+        <String xml:lang="en-US">Vanity plate</String>
+    </Entry>
+
+    <Entry Id="mechanic_plate_input_text">
+        <String xml:lang="en-US">Enter a vanity license plate for this vehicle.\nWarning: when you obtain a license plate, you only own it on the current region (US or EU). When you join another region, the server tries to transfer it there, however, if it's already in use it won't be transferred.</String>
+    </Entry>
+
     <Entry Id="mechanic_plate_word">
         <String xml:lang="en-US">~r~Your license plate cannot contain that word.</String>
         <String xml:lang="it-IT">~r~La tua targa non può contenere certe parole.</String>
@@ -1110,6 +1134,10 @@
         <String xml:lang="th-TH">~p~ป้ายทะเบียนโต๊ะเครื่องแป้งของคุณได้รับการตั้งค่าเป็น ~s~{0} ~p~และบันทึกไว้แล้ว</String>
         <String xml:lang="ar-001">~p~تم تعيين لوحة الترخيص الخاصة بك على ~s~{0} ~p~وتم حفظها.</String>
         <String xml:lang="id-ID">~p~Plat nomer custom anda telah diganti menjadi ~s~{0} ~p~dan berhasil disimpan.</String>
+    </Entry>
+
+    <Entry Id="mechanic_plate_stolen_car">
+        <String xml:lang="en-US">~r~You cannot change the license plate of a stolen vehicle.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_rented_car">
