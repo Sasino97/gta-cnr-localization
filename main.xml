@@ -45,7 +45,7 @@
         <String xml:lang="it-IT">Premi F8 per dettagli.</String>
         <String xml:lang="de-DE">Drücke F8 für weitere Informationen.</String>
         <String xml:lang="nl-NL">Druk F8 voor details.</String>
-        <String xml:lang="fr-FR">Appuie sur F8 pour les détails.</String>
+        <String xml:lang="fr-FR">Appuie sur F8 pour plus de détails.</String>
         <String xml:lang="pl-PL">Kliknij F8 dla szczegółow.</String>
         <String xml:lang="tr-TR">Ayrıntılar için F8'e basın.</String>
         <String xml:lang="zh-Hant">按下F8查看詳情.</String>
@@ -61,6 +61,7 @@
     <Entry Id="unexpected_error_robbery_canceled">
         <String xml:lang="en-US">~r~An unexpected error has occurred on the server and the robbery has been canceled.</String>
         <String xml:lang="nl-NL">~r~Er is een onverwachte fout opgetreden op de server en de overval is geannuleerd.</String>
+        <String xml:lang="fr-FR">~r~Une erreur inattendue s'est produite sur le serveur et le braquage a été annulé.</String>
         <String xml:lang="it-IT">~r~Si è verificato un errore inaspettato sul server e la rapina è stata anullata.</String>
         <String xml:lang="de-DE">~r~Ein unerwarteter Fehler ist auf dem Server aufgetreten und der Überfall wurde abgebrochen!</String>
         <String xml:lang="es-ES">~r~Ha ocurrido un error inesperado en el servidor y el robo ha sido cancelado.</String>
@@ -76,6 +77,7 @@
     <Entry Id="invalid_item">
         <String xml:lang="en-US">~r~Invalid item.</String>
         <String xml:lang="nl-NL">~r~Ongeldig item.</String>
+        <String xml:lang="fr-FR">~r~Objet invalide.</String>
         <String xml:lang="it-IT">~r~Oggetto non valido.</String>
         <String xml:lang="de-DE">~r~Ungültiger Gegenstand.</String>
         <String xml:lang="es-ES">~r~Artículo no válido.</String>
@@ -91,6 +93,7 @@
     <Entry Id="error_loading_loadout">
         <String xml:lang="en-US">~r~Warning: ~s~there was an error loading your loadout. Re-logging may fix this problem.</String>
         <String xml:lang="nl-NL">~r~Waarschuwing: ~s~er was een probleem tijdens het laden van je uitrusting. Reloggen kan mogelijk dit probleem oplossen.</String>
+        <String xml:lang="fr-FR">~r~Avertissement : ~s~il y a eu une erreur lors du chargement de ton équipement. La reconnexion peut résoudre ce problème.</String>
         <String xml:lang="it-IT">~r~Attenzione: ~s~Si è verificato un errore caricando il tuo equipaggiamento. Ri-entrare potrebbe risolvere il problema.</String>
         <String xml:lang="pl-PL">~r~Ostrzeżenie: ~s~wystąpił błąd wczytując twoje uzbrojenie. Ponowne zalogowanie może naprawić ten problem.</String>
         <String xml:lang="es-ES">~r~Atencion: ~s~hubo un error al cargar tu equipo. Salir y entrar al servidor puede solucionar este problema.</String>
@@ -106,18 +109,21 @@
     <Entry Id="error_loading_purchase_data">
         <String xml:lang="en-US">Unable to load your purchase data.</String>
         <String xml:lang="nl-NL">Fout tijdens het laden van je aankoop gegevens.</String>
+        <String xml:lang="fr-FR">Impossible de charger tes données d'achat.</String>
         <String xml:lang="hi-Latn">Aapka purchase data load nahi ho pa raha hai.</String>
     </Entry>
 
     <Entry Id="error_loading_subscription_data">
         <String xml:lang="en-US">Unable to load your subscription data.</String>
         <String xml:lang="nl-NL">Fout tijdens het laden van je abonnement gegevens.</String>
+        <String xml:lang="fr-FR">Impossible de charger tes données d'abonnement.</String>
         <String xml:lang="hi-Latn">Aapka subscription data load nahi ho pa raha hai.</String>
     </Entry>
 
     <Entry Id="menu_error_item">
         <String xml:lang="en-US">~r~Error!</String>
         <String xml:lang="nl-NL">~r~Fout!</String>
+        <String xml:lang="fr-FR">~r~Erreur!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -144,6 +150,7 @@
     <Entry Id="attention">
         <String xml:lang="en-US">Attention</String>
         <String xml:lang="nl-NL">Waarschuwing</String>
+        <String xml:lang="fr-FR">Avertissement</String>
         <String xml:lang="it-IT">Attenzione</String>
         <String xml:lang="pl-PL">Ostrzeżenie</String>
         <String xml:lang="es-ES">Atencion</String>
@@ -177,7 +184,7 @@
         <String xml:lang="it-IT">~r~Ci dispiace, questa funzione non è ancora stata implementata!</String>
         <String xml:lang="de-DE">~r~Sorry, diese Funktion wurde noch nicht eingebaut!</String>
         <String xml:lang="nl-NL">~r~Sorry, deze functie is nog niet geimplementeerd!</String>
-        <String xml:lang="fr-FR">~r~Désolé, cette fonctionnalité n'a pas encore été implantée!</String>
+        <String xml:lang="fr-FR">~r~Désolé, cette fonctionnalité n'a pas encore été implémentée!</String>
         <String xml:lang="pl-PL">~r~Przepraszamy, ta funkcja nie jest jeszcze dostępna!</String>
         <String xml:lang="tr-TR">~r~Üzgünüz, bu özellik henüz kullanılamıyor!</String>
         <String xml:lang="zh-Hant">~r~抱歉,該功能尚未啟用</String>
@@ -192,12 +199,14 @@
 
     <Entry Id="not_implemented_this_item">
         <String xml:lang="en-US">~r~Sorry, this feature was not implemented yet for this item!</String>
+        <String xml:lang="fr-FR">~r~Désolé, cette fonctionnalité n'a pas encore été implémentée pour cet objet!</String>
         <String xml:lang="hi-Latn">~r~Sorry, ye feature abhi tak implemented nahi hua is item ke liye!</String>
     </Entry>
 
     <Entry Id="not_enough_money">
         <String xml:lang="en-US">~r~You don't have enough money.</String>
         <String xml:lang="nl-NL">~r~Je hebt niet genoeg geld.</String>
+        <String xml:lang="fr-FR">~r~Tu n'as pas assez d'argent.</String>
         <String xml:lang="it-IT">~r~Non hai abbastanza soldi.</String>
         <String xml:lang="de-DE">~r~Du hast nicht genügend Geld.</String>
         <String xml:lang="es-ES">~r~No tienes suficiente dinero.</String>
@@ -213,6 +222,7 @@
     <Entry Id="not_enough_money_bank_account">
         <String xml:lang="en-US">~r~You don't have enough money in your bank account!</String>
         <String xml:lang="nl-NL">~r~Je hebt niet genoeg geld op je bank rekening!</String>
+        <String xml:lang="fr-FR">~r~Tu n'as pas assez d'argent sur ton compte bancaire!</String>
         <String xml:lang="it-IT">~r~Non hai abbastanza denaro nel tuo conto banciario!</String>
         <String xml:lang="pl-PL">~r~Nie masz wystarczająco dużo pieniędzy na koncie!</String>
         <String xml:lang="es-ES">~r~No tienes suficiente dinero en tu cuenta bancaria.</String>
@@ -228,6 +238,7 @@
     <Entry Id="not_enough_inventory_space">
         <String xml:lang="en-US">~r~You don't have enough space in your inventory!</String>
         <String xml:lang="nl-NL">~r~Je hebt niet genoeg ruimte in je inventaris!</String>
+        <String xml:lang="fr-FR">~r~Tu n'as pas assez de place dans ton inventaire!</String>
         <String xml:lang="it-IT">~r~Non hai abbastanza spazio nel tuo inventario!</String>
         <String xml:lang="de-DE">~r~Du hast nicht genügend Platz in deinem Inventar!</String>
         <String xml:lang="pl-PL">~r~Brakuje ci miejsca w ekwipunku!</String>
@@ -244,12 +255,14 @@
     <Entry Id="inventory_space_hint">
         <String xml:lang="en-US">Use, drop or give some items away to make space.</String>
         <String xml:lang="nl-NL">Gebruik, drop of geef spullen weg om ruimte te maken.</String>
+        <String xml:lang="fr-FR">Utiliser, déposer ou donner certains objets pour faire de la place.</String>
         <String xml:lang="hi-Latn">Use kare, drop kare ya give karde kuch items space banane ke liye.</String>
     </Entry>
 
     <Entry Id="cant_purchase_that_amount">
         <String xml:lang="en-US">~r~You can't purchase that amount more of this item!</String>
         <String xml:lang="nl-NL">~r~Je kan niet dat aantal meer kopen van dit item!</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas acheter une telle quantité supplémentaire de cet objet!</String>
         <String xml:lang="it-IT">~r~Non è possibile acquistare più tale quantità di questo oggetto!</String>
         <String xml:lang="de-DE">~r~Du kannst nicht mehr so viel von diesem Artikel kaufen!</String>
         <String xml:lang="pl-PL">~r~Nie możesz kupić tyle sztuk tego przedmiotu!</String>
@@ -265,6 +278,7 @@
     <Entry Id="far_business_loc">
         <String xml:lang="en-US">~r~You are too far from the business location!</String>
         <String xml:lang="nl-NL">~r~Je bent te ver van het bedrijf's locatie!</String>
+        <String xml:lang="fr-FR">~r~Tu es trop loin du lieu du commerce!</String>
         <String xml:lang="it-IT">~r~Sei troppo lontano dal luogo di attività!</String>
         <String xml:lang="de-DE">~r~Du bist zu weit vom Geschäftspunkt entfernt!</String>
         <String xml:lang="pl-PL">~r~Jesteś za daleko od lokacji biznesu!</String>
@@ -280,6 +294,7 @@
     <Entry Id="cant_purchase_amount">
         <String xml:lang="en-US">~r~You can't purchase {0} more of this item!</String>
         <String xml:lang="nl-NL">~r~Je kan niet {0} meer kopen van dit item!</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas acheter {0} de plus de cet objet!</String>
         <String xml:lang="it-IT">~r~Non puoi più acquistare {0} altri di questi oggetti!</String>
         <String xml:lang="es-ES">~r~¡No puedes comprar {0} más de este artículo!</String>
         <String xml:lang="pl-PL">~r~Nie możesz kupić {0} więcej tego przedmiotu!</String>
@@ -295,6 +310,7 @@
     <Entry Id="cant_hold_more_item">
         <String xml:lang="en-US">You can't hold any more of this item!</String>
         <String xml:lang="nl-NL">Je kan van dit item geen meer in je inventaris houden!</String>
+        <String xml:lang="fr-FR">Tu ne peux plus détenir cet objet!</String>
         <String xml:lang="it-IT">Non puoi più reggere altri di questi oggetti!</String>
         <String xml:lang="es-ES">¡No puedes guardar más de este artículo!</String>
         <String xml:lang="pl-PL">Nie możesz trzymać więcej tego przedmiotu!</String>
@@ -310,6 +326,7 @@
     <Entry Id="feature_not_implemented_yet">
         <String xml:lang="en-US">~r~Sorry, this feature was not implemented yet!</String>
         <String xml:lang="nl-NL">~r~Sorry, deze functie is nog niet geïmplementeerd!</String>
+        <String xml:lang="fr-FR">~r~Désolé, cette fonctionnalité n'a pas encore été implémentée!</String>
         <String xml:lang="it-IT">~r~Ci dispiace, questa funzione non è ancora stata implementata!</String>
         <String xml:lang="pl-PL">~r~Przepraszamy, ta funkcja nie jest jeszcze wprowadzona!</String>
         <String xml:lang="es-ES">~r~Lo sentimos, esta función aún no se ha implementado.</String>
@@ -399,6 +416,7 @@
     <Entry Id="menu_choose_option">
         <String xml:lang="en-US">Select an option</String>
         <String xml:lang="nl-NL">Selecteer een optie</String>
+        <String xml:lang="fr-FR">Sélectionner une option</String>
         <String xml:lang="it-IT">Seleziona un'opzione</String>
         <String xml:lang="es-ES">Seleccione una opción</String>
         <String xml:lang="pt-BR">Selecione uma opção</String>
@@ -476,7 +494,7 @@
         <String xml:lang="it-IT">offline</String>
         <String xml:lang="pl-PL">offline</String>
         <String xml:lang="es-ES">sin conexión</String>
-        <String xml:lang="fr-FR">déconnecté</String>
+        <String xml:lang="fr-FR">hors ligne</String>
         <String xml:lang="de-DE">offline</String>
         <String xml:lang="pt-BR">off-line</String>
         <String xml:lang="ar-001">غير متصل</String>
@@ -488,6 +506,7 @@
     <Entry Id="vehicle_cannot_be_used">
         <String xml:lang="en-US">That ~r~vehicle ~s~cannot be used in this server!</String>
         <String xml:lang="nl-NL">Dat ~r~voertuig ~s~kan niet gebruikt worden in deze server!</String>
+        <String xml:lang="fr-FR">Ce ~r~véhicule ~s~ne peut pas être utilisé dans ce serveur!</String>
         <String xml:lang="it-IT">Quel ~r~veicolo ~s~non puo essere usato in questo server!</String>
         <String xml:lang="de-DE">Dieses ~r~Fahrzeug ~s~kann auf diesem Server nicht verwendet werden!</String>
         <String xml:lang="es-ES">¡Ese ~r~vehículo ~s~no se puede usar en este servidor!</String>
@@ -503,6 +522,7 @@
     <Entry Id="weapon_cannot_be_used">
         <String xml:lang="en-US">That ~r~weapon ~s~cannot be used in this server!</String>
         <String xml:lang="nl-NL">Dat ~r~wapen ~s~kan niet gebruikt worden in deze server!</String>
+        <String xml:lang="fr-FR">Cette ~r~arme ~s~ne peut pas être utilisée sur ce serveur!</String>
         <String xml:lang="it-IT">Quel ~r~arma ~s~non puo essere usata in questo server!</String>
         <String xml:lang="de-DE">Diese ~r~Waffe ~s~kann auf diesem Server nicht verwendet werden!</String>
         <String xml:lang="es-ES">¡Esa ~r~arma ~s~no se puede usar en este servidor!</String>
@@ -518,6 +538,7 @@
     <Entry Id="weapon_can_only_be_used_by_police">
         <String xml:lang="en-US">That ~r~weapon ~s~can only be used by the police!</String>
         <String xml:lang="nl-NL">Dat ~r~wapen ~s~kan alleen worden gebruikt door de politie!</String>
+        <String xml:lang="fr-FR">Cette ~r~arme ~s~ne peut être utilisée que par la police!</String>
         <String xml:lang="it-IT">Quel ~r~arma ~s~può essere usata solo dalla polizia!</String>
         <String xml:lang="de-DE">Diese ~r~Waffe ~s~kann ausschließlich von der Polizei genutzt werden!</String>
         <String xml:lang="es-ES">¡Esa ~r~arma ~s~sólo puede ser utilizada por la policía!</String>
@@ -533,6 +554,7 @@
     <Entry Id="language_changed">
         <String xml:lang="en-US">Language changed to ~b~{0}~s~</String>
         <String xml:lang="nl-NL">Taal aangepast naar ~b~{0}~s~</String>
+        <String xml:lang="fr-FR">Langue modifiée en ~b~{0}~s~</String>
         <String xml:lang="it-IT">Lingua cambiata a ~b~{0}~s~</String>
         <String xml:lang="pl-PL">Język zmieniony na ~b~{0}~s~</String>
         <String xml:lang="es-ES">El texto ha cambiado a ~b~{0}~s~</String>
@@ -548,6 +570,7 @@
     <Entry Id="menu_blocked_title">
         <String xml:lang="en-US">Blocked Players</String>
         <String xml:lang="nl-NL">Geblokkeerde Spelers</String>
+        <String xml:lang="fr-FR">Joueurs bloqués</String>
         <String xml:lang="pl-PL">Zablokowani Gracze</String>
         <String xml:lang="it-IT">Giocatori Bloccati</String>
         <String xml:lang="de-DE">Blockierte Spieler</String>
@@ -563,28 +586,33 @@
     <Entry Id="btn_unblock">
         <String xml:lang="en-US">Unblock</String>
         <String xml:lang="nl-NL">Deblokkeer</String>
+        <String xml:lang="fr-FR">Débloquer</String>
     </Entry>
 
     <Entry Id="block_cmd_suggestion_help">
         <String xml:lang="en-US">Blocks a player. You won't see any message from them until you unblock them. Don't enter an id to see the list of blocked players.</String>
         <String xml:lang="nl-NL">Blokeer een speler. Je zult geen berichten van hen zien totdat je ze deblokkeert. Voer geen id in om de lijst met geblokkeerde spelers te zien.</String>
+        <String xml:lang="fr-FR">Bloquer un joueur. Tu ne verras aucun message de sa part tant que tu ne l'auras pas débloqué. Ne pas entrer pas d'identifiant pour voir la liste des joueurs bloqués.</String>
         <String xml:lang="hi-Latn">Block karta hai ek player ko. Aap koi message nahi dekh payenge unke jab tak aap unhe unblock naa kare. Koi id enter nahi karna blocked players ki list dekhne ke liye.</String>
     </Entry>
 
     <Entry Id="block_cmd_suggestion_param_name">
         <String xml:lang="en-US">player id</String>
         <String xml:lang="nl-NL">speler id</String>
+        <String xml:lang="fr-FR">identifiant du joueur</String>
     </Entry>
 
     <Entry Id="block_cmd_suggestion_param_help">
         <String xml:lang="en-US">The current id of the player you want to block.</String>
         <String xml:lang="nl-NL">Huidige id van de speler die je wilt blokkeren.</String>
+        <String xml:lang="fr-FR">L'identifiant actuel du joueur que tu souhaites bloquer.</String>
         <String xml:lang="hi-Latn">Us player ki current id jise aap block karna chahte hain.</String>
     </Entry>
 
     <Entry Id="block_cmd_error_already_blocked">
         <String xml:lang="en-US">The specified player is already blocked. Use /unblock to unblock a player.</String>
         <String xml:lang="nl-NL">De gespecificeerde speler is al geblokkeerd. Gebruik /unblock om een speler te deblokkeren.</String>
+        <String xml:lang="fr-FR">Le joueur indiqué est déjà bloqué. Utilise /unblock pour débloquer un joueur.</String>
         <String xml:lang="hi-Latn">Ye player pehle se hi blocked hain. Use kare /unblock kisi player ko unblock karne ke liye.</String>
     </Entry>
 
@@ -592,24 +620,28 @@
     <Entry Id="block_cmd_success">
         <String xml:lang="en-US">You have blocked {0}. Manage your block list in M &gt; Help &gt; Blocked players.</String>
         <String xml:lang="nl-NL">Je hebt {0} geblokkeerd. Beheer je blokkeerlijst in M &gt; Help &gt; Geblokkeerde spelers.</String>
+        <String xml:lang="fr-FR">Tu as bloqué {0}. Gère ta liste de blocage dans M &gt; Aide &gt; Joueurs bloqués.</String>
         <String xml:lang="hi-Latn">Aapne block kiya hai {0}. Manage kare apni block list in M &gt; Help &gt; Blocked players.</String>
     </Entry>
 
     <Entry Id="unblock_cmd_suggestion_help">
         <String xml:lang="en-US">Unblocks a player.</String>
         <String xml:lang="nl-NL">Deblokkeert een speler.</String>
+        <String xml:lang="fr-FR">Débloquer un joueur.</String>
         <String xml:lang="hi-Latn">Unblock karta hai ek player ko.</String>
     </Entry>
 
     <Entry Id="unblock_cmd_suggestion_param_help">
         <String xml:lang="en-US">The current id of the player you want to unblock.</String>
         <String xml:lang="nl-NL">Huidige id van de speler die je wilt deblokkeren.</String>
+        <String xml:lang="fr-FR">L'identifiant actuel du joueur que tu souhaites débloquer.</String>
         <String xml:lang="hi-Latn">Us player ki current id jise aap unblock karna chahte hain.</String>
     </Entry>
 
     <Entry Id="unblock_cmd_error_not_blocked">
         <String xml:lang="en-US">The specified player isn't blocked.</String>
         <String xml:lang="nl-NL">De gespecificeerde speler is niet geblokkeerd.</String>
+        <String xml:lang="fr-FR">Le joueur spécifié n'est pas bloqué.</String>
         <String xml:lang="hi-Latn">Ye player blocked nahi hain.</String>
     </Entry>
 
@@ -617,6 +649,7 @@
     <Entry Id="unblock_cmd_success">
         <String xml:lang="en-US">You have unblocked {0}. Manage your block list in M &gt; Help &gt; Blocked players.</String>
         <String xml:lang="nl-NL">Je hebt {0} gedeblokkeerd. Beheer je blokkeerlijst in M &gt; Help &gt; Geblokkeerde spelers.</String>
+        <String xml:lang="fr-FR">Tu as débloqué {0}. Gère ta liste de blocage dans M &gt; Aide &gt; Joueurs bloqués.</String>
         <String xml:lang="hi-Latn">Aapne unblock kiya {0}. Manage kare apni block list in M &gt; Help &gt; Blocked players.</String>
     </Entry>
 
@@ -625,11 +658,13 @@
     <Entry Id="cmd_usage">
         <String xml:lang="en-US">Usage: {}</String>
         <String xml:lang="nl-NL">Gebruik: {}</String>
+        <String xml:lang="fr-FR">Utilisation: {}</String>
     </Entry>
 
     <Entry Id="input_enter_id">
         <String xml:lang="en-US">Enter the player's id.</String>
         <String xml:lang="nl-NL">Voer de id van speler in.</String>
+        <String xml:lang="fr-FR">Saisir l'identifiant du joueur.</String>
         <String xml:lang="hi-Latn">Enter kare player ki id.</String>
     </Entry>
 </Entries>
