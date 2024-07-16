@@ -1008,7 +1008,7 @@
     <Entry Id="ptt_spam_time_out_radio">
         <String xml:lang="en-US">~r~Spamming ~s~the PTT key will cause you to be ~r~timed out ~s~from the ~b~radio~s~.</String>
         <String xml:lang="nl-NL">~r~Spammen ~s~van de PTT-toets zal ervoor zorgen dat je een ~r~time-out krijgt ~s~van de ~b~radio~s~.</String>
-        <String xml:lang="fr-FR">~s~Si tu utilises la touche PTT de manière ~r~abusive~s~, tu seras ~r~déconnecté ~s~de la radio~s~.</String>
+        <String xml:lang="fr-FR">~s~Si tu utilises la touche PTT de manière ~r~abusive~s~, tu seras ~r~déconnecté ~s~de la ~b~radio~s~.</String>
         <String xml:lang="it-IT">~s~Lo ~r~spam ~s~del tasto PTT ti causerà un ~r~time out ~s~dalla ~b~radio~s~.</String>
         <String xml:lang="pl-PL">~r~Spamowanie ~s~przycisku PTT spowoduje ~r~zablokowanie ~s~możliwości użytku ~b~radia~s~.</String>
         <String xml:lang="es-ES">~r~Spamear ~s~la tecla PTT hará que usted sea ~r~muteado ~s~de la radio ~b~radio~s~.</String>
@@ -1556,76 +1556,91 @@
     <Entry Id="trading_state_started">
         <String xml:lang="en-US">Started</String>
         <String xml:lang="nl-NL">Gestart</String>
+        <String xml:lang="fr-FR">Commencé</String>
     </Entry>
 
     <Entry Id="trading_state_confirmed">
         <String xml:lang="en-US">Confirmed</String>
         <String xml:lang="nl-NL">Bevestigd</String>
+        <String xml:lang="fr-FR">Confirmé</String>
     </Entry>
 
     <Entry Id="trading_state_finalized">
         <String xml:lang="en-US">Finalized</String>
         <String xml:lang="nl-NL">Afgerond</String>
+        <String xml:lang="fr-FR">Finalisé</String>
     </Entry>
 
     <Entry Id="menu_trading_current_state">
         <String xml:lang="en-US">State: {0}</String>
         <String xml:lang="nl-NL">Status: {0}</String>
+        <String xml:lang="fr-FR">Statut: {0}</String>
     </Entry>
 
     <Entry Id="menu_trading_title">
         <String xml:lang="en-US">Trading</String>
         <String xml:lang="nl-NL">Handelen</String>
+        <String xml:lang="fr-FR">Echange</String>
     </Entry>
 
     <Entry Id="menu_trading_my_offer_text">
         <String xml:lang="en-US">My offer</String>
         <String xml:lang="nl-NL">Mijn aanbod</String>
+        <String xml:lang="fr-FR">Mon offre</String>
     </Entry>
 
     <Entry Id="menu_trading_my_offer_title">
         <String xml:lang="en-US">Offer</String>
         <String xml:lang="nl-NL">Aanbod</String>
+        <String xml:lang="fr-FR">Offre</String>
     </Entry>
 
     <Entry Id="menu_trading_my_offer_subtitle">
         <String xml:lang="en-US">My offer</String>
         <String xml:lang="nl-NL">Mijn aanbod</String>
+        <String xml:lang="fr-FR">Mon offre</String>
     </Entry>
 
     <Entry Id="menu_trading_other_offer_text">
         <String xml:lang="en-US">Other player's offer</String>
         <String xml:lang="nl-NL">Andere speler's aanbod</String>
+        <String xml:lang="fr-FR">Offre de l'autre joueur</String>
     </Entry>
 
     <Entry Id="menu_trading_other_offer_title">
         <String xml:lang="en-US">Offer</String>
         <String xml:lang="nl-NL">Aanbod</String>
+        <String xml:lang="fr-FR">Offre</String>
     </Entry>
 
     <Entry Id="menu_trading_other_offer_subtitle">
         <String xml:lang="en-US">Other player's offer</String>
         <String xml:lang="nl-NL">Andere speler's aanbod</String>
+        <String xml:lang="fr-FR">Offre de l'autre joueur</String>
     </Entry>
 
     <Entry Id="menu_trading_confirm_text">
         <String xml:lang="en-US">Confirm</String>
         <String xml:lang="nl-NL">Bevestigen</String>
+        <String xml:lang="fr-FR">Confirmer</String>
     </Entry>
 
     <Entry Id="menu_trading_confirm_description">
         <String xml:lang="en-US">Pressing this button will progress current state</String>
         <String xml:lang="nl-NL">Door deze knop in te drukken bevestig je de transactie</String>
+        <String xml:lang="fr-FR">Appuyer sur ce bouton fait progresser l'état actuel</String>
     </Entry>
 
     <Entry Id="trading_changed_offer">
         <String xml:lang="en-US">{0} has changed their offer.</String>
         <String xml:lang="nl-NL">{0} heeft zijn aanbod aangepast.</String>
+        <String xml:lang="fr-FR">{0} a changé son offre.</String>
     </Entry>
 
     <Entry Id="trading_offered">
         <String xml:lang="en-US">You've sent your ~y~trade request~s~ to {0}.</String>
         <String xml:lang="nl-NL">Je hebt een ~y~ruilverzoek~s~ gestuurd naar {0}.</String>
+        <String xml:lang="fr-FR">Tu as envoyé ta ~y~demande d'échange~s~ à {0}.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1633,75 +1648,90 @@
     <Entry Id="trading_got_offer">
         <String xml:lang="en-US">{0} sent you a trade request. {1} to view trading menu.</String>
         <String xml:lang="nl-NL">{0} heeft je een ruilverzoek gestuurd. {1} om het menu te bekijken.</String>
+        <String xml:lang="fr-FR">{0} t'a envoyé une demande d'échange. {1} pour afficher le menu d'échange.</String>
     </Entry>
 
     <Entry Id="trading_other_confirmed">
         <String xml:lang="en-US">{0} has confirmed the trade.</String>
         <String xml:lang="nl-NL">{0} heeft de ruil bevestigd.</String>
+        <String xml:lang="fr-FR">{0} a confirmé l'échange.</String>
     </Entry>
 
     <Entry Id="menu_trading_cash_label">
         <String xml:lang="en-US">Cash: {0}</String>
         <String xml:lang="nl-NL">Geld: {0}</String>
+        <String xml:lang="fr-FR">Argent: {0}</String>
     </Entry>
 
     <Entry Id="menu_trading_cash_text">
         <String xml:lang="en-US">Cash</String>
         <String xml:lang="nl-NL">Geld</String>
+        <String xml:lang="fr-FR">Argent</String>
     </Entry>
 
     <Entry Id="menu_trading_add_item">
         <String xml:lang="en-US">Add Item</String>
         <String xml:lang="nl-NL">Voorwerp Toevoegen</String>
+        <String xml:lang="fr-FR">Ajouter un objet</String>
     </Entry>
 
     <Entry Id="menu_trading_add_purchaseable">
         <String xml:lang="en-US">Add Purchaseable</String>
         <String xml:lang="nl-NL">Tegoeden Toevoegen</String>
+        <String xml:lang="fr-FR">Ajouter un objet achetable</String>
     </Entry>
 
     <Entry Id="trading_response_success">
         <String xml:lang="en-US">Trade completed.</String>
         <String xml:lang="nl-NL">Ruilen voltooid.</String>
+        <String xml:lang="fr-FR">Echange terminé.</String>
     </Entry>
 
     <Entry Id="trading_response_amount">
         <String xml:lang="en-US">~r~Insufficient amount to complete the trade.</String>
         <String xml:lang="nl-NL">~r~Aantal onvoldoende om de transactie te voltooien.</String>
+        <String xml:lang="fr-FR">~r~Montant insuffisant pour réaliser l'échange.</String>
     </Entry>
 
     <Entry Id="trading_response_item">
         <String xml:lang="en-US">~r~Invalid item was found in the trade.</String>
         <String xml:lang="nl-NL">~r~Ongeldig voorwerp gevonden in transactie.</String>
+        <String xml:lang="fr-FR">~r~Un objet non valide a été trouvé dans l'échange.</String>
     </Entry>
 
     <Entry Id="trading_response_item_limit">
         <String xml:lang="en-US">~r~Item limit reached, cannot complete the trade.</String>
         <String xml:lang="nl-NL">~r~Voorwerp limiet bereikt, kan de transactie niet voltooien.</String>
+        <String xml:lang="fr-FR">~r~Limite d'objet atteinte, impossible de terminer l'échange.</String>
     </Entry>
 
     <Entry Id="trading_response_not_transferable">
         <String xml:lang="en-US">~r~Item is not transferable.</String>
         <String xml:lang="nl-NL">~r~Dit voorwerp mag je niet ruilen.</String>
+        <String xml:lang="fr-FR">~r~L'objet n'est pas transférable.</String>
     </Entry>
 
     <Entry Id="trading_response_job">
         <String xml:lang="en-US">~r~Job not allowed to perform trade on this item.</String>
         <String xml:lang="nl-NL">~r~Je mag dit voorwerp niet ruilen met huidige baan.</String>
+        <String xml:lang="fr-FR">~r~Emploi non autorisé à effectuer des transactions sur cet objet.</String>
     </Entry>
 
     <Entry Id="trading_response_no_space">
         <String xml:lang="en-US">~r~No space left to complete the trade.</String>
         <String xml:lang="nl-NL">~r~Geen ruimte meer om de transactie te voltooien.</String>
+        <String xml:lang="fr-FR">~r~Il n'y a plus d'espace pour compléter l'échange.</String>
     </Entry>
 
     <Entry Id="trading_response_transfer_limit">
         <String xml:lang="en-US">~r~Money transfer limit of {0} or cooldown has been reached.</String>
         <String xml:lang="nl-NL">~r~Geldoverdrachtlimiet van {0} bereikt of afkoelperiode is nog niet verstreken.</String>
+        <String xml:lang="fr-FR">~r~La limite de transfert d'argent de {0} ou le délai d'attente a été atteint.</String>
     </Entry>
 
     <Entry Id="trading_response_transaction">
         <String xml:lang="en-US">~r~Transaction error occurred.</String>
         <String xml:lang="nl-NL">~r~Transactiefout opgetreden.</String>
+        <String xml:lang="fr-FR">~r~Une erreur de transaction s'est produite.</String>
     </Entry>
 </Entries>
