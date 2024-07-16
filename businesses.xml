@@ -77,7 +77,7 @@
         <String xml:lang="th-TH">ไม่มีรายการ :(</String>
         <String xml:lang="fr-FR">Pas d'articles :(</String>
         <String xml:lang="pl-PL">Brak przedmiotów :(</String>
-        <String xml:lang="tr-TR">Eşyalar yok :(</String>   
+        <String xml:lang="tr-TR">Eşyalar yok :(</String>
         <String xml:lang="hi-Latn">No items :(</String>
     </Entry>
 
@@ -88,7 +88,7 @@
         <String xml:lang="th-TH">ธุรกิจนี้ไม่มีสินค้าหรือบริการสำหรับขาย</String>
         <String xml:lang="fr-FR">Cette entreprise n'a ni biens ni services à vendre.</String>
         <String xml:lang="pl-PL">Ten biznes nie ma żadnych dóbr lub usług na sprzedaż.</String>
-        <String xml:lang="tr-TR">Bu işletmenin satışa sunulan herhangi bir mal veya hizmeti yok.</String>   
+        <String xml:lang="tr-TR">Bu işletmenin satışa sunulan herhangi bir mal veya hizmeti yok.</String>
         <String xml:lang="hi-Latn">Iss business me sale ke liye koi samaan nahi hai.</String>
     </Entry>
 
@@ -102,8 +102,8 @@
         <String xml:lang="th-TH">ซื้อ</String>
         <String xml:lang="fr-FR">Achat</String>
         <String xml:lang="pl-PL">Kup</String>
-        <String xml:lang="tr-TR">Satın Alım</String>  
-        <String xml:lang="hi-Latn">Purchase</String>     
+        <String xml:lang="tr-TR">Satın Alım</String>
+        <String xml:lang="hi-Latn">Purchase</String>
     </Entry>
 
     <Entry Id="menu_store_btn_browse">
@@ -269,7 +269,7 @@
         <String xml:lang="nl-NL">Je moet wachten voordat je weer een ~r~winkeldiefstal ~s~probeert.</String>
         <String xml:lang="hi-Latn">Intezaar karien wapas ~r~chori ~s~karne se pehle.</String>
     </Entry>
-    
+
     <Entry Id="menu_store_bounty">
         <String xml:lang="en-US">You cannot shop at gun stores when you have a ~r~bounty~s~.</String>
         <String xml:lang="nl-NL">Je kan niet winkelen bij wapenwinkels wanneer je een ~r~bounty~s~ hebt.</String>
@@ -283,7 +283,7 @@
         <String xml:lang="tr-TR">Başınızda ~r~ödül~s~ varken silah mağazasında alışveriş yapamazsınız.</String>
         <String xml:lang="hi-Latn">Aap gun stores se kharidaari nahi kar sakte jab aap pe ~r~bounty ~s~lagi ho.</String>
     </Entry>
-    
+
     <Entry Id="menu_store_duty">
         <String xml:lang="en-US">You cannot shop at this store when you are ~b~on-duty~s~.</String>
         <String xml:lang="nl-NL">Je kan niet winkelen bij deze winkel wanneer je ~b~in dienst~s~ bent.</String>
@@ -297,7 +297,7 @@
         <String xml:lang="tr-TR">~b~Görev başında ~s~bu mağazadan alışveriş yapmazsınız.</String>
         <String xml:lang="hi-Latn">Jab aap ~b~ON-Duty ~s~toh aap is store pe kharidaari nahi kar sakte.</String>
     </Entry>
-    
+
     <Entry Id="menu_store_cops_only">
         <String xml:lang="en-US">Only ~b~police officers ~s~can shop at this store.</String>
         <String xml:lang="nl-NL">Alleen ~b~politieagenten ~s~kunnen winkelen bij deze winkel.</String>
@@ -443,7 +443,7 @@
         <String xml:lang="tr-TR">{0} ~p~{1}~s~, ~b~{2} ~s~hediye kartı bakiyesi ve ~r~{3} ~s~nakit ile satın aldınız.</String>
         <String xml:lang="hi-Latn">Aapne khareeda {0} ~p~{1} ~s~for ~b~{2} ~s~apne gift card ke balance aur ~r~{3} ~s~cash se.</String>
     </Entry>
-    
+
     <!-- ========================= -->
     <!-- Menu for Job Supplies-->
     <!-- ========================= -->
@@ -840,6 +840,31 @@
         <String xml:lang="hi-Latn">Mechanic</String>
     </Entry>
 
+    <Entry Id="menu_mechanic_shop_pretext">
+        <String xml:lang="en-US">SHOP FEE: {0}%</String>
+        <String xml:lang="nl-NL">WINKELKOSTEN: {0}%</String>
+    </Entry>
+
+    <Entry Id="menu_mechanic_shop_plate">
+        <String xml:lang="en-US">Vanity plate</String>
+        <String xml:lang="nl-NL">Persoonlijk kenteken</String>
+    </Entry>
+
+    <Entry Id="menu_mechanic_shop_more_services">
+        <String xml:lang="en-US">More services</String>
+        <String xml:lang="nl-NL">Meer diensten</String>
+    </Entry>
+
+    <Entry Id="menu_mechanic_shop_no_players">
+        <String xml:lang="en-US">There are no mechanic ~b~players~s~ in this shop. You can't customize your vehicle.</String>
+        <String xml:lang="nl-NL">Er zijn geen aanwezige ~b~monteurs~s~ in deze werkplaats. Je kunt je voertuig niet aanpassen.</String>
+    </Entry>
+
+    <Entry Id="menu_mechanic_shop_players">
+        <String xml:lang="en-US">There are ~y~{0}~s~ mechanic ~b~players~s~ in this shop. Select this option to view their services.</String>
+        <String xml:lang="nl-NL">Er zijn ~y~{0}~s~ ~b~monteurs~s~ in deze werkplaats. Selecteer deze optie om hun diensten te bekijken.</String>
+    </Entry>
+
     <Entry Id="menu_mechanic_services_subtitle">
         <String xml:lang="en-US">Services</String>
         <String xml:lang="it-IT">Servizi</String>
@@ -1003,6 +1028,11 @@
         <String xml:lang="hi-Latn">Primary Color</String>
     </Entry>
 
+    <Entry Id="menu_mechanic_pearlescentcolor_subtitle">
+        <String xml:lang="en-US">Pearlescent Color</String>
+        <String xml:lang="nl-NL">Parelmoer kleuren</String>
+    </Entry>
+
     <Entry Id="menu_mechanic_secondarycolor_subtitle">
         <String xml:lang="en-US">Secondary Color</String>
         <String xml:lang="it-IT">Colore Secondario</String>
@@ -1080,7 +1110,7 @@
     <Entry Id="menu_hospital_title">
         <String xml:lang="en-US">Hospital</String>
         <String xml:lang="it-IT">Ospedale</String>
-        <String xml:lang="nl-NL">Ziekenhuis</String>    
+        <String xml:lang="nl-NL">Ziekenhuis</String>
         <String xml:lang="ar-001">مستشفى</String>
         <String xml:lang="de-DE">Krankenhaus</String>
         <String xml:lang="es-ES">Hospital</String>
@@ -1322,36 +1352,43 @@
 
     <Entry Id="menu_stp_stock_text">
         <String xml:lang="en-US">~b~Stock</String>
+        <String xml:lang="nl-NL">~b~Voorraad</String>
         <String xml:lang="fr-FR">~b~Stock</String>
     </Entry>
 
     <Entry Id="menu_stp_stock_description">
         <String xml:lang="en-US">Put items here if you want to ~g~sell them ~s~later.</String>
+        <String xml:lang="nl-NL">Sla hier je voorwerpen op als je ze later ~g~wilt verkopen~s~.</String>
         <String xml:lang="fr-FR">Tu peux mettre des objets ici si tu veux les ~g~vendre ~s~plus tard.</String>
     </Entry>
-    
+
     <Entry Id="menu_stp_inventory_text">
         <String xml:lang="en-US">Inventory</String>
+        <String xml:lang="nl-NL">Inventaris</String>
         <String xml:lang="fr-FR">Inventaire</String>
     </Entry>
 
     <Entry Id="menu_stp_inventory_description">
         <String xml:lang="en-US">Put items here if you want to ~r~use them~s~.</String>
+        <String xml:lang="nl-NL">Zet hier je voorwerpen neer als je ze ~r~wilt gebruiken~s~.</String>
         <String xml:lang="fr-FR">Tu peux mettre des objets ici si tu veux les ~r~utiliser~s~.</String>
     </Entry>
 
     <Entry Id="btn_seller_buy">
         <String xml:lang="en-US">Buy</String>
+        <String xml:lang="nl-NL">Koop</String>
         <String xml:lang="fr-FR">Acheter</String>
     </Entry>
 
     <Entry Id="btn_seller_cancel">
         <String xml:lang="en-US">Cancel</String>
+        <String xml:lang="nl-NL">Annuleer</String>
         <String xml:lang="fr-FR">Annuler</String>
     </Entry>
 
     <Entry Id="btn_stp_offer">
         <String xml:lang="en-US">Offer</String>
+        <String xml:lang="nl-NL">Aanbieden</String>
         <String xml:lang="fr-FR">Offre</String>
     </Entry>
 
@@ -1359,22 +1396,26 @@
     <!-- {0} = Label -->
     <Entry Id="btn_stp_label_hold">
         <String xml:lang="en-US">{0} (hold)</String>
+        <String xml:lang="nl-NL">{0} (vasthouden)</String>
         <String xml:lang="fr-FR">{0} (maintenir)</String>
     </Entry>
 
     <Entry Id="stp_offered">
         <String xml:lang="en-US">You've offered your ~y~services ~s~to {0}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt je ~y~diensten ~s~aangeboden aan {0}~s~.</String>
         <String xml:lang="fr-FR">Tu as offert tes ~y~services ~s~à {0}~s~.</String>
     </Entry>
 
     <!-- {0} = Button -->
     <Entry Id="stp_press">
         <String xml:lang="en-US">Press {0}</String>
+        <String xml:lang="nl-NL">Druk {0}</String>
         <String xml:lang="fr-FR">Presse {0}</String>
     </Entry>
 
     <Entry Id="stp_hold">
         <String xml:lang="en-US">Hold {0}</String>
+        <String xml:lang="nl-NL">Houdt {0} vast</String>
         <String xml:lang="fr-FR">Maintenir {0}</String>
     </Entry>
 
@@ -1383,6 +1424,7 @@
     <!-- {2} = Input instructions -->
     <Entry Id="stp_got_offer">
         <String xml:lang="en-US">{0} {1} ~s~has offered you ~y~their services~s~. {2} to view their menu.</String>
+        <String xml:lang="nl-NL">{0} {1} ~s~heeft je ~y~zijn/haar diensten~s~ aangeboden. {2} om het menu te bekijken.</String>
         <String xml:lang="fr-FR">{0} {1} ~s~a proposé ~y~ses services~s~. {2} pour consulter son menu.</String>
     </Entry>
 
@@ -1393,6 +1435,7 @@
     <!-- {4} = Price -->
     <Entry Id="stp_sold">
         <String xml:lang="en-US">You sold {0} ~y~{1}{2} {3}~s~ for ~g~{4}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt {0} ~y~{1}{2} {3}~s~ verkocht voor ~g~{4}~s~.</String>
         <String xml:lang="fr-FR">Tu as vendu {0} ~y~{1}{2} {3}~s~ pour ~g~{4}~s~.</String>
     </Entry>
 
@@ -1400,12 +1443,14 @@
     <!-- {0} = Color name -->
     <Entry Id="stp_sold_service_respray">
         <String xml:lang="en-US">{0} Respray</String>
+        <String xml:lang="nl-NL">{0} Verf</String>
         <String xml:lang="fr-FR">{0} Repeindre</String>
     </Entry>
 
     <!-- {0} = Livery index -->
     <Entry Id="stp_sold_service_livery">
         <String xml:lang="en-US">Livery #{0} Respray</String>
+        <String xml:lang="nl-NL">Livery #{0} Verf</String>
         <String xml:lang="fr-FR">Livrée #{0} Repeindre</String>
     </Entry>
 
@@ -1414,6 +1459,7 @@
     <!-- {2} = Price -->
     <Entry Id="stp_sold_service">
         <String xml:lang="en-US">You sold {0} a ~y~{1}~s~ for ~g~{2}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt {0} een ~y~{1}~s~ verkocht voor ~g~{2}~s~.</String>
         <String xml:lang="fr-FR">Tu as vendu {0} un ~y~{1}~s~ pour ~g~{2}~s~.</String>
     </Entry>
 
@@ -1421,78 +1467,97 @@
     <!-- {1} = Profit -->
     <Entry Id="stp_sold_service_fee">
         <String xml:lang="en-US">Shop fee: ~r~{0}~s~~n~Total earned: ~g~{1}</String>
+        <String xml:lang="nl-NL">Winkeltoeslag: ~r~{0}~s~~n~Totaal verdient: ~g~{1}</String>
         <String xml:lang="fr-FR">Frais de vente : ~r~{0}~s~~n~Total gagné : ~g~{1}</String>
     </Entry>
 
     <!-- {0} = Player -->
     <Entry Id="stp_seller_too_far">
         <String xml:lang="en-US">{0} is ~r~too far ~s~from you.</String>
+        <String xml:lang="nl-NL">{0} is ~r~te ver weg ~s~van jou.</String>
         <String xml:lang="fr-FR">{0} est ~r~trop loin ~s~de toi.</String>
     </Entry>
 
     <!-- {0} = Player -->
     <Entry Id="menu_stp_seller_subtitle">
         <String xml:lang="en-US">Buying from {0}</String>
+        <String xml:lang="nl-NL">Aan het kopen van {0}</String>
         <String xml:lang="fr-FR">Acheter à partir de {0}</String>
     </Entry>
 
     <Entry Id="stp_service_fix_na">
         <String xml:lang="en-US">UNDAMAGED</String>
+        <String xml:lang="nl-NL">NIET BESCHADIGD</String>
         <String xml:lang="fr-FR">NON ENDOMMAGÉ</String>
     </Entry>
 
     <Entry Id="stp_service_wash_na">
         <String xml:lang="en-US">CLEAN</String>
+        <String xml:lang="nl-NL">SCHOON</String>
         <String xml:lang="fr-FR">PROPRE</String>
     </Entry>
 
     <Entry Id="stp_service_error_no_tools">
         <String xml:lang="en-US">~y~This mechanic doesn't have the necessary tools to provide this service.</String>
+        <String xml:lang="nl-NL">~y~Deze monteur heeft niet de juiste gereedschappen om deze dienst te verlenen.</String>
         <String xml:lang="fr-FR">~y~Ce mécanicien ne dispose pas des outils nécessaires pour fournir ce service.</String>
     </Entry>
 
     <Entry Id="stp_service_error_not_certified">
         <String xml:lang="en-US">~y~This mechanic is not certified to provide this service.</String>
+        <String xml:lang="nl-NL">~y~Deze monteur is niet gecertificeerd om deze diensten te verlenen.</String>
         <String xml:lang="fr-FR">~y~Ce mécanicien n'est pas certifié pour fournir ce service.</String>
     </Entry>
 
     <Entry Id="stp_service_error_no_vehicle">
         <String xml:lang="en-US">~y~You don't have a vehicle.</String>
+        <String xml:lang="nl-NL">~y~Je hebt geen voertuig.</String>
         <String xml:lang="fr-FR">~y~Tu n'as pas de véhicule.</String>
     </Entry>
 
     <Entry Id="stp_service_error_vehicle_not_owned">
         <String xml:lang="en-US">~y~You don't own this vehicle.</String>
+        <String xml:lang="nl-NL">~y~Je bent niet de eigenaar van dit voertuig.</String>
         <String xml:lang="fr-FR">~y~Tu n'es pas propriétaire de ce véhicule.</String>
     </Entry>
 
     <Entry Id="stp_service_error_mod_shop">
         <String xml:lang="en-US">~y~You must be at a mod shop.</String>
+        <String xml:lang="nl-NL">~y~Je moet bij een mod shop zijn.</String>
         <String xml:lang="fr-FR">~y~Tu dois être dans un magasin de modifications.</String>
     </Entry>
 
     <Entry Id="stp_service_error_wanted">
         <String xml:lang="en-US">~y~You cannot purchase this item when you have an arrest warrant.</String>
         <String xml:lang="fr-FR">~y~Tu ne peux pas acheter cet objet si tu es sous mandat d'arrêt.</String>
+        <String xml:lang="nl-NL">~y~Je kan dit voorwerp niet kopen wanneer je gezocht bent.</String>
+        <String xml:lang="fr-FR">~y~Tu ne peux pas acheter ce produit si tu es sous mandat d'arrêt.</String>
     </Entry>
 
     <Entry Id="stp_service_error_vehicle_moving">
         <String xml:lang="en-US">~r~You can't purchase this service when the vehicle is moving.</String>
+        <String xml:lang="nl-NL">~r~Je kan deze dienst niet kopen wanneer het voertuig aan het bewegen is.</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas acheter ce service lorsque le véhicule est en mouvement.</String>
     </Entry>
 
     <Entry Id="stp_service_error_seller_inside">
         <String xml:lang="en-US">~r~You can't purchase this service when the seller is inside a vehicle.</String>
+        <String xml:lang="nl-NL">~r~Je kan deze dienst niet kopen wanneer de verkoper in een voertuig is.</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas acheter ce service lorsque le vendeur se trouve à l'intérieur d'un véhicule.</String>
     </Entry>
 
     <Entry Id="stp_item_no_stock">
         <String xml:lang="en-US">~r~OUT OF STOCK</String>
+        <String xml:lang="nl-NL">~r~GEEN VOORRAAD</String>
         <String xml:lang="fr-FR">~r~RUPTURE DE STOCK</String>
     </Entry>
 
+    <!--
+        [!!] Context needed for accurate translation
+    -->
     <Entry Id="stp_item_unit_piece">
         <String xml:lang="en-US">piece</String>
+        <String xml:lang="nl-NL">eenheid</String>
         <String xml:lang="fr-FR">pièce</String>
     </Entry>
 
@@ -1502,37 +1567,44 @@
     <!-- {2} = Unit -->
     <Entry Id="stp_item_description">
         <String xml:lang="en-US">{0}~n~Price: ~b~{1}~s~/{2}</String>
+        <String xml:lang="nl-NL">{0}~n~Prijs: ~b~{1}~s~/{2}</String>
         <String xml:lang="fr-FR">{0}~n~Prix: ~b~{1}~s~/{2}</String>
     </Entry>
 
     <Entry Id="menu_stp_mods_none_text">
         <String xml:lang="en-US">No mods available :(</String>
+        <String xml:lang="nl-NL">Geen aanpassingen beschikbaar :(</String>
         <String xml:lang="fr-FR">Pas de modifications disponibles :(</String>
     </Entry>
 
     <Entry Id="menu_stp_mods_none_description">
         <String xml:lang="en-US">~r~There are no mods available for this vehicle model.</String>
+        <String xml:lang="nl-NL">~r~Er zijn geen aanpassingen beschikbaar voor dit voertuig model.</String>
         <String xml:lang="fr-FR">~r~Il n'y a pas de modifications disponibles pour ce modèle de véhicule.</String>
     </Entry>
 
     <!-- {0} = Livery index -->
     <Entry Id="menu_stp_liveries_text">
         <String xml:lang="en-US">Livery #{0}</String>
+        <String xml:lang="nl-NL">Livery #{0}</String>
         <String xml:lang="fr-FR">Livrée #{0}</String>
     </Entry>
 
     <Entry Id="menu_stp_liveries_none">
         <String xml:lang="en-US">There are no ~r~liveries ~s~for this vehicle model.</String>
+        <String xml:lang="nl-NL">Er zijn geen ~r~liveries ~s~voor dit voertuig model.</String>
         <String xml:lang="fr-FR">Il n'y a pas de ~r~livrée ~s~pour ce modèle de véhicule.</String>
     </Entry>
 
     <Entry Id="menu_stp_liveries_mods">
         <String xml:lang="en-US">This vehicle has ~y~liveries ~s~as mods.</String>
+        <String xml:lang="nl-NL">Dit voertuig heeft ~y~liveries ~s~als aanpassingen.</String> <!-- ???? -->
         <String xml:lang="fr-FR">Ce véhicule a des ~y~livrées ~s~en tant que modifications.</String>
     </Entry>
 
     <Entry Id="stp_vehicle_too_far">
         <String xml:lang="en-US">~r~The vehicle is too far from you.</String>
+        <String xml:lang="nl-NL">~r~Het voertuig is te ver weg van jou.</String>
         <String xml:lang="fr-FR">~r~Le véhicule est trop loin de toi.</String>
     </Entry>
 
@@ -1542,38 +1614,45 @@
     <!-- {3} = Price -->
     <Entry Id="stp_item_purchased">
         <String xml:lang="en-US">You've purchased ~y~{0}{1} {2} ~s~for ~r~{3}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt ~y~{0}{1} {2} ~s~gekocht voor ~r~{3}~s~.</String>
         <String xml:lang="fr-FR">Tu as acheté ~y~{0}{1} {2} ~s~pour ~r~{3}~s~.</String>
     </Entry>
 
     <Entry Id="stp_item_error_too_far">
         <String xml:lang="en-US">~r~You are too far from the seller!</String>
+        <String xml:lang="nl-NL">~r~Je bent te ver weg van de verkoper!</String>
         <String xml:lang="fr-FR">~r~Tu es trop loin du vendeur!</String>
     </Entry>
 
     <!-- {0} = Item name -->
     <Entry Id="stp_item_error_no_stock">
         <String xml:lang="en-US">~r~The seller doesn't have enough {0}!</String>
+        <String xml:lang="nl-NL">~r~De verkoper heeft niet genoeg {0}!</String>
         <String xml:lang="fr-FR">~r~Le vendeur n'a pas assez de {0}!</String>
     </Entry>
 
     <!-- {0} = Service name -->
     <Entry Id="stp_service_error_no_stock">
         <String xml:lang="en-US">~r~The seller doesn't have enough supplies to provide the ~s~{0} ~r~service!</String>
+        <String xml:lang="nl-NL">~r~De verkoper heeft niet genoeg voorraad om de ~s~{0} ~r~dienst te verlenen!</String>
         <String xml:lang="fr-FR">~r~Le vendeur n'a pas assez de matériel pour fournir le ~s~{0} ~r~service!</String>
     </Entry>
 
     <Entry Id="stp_service_error_not_certified_named">
         <String xml:lang="en-US">~r~The seller doesn't have the required certification to provide the ~s~{0} ~r~service!</String>
+        <String xml:lang="nl-NL">~r~De verkoper heeft niet de benodigde certificaten om de ~s~{0} ~r~dienst te verlenen!</String>
         <String xml:lang="fr-FR">~r~Le vendeur n'a pas la certification requise pour fournir le ~s~{0} ~r~service!</String>
     </Entry>
 
     <Entry Id="stp_service_error_rented_vehicle">
         <String xml:lang="en-US">~r~You cannot modify a rented vehicle!</String>
+        <String xml:lang="nl-NL">~r~Je kan een gehuurd voertuig niet bewerken!</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas modifier un véhicule loué!</String>
     </Entry>
 
     <Entry Id="stp_services_updated">
         <String xml:lang="en-US">~r~The seller has updated their prices. The menu has been refreshed.</String>
+        <String xml:lang="nl-NL">~r~De verkoper heeft zijn prijzen aangepast. Het menu is ververst.</String>
         <String xml:lang="fr-FR">~r~Le vendeur a mis à jour ses prix. Le menu a été actualisé.</String>
     </Entry>
 
@@ -1632,8 +1711,8 @@
         <String xml:lang="id-ID">Kelola persenjataanmu</String>
         <String xml:lang="zh-Hant">管理你的武器</String>
         <String xml:lang="pl-PL">Zarządzaj swoimi brońmi</String>
+        <String xml:lang="tr-TR">Silahlarınızı yönetin</String>
         <String xml:lang="fr-FR">Gérer ses armes</String>
-        <String xml:lang="tr-TR">Silahlarınızı yönetin</String> 
         <String xml:lang="hi-Latn">Apne weapons manage kare.</String>
     </Entry>
 
@@ -1703,7 +1782,7 @@
         <String xml:lang="pt-BR">Chamadas</String>
         <String xml:lang="ar-001">المكالمات</String>
         <String xml:lang="th-TH">เรียก</String>
-        <String xml:lang="vi-VN">Cuộc gọi</String> 
+        <String xml:lang="vi-VN">Cuộc gọi</String>
         <String xml:lang="id-ID">Panggilan</String>
         <String xml:lang="zh-Hant">來電</String>
         <String xml:lang="pl-PL">Wezwania</String>
@@ -1954,7 +2033,7 @@
         <String xml:lang="tr-TR">~r~Hiçbiri</String>
         <String xml:lang="hi-Latn">~r~Koi Nahi</String>
     </Entry>
-    
+
     <!-- ========================= -->
     <!-- Dealership Menu -->
     <!-- ========================= -->
