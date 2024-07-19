@@ -37,6 +37,7 @@
     <Entry Id="menu_property_owners">
         <String xml:lang="en-US">Owners</String>
         <String xml:lang="nl-NL">Eigenaren</String>
+        <String xml:lang="fr-FR">Propriétaires</String>
     </Entry>
 
     <!-- ========================= -->
@@ -56,7 +57,7 @@
         <String xml:lang="id-ID">Anda tidak dapat ~r~memindahkan ~s~barang ini kedalam gudang.</String>
         <String xml:lang="th-TH">คุณไม่สามารถ ~r~ย้าย ~s~รายการนี้เข้าไปในโกดังได้</String>
         <String xml:lang="zh-Hant">你不能將此物品 ~r~放入 ~s~倉庫.</String>
-        <String xml:lang="fr-FR">Tu ne peux pas ~r~déplacer cet ~s~objet dans ton entrepôt.</String>
+        <String xml:lang="fr-FR">Tu ne peux pas ~r~déplacer cet ~s~objet dans un entrepôt.</String>
         <String xml:lang="hi-Latn">Aap nahi ~r~move ~s~kar sakte ye item ek warehouse mein.</String>
     </Entry>
 
@@ -72,7 +73,7 @@
         <String xml:lang="id-ID">Anda memasukkan {0} ~p~{1} ~s~kedalam gudang anda.</String>
         <String xml:lang="th-TH">คุณใส่ {0} ~p~{1} ~s~ไว้ในคลังสินค้าของคุณ</String>
         <String xml:lang="zh-Hant">你將 {0} 個 ~p~{1} ~s~放進了你的倉庫.</String>
-        <String xml:lang="fr-FR">Tu as mis {0} ~p~{1} ~s~dans ton entrepôt.</String>
+        <String xml:lang="fr-FR">Tu mets {0} ~p~{1} ~s~dans ton entrepôt.</String>
         <String xml:lang="hi-Latn">Aapne rakha {0} ~p~{1} ~s~apne warehouse mein.</String>
     </Entry>
 
@@ -249,7 +250,7 @@
         <String xml:lang="id-ID">~r~Silahkan tunggu beberapa saat sebelum mengetuk pintu lagi.</String>
         <String xml:lang="th-TH">~r~คุณต้องรอก่อนที่จะเคาะอีกครั้ง</String>
         <String xml:lang="zh-Hant">~r~你要需要等一會再敲門.</String>
-        <String xml:lang="fr-FR">~r~Tu dois attendre avant de frapper à nouveau.</String>
+        <String xml:lang="fr-FR">~r~Tu dois attendre avant de toquer à nouveau.</String>
         <String xml:lang="hi-Latn">~r~Aapko wait karna hoga phir knock karne se pehle.</String>
     </Entry>
 
@@ -265,7 +266,7 @@
         <String xml:lang="id-ID">Anda ~b~memasuki gudang milik {0}.</String>
         <String xml:lang="th-TH">คุณ ~b~เข้าไปในโกดังของ {0}</String>
         <String xml:lang="zh-Hant">你 ~b~進入了 {0} 的倉庫.</String>
-        <String xml:lang="fr-FR">Tu es ~b~rentré dans l'entrepôt de {0}.</String>
+        <String xml:lang="fr-FR">Tu es ~b~entré dans l'entrepôt de {0}.</String>
         <String xml:lang="hi-Latn">Aapne ~b~enter kiya {0}'s warehouse.</String>
     </Entry>
 
@@ -281,7 +282,7 @@
         <String xml:lang="id-ID">Anda tidak memiliki ~o~surat geledah ~s~untuk memasuki gudang ini. Anda hanya dapat memasuki tempat yang dimasuki ~o~buronan~s~.</String>
         <String xml:lang="th-TH">คุณไม่มี ~o~หมายจับ ~s~เพื่อเข้าสู่โกดังแห่งนี้ คุณสามารถเข้าไปได้ก็ต่อเมื่อคุณพบ ~o~ผู้ต้องสงสัยที่ต้องการ ~s~เข้ามา</String>
         <String xml:lang="zh-Hant">你沒有 ~o~搜查令 ~s~已進入此倉庫，你必須看到一位 ~o~嫌犯 ~s~進入此倉庫才得以進入.</String>
-        <String xml:lang="fr-FR">Tu n'as pas de ~o~mandat d'arrêt ~s~pour entrer dans cet entrepôt. Tu peux entrer seulement quand tu as vu un ~o~suspect recherché ~s~entrer.</String>
+        <String xml:lang="fr-FR">Tu n'as pas de ~o~mandat ~s~pour entrer dans cet entrepôt. Tu ne peux entrer que si tu aperçois un ~o~suspect recherché ~s~entrer.</String>
         <String xml:lang="hi-Latn">Aap ke paas ~o~warrant ~s~nahi hai warehouse mein ghusne ke liye. Aap enter sirf tab hi kar sakte hain jab aap ek ~o~wanted suspect ~s~ko enter karte dekhte hain toh.</String>
     </Entry>
 
@@ -313,7 +314,7 @@
         <String xml:lang="id-ID">Anda terjatuh dari interior properti, sehingga anda dipindahkan kedalam lagi.</String>
         <String xml:lang="th-TH">คุณตกจากภายในทรัพย์สิน จึงถูกเคลื่อนย้ายกลับเข้าไป</String>
         <String xml:lang="zh-Hant">你掉出了產權外，所以你被傳送回了.</String>
-        <String xml:lang="fr-FR">Tu est tombé en dehors de ta propriété, tu as été téléporté de nouveau à l'intérieur.</String>
+        <String xml:lang="fr-FR">Tu es tombé de l'intérieur de la propriété, tu as donc été téléporté à l'intérieur à nouveau.</String>
         <String xml:lang="hi-Latn">Aap bahar gir gaye thae ek property ke interior se, to aap wapas andar teleport kar diye gaye.</String>
     </Entry>
 
@@ -333,7 +334,7 @@
         <String xml:lang="ar-001">(C){0}(/C) تم إدخال ~y~{1}~s~.</String>
         <String xml:lang="id-ID">~y~{1}~s~ masuk (C){0}(/C).</String>
         <String xml:lang="th-TH">(C){0}(/C) เข้าสู่ ~y~{1}~s~</String>
-        <String xml:lang="fr-FR">(C){0}(/C) est rentrer dans ~y~{1}~s~</String>
+        <String xml:lang="fr-FR">(C){0}(/C) est entré dans ~y~{1}~s~.</String>
         <String xml:lang="hi-Latn">(C){0}(/C) enter kiye ~y~{1}~s~.</String>
     </Entry>
 
@@ -363,7 +364,7 @@
         <String xml:lang="ar-001">~r~ليس لديك مستوى العضوية المطلوب لشراء هذا الجراج.</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki tingkat keanggotaan yang diperlukan untuk membeli garasi ini.</String>
         <String xml:lang="th-TH">~r~คุณไม่ต้องมีระดับสมาชิกที่ต้องการในการซื้อโรงรถนี้</String>
-        <String xml:lang="fr-FR">~r~Tu n'as pas l'abonnement requis pour acheter ce garage.</String>
+        <String xml:lang="fr-FR">~r~Tu n'as pas le niveau d'abonnement requis pour acheter ce garage.</String>
         <String xml:lang="hi-Latn">~r~Aapke pass required membership tier nahi hai ye garage purchase karne ke liye.</String>
     </Entry>
 
@@ -439,7 +440,7 @@
         <String xml:lang="ar-001">~r~لا يمكنك ركن المركبات في الجراج في وظيفتك الحالية.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat memarkir kendaraan ini kedalam garasi dalam kerjaan anda saat ini.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถจอดรถในโรงรถในงานปัจจุบันของคุณได้</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas garer de véhicules dans un garage avec ton job actuel.</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas garer de véhicules dans un garage avec ton emploi actuel.</String>
     </Entry>
 
     <Entry Id="garage_cant_park_someone_elses_vehicle">
@@ -468,6 +469,7 @@
         <String xml:lang="ar-001">~r~الجراج الخاص بك ممتلئ.</String>
         <String xml:lang="id-ID">~r~Garasi anda sudah penuh.</String>
         <String xml:lang="th-TH">~r~โรงรถของคุณเต็มแล้ว</String>
+        <String xml:lang="fr-FR">~r~Ton garage est plein.</String>
         <String xml:lang="hi-Latn">~r~Aapka garage full hai.</String>
     </Entry>
 
@@ -482,6 +484,7 @@
         <String xml:lang="ar-001">~r~لا يمكنك إخراج المركبات من الجراج في وظيفتك الحالية.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat mengambil kendaraan ini dengan pekerjaan anda saat ini.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถนำยานพาหนะออกจากโรงรถในงานปัจจุบันของคุณได้</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas sortir les véhicules d'un garage avec ton emploi actuel.</String>
         <String xml:lang="hi-Latn">~r~Aap apni current job mein vehicles bahar nahi nikaal sakte garage se.</String>
     </Entry>
 
@@ -496,6 +499,7 @@
         <String xml:lang="ar-001">~r~يجب أن تكون في السيارة لتتمكن من ضبط نظام تحديد المواقع العالمي (GPS).</String>
         <String xml:lang="id-ID">~r~Anda harus berada didalam kendaran untuk menandai di GPS</String>
         <String xml:lang="th-TH">~r~คุณต้องอยู่ในยานพาหนะเพื่อตั้งค่า GPS</String>
+        <String xml:lang="fr-FR">~r~Tu dois être dans un véhicule pour régler le GPS.</String>
         <String xml:lang="hi-Latn">~r~Aapko vehicle ke andar hona hoga gps set karne ke liye.</String>
     </Entry>
 
@@ -511,6 +515,7 @@
         <String xml:lang="ar-001">تم تحديد الوجهة الي ~y~{0}~s~.</String>
         <String xml:lang="id-ID">Menunjukan jalan ke ~y~{0}~s~.</String>
         <String xml:lang="th-TH">กำลังนำทางไปยัง ~y~{0}~s~</String>
+        <String xml:lang="fr-FR">Naviguer vers ~y~{0}~s~.</String>
     </Entry>
 
     <Entry Id="property_purchased">
@@ -524,6 +529,7 @@
         <String xml:lang="ar-001">لقد قمت بشراء ~y~{0} ~s~لـ ~g~{1}~s~.</String>
         <String xml:lang="id-ID">Anda telah membeli ~y~{0} ~s~seharga ~g~{1}~s~.</String>
         <String xml:lang="th-TH">คุณซื้อ ~y~{0} ~s~สำหรับ ~g~{1}~s~</String>
+        <String xml:lang="fr-FR">Tu as acheté ~y~{0} ~s~pour ~g~{1}~s~.</String>
         <String xml:lang="hi-Latn">Aapne purchase kiya ~y~{0} ~s~for ~g~{1}~s~.</String>
     </Entry>
 
@@ -539,6 +545,7 @@
         <String xml:lang="ar-001">~r~غير مصرح لك بإدخال هذا {0}.</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki otoritas untuk memasuki ini {0}.</String>
         <String xml:lang="th-TH">~r~คุณไม่ได้รับอนุญาตให้เข้าสู่ {0} นี้</String>
+        <String xml:lang="fr-FR">~r~Tu n'es pas autorisé à entrer dans ce {0}.</String>
         <String xml:lang="hi-Latn">~r~Aap authorized nahi hain yaha enter karne ke liye {0}.</String>
     </Entry>
 
@@ -553,6 +560,7 @@
         <String xml:lang="ar-001">~r~مالك هذا {0} غير متصل.</String>
         <String xml:lang="id-ID">~r~Pemilik properti ini {0} sedang offline.</String>
         <String xml:lang="th-TH">~r~เจ้าของ {0} นี้อยู่ในสถานะออฟไลน์</String>
+        <String xml:lang="fr-FR">~r~Le propriétaire de ce {0} est hors ligne.</String>
         <String xml:lang="hi-Latn">~r~Is ke owner {0} offline hain.</String>
     </Entry>
 
@@ -569,6 +577,7 @@
         <String xml:lang="ar-001">{0} ~s~يطرق على ~y~{1}~s~.</String>
         <String xml:lang="id-ID">{0} sedang mengetuk di ~y~{1}~s~.</String>
         <String xml:lang="th-TH">{0} ~s~กำลังเคาะที่ ~y~{1}~s~</String>
+        <String xml:lang="fr-FR">{0} ~s~toque à ~y~{1}~s~.</String>
         <String xml:lang="hi-latn">{0} ~s~knock kar rahe hain at ~y~{1}~s~.</String>
     </Entry>
 
@@ -584,6 +593,7 @@
         <String xml:lang="ar-001">لقد أجبت {0}~s~.</String>
         <String xml:lang="id-ID">Anda telah menjawab {0}~s~.</String>
         <String xml:lang="th-TH">คุณตอบ {0}~s~</String>
+        <String xml:lang="fr-FR">Tu as répondu à {0}~s~.</String>
         <String xml:lang="hi-Latn">Aapne answer kiya {0}~s~.</String>
     </Entry>
 
@@ -600,6 +610,7 @@
         <String xml:lang="ar-001">الممتلكات</String>
         <String xml:lang="id-ID">properti</String>
         <String xml:lang="th-TH">คุณสมบัติ</String>
+        <String xml:lang="fr-FR">Propriétés</String>
     </Entry>
 
     <Entry Id="menu_properties_subtitle">
@@ -612,6 +623,7 @@
         <String xml:lang="ar-001">عرض الممتلكات الخاصة بك</String>
         <String xml:lang="id-ID">Melihat properti anda</String>
         <String xml:lang="th-TH">ดูคุณสมบัติของคุณ</String>
+        <String xml:lang="fr-FR">Voir tes propriétés</String>
         <String xml:lang="hi-Latn">View kare apni properties</String>
     </Entry>
 
@@ -628,6 +640,7 @@
         <String xml:lang="ar-001">الجراجات</String>
         <String xml:lang="id-ID">Garasi</String>
         <String xml:lang="th-TH">โรงรถ</String>
+        <String xml:lang="fr-FR">Garages</String>
     </Entry>
 
     <Entry Id="menu_garage_subtitle">
@@ -640,6 +653,7 @@
         <String xml:lang="ar-001">اختر جراج</String>
         <String xml:lang="id-ID">Pilih garasi</String>
         <String xml:lang="th-TH">เลือกโรงรถ</String>
+        <String xml:lang="fr-FR">Sélectionner un garage</String>
         <String xml:lang="hi-Latn">Select kare ek garage</String>
     </Entry>
 
