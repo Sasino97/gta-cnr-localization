@@ -198,6 +198,9 @@
         <String xml:lang="hi-Latn">Manage kare apni owned or rented Vehicles.</String>
     </Entry>
 
+    <!-- ========================= -->
+    <!-- Properties Menu -->
+    <!-- ========================= -->
     <Entry Id="imenu_properties">
         <String xml:lang="en-US">Properties</String>
         <String xml:lang="pl-PL">Posiadłości</String>
@@ -821,6 +824,10 @@
         <String xml:lang="id-ID">Jatuhkan</String>
     </Entry>
 
+    <Entry Id="btn_imenu_inventory_pickup">
+        <String xml:lang="en-US">Pick up</String>
+    </Entry>
+
     <Entry Id="imenu_inventory_stock">
         <String xml:lang="en-US">~b~Stock</String>
         <String xml:lang="pl-PL">~b~Towar</String>
@@ -1145,6 +1152,15 @@
         <String xml:lang="hi-Latn">{0} nahi rakh sakte ~r~{1} ~s~zyada {2} of ~r~{3}~s~.</String>
     </Entry>
 
+    <!-- 0 = Player name -->
+    <!-- 1 = Amount -->
+    <!-- 2 = Unit of measurement -->
+    <!-- 3 = Item name -->
+    <!-- Example: Sasino gave you ~y~2g of Cocaine~s~. -->
+    <Entry Id="imenu_inventory_received_item">
+        <String xml:lang="en-US">{0} gave you ~y~{1}{2} {3}~s~.</String>
+    </Entry>
+
     <Entry Id="imenu_inventory_no_items_in_category">
         <String xml:lang="en-US">No items in this category :(</String>
         <String xml:lang="nl-NL">Geen voorwerpen in deze categorie :(</String>
@@ -1219,6 +1235,74 @@
         <String xml:lang="id-ID">Anda telah terkena ~r~pembatasan jaringan masuk~s~.</String>
         <String xml:lang="tr-TR">~r~Sınırlı hıza tabi ~s~tutuldunuz.</String>
         <String xml:lang="hi-Latn">Aapko ~r~rate limit ~s~kar diya gaya hai.</String>
+    </Entry>
+
+    <Entry Id="imenu_inventory_cant_drop">
+        <String xml:lang="en-US">This item can't be ~r~dropped~s~.</String>
+    </Entry>
+
+    <Entry Id="imenu_inventory_drop_invalid_position">
+        <String xml:lang="en-US">You cannot drop an item ~r~here~s~.</String>
+    </Entry>
+
+    <Entry Id="imenu_inventory_drop_too_many">
+        <String xml:lang="en-US">There are ~r~too many drops in the server~s~.</String>
+    </Entry>
+
+    <Entry Id="imenu_inventory_pickup_concurrent">
+        <String xml:lang="en-US">~r~This item is being picked up by someone else!</String>
+    </Entry>
+
+    <!-- {0} = item amount -->
+    <!-- {1} = item unit -->
+    <!-- {2} = item name preposition -->
+    <!-- {3} = item name -->
+    <!-- You picked up 5g of ~b~Meth~s~. -->
+    <!-- You picked up 2 ~b~Heavy Armor~s~. -->
+    <Entry Id="imenu_inventory_pickup_success">
+        <String xml:lang="en-US">You picked up {0}{1} {2}~b~{3}~s~.</String>
+    </Entry>
+
+    <!-- {0} = item amount -->
+    <!-- {1} = item unit -->
+    <!-- {2} = item name preposition -->
+    <!-- {3} = item name -->
+    <!-- You dropped ~p~5g~s~ of ~y~Meth~s~. -->
+    <!-- You dropped ~p~2~s~ ~y~Heavy Armor~s~. -->
+    <Entry Id="imenu_inventory_drop_success">
+        <String xml:lang="en-US">You dropped ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+    </Entry>
+
+    <!-- {0} = item name -->
+    <Entry Id="input_imenu_inventory_drop">
+        <String xml:lang="en-US">Drop {0}</String>
+    </Entry>
+
+    <!-- {0} = item amount -->
+    <!-- {1} = item unit -->
+    <!-- {2} = item name preposition -->
+    <!-- {3} = item name -->
+    <!-- You have 5g of Meth. Enter the amount you want to drop: -->
+    <!-- You have 2 Heavy Armor. Enter the amount you want to drop: -->
+    <Entry Id="input_imenu_inventory_drop_text">
+        <String xml:lang="en-US">You have {0}{1} {2}{3}. Enter the amount you want to drop:</String>
+    </Entry>
+
+    <Entry Id="item_name_preposition">
+        <String xml:lang="en-US">of</String>
+    </Entry>
+
+    <Entry Id="imenu_inventory_search">
+        <String xml:lang="en-US">Search</String>
+    </Entry>
+
+    <Entry Id="imenu_inventory_search_text">
+        <String xml:lang="en-US">Enter an item's name or part of it</String>
+    </Entry>
+
+    <!-- 0 = input -->
+    <Entry Id="imenu_inventory_search_subtitle">
+        <String xml:lang="en-US">Search: {0}</String>
     </Entry>
 
     <!-- ========================= -->
