@@ -1600,6 +1600,157 @@
         <String xml:lang="hi-Latn">Player Menu</String>
     </Entry>
 
+    <Entry Id="menu_playermenu_subtitle">
+        <String xml:lang="en-US">Interact with {0}</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_bribe_not_wanted">
+        <String xml:lang="en-US">~r~You are not wanted by the police.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_bribe_most_wanted">
+        <String xml:lang="en-US">~r~You cannot bribe the police when you are most wanted.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_bribe_text">
+        <String xml:lang="en-US">~o~Bribe</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_bribe_description">
+        <String xml:lang="en-US">Offer this ~b~officer ~s~a ~o~bribe ~s~and lose your wanted level.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_uncuff">
+        <String xml:lang="en-US">~o~Uncuff</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_uncuff_description">
+        <String xml:lang="en-US">Free this cuffed player using a ~y~lockpick~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_offer_drugs">
+        <String xml:lang="en-US">Offer ~r~drugs</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_offer_drugs_description">
+        <String xml:lang="en-US">Offer ~r~drugs~s~ to this player.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_offer_services">
+        <String xml:lang="en-US">Offer ~y~services</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_offer_services_description">
+        <String xml:lang="en-US">Offer ~y~services~s~ to this player.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_arrest">
+        <String xml:lang="en-US">~b~Arrest menu</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_custody">
+        <String xml:lang="en-US">~b~Hold in custody</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_cuff">
+        <String xml:lang="en-US">~b~Cuff</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_break_window">
+        <String xml:lang="en-US">~b~Break window</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_break_window_no_item">
+        <String xml:lang="en-US">You need a ~y~{0}~s~ to break a ~o~suspect~s~'s window.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_suggest_bribe">
+        <String xml:lang="en-US">~o~Suggest bribe</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_suggest_bribe_description">
+        <String xml:lang="en-US">Ask the ~o~suspect~s~ to pay you.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_suggest_bribe_most_wanted">
+        <String xml:lang="en-US">~r~Most wanted suspects cannot bribe the police.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_give_antidote">
+        <String xml:lang="en-US">~p~Give antidote</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_give_antidote_description">
+        <String xml:lang="en-US">This player is on a ~r~drug overdose~s~. Select this option to give them the ~p~antidote~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_give_antidote_no_item">
+        <String xml:lang="en-US">You need ~y~{0}~s~ to reverse someone's ~r~overdose~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_give_cash">
+        <String xml:lang="en-US">Give cash</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_give_cash_description">
+        <String xml:lang="en-US">Give (C){0}(/C) cash from your wallet.~n~~y~Warning:~s~ trade ~r~at your own risk~s~, we don't guarantee that you will receive anything in exchange for this transaction.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_give_cash_level">
+        <String xml:lang="en-US">~r~You must be level {0} to give other players cash.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_give_item">
+        <String xml:lang="en-US">Give item</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_give_item_description">
+        <String xml:lang="en-US">Give (C){0}(/C) an item from your inventory.~n~~y~Warning:~s~ trade ~r~at your own risk~s~, we don't guarantee that you will receive anything in exchange for this transaction.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_give_keys">
+        <String xml:lang="en-US">Give keys</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_give_keys_description">
+        <String xml:lang="en-US">Give this player keys to your property.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_offer_trade">
+        <String xml:lang="en-US">Offer trade</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_offer_trade_description">
+        <String xml:lang="en-US">Offer this player a trade.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_no_actions">
+        <String xml:lang="en-US">No actions :(</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_no_actions_description">
+        <String xml:lang="en-US">There are no actions for this player.</String>
+    </Entry>
+
+    <Entry Id="gave_antidote">
+        <String xml:lang="en-US">You gave {0} the ~p~antidote ~s~and treated their ~r~drug overdose~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_suggest_bribe_requested">
+        <String xml:lang="en-US">REQUESTED</String>
+    </Entry>
+
+    <Entry Id="input_playermenu_give_cash">
+        <String xml:lang="en-US">Give Cash</String>
+    </Entry>
+
+    <Entry Id="input_playermenu_give_cash_text">
+        <String xml:lang="en-US">Enter the amount of money to send {0}.</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!--Stats menu -->
+    <!-- ========================= -->
     <Entry Id="menu_stats_title">
         <String xml:lang="en-US">Statistics</String>
         <String xml:lang="nl-NL">Statistieken</String>
