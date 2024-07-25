@@ -179,6 +179,31 @@
         <String xml:lang="hi-Latn">LIMITED!</String>
     </Entry>
 
+    <!-- Shows up in yellow in the description of uncommon items -->
+    <Entry Id="item_rarity_uncommon">
+        <String xml:lang="en-US">UNCOMMON</String>
+    </Entry>
+
+    <!-- Shows up in purple in the description of rare items -->
+    <Entry Id="item_rarity_rare">
+        <String xml:lang="en-US">RARE</String>
+    </Entry>
+
+    <!-- Shows up in purple in the description of very rare items -->
+    <Entry Id="item_rarity_very_rare">
+        <String xml:lang="en-US">VERY RARE</String>
+    </Entry>
+
+    <!-- Shows up in blue in the description of legendary items -->
+    <Entry Id="item_rarity_legendary">
+        <String xml:lang="en-US">LEGENDARY</String>
+    </Entry>
+
+    <!-- Shows up in orange in the description of unique items -->
+    <Entry Id="item_rarity_unique">
+        <String xml:lang="en-US">UNIQUE</String>
+    </Entry>
+
     <!-- {0} = Date -->
     <Entry Id="item_attribute_limited_descr">
         <String xml:lang="en-US">~r~Limited time offer: ~s~available until ~r~{0}~s~.</String>
@@ -2091,5 +2116,32 @@
         <String xml:lang="fr-FR">Location</String>
         <String xml:lang="tr-TR">Kiralık</String>
         <String xml:lang="hi-Latn">Rental</String>
+    </Entry>
+
+    <Entry Id="menu_dealership_garages_title">
+        <String xml:lang="en-US">Garages</String>
+        <String xml:lang="pl-PL">Garaże</String>
+        <String xml:lang="nl-NL">Garages</String>
+        <String xml:lang="it-IT">Garage</String>
+        <String xml:lang="es-ES">Garages</String>
+        <String xml:lang="pt-BR">Garagem</String>
+        <String xml:lang="ar-001">الجراجات</String>
+        <String xml:lang="id-ID">Garasi</String>
+        <String xml:lang="th-TH">โรงรถ</String>
+        <String xml:lang="fr-FR">Garages</String>
+    </Entry>
+
+    <Entry Id="menu_dealership_garages_subtitle">
+        <String xml:lang="en-US">Select a garage</String>
+        <String xml:lang="pl-PL">Wybierz garaż</String>
+        <String xml:lang="nl-NL">Selecteer een garage</String>
+        <String xml:lang="it-IT">Seleziona un garage</String>
+        <String xml:lang="es-ES">Seleccione un garaje</String>
+        <String xml:lang="pt-BR">Selecione uma garagem</String>
+        <String xml:lang="ar-001">اختر جراج</String>
+        <String xml:lang="id-ID">Pilih garasi</String>
+        <String xml:lang="th-TH">เลือกโรงรถ</String>
+        <String xml:lang="fr-FR">Sélectionner un garage</String>
+        <String xml:lang="hi-Latn">Select kare ek garage</String>
     </Entry>
 </Entries>
