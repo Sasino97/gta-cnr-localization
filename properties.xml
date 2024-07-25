@@ -627,34 +627,37 @@
         <String xml:lang="hi-Latn">View kare apni properties</String>
     </Entry>
 
+    <Entry Id="btn_menu_properties_gps">
+        <String xml:lang="en-US">Set GPS</String>
+    </Entry>
+
+    <!-- 0 = vehicle count -->
+    <!-- 1 = parking spots -->
+    <Entry Id="menu_properties_garage_occupancy">
+        <String xml:lang="en-US">Occupancy: {0} ~b~of {1}</String>
+    </Entry>
+
+    <Entry Id="menu_properties_warehouse_capacity">
+        <String xml:lang="en-US">Capacity: ~b~{0}</String>
+    </Entry>
+
+    <Entry Id="menu_properties_empty">
+        <String xml:lang="en-US">You don't own any property :(</String>
+    </Entry>
+
+    <Entry Id="menu_properties_empty_description">
+        <String xml:lang="en-US">Acquire properties and they will be shown in this menu.</String>
+    </Entry>
+
+    <Entry Id="menu_properties_pretext">
+        <String xml:lang="en-US">{0} properties</String>
+    </Entry>
+
+    <Entry Id="menu_properties_pretext_singular">
+        <String xml:lang="en-US">{0} property</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Garage Menu -->
     <!-- ========================= -->
-    <Entry Id="menu_garage_title">
-        <String xml:lang="en-US">Garages</String>
-        <String xml:lang="pl-PL">Garaże</String>
-        <String xml:lang="nl-NL">Garages</String>
-        <String xml:lang="it-IT">Garage</String>
-        <String xml:lang="es-ES">Garages</String>
-        <String xml:lang="pt-BR">Garagem</String>
-        <String xml:lang="ar-001">الجراجات</String>
-        <String xml:lang="id-ID">Garasi</String>
-        <String xml:lang="th-TH">โรงรถ</String>
-        <String xml:lang="fr-FR">Garages</String>
-    </Entry>
-
-    <Entry Id="menu_garage_subtitle">
-        <String xml:lang="en-US">Select a garage</String>
-        <String xml:lang="pl-PL">Wybierz garaż</String>
-        <String xml:lang="nl-NL">Selecteer een garage</String>
-        <String xml:lang="it-IT">Seleziona un garage</String>
-        <String xml:lang="es-ES">Seleccione un garaje</String>
-        <String xml:lang="pt-BR">Selecione uma garagem</String>
-        <String xml:lang="ar-001">اختر جراج</String>
-        <String xml:lang="id-ID">Pilih garasi</String>
-        <String xml:lang="th-TH">เลือกโรงรถ</String>
-        <String xml:lang="fr-FR">Sélectionner un garage</String>
-        <String xml:lang="hi-Latn">Select kare ek garage</String>
-    </Entry>
-
 </Entries>
