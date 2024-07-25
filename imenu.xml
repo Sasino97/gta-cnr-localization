@@ -1241,21 +1241,25 @@
 
     <Entry Id="imenu_inventory_cant_drop">
         <String xml:lang="en-US">This item can't be ~r~dropped~s~.</String>
+        <String xml:lang="hi-Latn">Yeah iten ~r~dropped ~s~nahi kiya jaa sakta.</String>
         <String xml:lang="fr-FR">Cet objet ne peut pas être ~r~déposé~s~.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_drop_invalid_position">
         <String xml:lang="en-US">You cannot drop an item ~r~here~s~.</String>
+        <String xml:lang="hi-Latn">Aap koi bhi item drop nahi kar sakte ~r~yaha~s~.</String>
         <String xml:lang="fr-FR">Tu ne peux pas déposer un objet ~r~ici~s~.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_drop_too_many">
         <String xml:lang="en-US">There are ~r~too many drops in the server~s~.</String>
+        <String xml:lang="hi-Latn">Yaha ~r~bohut saare drops ho gaye hain iss server mein~s~.</String>
         <String xml:lang="fr-FR">Il y a ~r~trop de dépôts dans le serveur~s~.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_pickup_concurrent">
         <String xml:lang="en-US">~r~This item is being picked up by someone else!</String>
+        <String xml:lang="hi-Latn">~r~Yeh item uthaya jaa raha hai kisi aur se!</String>
         <String xml:lang="fr-FR">~r~Cet article est en train d'être récupéré par quelqu'un d'autre!</String>
     </Entry>
 
@@ -1267,6 +1271,7 @@
     <!-- You picked up 2 ~b~Heavy Armor~s~. -->
     <Entry Id="imenu_inventory_pickup_success">
         <String xml:lang="en-US">You picked up {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="hi-Latn">Aap uthaye {0}{1} {2}~b~{3}~s~.</String>
         <String xml:lang="fr-FR">Tu as ramassé {0}{1} {2}~b~{3}~s~.</String>
     </Entry>
 
@@ -1278,12 +1283,14 @@
     <!-- You dropped ~p~2~s~ ~y~Heavy Armor~s~. -->
     <Entry Id="imenu_inventory_drop_success">
         <String xml:lang="en-US">You dropped ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+        <String xml:lang="hi-Latn">Aap drop kiye ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
         <String xml:lang="fr-FR">Tu as déposé ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
     </Entry>
 
     <!-- {0} = item name -->
     <Entry Id="input_imenu_inventory_drop">
         <String xml:lang="en-US">Drop {0}</String>
+        <String xml:lang="hi-Latn">Drop kare {0}</String>
         <String xml:lang="fr-FR">Déposer {0}</String>
     </Entry>
 
@@ -1295,27 +1302,32 @@
     <!-- You have 2 Heavy Armor. Enter the amount you want to drop: -->
     <Entry Id="input_imenu_inventory_drop_text">
         <String xml:lang="en-US">You have {0}{1} {2}{3}. Enter the amount you want to drop:</String>
+        <String xml:lang="hi-Latn">Aap ke paas {0}{1} {2}{3}. Enter kare drop karne ka amount:</String>
         <String xml:lang="fr-FR">Tu as {0}{1} {2}{3}. Saisis le montant que tu souhaites déposer:</String>
     </Entry>
 
     <Entry Id="item_name_preposition">
         <String xml:lang="en-US">of</String>
+        <String xml:lang="hi-Latn">of</String>
         <String xml:lang="fr-FR">de</String>
     </Entry>
 
     <Entry Id="imenu_inventory_search">
         <String xml:lang="en-US">Search</String>
+        <String xml:lang="hi-Latn">Search</String>
         <String xml:lang="fr-FR">Fouiller</String>
     </Entry>
 
     <Entry Id="imenu_inventory_search_text">
         <String xml:lang="en-US">Enter an item's name or part of it</String>
+        <String xml:lang="hi-Latn">Enter kare ek item ka name ya uska koi part</String>
         <String xml:lang="fr-FR">Saisir le nom d'un article ou une partie de celui-ci</String>
     </Entry>
 
     <!-- 0 = input -->
     <Entry Id="imenu_inventory_search_subtitle">
         <String xml:lang="en-US">Search: {0}</String>
+        <String xml:lang="hi-Latn">Search: {0}</String>
         <String xml:lang="fr-FR">Fouiller: {0}</String>
     </Entry>
 
