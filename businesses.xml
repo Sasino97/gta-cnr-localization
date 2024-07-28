@@ -31,6 +31,7 @@
         <String xml:lang="th-TH">เลือกรายการ</String>
         <String xml:lang="pl-PL">Wybierz przedmiot</String>
         <String xml:lang="hi-Latn">Ek item select kare</String>
+        <String xml:lang="zh-Hant">選擇一個物品</String>
     </Entry>
 
     <!-- ========================= -->
@@ -64,6 +65,7 @@
         <String xml:lang="pl-PL">KARTA PODARUNKOWA: {0}</String>
         <String xml:lang="tr-TR">HEDİYE KARTI: {0}</String>
         <String xml:lang="hi-Latn">GIFT CARD: {0}</String>
+        <String xml:lang="zh-Hant">點數卡: {0}</String>
     </Entry>
 
     <!-- ========================= -->
@@ -79,6 +81,7 @@
         <String xml:lang="pl-PL">Brak przedmiotów :(</String>
         <String xml:lang="tr-TR">Eşyalar yok :(</String>
         <String xml:lang="hi-Latn">No items :(</String>
+        <String xml:lang="zh-Hant">沒有商品 :(</String>
     </Entry>
 
     <Entry Id="menu_store_no_items_desc">
@@ -90,6 +93,7 @@
         <String xml:lang="pl-PL">Ten biznes nie ma żadnych dóbr lub usług na sprzedaż.</String>
         <String xml:lang="tr-TR">Bu işletmenin satışa sunulan herhangi bir mal veya hizmeti yok.</String>
         <String xml:lang="hi-Latn">Iss business me sale ke liye koi samaan nahi hai.</String>
+        <String xml:lang="zh-Hant">此商店尚無任何商品和服務可供銷售.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -104,6 +108,7 @@
         <String xml:lang="pl-PL">Kup</String>
         <String xml:lang="tr-TR">Satın Alım</String>
         <String xml:lang="hi-Latn">Purchase</String>
+        <String xml:lang="zh-Hant">付款</String>
     </Entry>
 
     <Entry Id="menu_store_btn_browse">
@@ -115,6 +120,7 @@
         <String xml:lang="pl-PL">Przeglądaj</String>
         <String xml:lang="tr-TR">Göz at</String>
         <String xml:lang="hi-Latn">Browse</String>
+        <String xml:lang="zh-Hant">瀏覽</String>
     </Entry>
 
     <Entry Id="menu_store_btn_steal">
@@ -126,6 +132,7 @@
         <String xml:lang="pl-PL">Ukradnij</String>
         <String xml:lang="tr-TR">Çalmak</String>
         <String xml:lang="hi-Latn">Steal</String>
+        <String xml:lang="zh-Hant">盜竊</String>
     </Entry>
 
     <!-- ========================= -->
@@ -141,6 +148,7 @@
         <String xml:lang="pl-PL">Posiadane</String>
         <String xml:lang="tr-TR">Sahipsin</String>
         <String xml:lang="hi-Latn">Owned</String>
+        <String xml:lang="zh-Hant">已擁有</String>
     </Entry>
 
     <!-- Shows up in red in the description of illegal items -->
@@ -153,6 +161,7 @@
         <String xml:lang="pl-PL">NIELEGALNE</String>
         <String xml:lang="tr-TR">İLLEGAL</String>
         <String xml:lang="hi-Latn">ILLEGAL</String>
+        <String xml:lang="zh-Hant">非法</String>
     </Entry>
 
     <!-- Shows up in yellow for newly added items -->
@@ -165,6 +174,7 @@
         <String xml:lang="pl-PL">NOWE!</String>
         <String xml:lang="tr-TR">YENİ!</String>
         <String xml:lang="hi-Latn">NEW!</String>
+        <String xml:lang="zh-Hant">新的!</String>
     </Entry>
 
     <!-- Shows up in red for items that are expiring soon -->
@@ -177,36 +187,42 @@
         <String xml:lang="pl-PL">OGRANICZONE!</String>
         <String xml:lang="tr-TR">SINIRLI SAYIDA!</String>
         <String xml:lang="hi-Latn">LIMITED!</String>
+        <String xml:lang="zh-Hant">限量!</String>
     </Entry>
 
     <!-- Shows up in yellow in the description of uncommon items -->
     <Entry Id="item_rarity_uncommon">
         <String xml:lang="en-US">UNCOMMON</String>
         <String xml:lang="fr-FR">NON COMMUN</String>
+        <String xml:lang="zh-Hant">罕見</String>
     </Entry>
 
     <!-- Shows up in purple in the description of rare items -->
     <Entry Id="item_rarity_rare">
         <String xml:lang="en-US">RARE</String>
         <String xml:lang="fr-FR">RARE</String>
+        <String xml:lang="zh-Hant">稀有</String>
     </Entry>
 
     <!-- Shows up in purple in the description of very rare items -->
     <Entry Id="item_rarity_very_rare">
         <String xml:lang="en-US">VERY RARE</String>
         <String xml:lang="fr-FR">TRÈS RARE</String>
+        <String xml:lang="zh-Hant">非常稀有</String>
     </Entry>
 
     <!-- Shows up in blue in the description of legendary items -->
     <Entry Id="item_rarity_legendary">
         <String xml:lang="en-US">LEGENDARY</String>
         <String xml:lang="fr-FR">LÉGENDAIRE</String>
+        <String xml:lang="zh-Hant">傳奇</String>
     </Entry>
 
     <!-- Shows up in orange in the description of unique items -->
     <Entry Id="item_rarity_unique">
         <String xml:lang="en-US">UNIQUE</String>
         <String xml:lang="fr-FR">UNIQUE</String>
+        <String xml:lang="zh-Hant">獨特</String>
     </Entry>
 
     <!-- {0} = Date -->
@@ -219,6 +235,7 @@
         <String xml:lang="pl-PL">~r~Oferta ograniczona czasowo: ~s~dostępna do ~r~{0}~s~.</String>
         <String xml:lang="tr-TR">~r~Sınırlı süreli teklif: ~s~Şu zamana kadar mevcut ~r~{0}~s~.</String>
         <String xml:lang="hi-Latn">~r~Limited time offer: ~s~available hai ~r~{0} ~s~tak.</String>
+        <String xml:lang="zh-Hant">~r~限時價格: ~s~在 ~r~{0}~s~內有效.</String>
     </Entry>
 
     <!-- Shows up for items who require a certain minimum level -->
@@ -232,6 +249,7 @@
         <String xml:lang="pl-PL">Odblokowane na poziomie {0}</String>
         <String xml:lang="tr-TR">Şu seviyede açılır {0}</String>
         <String xml:lang="hi-Latn">Is level par unlock hoga {0}</String>
+        <String xml:lang="zh-Hant">將在 {0} 等時解鎖</String>
     </Entry>
 
     <!-- Shows up for items who require a membership -->
@@ -246,6 +264,7 @@
         <String xml:lang="pl-PL">Wymaga {0}~n~~s~Zakup na ~b~{1}</String>
         <String xml:lang="tr-TR">{0} Gerekli~n~~s~Şu adresten satın al ~b~{1}</String>
         <String xml:lang="hi-Latn">Zarurat hai {0}~n~ ~s~ki, purchase kare ~b~{1}</String>
+        <String xml:lang="zh-Hant">你需要 {0}~n~~s~在 ~b~{1}~s~購買物品</String>
     </Entry>
 
     <!-- Shows up for items who require a membership, and you have that membership tier or higher -->
@@ -259,6 +278,7 @@
         <String xml:lang="pl-PL">Odblokowane z {0}</String>
         <String xml:lang="tr-TR">{0} İle açılır</String>
         <String xml:lang="hi-Latn">Unlocked hai aapke {0}</String>
+        <String xml:lang="zh-Hant">因為你持有 {0} 所以已被解鎖</String>
     </Entry>
 
     <!-- Shows up after the previous string when you have a tier higher than the required one (e.g. you have Gold and the item is Silver) -->
@@ -272,6 +292,7 @@
         <String xml:lang="pl-PL">(wymaga {0})</String>
         <String xml:lang="tr-TR">(gerekli {0})</String>
         <String xml:lang="hi-Latn">(Zarurat hai {0})</String>
+        <String xml:lang="zh-Hant">(需要{0})</String>
     </Entry>
 
     <!-- ========================= -->
@@ -291,6 +312,7 @@
         <String xml:lang="fr-FR">Tu as été pris en flagrant délit de ~r~vol à l'étalage ~s~ici. Reviens dans ~y~{0}~s~.</String>
         <String xml:lang="tr-TR">Burada ~r~mağaza hırsızlığı ~s~yaparken yakalandınız. ~y~{0}~s~ Sonra tekrar gel.</String>
         <String xml:lang="hi-Latn">Aap pakde gaye hain ~r~dukan se chori ~s~karte hue. Wapas aaiega is waqt ke baad ~y~{0}~s~.</String>
+        <String xml:lang="zh-Hant">你在此~r~偷竊~s~時被發現了. ~y~{0}~s~之後回來才可據續購買.</String>
     </Entry>
 
     <Entry Id="menu_store_shoplifting_cooldown_simple">
@@ -298,6 +320,7 @@
         <String xml:lang="fr-FR">Attends avant de tenter un ~r~vol à l'étalage ~s~à nouveau.</String>
         <String xml:lang="nl-NL">Je moet wachten voordat je weer een ~r~winkeldiefstal ~s~probeert.</String>
         <String xml:lang="hi-Latn">Intezaar karien wapas ~r~chori ~s~karne se pehle.</String>
+        <String xml:lang="zh-Hant">在你~r~偷竊~s~前請先等待一會.</String>
     </Entry>
 
     <Entry Id="menu_store_bounty">
@@ -312,6 +335,7 @@
         <String xml:lang="fr-FR">Tu ne peux pas faire des achats dans les magasins d'armes lorsque tu as une ~r~prime~s~.</String>
         <String xml:lang="tr-TR">Başınızda ~r~ödül~s~ varken silah mağazasında alışveriş yapamazsınız.</String>
         <String xml:lang="hi-Latn">Aap gun stores se kharidaari nahi kar sakte jab aap pe ~r~bounty ~s~lagi ho.</String>
+        <String xml:lang="zh-Hant">你無法在有~r~五星通緝~s~時於槍店購買商品.</String>
     </Entry>
 
     <Entry Id="menu_store_duty">
@@ -326,6 +350,7 @@
         <String xml:lang="fr-FR">Tu ne peux pas faire des achats dans ce magasin lorsque tu es ~b~en service~s~.</String>
         <String xml:lang="tr-TR">~b~Görev başında ~s~bu mağazadan alışveriş yapmazsınız.</String>
         <String xml:lang="hi-Latn">Jab aap ~b~ON-Duty ~s~toh aap is store pe kharidaari nahi kar sakte.</String>
+        <String xml:lang="zh-Hant">你無法在~b~上班時~s~於此商店購買.</String>
     </Entry>
 
     <Entry Id="menu_store_cops_only">
@@ -340,6 +365,7 @@
         <String xml:lang="fr-FR">Seuls les ~b~agents de police ~s~peuvent faire des achats dans ce magasin.</String>
         <String xml:lang="tr-TR">Sadece ~b~polis memurları ~s~bu mağazadan alışveriş yapabilir.</String>
         <String xml:lang="hi-Latn">Sirf ~b~police officers ~s~is dukaan pe kharidaari kar sakte hain.</String>
+        <String xml:lang="zh-Hant">僅有 ~b~警員~s~ 可於此商店購買.</String>
     </Entry>
 
     <!-- {0} = Required level -->
@@ -348,6 +374,7 @@
         <String xml:lang="nl-NL">Je moet ~b~level {0} ~s~of hoger zijn om hier te mogen ~r~winkelen~s~.</String>
         <String xml:lang="fr-FR">Tu dois être ~b~niveau {0} ~s~ou plus pour utiliser ce ~r~magasin~s~.</String>
         <String xml:lang="hi-Latn">Aapko ~b~level {0} ~s~ya isse zyada ka hona pafega iss ~r~dukaan ~s~se saman lene ke liye.</String>
+        <String xml:lang="zh-Hant">你必須至少在 ~b~{0}等~s~ 或以上才可以使用此~r~商店~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -363,6 +390,7 @@
         <String xml:lang="fr-FR">Tu ne peux pas ~r~acheter ~s~plus de ~y~{0}~s~.</String>
         <String xml:lang="tr-TR">Daha fazla ~y~{0} ~r~satın ~s~alamazsın.</String>
         <String xml:lang="hi-Latn">Aap aur nahi ~r~kareed ~s~sakte ~y~{0}~s~.</String>
+        <String xml:lang="zh-Hant">你~r~購買~s~ ~y~{0}~s~ 的數量已達上限.</String>
     </Entry>
 
     <Entry Id="menu_store_no_gun_for_ammo_type">
@@ -374,6 +402,7 @@
         <String xml:lang="fr-FR">Tu n'as pas d'arme qui puisse utiliser ce type de munitions.</String>
         <String xml:lang="tr-TR">Bu tip mermiyi kullanacak herhangi bir silahınız yok.</String>
         <String xml:lang="hi-Latn">Aapke paas koi gun nahi hai jo iss type ka ammo use kare.</String>
+        <String xml:lang="zh-Hant">你並未持有任何可使用該子彈的武器.</String>
     </Entry>
 
     <Entry Id="already_own_weapon">
@@ -388,6 +417,7 @@
         <String xml:lang="fr-FR">~r~Tu possèdes déjà cette arme!</String>
         <String xml:lang="tr-TR">~r~Bu silaha zaten sahipsin!</String>
         <String xml:lang="hi-Latn">~r~Ye weapon aapke paas pehle se hi hai.</String>
+        <String xml:lang="zh-Hant">~r~你已擁有該武器!</String>
     </Entry>
 
     <Entry Id="already_own_attachment">
@@ -402,6 +432,7 @@
         <String xml:lang="fr-FR">~r~Tu possèdes déjà cet accessoire!</String>
         <String xml:lang="tr-TR">~r~Bu eklentiye zaten sahipsin!</String>
         <String xml:lang="hi-Latn">~r~Ye attachment aapke paas pehle se hi hai.</String>
+        <String xml:lang="zh-Hant">~r~你以傭有該配件!</String>'
     </Entry>
 
     <!-- {0} = Weapon Attachment -->
@@ -414,6 +445,7 @@
         <String xml:lang="fr-FR">Si tu achètes cet accessoire, tu perdras ton ~y~{0} ~s~sur cette arme. Veux-tu continuer?</String>
         <String xml:lang="tr-TR">Eğer bu eklentiyi alırsan bu silahtaki ~y~{0} ~s~kaybedeceksin. Devam etmek istiyor musunuz?</String>
         <String xml:lang="hi-Latn">Agar aap ye attachment khareed te hain, toh aap apka purana ~y~{0} ~s~hat jayega us weapon ka. Proceed karna chahte hain?</String>
+        <String xml:lang="zh-Hant">如果你購買此配件你將失去已在你武器上的 ~y~{0}~s~ ,你確定要購買嗎?</String>
     </Entry>
 
     <!-- ========================= -->
@@ -432,6 +464,7 @@
         <String xml:lang="fr-FR">{0} pour {1}</String>
         <String xml:lang="tr-TR">{0} için {1}</String>
         <String xml:lang="hi-Latn">{0} for {1}</String>
+        <String xml:lang="zh-Hant">{0} 個要 {1}</String>
     </Entry>
 
     <!-- Displays the unit price in the description -->
@@ -447,6 +480,7 @@
         <String xml:lang="fr-FR">Prix: {0}/{1}</String>
         <String xml:lang="tr-TR">Fiyat: {0}/{1}</String>
         <String xml:lang="hi-Latn">Price: {0}/{1}</String>
+        <String xml:lang="zh-Hant">價格: {0}/{1}</String>
     </Entry>
 
     <!-- Example: You purchased a ~p~Standard Armor ~s~for ~r~$2500. -->
@@ -459,6 +493,7 @@
         <String xml:lang="fr-FR">Tu as acheté {0} ~p~{1} ~s~pour ~r~{2}.</String>
         <String xml:lang="tr-TR">Bir {0} ~p~{1} ~s~için ~r~{2} ödediniz.</String>
         <String xml:lang="hi-Latn">Aapne khareeda {0} ~p~{1} ~s~for ~r~{2}.</String>
+        <String xml:lang="zh-Hant">你以 {2} 購買了 {0}~p~{1}~s~.</String>
     </Entry>
 
     <!-- Example: You purchased a ~p~Standard Armor ~s~for ~r~$2000 ~s~in gift card balance and ~r~$500 ~s~in cash. -->
@@ -472,6 +507,7 @@
         <String xml:lang="fr-FR">Tu as acheté {0} ~p~{1} ~s~pour ~b~{2} ~s~en solde de carte cadeau et ~r~{3} ~s~en espèces.</String>
         <String xml:lang="tr-TR">{0} ~p~{1}~s~, ~b~{2} ~s~hediye kartı bakiyesi ve ~r~{3} ~s~nakit ile satın aldınız.</String>
         <String xml:lang="hi-Latn">Aapne khareeda {0} ~p~{1} ~s~for ~b~{2} ~s~apne gift card ke balance aur ~r~{3} ~s~cash se.</String>
+        <String xml:lang="zh-Hant">你以 ~b~{2}~s~ 的點數卡,和 ~r~{3}~s~ 的現金購買了 {0} ~p~{1}~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -489,7 +525,7 @@
         <String xml:lang="pt-BR">Suprimentos {0}</String>
         <String xml:lang="pl-PL">Zasoby {0}</String>
         <String xml:lang="th-TH">{0} จำนวน</String>
-        <String xml:lang="zh-Hant">{0}補給品</String>
+        <String xml:lang="zh-Hant">{0} 的貨品</String>
         <String xml:lang="fr-FR">{0} Matériel</String>
         <String xml:lang="tr-TR">{0} Malzemesi</String>
         <String xml:lang="hi-Latn">{0} Supplies</String>
@@ -508,7 +544,7 @@
         <String xml:lang="pt-BR">Delitos</String>
         <String xml:lang="pl-PL">Przestępstwa</String>
         <String xml:lang="th-TH">อาชญากรรม</String>
-        <String xml:lang="zh-Hant">犯罪</String>
+        <String xml:lang="zh-Hant">犯行</String>
         <String xml:lang="fr-FR">Crimes</String>
         <String xml:lang="tr-TR">Suçlar</String>
         <String xml:lang="hi-Latn">Crimes</String>
@@ -524,7 +560,7 @@
         <String xml:lang="pt-BR">Delitos cometidos nesta sessão</String>
         <String xml:lang="pl-PL">Przestępstwa popełnione w tej sesji</String>
         <String xml:lang="th-TH">อาชญากรรมที่เกิดขึ้นในเซสชั่นนี้</String>
-        <String xml:lang="zh-Hant">在此層級發生的犯罪</String>
+        <String xml:lang="zh-Hant">在這周犯下的犯行</String>
         <String xml:lang="fr-FR">Crimes commis au cours de cette session</String>
         <String xml:lang="tr-TR">Bu oturumda işlenmiş suçlar</String>
         <String xml:lang="hi-Latn">Is session me hue crimes.</String>
@@ -536,6 +572,7 @@
         <String xml:lang="fr-FR">Affiche la liste de tes crimes les plus récents.</String>
         <String xml:lang="tr-TR">En son işlediğiniz suçlarınızın listesini gösterir.</String>
         <String xml:lang="hi-Latn">Aapko aapke recent crimes ki list dikhata hai.</String>
+        <String xml:lang="zh-Hant">顯示你最近犯下的犯行.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -809,6 +846,7 @@
         <String xml:lang="fr-FR">Voir les appels récents pour un trafiquant de drogue.</String>
         <String xml:lang="tr-TR">Son zamanlarda uyuşturucu satıcısı için yapılan aramalar.</String>
         <String xml:lang="hi-Latn">Drug dealer ke liye recent ki calls dekhe.</String>
+        <String xml:lang="zh-Hant">查看近期給毒販的通話.</String>
     </Entry>
 
     <Entry Id="menu_drugdealer_recentsales_description">
@@ -817,6 +855,7 @@
         <String xml:lang="fr-FR">Consulter tes ventes de la session en cours.</String>
         <String xml:lang="tr-TR">Mevcut oturumdaki satışlarınızı görüntüleyin.</String>
         <String xml:lang="hi-Latn">Apne current session ki sales dekhe.</String>
+        <String xml:lang="zh-Hant">查看你在這周的銷售量.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -874,30 +913,35 @@
         <String xml:lang="en-US">SHOP FEE: {0}%</String>
         <String xml:lang="nl-NL">WINKELKOSTEN: {0}%</String>
         <String xml:lang="fr-FR">FRAIS D'ATELIER: {0}%</String>
+        <String xml:lang="zh-Hant">銷售稅: {0}%</String>
     </Entry>
 
     <Entry Id="menu_mechanic_shop_plate">
         <String xml:lang="en-US">Vanity plate</String>
         <String xml:lang="nl-NL">Persoonlijk kenteken</String>
         <String xml:lang="fr-FR">Plaque personnalisée</String>
+        <String xml:lang="zh-Hant">更改車牌號</String>
     </Entry>
 
     <Entry Id="menu_mechanic_shop_more_services">
         <String xml:lang="en-US">More services</String>
         <String xml:lang="nl-NL">Meer diensten</String>
         <String xml:lang="fr-FR">Plus de services</String>
+        <String xml:lang="zh-Hant">更多服務</String>
     </Entry>
 
     <Entry Id="menu_mechanic_shop_no_players">
         <String xml:lang="en-US">There are no mechanic ~b~players~s~ in this shop. You can't customize your vehicle.</String>
         <String xml:lang="nl-NL">Er zijn geen aanwezige ~b~monteurs~s~ in deze werkplaats. Je kunt je voertuig niet aanpassen.</String>
         <String xml:lang="fr-FR">Il n'y a pas de mécanicien ~b~joueurs~s~ dans cet atelier. Tu ne peux pas personnaliser ton véhicule.</String>
+        <String xml:lang="zh-Hant">沒有任何 ~b~修車工~s~ 於此工作. 你無法客製化你的車輛.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_shop_players">
         <String xml:lang="en-US">There are ~y~{0}~s~ mechanic ~b~players~s~ in this shop. Select this option to view their services.</String>
         <String xml:lang="nl-NL">Er zijn ~y~{0}~s~ ~b~monteurs~s~ in deze werkplaats. Selecteer deze optie om hun diensten te bekijken.</String>
         <String xml:lang="fr-FR">Il y a ~y~{0}~s~ mécaniciens ~b~joueurs~s~ dans cet atelier. Sélectionner cette option pour voir leurs services.</String>
+        <String xml:lang="zh-Hant">這裡有 ~y~{0}~s~個 修車工在工作. 選擇此選項以查看他們提供的服務.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_services_subtitle">
@@ -923,6 +967,7 @@
         <String xml:lang="fr-FR">Gérer tes services.</String>
         <String xml:lang="tr-TR">Hizmetlerinizi yönetin.</String>
         <String xml:lang="hi-Latn">Apni services manage kare.</String>
+        <String xml:lang="zh-Hant">管理你的服務選項.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_services_request_subtitle">
@@ -934,7 +979,7 @@
         <String xml:lang="th-TH">เรียกยานพาหนะ</String>
         <String xml:lang="vi-VN">Yêu cầu một dịch vụ</String>
         <String xml:lang="id-ID">Meminta layanan</String>
-        <String xml:lang="zh-Hant">請求一個服務</String>
+        <String xml:lang="zh-Hant">請求服務</String>
         <String xml:lang="pl-PL">Poproś o usługi</String>
         <String xml:lang="fr-FR">Demander un service</String>
         <String xml:lang="tr-TR">Bir hizmet talep et</String>
@@ -964,6 +1009,7 @@
         <String xml:lang="fr-FR">Voir les appels récents pour un mécanicien.</String>
         <String xml:lang="tr-TR">Son zamanlarda mekanik için yapılan aramalar.</String>
         <String xml:lang="hi-Latn">Mechanic ke liye recent ki calls dekhe.</String>
+        <String xml:lang="zh-Hant">查看近期給修車工的來電.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_recentsales_subtitle">
@@ -989,6 +1035,7 @@
         <String xml:lang="fr-FR">Consulter tes ventes de la session en cours.</String>
         <String xml:lang="tr-TR">Mevcut oturumdaki satışlarınızı görüntüleyin.</String>
         <String xml:lang="hi-Latn">Apne current session ki sales dekhe.</String>
+        <String xml:lang="zh-Hant">查看你在這周的銷售量.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_available_subtitle">
@@ -1067,6 +1114,7 @@
         <String xml:lang="en-US">Pearlescent Color</String>
         <String xml:lang="nl-NL">Parelmoer kleuren</String>
         <String xml:lang="fr-FR">Couleur nacrée</String>
+        <String xml:lang="zh-Hant">珠光</String>
     </Entry>
 
     <Entry Id="menu_mechanic_secondarycolor_subtitle">
@@ -1268,7 +1316,7 @@
         <String xml:lang="th-TH">สถานีตำรวจ</String>
         <String xml:lang="vi-VN">Trụ sở cảnh sát</String>
         <String xml:lang="id-ID">Kantor kepolisian</String>
-        <String xml:lang="zh-Hant">警察局</String>
+        <String xml:lang="zh-Hant">警局</String>
         <String xml:lang="pl-PL">Komisariat Policji</String>
         <String xml:lang="fr-FR">Poste de police</String>
         <String xml:lang="tr-TR">Polis İstasyonu</String>
@@ -1286,7 +1334,7 @@
         <String xml:lang="th-TH">หมายจับ</String>
         <String xml:lang="vi-VN">Lệnh bắt giữ</String>
         <String xml:lang="id-ID">Daftar Burnonan</String>
-        <String xml:lang="zh-Hant">逮捕遭通緝玩家</String>
+        <String xml:lang="zh-Hant">逮捕令</String>
         <String xml:lang="pl-PL">Nakaz Aresztowania</String>
         <String xml:lang="fr-FR">Mandats d'arrêt</String>
         <String xml:lang="tr-TR">Tutuklama Emri</String>
@@ -1390,42 +1438,49 @@
         <String xml:lang="en-US">~b~Stock</String>
         <String xml:lang="nl-NL">~b~Voorraad</String>
         <String xml:lang="fr-FR">~b~Stock</String>
+        <String xml:lang="zh-Hant">~b~貨品</String>
     </Entry>
 
     <Entry Id="menu_stp_stock_description">
         <String xml:lang="en-US">Put items here if you want to ~g~sell them ~s~later.</String>
         <String xml:lang="nl-NL">Sla hier je voorwerpen op als je ze later ~g~wilt verkopen~s~.</String>
         <String xml:lang="fr-FR">Tu peux mettre des objets ici si tu veux les ~g~vendre ~s~plus tard.</String>
+        <String xml:lang="zh-Hant">將你想 ~g~銷售的物件~s~ 放置於此.</String>
     </Entry>
 
     <Entry Id="menu_stp_inventory_text">
         <String xml:lang="en-US">Inventory</String>
         <String xml:lang="nl-NL">Inventaris</String>
         <String xml:lang="fr-FR">Inventaire</String>
+        <String xml:lang="zh-Hant">庫存</String>
     </Entry>
 
     <Entry Id="menu_stp_inventory_description">
         <String xml:lang="en-US">Put items here if you want to ~r~use them~s~.</String>
         <String xml:lang="nl-NL">Zet hier je voorwerpen neer als je ze ~r~wilt gebruiken~s~.</String>
         <String xml:lang="fr-FR">Tu peux mettre des objets ici si tu veux les ~r~utiliser~s~.</String>
+        <String xml:lang="zh-Hant">將你想使用的物品放置於此已 ~r~使用他~s~ .</String>
     </Entry>
 
     <Entry Id="btn_seller_buy">
         <String xml:lang="en-US">Buy</String>
         <String xml:lang="nl-NL">Koop</String>
         <String xml:lang="fr-FR">Acheter</String>
+        <String xml:lang="zh-Hant">買</String>
     </Entry>
 
     <Entry Id="btn_seller_cancel">
         <String xml:lang="en-US">Cancel</String>
         <String xml:lang="nl-NL">Annuleer</String>
         <String xml:lang="fr-FR">Annuler</String>
+        <String xml:lang="zh-Hant">取消</String>
     </Entry>
 
     <Entry Id="btn_stp_offer">
         <String xml:lang="en-US">Offer</String>
         <String xml:lang="nl-NL">Aanbieden</String>
         <String xml:lang="fr-FR">Offre</String>
+        <String xml:lang="zh-Hant">提供</String>
     </Entry>
 
     <!-- Example: Offer (hold) -->
@@ -1434,12 +1489,14 @@
         <String xml:lang="en-US">{0} (hold)</String>
         <String xml:lang="nl-NL">{0} (vasthouden)</String>
         <String xml:lang="fr-FR">{0} (maintenir)</String>
+        <String xml:lang="zh-Hant">{0} (持有)</String>
     </Entry>
 
     <Entry Id="stp_offered">
         <String xml:lang="en-US">You've offered your ~y~services ~s~to {0}~s~.</String>
         <String xml:lang="nl-NL">Je hebt je ~y~diensten ~s~aangeboden aan {0}~s~.</String>
         <String xml:lang="fr-FR">Tu as offert tes ~y~services ~s~à {0}~s~.</String>
+        <String xml:lang="zh-Hant">你已將你的 ~y~服務~s~提供給 {0}~s~.</String>
     </Entry>
 
     <!-- {0} = Button -->
@@ -1447,12 +1504,14 @@
         <String xml:lang="en-US">Press {0}</String>
         <String xml:lang="nl-NL">Druk {0}</String>
         <String xml:lang="fr-FR">Presse {0}</String>
+        <String xml:lang="zh-Hant">按 {0}</String>
     </Entry>
 
     <Entry Id="stp_hold">
         <String xml:lang="en-US">Hold {0}</String>
         <String xml:lang="nl-NL">Houdt {0} vast</String>
         <String xml:lang="fr-FR">Maintenir {0}</String>
+        <String xml:lang="zh-Hant">持有 {0}</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -1462,6 +1521,7 @@
         <String xml:lang="en-US">{0} {1} ~s~has offered you ~y~their services~s~. {2} to view their menu.</String>
         <String xml:lang="nl-NL">{0} {1} ~s~heeft je ~y~zijn/haar diensten~s~ aangeboden. {2} om het menu te bekijken.</String>
         <String xml:lang="fr-FR">{0} {1} ~s~a proposé ~y~ses services~s~. {2} pour consulter son menu.</String>
+        <String xml:lang="zh-Hant">{0} {1} ~s~想提供 ~y~他們的服務~s~ 給你. 按下 {2} 以查看.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1473,6 +1533,7 @@
         <String xml:lang="en-US">You sold {0} ~y~{1}{2} {3}~s~ for ~g~{4}~s~.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~y~{1}{2} {3}~s~ verkocht voor ~g~{4}~s~.</String>
         <String xml:lang="fr-FR">Tu as vendu {0} ~y~{1}{2} {3}~s~ pour ~g~{4}~s~.</String>
+        <String xml:lang="zh-Hant">你以 ~g~{4}~s~ 售給 {0} ~y~{1}{2} 個{3}~s~.</String>
     </Entry>
 
     <!-- Example: Metallic Black Respray -->
@@ -1481,6 +1542,7 @@
         <String xml:lang="en-US">{0} Respray</String>
         <String xml:lang="nl-NL">{0} Verf</String>
         <String xml:lang="fr-FR">{0} Repeindre</String>
+        <String xml:lang="zh-Hant">重新噴漆 {0}</String>
     </Entry>
 
     <!-- {0} = Livery index -->
@@ -1488,6 +1550,7 @@
         <String xml:lang="en-US">Livery #{0} Respray</String>
         <String xml:lang="nl-NL">Livery #{0} Verf</String>
         <String xml:lang="fr-FR">Livrée #{0} Repeindre</String>
+        <String xml:lang="zh-Hant">重新噴漆 #{0} 號塗裝</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1497,6 +1560,7 @@
         <String xml:lang="en-US">You sold {0} a ~y~{1}~s~ for ~g~{2}~s~.</String>
         <String xml:lang="nl-NL">Je hebt {0} een ~y~{1}~s~ verkocht voor ~g~{2}~s~.</String>
         <String xml:lang="fr-FR">Tu as vendu {0} un ~y~{1}~s~ pour ~g~{2}~s~.</String>
+        <String xml:lang="zh-Hant">你以 ~g~{2}~s~ 將 ~y~{1}~s~ 售給 {0}.</String>
     </Entry>
 
     <!-- {0} = Fee -->
@@ -1505,6 +1569,7 @@
         <String xml:lang="en-US">Shop fee: ~r~{0}~s~~n~Total earned: ~g~{1}</String>
         <String xml:lang="nl-NL">Winkeltoeslag: ~r~{0}~s~~n~Totaal verdient: ~g~{1}</String>
         <String xml:lang="fr-FR">Frais de vente : ~r~{0}~s~~n~Total gagné : ~g~{1}</String>
+        <String xml:lang="zh-Hant">消費稅: ~r~{0}~s~ 總收入: ~g~{1}</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1512,6 +1577,7 @@
         <String xml:lang="en-US">{0} is ~r~too far ~s~from you.</String>
         <String xml:lang="nl-NL">{0} is ~r~te ver weg ~s~van jou.</String>
         <String xml:lang="fr-FR">{0} est ~r~trop loin ~s~de toi.</String>
+        <String xml:lang="zh-Hant">{0} 離你 ~r~太遠了~s~ .</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1519,24 +1585,28 @@
         <String xml:lang="en-US">Buying from {0}</String>
         <String xml:lang="nl-NL">Aan het kopen van {0}</String>
         <String xml:lang="fr-FR">Acheter à partir de {0}</String>
+        <String xml:lang="zh-Hant">買自 {0}</String>
     </Entry>
 
     <Entry Id="stp_service_fix_na">
         <String xml:lang="en-US">UNDAMAGED</String>
         <String xml:lang="nl-NL">NIET BESCHADIGD</String>
         <String xml:lang="fr-FR">NON ENDOMMAGÉ</String>
+        <String xml:lang="zh-Hant">未受損</String>
     </Entry>
 
     <Entry Id="stp_service_wash_na">
         <String xml:lang="en-US">CLEAN</String>
         <String xml:lang="nl-NL">SCHOON</String>
         <String xml:lang="fr-FR">PROPRE</String>
+        <String xml:lang="zh-Hant">乾淨</String>
     </Entry>
 
     <Entry Id="stp_service_error_no_tools">
         <String xml:lang="en-US">~y~This mechanic doesn't have the necessary tools to provide this service.</String>
         <String xml:lang="nl-NL">~y~Deze monteur heeft niet de juiste gereedschappen om deze dienst te verlenen.</String>
         <String xml:lang="fr-FR">~y~Ce mécanicien ne dispose pas des outils nécessaires pour fournir ce service.</String>
+        <String xml:lang="zh-Hant">~y~此修車工沒有合適的工具以提供該服務.</String>
     </Entry>
 
     <Entry Id="stp_service_error_not_certified">
