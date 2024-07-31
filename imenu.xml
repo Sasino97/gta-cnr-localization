@@ -328,7 +328,7 @@
         <String xml:lang="vi-VN">Xem số liệu thông kê đầy đủ của bạn.</String>
         <String xml:lang="id-ID">Lihat status anda keseluruhan.</String>
         <String xml:lang="hi-Latn">Apne full stats view kare.</String>
-        <String xml:lang="cs-CS">Zobrazit plné statistiky.</String>
+        <String xml:lang="cs-CS">Zobrazit úplné statistiky.</String>
     </Entry>
 
     <Entry Id="imenu_options">
@@ -878,7 +878,7 @@
         <String xml:lang="th-TH">วาง</String>
         <String xml:lang="vi-VN">Thả</String>
         <String xml:lang="id-ID">Jatuhkan</String>
-        <String xml:lang="cs-CS">Zahodit</String>
+        <String xml:lang="cs-CS">Vyhodit</String>
     </Entry>
 
     <Entry Id="btn_imenu_inventory_pickup">
@@ -904,7 +904,7 @@
         <String xml:lang="th-TH">~b~คลัง</String>
         <String xml:lang="vi-VN">~b~Kho</String>
         <String xml:lang="id-ID">~b~persediaan</String>
-        <String xml:lang="cs-CS">~b~Zásoba</String>
+        <String xml:lang="cs-CS">~b~Zásoby</String>
     </Entry>
 
     <Entry Id="imenu_inventory_stock_descr">
@@ -1089,6 +1089,7 @@
         <String xml:lang="vi-VN">Bạn đã đưa {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="id-ID">Anda memberikan {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="hi-Latn">Aapne diye {0} ~y~{1} {2}~s~.</String>
+        <String xml:lang="cs-CS">Dal jsi {0} ~y~{1} {2}~s~.</String>
     </Entry>
 
     <!-- Same as before, but for items that have a measure unit -->
@@ -1114,6 +1115,7 @@
         <String xml:lang="vi-VN">Bạn đã đưa {0} ~y~{1}{2} {3}~s~.</String>
         <String xml:lang="id-ID">Anda memberikan {0}~y~{1}{2} {3}~s~.</String>
         <String xml:lang="hi-Latn">Aapne diye {0} ~y~{1}{2} of {3}~s~.</String>
+        <String xml:lang="cs-CS">Dal jsi {0} ~y~{1}{2} {3}~s~.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_send_cant_give_item">
@@ -1133,6 +1135,7 @@
         <String xml:lang="vi-VN">Vật phẩm này không thể ~r~đưa ~s~cho người chơi khác.</String>
         <String xml:lang="id-ID">Barang ini tidak dapat ~r~diberikan ~s~kepada pemain lain.</String>
         <String xml:lang="hi-Latn">Ye item nahi ~r~diya ~s~jaa sakta doosre players ko.</String>
+        <String xml:lang="cs-CS">Tento předmět nemůžeš ~r~dát ~s~jinému hráči.</String>
     </Entry>
 
     <!-- 0 = Item name -->
@@ -1153,6 +1156,7 @@
         <String xml:lang="vi-VN">Bạn không có đủ ~r~{0}~s~.</String>
         <String xml:lang="id-ID">Anda tidak memiliki ~r~{0}~s~ yang cukup.</String>
         <String xml:lang="hi-Latn">Aapke pass enough nahi hai ~r~{0}~s~.</String>
+        <String xml:lang="cs-CS">Nemáš dostatek~r~{0}~s~.</String>
     </Entry>
 
     <!-- 0 = Player name -->
@@ -1173,6 +1177,7 @@
         <String xml:lang="vi-VN">{0} Không có đủ chỗ trống trong túi đồ của họ.</String>
         <String xml:lang="id-ID">{0} tidak memiliki kapasitas yang mencukup didalam invetarisnya.</String>
         <String xml:lang="hi-Latn">{0} nahi hai enough space unki inventory me.</String>
+        <String xml:lang="cs-CS">{0} nemá v intentáři dostatek místa.</String>
     </Entry>
 
     <!-- 0 = Player name -->
@@ -1195,6 +1200,7 @@
         <String xml:lang="vi-VN">{0} không thể giữ thêm ~r~{1}~s~ ~r~{2}~s~.</String>
         <String xml:lang="id-ID">{0} Tidak dapat membawa ~r~{1} ~s~lagi ~r~{2}~s~.</String>
         <String xml:lang="hi-Latn">{0} nahi rakh sakte ~r~{1} ~s~zyada ~r~{2}~s~.</String>
+        <String xml:lang="en-US">{0} nemůže nést ~r~{1} ~s~více ~r~{2}~s~.</String>
     </Entry>
 
     <!-- 0 = Player name -->
@@ -1219,6 +1225,7 @@
         <String xml:lang="vi-VN">{0} không thể giữ thêm {1} ~s~{2} ~r~của {3}~s~.</String>
         <String xml:lang="id-ID">{0} tidak dapat membawa ~r~{1} ~s~{2} lagi dari ~r~{3}~s~.</String>
         <String xml:lang="hi-Latn">{0} nahi rakh sakte ~r~{1} ~s~zyada {2} of ~r~{3}~s~.</String>
+        <String xml:lang="cs-CS">{0} už nemůže mít ~r~{1} ~s~více {2} ~r~{3}~s~.</String>
     </Entry>
 
     <!-- 0 = Player name -->
@@ -1230,6 +1237,7 @@
         <String xml:lang="en-US">{0} gave you ~y~{1}{2} {3}~s~.</String>
         <String xml:lang="nl-NL">{0} heeft je ~y~{1}{2} {3}~s~ gegeven.</String>
         <String xml:lang="fr-FR">{0} t'a donné ~y~{1}{2} {3}~s~.</String>
+        <String xml:lang="cs-CS">{0} ti dal ~y~{1}{2} {3}~s~.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_no_items_in_category">
@@ -1249,6 +1257,7 @@
         <String xml:lang="id-ID">Tidak ada barang didalam kategori ini :(</String>
         <String xml:lang="tr-TR">Bu kategoride hiç öğe bulunmuyor :(</String>
         <String xml:lang="hi-Latn">Koi items nahi hai iss category mein :(</String>
+        <String xml:lang="cs-CS">Žádný předmět v této kategorii :(</String>
     </Entry>
 
     <Entry Id="imenu_inventory_no_items_in_category_descr">
@@ -1268,6 +1277,7 @@
         <String xml:lang="vi-VN">Không có bất kì vật phẩm nào trong danh mục này.</String>
         <String xml:lang="id-ID">Tidak ada barang didalam kategori ini.</String>
         <String xml:lang="hi-Latn">Koi items nahi hai iss category mein.</String>
+        <String xml:lang="cs-CS">V této kategorii nejsou žádné předměty.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_cant_use">
@@ -1287,6 +1297,7 @@
         <String xml:lang="id-ID">Anda ~r~tidak dapat ~s~menggunakan barang ini langsung dari inventory.</String>
         <String xml:lang="tr-TR">Bu eşyayı envanterden doğrudan ~r~kullanamazsınız~s~.</String>
         <String xml:lang="hi-Latn">Aap ~r~nahi ~s~use kar sakte ye item directly apni inventory se.</String>
+        <String xml:lang="cs-CS">Tento předmět ~r~nemůžeš ~s~použít přímo z intenváře.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_rate_limit">
@@ -1306,6 +1317,8 @@
         <String xml:lang="id-ID">Anda telah terkena ~r~pembatasan jaringan masuk~s~.</String>
         <String xml:lang="tr-TR">~r~Sınırlı hıza tabi ~s~tutuldunuz.</String>
         <String xml:lang="hi-Latn">Aapko ~r~rate limit ~s~kar diya gaya hai.</String>
+        <String xml:lang="cs-CS">Né tak rychle! Byl jsi ~r~dočasně omezen~s~.</String>
+
     </Entry>
 
     <Entry Id="imenu_inventory_cant_drop">
@@ -1313,6 +1326,7 @@
         <String xml:lang="nl-NL">Dit voorwerp kan niet worden ~r~neergelegd~s~.</String>
         <String xml:lang="hi-Latn">Yeah iten ~r~dropped ~s~nahi kiya jaa sakta.</String>
         <String xml:lang="fr-FR">Cet objet ne peut pas être ~r~déposé~s~.</String>
+        <String xml:lang="cs-CS">Tento item nemůžeš ~r~vyhodit~s~.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_drop_invalid_position">
@@ -1320,6 +1334,7 @@
         <String xml:lang="nl-NL">Je kan dit voorwerp ~r~hier~s~ niet neerleggen.</String>
         <String xml:lang="hi-Latn">Aap koi bhi item drop nahi kar sakte ~r~yaha~s~.</String>
         <String xml:lang="fr-FR">Tu ne peux pas déposer un objet ~r~ici~s~.</String>
+        <String xml:lang="cs-CS">Nemůžeš ~r~zde ~s~vyhodit tento předmět.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_drop_too_many">
@@ -1327,6 +1342,7 @@
         <String xml:lang="nl-NL">Er liggen ~r~te veel voorwerpen op straat~s~ in de server.</String>
         <String xml:lang="hi-Latn">Yaha ~r~bohut saare drops ho gaye hain iss server mein~s~.</String>
         <String xml:lang="fr-FR">Il y a ~r~trop de dépôts dans le serveur~s~.</String>
+        <String xml:lang="cs-CS">Na serveru je ~r~příliš mnoho vyhozených předmětů~s~.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_pickup_concurrent">
@@ -1334,6 +1350,7 @@
         <String xml:lang="nl-NL">~r~Dit voorwerp wordt opgepakt door iemand anders!</String>
         <String xml:lang="hi-Latn">~r~Yeh item uthaya jaa raha hai kisi aur se!</String>
         <String xml:lang="fr-FR">~r~Cet article est en train d'être récupéré par quelqu'un d'autre!</String>
+         <String xml:lang="cs-CS">~r~Tento předmět již sbírá někdo jiný!</String>
     </Entry>
 
     <!-- {0} = item amount -->
@@ -1347,6 +1364,7 @@
         <String xml:lang="nl-NL">Je hebt {0}{1} {2}~b~{3}~s~ opgepakt.</String>
         <String xml:lang="hi-Latn">Aap uthaye {0}{1} {2}~b~{3}~s~.</String>
         <String xml:lang="fr-FR">Tu as ramassé {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="cs-CS">Sebral jsi {0}{1} {2}~b~{3}~s~.</String>
     </Entry>
 
     <!-- {0} = item amount -->
@@ -1360,6 +1378,7 @@
         <String xml:lang="nl-NL">Je hebt ~p~{0}{1}~s~ {2}~y~{3}~s~ neergelegd.</String>
         <String xml:lang="hi-Latn">Aap drop kiye ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
         <String xml:lang="fr-FR">Tu as déposé ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+        <String xml:lang="cs-CS">Vyhodil jsi ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
     </Entry>
 
     <!-- {0} = item name -->
@@ -1368,6 +1387,7 @@
         <String xml:lang="nl-NL">Leg {0} neer</String>
         <String xml:lang="hi-Latn">Drop kare {0}</String>
         <String xml:lang="fr-FR">Déposer {0}</String>
+        <String xml:lang="cs-CS">Vyhodit {0}</String>
     </Entry>
 
     <!-- {0} = item amount -->
@@ -1381,6 +1401,7 @@
         <String xml:lang="nl-NL">Je hebt {0}{1} {2}{3}. Voer het aantal in dat je wilt neerleggen:</String>
         <String xml:lang="hi-Latn">Aap ke paas {0}{1} {2}{3}. Enter kare drop karne ka amount:</String>
         <String xml:lang="fr-FR">Tu as {0}{1} {2}{3}. Saisis le montant que tu souhaites déposer:</String>
+        <String xml:lang="cs-CS">Právě máš {0}{1} {2}{3}. Zadej počet který chceš vyhodit:</String>
     </Entry>
 
     <Entry Id="item_name_preposition">
@@ -1395,6 +1416,7 @@
         <String xml:lang="nl-NL">Zoeken</String>
         <String xml:lang="hi-Latn">Search</String>
         <String xml:lang="fr-FR">Fouiller</String>
+        <String xml:lang="cs-CS">Hledat</String>
     </Entry>
 
     <Entry Id="imenu_inventory_search_text">
@@ -1402,6 +1424,7 @@
         <String xml:lang="nl-NL">Voer het naam van een voorwerp in of een deel ervan</String>
         <String xml:lang="hi-Latn">Enter kare ek item ka name ya uska koi part</String>
         <String xml:lang="fr-FR">Saisir le nom d'un article ou une partie de celui-ci</String>
+        <String xml:lang="cs-CS">Zadej název nebo část nazvu předmětu který hledáš</String>
     </Entry>
 
     <!-- 0 = input -->
@@ -1410,6 +1433,7 @@
         <String xml:lang="nl-NL">Zoek: {0}</String>
         <String xml:lang="hi-Latn">Search: {0}</String>
         <String xml:lang="fr-FR">Fouiller: {0}</String>
+        <String xml:lang="cs-CS">Hledat: {0}</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1432,6 +1456,7 @@
         <String xml:lang="id-ID">~b~Perubahan yang anda lakukan ~s~telah disimpan.</String>
         <String xml:lang="tr-TR">~b~Değişikler ~s~kaydedildi.</String>
         <String xml:lang="hi-Latn">Aapke ~b~changes ~s~save kar liye gaye hain.</String>
+        <String xml:lang="cs-CS"> ~b~změny ~s~byly uloženy.</String>
     </Entry>
 
     <Entry Id="imenu_jobmenu_stock_price_lower">
@@ -1451,6 +1476,7 @@
         <String xml:lang="id-ID">Harga dari barang ini tidak boleh lebih murah dari ~r~{0}~s~.</String>
         <String xml:lang="tr-TR">Bu öğenin fiyatı ~r~{0}~s~'den düşük olamaz.</String>
         <String xml:lang="hi-Latn">Is item ka price aur kam nahi kiya ja sakta ~r~{0}~s~.</String>
+        <String xml:lang="cs-CS">Cena tohoto předměnu nemůže být nižší než ~r~{0}~s~.</String>
     </Entry>
 
     <Entry Id="imenu_jobmenu_stock_price_higher">
@@ -1470,6 +1496,7 @@
         <String xml:lang="id-ID">Harga barang ini tidak boleh lebih mahal dari ~r~{0}~s~.</String>
         <String xml:lang="tr-TR">Bu öğenin fiyatı ~r~{0}~s~'den yüksek olamaz.</String>
         <String xml:lang="hi-Latn">Is item ka price aur zyada nahi kiya ja sakta ~r~{0}~s~.</String>
+        <String xml:lang="cs-CS">Cena tohoto předmětu nemůže být vyšší než ~r~{0}~s~.</String>
     </Entry>
 
     <Entry Id="imenu_jobmenu_stock_price_unchanged">
@@ -1489,6 +1516,7 @@
         <String xml:lang="vi-VN">Giá còn lại ~p~không thay đổi~s~.</String>
         <String xml:lang="tr-TR">Fiyat ~p~değişmeden~s~ kaldı.</String>
         <String xml:lang="hi-Latn">Price mein koi ~p~change ~s~nahi tha.</String>
+        <String xml:lang="cs-CS">Cena zůstala ~p~beze změny~s~.</String>
     </Entry>
 
     <Entry Id="imenu_jobmenu_stock_numeric_value">
@@ -1508,6 +1536,7 @@
         <String xml:lang="vi-VN">Bạn cần phải nhập một ~r~giá trị số~s~.</String>
         <String xml:lang="tr-TR">~r~Sayısal bir değer ~s~girmelisin.</String>
         <String xml:lang="hi-Latn">Aapko enter karna hoga ek ~r~numeric value~s~.</String>
+        <String xml:lang="cs-CS">Musíš zadat ~r~číselnou hodnotu~s~.</String>
     </Entry>
 
     <Entry Id="imenu_jobmenu_stock_multiple">
@@ -1526,6 +1555,7 @@
         <String xml:lang="id-ID">~r~Jumlahnya harus kelipatan dari 0.1.</String>
         <String xml:lang="tr-TR">~r~Miktar 0.1'in katları olmalıdır.</String>
         <String xml:lang="hi-Latn">~r~Jo amount hai wo multiple of 0.1 hona chahiye.</String>
+        <String xml:lang="cs-CS">~r~Číslo musí být násobkem 0.1.</String>
     </Entry>
 
     <!-- {0} = amount -->
@@ -1548,6 +1578,7 @@
         <String xml:lang="id-ID">~r~Anda tidak memiliki {0}{1} {2}.</String>
         <String xml:lang="tr-TR">~r~{0}{1} {2} sizde yok.</String>
         <String xml:lang="hi-Latn">~r~Aapke paas nahi hai {0}{1} {2}.</String>
+        <String xml:lang="cs-CS">~r~Nemáš {0}{1} {2}.</String>
     </Entry>
 
     <Entry Id="imenu_jobmenu_stock_inventory_move">
@@ -1567,6 +1598,7 @@
         <String xml:lang="id-ID">Anda memindahkan ~p~{0}{1} {2} ~s~kedalam inventaris anda.</String>
         <String xml:lang="tr-TR">~p~{0}{1} {2} ~s~Envanterinize taşıdınız.</String>
         <String xml:lang="hi-Latn">Aapne move kiya ~p~{0}{1} {2} ~s~apni inventory mein.</String>
+        <String xml:lang="cs-CS">Přesunul jsi ~p~{0}{1} {2} ~s~do inventáře.</String>
     </Entry>
 
     <Entry Id="imenu_jobmenu_stock_inventory_cant_hold">
@@ -1586,6 +1618,7 @@
         <String xml:lang="id-ID">~r~Anda tidak dapat membawa {0}{1} lagi {2} dalam inventaris anda.</String>
         <String xml:lang="tr-TR">~r~Envanterinizde {0}{1} daha fazla {2} tutamazsınız.</String>
         <String xml:lang="hi-Latn">~r~Aap nahi rakh sakte {0}{1} zyada {2} apni inventory mein.</String>
+        <String xml:lang="cs-CS">~r~Už nemůžeš mít další {0}{1} {2} v intenváři.</String>
     </Entry>
 
     <Entry Id="imenu_jobmenu_stock_inventory_not_enough_space">
@@ -1605,6 +1638,7 @@
         <String xml:lang="id-ID">Anda tidak memiliki kapasitas yang cukup untuk {0}{1} {2} kedalam inventaris anda.</String>
         <String xml:lang="tr-TR">~r~Envanterinizde {0}{1} {2} için yeterli alanınız yok.</String>
         <String xml:lang="hi-Latn">~r~Aapke paas enough space nahi hai {0}{1} {2} apni inventory me.</String>
+        <String xml:lang="cs-CS">~r~V intentáři nemáš další místo na {0}{1} {2}.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1627,6 +1661,7 @@
         <String xml:lang="id-ID">~y~(C)Perhatian:(/C) ~s~Tidak semuanya akan termuat kembali. Untuk memaksakan bahasa tersebut anda harus relog.</String>
         <String xml:lang="tr-TR">~y~(C)Bildiri:(/C) ~s~Her şey yenilenmeyecek. Dilin değişmesini istiyorsanız yeniden giriş yapmalısınız.</String>
         <String xml:lang="hi-Latn">~y~(C)Notice:(/C) ~s~Saari cheeze refresh nahi hongi. Language ka fark dekhne ke liye aapko game relog karna hoga.</String>
+        <String xml:lang="cs-CS">~y~(C)Upozornění:(/C) ~s~Né vše bude obnoveno. Pro vynucení se musíš znovu připojit.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1649,6 +1684,7 @@
         <String xml:lang="id-ID">~r~Tingkat kejahatan anda sudah berubah sejak anda membuka menu, jadi itu akan diulang kembali untuk memperbarui jumlah suap yang diperlukan.</String>
         <String xml:lang="tr-TR">~r~Aranma seviyeniz menüyü açtığınızdan beri değişti, bu nedenle rüşvet miktarlarını güncellemek için yenilendi.</String>
         <String xml:lang="hi-Latn">~r~Aapka wanted level change ho gaya jab aap menu open kiye thae, to menu refresh ho gaya hai naya bribe amount update karne ke liye.</String>
+        <String xml:lang="cs-CS">~r~Od otevření nabídky, se ti změnil stupeň hledanosti, a proto byla aktualizována výše možného úplatku..</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1671,6 +1707,7 @@
         <String xml:lang="id-ID">~p~Plat nomer pribadi anda telah dihilangkan.</String>
         <String xml:lang="tr-TR">~p~Özel plakanız temizlendi.</String>
         <String xml:lang="hi-Latn">~p~Aapki custom license plate clear kar di gayi.</String>
+        <String xml:lang="cs-CS">~p~Tvoje personalizovaná poznávací značka byla vymazána.</String>
     </Entry>
 
     <Entry Id="imenu_dealership_plate_forbidden_word">
@@ -1690,6 +1727,7 @@
         <String xml:lang="id-ID">~r~Plat nomer pirbadi anda tidak dapat mengandung kata kata tersebut.</String>
         <String xml:lang="tr-TR">~r~Plaka numaranız bu kelimeyi içeremez.</String>
         <String xml:lang="hi-Latn">~r~Aapki license plate me ye word nahi reh sakta.</String>
+        <String xml:lang="cs-CS">~r~Tvoje poznávací značka nemůže obsahovat toto slovo.</String>
     </Entry>
 
     <!-- Please don't translate the word 'ERROR', keep it in English -->
@@ -1710,6 +1748,7 @@
         <String xml:lang="id-ID">~r~Plat nomer pribadi anda tidak dapat menggunakan kata 'ERROR' karena itu digunakan untuk keperluan khusus.</String>
         <String xml:lang="tr-TR">~r~Plaka numaranız 'ERROR' olamaz çünkü özel kullanım için ayrılmıştır</String>
         <String xml:lang="hi-Latn">~r~Aapki license plate 'ERROR' nahi reh sakti kyunki ye special cases ke liye reserved hai.</String>
+        <String xml:lang="cs-CS">~r~Tvoje poznávací značka nemůže být 'ERROR', jelikož vyhrazena pro speciální použití.</String>
     </Entry>
 
     <Entry Id="imenu_dealership_plate_invalid_characters">
@@ -1729,6 +1768,7 @@
         <String xml:lang="id-ID">~r~Plat nomer pribadi anda hanya dapat mengandung huruf latin dan angka.</String>
         <String xml:lang="tr-TR">~r~Plaka numaranız sadece rakam ve latin harfleri içerebilir.</String>
         <String xml:lang="hi-Latn">~r~Aapki license plate mein sirf numbers aur latin letters reh sakte hain.</String>
+        <String xml:lang="cs-CS">~r~Tvoje poznávací značka může obsahovat pouze čísla a písmena latinky.</String>
     </Entry>
 
     <Entry Id="imenu_dealership_plate_taken">
@@ -1748,6 +1788,7 @@
         <String xml:lang="id-ID">~r~Plat nomer ini telah diambil oleh orang lain.</String>
         <String xml:lang="tr-TR">~r~Bu plaka numarası başka biri tarafından alınmış.</String>
         <String xml:lang="hi-Latn">~r~Ye license plate pehle se kisi ne le rakha hai.</String>
+        <String xml:lang="cs-CS">~r~Tuto poznávací značku již používá někdo jiný</String>
     </Entry>
 
     <Entry Id="imenu_dealership_plate_changed_successfully">
@@ -1767,6 +1808,7 @@
         <String xml:lang="id-ID">~p~Plat nomer pribadi anda sekarang ~s~{0}~p~.</String>
         <String xml:lang="tr-TR">~p~Plaka numaranız şimdi ~s~{0}~p~ oldu.</String>
         <String xml:lang="hi-Latn">~p~Aapki custom license plate ab hai ~s~{0}~p~.</String>
+        <String xml:lang="cs-CS">~p~Tvoje personalizovaná poznávací značka je nyní ~s~{0}~p~.</String>
     </Entry>
 
     <!-- {0} = vehicle name -->
@@ -1790,6 +1832,7 @@
         <String xml:lang="id-ID">Anda membeli sebuah ~p~{0} ~s~dengan harga ~r~{1}~s~.</String>
         <String xml:lang="tr-TR">~p~{0} ~s~adlı aracı ~r~{1} ~s~satın aldınız.</String>
         <String xml:lang="hi-Latn">Aapne purchase kiya ek ~p~{0} ~s~for ~r~{1}~s~.</String>
+        <String xml:lang="cs-CS ">Zakoupil sis~p~{0} ~s~za ~r~{1}~s~.</String>
     </Entry>
 
     <!-- {0} = vehicle name -->
@@ -1814,6 +1857,7 @@
         <String xml:lang="id-ID">Anda membeli sebuah ~b~{0} ~s~dengan harga ~b~{1} ~s~dalam bentuk kartu hadiah dan ~r~{2} ~s~dengan cek.</String>
         <String xml:lang="tr-TR">Hediyekartı bakiyesinden ~b~{1} ~s~ve çek ile ~r~{2} ~s~karşılığında bir ~b~{0} ~s~satın aldınız.</String>
         <String xml:lang="hi-Latn">Aapne purchase kiya ek ~b~{0} ~s~for ~b~{1} ~s~gift card balance se aur ~r~{2} ~s~check se.</String>
+        <String xml:lang="cs-CS">Zakoupil sis ~b~{0} ~s~za ~b~{1} ~s~za zůstatek na dárkové kartě a ~r~{2} ~s~za tvé peníze.</String>
     </Entry>
 
     <!-- {0} = vehicle name -->
@@ -1837,6 +1881,7 @@
         <String xml:lang="id-ID">Anda menyewa sebuah ~p~{0} ~s~dengan biaya ~r~{1}~s~/minggu.</String>
         <String xml:lang="tr-TR">Bir ~p~{0}~s~'i ~r~haftalık {1} ~s~kiraladınız.</String>
         <String xml:lang="hi-Latn">Aapne rent kiya ek ~p~{0} ~s~for ~r~{1}~s~/week.</String>
+        <String xml:lang="cs-CS">Pronajal sis ~p~{0} ~s~za ~r~{1}~s~/týden.</String>
     </Entry>
 
     <Entry Id="menu_access_armory">
@@ -1856,6 +1901,7 @@
         <String xml:lang="id-ID">Anda dapat mengelola senjata dan amunisi anda di {0} ~y~Menu ~s~&gt; ~y~Gudang persenjataan~s~.</String>
         <String xml:lang="tr-TR">Silahlarınızı ve cephane miktarınızı {0} ~y~Menüsünde ~s~yönetebilirsiniz. ~s~&gt; ~y~Cephanelik~s~.</String>
         <String xml:lang="hi-Latn">Aap manage kar sakte hain apne weapons aur ammo apne {0} ~y~Menu ~s~&gt; ~y~Armory~s~.</String>
+        <String xml:lang="cs-CS">Zbraně a munici můžeš spravovat v {0} ~y~Menu ~s~&gt; ~y~Zbrojnice~s~.</String>
     </Entry>
 
     <Entry Id="menu_access_wardrobe">
@@ -1875,6 +1921,7 @@
         <String xml:lang="id-ID">Anda dapat mengakses lemari pakain anda di {0} ~y~Menu ~s~&gt; ~y~Lemari pakaian~s~.</String>
         <String xml:lang="tr-TR">Gardırobunuza {0} ~y~Menüsünden ~s~erişebilirsiniz. ~s~&gt; ~y~Gardırop~s~.</String>
         <String xml:lang="hi-Latn">Aap access kar sakte hain apne wardrobe apne {0} ~y~Menu ~s~&gt; ~y~Wardrobe~s~.</String>
+        <String xml:lang="cs-CS">Svůj šatník můžeš spravovat v {0} ~y~Menu ~s~&gt; ~y~Šatník~s~.</String>
     </Entry>
 
     <Entry Id="menu_access_stock">
@@ -1883,6 +1930,7 @@
         <String xml:lang="fr-FR">Tu peux gérer tes stocks de travail dans ton {0} ~b~Menu ~s~&gt; ~b~Menu Emploi ~s~&gt; ~b~Stock.</String>
         <String xml:lang="tr-TR">İş malzemelerinizi {0} ~b~Menüsünde ~s~yönetebilirsiniz&gt; ~b~İş Menüsü ~s~&gt; ~b~Stok.</String>
         <String xml:lang="hi-Latn">Aap manage kar sakte hai apne job supplies apne {0} ~b~Menu ~s~&gt; ~b~Job Menu ~s~&gt; ~b~Stock.</String>
+        <String xml:lang="cs-CS">Zásoby pro tvojí práci můžeš spravovat v {0} ~b~Menu ~s~&gt; ~b~Menu Práce ~s~&gt; ~b~Zásoby.</String>
     </Entry>
 
     <Entry Id="menu_access_inventory">
@@ -1902,6 +1950,7 @@
         <String xml:lang="id-ID">Anda dapat mengakses inventaris anda di {0} ~y~Menu ~s~&gt; ~y~Inventaris~s~.</String>
         <String xml:lang="tr-TR">Envanterinize {0} ~y~Menüsünden ~s~erişebilirsiniz. ~s~&gt; ~y~Envanter~s~.</String>
         <String xml:lang="hi-Latn">Aap access kar sakte hain apni inventory apne {0} ~y~Menu ~s~&gt; ~y~Inventory~s~.</String>
+        <String xml:lang="cs-CS">Svůj inventář můžeš spravovat v {0} ~y~Menu ~s~&gt; ~y~Inventář~s~.</String>
     </Entry>
 
     <Entry Id="menu_submenu_title_vehicles_title">
@@ -1920,6 +1969,7 @@
         <String xml:lang="tr-TR">Araçalar</String>
         <String xml:lang="fr-FR">Véhicules</String>
         <String xml:lang="hi-Latn">Vehicles</String>
+        <String xml:lang="cs-CS">Vozidla</String>
     </Entry>
 
     <Entry Id="menu_submenu_title_settings_title">
@@ -1938,5 +1988,6 @@
         <String xml:lang="tr-TR">Ayarlar</String>
         <String xml:lang="fr-FR">Paramètres</String>
         <String xml:lang="hi-Latn">Settings</String>
+        <String xml:lang="cs-CS">Nastavení</String>
     </Entry>
 </Entries>
