@@ -896,13 +896,13 @@
     <Entry Id="menu_mechanic_shop_no_players">
         <String xml:lang="en-US">There are no mechanic ~b~players~s~ in this shop. You can't customize your vehicle.</String>
         <String xml:lang="nl-NL">Er zijn geen aanwezige ~b~monteurs~s~ in deze werkplaats. Je kunt je voertuig niet aanpassen.</String>
-        <String xml:lang="fr-FR">Il n'y a pas de mécanicien ~b~joueurs~s~ dans cet atelier. Tu ne peux pas personnaliser ton véhicule.</String>
+        <String xml:lang="fr-FR">Il n'y a pas de mécanicien(s) ~b~joueur(s)~s~ dans cet atelier. Tu ne peux pas personnaliser ton véhicule.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_shop_players">
         <String xml:lang="en-US">There are ~y~{0}~s~ mechanic ~b~players~s~ in this shop. Select this option to view their services.</String>
         <String xml:lang="nl-NL">Er zijn ~y~{0}~s~ ~b~monteurs~s~ in deze werkplaats. Selecteer deze optie om hun diensten te bekijken.</String>
-        <String xml:lang="fr-FR">Il y a ~y~{0}~s~ mécaniciens ~b~joueurs~s~ dans cet atelier. Sélectionner cette option pour voir leurs services.</String>
+        <String xml:lang="fr-FR">Il y a ~y~{0}~s~ mécanicien(s) ~b~joueur(s)~s~ dans cet atelier. Sélectionner cette option pour voir leurs services.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_services_subtitle">
@@ -1491,6 +1491,7 @@
         <String xml:lang="nl-NL">Je hebt {0} ~y~{1}{2} {3}~s~ verkocht voor ~g~{4}~s~.</String>
         <String xml:lang="fr-FR">Tu as vendu {0} ~y~{1}{2} {3}~s~ pour ~g~{4}~s~.</String>
         <String xml:lang="hi-Latn">Aap beche {0} ko ~y~{1}{2} {3}~s~ sirf ~g~{4} ~s~mein.</String>
+        <String xml:lang="fr-FR">Tu as vendu à {0} ~y~{1}{2} {3}~s~ pour ~g~{4}~s~.</String>
     </Entry>
 
     <!-- Example: Metallic Black Respray -->
@@ -1518,6 +1519,7 @@
         <String xml:lang="nl-NL">Je hebt {0} een ~y~{1}~s~ verkocht voor ~g~{2}~s~.</String>
         <String xml:lang="fr-FR">Tu as vendu {0} un ~y~{1}~s~ pour ~g~{2}~s~.</String>
         <String xml:lang="hi-Latn">Aap beche {0} ko ek ~y~{1}~s~ sirf ~g~{2} ~s~mein.</String>
+        <String xml:lang="fr-FR">Tu as vendu à {0} un ~y~{1}~s~ pour ~g~{2}~s~.</String>
     </Entry>
 
     <!-- {0} = Fee -->
@@ -2082,7 +2084,7 @@
     <Entry Id="radio_feature_notification">
         <String xml:lang="en-US">~y~NEW! ~s~You can now send text in radio channels: prefix your message with an ~b~exclamation mark ~s~(~b~!~s~) to use this feature!</String>
         <String xml:lang="nl-NL">~y~NIEUW! ~s~Je kunt nu tekstberichten versturen in portofoon kanalen: voeg een ~b~uitroepteken ~s~(~b~!~s~) toe aan het begin van je bericht om deze functie te gebruiken!</String>
-        <String xml:lang="fr-FR">~y~NOUVEAU! ~s~Tu peux maintenant envoyer du texte dans les canaux radio : précède ton message avec un ~b~point d'exclamation ~s~(~b~!~s~) pour utiliser cette fonctionnalité!</String>
+        <String xml:lang="fr-FR">~y~NOUVEAU! ~s~Tu peux maintenant envoyer du texte dans les canaux radio: commence ton message avec un ~b~point d'exclamation ~s~(~b~!~s~) pour utiliser cette fonctionnalité!</String>
         <String xml:lang="tr-TR">~y~YENİ! ~s~Artık radyo kanallarında mesaj gönderebilirsiniz: bu özelliği kullanmak için mesajınıza bir ~b~ünlem işareti ~s~(~b~!~s~) ekleyin!</String>
         <String xml:lang="hi-Latn">~y~NEW! ~s~Ab aap radio par text message bhej sakte hai: prefix kare apna message ~b~exclamation mark ~s~(~b~!~s~) ka istemaal kare is feature ke liye.</String>
     </Entry>
@@ -2090,7 +2092,7 @@
     <Entry Id="radio_on">
         <String xml:lang="en-US">~g~ON</String>
         <String xml:lang="nl-NL">~g~AAN</String>
-        <String xml:lang="fr-FR">~g~MARCHE</String>
+        <String xml:lang="fr-FR">~g~ON</String>
         <String xml:lang="tr-TR">~g~Açık</String>
         <String xml:lang="hi-Latn">~g~ON</String>
     </Entry>
@@ -2098,7 +2100,7 @@
     <Entry Id="radio_off">
         <String xml:lang="en-US">~r~OFF</String>
         <String xml:lang="nl-NL">~r~UIT</String>
-        <String xml:lang="fr-FR">~r~ARRÊT</String>
+        <String xml:lang="fr-FR">~r~OFF</String>
         <String xml:lang="tr-TR">~r~Kapalı</String>
         <String xml:lang="hi-Latn">~r~OFF</String>
     </Entry>
