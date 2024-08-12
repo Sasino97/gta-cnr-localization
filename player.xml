@@ -184,6 +184,22 @@
         <String xml:lang="hi-Latn">~r~Itni jaldi wapas usi player ko report nahi kar sakte ho.</String>
     </Entry>
 
+    <Entry Id="report_cmd_suggestion_help">
+        <String xml:lang="en-US">Report a player for breaking the game rules or ToS.</String>
+    </Entry>
+
+    <Entry Id="report_cmd_suggestion_param_name">
+        <String xml:lang="en-US">player id</String>
+    </Entry>
+
+    <Entry Id="report_cmd_suggestion_param_help">
+        <String xml:lang="en-US">The id of the player you want to report.</String>
+    </Entry>
+
+    <Entry Id="input_report_warning">
+        <String xml:lang="en-US">You are about to report ~r~{0} ~s~for {1}.\nFalsely reporting another user will result in ~r~you being banned ~s~instead. Do you want to proceed?</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Services / Linking -->
     <!-- ========================= -->
@@ -1266,6 +1282,34 @@
         <String xml:lang="hi-Latn">Apni reports ka status dekhe</String>
     </Entry>
 
+    <Entry Id="menu_report_reporting_subtitle">
+        <String xml:lang="en-US">Reporting ~r~{0}</String>
+    </Entry>
+
+    <Entry Id="menu_reports_info_description">
+        <String xml:lang="en-US">~b~Date and time: ~s~{0}\n~b~Reason: ~s~{1} ~s~- ~b~Details: ~s~{2}</String>
+    </Entry>
+
+    <Entry Id="menu_reports_info_response">
+        <String xml:lang="en-US">~b~Response by {0}: ~s~{1}</String>
+    </Entry>
+
+    <Entry Id="menu_reports_info_assigned">
+        <String xml:lang="en-US">~b~Assigned to: ~s~{0}</String>
+    </Entry>
+
+    <Entry Id="menu_reports_info_subtitle">
+        <String xml:lang="en-US">{0} reports in the past month</String>
+    </Entry>
+
+    <Entry Id="menu_reports_info_no_recent_text">
+        <String xml:lang="en-US">No recent reports :(</String>
+    </Entry>
+
+    <Entry Id="menu_reports_info_no_recent_description">
+        <String xml:lang="en-US">You didn't send any report recently.</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Options menu -->
     <!-- ========================= -->
@@ -1920,6 +1964,39 @@
         <String xml:lang="id-ID">Pilih kategori</String>
         <String xml:lang="hi-Latn">Category select kare</String>
     </Entry>
+
+    <Entry Id="menu_wardrobe_clear_text">
+        <String xml:lang="en-US">~b~Remove all</String>
+    </Entry>
+
+    <Entry Id="menu_wardrobe_clear_description">
+        <String xml:lang="en-US">Take all your ~b~clothes ~s~and ~b~makeup ~s~off your character.</String>
+    </Entry>
+
+    <Entry Id="btn_wardrobe_wear">
+        <String xml:lang="en-US">Wear</String>
+    </Entry>
+
+    <Entry Id="btn_wardrobe_browse">
+        <String xml:lang="en-US">Browse</String>
+    </Entry>
+
+    <Entry Id="btn_wardrobe_remove">
+        <String xml:lang="en-US">Remove</String>
+    </Entry>
+
+    <Entry Id="input_wardrobe_search_title">
+        <String xml:lang="en-US">Search</String>
+    </Entry>
+
+    <Entry Id="input_wardrobe_search_text">
+        <String xml:lang="en-US">Enter an item's name or part of it</String>
+    </Entry>
+
+    <Entry Id="menu_wardrobe_search_subtitle">
+        <String xml:lang="en-US">Search: ''{0}''</String>
+    </Entry>
+
 
     <!-- ========================= -->
     <!-- Trading System -->

@@ -4781,7 +4781,7 @@
     <!-- ========================= -->
     <!-- Dealership -->
     <!-- ========================= -->
-    <Entry Id="dealership_too_far_away">
+    <Entry Id="dealership_getting_too_far_away">
         <String xml:lang="en-US">You are getting ~r~a little too far ~s~from the ~y~dealership~s~!</String>
         <String xml:lang="nl-NL">Je gaat ~r~een beetje te ver weg~s~ van de ~y~dealership~s~!</String>
         <String xml:lang="fr-FR">Tu t'éloignes ~r~un peu trop de la ~y~concession~s~!</String>
@@ -4906,6 +4906,26 @@
         <String xml:lang="hi-Latn">~b~Aapka required level nahi hai</String>
     </Entry>
 
+    <Entry Id="dealership_drive_wanted_level">
+        <String xml:lang="en-US">You are ~o~wanted ~s~by the police. Get the heck out of my car!</String>
+    </Entry>
+
+    <Entry Id="dealership_drive_time">
+        <String xml:lang="en-US">~r~Time is up.</String>
+    </Entry>
+
+    <Entry Id="dealership_drive_left">
+        <String xml:lang="en-US">You ~r~left ~s~the ~b~vehicle~s~.</String>
+    </Entry>
+
+    <Entry Id="dealership_drive_too_far_away">
+        <String xml:lang="en-US">You went ~r~too far ~s~from the ~y~dealership~s~.</String>
+    </Entry>
+
+    <Entry Id="dealership_drive_damaged">
+        <String xml:lang="en-US">You ~r~damaged ~s~the vehicle! You will not get your deposit back.</String>
+    </Entry>
+
     <Entry Id="dealership_specified_plate_taken">
         <String xml:lang="en-US">~r~The specified license plate is already taken.</String>
         <String xml:lang="nl-NL">~r~Deze kentekenplaat is al in gebruik.</String>
@@ -4936,5 +4956,20 @@
         <String xml:lang="hi-Latn">~r~Aapka garage full hai. Please, koi doosra garage select karlo.</String>
     </Entry>
 
+    <Entry Id="job_garage">
+        <String xml:lang="en-US">Job Garage</String>
+    </Entry>
+
+    <Entry Id="menu_job_garage_subtitle">
+        <String xml:lang="en-US">Select a vehicle to take out</String>
+    </Entry>
+
+    <Entry Id="menu_job_garage_empty_text">
+        <String xml:lang="en-US">No job vehicles :(</String>
+    </Entry>
+
+    <Entry Id="menu_job_garage_empty_description">
+        <String xml:lang="en-US">You don't have any vehicle for your ~b~current job~s~, and you ~r~can't ~s~use your personal vehicles while on this job. Buy job vehicles and they will show up in this menu.</String>
+    </Entry>
 </Entries>
 
