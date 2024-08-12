@@ -14,7 +14,7 @@ T = TypeVar("T")
 COLORAMA_INSTALLED = True
 DOMINATE_INSTALLED  = True
 XML_LANG_ATTRIB =  "xml:lang"
-SHORT_GTA_FORMAT_REGEX = r"~[s,b,r,n,y,p,g,o,h,c]~"
+SHORT_GTA_FORMAT_REGEX = r"~(?:[s,b,r,n,y,p,g,o,h,c]|HUD_COLOUR_NET_PLAYER1)~"
 TOO_MANY_SPACES_REGEX = r"\s~[s,b,r,n,y,p,g,o,h,c]~\s|\s\s+"
 TEXT_VARIABLE_REGEX = r"{[0-9]+}"
 PUNCTUATION_MARKS_REGEX = r"[.,?,!]"
@@ -489,7 +489,7 @@ class Validator:
             offset: int = 0
             for valid_text_formatting_match in re.finditer(SHORT_GTA_FORMAT_REGEX, text):
                 valid_text_formatting_match: re.Match
-                if valid_text_formatting_match.end() < invalid_text_formatting_loc + offset:
+                if valid_text_formatting_match.end() > invalid_text_formatting_loc + offset:
                     offset += valid_text_formatting_match.end()-valid_text_formatting_match.start()
                 else:
                     break
