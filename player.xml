@@ -186,18 +186,22 @@
 
     <Entry Id="report_cmd_suggestion_help">
         <String xml:lang="en-US">Report a player for breaking the game rules or ToS.</String>
+        <String xml:lang="de-DE">Melde einen Spieler für das Brechen der Spielregeln oder ToS.</String>
     </Entry>
 
     <Entry Id="report_cmd_suggestion_param_name">
         <String xml:lang="en-US">player id</String>
+        <String xml:lang="de-DE">Spieler ID</String>
     </Entry>
 
     <Entry Id="report_cmd_suggestion_param_help">
         <String xml:lang="en-US">The id of the player you want to report.</String>
+        <String xml:lang="de-DE">Die ID des Spielers, den du melden willst.</String>
     </Entry>
 
     <Entry Id="input_report_warning">
         <String xml:lang="en-US">You are about to report ~r~{0} ~s~for {1}.\nFalsely reporting another user will result in ~r~you being banned ~s~instead. Do you want to proceed?</String>
+        <String xml:lang="de-DE">Du bist dabei, ~r~{0} ~s~für {1} ~s~zu melden.\nFalsches Melden eines anderen Spieler wird dazu führen, dass du stattdessen ~r~gebannt wirst~s~. Möchtest du fortfahren?</String>
     </Entry>
 
     <!-- ========================= -->
@@ -405,6 +409,7 @@
         <String xml:lang="nl-NL">~r~Je kan dit niet doen wanneer je dood bent.</String>
         <String xml:lang="hi-Latn">~r~Jab aap mare hue ho tab aap ye nahi kar sakte..</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas faire ça quand tu es mort.</String>
+        <String xml:lang="de-DE">~r~Du kannst das nicht tun, wenn du tot bist.</String>
     </Entry>
 
     <!-- {0} = Item name -->
@@ -413,6 +418,7 @@
         <String xml:lang="nl-NL">~r~Je kan geen {0} gebruiken wanneer je geboeid bent.</String>
         <String xml:lang="hi-Latn">~r~Aap jab handcuffed ho tab aap {0} use nahi kar sakte.</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas utiliser un {0} lorsque tu es menotté.</String>
+        <String xml:lang="de-DE">~r~Du kannst kein {0} nutzen, wenn du gefesselt bist.</String>
     </Entry>
 
     <!-- {0} = Item name (Membership, Name-change token, ...) -->
@@ -850,6 +856,7 @@
         <String xml:lang="en-US">The ~y~{0}</String>
         <String xml:lang="nl-NL">De ~y~{0}</String>
         <String xml:lang="fr-FR">La ~y~{0}</String>
+        <String xml:lang="de-DE">Der ~y~{0}</String>
     </Entry>
 
     <Entry Id="vehicle_recalled_invalid_name">
@@ -857,6 +864,7 @@
         <String xml:lang="nl-NL">Dit voertuig</String>
         <String xml:lang="hi-Latn">Yeh vehicle</String>
         <String xml:lang="fr-FR">Ce véhicule</String>
+        <String xml:lang="de-DE">Dieses Fahrzeug</String>
     </Entry>
 
     <Entry Id="unable_to_deliver_move">
@@ -941,6 +949,7 @@
         <String xml:lang="nl-NL">~r~De huur van dit voertuig is verlopen!</String>
         <String xml:lang="hi-Latn">~r~Iss vehicle ka rent khatam ho gaya hai!</String>
         <String xml:lang="fr-FR">~r~La location de ce véhicule a expiré!</String>
+        <String xml:lang="de-DE">~r~Die Miete von diesem Fahrzeug ist abgelaufen!</String>
     </Entry>
 
     <Entry Id="unable_to_deliver_vehicle">
@@ -948,12 +957,14 @@
         <String xml:lang="nl-NL">Levering van je voertuig is mislukt</String>
         <String xml:lang="hi-Latn">Aapki vehicle deliver nahi kiya ja sakta</String>
         <String xml:lang="fr-FR">Impossible de livrer ton véhicule</String>
+        <String xml:lang="de-DE">Dein Fahrzeug kann nicht geliefert werden</String>
     </Entry>
 
     <Entry Id="vehicle_maintenance_completed_invalid_name">
         <String xml:lang="en-US">vehicle</String>
         <String xml:lang="nl-NL">voertuig</String>
         <String xml:lang="fr-FR">véhicule</String>
+        <String xml:lang="de-DE">Fahrzeug</String>
     </Entry>
 
     <Entry Id="cant_store_vehicle_when_inside">
@@ -1284,30 +1295,37 @@
 
     <Entry Id="menu_report_reporting_subtitle">
         <String xml:lang="en-US">Reporting ~r~{0}</String>
+        <String xml:lang="de-DE">Du meldest ~r~{0}</String>
     </Entry>
 
     <Entry Id="menu_reports_info_description">
         <String xml:lang="en-US">~b~Date and time: ~s~{0}\n~b~Reason: ~s~{1} ~s~- ~b~Details: ~s~{2}</String>
+        <String xml:lang="de-DE">~b~Datum und Zeit: ~s~{0}\n~b~Grund: ~s~{1} ~s~- ~b~Details: ~s~{2}</String>
     </Entry>
 
     <Entry Id="menu_reports_info_response">
         <String xml:lang="en-US">~b~Response by {0}: ~s~{1}</String>
+        <String xml:lang="de-DE">~b~Antwort von {0}: ~s~{1}</String>
     </Entry>
 
     <Entry Id="menu_reports_info_assigned">
         <String xml:lang="en-US">~b~Assigned to: ~s~{0}</String>
+        <String xml:lang="de-DE">~b~Zugeordnet zu: ~s~{0}</String>
     </Entry>
 
     <Entry Id="menu_reports_info_subtitle">
         <String xml:lang="en-US">{0} reports in the past month</String>
+        <String xml:lang="en-US">{0} Meldungen im letzten Monat</String>
     </Entry>
 
     <Entry Id="menu_reports_info_no_recent_text">
         <String xml:lang="en-US">No recent reports :(</String>
+        <String xml:lang="de-DE">Keine aktuellen Meldungen :(</String>
     </Entry>
 
     <Entry Id="menu_reports_info_no_recent_description">
         <String xml:lang="en-US">You didn't send any report recently.</String>
+        <String xml:lang="de-DE">Du hast kürzlich keine Meldungen eingereicht.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1355,6 +1373,7 @@
         <String xml:lang="th-TH">บัญชี</String>
         <String xml:lang="id-ID">Akun</String>
         <String xml:lang="hi-Latn">Account</String>
+        <String xml:lang="de-DES">Account</String>
     </Entry>
 
     <Entry Id="menu_options_account_subhistory_subtitle">
@@ -1642,6 +1661,7 @@
         <String xml:lang="th-TH">เมนูผู้เล่น</String>
         <String xml:lang="id-ID">Menu pemain</String>
         <String xml:lang="hi-Latn">Player Menu</String>
+        <String xml:lang="de-DE">Spielermenü</String>
     </Entry>
 
     <Entry Id="menu_playermenu_subtitle">
@@ -1649,6 +1669,7 @@
         <String xml:lang="nl-NL">Interacties met {0}</String>
         <String xml:lang="hi-Latn">Interact kare {0}</String>
         <String xml:lang="fr-FR">Interagir avec {0}</String>
+        <String xml:lang="de-DE">Interagiere mit {0}</String>
     </Entry>
 
     <Entry Id="menu_playermenu_bribe_not_wanted">
@@ -1656,6 +1677,7 @@
         <String xml:lang="nl-NL">~r~Je word niet gezocht door de politie.</String>
         <String xml:lang="hi-Latn">~r~Aap wanted nahi ho police dwara.</String>
         <String xml:lang="fr-FR">~r~Tu n'es pas recherché par la police.</String>
+        <String xml:lang="de-DE">~r~Du wirst nicht von der Polizei gesucht.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_bribe_most_wanted">
@@ -1663,6 +1685,7 @@
         <String xml:lang="nl-NL">~r~Je kan de politie niet omkopen als je de meest gezochte verdachte bent.</String>
         <String xml:lang="hi-Latn">~r~Aap bribe nahi kar sakte police ko jab aap most wanted ho.</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas donner de pots-de-vin à la police quand tu es le plus recherché.</String>
+        <String xml:lang="de-DE">~r~Du kannst die Polizei nicht bestechen, wenn du meisgesucht bist.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_bribe_text">
@@ -1670,6 +1693,7 @@
         <String xml:lang="nl-NL">~o~Omkopen</String>
         <String xml:lang="hi-Latn">~o~Bribe</String>
         <String xml:lang="fr-FR">~o~Pot-de-vin</String>
+        <String xml:lang="de-DE">~o~Bestechen</String>
     </Entry>
 
     <Entry Id="menu_playermenu_bribe_description">
@@ -1677,6 +1701,7 @@
         <String xml:lang="nl-NL">Bied deze ~b~agent ~s~een ~o~omkoping ~s~aan en verlies je wanted level.</String>
         <String xml:lang="hi-Latn">Offer kare iss ~b~officer ~s~ko ek ~o~bribe ~s~aur apna wanted level lose kare.</String>
         <String xml:lang="fr-FR">Offrir un ~o~pot-de-vin ~s~à cet ~b~agent ~s~et perdre son niveau de recherche.</String>
+        <String xml:lang="de-DE">Biete diesem ~b~Polizisten ~s~eine ~o~Bestechung ~s~und verliere dein Fahndungslevel.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_uncuff">
@@ -1684,6 +1709,7 @@
         <String xml:lang="nl-NL">~o~Ontboeien</String>
         <String xml:lang="hi-Latn">~o~Uncuff</String>
         <String xml:lang="fr-FR">~o~Démenotter</String>
+        <String xml:lang="de-DE">~o~Entfesseln</String>
     </Entry>
 
     <Entry Id="menu_playermenu_uncuff_description">
@@ -1691,6 +1717,7 @@
         <String xml:lang="nl-NL">Bevrijd deze geboeide speler met een ~y~slothaak~s~.</String>
         <String xml:lang="hi-Latn">Iss cuffed player ko free kardo ek ~y~lockpick ~s~use kar ke.</String>
         <String xml:lang="fr-FR">Libérer ce joueur menotté à l'aide d'un ~y~lockpick~s~.</String>
+        <String xml:lang="de-DE">Befreie diesen gefesselten Spieler, indem du ~y~Dietriche~s~ benutzt.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_drugs">
@@ -1698,6 +1725,7 @@
         <String xml:lang="nl-NL">Bied ~r~drugs~s~ aan</String>
         <String xml:lang="hi-Latn">Offer kare ~r~drugs~s~</String>
         <String xml:lang="fr-FR">Proposer des ~r~drogues~s~</String>
+        <String xml:lang="de-DE">Biete ~r~Drogen~s~ an</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_drugs_description">
@@ -1705,6 +1733,7 @@
         <String xml:lang="nl-NL">Verkoop ~r~drugs~s~ aan deze speler.</String>
         <String xml:lang="hi-Latn">Offer kare ~r~drugs~s~ iss player ko.</String>
         <String xml:lang="fr-FR">Proposer des ~r~drogues~s~ à ce joueur.</String>
+        <String xml:lang="de-DE">Biete diesem Spieler ~r~Drogen~s~ an.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_services">
@@ -1712,6 +1741,7 @@
         <String xml:lang="nl-NL">Bied ~y~diensten~s~ aan</String>
         <String xml:lang="hi-Latn">Offer kare ~y~services~s~</String>
         <String xml:lang="fr-FR">Proposer des ~y~services~s~</String>
+        <String xml:lang="de-DE">Biete ~y~Leistungen~s~ an</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_services_description">
@@ -1719,6 +1749,7 @@
         <String xml:lang="nl-NL">Bied ~y~diensten~s~ aan deze speler.</String>
         <String xml:lang="hi-Latn">Offer kare ~y~services~s~ iss player ko.</String>
         <String xml:lang="fr-FR">Proposer des ~y~services~s~ à ce joueur.</String>
+        <String xml:lang="de-DE">Biete diesem Spieler ~y~Leistungen~s~ an.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_arrest">
@@ -1726,6 +1757,7 @@
         <String xml:lang="nl-NL">~b~Arrestanten menu</String>
         <String xml:lang="hi-Latn">~b~Arrest menu</String>
         <String xml:lang="fr-FR">~b~Menu Arrestation</String>
+        <String xml:lang="de-DE">~b~Arrest-Menü</String>
     </Entry>
 
     <Entry Id="menu_playermenu_custody">
@@ -1733,6 +1765,7 @@
         <String xml:lang="nl-NL">~b~Houd staande</String>
         <String xml:lang="hi-Latn">~b~Custody me lo</String>
         <String xml:lang="fr-FR">~b~Maintenir en état d'arrestation</String>
+        <String xml:lang="de-DE">~b~In Gewahrsam halten</String>v
     </Entry>
 
     <Entry Id="menu_playermenu_cuff">
@@ -1740,6 +1773,7 @@
         <String xml:lang="nl-NL">~b~Vastboeien</String>
         <String xml:lang="hi-Latn">~b~Cuff</String>
         <String xml:lang="fr-FR">~b~Menotter</String>
+        <String xml:lang="de-DE">~b~Fesseln</String>
     </Entry>
 
     <Entry Id="menu_playermenu_break_window">
@@ -1747,6 +1781,7 @@
         <String xml:lang="nl-NL">~b~Raam inslaan</String>
         <String xml:lang="hi-Latn">~b~Break kare window</String>
         <String xml:lang="fr-FR">~b~Briser la fenêtre</String>
+        <String xml:lang="de-DE">~b~Scheibe einschlagen</String>
     </Entry>
 
     <Entry Id="menu_playermenu_break_window_no_item">
@@ -1754,6 +1789,7 @@
         <String xml:lang="nl-NL">Je hebt een ~y~{0}~s~ nodig om een raam van een ~o~verdachte~s~ in te slaan.</String>
         <String xml:lang="hi-Latn">Aapko chahiye hoga ek ~y~{0}~s~ ek ~o~suspect~s~ki window todd ne ke liye.</String>
         <String xml:lang="fr-FR">Tu as besoin d'un ~y~{0}~s~ pour casser la fenêtre d'un ~o~suspect~s~.</String>
+        <String xml:lang="de-DE">Du brauchst ein ~y~{0}~s~ um das Fenster des ~o~Verdächtigen~s~ einzuschlagen.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_suggest_bribe">
@@ -1761,6 +1797,7 @@
         <String xml:lang="nl-NL">~o~Bied omkoping aan</String>
         <String xml:lang="hi-Latn">~o~Bribe suggest karo</String>
         <String xml:lang="fr-FR">~o~Suggérer un pot-de-vin</String>
+        <String xml:lang="de-DE">~o~Bestechung vorschlagen</String>
     </Entry>
 
     <Entry Id="menu_playermenu_suggest_bribe_description">
@@ -1768,6 +1805,7 @@
         <String xml:lang="nl-NL">Vraag de ~o~verdachte~s~ om je te om te kopen.</String>
         <String xml:lang="hi-Latn">Pucho ~o~suspect~s~ ko aapko pay karne ke liye.</String>
         <String xml:lang="fr-FR">Demander au ~o~suspect~s~ de te payer.</String>
+        <String xml:lang="de-DE">Frage den ~o~Verdächtigen~s~, ob er dich bezahlen will.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_suggest_bribe_most_wanted">
@@ -1775,6 +1813,7 @@
         <String xml:lang="nl-NL">~r~De meest gezochte verdachten kunnen de politie niet omkopen.</String>
         <String xml:lang="hi-Latn">~r~Most wanted suspects bribe nahi kar sakte police ko.</String>
         <String xml:lang="fr-FR">~r~Les suspects les plus recherchés ne peuvent pas verser de pots-de-vin à la police.</String>
+        <String xml:lang="de-DE">~r~Meistgesuchte Verdächtige können die Polizei nicht bestechen.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_antidote">
@@ -1782,6 +1821,7 @@
         <String xml:lang="nl-NL">~p~Geef tegengif</String>
         <String xml:lang="hi-Latn">~p~Antidote do</String>
         <String xml:lang="fr-FR">~p~Donner un antidote</String>
+        <String xml:lang="de-DE">~p~Gegengift geben</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_antidote_description">
@@ -1789,6 +1829,7 @@
         <String xml:lang="nl-NL">Deze speler heeft een ~r~drug overdosis~s~. Selecteer deze optie om hem ~p~tegengif~s~ te geven.</String>
         <String xml:lang="hi-Latn">Yeh player ~r~drug overdose ~s~ho chuke hain. Yeh option select karke unhe ek ~p~antidote ~s~do.</String>
         <String xml:lang="fr-FR">Ce joueur est en train de faire une ~r~overdose~s~. Sélectionner cette option pour lui donner l'~p~antidote~s~.</String>
+        <String xml:lang="de-DE">Dieser Spieler leidet an einer ~r~Drogenüberdosis~s~. Wähle diese Option, um ihm das ~p~Gegengift~s~ zu geben.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_antidote_no_item">
@@ -1796,6 +1837,7 @@
         <String xml:lang="nl-NL">Je hebt ~y~{0}~s~ nodig om iemand zijn ~r~overdosis~s~ te stoppen.</String>
         <String xml:lang="hi-Latn">Aapko chahiye ho ga ~y~{0}~s~ kisi ka ~r~overdose ~s~reverse karne ke liye.</String>
         <String xml:lang="fr-FR">Tu as besoin de ~y~{0}~s~ pour arrêter l'~r~overdose~s~ de quelqu'un.</String>
+        <String xml:lang="de-DE">Du benötigst ~y~{0}~s~, um die ~r~Überdosis~s~ rückgängig zu machen.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_cash">
@@ -1803,6 +1845,7 @@
         <String xml:lang="nl-NL">Geef contant geld</String>
         <String xml:lang="hi-Latn">Cash do</String>
         <String xml:lang="fr-FR">Donner de l'argent</String>
+        <String xml:lang="de-DE">Bargeld geben</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_cash_description">
@@ -1810,6 +1853,7 @@
         <String xml:lang="nl-NL">Geef (C){0}(/C) contant geld uit je portemonnee.~n~~y~Waarschuwing:~s~ handel ~r~op eigen risico~s~, we garanderen niet dat je iets zult ontvangen in ruil voor deze transactie.</String>
         <String xml:lang="hi-Latn">Dijiye (C){0}(/C) cash apne wallet se.~n~~y~Warning:~s~ trade ~r~kare apne own risk pe~s~, ham aapko guarantee nahi de sakte ki aapko badle mein kuch milega ye trasaction karke.</String>
         <String xml:lang="fr-FR">Donner à (C){0}(/C) d'argent de ton portefeuille.~n~~y~Avertissement:~s~ échange ~r~à tes risques et périls~s~, nous ne garantissons pas que tu recevras quoi que ce soit en échange de cette transaction.</String>
+        <String xml:lang="de-DE">Gib (C){0}(/C) Bargeld aus deinem Portemonnaie.~n~~y~Warnung:~s~ Handle ~r~auf eigene Gefahr~s~, wir garantieren nicht, dass du etwas im Austausch für diese Transaktion erhälst.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_cash_level">
@@ -1817,6 +1861,7 @@
         <String xml:lang="nl-NL">~r~Je moet level {0} zijn om andere spelers contant geld te geven.</String>
         <String xml:lang="hi-Latn">~r~Aapko kam se kam level {0} ka hona padega doosre players ko cash dene ke liye.</String>
         <String xml:lang="fr-FR">~r~Tu dois être niveau {0} pour donner de l'argent aux autres joueurs.</String>
+        <String xml:lang="de-DE">~r~Du musst Level {0} sein, um anderen Spielern Geld zu geben.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_item">
@@ -1824,6 +1869,7 @@
         <String xml:lang="nl-NL">Geef voorwerp</String>
         <String xml:lang="hi-Latn">Item do</String>
         <String xml:lang="fr-FR">Donner un objet</String>
+        <String xml:lang="de-DE">Gegenstand geben</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_item_description">
@@ -1831,6 +1877,7 @@
         <String xml:lang="nl-NL">Geef (C){0}(/C) een voorwerp uit je inventaris.~n~~y~Waarschuwing:~s~ handel ~r~op eigen risico~s~, we garanderen niet dat je iets zult ontvangen in ruil voor deze transactie.</String>
         <String xml:lang="hi-Latn">Dijiye (C){0}(/C) ek item apni inventory se.~n~~y~Warning:~s~ trade ~r~kare apne own risk pe~s~,ham aapko guarantee nahi de sakte ki aapko badle mein kuch milega ye trasaction karke.</String>
         <String xml:lang="fr-FR">Donner à (C){0}(/C) un objet de ton inventaire.~n~~y~Avertissement:~s~ échange ~r~à tes risques et périls~s~, nous ne garantissons pas que tu recevras quoi que ce soit en échange de cette transaction.</String>
+        <String xml:lang="de-DE">Gib (C){0}(/C) einen Gegenstand aus deinem Inventar.~n~~y~Warnung:~s~ Handle ~r~auf eigene Gefahr~s~, wir garantieren nicht, dass du etwas im Austausch für diese Transaktion erhälst.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_keys">
@@ -1838,6 +1885,7 @@
         <String xml:lang="nl-NL">Geef sleutels</String>
         <String xml:lang="hi-Latn">Chabiyan dijiye</String>
         <String xml:lang="fr-FR">Donner des clés</String>
+        <String xml:lang="de-DE">Schlüssel geben</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_keys_description">
@@ -1845,6 +1893,7 @@
         <String xml:lang="nl-NL">Geef deze speler sleutels tot je eigendom.</String>
         <String xml:lang="hi-Latn">Iss player ko apni propertu ki chaabi de.</String>
         <String xml:lang="fr-FR">Donner à ce joueur les clés de ta propriété.</String>
+        <String xml:lang="de-DE">Gib diesem Spieler Schlüssel zu deinem Eigentum.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_trade">
@@ -1852,6 +1901,7 @@
         <String xml:lang="nl-NL">Bied ruil aan</String>
         <String xml:lang="hi-Latn">Trade offer kare</String>
         <String xml:lang="fr-FR">Offre d'échange</String>
+        <String xml:lang="de-DE">Handel anbieten</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_trade_description">
@@ -1859,6 +1909,7 @@
         <String xml:lang="nl-NL">Bied deze speler een ruil aan.</String>
         <String xml:lang="hi-Latn">Iss player ko trade offer kare.</String>
         <String xml:lang="fr-FR">Proposer un échange à ce joueur.</String>
+        <String xml:lang="de-DE">Biete diesem Spieler einen Handel an.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_no_actions">
@@ -1866,6 +1917,7 @@
         <String xml:lang="nl-NL">Geen acties :(</String>
         <String xml:lang="hi-Latn">No actions :(</String>
         <String xml:lang="fr-FR">Pas d'actions :(</String>
+        <String xml:lang="de-DE">Keine Aktionen :(</String>
     </Entry>
 
     <Entry Id="menu_playermenu_no_actions_description">
@@ -1873,6 +1925,7 @@
         <String xml:lang="nl-NL">Er zijn geen acties voor deze speler.</String>
         <String xml:lang="hi-Latn">Yaha koi actions nahi hai iss player ke liye.</String>
         <String xml:lang="fr-FR">Il n'y a pas d'actions pour ce joueur.</String>
+        <String xml:lang="de-DE">Es gibt keine Aktionen für diesen Spieler</String>
     </Entry>
 
     <Entry Id="gave_antidote">
@@ -1880,6 +1933,7 @@
         <String xml:lang="nl-NL">Je hebt {0} ~p~tegengif ~s~gegeven en hun ~r~drug overdosis~s~ behandeld.</String>
         <String xml:lang="hi-Latn">Aap diye {0} ko ek ~p~antidote ~s~aur theek kiye unka ~r~drug overdose~s~.</String>
         <String xml:lang="fr-FR">Tu as donné à {0} l'~p~antidote ~s~et traité son ~r~overdose~s~.</String>
+        <String xml:lang="de-DE">Du hast {0} das ~p~Gegengift ~s~gegeben und dessen ~r~Drogenüberdosis~s~ behandelt.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_suggest_bribe_requested">
@@ -1887,6 +1941,7 @@
         <String xml:lang="nl-NL">AANGEVRAAGD</String>
         <String xml:lang="hi-Latn">REQUESTED</String>
         <String xml:lang="fr-FR">DEMANDÉ</String>
+        <String xml:lang="de-dE">ANGEFRAGT</String>
     </Entry>
 
     <Entry Id="input_playermenu_give_cash">
@@ -1894,6 +1949,7 @@
         <String xml:lang="nl-NL">Geef contant geld</String>
         <String xml:lang="hi-Latn">Cash Do</String>
         <String xml:lang="fr-FR">Donner de l'argent</String>
+        <String xml:lang="de-DE">Geld geben</String>
     </Entry>
 
     <Entry Id="input_playermenu_give_cash_text">
@@ -1901,6 +1957,7 @@
         <String xml:lang="nl-NL">Voer het bedrag in dat je wilt verzenden {0}.</String>
         <String xml:lang="hi-Latn">Enter karo money amount send karne ke liye {0}.</String>
         <String xml:lang="fr-FR">Saisir le montant à envoyer {0}.</String>
+        <String xml:lang="de-DE">Gib den Betrag des Geldes ein, den du {0} übergeben willst.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1918,6 +1975,7 @@
         <String xml:lang="th-TH">สถิติ</String>
         <String xml:lang="id-ID">Statistik</String>
         <String xml:lang="hi-Latn">Statistics</String>
+        <String xml:lang="de-DE">Statistik</String>
     </Entry>
 
     <Entry Id="menu_stats_subtitle">
@@ -1932,6 +1990,7 @@
         <String xml:lang="th-TH">สถานะ</String>
         <String xml:lang="id-ID">Status</String>
         <String xml:lang="hi-Latn">Stats</String>
+        <String xml:lang="de-DE">Stats</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1949,6 +2008,7 @@
         <String xml:lang="th-TH">ตู้เสื้อผ้า</String>
         <String xml:lang="id-ID">Lemari pakaian</String>
         <String xml:lang="hi-Latn">Wardrobe</String>
+        <String xml:lang="de-DE">Garderobe</String>
     </Entry>
 
     <Entry Id="menu_wardrobe_subtitle">
@@ -1963,38 +2023,47 @@
         <String xml:lang="th-TH">เลือกหมวดหมู่</String>
         <String xml:lang="id-ID">Pilih kategori</String>
         <String xml:lang="hi-Latn">Category select kare</String>
+        <String xml:lang="de-DE">Wähle eine Kategorie</String>
     </Entry>
 
     <Entry Id="menu_wardrobe_clear_text">
         <String xml:lang="en-US">~b~Remove all</String>
+        <String xml:lang="de-DE">~b~Entferne alles</String>
     </Entry>
 
     <Entry Id="menu_wardrobe_clear_description">
         <String xml:lang="en-US">Take all your ~b~clothes ~s~and ~b~makeup ~s~off your character.</String>
+        <String xml:lang="de-DE">Nimm all deine ~b~Kleidung ~s~und ~b~Make-Up ~s~von deinem Charakter.</String>
     </Entry>
 
     <Entry Id="btn_wardrobe_wear">
         <String xml:lang="en-US">Wear</String>
+        <String xml:lang="de-DE">Tragen</String>
     </Entry>
 
     <Entry Id="btn_wardrobe_browse">
         <String xml:lang="en-US">Browse</String>
+        <String xml:lang="de-DE">Durchsuchen</String>
     </Entry>
 
     <Entry Id="btn_wardrobe_remove">
         <String xml:lang="en-US">Remove</String>
+        <String xml:lang="de-DE">Entfernen</String>
     </Entry>
 
     <Entry Id="input_wardrobe_search_title">
         <String xml:lang="en-US">Search</String>
+        <String xml:lang="de-DE">Suchen</String>
     </Entry>
 
     <Entry Id="input_wardrobe_search_text">
         <String xml:lang="en-US">Enter an item's name or part of it</String>
+        <String xml:lang="de-DE">Gib den Namen eines Gegenstanden oder einen Teil vom Namen ein</String>
     </Entry>
 
     <Entry Id="menu_wardrobe_search_subtitle">
         <String xml:lang="en-US">Search: ''{0}''</String>
+        <String xml:lang="de-DE">Suche: ''{0}''</String>
     </Entry>
 
 
@@ -2006,6 +2075,7 @@
         <String xml:lang="nl-NL">Gestart</String>
         <String xml:lang="hi-Latn">Start ho gaya hai</String>
         <String xml:lang="fr-FR">Commencé</String>
+        <String xml:lang="de-DE">gestartet</String>
     </Entry>
 
     <Entry Id="trading_state_confirmed">
@@ -2013,6 +2083,7 @@
         <String xml:lang="nl-NL">Bevestigd</String>
         <String xml:lang="hi-Latn">Confirm ho gaya hai</String>
         <String xml:lang="fr-FR">Confirmé</String>
+        <String xml:lang="de-DE">bestätigt</String>
     </Entry>
 
     <Entry Id="trading_state_finalized">
@@ -2020,6 +2091,7 @@
         <String xml:lang="nl-NL">Afgerond</String>
         <String xml:lang="hi-Latn">Khatam ho gaya</String>
         <String xml:lang="fr-FR">Finalisé</String>
+        <String xml:lang="de-DE">Abgeschlossen</String>
     </Entry>
 
     <Entry Id="menu_trading_current_state">
@@ -2027,6 +2099,7 @@
         <String xml:lang="nl-NL">Status: {0}</String>
         <String xml:lang="hi-Latn">Status: {0}</String>
         <String xml:lang="fr-FR">Statut: {0}</String>
+        <String xml:lang="de-DE">Status: {0}</String>
     </Entry>
 
     <Entry Id="menu_trading_title">
@@ -2034,6 +2107,7 @@
         <String xml:lang="nl-NL">Handelen</String>
         <String xml:lang="hi-Latn">Trading(lena-dena)</String>
         <String xml:lang="fr-FR">Echange</String>
+        <String xml:lang="de-ED">Handeln</String>
     </Entry>
 
     <Entry Id="menu_trading_my_offer_text">
@@ -2041,6 +2115,7 @@
         <String xml:lang="nl-NL">Mijn aanbod</String>
         <String xml:lang="hi-Latn">Mera offer</String>
         <String xml:lang="fr-FR">Mon offre</String>
+        <String xml:lang="de-DE">Mein Angebot</String>
     </Entry>
 
     <Entry Id="menu_trading_my_offer_title">
@@ -2048,6 +2123,7 @@
         <String xml:lang="nl-NL">Aanbod</String>
         <String xml:lang="hi-Latn">Offer</String>
         <String xml:lang="fr-FR">Offre</String>
+        <String xml:lang="de-DE">Angebot</String>
     </Entry>
 
     <Entry Id="menu_trading_my_offer_subtitle">
@@ -2055,6 +2131,7 @@
         <String xml:lang="nl-NL">Mijn aanbod</String>
         <String xml:lang="hi-Latn">Mera offer</String>
         <String xml:lang="fr-FR">Mon offre</String>
+        <String xml:lang="de-DE">Mein Angebot</String>
     </Entry>
 
     <Entry Id="menu_trading_other_offer_text">
@@ -2062,6 +2139,7 @@
         <String xml:lang="nl-NL">Andere speler's aanbod</String>
         <String xml:lang="hi-Latn">Doosre player ka offer</String>
         <String xml:lang="fr-FR">Offre de l'autre joueur</String>
+        <String xml:lang="de-DE">Angebot des anderen Spielers</String>
     </Entry>
 
     <Entry Id="menu_trading_other_offer_title">
@@ -2069,6 +2147,7 @@
         <String xml:lang="nl-NL">Aanbod</String>
         <String xml:lang="hi-Latn">Offer</String>
         <String xml:lang="fr-FR">Offre</String>
+        <String xml:lang="de-DE">Angebot</String>
     </Entry>
 
     <Entry Id="menu_trading_other_offer_subtitle">
@@ -2076,6 +2155,7 @@
         <String xml:lang="nl-NL">Andere speler's aanbod</String>
         <String xml:lang="hi-Latn">Doosre player ka offer</String>
         <String xml:lang="fr-FR">Offre de l'autre joueur</String>
+        <String xml:lang="de-DE">Angebot des anderen Spielers</String>
     </Entry>
 
     <Entry Id="menu_trading_confirm_text">
@@ -2083,6 +2163,7 @@
         <String xml:lang="nl-NL">Bevestigen</String>
         <String xml:lang="hi-Latn">Confirm kare</String>
         <String xml:lang="fr-FR">Confirmer</String>
+        <String xml:lang="de-DE">Bestätigen</String>
     </Entry>
 
     <Entry Id="menu_trading_confirm_description">
@@ -2090,6 +2171,7 @@
         <String xml:lang="nl-NL">Door deze knop in te drukken bevestig je de transactie</String>
         <String xml:lang="hi-Latn">Yeh button press karte hi process start ho jayegi</String>
         <String xml:lang="fr-FR">Appuyer sur ce bouton fait progresser l'état actuel</String>
+        <String xml:lang="de-DE">Durch Drücken dieser Taste wird der aktuelle Status aktualisiert</String>
     </Entry>
 
     <Entry Id="trading_changed_offer">
@@ -2097,6 +2179,7 @@
         <String xml:lang="nl-NL">{0} heeft zijn aanbod aangepast.</String>
         <String xml:lang="hi-Latn">{0} change kar diye apna offer.</String>
         <String xml:lang="fr-FR">{0} a changé son offre.</String>
+        <String xml:lang="de-DE">{0} hat sein Angebot verändert.</String>
     </Entry>
 
     <Entry Id="trading_offered">
@@ -2104,6 +2187,7 @@
         <String xml:lang="nl-NL">Je hebt een ~y~ruilverzoek~s~ gestuurd naar {0}.</String>
         <String xml:lang="hi-Latn">Aapne apni ~y~trade request ~s~bheji {0} ko.</String>
         <String xml:lang="fr-FR">Tu as envoyé ta ~y~demande d'échange~s~ à {0}.</String>
+        <String xml:lang="de-DE">Du hast deine ~y~Handelsanfrage~s~ an {0} gesendet.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -2113,6 +2197,7 @@
         <String xml:lang="nl-NL">{0} heeft je een ruilverzoek gestuurd. {1} om het menu te bekijken.</String>
         <String xml:lang="hi-Latn">{0} ne aapko trading request bheji. {1} dabaye trading menu dekhne ke liye.</String>
         <String xml:lang="fr-FR">{0} t'a envoyé une demande d'échange. {1} pour afficher le menu d'échange.</String>
+        <String xml:lang="de-DE">{0} hat dir eine Handelsanfrage gesendet. {1} um das Handelsmenü zu zeigen.</String>
     </Entry>
 
     <Entry Id="trading_other_confirmed">
@@ -2120,6 +2205,7 @@
         <String xml:lang="nl-NL">{0} heeft de ruil bevestigd.</String>
         <String xml:lang="hi-Latn">{0} ne confirm kar diya trade.</String>
         <String xml:lang="fr-FR">{0} a confirmé l'échange.</String>
+        <String xml:lang="de-DE">{0} hat den Handel bestätigt.</String>
     </Entry>
 
     <Entry Id="menu_trading_cash_label">
@@ -2127,6 +2213,7 @@
         <String xml:lang="nl-NL">Geld: {0}</String>
         <String xml:lang="hi-Latn">Cash: {0}</String>
         <String xml:lang="fr-FR">Argent: {0}</String>
+        <String xml:lang="de-DE">Geld: {0}</String>
     </Entry>
 
     <Entry Id="menu_trading_cash_text">
@@ -2134,6 +2221,7 @@
         <String xml:lang="nl-NL">Geld</String>
         <String xml:lang="hi-Latn">Cash</String>
         <String xml:lang="fr-FR">Argent</String>
+        <String xml:lang="de-DE">Geld</String>
     </Entry>
 
     <Entry Id="menu_trading_add_item">
@@ -2141,6 +2229,7 @@
         <String xml:lang="nl-NL">Voorwerp Toevoegen</String>
         <String xml:lang="hi-Latn">Add Item</String>
         <String xml:lang="fr-FR">Ajouter un objet</String>
+        <String xml:lang="de-DE">Gegenstand hinzufügen</String>
     </Entry>
 
     <Entry Id="menu_trading_add_purchaseable">
@@ -2148,6 +2237,7 @@
         <String xml:lang="nl-NL">Tegoeden Toevoegen</String>
         <String xml:lang="hi-Latn">Add karo khareedne ke liye</String>
         <String xml:lang="fr-FR">Ajouter un objet achetable</String>
+        <String xml:lang="de-DE">Erwerbbares hinzufügen</String>
     </Entry>
 
     <Entry Id="trading_response_success">
@@ -2155,6 +2245,7 @@
         <String xml:lang="nl-NL">Ruilen voltooid.</String>
         <String xml:lang="hi-Latn">Trade complete ho gaya.</String>
         <String xml:lang="fr-FR">Echange terminé.</String>
+        <String xml:lang="de-DE">Handel abgeschlossen.</String>
     </Entry>
 
     <Entry Id="trading_response_amount">
@@ -2162,6 +2253,7 @@
         <String xml:lang="nl-NL">~r~Aantal onvoldoende om de transactie te voltooien.</String>
         <String xml:lang="hi-Latn">~r~Amount kam hai trade complete karne ke liye.</String>
         <String xml:lang="fr-FR">~r~Montant insuffisant pour réaliser l'échange.</String>
+        <String xml:lang="de-DE">~r~Unzureichender Betrag, um den Handel abzuschließen.</String>
     </Entry>
 
     <Entry Id="trading_response_item">
@@ -2169,6 +2261,7 @@
         <String xml:lang="nl-NL">~r~Ongeldig voorwerp gevonden in transactie.</String>
         <String xml:lang="hi-Latn">~r~Trade mein galat item mila.</String>
         <String xml:lang="fr-FR">~r~Un objet non valide a été trouvé dans l'échange.</String>
+        <String xml:lang="de-DE">~r~Ungültiger Gegenstand wurde im Handel gefunden.</String>
     </Entry>
 
     <Entry Id="trading_response_item_limit">
@@ -2176,6 +2269,7 @@
         <String xml:lang="nl-NL">~r~Voorwerp limiet bereikt, kan de transactie niet voltooien.</String>
         <String xml:lang="hi-Latn">~r~Item ki limit ho chuki hai, trade complete nahi ho sakta.</String>
         <String xml:lang="fr-FR">~r~Limite d'objet atteinte, impossible de terminer l'échange.</String>
+        <String xml:lang="de-DE">~r~Gegenstandslimit erreicht, der Handel kann nicht abgeschlossen werden.</String>
     </Entry>
 
     <Entry Id="trading_response_not_transferable">
@@ -2183,6 +2277,7 @@
         <String xml:lang="nl-NL">~r~Dit voorwerp mag je niet ruilen.</String>
         <String xml:lang="hi-Latn">~r~Item trade nahi ho sakta.</String>
         <String xml:lang="fr-FR">~r~L'objet n'est pas transférable.</String>
+        <String xml:lang="de-DE">~r~Gegenstand ist nicht übertragbar.</String>
     </Entry>
 
     <Entry Id="trading_response_job">
@@ -2190,6 +2285,7 @@
         <String xml:lang="nl-NL">~r~Je mag dit voorwerp niet ruilen met huidige baan.</String>
         <String xml:lang="hi-Latn">~r~Job aapko allow nahi kar raha aapko yeh item trade karne me.</String>
         <String xml:lang="fr-FR">~r~Emploi non autorisé à effectuer des transactions sur cet objet.</String>
+        <String xml:lang="de-DE">~r~Job erlaubt es nicht, einen Handel mit diesem Gegenstand durchzuführen.</String>
     </Entry>
 
     <Entry Id="trading_response_no_space">
@@ -2197,6 +2293,7 @@
         <String xml:lang="nl-NL">~r~Geen ruimte meer om de transactie te voltooien.</String>
         <String xml:lang="hi-Latn">~r~Koi space khaali nahi hai yeh trade complete karne ke liye.</String>
         <String xml:lang="fr-FR">~r~Il n'y a plus d'espace pour compléter l'échange.</String>
+        <String xml:lang="de-DE">~r~Kein Platz, um diesen Handel abzuschließen.</String>
     </Entry>
 
     <Entry Id="trading_response_transfer_limit">
@@ -2204,12 +2301,14 @@
         <String xml:lang="nl-NL">~r~Geldoverdrachtlimiet van {0} bereikt of afkoelperiode is nog niet verstreken.</String>
         <String xml:lang="hi-Latn">~r~Money transfer ki limit lag gayi hai {0} ki ya cooldown aagaya hai.</String>
         <String xml:lang="fr-FR">~r~La limite de transfert d'argent de {0} ou le délai d'attente a été atteint.</String>
+        <String xml:lang="de-DE">~r~Geldtransferlimit von {0} oder der Cooldown wurden erreicht.</String>
     </Entry>
 
     <Entry Id="trading_response_transaction">
         <String xml:lang="en-US">~r~Transaction error occurred.</String>
         <String xml:lang="nl-NL">~r~Transactiefout opgetreden.</String>
-         <String xml:lang="hi-Latn">~r~Transaction mein error aagaya hai.</String>
+        <String xml:lang="hi-Latn">~r~Transaction mein error aagaya hai.</String>
         <String xml:lang="fr-FR">~r~Une erreur de transaction s'est produite.</String>
+        <String xml:lang="de-DE">~r~Transaktionsfehler aufgetreten.</String>
     </Entry>
 </Entries>
