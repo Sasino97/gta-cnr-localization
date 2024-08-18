@@ -971,6 +971,7 @@
         <String xml:lang="nl-NL">Je hebt een ~b~{0}~s~ behaald!</String>
         <String xml:lang="fr-FR">Tu as obtenu un ~b~{0}~s~!</String>
         <String xml:lang="hi-Latn">Aapko mila ek ~b~{0}~s~!</String>
+        <String xml:lang="de-DE">Du hast ein ~b~{0}~s~ erhalten!</String>
     </Entry>
 
     <Entry Id="mechanic_dont_have_vehicle_repair">
@@ -1014,6 +1015,7 @@
         <String xml:lang="nl-NL">~r~Dit type voertuig kan hier niet worden gerepareerd!</String>
         <String xml:lang="fr-FR">~r~Ce type de véhicule ne peut pas être réparé ici!</String>
         <String xml:lang="hi-Latn">~r~Iss type ki gaadi yaha repair nahi ho sakti!</String>
+        <String xml:lang="de-DE">~r~Dieser Fahrzeugtyp kann hier nicht repariert werden!</String>
     </Entry>
 
     <Entry Id="mechanic_cant_change_plate_others">
@@ -1039,6 +1041,7 @@
         <String xml:lang="nl-NL">Je voertuig wordt ~g~gerepareerd~s~. Blijf ~r~stilstaan ~s~tijdens het repareren!</String>
         <String xml:lang="fr-FR">Ton véhicule est en cours de ~g~réparation~s~. Ne ~r~bouge ~s~pas le véhicule!</String>
         <String xml:lang="hi-Latn">Aapki vehicle ~g~repair ho rahi hai~s~. Vehicle ~r~move ~s~mat karna!</String>
+        <String xml:lang="de-DE">Dein Fahrzeug wird ~g~repariert~s~. ~r~Bewege ~s~das Fahrzeug nicht!</String>
     </Entry>
 
     <Entry Id="mechanic_vehicle_repaired">
@@ -1231,6 +1234,7 @@
         <String xml:lang="nl-NL">Persoonlijke kentekenplaat</String>
         <String xml:lang="fr-FR">Plaque personnalisée</String>
         <String xml:lang="hi-Latn">Custom plate</String>
+        <String xml:lang="de-DE">Wunschkennzeichen</String>
     </Entry>
 
     <Entry Id="mechanic_plate_input_text">
@@ -1238,6 +1242,7 @@
         <String xml:lang="nl-NL">Voer een persoonlijke kentekenplaat in voor dit voertuig.\nWaarschuwing: wanneer je een kentekenplaat verkrijgt, bezit je deze alleen in de huidige regio (US of EU). Wanneer je naar een andere regio gaat, probeert de server deze daarheen te verplaatsen, maar als deze al in gebruik is, wordt deze niet overgezet.</String>
         <String xml:lang="fr-FR">Entrer une plaque d'immatriculation personnalisée pour ce véhicule.\nAvertissement: quand tu obtiens une plaque d'immatriculation, tu ne la possèdes que dans la région actuelle (US ou EU). Quand tu rejoins une autre région, le serveur tente de la transférer, mais si elle est déjà utilisée, elle ne sera pas transférée.</String>
         <String xml:lang="hi-Latn">Is gaadi ke liye ek custom license plate daalein.\nWarning: jab aap ek license plate milta hai, toh aap sirf us region mein use kar sakte hain (US ya EU). Jab aap doosre region mein jaate hain, toh server uss vehicle plate ko tranasfer karne ki koshish karta hai, lekin agar woh pahle se hi istemaal mein hai to usse transfer nahin kiya ja sakta.</String>
+        <String xml:lang="de-DE">Gib ein Wunschkennzeichen für dieses Fahrzeug ein.\nWarning: wenn du ein Wunschkennzeichen beanstpruchst, kannst du es ausschließlich in der aktuellen Region (US or EU) verwenden. Wenn du eine andere Region betrittst, wird der Server versuchen, es zu übertragen, sollte das Kennzeichen bereits in Verwendung sein, wird es nicht übertragen.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_word">
@@ -1318,6 +1323,7 @@
         <String xml:lang="nl-NL">~r~Je kan het kenteken van een gestolen voertuig niet veranderen.</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas changer la plaque d'immatriculation d'un véhicule volé.</String>
         <String xml:lang="hi-Latn">~r~Aap ek churayi hui gaadi ka license place change nahi kar sakte.</String>
+        <String xml:lang="de-DE">~r~Du kannst das Kennzeichen eines gestohlenen Fahrzeuges nicht ändern.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_rented_car">
@@ -4350,7 +4356,7 @@
         <String xml:lang="nl-NL">~b~Overval compleet! ~s~Je hebt succesvol ~y~{0}~s~ overvallen en hebt ~g~{1}~s~ verdient!</String>
         <String xml:lang="fr-FR">~b~Braquage terminé! ~s~Tu as réussi à braquer ~y~{0} ~s~et gagné ~g~{1}~s~!</String>
         <String xml:lang="it-IT">~b~Rapina completata! ~s~Hai rapinato con successo ~y~{0} ~s~e guadagnato ~g~{1}~s~!</String>
-        <String xml:lang="de-DE">~b~Überfall abgeschlossen! ~s~Du hast erfolgreich ~y~{0} ~s~ausgeraubt und ~g~{1}~s~ verdient!</String>
+        <String xml:lang="de-DE">~b~Überfall abgeschlossen! ~s~Du hast ~y~{0} ~s~erfolgreich ausgeraubt und ~g~{1}~s~ verdient!</String>
         <String xml:lang="es-ES">~b~¡Robo completo! ~s~¡Has robado con éxito ~y~{0} ~s~y ganado ~g~{1}~s~!</String>
         <String xml:lang="pl-PL">~b~Napad udany! ~s~udało ci się okraść ~y~{0}~s~ i zdobyć ~g~{1}~s~.</String>
         <String xml:lang="pt-BR">~b~Roubo concluído! ~s~Você roubou com sucesso e ~y~{0} ~s~y ganhou~g~{1}~s~!</String>
@@ -4364,6 +4370,7 @@
         <String xml:lang="nl-NL">~r~Het vermoorden van de caissière was niet het plan! ~s~Jouw deel is ~g~{0}~s~.</String>
         <String xml:lang="fr-FR">~r~Tuer l'employé n'était pas dans le plan! ~s~Ta part est de ~g~{0}~s~.</String>
         <String xml:lang="hi-Latn">~r~Clerk ko maarna plan me nahi tha! ~s~Aapka cut ~g~{0} ~s~hua.</String>
+        <String xml:lang="de-DE">~r~Den Angestellten töten war nicht im Plan! ~s~Dein Anteil beträgt ~g~{0}~s~.</String>
     </Entry>
 
     <Entry Id="robbery_clerk_killed_complete">
@@ -4371,6 +4378,7 @@
         <String xml:lang="nl-NL">~r~Het vermoorden van de caissière was niet het plan! ~s~Je hebt ~g~{0}~s~ verdiend.</String>
         <String xml:lang="fr-FR">~r~Tuer l'employé n'était pas dans le plan! ~s~Tu as gagné ~g~{0}~s~.</String>
         <String xml:lang="hi-Latn">~r~Clerk ko maarna plan me nahi tha! ~s~Aap kamaye ~g~{0} ~s~paise.</String>
+        <String xml:lang="de-DE">~r~Den Angestellten töten war nicht im Plan! ~s~Du hast ~g~{0}~s~ verdient.</String>
     </Entry>
 
     <Entry Id="robbery_clerk_not_intimidated_cut">
@@ -4378,6 +4386,7 @@
         <String xml:lang="nl-NL">~r~De caissière is niet meer geïntimideerd! ~s~Jouw deel is ~g~{0}~s~.</String>
         <String xml:lang="fr-FR">~r~L'employé n'est plus intimidé! ~s~Ta part est de ~g~{0}~s~.</String>
         <String xml:lang="hi-Latn">~r~Clerk ko ab darr nahi lag raha! ~s~Aapka cut ~g~{0} ~s~hua.</String>
+        <String xml:lang="de-DE">~r~Der Angestellte ist nicht länger eingeschüchtert! ~s~Dein Anteil beträgt ~g~{0}~s~.</String>
     </Entry>
 
     <Entry Id="robbery_clerk_not_intimidated_complete">
@@ -4385,6 +4394,7 @@
         <String xml:lang="nl-NL">~r~De caissière is niet meer geïntimideerd! ~s~Je hebt ~g~{0}~s~ verdiend.</String>
         <String xml:lang="fr-FR">~r~L'employé n'est plus intimidé! ~s~Tu as gagné ~g~{0}~s~.</String>
         <String xml:lang="hi-Latn">~r~Clerk ko ab darr nahi lag raha! ~s~Aap kamaye ~g~{0} ~s~paise.</String>
+        <String xml:lang="de-DE">~r~Der Angestellte ist nicht länger eingeschüchtert! ~s~Du hast ~g~{0}~s~ verdient.</String>
     </Entry>
 
     <Entry Id="robbery_fail_clerk_killed">
@@ -4491,6 +4501,7 @@
         <String xml:lang="nl-NL">Je hebt een ~p~{0} ~s~~r~gestolen~s~</String>
         <String xml:lang="fr-FR">Tu as ~r~volé ~s~un ~p~{0}~s~</String>
         <String xml:lang="hi-Latn">Aap ~r~churaye ~s~ek ~p~{0}~s~</String>
+        <String xml:lang="de-DE">Du hast ~s~ein ~p~{0}~s~ ~r~gestohlen~s~.</String>
     </Entry>
 
     <Entry Id="robbery_caught_shoplifting_reported_police">
@@ -4635,6 +4646,7 @@
         <String xml:lang="nl-NL">Je bent de ~b~kluis~s~ aan het kraken.</String>
         <String xml:lang="fr-FR">Tu perces le ~b~coffre-fort~s~.</String>
         <String xml:lang="hi-Latn">Aap ~b~safe ~s~crack kar rahe hain.</String>
+        <String xml:lang="de-DE">Du knackst den ~b~Safe~s~.</String>
     </Entry>
 
     <Entry Id="robbery_extra_security_safe">
