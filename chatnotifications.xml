@@ -11,18 +11,29 @@
         <String xml:lang="en-US">You have ~r~unblocked ~s~{0}.</String>
         <String xml:lang="it-IT">Hai ~r~sbloccato ~s~{0}.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~r~gedeblokkeerd~s~.</String>
-        <String xml:lang="tr-TR">Onun ~r~engelini kaldırdın ~s~{0}.</String>
+        <String xml:lang="tr-TR">~r~Engelini kaldırdın ~s~{0}.</String>
         <String xml:lang="de-DE">Du hast {0} ~r~freigegeben~s~.</String>
         <String xml:lang="es-ES">Has ~r~desbloqueado ~s~{0}.</String>
         <String xml:lang="fr-FR">Tu as ~r~débloqué ~s~{0}.</String>
         <String xml:lang="pl-PL">~r~Odblokowałeś ~s~{0}.</String>
         <String xml:lang="ar-001">لقد قمت ~r~برفع الحظر ~s~{0}.</String>
-        <String xml:lang="zh-Hant">你已 ~r~解除封鎖 ~s~{0}</String> 
-        <String xml:lang="zh-Hans">你已 ~r~解除封锁 ~s~{0}</String> 
+        <String xml:lang="zh-Hant">你已 ~r~解除封鎖 ~s~{0}</String>
+        <String xml:lang="zh-Hans">你已 ~r~解除封锁 ~s~{0}</String>
         <String xml:lang="pt-BR">Você ~r~desbloqueou ~s~{0}.</String>
         <String xml:lang="th-TH">คุฌได้ ~r~ปลดบล็อค ~s~{0}.</String>
         <String xml:lang="id-ID">Anda sudah ~r~Tidak diblokir ~s~{0}. </String>
         <String xml:lang="vi-VN">Bạn đã ~r~gỡ block ~s~{0}.</String>
+        <String xml:lang="hi-Latn">Aapne ~r~unblocked ~s~kiya hua hai {0}.</String>
+        <String xml:lang="cs-CS">~r~Odblokoval ~s~jsi {0}.</String>
+    </Entry>
+
+    <Entry Id="block_player">
+        <String xml:lang="en-US">You have ~r~blocked ~s~{0}.</String>
+        <String xml:lang="nl-NL">Je hebt {0} ~r~geblokkeerd~s~.</String>
+        <String xml:lang="fr-FR">Tu as ~r~bloqué ~s~{0}.</String>
+        <String xml:lang="hi-Latn">Aapne ~r~block ~s~kara{0}.</String>
+        <String xml:lang="cs-CS">~r~Zablokoval ~s~jsi {0}.</String>
+        <String xml:lang="de-DE">Du hast ~s~{0}~r~geblockt~s~.</String>
     </Entry>
 
     <!-- When you are trying to unblock someone -->
@@ -44,13 +55,24 @@
         <String xml:lang="th-TH">ไม่สามารถที่จะ ~r~ปลดบล็อค ~s~{0}.</String>
         <String xml:lang="id-ID">Tidak dapak ~r~membuka blokir ~s~{0}.</String>
         <String xml:lang="vi-VN">Không thể ~r~gỡ chặn ~s~{0}.</String>
+        <String xml:lang="hi-Latn">nahi ~r~unblock ~s~ho pa rahe{0}.</String>
+        <String xml:lang="cs-CS">Nemůžeš ~r~odblokovat ~s~{0}.</String>
+    </Entry>
+
+    <Entry Id="unable_block_player">
+        <String xml:lang="en-US">~r~Unable to block ~s~{0}.</String>
+        <String xml:lang="nl-NL">~r~Fout tijdens het blokkeren van ~s~{0}.</String>
+        <String xml:lang="fr-FR">~r~Impossible de bloquer ~s~{0}.</String>
+        <String xml:lang="hi-Latn">~r~Block nahi ho pa rahe ~s~{0}.</String>
+        <String xml:lang="cs-CS">~r~Nemůžeš zablokovat ~s~{0}.</String>
+        <String xml:lang="de-DE">~s~{0} ~r~blockieren ist nicht möglich~s~.</String>
     </Entry>
 
     <Entry Id="noti_fandom">
         <String xml:lang="en-US">Visit our community wiki at ~b~gtacnr.fandom.com ~s~for a ~y~detailed guide ~s~of the game.</String>
         <String xml:lang="it-IT">Visita la wiki della nostra communità su ~b~gtacnr.fandom.com ~s~per una ~y~guida dettagliata ~s~del gioco.</String>
         <String xml:lang="nl-NL">Bezoek onze community wiki op ~b~gtacnr.fandom.com ~s~for een ~y~gedetailleerde gids ~s~van de game.</String>
-        <String xml:lang="tr-TR">Adresindeki topluluk wiki'mizi ziyaret edin ~b~gtacnr.fandom.com ~s~için ~y~ayrıntılı rehber ~s~oyun.</String>
+        <String xml:lang="tr-TR">Oyunun ~y~detaylı kılavuzu ~s~için topluluk wiki'mizi ~b~gtacnr.fandom.com ~s~adresinden ziyaret edin.</String>
         <String xml:lang="de-DE">Besuche unsere Community Wiki unter ~b~gtacnr.fandom.com ~s~für einen ~y~ausführlichen Leitfaden ~s~zum Spiel.</String>
         <String xml:lang="es-ES">Visite la wiki de nuestra comunidad en ~b~gtacnr.fandom.com ~s~para obtener una ~y~guía detallada ~s~del juego.</String>
         <String xml:lang="fr-FR">Visite notre wiki communautaire sur ~b~gtacnr.fandom.com ~s~pour un ~y~dguide complet ~s~du jeu.</String>
@@ -62,16 +84,18 @@
         <String xml:lang="th-TH">เยี่ยมชมวิกิชุมชนของเราที่ ~b~gtacnr.fandom.com ~s~สำหรับ ~y~คำแนะนำโดยละเอียด ~s~ของเกม</String>
         <String xml:lang="id-ID">Kunjungi komunitas wiki kami di ~b~gtacnr.fandom.com ~s~untuk ~y~Panduan terperinci ~s~untuk game ini</String>
         <String xml:lang="vi-VN">Ghé thăm cộng đồng của chúng tôi tại wiki ~b~gtacnr.fandom.com ~s~để ~y~được hướng dẫn cụ thể ~s~về game.</String>
+        <String xml:lang="hi-Latn">Hamari wiki community visit kare at ~b~gtacnr.fandom.com ~s~aur paayien ~y~detailed guide ~s~iss game ki.</String>
+        <String xml:lang="cs-CS">Navštiv naší Wiki na ~b~gtacnr.fandom.com~s~, kde najdeš ~y~podrobnější informace ~s~o hře.</String>
     </Entry>
 
     <Entry Id="noti_discord">
         <String xml:lang="en-US">Visit our Discord server at ~b~discord.gg/cnr~s~</String>
         <String xml:lang="it-IT">Visita il nostro server Discord su ~b~discord.gg/cnr~s~</String>
         <String xml:lang="nl-NL">Bezoek onze Discord server op ~b~discord.gg/cnr~s~</String>
-        <String xml:lang="tr-TR">Discord sunucumuzu ziyaret edin ~b~discord.gg/cnr~s~</String>
+        <String xml:lang="tr-TR">Discord sunucumuzu ~b~discord.gg/cnr ~s~adresinden ziyaret edin</String>
         <String xml:lang="de-DE">Besuche unseren Discord server unter ~b~discord.gg/cnr~s~</String>
         <String xml:lang="es-ES">Visita nuestro servidor de Discord en ~b~discord.gg/cnr~s~</String>
-        <String xml:lang="fr-FR">Rejoint notre serveur Discord: ~b~discord.gg/cnr~s~</String>
+        <String xml:lang="fr-FR">Visite notre serveur Discord: ~b~discord.gg/cnr~s~</String>
         <String xml:lang="pl-PL">Zobacz nasz Discord na ~b~discord.gg/cnr~s~</String>
         <String xml:lang="ar-001">قم بزيارة ديسكود الخاص بنا على ~b~discord.gg/cnr~s~</String>
         <String xml:lang="zh-Hant">查看我們的 Discord 服務器 ~b~discord.gg/cnr~s~</String>
@@ -80,25 +104,29 @@
         <String xml:lang="th-TH">ไปที่เซิร์ฟเวอร์ Discord ของเราที่ ~b~discord.gg/cnr~s~</String>
         <String xml:lang="id-ID">Kunjungi server Discord kami di ~b~discord.gg/cnr~s~</String>
         <String xml:lang="vi-VN">Tham gia Discord của chúng tôi tại ~b~discord.gg/cnr~s~</String>
+        <String xml:lang="hi-Latn">Hamare Discord Server visit kare at ~b~discord.gg/cnr~s~</String>
+        <String xml:lang="cs-CS">Přidej se na náš Discord: ~b~discord.gg/cnr~s~</String>
     </Entry>
 
 
     <Entry Id="weapon_reload_switching">
-        <String xml:lang="en-US">~y~(C)Warning:(/C) ~s~\"reload-switching\" is ~r~not allowed ~s~on this server; abusing this glitch will force your character to reload without moving.</String>
-        <String xml:lang="it-IT">~y~(C)Attenzione:(/C) ~s~\"Reload-Switching\" ~r~non è permesso ~s~in questo server; abusare di questo glitch costringerà il tuo personaggio a ricaricare senza muoversi.</String>
-        <String xml:lang="nl-NL">~y~(C)Let op:(/C) ~s~\"reload-switching\" is ~r~niet toegestaan ~s~op deze server; het misbruiken van deze glitch forceert je character om te herladen zonder te bewegen.</String>
-        <String xml:lang="tr-TR">~y~(C)Uyarı:(/C) ~s~\"tekrar yükle-değiştirme\" dir ~r~izin verilmedi ~s~Bu aksaklığı kötüye kullanmak, karakterinizi hareket etmeden tekrar yüklemeye zorlar.</String>
-        <String xml:lang="de-DE">~y~(C)Achtung:(/C) ~s~\"Reload-Switching\" ist auf diesem Server ~r~nicht erlaubt.~s~ Das Ausnutzen dieses Glitches führt dazu, dass du nachlädst, ohne, dass sich den Charakter bewegt.</String>
-        <String xml:lang="es-ES">~y~(C)Advertencia:(/C) ~s~\"Reload-Switching\" ~r~no está permitido ~s~en este servidor; abusar de este bug obligará a tu personaje a recargar sin que pueda moverse.</String>
-        <String xml:lang="fr-FR">~y~(C)Avertissement:(/C) ~s~\"Recharger en changeant d'arme" n'est ~r~pas autorisé ~s~sur notre serveur; utiliser ce glitch va obliger ton personnage à recharger sans pouvoir bouger.</String>
-        <String xml:lang="pl-PL">~y~(C)Uwaga:(/C) ~s~\"reload-switching\" ~r~jest niedozwolony ~s~na tym serwerze; wykorzystywanie tego błędu spowoduje ładowanie broni przez twoją postać w bezruchu.</String>
-        <String xml:lang="ar-001">~y~(C)تحذير:(/C) ~s~\"reload-switching\" ~r~غير مسموح ~s~على هذا السيرفر; إساءة استخدام هذا الخطأ سيؤدي إلى إجبار شخصيتك علي إعادة التحميل السلاح دون تحرك.</String>
-        <String xml:lang="zh-Hant">~y~(C)注意：(/C) ~s~\"換彈輔助\" 是 ~r~不被允許 ~s~使用的；濫用這個Bug將迫使你的角色在不移動的情況下換彈夾.</String>
-        <String xml:lang="zh-Hans">~y~(C)注意：(/C) ~s~\"换弹辅助\" 是 ~r~不被允许 ~s~使用的；滥用这个Bug将迫使你的角色在不移动的情况下换弹夹.</String>
-        <String xml:lang="pt-BR">~y~(C)Warning:(/C) ~s~\"Reload-Switching\" não é ~r~é permitido ~s~é esse servidor; O abuso desse bug forçará seu personagem a recarregar sem poder se mover..</String>
-        <String xml:lang="th-TH">~y~(C)คำเตือน:(/C) ~s~\"reload-switching\" คือ ~r~ไม่ได้รับอนุญาต ~s~บนเซิร์ฟเวอร์นี้; การใช้ข้อผิดพลาดนี้ในทางที่ผิดจะบังคับให้ตัวละครของคุณโหลดซ้ำโดยไม่ขยับ.</String>
-        <String xml:lang="id-ID">~y~(c)Peringatan: (/C) ~s~\"Reload-Switching atau Mengganti senjata untuk reload\" ~r~tidak diperbolehkan ~s~di server ini; menyalahgunakan glitch ini akan memaksa karakter mu untuk download sambil diam.</String>
-        <String xml:lang="vi-VN">~y~(C)Cảnh báo: (/C) ~s~\"Nạp đạn nhanh\" là ~r~không được phép ~s~tại máy chủ này; Lạm dụng lỗi này sẽ làm nhân vật của bạn nạp đạn mà không cần di chuyển.</String>
+        <String xml:lang="en-US">~y~(C)Warning:(/C) ~s~"reload-switching" is ~r~not allowed ~s~on this server; abusing this glitch will force your character to reload without moving.</String>
+        <String xml:lang="it-IT">~y~(C)Attenzione:(/C) ~s~"reload-switching" ~r~non è permesso ~s~in questo server; abusare di questo glitch costringerà il tuo personaggio a ricaricare senza muoversi.</String>
+        <String xml:lang="nl-NL">~y~(C)Let op:(/C) ~s~"reload-switching" is ~r~niet toegestaan ~s~op deze server; het misbruiken van deze glitch forceert je character om te herladen zonder te bewegen.</String>
+        <String xml:lang="tr-TR">~y~(C)Uyarı:(/C) ~s~"reload-switching" bu sunucuda ~r~izin verilmiyor~s~; bu hata kötüye kullanılırsa, karakterinizin hareket etmeden yeniden yüklenmesine neden olur.</String>
+        <String xml:lang="de-DE">~y~(C)Achtung:(/C) ~s~"reload-switching" ist auf diesem Server ~r~nicht erlaubt.~s~ Das Ausnutzen dieses Glitches führt dazu, dass du nachlädst, ohne, dass sich den Charakter bewegt.</String>
+        <String xml:lang="es-ES">~y~(C)Advertencia:(/C) ~s~"reload-switching" ~r~no está permitido ~s~en este servidor; abusar de este bug obligará a tu personaje a recargar sin que pueda moverse.</String>
+        <String xml:lang="fr-FR">~y~(C)Avertissement:(/C) ~s~"Recharger en changeant d'arme" n'est ~r~pas autorisé ~s~sur ce serveur; utiliser ce glitch va obliger ton personnage à recharger sans pouvoir bouger.</String>
+        <String xml:lang="pl-PL">~y~(C)Uwaga:(/C) ~s~"reload-switching" ~r~jest niedozwolony ~s~na tym serwerze; wykorzystywanie tego błędu spowoduje ładowanie broni przez twoją postać w bezruchu.</String>
+        <String xml:lang="ar-001">~y~(C)تحذير:(/C) ~s~"reload-switching" ~r~غير مسموح ~s~على هذا السيرفر; إساءة استخدام هذا الخطأ سيؤدي إلى إجبار شخصيتك علي إعادة التحميل السلاح دون تحرك.</String>
+        <String xml:lang="zh-Hant">~y~(C)注意：(/C) ~s~"換彈輔助" 是 ~r~不被允許 ~s~使用的；濫用這個Bug將迫使你的角色在不移動的情況下換彈夾.</String>
+        <String xml:lang="zh-Hans">~y~(C)注意：(/C) ~s~"换弹辅助" 是 ~r~不被允许 ~s~使用的；滥用这个Bug将迫使你的角色在不移动的情况下换弹夹.</String>
+        <String xml:lang="pt-BR">~y~(C)Warning:(/C) ~s~"reload-switching" não é ~r~é permitido ~s~é esse servidor; O abuso desse bug forçará seu personagem a recarregar sem poder se mover..</String>
+        <String xml:lang="th-TH">~y~(C)คำเตือน:(/C) ~s~"reload-switching" คือ ~r~ไม่ได้รับอนุญาต ~s~บนเซิร์ฟเวอร์นี้; การใช้ข้อผิดพลาดนี้ในทางที่ผิดจะบังคับให้ตัวละครของคุณโหลดซ้ำโดยไม่ขยับ.</String>
+        <String xml:lang="id-ID">~y~(c)Peringatan: (/C) ~s~"Reload-Switching atau Mengganti senjata untuk reload" ~r~tidak diperbolehkan ~s~di server ini; menyalahgunakan glitch ini akan memaksa karakter mu untuk download sambil diam.</String>
+        <String xml:lang="vi-VN">~y~(C)Cảnh báo: (/C) ~s~"Nạp đạn nhanh" là ~r~không được phép ~s~tại máy chủ này; Lạm dụng lỗi này sẽ làm nhân vật của bạn nạp đạn mà không cần di chuyển.</String>
+        <String xml:lang="hi-Latn">~y~(C)Warning:(/C) ~s~"reload-switching" karna ~r~allowed nahi hai ~s~iss server mein; Yeh glitch abuse karne se aapka character gun reload kar payega bina move kare.</String>
+        <String xml:lang="cs-CS">~y~(C)Upozornění:(/C) ~s~"reload-switching" ~r~není povoleno ~s~na tomto serveru; zneužití donutí tvojí postavu znovu nabít, aniž by ses mohl hýbat.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -108,10 +136,10 @@
         <String xml:lang="en-US">~y~~h~Warning~h~~s~: You had lost {0} weapons, possibly done by a cheater, but (C)CnR V Shield(/C) ~g~restored ~s~them for you.</String>
         <String xml:lang="it-IT">~y~~h~Attenzione~h~~s~: Avevi perso {0} armi, probabilmente un azione svolta da un cheater, ma (C)CnR V Shield(/C) le ha ~g~ripristinate ~s~per te.</String>
         <String xml:lang="nl-NL">~y~~h~Let op~h~~s~: Je had {0} wapens verloren, mogelijk door een hacker, maar (C)CnR V Shield(/C) heeft ze voor je ~g~hersteld~s~.</String>
-        <String xml:lang="tr-TR">~y~~h~Uyarı~h~~s~: Kaybetmiştin {0} silahları, muhtemelen bir dolandırıcı tarafından yapılmıştır, ancak (C)CnR V Shield(/C) ~g~restore edildi ~s~senin için.</String>
+        <String xml:lang="tr-TR">~y~~h~Uyarı~h~~s~: {0} Silahını kaybetmişsin, muhtemelen bir hileci tarafından yapılmıştır, ancak (C)CnR V Shield(/C) senin için ~g~restore etti~s~.</String>
         <String xml:lang="de-DE">~y~~h~Achtung~h~~s~: Du hast {0} Waffen verloren, möglicherweise durch einen Cheater, aber das (C)CnR V Shield(/C) hat sie für dich ~g~wiederhergestellt~s~.</String>
         <String xml:lang="es-ES">~y~~h~Advertencia~h~~s~: Habías perdido {0} armas, posiblemente por culpa de un hacker, pero (C)CnR V Shield(/C) ~g~te las devolvio~s~.</String>
-        <String xml:lang="fr-FR">~y~~h~Avertissement~h~~s~: Tu as perdu {0} armes, possiblement à cause d'un cheater, mais notre (C)CnR V Shield(/C) ~g~a restauré ~s~tes armes perdues.</String>
+        <String xml:lang="fr-FR">~y~~h~Avertissement~h~~s~: Tu as perdu {0} armes, possiblement à cause d'un cheater, mais (C)CnR V Shield(/C) ~g~a restauré ~s~tes armes perdues.</String>
         <String xml:lang="pl-PL">~y~~h~Uwaga~h~~s~: Utraciłeś {0} broni, prawdopodobnie usunął je oszust, ale (C)CnR V Shield(/C) ~g~przywróciła ~s~je dla ciebie.</String>
         <String xml:lang="ar-001">~y~~h~تحذير~h~~s~: لقد خسرت {0} أسلحة, ربما قام بغشاش أضافتهم الي حسابك ، و لكن (C)CnR V Shield(/C) ~g~رجعها ~s~لك.</String>
         <String xml:lang="zh-Hant">~y~~h~警告~h~~s~：你失去了{0} 個武器，可能是外掛所做，但是(C)CnR V 守護者(/C) ~g~為你恢復了~s~ 它們.</String>
@@ -120,6 +148,8 @@
         <String xml:lang="th-TH">~y~~h~คำเตือน~h~~s~: คุณมีอาวุธหายไป {0} ชิ้น อาจเป็นไปได้ว่าคนโกงทำ แต่ (C)CnR V Shield(/C) ~g~restored ~s~them </String>
         <String xml:lang="id-ID">~y~~h~Peringatan~h~~s~: Kamu telah hilang {0} senjata, kemungkinan dilakukan oleh cheater, tetapi (C)CnR V Shield(/C) ~g~telah mengembalikan ~s~senjatamu.</String>
         <String xml:lang="vi-VN">~y~~h~Thông báo~h~~s~: Bạn đã mất súng {0}, Có thể do gian lận, nhưng (C)CnR V Shield(/C) ~g~đã trải lại ~s~cho bạn.</String>
+        <String xml:lang="hi-Latn">~y~~h~Warning~h~~s~: Aap apne {0} weapons khoo chuke hain. Ho sakta hai ye kisi cheater ka kaam ho. but hamare (C)CnR V Shield(/C) ~s~ne aapke liye ~g~restore ~s~kar diya hai.</String>
+        <String xml:lang="cs-CS">~y~~h~Upozornění~h~~s~: Přišel jsi o {0} zbraní, které ti zřejmě vzal cheater, ale (C)CnR V Shield(/C) ti všechny ~g~navrátil~s~.</String>
     </Entry>
 
 
@@ -128,10 +158,10 @@
         <String xml:lang="en-US">~y~~h~Warning~h~~s~: You had {0} unauthorized weapons, possibly spawned by a cheater to get you in trouble, but (C)CnR V Shield(/C) ~r~removed ~s~them for you.</String>
         <String xml:lang="it-IT">~y~~h~Attenzione~h~~s~: Avevi {0} armi illecite, probabilmente generate da un cheater per metterti nei guai, ma (C)CnR V Shield(/C) le ha ~r~rimosse ~s~per te.</String>
         <String xml:lang="nl-NL">~y~~h~Let op~h~~s~: Je had {0} ongeautoriseerde wapens, mogelijk ingespawnt door een hacker om je in problemen te krigen, maar (C)CnR V Shield(/C) heeft ze voor je ~r~weggehaald~s~.</String>
-        <String xml:lang="tr-TR">~y~~h~Uyarı~h~~s~: Sende vardı {0} yetkisiz silahlar, muhtemelen başınızı belaya sokmak için bir dolandırıcı tarafından yaratılmıştır, ancak (C)CnR V Shield(/C) ~r~kaldırıldı ~s~senin için.</String>
+        <String xml:lang="tr-TR">~y~~h~Uyarı~h~~s~: {0} Yetkisiz silahınız vardı, muhtemelen başınızı belaya sokmak için bir hileci tarafından yaratılmıştır, ancak (C)CnR V Shield(/C) senin için ~r~kaldırıldı~s~.</String>
         <String xml:lang="de-DE">~y~~h~Achtung~h~~s~: Du hast {0} unerlaubte Waffe, möglicherweise durch einen Cheater, um dich in Schwierigkeiten zu bringen, aber das (C)CnR V Shield(/C) hat sie für dich ~r~entfernt~s~.</String>
         <String xml:lang="es-ES">~y~~h~Advertencia~h~~s~: Usted tenia {0} armas que no estan permitidas en el servidor, posiblemente un hacker te las a puesto para meterte en problemas, pero (C)CnR V Shield(/C) ~r~las a retirado ~s~de tu inventario.</String>
-        <String xml:lang="fr-FR">~y~~h~Avertissement~h~~s~: Tu avais {0} armes interdites, possiblement à cause d'un cheater pour te causer du tord, mais notre (C)CnR V Shield(/C) les a ~r~retirées ~s~pour toi.</String>
+        <String xml:lang="fr-FR">~y~~h~Avertissement~h~~s~: Tu avais {0} armes interdites, possiblement à cause d'un cheater pour te causer du tord, mais (C)CnR V Shield(/C) les a ~r~retirées ~s~pour toi.</String>
         <String xml:lang="pl-PL">~y~~h~Uwaga~h~~s~: Miałeś {0} nieautoryzowanych broni, prawdopodobnie dał ci je oszust, ale (C)CnR V Shield(/C) ~r~usunęła ~s~je dla ciebie.</String>
         <String xml:lang="ar-001">~y~~h~تحذير~h~~s~: كان معك {0} أسلحة غير مصرح بها, ربما قام بغشاش أضافتهم الي حسابك ليوقعك في مشكلة, و لكن (C)CnR V Shield(/C) ~r~ازالهم ~s~من حسابك.</String>
         <String xml:lang="zh-Hant">~y~~h~警告~h~~s~：你擁有{0} 個未經授權的武器，可能是外掛為了給你帶來麻煩而生成的，所以(C)CnR V 守護者(/C) ~r~已刪除 ~s~該武器.</String>
@@ -140,5 +170,7 @@
         <String xml:lang="th-TH">~y~~h~คำเตือน~h~~s~: คุณมี {0} อาวุธที่ไม่ได้รับอนุญาต ซึ่งอาจเกิดจากคนโกงเพื่อให้คุณเดือดร้อน แต่ (C)CnR V Shield(/C) ~r~ลบออก ~s~เหล่านั้นสำหรับคุณ</String>
         <String xml:lang="id-ID">~y~~h~Peringatan~h~~s~: Anda memiliki {0} Senjata illegal, Kemungkinan diberikan oleh citer untuk membuat mu terlibat dalam masalah, Tetapi (C)CnR V Shield(/C) ~r~Telah menghapus ~s~Senjata illegal itu untukmu.</String>
         <String xml:lang="vi-VN">~y~~h~Thông báo~h~~s~: Ban đã đươc cho vũ khí {0}, Có thể là được cho bởi kẻ gian lận để gây rắc rối cho bạn, nhưng (C)CnR V Shield(/C) ~r~đã xoá ~s~chúng cho bạn.</String>
+        <String xml:lang="hi-Latn">~y~~h~Warning~h~~s~: Aapke pass {0} unauthorized weapons hain, Ho sakta hai ye kisi cheater ne spawn koya ho aapko fasane ke liye. but hamare (C)CnR V Shield(/C) ~s~ne aapke liye ~r~remove ~s~kar diya hai.</String>
+        <String xml:lang="cs-CS">~y~~h~Upozornění~h~~s~: Měl jsi {0} nepovolených zbraní, které ti zřejmě dal cheater, aby tě dostal do problémů. (C)CnR V Shield(/C) ~r~odebral ~s~tyto zbraně.</String>
     </Entry>
 </Entries>
