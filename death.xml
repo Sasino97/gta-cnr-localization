@@ -21,6 +21,7 @@
         <String xml:lang="th-TH">โทร 911</String>
         <String xml:lang="vi-VN">Gọi 911</String>
         <String xml:lang="id-ID">Panggil 911</String>
+        <String xml:lang="hi-Latn">Call 911</String>
     </Entry>
 
     <Entry Id="btn_respawn">
@@ -39,6 +40,7 @@
         <String xml:lang="th-TH">เกิดใหม่</String>
         <String xml:lang="vi-VN">Hồi sinh</String>
         <String xml:lang="id-ID">Hidup kembali</String>
+        <String xml:lang="hi-Latn">Respawn</String>
     </Entry>
 
     <!-- ========================= -->
@@ -47,7 +49,7 @@
     <Entry Id="tune_sugg_freq">
         <String xml:lang="en-US">Do you want to tune in to the recommended ~b~radio frequency ~s~(~y~{0}~s~)?</String>
         <String xml:lang="de-DE">Möchtest du die vorgeschlagene ~b~Funk-Frequenz ~s~(~y~{0}~s~) einstellen?</String>
-        <String xml:lang="fr-FR">Est-ce que tu veux te connecter à la ~b~fréquence radio ~s~recommendée (~y~{0}~s~)?</String>
+        <String xml:lang="fr-FR">Est-ce que tu veux te connecter à la ~b~fréquence radio ~s~recommandée (~y~{0}~s~)?</String>
         <String xml:lang="nl-NL">Wil je je radio op de aangeraden ~b~radio frequentie ~s~(~y~{0}~s~) instellen?</String>
         <String xml:lang="it-IT">Vuoi sintonizzarti sulla ~b~frequenza ~s~consigliata (~y~{0}~s~)?</String>
         <String xml:lang="pl-PL">Czy chcesz połączyć się z rekomendowaną ~b~częstotliwością radiową ~s~(~y~{0}~s~)?</String>
@@ -60,6 +62,7 @@
         <String xml:lang="th-TH">คุณต้องการปรับแต่งตามที่แนะนำหรือไม่ ~b~rความถี่เสียง ~s~(~y~{0}~s~)?</String>
         <String xml:lang="vi-VN">Bạn có muốn nghe tuỳ chỉnh theo đề xuất? ~b~Tần số vô tuyến ~s~(~y~{0}~s~)?</String>
         <String xml:lang="id-ID">Apakah anda mau pindah ke ~b~radio frekuensi yand direkomendasikan ~s~(~y~{0}~s~)?</String>
+        <String xml:lang="hi-Latn">Kya aap hamare recommended ~b~radio frequency ~s~(~y~{0}~s~)Tune in karna chahte hain?</String>
 
     </Entry>
 
@@ -79,6 +82,7 @@
         <String xml:lang="th-TH">ปรับเข้ามา</String>
         <String xml:lang="vi-VN">Điều chỉnh</String>
         <String xml:lang="id-ID">Masuk Radio</String>
+        <String xml:lang="hi-Latn">Tune in</String>
     </Entry>
 
     <Entry Id="btn_tune_in_hold">
@@ -97,6 +101,7 @@
         <String xml:lang="th-TH">ปรับเข้ามา (ค้าง)</String>
         <String xml:lang="vi-VN">Điều chỉnh (Giữ)</String>
         <String xml:lang="id-ID">Masuk Radio (Tahan)</String>
+        <String xml:lang="hi-Latn">Tune in (hold)</String>
     </Entry>
 
     <!-- ========================= -->
@@ -105,11 +110,11 @@
     <Entry Id="no_paramedics">
         <String xml:lang="en-US">There were no ~p~paramedics ~s~nearby and you were automatically transferred to a ~r~hospital~s~.</String>
         <String xml:lang="de-DE">Es waren keine ~p~Sanitäter ~s~in der Nähe. Du wurdest automatisch in ein ~r~Krankenhaus ~s~verlegt.</String>
-        <String xml:lang="fr-FR">Il n'y avait pas d'~p~EMS ~s~à proximité et tu as été automatiquement transferré vers un ~r~hôpital~s~.</String>
+        <String xml:lang="fr-FR">Il n'y avait pas d'~p~ambulanciers ~s~à proximité et tu as été automatiquement transferé vers un ~r~hôpital~s~.</String>
         <String xml:lang="nl-NL">Er zijn geen ~p~ambulanciers ~s~in de buurt en je bent automatisch doorgestuurd naar een ~r~ziekenhuis~s~.</String>
         <String xml:lang="it-IT">Non era presente alcun ~p~paramedico ~s~nelle vicinanze quindi sei stato trasferito automaticamente a un ~r~ospedale~s~.</String>
         <String xml:lang="pl-PL">W pobliżu nie było ~p~medyków~s~, a ty zostałeś przetransportowany do ~r~szpitala~s~.</String>
-        <String xml:lang="tr-TR">Yakınlarda ~p~sağlık görevlileri~s~, yoktu ve otomatik olarak bir yere nakledildin ~r~hastane~s~.</String>
+        <String xml:lang="tr-TR">Yakınlarda ~p~sağlık görevlisi ~s~yoktu ve otomatik olarak bir ~r~hastaneye ~s~sevk edildiniz.</String>
         <String xml:lang="zh-Hant">附近沒有~p~醫護人員~s~,你將被自動轉移到~r~醫院~s~.</String>
         <String xml:lang="zh-Hans">附近没有~p~医护~s~,你被自动转移到~r~医院~s~.</String>
         <String xml:lang="es-ES">No había ~p~paramédicos ~s~cerca y te trasladaron automáticamente a un ~r~hospital~s~.</String>
@@ -118,12 +123,13 @@
         <String xml:lang="th-TH">ไม่มี ~p~หน่วยแพทย์ ~s~อยู่ใกล้ๆ และคุณถูกย้ายไปยังโดยอัตโนมัติ ~r~โรงพยาบาล~s~ </String>
         <String xml:lang="vi-VN">Gần đây không có ~p~nhân viên y tế ~s~nào gần bạn, bạn đã được tự động chuyển về ~r~bệnh viện~s~.</String>
         <String xml:lang="id-ID">Tidak ada ~p~paramedis ~s~didekat anda dan anda telah otomatis dipindah kan ke ~r~rumah sakit~s~.</String>
+        <String xml:lang="hi-Latn">Aapke aas-paas koi bhi ~p~paramedics ~s~naa hone ki wajah se aap ko automatically ek ~r~hospital ~s~transfer kar diya gaya.</String>
     </Entry>
 
     <Entry Id="some_paramedics">
         <String xml:lang="en-US">There are one or more ~p~paramedics ~s~nearby. You can't respawn until the timer runs out, the paramedics leave the area, or they die.</String>
         <String xml:lang="de-DE">Es sind ein oder mehrere ~p~Sanitäter ~s~in der Nähe. Du kannst erst wieder respawnen, wenn der Timer abgelaufen ist, die Sanitäter das Gebiet verlassen oder sie sterben.</String>
-        <String xml:lang="fr-FR">Il y a un ou plusieurs ~p~EMS ~s~à proximité. Tu ne peux pas réapparaître avant la fin du décompte tant que les EMS n'ont pas quittés la zone ou ne soient tués.</String>
+        <String xml:lang="fr-FR">Il y a un ou plusieurs ~p~ambulanciers ~s~à proximité. Tu ne peux pas réapparaître tant que le minuteur n'est pas écoulé, que les ambulanciers n'ont pas quitté la zone ou qu'ils ne sont pas morts.</String>
         <String xml:lang="nl-NL">Er zijn één of meerdere ~p~ambulanciers ~s~in de buurt. Je kan niet respawnen totdat de timer afloopt, de ambulanciers het gebied verlaten, of ze dood gaan.</String>
         <String xml:lang="it-IT">Ci sono uno o più ~p~paramedici ~s~nelle vicinanze. Non puoi respawnare finché il timer non scade, i paramedici non lasciano l'area, o muoiono.</String>
         <String xml:lang="pl-PL">W pobliżu jest co najmniej jeden ~p~medyk ~s~Nie możesz się odrodzić do póki nie minie czas, medycy oddalą się z okolicy lub zginą.</String>
@@ -133,9 +139,10 @@
         <String xml:lang="es-ES">Hay uno o más ~p~paramédicos ~s~cerca. No puedes reaparecer hasta que se agote el tiempo, los paramédicos abandonen el área o mueran.</String>
         <String xml:lang="pt-BR">Há um ou mais~p~paramedicos ~s~nas proximidades.Você não pode fazer reparos até que o tempo se esgote, os paramédicos saiam da área ou morram..</String>
         <String xml:lang="ar-001">يوجد ~p~مسعف ~s~واحد أو أكثر بالقرب منك. لا يمكنك العودة إلى الحياة حتى ينفد الموقت، أو يغادر المسعفون المنطقة، أو يموتون.</String>
-         <String xml:lang="th-TH">มีหนึ่งหรือมากกว่านั้น ~p~หน่วยแพทย์ ~s~ใกล้. คุณไม่สามารถเกิดใหม่ได้จนกว่าตัวจับเวลาจะหมด, เจ้าหน้าที่กู้ภัยออกจากพื้นที่แล้ว, หรือพวกเขาตาย.</String>
-         <String xml:lang="vi-VN">Gần đây có nhiều hơn một ~p~nhân viên y tế~s~. Bạn không thể hồi sinh cho đến khi hết thời gian, nhân viên y tế đi khỏi khu vực hoặc họ chết.</String>
-         <String xml:lang="id-ID">Ada satu atau lebih ~p~paramedis ~s~disekitar. Anda tidak dapat hidup kembali hingga waktu habis, paramedis meninggalkan area, atau paramedis meninggal.</String>
+        <String xml:lang="th-TH">มีหนึ่งหรือมากกว่านั้น ~p~หน่วยแพทย์ ~s~ใกล้. คุณไม่สามารถเกิดใหม่ได้จนกว่าตัวจับเวลาจะหมด, เจ้าหน้าที่กู้ภัยออกจากพื้นที่แล้ว, หรือพวกเขาตาย.</String>
+        <String xml:lang="vi-VN">Gần đây có nhiều hơn một ~p~nhân viên y tế~s~. Bạn không thể hồi sinh cho đến khi hết thời gian, nhân viên y tế đi khỏi khu vực hoặc họ chết.</String>
+        <String xml:lang="id-ID">Ada satu atau lebih ~p~paramedis ~s~disekitar. Anda tidak dapat hidup kembali hingga waktu habis, paramedis meninggalkan area, atau paramedis meninggal.</String>
+        <String xml:lang="hi-Latn">Aapke aas-paas ek ya ek se zyada ~p~paramedics ~s~hone ki wajah se aap respawn nahi le sakte jab tak time khatm, doctors area leave kar dete, ya mar jaate.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -144,7 +151,7 @@
     <Entry Id="spawn_protection_on">
         <String xml:lang="en-US">Spawn protection ~g~enabled~s~.</String>
         <String xml:lang="de-DE">Spawn-Schutz ~g~aktiviert~s~.</String>
-        <String xml:lang="fr-FR">Spawn protection ~g~activée~s~.</String>
+        <String xml:lang="fr-FR">Protection du spawn ~g~activée~s~.</String>
         <String xml:lang="nl-NL">Spawn protectie ~g~ingeschakeld~s~.</String>
         <String xml:lang="it-IT">Protezione di spawn ~g~attivata~s~.</String>
         <String xml:lang="pl-PL">Ochrona po odrodzeniu ~g~aktywna~s~.</String>
@@ -157,16 +164,17 @@
         <String xml:lang="th-TH">การป้องกันการเกิด ~g~เปิดแล้ว~s~.</String>
         <String xml:lang="vi-VN">Giáp bảo vệ ~g~Đã bật~s~</String>
         <String xml:lang="id-ID">Perlindungan spawn ~g~diaktifkan~s~.</String>
+        <String xml:lang="hi-Latn">Spawn protection ~g~enabled~s~.</String>
     </Entry>
 
     <Entry Id="spawn_protection_off">
         <String xml:lang="en-US">Spawn protection ~r~disabled~s~.</String>
         <String xml:lang="de-DE">Spawn-Schutz ~r~deaktiviert~s~.</String>
-        <String xml:lang="fr-FR">Spawn protection ~r~désactivée~s~.</String>
+        <String xml:lang="fr-FR">Protection du spawn ~r~désactivée~s~.</String>
         <String xml:lang="nl-NL">Spawn protectie ~r~uitgeschakeld~s~.</String>
         <String xml:lang="it-IT">Protezione di spawn ~r~disattivata~s~.</String>
         <String xml:lang="pl-PL">Ochrona po odrodzeniu ~r~nieaktywna~s~.</String>
-        <String xml:lang="tr-TR">Yeniden doğma koruması ~r~devre dışı bırakıldı~s~.</String>
+        <String xml:lang="tr-TR">Yeniden doğma koruması ~r~devre dışı~s~.</String>
         <String xml:lang="zh-Hant">重生保護 ~r~停用~s~.</String>
         <String xml:lang="zh-Hans">复活保护 ~r~停用~s~.</String>
         <String xml:lang="es-ES">Protección de spawn ~r~deshabilitada~s~.</String>
@@ -175,6 +183,7 @@
         <String xml:lang="th-TH">การป้องกันการเกิด ~r~ปิดแล้ว~s~.</String>
         <String xml:lang="vi-VN">Giáp bảo vệ ~r~đã tắt~s~</String>
         <String xml:lang="id-ID">Perlindungan spawn ~r~dimatikan~s~.</String>
+        <String xml:lang="hi-Latn">Spawn protection ~r~disabled~s~।</String>
     </Entry>
 
     <!-- ========================= -->
@@ -196,6 +205,7 @@
         <String xml:lang="th-TH">{0} ~s~ได้ตายแล้ว.</String>
         <String xml:lang="vi-VN">{0} ~s~đã chết.</String>
         <String xml:lang="id-ID">{0} ~s~telah meninggal.</String>
+        <String xml:lang="hi-Latn">{0} ~s~has died.</String>
     </Entry>
 
     <Entry Id="killed_by_npc">
@@ -205,7 +215,7 @@
         <String xml:lang="nl-NL">{0} ~s~is vermoord door een ~r~NPC~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è stato ucciso da un ~r~NPC~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~został zabity przez ~r~bota~s~.</String>
-        <String xml:lang="tr-TR">{0} ~s~tarafından öldürüldü ~r~NPC~s~.</String>
+        <String xml:lang="tr-TR">{0}, ~r~NPC ~s~tarafından öldürüldü.</String>
         <String xml:lang="zh-Hant">{0} ~s~被 ~r~NPC~s~ 擊殺了.</String>
         <String xml:lang="zh-Hans">{0} ~s~被 ~r~NPC~s~ 击杀了.</String>
         <String xml:lang="es-ES">{0} ~s~ha sido asesinado por un ~r~NPC~s~.</String>
@@ -214,6 +224,8 @@
         <String xml:lang="th-TH">{0} ~s~ถูกฆ่าโดย ~r~NPC~s~.</String>
         <String xml:lang="vi-VN">{0} ~s~đã bị giết chết bởi ~r~NPC~s~.</String>
         <String xml:lang="id-ID">{0} ~s~telah dibunuh oleh ~r~NPC~s~.</String>
+        <String xml:lang="hi-Latn">{0} ~s~maare jaa chuke ~r~NPC ~s~se.</String>
+
     </Entry>
 
     <Entry Id="killed_by_animal">
@@ -223,7 +235,7 @@
         <String xml:lang="nl-NL">{0} ~s~is vermoord door een ~r~dier~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è stato ucciso da un ~r~animale~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~został zabity przez ~r~zwierzę~s~.</String>
-        <String xml:lang="tr-TR">{0} ~s~tarafından öldürüldü ~r~hayvan~s~.</String>
+        <String xml:lang="tr-TR">{0}, ~r~hayvan ~s~tarafından öldürüldü.</String>
         <String xml:lang="zh-Hant">{0} ~s~被 ~r~動物~s~ 擊殺了.</String>
         <String xml:lang="zh-Hans">{0} ~s~被 ~r~动物~s~ 击杀了.</String>
         <String xml:lang="es-ES">{0} ~s~ha sido asesinado por un ~r~animal~s~.</String>
@@ -232,16 +244,17 @@
         <String xml:lang="th-TH">{0} ~s~ถูกฆ่าโดย ~r~สัตว์~s~.</String>
         <String xml:lang="vi-VN">{0} ~s~đã bị giết chết bởi ~r~động vật~s~.</String>
         <String xml:lang="id-ID">{0} ~s~telah terbunuh oleh ~r~binatang~s~.</String>
+        <String xml:lang="hi-Latn">{0} ~s~maare jaa chuke ~r~animal ~s~se.</String>
     </Entry>
 
     <Entry Id="killed_by_od">
         <String xml:lang="en-US">{0} ~s~has died from a ~r~drug overdose~s~.</String>
         <String xml:lang="de-DE">{0} ~s~ist durch eine~r~Überdosis Drogen~s~ gestorben.</String>
-        <String xml:lang="fr-FR">{0} ~s~est mort d'une ~r~overdose~s~.</String>
+        <String xml:lang="fr-FR">{0} ~s~est mort d'une ~r~overdose de drogue~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~is doodgegaan van een ~r~overdosis~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è morto di ~r~overdose~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~zginął z ~r~przedawkowania narkotyków~s~.</String>
-        <String xml:lang="tr-TR">{0} ~s~sonucu öldü ~r~aşırı doz~s~.</String>
+        <String xml:lang="tr-TR">{0}, ~r~aşırı dozda uyuşturucu ~s~yüzünden öldü.</String>
         <String xml:lang="zh-Hant">{0} ~s~死於~r~使用過量藥物~s~.</String>
         <String xml:lang="zh-Hans">{0} ~s~死于~r~使用药物过量~s~.</String>
         <String xml:lang="es-ES">{0} ~s~ha muerto por una ~r~sobredosis de drogas~s~.</String>
@@ -250,6 +263,7 @@
         <String xml:lang="th-TH">{0} ~s~ตายจาก ~r~เสพยาเกินขนาด~s~.</String>
         <String xml:lang="vi-VN">{0} ~s~đã chết bởi vì ~r~chơi thuốc quá liều~s~.</String>
         <String xml:lang="id-ID">{0} ~s~telah meninggal akibat ~r~overdosis obat~s~.</String>
+        <String xml:lang="hi-Latn">{0} ~s~maare gaye ~r~drug overdos ~s~se.</String>
     </Entry>
 
     <Entry Id="drowned">
@@ -259,7 +273,7 @@
         <String xml:lang="nl-NL">{0} ~s~is ~r~verdronken~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è ~r~annegato~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~~r~utonął~s~.</String>
-        <String xml:lang="tr-TR">{0} ~s~~r~boğuldu~s~.</String>
+        <String xml:lang="tr-TR">{0} ~r~boğuldu~s~.</String>
         <String xml:lang="zh-Hant">{0} ~r~溺死了~s~.</String>
         <String xml:lang="zh-Hans">{0} ~r~溺死了~s~.</String>
         <String xml:lang="es-ES">{0} ~s~se ha ~r~ahogado~s~.</String>
@@ -268,16 +282,17 @@
         <String xml:lang="th-TH">{0} ~s~ได้ ~r~ล้มลง~s~.</String>
         <String xml:lang="vi-VN">{0} ~s~đã ~r~chết đuối~s~.</String>
         <String xml:lang="id-ID">{0} ~s~telah ~r~tenggelam~s~.</String>
+        <String xml:lang="hi-Latn">{0} ~s~paani mein ~r~doob ~s~gaye.</String>
     </Entry>
 
     <Entry Id="died_from_fall">
         <String xml:lang="en-US">{0} ~s~has died from a ~r~fall~s~.</String>
         <String xml:lang="de-DE">{0} ~s~ist durch einen ~r~Sturz~s~ gestorben.</String>
-        <String xml:lang="fr-FR">{0} ~s~est mort de dégâts de ~r~chute~s~.</String>
+        <String xml:lang="fr-FR">{0} ~s~est mort d'une ~r~chute~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~is doodgegaan van een ~r~val~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è morto per una ~r~caduta~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~zginał od ~r~upadku~s~.</String>
-        <String xml:lang="tr-TR">{0} ~s~sonucu öldü ~r~yüksekten düşme~s~.</String>
+        <String xml:lang="tr-TR">{0}, ~r~düşme ~s~sonucu öldü.</String>
         <String xml:lang="zh-Hant">{0} ~s~死於~r~墜落~s~.</String>
         <String xml:lang="zh-Hans">{0} ~s~死于~r~坠落~s~.</String>
         <String xml:lang="es-ES">{0} ~s~ha muerto a causa de una ~r~caída~s~.</String>
@@ -286,8 +301,9 @@
         <String xml:lang="th-TH">{0} ~s~ตายจาก ~r~ตกจากที่สูง~s~.</String>
         <String xml:lang="vi-VN">{0} ~s~đã chết vì ~r~ngã~s~.</String>
         <String xml:lang="id-ID">{0} ~s~telah meninggal akibat ~r~terjatuh~s~.</String>
+        <String xml:lang="hi-Latn">{0} ~s~mar gaye ~r~gir ~s~ke.</String>
 
-        
+
     </Entry>
 
     <Entry Id="died_from_explosion">
@@ -297,7 +313,7 @@
         <String xml:lang="nl-NL">{0} ~s~is doodgegaan door een ~r~explosie~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è morto a causa di un'~r~esplosione~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~został ~r~wysadzony~s~ w powietrze.</String>
-        <String xml:lang="tr-TR">{0} ~s~sonucu öldü ~r~patlama~s~.</String>
+        <String xml:lang="tr-TR">{0}, ~r~patlama ~s~sonucu öldü.</String>
         <String xml:lang="zh-Hant">{0} ~s~死於~r~爆炸~s~.</String>
         <String xml:lang="zh-Hans">{0} ~s~死于~r~爆炸~s~.</String>
         <String xml:lang="es-ES">{0} ~s~ha muerto a causa de una ~r~explosión~s~.</String>
@@ -306,6 +322,7 @@
         <String xml:lang="th-TH">{0} ~s~ตายจาก ~r~ระเบิด~s~.</String>
         <String xml:lang="vi-VN">{0} ~s~đã chết vì một ~r~vụ nổ~s~.</String>
         <String xml:lang="id-ID">{0} ~s~telah meninggal akibat ~r~ledakan~s~.</String>
+        <String xml:lang="hi-Latn">{0} ~s~mar gaye ek ~r~explosion ~s~se.</String>
 
     </Entry>
 
@@ -316,7 +333,7 @@
         <String xml:lang="nl-NL">{0} ~s~is doodgegaan in een ~r~brand~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è morto in un ~r~incendio~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~zginął w ~r~pożarze~s~.</String>
-        <String xml:lang="tr-TR">{0} ~s~sonucu öldü ~r~yangın~s~.</String>
+        <String xml:lang="tr-TR">{0}, ~r~yangında ~s~öldü.</String>
         <String xml:lang="zh-Hant">{0} ~r~被燒死了~s~.</String>
         <String xml:lang="zh-Hans">{0} ~r~被烧死了~s~.</String>
         <String xml:lang="es-ES">{0} ~s~ha muerto en un ~r~incendio~s~.</String>
@@ -325,6 +342,7 @@
         <String xml:lang="th-TH">{0} ~s~ตายจาก ~r~ไฟ~s~.</String>
         <String xml:lang="vi-VN">{0} ~s~đã chết trong vụ ~r~cháy~s~.</String>
         <String xml:lang="id-ID">{0} ~s~telah meninggal akibat ~r~terbakar~s~.</String>
+        <String xml:lang="hi-Latn">{0} ~s~mar gaye ~r~aag ~s~mein jal ke.</String>
 
     </Entry>
 
@@ -347,6 +365,7 @@
         <String xml:lang="th-TH">โดย ~r~ระเบิด~s~</String>
         <String xml:lang="vi-VN">với một ~r~vụ nổ~s~</String>
         <String xml:lang="id-ID">dengan ~r~bahan peledak~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~explosive ~s~se</String>
     </Entry>
 
     <Entry Id="with_vehicle">
@@ -365,6 +384,7 @@
         <String xml:lang="th-TH">โดย ~r~ยานพาหนะ~s~</String>
         <String xml:lang="vi-VN">với một ~r~phương tiện~s~</String>
         <String xml:lang="id-ID">dengan ~r~kendaraan~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~vehicle ~s~se</String>
     </Entry>
 
     <Entry Id="with_water_cannon">
@@ -383,12 +403,13 @@
         <String xml:lang="th-TH">โดย ~r~ปืนใหญ่น้ำ~s~</String>
         <String xml:lang="vi-VN">với một ~r~súng phun nước~s~</String>
         <String xml:lang="id-ID">dengan ~r~meriam air~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~water cannon ~s~se</String>
     </Entry>
 
     <Entry Id="with_fists">
         <String xml:lang="en-US">with ~r~fists~s~</String>
         <String xml:lang="de-DE">mit ~r~Fäusten~s~</String>
-        <String xml:lang="fr-FR">avec ~r~ses poings~s~</String>
+        <String xml:lang="fr-FR">avec ses ~r~poings~s~</String>
         <String xml:lang="nl-NL">met ~r~vuisten~s~</String>
         <String xml:lang="it-IT">a ~r~pugni~s~</String>
         <String xml:lang="pl-PL">~r~pięściami~s~</String>
@@ -401,6 +422,7 @@
         <String xml:lang="th-TH">โดย ~r~หมัด~s~</String>
         <String xml:lang="vi-VN">với ~r~nắm đấm~s~</String>
         <String xml:lang="id-ID">dengan ~r~pukulan~s~</String>
+        <String xml:lang="hi-Latn">kuch ~r~fists ~s~se</String>
     </Entry>
 
     <Entry Id="with_blade">
@@ -419,6 +441,7 @@
         <String xml:lang="th-TH">โดย ~r~ใบมีด~s~</String>
         <String xml:lang="vi-VN">Với một ~r~con dao~s~</String>
         <String xml:lang="id-ID">dengan ~r~pedangn~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~blade ~s~se</String>
     </Entry>
 
     <Entry Id="with_melee_weapon">
@@ -437,6 +460,7 @@
         <String xml:lang="th-TH">โดย ~r~อาวุธระยะประชิด~s~</String>
         <String xml:lang="vi-VN">Với một ~r~Vũ khí cận chiến~s~</String>
         <String xml:lang="id-ID">dengan ~r~senjata jarak dekat~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~melee weapon ~s~से</String>
     </Entry>
 
     <Entry Id="with_revolver">
@@ -455,15 +479,17 @@
         <String xml:lang="th-TH">โดย ~r~ปืนลูกโม่~s~</String>
         <String xml:lang="vi-VN">Với một khẩu ~r~revolver~s~</String>
         <String xml:lang="id-ID">dengan ~r~revolver~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~revolver ~s~se</String>
     </Entry>
 
     <Entry Id="with_revolver_headshot">
         <String xml:lang="en-US">with a ~r~revolver headshot~s~</String>
         <String xml:lang="de-DE">mit einem ~r~Revolver Kopfschuss~s~</String>
+        <String xml:lang="fr-FR">avec une balle de ~r~revolver dans la tête~s~</String>
         <String xml:lang="nl-NL">met een ~r~revolver hoofdschot~s~</String>
         <String xml:lang="it-IT">con un ~r~colpo di revolver alla testa~s~</String>
         <String xml:lang="pl-PL">~r~strzałem w głowę z rewolweru ~s~</String>
-        <String xml:lang="tr-TR">bir ~r~revolverla kafadan vuruş~s~</String>
+        <String xml:lang="tr-TR">bir ~r~revolverla (kafadan vuruş) ~s~</String>
         <String xml:lang="zh-Hant">用~r~左輪手槍爆頭~s~</String>
         <String xml:lang="es-ES">con un ~r~disparo en la cabeza de un revólver~s~</String>
         <String xml:lang="pt-BR">com um ~r~tiro na cabeça com um revólver~s~</String>
@@ -471,6 +497,7 @@
         <String xml:lang="th-TH">โดย ~r~ปืนลูกโม่ยิงหัว~s~</String>
         <String xml:lang="vi-VN">Với một ~r~revolver headshot~s~</String>
         <String xml:lang="id-ID">dengan ~r~headshot revolver~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~revolver headshot ~s~se</String>
 
     </Entry>
 
@@ -490,6 +517,7 @@
         <String xml:lang="th-TH">โดย ~r~ปืนพก~s~</String>
         <String xml:lang="vi-VN">với một khẩu ~r~súng lục~s~</String>
         <String xml:lang="id-ID">dengan ~r~pistol~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~pistol ~s~se</String>
     </Entry>
 
     <Entry Id="with_pistol_headshot">
@@ -497,16 +525,17 @@
         <String xml:lang="de-DE">mit einem ~r~Pistolen Kopfschuss~s~</String>
         <String xml:lang="nl-NL">met een ~r~pistool hoofdschot~s~</String>
         <String xml:lang="it-IT">con un ~r~colpo di pistola alla testa~s~</String>
-        <String xml:lang="tr-TR">bir ~r~tabancayla kafadan vuruş~s~</String>
+        <String xml:lang="tr-TR">bir ~r~tabancayla (kafadan vuruş)~s~</String>
         <String xml:lang="zh-Hant">用~r~手槍爆頭~s~</String>
         <String xml:lang="pl-PL">~r~strzałem w głowę z pistoletu ~s~</String>
         <String xml:lang="es-ES">con un ~r~disparo en la cabeza de una pistola~s~</String>
-        <String xml:lang="fr-FR">avec un ~r~pistolet (tir à la tête)~s~</String>
+        <String xml:lang="fr-FR">avec une balle de ~r~pistolet dans la tête~s~</String>
         <String xml:lang="pt-BR">com uma ~r~tiro na cabeça com uma pistolat~s~</String>
         <String xml:lang="ar-001">بسبب ~r~مسدس في الرأس~s~</String>
         <String xml:lang="th-TH">โดย ~r~ปืนพกยิงหัว~s~</String>
         <String xml:lang="vi-VN">với một ~r~headshot bằng súng lục~s~</String>
         <String xml:lang="id-ID">dengan ~r~headshot pistol~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~pistol headshot ~s~se</String>
     </Entry>
 
     <Entry Id="with_smg">
@@ -525,6 +554,7 @@
         <String xml:lang="th-TH">โดย ~r~ปืนพกอัตโนมัต~s~</String>
         <String xml:lang="vi-VN">Với một khẩu ~r~SMG~s~</String>
         <String xml:lang="id-ID">dengan ~r~SMG~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~SMG ~s~se</String>
     </Entry>
 
     <Entry Id="with_smg_headshot">
@@ -532,16 +562,17 @@
         <String xml:lang="de-DE">mit einem ~r~Maschinenpistolen Kopfschuss~s~</String>
         <String xml:lang="nl-NL">met een ~r~SMG hoofdschot~s~</String>
         <String xml:lang="it-IT">con un ~r~colpo di mitraglietta alla testa~s~</String>
-        <String xml:lang="tr-TR">bir ~r~hafif makineli tüfekle kafadan vuruş~s~</String>
+        <String xml:lang="tr-TR">bir ~r~hafif makineli tüfekle (kafadan vuruş)~s~</String>
         <String xml:lang="zh-Hant">用~r~衝鋒槍爆頭~s~</String>
         <String xml:lang="es-ES">con un ~r~disparo en la cabeza de una SMG~s~</String>
         <String xml:lang="pl-PL">~r~strzałem w głowę z pistoletu maszynowego ~s~</String>
-         <String xml:lang="fr-FR">avec une ~r~mitraillette (tir à la tête)~s~</String>
+        <String xml:lang="fr-FR">avec une balle de ~r~mitraillette dans la tête~s~</String>
         <String xml:lang="pt-BR"> com um ~r~tiro na cabeça com uma SMG~s~</String>
         <String xml:lang="ar-001">بسبب ~r~رشاش في الرأس~s~</String>
         <String xml:lang="th-TH">โดย ~r~ปืนพกอัตโนมัตยิงหัว~s~</String>
         <String xml:lang="vi-VN">Với một ~r~Headshot bằng SMG~s~</String>
         <String xml:lang="id-ID">dengan ~r~headshot SMG~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~SMG headshot ~s~se</String>
     </Entry>
 
     <Entry Id="with_lmg">
@@ -560,6 +591,7 @@
         <String xml:lang="th-TH">โดย ~r~ปืนกลหนัก~s~</String>
         <String xml:lang="vi-VN">Với một khẩu ~r~LMG~s~</String>
         <String xml:lang="id-ID">dengan ~r~LMG~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~LMG ~s~se</String>
     </Entry>
 
     <Entry Id="with_lmg_headshot">
@@ -567,22 +599,23 @@
         <String xml:lang="de-DE">mit einem ~r~Leichten Maschinengewehr Kopfschuss~s~</String>
         <String xml:lang="nl-NL">met een ~r~LMG hoofdschot~s~</String>
         <String xml:lang="it-IT">con un ~r~colpo di mitra alla testa~s~</String>
-        <String xml:lang="tr-TR">bir ~r~makineli tüfekle kafadan vuruş~s~</String>
+        <String xml:lang="tr-TR">bir ~r~makineli tüfekle (kafadan vuruş)~s~</String>
         <String xml:lang="zh-Hant">用~r~輕機槍爆頭~s~</String>
         <String xml:lang="es-ES">con un ~r~disparo en la cabeza de una LMG~s~</String>
-        <String xml:lang="fr-FR">avec une ~r~mitrailleuse (tir à la tête)~s~</String>
+        <String xml:lang="fr-FR">avec une balle de ~r~mitrailleuse dans la tête~s~</String>
         <String xml:lang="pl-PL">~r~strzałem w głowę z karabinu maszynowego ~s~</String>
         <String xml:lang="pt-BR">por um ~r~tiro na cabeça com uma LMG~s~</String>
         <String xml:lang="ar-001">بسبب ~r~رشاش في الرأس~s~</String>
         <String xml:lang="th-TH">โดย ~r~ปืนกลหนักยิงหัว~s~</String>
         <String xml:lang="vi-VN">Với một ~r~Headshot bằng LMG~s~</String>
         <String xml:lang="id-ID">dengan ~r~Headshot LMG~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~LMG headshot ~s~se</String>
     </Entry>
 
     <Entry Id="with_shotgun">
         <String xml:lang="en-US">with a ~r~shotgun~s~</String>
         <String xml:lang="de-DE">mit einer ~r~Schrotflinte~s~</String>
-        <String xml:lang="fr-FR">avec un ~r~fusil de calibre 12~s~</String>
+        <String xml:lang="fr-FR">avec un ~r~fusil à pompe~s~</String>
         <String xml:lang="nl-NL">met een ~r~shotgun~s~</String>
         <String xml:lang="it-IT">con uno ~r~shotgun~s~</String>
         <String xml:lang="pl-PL">~r~śrutówką~s~</String>
@@ -595,6 +628,7 @@
         <String xml:lang="th-TH">โดย ~r~ปืนลูกซอง~s~</String>
         <String xml:lang="vi-VN">Với một khẩu ~r~Shotgun~s~</String>
         <String xml:lang="id-ID">dengan ~r~Shotgun~s~.</String>
+        <String xml:lang="hi-Latn">ek ~r~shotgun ~s~se</String>
     </Entry>
 
     <Entry Id="with_shotgun_headshot">
@@ -602,16 +636,17 @@
         <String xml:lang="de-DE">mit einem ~r~Schrotflinten Kopfschuss~s~</String>
         <String xml:lang="nl-NL">met een ~r~shotgun hoofdschot~s~</String>
         <String xml:lang="it-IT">con un ~r~colpo di shotgun alla testa~s~</String>
-        <String xml:lang="tr-TR">bir ~r~pompalı tüfekle kafadan vuruş~s~</String>
+        <String xml:lang="tr-TR">bir ~r~pompalı tüfekle (kafadan vuruş)~s~</String>
         <String xml:lang="zh-Hant">用~r~霰彈槍爆頭~s~</String>
         <String xml:lang="pl-PL">~r~strzałem w głowę ze śrutówki~s~</String>
         <String xml:lang="es-ES">con un ~r~disparo en la cabeza de una escopeta~s~</String>
-        <String xml:lang="fr-FR">avec un ~r~fusil de calibre 12 (tir à la tête)~s~</String>
+        <String xml:lang="fr-FR">avec une balle de ~r~fusil à pompe dans la tête~s~</String>
         <String xml:lang="pt-BR">com um ~r~tiro na cabeça com uma escopeta~s~</String>
         <String xml:lang="ar-001">بسبب ~r~بندقية في الرأس~s~</String>
         <String xml:lang="th-TH">โดย ~r~ปืนลูกซองยิงหัว~s~</String>
         <String xml:lang="vi-VN">Với một ~r~Headshot bằng shotgun~s~</String>
         <String xml:lang="id-ID">dengan ~r~headshot shotgun~s~.</String>
+        <String xml:lang="hi-Latn">ek ~r~shotgun headshot ~s~se</String>
     </Entry>
 
     <Entry Id="with_assault_rifle">
@@ -628,6 +663,7 @@
         <String xml:lang="th-TH">โดย ~r~ปืนไรเฟิล~s~</String>
         <String xml:lang="vi-VN">Với một khẩu ~r~Súng trường~s~</String>
         <String xml:lang="id-ID">dengan ~r~senjata assault~s~.</String>
+        <String xml:lang="hi-Latn">ek ~r~assault rifle ~s~se</String>
     </Entry>
 
     <Entry Id="with_assault_rifle_headshot">
@@ -635,16 +671,17 @@
         <String xml:lang="de-DE">mit einem ~r~Sturmgewehr Kopfschuss~s~</String>
         <String xml:lang="nl-NL">met een ~r~assault rifle hoofdschot~s~</String>
         <String xml:lang="it-IT">con un ~r~colpo di fucile d'assalto alla testa~s~</String>
-        <String xml:lang="tr-TR">bir ~r~saldırı tüfeğiyle kafadan vuruş~s~</String>
+        <String xml:lang="tr-TR">bir ~r~saldırı tüfeğiyle (kafadan vuruş)~s~</String>
         <String xml:lang="zh-Hant">用~r~突擊步槍爆頭~s~</String>
         <String xml:lang="pl-PL">~r~strzałem w głowę z karabinu szturmowego ~s~</String>
         <String xml:lang="es-ES">con un ~r~disparo en la cabeza de un rifle de asalto~s~</String>
-        <String xml:lang="fr-FR">avec un ~r~fusil d'assaut (tir à la tête)~s~</String>
+        <String xml:lang="fr-FR">avec une balle de ~r~fusil d'assaut dans la tête~s~</String>
         <String xml:lang="pt-BR">com um ~r~tiro na cabeça com um fuzil de assalto~s~</String>
         <String xml:lang="ar-001">بسبب ~r~بندقية في الرأس~s~</String>
         <String xml:lang="th-TH">โดย ~r~ปืนไรเฟิลยิงหัว~s~</String>
         <String xml:lang="vi-VN">Với một ~r~Headshot bằng súng trường~s~</String>
         <String xml:lang="id-ID">dengan ~r~headshot senjata assault~s~.</String>
+        <String xml:lang="hi-Latn">ek ~r~assault rifle headshot ~s~se</String>
     </Entry>
 
     <Entry Id="with_precision_rifle">
@@ -663,6 +700,7 @@
         <String xml:lang="th-TH">โดย ~r~ปืนสไนเปอร์~s~</String>
         <String xml:lang="vi-VN">Với một khẩu ~r~súng ngắm~s~</String>
         <String xml:lang="id-ID">dengan ~r~sniper~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~precision rifle ~s~se</String>
     </Entry>
 
     <Entry Id="with_precision_rifle_headshot">
@@ -670,16 +708,17 @@
         <String xml:lang="de-DE">mit einem ~r~Präzisiongewehr Kopfschuss~s~</String>
         <String xml:lang="nl-NL">met een ~r~scherpschutter hoofdschot~s~</String>
         <String xml:lang="it-IT">con un ~r~colpo di fucile di precisione alla testa~s~</String>
-        <String xml:lang="tr-TR">bir ~r~keskin nişancıyla kafadan vuruş~s~</String>
+        <String xml:lang="tr-TR">bir ~r~keskin nişancıyla (kafadan vuruş)~s~</String>
         <String xml:lang="zh-Hant">用~r~狙擊步槍爆頭~s~</String>
         <String xml:lang="pl-PL">~r~strzałem w głowę ze snajperki ~s~</String>
         <String xml:lang="es-ES">con un ~r~disparo en la cabeza de un rifle de preprecisión~s~</String>
-         <String xml:lang="fr-FR">avec un ~r~fusil de précision (tir à la tête)~s~</String>
+        <String xml:lang="fr-FR">avec une balle de ~r~fusil de précision dans la tête~s~</String>
         <String xml:lang="pt-BR">com um ~r~tiro na cabeça com um uzil de precisão~s~</String>
         <String xml:lang="ar-001">بسبب ~r~بندقية دقيقة في الرأس~s~</String>
         <String xml:lang="th-TH">โดย ~r~ปืนสไนเปอร์ยิงหัว~s~</String>
         <String xml:lang="vi-VN">Với một ~r~Headshot bằng súng ngắm~s~</String>
         <String xml:lang="id-ID">dengan ~r~headshot sniper~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~precision rifle headshot ~s~se</String>
     </Entry>
 
     <Entry Id="with_firearm">
@@ -698,6 +737,7 @@
         <String xml:lang="th-TH">โดย ~r~อาวุธปืน~s~</String>
         <String xml:lang="vi-VN">Với một khẩu ~r~súng trường~s~</String>
         <String xml:lang="id-ID">dengan ~r~senjata api~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~firearm ~s~se</String>
     </Entry>
 
     <Entry Id="with_firearm_headshot">
@@ -705,16 +745,17 @@
         <String xml:lang="de-DE">mit einem ~r~Schusswaffe Kopfschuss~s~</String>
         <String xml:lang="nl-NL">met een ~r~vuurwapen hoofdschot~s~</String>
         <String xml:lang="it-IT">con un ~r~colpo di arma da fuoco alla testa~s~</String>
-        <String xml:lang="tr-TR">bir ~r~ateşli silahla kafadan vuruş~s~</String>
+        <String xml:lang="tr-TR">bir ~r~ateşli silahla (kafadan vuruş)~s~</String>
         <String xml:lang="zh-Hant">用~r~重型武器爆頭~s~</String>
         <String xml:lang="pl-PL">~r~kulką w głowę z broni palnej ~s~</String>
         <String xml:lang="es-ES">con un ~r~disparo en la cabeza de un arma de fuego~s~</String>
-        <String xml:lang="fr-FR">avec une ~r~arme à feu (tir à la tête)~s~</String>
+        <String xml:lang="fr-FR">avec une balle d' ~r~arme à feu dans la tête~s~</String>
         <String xml:lang="pt-BR">com um ~r~tiro na cabeça com uma arma de fogo~s~</String>
         <String xml:lang="ar-001">بسبب ~r~سلاح ناري في الرأس~s~</String>
         <String xml:lang="th-TH">โดย ~r~อาวุธปืนยิงหัว~s~</String>
         <String xml:lang="vi-VN">Với một ~r~Headshot bằng súng trường~s~</String>
         <String xml:lang="id-ID">dengan ~r~headshot senjata api~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~firearm headshot ~s~se</String>
     </Entry>
 
     <Entry Id="with_fire">
@@ -724,7 +765,7 @@
         <String xml:lang="nl-NL">met ~r~vuur~s~</String>
         <String xml:lang="it-IT">con il ~r~fuoco~s~</String>
         <String xml:lang="pl-PL">~r~ogniem~s~</String>
-        <String xml:lang="tr-TR">~r~ateşle~s~</String>
+        <String xml:lang="tr-TR">~r~yanarak~s~</String>
         <String xml:lang="zh-Hant">用~r~火~s~</String>
         <String xml:lang="zh-Hans">用~r~火~s~</String>
         <String xml:lang="es-ES">con ~r~fuego~s~</String>
@@ -733,6 +774,7 @@
         <String xml:lang="th-TH">โดย ~r~ไฟ~s~</String>
         <String xml:lang="vi-VN">Với ~r~lửa~s~</String>
         <String xml:lang="id-ID">dengan ~r~api~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~fire ~s~se</String>
     </Entry>
 
     <Entry Id="with_gas">
@@ -751,6 +793,7 @@
         <String xml:lang="th-TH">โดย ~r~แก็ซ~s~</String>
         <String xml:lang="vi-VN">Với ~r~khí gas~s~</String>
         <String xml:lang="id-ID">dengan ~r~gas~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~gas ~s~se</String>
     </Entry>
 
     <Entry Id="with_weapon">
@@ -769,6 +812,7 @@
         <String xml:lang="th-TH">โดย ~r~อาวุธ~s~</String>
         <String xml:lang="vi-VN">Với một ~r~vũ khí~s~</String>
         <String xml:lang="id-ID">dengan ~r~senjata~s~</String>
+        <String xml:lang="hi-Latn">ek ~r~weapon ~s~se</String>
     </Entry>
 
     <!-- ========================= -->
@@ -782,7 +826,7 @@
         <String xml:lang="nl-NL">voor ~g~{0}~s~</String>
         <String xml:lang="it-IT">per ~g~{0}~s~</String>
         <String xml:lang="pl-PL">by zdobyć nagrodę ~g~{0}~s~</String>
-        <String xml:lang="tr-TR">için ~g~{0}~s~</String>
+        <String xml:lang="tr-TR">~g~{0} ~s~için</String>
         <String xml:lang="zh-Hant">獲得懸賞賞金 ~g~{0}~s~</String>
         <String xml:lang="zh-Hans">赢得奖金 ~g~{0}~s~</String>
         <String xml:lang="es-ES">para ~g~{0}~s~</String>
@@ -791,6 +835,7 @@
         <String xml:lang="th-TH">สำหรับ ~g~{0}~s~</String>
         <String xml:lang="vi-VN">Vì ~g~{0}~s~</String>
         <String xml:lang="id-ID">untuk ~g~{0}~s~</String>
+        <String xml:lang="hi-Latn">for ~g~{0}~s~</String>
     </Entry>
 
     <Entry Id="in_self_defense">
@@ -800,7 +845,7 @@
         <String xml:lang="nl-NL">in ~g~zelfverdediging~s~</String>
         <String xml:lang="it-IT">per ~g~legittima difesa~s~</String>
         <String xml:lang="pl-PL">w ~g~samoobronie~s~</String>
-        <String xml:lang="tr-TR">için ~g~nefsi müdafaa~s~</String>
+        <String xml:lang="tr-TR">~g~nefsi müdafaa ~s~için</String>
         <String xml:lang="zh-Hant">~g~自我防衛~s~</String>
         <String xml:lang="zh-Hans">~g~自我防卫~s~</String>
         <String xml:lang="es-ES">en ~g~defensa propia~s~</String>
@@ -809,16 +854,17 @@
         <String xml:lang="th-TH">ใน ~g~การป้องกันตัว~s~</String>
         <String xml:lang="vi-VN">Vì ~g~tự vệ~s~</String>
         <String xml:lang="id-ID">dalam ~g~membela diri~s~</String>
+        <String xml:lang="hi-Latn">~g~self-defense ~s~mein</String>
     </Entry>
 
     <Entry Id="in_revenge">
         <String xml:lang="en-US">in ~r~revenge~s~</String>
         <String xml:lang="de-DE">in ~r~Rache~s~</String>
-        <String xml:lang="fr-FR">en ~r~revanche~s~</String>
+        <String xml:lang="fr-FR">par ~r~vengeance~s~</String>
         <String xml:lang="nl-NL">als ~r~wraak~s~</String>
         <String xml:lang="it-IT">per ~r~vendetta~s~</String>
         <String xml:lang="pl-PL">w ~r~zemście~s~</String>
-        <String xml:lang="tr-TR">için ~r~intikam~s~</String>
+        <String xml:lang="tr-TR">~r~intikam ~s~için</String>
         <String xml:lang="zh-Hant">~r~復仇~s~</String>
         <String xml:lang="zh-Hans">~r~复仇~s~</String>
         <String xml:lang="es-ES">en ~r~venganza~s~</String>
@@ -827,6 +873,7 @@
         <String xml:lang="th-TH">ใน ~r~แก้แค้น~s~</String>
         <String xml:lang="vi-VN">Vì ~r~trả thù~s~</String>
         <String xml:lang="id-ID">dalam ~r~balas dendam~s~</String>
+        <String xml:lang="hi-Latn">~r~revenge ~s~mein</String>
     </Entry>
 
     <Entry Id="in_redzone">
@@ -836,7 +883,7 @@
         <String xml:lang="nl-NL">in een ~r~redzone~s~</String>
         <String xml:lang="it-IT">in ~r~zona rossa~s~</String>
         <String xml:lang="pl-PL">w ~r~strefie zagrożonej~s~</String>
-        <String xml:lang="tr-TR">içinde ~r~kırmızı bölge~s~</String>
+        <String xml:lang="tr-TR">~r~redzone ~s~içinde</String>
         <String xml:lang="zh-Hant">在 ~r~死鬥區域~s~</String>
         <String xml:lang="zh-Hans">在 ~r~红区~s~</String>
         <String xml:lang="es-ES">en una ~r~zona roja~s~</String>
@@ -845,6 +892,7 @@
         <String xml:lang="th-TH">ใน ~r~โซนอันตราย~s~</String>
         <String xml:lang="vi-VN">Vì ở trong vùng ~r~redzone~s~</String>
         <String xml:lang="id-ID">didalam ~r~zona merah~s~</String>
+        <String xml:lang="hi-Latn">~r~redzone ~s~mein</String>
     </Entry>
 
     <!-- ========================= -->
@@ -866,7 +914,7 @@
         <String xml:lang="nl-NL">{0} ~s~heeft {1} ~s~vermoord {2} {3}</String>
         <String xml:lang="it-IT">{0} ~s~ha ucciso {1} ~s~{2} {3}</String>
         <String xml:lang="pl-PL">{0} ~s~zabił {1} ~s~{2} {3}</String>
-        <String xml:lang="tr-TR">{0} ~s~öldürdü {1} ~s~{2} {3}</String>
+        <String xml:lang="tr-TR">{0}~s~, {3} {1}~s~'i {2} ~s~öldürdü</String>
         <String xml:lang="zh-Hant">{0} ~s~{2} ~s~{3} 擊殺了 {1}</String>
         <String xml:lang="zh-Hans">{0} ~s~{2} ~s~{3} 击杀了 {1}</String>
         <String xml:lang="es-ES">{0} ~s~mató a {1} ~s~{2} {3}</String>
@@ -875,6 +923,7 @@
         <String xml:lang="th-TH">{0} ~s~ฆ่า {1} ~s~{2} {3}</String>
         <String xml:lang="vi-VN">{0} ~s~đã giết {1} ~s~{2} {3}</String>
         <String xml:lang="id-ID">{0} ~s~membunuh {1} ~s~{2} {3}</String>
+        <String xml:lang="hi-Latn">{0} ~s~maar diye {1} ~s~{2} {3}</String>
     </Entry>
 
     <!-- ========================= -->
@@ -883,7 +932,7 @@
     <Entry Id="medic_revived">
         <String xml:lang="en-US">Paramedic {0} revived you.</String>
         <String xml:lang="de-DE">Sanitäter {0} hat dich wiederbelebt.</String>
-        <String xml:lang="fr-FR">L'EMS {0} t'as réanimé.</String>
+        <String xml:lang="fr-FR">L'ambulancier {0} t'a réanimé.</String>
         <String xml:lang="nl-NL">Ambulancier {0} heeft je gereanimeerd.</String>
         <String xml:lang="it-IT">Il paramedico {0} ti ha rianimato.</String>
         <String xml:lang="pl-PL">Medyk {0} cię ocucił.</String>
@@ -896,16 +945,17 @@
         <String xml:lang="th-TH">หน่วยแพทย์ {0} ชุบชีวิตคุณ.</String>
         <String xml:lang="vi-VN">Nhân viên ý tế {0} đã hồi sinh cho bạn.</String>
         <String xml:lang="id-ID">Paramedis {0} telah membangunkanmu.</String>
+        <String xml:lang="hi-Latn">Paramedic {0} revive kiye aapko.</String>
     </Entry>
 
     <Entry Id="medic_failed">
         <String xml:lang="en-US">The ~p~paramedic ~s~has ~r~failed ~s~to revive you and you were transferred to a ~r~hospital~s~.</String>
         <String xml:lang="de-DE">Der ~p~Sanitäter ~s~hat ~r~versagt ~s~dich wiederzubeleben und du wurdest in ein ~r~Krankenhaus~s~ verlegt.</String>
-        <String xml:lang="fr-FR">L'~p~EMS ~s~n'a ~r~pas réussi ~s~à te réanimer et tu as été transporté vers un ~r~hôpital~s~.</String>
+        <String xml:lang="fr-FR">L'~p~ambulancier ~s~n'a ~r~pas réussi ~s~à te réanimer et tu as été transporté vers un ~r~hôpital~s~.</String>
         <String xml:lang="nl-NL">Het is de ~p~ambulancier ~r~niet gelukt ~s~om jou te reanimeren en je bent gestuurd naar een ~r~ziekenhuis~s~.</String>
         <String xml:lang="it-IT">Il ~p~paramedico ~s~ha ~r~fallito ~s~la rianimazione quindi sei stato trasferito in un ~r~ospedale~s~.</String>
         <String xml:lang="pl-PL">~p~Medykowi ~r~nie udało się ~s~ciebie ocucić i zostałeś przetransportowany do ~r~szpitala~s~.</String>
-        <String xml:lang="tr-TR">~p~Sağlık görevlisi ~r~başaramadı ~s~seni canlandırmak için başka bir yere nakledildin ~r~hastane~s~.</String>
+        <String xml:lang="tr-TR">~p~Sağlık görevlisi ~s~seni canlandırmayı ~r~başaramadı ~s~ve bir ~r~hasteneye ~s~sevk edildin.</String>
         <String xml:lang="zh-Hant">~p~護理人員~s~~r~未能及時~s~救活你，你被轉移到~r~醫院~s~.</String>
         <String xml:lang="zh-Hans">~p~护理人员~s~~r~未能及时~s~救活你，你被转移到~r~医院~s~.</String>
         <String xml:lang="es-ES">El ~p~médico ~s~ha ~r~fallado ~s~al intentar reanimarte y te transfirieron a un ~r~hospital~s~.</String>
@@ -914,8 +964,8 @@
         <String xml:lang="th-TH">~p~แพทย์ ~s~ได้ ~r~ล้มเหลว ~s~ในการฟื้นฟูคุณ และคุณถูกย้ายไปยัง ~r~โรงพยาบาล~s~</String>
         <String xml:lang="vi-VN">~p~Nhân viên y tế ~s~đã ~r~thất bại ~s~trong việc hồi sinh bạn và bạn đã được đưa về ~r~bệnh viện~s~.</String>
         <String xml:lang="id-ID">~p~Paramedis ~s~telah ~r~gagal ~s~untuk menolong anda dan anda telah dipindahkan ke ~r~rumah sakit~s~.</String>
+        <String xml:lang="hi-Latn">~p~paramedic ~s~aapko revive karne me ~r~fail ~s~ho gaye, toh aapko ~r~hospital ~s~transfer kar diya gaya.</String>
     </Entry>
-
 
     <!-- ========================= -->
     <!-- Command Suggestions -->
@@ -925,7 +975,7 @@
     <Entry Id="sugg_revenge">
         <String xml:lang="en-US">View a list of players that you can take revenge on and that can take revenge on you.</String>
         <String xml:lang="de-DE">Zeigt die Liste mit Spielern, an welchen du Rache nehmen kannst und welche Rache an dir nehmen können.</String>
-        <String xml:lang="fr-FR">Voir la liste de joueurs sur lesquels tu as une revanche et ceux qui en ont une sur toi.</String>
+        <String xml:lang="fr-FR">Afficher la liste des joueurs sur lesquels tu peux te venger et ceux qui peuvent se venger de toi.</String>
         <String xml:lang="nl-NL">Bekijk de lijst van spelers waar je wraak op kan nemen en die op jou wraak kunnen claimen.</String>
         <String xml:lang="it-IT">Visualizza la lista di giocatori sui quali ti puoi vendicare e quelli che cercano vendetta su di te.</String>
         <String xml:lang="pl-PL">Zobacz listę graczy na których możesz się zemścić oraz mogących zemścić się na tobie.</String>
@@ -938,6 +988,7 @@
         <String xml:lang="th-TH">ดูรายชื่อผู้เล่นที่คุณสามารถแก้แค้นได้และสามารถแก้แค้นคุณได้</String>
         <String xml:lang="vi-VN">Xem danh sách người chơi bạn có thể trả thù và những người có thể trả thù bạn.</String>
         <String xml:lang="id-ID">Lihat daftar pemain yang dapat anda bunuh untuk membalaskan dendam dan yang dapat membunuh anda karena dendam.</String>
+        <String xml:lang="hi-Latn">Wo players ki list dekhein, jinse aap revenge le sakte hain aur jo aap se revenge le sakte hain.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -946,7 +997,7 @@
     <Entry Id="menu_revenge_title">
         <String xml:lang="en-US">Revenge</String>
         <String xml:lang="de-DE">Rache</String>
-        <String xml:lang="fr-FR">Revanche</String>
+        <String xml:lang="fr-FR">Vengeance</String>
         <String xml:lang="nl-NL">Wraak</String>
         <String xml:lang="it-IT">Vendetta</String>
         <String xml:lang="pl-PL">Zemsta</String>
@@ -954,17 +1005,18 @@
         <String xml:lang="zh-Hant">復仇</String>
         <String xml:lang="zh-Hans">复仇</String>
         <String xml:lang="es-ES">Venganza</String>
-        <String xml:lang="pt-Br">vingança</String>
+        <String xml:lang="pt-BR">vingança</String>
         <String xml:lang="th-TH">แก้แค้น</String>
         <String xml:lang="vi-VN">Trả thù</String>
         <String xml:lang="id-ID">Dendam.</String>
+        <String xml:lang="hi-Latn">Revenge</String>
     </Entry>
 
     <Entry Id="menu_revenge_subtitle">
         <String xml:lang="en-US">Revenge information</String>
         <String xml:lang="de-DE">Revanche Informationen</String>
-        <String xml:lang="fr-FR">Information Revanche</String>
-        <String xml:lang="nl-NL">Revenge informatie</String>
+        <String xml:lang="fr-FR">Information Vengeance</String>
+        <String xml:lang="nl-NL">Wraak informatie</String>
         <String xml:lang="it-IT">Informazioni vendetta</String>
         <String xml:lang="pl-PL">Informacje na temat zemsty</String>
         <String xml:lang="tr-TR">İntikam bilgisi</String>
@@ -976,16 +1028,17 @@
         <String xml:lang="th-TH">ข้อมูลแก้แค้น</String>
         <String xml:lang="vi-VN">Thông tin trả thù</String>
         <String xml:lang="id-ID">Informasi pembalasan dendam.</String>
+        <String xml:lang="hi-Latn">Revenge ki information</String>
     </Entry>
 
     <Entry Id="menu_revenge_targets_text">
         <String xml:lang="en-US">Revenge Targets</String>
         <String xml:lang="de-DE">Rache Ziele</String>
-        <String xml:lang="fr-FR">Cibles de ta Revanche</String>
-        <String xml:lang="nl-NL">Revenge Doelwitten</String>
+        <String xml:lang="fr-FR">Objectifs de vengeance</String>
+        <String xml:lang="nl-NL">Wraak doelwitten</String>
         <String xml:lang="it-IT">Bersagli vendetta</String>
         <String xml:lang="pl-PL">Cele zemsty</String>
-        <String xml:lang="tr-TR">İntikam hedefleri</String>
+        <String xml:lang="tr-TR">İntikam Hedefleri</String>
         <String xml:lang="zh-Hant">復仇目標</String>
         <String xml:lang="zh-Hans">复仇目标</String>
         <String xml:lang="es-ES">Objetivos para vengarte</String>
@@ -994,16 +1047,17 @@
         <String xml:lang="th-TH">เป้าหมายแก้แค้น</String>
         <String xml:lang="vi-VN">Mục tiêu để trả thù</String>
         <String xml:lang="id-ID">Target pembalasan dendam.</String>
+        <String xml:lang="hi-Latn">Revenge ke Targets</String>
     </Entry>
 
     <Entry Id="menu_revenge_targets_descr">
         <String xml:lang="en-US">List of players you can take ~r~revenge ~s~on.</String>
         <String xml:lang="de-DE">Liste von Spielern, an denen du dich ~r~rächen ~s~kannst.</String>
-        <String xml:lang="fr-FR">Liste des joueurs sur lesquels tu as une ~r~revanche~s~.</String>
-        <String xml:lang="nl-NL">Lijst van spelers waar je ~r~revenge ~s~op kan nemen.</String>
+        <String xml:lang="fr-FR">Liste des joueurs sur lesquels tu peux te ~r~venger~s~.</String>
+        <String xml:lang="nl-NL">Lijst van spelers waar je ~r~wraak ~s~op kan nemen.</String>
         <String xml:lang="it-IT">Lista di giocatori che puoi uccidere per ~r~vendetta~s~.</String>
         <String xml:lang="pl-PL">Lista graczy na których możesz się ~r~zemścić~s~.</String>
-        <String xml:lang="tr-TR">Alabileceğiniz oyuncuların listesi ~r~intikam~s~.</String>
+        <String xml:lang="tr-TR">Senin ~r~İntikam ~s~alabileceğin oyuncuların listesi.</String>
         <String xml:lang="zh-Hant">你可以~r~復仇~s~的玩家列表.</String>
         <String xml:lang="zh-Hans">你可以~r~复仇~s~的玩家列表.</String>
         <String xml:lang="es-ES">Lista de jugadores de los que puedes ~r~vengarte~s~.</String>
@@ -1012,16 +1066,17 @@
         <String xml:lang="th-TH">รายชื่อผู้เล่นที่คุณสามารถ ~r~แก้แค้น ~s~บน</String>
         <String xml:lang="vi-VN">Danh sách người chơi bạn có thể lấy ~r~Trả thù ~s~trên họ.</String>
         <String xml:lang="id-ID">Daftar pemain yang bisa kamu balaskan dendam.</String>
+        <String xml:lang="hi-Latn">Wo players ki list jinse aap ~r~revenge ~s~le sakte hain.</String>
     </Entry>
 
     <Entry Id="menu_revenge_claimants_text">
         <String xml:lang="en-US">Revenge Claimants</String>
         <String xml:lang="de-DE">Rache Geschädigte</String>
-        <String xml:lang="fr-FR">Revanches dont tu es la Cible</String>
-        <String xml:lang="nl-NL">Revenge Eisers</String>
+        <String xml:lang="fr-FR">Cibles qui peuvent se venger</String>
+        <String xml:lang="nl-NL">Wraak eisers</String>
         <String xml:lang="it-IT">Reclamanti Vendetta</String>
         <String xml:lang="pl-PL">Żądający zemsty</String>
-        <String xml:lang="tr-TR">İntikam alacaklılar</String>
+        <String xml:lang="tr-TR">İntikam Alabilenler</String>
         <String xml:lang="zh-Hant">復仇索賠者</String>
         <String xml:lang="zh-Hans">复仇索赔者</String>
         <String xml:lang="es-ES">Objetivos que quieren vengarse</String>
@@ -1030,16 +1085,17 @@
         <String xml:lang="th-TH">ผู้เรียกร้องการแก้แค้น</String>
         <String xml:lang="vi-VN">Người cần trả thù</String>
         <String xml:lang="id-ID">Orang yang menaruh dendam padamu</String>
+        <String xml:lang="hi-Latn">Revenge Claimants</String>
     </Entry>
 
     <Entry Id="menu_revenge_claimants_descr">
         <String xml:lang="en-US">List of players that can take ~r~revenge ~s~on you.</String>
         <String xml:lang="de-DE">Liste von Spielern, welche sich an dir ~r~rächen ~s~können.</String>
-        <String xml:lang="fr-FR">Liste des joueurs qui possèdent une ~r~revanche ~s~sur toi.</String>
-        <String xml:lang="nl-NL">Lijst van spelers die op jou ~r~revenge ~s~kunnen nemen</String>
+        <String xml:lang="fr-FR">Liste des joueurs qui peuvent se ~r~venger ~s~de toi.</String>
+        <String xml:lang="nl-NL">Lijst van spelers die ~r~wraak ~s~op jou kunnen nemen</String>
         <String xml:lang="it-IT">Lista di giocatori che possono ucciderti per ~r~vendetta~s~.</String>
         <String xml:lang="pl-PL">Lista graczy którzy mogą się na tobie ~r~zemścić ~s~</String>
-        <String xml:lang="tr-TR">Alabilecek oyuncuların listesi ~r~intikam ~s~</String>
+        <String xml:lang="tr-TR">Senden ~r~İntikam ~s~alabilecek oyuncuların listesi </String>
         <String xml:lang="zh-Hant">可以對你進行~r~復仇~s~的玩家列表.</String>
         <String xml:lang="zh-Hans">可以对你进行~r~复仇~s~的玩家列表.</String>
         <String xml:lang="es-ES">Lista de jugadores que pueden ~r~vengarse ~s~de ti.</String>
@@ -1048,26 +1104,37 @@
         <String xml:lang="th-TH">รายชื่อผู้เล่นที่คุณสามารถ ~r~แก้แค้น ~s~บนคุณ</String>
         <String xml:lang="vi-VN">Danh sách người chơi có thể nhận lấy ~r~trả thù ~s~trên bạn.</String>
         <String xml:lang="id-ID">Daftar pemain yang menaruh dendam padamu.</String>
+        <String xml:lang="hi-Latn">Wo players ki list jo aap se ~r~revenge ~s~le sakte hain.</String>
     </Entry>
 
     <Entry Id="menu_revenge_transfers_text">
         <String xml:lang="en-US">Revenge Transfers</String>
+        <String xml:lang="fr-FR">Tranferts de vengeance</String>
         <String xml:lang="it-IT">Trasferimento Vendetta</String>
         <String xml:lang="pl-PL">Transfery Zemsty</String>
+        <String xml:lang="nl-NL">Wraak overdragen</String>
+        <String xml:lang="tr-TR">İntikam Transferi</String>
+        <String xml:lang="hi-Latn">Revenge Transfers</String>
+        <String xml:lang="de-DE">übertragene Rache</String>
     </Entry>
 
 
     <Entry Id="menu_revenge_transfers_descr">
         <String xml:lang="en-US">Allow other players to transfer their revenge claims to you when enabled.</String>
+        <String xml:lang="fr-FR">Tranferts de vengeance</String>
         <String xml:lang="it-IT">Consenti agli altri giocatori di trasferire i loro reclami vendetta a te quando questa opzione è attivata.</String>
         <String xml:lang="pl-PL">Pozwól innym graczom transferować swoje rozszczenia do zemsty gdy jest to włączone.</String>
+        <String xml:lang="nl-NL">Sta andere spelers toe om hun wraak claims naar jou over te dragen wanneer dit is ingeschakeld.</String>
+        <String xml:lang="tr-TR">Diğer oyuncuların, etkinleştirildiğinde intikam taleplerini size devretmelerine izin verin.</String>
+        <String xml:lang="hi-Latn">Doosre players ko allow karein unke revenge targets transfer karne ko.</String>
+        <String xml:lang="de-DE">Erlaube es anderen Spielern, dir ihre Racheansprüche zu übertragen, wenn du diese Option aktiviert hast.</String>
     </Entry>
-    
+
     <Entry Id="menu_revenge_no_targets_text">
         <String xml:lang="en-US">No revenge targets :(</String>
         <String xml:lang="de-DE">Keine Rache Ziele :(</String>
-        <String xml:lang="fr-FR">Aucune cibles de revanche :(</String>
-        <String xml:lang="nl-NL">Geen revenge targets :(</String>
+        <String xml:lang="fr-FR">Pas de cibles de vengeance :(</String>
+        <String xml:lang="nl-NL">Geen wraak targets :(</String>
         <String xml:lang="it-IT">Nessun bersaglio da vendetta :(</String>
         <String xml:lang="pl-PL">Brak celów do zemsty :(</String>
         <String xml:lang="tr-TR">İntikam için hedef yok :(</String>
@@ -1079,13 +1146,14 @@
         <String xml:lang="th-TH">ไม่มีเป้าหมายการแก้แค้น :(</String>
         <String xml:lang="vi-VN">Không có mục tiêu để trả thù</String>
         <String xml:lang="id-ID">Tidak ada target dendam :(</String>
+        <String xml:lang="hi-Latn">Koi revenge targets nahi :(</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_targets_descr">
         <String xml:lang="en-US">Sorry, there's no one you can kill in revenge at this time.</String>
         <String xml:lang="de-DE">Sorry, aktuell gibt es niemanden, den du aus Rache tötten darfst.</String>
-        <String xml:lang="fr-FR">Désolé, il n'y a personne que tu peux tuer par revanche pour le moment.</String>
-        <String xml:lang="nl-NL">Sorry, er is op dit moment niemand waar je revenge op kan nemen.</String>
+        <String xml:lang="fr-FR">Désolé, il n'y a personne que tu peux tuer par vengeance pour le moment.</String>
+        <String xml:lang="nl-NL">Sorry, er is op dit moment niemand waar je wraak op kan nemen.</String>
         <String xml:lang="it-IT">Ci dispiace, non puoi uccidere nessuno per vendetta al momento.</String>
         <String xml:lang="pl-PL">Niestety nie możesz zabić nikogo w zemście.</String>
         <String xml:lang="tr-TR">Üzgünüm, şu anda intikam için öldürebileceğin kimse yok.</String>
@@ -1097,13 +1165,14 @@
         <String xml:lang="th-TH">ขออภัย ไม่มีใครที่คุณสามารถฆ่าเพื่อแก้แค้นได้ในขณะนี้</String>
         <String xml:lang="vi-VN">Xin lỗi, Hiện tại không có ai mà bạn có thể giết trong trả thù</String>
         <String xml:lang="id-ID">Mohon maaf, Tidak ada pemain yang dapat anda bunuh untuk balas dendam saat ini.</String>
+        <String xml:lang="hi-Latn">Sorry, is time pe aisa koi nahi hai jinko aap revenge me maar sake.</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_claimants_text">
         <String xml:lang="en-US">No revenge claimants :)</String>
-        <String xml:lang="de-DE">Keine Rache Geschädigten</String>
-        <String xml:lang="fr-FR">Aucune menace de revanche :)</String>
-        <String xml:lang="nl-NL">Geen mensen die op jou revenge kunnen nemen :)</String>
+        <String xml:lang="de-DE">Keine Rache-Geschädigten :)</String>
+        <String xml:lang="fr-FR">Pas de menace de vengeance :)</String>
+        <String xml:lang="nl-NL">Geen mensen die op jou wraak kunnen nemen :)</String>
         <String xml:lang="it-IT">Nessun reclamante di vendetta :)</String>
         <String xml:lang="pl-PL">Brak żdających zemsty :)</String>
         <String xml:lang="tr-TR">İntikam talep eden yok :)</String>
@@ -1115,13 +1184,14 @@
         <String xml:lang="th-TH">ไม่มีผู้เรียกร้องการแก้แค้น :)</String>
         <String xml:lang="vi-VN">Không có người cần để trả thù</String>
         <String xml:lang="id-ID">Tidak ada yang menaruh dendam terhadap anda :)</String>
+        <String xml:lang="hi-Latn">is time pe koi bhi aapko revenge mein maar nahi sakte. :)</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_claimants_descr">
         <String xml:lang="en-US">Yay! Nobody is trying to kill you in revenge!</String>
         <String xml:lang="de-DE">Yay! Niemand versucht dich aus Rache zu töten.</String>
-        <String xml:lang="fr-FR">Youhou! Personne n'essaie de te tuer par revanche!</String>
-        <String xml:lang="nl-NL">Hoera! Niemand probeert op jou revenge te nemen!</String>
+        <String xml:lang="fr-FR">Youhou! Personne n'essaie de te tuer par vengeance!</String>
+        <String xml:lang="nl-NL">Hoera! Niemand probeert op jou wraak te nemen!</String>
         <String xml:lang="it-IT">Evvai! Nessuno sta cercando di ucciderti per vendetta!</String>
         <String xml:lang="pl-PL">Hurra! Nikt nie próbuje zabić cię w zemście!</String>
         <String xml:lang="tr-TR">Yaşasın! İntikam için kimse seni öldürmeye çalışmıyor!</String>
@@ -1133,17 +1203,18 @@
         <String xml:lang="th-TH">เย้! ไม่มีใครพยายามฆ่าคุณเพื่อแก้แค้น!</String>
         <String xml:lang="vi-VN">Booyah! Không có ai đang muốn giết bạn trong trả thù!</String>
         <String xml:lang="id-ID">Hore! Tidak ada orang yang mencoba membunuh anda untuk balas dendam!</String>
+        <String xml:lang="hi-Latn">Yay! Aapse koi maarne ko try nahi kar raha revenge me.</String>
     </Entry>
 
     <!-- 0 = job name, for example Police Officer -->
     <Entry Id="menu_revenge_invalid_job">
         <String xml:lang="en-US">~r~You can't take revenge on other players as a {0}.</String>
         <String xml:lang="de-DE">~r~Du darfst keine Rache an anderen Spielern als {0} nehmen.</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas prendre ta revanche sur un autre joueur en tant que {0}.</String>
-        <String xml:lang="nl-NL">~r~Je mag geen revenge nemen op andere spelers als een {0}</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas te venger des autres joueurs en tant que {0}.</String>
+        <String xml:lang="nl-NL">~r~Je mag geen wraak nemen op andere spelers als een {0}</String>
         <String xml:lang="it-IT">~r~Non puoi reclamare vendetta su altri giocatori come {0}.</String>
         <String xml:lang="pl-PL">~r~Nie możesz zabijać w zemście jako {0}.</String>
-        <String xml:lang="tr-TR">~r~Diğer oyunculardan intikam alamazsınız {0}.</String>
+        <String xml:lang="tr-TR">~r~{0} Olarak diğer oyunculardan intikam alamazsın.</String>
         <String xml:lang="zh-Hant">~r~作為一名 {0}，你不能報復其他玩家.</String>
         <String xml:lang="zh-Hans">~r~作为一名 {0}，你不能报复其他玩家.</String>
         <String xml:lang="es-ES">~r~No puedes vengarte de otros jugadores como {0}.</String>
@@ -1152,6 +1223,7 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถแก้แค้นผู้เล่นคนอื่นได้ในฐานt {0}</String>
         <String xml:lang="vi-VN">~r~Bạn không thể lấy trả thù trên người chơi khác khi đang là {0}.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat menaruh dendam pada pemain lain sebagai {0}.</String>
+        <String xml:lang="hi-Latn">~r~Aap revenge nahi le sakte doosre players se, jab aap {0}.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1161,7 +1233,7 @@
     <Entry Id="hospital_bill">
         <String xml:lang="en-US">~p~Hospital bill</String>
         <String xml:lang="de-DE">~p~Krankenhausrechnung</String>
-        <String xml:lang="fr-FR">~p~Facture des soins</String>
+        <String xml:lang="fr-FR">~p~Facture d'hôpital</String>
         <String xml:lang="nl-NL">~p~Ziekenhuis Rekening</String>
         <String xml:lang="it-IT">~p~Fattura dell'ospedale</String>
         <String xml:lang="pl-PL">~p~Rachunek za leczenie</String>
@@ -1174,12 +1246,13 @@
         <String xml:lang="th-TH">~p~บิลโรงพยาบาล</String>
         <String xml:lang="vi-VN">~p~Tiền phí bệnh viện</String>
         <String xml:lang="id-ID">~p~Biaya perawatan rumah sakit</String>
+        <String xml:lang="hi-Latn">~p~Hospital bill</String>
     </Entry>
 
     <Entry Id="health_ins_activated">
         <String xml:lang="en-US">~b~Health insurance ~s~activated</String>
         <String xml:lang="de-DE">~b~Krankenversicherung ~s~aktiviert</String>
-        <String xml:lang="fr-FR">~b~Mutuelle santé ~s~activée</String>
+        <String xml:lang="fr-FR">~b~Assurance maladie ~s~activée</String>
         <String xml:lang="nl-NL">~b~Zorgverzekering ~s~geactiveerd</String>
         <String xml:lang="it-IT">~b~Assicurazione sanitaria ~s~attivata</String>
         <String xml:lang="pl-PL">~b~Ubezpieczenie zdrowotne ~s~aktywowane</String>
@@ -1192,12 +1265,13 @@
         <String xml:lang="th-TH">~b~ประกันสุขภาพ ~s~เปิดใช้งานแล้ว</String>
         <String xml:lang="vi-VN">~b~Bảo hiệm sức khoẻ ~s~đã kích hoạt</String>
         <String xml:lang="id-ID">~b~Asuransi kesehatan ~s~diaktifkan</String>
+        <String xml:lang="hi-Latn">~b~Health insurance ~s~activated</String>
     </Entry>
 
     <Entry Id="covered_by_insurance">
         <String xml:lang="en-US">Covered by insurance: ~b~{0}</String>
         <String xml:lang="de-DE">Von der Versicherung übernommen: ~b~{0}</String>
-        <String xml:lang="fr-FR">Prise en charge de la mutuelle: ~b~{0}</String>
+        <String xml:lang="fr-FR">Couvert par l'assurance: ~b~{0}</String>
         <String xml:lang="nl-NL">Gedekt door je zorgverzekering: ~b~{0}</String>
         <String xml:lang="it-IT">Coperto dall'assicurazione: ~b~{0}</String>
         <String xml:lang="pl-PL">Pokryte przez ubezpieczenie: ~b~{0}</String>
@@ -1210,15 +1284,16 @@
         <String xml:lang="th-TH">คุ้มครองโดยประกันภัย: ~b~{0}</String>
         <String xml:lang="vi-VN">Đã được hỗ trợ bởi bảo hiểm: ~b~{0}</String>
         <String xml:lang="id-ID">Dilindungi oleh asuransi sebesar: ~b~{0}</String>
+        <String xml:lang="hi-Latn">Covered by insurance: ~b~{0}</String>
     </Entry>
 
     <Entry Id="paid_by_check">
         <String xml:lang="en-US">Paid by check: ~g~{0}</String>
         <String xml:lang="de-DE">Per Scheck bezahlt: ~g~{0}</String>
-        <String xml:lang="fr-FR">Payé par chèque bancaire: ~g~{0}</String>
+        <String xml:lang="fr-FR">Paiement par chèque: ~g~{0}</String>
         <String xml:lang="nl-NL">Per cheque betaald: ~g~{0}</String>
         <String xml:lang="it-IT">Pagato con assegno: ~g~{0}</String>
-        <String xml:lang="pl-PL">Zapłacone przelewem: ~g~{0}</String> <!-- Replaced check with wire transfer as checks are not available in Poland, many people I know, don't know what a check is -->
+        <String xml:lang="pl-PL">Zapłacone przelewem: ~g~{0}</String>        <!-- Replaced check with wire transfer as checks are not available in Poland, many people I know, don't know what a check is -->
         <String xml:lang="tr-TR">Banka havalesi ile ödenir: ~g~{0}</String>
         <String xml:lang="zh-Hant">通過銀行支付: ~g~{0}</String>
         <String xml:lang="zh-Hans">通过支票支付: ~g~{0}</String>
@@ -1228,6 +1303,7 @@
         <String xml:lang="th-TH">ชำระด้วยเช็ค: ~g~{0}</String>
         <String xml:lang="vi-VN">Đã đóng phí bằng tiền ngân hàng: ~g~{0}</String>
         <String xml:lang="id-ID">Dibayarkan cek sebesar: ~g~{0}</String>
+        <String xml:lang="hi-Latn">Paid by check: ~g~{0}</String>
     </Entry>
 
     <Entry Id="paid_in_cash">
@@ -1246,6 +1322,7 @@
         <String xml:lang="th-TH">ชำระด้วยเงินสด: ~g~{0}</String>
         <String xml:lang="vi-VN">Đã đóng phí bằng tiền mặt: ~g~{0}</String>
         <String xml:lang="id-ID">Dibayar tunai sebesar: ~g~{0}</String>
+        <String xml:lang="hi-Latn">Paid in cash: ~g~{0}</String>
     </Entry>
 
     <!-- I just changed this from "unpaid" to "outstanding" in English too, as it gives a better understanding -->
@@ -1266,5 +1343,6 @@
         <String xml:lang="vi-VN">Số dư chưa thanh toán: ~r~{0}</String>
         <String xml:lang="id-ID">Hutang: ~r~{0}</String>
         <String xml:lang="th-TH">ค้างชำระ: ~r~{0}</String>
+        <String xml:lang="hi-Latn">Outstanding: ~r~{0}</String>
     </Entry>
 </Entries>

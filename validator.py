@@ -1,12 +1,24 @@
+"""Module providing a static class for validating XML localization files."""
 import argparse
 import json
 import sys
 import xml.dom.minidom
 import xml.sax
+import xml.sax.xmlreader
 import re
+from dataclasses import dataclass, field
+from typing import TypeVar, Optional
 
+
+T = TypeVar("T")
 COLORAMA_INSTALLED = True
 DOMINATE_INSTALLED  = True
+XML_LANG_ATTRIB =  "xml:lang"
+SHORT_GTA_FORMAT_REGEX = r"~(?:[s,b,r,n,y,p,g,o,h,c]|HUD_COLOUR_NET_PLAYER1)~"
+TOO_MANY_SPACES_REGEX = r"\s~[s,b,r,n,y,p,g,o,h,c]~\s|\s\s+"
+TEXT_VARIABLE_REGEX = r"{[0-9]+}"
+PUNCTUATION_MARKS_REGEX = r"[.,?,!]"
+WRONG_PUNCTUATION_REGEX = r"\s" + PUNCTUATION_MARKS_REGEX + r"|\s" + SHORT_GTA_FORMAT_REGEX + PUNCTUATION_MARKS_REGEX
 
 
 try:
@@ -20,274 +32,61 @@ try:
 except ModuleNotFoundError:
     DOMINATE_INSTALLED = False
 
-GTA_HUD_COLORS = {
-    "HUD_COLOUR_PURE_WHITE": "rgba(255, 255, 255, 255)",
-    "HUD_COLOUR_WHITE": "rgba(240, 240, 240, 255)",
-    "HUD_COLOUR_BLACK": "rgba(0, 0, 0, 255)",
-    "HUD_COLOUR_GREY": "rgba(155, 155, 155, 255)",
-    "HUD_COLOUR_GREYLIGHT": "rgba(205, 205, 205, 255)",
-    "HUD_COLOUR_GREYDARK": "rgba(77, 77, 77, 255)",
-    "HUD_COLOUR_RED": "rgba(224, 50, 50, 255)",
-    "HUD_COLOUR_REDLIGHT": "rgba(240, 153, 153, 255)",
-    "HUD_COLOUR_REDDARK": "rgba(112, 25, 25, 255)",
-    "HUD_COLOUR_BLUE": "rgba(93, 182, 229, 255)",
-    "HUD_COLOUR_BLUELIGHT": "rgba(174, 219, 242, 255)",
-    "HUD_COLOUR_BLUEDARK": "rgba(47, 92, 115, 255)",
-    "HUD_COLOUR_YELLOW": "rgba(240, 200, 80, 255)",
-    "HUD_COLOUR_YELLOWLIGHT": "rgba(254, 235, 169, 255)",
-    "HUD_COLOUR_YELLOWDARK": "rgba(126, 107, 41, 255)",
-    "HUD_COLOUR_ORANGE": "rgba(255, 133, 85, 255)",
-    "HUD_COLOUR_ORANGELIGHT": "rgba(255, 194, 170, 255)",
-    "HUD_COLOUR_ORANGEDARK": "rgba(127, 66, 42, 255)",
-    "HUD_COLOUR_GREEN": "rgba(114, 204, 114, 255)",
-    "HUD_COLOUR_GREENLIGHT": "rgba(185, 230, 185, 255)",
-    "HUD_COLOUR_GREENDARK": "rgba(57, 102, 57, 255)",
-    "HUD_COLOUR_PURPLE": "rgba(132, 102, 226, 255)",
-    "HUD_COLOUR_PURPLELIGHT": "rgba(192, 179, 239, 255)",
-    "HUD_COLOUR_PURPLEDARK": "rgba(67, 57, 111, 255)",
-    "HUD_COLOUR_PINK": "rgba(203, 54, 148, 255)",
-    "HUD_COLOUR_RADAR_HEALTH": "rgba(53, 154, 71, 255)",
-    "HUD_COLOUR_RADAR_ARMOUR": "rgba(93, 182, 229, 255)",
-    "HUD_COLOUR_RADAR_DAMAGE": "rgba(235, 36, 39, 255)",
-    "HUD_COLOUR_NET_PLAYER1": "rgba(194, 80, 80, 255)",
-    "HUD_COLOUR_NET_PLAYER2": "rgba(156, 110, 175, 255)",
-    "HUD_COLOUR_NET_PLAYER3": "rgba(255, 123, 196, 255)",
-    "HUD_COLOUR_NET_PLAYER4": "rgba(247, 159, 123, 255)",
-    "HUD_COLOUR_NET_PLAYER5": "rgba(178, 144, 132, 255)",
-    "HUD_COLOUR_NET_PLAYER6": "rgba(141, 206, 167, 255)",
-    "HUD_COLOUR_NET_PLAYER7": "rgba(113, 169, 175, 255)",
-    "HUD_COLOUR_NET_PLAYER8": "rgba(211, 209, 231, 255)",
-    "HUD_COLOUR_NET_PLAYER9": "rgba(144, 127, 153, 255)",
-    "HUD_COLOUR_NET_PLAYER10": "rgba(106, 196, 191, 255)",
-    "HUD_COLOUR_NET_PLAYER11": "rgba(214, 196, 153, 255)",
-    "HUD_COLOUR_NET_PLAYER12": "rgba(234, 142, 80, 255)",
-    "HUD_COLOUR_NET_PLAYER13": "rgba(152, 203, 234, 255)",
-    "HUD_COLOUR_NET_PLAYER14": "rgba(178, 98, 135, 255)",
-    "HUD_COLOUR_NET_PLAYER15": "rgba(144, 142, 122, 255)",
-    "HUD_COLOUR_NET_PLAYER16": "rgba(166, 117, 94, 255)",
-    "HUD_COLOUR_NET_PLAYER17": "rgba(175, 168, 168, 255)",
-    "HUD_COLOUR_NET_PLAYER18": "rgba(232, 142, 155, 255)",
-    "HUD_COLOUR_NET_PLAYER19": "rgba(187, 214, 91, 255)",
-    "HUD_COLOUR_NET_PLAYER20": "rgba(12, 123, 86, 255)",
-    "HUD_COLOUR_NET_PLAYER21": "rgba(123, 196, 255, 255)",
-    "HUD_COLOUR_NET_PLAYER22": "rgba(171, 60, 230, 255)",
-    "HUD_COLOUR_NET_PLAYER23": "rgba(206, 169, 13, 255)",
-    "HUD_COLOUR_NET_PLAYER24": "rgba(71, 99, 173, 255)",
-    "HUD_COLOUR_NET_PLAYER25": "rgba(42, 166, 185, 255)",
-    "HUD_COLOUR_NET_PLAYER26": "rgba(186, 157, 125, 255)",
-    "HUD_COLOUR_NET_PLAYER27": "rgba(201, 225, 255, 255)",
-    "HUD_COLOUR_NET_PLAYER28": "rgba(240, 240, 150, 255)",
-    "HUD_COLOUR_NET_PLAYER29": "rgba(237, 140, 161, 255)",
-    "HUD_COLOUR_NET_PLAYER30": "rgba(249, 138, 138, 255)",
-    "HUD_COLOUR_NET_PLAYER31": "rgba(252, 239, 166, 255)",
-    "HUD_COLOUR_NET_PLAYER32": "rgba(240, 240, 240, 255)",
-    "HUD_COLOUR_SIMPLEBLIP_DEFAULT": "rgba(159, 201, 166, 255)",
-    "HUD_COLOUR_MENU_BLUE": "rgba(140, 140, 140, 255)",
-    "HUD_COLOUR_MENU_GREY_LIGHT": "rgba(140, 140, 140, 255)",
-    "HUD_COLOUR_MENU_BLUE_EXTRA_DARK": "rgba(40, 40, 40, 255)",
-    "HUD_COLOUR_MENU_YELLOW": "rgba(240, 160, 0, 255)",
-    "HUD_COLOUR_MENU_YELLOW_DARK": "rgba(240, 160, 0, 255)",
-    "HUD_COLOUR_MENU_GREEN": "rgba(240, 160, 0, 255)",
-    "HUD_COLOUR_MENU_GREY": "rgba(140, 140, 140, 255)",
-    "HUD_COLOUR_MENU_GREY_DARK": "rgba(60, 60, 60, 255)",
-    "HUD_COLOUR_MENU_HIGHLIGHT": "rgba(30, 30, 30, 255)",
-    "HUD_COLOUR_MENU_STANDARD": "rgba(140, 140, 140, 255)",
-    "HUD_COLOUR_MENU_DIMMED": "rgba(75, 75, 75, 255)",
-    "HUD_COLOUR_MENU_EXTRA_DIMMED": "rgba(50, 50, 50, 255)",
-    "HUD_COLOUR_BRIEF_TITLE": "rgba(95, 95, 95, 255)",
-    "HUD_COLOUR_MID_GREY_MP": "rgba(100, 100, 100, 255)",
-    "HUD_COLOUR_NET_PLAYER1_DARK": "rgba(93, 39, 39, 255)",
-    "HUD_COLOUR_NET_PLAYER2_DARK": "rgba(77, 55, 89, 255)",
-    "HUD_COLOUR_NET_PLAYER3_DARK": "rgba(124, 62, 99, 255)",
-    "HUD_COLOUR_NET_PLAYER4_DARK": "rgba(120, 80, 80, 255)",
-    "HUD_COLOUR_NET_PLAYER5_DARK": "rgba(87, 72, 66, 255)",
-    "HUD_COLOUR_NET_PLAYER6_DARK": "rgba(74, 103, 83, 255)",
-    "HUD_COLOUR_NET_PLAYER7_DARK": "rgba(60, 85, 88, 255)",
-    "HUD_COLOUR_NET_PLAYER8_DARK": "rgba(105, 105, 64, 255)",
-    "HUD_COLOUR_NET_PLAYER9_DARK": "rgba(72, 63, 76, 255)",
-    "HUD_COLOUR_NET_PLAYER10_DARK": "rgba(53, 98, 95, 255)",
-    "HUD_COLOUR_NET_PLAYER11_DARK": "rgba(107, 98, 76, 255)",
-    "HUD_COLOUR_NET_PLAYER12_DARK": "rgba(117, 71, 40, 255)",
-    "HUD_COLOUR_NET_PLAYER13_DARK": "rgba(76, 101, 117, 255)",
-    "HUD_COLOUR_NET_PLAYER14_DARK": "rgba(65, 35, 47, 255)",
-    "HUD_COLOUR_NET_PLAYER15_DARK": "rgba(72, 71, 61, 255)",
-    "HUD_COLOUR_NET_PLAYER16_DARK": "rgba(85, 58, 47, 255)",
-    "HUD_COLOUR_NET_PLAYER17_DARK": "rgba(87, 84, 84, 255)",
-    "HUD_COLOUR_NET_PLAYER18_DARK": "rgba(116, 71, 77, 255)",
-    "HUD_COLOUR_NET_PLAYER19_DARK": "rgba(93, 107, 45, 255)",
-    "HUD_COLOUR_NET_PLAYER20_DARK": "rgba(6, 61, 43, 255)",
-    "HUD_COLOUR_NET_PLAYER21_DARK": "rgba(61, 98, 127, 255)",
-    "HUD_COLOUR_NET_PLAYER22_DARK": "rgba(85, 30, 115, 255)",
-    "HUD_COLOUR_NET_PLAYER23_DARK": "rgba(103, 84, 6, 255)",
-    "HUD_COLOUR_NET_PLAYER24_DARK": "rgba(35, 49, 86, 255)",
-    "HUD_COLOUR_NET_PLAYER25_DARK": "rgba(21, 83, 92, 255)",
-    "HUD_COLOUR_NET_PLAYER26_DARK": "rgba(93, 98, 62, 255)",
-    "HUD_COLOUR_NET_PLAYER27_DARK": "rgba(100, 112, 127, 255)",
-    "HUD_COLOUR_NET_PLAYER28_DARK": "rgba(120, 120, 75, 255)",
-    "HUD_COLOUR_NET_PLAYER29_DARK": "rgba(152, 76, 93, 255)",
-    "HUD_COLOUR_NET_PLAYER30_DARK": "rgba(124, 69, 69, 255)",
-    "HUD_COLOUR_NET_PLAYER31_DARK": "rgba(10, 43, 50, 255)",
-    "HUD_COLOUR_NET_PLAYER32_DARK": "rgba(95, 95, 10, 255)",
-    "HUD_COLOUR_BRONZE": "rgba(180, 130, 97, 255)",
-    "HUD_COLOUR_SILVER": "rgba(150, 153, 161, 255)",
-    "HUD_COLOUR_GOLD": "rgba(214, 181, 99, 255)",
-    "HUD_COLOUR_PLATINUM": "rgba(166, 221, 190, 255)",
-    "HUD_COLOUR_GANG1": "rgba(29, 100, 153, 255)",
-    "HUD_COLOUR_GANG2": "rgba(214, 116, 15, 255)",
-    "HUD_COLOUR_GANG3": "rgba(135, 125, 142, 255)",
-    "HUD_COLOUR_GANG4": "rgba(229, 119, 185, 255)",
-    "HUD_COLOUR_SAME_CREW": "rgba(252, 239, 166, 255)",
-    "HUD_COLOUR_FREEMODE": "rgba(45, 110, 185, 255)",
-    "HUD_COLOUR_PAUSE_BG": "rgba(0, 0, 0, 186)",
-    "HUD_COLOUR_FRIENDLY": "rgba(93, 182, 229, 255)",
-    "HUD_COLOUR_ENEMY": "rgba(194, 80, 80, 255)",
-    "HUD_COLOUR_LOCATION": "rgba(240, 200, 80, 255)",
-    "HUD_COLOUR_PICKUP": "rgba(114, 204, 114, 255)",
-    "HUD_COLOUR_PAUSE_SINGLEPLAYER": "rgba(114, 204, 114, 255)",
-    "HUD_COLOUR_FREEMODE_DARK": "rgba(22, 55, 92, 255)",
-    "HUD_COLOUR_INACTIVE_MISSION": "rgba(154, 154, 154, 255)",
-    "HUD_COLOUR_DAMAGE": "rgba(194, 80, 80, 255)",
-    "HUD_COLOUR_PINKLIGHT": "rgba(252, 115, 201, 255)",
-    "HUD_COLOUR_PM_MITEM_HIGHLIGHT": "rgba(252, 177, 49, 255)",
-    "HUD_COLOUR_SCRIPT_VARIABLE": "rgba(0, 0, 0, 255)",
-    "HUD_COLOUR_YOGA": "rgba(109, 247, 204, 255)",
-    "HUD_COLOUR_TENNIS": "rgba(241, 101, 34, 255)",
-    "HUD_COLOUR_GOLF": "rgba(214, 189, 97, 255)",
-    "HUD_COLOUR_SHOOTING_RANGE": "rgba(112, 25, 25, 255)",
-    "HUD_COLOUR_FLIGHT_SCHOOL": "rgba(47, 92, 115, 255)",
-    "HUD_COLOUR_NORTH_BLUE": "rgba(93, 182, 229, 255)",
-    "HUD_COLOUR_SOCIAL_CLUB": "rgba(234, 153, 28, 255)",
-    "HUD_COLOUR_PLATFORM_BLUE": "rgba(11, 55, 123, 255)",
-    "HUD_COLOUR_PLATFORM_GREEN": "rgba(146, 200, 62, 255)",
-    "HUD_COLOUR_PLATFORM_GREY": "rgba(234, 153, 28, 255)",
-    "HUD_COLOUR_FACEBOOK_BLUE": "rgba(66, 89, 148, 255)",
-    "HUD_COLOUR_INGAME_BG": "rgba(0, 0, 0, 186)",
-    "HUD_COLOUR_DARTS": "rgba(114, 204, 114, 255)",
-    "HUD_COLOUR_WAYPOINT": "rgba(164, 76, 242, 255)",
-    "HUD_COLOUR_MICHAEL": "rgba(101, 180, 212, 255)",
-    "HUD_COLOUR_FRANKLIN": "rgba(171, 237, 171, 255)",
-    "HUD_COLOUR_TREVOR": "rgba(255, 163, 87, 255)",
-    "HUD_COLOUR_GOLF_P1": "rgba(240, 240, 240, 255)",
-    "HUD_COLOUR_GOLF_P2": "rgba(235, 239, 30, 255)",
-    "HUD_COLOUR_GOLF_P3": "rgba(255, 149, 14, 255)",
-    "HUD_COLOUR_GOLF_P4": "rgba(246, 60, 161, 255)",
-    "HUD_COLOUR_WAYPOINTLIGHT": "rgba(210, 166, 249, 255)",
-    "HUD_COLOUR_WAYPOINTDARK": "rgba(82, 38, 121, 255)",
-    "HUD_COLOUR_PANEL_LIGHT": "rgba(0, 0, 0, 77)",
-    "HUD_COLOUR_MICHAEL_DARK": "rgba(72, 103, 116, 255)",
-    "HUD_COLOUR_FRANKLIN_DARK": "rgba(85, 118, 85, 255)",
-    "HUD_COLOUR_TREVOR_DARK": "rgba(127, 81, 43, 255)",
-    "HUD_COLOUR_OBJECTIVE_ROUTE": "rgba(240, 200, 80, 255)",
-    "HUD_COLOUR_PAUSEMAP_TINT": "rgba(0, 0, 0, 215)",
-    "HUD_COLOUR_PAUSE_DESELECT": "rgba(100, 100, 100, 127)",
-    "HUD_COLOUR_PM_WEAPONS_PURCHASABLE": "rgba(45, 110, 185, 255)",
-    "HUD_COLOUR_PM_WEAPONS_LOCKED": "rgba(240, 240, 240, 191)",
-    "HUD_COLOUR_END_SCREEN_BG": "rgba(0, 0, 0, 186)",
-    "HUD_COLOUR_CHOP": "rgba(224, 50, 50, 255)",
-    "HUD_COLOUR_PAUSEMAP_TINT_HALF": "rgba(0, 0, 0, 215)",
-    "HUD_COLOUR_NORTH_BLUE_OFFICIAL": "rgba(0, 71, 133, 255)",
-    "HUD_COLOUR_SCRIPT_VARIABLE_2": "rgba(0, 0, 0, 255)",
-    "HUD_COLOUR_H": "rgba(33, 118, 37, 255)",
-    "HUD_COLOUR_HDARK": "rgba(37, 102, 40, 255)",
-    "HUD_COLOUR_T": "rgba(234, 153, 28, 255)",
-    "HUD_COLOUR_TDARK": "rgba(225, 140, 8, 255)",
-    "HUD_COLOUR_HSHARD": "rgba(20, 40, 0, 255)",
-    "HUD_COLOUR_CONTROLLER_MICHAEL": "rgba(48, 255, 255, 255)",
-    "HUD_COLOUR_CONTROLLER_FRANKLIN": "rgba(48, 255, 0, 255)",
-    "HUD_COLOUR_CONTROLLER_TREVOR": "rgba(176, 80, 0, 255)",
-    "HUD_COLOUR_CONTROLLER_CHOP": "rgba(127, 0, 0, 255)",
-    "HUD_COLOUR_VIDEO_EDITOR_VIDEO": "rgba(53, 166, 224, 255)",
-    "HUD_COLOUR_VIDEO_EDITOR_AUDIO": "rgba(162, 79, 157, 255)",
-    "HUD_COLOUR_VIDEO_EDITOR_TEXT": "rgba(104, 192, 141, 255)",
-    "HUD_COLOUR_HB_BLUE": "rgba(29, 100, 153, 255)",
-    "HUD_COLOUR_HB_YELLOW": "rgba(234, 153, 28, 255)",
-    "HUD_COLOUR_VIDEO_EDITOR_SCORE": "rgba(240, 160, 1, 255)",
-    "HUD_COLOUR_VIDEO_EDITOR_AUDIO_FADEOUT": "rgba(59, 34, 57, 255)",
-    "HUD_COLOUR_VIDEO_EDITOR_TEXT_FADEOUT": "rgba(41, 68, 53, 255)",
-    "HUD_COLOUR_VIDEO_EDITOR_SCORE_FADEOUT": "rgba(82, 58, 10, 255)",
-    "HUD_COLOUR_HEIST_BACKGROUND": "rgba(37, 102, 40, 186)",
-    "HUD_COLOUR_VIDEO_EDITOR_AMBIENT": "rgba(240, 200, 80, 255)",
-    "HUD_COLOUR_VIDEO_EDITOR_AMBIENT_FADEOUT": "rgba(80, 70, 34, 255)",
-    "HUD_COLOUR_VIDEO_EDITOR_AMBIENT_DARK": "rgba(255, 133, 85, 255)",
-    "HUD_COLOUR_VIDEO_EDITOR_AMBIENT_LIGHT": "rgba(255, 194, 170, 255)",
-    "HUD_COLOUR_VIDEO_EDITOR_AMBIENT_MID": "rgba(255, 133, 85, 255)",
-    "HUD_COLOUR_LOW_FLOW": "rgba(240, 200, 80, 255)",
-    "HUD_COLOUR_LOW_FLOW_DARK": "rgba(126, 107, 41, 255)",
-    "HUD_COLOUR_G1": "rgba(247, 159, 123, 255)",
-    "HUD_COLOUR_G2": "rgba(226, 134, 187, 255)",
-    "HUD_COLOUR_G3": "rgba(239, 238, 151, 255)",
-    "HUD_COLOUR_G4": "rgba(113, 169, 175, 255)",
-    "HUD_COLOUR_G5": "rgba(160, 140, 193, 255)",
-    "HUD_COLOUR_G6": "rgba(141, 206, 167, 255)",
-    "HUD_COLOUR_G7": "rgba(181, 214, 234, 255)",
-    "HUD_COLOUR_G8": "rgba(178, 144, 132, 255)",
-    "HUD_COLOUR_G9": "rgba(0, 132, 114, 255)",
-    "HUD_COLOUR_G10": "rgba(216, 85, 117, 255)",
-    "HUD_COLOUR_G11": "rgba(30, 100, 152, 255)",
-    "HUD_COLOUR_G12": "rgba(43, 181, 117, 255)",
-    "HUD_COLOUR_G13": "rgba(233, 141, 79, 255)",
-    "HUD_COLOUR_G14": "rgba(137, 210, 215, 255)",
-    "HUD_COLOUR_G15": "rgba(134, 125, 141, 255)",
-    "HUD_COLOUR_ADVERSARY": "rgba(109, 34, 33, 255)",
-    "HUD_COLOUR_DEGEN_RED": "rgba(255, 0, 0, 255)",
-    "HUD_COLOUR_DEGEN_YELLOW": "rgba(255, 255, 0, 255)",
-    "HUD_COLOUR_DEGEN_GREEN": "rgba(0, 255, 0, 255)",
-    "HUD_COLOUR_DEGEN_CYAN": "rgba(0, 255, 255, 255)",
-    "HUD_COLOUR_DEGEN_BLUE": "rgba(0, 0, 255, 255)",
-    "HUD_COLOUR_DEGEN_MAGENTA": "rgba(255, 0, 255, 255)",
-    "HUD_COLOUR_STUNT_1": "rgba(38, 136, 234, 255)",
-    "HUD_COLOUR_STUNT_2": "rgba(224, 50, 50, 255)",
-    "HUD_COLOUR_SPECIAL_RACE_SERIES": "rgba(154, 178, 54, 255)",
-    "HUD_COLOUR_SPECIAL_RACE_SERIES_DARK": "rgba(93, 107, 45, 255)",
-    "HUD_COLOUR_CS": "rgba(206, 169, 13, 255)",
-    "HUD_COLOUR_CS_DARK": "rgba(103, 84, 6, 255)",
-    "HUD_COLOUR_TECH_GREEN": "rgba(0, 151, 151, 255)",
-    "HUD_COLOUR_TECH_GREEN_DARK": "rgba(5, 119, 113, 255)",
-    "HUD_COLOUR_TECH_RED": "rgba(151, 0, 0, 255)",
-    "HUD_COLOUR_TECH_GREEN_VERY_DARK": "rgba(0, 40, 40, 255)",
-    "HUD_COLOUR_PLACEHOLDER_01": "rgba(255, 255, 255, 255)",
-    "HUD_COLOUR_PLACEHOLDER_02": "rgba(255, 255, 255, 255)",
-    "HUD_COLOUR_PLACEHOLDER_03": "rgba(255, 255, 255, 255)",
-    "HUD_COLOUR_PLACEHOLDER_04": "rgba(255, 255, 255, 255)",
-    "HUD_COLOUR_PLACEHOLDER_05": "rgba(255, 255, 255, 255)",
-    "HUD_COLOUR_PLACEHOLDER_06": "rgba(255, 255, 255, 255)",
-    "HUD_COLOUR_PLACEHOLDER_07": "rgba(255, 255, 255, 255)",
-    "HUD_COLOUR_PLACEHOLDER_08": "rgba(255, 255, 255, 255)",
-    "HUD_COLOUR_PLACEHOLDER_09": "rgba(255, 255, 255, 255)",
-    "HUD_COLOUR_PLACEHOLDER_10": "rgba(255, 255, 255, 255)"
-}
 
-GTA_FORMAT_REPLACEMENT_TABLE = [
-    [r"~r~", '~HUD_COLOUR_RED~'],
-    [r"~g~", '~HUD_COLOUR_GREEN~'],
-    [r"~b~", '~HUD_COLOUR_BLUE~'],
-    [r"~f~", '~HUD_COLOUR_FRIENDLY~'],
-    [r"~y~", '~HUD_COLOUR_YELLOW~'],
-    [r"~c~", '~HUD_COLOUR_MENU_GREY~'],
-    [r"~t~", '~HUD_COLOUR_MENU_GREY~'],
-    [r"~o~", '~HUD_COLOUR_ORANGE~'],
-    [r"~p~", '~HUD_COLOUR_PURPLE~'],
-    [r"~q~", '~HUD_COLOUR_PINK~'],
-    [r"~m~", '~HUD_COLOUR_MID_GREY_MP~'],
-    [r"~l~", '~HUD_COLOUR_BLACK~'],
-    [r"~d~", '~HUD_COLOUR_BLUEDARK~'],
-    [r"~s~", '~HUD_COLOUR_GREYLIGHT~']
-]
+if DOMINATE_INSTALLED:
+    import lib.html_preview
 
-def get_text_from_node(node: xml.dom.minidom.Node):
+
+def str_from_node(node: xml.dom.minidom.Node) -> str:
+    """
+    Extracts and concatenates the text content from the child nodes of the given XML DOM Node.
+
+    Args:
+        node (xml.dom.minidom.Node): The XML DOM Node from which text content will be extracted.
+
+    Returns:
+        str: A string containing the concatenated text content of all child nodes with nodeType TEXT_NODE.
+    """
     return "".join(t.nodeValue for t in node.childNodes if t.nodeType == t.TEXT_NODE)
 
-def regex_replace_multiple(text: str, replacement_table: list[list[str]]) -> str:
-    for replacement in replacement_table:
-        text = re.sub(replacement[0], replacement[1], text)
-    return text
 
-def get_consecutive_duplicate(lst: list, exceptions: list = []):
+def get_consecutive_duplicate(lst: list[T], exceptions: list[T] = None) -> Optional[T]:
+    """
+    Finds the first consecutive duplicate element in a list, excluding elements specified in the exceptions list.
+
+    Args:
+        lst (List[T]): The input list to search for consecutive duplicates.
+        exceptions (List[T]): A list of elements to be excluded from consideration.
+
+    Returns:
+        Optional[T]: The first consecutive duplicate element found, or None if no such element is found.
+    """
+    if exceptions is None:
+        exceptions = []
     for i in range(len(lst) - 1):
         if lst[i] not in exceptions:
             if lst[i] == lst[i + 1]:
                 return lst[i]
     return None
+
+
+@dataclass
+class EntryInfo:
+    """
+    Data class representing information about entry.
+
+    Attributes:
+        translations (List[str]): List of translations for the entry.
+        found_langs (List[str]): List of language codes found in the entry.
+        should_end_with_format (Optional[str]): The expected format tag for the last found format in the entry.
+        required_text_formatting (Set[str]): Set of required text formatting tags in the entry.
+        required_variables (List[str]): List of required variables in the entry.
+    """
+    translations: list[str] = field(default_factory=list)
+    found_langs: list[str] = field(default_factory=list)
+    should_end_with_format: Optional[str] = field(default=None)
+    required_text_formatting: set[str] = field(default_factory=set)
+    required_variables: list[str] = field(default_factory=list)
 
 
 class Validator:
@@ -298,19 +97,23 @@ class Validator:
     Attributes:
         xml_files (list[str]): A list of XML filenames to be validated.
         supported_langs (list[str]): A list of supported language codes.
-        nsmap (dict): A namespace mapping for XML namespaces.
         used_ids (set): A set of used IDs during validation.
         fatal_errors (int): A count of encountered fatal errors during validation.
         errors (int): A count of encountered errors during validation.
         warnings (int): A count of encountered warnings during validation.
-        known_display_limit (int): Display limit for known elements.
+        display_limit (int): Display limit for known elements.
         show_lang (str | None): The selected language that is shown if missing.
         found_missing_lang (int): A count of missing localizations for selected language.
-        customXMLParser(XMLReader): Custom parser for XML validation.
+        total_strings (int): Total number of strings processed during validation.
+        custom_xml_parser (xml.sax.xmlreader.XMLReader): Custom parser for XML validation.
+        preview_formatting (bool): Flag indicating whether preview formatting is enabled.
+        main_doc (dominate.document): Main document used for validation.
+        warnings_as_errors (bool): Flag indicating whether warnings should be treated as errors.
     """
     xml_files: list[str] = []
-    supported_langs: list[str] = ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES", "pt-BR", "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH", "id-ID"]
-    used_ids: set = set()
+    supported_langs: list[str] = ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES", "pt-BR",
+        "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH", "id-ID", "cs-CS"]
+    used_ids: set[str] = set()
     fatal_errors: int = 0
     errors: int = 0
     warnings: int = 0
@@ -318,29 +121,36 @@ class Validator:
     show_lang: str | None = None
     found_missing_lang: int = 0
     total_strings: int = 0
-    custom_xml_parser = None
-    preview_formatting = False
+    custom_xml_parser: xml.sax.xmlreader.XMLReader = None
+    preview_formatting: bool = False
     main_doc = None
-    warnings_as_errors = False
+    warnings_as_errors: bool = False
 
     @staticmethod
-    def setup_xml_parser():
-        customXMLParser = xml.sax.make_parser()
-        orig_set_content_handler = customXMLParser.setContentHandler
+    def setup_xml_parser() -> xml.sax.xmlreader.XMLReader:
+        # pylint: disable=W0212
+        """
+        Set up a custom XML parser with additional functionality to track parse positions.
+
+        Returns:
+            xml.sax.xmlreader.XMLReader: A custom XML parser with extended features.
+        """
+        custom_xml_parser = xml.sax.make_parser()
+        orig_set_content_handler = custom_xml_parser.setContentHandler
         def set_content_handler(dom_handler):
             def start_element_ns(name, tag_name, attrs):
                 orig_start_cb(name, tag_name, attrs)
                 cur_elem = dom_handler.elementStack[-1]
                 cur_elem.parse_position = (
-                    customXMLParser._parser.CurrentLineNumber,
-                    customXMLParser._parser.CurrentColumnNumber
+                    custom_xml_parser._parser.CurrentLineNumber,
+                    custom_xml_parser._parser.CurrentColumnNumber
                 )
 
             orig_start_cb = dom_handler.startElementNS
             dom_handler.startElementNS = start_element_ns
             orig_set_content_handler(dom_handler)
-        customXMLParser.setContentHandler = set_content_handler
-        return customXMLParser
+        custom_xml_parser.setContentHandler = set_content_handler
+        return custom_xml_parser
 
 
     @staticmethod
@@ -375,7 +185,8 @@ class Validator:
             None 
         """
         Validator.errors += 1
-        txt = f"[!] {Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)}:\n{error}"
+        loc_string = Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)
+        txt = f"[!] {loc_string}:\n{error}"
         if COLORAMA_INSTALLED:
             print(f"{colorama.Fore.RED}{txt}{colorama.Fore.RESET}")
         else:
@@ -395,7 +206,8 @@ class Validator:
             None 
         """
         Validator.fatal_errors += 1
-        txt = f"[!!!] {Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)}:\n{error}"
+        loc_string = Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)
+        txt = f"[!!!] {loc_string}:\n{error}"
         if COLORAMA_INSTALLED:
             print(f"{colorama.Fore.RED}{colorama.Style.BRIGHT}{txt}{colorama.Fore.RESET}{colorama.Style.NORMAL}")
         else:
@@ -414,7 +226,8 @@ class Validator:
         Returns: 
             None 
         """
-        txt = f"[*] {Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)}:\n{warning}"
+        loc_string = Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)
+        txt = f"[*] {loc_string}:\n{warning}"
         if COLORAMA_INSTALLED:
             print(f"{colorama.Fore.YELLOW}{txt}{colorama.Fore.RESET}")
         else:
@@ -424,6 +237,20 @@ class Validator:
 
     @staticmethod
     def print_warning_or_error(warning: str, location: list[str], custom_file_cursor: tuple[int] | None = None):
+        """
+        Print a warning or an error based on the configuration of the Validator class.
+
+        Args:
+            warning (str): The warning or error message to be printed.
+            location (list[str]): A list specifying the location information related to the warning or error.
+            custom_file_cursor (tuple[int] | None): A tuple representing the custom file cursor position (line, column),
+        or None if not provided.
+
+        Note:
+        The printing behavior is determined by the 'warnings_as_errors' configuration in the Validator class.
+        If 'warnings_as_errors' is True, the message is treated as an error and printed accordingly.
+        If 'warnings_as_errors' is False, the message is treated as a warning and printed accordingly.
+        """
         if Validator.warnings_as_errors:
             Validator.print_error(warning, location, custom_file_cursor)
         else:
@@ -432,11 +259,21 @@ class Validator:
 
     @staticmethod
     def entry_pretty_print(entry: xml.dom.minidom.Element) -> str:
+        """
+        Generate a pretty-printed string representation of an XML DOM Element.
+
+        Args:
+            entry (xml.dom.minidom.Element): The XML DOM Element to be pretty-printed.
+
+        Returns:
+            str: A formatted string representing the tag name and 'Id' attribute (if present) of the given element.
+        Example: "TagName(Id='some_id')"
+    """
         return f"{entry.tagName}({repr(dict(entry.attributes.items()).get('Id'))})"
 
 
     @staticmethod
-    def check_unknown_tag(entry: xml.dom.minidom.Element, known_tags: list[str], location: list[str])->bool:
+    def check_unknown_tag(entry: xml.dom.minidom.Element, known_tags: list[str], location: list[str]) -> bool:
         """Checks if an XML element's tag is in the list of known tags.
 
         Args:
@@ -449,103 +286,31 @@ class Validator:
         """
         if entry.tagName in known_tags:
             return True
-        Validator.print_error(f"Unknown tag: {repr(entry.tagName)}, expected one of these: {', '.join(known_tags[:Validator.display_limit])}", location, entry.parse_position)
+        known_tags_str = ', '.join(known_tags[:Validator.display_limit])
+        Validator.print_error(f"Unknown tag: {repr(entry.tagName)}, "
+                              f"expected one of these: {known_tags_str}", location, entry.parse_position)
         return False
-    
-    
-    def setup_html_doc():
-        if Validator.preview_formatting:
-            Validator.main_doc = dominate.document(title="Text formatting preview")
-            with Validator.main_doc.head:
-                dominate.tags.style(
-                    """
-                    html {
-                        background-color: #202327;
-                    }
-                    span, h1, h2, h3 {
-                        color: #ffffff;
-                    }
-                    @font-face {
-                        font-family: 'Chalet';
-                        src: url('fonts/ChaletLondonNineteenSixty.ttf');
-                        font-stretch: normal;
-                    }
-                    @font-face {
-                        font-family: 'ChaletComprime';
-                        src: url('fonts/ChaletComprime_CologneSixty.ttf');
-                        font-stretch: 1%, 100%;
-                    }
-                    .condensed {
-                        font-family:'ChaletComprime';
-                        font-size: 2.07vh;
-                    }
-                    .bold {
-                        font-weight: bold;
-                    }
-                    span {
-                        font-family:'Chalet';
-                        font-weight: lighter;
-                        font-size: 1.725vh;
-                    }
-                    """
-                )
-    
-
-    def add_formatted_text_to_html(text: str):
-        text = regex_replace_multiple(text, GTA_FORMAT_REPLACEMENT_TABLE)
-        GROUP_REGEX = r"~h~|~n~|~bold~|~italic~|\(C\)|\(\/C\)|~HUD_COLOUR_.+?~|~HC_.+?~|~CC_[0-9]{1,3}_[0-9]{1,3}_[0-9]{1,3}~"
-        bolded = False
-        italic = False
-        color = "rgb(205,205,205)"
-        condensed = 0
-        new_line = False
-        text_fragments = re.split(GROUP_REGEX, text)
-        matchedActions = re.findall(GROUP_REGEX, text)
-        with Validator.main_doc.body:
-            if text_fragments[0] != "":
-                dominate.tags.span(text_fragments[0], style=f"color: {color};")
-        for i, fragment in enumerate(text_fragments[1:]):
-            formatting = matchedActions[i]
-            match formatting:
-                case "~h~" | "~bold~":
-                    bolded = not bolded
-                case "~italic~":
-                    italic = not italic
-                case "(C)":
-                    condensed += 1
-                case "(/C)":
-                    condensed -= 1
-                case "~n~":
-                    new_line = not new_line
-                case _:
-                    HUDColorMatches = re.findall(r"(?<=~)(HUD_COLOUR_.+?)(?=~)|(?<=~)(HC_.+?)(?=~)", formatting)
-                    if HUDColorMatches:
-                        color = GTA_HUD_COLORS[HUDColorMatches[0][0]]
-                    CustomColorMatches = re.findall(r"(?<=~CC_)([0-9]{1,3}_[0-9]{1,3}_[0-9]{1,3})(?=~)", formatting)
-                    if CustomColorMatches:
-                        color = f'rgba(${CustomColorMatches[0].split("_").join(",")})'
-            classes = []
-            if (condensed > 0):
-                classes.append("condensed")
-            if bolded:
-                classes.append("bolded")
-            style = ""
-            if italic:
-                style += "font-style: italic;"
-            style += f"color: {color};"
-            with Validator.main_doc.body:
-                if fragment != "":
-                    with dominate.tags.span(fragment):
-                        if classes:
-                            dominate.tags.attr(cls=' '.join(classes), style=style)
-                        else:
-                            dominate.tags.attr(style=style)
-                if new_line:
-                    dominate.tags.br()
 
 
     @staticmethod
     def check_xml_files():
+        # pylint: disable=W0212
+        """
+        Validate and analyze XML files using the configured Validator settings.
+
+        Iterates through each XML file specified in `Validator.xml_files`. Performs the following tasks for each file:
+        - If DOMINATE_INSTALLED and Validator.preview_formatting are True, adds an h1 header with the file name to the main DOM.
+        - Attempts to parse the XML file using the configured custom XML parser.
+        - Checks for common errors, unknown tags, and processes entries within the XML file.
+        - Increments the total_strings count for each valid entry.
+
+        Note:
+        - If a file is not found, a FileNotFoundError is caught and reported as an error.
+        - If there's a parsing error (SAXParseException), a fatal error is reported, and the custom XML parser is reset.
+        - SAXNotSupportedException is caught and ignored.
+
+        This function operates with the assumption that the Validator class is appropriately configured.
+        """
         Validator.custom_xml_parser = Validator.setup_xml_parser()
         for file in Validator.xml_files:
             if DOMINATE_INSTALLED and Validator.preview_formatting:
@@ -562,10 +327,11 @@ class Validator:
                     if Validator.check_unknown_tag(child, ["Entry"], path):
                         Validator.check_entries(child, path)
                         Validator.total_strings += 1
-            except FileNotFoundError as err:    
+            except FileNotFoundError as err:
                 Validator.print_error(f"Invalid file: {err}", [file])
             except xml.sax.SAXParseException as err:
-                Validator.print_fatal_error(f"Invalid file: {err.getMessage()}", [file], custom_file_cursor=(err.getLineNumber(), err.getColumnNumber()))
+                Validator.print_fatal_error(f"Invalid file: {err.getMessage()}", [file],
+                                            custom_file_cursor=(err.getLineNumber(), err.getColumnNumber()))
                 Validator.custom_xml_parser = Validator.setup_xml_parser()
             except xml.sax._exceptions.SAXNotSupportedException:
                 pass
@@ -573,6 +339,25 @@ class Validator:
 
     @staticmethod
     def check_entries(entry: xml.dom.minidom.Element, path: list[str]):
+        """
+        Validate and analyze the entries within an XML DOM Element.
+
+        Args:
+            entry (xml.dom.minidom.Element): The XML DOM Element representing an entry to be validated.
+            path (list[str]): The path to the current XML DOM Element, used for error reporting.
+
+        This function checks various aspects of each string entry within the given XML DOM Element, including:
+            Presence of required attributes, such as 'Id' and 'xml:lang'.
+            Correct usage of text formatting tags (~[s,b,r,n,y,p,g,o,h,c]~).
+            Consistency and correctness of variables ({[0-9]+}) within the text.
+            Presence of empty translations.
+            Proper spacing between words and punctuation mark placement.
+
+        Additionally, it reports warnings if a specific language translation is missing.
+
+        Note:
+            The function assumes that the Validator class is appropriately configured.
+        """
         element_found_id = dict(entry.attributes.items()).get("Id")
         element_location = entry.parse_position
         if element_found_id is None:
@@ -586,96 +371,139 @@ class Validator:
             if DOMINATE_INSTALLED and Validator.preview_formatting:
                 with Validator.main_doc.body:
                     dominate.tags.h2(element_found_id)
-        found_langs: list[str] = []
-        lang_attrib =  "xml:lang"
-        should_end_with_format = None
-        required_text_formatting = set()
-        required_variables = []
-        good_string_entries = []
-        FORMAT_REGEX = r"~[s,b,r,n,y,p,g,o,h,c]~"
-        TOO_MANY_SPACES_REGEX = r"\s~[s,b,r,n,y,p,g,o,h,c]~\s|\s\s+"
-        VARIABLE_REGEX = r"{[0-9]+}"
-        PUNCTUATION_MARKS_REGEX = r"[.,?,!]"
-        WRONG_PUNCTUATION_REGEX = r"\s" + PUNCTUATION_MARKS_REGEX + r"|\s" + FORMAT_REGEX + PUNCTUATION_MARKS_REGEX
-        for string_entry in entry.childNodes:
-            if isinstance(string_entry, xml.dom.minidom.Text):
-                continue
-            string_entry: xml.dom.minidom.Element
-            if Validator.check_unknown_tag(string_entry, ["String"], path):
-                good_string_entries.append(string_entry)
-                for key, value in string_entry.attributes.items():
-                    if key == lang_attrib:
-                        if value == "en-US":
-                            found_formats = re.findall(FORMAT_REGEX, get_text_from_node(string_entry))
-                            if (len(found_formats)>0):
-                                required_text_formatting = set(found_formats)
-                                should_end_with_format = found_formats[-1]
-                            required_variables = re.findall(VARIABLE_REGEX, get_text_from_node(string_entry))
-                        if value in found_langs:
-                            Validator.print_error(f"Found duplicate string for {value}", path, string_entry.parse_position)
-                        found_langs.append(value)
-                    else:
-                        Validator.print_error(f"Unknown attribute: {repr(key)}", path, string_entry.parse_position)
-        for string_entry in good_string_entries:
-            text = get_text_from_node(string_entry)
-            current_lang: str = dict(string_entry.attributes.items()).get(lang_attrib)
-            start_position: tuple[int] = (string_entry.parse_position[0], string_entry.parse_position[1]+len('<String xml:lang="')+len(current_lang)+len('">'))
-            path1 = [*path, current_lang]
-            if DOMINATE_INSTALLED and Validator.preview_formatting:
-                with Validator.main_doc.body:
-                    dominate.tags.h3(current_lang)
-                Validator.add_formatted_text_to_html(text)
-            found_formats = re.findall(FORMAT_REGEX, text)
-            if len(found_formats)>0 and should_end_with_format is not None:
-                found_formats_set = set(found_formats)
-                invalid_text_formatting = found_formats_set.difference(required_text_formatting)
-                missing_text_formatting = required_text_formatting.difference(found_formats_set)
-                formatting_duplicate = get_consecutive_duplicate(found_formats, exceptions=["~h~","~n~","~s~"])
-                if invalid_text_formatting:
-                    Validator.print_error(f"Found invalid text formatting: {', '.join(invalid_text_formatting)}", path1, string_entry.parse_position)
-                if missing_text_formatting:
-                    Validator.print_error(f"Missing text formatting: {', '.join(missing_text_formatting)}", path1, string_entry.parse_position)
-                if formatting_duplicate:
-                    Validator.print_error(f"Found text formatting duplicate: {formatting_duplicate}", path1, string_entry.parse_position)
-                found_format = found_formats[-1]
-                if found_format != should_end_with_format:
-                    Validator.print_error(f"String ends with a wrong format {repr(found_format)}, expected {repr(should_end_with_format)}", path1, string_entry.parse_position)
-            found_variables = re.findall(VARIABLE_REGEX, text)
-            if len(found_variables) < len(required_variables):
-                missing_variables = [var for var in required_variables if var not in found_variables]
-                if missing_variables:
-                    Validator.print_error(f"Missing variables: {', '.join(missing_variables)}", path1, string_entry.parse_position)
-            elif len(found_variables) > len(required_variables):
-                unneeded_variables = [var for var in found_variables if var not in required_variables]
-                if unneeded_variables:
-                    Validator.print_error(f"Found too many variables: {', '.join(unneeded_variables)}", path1, string_entry.parse_position)
-            if len(text) == 0:
-                Validator.print_error(f"Found empty translation", path1, start_position)
-            text_without_formatting = re.sub(FORMAT_REGEX, "", text)
-            invalid_text_formatting_loc = text_without_formatting.find("~")
-            if invalid_text_formatting_loc != -1:
-                offset: int = 0
-                for valid_text_formatting_match in re.finditer(FORMAT_REGEX, text):
-                    valid_text_formatting_match: re.Match
-                    if valid_text_formatting_match.end() < invalid_text_formatting_loc + offset:
-                        offset += valid_text_formatting_match.end()-valid_text_formatting_match.start()
-                    else:
-                        break
-                real_location = text[(invalid_text_formatting_loc + offset):].find("~")+(invalid_text_formatting_loc + offset)
-                position: tuple[int] = (start_position[0], start_position[1]+real_location)
-                Validator.print_error(f"Found invalid text formatting (~)", path1, position)
-            too_many_spaces_match: re.Match = re.search(TOO_MANY_SPACES_REGEX, text)
-            if too_many_spaces_match:
-                position: tuple[int] = (start_position[0], start_position[1]+too_many_spaces_match.end()-1)
-                Validator.print_warning_or_error(f"Found too many spaces between words", path1, position)
-            wrong_punctuation_match: re.Match = re.search(WRONG_PUNCTUATION_REGEX, text)
-            if wrong_punctuation_match:
-                position: tuple[int] = (start_position[0], start_position[1]+wrong_punctuation_match.start())
-                Validator.print_warning_or_error(f"Found invalid punctuation mark placement", path1, position)
-        if (Validator.show_lang is not None) and (Validator.show_lang not in found_langs):
+        translations, entry_info = Validator.analyze_entry(entry, path)
+        for translation in translations:
+            Validator.check_translation(translation, entry_info, path)
+        if (Validator.show_lang is not None) and (Validator.show_lang not in entry_info.found_langs):
             if Validator.found_missing_lang <= Validator.display_limit:
                 Validator.print_warning_or_error(f"Missing translation for {repr(Validator.show_lang)}!", path, element_location)
             Validator.found_missing_lang += 1
+
+
+    @staticmethod
+    def analyze_entry(entry: xml.dom.minidom.Element, path: list[str]) -> tuple[list[xml.dom.minidom.Element], EntryInfo]:
+        """
+        Analyze an XML DOM Element representing an entry and extract relevant information.
+
+        Args:
+            entry (xml.dom.minidom.Element): The XML DOM Element representing an entry to be analyzed.
+            path (list[str]): The path to the current XML DOM Element, used for error reporting.
+
+        Returns:
+            Tuple[List[xml.dom.minidom.Element], EntryInfo]: A tuple containing a list of translation elements
+        within the entry and an EntryInfo object representing information about the entry.
+        """
+        translations: list[xml.dom.minidom.Element] = []
+        entry_info = EntryInfo()
+        for child_node in entry.childNodes:
+            if isinstance(child_node, xml.dom.minidom.Text):
+                continue
+            child_node: xml.dom.minidom.Element
+            if Validator.check_unknown_tag(child_node, ["String"], path):
+                translations.append(child_node)
+                for key, value in child_node.attributes.items():
+                    if key != XML_LANG_ATTRIB:
+                        Validator.print_error(f"Unknown attribute: {repr(key)}", path, child_node.parse_position)
+                        continue
+                    if value == "en-US":
+                        found_formats = re.findall(SHORT_GTA_FORMAT_REGEX, str_from_node(child_node))
+                        if len(found_formats) > 0:
+                            entry_info.required_text_formatting = set(found_formats)
+                            entry_info.should_end_with_format = found_formats[-1]
+                        entry_info.required_variables = re.findall(TEXT_VARIABLE_REGEX, str_from_node(child_node))
+                    if value in entry_info.found_langs:
+                        Validator.print_error(f"Found duplicate string for {value}", path, child_node.parse_position)
+                    entry_info.found_langs.append(value)
+        return (translations, entry_info)
+
+
+    @staticmethod
+    def check_translation(string_entry: xml.dom.minidom.Element, info: EntryInfo, path: list[str]):
+        """
+        Validate and analyze the translation string within an XML DOM Element.
+
+        Args:
+            string_entry (xml.dom.minidom.Element): The XML DOM Element representing the translation string to be checked.
+            info (EntryInfo): An EntryInfo object containing information about the entry, such as required formats and variables.
+            path (list[str]): The path to the current XML DOM Element, used for error reporting.
+
+        This function checks various aspects of the translation string, including:
+        - Proper usage of text formatting tags (~[s,b,r,n,y,p,g,o,h,c]~).
+        - Consistency and correctness of variables ({[0-9]+}) within the text.
+        - Presence of empty translations.
+        - Proper spacing between words and punctuation mark placement.
+
+        The function uses the Validator class for error reporting and configuration.
+
+        Note:
+            The function assumes that the Validator class is appropriately configured.
+        """
+        text = str_from_node(string_entry)
+        current_lang: str = dict(string_entry.attributes.items()).get(XML_LANG_ATTRIB)
+        start_position: tuple[int] = (
+            string_entry.parse_position[0],
+            string_entry.parse_position[1]+len('<String xml:lang="')+len(current_lang)+len('">'))
+        path1 = [*path, current_lang]
+        if DOMINATE_INSTALLED and Validator.preview_formatting:
+            with Validator.main_doc.body:
+                dominate.tags.h3(current_lang)
+                lib.html_preview.formatted_string_to_html(text)
+        found_formats: list[str] = re.findall(SHORT_GTA_FORMAT_REGEX, text)
+        if len(found_formats)>0 and info.should_end_with_format is not None:
+            found_formats_set = set(found_formats)
+            invalid_text_formatting = found_formats_set.difference(info.required_text_formatting)
+            missing_text_formatting = info.required_text_formatting.difference(found_formats_set)
+            formatting_duplicate = get_consecutive_duplicate(found_formats, exceptions=["~h~","~n~","~s~"])
+            if invalid_text_formatting:
+                pos = (start_position[0],
+                       start_position[1] + text.find(list(invalid_text_formatting)[0]))
+                Validator.print_error(f"Found invalid text formatting: {', '.join(invalid_text_formatting)}", path1, pos)
+            if missing_text_formatting:
+                Validator.print_error(f"Missing text formatting: {', '.join(missing_text_formatting)}", path1, start_position)
+            if formatting_duplicate:
+                pos = (start_position[0],
+                       start_position[1] + text.rfind(formatting_duplicate))
+                Validator.print_error(f"Found text formatting duplicate: {formatting_duplicate}", path1, pos)
+            found_format = found_formats[-1]
+            if found_format != info.should_end_with_format:
+                pos = (start_position[0],
+                       start_position[1] + text.rfind(found_format))
+                Validator.print_error(f"String ends with a wrong format {repr(found_format)}, "
+                                        f"expected {repr(info.should_end_with_format)}", path1, pos)
+        found_variables = re.findall(TEXT_VARIABLE_REGEX, text)
+        if len(found_variables) < len(info.required_variables):
+            missing_variables = [var for var in info.required_variables if var not in found_variables]
+            if missing_variables:
+                Validator.print_error(f"Missing variables: {', '.join(missing_variables)}", path1, start_position)
+        elif len(found_variables) > len(info.required_variables):
+            unneeded_variables = [var for var in found_variables if var not in info.required_variables]
+            if unneeded_variables:
+                pos = (start_position[0],
+                       start_position[1] + text.rfind(unneeded_variables[-1]))
+                Validator.print_error(f"Found too many variables: {', '.join(unneeded_variables)}", path1, pos)
+        if len(text) == 0:
+            Validator.print_error("Found empty translation", path1, start_position)
+        text_without_formatting = re.sub(SHORT_GTA_FORMAT_REGEX, "", text)
+        invalid_text_formatting_loc = text_without_formatting.find("~")
+        if invalid_text_formatting_loc != -1:
+            offset: int = 0
+            for valid_text_formatting_match in re.finditer(SHORT_GTA_FORMAT_REGEX, text):
+                valid_text_formatting_match: re.Match
+                if valid_text_formatting_match.end() > invalid_text_formatting_loc + offset:
+                    offset += valid_text_formatting_match.end()-valid_text_formatting_match.start()
+                else:
+                    break
+            real_location = text[(invalid_text_formatting_loc + offset):].find("~")+(invalid_text_formatting_loc + offset)
+            position: tuple[int] = (start_position[0], start_position[1]+real_location)
+            Validator.print_error("Found invalid text formatting (~)", path1, position)
+        too_many_spaces_match: re.Match = re.search(TOO_MANY_SPACES_REGEX, text)
+        if too_many_spaces_match:
+            position: tuple[int] = (start_position[0], start_position[1]+too_many_spaces_match.end()-1)
+            Validator.print_warning_or_error("Found too many spaces between words", path1, position)
+        wrong_punctuation_match: re.Match = re.search(WRONG_PUNCTUATION_REGEX, text)
+        if wrong_punctuation_match:
+            position: tuple[int] = (start_position[0], start_position[1]+wrong_punctuation_match.start())
+            Validator.print_warning_or_error("Found invalid punctuation mark placement", path1, position)
 
 
 if __name__ == '__main__':
@@ -690,7 +518,7 @@ if __name__ == '__main__':
     if args.preview_formatting:
         if DOMINATE_INSTALLED:
             Validator.preview_formatting = True
-            Validator.setup_html_doc()
+            Validator.main_doc = lib.html_preview.create_html_doc()
         else:
             print("Unable to generate preview, dominate is not installed")
             print("You need to install it with 'pip install dominate'")
@@ -702,10 +530,11 @@ if __name__ == '__main__':
     Validator.check_xml_files()
     if Validator.show_lang is not None:
         print(f"Total missing translations for {repr(Validator.show_lang)}: {Validator.found_missing_lang}. "
-              f"Progress: {Validator.total_strings - Validator.found_missing_lang}/{Validator.total_strings}")
+              f"Progress: {Validator.total_strings - Validator.found_missing_lang}/{Validator.total_strings} "
+              f"({int((Validator.total_strings - Validator.found_missing_lang)/Validator.total_strings * 100)}%)")
     if Validator.preview_formatting:
-        with open("preview.html", "w", encoding="utf-8") as file:
-            file.write(Validator.main_doc.render(pretty=False))
+        with open("preview.html", "w", encoding="utf-8") as preview_file:
+            preview_file.write(Validator.main_doc.render(pretty=False))
         print("Formatting preview has been generated in preview.html\n")
     if Validator.fatal_errors > 0:
         print(f"Fatal errors: {Validator.fatal_errors}")
