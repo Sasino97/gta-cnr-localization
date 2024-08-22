@@ -776,6 +776,14 @@
         <String xml:lang="en-US">The player id must be a number.</String>
     </Entry>
 
+    <!-- 
+    This is shown when a command can't be done on yourself, 
+    for example, typing "/party-invite 25" while you yourself are id 25 
+    -->
+    <Entry Id="cmd_player_self">
+        <String xml:lang="en-US">The target player can't be yourself.</String>
+    </Entry>
+
     <Entry Id="input_enter_id">
         <String xml:lang="en-US">Enter the player's id.</String>
         <String xml:lang="nl-NL">Voer de id van speler in.</String>
@@ -786,7 +794,7 @@
     </Entry>
 
     <Entry Id="party_create_desc">
-        <String xml:lang="en-US">Creates a party: a temporary group of people. Members of the same party can communicate on a dedicated radio channel, see eachother on the map over long distances, see eachother's pings, and revenge between them is disabled.</String>
+        <String xml:lang="en-US">Creates a party: a temporary group of people. Members of the same party can communicate on a dedicated radio channel, see eachother on the map over long distances, and see eachother's ping markers. Additionally, some minor crimes and revenge between them is disabled.</String>
     </Entry>
 
     <Entry Id="party_invite_desc">
@@ -822,7 +830,7 @@
     </Entry>
 
     <Entry Id="party_create_success">
-        <String xml:lang="en-US">You have successfully created a party. Use /party-invite to invite players.</String>
+        <String xml:lang="en-US">You have created a party. Use /party-invite to invite players.</String>
     </Entry>
 
     <Entry Id="party_join_already_in">
@@ -856,7 +864,7 @@
     <!-- {0} = name and id of the player who wants to join the party -->
     <!-- {1} = just the id -->
     <Entry Id="party_join_request_incoming">
-        <String xml:lang="en-US">{0} wants to join your party. Type "/party-invite {1}" to approve the request.</String>
+        <String xml:lang="en-US">{0} wants to join your ~y~party~s~. Type ~b~/party-invite {1} ~s~to accept.</String>
     </Entry>
 
     <!-- {0} = name and id of the player whose party you requested to join -->
@@ -879,12 +887,12 @@
 
     <!-- {0} = name and id of the player -->
     <Entry Id="party_invite_target_already_in_party">
-        <String xml:lang="en-US">{0} is already in another party.</String>
+        <String xml:lang="en-US">{0} is already in a party.</String>
     </Entry>
 
     <!-- {0} = name and id of the player -->
     <Entry Id="party_invite_request_incoming">
-        <String xml:lang="en-US">{0} has invited you to join their party. Type "/party-join {1}" to accept.</String>
+        <String xml:lang="en-US">{0} has invited you to join their ~y~party~s~. Type ~b~/party-join {1} ~s~to accept.</String>
     </Entry>
 
     <!-- {0} = name and id of the player -->
