@@ -759,12 +759,21 @@
     <!-- {0} = command + parameters -->
     <!-- Example: Usage: /block [player id] -->
     <Entry Id="cmd_usage">
-        <String xml:lang="en-US">Usage: {}</String>
-        <String xml:lang="nl-NL">Gebruik: {}</String>
-        <String xml:lang="fr-FR">Utilisation: {}</String>
-        <String xml:lang="hi-Latn">Usage: {}</String>
-        <String xml:lang="de-DE">Verwende: {}</String>
-        <String xml:lang="cs-CS">Použití: {}</String>
+        <String xml:lang="en-US">Usage: {0}</String>
+        <String xml:lang="nl-NL">Gebruik: {0}</String>
+        <String xml:lang="fr-FR">Utilisation: {0}</String>
+        <String xml:lang="hi-Latn">Usage: {0}</String>
+        <String xml:lang="de-DE">Verwende: {0}</String>
+        <String xml:lang="cs-CS">Použití: {0}</String>
+    </Entry>
+
+    <!-- {0} = the id of the player -->
+    <Entry Id="cmd_player_not_connected">
+        <String xml:lang="en-US">Player id {0} is not connected.</String>
+    </Entry>
+
+    <Entry Id="cmd_player_numeric">
+        <String xml:lang="en-US">The player id must be a number.</String>
     </Entry>
 
     <Entry Id="input_enter_id">
@@ -775,4 +784,130 @@
         <String xml:lang="de-DE">Gib die ID des Spielers ein.</String>
         <String xml:lang="cs-CS">Zadej ID hráče</String>
     </Entry>
+
+    <Entry Id="party_create_desc">
+        <String xml:lang="en-US">Creates a party: a temporary group of people. Members of the same party can communicate on a dedicated radio channel, see eachother on the map over long distances, see eachother's pings, and revenge between them is disabled.</String>
+    </Entry>
+
+    <Entry Id="party_invite_desc">
+        <String xml:lang="en-US">Invites a player to your party.</String>
+    </Entry>
+
+    <Entry Id="party_invite_param_player_desc">
+        <String xml:lang="en-US">The id of the player you want to invite.</String>
+    </Entry>
+
+    <Entry Id="party_join_desc">
+        <String xml:lang="en-US">Requests to join a player's party.</String>
+    </Entry>
+
+    <Entry Id="party_join_param_player_desc">
+        <String xml:lang="en-US">The id of the player whose party you want to join.</String>
+    </Entry>
+
+    <Entry Id="party_leave_desc">
+        <String xml:lang="en-US">Leaves your current party.</String>
+    </Entry>
+
+    <Entry Id="party_kick_desc">
+        <String xml:lang="en-US">Removes a player from your party. You must be the party leader to use this command.</String>
+    </Entry>
+
+    <Entry Id="party_kick_param_player_desc">
+        <String xml:lang="en-US">The id of the player to kick from your party.</String>
+    </Entry>
+
+    <Entry Id="party_create_already_in">
+        <String xml:lang="en-US">You are already in a party. Leave the current party before creating a new one.</String>
+    </Entry>
+
+    <Entry Id="party_create_success">
+        <String xml:lang="en-US">You have successfully created a party. Use /party-invite to invite players.</String>
+    </Entry>
+
+    <Entry Id="party_join_already_in">
+        <String xml:lang="en-US">You are already in a party. Leave the current party before requesting to join another one.</String>
+    </Entry>
+
+    <Entry Id="party_join_cooldown">
+        <String xml:lang="en-US">Please wait before requesting to join a party again.</String>
+    </Entry>
+
+    <!-- {0} = name and id of the target player -->
+    <Entry Id="party_target_not_in_party">
+        <String xml:lang="en-US">{0} is not in a party.</String>
+    </Entry>
+
+    <!-- {0} = name and id of the party leader -->
+    <Entry Id="party_join_leader_not_connected">
+        <String xml:lang="en-US">Party leader {0} is not connected.</String>
+    </Entry>
+
+    <!-- {0} = name and id of the party leader -->
+    <Entry Id="party_joined">
+        <String xml:lang="en-US">You have joined {0}'s party.</String>
+    </Entry>
+
+    <!-- {0} = name and id of the player who joined the party -->
+    <Entry Id="party_player_joined">
+        <String xml:lang="en-US">{0} has joined your party.</String>
+    </Entry>
+
+    <!-- {0} = name and id of the player who wants to join the party -->
+    <!-- {1} = just the id -->
+    <Entry Id="party_join_request_incoming">
+        <String xml:lang="en-US">{0} wants to join your party. Type "/party-invite {1}" to approve the request.</String>
+    </Entry>
+
+    <!-- {0} = name and id of the player whose party you requested to join -->
+    <!-- {1} = string id "party_join_requested_leader", only added if the member you entered is not the party leader -->
+    <Entry Id="party_join_requested">
+        <String xml:lang="en-US">You have requested to join {0}'s party. {1}</String>
+    </Entry>
+
+    <Entry Id="party_join_requested_leader">
+        <String xml:lang="en-US">Party leader {0} will have to accept the request.</String>
+    </Entry>
+
+    <Entry Id="party_not_in_party">
+        <String xml:lang="en-US">You are not in a party.</String>
+    </Entry>
+
+    <Entry Id="party_not_leader">
+        <String xml:lang="en-US">You are not the leader of the party.</String>
+    </Entry>
+
+    <!-- {0} = name and id of the player -->
+    <Entry Id="party_invite_target_already_in_party">
+        <String xml:lang="en-US">{0} is already in another party.</String>
+    </Entry>
+
+    <!-- {0} = name and id of the player -->
+    <Entry Id="party_invite_request_incoming">
+        <String xml:lang="en-US">{0} has invited you to join their party. Type "/party-join {1}" to accept.</String>
+    </Entry>
+
+    <!-- {0} = name and id of the player -->
+    <Entry Id="party_invite_sent">
+        <String xml:lang="en-US">You have invited {0} to join your party.</String>
+    </Entry>
+
+    <Entry Id="party_left">
+        <String xml:lang="en-US">You have left the party.</String>
+    </Entry>
+
+    <!-- {0} = name and id of the player -->
+    <Entry Id="party_player_left">
+        <String xml:lang="en-US">{0} has left your party.</String>
+    </Entry>
+
+    <Entry Id="party_got_kicked">
+        <String xml:lang="en-US">You have been kicked from the party.</String>
+    </Entry>
+
+    <!-- {0} = name and id of the player -->
+    <Entry Id="party_player_got_kicked">
+        <String xml:lang="en-US">{0} has been kicked from your party.</String>
+    </Entry>
+    
 </Entries>
