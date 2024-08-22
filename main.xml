@@ -905,8 +905,9 @@
     </Entry>
 
     <!-- {0} = name and id of the player -->
+    <!-- {1} = possible party_leader_you/party_leader_x added if the leader left -->
     <Entry Id="party_player_left">
-        <String xml:lang="en-US">{0} has left your party.</String>
+        <String xml:lang="en-US">{0} has left your party. {1}</String>
     </Entry>
 
     <Entry Id="party_got_kicked">
@@ -917,5 +918,12 @@
     <Entry Id="party_player_got_kicked">
         <String xml:lang="en-US">{0} has been kicked from your party.</String>
     </Entry>
-    
+
+    <Entry Id="party_leader_you">
+        <String xml:lang="en-US">You are now the leader.</String>
+    </Entry>
+
+    <Entry Id="party_leader_x">
+        <String xml:lang="en-US">{0} is now the leader.</String>
+    </Entry>
 </Entries>
