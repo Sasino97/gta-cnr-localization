@@ -770,10 +770,12 @@
     <!-- {0} = the id of the player -->
     <Entry Id="cmd_player_not_connected">
         <String xml:lang="en-US">Player id {0} is not connected.</String>
+        <String xml:lang="de-DE">Spieler-ID {0} ist nicht verbunden.</String>
     </Entry>
 
     <Entry Id="cmd_player_numeric">
         <String xml:lang="en-US">The player id must be a number.</String>
+        <String xml:lang="de-DE">Die Spieler-ID muss eine Zahl sein.</String>
     </Entry>
 
     <!-- 
@@ -782,6 +784,7 @@
     -->
     <Entry Id="cmd_player_self">
         <String xml:lang="en-US">The target player can't be yourself.</String>
+        <String xml:lang="de-DE">Der empfangende Spieler kann nicht du selbst sein.</String>
     </Entry>
 
     <Entry Id="input_enter_id">
@@ -795,135 +798,165 @@
 
     <Entry Id="party_create_desc">
         <String xml:lang="en-US">Creates a party: a temporary group of people. Members of the same party can communicate on a dedicated radio channel, see eachother on the map over long distances, and see eachother's ping markers. Additionally, some minor crimes and revenge between them is disabled.</String>
+        <String xml:lang="de-DE">Erstellt eine Party: Eine temporäre Gruppe von Spielern. Die Mitglieder einer Gruppe können über einen speziellen Funkkanal miteinander kommunizieren, sich gegenseitig über große Entfernungen auf der Karte sehen und die Ping-Markierungen der anderen sehen. Darüber hinaus werden einige kleinere Straftaten und Racheakte zwischen ihnen deaktiviert.</String>
     </Entry>
 
     <Entry Id="party_invite_desc">
         <String xml:lang="en-US">Invites a player to your party.</String>
+        <String xml:lang="de-DE">Lädt einen Spieler in deine Party ein.</String>
     </Entry>
 
     <Entry Id="party_invite_param_player_desc">
         <String xml:lang="en-US">The id of the player you want to invite.</String>
+        <String xml:lang="de-DE">Die ID des Spielers, den du einladen willst.</String>
     </Entry>
 
     <Entry Id="party_join_desc">
         <String xml:lang="en-US">Requests to join a player's party.</String>
+        <String xml:lang="de-DE">Anfragen, der Party des Spielers beizutreten</String>
     </Entry>
 
     <Entry Id="party_join_param_player_desc">
         <String xml:lang="en-US">The id of the player whose party you want to join.</String>
+        <String xml:lang="de-DE">Die ID des Spielers, dessen Gruppe du beitreten willst.</String>
     </Entry>
 
     <Entry Id="party_leave_desc">
         <String xml:lang="en-US">Leaves your current party.</String>
+        <String xml:lang="de-DE">Verlässt deine aktuelle Party.</String>
     </Entry>
 
     <Entry Id="party_kick_desc">
         <String xml:lang="en-US">Removes a player from your party. You must be the party leader to use this command.</String>
+        <String xml:lang="de-DE">Entfernt einen Spieler aus deiner Party. Du musst Partyleiter sein, um diesen Befehl auszuführen.</String>
     </Entry>
 
     <Entry Id="party_kick_param_player_desc">
         <String xml:lang="en-US">The id of the player to kick from your party.</String>
+        <String xml:lang="de-DE">Die ID des Spielers, den du aus deiner Party kicken willst.</String>
     </Entry>
 
     <Entry Id="party_create_already_in">
         <String xml:lang="en-US">You are already in a party. Leave the current party before creating a new one.</String>
+        <String xml:lang="de-DE">Du bist bereits in einer Party. Verlasse deine aktuelle Party, bevor du eine neue erstellst.</String>
     </Entry>
 
     <Entry Id="party_create_success">
         <String xml:lang="en-US">You have created a party. Use /party-invite to invite players.</String>
+        <String xml:lang="de-DE">Du hast eine Party erstellt. Verwende /party-invite, um Spieler einzuladen.</String>
     </Entry>
 
     <Entry Id="party_join_already_in">
         <String xml:lang="en-US">You are already in a party. Leave the current party before requesting to join another one.</String>
+        <String xml:lang="de-DE">Du bist bereits in einer Party. Verlasse deine aktuelle Party, bevor du den Beitritt zu einer anderen Party anfragst.</String>
     </Entry>
 
     <Entry Id="party_join_cooldown">
         <String xml:lang="en-US">Please wait before requesting to join a party again.</String>
+        <String xml:lang="de-DE">Bitte warte, bevor du erneut versuchst, bevor du den Beitritt zu einer anderen Party anfragst.</String>
     </Entry>
 
     <!-- {0} = name and id of the target player -->
     <Entry Id="party_target_not_in_party">
         <String xml:lang="en-US">{0} is not in a party.</String>
+        <String xml:lang="de-DE">{0} ist nicht in einer Party.</String>
     </Entry>
 
     <!-- {0} = name and id of the party leader -->
     <Entry Id="party_join_leader_not_connected">
         <String xml:lang="en-US">Party leader {0} is not connected.</String>
+        <String xml:lang="de-DE">Partyleiter {0} ist nicht verbunden.</String>
     </Entry>
 
     <!-- {0} = name and id of the party leader -->
     <Entry Id="party_joined">
         <String xml:lang="en-US">You have joined {0}'s party.</String>
+        <String xml:lang="de-DE">Du bist {0}'s Party beigretreten.</String>
     </Entry>
 
     <!-- {0} = name and id of the player who joined the party -->
     <Entry Id="party_player_joined">
         <String xml:lang="en-US">{0} has joined your party.</String>
+        <String xml:lang="de-DE">{0} ist deiner Party beigetreten.</String>
     </Entry>
 
     <!-- {0} = name and id of the player who wants to join the party -->
     <!-- {1} = just the id -->
     <Entry Id="party_join_request_incoming">
         <String xml:lang="en-US">{0} wants to join your ~y~party~s~. Type ~b~/party-invite {1} ~s~to accept.</String>
+        <String xml:lang="de-DE">{0} möchet deiner ~y~Party~s~ beitreten. Gib ~b~/party-invite {1} ~s~ein, um die Anfrage zu akzeptieren.</String>
     </Entry>
 
     <!-- {0} = name and id of the player whose party you requested to join -->
     <!-- {1} = string id "party_join_requested_leader", only added if the member you entered is not the party leader -->
     <Entry Id="party_join_requested">
         <String xml:lang="en-US">You have requested to join {0}'s party. {1}</String>
+        <String xml:lang="de-DE">Du hast den Beitritt zu {0}'s Party angefragt. {1}</String>
     </Entry>
 
     <Entry Id="party_join_requested_leader">
         <String xml:lang="en-US">Party leader {0} will have to accept the request.</String>
+        <String xml:lang="de-DE">Partyleiter {0} muss deine Anfrage akzeptieren.</String>
     </Entry>
 
     <Entry Id="party_not_in_party">
         <String xml:lang="en-US">You are not in a party.</String>
+        <String xml:lang="de-DE">Du bist nicht in einer Party.</String>
     </Entry>
 
     <Entry Id="party_not_leader">
         <String xml:lang="en-US">You are not the leader of the party.</String>
+        <String xml:lang="de-DE">Du bist nicht der Leiter dieser Party.</String>
     </Entry>
 
     <!-- {0} = name and id of the player -->
     <Entry Id="party_invite_target_already_in_party">
         <String xml:lang="en-US">{0} is already in a party.</String>
+        <String xml:lang="de-DE">{0} ist bereits in einer Party.</String>
     </Entry>
 
     <!-- {0} = name and id of the player -->
     <Entry Id="party_invite_request_incoming">
         <String xml:lang="en-US">{0} has invited you to join their ~y~party~s~. Type ~b~/party-join {1} ~s~to accept.</String>
+        <String xml:lang="de-DE">{0} hat dich zu seiner ~y~Party~s~ eingeladen. Gib ~b~/party-join {1} ~s~ein, um die Einladung zu akzeptieren.</String>
     </Entry>
 
     <!-- {0} = name and id of the player -->
     <Entry Id="party_invite_sent">
         <String xml:lang="en-US">You have invited {0} to join your party.</String>
+        <String xml:lang="de-DE">Du hast {0} in deine Party eingeladen.</String>
     </Entry>
 
     <Entry Id="party_left">
         <String xml:lang="en-US">You have left the party.</String>
+        <String xml:lang="de-DE">Du hast die Party verlassen.</String>
     </Entry>
 
     <!-- {0} = name and id of the player -->
     <!-- {1} = possible party_leader_you/party_leader_x added if the leader left -->
     <Entry Id="party_player_left">
         <String xml:lang="en-US">{0} has left your party. {1}</String>
+        <String xml:lang="de-DE">{0} hat deine Party verlassen. {1}</String>
     </Entry>
 
     <Entry Id="party_got_kicked">
         <String xml:lang="en-US">You have been kicked from the party.</String>
+        <String xml:lang="de-DE">Du wurdest aus der Party geworfen.</String>
     </Entry>
 
     <!-- {0} = name and id of the player -->
     <Entry Id="party_player_got_kicked">
         <String xml:lang="en-US">{0} has been kicked from your party.</String>
+        <String xml:lang="de-DE">{0} wurde aus deiner Party geworfen.</String>
     </Entry>
 
     <Entry Id="party_leader_you">
         <String xml:lang="en-US">You are now the leader.</String>
+        <String xml:lang="de-DE">Du bist nun der Partyleiter.</String>
     </Entry>
 
     <Entry Id="party_leader_x">
         <String xml:lang="en-US">{0} is now the leader.</String>
+        <String xml:lang="de-DE">{0} ist nun der Partyleiter.</String>
     </Entry>
 </Entries>
