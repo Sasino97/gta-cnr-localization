@@ -4946,7 +4946,7 @@
     </Entry>
 
 
-    <!-- {0} = Verb (probably police; civilian; ...) -->
+    <!-- {0} = Verb = rented/purchased -->
     <!-- {1} = Hotkey -->
     <Entry Id="dealership_manage_vehicles_info">
         <String xml:lang="en-US">Manage your {0} vehicles in {1} ~y~Menu ~s~&gt; ~y~Vehicles</String>
@@ -5113,5 +5113,17 @@
     
     <Entry Id="menu_ddriver_history_subtitle">
         <String xml:lang="en-US">Select a past delivery job</String>
+    </Entry>
+    
+    <!-- {0} = Number of jobs -->
+    <!-- {1} = stp_press or stp_hold (defined in businesses.xml) -->
+    <Entry Id="ddriver_n_jobs_available">
+        <String xml:lang="en-US">There are ~y~{0} delivery jobs ~s~available at the moment. {1} to open the delivery list.</String>
+    </Entry>
+    
+    <!-- Shown at the bottom right as an instructional button. -->
+    <!-- Can be combined with "Hold" (btn_stp_label_hold) if player is using a gamepad. -->
+    <Entry Id="ddriver_view_jobs">
+        <String xml:lang="en-US">View jobs</String>
     </Entry>
 </Entries>
