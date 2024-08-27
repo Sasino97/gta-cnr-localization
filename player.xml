@@ -189,6 +189,7 @@
         <String xml:lang="nl-NL">Geef een speler aan voor het overtreden van de spelregels of gebruikersvoorwaarden.</String>
         <String xml:lang="de-DE">Melde einen Spieler für das Brechen der Spielregeln oder ToS.</String>
         <String xml:lang="it-IT">Segnala un giocatore per violazione delle regole di gioco o dei ToS.</String>
+        <String xml:lang="fr-FR">Signaler un joueur qui enfreint les règles du jeu ou les CGU.</String>
     </Entry>
 
     <Entry Id="report_cmd_suggestion_param_name">
@@ -196,6 +197,7 @@
         <String xml:lang="nl-NL">speler ID</String>
         <String xml:lang="de-DE">Spieler ID</String>
         <String xml:lang="it-IT">ID giocatore</String>
+        <String xml:lang="fr-FR">ID du joueur</String>
     </Entry>
 
     <Entry Id="report_cmd_suggestion_param_help">
@@ -203,6 +205,7 @@
         <String xml:lang="nl-NL">Het ID van de speler waarvan je aangifte wilt doen.</String>
         <String xml:lang="de-DE">Die ID des Spielers, den du melden willst.</String>
         <String xml:lang="it-IT">L'ID del giocatore che desideri segnalare.</String>
+        <String xml:lang="fr-FR">L'ID du joueur que tu souhaites signaler.</String>
     </Entry>
 
     <Entry Id="input_report_warning">
@@ -210,6 +213,7 @@
         <String xml:lang="nl-NL">Je staat op het punt om ~r~{0} ~s~aangifte te doen voor {1}.\nOnterecht aangifte doen van een andere speler zal resulteren in ~r~een ban voor jou~s~. Wil je doorgaan?</String>
         <String xml:lang="de-DE">Du bist dabei, ~r~{0} ~s~für {1} ~s~zu melden.\nFalsches Melden eines anderen Spieler wird dazu führen, dass du stattdessen ~r~gebannt wirst~s~. Möchtest du fortfahren?</String>
         <String xml:lang="it-IT">Stai per segnalare ~r~{0} ~s~per {1}.\nSegnalare falsamente un altro utente comporterà ~r~il tuo ban~s~. Vuoi procedere?</String>
+        <String xml:lang="fr-FR">Tu es sur le point de signaler ~r~{0} ~s~pour {1}.\nSi tu signales faussement un autre utilisateur, ~r~tu seras banni ~s~à sa place. Veux-tu continuer?</String>
     </Entry>
 
     <!-- ========================= -->
@@ -985,7 +989,7 @@
     <Entry Id="cant_store_vehicle_when_inside">
         <String xml:lang="en-US">~r~You can't store your personal vehicle while you're inside it!</String>
         <String xml:lang="nl-NL">~r~Je kan je persoonlijke voertuig niet opslaan wanneer je erin zit!</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas stocker ton véhicule personnel lorsque tu es à l'intérieur!</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas ranger ton véhicule personnel lorsque tu es à l'intérieur!</String>
         <String xml:lang="it-IT">~r~Non puoi riporre il tuo veicolo personale mentre sei dentro di esso!</String>
         <String xml:lang="pl-PL">~r~Nie możesz schować swojego pojazdu osobistego gdy w nim jesteś!</String>
         <String xml:lang="es-ES">~r~No puedes guardar tu vehículo personal mientras estés dentro de él.</String>
@@ -1313,6 +1317,7 @@
         <String xml:lang="nl-NL">Aangifte ~r~{0}</String>
         <String xml:lang="de-DE">Du meldest ~r~{0}</String>
         <String xml:lang="it-IT">Segnalazione ~r~{0}</String>
+        <String xml:lang="fr-FR">Signalement ~r~{0}</String>
     </Entry>
 
     <Entry Id="menu_reports_info_description">
@@ -1320,6 +1325,7 @@
         <String xml:lang="nl-NL">~b~Datum en tijd: ~s~{0}\n~b~Reden: ~s~{1} ~s~- ~b~Details: ~s~{2}</String>
         <String xml:lang="de-DE">~b~Datum und Zeit: ~s~{0}\n~b~Grund: ~s~{1} ~s~- ~b~Details: ~s~{2}</String>
         <String xml:lang="it-IT">~b~Data e ora: ~s~{0}\n~b~Motivo: ~s~{1} ~s~- ~b~Dettagli: ~s~{2}</String>
+        <String xml:lang="fr-FR">~b~Date et heure: ~s~{0}\n~b~Raison: ~s~{1} ~s~- ~b~Détails: ~s~{2}</String>
     </Entry>
 
     <Entry Id="menu_reports_info_response">
@@ -1327,6 +1333,7 @@
         <String xml:lang="nl-NL">~b~Reactie van {0}: ~s~{1}</String>
         <String xml:lang="de-DE">~b~Antwort von {0}: ~s~{1}</String>
         <String xml:lang="it-IT">~b~Risposto da {0}: ~s~{1}</String>
+        <String xml:lang="fr-FR">~b~Réponse de {0}: ~s~{1}</String>
     </Entry>
 
     <Entry Id="menu_reports_info_assigned">
@@ -1334,6 +1341,7 @@
         <String xml:lang="nl-NL">~b~Toegewezen aan: ~s~{0}</String>
         <String xml:lang="de-DE">~b~Zugeordnet zu: ~s~{0}</String>
         <String xml:lang="it-IT">~b~Assegnato a: ~s~{0}</String>
+        <String xml:lang="fr-FR">~b~Assigné à: ~s~{0}</String>
     </Entry>
 
     <Entry Id="menu_reports_info_subtitle">
@@ -1341,6 +1349,7 @@
         <String xml:lang="nl-NL">{0} aangiftes in de afgelopen maand</String>
         <String xml:lang="de-DE">{0} Meldungen im letzten Monat</String>
         <String xml:lang="it-IT">{0} segnalazioni nell'ultimo mese</String>
+        <String xml:lang="fr-FR">{0} signalements au cours du dernier mois</String>
     </Entry>
 
     <Entry Id="menu_reports_info_no_recent_text">
@@ -1348,6 +1357,7 @@
         <String xml:lang="nl-NL">Geen recente aangiftes :(</String>
         <String xml:lang="de-DE">Keine aktuellen Meldungen :(</String>
         <String xml:lang="it-IT">Nessuna segnalazione recente :(</String>
+        <String xml:lang="fr-FR">Aucun signalement récent :(</String>
     </Entry>
 
     <Entry Id="menu_reports_info_no_recent_description">
@@ -1355,6 +1365,7 @@
         <String xml:lang="nl-NL">Je hebt de afgelopen tijd geen aangiftes gedaan.</String>
         <String xml:lang="de-DE">Du hast kürzlich keine Meldungen eingereicht.</String>
         <String xml:lang="it-IT">Non hai inviato nessuna segnalazione di recente.</String>
+        <String xml:lang="fr-FR">Tu n'as pas envoyé de signalement récemment.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2097,6 +2108,7 @@
         <String xml:lang="nl-NL">~b~Verwijder alles</String>
         <String xml:lang="de-DE">~b~Entferne alles</String>
         <String xml:lang="it-IT">~b~Rimuovi tutto</String>
+        <String xml:lang="fr-FR">~b~Supprimer tout</String>
     </Entry>
 
     <Entry Id="menu_wardrobe_clear_description">
@@ -2104,6 +2116,7 @@
         <String xml:lang="nl-NL">Haal al je ~b~kleding ~s~en ~b~make-up ~s~van je karakter af.</String>
         <String xml:lang="de-DE">Nimm all deine ~b~Kleidung ~s~und ~b~Make-Up ~s~von deinem Charakter.</String>
         <String xml:lang="it-IT">Rimuovi tutti i tuoi ~b~vestiti ~s~e ~b~trucco ~s~dal tuo personaggio.</String>
+        <String xml:lang="fr-FR">Enlève tous tes ~b~vêtements ~s~et ~b~maquillage ~s~de ton personnage.</String>
     </Entry>
 
     <Entry Id="btn_wardrobe_wear">
@@ -2111,6 +2124,7 @@
         <String xml:lang="nl-NL">Dragen</String>
         <String xml:lang="de-DE">Tragen</String>
         <String xml:lang="it-IT">Indossa</String>
+        <String xml:lang="fr-FR">Porter</String>
     </Entry>
 
     <Entry Id="btn_wardrobe_browse">
@@ -2118,6 +2132,7 @@
         <String xml:lang="nl-NL">Bladeren</String>
         <String xml:lang="de-DE">Durchsuchen</String>
         <String xml:lang="it-IT">Sfoglia</String>
+        <String xml:lang="fr-FR">Parcourir</String>
     </Entry>
 
     <Entry Id="btn_wardrobe_remove">
@@ -2125,6 +2140,7 @@
         <String xml:lang="nl-NL">Verwijderen</String>
         <String xml:lang="de-DE">Entfernen</String>
         <String xml:lang="it-IT">Rimuovi</String>
+        <String xml:lang="fr-FR">Retirer</String>
     </Entry>
 
     <Entry Id="input_wardrobe_search_title">
@@ -2132,6 +2148,7 @@
         <String xml:lang="nl-NL">Zoeken</String>
         <String xml:lang="de-DE">Suchen</String>
         <String xml:lang="it-IT">Cerca</String>
+        <String xml:lang="fr-FR">Rechercher</String>
     </Entry>
 
     <Entry Id="input_wardrobe_search_text">
@@ -2139,6 +2156,7 @@
         <String xml:lang="nl-NL">Voer de naam van een item in of een deel ervan</String>
         <String xml:lang="de-DE">Gib den Namen eines Gegenstanden oder einen Teil vom Namen ein</String>
         <String xml:lang="it-IT">Inserisci il nome di un oggetto o una parte di esso</String>
+        <String xml:lang="fr-FR">Saisir le nom d'un article ou une partie de celui-ci</String>
     </Entry>
 
     <Entry Id="menu_wardrobe_search_subtitle">
@@ -2146,6 +2164,7 @@
         <String xml:lang="nl-NL">Zoeken: ''{0}''</String>
         <String xml:lang="de-DE">Suche: ''{0}''</String>
         <String xml:lang="it-IT">Ricerca: ''{0}''</String>
+        <String xml:lang="fr-FR">Rechercher: ''{0}''</String>
     </Entry>
 
 
