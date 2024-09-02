@@ -5156,8 +5156,16 @@
         <String xml:lang="en-US">TRAILER</String>
     </Entry>
 
+    <Entry Id="ddriver_truck_health">
+        <String xml:lang="en-US">TRUCK</String>
+    </Entry>
+
+    <Entry Id="ddriver_num_deliveries">
+        <String xml:lang="en-US">DELIVERIES</String>
+    </Entry>
+
     <Entry Id="ddriver_job_park_truck_in_area">
-        <String xml:lang="en-US">Park the ~b~truck ~s~in the ~y~marked area~s~.</String>
+        <String xml:lang="en-US">Stop the ~b~truck ~s~in the ~y~marked area~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_park_trailer_in_area">
@@ -5165,7 +5173,7 @@
     </Entry>
 
     <Entry Id="ddriver_job_recover_vehicle">
-        <String xml:lang="en-US">Recover the ~b~truck ~s~or ~b~trailer ~s~with the ~y~goods~s~.</String>
+        <String xml:lang="en-US">Recover the ~b~truck ~s~or ~b~trailer ~s~with the ~y~goods ~s~first.</String>
     </Entry>
 
     <!-- Must be oriented correctly means that the heading/angle of the vehicle must be as 
@@ -5173,10 +5181,15 @@
     north, then the player must park it north. This explanation was given to avoid mistranslations
     due to missing context. -->
     <Entry Id="ddriver_job_park_truck_correct_heading">
-        <String xml:lang="en-US">The ~b~truck ~s~must be oriented correctly.</String>
+        <String xml:lang="en-US">The ~b~truck ~s~must be oriented as shown by the ~y~arrows~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_detach_trailer">
         <String xml:lang="en-US">Detach the ~b~trailer~s~.</String>
+    </Entry>
+
+    <!-- {0} = Type of truck (semi truck, box truck, van) -->
+    <Entry Id="ddriver_job_need_truck_type">
+        <String xml:lang="en-US">You need a ~b~{0} ~s~to continue this ~y~delivery~s~.</String>
     </Entry>
 </Entries>
