@@ -4364,7 +4364,7 @@
         <String xml:lang="en-US">This business ~r~cannot be robbed ~s~yet. This robbery is coming in a ~b~future update~s~.</String>
         <String xml:lang="nl-NL">Dit bedrijf ~r~kan ~s~nog~r~ niet overvallen worden~s~. Deze overval wordt in een ~b~latere update~s~ toegevoegd.</String>
         <String xml:lang="fr-FR">Ce commerce ~r~ne peut pas être braqué ~s~pour l'instant. Ce braquage est prévu dans une ~b~future mise à jour~s~.</String>
-        <String xml:lang="it-IT">Quest'attivita ~r~non può essere rapinata ~s~ancora. Questa rapina arriverà in un ~b~update futuro~s~.</String>
+        <String xml:lang="it-IT">Quest'attività ~r~non può essere rapinata ~s~ancora. Questa rapina arriverà in un ~b~update futuro~s~.</String>
         <String xml:lang="de-DE">Dieses Geschäft kann derzeit ~r~noch nicht ausgeraubt ~s~werden. Diese ~b~Raub-Funktion ~s~kommt in einem späteren Update.</String>
         <String xml:lang="es-ES">Este negocio ~r~no puede ser robado ~s~todavía. Este robo llegará en una ~b~actualización futura~s~.</String>
         <String xml:lang="pl-PL">To miejsce ~r~nie może być jeszcze okradzione~s~. Ten napad przyjdzie w ~b~przyszłej aktualizacji~s~.</String>
@@ -4378,7 +4378,7 @@
         <String xml:lang="en-US">This business ~r~cannot be robbed~s~.</String>
         <String xml:lang="nl-NL">Dit bedrijf ~r~kan niet worden overvallen~s~.</String>
         <String xml:lang="fr-FR">Cette entreprise ~r~ne peut pas être braquée~s~.</String>
-        <String xml:lang="it-IT">Quest'attivita ~r~non può essere rapinata~s~.</String>
+        <String xml:lang="it-IT">Quest'attività ~r~non può essere rapinata~s~.</String>
         <String xml:lang="de-DE">Dises Geschäft ~r~kann nicht ausgeraubt werden~s~.</String>
         <String xml:lang="es-ES">Este negocio ~r~no puede ser robado~s~.</String>
         <String xml:lang="pl-PL">To miejsce ~r~nie może być okradzione~s~.</String>
@@ -4392,7 +4392,7 @@
         <String xml:lang="en-US">This business has been ~r~recently ~s~robbed. Try again later.</String>
         <String xml:lang="nl-NL">Dit bedrijf is ~r~recent ~s~al overvallen. Probeer later nog een keer.</String>
         <String xml:lang="fr-FR">Ce commerce a été ~r~récemment ~s~braqué. Réessaye plus tard.</String>
-        <String xml:lang="it-IT">Quest'attivita è stata rapinata ~r~recentemente~s~. Prova più tardi.</String>
+        <String xml:lang="it-IT">Quest'attività è stata rapinata ~r~recentemente~s~. Prova più tardi.</String>
         <String xml:lang="de-DE">Dieses Geschäft wurde ~r~vor kurzem ~s~ausgeraubt. Versuche es später erneut.</String>
         <String xml:lang="es-ES">Este negocio ha sido ~r~recientemente ~s~robado. Vuelva a intentarlo más tarde.</String>
         <String xml:lang="pl-PL">To miejsce zostało ~r~niedawno ~s~okradzione. Spróbuj ponownie później.</String>
@@ -4407,7 +4407,7 @@
         <String xml:lang="en-US">You can't rob this ~r~business ~s~when there are less than ~b~{0} cops ~s~online.</String>
         <String xml:lang="nl-NL">Je kan dit ~r~bedrijf ~s~niet overvallen wanneer er minder dan ~b~{0} agenten ~s~online zijn.</String>
         <String xml:lang="fr-FR">Tu ne peux pas braquer ce ~r~commerce ~s~quand il y a moins de ~b~{0} policiers ~s~en ligne.</String>
-        <String xml:lang="it-IT">Non puoi rapinare quest'~r~attivita ~s~quando ci sono meno di ~b~{0} poliziotti ~s~online.</String>
+        <String xml:lang="it-IT">Non puoi rapinare quest'~r~attività ~s~quando ci sono meno di ~b~{0} poliziotti ~s~online.</String>
         <String xml:lang="de-DE">Du kannst dieses ~r~Geschäft~s~ nicht ausrauben, wenn weniger als ~b~{0} Polizisten ~s~online sind. </String>
         <String xml:lang="es-ES">No puedes robar este ~r~negocio ~s~cuando hay menos de ~b~{0} policías ~s~en línea.</String>
         <String xml:lang="pl-PL">Nie możesz okraść tego ~r~biznesu ~s~gdy na serwerze jest mniej niż ~b~{0} gliniarzy~s~.</String>
@@ -5320,5 +5320,11 @@
     <!-- {0} = Type of truck (semi truck, box truck, van) -->
     <Entry Id="ddriver_job_need_truck_type">
         <String xml:lang="en-US">You need a ~b~{0} ~s~to continue this ~y~delivery~s~.</String>
+    </Entry>
+
+    <!-- {0} = Player name (id) -->
+    <!-- {1} = Money amount -->
+    <Entry Id="ddriver_job_success_announcement">
+        <String xml:lang="en-US">{0} has completed a delivery and earned {1}.</String>
     </Entry>
 </Entries>
