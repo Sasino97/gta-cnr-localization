@@ -5265,7 +5265,7 @@
     </Entry>
     
     <Entry Id="menu_ddriver_current_delivery_text">
-        <String xml:lang="en-US">~b~Current Delivery</String>
+        <String xml:lang="en-US">Current Delivery</String>
     </Entry>
     
     <Entry Id="menu_ddriver_current_delivery_descr">
@@ -5292,8 +5292,9 @@
         <String xml:lang="en-US">~r~Cancel delivery</String>
     </Entry>
     
+    <!-- {0} = Penalty for cancelling -->
     <Entry Id="menu_ddriver_delivery_cancel_desc">
-        <String xml:lang="en-US">Abandon your current delivery.</String>
+        <String xml:lang="en-US">Abandon your current delivery for ~r~{0}~s~.</String>
     </Entry>
     
     <Entry Id="ddriver_job_menu_refresh_cooldown">
@@ -5397,6 +5398,15 @@
     <!-- {1} = Money amount -->
     <Entry Id="ddriver_job_success_announcement">
         <String xml:lang="en-US">{0} has completed a delivery and earned {1}.</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_canceled_by_user">
+        <String xml:lang="en-US">~r~You have ~s~canceled ~r~the delivery job.</String>
+    </Entry>
+
+    <!-- {0} = Amount charged -->
+    <Entry Id="ddriver_job_canceled_penalty">
+        <String xml:lang="en-US">You have been charged ~r~{0} ~s~as a cancellation penalty.</String>
     </Entry>
 
     <Entry Id="ddriver_job_goods_destroyed">
