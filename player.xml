@@ -978,6 +978,7 @@
         <String xml:lang="it-IT">Impossibile consegnare il tuo veicolo</String>
     </Entry>
 
+    <!-- Shown instead of the vehicle name if it cannot be found (fallback value) -->
     <Entry Id="vehicle_maintenance_completed_invalid_name">
         <String xml:lang="en-US">vehicle</String>
         <String xml:lang="nl-NL">voertuig</String>
@@ -999,6 +1000,18 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถเก็บยานพาหนะส่วนตัวของคุณในขณะที่อยู่ภายในรถได้!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat menaruh kendaraan pribadi ketika anda berada didalamnya!</String>
         <String xml:lang="hi-Latn">~r~Aap apne personal vehicle ko store nahi kar sakte jab tak aap andar baithe ho!</String>
+    </Entry>
+
+    <Entry Id="cant_store_vehicle_when_part_of_mission">
+        <String xml:lang="en-US">~r~You can't store your personal vehicle when it's being used as part of a mission!</String>
+    </Entry>
+
+    <Entry Id="cant_maintenance_vehicle_when_part_of_mission">
+        <String xml:lang="en-US">~r~You can't send your personal vehicle to maintenance when it's being used as part of a mission!</String>
+    </Entry>
+
+    <Entry Id="cant_summon_vehicle_when_part_of_mission">
+        <String xml:lang="en-US">~r~You can't get a vehicle delivered when your current one is being used as part of a mission!</String>
     </Entry>
 
     <Entry Id="changed_jobs_delivery_canceled">
@@ -1935,7 +1948,7 @@
         <String xml:lang="hi-Latn">Item do</String>
         <String xml:lang="fr-FR">Donner un objet</String>
         <String xml:lang="de-DE">Gegenstand geben</String>
-        <String xml:lang="it-IT">Consegnare oggetto</String>
+        <String xml:lang="it-IT">Consegna oggetto</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_item_description">
@@ -1944,7 +1957,7 @@
         <String xml:lang="hi-Latn">Dijiye (C){0}(/C) ek item apni inventory se.~n~~y~Warning:~s~ trade ~r~kare apne own risk pe~s~,ham aapko guarantee nahi de sakte ki aapko badle mein kuch milega ye trasaction karke.</String>
         <String xml:lang="fr-FR">Donner à (C){0}(/C) un objet de ton inventaire.~n~~y~Avertissement:~s~ échange ~r~à tes risques et périls~s~, nous ne garantissons pas que tu recevras quoi que ce soit en échange de cette transaction.</String>
         <String xml:lang="de-DE">Gib (C){0}(/C) einen Gegenstand aus deinem Inventar.~n~~y~Warnung:~s~ Handle ~r~auf eigene Gefahr~s~, wir garantieren nicht, dass du etwas im Austausch für diese Transaktion erhälst.</String>
-        <String xml:lang="it-IT">Dai (C){0}(/C) un oggetto dal tuo inventario.~n~~y~Attenzione:~s~ scambio ~r~a tuo rischio~s~, non garantiamo che riceverai qualcosa in cambio per questa transazione.</String>
+        <String xml:lang="it-IT">Dai a (C){0}(/C) un oggetto dal tuo inventario.~n~~y~Attenzione:~s~ scambio ~r~a tuo rischio~s~, non garantiamo che riceverai qualcosa in cambio per questa transazione.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_keys">
@@ -1953,7 +1966,7 @@
         <String xml:lang="hi-Latn">Chabiyan dijiye</String>
         <String xml:lang="fr-FR">Donner des clés</String>
         <String xml:lang="de-DE">Schlüssel geben</String>
-        <String xml:lang="it-IT">Consegnare chiavi</String>
+        <String xml:lang="it-IT">Consegna chiavi</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_keys_description">
@@ -2025,7 +2038,7 @@
         <String xml:lang="hi-Latn">Cash Do</String>
         <String xml:lang="fr-FR">Donner de l'argent</String>
         <String xml:lang="de-DE">Geld geben</String>
-        <String xml:lang="it-IT">Dare contante</String>
+        <String xml:lang="it-IT">Dai contante</String>
     </Entry>
 
     <Entry Id="input_playermenu_give_cash_text">

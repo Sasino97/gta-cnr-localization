@@ -767,6 +767,10 @@
         <String xml:lang="cs-CZ">~r~Pro přístup do tohoto menu musíš nejprve získat práci.</String>
     </Entry>
 
+    <Entry Id="imenu_job_descr_undefined">
+        <String xml:lang="en-US">~r~This job doesn't have a menu.</String>
+    </Entry>
+
     <Entry Id="imenu_job_descr_drug_dealer">
         <String xml:lang="en-US">Manage your drugs stock, view recent calls and past sales.</String>
         <String xml:lang="pl-PL">Zarządzaj swoim towarem, podejrzyj ostatnie zawołania oraz poprzednie sprzedaże.</String>
@@ -805,6 +809,10 @@
         <String xml:lang="id-ID">Kelola peralatan dan barang yang anda jual, lihat panggilan terkini, dan riwayat penjualan.</String>
         <String xml:lang="hi-Latn">Manage kare wo tools aur items jo aapne sell kiye, view kare recent calls aur pehle ki sales.</String>
         <String xml:lang="cs-CZ">Spravuj nástroje a položky, které prodáváš, prohlížej si poslední poptávky a uskutečněné prodeje.</String>
+    </Entry>
+
+    <Entry Id="imenu_job_descr_trucker">
+        <String xml:lang="en-US">View the lists of available and past deliveries.</String>
     </Entry>
 
     <Entry Id="imenu_job_descr_police">
@@ -951,7 +959,7 @@
         <String xml:lang="ar-001">~b~الأسهم</String>
         <String xml:lang="th-TH">~b~คลัง</String>
         <String xml:lang="vi-VN">~b~Kho</String>
-        <String xml:lang="id-ID">~b~persediaan</String>
+        <String xml:lang="id-ID">~b~Persediaan</String>
         <String xml:lang="cs-CZ">~b~Zásoby</String>
     </Entry>
 
@@ -1246,7 +1254,7 @@
         <String xml:lang="ar-001">{0} لا يمكنه استقبال ~r~{1} ~s~اكثر~r~{2}~s~.</String>
         <String xml:lang="th-TH">{0} ไม่สามารถถือ ~r~{1} ~s~more ~r~{2}~s~</String>
         <String xml:lang="vi-VN">{0} không thể giữ thêm ~r~{1}~s~ ~r~{2}~s~.</String>
-        <String xml:lang="id-ID">{0} Tidak dapat membawa ~r~{1} ~s~lagi ~r~{2}~s~.</String>
+        <String xml:lang="id-ID">{0} tidak dapat membawa ~r~{1} ~s~lagi ~r~{2}~s~.</String>
         <String xml:lang="hi-Latn">{0} nahi rakh sakte ~r~{1} ~s~zyada ~r~{2}~s~.</String>
         <String xml:lang="cs-CZ">{0} nemůže nést ~r~{1} ~s~více ~r~{2}~s~.</String>
     </Entry>
@@ -1527,7 +1535,7 @@
         <String xml:lang="ar-001">التغيرات~b~ ~s~تم حفظها</String>
         <String xml:lang="th-TH">การ ~b~เปลี่ยนแปลง ~s~ได้รับการบันทึกแล้ว</String>
         <String xml:lang="vi-VN">~b~Những thay đổi ~s~đã được lưu.</String>
-        <String xml:lang="id-ID">~b~Perubahan yang anda lakukan ~s~telah disimpan.</String>
+        <String xml:lang="id-ID">~b~Perubahan ~s~yang anda lakukan telah disimpan.</String>
         <String xml:lang="tr-TR">~b~Değişikler ~s~kaydedildi.</String>
         <String xml:lang="hi-Latn">Aapke ~b~changes ~s~save kar liye gaye hain.</String>
         <String xml:lang="cs-CZ"> ~b~změny ~s~byly uloženy.</String>
@@ -2195,7 +2203,7 @@
         <String xml:lang="nl-NL">Huurmoordenaar</String>
         <String xml:lang="de-DE">Kopfgeldjäger</String>
         <String xml:lang="fr-FR">Tueur à gages</String>
-        <String xml:lang="it-IT">Assassino</String>
+        <String xml:lang="it-IT">Sicario</String>
     </Entry>
 
     <Entry Id="imenu_services_hitman_description">
@@ -2203,6 +2211,6 @@
         <String xml:lang="nl-NL">Bel een ~r~huurmoordenaar ~s~om iemand te laten verdwijnen.</String>
         <String xml:lang="de-DE">Rufe einen ~r~Kopfgeldjäger~s~,um jemanden loszuwerden.</String>
         <String xml:lang="fr-FR">Appeler un ~r~tueur à gages ~s~pour se débarrasser de quelqu'un.</String>
-        <String xml:lang="it-IT">Chiama un ~r~assassino ~s~per liberarti di qualcuno.</String>
+        <String xml:lang="it-IT">Chiama un ~r~sicario ~s~per liberarti di qualcuno.</String>
     </Entry>
 </Entries>

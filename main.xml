@@ -464,6 +464,10 @@
         <String xml:lang="cs-CZ">Obnovit</String>
     </Entry>
 
+    <Entry Id="btn_sort">
+        <String xml:lang="en-US">Sort</String>
+    </Entry>
+
     <Entry Id="btn_add">
         <String xml:lang="en-US">Add</String>
         <String xml:lang="nl-NL">Toevoegen</String>
@@ -519,10 +523,10 @@
         <String xml:lang="es-ES">~g~GRATIS</String>
         <String xml:lang="pt-BR">~g~GRÁTIS</String>
         <String xml:lang="ar-001">~g~مجاني</String>
-        <String xml:lang="id-ID">GRATIS</String>
+        <String xml:lang="id-ID">~g~GRATIS</String>
         <String xml:lang="th-TH">~g~ฟรี</String>
         <String xml:lang="hi-Latn">~g~FREE</String>
-        <String xml:lang="cs-CZ">~g~Zdarma</String>
+        <String xml:lang="cs-CZ">~g~ZDARMA</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1076,5 +1080,14 @@
         <String xml:lang="de-DE">{0} ist nun der Partyleiter.</String>
         <String xml:lang="fr-FR">{0} est maintenant le chef.</String>
         <String xml:lang="it-IT">{0} è ora il leader del party.</String>
+    </Entry>
+
+    <!-- For bottom-left info boxes (timers etc..) (all upper case please)-->
+    <Entry Id="mission_time_left">
+        <String xml:lang="en-US">TIME LEFT</String>
+    </Entry>
+
+    <Entry Id="mission_late">
+        <String xml:lang="en-US">LATE</String>
     </Entry>
 </Entries>
