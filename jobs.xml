@@ -698,7 +698,7 @@
         <String xml:lang="pt-BR">Você abandonou o ~r~ponto de drogas~s~.</String>
         <String xml:lang="th-TH">คุณออกจาก ~r~จุดขายยา~s~</String>
         <String xml:lang="ar-001">لقد تركت ~r~مكان بيع المخدرات هذا~s~.</String>
-        <String xml:lang="id-ID">anda telah meninggalkan ~r~tempat penjualan narkoba~s~.</String>
+        <String xml:lang="id-ID">Anda telah meninggalkan ~r~tempat penjualan narkoba~s~.</String>
         <String xml:lang="tr-TR">~r~Uyuşturucu noktasını ~s~terk ettiniz.</String>
         <String xml:lang="hi-Latn">Aap ~r~drug spot ~s~chhor diye ho.</String>
     </Entry>
@@ -5242,6 +5242,19 @@
     
     <Entry Id="menu_ddriver_history_subtitle">
         <String xml:lang="en-US">Select a past delivery job</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_current_delivery_text">
+        <String xml:lang="en-US">Current Delivery</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_current_delivery_descr">
+        <String xml:lang="en-US">View details about the delivery in progress.</String>
+    </Entry>
+    
+    <!-- {0} = Final destination name -->
+    <Entry Id="menu_ddriver_current_delivery_subtitle">
+        <String xml:lang="en-US">Delivery to {0}</String>
     </Entry>
     
     <!-- {0} = Number of jobs -->
