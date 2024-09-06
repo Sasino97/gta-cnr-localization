@@ -5212,6 +5212,10 @@
         <String xml:lang="it-IT">Non hai veicoli per il tuo ~b~lavoro attuale~s~, e ~r~non puoi ~s~usare i tuoi veicoli personali mentre sei a lavoro. Acquista veicoli da lavoro e compariranno in questo menu.</String>
     </Entry>
     
+    <!-- ================================= -->
+    <!-- ====== Delivery Driver Job ====== -->
+    <!-- ================================= -->
+
     <Entry Id="ddriver_description">
         <String xml:lang="en-US">~c~(C)Delivery Driver:(/C) ~s~deliver ~b~goods ~s~to earn money.</String>
     </Entry>
@@ -5228,8 +5232,12 @@
         <String xml:lang="en-US">View the available delivery jobs.</String>
     </Entry>
     
-    <Entry Id="menu_ddriver_deliveries_subtitle">
-        <String xml:lang="en-US">Select a delivery job</String>
+    <Entry Id="menu_ddriver_deliveries_sorted_by_payout">
+        <String xml:lang="en-US">Sorted by payout</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_deliveries_sorted_by_distance">
+        <String xml:lang="en-US">Sorted by distance to pickup location</String>
     </Entry>
     
     <Entry Id="menu_ddriver_history_text">
@@ -5250,6 +5258,27 @@
     
     <Entry Id="menu_ddriver_current_delivery_descr">
         <String xml:lang="en-US">View details about the delivery in progress.</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_details">
+        <String xml:lang="en-US">Details</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_cancel">
+        <String xml:lang="en-US">~r~Cancel Delivery</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_cancel_desc">
+        <String xml:lang="en-US">Abandon your current delivery.</String>
+    </Entry>
+    
+    <Entry Id="ddriver_job_menu_refresh_cooldown">
+        <String xml:lang="en-US">You must ~r~wait ~s~before refreshing the deliveries menu again.</String>
+    </Entry>
+    
+    <!-- {0} = Time to await -->
+    <Entry Id="ddriver_job_take_job_cooldown">
+        <String xml:lang="en-US">You must wait ~y~{0} ~s~before taking another delivery job.</String>
     </Entry>
     
     <!-- {0} = Final destination name -->
@@ -5335,9 +5364,33 @@
         <String xml:lang="en-US">You need a ~b~{0} ~s~to continue this ~y~delivery~s~.</String>
     </Entry>
 
+    <!-- {0} = Amount earned -->
+    <Entry Id="ddriver_job_success_message">
+        <String xml:lang="en-US">You completed the ~b~delivery job ~s~and earned ~g~{0}~s~!</String>
+    </Entry>
+
     <!-- {0} = Player name (id) -->
     <!-- {1} = Money amount -->
     <Entry Id="ddriver_job_success_announcement">
         <String xml:lang="en-US">{0} has completed a delivery and earned {1}.</String>
     </Entry>
+
+    <Entry Id="ddriver_job_goods_destroyed">
+        <String xml:lang="en-US">~r~The ~s~goods ~r~have been destroyed.</String>
+    </Entry>
+
+    <!-- {0} = Amount charged -->
+    <Entry Id="ddriver_job_goods_destroyed_charged">
+        <String xml:lang="en-US">You have been charged ~r~{0} ~s~to cover the losses</String>
+    </Entry>
+
+    <!-- {0} = Amount covered -->
+    <Entry Id="ddriver_job_goods_destroyed_covered">
+        <String xml:lang="en-US">The ~b~insurance company ~s~has fully covered the losses (~r~{0}~s~)</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_goods_destroyed_not_covered">
+        <String xml:lang="en-US">The ~b~insurance company ~s~has rejected your claim</String>
+    </Entry>
+    
 </Entries>

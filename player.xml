@@ -978,6 +978,7 @@
         <String xml:lang="it-IT">Impossibile consegnare il tuo veicolo</String>
     </Entry>
 
+    <!-- Shown instead of the vehicle name if it cannot be found (fallback value) -->
     <Entry Id="vehicle_maintenance_completed_invalid_name">
         <String xml:lang="en-US">vehicle</String>
         <String xml:lang="nl-NL">voertuig</String>
@@ -999,6 +1000,10 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถเก็บยานพาหนะส่วนตัวของคุณในขณะที่อยู่ภายในรถได้!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat menaruh kendaraan pribadi ketika anda berada didalamnya!</String>
         <String xml:lang="hi-Latn">~r~Aap apne personal vehicle ko store nahi kar sakte jab tak aap andar baithe ho!</String>
+    </Entry>
+
+    <Entry Id="cant_store_vehicle_when_part_of_mission">
+        <String xml:lang="en-US">~r~You can't store your personal vehicle when it's being used as part of a mission!</String>
     </Entry>
 
     <Entry Id="changed_jobs_delivery_canceled">
