@@ -2358,4 +2358,24 @@
     <Entry Id="menu_hitman_new_contract_create">
         <String xml:lang="en-US">Create</String>
     </Entry>
+
+    <Entry Id="hitman_new_contract_response_success">
+        <String xml:lang="en-US">Contract has been ~g~successfully~s~ created!</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_invalid_target">
+        <String xml:lang="en-US">~r~The specified target is invalid.</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_invalid_reward">
+        <String xml:lang="en-US">~r~The reward amount is invalid.</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_too_many">
+        <String xml:lang="en-US">~r~Target has reached the maximum number of active contracts.</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_duplicate">
+        <String xml:lang="en-US">~r~You cannot create duplicate contracts for the same target.</String>
+    </Entry>
 </Entries>
