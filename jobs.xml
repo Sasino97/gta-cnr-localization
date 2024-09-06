@@ -43,6 +43,7 @@
         <String xml:lang="hi-Latn">Aapko kamse kam ~r~level {0} ~s~hona chahiye ~p~{1} ~s~banne ke liye.</String>
     </Entry>
 
+    <!-- {0} = Job name -->
     <Entry Id="jobs_banned">
         <String xml:lang="en-US">You are temporarily ~r~banned~s~ from the {0} job.</String>
         <String xml:lang="nl-NL">Je bent tijdelijk ~r~verbannen~s~ van de {0} baan.</String>
@@ -52,6 +53,7 @@
         <String xml:lang="it-IT">Sei temporaneamente ~r~bannato~s~ dal lavoro di {0}.</String>
     </Entry>
 
+    <!-- {0} = Job name -->
     <Entry Id="jobs_wanted_level">
         <String xml:lang="en-US">You cannot become a {0} when you are ~o~wanted~s~.</String>
         <String xml:lang="nl-NL">Je kan geen {0} worden wanneer je ~o~gezocht~s~ wordt.</String>
@@ -61,6 +63,7 @@
         <String xml:lang="it-IT">Non puoi diventare un {0} quando sei ~o~ricercato~s~.</String>
     </Entry>
 
+    <!-- {0} = Job name -->
     <Entry Id="jobs_test_required">
         <String xml:lang="en-US">You need to pass the ~y~Exam~s~ to become a {0}.</String>
         <String xml:lang="nl-NL">Je moet het ~y~Examen~s~ halen om een {0} te worden.</String>
@@ -70,6 +73,8 @@
         <String xml:lang="it-IT">Devi superare l'~y~Esame~s~ per diventare un {0}.</String>
     </Entry>
 
+    <!-- {0} = Job name -->
+    <!-- {1} = Percentage -->
     <Entry Id="jobs_player_limit">
         <String xml:lang="en-US">You can't become a {0} because the {1}% player limit has been reached.</String>
         <String xml:lang="nl-NL">Je kan geen {0} worden omdat het limiet van {1}% is bereikt.</String>
@@ -114,7 +119,7 @@
         <String xml:lang="pt-BR">Você deve ~r~esperar ~s~alguns segundos antes transformarse nuevamente em ~p~{0}~s~.</String>
         <String xml:lang="ar-001">أنت بحاجة إلى ~r~الأنتظار ~s~قبل أن تصبح ~p~{0} ~s~مرة أخرى.</String>
         <String xml:lang="th-TH">คุณต้อง ~r~รอ ~s~ก่อนที่จะกลายเป็น ~p~{0} ~s~อีกครั้ง</String>
-        <String xml:lang="vi-VN">Bạn cần phải ~r~đoi85 ~s~trước khi trở thành một ~p~{0} ~s~again.</String>
+        <String xml:lang="vi-VN">Bạn cần phải ~r~đoi ~s~trước khi trở thành một ~p~{0} ~s~một lần nữa.</String>
         <String xml:lang="id-ID">Anda harus ~r~menunggu ~s~sebelum dapat bekerja sebagai ~p~{0} ~s~lagi.</String>
         <String xml:lang="tr-TR">Tekrar ~p~{0} ~s~olmadan önce ~r~beklemeniz ~s~gerekiyor.</String>
         <String xml:lang="hi-Latn">Aapko ~r~wait ~s~karna hoga dobara ~p~{0} ~s~banne se pehle.</String>
@@ -4886,13 +4891,14 @@
         <String xml:lang="it-IT">Scassina</String>
     </Entry>
 
+    <!-- i.e. stop cracking the safe -->
     <Entry Id="robbery_instructional_stop">
-        <String xml:lang="en-US">Stop (hold)</String>
-        <String xml:lang="nl-NL">Stop (vasthouden)</String>
-        <String xml:lang="fr-FR">Arrêter (maintenir)</String>
-        <String xml:lang="hi-Latn">Stop (hold)</String>
-        <String xml:lang="de-DE">Stop (halten)</String>
-        <String xml:lang="it-IT">Stop (tenere)</String>
+        <String xml:lang="en-US">Stop</String>
+        <String xml:lang="nl-NL">Stop</String>
+        <String xml:lang="fr-FR">Arrêter</String>
+        <String xml:lang="hi-Latn">Stop</String>
+        <String xml:lang="de-DE">Stop</String>
+        <String xml:lang="it-IT">Fermati</String>
     </Entry>
 
     <Entry Id="no_nearby_players_give_weapon">
@@ -5259,19 +5265,31 @@
     </Entry>
     
     <Entry Id="menu_ddriver_current_delivery_text">
-        <String xml:lang="en-US">Current Delivery</String>
+        <String xml:lang="en-US">~b~Current Delivery</String>
     </Entry>
     
     <Entry Id="menu_ddriver_current_delivery_descr">
         <String xml:lang="en-US">View details about the delivery in progress.</String>
     </Entry>
     
-    <Entry Id="menu_ddriver_delivery_details">
-        <String xml:lang="en-US">Details</String>
+    <Entry Id="menu_ddriver_delivery_details_payout">
+        <String xml:lang="en-US">Payout</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_details_time_left">
+        <String xml:lang="en-US">Time left</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_details_itinerary">
+        <String xml:lang="en-US">Itinerary</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_details_other">
+        <String xml:lang="en-US">Other info</String>
     </Entry>
     
     <Entry Id="menu_ddriver_delivery_cancel">
-        <String xml:lang="en-US">~r~Cancel Delivery</String>
+        <String xml:lang="en-US">~r~Cancel delivery</String>
     </Entry>
     
     <Entry Id="menu_ddriver_delivery_cancel_desc">
