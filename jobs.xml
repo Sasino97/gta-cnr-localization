@@ -120,6 +120,10 @@
         <String xml:lang="hi-Latn">Aapko ~r~wait ~s~karna hoga dobara ~p~{0} ~s~banne se pehle.</String>
     </Entry>
 
+    <Entry Id="jobs_cant_change_while_on_mission">
+        <String xml:lang="en-US">~r~You cannot change your job while you're on a mission.</String>
+    </Entry>
+
     <Entry Id="jobs_cant_change_inside_vehicle">
         <String xml:lang="en-US">~r~You cannot change your job while you're in a vehicle.</String>
         <String xml:lang="nl-NL">~r~Je kan niet van baan veranderen wanneer je in een voertuig zit.</String>
@@ -5232,12 +5236,14 @@
         <String xml:lang="en-US">View the available delivery jobs.</String>
     </Entry>
     
+    <!-- Try to keep this as short as possible (needs to fit in menu subheader) -->
     <Entry Id="menu_ddriver_deliveries_sorted_by_payout">
         <String xml:lang="en-US">Sorted by payout</String>
     </Entry>
     
+    <!-- Try to keep this as short as possible (needs to fit in menu subheader) -->
     <Entry Id="menu_ddriver_deliveries_sorted_by_distance">
-        <String xml:lang="en-US">Sorted by distance to pickup location</String>
+        <String xml:lang="en-US">Sorted by pickup distance</String>
     </Entry>
     
     <Entry Id="menu_ddriver_history_text">
