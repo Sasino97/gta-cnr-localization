@@ -127,6 +127,7 @@
 
     <Entry Id="jobs_cant_change_while_on_mission">
         <String xml:lang="en-US">~r~You cannot change your job while you're on a mission.</String>
+        <String xml:lang="nl-NL">~r~Je kan niet van baan veranderen wanneer je op een missie bent.</String>
     </Entry>
 
     <Entry Id="jobs_cant_change_inside_vehicle">
@@ -5228,145 +5229,155 @@
 
     <Entry Id="ddriver_description">
         <String xml:lang="en-US">~c~(C)Delivery Driver:(/C) ~s~deliver ~b~goods ~s~to earn money.</String>
+        <String xml:lang="nl-NL">~c~(C)Pakketbezorger:(/C) ~s~bezorg ~b~goederen ~s~om geld te verdienen.</String>
     </Entry>
     
     <Entry Id="menu_ddriver_title">
         <String xml:lang="en-US">Delivery Driver</String>
+        <String xml:lang="nl-NL">Pakketbezorger</String>
     </Entry>
     
     <Entry Id="menu_ddriver_deliveries_text">
         <String xml:lang="en-US">Deliveries</String>
+        <String xml:lang="nl-NL">Bezorgingen</String>
     </Entry>
     
     <Entry Id="menu_ddriver_deliveries_descr">
         <String xml:lang="en-US">View the available delivery jobs.</String>
+        <String xml:lang="nl-NL">Bekijk de beschikbare bezorgingen.</String>
     </Entry>
     
     <!-- Try to keep this as short as possible (needs to fit in menu subheader) -->
     <Entry Id="menu_ddriver_deliveries_sorted_by_payout">
         <String xml:lang="en-US">Sorted by payout</String>
+        <String xml:lang="nl-NL">Gesorteerd op uitbetaling</String>
     </Entry>
     
     <!-- Try to keep this as short as possible (needs to fit in menu subheader) -->
     <Entry Id="menu_ddriver_deliveries_sorted_by_distance">
         <String xml:lang="en-US">Sorted by pickup distance</String>
+        <String xml:lang="nl-NL">Gesorteerd op afstand</String>
     </Entry>
     
     <Entry Id="menu_ddriver_history_text">
         <String xml:lang="en-US">History</String>
+        <String xml:lang="nl-NL">Geschiedenis</String>
     </Entry>
     
     <Entry Id="menu_ddriver_history_descr">
         <String xml:lang="en-US">View the delivery jobs that you completed in the current session.</String>
+        <String xml:lang="nl-NL">Bekijk de bezorgingen die je hebt voltooid in de huidige sessie.</String>
     </Entry>
     
     <Entry Id="menu_ddriver_history_subtitle">
         <String xml:lang="en-US">Select a past delivery job</String>
+        <String xml:lang="nl-NL">Selecteer een eerdere bezorging</String>
     </Entry>
     
     <Entry Id="menu_ddriver_current_delivery_text">
         <String xml:lang="en-US">Current Delivery</String>
+        <String xml:lang="nl-NL">Huidige bezorging</String>
     </Entry>
     
     <Entry Id="menu_ddriver_current_delivery_descr">
         <String xml:lang="en-US">View details about the delivery in progress.</String>
+        <String xml:lang="nl-NL">Bekijk details over de bezorging die momenteel bezig is.</String>
     </Entry>
     
-    <Entry Id="menu_ddriver_delivery_details_payout">
-        <String xml:lang="en-US">Payout</String>
-    </Entry>
-    
-    <Entry Id="menu_ddriver_delivery_details_time_left">
-        <String xml:lang="en-US">Time left</String>
-    </Entry>
-    
-    <Entry Id="menu_ddriver_delivery_details_itinerary">
-        <String xml:lang="en-US">Itinerary</String>
-    </Entry>
-    
-    <Entry Id="menu_ddriver_delivery_details_other">
-        <String xml:lang="en-US">Other info</String>
+    <Entry Id="menu_ddriver_delivery_details">
+        <String xml:lang="en-US">Details</String>
+        <String xml:lang="nl-NL">Details</String>
     </Entry>
     
     <Entry Id="menu_ddriver_delivery_cancel">
-        <String xml:lang="en-US">~r~Cancel delivery</String>
+        <String xml:lang="en-US">~r~Cancel Delivery</String>
+        <String xml:lang="nl-NL">~r~Bezorging annuleren</String>
     </Entry>
     
-    <!-- {0} = Penalty for cancelling -->
     <Entry Id="menu_ddriver_delivery_cancel_desc">
-        <String xml:lang="en-US">Abandon your current delivery for ~r~{0}~s~.</String>
+        <String xml:lang="en-US">Abandon your current delivery.</String>
+        <String xml:lang="nl-NL">Annuleer je huidige bezorging.</String>
     </Entry>
     
     <Entry Id="ddriver_job_menu_refresh_cooldown">
         <String xml:lang="en-US">You must ~r~wait ~s~before refreshing the deliveries menu again.</String>
+        <String xml:lang="nl-NL">Je moet ~r~wachten ~s~voordat je de lijst met bezorgingen mag verversen</String>
     </Entry>
     
     <!-- {0} = Time to await -->
     <Entry Id="ddriver_job_take_job_cooldown">
         <String xml:lang="en-US">You must wait ~y~{0} ~s~before taking another delivery job.</String>
+        <String xml:lang="nl-NL">Je moet ~y~{0} ~s~wachten voordat je een andere bezorging mag aannemen.</String>
     </Entry>
     
     <!-- {0} = Final destination name -->
     <Entry Id="menu_ddriver_current_delivery_subtitle">
         <String xml:lang="en-US">Delivery to {0}</String>
+        <String xml:lang="nl-NL">Bezorging naar {0}</String>
     </Entry>
     
     <!-- {0} = Number of jobs -->
     <!-- {1} = stp_press or stp_hold (defined in businesses.xml) -->
     <Entry Id="ddriver_n_jobs_available">
         <String xml:lang="en-US">There are ~y~{0} delivery jobs ~s~available at the moment. {1} to open the delivery list.</String>
+        <String xml:lang="nl-NL">Er zijn ~y~{0} bezorgingen ~s~beschikbaar op dit moment. {1} om de lijst met bezorgingen te openen.</String>
     </Entry>
     
     <!-- Shown at the bottom right as an instructional button. -->
     <!-- Can be combined with "Hold" (btn_stp_label_hold) if player is using a gamepad. -->
     <Entry Id="ddriver_view_jobs">
         <String xml:lang="en-US">View jobs</String>
+        <String xml:lang="nl-NL">Bekijk opdrachten</String>
     </Entry>
     
     <Entry Id="ddriver_already_on_job">
         <String xml:lang="en-US">You are already on a delivery job.</String>
+        <String xml:lang="nl-NL">Je bent al bezig met een bezorging.</String>
     </Entry>
     
     <Entry Id="ddriver_job_no_longer_available">
         <String xml:lang="en-US">This delivery job is no longer available.</String>
+        <String xml:lang="nl-NL">Deze bezorging is niet langer beschikbaar.</String>
     </Entry>
     
     <!-- Shown at the bottom as mission text / subtitle -->
     <!-- {0} = Area name -->
     <Entry Id="ddriver_job_go_to_pickup">
         <String xml:lang="en-US">Go to ~y~{0} ~s~and pick up the ~b~goods~s~.</String>
+        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en haal de ~b~goederen~s~ op.</String>
     </Entry>
     
     <Entry Id="ddriver_job_pick_up_trailer">
         <String xml:lang="en-US">Pick up the ~y~trailer ~s~using a ~b~semi truck~s~.</String>
+        <String xml:lang="nl-NL">Haal de ~y~aanhanger ~s~op met een ~b~vrachtwagen~s~.</String>
     </Entry>
 
     <!-- Shown at the bottom as mission text / subtitle -->
     <!-- {0} = Area name -->
     <Entry Id="ddriver_job_go_to_dropoff">
         <String xml:lang="en-US">Go to ~y~{0} ~s~and drop off the ~b~goods~s~.</String>
-    </Entry>
-    
-    <!-- {0} = Area name -->
-    <Entry Id="ddriver_job_go_to_dropoff_parcel">
-        <String xml:lang="en-US">Go to ~y~{0} ~s~and deliver the next ~b~package~s~.</String>
+        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en lever de ~b~goederen~s~ af.</String>
     </Entry>
 
     <!-- Shown at the bottom right as a box with a health bar (please all uppercase) -->
     <Entry Id="ddriver_trailer_health">
         <String xml:lang="en-US">TRAILER</String>
+        <String xml:lang="nl-NL">AANHANGER</String>
     </Entry>
 
     <Entry Id="ddriver_truck_health">
         <String xml:lang="en-US">TRUCK</String>
+        <String xml:lang="nl-NL">VRACHTWAGEN</String>
     </Entry>
 
     <Entry Id="ddriver_num_deliveries">
         <String xml:lang="en-US">DELIVERIES</String>
+        <String xml:lang="nl-NL">BEZORGINGEN</String>
     </Entry>
 
     <Entry Id="ddriver_job_park_truck_in_area">
         <String xml:lang="en-US">Stop the ~b~truck ~s~in the ~y~marked area~s~.</String>
+        <String xml:lang="nl-NL">Parkeer de ~b~vrachtwagen ~s~in het ~y~gemarkeerde gebied~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_park_trailer_in_area">
@@ -5387,26 +5398,31 @@
     due to missing context. -->
     <Entry Id="ddriver_job_park_truck_correct_heading">
         <String xml:lang="en-US">The ~b~truck ~s~must be oriented as shown by the ~y~arrows~s~.</String>
+        <String xml:lang="nl-NL">De ~b~vrachtwagen ~s~moet worden geparkeerd zoals aangegeven door de ~y~pijlen~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_detach_trailer">
         <String xml:lang="en-US">Detach the ~b~trailer~s~.</String>
+        <String xml:lang="nl-NL">Koppel de ~b~aanhanger~s~ los.</String>
     </Entry>
 
     <!-- {0} = Type of truck (semi truck, box truck, van) -->
     <Entry Id="ddriver_job_need_truck_type">
         <String xml:lang="en-US">You need a ~b~{0} ~s~to continue this ~y~delivery~s~.</String>
+        <String xml:lang="nl-NL">Je hebt een ~b~{0} ~s~nodig om deze ~y~bezorging~s~ voort te zetten.</String>
     </Entry>
 
     <!-- {0} = Amount earned -->
     <Entry Id="ddriver_job_success_message">
         <String xml:lang="en-US">You completed the ~b~delivery job ~s~and earned ~g~{0}~s~!</String>
+        <String xml:lang="nl-NL">Je hebt de ~b~bezorging ~s~voltooid en ~g~{0} ~s~verdiend!</String>
     </Entry>
 
     <!-- {0} = Player name (id) -->
     <!-- {1} = Money amount -->
     <Entry Id="ddriver_job_success_announcement">
         <String xml:lang="en-US">{0} has completed a delivery and earned {1}.</String>
+        <String xml:lang="nl-NL">{0} heeft een bezorging voltooid en {1} verdiend.</String>
     </Entry>
 
     <Entry Id="ddriver_job_canceled_by_user">
@@ -5420,23 +5436,51 @@
 
     <Entry Id="ddriver_job_goods_destroyed">
         <String xml:lang="en-US">~r~The ~s~goods ~r~have been destroyed.</String>
+        <String xml:lang="nl-NL">~r~De ~s~goederen ~r~zijn vernietigd.</String>
     </Entry>
 
     <!-- {0} = Amount charged -->
     <Entry Id="ddriver_job_goods_destroyed_charged">
         <String xml:lang="en-US">You have been charged ~r~{0} ~s~to cover the losses</String>
+        <String xml:lang="nl-NL">Er is ~r~{0} ~s~in rekening gebracht om de schade te dekken</String>
     </Entry>
 
     <!-- {0} = Amount covered -->
     <Entry Id="ddriver_job_goods_destroyed_covered">
         <String xml:lang="en-US">The ~b~insurance company ~s~has fully covered the losses (~r~{0}~s~)</String>
+        <String xml:lang="nl-NL">De ~b~verzekeringsmaatschappij ~s~heeft de schade volledig gedekt (~r~{0}~s~)</String>
     </Entry>
 
     <Entry Id="ddriver_job_goods_destroyed_not_covered">
         <String xml:lang="en-US">The ~b~insurance company ~s~has rejected your claim</String>
+        <String xml:lang="nl-NL">De ~b~verzekeringsmaatschappij ~s~heeft je claim afgewezen</String>
     </Entry>
 
     <Entry Id="ddriver_job_canceled_error">
         <String xml:lang="en-US">~r~The delivery has been canceled due to an error.</String>
+    </Entry>
+
+    <!-- ================================= -->
+    <!-- ====== Hitman Job ====== -->
+    <!-- ================================= -->
+
+    <Entry Id="hitman_target_selected_hint">
+        <String xml:lang="en-US">Use any ~y~payphone~s~ to reveal the nearby location of your ~r~target~s~.</String>
+        <String xml:lang="nl-NL">Gebruik een ~y~telefooncel~s~ om de nabijgelegen locatie van je ~r~doelwit~s~ te onthullen.</String>
+    </Entry>
+
+    <Entry Id="hitman_payphone_cooldown">
+        <String xml:lang="en-US">You need to wait ~r~{0} seconds ~s~before using ~y~payphone~s~ again.</String>
+        <String xml:lang="nl-NL">Je moet ~r~{0} seconden ~s~wachten voordat je de ~y~telefooncel~s~ opnieuw kunt gebruiken.</String>
+    </Entry>
+
+    <Entry Id="hitman_payphone_no_active_target">
+        <String xml:lang="en-US">You need to select a contract before using ~y~payphone~s~.</String>
+        <String xml:lang="nl-NL">Je moet eerst een moordcontract selecteren voordat je de ~y~telefooncel~s~ kunt gebruiken.</String>
+    </Entry>
+
+    <Entry Id="hitman_payphone_used_hint">
+        <String xml:lang="en-US">You can find your ~r~target~s~ in the ~o~orange area~s~ on your map.</String>
+        <String xml:lang="nl-NL">Je kunt je ~r~doelwit~s~ vinden in het ~o~oranje gebied~s~ op je kaart.</String>
     </Entry>
 </Entries>
