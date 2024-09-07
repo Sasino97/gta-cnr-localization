@@ -5283,6 +5283,22 @@
         <String xml:lang="en-US">View details about the delivery in progress.</String>
         <String xml:lang="nl-NL">Bekijk details over de bezorging die momenteel bezig is.</String>
     </Entry>
+
+    <Entry Id="menu_ddriver_delivery_details_payout">
+        <String xml:lang="en-US">Payout</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_details_time_left">
+        <String xml:lang="en-US">Time left</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_details_itinerary">
+        <String xml:lang="en-US">Itinerary</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_details_other">
+        <String xml:lang="en-US">Other info</String>
+    </Entry>
     
     <Entry Id="menu_ddriver_delivery_details">
         <String xml:lang="en-US">Details</String>
@@ -5357,6 +5373,11 @@
     <Entry Id="ddriver_job_go_to_dropoff">
         <String xml:lang="en-US">Go to ~y~{0} ~s~and drop off the ~b~goods~s~.</String>
         <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en lever de ~b~goederen~s~ af.</String>
+    </Entry>
+
+    <!-- {0} = Area name -->
+    <Entry Id="ddriver_job_go_to_dropoff_parcel">
+        <String xml:lang="en-US">Go to ~y~{0} ~s~and deliver the next ~b~package~s~.</String>
     </Entry>
 
     <!-- Shown at the bottom right as a box with a health bar (please all uppercase) -->
