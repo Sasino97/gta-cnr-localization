@@ -4,17 +4,19 @@
     <Entry Id="jobs_switch_to">
         <String xml:lang="en-US">Switch to {0}</String>
         <String xml:lang="nl-NL">Wissel naar {0}</String>
-        <String xml:lang="fr-FR">Passer à {0}</String>
+        <String xml:lang="fr-FR">Devenir {0}</String>
         <String xml:lang="hi-Latn">Switch karo {0}</String>
         <String xml:lang="de-DE">Wechsle zu {0}</String>
+        <String xml:lang="it-IT">Passa a {0}</String>
     </Entry>
 
     <Entry Id="jobs_switch_to_description">
         <String xml:lang="en-US">Save your current job progress and become a {0}.</String>
         <String xml:lang="nl-NL">Sla je huidige carrière op en word een {0}.</String>
-        <String xml:lang="fr-FR">Sauvegarder la progression de ton travail actuel et devenir un {0}.</String>
+        <String xml:lang="fr-FR">Sauvegarder la progression de ton travail actuel et deviens un {0}.</String>
         <String xml:lang="hi-Latn">Save kare apne haal ki job progress aur bann jao ek {0}.</String>
         <String xml:lang="de-DE">Speichere deinen aktuellen Job-Fortschritt und werde ein {0}.</String>
+        <String xml:lang="it-IT">Salva i progressi del tuo lavoro attuale e diventa un {0}.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -47,6 +49,7 @@
         <String xml:lang="fr-FR">Tu es temporairement ~r~banni~s~ de l'emploi {0}.</String>
         <String xml:lang="hi-Latn">Aap temporarily ~r~banned ~s~ho {0} ~s~job se.</String>
         <String xml:lang="de-DE">Du wurdest temporär vom {0}-Job ~r~gebannt~s~.</String>
+        <String xml:lang="it-IT">Sei temporaneamente ~r~bannato~s~ dal lavoro di {0}.</String>
     </Entry>
 
     <Entry Id="jobs_wanted_level">
@@ -55,6 +58,7 @@
         <String xml:lang="fr-FR">Tu ne peux pas devenir un {0} quand tu es ~o~recherché~s~.</String>
         <String xml:lang="hi-Latn">Aap {0} nahi bann sakte jab aap ~o~wanted ~s~ho.</String>
         <String xml:lang="de-DE">Du kannst kein {0} werden, wenn du ~o~gesucht~s~ wirst.</String>
+        <String xml:lang="it-IT">Non puoi diventare un {0} quando sei ~o~ricercato~s~.</String>
     </Entry>
 
     <Entry Id="jobs_test_required">
@@ -63,6 +67,7 @@
         <String xml:lang="fr-FR">Tu dois réussir l'~y~examen~s~ pour devenir un {0}.</String>
         <String xml:lang="hi-Latn">Aapko ~y~Exam ~s~pass karna hoga {0} banne ke liye.</String>
         <String xml:lang="de-DE">Du musst die ~y~Prüfung~s~ bestehen, um ein {0} zu werden.</String>
+        <String xml:lang="it-IT">Devi superare l'~y~Esame~s~ per diventare un {0}.</String>
     </Entry>
 
     <Entry Id="jobs_player_limit">
@@ -71,6 +76,7 @@
         <String xml:lang="fr-FR">Tu ne peux pas devenir un {0} car la limite de joueurs de {1}% a été atteinte.</String>
         <String xml:lang="hi-Latn">Aap {0} nahi bann sakte kyuki {1}% player ki limit lag chuki hai.</String>
         <String xml:lang="de-DE">Du kannst kein {0} werden, da das {1}% Spielerlimit erreicht wurde.</String>
+        <String xml:lang="it-IT">Non puoi diventare un {0} perché è stato raggiunto il limite del {1}% di giocatori.</String>
     </Entry>
 
     <!-- {0} = required playtime -->
@@ -112,6 +118,10 @@
         <String xml:lang="id-ID">Anda harus ~r~menunggu ~s~sebelum dapat bekerja sebagai ~p~{0} ~s~lagi.</String>
         <String xml:lang="tr-TR">Tekrar ~p~{0} ~s~olmadan önce ~r~beklemeniz ~s~gerekiyor.</String>
         <String xml:lang="hi-Latn">Aapko ~r~wait ~s~karna hoga dobara ~p~{0} ~s~banne se pehle.</String>
+    </Entry>
+
+    <Entry Id="jobs_cant_change_while_on_mission">
+        <String xml:lang="en-US">~r~You cannot change your job while you're on a mission.</String>
     </Entry>
 
     <Entry Id="jobs_cant_change_inside_vehicle">
@@ -692,7 +702,7 @@
         <String xml:lang="pt-BR">Você abandonou o ~r~ponto de drogas~s~.</String>
         <String xml:lang="th-TH">คุณออกจาก ~r~จุดขายยา~s~</String>
         <String xml:lang="ar-001">لقد تركت ~r~مكان بيع المخدرات هذا~s~.</String>
-        <String xml:lang="id-ID">anda telah meninggalkan ~r~tempat penjualan narkoba~s~.</String>
+        <String xml:lang="id-ID">Anda telah meninggalkan ~r~tempat penjualan narkoba~s~.</String>
         <String xml:lang="tr-TR">~r~Uyuşturucu noktasını ~s~terk ettiniz.</String>
         <String xml:lang="hi-Latn">Aap ~r~drug spot ~s~chhor diye ho.</String>
     </Entry>
@@ -972,6 +982,7 @@
         <String xml:lang="fr-FR">Tu as obtenu un ~b~{0}~s~!</String>
         <String xml:lang="hi-Latn">Aapko mila ek ~b~{0}~s~!</String>
         <String xml:lang="de-DE">Du hast ein ~b~{0}~s~ erhalten!</String>
+        <String xml:lang="it-IT">Hai ottenuto un ~b~{0}~s~!</String>
     </Entry>
 
     <Entry Id="mechanic_dont_have_vehicle_repair">
@@ -1016,6 +1027,7 @@
         <String xml:lang="fr-FR">~r~Ce type de véhicule ne peut pas être réparé ici!</String>
         <String xml:lang="hi-Latn">~r~Iss type ki gaadi yaha repair nahi ho sakti!</String>
         <String xml:lang="de-DE">~r~Dieser Fahrzeugtyp kann hier nicht repariert werden!</String>
+        <String xml:lang="it-IT">~r~Questo tipo di veicolo non può essere riparato qui!</String>
     </Entry>
 
     <Entry Id="mechanic_cant_change_plate_others">
@@ -1042,6 +1054,7 @@
         <String xml:lang="fr-FR">Ton véhicule est en cours de ~g~réparation~s~. Ne ~r~bouge ~s~pas le véhicule!</String>
         <String xml:lang="hi-Latn">Aapki vehicle ~g~repair ho rahi hai~s~. Vehicle ~r~move ~s~mat karna!</String>
         <String xml:lang="de-DE">Dein Fahrzeug wird ~g~repariert~s~. ~r~Bewege ~s~das Fahrzeug nicht!</String>
+        <String xml:lang="it-IT">Il tuo veicolo è in fase di ~g~riparazione~s~. Non ~r~muovere ~s~il veicolo!</String>
     </Entry>
 
     <Entry Id="mechanic_vehicle_repaired">
@@ -1104,6 +1117,7 @@
         <String xml:lang="fr-FR">~r~La réparation a été annulée.</String>
         <String xml:lang="hi-Latn">~r~Repair cancel ho gaya.</String>
         <String xml:lang="de-DE">~r~Die Reparatur wurde abgebrochen.</String>
+        <String xml:lang="it-IT">~r~La riparazione è stata annullata.</String>
     </Entry>
 
     <Entry Id="mechanic_full_repair">
@@ -1112,6 +1126,7 @@
         <String xml:lang="fr-FR">Réparation complète</String>
         <String xml:lang="hi-Latn">Puri repair</String>
         <String xml:lang="de-DE">Volle Reparatur</String>
+        <String xml:lang="it-IT">Riparazione completa</String>
     </Entry>
 
     <!-- {0} = seconds needed for the repair -->
@@ -1121,6 +1136,7 @@
         <String xml:lang="fr-FR">Réparer complètement ton véhicule. Durée: ~b~{0} secondes~s~.</String>
         <String xml:lang="hi-Latn">Puri repair kare apni vehicle. Time: ~b~{0} seconds ~s~mein.</String>
         <String xml:lang="de-DE">Dein Fahrzeug wird vollständig repariert. Zeit: ~b~{0} seconds~s~.</String>
+        <String xml:lang="it-IT">Ripara completamente il tuo veicolo. Tempo: ~b~{0} secondi~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_quick_repair">
@@ -1129,6 +1145,7 @@
         <String xml:lang="fr-FR">Réparation rapide</String>
         <String xml:lang="hi-Latn">Turant fix</String>
         <String xml:lang="de-DE">Schnelle Reparatur</String>
+        <String xml:lang="it-IT">Riparazione rapida</String>
     </Entry>
 
     <!-- {0} = seconds needed for the repair -->
@@ -1138,6 +1155,7 @@
         <String xml:lang="fr-FR">Réparer rapidement le moteur de ton véhicule jusqu'à 75% de santé. Durée: ~b~{0} secondes~s~.</String>
         <String xml:lang="hi-Latn">Turant fix kare apni vehicle ka engine 75% tak ke. Time: ~b~{0} seconds ~s~mein.</String>
         <String xml:lang="de-DE">Repariere den Motor deines Fahrzeugs schnell bis zu 75% Gesundheit. Zeit: ~b~{0} seconds~s~.</String>
+        <String xml:lang="it-IT">Ripara rapidamente il motore del tuo veicolo fino al 75% di salute. Tempo: ~b~{0} secondi~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_tire_repair">
@@ -1146,6 +1164,7 @@
         <String xml:lang="fr-FR">Réparation des pneus</String>
         <String xml:lang="hi-Latn">Fix tires</String>
         <String xml:lang="de-DE">Repariere Reifen</String>
+        <String xml:lang="it-IT">Sostituzione pneumatici</String>
     </Entry>
 
     <!-- {0} = seconds needed for the repair -->
@@ -1155,6 +1174,7 @@
         <String xml:lang="fr-FR">Remplacer les pneus de ton véhicule. Durée: ~b~{0} secondes~s~.</String>
         <String xml:lang="hi-Latn">Replace kare apni vehicle ke tires. Time: ~b~{0} seconds ~s~mein.</String>
         <String xml:lang="de-DE">Wechsle die Reifen deines Fahrzeuges. Zeit: ~b~{0} seconds~s~.</String>
+        <String xml:lang="it-IT">Sostituisci gli pneumatici del tuo veicolo. Tempo: ~b~{0} secondi~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_cant_impound_vehicle">
@@ -1235,6 +1255,7 @@
         <String xml:lang="fr-FR">Plaque personnalisée</String>
         <String xml:lang="hi-Latn">Custom plate</String>
         <String xml:lang="de-DE">Wunschkennzeichen</String>
+        <String xml:lang="it-IT">Targa personalizzata</String>
     </Entry>
 
     <Entry Id="mechanic_plate_input_text">
@@ -1243,6 +1264,7 @@
         <String xml:lang="fr-FR">Entrer une plaque d'immatriculation personnalisée pour ce véhicule.\nAvertissement: quand tu obtiens une plaque d'immatriculation, tu ne la possèdes que dans la région actuelle (US ou EU). Quand tu rejoins une autre région, le serveur tente de la transférer, mais si elle est déjà utilisée, elle ne sera pas transférée.</String>
         <String xml:lang="hi-Latn">Is gaadi ke liye ek custom license plate daalein.\nWarning: jab aap ek license plate milta hai, toh aap sirf us region mein use kar sakte hain (US ya EU). Jab aap doosre region mein jaate hain, toh server uss vehicle plate ko tranasfer karne ki koshish karta hai, lekin agar woh pahle se hi istemaal mein hai to usse transfer nahin kiya ja sakta.</String>
         <String xml:lang="de-DE">Gib ein Wunschkennzeichen für dieses Fahrzeug ein.\nWarning: wenn du ein Wunschkennzeichen beanstpruchst, kannst du es ausschließlich in der aktuellen Region (US or EU) verwenden. Wenn du eine andere Region betrittst, wird der Server versuchen, es zu übertragen, sollte das Kennzeichen bereits in Verwendung sein, wird es nicht übertragen.</String>
+        <String xml:lang="it-IT">Inserisci una targa personalizzata per questo veicolo.\nAttenzione: quando ottieni una targa, la possiedi solo nella regione attuale (US o EU). Quando ti trasferisci in un'altra regione, il server cercherà di trasferirla lì, tuttavia, se è già in uso, non verrà trasferita.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_word">
@@ -1324,6 +1346,7 @@
         <String xml:lang="fr-FR">~r~Tu ne peux pas changer la plaque d'immatriculation d'un véhicule volé.</String>
         <String xml:lang="hi-Latn">~r~Aap ek churayi hui gaadi ka license place change nahi kar sakte.</String>
         <String xml:lang="de-DE">~r~Du kannst das Kennzeichen eines gestohlenen Fahrzeuges nicht ändern.</String>
+        <String xml:lang="it-IT">~r~Non puoi personalizzare la targa di un veicolo rubato.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_rented_car">
@@ -3300,6 +3323,7 @@
         <String xml:lang="nl-NL">Dit ~r~voertuig~s~ is in beweging.</String>
         <String xml:lang="fr-FR">Le ~r~véhicule~s~ est en mouvement.</String>
         <String xml:lang="de-DE">Das ~r~Fahrzeug~s~ bewegt sich.</String>
+        <String xml:lang="it-IT">Il ~r~veicolo~s~ è in movimento.</String>
     </Entry>
 
     <Entry Id="police_break_window_success">
@@ -3307,6 +3331,7 @@
         <String xml:lang="nl-NL">Je hebt het raam van {0} ingeslagen en de deur ontgrendeld.</String>
         <String xml:lang="fr-FR">Tu as brisé la fenêtre de {0} et déverrouillé la porte.</String>
         <String xml:lang="de-DE">Du hast die Fenster des {0} eingeschlagen und die Türen entriegelt.</String>
+        <String xml:lang="it-IT">Hai sfondato il finestrino di {0} e sbloccato la porta.</String>
     </Entry>
 
     <Entry Id="police_window_broken">
@@ -3314,6 +3339,7 @@
         <String xml:lang="nl-NL">Agent {0} heeft jouw raam ingeslagen en de deur ontgrendeld.</String>
         <String xml:lang="fr-FR">L'agent {0} a brisé ta fenêtre et déverrouillé la porte.</String>
         <String xml:lang="de-DE">Polizist {0} hat deine Scheiben eingeschlagen und die Türen entriegelt.</String>
+        <String xml:lang="it-IT">L'agente {0} ha sfondato il tuo finestrino e sbloccato la porta.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -3323,9 +3349,10 @@
     <Entry Id="police_exam_question_wanted_colors">
         <String xml:lang="en-US">The colors of the name tag and radar icon of wanted suspects are...</String>
         <String xml:lang="nl-NL">De kleuren van de naamtag en radaricoon van gezochte verdachten zijn...</String>
-        <String xml:lang="fr-FR">Les couleurs du nom et de l'icône radar des suspects recherchés sont...</String>
+        <String xml:lang="fr-FR">Les couleurs du pseudo et de l'icône sur la mini-carte des suspects recherchés sont...</String>
         <String xml:lang="hi-Latn">Wanted suspecs ke name tag aur radar icon konse color ke hote hain...</String>
         <String xml:lang="de-DE">Die Farbe des Nametags und des Radaricons von gesuchten Verdächtigen ist...</String>
+        <String xml:lang="it-IT">I colori del tag giocatore e dell'icona radar dei sospetti ricercati sono di colore...</String>
     </Entry>
 
     <Entry Id="police_exam_answer_wanted_colors_red">
@@ -3334,6 +3361,7 @@
         <String xml:lang="fr-FR">Rouge</String>
         <String xml:lang="hi-Latn">Red (laal)</String>
         <String xml:lang="de-DE">Rot</String>
+        <String xml:lang="it-IT">Rosso</String>
     </Entry>
 
     <Entry Id="police_exam_answer_wanted_colors_orange">
@@ -3342,6 +3370,7 @@
         <String xml:lang="fr-FR">Orange</String>
         <String xml:lang="hi-Latn">Orange (naarangee)</String>
         <String xml:lang="de-DE">Orange</String>
+        <String xml:lang="it-IT">Arancione</String>
     </Entry>
 
     <Entry Id="police_exam_answer_wanted_colors_white">
@@ -3350,6 +3379,7 @@
         <String xml:lang="fr-FR">Blanc</String>
         <String xml:lang="hi-Latn">White (safed)</String>
         <String xml:lang="de-DE">Weiß</String>
+        <String xml:lang="it-IT">Bianco</String>
     </Entry>
 
     <Entry Id="police_exam_question_lethal_force">
@@ -3358,6 +3388,7 @@
         <String xml:lang="fr-FR">Un ~b~policier ~s~peut utiliser la force létale...</String>
         <String xml:lang="hi-Latn">Ek ~b~cop ~s~lethal force ka istemaal kar sakta hai...</String>
         <String xml:lang="de-DE">Ein ~b~Polizist ~s~kann tödliche Gewalt anwenden...</String>
+        <String xml:lang="it-IT">Un ~b~poliziotto ~s~può usare forza letale...</String>
     </Entry>
 
     <Entry Id="police_exam_answer_lethal_force_protect">
@@ -3366,6 +3397,7 @@
         <String xml:lang="fr-FR">Pour protéger sa propre vie et celle des autres agents</String>
         <String xml:lang="hi-Latn">Apni zindagi aur doosre officers ki zindagi ko bachane ke liye</String>
         <String xml:lang="de-DE">um sein eigenes Leben und das Leben anderer Polizisten zu beschützen</String>
+        <String xml:lang="it-IT">Per proteggere la propria vita e quella degli altri agenti</String>
     </Entry>
 
     <Entry Id="police_exam_answer_lethal_force_car">
@@ -3374,22 +3406,25 @@
         <String xml:lang="fr-FR">En représailles pour avoir endommagé sa ~y~voiture~s~ en stationnement</String>
         <String xml:lang="hi-Latn">Unke park ki hui ~y~car ~s~ko nuksaan pahunchane ka badla lete hue</String>
         <String xml:lang="de-DE">Aus Rache für das Beschädigen ihres geparkten ~y~Fahrzeuges~s~</String>
+        <String xml:lang="it-IT">In rappresaglia per aver danneggiato la loro ~y~auto~s~ parcheggiata</String>
     </Entry>
 
     <Entry Id="police_exam_answer_lethal_force_respect">
         <String xml:lang="en-US">To teach the ~o~suspect ~s~some respect</String>
         <String xml:lang="nl-NL">Om de ~o~verdachte ~s~een beetje respect te leren</String>
-        <String xml:lang="fr-FR">Pour apprendre au ~o~suspect ~s~un peu de respect</String>
+        <String xml:lang="fr-FR">Pour apprendre le respect aux ~o~suspects~s~</String>
         <String xml:lang="hi-Latn">Thodi respect sikhane ke liye ~o~suspect ~s~ko</String>
         <String xml:lang="de-DE">Um den ~o~Verdächtigne ~s~etwas Respekt beizubringen</String>
+        <String xml:lang="it-IT">Per insegnare al ~o~sospettato ~s~un po' di rispetto</String>
     </Entry>
 
     <Entry Id="police_exam_answer_lethal_force_most_wanted">
         <String xml:lang="en-US">To take down a ~r~most wanted ~s~felon</String>
         <String xml:lang="nl-NL">Om een verdachte met ~r~bounty ~s~neer te halen</String>
-        <String xml:lang="fr-FR">Pour éliminer un criminel ~r~le plus recherché~s~</String>
+        <String xml:lang="fr-FR">Pour éliminer le criminel ~r~le plus recherché~s~</String>
         <String xml:lang="hi-Latn">Pakadne ke liye ~r~most wanted ~s~suspect ko</String>
         <String xml:lang="de-DE">Um einen ~r~meistgesuchten ~s~Schwerverbrecher zur Strecke zu bringen</String>
+        <String xml:lang="it-IT">Per eliminare il criminale ~r~più ricercato~s~</String>
     </Entry>
 
     <Entry Id="police_exam_answer_lethal_force_pvp">
@@ -3398,6 +3433,7 @@
         <String xml:lang="fr-FR">Toujours, c'est un serveur PvP</String>
         <String xml:lang="hi-Latn">Hamesha, Kyunki yeh ek PvP server hai</String>
         <String xml:lang="de-DE">Immer, das ist ein PvP-Server</String>
+        <String xml:lang="it-IT">Sempre, questo è un server PvP</String>
     </Entry>
 
     <Entry Id="police_exam_question_tires">
@@ -3406,6 +3442,7 @@
         <String xml:lang="fr-FR">Un ~b~policier ~s~peut tirer sur les pneus d'un ~o~suspect~s~...</String>
         <String xml:lang="hi-Latn">Ek ~b~cop ~s~kab ek ~o~suspect ~s~ke tires shoot kar sakta hai...</String>
         <String xml:lang="de-DE">Ein ~b~Polizist ~s~kann auf die Reifen eines ~o~Verdächt~s~ schießen...</String>
+        <String xml:lang="it-IT">Un ~b~poliziotto ~s~può sparare ai pneumatici di un ~o~sospettato~s~...</String>
     </Entry>
 
     <Entry Id="police_exam_answer_tires_too_fast">
@@ -3414,6 +3451,7 @@
         <String xml:lang="fr-FR">Quand le suspect est trop rapide</String>
         <String xml:lang="hi-Latn">Jab suspect bahut tezi se bhag raha ho</String>
         <String xml:lang="de-DE">Wenn der Verdächtige zu schnell ist</String>
+        <String xml:lang="it-IT">Quando il sospettato è troppo veloce</String>
     </Entry>
 
     <Entry Id="police_exam_answer_tires_far_away">
@@ -3422,6 +3460,7 @@
         <String xml:lang="fr-FR">Quand le suspect est trop éloigné</String>
         <String xml:lang="hi-Latn">Jab suspect bahut door ho aapse</String>
         <String xml:lang="de-DE">Wenn der Verdächtige zu weit weg ist</String>
+        <String xml:lang="it-IT">Quando il sospettato è troppo lontano</String>
     </Entry>
 
     <Entry Id="police_exam_answer_tires_mw">
@@ -3430,30 +3469,34 @@
         <String xml:lang="fr-FR">Quand le suspect est ~r~le plus recherché~s~</String>
         <String xml:lang="hi-Latn">Jab ek suspect ~r~most wanted ~s~ho</String>
         <String xml:lang="de-DE">Wenn der Verdächtige ~r~meistgesucht~s~ ist</String>
+        <String xml:lang="it-IT">Quando il sospettato è il ~r~più ricercato~s~</String>
     </Entry>
 
     <Entry Id="police_exam_answer_tires_ramming">
         <String xml:lang="en-US">When the suspect is ramming their patrol car that they are currently occupying</String>
         <String xml:lang="nl-NL">Wanneer de verdachte het dienstvoertuig ramt waar de agent in zit</String>
-        <String xml:lang="fr-FR">Quand le suspect fonce sur la voiture de patrouille à bord de laquelle ils se trouvent</String>
+        <String xml:lang="fr-FR">Quand le suspect fonce sur la voiture de patrouille occupée par les policiers</String>
         <String xml:lang="hi-Latn">Jab suspect thok raha ho patrol car ko, jisme cops maujood ho</String>
         <String xml:lang="de-DE">Wenn der Verdächtige den Streifenwagen rammt, in dem du dich gerade befindest</String>
+        <String xml:lang="it-IT">Quando il sospettato sta tamponando il veicolo di pattuglia che sta attualmente occupando</String>
     </Entry>
 
     <Entry Id="police_exam_answer_tires_shooting">
         <String xml:lang="en-US">When the suspect is shooting from the vehicle</String>
         <String xml:lang="nl-NL">Wanneer de verdachte vanuit het voertuig schiet</String>
-        <String xml:lang="fr-FR">Quand le suspect tire depuis le véhicule</String>
+        <String xml:lang="fr-FR">Quand le suspect tire depuis son véhicule</String>
         <String xml:lang="hi-Latn">Jab suspect gaadi se shoot kar raha ho</String>
         <String xml:lang="de-DE">Wenn der Verdächtige vom Fahrzeug aus schießt</String>
+        <String xml:lang="it-IT">Quando il sospettato sta sparando dal veicolo</String>
     </Entry>
 
     <Entry Id="police_exam_question_arrest">
         <String xml:lang="en-US">How can a ~b~cop ~s~arrest a non-complying, non-threatening ~o~suspect~s~?</String>
         <String xml:lang="nl-NL">Hoe kan een ~b~agent ~s~een niet meewerkende, niet bedreigende ~o~verdachte~s~ arresteren?</String>
-        <String xml:lang="fr-FR">Comment un ~b~policier ~s~peut-il arrêter un ~o~suspect ~s~qui ne respecte pas les lois et ne représente pas une menace?</String>
+        <String xml:lang="fr-FR">Comment un ~b~policier ~s~peut-il arrêter un ~o~suspect ~s~qui ne respecte pas la loi et ne représente pas un danger?</String>
         <String xml:lang="hi-Latn">Kaise ek ~b~cop ~s~ek ~o~suspect ~s~ko arrest kare jo baat nahi maan raha, aur khatarnaak nahi hai?</String>
         <String xml:lang="de-DE">Wie kann ein ~b~Polizist ~s~einen a nicht-konformen, nicht bedrohlichen ~o~Verdächtigen~s~ verhaften?</String>
+        <String xml:lang="it-IT">Come può un ~b~poliziotto ~s~arrestare un ~o~sospettato~s~ che non collabora e non rappresenta una minaccia?</String>
     </Entry>
 
     <Entry Id="police_exam_answer_arrest_kill">
@@ -3462,6 +3505,7 @@
         <String xml:lang="fr-FR">Tu n'arrêtes pas les suspects, tu leur tires dessus et tu les tues. C'est CnR, pas un serveur RP.</String>
         <String xml:lang="hi-Latn">Tum suspect ko arrest nahi karte, bas unhe goli maar ke mar dete ho. Yeh CnR hai, RP server nahi.</String>
         <String xml:lang="de-DE">Du verhaftest keine Verdächtigen, du schießt einfach und tötest sie. Das ist CnR, kein RP-Server.</String>
+        <String xml:lang="it-IT">Non arresti il sospettato, semplicemente spari e o uccidi. Questo è CnR, non un server RP.</String>
     </Entry>
 
     <Entry Id="police_exam_answer_arrest_stun">
@@ -3470,6 +3514,7 @@
         <String xml:lang="fr-FR">En le neutralisant avec un pistolet paralysant</String>
         <String xml:lang="hi-Latn">Unko stun gun se stun karke</String>
         <String xml:lang="de-DE">indem du sie mit einem Elektroschocker betäubst</String>
+        <String xml:lang="it-IT">Stordendolo con un taser</String>
     </Entry>
 
     <Entry Id="police_exam_answer_arrest_shoot">
@@ -3478,22 +3523,25 @@
         <String xml:lang="fr-FR">En lui tirant dessus en guise d'avertissement, tout en lui ordonnant d'arrêter de bouger sous peine de mort</String>
         <String xml:lang="hi-Latn">Unko goli maar ke warning dena, unko move nahi karna warna maar denge ka order dena</String>
         <String xml:lang="de-DE">indem du als Warnung auf sie schießt, während du ihnen befiehlst, stehen zu bleiben, oder sie würden sterben</String>
+        <String xml:lang="it-IT">Sparandoli un colpo di avvertimento, mentre gli ordini di fermarsi altrimenti morirà</String>
     </Entry>
 
     <Entry Id="police_exam_answer_arrest_baton">
         <String xml:lang="en-US">By using a baton and beating them up</String>
         <String xml:lang="nl-NL">Door een wapenstok te gebruiken en ze in elkaar te slaan</String>
-        <String xml:lang="fr-FR">En utilisant une matraque et en le frappant</String>
+        <String xml:lang="fr-FR">En utilisant sa matraque et en le frappant</String>
         <String xml:lang="hi-Latn">Danda istemal karke unhe pitne se.</String>
         <String xml:lang="de-DE">indem du mit einem Schlagstock auf sie einprügelst</String>
+        <String xml:lang="it-IT">Usando un manganello e picchiandoli</String>
     </Entry>
 
     <Entry Id="police_exam_answer_arrest_tap">
         <String xml:lang="en-US">By using their patrol car to gently tap them at low speed</String>
         <String xml:lang="nl-NL">Door je dienstvoertuig te gebruiken om ze zachtjes aan te tikken</String>
-        <String xml:lang="fr-FR">En utilisant sa voiture de patrouille pour le percuter gentiment à faible vitesse</String>
+        <String xml:lang="fr-FR">En utilisant sa voiture de patrouille pour le percuter doucement à faible vitesse</String>
         <String xml:lang="hi-Latn">Apni patrol car ka istemal karke unhe halki speed mein unhe dheere se maar ke.</String>
         <String xml:lang="de-DE">indem du sie mit deinem Streifenwagen leicht bei geringer Geschwindigkeit rammst</String>
+        <String xml:lang="it-IT">Usando il veicolo di pattuglia per colpirli leggermente a bassa velocità</String>
     </Entry>
 
     <Entry Id="police_exam_question_radio">
@@ -3502,6 +3550,7 @@
         <String xml:lang="fr-FR">La radio peut être utilisée...</String>
         <String xml:lang="hi-Latn">Emergency radio use kiya jaa sakta hai...</String>
         <String xml:lang="de-DE">Der Notfunk kann benutzt werden...</String>
+        <String xml:lang="it-IT">La radio di emergenza può essere utilizzata...</String>
     </Entry>
 
     <Entry Id="police_exam_answer_radio_activity">
@@ -3510,22 +3559,25 @@
         <String xml:lang="fr-FR">Pour informer les autres ~b~policiers ~s~et ~p~ambulanciers ~s~d'une activité criminelle en cours</String>
         <String xml:lang="hi-Latn">Chal rahe crimes ke bare mein aur ~b~cops ~s~aur ~p~paramedics ~s~ko inform karne ke liye.</String>
         <String xml:lang="de-DE">Um andere ~b~Polizisten ~s~und ~p~Sanitäter ~s~über laufende kriminelle Aktivitäten zu informieren</String>
+        <String xml:lang="it-IT">Per informare altri ~b~poliziotti ~s~e ~p~paramedici ~s~di attività criminale in corso</String>
     </Entry>
 
     <Entry Id="police_exam_answer_radio_hush">
         <String xml:lang="en-US">To tell other cops to ~r~shut up ~s~any time they report a crime</String>
         <String xml:lang="nl-NL">Om andere agenten te vertellen dat ze ~r~hun mond moeten houden ~s~wanneer ze een misdrijf melden</String>
-        <String xml:lang="fr-FR">Pour dire aux autres policiers de ~r~se taire ~s~chaque fois qu'ils signalent un crime</String>
+        <String xml:lang="fr-FR">Pour dire aux autres policiers de ~r~se taire ~s~chaque fois qu'ils signalent une activité criminelle</String>
         <String xml:lang="hi-Latn">Doosre cops ko ~r~chup ~s~karane ke liye jab bhi wo ek crime ki report de rahe ho</String>
         <String xml:lang="de-DE">Um anderen Polizisten zu sagen, dass sie ~r~ruhig sein sollen~s~, immer, wenn sie eine Straftat melden.</String>
+        <String xml:lang="it-IT">Per dire ad altri poliziotti di ~r~stare zitti ~s~ogni volta che segnalano un crimine</String>
     </Entry>
 
     <Entry Id="police_exam_answer_radio_coordinate">
         <String xml:lang="en-US">To coordinate and cooperate with other ~b~cops ~s~and ~p~paramedics</String>
         <String xml:lang="nl-NL">Om te coördineren en samen te werken met andere ~b~politieagenten ~s~en ~p~ambulancebroeders</String>
-        <String xml:lang="fr-FR">Pour coordonner et coopérer avec les autres ~b~policiers ~s~et ~p~ambulanciers</String>
+        <String xml:lang="fr-FR">Pour se coordonner et coopérer avec les autres ~b~policiers ~s~et ~p~ambulanciers</String>
         <String xml:lang="hi-Latn">Coordination aur cooperation karne ke liye doosre ~b~cops ~s~aur ~p~paramedics se</String>
         <String xml:lang="de-DE">um sich mit anderen ~b~Polizisten ~s~und ~p~Sanitätern zu koordinieren und mit ihnen zusammenzuarbeiten</String>
+        <String xml:lang="it-IT">Per coordinarsi e cooperare con altri ~b~poliziotti ~s~e ~p~paramedici</String>
     </Entry>
 
     <Entry Id="police_exam_question_suspect_attack">
@@ -3534,6 +3586,7 @@
         <String xml:lang="fr-FR">Un ~o~suspect ~s~peut attaquer et tuer un ~b~policier ~s~quand</String>
         <String xml:lang="hi-Latn">Ek ~o~suspect ~s~kab ek ~b~cop ~s~ko attack aur maar sakta hai</String>
         <String xml:lang="de-DE">Ein ~o~Verdächtiger ~s~kann einen ~b~Polizisten ~s~angreifen und töten, wenn</String>
+        <String xml:lang="it-IT">Un ~o~sospetto ~s~può attaccare e uccidere un ~b~poliziotto ~s~quando</String>
     </Entry>
 
     <Entry Id="police_exam_answer_suspect_attack_revenge">
@@ -3542,6 +3595,7 @@
         <String xml:lang="fr-FR">Il veut se ~r~venger ~s~sur le ~b~policier ~s~pour une action négative antérieure dans la même session</String>
         <String xml:lang="hi-Latn">Wo ~r~revenge ~s~lena chahte hain ~b~officer ~s~se, puchle kuch negative actions ke liye same session ke</String>
         <String xml:lang="de-DE">sie ~r~Rache ~s~an dem ~b~Polizisten ~s~für eine frühere negative Handlung in derselben Sitzung nehmen wollen</String>
+        <String xml:lang="it-IT">Vogliono ~r~vendicarsi ~s~del ~b~poliziotto ~s~per una precedente azione negativa nella stessa sessione</String>
     </Entry>
 
     <Entry Id="police_exam_answer_suspect_attack_rescue">
@@ -3550,6 +3604,7 @@
         <String xml:lang="fr-FR">Il veut sauver un ~g~ami ~s~qui a été arrêté ou tué par le ~b~policier</String>
         <String xml:lang="hi-Latn">Wo rescue karna chahte hain apne ~g~friend ~s~jo arrest kiya ja raha hai ya maara ja raha ho ~b~officer se</String>
         <String xml:lang="de-DE">Sie einen ~g~Freund~s~, welcher von einem ~b~Polizisten~s~ verhaftet oder getötet wird, retten wollen~b~</String>
+        <String xml:lang="it-IT">Vogliono salvare un ~g~amico ~s~che viene arrestato o ucciso dal ~b~poliziotto</String>
     </Entry>
 
     <Entry Id="police_exam_answer_suspect_attack_rioter">
@@ -3558,6 +3613,7 @@
         <String xml:lang="fr-FR">Il veut jouer le rôle d'un ~o~émeutier ~s~qui déteste la police</String>
         <String xml:lang="hi-Latn">Wo roleplay karna chahte hain ek ~o~rioter ~s~ka jo police se nafrat karte hain</String>
         <String xml:lang="de-DE">Sie ein Rollenspiel als ~o~Krawallmacher~s~, welcher die Polizei hasst, spielen wollen</String>
+        <String xml:lang="it-IT">Vogliono fare roleplay come un ~o~rivoltoso ~s~che odia la polizia</String>
     </Entry>
 
     <Entry Id="police_exam_answer_suspect_attack_robbery">
@@ -3566,14 +3622,16 @@
         <String xml:lang="fr-FR">Il est en train de ~r~braquer ~s~un magasin et le ~b~policier ~s~est en train de s'approcher</String>
         <String xml:lang="hi-Latn">Wo ek dukaan ~r~loot ~s~rahe ho aur ~b~officer ~s~nazdeek aa rahe ho</String>
         <String xml:lang="de-DE">Sie einen Shop ~r~ausrauben~s~ und ein ~b~Polizist ~s~näher kommt</String>
+        <String xml:lang="it-IT">Stanno ~r~rapinando ~s~un negozio e il ~b~poliziotto ~s~si sta avvicinando</String>
     </Entry>
 
     <Entry Id="police_exam_question_mw">
         <String xml:lang="en-US">As a ~b~cop~s~, you can kill a ~r~most wanted ~s~(red) suspect...</String>
         <String xml:lang="nl-NL">Als ~b~politieagent~s~, mag je een verdachte met ~r~bounty ~s~(rood) vermoorden...</String>
-        <String xml:lang="fr-FR">En tant que ~b~policier~s~, tu peux tuer un suspect ~r~le plus recherché ~s~(rouge)...</String>
+        <String xml:lang="fr-FR">En tant que ~b~policier~s~, tu peux tuer le suspect ~r~le plus recherché ~s~(rouge)</String>
         <String xml:lang="hi-Latn">Ek ~b~cop ~s~hoke, aap maar sakte ho ek ~r~most wanted ~s~(red) suspect ko...</String>
         <String xml:lang="de-DE">Als ~b~Polizist~s~ darfst du ~r~meistgesuchte ~s~(rot) Verdächtige töten...</String>
+        <String xml:lang="it-IT">Come ~b~poliziotto~s~, puoi uccidere il sospettato ~r~più ricercato ~s~(rosso)...</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_fleeing">
@@ -3582,6 +3640,7 @@
         <String xml:lang="fr-FR">Quand il s'enfuit</String>
         <String xml:lang="hi-Latn">Jab wo bhaag rahe ho</String>
         <String xml:lang="de-DE">wenn sie flüchten</String>
+        <String xml:lang="it-IT">Quando stanno fuggendo</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_surrendering">
@@ -3590,14 +3649,16 @@
         <String xml:lang="fr-FR">Quand il se rend à genoux</String>
         <String xml:lang="hi-Latn">Jab wo ghutno par surrender kar rahe ho</String>
         <String xml:lang="de-DE">wenn sie sich kniend ergeben</String>
+        <String xml:lang="it-IT">Quando si arrendono in ginocchio</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_gun">
         <String xml:lang="en-US">When you see them holding a gun</String>
         <String xml:lang="nl-NL">Wanneer je ze een vuurwapen ziet vasthouden</String>
-        <String xml:lang="fr-FR">Quand tu le vois tenir un pistolet</String>
+        <String xml:lang="fr-FR">Quand tu le vois tenir une arme</String>
         <String xml:lang="hi-Latn">Jab aap unhe dekhe gun pakde hue</String>
         <String xml:lang="de-DE">wenn du sie siehst, wie sie eine Waffe halten</String>
+        <String xml:lang="it-IT">Quando li vedi tenere una pistola</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_cuffed">
@@ -3606,6 +3667,7 @@
         <String xml:lang="fr-FR">Quand il est menotté</String>
         <String xml:lang="hi-Latn">jab wo cuffed ho</String>
         <String xml:lang="de-DE">wenn sie gefesselt sind</String>
+        <String xml:lang="it-IT">Quando sono ammanettati</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_shooting">
@@ -3614,6 +3676,7 @@
         <String xml:lang="fr-FR">Quand il te tire dessus</String>
         <String xml:lang="hi-Latn">Jab wo aap pe shoot kar rahe ho</String>
         <String xml:lang="de-DE">wenn sie auf dich schießen</String>
+        <String xml:lang="it-IT">Quando ti stanno sparando</String>
     </Entry>
 
     <Entry Id="police_exam_question_ems">
@@ -3622,6 +3685,7 @@
         <String xml:lang="fr-FR">En tant que ~b~policier~s~, tu as le droit de rouler avec un ~p~ambulancier~s~</String>
         <String xml:lang="hi-Latn">Ek ~b~cop ~s~hoke, aap allowed ho ~p~paramedic ~s~ke saath ek vehicle me ghumne ke liye</String>
         <String xml:lang="de-DE">Als ~b~Polizist~s~, darfst du mit einem ~p~Sanitäter~s~ zusammen fahren</String>
+        <String xml:lang="it-IT">Come ~b~poliziotto~s~, ti è permesso viaggiare con un ~p~paramedico~s~</String>
     </Entry>
 
     <Entry Id="police_exam_question_ems_never">
@@ -3630,6 +3694,7 @@
         <String xml:lang="fr-FR">Jamais</String>
         <String xml:lang="hi-Latn">Kabhi nahi</String>
         <String xml:lang="de-DE">Niemals</String>
+        <String xml:lang="it-IT">Mai</String>
     </Entry>
 
     <Entry Id="police_exam_question_ems_shooter">
@@ -3638,14 +3703,16 @@
         <String xml:lang="fr-FR">Pour qu'il soit ton ~r~tireur~s~</String>
         <String xml:lang="hi-Latn">Taaki woh aapke ~r~shooter ~s~ban sakein</String>
         <String xml:lang="de-DE">damit sie dein ~r~Schütze~s~ sein können</String>
+        <String xml:lang="it-IT">In modo che possano essere il tuo ~r~tiratore~s~</String>
     </Entry>
 
     <Entry Id="police_exam_question_ems_pocket_healer">
         <String xml:lang="en-US">So that they can be your ~p~pocket healer~s~</String>
         <String xml:lang="nl-NL">Zodat ze je ~p~broekzak healer~s~ kunnen zijn</String>
-        <String xml:lang="fr-FR">Pour qu'il soit ton ~p~guérisseur de poche~s~</String>
+        <String xml:lang="fr-FR">Pour qu'il soit ton ~p~ambulancier personnel~s~</String>
         <String xml:lang="hi-Latn">Taaki woh aapke ~p~pocket healer ~s~ban sakein</String>
         <String xml:lang="de-DE">damit sie dein ~p~Taschen-Heiler~s~ sein können</String>
+        <String xml:lang="it-IT">In modo che possano essere il tuo ~p~guaritore tascabile~s~</String>
     </Entry>
 
     <Entry Id="police_exam_question_ems_not_involved">
@@ -3654,6 +3721,7 @@
         <String xml:lang="fr-FR">Vous n'êtes tous les deux impliqués dans aucun type d'activité ~b~policière~s~, sauf en cas de légitime défense</String>
         <String xml:lang="hi-Latn">Agar aap kisi bhi prakar ke ~b~police ~s~activity mein involved na ho, siwaya self-defense ke</String>
         <String xml:lang="de-DE">solange ihr beide nicht in irgendeine Art von ~b~polizeilicher ~s~Aktivität verwickelt seid, außer zur Selbstverteidigung</String>
+        <String xml:lang="it-IT">Se entrambi non siete coinvolti in alcun tipo di attività ~b~poliziesca~s~, tranne che per legittima difesa</String>
     </Entry>
 
     <Entry Id="police_exam_error_already_started">
@@ -3662,6 +3730,7 @@
         <String xml:lang="fr-FR">~r~Tu es déjà en examen.</String>
         <String xml:lang="hi-Latn">~r~Aap pehlse se hi ek exam me hain</String>
         <String xml:lang="de-DE">~r~Du bist bereits in einer Prüfung.</String>
+        <String xml:lang="it-IT">~r~Sei già in un esame.</String>
     </Entry>
 
     <Entry Id="police_exam_error_cooldown">
@@ -3670,6 +3739,7 @@
         <String xml:lang="fr-FR">~r~Tu dois attendre une heure entre chaque tentative d'examen.</String>
         <String xml:lang="hi-Latn">~r~Dobara exam attempt karne ke liye ek hour wait kare.</String>
         <String xml:lang="de-DE">~r~Du musst zwischen deinen Prüfungsversuchen eine Stunde warten.</String>
+        <String xml:lang="it-IT">~r~Devi aspettare un'ora tra un tentativo di esame e l'altro.</String>
     </Entry>
 
     <Entry Id="police_exam_question_menu_title">
@@ -3678,6 +3748,7 @@
         <String xml:lang="fr-FR">Question</String>
         <String xml:lang="hi-Latn">Question</String>
         <String xml:lang="de-DE">Frage</String>
+        <String xml:lang="it-IT">Domanda</String>
     </Entry>
 
     <!-- {0} = Current question index -->
@@ -3689,14 +3760,16 @@
         <String xml:lang="fr-FR">Question {0}/{1} ({2} points)</String>
         <String xml:lang="hi-Latn">Question {0}/{1} ({2} points)</String>
         <String xml:lang="de-DE">Frage {0}/{1} ({2} Punkte)</String>
+        <String xml:lang="it-IT">Domanda {0}/{1} ({2} punti)</String>
     </Entry>
 
     <Entry Id="police_exam_menu_select_all">
         <String xml:lang="en-US">~y~(select all that apply)</String>
         <String xml:lang="nl-NL">~y~(selecteer alles wat van toepassing is)</String>
-        <String xml:lang="fr-FR">~y~(sélectionner toutes les réponses applicables)</String>
+        <String xml:lang="fr-FR">~y~(sélectionner toutes les réponses possibles)</String>
         <String xml:lang="hi-Latn">~y~(select karo jo kuch bhi apply ho sake)</String>
         <String xml:lang="de-DE">~y~(wähle alle zutreffenden)</String>
+        <String xml:lang="it-IT">~y~(seleziona tutto ciò che si applica)</String>
     </Entry>
 
     <!-- {0} = Letter -->
@@ -3706,6 +3779,7 @@
         <String xml:lang="fr-FR">Option {0}</String>
         <String xml:lang="hi-Latn">Option (vikalp) {0}</String>
         <String xml:lang="de-DE">Option {0}</String>
+        <String xml:lang="it-IT">Opzione {0}</String>
     </Entry>
 
     <Entry Id="police_exam_menu_next_button_text">
@@ -3714,6 +3788,7 @@
         <String xml:lang="fr-FR">~g~Suivant</String>
         <String xml:lang="hi-Latn">~g~Next (agla)</String>
         <String xml:lang="de-DE">~g~Weiter</String>
+        <String xml:lang="it-IT">~g~Prossimo</String>
     </Entry>
 
     <Entry Id="police_exam_menu_next_button_description">
@@ -3722,6 +3797,7 @@
         <String xml:lang="fr-FR">~g~Confirmer ~s~et passer à la question suivante (tu ~r~ne pourras pas ~s~la revoir plus tard).</String>
         <String xml:lang="hi-Latn">~g~Confirm ~s~kare aur jaaye next question pe (aap baad mein review ~r~nahi ~s~kar sakte).</String>
         <String xml:lang="de-DE">~g~Bestätige ~s~und gehe zur nächsten Frage (du kannst sie später ~r~nicht ~s~überprüfen.</String>
+        <String xml:lang="it-IT">~g~Conferma ~s~e passa alla domanda successiva (non ~r~potrai ~s~rivederla dopo).</String>
     </Entry>
 
     <Entry Id="police_exam_menu_submit_button_text">
@@ -3730,6 +3806,7 @@
         <String xml:lang="fr-FR">~g~Envoyer</String>
         <String xml:lang="hi-Latn">~g~Submit (jama)</String>
         <String xml:lang="de-DE">~g~Abgeben</String>
+        <String xml:lang="it-IT">~g~Invia</String>
     </Entry>
 
     <Entry Id="police_exam_menu_submit_button_description">
@@ -3738,6 +3815,7 @@
         <String xml:lang="fr-FR">~g~Envoyer ~s~son examen au serveur pour une révision ~g~automatisée immédiate~s~.</String>
         <String xml:lang="hi-Latn">~g~Submit ~s~kare apna exam aur paaye result turant hamare ~g~automated review ~s~dwara.</String>
         <String xml:lang="de-DE">~g~Gib ~s~deine Prüfung dem Server zur sofortigen ~g~automatisierten Überprüfung~s~.</String>
+        <String xml:lang="it-IT">~g~Invia ~s~il tuo esame al server per una ~g~revisione automatica immediata~s~.</String>
     </Entry>
 
     <Entry Id="police_exam_confirm_title">
@@ -3746,6 +3824,7 @@
         <String xml:lang="fr-FR">~y~Examen de police</String>
         <String xml:lang="hi-Latn">~y~Police Ka Exam</String>
         <String xml:lang="de-DE">~y~Polizeiprüfung</String>
+        <String xml:lang="it-IT">~y~Esame di Polizia</String>
     </Entry>
 
     <Entry Id="police_exam_menu_title">
@@ -3754,6 +3833,7 @@
         <String xml:lang="fr-FR">~y~Examen de police</String>
         <String xml:lang="hi-Latn">~y~Police Ka Exam</String>
         <String xml:lang="de-DE">~y~Polizeiprüfung</String>
+        <String xml:lang="it-IT">~y~Esame di Polizia</String>
     </Entry>
 
     <!-- {0} = Questions count -->
@@ -3765,6 +3845,7 @@
         <String xml:lang="fr-FR">Bienvenue à l'examen de police de ~y~CnR V~s~.\n\nMerci d'apprendre les règles de la police sur ~b~gtacnr.net/rules ~s~avant de passer l'examen. Les bonnes réponses donnent un ou plusieurs points. Les mauvaises réponses enlèvent un point. Certaines mauvaises réponses entraînent un échec immédiat et l'abandon de l'examen si elles sont sélectionnées. Si tu échoues à l'examen ou si tu quittes le serveur, tu ne pourras pas le repasser avant une heure. Tes réponses sont immédiatement examinées par le serveur. Il y a un total de ~y~{0} questions~s~, les bonnes réponses te donnent un ou deux points et le score de réussite est de ~y~{1} points~s~. Tu as {2} minutes pour rendre l'examen.\n\n</String>
         <String xml:lang="hi-Latn">Swagat hai aapka ~y~CnR V ~s~Police Exam mein.\n\nPlease, police rules lear kare ~b~gtacnr.net/rules ~s~par exam dene se pehle. Sahi answers aapko ek ya ek se zyada points dete hain. Galat answers aapko ek kam point dete hain. Kuch galat answers turant aapko fail kardenge aur exam se bahar kardenge agar aap galat choose kare to. Agar aap fail hogaye exam me ya server leave kar diye, To aap agle ek hour tak nahi de sakte. Aapke answers turant review kiye jaate hain server dwara. Yaha total ~y~{0} questions ~s~hain, sahi answer aapko 1 ya 2 points dega aur passing score hai ~y~{1} points~s~. Aapke paas {2} minutes hain exam submit karne ke liye.\n\n</String>
         <String xml:lang="de-DE">Willkommen zur ~y~CnR V ~s~Polizeiprüfung.\n\nBitte lerne die Polizeiregeln auf ~b~gtacnr.net/rules~s~, bevor du an der Prüfung teilnimmst. Richtige Antworten geben einen oder mehrere Punkte. Falsche Antworten ziehen einen Punkt ab. Einige Antworten führen zum sofortigen Nichtbestehen und zum Abbruch der Prüfung. Wenn du die Prüfung nicht bestehst oder du den Server verlässt, kannst du sie für eine Stunde nicht erneut ablegen. Deine Antworten werden sofort vom Server überprüft. Insgesamt gibt es ~y~{0} Frage~s~, richtige Antworten geben dir einen oder zwei Punkte und das Bestehen der Prüfung wird mit ~y~{1} Punkten~s~ bewertet. Du hast {2} Minuten, um die Prüfung abzugeben.\n\n</String>
+        <String xml:lang="it-IT">Benvenuto all'~y~Esame di Polizia ~s~di CnR V.\n\nPer favore, studia le regole della polizia su ~b~gtacnr.net/rules ~s~prima di sostenere l'esame. Le risposte corrette danno uno o più punti. Le risposte sbagliate sottraggono un punto. Alcune risposte sbagliate comportano un fallimento immediato e la cessazione dell'esame se selezionate. Se fallisci l'esame o lasci il server, non potrai rifarlo per un'ora. Le tue risposte vengono immediatamente valutate dal server. Ci sono un totale di ~y~{0} domande~s~, le risposte corrette ti danno uno o due punti e il punteggio minimo per passare è di ~y~{1} punti~s~. Hai {2} minuti per inviare l'esame.\n\n</String>
     </Entry>
 
     <Entry Id="police_exam_extremely_wrong_answer">
@@ -3773,6 +3854,7 @@
         <String xml:lang="fr-FR">~r~Tu as choisi une très mauvaise réponse. Tu ferais mieux d'aller lire les règles avant de tenter de devenir policier.</String>
         <String xml:lang="hi-Latn">~r~Aapne ek bohot hi galat answer select kar diya. Behter hoga aap jaaye aur rules padhe dobara police officer ka exam dene se pehle.</String>
         <String xml:lang="de-DE">~r~Du hast eine völlig falsche Antwort gewählt. Du solltest besser die Regeln lesen, bevor du versuchst, ein Polizist zu werden.</String>
+        <String xml:lang="it-IT">~r~Hai selezionato una risposta estremamente errata. È meglio che tu legga le regole prima di tentare di diventare un ufficiale di polizia.</String>
     </Entry>
 
     <Entry Id="police_exam_terminate_title">
@@ -3780,7 +3862,8 @@
         <String xml:lang="nl-NL">Beëindigen</String>
         <String xml:lang="fr-FR">Terminer</String>
         <String xml:lang="hi-Latn">Khatam karo</String>
-        <String xml:lang="de-DE">Beenden</String>d
+        <String xml:lang="de-DE">Beenden</String>
+        <String xml:lang="it-IT">Termina</String>
     </Entry>
 
     <Entry Id="police_exam_terminate_message">
@@ -3789,6 +3872,7 @@
         <String xml:lang="fr-FR">Tu es sûr de vouloir mettre fin à l'examen?</String>
         <String xml:lang="hi-Latn">Kya aap sure hain exam khatam karne ke liye?</String>
         <String xml:lang="de-DE">Bist du sicher, dass du die Prüfung beenden willst?</String>
+        <String xml:lang="it-IT">Sei sicuro di voler terminare l'esame?</String>
     </Entry>
 
     <!-- {0} = Final score -->
@@ -3800,6 +3884,7 @@
         <String xml:lang="fr-FR">~g~Félicitations! ~s~Tu as réussi l'examen avec ~g~{0}~s~/{1} points ({2} pour passer). Tu peux maintenant devenir un ~b~agent de police~s~.</String>
         <String xml:lang="hi-Latn">~g~Congratulations! ~s~Aapne pass kar liya exam ~g~{0}~s~/{1} points ({2} chahiye pass hone ke liye) se. Aap aap ~b~Police Officer ~s~bann sakte hain.</String>
         <String xml:lang="de-DE">~g~Glückwunsch! ~s~Du hast die Prüfung mit ~g~{0}~s~/{1} Punkte bestanden ({2} um zu bestehen). Du kannst nun ein ~b~PPolizist~s~ werden.</String>
+        <String xml:lang="it-IT">~g~Congratulazioni! ~s~Hai superato l'esame con ~g~{0}~s~/{1} punti ({2} per passare). Ora puoi diventare un ~b~Agente di Polizia~s~.</String>
     </Entry>
 
     <!-- {0} = Final score -->
@@ -3811,6 +3896,7 @@
         <String xml:lang="fr-FR">~r~Désolé! ~s~Tu n'as pas réussi l'examen (~r~{0}~s~/{1} points) ({2} pour passer).</String>
         <String xml:lang="hi-Latn">~r~Sorry! ~s~Aap pass nahi kar paye exam (~r~{0}~s~/{1} points) ({2} chahiye pass hone ke liye).</String>
         <String xml:lang="de-DE">~r~Sorry! ~s~Du hast die Prüfung nicht bestanden (~r~{0}~s~/{1} Punkte) ({2} um zu bestehen).</String>
+        <String xml:lang="it-IT">~r~Spiacente! ~s~Non hai superato l'esame (~r~{0}~s~/{1} punti) ({2} per passare).</String>
     </Entry>
 
 
@@ -4282,7 +4368,7 @@
         <String xml:lang="en-US">This business ~r~cannot be robbed ~s~yet. This robbery is coming in a ~b~future update~s~.</String>
         <String xml:lang="nl-NL">Dit bedrijf ~r~kan ~s~nog~r~ niet overvallen worden~s~. Deze overval wordt in een ~b~latere update~s~ toegevoegd.</String>
         <String xml:lang="fr-FR">Ce commerce ~r~ne peut pas être braqué ~s~pour l'instant. Ce braquage est prévu dans une ~b~future mise à jour~s~.</String>
-        <String xml:lang="it-IT">Quest'attivita ~r~non può essere rapinata ~s~ancora. Questa rapina arriverà in un ~b~update futuro~s~.</String>
+        <String xml:lang="it-IT">Quest'attività ~r~non può essere rapinata ~s~ancora. Questa rapina arriverà in un ~b~update futuro~s~.</String>
         <String xml:lang="de-DE">Dieses Geschäft kann derzeit ~r~noch nicht ausgeraubt ~s~werden. Diese ~b~Raub-Funktion ~s~kommt in einem späteren Update.</String>
         <String xml:lang="es-ES">Este negocio ~r~no puede ser robado ~s~todavía. Este robo llegará en una ~b~actualización futura~s~.</String>
         <String xml:lang="pl-PL">To miejsce ~r~nie może być jeszcze okradzione~s~. Ten napad przyjdzie w ~b~przyszłej aktualizacji~s~.</String>
@@ -4296,7 +4382,7 @@
         <String xml:lang="en-US">This business ~r~cannot be robbed~s~.</String>
         <String xml:lang="nl-NL">Dit bedrijf ~r~kan niet worden overvallen~s~.</String>
         <String xml:lang="fr-FR">Cette entreprise ~r~ne peut pas être braquée~s~.</String>
-        <String xml:lang="it-IT">Quest'attivita ~r~non può essere rapinata~s~.</String>
+        <String xml:lang="it-IT">Quest'attività ~r~non può essere rapinata~s~.</String>
         <String xml:lang="de-DE">Dises Geschäft ~r~kann nicht ausgeraubt werden~s~.</String>
         <String xml:lang="es-ES">Este negocio ~r~no puede ser robado~s~.</String>
         <String xml:lang="pl-PL">To miejsce ~r~nie może być okradzione~s~.</String>
@@ -4310,7 +4396,7 @@
         <String xml:lang="en-US">This business has been ~r~recently ~s~robbed. Try again later.</String>
         <String xml:lang="nl-NL">Dit bedrijf is ~r~recent ~s~al overvallen. Probeer later nog een keer.</String>
         <String xml:lang="fr-FR">Ce commerce a été ~r~récemment ~s~braqué. Réessaye plus tard.</String>
-        <String xml:lang="it-IT">Quest'attivita è stata rapinata ~r~recentemente~s~. Prova più tardi.</String>
+        <String xml:lang="it-IT">Quest'attività è stata rapinata ~r~recentemente~s~. Prova più tardi.</String>
         <String xml:lang="de-DE">Dieses Geschäft wurde ~r~vor kurzem ~s~ausgeraubt. Versuche es später erneut.</String>
         <String xml:lang="es-ES">Este negocio ha sido ~r~recientemente ~s~robado. Vuelva a intentarlo más tarde.</String>
         <String xml:lang="pl-PL">To miejsce zostało ~r~niedawno ~s~okradzione. Spróbuj ponownie później.</String>
@@ -4325,7 +4411,7 @@
         <String xml:lang="en-US">You can't rob this ~r~business ~s~when there are less than ~b~{0} cops ~s~online.</String>
         <String xml:lang="nl-NL">Je kan dit ~r~bedrijf ~s~niet overvallen wanneer er minder dan ~b~{0} agenten ~s~online zijn.</String>
         <String xml:lang="fr-FR">Tu ne peux pas braquer ce ~r~commerce ~s~quand il y a moins de ~b~{0} policiers ~s~en ligne.</String>
-        <String xml:lang="it-IT">Non puoi rapinare quest'~r~attivita ~s~quando ci sono meno di ~b~{0} poliziotti ~s~online.</String>
+        <String xml:lang="it-IT">Non puoi rapinare quest'~r~attività ~s~quando ci sono meno di ~b~{0} poliziotti ~s~online.</String>
         <String xml:lang="de-DE">Du kannst dieses ~r~Geschäft~s~ nicht ausrauben, wenn weniger als ~b~{0} Polizisten ~s~online sind. </String>
         <String xml:lang="es-ES">No puedes robar este ~r~negocio ~s~cuando hay menos de ~b~{0} policías ~s~en línea.</String>
         <String xml:lang="pl-PL">Nie możesz okraść tego ~r~biznesu ~s~gdy na serwerze jest mniej niż ~b~{0} gliniarzy~s~.</String>
@@ -4371,6 +4457,7 @@
         <String xml:lang="fr-FR">~r~Tuer l'employé n'était pas dans le plan! ~s~Ta part est de ~g~{0}~s~.</String>
         <String xml:lang="hi-Latn">~r~Clerk ko maarna plan me nahi tha! ~s~Aapka cut ~g~{0} ~s~hua.</String>
         <String xml:lang="de-DE">~r~Den Angestellten töten war nicht im Plan! ~s~Dein Anteil beträgt ~g~{0}~s~.</String>
+        <String xml:lang="it-IT">~r~Uccidere il cassiere non era nel piano! ~s~La tua parte è ~g~{0}~s~.</String>
     </Entry>
 
     <Entry Id="robbery_clerk_killed_complete">
@@ -4379,6 +4466,7 @@
         <String xml:lang="fr-FR">~r~Tuer l'employé n'était pas dans le plan! ~s~Tu as gagné ~g~{0}~s~.</String>
         <String xml:lang="hi-Latn">~r~Clerk ko maarna plan me nahi tha! ~s~Aap kamaye ~g~{0} ~s~paise.</String>
         <String xml:lang="de-DE">~r~Den Angestellten töten war nicht im Plan! ~s~Du hast ~g~{0}~s~ verdient.</String>
+        <String xml:lang="it-IT">~r~Uccidere il cassiere non era nel piano! ~s~Hai guadagnato ~g~{0}~s~.</String>
     </Entry>
 
     <Entry Id="robbery_clerk_not_intimidated_cut">
@@ -4387,6 +4475,7 @@
         <String xml:lang="fr-FR">~r~L'employé n'est plus intimidé! ~s~Ta part est de ~g~{0}~s~.</String>
         <String xml:lang="hi-Latn">~r~Clerk ko ab darr nahi lag raha! ~s~Aapka cut ~g~{0} ~s~hua.</String>
         <String xml:lang="de-DE">~r~Der Angestellte ist nicht länger eingeschüchtert! ~s~Dein Anteil beträgt ~g~{0}~s~.</String>
+        <String xml:lang="it-IT">~r~Il cassiere non è più intimidito! ~s~La tua parte è ~g~{0}~s~.</String>
     </Entry>
 
     <Entry Id="robbery_clerk_not_intimidated_complete">
@@ -4395,6 +4484,7 @@
         <String xml:lang="fr-FR">~r~L'employé n'est plus intimidé! ~s~Tu as gagné ~g~{0}~s~.</String>
         <String xml:lang="hi-Latn">~r~Clerk ko ab darr nahi lag raha! ~s~Aap kamaye ~g~{0} ~s~paise.</String>
         <String xml:lang="de-DE">~r~Der Angestellte ist nicht länger eingeschüchtert! ~s~Du hast ~g~{0}~s~ verdient.</String>
+        <String xml:lang="it-IT">~r~Il cassiere non è più intimidito! ~s~Hai guadagnato ~g~{0}~s~.</String>
     </Entry>
 
     <Entry Id="robbery_fail_clerk_killed">
@@ -4502,6 +4592,7 @@
         <String xml:lang="fr-FR">Tu as ~r~volé ~s~un ~p~{0}~s~</String>
         <String xml:lang="hi-Latn">Aap ~r~churaye ~s~ek ~p~{0}~s~</String>
         <String xml:lang="de-DE">Du hast ~s~ein ~p~{0}~s~ ~r~gestohlen~s~.</String>
+        <String xml:lang="it-IT">Hai ~r~rubato ~s~un ~p~{0}~s~</String>
     </Entry>
 
     <Entry Id="robbery_caught_shoplifting_reported_police">
@@ -4647,6 +4738,7 @@
         <String xml:lang="fr-FR">Tu perces le ~b~coffre-fort~s~.</String>
         <String xml:lang="hi-Latn">Aap ~b~safe ~s~crack kar rahe hain.</String>
         <String xml:lang="de-DE">Du knackst den ~b~Safe~s~.</String>
+        <String xml:lang="it-IT">Stai scassinando la ~b~cassaforte~s~.</String>
     </Entry>
 
     <Entry Id="robbery_extra_security_safe">
@@ -4683,6 +4775,7 @@
         <String xml:lang="fr-FR">INTIMIDATION</String>
         <String xml:lang="hi-Latn">DARANA</String>
         <String xml:lang="de-DE">EINSCHÜCHTERUNG</String>
+        <String xml:lang="it-IT">INTIMIDAZIONE</String>
     </Entry>
 
     <Entry Id="robbery_take_counter">
@@ -4691,6 +4784,7 @@
         <String xml:lang="fr-FR">PRENDRE</String>
         <String xml:lang="hi-Latn">CHORI</String>
         <String xml:lang="de-DE">NEHMEN</String>
+        <String xml:lang="it-IT">COLPO</String>
     </Entry>
 
     <Entry Id="robbery_cut_counter">
@@ -4699,6 +4793,7 @@
         <String xml:lang="fr-FR">TA PART</String>
         <String xml:lang="hi-Latn">AAPKA CUT</String>
         <String xml:lang="de-DE">DEIN ANTEIL</String>
+        <String xml:lang="it-IT">LA TUA PARTE</String>
     </Entry>
 
     <Entry Id="robbery_safe_counter">
@@ -4707,6 +4802,7 @@
         <String xml:lang="fr-FR">COFFRE-FORT</String>
         <String xml:lang="hi-Latn">SAFE</String>
         <String xml:lang="de-DE">SAFE</String>
+        <String xml:lang="it-IT">CASSAFORTE</String>
     </Entry>
 
     <Entry Id="robbery_cash_register_counter">
@@ -4715,6 +4811,7 @@
         <String xml:lang="fr-FR">CAISSE ENREGISTREUSE</String>
         <String xml:lang="hi-Latn">CASH REGISTER</String>
         <String xml:lang="de-DE">KASSE</String>
+        <String xml:lang="it-IT">CASSA</String>
     </Entry>
 
     <Entry Id="robbery_intimidation_hint">
@@ -4723,6 +4820,7 @@
         <String xml:lang="fr-FR">Garder le ~r~caissier ~s~intimidé.</String>
         <String xml:lang="hi-Latn">~r~cashier ~s~ko daraye rakhna.</String>
         <String xml:lang="de-DE">Sorge dafür, dass der ~r~Kassierer ~s~eingeschüchtert bleibt.</String>
+        <String xml:lang="it-IT">Mantieni il ~r~cassiere ~s~intimidito.</String>
     </Entry>
 
     <Entry Id="robbery_safe_hint">
@@ -4731,6 +4829,7 @@
         <String xml:lang="fr-FR">Tu as besoin d'un ~g~partenaire ~s~pour ouvrir le ~b~coffre-fort~s~.</String>
         <String xml:lang="hi-Latn">Aap ko ek ~g~partner ~s~ki zarurat hogi ~b~safe ~s~crack karne ke liye.</String>
         <String xml:lang="de-DE">Du brauchst einen ~g~Partner~s~, um den ~b~Safe ~s~aufzubrechen.</String>
+        <String xml:lang="it-IT">Hai bisogno di un ~g~partner ~s~per aprire la ~b~cassaforte~s~.</String>
     </Entry>
 
     <Entry Id="robbery_wait_partner_crack_safe">
@@ -4739,6 +4838,7 @@
         <String xml:lang="fr-FR">Attends que ton partenaire braque le ~y~magasin~s~, ou perce le ~b~coffre-fort~s~.</String>
         <String xml:lang="hi-Latn">Apne partner ka intezaar karo ki woh ~y~store ~s~loot lein, ya jaa ke ~b~safe ~s~crack karo.</String>
         <String xml:lang="de-DE">Warte darauf, dass dein Partner den ~y~Laden~s~ ausraubt, oder knacke den ~b~Safe~s~.</String>
+        <String xml:lang="it-IT">Aspetta che il tuo partner svaligi il ~y~negozio~s~, o scassina la ~b~cassaforte~s~.</String>
     </Entry>
 
     <Entry Id="robbery_find_safe_hint">
@@ -4747,6 +4847,7 @@
         <String xml:lang="fr-FR">Trouve et perce le ~b~coffre-fort~s~.</String>
         <String xml:lang="hi-Latn">Dhoondo aur crack karo ~b~safe~s~.</String>
         <String xml:lang="de-DE">Finde und knacke den ~b~Safe~s~.</String>
+        <String xml:lang="it-IT">Trova e scassina la ~b~cassaforte~s~.</String>
     </Entry>
 
     <Entry Id="robbery_wait_partner">
@@ -4755,6 +4856,7 @@
         <String xml:lang="fr-FR">Attends que ton partenaire braque le ~y~magasin~s~.</String>
         <String xml:lang="hi-Latn">Apne partner ka intezaar karo ki woh ~y~store ~s~loot lein.</String>
         <String xml:lang="de-DE">Warte darauf, dass dein Partner den ~y~Laden~s~ ausraubt.</String>
+        <String xml:lang="it-IT">Aspetta che il tuo partner svaligi il ~y~negozio~s~.</String>
     </Entry>
 
     <Entry Id="robbery_eliminate_security">
@@ -4763,6 +4865,7 @@
         <String xml:lang="fr-FR">Éliminer les ~r~agents de sécurité~s~.</String>
         <String xml:lang="hi-Latn">Khatam kardo ~r~security guards ~s~ko.</String>
         <String xml:lang="de-DE">Schalte das ~r~Sicherheitspersonal~s~ aus.</String>
+        <String xml:lang="it-IT">Elimina le ~r~guardie di sicurezza~s~.</String>
     </Entry>
 
     <Entry Id="robbery_help_partner">
@@ -4771,6 +4874,7 @@
         <String xml:lang="fr-FR">Aide ton partenaire à braquer le ~y~magasin~s~.</String>
         <String xml:lang="hi-Latn">Apne partner ki help karo ~y~store ~s~loot ne mein.</String>
         <String xml:lang="de-DE">Hilf deinem Partner, den ~y~Laden~s~ auszurauben.</String>
+        <String xml:lang="it-IT">Aiuta il tuo partner a svaligiare il ~y~negozio~s~.</String>
     </Entry>
 
     <Entry Id="robbery_instructional_crack">
@@ -4779,6 +4883,7 @@
         <String xml:lang="fr-FR">Percer</String>
         <String xml:lang="hi-Latn">Crack</String>
         <String xml:lang="de-DE">Knacken</String>
+        <String xml:lang="it-IT">Scassina</String>
     </Entry>
 
     <Entry Id="robbery_instructional_stop">
@@ -4787,6 +4892,7 @@
         <String xml:lang="fr-FR">Arrêter (maintenir)</String>
         <String xml:lang="hi-Latn">Stop (hold)</String>
         <String xml:lang="de-DE">Stop (halten)</String>
+        <String xml:lang="it-IT">Stop (tenere)</String>
     </Entry>
 
     <Entry Id="no_nearby_players_give_weapon">
@@ -4946,7 +5052,7 @@
     </Entry>
 
 
-    <!-- {0} = Verb (probably police; civilian; ...) -->
+    <!-- {0} = Verb = rented/purchased -->
     <!-- {1} = Hotkey -->
     <Entry Id="dealership_manage_vehicles_info">
         <String xml:lang="en-US">Manage your {0} vehicles in {1} ~y~Menu ~s~&gt; ~y~Vehicles</String>
@@ -5010,27 +5116,42 @@
 
     <Entry Id="dealership_drive_wanted_level">
         <String xml:lang="en-US">You are ~o~wanted ~s~by the police. Get the heck out of my car!</String>
+        <String xml:lang="nl-NL">Je wordt ~o~gezocht ~s~door de politie. Weg uit mijn auto! Verdwijn!</String>
         <String xml:lang="de-DE">Du wirst von der Polizei ~o~gesucht~s~. Raus aus meinem Auto, verpiss dich!</String>
+        <String xml:lang="fr-FR">Tu es ~o~recherché ~s~par la police. Dégage de ma voiture!</String>
+        <String xml:lang="it-IT">Sei ~o~ricercato ~s~dalla polizia. Fuori dalla mia auto!</String>
     </Entry>
 
     <Entry Id="dealership_drive_time">
         <String xml:lang="en-US">~r~Time is up.</String>
+        <String xml:lang="nl-NL">~r~De tijd is voorbij.</String>
         <String xml:lang="de-DE">~r~Die Zeit ist vorbei.</String>
+        <String xml:lang="fr-FR">~r~Le temps est écoulé.</String>
+        <String xml:lang="it-IT">~r~Il tempo è scaduto.</String>
     </Entry>
 
     <Entry Id="dealership_drive_left">
         <String xml:lang="en-US">You ~r~left ~s~the ~b~vehicle~s~.</String>
+        <String xml:lang="nl-NL">Je hebt het ~b~voertuig ~r~verlaten~s~.</String>
         <String xml:lang="de-DE">Du hast das ~b~Fahrzeug ~r~verlassen~s~.</String>
+        <String xml:lang="fr-FR">Tu as ~r~quitté ~s~le ~b~véhicule~s~.</String>
+        <String xml:lang="it-IT">Hai ~r~lasciato ~s~il ~b~veicolo~s~.</String>
     </Entry>
 
     <Entry Id="dealership_drive_too_far_away">
         <String xml:lang="en-US">You went ~r~too far ~s~from the ~y~dealership~s~.</String>
+        <String xml:lang="nl-NL">Je bent ~r~te ver weg ~s~van de ~y~dealership~s~.</String>
         <String xml:lang="de-DE">Du hast dich ~r~zu weit ~s~vom ~y~Händler~s~ entfernt.</String>
+        <String xml:lang="fr-FR">Tu t'es ~r~trop éloigné ~s~du ~y~concessionnaire~s~.</String>
+        <String xml:lang="it-IT">Ti sei ~r~allontanato troppo ~s~dal ~y~concessionario~s~.</String>
     </Entry>
 
     <Entry Id="dealership_drive_damaged">
         <String xml:lang="en-US">You ~r~damaged ~s~the vehicle! You will not get your deposit back.</String>
+        <String xml:lang="nl-NL">Je hebt het voertuig ~r~beschadigd~s~! Je krijgt je borg niet terug.</String>
         <String xml:lang="de-DE">Du hast das Fahrzeug ~r~beschädigt~s~! Du bekommst deine Kaution nicht zurück.</String>
+        <String xml:lang="fr-FR">Tu as endommagé le véhicule! Tu ne récupéreras pas ta caution.</String>
+        <String xml:lang="it-IT">Hai ~r~danneggiato ~s~il veicolo! Non riceverai indietro il deposito.</String>
     </Entry>
 
     <Entry Id="dealership_specified_plate_taken">
@@ -5065,22 +5186,217 @@
 
     <Entry Id="job_garage">
         <String xml:lang="en-US">Job Garage</String>
+        <String xml:lang="nl-NL">Werk Garage</String>
         <String xml:lang="de-DE">Job-Garage</String>
+        <String xml:lang="fr-FR">Job Garage</String>
+        <String xml:lang="it-IT">Garage Lavoro</String>
     </Entry>
 
     <Entry Id="menu_job_garage_subtitle">
         <String xml:lang="en-US">Select a vehicle to take out</String>
+        <String xml:lang="nl-NL">Kies een voertuig om uit de garage te halen</String>
         <String xml:lang="de-DE">Wähle ein Fahrzeug zum Herausnehmen</String>
+        <String xml:lang="fr-FR">Sélectionner un véhicule à sortir</String>
+        <String xml:lang="it-IT">Seleziona un veicolo da prendere</String>
     </Entry>
 
     <Entry Id="menu_job_garage_empty_text">
         <String xml:lang="en-US">No job vehicles :(</String>
+        <String xml:lang="nl-NL">Geen werk voertuigen :(</String>
         <String xml:lang="de-DE">Keine Job-Fahrzeuge :(</String>
+        <String xml:lang="fr-FR">Pas de véhicules de travail :(</String>
+        <String xml:lang="it-IT">Nessun veicolo da lavoro :(</String>
     </Entry>
 
     <Entry Id="menu_job_garage_empty_description">
         <String xml:lang="en-US">You don't have any vehicle for your ~b~current job~s~, and you ~r~can't ~s~use your personal vehicles while on this job. Buy job vehicles and they will show up in this menu.</String>
+        <String xml:lang="nl-NL">Je hebt geen voertuigen voor je ~b~huidige baan~s~, en je kan je persoonlijke voertuigen ~r~niet ~s~gebruiken terwijl je aan het werk bent. Koop werk voertuigen en ze zullen in dit menu verschijnen.</String>
         <String xml:lang="de-DE">Du besitzt keine Fahrzeuge für deinen ~b~aktuellen Job~s~, und du kannst ~r~keine ~s~persönlichen Fahrzeuge benutzen, solange du diesen Job machst. Kaufe Job-Fahrzeuge. Sie werden in diesem Menü angezeigt.</String>
+        <String xml:lang="fr-FR">Tu n'as pas de véhicule pour ton ~b~emploi actuel~s~, et tu ~r~ne peux pas ~s~utiliser tes véhicules personnels pendant ce travail. Achète des véhicules pour ton travail et ils apparaîtront dans ce menu.</String>
+        <String xml:lang="it-IT">Non hai veicoli per il tuo ~b~lavoro attuale~s~, e ~r~non puoi ~s~usare i tuoi veicoli personali mentre sei a lavoro. Acquista veicoli da lavoro e compariranno in questo menu.</String>
+    </Entry>
+    
+    <!-- ================================= -->
+    <!-- ====== Delivery Driver Job ====== -->
+    <!-- ================================= -->
+
+    <Entry Id="ddriver_description">
+        <String xml:lang="en-US">~c~(C)Delivery Driver:(/C) ~s~deliver ~b~goods ~s~to earn money.</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_title">
+        <String xml:lang="en-US">Delivery Driver</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_deliveries_text">
+        <String xml:lang="en-US">Deliveries</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_deliveries_descr">
+        <String xml:lang="en-US">View the available delivery jobs.</String>
+    </Entry>
+    
+    <!-- Try to keep this as short as possible (needs to fit in menu subheader) -->
+    <Entry Id="menu_ddriver_deliveries_sorted_by_payout">
+        <String xml:lang="en-US">Sorted by payout</String>
+    </Entry>
+    
+    <!-- Try to keep this as short as possible (needs to fit in menu subheader) -->
+    <Entry Id="menu_ddriver_deliveries_sorted_by_distance">
+        <String xml:lang="en-US">Sorted by pickup distance</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_history_text">
+        <String xml:lang="en-US">History</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_history_descr">
+        <String xml:lang="en-US">View the delivery jobs that you completed in the current session.</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_history_subtitle">
+        <String xml:lang="en-US">Select a past delivery job</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_current_delivery_text">
+        <String xml:lang="en-US">Current Delivery</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_current_delivery_descr">
+        <String xml:lang="en-US">View details about the delivery in progress.</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_details">
+        <String xml:lang="en-US">Details</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_cancel">
+        <String xml:lang="en-US">~r~Cancel Delivery</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_cancel_desc">
+        <String xml:lang="en-US">Abandon your current delivery.</String>
+    </Entry>
+    
+    <Entry Id="ddriver_job_menu_refresh_cooldown">
+        <String xml:lang="en-US">You must ~r~wait ~s~before refreshing the deliveries menu again.</String>
+    </Entry>
+    
+    <!-- {0} = Time to await -->
+    <Entry Id="ddriver_job_take_job_cooldown">
+        <String xml:lang="en-US">You must wait ~y~{0} ~s~before taking another delivery job.</String>
+    </Entry>
+    
+    <!-- {0} = Final destination name -->
+    <Entry Id="menu_ddriver_current_delivery_subtitle">
+        <String xml:lang="en-US">Delivery to {0}</String>
+    </Entry>
+    
+    <!-- {0} = Number of jobs -->
+    <!-- {1} = stp_press or stp_hold (defined in businesses.xml) -->
+    <Entry Id="ddriver_n_jobs_available">
+        <String xml:lang="en-US">There are ~y~{0} delivery jobs ~s~available at the moment. {1} to open the delivery list.</String>
+    </Entry>
+    
+    <!-- Shown at the bottom right as an instructional button. -->
+    <!-- Can be combined with "Hold" (btn_stp_label_hold) if player is using a gamepad. -->
+    <Entry Id="ddriver_view_jobs">
+        <String xml:lang="en-US">View jobs</String>
+    </Entry>
+    
+    <Entry Id="ddriver_already_on_job">
+        <String xml:lang="en-US">You are already on a delivery job.</String>
+    </Entry>
+    
+    <Entry Id="ddriver_job_no_longer_available">
+        <String xml:lang="en-US">This delivery job is no longer available.</String>
+    </Entry>
+    
+    <!-- Shown at the bottom as mission text / subtitle -->
+    <!-- {0} = Area name -->
+    <Entry Id="ddriver_job_go_to_pickup">
+        <String xml:lang="en-US">Go to ~y~{0} ~s~and pick up the ~b~goods~s~.</String>
+    </Entry>
+    
+    <Entry Id="ddriver_job_pick_up_trailer">
+        <String xml:lang="en-US">Pick up the ~y~trailer ~s~using a ~b~semi truck~s~.</String>
+    </Entry>
+
+    <!-- Shown at the bottom as mission text / subtitle -->
+    <!-- {0} = Area name -->
+    <Entry Id="ddriver_job_go_to_dropoff">
+        <String xml:lang="en-US">Go to ~y~{0} ~s~and drop off the ~b~goods~s~.</String>
+    </Entry>
+
+    <!-- Shown at the bottom right as a box with a health bar (please all uppercase) -->
+    <Entry Id="ddriver_trailer_health">
+        <String xml:lang="en-US">TRAILER</String>
+    </Entry>
+
+    <Entry Id="ddriver_truck_health">
+        <String xml:lang="en-US">TRUCK</String>
+    </Entry>
+
+    <Entry Id="ddriver_num_deliveries">
+        <String xml:lang="en-US">DELIVERIES</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_park_truck_in_area">
+        <String xml:lang="en-US">Stop the ~b~truck ~s~in the ~y~marked area~s~.</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_park_trailer_in_area">
+        <String xml:lang="en-US">Park the ~b~trailer ~s~in the ~y~marked area~s~.</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_recover_vehicle">
+        <String xml:lang="en-US">Recover the ~b~truck ~s~or ~b~trailer ~s~with the ~y~goods ~s~first.</String>
+    </Entry>
+
+    <!-- Must be oriented correctly means that the heading/angle of the vehicle must be as 
+    per the markers. For example, the marker shows the player that the vehicle must be facing 
+    north, then the player must park it north. This explanation was given to avoid mistranslations
+    due to missing context. -->
+    <Entry Id="ddriver_job_park_truck_correct_heading">
+        <String xml:lang="en-US">The ~b~truck ~s~must be oriented as shown by the ~y~arrows~s~.</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_detach_trailer">
+        <String xml:lang="en-US">Detach the ~b~trailer~s~.</String>
+    </Entry>
+
+    <!-- {0} = Type of truck (semi truck, box truck, van) -->
+    <Entry Id="ddriver_job_need_truck_type">
+        <String xml:lang="en-US">You need a ~b~{0} ~s~to continue this ~y~delivery~s~.</String>
+    </Entry>
+
+    <!-- {0} = Amount earned -->
+    <Entry Id="ddriver_job_success_message">
+        <String xml:lang="en-US">You completed the ~b~delivery job ~s~and earned ~g~{0}~s~!</String>
+    </Entry>
+
+    <!-- {0} = Player name (id) -->
+    <!-- {1} = Money amount -->
+    <Entry Id="ddriver_job_success_announcement">
+        <String xml:lang="en-US">{0} has completed a delivery and earned {1}.</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_goods_destroyed">
+        <String xml:lang="en-US">~r~The ~s~goods ~r~have been destroyed.</String>
+    </Entry>
+
+    <!-- {0} = Amount charged -->
+    <Entry Id="ddriver_job_goods_destroyed_charged">
+        <String xml:lang="en-US">You have been charged ~r~{0} ~s~to cover the losses</String>
+    </Entry>
+
+    <!-- {0} = Amount covered -->
+    <Entry Id="ddriver_job_goods_destroyed_covered">
+        <String xml:lang="en-US">The ~b~insurance company ~s~has fully covered the losses (~r~{0}~s~)</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_goods_destroyed_not_covered">
+        <String xml:lang="en-US">The ~b~insurance company ~s~has rejected your claim</String>
     </Entry>
 
     <Entry Id="hitman_target_selected_hint">
@@ -5099,4 +5415,3 @@
         <String xml:lang="en-US">You can find your ~r~target~s~ in the ~o~orange area~s~ on your map.</String>
     </Entry>
 </Entries>
-
