@@ -6,8 +6,8 @@
         <String xml:lang="en-US">Your ~b~{0} ~s~has been returned to your garage!</String>
         <String xml:lang="pl-PL">Twój ~b~{0} ~s~został zwrócony do garażu!</String>
         <String xml:lang="nl-NL">Je ~b~{0} ~s~is teruggebracht naar je garage!</String>
-        <String xml:lang="fr-FR">Ta ~b~{0} ~s~a été renvoyé dans ton garage!</String>
-        <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata restituito al tuo garage!</String>
+        <String xml:lang="fr-FR">Ta ~b~{0} ~s~a été renvoyée dans ton garage!</String>
+        <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata riportata al tuo garage!</String>
         <String xml:lang="tr-TR">Senin ~b~{0} ~s~Garajına gönderildi!!</String>
         <String xml:lang="es-ES">¡Tu ~b~{0} ~s~ha sido devuelta a tu garaje!</String>
         <String xml:lang="pt-BR">Seu ~b~{0} ~s~foi devolvido à sua garagem!</String>
@@ -57,7 +57,7 @@
     <Entry Id="cant_store_when_dead">
         <String xml:lang="en-US">~r~You can't store your personal vehicle when you're dead!</String>
         <String xml:lang="nl-NL">~r~Je kan je voertuig niet opslaan wanneer je dood bent!</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas stocker ton véhicule personnel quand tu es mort!</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas ranger ton véhicule personnel quand tu es mort!</String>
         <String xml:lang="hi-Latn">~r~Jab aap mare hue ho to aap koi personal vehicle store nahi kar sakte!</String>
         <String xml:lang="de-DE">~r~Du kannst dein persönliches Fahrzeug nicht einlagern, wenn du tot bist!</String>
         <String xml:lang="it-IT">~r~Non puoi depositare il tuo veicolo personale quando sei morto!</String>
@@ -66,7 +66,7 @@
     <Entry Id="cant_store_when_cuffed">
         <String xml:lang="en-US">~r~You can't store your personal vehicle when you're cuffed!</String>
         <String xml:lang="nl-NL">~r~Je kan je voertuig niet opslaan wanneer je geboeid bent!</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas stocker ton véhicule personnel quand tu es menotté!</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas ranger ton véhicule personnel quand tu es menotté!</String>
         <String xml:lang="hi-Latn">~r~Jab aap cuffed ho to aap koi personal vehicle store nahi kar sakte!</String>
         <String xml:lang="de-DE">~r~Du kannst dein persönliches Fahrzeug nicht einlagern, wenn du gefesselt bist!</String>
         <String xml:lang="it-IT">~r~Non puoi depositare il tuo veicolo personale quando sei ammanettato!</String>
@@ -415,7 +415,7 @@
         <String xml:lang="hi-Latn">Aapki ~b~vehicle ~s~hai ~r~out of range~s~.</String>
     </Entry>
 
-    <!-- {0} = Locked/Unlocked -->
+    <!-- {0} = vehicle_option_locked/vehicle_option_unlocked -->
     <Entry Id="vehicle_lock_unlock">
         <String xml:lang="en-US">You {0} ~s~your ~b~vehicle~s~.</String>
         <String xml:lang="pl-PL">{0} ~s~swój ~b~pojazd~s~.</String>
@@ -801,10 +801,10 @@
     <Entry Id="menu_vehicles_store_title">
         <String xml:lang="en-US">Store</String>
         <String xml:lang="nl-NL">Opslaan</String>
-        <String xml:lang="fr-FR">Magasin</String>
+        <String xml:lang="fr-FR">Ranger</String>
         <String xml:lang="hi-Latn">Store</String>
         <String xml:lang="de-DE">Laden</String>
-        <String xml:lang="it-IT">Negozio</String>
+        <String xml:lang="it-IT">Deposita</String>
     </Entry>
 
     <Entry Id="menu_vehicles_store_your_garage">
