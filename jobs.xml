@@ -5346,6 +5346,11 @@
     <Entry Id="ddriver_job_go_to_dropoff">
         <String xml:lang="en-US">Go to ~y~{0} ~s~and drop off the ~b~goods~s~.</String>
     </Entry>
+    
+    <!-- {0} = Area name -->
+    <Entry Id="ddriver_job_go_to_dropoff_parcel">
+        <String xml:lang="en-US">Go to ~y~{0} ~s~and deliver the next ~b~package~s~.</String>
+    </Entry>
 
     <!-- Shown at the bottom right as a box with a health bar (please all uppercase) -->
     <Entry Id="ddriver_trailer_health">
@@ -5368,8 +5373,12 @@
         <String xml:lang="en-US">Park the ~b~trailer ~s~in the ~y~marked area~s~.</String>
     </Entry>
 
+    <Entry Id="ddriver_job_deliver_package">
+        <String xml:lang="en-US">Deliver the ~b~package~s~.</String>
+    </Entry>
+
     <Entry Id="ddriver_job_recover_vehicle">
-        <String xml:lang="en-US">Recover the ~b~truck ~s~or ~b~trailer ~s~with the ~y~goods ~s~first.</String>
+        <String xml:lang="en-US">Recover the ~b~delivery vehicle~s~.</String>
     </Entry>
 
     <!-- Must be oriented correctly means that the heading/angle of the vehicle must be as 
@@ -5426,5 +5435,8 @@
     <Entry Id="ddriver_job_goods_destroyed_not_covered">
         <String xml:lang="en-US">The ~b~insurance company ~s~has rejected your claim</String>
     </Entry>
-    
+
+    <Entry Id="ddriver_job_canceled_error">
+        <String xml:lang="en-US">~r~The delivery has been canceled due to an error.</String>
+    </Entry>
 </Entries>
