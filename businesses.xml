@@ -2399,4 +2399,67 @@
         <String xml:lang="hi-Latn">Select kare ek garage</String>
         <String xml:lang="de-DE">Wähle eine Garage</String>
     </Entry>
+
+    <!-- ========================= -->
+    <!-- Hitman Menu -->
+    <!-- ========================= -->
+    <Entry Id="menu_hitman_title">
+        <String xml:lang="en-US">Hitman</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_contracts_subtitle">
+        <String xml:lang="en-US">Contracts</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_contracts_description">
+        <String xml:lang="en-US">View recent hitman contracts.</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_name">
+        <String xml:lang="en-US">New Contract</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_fee">
+        <String xml:lang="en-US">Fee: {0}%</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_reward_over_limit">
+        <String xml:lang="en-US">The reward amount exceeds the maximum limit allowed for a hitman contract ({0})</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_reward_below_minimum">
+        <String xml:lang="en-US">The reward amount is below the minimum required for a hitman contract ({0})</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_target">
+        <String xml:lang="en-US">Select your target</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_reward">
+        <String xml:lang="en-US">Reward</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_create">
+        <String xml:lang="en-US">Create</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_success">
+        <String xml:lang="en-US">Contract has been ~g~successfully~s~ created!</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_invalid_target">
+        <String xml:lang="en-US">~r~The specified target is invalid.</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_invalid_reward">
+        <String xml:lang="en-US">~r~The reward amount is invalid.</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_too_many">
+        <String xml:lang="en-US">~r~Target has reached the maximum number of active contracts.</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_duplicate">
+        <String xml:lang="en-US">~r~You cannot create duplicate contracts for the same target.</String>
+    </Entry>
 </Entries>
