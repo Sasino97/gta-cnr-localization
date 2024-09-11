@@ -389,6 +389,18 @@
     <!-- ========================= -->
     <!-- Common instructional buttons -->
     <!-- ========================= -->
+
+    <!-- Example: Offer (hold) -->
+    <!-- {0} = Label -->
+    <Entry Id="btn_hold">
+        <String xml:lang="en-US">{0} (hold)</String>
+        <String xml:lang="nl-NL">{0} (vasthouden)</String>
+        <String xml:lang="fr-FR">{0} (maintenir)</String>
+        <String xml:lang="hi-Latn">{0} (hold karo)</String>
+        <String xml:lang="de-DE">{0} (halten)</String>
+        <String xml:lang="it-IT">{0} (tieni premuto)</String>
+    </Entry>
+
     <Entry Id="btn_select">
         <String xml:lang="en-US">Select</String>
         <String xml:lang="it-IT">Seleziona</String>
@@ -464,6 +476,12 @@
         <String xml:lang="cs-CZ">Obnovit</String>
     </Entry>
 
+    <Entry Id="btn_sort">
+        <String xml:lang="en-US">Sort</String>
+        <String xml:lang="nl-NL">Sorteren</String>
+        <String xml:lang="fr-FR">Trier</String>
+    </Entry>
+
     <Entry Id="btn_add">
         <String xml:lang="en-US">Add</String>
         <String xml:lang="nl-NL">Toevoegen</String>
@@ -482,6 +500,12 @@
         <String xml:lang="de-DE">Interagieren</String>
         <String xml:lang="cs-CZ">Interakce</String>
         <String xml:lang="it-IT">Interagisci</String>
+    </Entry>
+
+    <Entry Id="btn_use">
+        <String xml:lang="en-US">Use</String>
+        <String xml:lang="nl-NL">Gebruik</String>
+        <String xml:lang="fr-FR">Utiliser</String>
     </Entry>
 
     <!-- ========================= -->
@@ -519,10 +543,10 @@
         <String xml:lang="es-ES">~g~GRATIS</String>
         <String xml:lang="pt-BR">~g~GRÁTIS</String>
         <String xml:lang="ar-001">~g~مجاني</String>
-        <String xml:lang="id-ID">GRATIS</String>
+        <String xml:lang="id-ID">~g~GRATIS</String>
         <String xml:lang="th-TH">~g~ฟรี</String>
         <String xml:lang="hi-Latn">~g~FREE</String>
-        <String xml:lang="cs-CZ">~g~Zdarma</String>
+        <String xml:lang="cs-CZ">~g~ZDARMA</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1076,5 +1100,41 @@
         <String xml:lang="de-DE">{0} ist nun der Partyleiter.</String>
         <String xml:lang="fr-FR">{0} est maintenant le chef.</String>
         <String xml:lang="it-IT">{0} è ora il leader del party.</String>
+    </Entry>
+
+    <!-- For bottom-left info boxes (timers etc..) (all upper case please)-->
+    <Entry Id="mission_time_left">
+        <String xml:lang="en-US">TIME LEFT</String>
+        <String xml:lang="nl-NL">RESTERENDE TIJD</String>
+        <String xml:lang="fr-FR">TEMPS RESTANT</String>
+    </Entry>
+
+    <Entry Id="mission_late">
+        <String xml:lang="en-US">LATE</String>
+        <String xml:lang="fr-FR">EN RETARD</String>
+    </Entry>
+
+    <Entry Id="mission_payout">
+        <String xml:lang="en-US">PAYOUT</String>
+        <String xml:lang="nl-NL">LAAT</String>
+        <String xml:lang="fr-FR">PAIEMENT</String>
+    </Entry>
+
+    <Entry Id="menu_playerlist_title">
+        <String xml:lang="en-US">Players</String>
+        <String xml:lang="nl-NL">Spelers</String>
+        <String xml:lang="fr-FR">Joueurs</String>
+    </Entry>
+
+    <Entry Id="menu_playerlist_no_players_text">
+        <String xml:lang="en-US">No players found</String>
+        <String xml:lang="nl-NL">Geen spelers gevonden</String>
+        <String xml:lang="fr-FR">Aucun joueur trouvé</String>
+    </Entry>
+
+    <Entry Id="menu_playerlist_no_players_description">
+        <String xml:lang="en-US">There are no players available.</String>
+        <String xml:lang="nl-NL">Er zijn geen spelers beschikbaar.</String>
+        <String xml:lang="fr-FR">Il n'y a pas de joueurs disponibles.</String>
     </Entry>
 </Entries>
