@@ -43,15 +43,17 @@
         <String xml:lang="hi-Latn">Aapko kamse kam ~r~level {0} ~s~hona chahiye ~p~{1} ~s~banne ke liye.</String>
     </Entry>
 
+    <!-- {0} = Job name -->
     <Entry Id="jobs_banned">
         <String xml:lang="en-US">You are temporarily ~r~banned~s~ from the {0} job.</String>
         <String xml:lang="nl-NL">Je bent tijdelijk ~r~verbannen~s~ van de {0} baan.</String>
-        <String xml:lang="fr-FR">Tu es temporairement ~r~banni~s~ de l'emploi {0}.</String>
+        <String xml:lang="fr-FR">Tu es temporairement ~r~banni~s~ du travail {0}.</String>
         <String xml:lang="hi-Latn">Aap temporarily ~r~banned ~s~ho {0} ~s~job se.</String>
         <String xml:lang="de-DE">Du wurdest temporär vom {0}-Job ~r~gebannt~s~.</String>
         <String xml:lang="it-IT">Sei temporaneamente ~r~bannato~s~ dal lavoro di {0}.</String>
     </Entry>
 
+    <!-- {0} = Job name -->
     <Entry Id="jobs_wanted_level">
         <String xml:lang="en-US">You cannot become a {0} when you are ~o~wanted~s~.</String>
         <String xml:lang="nl-NL">Je kan geen {0} worden wanneer je ~o~gezocht~s~ wordt.</String>
@@ -61,6 +63,7 @@
         <String xml:lang="it-IT">Non puoi diventare un {0} quando sei ~o~ricercato~s~.</String>
     </Entry>
 
+    <!-- {0} = Job name -->
     <Entry Id="jobs_test_required">
         <String xml:lang="en-US">You need to pass the ~y~Exam~s~ to become a {0}.</String>
         <String xml:lang="nl-NL">Je moet het ~y~Examen~s~ halen om een {0} te worden.</String>
@@ -70,6 +73,8 @@
         <String xml:lang="it-IT">Devi superare l'~y~Esame~s~ per diventare un {0}.</String>
     </Entry>
 
+    <!-- {0} = Job name -->
+    <!-- {1} = Percentage -->
     <Entry Id="jobs_player_limit">
         <String xml:lang="en-US">You can't become a {0} because the {1}% player limit has been reached.</String>
         <String xml:lang="nl-NL">Je kan geen {0} worden omdat het limiet van {1}% is bereikt.</String>
@@ -114,16 +119,22 @@
         <String xml:lang="pt-BR">Você deve ~r~esperar ~s~alguns segundos antes transformarse nuevamente em ~p~{0}~s~.</String>
         <String xml:lang="ar-001">أنت بحاجة إلى ~r~الأنتظار ~s~قبل أن تصبح ~p~{0} ~s~مرة أخرى.</String>
         <String xml:lang="th-TH">คุณต้อง ~r~รอ ~s~ก่อนที่จะกลายเป็น ~p~{0} ~s~อีกครั้ง</String>
-        <String xml:lang="vi-VN">Bạn cần phải ~r~đoi85 ~s~trước khi trở thành một ~p~{0} ~s~again.</String>
+        <String xml:lang="vi-VN">Bạn cần phải ~r~đoi ~s~trước khi trở thành một ~p~{0} ~s~một lần nữa.</String>
         <String xml:lang="id-ID">Anda harus ~r~menunggu ~s~sebelum dapat bekerja sebagai ~p~{0} ~s~lagi.</String>
         <String xml:lang="tr-TR">Tekrar ~p~{0} ~s~olmadan önce ~r~beklemeniz ~s~gerekiyor.</String>
         <String xml:lang="hi-Latn">Aapko ~r~wait ~s~karna hoga dobara ~p~{0} ~s~banne se pehle.</String>
     </Entry>
 
+    <Entry Id="jobs_cant_change_while_on_mission">
+        <String xml:lang="en-US">~r~You cannot change your job while you're on a mission.</String>
+        <String xml:lang="nl-NL">~r~Je kan niet van baan veranderen wanneer je op een missie bent.</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas changer de travail pendant que tu es en mission.</String>
+    </Entry>
+
     <Entry Id="jobs_cant_change_inside_vehicle">
         <String xml:lang="en-US">~r~You cannot change your job while you're in a vehicle.</String>
         <String xml:lang="nl-NL">~r~Je kan niet van baan veranderen wanneer je in een voertuig zit.</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas changer d'emploi lorsque tu es dans un véhicule.</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas changer de travail lorsque tu es dans un véhicule.</String>
         <String xml:lang="it-IT">~r~Non puoi cambiare lavoro mentre sei in un veicolo.</String>
         <String xml:lang="es-ES">~r~No puedes cambiar de trabajo mientras estás en un vehículo.</String>
         <String xml:lang="zh-Hant">~r~你不能在車內更換你的職業.</String>
@@ -162,7 +173,7 @@
     <Entry Id="jobs_temp_banned">
         <String xml:lang="en-US">You are temporarily ~r~banned ~s~from the ~p~{0} ~s~job.</String>
         <String xml:lang="nl-NL">Je bent tijdelijk ~r~verbannen ~s~van de ~p~{0} ~s~baan.</String>
-        <String xml:lang="fr-FR">Tu es temporairement ~r~banni ~s~de l'emploi ~p~{0}~s~.</String>
+        <String xml:lang="fr-FR">Tu es temporairement ~r~banni ~s~du travail ~p~{0}~s~.</String>
         <String xml:lang="it-IT">Sei temporaneamente ~r~bannato ~s~dal lavoro di ~p~{0}~s~.</String>
         <String xml:lang="es-ES">Está ~r~baneado temporalmente ~s~del trabajo de ~p~{0}~s~.</String>
         <String xml:lang="zh-Hant">你已被 ~p~{0} ~s~職業暫時 ~r~封禁~s~.</String>
@@ -698,7 +709,7 @@
         <String xml:lang="pt-BR">Você abandonou o ~r~ponto de drogas~s~.</String>
         <String xml:lang="th-TH">คุณออกจาก ~r~จุดขายยา~s~</String>
         <String xml:lang="ar-001">لقد تركت ~r~مكان بيع المخدرات هذا~s~.</String>
-        <String xml:lang="id-ID">anda telah meninggalkan ~r~tempat penjualan narkoba~s~.</String>
+        <String xml:lang="id-ID">Anda telah meninggalkan ~r~tempat penjualan narkoba~s~.</String>
         <String xml:lang="tr-TR">~r~Uyuşturucu noktasını ~s~terk ettiniz.</String>
         <String xml:lang="hi-Latn">Aap ~r~drug spot ~s~chhor diye ho.</String>
     </Entry>
@@ -855,7 +866,7 @@
     <Entry Id="dealer_manage_supplies">
         <String xml:lang="en-US">You can manage your drug supplies in your {0} ~b~Menu~s~ &gt; ~b~Job Menu.</String>
         <String xml:lang="nl-NL">Je kan je drug goederen beheren in je {0} ~b~Menu~s~ &gt; ~b~Werk Menu.</String>
-        <String xml:lang="fr-FR">Tu peux gérer tes réserves de drogues dans ton {0} ~b~Menu~s~ &gt; ~b~Menu Emploi.</String>
+        <String xml:lang="fr-FR">Tu peux gérer tes réserves de drogues dans ton {0} ~b~Menu~s~ &gt; ~b~Menu Travail.</String>
         <String xml:lang="it-IT">Puoi gestire le tue scorte di droga nel tuo ~b~Menu~s~ {0} &gt; ~b~Menu Lavoro.</String>
         <String xml:lang="de-DE">Du kannst deine Vorräte in deinem {0} ~b~Menu~s~ &gt; ~b~Job Menu verwalten.</String>
         <String xml:lang="pl-PL">Możesz zarządzać swoim towarem w swoim {0} ~b~Menu~s~ &gt; ~b~Menu Pracy.</String>
@@ -4035,7 +4046,7 @@
         <String xml:lang="en-US">~r~You cannot illegally export vehicles on this job!</String>
         <String xml:lang="nl-NL">~r~Je mag met deze baan niet voertuigen illegaal exporteren!</String>
         <String xml:lang="it-IT">~r~Non puoi esportare veicoli illegalmente con questo lavoro!</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas exporter illégalement des véhicules avec cet emploi!</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas exporter illégalement des véhicules avec ce travail!</String>
         <String xml:lang="pl-PL">~r~Nie możesz nielegalnie eksportować fur w tej pracy!</String>
         <String xml:lang="es-ES">~r~En este trabajo no se pueden exportar vehículos ilegalmente.</String>
         <String xml:lang="pt-BR">~r~Nesse trabalho, os veículos não podem ser exportados ilegalmente!.</String>
@@ -4139,7 +4150,7 @@
     <Entry Id="vehicle_scrap_not_on_job">
         <String xml:lang="en-US">~r~You cannot scrap stolen vehicles on this job!</String>
         <String xml:lang="nl-NL">~r~Je kan met deze baan geen gestolen voertuigen scrappen!</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas mettre à la casse des véhicules volés avec cet emploi!</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas mettre à la casse des véhicules volés avec ce travail!</String>
         <String xml:lang="it-IT">~r~Non puoi smantellare veicoli rubati con questo lavoro!</String>
         <String xml:lang="pl-PL">~r~Nie możesz złomować kradzionych fur w tej pracy!</String>
         <String xml:lang="es-ES">~r~En este trabajo no se pueden desguazar vehículos robados!</String>
@@ -4364,7 +4375,7 @@
         <String xml:lang="en-US">This business ~r~cannot be robbed ~s~yet. This robbery is coming in a ~b~future update~s~.</String>
         <String xml:lang="nl-NL">Dit bedrijf ~r~kan ~s~nog~r~ niet overvallen worden~s~. Deze overval wordt in een ~b~latere update~s~ toegevoegd.</String>
         <String xml:lang="fr-FR">Ce commerce ~r~ne peut pas être braqué ~s~pour l'instant. Ce braquage est prévu dans une ~b~future mise à jour~s~.</String>
-        <String xml:lang="it-IT">Quest'attivita ~r~non può essere rapinata ~s~ancora. Questa rapina arriverà in un ~b~update futuro~s~.</String>
+        <String xml:lang="it-IT">Quest'attività ~r~non può essere rapinata ~s~ancora. Questa rapina arriverà in un ~b~update futuro~s~.</String>
         <String xml:lang="de-DE">Dieses Geschäft kann derzeit ~r~noch nicht ausgeraubt ~s~werden. Diese ~b~Raub-Funktion ~s~kommt in einem späteren Update.</String>
         <String xml:lang="es-ES">Este negocio ~r~no puede ser robado ~s~todavía. Este robo llegará en una ~b~actualización futura~s~.</String>
         <String xml:lang="pl-PL">To miejsce ~r~nie może być jeszcze okradzione~s~. Ten napad przyjdzie w ~b~przyszłej aktualizacji~s~.</String>
@@ -4378,7 +4389,7 @@
         <String xml:lang="en-US">This business ~r~cannot be robbed~s~.</String>
         <String xml:lang="nl-NL">Dit bedrijf ~r~kan niet worden overvallen~s~.</String>
         <String xml:lang="fr-FR">Cette entreprise ~r~ne peut pas être braquée~s~.</String>
-        <String xml:lang="it-IT">Quest'attivita ~r~non può essere rapinata~s~.</String>
+        <String xml:lang="it-IT">Quest'attività ~r~non può essere rapinata~s~.</String>
         <String xml:lang="de-DE">Dises Geschäft ~r~kann nicht ausgeraubt werden~s~.</String>
         <String xml:lang="es-ES">Este negocio ~r~no puede ser robado~s~.</String>
         <String xml:lang="pl-PL">To miejsce ~r~nie może być okradzione~s~.</String>
@@ -4392,7 +4403,7 @@
         <String xml:lang="en-US">This business has been ~r~recently ~s~robbed. Try again later.</String>
         <String xml:lang="nl-NL">Dit bedrijf is ~r~recent ~s~al overvallen. Probeer later nog een keer.</String>
         <String xml:lang="fr-FR">Ce commerce a été ~r~récemment ~s~braqué. Réessaye plus tard.</String>
-        <String xml:lang="it-IT">Quest'attivita è stata rapinata ~r~recentemente~s~. Prova più tardi.</String>
+        <String xml:lang="it-IT">Quest'attività è stata rapinata ~r~recentemente~s~. Prova più tardi.</String>
         <String xml:lang="de-DE">Dieses Geschäft wurde ~r~vor kurzem ~s~ausgeraubt. Versuche es später erneut.</String>
         <String xml:lang="es-ES">Este negocio ha sido ~r~recientemente ~s~robado. Vuelva a intentarlo más tarde.</String>
         <String xml:lang="pl-PL">To miejsce zostało ~r~niedawno ~s~okradzione. Spróbuj ponownie później.</String>
@@ -4407,7 +4418,7 @@
         <String xml:lang="en-US">You can't rob this ~r~business ~s~when there are less than ~b~{0} cops ~s~online.</String>
         <String xml:lang="nl-NL">Je kan dit ~r~bedrijf ~s~niet overvallen wanneer er minder dan ~b~{0} agenten ~s~online zijn.</String>
         <String xml:lang="fr-FR">Tu ne peux pas braquer ce ~r~commerce ~s~quand il y a moins de ~b~{0} policiers ~s~en ligne.</String>
-        <String xml:lang="it-IT">Non puoi rapinare quest'~r~attivita ~s~quando ci sono meno di ~b~{0} poliziotti ~s~online.</String>
+        <String xml:lang="it-IT">Non puoi rapinare quest'~r~attività ~s~quando ci sono meno di ~b~{0} poliziotti ~s~online.</String>
         <String xml:lang="de-DE">Du kannst dieses ~r~Geschäft~s~ nicht ausrauben, wenn weniger als ~b~{0} Polizisten ~s~online sind. </String>
         <String xml:lang="es-ES">No puedes robar este ~r~negocio ~s~cuando hay menos de ~b~{0} policías ~s~en línea.</String>
         <String xml:lang="pl-PL">Nie możesz okraść tego ~r~biznesu ~s~gdy na serwerze jest mniej niż ~b~{0} gliniarzy~s~.</String>
@@ -4882,13 +4893,14 @@
         <String xml:lang="it-IT">Scassina</String>
     </Entry>
 
+    <!-- i.e. stop cracking the safe -->
     <Entry Id="robbery_instructional_stop">
-        <String xml:lang="en-US">Stop (hold)</String>
-        <String xml:lang="nl-NL">Stop (vasthouden)</String>
-        <String xml:lang="fr-FR">Arrêter (maintenir)</String>
-        <String xml:lang="hi-Latn">Stop (hold)</String>
-        <String xml:lang="de-DE">Stop (halten)</String>
-        <String xml:lang="it-IT">Stop (tenere)</String>
+        <String xml:lang="en-US">Stop</String>
+        <String xml:lang="nl-NL">Stop</String>
+        <String xml:lang="fr-FR">Arrêter</String>
+        <String xml:lang="hi-Latn">Stop</String>
+        <String xml:lang="de-DE">Stop</String>
+        <String xml:lang="it-IT">Fermati</String>
     </Entry>
 
     <Entry Id="no_nearby_players_give_weapon">
@@ -5048,7 +5060,7 @@
     </Entry>
 
 
-    <!-- {0} = Verb (probably police; civilian; ...) -->
+    <!-- {0} = Verb = rented/purchased -->
     <!-- {1} = Hotkey -->
     <Entry Id="dealership_manage_vehicles_info">
         <String xml:lang="en-US">Manage your {0} vehicles in {1} ~y~Menu ~s~&gt; ~y~Vehicles</String>
@@ -5208,8 +5220,342 @@
         <String xml:lang="en-US">You don't have any vehicle for your ~b~current job~s~, and you ~r~can't ~s~use your personal vehicles while on this job. Buy job vehicles and they will show up in this menu.</String>
         <String xml:lang="nl-NL">Je hebt geen voertuigen voor je ~b~huidige baan~s~, en je kan je persoonlijke voertuigen ~r~niet ~s~gebruiken terwijl je aan het werk bent. Koop werk voertuigen en ze zullen in dit menu verschijnen.</String>
         <String xml:lang="de-DE">Du besitzt keine Fahrzeuge für deinen ~b~aktuellen Job~s~, und du kannst ~r~keine ~s~persönlichen Fahrzeuge benutzen, solange du diesen Job machst. Kaufe Job-Fahrzeuge. Sie werden in diesem Menü angezeigt.</String>
-        <String xml:lang="fr-FR">Tu n'as pas de véhicule pour ton ~b~emploi actuel~s~, et tu ~r~ne peux pas ~s~utiliser tes véhicules personnels pendant ce travail. Achète des véhicules pour ton travail et ils apparaîtront dans ce menu.</String>
+        <String xml:lang="fr-FR">Tu n'as pas de véhicule pour ton ~b~travail actuel~s~, et tu ~r~ne peux pas ~s~utiliser tes véhicules personnels pendant ce travail. Achète des véhicules pour ton travail et ils apparaîtront dans ce menu.</String>
         <String xml:lang="it-IT">Non hai veicoli per il tuo ~b~lavoro attuale~s~, e ~r~non puoi ~s~usare i tuoi veicoli personali mentre sei a lavoro. Acquista veicoli da lavoro e compariranno in questo menu.</String>
     </Entry>
-</Entries>
+    
+    <!-- ================================= -->
+    <!-- ====== Delivery Driver Job ====== -->
+    <!-- ================================= -->
 
+    <Entry Id="ddriver_description">
+        <String xml:lang="en-US">~c~(C)Delivery Driver:(/C) ~s~deliver ~b~goods ~s~to earn money.</String>
+        <String xml:lang="nl-NL">~c~(C)Pakketbezorger:(/C) ~s~bezorg ~b~goederen ~s~om geld te verdienen.</String>
+        <String xml:lang="fr-FR">~c~(C)Chauffeur-livreur :(/C) ~s~livrer ~b~des marchandises ~s~pour gagner de l'argent.</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_title">
+        <String xml:lang="en-US">Delivery Driver</String>
+        <String xml:lang="nl-NL">Pakketbezorger</String>
+        <String xml:lang="fr-FR">Chauffeur-livreur</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_deliveries_text">
+        <String xml:lang="en-US">Deliveries</String>
+        <String xml:lang="nl-NL">Bezorgingen</String>
+        <String xml:lang="fr-FR">Livraisons</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_deliveries_descr">
+        <String xml:lang="en-US">View the available delivery jobs.</String>
+        <String xml:lang="nl-NL">Bekijk de beschikbare bezorgingen.</String>
+        <String xml:lang="fr-FR">Consulter les offres d'emploi de livreur disponibles.</String>
+    </Entry>
+    
+    <!-- Try to keep this as short as possible (needs to fit in menu subheader) -->
+    <Entry Id="menu_ddriver_deliveries_sorted_by_payout">
+        <String xml:lang="en-US">Sorted by payout</String>
+        <String xml:lang="nl-NL">Gesorteerd op uitbetaling</String>
+        <String xml:lang="fr-FR">Triés par paiement</String>
+    </Entry>
+    
+    <!-- Try to keep this as short as possible (needs to fit in menu subheader) -->
+    <Entry Id="menu_ddriver_deliveries_sorted_by_distance">
+        <String xml:lang="en-US">Sorted by pickup distance</String>
+        <String xml:lang="nl-NL">Gesorteerd op afstand</String>
+        <String xml:lang="fr-FR">Triés par distance de livraison</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_history_text">
+        <String xml:lang="en-US">History</String>
+        <String xml:lang="nl-NL">Geschiedenis</String>
+        <String xml:lang="fr-FR">Historique</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_history_descr">
+        <String xml:lang="en-US">View the delivery jobs that you completed in the current session.</String>
+        <String xml:lang="nl-NL">Bekijk de bezorgingen die je hebt voltooid in de huidige sessie.</String>
+        <String xml:lang="fr-FR">Afficher les missions de livraison que tu as effectuées au cours de la session actuelle.</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_history_subtitle">
+        <String xml:lang="en-US">Select a past delivery job</String>
+        <String xml:lang="nl-NL">Selecteer een eerdere bezorging</String>
+        <String xml:lang="fr-FR">Sélectionner une ancienne mission de livraison</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_current_delivery_text">
+        <String xml:lang="en-US">Current Delivery</String>
+        <String xml:lang="nl-NL">Huidige bezorging</String>
+        <String xml:lang="fr-FR">Livraison actuelle</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_current_delivery_descr">
+        <String xml:lang="en-US">View details about the delivery in progress.</String>
+        <String xml:lang="nl-NL">Bekijk details over de bezorging die momenteel bezig is.</String>
+        <String xml:lang="fr-FR">Afficher les détails de la livraison en cours.</String>
+    </Entry>
+
+    <Entry Id="menu_ddriver_delivery_details_payout">
+        <String xml:lang="en-US">Payout</String>
+        <String xml:lang="fr-FR">Paiement</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_details_time_left">
+        <String xml:lang="en-US">Time left</String>
+        <String xml:lang="fr-FR">Temps restant</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_details_itinerary">
+        <String xml:lang="en-US">Itinerary</String>
+        <String xml:lang="fr-FR">Itinéraire</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_details_other">
+        <String xml:lang="en-US">Other info</String>
+        <String xml:lang="fr-FR">Autres informations</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_details">
+        <String xml:lang="en-US">Details</String>
+        <String xml:lang="nl-NL">Details</String>
+        <String xml:lang="fr-FR">Détails</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_cancel">
+        <String xml:lang="en-US">~r~Cancel Delivery</String>
+        <String xml:lang="nl-NL">~r~Bezorging annuleren</String>
+        <String xml:lang="fr-FR">~r~Annuler la livraison</String>
+    </Entry>
+    
+    <Entry Id="menu_ddriver_delivery_cancel_desc">
+        <String xml:lang="en-US">Abandon your current delivery.</String>
+        <String xml:lang="nl-NL">Annuleer je huidige bezorging.</String>
+        <String xml:lang="fr-FR">Abandonner la livraison en cours.</String>
+    </Entry>
+    
+    <Entry Id="ddriver_job_menu_refresh_cooldown">
+        <String xml:lang="en-US">You must ~r~wait ~s~before refreshing the deliveries menu again.</String>
+        <String xml:lang="nl-NL">Je moet ~r~wachten ~s~voordat je de lijst met bezorgingen mag verversen</String>
+        <String xml:lang="fr-FR">Tu dois ~r~attendre ~s~avant de rafraîchir à nouveau le menu des livraisons.</String>
+    </Entry>
+    
+    <!-- {0} = Time to await -->
+    <Entry Id="ddriver_job_take_job_cooldown">
+        <String xml:lang="en-US">You must wait ~y~{0} ~s~before taking another delivery job.</String>
+        <String xml:lang="nl-NL">Je moet ~y~{0} ~s~wachten voordat je een andere bezorging mag aannemen.</String>
+        <String xml:lang="fr-FR">Tu dois attendre ~y~{0} ~s~avant de prendre une autre mission de livraison.</String>
+    </Entry>
+    
+    <!-- {0} = Final destination name -->
+    <Entry Id="menu_ddriver_current_delivery_subtitle">
+        <String xml:lang="en-US">Delivery to {0}</String>
+        <String xml:lang="nl-NL">Bezorging naar {0}</String>
+        <String xml:lang="fr-FR">Livraison à {0}</String>
+    </Entry>
+    
+    <!-- {0} = Number of jobs -->
+    <!-- {1} = stp_press or stp_hold (defined in businesses.xml) -->
+    <Entry Id="ddriver_n_jobs_available">
+        <String xml:lang="en-US">There are ~y~{0} delivery jobs ~s~available at the moment. {1} to open the delivery list.</String>
+        <String xml:lang="nl-NL">Er zijn ~y~{0} bezorgingen ~s~beschikbaar op dit moment. {1} om de lijst met bezorgingen te openen.</String>
+        <String xml:lang="fr-FR">Il y a ~y~{0} missions de livraison ~s~disponibles en ce moment. {1} pour ouvrir la liste des livraisons.</String>
+    </Entry>
+    
+    <!-- Shown at the bottom right as an instructional button. -->
+    <!-- Can be combined with "Hold" (btn_stp_label_hold) if player is using a gamepad. -->
+    <Entry Id="ddriver_view_jobs">
+        <String xml:lang="en-US">View jobs</String>
+        <String xml:lang="nl-NL">Bekijk opdrachten</String>
+        <String xml:lang="fr-FR">Voir les missions</String>
+    </Entry>
+    
+    <Entry Id="ddriver_already_on_job">
+        <String xml:lang="en-US">You are already on a delivery job.</String>
+        <String xml:lang="nl-NL">Je bent al bezig met een bezorging.</String>
+        <String xml:lang="fr-FR">Tu es déjà sur une mission de livraison.</String>
+    </Entry>
+    
+    <Entry Id="ddriver_job_no_longer_available">
+        <String xml:lang="en-US">This delivery job is no longer available.</String>
+        <String xml:lang="nl-NL">Deze bezorging is niet langer beschikbaar.</String>
+        <String xml:lang="fr-FR">Cette mission de livraison n'est plus disponible.</String>
+    </Entry>
+    
+    <!-- Shown at the bottom as mission text / subtitle -->
+    <!-- {0} = Area name -->
+    <Entry Id="ddriver_job_go_to_pickup">
+        <String xml:lang="en-US">Go to ~y~{0} ~s~and pick up the ~b~goods~s~.</String>
+        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en haal de ~b~goederen~s~ op.</String>
+        <String xml:lang="fr-FR">Va à ~y~{0} ~s~et récupère les ~b~marchandises~s~.</String>
+    </Entry>
+    
+    <Entry Id="ddriver_job_pick_up_trailer">
+        <String xml:lang="en-US">Pick up the ~y~trailer ~s~using a ~b~semi truck~s~.</String>
+        <String xml:lang="nl-NL">Haal de ~y~aanhanger ~s~op met een ~b~vrachtwagen~s~.</String>
+        <String xml:lang="fr-FR">Récupére la ~y~remorque ~s~à l'aide d'un ~b~semi-remorque~s~.</String>
+    </Entry>
+
+    <!-- Shown at the bottom as mission text / subtitle -->
+    <!-- {0} = Area name -->
+    <Entry Id="ddriver_job_go_to_dropoff">
+        <String xml:lang="en-US">Go to ~y~{0} ~s~and drop off the ~b~goods~s~.</String>
+        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en lever de ~b~goederen~s~ af.</String>
+        <String xml:lang="fr-FR">Va à ~y~{0} ~s~et dépose les ~b~marchandises~s~.</String>
+    </Entry>
+
+    <!-- {0} = Area name -->
+    <Entry Id="ddriver_job_go_to_dropoff_parcel">
+        <String xml:lang="en-US">Go to ~y~{0} ~s~and deliver the next ~b~package~s~.</String>
+        <String xml:lang="fr-FR">Va à ~y~{0} ~s~et livre le prochain ~b~colis~s~.</String>
+    </Entry>
+
+    <!-- Shown at the bottom right as a box with a health bar (please all uppercase) -->
+    <Entry Id="ddriver_trailer_health">
+        <String xml:lang="en-US">TRAILER</String>
+        <String xml:lang="nl-NL">AANHANGER</String>
+        <String xml:lang="fr-FR">REMORQUE</String>
+    </Entry>
+
+    <Entry Id="ddriver_truck_health">
+        <String xml:lang="en-US">TRUCK</String>
+        <String xml:lang="nl-NL">VRACHTWAGEN</String>
+        <String xml:lang="fr-FR">CAMION</String>
+    </Entry>
+
+    <Entry Id="ddriver_num_deliveries">
+        <String xml:lang="en-US">DELIVERIES</String>
+        <String xml:lang="nl-NL">BEZORGINGEN</String>
+        <String xml:lang="fr-FR">LIVRAISONS</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_park_truck_in_area">
+        <String xml:lang="en-US">Stop the ~b~truck ~s~in the ~y~marked area~s~.</String>
+        <String xml:lang="nl-NL">Parkeer de ~b~vrachtwagen ~s~in het ~y~gemarkeerde gebied~s~.</String>
+        <String xml:lang="fr-FR">Arrête le ~b~camion ~s~dans la ~y~zone indiquée~s~.</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_park_trailer_in_area">
+        <String xml:lang="en-US">Park the ~b~trailer ~s~in the ~y~marked area~s~.</String>
+        <String xml:lang="fr-FR">Gare la ~b~remorque ~s~dans la ~y~zone indiquée~s~.</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_deliver_package">
+        <String xml:lang="en-US">Deliver the ~b~package~s~.</String>
+        <String xml:lang="fr-FR">Livrer le ~b~colis~s~.</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_recover_vehicle">
+        <String xml:lang="en-US">Recover the ~b~delivery vehicle~s~.</String>
+        <String xml:lang="fr-FR">Récupère le ~b~véhicule de livraison~s~.</String>
+    </Entry>
+
+    <!-- Must be oriented correctly means that the heading/angle of the vehicle must be as 
+    per the markers. For example, the marker shows the player that the vehicle must be facing 
+    north, then the player must park it north. This explanation was given to avoid mistranslations
+    due to missing context. -->
+    <Entry Id="ddriver_job_park_truck_correct_heading">
+        <String xml:lang="en-US">The ~b~truck ~s~must be oriented as shown by the ~y~arrows~s~.</String>
+        <String xml:lang="nl-NL">De ~b~vrachtwagen ~s~moet worden geparkeerd zoals aangegeven door de ~y~pijlen~s~.</String>
+        <String xml:lang="fr-FR">Le ~b~camion ~s~doit être orienté comme indiqué par les ~y~flèches~s~.</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_detach_trailer">
+        <String xml:lang="en-US">Detach the ~b~trailer~s~.</String>
+        <String xml:lang="nl-NL">Koppel de ~b~aanhanger~s~ los.</String>
+        <String xml:lang="fr-FR">Détache la ~b~remorque~s~.</String>
+    </Entry>
+
+    <!-- {0} = Type of truck (semi truck, box truck, van) -->
+    <Entry Id="ddriver_job_need_truck_type">
+        <String xml:lang="en-US">You need a ~b~{0} ~s~to continue this ~y~delivery~s~.</String>
+        <String xml:lang="nl-NL">Je hebt een ~b~{0} ~s~nodig om deze ~y~bezorging~s~ voort te zetten.</String>
+        <String xml:lang="fr-FR">Tu as besoin d'un ~b~{0} ~s~pour continuer cette ~y~livraison~s~.</String>
+    </Entry>
+
+    <!-- {0} = Amount earned -->
+    <Entry Id="ddriver_job_success_message">
+        <String xml:lang="en-US">You completed the ~b~delivery job ~s~and earned ~g~{0}~s~!</String>
+        <String xml:lang="nl-NL">Je hebt de ~b~bezorging ~s~voltooid en ~g~{0} ~s~verdiend!</String>
+        <String xml:lang="fr-FR">Tu as terminé la mission de ~b~livraison ~s~et tu as gagné ~g~{0}~s~!</String>
+    </Entry>
+
+    <!-- {0} = Player name (id) -->
+    <!-- {1} = Money amount -->
+    <Entry Id="ddriver_job_success_announcement">
+        <String xml:lang="en-US">{0} has completed a delivery and earned {1}.</String>
+        <String xml:lang="nl-NL">{0} heeft een bezorging voltooid en {1} verdiend.</String>
+        <String xml:lang="fr-FR">{0} a effectué une livraison et a gagné {1}.</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_canceled_by_user">
+        <String xml:lang="en-US">~r~You have ~s~canceled ~r~the delivery job.</String>
+        <String xml:lang="fr-FR">~r~Tu as ~s~annulé ~r~la mission de livraison.</String>
+    </Entry>
+
+    <!-- {0} = Amount charged -->
+    <Entry Id="ddriver_job_canceled_penalty">
+        <String xml:lang="en-US">You have been charged ~r~{0} ~s~as a cancellation penalty.</String>
+        <String xml:lang="fr-FR">Tu as été facturé ~r~{0} ~s~à cause d'une pénalité d'annulation.</String>
+
+    </Entry>
+
+    <Entry Id="ddriver_job_goods_destroyed">
+        <String xml:lang="en-US">~r~The ~s~goods ~r~have been destroyed.</String>
+        <String xml:lang="nl-NL">~r~De ~s~goederen ~r~zijn vernietigd.</String>
+        <String xml:lang="fr-FR">~r~Les ~s~marchandises ~r~ont été détruites.</String>
+    </Entry>
+
+    <!-- {0} = Amount charged -->
+    <Entry Id="ddriver_job_goods_destroyed_charged">
+        <String xml:lang="en-US">You have been charged ~r~{0} ~s~to cover the losses</String>
+        <String xml:lang="nl-NL">Er is ~r~{0} ~s~in rekening gebracht om de schade te dekken</String>
+        <String xml:lang="fr-FR">Tu as été facturé ~r~{0} ~s~pour couvrir les pertes</String>
+    </Entry>
+
+    <!-- {0} = Amount covered -->
+    <Entry Id="ddriver_job_goods_destroyed_covered">
+        <String xml:lang="en-US">The ~b~insurance company ~s~has fully covered the losses (~r~{0}~s~)</String>
+        <String xml:lang="nl-NL">De ~b~verzekeringsmaatschappij ~s~heeft de schade volledig gedekt (~r~{0}~s~)</String>
+        <String xml:lang="fr-FR">La ~b~compagnie d'assurance ~s~a entièrement couvert les pertes (~r~{0}~s~)</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_goods_destroyed_not_covered">
+        <String xml:lang="en-US">The ~b~insurance company ~s~has rejected your claim</String>
+        <String xml:lang="nl-NL">De ~b~verzekeringsmaatschappij ~s~heeft je claim afgewezen</String>
+        <String xml:lang="fr-FR">La ~b~compagnie d'assurance ~s~a rejeté votre demande</String>
+    </Entry>
+
+    <Entry Id="ddriver_job_canceled_error">
+        <String xml:lang="en-US">~r~The delivery has been canceled due to an error.</String>
+        <String xml:lang="fr-FR">~r~La livraison a été annulée en raison d'une erreur.</String>
+    </Entry>
+
+    <!-- ================================= -->
+    <!-- ====== Hitman Job ====== -->
+    <!-- ================================= -->
+
+    <Entry Id="hitman_target_selected_hint">
+        <String xml:lang="en-US">Use any ~y~payphone~s~ to reveal the nearby location of your ~r~target~s~.</String>
+        <String xml:lang="nl-NL">Gebruik een ~y~telefooncel~s~ om de nabijgelegen locatie van je ~r~doelwit~s~ te onthullen.</String>
+        <String xml:lang="fr-FR">Utilise n'importe quel ~y~cabine téléphonique~s~ pour révéler l'emplacement proche de votre ~r~cible~s~.</String>
+    </Entry>
+
+    <Entry Id="hitman_payphone_cooldown">
+        <String xml:lang="en-US">You need to wait ~r~{0} seconds ~s~before using ~y~payphone~s~ again.</String>
+        <String xml:lang="nl-NL">Je moet ~r~{0} seconden ~s~wachten voordat je de ~y~telefooncel~s~ opnieuw kunt gebruiken.</String>
+        <String xml:lang="fr-FR">Tu dois attendre ~r~{0} secondes ~s~avant d'utiliser à nouveau la ~y~cabine téléphonique~s~.</String>
+    </Entry>
+
+    <Entry Id="hitman_payphone_no_active_target">
+        <String xml:lang="en-US">You need to select a contract before using ~y~payphone~s~.</String>
+        <String xml:lang="nl-NL">Je moet eerst een moordcontract selecteren voordat je de ~y~telefooncel~s~ kunt gebruiken.</String>
+        <String xml:lang="fr-FR">Tu dois choisir un contrat avant d'utiliser la ~y~cabine téléphonique~s~.</String>
+    </Entry>
+
+    <Entry Id="hitman_payphone_used_hint">
+        <String xml:lang="en-US">You can find your ~r~target~s~ in the ~o~orange area~s~ on your map.</String>
+        <String xml:lang="nl-NL">Je kunt je ~r~doelwit~s~ vinden in het ~o~oranje gebied~s~ op je kaart.</String>
+        <String xml:lang="fr-FR">Tu peux trouver ta ~r~cible~s~ dans la ~o~zone orange~s~ sur ta map.</String>
+    </Entry>
+</Entries>
