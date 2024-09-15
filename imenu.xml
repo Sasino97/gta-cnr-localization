@@ -306,7 +306,7 @@
         <String xml:lang="ar-001">احصائيات</String>
         <String xml:lang="th-TH">สถิติ</String>
         <String xml:lang="vi-VN">Thống kê</String>
-        <String xml:lang="id-ID">Status</String>
+        <String xml:lang="id-ID">Statistik</String>
         <String xml:lang="hi-Latn">Stats</String>
         <String xml:lang="cs-CZ">Statistiky</String>
     </Entry>
@@ -735,7 +735,7 @@
         <String xml:lang="tr-TR">İş Menüsü</String>
         <String xml:lang="de-DE">Jobmenü</String>
         <String xml:lang="it-IT">Menu Lavoro</String>
-        <String xml:lang="fr-FR">Emploi</String>
+        <String xml:lang="fr-FR">Travail</String>
         <String xml:lang="zh-Hant">職業選單</String>
         <String xml:lang="zh-Hans">职业选单</String>
         <String xml:lang="es-ES">Menú de trabajo</String>
@@ -754,7 +754,7 @@
         <String xml:lang="tr-TR">~r~Bu menüye erişmek için önce bir iş bulmanız gerekir.</String>
         <String xml:lang="de-DE">~r~Du musst dir zuerst einen Job suchen, um auf dieses Menü zuzugreifen.</String>
         <String xml:lang="it-IT">~r~Per accedere a questo menu devi prima ottenere un lavoro.</String>
-        <String xml:lang="fr-FR">~r~Pour accéder à ce menu, tu dois d'abord trouver un emploi.</String>
+        <String xml:lang="fr-FR">~r~Pour accéder à ce menu, tu dois d'abord trouver un travail.</String>
         <String xml:lang="zh-Hant">~r~你必須先有一個職業才可以使用此選單.</String>
         <String xml:lang="zh-Hans">~r~你必须先有一个职业才可以使用此选单</String>
         <String xml:lang="es-ES">~r~Para acceder a este menú, primero tienes que conseguir un trabajo.</String>
@@ -765,6 +765,12 @@
         <String xml:lang="id-ID">~r~Untuk mengakses menu ini anda harus memiliki pekerjaan terlebih dahulu.</String>
         <String xml:lang="hi-Latn">~r~Ye menu access karne ke liye aapko pehle job me lagna hoga.</String>
         <String xml:lang="cs-CZ">~r~Pro přístup do tohoto menu musíš nejprve získat práci.</String>
+    </Entry>
+
+    <Entry Id="imenu_job_descr_undefined">
+        <String xml:lang="en-US">~r~This job doesn't have a menu.</String>
+        <String xml:lang="nl-NL">~r~Deze baan heeft geen menu opties.</String>
+        <String xml:lang="fr-FR">~r~Ce travail n'a pas de menu.</String>
     </Entry>
 
     <Entry Id="imenu_job_descr_drug_dealer">
@@ -807,6 +813,12 @@
         <String xml:lang="cs-CZ">Spravuj nástroje a položky, které prodáváš, prohlížej si poslední poptávky a uskutečněné prodeje.</String>
     </Entry>
 
+    <Entry Id="imenu_job_descr_trucker">
+        <String xml:lang="en-US">View the lists of available and past deliveries.</String>
+        <String xml:lang="nl-NL">Bekijk de lijst van beschikbare en eerdere leveringen.</String>
+        <String xml:lang="fr-FR">Consulter les listes des livraisons disponibles et passées.</String>
+    </Entry>
+
     <Entry Id="imenu_job_descr_police">
         <String xml:lang="en-US">Use your radio and view recent calls.</String>
         <String xml:lang="pl-PL">Użyj krótkofalówki i podejrzyj ostatnie zawołania.</String>
@@ -845,6 +857,37 @@
         <String xml:lang="id-ID">Gunakan radio dan lihat panggilan terkini.</String>
         <String xml:lang="hi-Latn">Apna radio use kare aur view kare recent ki calls.</String>
         <String xml:lang="cs-CZ">Použij rádio a prohlížej nedávné volání.</String>
+    </Entry>
+
+    <Entry Id="imenu_job_descr_hitman">
+        <String xml:lang="en-US">View recent kill contracts.</String>
+        <String xml:lang="nl-NL">Bekijk recente moordcontracten.</String>
+        <String xml:lang="fr-FR">Voir les contrats d'abattage récents.</String>
+
+    </Entry>
+
+    <Entry Id="imenu_job_no_calls_text">
+        <String xml:lang="en-US">No calls :(</String>
+        <String xml:lang="nl-NL">Geen meldingen :(</String>
+        <String xml:lang="fr-FR">Pas d'appels :(</String>
+    </Entry>
+
+    <Entry Id="imenu_job_no_calls_description">
+        <String xml:lang="en-US">There are currently no calls to display.</String>
+        <String xml:lang="nl-NL">Er zijn momenteel geen meldingen om weer te geven.</String>
+        <String xml:lang="fr-FR">Il n'y a actuellement aucun appel à afficher.</String>
+    </Entry>
+
+    <Entry Id="imenu_job_no_contracts_text">
+        <String xml:lang="en-US">No contracts :(</String>
+        <String xml:lang="nl-NL">Geen moordcontracten :(</String>
+        <String xml:lang="fr-FR">Pas de contrats :(</String>
+    </Entry>
+
+    <Entry Id="imenu_job_no_contracts_description">
+        <String xml:lang="en-US">There are currently no contracts to display.</String>
+        <String xml:lang="nl-NL">Er zijn momenteel geen moordcontracten om weer te geven.</String>
+        <String xml:lang="fr-FR">Il n'y a actuellement aucun contrat à afficher.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -951,7 +994,7 @@
         <String xml:lang="ar-001">~b~الأسهم</String>
         <String xml:lang="th-TH">~b~คลัง</String>
         <String xml:lang="vi-VN">~b~Kho</String>
-        <String xml:lang="id-ID">~b~persediaan</String>
+        <String xml:lang="id-ID">~b~Persediaan</String>
         <String xml:lang="cs-CZ">~b~Zásoby</String>
     </Entry>
 
@@ -1246,7 +1289,7 @@
         <String xml:lang="ar-001">{0} لا يمكنه استقبال ~r~{1} ~s~اكثر~r~{2}~s~.</String>
         <String xml:lang="th-TH">{0} ไม่สามารถถือ ~r~{1} ~s~more ~r~{2}~s~</String>
         <String xml:lang="vi-VN">{0} không thể giữ thêm ~r~{1}~s~ ~r~{2}~s~.</String>
-        <String xml:lang="id-ID">{0} Tidak dapat membawa ~r~{1} ~s~lagi ~r~{2}~s~.</String>
+        <String xml:lang="id-ID">{0} tidak dapat membawa ~r~{1} ~s~lagi ~r~{2}~s~.</String>
         <String xml:lang="hi-Latn">{0} nahi rakh sakte ~r~{1} ~s~zyada ~r~{2}~s~.</String>
         <String xml:lang="cs-CZ">{0} nemůže nést ~r~{1} ~s~více ~r~{2}~s~.</String>
     </Entry>
@@ -1527,7 +1570,7 @@
         <String xml:lang="ar-001">التغيرات~b~ ~s~تم حفظها</String>
         <String xml:lang="th-TH">การ ~b~เปลี่ยนแปลง ~s~ได้รับการบันทึกแล้ว</String>
         <String xml:lang="vi-VN">~b~Những thay đổi ~s~đã được lưu.</String>
-        <String xml:lang="id-ID">~b~Perubahan yang anda lakukan ~s~telah disimpan.</String>
+        <String xml:lang="id-ID">~b~Perubahan ~s~yang anda lakukan telah disimpan.</String>
         <String xml:lang="tr-TR">~b~Değişikler ~s~kaydedildi.</String>
         <String xml:lang="hi-Latn">Aapke ~b~changes ~s~save kar liye gaye hain.</String>
         <String xml:lang="cs-CZ"> ~b~změny ~s~byly uloženy.</String>
@@ -2001,7 +2044,7 @@
     <Entry Id="menu_access_stock">
         <String xml:lang="en-US">You can manage your job supplies in your {0} ~b~Menu ~s~&gt; ~b~Job Menu ~s~&gt; ~b~Stock.</String>
         <String xml:lang="nl-NL">Je kan je werkvoorraad beheren in je {0} ~b~Menu ~s~&gt; ~b~Werk Menu ~s~&gt; ~b~Voorraad.</String>
-        <String xml:lang="fr-FR">Tu peux gérer tes stocks de travail dans ton {0} ~b~Menu ~s~&gt; ~b~Menu Emploi ~s~&gt; ~b~Stock.</String>
+        <String xml:lang="fr-FR">Tu peux gérer tes stocks de travail dans ton {0} ~b~Menu ~s~&gt; ~b~Menu Travail ~s~&gt; ~b~Stock.</String>
         <String xml:lang="tr-TR">İş malzemelerinizi {0} ~b~Menüsünde ~s~yönetebilirsiniz&gt; ~b~İş Menüsü ~s~&gt; ~b~Stok.</String>
         <String xml:lang="hi-Latn">Aap manage kar sakte hai apne job supplies apne {0} ~b~Menu ~s~&gt; ~b~Job Menu ~s~&gt; ~b~Stock.</String>
         <String xml:lang="cs-CZ">Zásoby pro tvojí práci můžeš spravovat v {0} ~b~Menu ~s~&gt; ~b~Menu Práce ~s~&gt; ~b~Zásoby.</String>
@@ -2195,7 +2238,7 @@
         <String xml:lang="nl-NL">Huurmoordenaar</String>
         <String xml:lang="de-DE">Kopfgeldjäger</String>
         <String xml:lang="fr-FR">Tueur à gages</String>
-        <String xml:lang="it-IT">Assassino</String>
+        <String xml:lang="it-IT">Sicario</String>
     </Entry>
 
     <Entry Id="imenu_services_hitman_description">
@@ -2203,6 +2246,6 @@
         <String xml:lang="nl-NL">Bel een ~r~huurmoordenaar ~s~om iemand te laten verdwijnen.</String>
         <String xml:lang="de-DE">Rufe einen ~r~Kopfgeldjäger~s~,um jemanden loszuwerden.</String>
         <String xml:lang="fr-FR">Appeler un ~r~tueur à gages ~s~pour se débarrasser de quelqu'un.</String>
-        <String xml:lang="it-IT">Chiama un ~r~assassino ~s~per liberarti di qualcuno.</String>
+        <String xml:lang="it-IT">Chiama un ~r~sicario ~s~per liberarti di qualcuno.</String>
     </Entry>
 </Entries>
