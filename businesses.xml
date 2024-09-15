@@ -2486,4 +2486,10 @@
         <String xml:lang="nl-NL">~r~Je kunt geen dubbele moordcontracten maken voor hetzelfde doelwit.</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas créer des contrats en double pour le même objectif.</String>
     </Entry>
+
+    <!-- {0} = Name (Id) of player who placed hit, or one of the other actors below -->
+    <!-- {1} = money amount -->
+    <Entry Id="hitman_contract_placed_on_you">
+        <String xml:lang="en-US">{0} has placed a ~r~{1} ~s~hit contract on you.</String>
+    </Entry>
 </Entries>

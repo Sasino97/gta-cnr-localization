@@ -5547,20 +5547,32 @@
     </Entry>
 
     <Entry Id="hitman_payphone_cooldown">
-        <String xml:lang="en-US">You need to wait ~r~{0} seconds ~s~before using ~y~payphone~s~ again.</String>
-        <String xml:lang="nl-NL">Je moet ~r~{0} seconden ~s~wachten voordat je de ~y~telefooncel~s~ opnieuw kunt gebruiken.</String>
+        <String xml:lang="en-US">You need to wait ~r~{0} seconds ~s~before using a ~y~payphone ~s~again.</String>
+        <String xml:lang="nl-NL">Je moet ~r~{0} seconden ~s~wachten voordat je de ~y~telefooncel ~s~opnieuw kunt gebruiken.</String>
         <String xml:lang="fr-FR">Tu dois attendre ~r~{0} secondes ~s~avant d'utiliser à nouveau la ~y~cabine téléphonique~s~.</String>
     </Entry>
 
     <Entry Id="hitman_payphone_no_active_target">
-        <String xml:lang="en-US">You need to select a contract before using ~y~payphone~s~.</String>
+        <String xml:lang="en-US">You need to select a contract before using a ~y~payphone~s~.</String>
         <String xml:lang="nl-NL">Je moet eerst een moordcontract selecteren voordat je de ~y~telefooncel~s~ kunt gebruiken.</String>
         <String xml:lang="fr-FR">Tu dois choisir un contrat avant d'utiliser la ~y~cabine téléphonique~s~.</String>
     </Entry>
 
     <Entry Id="hitman_payphone_used_hint">
-        <String xml:lang="en-US">You can find your ~r~target~s~ in the ~o~orange area~s~ on your map.</String>
-        <String xml:lang="nl-NL">Je kunt je ~r~doelwit~s~ vinden in het ~o~oranje gebied~s~ op je kaart.</String>
-        <String xml:lang="fr-FR">Tu peux trouver ta ~r~cible~s~ dans la ~o~zone orange~s~ sur ta map.</String>
+        <String xml:lang="en-US">You can find your ~r~target~s~ in the ~o~orange area ~s~on your map.</String>
+        <String xml:lang="nl-NL">Je kunt je ~r~doelwit ~s~vinden in het ~o~oranje gebied ~s~op je kaart.</String>
+        <String xml:lang="fr-FR">Tu peux trouver ta ~r~cible ~s~dans la ~o~zone orange ~s~sur ta map.</String>
+    </Entry>
+
+    <!-- {0} Name (id) of the target (already colored) -->
+    <!-- {1} Amount -->
+    <Entry Id="hitman_new_contract">
+        <String xml:lang="en-US">~y~(C)New contract:(/C) ~s~Kill~s~ {0} for ~g~{1}~s~.</String>
+    </Entry>
+
+    <!-- {0} Name (id) of the target (already colored) -->
+    <!-- {1} Amount -->
+    <Entry Id="hitman_contract_updated">
+        <String xml:lang="en-US">~y~(C)Contract updated:(/C) ~s~The reward for ~r~killing~s~ {0} has been increased to ~g~{1}~s~.</String>
     </Entry>
 </Entries>
