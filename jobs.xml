@@ -5298,21 +5298,25 @@
 
     <Entry Id="menu_ddriver_delivery_details_payout">
         <String xml:lang="en-US">Payout</String>
+        <String xml:lang="nl-NL">Uitbetaling</String>
         <String xml:lang="fr-FR">Paiement</String>
     </Entry>
     
     <Entry Id="menu_ddriver_delivery_details_time_left">
         <String xml:lang="en-US">Time left</String>
+        <String xml:lang="nl-NL">Resterende tijd</String>
         <String xml:lang="fr-FR">Temps restant</String>
     </Entry>
     
     <Entry Id="menu_ddriver_delivery_details_itinerary">
         <String xml:lang="en-US">Itinerary</String>
+        <String xml:lang="nl-NL">Route</String>
         <String xml:lang="fr-FR">Itinéraire</String>
     </Entry>
     
     <Entry Id="menu_ddriver_delivery_details_other">
         <String xml:lang="en-US">Other info</String>
+        <String xml:lang="nl-NL">Andere informatie</String>
         <String xml:lang="fr-FR">Autres informations</String>
     </Entry>
     
@@ -5407,6 +5411,7 @@
     <!-- {0} = Area name -->
     <Entry Id="ddriver_job_go_to_dropoff_parcel">
         <String xml:lang="en-US">Go to ~y~{0} ~s~and deliver the next ~b~package~s~.</String>
+        <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en lever het volgende ~b~pakket~s~ af.</String>
         <String xml:lang="fr-FR">Va à ~y~{0} ~s~et livre le prochain ~b~colis~s~.</String>
     </Entry>
 
@@ -5437,21 +5442,25 @@
 
     <Entry Id="ddriver_job_park_trailer_in_area">
         <String xml:lang="en-US">Park the ~b~trailer ~s~in the ~y~marked area~s~.</String>
+        <String xml:lang="nl-NL">Parkeer de ~b~aanhanger ~s~in het ~y~gemarkeerde gebied~s~.</String>
         <String xml:lang="fr-FR">Gare la ~b~remorque ~s~dans la ~y~zone indiquée~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_deliver_package">
         <String xml:lang="en-US">Deliver the ~b~package~s~.</String>
+        <String xml:lang="nl-NL">Lever de ~b~goederen~s~ af.</String>
         <String xml:lang="fr-FR">Livrer le ~b~colis~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_recover_vehicle">
         <String xml:lang="en-US">Recover the ~b~delivery vehicle~s~.</String>
+        <String xml:lang="nl-NL">Haal het ~b~bezorgvoertuig~s~ op.</String>
         <String xml:lang="fr-FR">Récupère le ~b~véhicule de livraison~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_recover_package">
         <String xml:lang="en-US">Recover the ~y~package ~s~from the ~b~delivery vehicle~s~.</String>
+        <String xml:lang="nl-NL">Haal de ~y~goederen ~s~uit het ~b~bezorgvoertuig~s~.</String>
     </Entry>
 
     <!-- Must be oriented correctly means that the heading/angle of the vehicle must be as 
@@ -5494,12 +5503,14 @@
 
     <Entry Id="ddriver_job_canceled_by_user">
         <String xml:lang="en-US">~r~You have ~s~canceled ~r~the delivery job.</String>
+        <String xml:lang="nl-NL">Je hebt ~r~de bezorging ~s~~r~geannuleerd.</String>
         <String xml:lang="fr-FR">~r~Tu as ~s~annulé ~r~la mission de livraison.</String>
     </Entry>
 
     <!-- {0} = Amount charged -->
     <Entry Id="ddriver_job_canceled_penalty">
         <String xml:lang="en-US">You have been charged ~r~{0} ~s~as a cancellation penalty.</String>
+        <String xml:lang="nl-NL">Er is ~r~{0} ~s~in rekening gebracht voor annuleringskosten.</String>
         <String xml:lang="fr-FR">Tu as été facturé ~r~{0} ~s~à cause d'une pénalité d'annulation.</String>
 
     </Entry>
@@ -5532,6 +5543,7 @@
 
     <Entry Id="ddriver_job_canceled_error">
         <String xml:lang="en-US">~r~The delivery has been canceled due to an error.</String>
+        <String xml:lang="nl-NL">~r~De bezorging is geannuleerd vanwege een fout.</String>
         <String xml:lang="fr-FR">~r~La livraison a été annulée en raison d'une erreur.</String>
     </Entry>
 
@@ -5542,6 +5554,7 @@
     <!-- {0} Name (id) of the target (already colored) -->
     <Entry Id="hitman_target_selected">
         <String xml:lang="en-US">You selected {0} as your ~r~target~s~.</String>
+        <String xml:lang="nl-NL">Je hebt {0} geselecteerd als je ~r~doelwit~s~.</String>
     </Entry>
 
     <Entry Id="hitman_target_selected_hint">
@@ -5566,11 +5579,13 @@
     <!-- {1} Amount -->
     <Entry Id="hitman_new_contract">
         <String xml:lang="en-US">~y~(C)New contract:(/C) ~s~Kill~s~ {0} for ~g~{1}~s~.</String>
+        <String xml:lang="nl-NL">~y~(C)Nieuw contract:(/C) ~s~Vermoord~s~ {0} voor ~g~{1}~s~.</String>
     </Entry>
 
     <!-- {0} Name (id) of the target (already colored) -->
     <!-- {1} Amount -->
     <Entry Id="hitman_contract_updated">
         <String xml:lang="en-US">~y~(C)Contract updated:(/C) ~s~The reward for ~r~killing~s~ {0} has been increased to ~g~{1}~s~.</String>
+        <String xml:lang="nl-NL">~y~(C)Contract bijgewerkt:(/C) ~s~De beloning voor ~r~het vermoorden~s~ van {0} is verhoogd naar ~g~{1}~s~.</String>
     </Entry>
 </Entries>
