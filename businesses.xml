@@ -2446,15 +2446,15 @@
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_reward_over_limit">
-        <String xml:lang="en-US">The reward amount exceeds the maximum limit allowed for a hitman contract ({0})</String>
-        <String xml:lang="nl-NL">Het beloningsbedrag overschrijdt het maximale limiet toegestaan voor een moordcontracten ({0})</String>
-        <String xml:lang="fr-FR">Le montant de la récompense dépasse la limite maximale autorisée pour un contrat de tueur à gages ({0})</String>
+        <String xml:lang="en-US">The reward amount ~r~exceeds ~s~the maximum limit allowed for a hitman contract (~r~{0}~s~)</String>
+        <String xml:lang="nl-NL">Het beloningsbedrag overschrijdt het maximale limiet toegestaan voor een moordcontracten (~r~{0}~s~)</String>
+        <String xml:lang="fr-FR">Le montant de la récompense dépasse la limite maximale autorisée pour un contrat de tueur à gages (~r~{0}~s~)</String>
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_reward_below_minimum">
-        <String xml:lang="en-US">The reward amount is below the minimum required for a hitman contract ({0})</String>
-        <String xml:lang="nl-NL">Het beloningsbedrag is lager dan het minimale voor een moordcontract ({0})</String>
-        <String xml:lang="fr-FR">Le montant de la récompense est inférieur au minimum requis pour un contrat de tueur à gages ({0})</String>
+        <String xml:lang="en-US">The reward amount ~r~is below ~s~the minimum required for a hitman contract (~r~{0}~s~)</String>
+        <String xml:lang="nl-NL">Het beloningsbedrag is lager dan het minimale voor een moordcontract (~r~{0}~s~)</String>
+        <String xml:lang="fr-FR">Le montant de la récompense est inférieur au minimum requis pour un contrat de tueur à gages (~r~{0}~s~)</String>
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_target">
@@ -2473,6 +2473,12 @@
         <String xml:lang="en-US">Create</String>
         <String xml:lang="nl-NL">Creëer</String>
         <String xml:lang="fr-FR">Créer</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_confirmation">
+        <String xml:lang="en-US">You can place this hit contract only if you have a valid reason to ~r~kill~s~ {0}. Creating hit contracts on random players will result in ~r~you being banned~s~ for RDM. Please review the rules at ~b~gtacnr.net/rules~s~.</String>
+        <String xml:lang="nl-NL">Je kunt dit moordcontract alleen plaatsen als je een geldige reden hebt om {0} te ~r~vermoorden~s~. Het maken van moordcontracten op willekeurige spelers zal resulteren in ~r~een ban~s~ voor RDM. Bekijk de regels op ~b~gtacnr.net/rules~s~.</String>
+        <String xml:lang="fr-FR">Tu ne peux placer ce contrat que si tu as une raison valable de ~r~tuer~s~ {0}. Si tu créais des contrats sur des joueurs aléatoires, tu seras banni pour RDM. Merci de consulter les règles sur ~b~gtacnr.net/rules~s~.</String>
     </Entry>
 
     <Entry Id="hitman_new_contract_response_success">
@@ -2503,5 +2509,13 @@
         <String xml:lang="en-US">~r~You cannot create duplicate contracts for the same target.</String>
         <String xml:lang="nl-NL">~r~Je kunt geen dubbele moordcontracten maken voor hetzelfde doelwit.</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas créer des contrats en double pour le même objectif.</String>
+    </Entry>
+
+    <!-- {0} = Name (Id) of player who placed hit, or one of the other actors below -->
+    <!-- {1} = money amount -->
+    <Entry Id="hitman_contract_placed_on_you">
+        <String xml:lang="en-US">{0} has placed a ~r~{1} ~s~hit contract on you.</String>
+        <String xml:lang="nl-NL">{0} heeft een moordcontract van ~r~{1} ~s~op jou geplaatst.</String>
+        <String xml:lang="fr-FR">{0} a placé un contrat ~r~{1} ~s~sur toi.</String>
     </Entry>
 </Entries>
