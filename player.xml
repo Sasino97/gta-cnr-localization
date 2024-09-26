@@ -85,7 +85,7 @@
         <String xml:lang="es-ES">Ahora estás conectado al ~p~servidor de voz~s~.</String>
         <String xml:lang="pl-PL">Jesteś połączony do ~p~serweru głosowego~s~.</String>
         <String xml:lang="pt-BR">Agora você está conectado ao ~p~servidor voice~s~.</String>
-        <String xml:lang="ar-001">أنت الآن متصل بالخادم ~p~خادم صوتي~s~.</String>
+        <String xml:lang="ar-001">أنت الآن متصل بالسيرفر ~p~خادم صوتي~s~.</String>
         <String xml:lang="th-TH">ตอนนี้คุณเชิ่อมต่อ ~p~เปิดไมค์~s~</String>
         <String xml:lang="id-ID">Sekarang anda terhubung ke ~p~server suara~s~.</String>
         <String xml:lang="hi-Latn">Ab aap connect ho gaye ho ~p~voice server ~s~se.</String>
@@ -100,7 +100,7 @@
         <String xml:lang="es-ES">Ha sido desconectado del ~p~servidor de voz~s~.</String>
         <String xml:lang="pl-PL">Jesteś odłączony od ~p~serweru głosowego~s~.</String>
         <String xml:lang="pt-BR">Você foi desconectado do ~p~servidor voice~s~.</String>
-        <String xml:lang="ar-001">لقد تم قطع اتصالك بالخادم ~p~خادم صوتي~s~.</String>
+        <String xml:lang="ar-001">لقد تم قطع اتصالك بالسيرفر ~p~خادم صوتي~s~.</String>
         <String xml:lang="th-TH">คุณถูกตัดการเชื่อมต่อจาก ~p~เซิร์ฟเวอร์เสียง~s~</String>
         <String xml:lang="id-ID">Anda terputus dari jaringan ~p~server suara~s~.</String>
         <String xml:lang="hi-Latn">Aap disconnect ho gaye ho ~p~voice server ~s~se.</String>
@@ -354,7 +354,7 @@
         <String xml:lang="es-ES">~r~El servidor aún está procesando su solicitud anterior. Por favor, espere antes de enviar otra.</String>
         <String xml:lang="pt-BR">~r~O servidor ainda está processando sua solicitação anterior. Aguarde antes de enviar outra.</String>
         <String xml:lang="de-DE">~r~Der Server verarbeitet immernoch deine vorherige Anfrage. Bitte warte, bevor du eine weitere sendes.</String>
-        <String xml:lang="ar-001">~r~يزال الخادم يعالج طلبك السابق. من فضلك، انتظر قبل إرسال واحد أخر.</String>
+        <String xml:lang="ar-001">~r~يزال السيرفر يعالج طلبك السابق. من فضلك، انتظر قبل إرسال واحد أخر.</String>
         <String xml:lang="th-TH">~r~เซิร์ฟเวอร์ยังคงประมวลผลคำขอก่อนหน้าของคุณ กรุณารอก่อนที่จะส่งอีก</String>
         <String xml:lang="id-ID">~r~Server ini masih memproses permintaan sebelumnya. Mohon tunggu, sebelum mengirimkan permintaan kembali.</String>
         <String xml:lang="hi-Latn">~r~Server abhi bhi aapka pehla request process kar raha hai. Ek aur request bhejne se pehle thoda wait karo.</String>
@@ -439,6 +439,13 @@
         <String xml:lang="de-DE">~r~Du kannst kein {0} nutzen, wenn du gefesselt bist.</String>
         <String xml:lang="it-IT">~r~Non puoi usare un {0} quando sei ammanettato.</String>
         <String xml:lang="id-ID">~r~Tidak dapat menggunakan {0} ketika kamu terborgol.</String>
+    </Entry>
+
+    <!-- {0} = Item name -->
+    <Entry Id="cant_use_when_in_custody">
+        <String xml:lang="en-US">~r~You can't use a {0} when you are in police custody.</String>
+        <String xml:lang="nl-NL">~r~Je kan geen {0} gebruiken wanneer de politie je staande houdt.</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas utiliser un {0} lorsque tu es en état d'arrestation.</String>
     </Entry>
 
     <!-- {0} = Item name (Membership, Name-change token, ...) -->
@@ -651,7 +658,7 @@
         <String xml:lang="es-ES">~r~El servidor no puede encontrar al jugador especificado.</String>
         <String xml:lang="pt-BR">~r~O servidor não consegue encontrar o jogador especificado.</String>
         <String xml:lang="de-DE">~r~Der Server ist nicht in der Lage, diesen bestimmten Spieler zu finden.</String>
-        <String xml:lang="ar-001">~r~الخادم غير قادر على العثور على اللاعب المحدد.</String>
+        <String xml:lang="ar-001">~r~السيرفر غير قادر على العثور على اللاعب المحدد.</String>
         <String xml:lang="th-TH">~r~เซิร์ฟเวอร์ไม่พบผู้เล่นที่ระบุ</String>
         <String xml:lang="id-ID">~r~Server tidak dapat menemukan player yang dituju.</String>
         <String xml:lang="hi-Latn">~r~Server bataye gaye player ko dhund nahi paa raha hai.</String>
@@ -988,6 +995,7 @@
         <String xml:lang="id-ID">Tidak dapat mengirimkan kendaraanmu</String>
     </Entry>
 
+    <!-- Shown instead of the vehicle name if it cannot be found (fallback value) -->
     <Entry Id="vehicle_maintenance_completed_invalid_name">
         <String xml:lang="en-US">vehicle</String>
         <String xml:lang="nl-NL">voertuig</String>
@@ -1012,10 +1020,29 @@
         <String xml:lang="hi-Latn">~r~Aap apne personal vehicle ko store nahi kar sakte jab tak aap andar baithe ho!</String>
     </Entry>
 
+    <Entry Id="cant_store_vehicle_when_part_of_mission">
+        <String xml:lang="en-US">~r~You can't store your personal vehicle when it's being used as part of a mission!</String>
+        <String xml:lang="nl-NL">~r~Je kan je persoonlijke voertuig niet opslaan wanneer het wordt gebruikt als onderdeel van een missie!</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas stocker ton véhicule personnel lorsqu'il est utilisé dans le cadre d'une mission!</String>
+
+    </Entry>
+
+    <Entry Id="cant_maintenance_vehicle_when_part_of_mission">
+        <String xml:lang="en-US">~r~You can't send your personal vehicle to maintenance when it's being used as part of a mission!</String>
+        <String xml:lang="nl-NL">~r~Je kan je persoonlijke voertuig niet naar onderhoud sturen wanneer het wordt gebruikt als onderdeel van een missie!</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas envoyer ton véhicule personnel en maintenance lorsqu'il est utilisé dans le cadre d'une mission!</String>
+    </Entry>
+
+    <Entry Id="cant_summon_vehicle_when_part_of_mission">
+        <String xml:lang="en-US">~r~You can't get a vehicle delivered when your current one is being used as part of a mission!</String>
+        <String xml:lang="nl-NL">~r~Je kan geen voertuig laten bezorgen wanneer je huidige voertuig wordt gebruikt als onderdeel van een missie!</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas te faire livrer un véhicule alors que ton véhicule actuel est utilisé dans le cadre d'une mission!</String>
+    </Entry>
+
     <Entry Id="changed_jobs_delivery_canceled">
         <String xml:lang="en-US">You have changed your ~b~job~s~. Your vehicle delivery has been ~r~canceled~s~.</String>
         <String xml:lang="nl-NL">Je hebt je ~b~baan~s~ veranderd. Je voertuig levering is ~r~geannuleerd~s~.</String>
-        <String xml:lang="fr-FR">Tu as changé d'~b~emploi~s~. La livraison de ton véhicule a été ~r~annulée~s~.</String>
+        <String xml:lang="fr-FR">Tu as changé de ~b~travail~s~. La livraison de ton véhicule a été ~r~annulée~s~.</String>
         <String xml:lang="it-IT">Hai cambiato ~b~lavoro~s~. La consegna del tuo veicolo è stata ~r~annullata~s~.</String>
         <String xml:lang="pl-PL">Zmieniłeś ~b~pracę~s~. Dostawa pojazdu została ~r~anulowana~s~.</String>
         <String xml:lang="es-ES">Usted ha cambiado su ~b~trabajo~s~. La entrega de su vehículo ha sido ~r~canceladado~s~.</String>
@@ -1862,6 +1889,11 @@
         <String xml:lang="id-ID">~b~Borgol</String>
     </Entry>
 
+    <Entry Id="menu_playermenu_give_ticket">
+        <String xml:lang="en-US">~b~Give ticket</String>
+        <String xml:lang="nl-NL">~b~Geef bekeuring</String>
+    </Entry>
+
     <Entry Id="menu_playermenu_break_window">
         <String xml:lang="en-US">~b~Break window</String>
         <String xml:lang="nl-NL">~b~Raam inslaan</String>
@@ -1978,7 +2010,7 @@
         <String xml:lang="hi-Latn">Item do</String>
         <String xml:lang="fr-FR">Donner un objet</String>
         <String xml:lang="de-DE">Gegenstand geben</String>
-        <String xml:lang="it-IT">Consegnare oggetto</String>
+        <String xml:lang="it-IT">Consegna oggetto</String>
         <String xml:lang="id-ID">Berikan barang</String>
     </Entry>
 
@@ -1988,7 +2020,7 @@
         <String xml:lang="hi-Latn">Dijiye (C){0}(/C) ek item apni inventory se.~n~~y~Warning:~s~ trade ~r~kare apne own risk pe~s~,ham aapko guarantee nahi de sakte ki aapko badle mein kuch milega ye trasaction karke.</String>
         <String xml:lang="fr-FR">Donner à (C){0}(/C) un objet de ton inventaire.~n~~y~Avertissement:~s~ échange ~r~à tes risques et périls~s~, nous ne garantissons pas que tu recevras quoi que ce soit en échange de cette transaction.</String>
         <String xml:lang="de-DE">Gib (C){0}(/C) einen Gegenstand aus deinem Inventar.~n~~y~Warnung:~s~ Handle ~r~auf eigene Gefahr~s~, wir garantieren nicht, dass du etwas im Austausch für diese Transaktion erhälst.</String>
-        <String xml:lang="it-IT">Dai (C){0}(/C) un oggetto dal tuo inventario.~n~~y~Attenzione:~s~ scambio ~r~a tuo rischio~s~, non garantiamo che riceverai qualcosa in cambio per questa transazione.</String>
+        <String xml:lang="it-IT">Dai a (C){0}(/C) un oggetto dal tuo inventario.~n~~y~Attenzione:~s~ scambio ~r~a tuo rischio~s~, non garantiamo che riceverai qualcosa in cambio per questa transazione.</String>
         <String xml:lang="id-ID">Berikan (C){0}(/C) item dari inventarismu. ~n~~y~Perhatian:~s~ resiko trading ~r~ditanggung masing-masing~s~, kami tidak dapat menjamin kamu mendapatkan apapun sebagai imbalan dari transaksi ini.</String>
     </Entry>
 
@@ -1998,7 +2030,7 @@
         <String xml:lang="hi-Latn">Chabiyan dijiye</String>
         <String xml:lang="fr-FR">Donner des clés</String>
         <String xml:lang="de-DE">Schlüssel geben</String>
-        <String xml:lang="it-IT">Consegnare chiavi</String>
+        <String xml:lang="it-IT">Consegna chiavi</String>
         <String xml:lang="id-ID">Berikan kunci</String>
     </Entry>
 
@@ -2078,7 +2110,7 @@
         <String xml:lang="hi-Latn">Cash Do</String>
         <String xml:lang="fr-FR">Donner de l'argent</String>
         <String xml:lang="de-DE">Geld geben</String>
-        <String xml:lang="it-IT">Dare contante</String>
+        <String xml:lang="it-IT">Dai contante</String>
         <String xml:lang="id-ID">Berikan uang</String>
     </Entry>
 
@@ -2500,7 +2532,7 @@
         <String xml:lang="en-US">~r~Job not allowed to perform trade on this item.</String>
         <String xml:lang="nl-NL">~r~Je mag dit voorwerp niet ruilen met huidige baan.</String>
         <String xml:lang="hi-Latn">~r~Job aapko allow nahi kar raha aapko yeh item trade karne me.</String>
-        <String xml:lang="fr-FR">~r~Emploi non autorisé à effectuer des transactions sur cet objet.</String>
+        <String xml:lang="fr-FR">~r~Travail non autorisé à effectuer des transactions sur cet objet.</String>
         <String xml:lang="de-DE">~r~Job erlaubt es nicht, einen Handel mit diesem Gegenstand durchzuführen.</String>
         <String xml:lang="it-IT">~r~Lavoro non autorizzato a eseguire scambi su questo oggetto.</String>
         <String xml:lang="id-ID">~r~Pekerjaan tidak mengijinkan untuk melakukan trading ini.</String>

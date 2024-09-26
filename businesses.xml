@@ -332,6 +332,7 @@
         <String xml:lang="de-DE">~y~Erinnerung: ~s~halte dein Abonnement aktiv, um diesen Gegenstand weiterhin verwenden zu können.</String>
         <String xml:lang="it-IT">~y~Promemoria: ~s~mantieni attivo il tuo abbonamento per continuare a utilizzare questo oggetto.</String>
         <String xml:lang="id-ID">~y~Pengingat: ~s~Harap terus berlangganan agar dapat terus menggunakan item ini.</String>
+        <String xml:lang="fr-FR">~y~Rappel: ~s~garde ton abonnement actif pour continuer à utiliser cet objet.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1435,7 +1436,7 @@
         <String xml:lang="pt-BR">Mandados de prisão</String>
         <String xml:lang="th-TH">หมายจับ</String>
         <String xml:lang="vi-VN">Lệnh bắt giữ</String>
-        <String xml:lang="id-ID">Daftar Burnonan</String>
+        <String xml:lang="id-ID">Daftar Buronan</String>
         <String xml:lang="zh-Hant">逮捕遭通緝玩家</String>
         <String xml:lang="pl-PL">Nakaz Aresztowania</String>
         <String xml:lang="fr-FR">Mandats d'arrêt</String>
@@ -1718,7 +1719,7 @@
     <Entry Id="stp_sold_service_fee">
         <String xml:lang="en-US">Shop fee: ~r~{0}~s~~n~Total earned: ~g~{1}</String>
         <String xml:lang="nl-NL">Winkeltoeslag: ~r~{0}~s~~n~Totaal verdient: ~g~{1}</String>
-        <String xml:lang="fr-FR">Frais de vente : ~r~{0}~s~~n~Total gagné : ~g~{1}</String>
+        <String xml:lang="fr-FR">Frais de vente: ~r~{0}~s~~n~Total gagné: ~g~{1}</String>
         <String xml:lang="hi-Latn">Shop ki fees: ~r~{0}~s~~n~Total earn kiye: ~g~{1}</String>
         <String xml:lang="de-DE">Ladengebühr: ~r~{0}~s~~n~Insgesamt verdient: ~g~{1}</String>
         <String xml:lang="it-IT">Tassa del negozio: ~r~{0}~s~~n~Totale guadagnato: ~g~{1}</String>
@@ -1967,6 +1968,7 @@
         <String xml:lang="de-DE">~r~Du bist zu weit vom Verkäufer entfernt!</String>
         <String xml:lang="it-IT">~r~Sei troppo lontano dal venditore!</String>
         <String xml:lang="id-ID">~r~Kamu terlalu jauh dari penjual!</String>
+        <String xml:lang="ar-001">~r~أنت بعيد جدًا عن البائع!</String>
     </Entry>
 
     <!-- {0} = Item name -->
@@ -1978,6 +1980,7 @@
         <String xml:lang="de-DE">~r~Der Verkäufer hat nicht genug {0}!</String>
         <String xml:lang="it-IT">~r~Il venditore non possiede abbastanza {0}!</String>
         <String xml:lang="id-ID">~r~Penjual tidak memiliki jumlah {0} yang cukup!</String>
+        <String xml:lang="ar-001">~r~البائع ليس لديه ما يكفي من {0}!</String>
     </Entry>
 
     <!-- {0} = Service name -->
@@ -1989,6 +1992,7 @@
         <String xml:lang="de-DE">~r~Der Verkäufer besitzt nicht genug Vorräte, um ~s~{0} ~r~Leistung~s~ anzubieten!~r~</String>
         <String xml:lang="it-IT">~r~Il venditore non ha abbastanza scorte per fornire il servizio di ~s~{0}~r~!</String>
         <String xml:lang="id-ID">~r~Penjual tidak memiliki supply yang cukup untuk menyediakan jasa ~s~{0}~r~!</String>
+        <String xml:lang="ar-001">~r~البائع ليس لديه الإمدادات الكافية لتقديم ~s~{0} ~r~خدمة!</String>
     </Entry>
 
     <Entry Id="stp_service_error_not_certified_named">
@@ -1999,6 +2003,7 @@
         <String xml:lang="de-DE">~r~Der Verkäufer besitzt nicht die benötigte Qualifikation, um ~s~{0} ~r~Leistung~s~ anzubieten!~s~</String>
         <String xml:lang="it-IT">~r~Il venditore non ha la certificazione necessaria per fornirti il servizio di ~s~{0}!~s~</String>
         <String xml:lang="id-ID">~r~Penjual tidak memiliki sertifikasi untuk menyediakan jasa ~s~{0} ~r~servis~s~!</String>
+        <String xml:lang="ar-001">البائع ليس لديه الشهادة المطلوبة لتقديم ~s~{0} ~r~الخدمة~s~</String>
     </Entry>
 
     <Entry Id="stp_service_error_rented_vehicle">
@@ -2009,6 +2014,7 @@
         <String xml:lang="de-DE">~r~Du kannst ein gemietetes Fahrzeug nicht modifizieren!"</String>
         <String xml:lang="it-IT">~r~Non puoi modificare un veicolo a noleggio!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat memodifikasi kendaraan pinjaman!</String>
+        <String xml:lang="ar-001">لا يمكنك تعديل سيارة مستأجرة!~r~</String>
     </Entry>
 
     <Entry Id="stp_services_updated">
@@ -2019,6 +2025,7 @@
         <String xml:lang="de-DE">~r~Der Verkäufer hat seine Preise angepasst. Das Menü wurde aktualisiert.</String>
         <String xml:lang="it-IT">~r~Il venditore ha aggiornato i suoi prezzi. Il menu è stato aggiornato.</String>
         <String xml:lang="id-ID">~r~Penjual telah mengubah harganya. Menu telah diperbarui.</String>
+        <String xml:lang="ar-001">قام البائع بتحديث أسعاره. تم تحديث القائمة.~r~</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2127,7 +2134,7 @@
         <String xml:lang="de-DE">Sanitäter</String>
         <String xml:lang="es-ES">Paramédico</String>
         <String xml:lang="pt-BR">Paramédico</String>
-        <String xml:lang="ar-001">اخصائي طب</String>
+        <String xml:lang="ar-001">مسعف</String>
         <String xml:lang="th-TH">หมอ</String>
         <String xml:lang="vi-VN">Y tế</String>
         <String xml:lang="id-ID">paramedis</String>
@@ -2164,6 +2171,7 @@
         <String xml:lang="de-DE">Zeige aktuelle Anrufe für einen Sanitäter.</String>
         <String xml:lang="it-IT">Visualizza le chiamate recenti per i servizi di emergenza medica.</String>
         <String xml:lang="id-ID">Lihat riwayat panggilan terkini untuk EMS.</String>
+        <String xml:lang="ar-001">عرض المكالمات الأخيرة لـلمسعف.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2214,6 +2222,7 @@
         <String xml:lang="de-DE">Zeige aktuelle Anrufe für einen Polizisten.</String>
         <String xml:lang="it-IT">Visualizza le chiamate recenti per la polizia.</String>
         <String xml:lang="id-ID">Lihat riwayat panggilan terkini untuk kepolisian.</String>
+        <String xml:lang="ar-001">عرض المكالمات الأخيرة للشرطة.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2303,6 +2312,7 @@
         <String xml:lang="de-DE">Verwende dein Funkgerät.</String>
         <String xml:lang="it-IT">Usa la tua radio.</String>
         <String xml:lang="id-ID">Gunakan radiomu.</String>
+        <String xml:lang="ar-001">استخدم الراديو الخاص بك.</String>
     </Entry>
 
     <Entry Id="menu_radio_power">
@@ -2314,6 +2324,7 @@
         <String xml:lang="de-DE">Power</String>
         <String xml:lang="it-IT">Alimentazione</String>
         <String xml:lang="id-ID">Daya</String>
+        <String xml:lang="ar-001">تشغيل/ايقاف</String>
     </Entry>
 
     <Entry Id="menu_radio_channel">
@@ -2325,6 +2336,7 @@
         <String xml:lang="de-DE">Kanal</String>
         <String xml:lang="it-IT">Canale</String>
         <String xml:lang="id-ID">Saluran</String>
+        <String xml:lang="ar-001">قناة</String>
     </Entry>
 
     <Entry Id="menu_radio_volume">
@@ -2336,6 +2348,7 @@
         <String xml:lang="de-DE">Lautstärke</String>
         <String xml:lang="it-IT">Volume</String>
         <String xml:lang="id-ID">Suara</String>
+        <String xml:lang="ar-001">مستوي الصوت</String>
     </Entry>
 
     <Entry Id="radio_suggestion">
@@ -2347,6 +2360,7 @@
         <String xml:lang="de-DE">Öffne das Funk-Menü.</String>
         <String xml:lang="it-IT">Apre il menu della radio.</String>
         <String xml:lang="id-ID">Buka menu Radio</String>
+        <String xml:lang="ar-001">يفتح قائمة الراديو.</String>
     </Entry>
 
     <Entry Id="radio_text_suggestion">
@@ -2358,6 +2372,7 @@
         <String xml:lang="de-DE">Sende eine Textnachricht über den aktuellen Funkkanal.</String>
         <String xml:lang="it-IT">Invia un messaggio di testo nella tua radio attuale.</String>
         <String xml:lang="id-ID">Kirim pesan teks melalui radio anda saat ini.</String>
+        <String xml:lang="ar-001">أرسل رسالة نصية عبر الراديو الحالي الخاص بك.</String>
     </Entry>
 
     <Entry Id="radio_text_suggestion_message">
@@ -2369,6 +2384,7 @@
         <String xml:lang="de-DE">Nachricht</String>
         <String xml:lang="it-IT">Messaggio</String>
         <String xml:lang="id-ID">Pesan</String>
+        <String xml:lang="ar-001">رسالة</String>
     </Entry>
 
     <Entry Id="radio_text_suggestion_content">
@@ -2380,6 +2396,7 @@
         <String xml:lang="de-DE">Der Inhalt der zu sendenden Nachricht.</String>
         <String xml:lang="it-IT">Il contenuto del messaggio da inviare.</String>
         <String xml:lang="id-ID">Isi dari pesan yang akan dikirim.</String>
+        <String xml:lang="ar-001">محتوى الرسالة المراد إرسالها.</String>
     </Entry>
 
     <Entry Id="radio_not_available">
@@ -2391,6 +2408,7 @@
         <String xml:lang="de-DE">Es sind keine Funkkanäle für dich verfügbar.</String>
         <String xml:lang="it-IT">Non ci sono canali radio disponibili per te.</String>
         <String xml:lang="id-ID">Tidak ada saluran radio yang aktif untukmu.</String>
+        <String xml:lang="ar-001">لا توجد قنوات راديو متاحة لك.</String>
     </Entry>
 
     <Entry Id="radio_feature_notification">
@@ -2402,6 +2420,7 @@
         <String xml:lang="de-DE">Du kannst nun Textnachrichten in Funkkanäle senden: setze ein ~b~Ausrufezeichen ~s~(~b~!~s~) vor deine Nachricht, um diese Funktion zu verwenden!</String>
         <String xml:lang="it-IT">Ora puoi inviare testi nei canali radio: aggiungi un ~b~punto esclamativo ~s~(~b~!~s~) all'inizio del tuo messaggio per utilizzare questa funzione!</String>
         <String xml:lang="id-ID">Kamu sekarang bisa mengirimkan teks di saluran radio: awal pesan anda dengan ~b~Tanda seru ~s~(~b~!~s~) untuk menggunakan fitur ini!</String>
+        <String xml:lang="ar-001">يمكنك الآن إرسال نص في قنوات الراديو: ابدأ رسالتك ~b~بعلامة التعجب ~s~(~b~!~s~) لاستخدام هذه الميزة!</String>
     </Entry>
 
     <Entry Id="radio_on">
@@ -2413,6 +2432,7 @@
         <String xml:lang="de-DE">~g~AN</String>
         <String xml:lang="it-IT">~g~ACCESA</String>
         <String xml:lang="id-ID">~g~AKTIF</String>
+        <String xml:lang="ar-001">تشغيل</String>
     </Entry>
 
     <Entry Id="radio_off">
@@ -2424,6 +2444,7 @@
         <String xml:lang="de-DE">~r~AUS</String>
         <String xml:lang="it-IT">~r~SPENTA</String>
         <String xml:lang="id-ID">~r~TIDAK AKTIF</String>
+        <String xml:lang="ar-001">ايقاف</String>
     </Entry>
 
     <Entry Id="radio_mute">
@@ -2435,6 +2456,7 @@
         <String xml:lang="de-DE">~r~Stummschalten</String>
         <String xml:lang="it-IT">~r~Silenzioso</String>
         <String xml:lang="id-ID">~r~Bisu</String>
+        <String xml:lang="ar-001">صامت~r~</String>
     </Entry>
 
     <Entry Id="radio_channel_none">
@@ -2446,6 +2468,7 @@
         <String xml:lang="de-DE">~r~Keiner</String>
         <String xml:lang="it-IT">~r~Nessuno</String>
         <String xml:lang="id-ID">~r~Tidak ada</String>
+        <String xml:lang="ar-001">لا يوجد</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2533,5 +2556,112 @@
         <String xml:lang="fr-FR">Sélectionner un garage</String>
         <String xml:lang="hi-Latn">Select kare ek garage</String>
         <String xml:lang="de-DE">Wähle eine Garage</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Hitman Menu -->
+    <!-- ========================= -->
+    <Entry Id="menu_hitman_title">
+        <String xml:lang="en-US">Hitman</String>
+        <String xml:lang="nl-NL">Huurmoordenaar</String>
+        <String xml:lang="fr-FR">Tueur à gages</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_contracts_subtitle">
+        <String xml:lang="en-US">Contracts</String>
+        <String xml:lang="nl-NL">Moordcontracten</String>
+        <String xml:lang="fr-FR">Contrats</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_contracts_description">
+        <String xml:lang="en-US">View recent hitman contracts.</String>
+        <String xml:lang="nl-NL">Bekijk recente moordcontracten.</String>
+        <String xml:lang="fr-FR">Voir les contrats récents des tueurs à gages.</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_name">
+        <String xml:lang="en-US">New Contract</String>
+        <String xml:lang="nl-NL">Nieuw Contract</String>
+        <String xml:lang="fr-FR">Nouveau Contrat</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_fee">
+        <String xml:lang="en-US">Fee: {0}%</String>
+        <String xml:lang="nl-NL">Kosten: {0}%</String>
+        <String xml:lang="fr-FR">Frais: {0}%</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_reward_over_limit">
+        <String xml:lang="en-US">The reward amount ~r~exceeds ~s~the maximum limit allowed for a hitman contract (~r~{0}~s~)</String>
+        <String xml:lang="nl-NL">Het beloningsbedrag overschrijdt het maximale limiet toegestaan voor een moordcontracten (~r~{0}~s~)</String>
+        <String xml:lang="fr-FR">Le montant de la récompense dépasse la limite maximale autorisée pour un contrat de tueur à gages (~r~{0}~s~)</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_reward_below_minimum">
+        <String xml:lang="en-US">The reward amount ~r~is below ~s~the minimum required for a hitman contract (~r~{0}~s~)</String>
+        <String xml:lang="nl-NL">Het beloningsbedrag is lager dan het minimale voor een moordcontract (~r~{0}~s~)</String>
+        <String xml:lang="fr-FR">Le montant de la récompense est inférieur au minimum requis pour un contrat de tueur à gages (~r~{0}~s~)</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_target">
+        <String xml:lang="en-US">Select your target</String>
+        <String xml:lang="nl-NL">Selecteer je doelwit</String>
+        <String xml:lang="fr-FR">Sélectionner ta cible</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_reward">
+        <String xml:lang="en-US">Reward</String>
+        <String xml:lang="nl-NL">Beloning</String>
+        <String xml:lang="fr-FR">Récompense</String>
+    </Entry>
+
+    <Entry Id="menu_hitman_new_contract_create">
+        <String xml:lang="en-US">Create</String>
+        <String xml:lang="nl-NL">Creëer</String>
+        <String xml:lang="fr-FR">Créer</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_confirmation">
+        <String xml:lang="en-US">You can place this hit contract only if you have a valid reason to ~r~kill~s~ {0}. Creating hit contracts on random players will result in ~r~you being banned~s~ for RDM. Please review the rules at ~b~gtacnr.net/rules~s~.</String>
+        <String xml:lang="nl-NL">Je kunt dit moordcontract alleen plaatsen als je een geldige reden hebt om {0} te ~r~vermoorden~s~. Het maken van moordcontracten op willekeurige spelers zal resulteren in ~r~een ban~s~ voor RDM. Bekijk de regels op ~b~gtacnr.net/rules~s~.</String>
+        <String xml:lang="fr-FR">Tu ne peux placer ce contrat que si tu as une raison valable de ~r~tuer~s~ {0}. Si tu créais des contrats sur des joueurs aléatoires, tu seras banni pour RDM. Merci de consulter les règles sur ~b~gtacnr.net/rules~s~.</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_success">
+        <String xml:lang="en-US">Contract has been ~g~successfully~s~ created!</String>
+        <String xml:lang="nl-NL">Moordcontract is ~g~succesvol~s~ gecreëerd!</String>
+        <String xml:lang="fr-FR">Le contrat a été créé avec ~g~succès~s~!</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_invalid_target">
+        <String xml:lang="en-US">~r~The specified target is invalid.</String>
+        <String xml:lang="nl-NL">~r~Het gespecificeerde doelwit is ongeldig.</String>
+        <String xml:lang="fr-FR">~r~La cible spécifiée n'est pas valide.</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_invalid_reward">
+        <String xml:lang="en-US">~r~The reward amount is invalid.</String>
+        <String xml:lang="nl-NL">~r~Het beloningsbedrag is ongeldig.</String>
+        <String xml:lang="fr-FR">~r~Le montant de la récompense n'est pas valide.</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_too_many">
+        <String xml:lang="en-US">~r~Target has reached the maximum number of active contracts.</String>
+        <String xml:lang="nl-NL">~r~Doelwit heeft het maximale aantal actieve moordcontracten bereikt.</String>
+        <String xml:lang="fr-FR">~r~La cible a atteint le nombre maximum de contrats actifs.</String>
+    </Entry>
+
+    <Entry Id="hitman_new_contract_response_duplicate">
+        <String xml:lang="en-US">~r~You cannot create duplicate contracts for the same target.</String>
+        <String xml:lang="nl-NL">~r~Je kunt geen dubbele moordcontracten maken voor hetzelfde doelwit.</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas créer des contrats en double pour le même objectif.</String>
+    </Entry>
+
+    <!-- {0} = Name (Id) of player who placed hit, or one of the other actors below -->
+    <!-- {1} = money amount -->
+    <Entry Id="hitman_contract_placed_on_you">
+        <String xml:lang="en-US">{0} has placed a ~r~{1} ~s~hit contract on you.</String>
+        <String xml:lang="nl-NL">{0} heeft een moordcontract van ~r~{1} ~s~op jou geplaatst.</String>
+        <String xml:lang="fr-FR">{0} a placé un contrat ~r~{1} ~s~sur toi.</String>
     </Entry>
 </Entries>
