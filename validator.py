@@ -93,7 +93,7 @@ class Validator:
     """XML Validation
 
     This class provides utility functions for validating XML localization files.
-    
+
     Attributes:
         xml_files (list[str]): A list of XML filenames to be validated.
         supported_langs (list[str]): A list of supported language codes.
@@ -112,7 +112,7 @@ class Validator:
     """
     xml_files: list[str] = []
     supported_langs: list[str] = ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES", "pt-BR",
-        "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH", "id-ID", "cs-CS"]
+        "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH", "id-ID", "cs-CZ"]
     used_ids: set[str] = set()
     fatal_errors: int = 0
     errors: int = 0
@@ -179,10 +179,10 @@ class Validator:
 
         Args:
             error (str): The error message to print.
-            location (list[str]): A list of strings representing the location of the error. 
+            location (list[str]): A list of strings representing the location of the error.
 
-        Returns: 
-            None 
+        Returns:
+            None
         """
         Validator.errors += 1
         loc_string = Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)
@@ -200,10 +200,10 @@ class Validator:
 
         Args:
             error (str): The error message to print.
-            location (list[str]): A list of strings representing the location of the error. 
+            location (list[str]): A list of strings representing the location of the error.
 
-        Returns: 
-            None 
+        Returns:
+            None
         """
         Validator.fatal_errors += 1
         loc_string = Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)
@@ -221,10 +221,10 @@ class Validator:
 
         Args:
             warning (str): The warning message to print.
-            location (list[str]): A list of strings representing the location of the warning. 
+            location (list[str]): A list of strings representing the location of the warning.
 
-        Returns: 
-            None 
+        Returns:
+            None
         """
         loc_string = Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)
         txt = f"[*] {loc_string}:\n{warning}"

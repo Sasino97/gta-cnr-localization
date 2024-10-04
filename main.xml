@@ -70,7 +70,7 @@
         <String xml:lang="es-ES">~r~Ha ocurrido un error inesperado en el servidor y el robo ha sido cancelado.</String>
         <String xml:lang="pl-PL">~r~Wystąpił nieoczekiwany błąd i napad został anulowany.</String>
         <String xml:lang="pt-BR">~r~Ocorreu um erro inesperado no servidor e o roubo foi cancelado.</String>
-        <String xml:lang="ar-001">~r~حدث خطأ غير متوقع على الخادم وتم إلغاء عملية السرقة.</String>
+        <String xml:lang="ar-001">~r~حدث خطأ غير متوقع على السيرفر وتم إلغاء عملية السرقة.</String>
         <String xml:lang="id-ID">~r~Telah terjadi sebuah kesalahan yang tidak terduga pada server dan perampokan telah dibatalkan.</String>
         <String xml:lang="th-TH">~r~เกิดข้อผิดพลาดที่ไม่คาดคิดบนเซิร์ฟเวอร์และการโจรกรรมได้ถูกยกเลิกแล้ว</String>
         <String xml:lang="zh-Hant">~r~伺服器發生了未曾發生的錯誤，所以搶劫已被取消。</String>
@@ -120,6 +120,8 @@
         <String xml:lang="de-DE">Die Details zum Kauf konnten nicht geladen werden.</String>
         <String xml:lang="cs-CZ">Nelze načíst data o tvých nákupech.</String>
         <String xml:lang="it-IT">Impossibile caricare i dati di acquisto.</String>
+        <String xml:lang="id-ID">Tidak dapat memuat data pembelian.</String>
+
     </Entry>
 
     <Entry Id="error_loading_subscription_data">
@@ -130,6 +132,7 @@
         <String xml:lang="de-DE">Die Details zu deinem Abonnement konnten nicht geladen werden.</String>
         <String xml:lang="cs-CZ">Nelze načíst data o tvém předplatném.</String>
         <String xml:lang="it-IT">Impossibile caricare i dati di abbonamento.</String>
+        <String xml:lang="id-ID">Tidak dapat memuat data berlangganan kamu.</String>
     </Entry>
 
     <Entry Id="menu_error_item">
@@ -140,6 +143,7 @@
         <String xml:lang="de-DE">~r~Fehler!</String>
         <String xml:lang="cs-CZ">~r~Chyba!</String>
         <String xml:lang="it-IT">~r~Errore!</String>
+        <String xml:lang="id-ID">~r~Error!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -228,6 +232,7 @@
         <String xml:lang="de-DE">~r~Sorry, die Funktion für diesen Gegenstand wurde noch nicht eingefügt!</String>
         <String xml:lang="cs-CZ">~r~Omlouváme se, tato funkce ještě nebyla pro tento předmět implementována!</String>
         <String xml:lang="it-IT">~r~Spiacente, questa funzionalità non è ancora stata implementata per questo oggetto!</String>
+        <String xml:lang="id-ID">~r~Mohon maaf, Fitur ini belum diimplementasikan untuk item ini!</String>
     </Entry>
 
     <Entry Id="not_enough_money">
@@ -289,6 +294,7 @@
         <String xml:lang="de-DE">~r~Du nicht mehr von {0} tragen!</String>
         <String xml:lang="cs-CZ">~r~Už nemůžeš nést další {0}!</String>
         <String xml:lang="it-IT">~r~Non puoi reggere più di {0}!</String>
+        <String xml:lang="id-ID">~r~Anda tidak dapat membawa lebih banyak {0}!</String>
     </Entry>
 
     <Entry Id="inventory_space_hint">
@@ -299,6 +305,7 @@
         <String xml:lang="de-DE">Verwende, verschenke, oder lasse einige Gegenstände fallen, um Platz zu schaffen!</String>
         <String xml:lang="cs-CZ">Použij, vyhoď nebo dej některé předměty pryč, abys uvolnil místo.</String>
         <String xml:lang="it-IT">Usa, getta o dai via alcuni oggetti per fare spazio.</String>
+        <String xml:lang="id-ID">Gunakan, jatuhkan, atau berikan beberapa barang untuk membuat ruang.</String>
     </Entry>
 
     <Entry Id="cant_purchase_that_amount">
@@ -399,6 +406,7 @@
         <String xml:lang="hi-Latn">{0} (hold karo)</String>
         <String xml:lang="de-DE">{0} (halten)</String>
         <String xml:lang="it-IT">{0} (tieni premuto)</String>
+        <String xml:lang="id-ID">{0} (tahan)</String>
     </Entry>
 
     <Entry Id="btn_select">
@@ -480,6 +488,7 @@
         <String xml:lang="en-US">Sort</String>
         <String xml:lang="nl-NL">Sorteren</String>
         <String xml:lang="fr-FR">Trier</String>
+        <String xml:lang="id-ID">Urutkan</String>
     </Entry>
 
     <Entry Id="btn_add">
@@ -490,6 +499,7 @@
         <String xml:lang="de-DE">Hinzufügen</String>
         <String xml:lang="cs-CZ">Přidat</String>
         <String xml:lang="it-IT">Aggiungi</String>
+        <String xml:lang="id-ID">Tambahkan</String>
     </Entry>
 
     <Entry Id="btn_interact">
@@ -500,12 +510,14 @@
         <String xml:lang="de-DE">Interagieren</String>
         <String xml:lang="cs-CZ">Interakce</String>
         <String xml:lang="it-IT">Interagisci</String>
+        <String xml:lang="id-ID">Interaksi</String>
     </Entry>
 
     <Entry Id="btn_use">
         <String xml:lang="en-US">Use</String>
         <String xml:lang="nl-NL">Gebruik</String>
         <String xml:lang="fr-FR">Utiliser</String>
+        <String xml:lang="id-ID">Gunakan</String>
     </Entry>
 
     <!-- ========================= -->
@@ -525,6 +537,7 @@
         <String xml:lang="de-DE">Wähle eine Option.</String>
         <String xml:lang="hi-Latn">Select kare option</String>
         <String xml:lang="cs-CZ">Vyber možnost</String>
+        <String xml:lang="id-ID">Pilih salah satu opsi</String>
     </Entry>
 
     <!-- ========================= -->
@@ -703,6 +716,7 @@
         <String xml:lang="de-DE">Freigeben</String>
         <String xml:lang="cs-CZ">Odblokovat</String>
         <String xml:lang="it-IT">Sblocca</String>
+        <String xml:lang="id-ID">Membuka blokir.</String>
     </Entry>
 
     <Entry Id="block_cmd_suggestion_help">
@@ -713,6 +727,7 @@
         <String xml:lang="de-DE">Blockiert. Du wirst keine Nachrichten vom Spieler sehen, solange du ihn nicht freigibst. Um die Liste der blockierten Spieler zu sehen, gib keine ID ein.</String>
         <String xml:lang="cs-CZ">Zablokuje hráče. Dokud ho neodblokuješ, neuvidíš od něj žádnou zprávu. Nezadávej ID, abys viděl seznam blokovaných hráčů.</String>
         <String xml:lang="it-IT">Blocca un giocatore. Non vedrai nessun messaggio da parte loro finché non li sblocchi. Non inserire un id per vedere l'elenco dei giocatori bloccati.</String>
+        <String xml:lang="id-ID">Blokir pemain. Kamu tidak akan melihat pesan apapun sampai kamu membuka blokir mereka. Jangan memasukan id untuk melihat daftar pemain yang di blokir.</String>
     </Entry>
 
     <Entry Id="block_cmd_suggestion_param_name">
@@ -723,6 +738,7 @@
         <String xml:lang="de-DE">Spieler-ID</String>
         <String xml:lang="cs-CZ">ID hráče</String>
         <String xml:lang="it-IT">id giocatore</String>
+        <String xml:lang="id-ID">id pemain</String>
     </Entry>
 
     <Entry Id="block_cmd_suggestion_param_help">
@@ -733,6 +749,7 @@
         <String xml:lang="de-DE">Die aktuelle ID des Spielers, den du blockieren willst.</String>
         <String xml:lang="cs-CZ">Aktuální ID hráče kterého chceš zablokovat</String>
         <String xml:lang="it-IT">L'id attuale del giocatore che vuoi bloccare.</String>
+        <String xml:lang="id-ID">Id pemain saat ini yang mau kamu blokir.</String>
     </Entry>
 
     <Entry Id="block_cmd_error_already_blocked">
@@ -743,6 +760,7 @@
         <String xml:lang="de-DE">Der angegebene Spieler wurde bereits blockiert. Verwende /unblock um einen Spieler freizugeben.</String>
         <String xml:lang="cs-CZ">Zadaný hráč je již zablokován. Pro odblokování hráče použij příkaz /unblock.</String>
         <String xml:lang="it-IT">Il giocatore specificato è già bloccato. Usa /unblock per sbloccare un giocatore.</String>
+        <String xml:lang="id-ID">Pemain tersebut sudah diblokir. Gunakan /unblock untuk membuka blokir pemain.</String>
     </Entry>
 
     <!-- {0} = player name -->
@@ -754,6 +772,7 @@
         <String xml:lang="de-DE">Du hast {0} blockiert. v</String>d
         <String xml:lang="cs-CZ">Zablokoval jsi {0}. Spravuj zablokované hráče přes M &gt; Pomoc &gt; Zablokovaní hráči.</String>
         <String xml:lang="it-IT">Hai bloccato {0}. Gestisci la tua lista di blocco in M &gt; Aiuto &gt; Giocatori bloccati.</String>
+        <String xml:lang="id-ID">Kamu telah memblokir {0}. Kelola daftar blokir anda di M&gt; Bantuan&gt; Pemain yang di blokir.</String>
     </Entry>
 
     <Entry Id="unblock_cmd_suggestion_help">
@@ -764,6 +783,7 @@
         <String xml:lang="de-DE">Gibt einen Spieler frei.</String>
         <String xml:lang="cs-CZ">Odblokuje hráče.</String>
         <String xml:lang="it-IT">Sblocca un giocatore.</String>
+        <String xml:lang="id-ID">Membuka blokir pemain.</String>
     </Entry>
 
     <Entry Id="unblock_cmd_suggestion_param_help">
@@ -774,6 +794,7 @@
         <String xml:lang="de-DE">Die aktuelle ID des Spielers, den du freigeben willst.</String>
         <String xml:lang="cs-CZ">Aktuální ID hráče kterého chceš odblokovat</String>
         <String xml:lang="it-IT">L'id attuale del giocatore che vuoi sbloccare.</String>
+        <String xml:lang="id-ID">Id pemain saat ini yang akan kamu buka blokirnya.</String>
     </Entry>
 
     <Entry Id="unblock_cmd_error_not_blocked">
@@ -784,6 +805,7 @@
         <String xml:lang="de-DE">Der angegebene Spieler ist nicht blockiert.</String>
         <String xml:lang="cs-CZ">Hráč s tímto ID není blokovaný.</String>
         <String xml:lang="it-IT">Il giocatore specificato non è bloccato.</String>
+        <String xml:lang="id-ID">Pemain tersebut tidak di blokir.</String>
     </Entry>
 
     <!-- {0} = player name -->
@@ -795,6 +817,7 @@
         <String xml:lang="de-DE">Du hast {0} freigegeben. Verwalte deine Block-List über M &gt; Hilfe &gt; Blockierte Spieler.</String>
         <String xml:lang="cs-CZ">Odblokoval jsi{0}. Spravuj zablokované hráče přes M &gt; Pomoc &gt; Zablokovaní hráči.</String>
         <String xml:lang="it-IT">Hai sbloccato {0}. Gestisci la tua lista di giocatori bloccati in M &gt; Aiuto &gt; Giocatori bloccati.</String>
+        <String xml:lang="id-ID">Kamu telah membuka blokir {0}. Kelola daftar blokir di M &gt; Bantuan&gt; Pemain yang diblokir.</String>
     </Entry>
 
     <!-- {0} = command + parameters -->
@@ -807,6 +830,7 @@
         <String xml:lang="de-DE">Verwende: {0}</String>
         <String xml:lang="cs-CZ">Použití: {0}</String>
         <String xml:lang="it-IT">Uso: {0}</String>
+        <String xml:lang="id-ID">Penggunaan: {0}</String>
     </Entry>
 
     <!-- {0} = the id of the player -->
@@ -816,6 +840,7 @@
         <String xml:lang="de-DE">Spieler-ID {0} ist nicht verbunden.</String>
         <String xml:lang="fr-FR">Le joueur avec l'ID {0} n'est pas connecté.</String>
         <String xml:lang="it-IT">Giocatore con ID {0} non è connesso.</String>
+        <String xml:lang="id-ID">Pemain dengan id {0} sedang tidak online.</String>
     </Entry>
 
     <Entry Id="cmd_player_numeric">
@@ -824,6 +849,7 @@
         <String xml:lang="de-DE">Die Spieler-ID muss eine Zahl sein.</String>
         <String xml:lang="fr-FR">L'ID du joueur doit être un numéro.</String>
         <String xml:lang="it-IT">L'ID del giocatore deve essere un numero.</String>
+        <String xml:lang="id-ID">Id pemain harus berupa angka.</String>
     </Entry>
 
     <!-- 
@@ -836,6 +862,7 @@
         <String xml:lang="de-DE">Der empfangende Spieler kann nicht du selbst sein.</String>
         <String xml:lang="fr-FR">Le joueur cible ne peut pas être toi-même.</String>
         <String xml:lang="it-IT">Il giocatore bersagliato non può essere te stesso.</String>
+        <String xml:lang="id-ID">Anda tidak bisa menargetkan diri sendiri.</String>
     </Entry>
 
     <Entry Id="input_enter_id">
@@ -846,6 +873,7 @@
         <String xml:lang="de-DE">Gib die ID des Spielers ein.</String>
         <String xml:lang="cs-CZ">Zadej ID hráče</String>
         <String xml:lang="it-IT">Inserisci l'ID del giocatore.</String>
+        <String xml:lang="id-ID">Masukkan id pemain.</String>
     </Entry>
 
     <Entry Id="party_create_desc">
@@ -854,6 +882,7 @@
         <String xml:lang="de-DE">Erstellt eine Party: Eine temporäre Gruppe von Spielern. Die Mitglieder einer Gruppe können über einen speziellen Funkkanal miteinander kommunizieren, sich gegenseitig über große Entfernungen auf der Karte sehen und die Ping-Markierungen der anderen sehen. Darüber hinaus werden einige kleinere Straftaten und Racheakte zwischen ihnen deaktiviert.</String>
         <String xml:lang="fr-FR">Crée un groupe : un groupe temporaire de personnes. Les membres d'un même groupe peuvent communiquer sur un canal radio dédié, se voir sur la mini-carte sur de longues distances et voir les icônes de chacun. De plus, certains crimes mineurs et la vengeance entre eux sont désactivés.</String>
         <String xml:lang="it-IT">Crea una party: un gruppo temporaneo di persone. I membri dello stesso party possono comunicare su un canale radio dedicato, vedersi sulla mappa a grandi distanze e vedere i marker di ping degli altri. Inoltre, alcuni crimini minori e vendette tra loro sono disabilitati.</String>
+        <String xml:lang="id-ID">Buat party: grup sementara. Anggota dari grup tersebut dapat saling berkomunikasi dengan chanel radio khusus, melihat satu sama lain di map walau jarak jauh, dapat melihat penanda satu dengan lainnya. Selain itu, sebagian kejahatan kecil dan dendam sesama anggota grup ditiadakan.</String>
     </Entry>
 
     <Entry Id="party_invite_desc">
@@ -862,6 +891,7 @@
         <String xml:lang="de-DE">Lädt einen Spieler in deine Party ein.</String>
         <String xml:lang="fr-FR">Invite un joueur à ton groupe.</String>
         <String xml:lang="it-IT">Invita un giocatore nel tuo party.</String>
+        <String xml:lang="id-ID">Undang pemain untuk bergabung dengan partymu.</String>
     </Entry>
 
     <Entry Id="party_invite_param_player_desc">
@@ -870,6 +900,7 @@
         <String xml:lang="de-DE">Die ID des Spielers, den du einladen willst.</String>
         <String xml:lang="fr-FR">L'ID du joueur que tu souhaites inviter.</String>
         <String xml:lang="it-IT">L'ID del giocatore che vuoi invitare.</String>
+        <String xml:lang="id-ID">Id dari pemain yang akan kamu undang.</String>
     </Entry>
 
     <Entry Id="party_join_desc">
@@ -878,6 +909,7 @@
         <String xml:lang="de-DE">Anfragen, der Party des Spielers beizutreten</String>
         <String xml:lang="fr-FR">Demande de rejoindre le groupe d'un joueur.</String>
         <String xml:lang="it-IT">Richiedi di unirti a un party di un giocatore.</String>
+        <String xml:lang="id-ID">Permintaan untuk bergabung dengan party pemain lain.</String>
     </Entry>
 
     <Entry Id="party_join_param_player_desc">
@@ -886,6 +918,7 @@
         <String xml:lang="de-DE">Die ID des Spielers, dessen Gruppe du beitreten willst.</String>
         <String xml:lang="fr-FR">L'ID du joueur dont tu veux rejoindre le groupe.</String>
         <String xml:lang="it-IT">L'ID del giocatore del party al quale vuoi unirti.</String>
+        <String xml:lang="id-ID">Id dari pemain yang partnya mau kamu ikuti.</String>
     </Entry>
 
     <Entry Id="party_leave_desc">
@@ -894,6 +927,7 @@
         <String xml:lang="de-DE">Verlässt deine aktuelle Party.</String>
         <String xml:lang="fr-FR">Quitte ton groupe actuel.</String>
         <String xml:lang="it-IT">Esci dal party attuale.</String>
+        <String xml:lang="id-ID">Tinggalkan party saat ini.</String>
     </Entry>
 
     <Entry Id="party_kick_desc">
@@ -902,6 +936,7 @@
         <String xml:lang="de-DE">Entfernt einen Spieler aus deiner Party. Du musst Partyleiter sein, um diesen Befehl auszuführen.</String>
         <String xml:lang="fr-FR">Retire un joueur de ton groupe. Tu dois être le chef du groupe pour utiliser cette commande.</String>
         <String xml:lang="it-IT">Rimuovi un giocatore dal tuo party. Devi essere il leader del party per usare questo comando.</String>
+        <String xml:lang="id-ID">Keluarkan pemain dari partymu. Kamu harus menjadi Ketua party untuk menggunakan perintah ini.</String>
     </Entry>
 
     <Entry Id="party_kick_param_player_desc">
@@ -910,6 +945,7 @@
         <String xml:lang="de-DE">Die ID des Spielers, den du aus deiner Party kicken willst.</String>
         <String xml:lang="fr-FR">L'ID du joueur à exclure de ton groupe.</String>
         <String xml:lang="it-IT">L'ID del giocatore da espellere dal tuo party.</String>
+        <String xml:lang="id-ID">Id player yang akan kamu keluarkan dari partymu.</String>
     </Entry>
 
     <Entry Id="party_create_already_in">
@@ -918,6 +954,7 @@
         <String xml:lang="de-DE">Du bist bereits in einer Party. Verlasse deine aktuelle Party, bevor du eine neue erstellst.</String>
         <String xml:lang="fr-FR">Tu es déjà dans un groupe. Quitte le groupe actuel avant d'en créer un nouveau.</String>
         <String xml:lang="it-IT">Sei già in un party. Esci dal party attuale prima di crearne uno nuovo.</String>
+        <String xml:lang="id-ID">Kamu sudah berada di party. Tinggalkan partymu saat ini sebelum membuat yang baru.</String>
     </Entry>
 
     <Entry Id="party_create_success">
@@ -926,6 +963,7 @@
         <String xml:lang="de-DE">Du hast eine Party erstellt. Verwende /party-invite, um Spieler einzuladen.</String>
         <String xml:lang="fr-FR">Tu as créé un groupe. Utilise /party-invite pour inviter des joueurs.</String>
         <String xml:lang="it-IT">Hai creato un party. Usa /party-invite per invitare i giocatori.</String>
+        <String xml:lang="id-ID">Kamu telah membuat party. Gunakan /party-invite untuk mengundang pemain lain.</String>
     </Entry>
 
     <Entry Id="party_join_already_in">
@@ -934,6 +972,7 @@
         <String xml:lang="de-DE">Du bist bereits in einer Party. Verlasse deine aktuelle Party, bevor du den Beitritt zu einer anderen Party anfragst.</String>
         <String xml:lang="fr-FR">Tu fais déjà partie d'un groupe. Quitte le groupe actuel avant de demander à en rejoindre un autre.</String>
         <String xml:lang="it-IT">Sei già in un party. Esci dal party attuale prima di poter richiedere di unirti a un'altro.</String>
+        <String xml:lang="id-ID">Kamu sudah berada di dalam party. Tinggalkan party saat ini sebelum meminta bergabung dengan party lain.</String>
     </Entry>
 
     <Entry Id="party_join_cooldown">
@@ -942,6 +981,7 @@
         <String xml:lang="de-DE">Bitte warte, bevor du erneut versuchst, bevor du den Beitritt zu einer anderen Party anfragst.</String>
         <String xml:lang="fr-FR">Merci de patienter avant de demander à nouveau à rejoindre un groupe.</String>
         <String xml:lang="it-IT">Attendi prima di richiedere nuovamente di unirti a un party.</String>
+        <String xml:lang="id-ID">Mohon tunggu sebelum meminta untuk bergabung dengan party lagi.</String>
     </Entry>
 
     <!-- {0} = name and id of the target player -->
@@ -951,6 +991,7 @@
         <String xml:lang="de-DE">{0} ist nicht in einer Party.</String>
         <String xml:lang="fr-FR">{0} n'est pas dans un groupe.</String>
         <String xml:lang="it-IT">{0} non è in un party.</String>
+        <String xml:lang="id-ID">{0} tidak berada didalam party.</String>
     </Entry>
 
     <!-- {0} = name and id of the party leader -->
@@ -960,6 +1001,7 @@
         <String xml:lang="de-DE">Partyleiter {0} ist nicht verbunden.</String>
         <String xml:lang="fr-FR">Le chef du groupe {0} n'est pas connecté.</String>
         <String xml:lang="it-IT">Il leader del party {0} non è connesso.</String>
+        <String xml:lang="id-ID">Ketua party {0} sedang tidak online.</String>
     </Entry>
 
     <!-- {0} = name and id of the party leader -->
@@ -969,6 +1011,7 @@
         <String xml:lang="de-DE">Du bist {0}'s Party beigretreten.</String>
         <String xml:lang="fr-FR">Tu as rejoint le groupe de {0}.</String>
         <String xml:lang="it-IT">Ti sei unito al party di {0}.</String>
+        <String xml:lang="id-ID">Kamu bergabung dengan party {0}.</String>
     </Entry>
 
     <!-- {0} = name and id of the player who joined the party -->
@@ -978,6 +1021,7 @@
         <String xml:lang="de-DE">{0} ist deiner Party beigetreten.</String>
         <String xml:lang="fr-FR">{0} a rejoint ton groupe.</String>
         <String xml:lang="it-IT">{0} si è unito al tuo party.</String>
+        <String xml:lang="id-ID">{0} telah bergabung ke party.</String>
     </Entry>
 
     <!-- {0} = name and id of the player who wants to join the party -->
@@ -988,6 +1032,7 @@
         <String xml:lang="de-DE">{0} möchet deiner ~y~Party~s~ beitreten. Gib ~b~/party-invite {1} ~s~ein, um die Anfrage zu akzeptieren.</String>
         <String xml:lang="fr-FR">{0} veut rejoindre ton ~y~groupe~s~. Ecris ~b~/party-invite {1} ~s~pour accepter.</String>
         <String xml:lang="it-IT">{0} vuole unirsi al tuo ~y~party~s~. Digita ~b~/party-invite {1} ~s~per accettare.</String>
+        <String xml:lang="id-ID">{0} ingin bergaunb dengan ~y~partymu~s~. Ketika ~b~/party-invite {1} ~s~untuk menerima.</String>
     </Entry>
 
     <!-- {0} = name and id of the player whose party you requested to join -->
@@ -998,6 +1043,7 @@
         <String xml:lang="de-DE">Du hast den Beitritt zu {0}'s Party angefragt. {1}</String>
         <String xml:lang="fr-FR">Tu as demandé à rejoindre le groupe de {0}. {1}</String>
         <String xml:lang="it-IT">Hai richiesto di unirti al party di {0}. {1}</String>
+        <String xml:lang="id-ID">Anda telah meminta untuk bergabung dengan party {0}. {1}</String>
     </Entry>
 
     <Entry Id="party_join_requested_leader">
@@ -1006,6 +1052,7 @@
         <String xml:lang="de-DE">Partyleiter {0} muss deine Anfrage akzeptieren.</String>
         <String xml:lang="fr-FR">Le chef du groupe {0} devra accepter la demande.</String>
         <String xml:lang="it-IT">Il leader del party {0} dovrà accettare la richiesta.</String>
+        <String xml:lang="id-ID">Ketua party {0} harus menerima permintaan.</String>
     </Entry>
 
     <Entry Id="party_not_in_party">
@@ -1014,6 +1061,7 @@
         <String xml:lang="de-DE">Du bist nicht in einer Party.</String>
         <String xml:lang="fr-FR">Tu n'es pas dans un groupe.</String>
         <String xml:lang="it-IT">Non sei in un party.</String>
+        <String xml:lang="id-ID">Kamu berlum bergabung di party.</String>
     </Entry>
 
     <Entry Id="party_not_leader">
@@ -1022,6 +1070,7 @@
         <String xml:lang="de-DE">Du bist nicht der Leiter dieser Party.</String>
         <String xml:lang="fr-FR">Tu n'es pas le chef du groupe.</String>
         <String xml:lang="it-IT">Non sei il leader del party.</String>
+        <String xml:lang="id-ID">Kamu bukan ketua party.</String>
     </Entry>
 
     <!-- {0} = name and id of the player -->
@@ -1031,6 +1080,7 @@
         <String xml:lang="de-DE">{0} ist bereits in einer Party.</String>
         <String xml:lang="fr-FR">{0} est déjà dans un groupe.</String>
         <String xml:lang="it-IT">{0} è già in un party.</String>
+        <String xml:lang="id-ID">{0} sudah bergabung dengan party.</String>
     </Entry>
 
     <!-- {0} = name and id of the player -->
@@ -1040,6 +1090,7 @@
         <String xml:lang="de-DE">{0} hat dich zu seiner ~y~Party~s~ eingeladen. Gib ~b~/party-join {1} ~s~ein, um die Einladung zu akzeptieren.</String>
         <String xml:lang="fr-FR">{0} t'a invité à rejoindre son ~y~groupe~s~. Ecris ~b~/party-join {1} ~s~pour accepter.</String>
         <String xml:lang="it-IT">{0} ti ha invitato a unirti al loro ~y~party~s~. Digita ~b~/party-join {1} ~s~per accettare.</String>
+        <String xml:lang="id-ID">{0} mengundangmu untuk bergabung ~y~partynya~s~. Ketika ~b~/party-join {1} ~s~untuk menerima undangan.</String>
     </Entry>
 
     <!-- {0} = name and id of the player -->
@@ -1049,6 +1100,7 @@
         <String xml:lang="de-DE">Du hast {0} in deine Party eingeladen.</String>
         <String xml:lang="fr-FR">Tu as invité {0} à rejoindre à ton groupe.</String>
         <String xml:lang="it-IT">Hai invitato {0} a unirsi al tuo party.</String>
+        <String xml:lang="id-ID">Kamu telah mengundang {0} untuk bergabung dengan partymu.</String>
     </Entry>
 
     <Entry Id="party_left">
@@ -1057,6 +1109,7 @@
         <String xml:lang="de-DE">Du hast die Party verlassen.</String>
         <String xml:lang="fr-FR">Tu as quitté le groupe.</String>
         <String xml:lang="it-IT">Hai lasciato il party.</String>
+        <String xml:lang="id-ID">Kamu telah meninggalkan party.</String>
     </Entry>
 
     <!-- {0} = name and id of the player -->
@@ -1067,6 +1120,7 @@
         <String xml:lang="de-DE">{0} hat deine Party verlassen. {1}</String>
         <String xml:lang="fr-FR">{0} a quitté ton groupe. {1}</String>
         <String xml:lang="it-IT">{0} ha lasciato il tuo party. {1}</String>
+        <String xml:lang="id-ID">{0} Telah meninggalkan partymu. {1}</String>
     </Entry>
 
     <Entry Id="party_got_kicked">
@@ -1075,6 +1129,7 @@
         <String xml:lang="de-DE">Du wurdest aus der Party geworfen.</String>
         <String xml:lang="fr-FR">Tu as été exclu du groupe.</String>
         <String xml:lang="it-IT">Sei stato espulso dal party.</String>
+        <String xml:lang="id-ID">Kamu telah dikeluarkan dari party.</String>
     </Entry>
 
     <!-- {0} = name and id of the player -->
@@ -1084,6 +1139,7 @@
         <String xml:lang="de-DE">{0} wurde aus deiner Party geworfen.</String>
         <String xml:lang="fr-FR">{0} a été exclu de ton groupe.</String>
         <String xml:lang="it-IT">{0} è stato espulso dal tuo party.</String>
+        <String xml:lang="id-ID">{0} telah dikeluar dari partymu.</String>
     </Entry>
 
     <Entry Id="party_leader_you">
@@ -1092,6 +1148,7 @@
         <String xml:lang="de-DE">Du bist nun der Partyleiter.</String>
         <String xml:lang="fr-FR">Tu es maintenant le chef.</String>
         <String xml:lang="it-IT">Ora sei il leader del party.</String>
+        <String xml:lang="id-ID">Kamu sekarang menjadi ketua party.</String>
     </Entry>
 
     <Entry Id="party_leader_x">
@@ -1100,6 +1157,7 @@
         <String xml:lang="de-DE">{0} ist nun der Partyleiter.</String>
         <String xml:lang="fr-FR">{0} est maintenant le chef.</String>
         <String xml:lang="it-IT">{0} è ora il leader del party.</String>
+        <String xml:lang="id-ID">{0} telah menjadi ketua party.</String>
     </Entry>
 
     <!-- For bottom-left info boxes (timers etc..) (all upper case please)-->
@@ -1107,34 +1165,41 @@
         <String xml:lang="en-US">TIME LEFT</String>
         <String xml:lang="nl-NL">RESTERENDE TIJD</String>
         <String xml:lang="fr-FR">TEMPS RESTANT</String>
+        <String xml:lang="id-ID">WAKTU TERSISA</String>
     </Entry>
 
     <Entry Id="mission_late">
         <String xml:lang="en-US">LATE</String>
+        <String xml:lang="nl-NL">TE LAAT</String>
         <String xml:lang="fr-FR">EN RETARD</String>
+        <String xml:lang="id-ID">TERLAMBAT</String>
     </Entry>
 
     <Entry Id="mission_payout">
         <String xml:lang="en-US">PAYOUT</String>
-        <String xml:lang="nl-NL">LAAT</String>
+        <String xml:lang="nl-NL">UITBETALING</String>
         <String xml:lang="fr-FR">PAIEMENT</String>
+        <String xml:lang="id-ID">GAJI</String>
     </Entry>
 
     <Entry Id="menu_playerlist_title">
         <String xml:lang="en-US">Players</String>
         <String xml:lang="nl-NL">Spelers</String>
         <String xml:lang="fr-FR">Joueurs</String>
+        <String xml:lang="id-ID">Pemain</String>
     </Entry>
 
     <Entry Id="menu_playerlist_no_players_text">
         <String xml:lang="en-US">No players found</String>
         <String xml:lang="nl-NL">Geen spelers gevonden</String>
         <String xml:lang="fr-FR">Aucun joueur trouvé</String>
+        <String xml:lang="id-ID">Tidak ada pemain yang ditemukan</String>
     </Entry>
 
     <Entry Id="menu_playerlist_no_players_description">
         <String xml:lang="en-US">There are no players available.</String>
         <String xml:lang="nl-NL">Er zijn geen spelers beschikbaar.</String>
         <String xml:lang="fr-FR">Il n'y a pas de joueurs disponibles.</String>
+        <String xml:lang="id-ID">Tidak ada pemain yang tersedia</String>
     </Entry>
 </Entries>
