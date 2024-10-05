@@ -46,49 +46,54 @@
     </Entry>
 
     <!-- {0} = Job name -->
-    <Entry Id="jobs_banned">
-        <String xml:lang="en-US">You are temporarily ~r~banned~s~ from the {0} job.</String>
-        <String xml:lang="nl-NL">Je bent tijdelijk ~r~verbannen~s~ van de {0} baan.</String>
-        <String xml:lang="fr-FR">Tu es temporairement ~r~banni~s~ du travail {0}.</String>
-        <String xml:lang="hi-Latn">Aap temporarily ~r~banned ~s~ho {0} ~s~job se.</String>
-        <String xml:lang="de-DE">Du wurdest temporär vom {0}-Job ~r~gebannt~s~.</String>
-        <String xml:lang="it-IT">Sei temporaneamente ~r~bannato~s~ dal lavoro di {0}.</String>
-        <String xml:lang="id-ID">Kamu ~r~terbanned~s~ sementara dari pekerjaan {0}.</String>
-    </Entry>
+   <Entry Id="jobs_banned">
+    <String xml:lang="en-US">You are temporarily ~r~banned~s~ from the {0} job.</String>
+    <String xml:lang="nl-NL">Je bent tijdelijk ~r~verbannen~s~ van de {0} baan.</String>
+    <String xml:lang="fr-FR">Tu es temporairement ~r~banni~s~ du travail {0}.</String>
+    <String xml:lang="hi-Latn">Aap temporarily ~r~banned ~s~ho {0} ~s~job se.</String>
+    <String xml:lang="de-DE">Du wurdest temporär vom {0}-Job ~r~gebannt~s~.</String>
+    <String xml:lang="it-IT">Sei temporaneamente ~r~bannato~s~ dal lavoro di {0}.</String>
+    <String xml:lang="id-ID">Kamu ~r~terbanned~s~ sementara dari pekerjaan {0}.</String>
+    <String xml:lang="th-TH">คุณถูก ~r~แบน~s~ ชั่วคราวจากงาน {0}</String>
+</Entry>
 
-    <!-- {0} = Job name -->
-    <Entry Id="jobs_wanted_level">
-        <String xml:lang="en-US">You cannot become a {0} when you are ~o~wanted~s~.</String>
-        <String xml:lang="nl-NL">Je kan geen {0} worden wanneer je ~o~gezocht~s~ wordt.</String>
-        <String xml:lang="fr-FR">Tu ne peux pas devenir un {0} quand tu es ~o~recherché~s~.</String>
-        <String xml:lang="hi-Latn">Aap {0} nahi bann sakte jab aap ~o~wanted ~s~ho.</String>
-        <String xml:lang="de-DE">Du kannst kein {0} werden, wenn du ~o~gesucht~s~ wirst.</String>
-        <String xml:lang="it-IT">Non puoi diventare un {0} quando sei ~o~ricercato~s~.</String>
-        <String xml:lang="id-ID">Kamu tidak bisa menjadi {0} ketika kamu ~o~buron~s~.</String>
-    </Entry>
+<!-- {0} = Job name -->
+<Entry Id="jobs_wanted_level">
+    <String xml:lang="en-US">You cannot become a {0} when you are ~o~wanted~s~.</String>
+    <String xml:lang="nl-NL">Je kan geen {0} worden wanneer je ~o~gezocht~s~ wordt.</String>
+    <String xml:lang="fr-FR">Tu ne peux pas devenir un {0} quand tu es ~o~recherché~s~.</String>
+    <String xml:lang="hi-Latn">Aap {0} nahi bann sakte jab aap ~o~wanted ~s~ho.</String>
+    <String xml:lang="de-DE">Du kannst kein {0} werden, wenn du ~o~gesucht~s~ wirst.</String>
+    <String xml:lang="it-IT">Non puoi diventare un {0} quando sei ~o~ricercato~s~.</String>
+    <String xml:lang="id-ID">Kamu tidak bisa menjadi {0} ketika kamu ~o~buron~s~.</String>
+    <String xml:lang="th-TH">คุณไม่สามารถเป็น {0} เมื่อคุณถูก ~o~ต้องการ~s~</String>
+</Entry>
 
-    <!-- {0} = Job name -->
-    <Entry Id="jobs_test_required">
-        <String xml:lang="en-US">You need to pass the ~y~Exam~s~ to become a {0}.</String>
-        <String xml:lang="nl-NL">Je moet het ~y~Examen~s~ halen om een {0} te worden.</String>
-        <String xml:lang="fr-FR">Tu dois réussir l'~y~examen~s~ pour devenir un {0}.</String>
-        <String xml:lang="hi-Latn">Aapko ~y~Exam ~s~pass karna hoga {0} banne ke liye.</String>
-        <String xml:lang="de-DE">Du musst die ~y~Prüfung~s~ bestehen, um ein {0} zu werden.</String>
-        <String xml:lang="it-IT">Devi superare l'~y~Esame~s~ per diventare un {0}.</String>
-        <String xml:lang="id-ID">Kamu harus lulus dari ~y~Ujian~s~ untuk bisa menjadi {0}.</String>
-    </Entry>
+<!-- {0} = Job name -->
+<Entry Id="jobs_test_required">
+    <String xml:lang="en-US">You need to pass the ~y~Exam~s~ to become a {0}.</String>
+    <String xml:lang="nl-NL">Je moet het ~y~Examen~s~ halen om een {0} te worden.</String>
+    <String xml:lang="fr-FR">Tu dois réussir l'~y~examen~s~ pour devenir un {0}.</String>
+    <String xml:lang="hi-Latn">Aapko ~y~Exam ~s~pass karna hoga {0} banne ke liye.</String>
+    <String xml:lang="de-DE">Du musst die ~y~Prüfung~s~ bestehen, um ein {0} zu werden.</String>
+    <String xml:lang="it-IT">Devi superare l'~y~Esame~s~ per diventare un {0}.</String>
+    <String xml:lang="id-ID">Kamu harus lulus dari ~y~Ujian~s~ untuk bisa menjadi {0}.</String>
+    <String xml:lang="th-TH">คุณต้องผ่าน ~y~การสอบ~s~ เพื่อที่จะเป็น {0}</String>
+</Entry>
 
-    <!-- {0} = Job name -->
-    <!-- {1} = Percentage -->
-    <Entry Id="jobs_player_limit">
-        <String xml:lang="en-US">You can't become a {0} because the {1}% player limit has been reached.</String>
-        <String xml:lang="nl-NL">Je kan geen {0} worden omdat het limiet van {1}% is bereikt.</String>
-        <String xml:lang="fr-FR">Tu ne peux pas devenir un {0} car la limite de joueurs de {1}% a été atteinte.</String>
-        <String xml:lang="hi-Latn">Aap {0} nahi bann sakte kyuki {1}% player ki limit lag chuki hai.</String>
-        <String xml:lang="de-DE">Du kannst kein {0} werden, da das {1}% Spielerlimit erreicht wurde.</String>
-        <String xml:lang="it-IT">Non puoi diventare un {0} perché è stato raggiunto il limite del {1}% di giocatori.</String>
-        <String xml:lang="id-ID">Kamu tidak bisa menjadi {0} karena batas {1}% pemain yang bekerja itu telah terpenuhi.</String>
-    </Entry>
+<!-- {0} = Job name -->
+<!-- {1} = Percentage -->
+<Entry Id="jobs_player_limit">
+    <String xml:lang="en-US">You can't become a {0} because the {1}% player limit has been reached.</String>
+    <String xml:lang="nl-NL">Je kan geen {0} worden omdat het limiet van {1}% is bereikt.</String>
+    <String xml:lang="fr-FR">Tu ne peux pas devenir un {0} car la limite de joueurs de {1}% a été atteinte.</String>
+    <String xml:lang="hi-Latn">Aap {0} nahi bann sakte kyuki {1}% player ki limit lag chuki hai.</String>
+    <String xml:lang="de-DE">Du kannst kein {0} werden, da das {1}% Spielerlimit erreicht wurde.</String>
+    <String xml:lang="it-IT">Non puoi diventare un {0} perché è stato raggiunto il limite del {1}% di giocatori.</String>
+    <String xml:lang="id-ID">Kamu tidak bisa menjadi {0} karena batas {1}% pemain yang bekerja itu telah terpenuhi.</String>
+    <String xml:lang="th-TH">คุณไม่สามารถเป็น {0} ได้เพราะจำนวนผู้เล่นถึง {1}% แล้ว</String>
+</Entry>
+
 
     <!-- {0} = required playtime -->
     <!-- {1} = Job name -->
