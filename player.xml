@@ -191,6 +191,7 @@
         <String xml:lang="it-IT">Segnala un giocatore per violazione delle regole di gioco o dei ToS.</String>
         <String xml:lang="fr-FR">Signaler un joueur qui enfreint les règles du jeu ou les CGU.</String>
         <String xml:lang="id-ID">Laporkan pemain yang melanggar aturan atau ToS.</String>
+        <String xml:lang="th-TH">รายงานผู้เล่นที่ทำผิดกฎเกมหรือข้อตกลงในการให้บริการ</String>
     </Entry>
 
     <Entry Id="report_cmd_suggestion_param_name">
@@ -200,6 +201,7 @@
         <String xml:lang="it-IT">ID giocatore</String>
         <String xml:lang="fr-FR">ID du joueur</String>
         <String xml:lang="id-ID">Id pemain</String>
+        <String xml:lang="th-TH">รหัสผู้เล่น</String>
     </Entry>
 
     <Entry Id="report_cmd_suggestion_param_help">
@@ -209,6 +211,7 @@
         <String xml:lang="it-IT">L'ID del giocatore che desideri segnalare.</String>
         <String xml:lang="fr-FR">L'ID du joueur que tu souhaites signaler.</String>
         <String xml:lang="id-ID">Id pemain yang akan dilaporkan.</String>
+        <String xml:lang="th-TH">รหัสของผู้เล่นที่คุณต้องการรายงาน</String>
     </Entry>
 
     <Entry Id="input_report_warning">
@@ -218,6 +221,7 @@
         <String xml:lang="it-IT">Stai per segnalare ~r~{0} ~s~per {1}.\nSegnalare falsamente un altro utente comporterà ~r~il tuo ban~s~. Vuoi procedere?</String>
         <String xml:lang="fr-FR">Tu es sur le point de signaler ~r~{0} ~s~pour {1}.\nSi tu signales faussement un autre utilisateur, ~r~tu seras banni ~s~à sa place. Veux-tu continuer?</String>
         <String xml:lang="id-ID">Kamu akan melaporkan ~r~{0} ~s~untuk {1}.\nLaporan yang salah terhadap pemain lain akan ~r~membuatmu diban~s~. Apakah kamu ingin melanjutkan laporanmu?</String>
+        <String xml:lang="th-TH">คุณกำลังจะรายงาน ~r~{0} ~s~สำหรับ {1}.\nการรายงานผู้ใช้อื่นอย่างไม่ถูกต้องจะทำให้ ~r~คุณถูกแบน ~s~แทน คุณต้องการดำเนินการต่อหรือไม่?</String>
     </Entry>
 
     <!-- ========================= -->
@@ -428,6 +432,7 @@
         <String xml:lang="de-DE">~r~Du kannst das nicht tun, wenn du tot bist.</String>
         <String xml:lang="it-IT">~r~Non puoi fare questo quando sei morto.</String>
         <String xml:lang="id-ID">~r~Tidak dapat melakukan ini ketika kamu mati.</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถทำเช่นนี้ได้เมื่อคุณตาย</String>
     </Entry>
 
     <!-- {0} = Item name -->
@@ -439,6 +444,7 @@
         <String xml:lang="de-DE">~r~Du kannst kein {0} nutzen, wenn du gefesselt bist.</String>
         <String xml:lang="it-IT">~r~Non puoi usare un {0} quando sei ammanettato.</String>
         <String xml:lang="id-ID">~r~Tidak dapat menggunakan {0} ketika kamu terborgol.</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถใช้ {0} ได้เมื่อคุณถูกจับ</String>
     </Entry>
 
     <!-- {0} = Item name -->
@@ -447,6 +453,7 @@
         <String xml:lang="nl-NL">~r~Je kan geen {0} gebruiken wanneer de politie je staande houdt.</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas utiliser un {0} lorsque tu es en état d'arrestation.</String>
         <String xml:lang="id-ID">~r~Kamu tidak dapat menggunakan {0} ketika sedang ditahan kepolisian.</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถใช้ {0} ได้เมื่อคุณอยู่ในความควบคุมของตำรวจ</String>
     </Entry>
 
     <!-- {0} = Item name (Membership, Name-change token, ...) -->
@@ -887,6 +894,7 @@
         <String xml:lang="de-DE">Der ~y~{0}</String>
         <String xml:lang="it-IT">Il ~y~{0}</String>
         <String xml:lang="id-ID">~y~{0}</String>
+        <String xml:lang="th-TH">~y~{0}</String>
     </Entry>
 
     <Entry Id="vehicle_recalled_invalid_name">
@@ -897,6 +905,7 @@
         <String xml:lang="de-DE">Dieses Fahrzeug</String>
         <String xml:lang="it-IT">Questo veicolo</String>
         <String xml:lang="id-ID">Kendaraan ini</String>
+        <String xml:lang="th-TH">ยานพาหนะนี้</String>
     </Entry>
 
     <Entry Id="unable_to_deliver_move">
@@ -984,6 +993,7 @@
         <String xml:lang="de-DE">~r~Die Miete von diesem Fahrzeug ist abgelaufen!</String>
         <String xml:lang="it-IT">~r~Il noleggio di questo veicolo è scaduto!</String>
         <String xml:lang="id-ID">~r~Rental kendaraan ini sudah selesai.</String>
+        <String xml:lang="th-TH">~r~เวลาการเช่าของยานพาหนะนี้หมดอายุแล้ว!</String>
     </Entry>
 
     <Entry Id="unable_to_deliver_vehicle">
@@ -994,6 +1004,7 @@
         <String xml:lang="de-DE">Dein Fahrzeug kann nicht geliefert werden</String>
         <String xml:lang="it-IT">Impossibile consegnare il tuo veicolo</String>
         <String xml:lang="id-ID">Tidak dapat mengirimkan kendaraanmu</String>
+        <String xml:lang="th-TH">ไม่สามารถส่งมอบยานพาหนะของคุณได้</String>
     </Entry>
 
     <!-- Shown instead of the vehicle name if it cannot be found (fallback value) -->
@@ -1004,6 +1015,7 @@
         <String xml:lang="de-DE">Fahrzeug</String>
         <String xml:lang="it-IT">veicolo</String>
         <String xml:lang="id-ID">Kendaraan</String>
+        <String xml:lang="th-TH">ยานพาหนะ</String>
     </Entry>
 
     <Entry Id="cant_store_vehicle_when_inside">
@@ -1026,7 +1038,7 @@
         <String xml:lang="nl-NL">~r~Je kan je persoonlijke voertuig niet opslaan wanneer het wordt gebruikt als onderdeel van een missie!</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas stocker ton véhicule personnel lorsqu'il est utilisé dans le cadre d'une mission!</String>
         <String xml:lang="id-ID">~r~Kamu tidak bisa menyimpan kendaraan pribadi ketika sedang digunakan untuk sebuah misi!</String>
-
+        <String xml:lang="th-TH">~r~คุณไม่สามารถเก็บยานพาหนะส่วนตัวของคุณได้เมื่อมันถูกใช้เป็นส่วนหนึ่งของภารกิจ!</String>
     </Entry>
 
     <Entry Id="cant_maintenance_vehicle_when_part_of_mission">
@@ -1034,6 +1046,7 @@
         <String xml:lang="nl-NL">~r~Je kan je persoonlijke voertuig niet naar onderhoud sturen wanneer het wordt gebruikt als onderdeel van een missie!</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas envoyer ton véhicule personnel en maintenance lorsqu'il est utilisé dans le cadre d'une mission!</String>
         <String xml:lang="id-ID">~r~Kamu tidak bisa mengirimkan kendaraan pribadi untuk perbaikan ketika sedang digunakan untuk misi!</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถส่งยานพาหนะส่วนตัวของคุณไปซ่อมบำรุงได้เมื่อมันถูกใช้เป็นส่วนหนึ่งของภารกิจ!</String>
     </Entry>
 
     <Entry Id="cant_summon_vehicle_when_part_of_mission">
@@ -1041,6 +1054,7 @@
         <String xml:lang="nl-NL">~r~Je kan geen voertuig laten bezorgen wanneer je huidige voertuig wordt gebruikt als onderdeel van een missie!</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas te faire livrer un véhicule alors que ton véhicule actuel est utilisé dans le cadre d'une mission!</String>
         <String xml:lang="id-ID">~r~Kamu tidak meminta mengirimkan kendaraan ketika kendaraan yang sedang digunakan saat ini masih digunakan untuk misi!</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถขอยานพาหนะใหม่ได้เมื่อยานพาหนะที่คุณมีอยู่ถูกใช้เป็นส่วนหนึ่งของภารกิจ!</String>
     </Entry>
 
     <Entry Id="changed_jobs_delivery_canceled">
@@ -2151,7 +2165,7 @@
         <String xml:lang="de-DE">ANGEFRAGT</String>
         <String xml:lang="it-IT">RICHIESTO</String>
         <String xml:lang="id-ID">MEMINTA</String>
-         <String xml:lang="en-US">REQUESTED</String>
+        <String xml:lang="th-TH">คำขอ</String>
     </Entry>
 
     <Entry Id="input_playermenu_give_cash">
