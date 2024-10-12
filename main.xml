@@ -1162,6 +1162,18 @@
         <String xml:lang="id-ID">{0} telah menjadi ketua party.</String>
     </Entry>
 
+    <Entry Id="party_no_other_members">
+        <String xml:lang="en-US">There aren't any other party members.</String>
+    </Entry>
+
+    <Entry Id="party_sendgps_desc">
+        <String xml:lang="en-US">Sends your GPS location to other party members.</String>
+    </Entry>
+
+    <Entry Id="party_sendwaypoint_desc">
+        <String xml:lang="en-US">Sends your waypoint to other party members.</String>
+    </Entry>
+
     <!-- For bottom-left info boxes (timers etc..) (all upper case please)-->
     <Entry Id="mission_time_left">
         <String xml:lang="en-US">TIME LEFT</String>
@@ -1209,5 +1221,49 @@
         <String xml:lang="fr-FR">Il n'y a pas de joueurs disponibles.</String>
         <String xml:lang="id-ID">Tidak ada pemain yang tersedia</String>
         <String xml:lang="it-IT">Non ci sono giocatori disponibili.</String>
+    </Entry>
+
+    <Entry Id="cleargps_desc">
+        <String xml:lang="en-US">Clears the GPS destination.</String>
+    </Entry>
+
+    <Entry Id="cleargps_active_mission">
+        <String xml:lang="en-US">An active mission is preventing the GPS destination from being cleared.</String>
+    </Entry>
+
+    <Entry Id="cleargps_success">
+        <String xml:lang="en-US">The GPS destination was cleared.</String>
+    </Entry>
+
+    <Entry Id="cleargps_not_set">
+        <String xml:lang="en-US">GPS is not set.</String>
+    </Entry>
+
+    <Entry Id="sendgps_desc">
+        <String xml:lang="en-US">Sends your GPS location to another player.</String>
+    </Entry>
+
+    <Entry Id="sendgps_param_player_desc">
+        <String xml:lang="en-US">The player you want to share your location with.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_desc">
+        <String xml:lang="en-US">Sends your waypoint to another player.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_param_player_desc">
+        <String xml:lang="en-US">The player you want to share your waypoint with.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_not_selected">
+        <String xml:lang="en-US">You need to select a waypoint on the map before calling this command</String>
+    </Entry>
+
+    <Entry Id="gps_shared_prompt">
+        <String xml:lang="en-US">{0} wants to share their position with you.</String>
+    </Entry>
+
+    <Entry Id="waypoint_shared_prompt">
+        <String xml:lang="en-US">{0} wants to share their waypoint with you.</String>
     </Entry>
 </Entries>
