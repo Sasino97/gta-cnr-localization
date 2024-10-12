@@ -1266,4 +1266,32 @@
     <Entry Id="waypoint_shared_prompt">
         <String xml:lang="en-US">{0} wants to share their waypoint with you.</String>
     </Entry>
+
+    <Entry Id="gps_nobody_received">
+        <String xml:lang="en-US">~r~Nobody ~s~has received your ~y~position~s~.</String>
+    </Entry>
+
+    <Entry Id="sendgps_player_received">
+        <String xml:lang="en-US">You shared your ~y~position ~s~with {0}.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_player_received">
+        <String xml:lang="en-US">You shared your ~p~waypoint ~s~with {0}."</String>
+    </Entry>
+
+    <Entry Id="sendgps_group_received">
+        <String xml:lang="en-US">You shared your ~y~position ~s~with ~y~{0} players~s~.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_group_received">
+        <String xml:lang="en-US">You shared your ~p~waypoint ~s~with ~y~{0} players~s~.</String>
+    </Entry>
+
+    <Entry Id="gps_ignored">
+        <String xml:lang="en-US">{0} did not accept your shared ~r~position~s~.</String>
+    </Entry>
+
+    <Entry Id="gps_accepted">
+        <String xml:lang="en-US">{0} accepted your shared ~y~position~s~!</String>
+    </Entry>
 </Entries>
