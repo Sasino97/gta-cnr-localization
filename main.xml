@@ -1162,6 +1162,21 @@
         <String xml:lang="id-ID">{0} telah menjadi ketua party.</String>
     </Entry>
 
+    <Entry Id="party_no_other_members">
+        <String xml:lang="en-US">There aren't any other party members.</String>
+        <String xml:lang="it-IT">Non ci sono altri membri nel party.</String>
+    </Entry>
+
+    <Entry Id="party_sendgps_desc">
+        <String xml:lang="en-US">Sends your GPS location to other party members.</String>
+        <String xml:lang="it-IT">Invia la tua posizione GPS agli altri membri del party.</String>
+    </Entry>
+
+    <Entry Id="party_sendwaypoint_desc">
+        <String xml:lang="en-US">Sends your waypoint to other party members.</String>
+        <String xml:lang="it-IT">Invia il tuo waypoint agli altri membri del party.</String>
+    </Entry>
+
     <!-- For bottom-left info boxes (timers etc..) (all upper case please)-->
     <Entry Id="mission_time_left">
         <String xml:lang="en-US">TIME LEFT</String>
@@ -1209,5 +1224,95 @@
         <String xml:lang="fr-FR">Il n'y a pas de joueurs disponibles.</String>
         <String xml:lang="id-ID">Tidak ada pemain yang tersedia</String>
         <String xml:lang="it-IT">Non ci sono giocatori disponibili.</String>
+    </Entry>
+
+    <Entry Id="cleargps_desc">
+        <String xml:lang="en-US">Clears the GPS destination.</String>
+        <String xml:lang="it-IT">Cancella la destinazione GPS.</String>
+    </Entry>
+
+    <Entry Id="cleargps_active_mission">
+        <String xml:lang="en-US">An active mission is preventing the GPS destination from being cleared.</String>
+        <String xml:lang="it-IT">Una missione attiva impedisce di cancellare la destinazione GPS.</String>
+    </Entry>
+
+    <Entry Id="cleargps_success">
+        <String xml:lang="en-US">The GPS destination was cleared.</String>
+        <String xml:lang="it-IT">La destinazione GPS è stata cancellata.</String>
+    </Entry>
+
+    <Entry Id="cleargps_not_set">
+        <String xml:lang="en-US">GPS is not set.</String>
+        <String xml:lang="it-IT">Il GPS non è impostato.</String>
+    </Entry>
+
+    <Entry Id="sendgps_desc">
+        <String xml:lang="en-US">Sends your GPS location to another player.</String>
+        <String xml:lang="it-IT">Invia la tua posizione GPS a un altro giocatore.</String>
+    </Entry>
+
+    <Entry Id="sendgps_param_player_desc">
+        <String xml:lang="en-US">The player you want to share your location with.</String>
+        <String xml:lang="it-IT">Il giocatore con cui vuoi condividere la tua posizione.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_desc">
+        <String xml:lang="en-US">Sends your waypoint to another player.</String>
+        <String xml:lang="it-IT">Invia il tuo waypoint a un altro giocatore.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_param_player_desc">
+        <String xml:lang="en-US">The player you want to share your waypoint with.</String>
+        <String xml:lang="it-IT">Il giocatore con cui vuoi condividere il tuo waypoint.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_not_selected">
+        <String xml:lang="en-US">You need to select a waypoint on the map before calling this command</String>
+        <String xml:lang="it-IT">Devi selezionare un waypoint sulla mappa prima di eseguire questo comando.</String>
+    </Entry>
+
+    <Entry Id="gps_shared_prompt">
+        <String xml:lang="en-US">{0} wants to share their position with you.</String>
+        <String xml:lang="it-IT">{0} vuole condividere la sua posizione con te.</String>
+    </Entry>
+
+    <Entry Id="waypoint_shared_prompt">
+        <String xml:lang="en-US">{0} wants to share their waypoint with you.</String>
+        <String xml:lang="it-IT">{0} vuole condividere il suo waypoint con te.</String>
+    </Entry>
+
+    <Entry Id="gps_nobody_received">
+        <String xml:lang="en-US">~r~Nobody ~s~has received your ~y~position~s~.</String>
+        <String xml:lang="it-IT">~r~Nessuno ~s~ha ricevuto la tua ~y~posizione~s~.</String>
+    </Entry>
+
+    <Entry Id="sendgps_player_received">
+        <String xml:lang="en-US">You shared your ~y~position ~s~with {0}.</String>
+        <String xml:lang="it-IT">Hai condiviso la tua ~y~posizione ~s~con {0}.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_player_received">
+        <String xml:lang="en-US">You shared your ~p~waypoint ~s~with {0}."</String>
+        <String xml:lang="it-IT">Hai condiviso il tuo ~p~waypoint ~s~con {0}.</String>
+    </Entry>
+
+    <Entry Id="sendgps_group_received">
+        <String xml:lang="en-US">You shared your ~y~position ~s~with ~y~{0} players~s~.</String>
+        <String xml:lang="it-IT">Hai condiviso la tua ~y~posizione ~s~con ~y~{0} giocatori~s~.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_group_received">
+        <String xml:lang="en-US">You shared your ~p~waypoint ~s~with ~y~{0} players~s~.</String>
+        <String xml:lang="it-IT">Hai condiviso il tuo ~p~waypoiny ~s~con ~y~{0} giocatori~s~.</String>
+    </Entry>
+
+    <Entry Id="gps_ignored">
+        <String xml:lang="en-US">{0} did not accept your shared ~r~position~s~.</String>
+        <String xml:lang="it-IT">{0} non ha accettato la tua ~r~posizione~s~.</String>
+    </Entry>
+
+    <Entry Id="gps_accepted">
+        <String xml:lang="en-US">{0} accepted your shared ~y~position~s~!</String>
+        <String xml:lang="it-IT">{0} ha accettato la tua ~y~posizione~s~!</String>
     </Entry>
 </Entries>
