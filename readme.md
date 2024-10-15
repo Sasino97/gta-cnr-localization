@@ -2,11 +2,6 @@
 
 This repository contains the necessary files for the localization of CnR. 
 
-## ⚠ IMPORTANT ⚠
-This guide is a little bit outdated. Yes, 90% of the info in it is still accurate, however it doesn't cover an important topic, which is **Pull Requests**, a feature that allows us to review your commits before merging them into the main branch of the repository. Thus, with this extra step, the actual workflow will be a little bit different, involving **merges** from the master branch, and pull requests to merge your branch into the master branch.
-
-*Please, ask other older translators for detailed guidance.*
-
 ## Setup
 
 ### Download and Install the Required Software
@@ -24,7 +19,7 @@ This guide is a little bit outdated. Yes, 90% of the info in it is still accurat
 
 ## Usage of the Git repository
 
-We use Git to manage the teamwork of this repository. To make everything easier, we don't use the command line interface directly unless strictly necessary, and we prefer to rely on VSCode's GUI which is much more user-friendly and easy to understand.
+We use Git to manage the teamwork of this repository. To make everything easier, we don't use the command line interface directly unless strictly necessary, and we prefer to rely on VSCode's GUI which is much more user-friendly and easy to understand. We also don't make use of branches, pull requests and similar features, to streamline the process and avoid adding unnecessary complications.
 
 This is the correct routine for a normal work session:
 
@@ -258,14 +253,11 @@ Text can also be highlighted with the `(C)(/C)` tags.
 - German (Germany): `de-DE`
 - French (France): `fr-FR`
 - Dutch (Netherlands): `nl-NL`
-- Czech (Czechia) `cs-CZ`
-- Danish (Denmark) `da-DK`
 - Italian (Italy): `it-IT`
-- Spanish (Spain): `es-ES`
+- Spanish (Spain-Latam): `es-ES`
 - Portuguese (Brazil): `pt-BR`
 - Polish (Poland): `pl-PL`
 - Turkish (Turkey): `tr-TR`
-- Hindi (Latin Alphabet): `hi-Latn`
 - Arabic (Modern Standard): `ar-001`
 - Chinese (Simplified): `zh-Hans`
 - Chinese (Traditional): `zh-Hant`
