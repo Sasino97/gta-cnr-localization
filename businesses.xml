@@ -1914,6 +1914,7 @@
         <String xml:lang="hi-Latn">~r~Koi mods available nahi hai iss vehicle model ke liye.</String>
         <String xml:lang="de-DE">~r~Es sind keine Modifikationen für dieses Fahrzeugmodell verfügbar.</String>
         <String xml:lang="it-IT">~r~Non ci sono modifiche disponibili per questo modello di veicolo.</String>
+        <String xml:lang="id-ID">~r~Tidak ada modifikasi yang tersedia untuk model kendaraan ini.</String>
     </Entry>
 
     <!-- {0} = Livery index -->
@@ -1924,6 +1925,7 @@
         <String xml:lang="hi-Latn">Livery #{0}</String>
         <String xml:lang="de-DE">Beklebung #{0}</String>
         <String xml:lang="it-IT">Livrea #{0}</String>
+        <String xml:lang="id-ID">Livery #{0}</String>
     </Entry>
 
     <Entry Id="menu_stp_liveries_none">
@@ -1933,6 +1935,7 @@
         <String xml:lang="hi-Latn">Koi ~r~liveries ~s~nahi hai iss vehicle model ke liye.</String>
         <String xml:lang="de-DE">Es sind keine ~r~Beklebungen ~s~für dieses Fahrzeugmodell verfügbar.</String>
         <String xml:lang="it-IT">Non ci sono ~r~livree ~s~disponibile per questo modello di veicolo.</String>
+        <String xml:lang="id-ID">Tidak ada ~r~Livery ~s~untuk model kendaraan ini.</String>
     </Entry>
 
     <Entry Id="menu_stp_liveries_mods">
@@ -1942,6 +1945,7 @@
         <String xml:lang="hi-Latn">Iss vehicle mein ~y~liveries ~s~mods hain.</String>
         <String xml:lang="de-DE">Dieses Fahrzeug hat ~y~Beklebungen ~s~als Anpassungsmöglichkeit.</String>
         <String xml:lang="it-IT">Questo veicolo ha le ~y~livree ~s~disponibili per le modifiche.</String>
+        <String xml:lang="id-ID">Kendaraan ini memiliki ~y~livery ~s~sebagai bagian dari modifikasi.</String>
     </Entry>
 
     <Entry Id="stp_vehicle_too_far">
@@ -1951,6 +1955,7 @@
         <String xml:lang="hi-Latn">~r~Vehicle aapse kaafi door hai.</String>
         <String xml:lang="de-DE">~r~Das Fahrzeug ist zu weit von dir entfernt.</String>
         <String xml:lang="it-IT">~r~Il veicolo è troppo lontano da te.</String>
+        <String xml:lang="id-ID">~r~Kendaraan terlalu jauh darimu.</String>
     </Entry>
 
     <!-- {0} = Amount -->
@@ -1964,6 +1969,7 @@
         <String xml:lang="hi-Latn">Aap khareede ~y~{0}{1} {2} ~s~sirf ~r~{3} ~s~mein.</String>
         <String xml:lang="de-DE">Du hast ~y~{0}{1} {2} ~s~für ~r~{3}~s~ gekauft.</String>
         <String xml:lang="it-IT">Hai acquistato ~y~{0}{1} {2} ~s~per ~r~{3}~s~.</String>
+        <String xml:lang="id-ID">Kamu telah membeli ~y~{0}{1} {2}~s~seharga ~r~{3}~s~.</String>
     </Entry>
 
     <Entry Id="stp_item_error_too_far">
@@ -2019,6 +2025,7 @@
         <String xml:lang="hi-Latn">~r~Aap rent ki gaadi ko modify nahi kar sakte!</String>
         <String xml:lang="de-DE">~r~Du kannst ein gemietetes Fahrzeug nicht modifizieren!"</String>
         <String xml:lang="it-IT">~r~Non puoi modificare un veicolo a noleggio!</String>
+        <String xml:lang="id-ID">~r~Anda tidak dapat memodifikasi kendaraan pinjaman!</String>
         <String xml:lang="ar-001">لا يمكنك تعديل سيارة مستأجرة!~r~</String>
     </Entry>
 
@@ -2029,6 +2036,7 @@
         <String xml:lang="hi-Latn">~r~Seller ne apne prices update kar diye hain. Menu ko refresh kar diya gaya hai.</String>
         <String xml:lang="de-DE">~r~Der Verkäufer hat seine Preise angepasst. Das Menü wurde aktualisiert.</String>
         <String xml:lang="it-IT">~r~Il venditore ha aggiornato i suoi prezzi. Il menu è stato aggiornato.</String>
+        <String xml:lang="id-ID">~r~Penjual telah mengubah harganya. Menu telah diperbarui.</String>
         <String xml:lang="ar-001">قام البائع بتحديث أسعاره. تم تحديث القائمة.~r~</String>
     </Entry>
 
@@ -2459,6 +2467,7 @@
         <String xml:lang="hi-Latn">~r~Mute</String>
         <String xml:lang="de-DE">~r~Stummschalten</String>
         <String xml:lang="it-IT">~r~Silenzioso</String>
+        <String xml:lang="id-ID">~r~Bisu</String>
         <String xml:lang="ar-001">صامت~r~</String>
     </Entry>
 
@@ -2568,30 +2577,50 @@
         <String xml:lang="en-US">Hitman</String>
         <String xml:lang="nl-NL">Huurmoordenaar</String>
         <String xml:lang="fr-FR">Tueur à gages</String>
+        <String xml:lang="id-ID">Pembunuh bayaran</String>
+        <String xml:lang="hi-Latn">Supari Killer</String>
+        <String xml:lang="it-IT">Sicario</String>
+        <String xml:lang="de-DE">Auftragskiller</String>
     </Entry>
 
     <Entry Id="menu_hitman_contracts_subtitle">
         <String xml:lang="en-US">Contracts</String>
         <String xml:lang="nl-NL">Moordcontracten</String>
         <String xml:lang="fr-FR">Contrats</String>
+        <String xml:lang="id-ID">Kontrak</String>
+        <String xml:lang="hi-Latn">Contracts</String>
+        <String xml:lang="it-IT">Contratti</String>
+        <String xml:lang="de-DE">Aufträge</String>
     </Entry>
 
     <Entry Id="menu_hitman_contracts_description">
         <String xml:lang="en-US">View recent hitman contracts.</String>
         <String xml:lang="nl-NL">Bekijk recente moordcontracten.</String>
-        <String xml:lang="fr-FR">Voir les contrats récents des tueurs à gages.</String>
+        <String xml:lang="fr-FR">Voir les contrats récents de tueurs à gages.</String>
+        <String xml:lang="id-ID">Lihat kontrak pembunuh bayaran terbaru.</String>
+        <String xml:lang="hi-Latn">Recent hitman contracts dekhne ke liye yeh option select karein.</String>
+        <String xml:lang="it-IT">Visualizza i contratti recenti per sicari.</String>
+        <String xml:lang="de-DE">Neue Auftragskiller-Aufträge anzeigen.</String>
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_name">
         <String xml:lang="en-US">New Contract</String>
         <String xml:lang="nl-NL">Nieuw Contract</String>
         <String xml:lang="fr-FR">Nouveau Contrat</String>
+        <String xml:lang="id-ID">Kontrak Baru</String>
+        <String xml:lang="hi-Latn">Naya Contract</String>
+        <String xml:lang="it-IT">Nuovo Contratto</String>
+        <String xml:lang="de-DE">Neuer Auftrag</String>
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_fee">
         <String xml:lang="en-US">Fee: {0}%</String>
         <String xml:lang="nl-NL">Kosten: {0}%</String>
         <String xml:lang="fr-FR">Frais: {0}%</String>
+        <String xml:lang="id-ID">Biaya: {0}%</String>
+        <String xml:lang="hi-Latn">Fees: {0}%</String>
+        <String xml:lang="it-IT">Commissione: {0}%</String>
+        <String xml:lang="de-DE">Gebühr: {0}%</String>
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_reward_over_limit">
@@ -2608,24 +2637,40 @@
         <String xml:lang="en-US">The reward amount ~r~is below ~s~the minimum required for a hitman contract (~r~{0}~s~)</String>
         <String xml:lang="nl-NL">Het beloningsbedrag is lager dan het minimale voor een moordcontract (~r~{0}~s~)</String>
         <String xml:lang="fr-FR">Le montant de la récompense est inférieur au minimum requis pour un contrat de tueur à gages (~r~{0}~s~)</String>
+        <String xml:lang="id-ID">Jumlah hadiah ~r~dibawah ~s~minimal yang dibutuhkan untuk kontrak pembunuh bayaran (~r~{0}~s~)</String>
+        <String xml:lang="hi-Latn">Reward ka amount ~r~is allowed limit se kam hai ~s~jo hitman contract ke liye minimum limit hai (~r~{0}~s~)</String>
+        <String xml:lang="it-IT">L'importo della ricompensa ~r~è inferiore ~s~al minimo richiesto per un contratto per sicari (~r~{0}~s~)</String>
+        <String xml:lang="de-DE">Der Belohnungsbetrag ~r~liegt unter ~s~dem für einen Auftragskiller erforderlichen Minimum (~r~{0}~s~)</String>
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_target">
         <String xml:lang="en-US">Select your target</String>
         <String xml:lang="nl-NL">Selecteer je doelwit</String>
-        <String xml:lang="fr-FR">Sélectionner ta cible</String>
+        <String xml:lang="fr-FR">Sélectionne ta cible</String>
+        <String xml:lang="id-ID">Pilih targetmu</String>
+        <String xml:lang="hi-Latn">Apna target select karein</String>
+        <String xml:lang="it-IT">Seleziona il tuo obiettivo</String>
+        <String xml:lang="de-DE">Wähle dein Ziel</String>
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_reward">
         <String xml:lang="en-US">Reward</String>
         <String xml:lang="nl-NL">Beloning</String>
         <String xml:lang="fr-FR">Récompense</String>
+        <String xml:lang="id-ID">Hadiah</String>
+        <String xml:lang="hi-Latn">Reward</String>
+        <String xml:lang="it-IT">Ricompensa</String>
+        <String xml:lang="de-DE">Belohnung</String>
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_create">
         <String xml:lang="en-US">Create</String>
         <String xml:lang="nl-NL">Creëer</String>
         <String xml:lang="fr-FR">Créer</String>
+        <String xml:lang="id-ID">Membuat</String>
+        <String xml:lang="hi-Latn">Create</String>
+        <String xml:lang="it-IT">Crea</String>
+        <String xml:lang="de-DE">Erstellen</String>
     </Entry>
 
     <Entry Id="hitman_new_contract_confirmation">
@@ -2642,30 +2687,50 @@
         <String xml:lang="en-US">Contract has been ~g~successfully~s~ created!</String>
         <String xml:lang="nl-NL">Moordcontract is ~g~succesvol~s~ gecreëerd!</String>
         <String xml:lang="fr-FR">Le contrat a été créé avec ~g~succès~s~!</String>
+        <String xml:lang="id-ID">Kontrak ~g~berhasil~s~ dibuat!</String>
+        <String xml:lang="hi-Latn">Contract ~g~successfully~s~ bana diya gaya hai!</String>
+        <String xml:lang="it-IT">Il contratto è stato ~g~creato~s~ con successo!</String>
+        <String xml:lang="de-DE">Der Auftrag wurde ~g~erfolgreich~s~ erstellt!</String>
     </Entry>
 
     <Entry Id="hitman_new_contract_response_invalid_target">
         <String xml:lang="en-US">~r~The specified target is invalid.</String>
         <String xml:lang="nl-NL">~r~Het gespecificeerde doelwit is ongeldig.</String>
         <String xml:lang="fr-FR">~r~La cible spécifiée n'est pas valide.</String>
+        <String xml:lang="id-ID">~r~Target tersebut tidak valid.</String>
+        <String xml:lang="hi-Latn">~r~Diya gaya target valid nahi hai.</String>
+        <String xml:lang="it-IT">~r~L'obiettivo specificato non è valido.</String>
+        <String xml:lang="de-DE">~r~Das ausgewählte Ziel ist ungültig.</String>
     </Entry>
 
     <Entry Id="hitman_new_contract_response_invalid_reward">
         <String xml:lang="en-US">~r~The reward amount is invalid.</String>
         <String xml:lang="nl-NL">~r~Het beloningsbedrag is ongeldig.</String>
         <String xml:lang="fr-FR">~r~Le montant de la récompense n'est pas valide.</String>
+        <String xml:lang="id-ID">~r~Jumlah hadiah tidak valid.</String>
+        <String xml:lang="hi-Latn">~r~Reward ka amount valid nahi hai.</String>
+        <String xml:lang="it-IT">~r~L'importo della ricompensa non è valido.</String>
+        <String xml:lang="de-DE">~r~Der Belohnungsbetrag ist ungültig.</String>
     </Entry>
 
     <Entry Id="hitman_new_contract_response_too_many">
         <String xml:lang="en-US">~r~Target has reached the maximum number of active contracts.</String>
         <String xml:lang="nl-NL">~r~Doelwit heeft het maximale aantal actieve moordcontracten bereikt.</String>
         <String xml:lang="fr-FR">~r~La cible a atteint le nombre maximum de contrats actifs.</String>
+        <String xml:lang="id-ID">~r~Target telah mencapai jumlah maksimum kontrak yang aktif di target.</String>
+        <String xml:lang="hi-Latn">~r~Target ne active contracts ka maximum number reach kar liya hai.</String>
+        <String xml:lang="it-IT">~r~L'obiettivo ha raggiunto il numero massimo di contratti attivi.</String>
+        <String xml:lang="de-DE">~r~Ziel hat die maximale Anzahl der aktiven Aufträge erreicht.</String>
     </Entry>
 
     <Entry Id="hitman_new_contract_response_duplicate">
         <String xml:lang="en-US">~r~You cannot create duplicate contracts for the same target.</String>
         <String xml:lang="nl-NL">~r~Je kunt geen dubbele moordcontracten maken voor hetzelfde doelwit.</String>
         <String xml:lang="fr-FR">~r~Tu ne peux pas créer des contrats en double pour le même objectif.</String>
+        <String xml:lang="id-ID">~r~Kamu tidak dapat membuat kontrak ganda untuk target yang sama.</String>
+        <String xml:lang="hi-Latn">~r~Aap ek hi target ke liye duplicate contracts nahi bana sakte.</String>
+        <String xml:lang="it-IT">~r~Non puoi creare contratti duplici per lo stesso obiettivo.</String>
+        <String xml:lang="de-DE">~r~Du kannst keine doppelten Aufträge für dasselbe Ziel erstellen.</String>
     </Entry>
 
     <!-- {0} = Name (Id) of player who placed hit, or one of the other actors below -->
