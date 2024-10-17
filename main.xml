@@ -300,7 +300,7 @@
     <Entry Id="inventory_space_hint">
         <String xml:lang="en-US">Use, drop or give some items away to make space.</String>
         <String xml:lang="nl-NL">Gebruik, drop of geef spullen weg om ruimte te maken.</String>
-        <String xml:lang="fr-FR">Utiliser, déposer ou donner certains objets pour faire de la place.</String>
+        <String xml:lang="fr-FR">Utilise, dépose ou donne certains objets pour faire de la place.</String>
         <String xml:lang="hi-Latn">Use kare, drop kare ya give karde kuch items space banane ke liye.</String>
         <String xml:lang="de-DE">Verwende, verschenke, oder lasse einige Gegenstände fallen, um Platz zu schaffen!</String>
         <String xml:lang="cs-CZ">Použij, vyhoď nebo dej některé předměty pryč, abys uvolnil místo.</String>
@@ -415,7 +415,7 @@
         <String xml:lang="nl-NL">Selecteer</String>
         <String xml:lang="pl-PL">Wybierz</String>
         <String xml:lang="tr-TR">Seçmek</String>
-        <String xml:lang="fr-FR">Sélectionner</String>
+        <String xml:lang="fr-FR">Sélectionne</String>
         <String xml:lang="de-DE">Auswählen</String>
         <String xml:lang="zh-Hant">選擇</String>
         <String xml:lang="zh-Hans">选择</String>
@@ -453,7 +453,7 @@
         <String xml:lang="nl-NL">Zoeken</String>
         <String xml:lang="pl-PL">Wyszukaj</String>
         <String xml:lang="tr-TR">Aramak</String>
-        <String xml:lang="fr-FR">Chercher</String>
+        <String xml:lang="fr-FR">Recherche</String>
         <String xml:lang="de-DE">Suchen</String>
         <String xml:lang="zh-Hant">搜尋</String>
         <String xml:lang="zh-Hans">搜寻</String>
@@ -489,6 +489,8 @@
         <String xml:lang="nl-NL">Sorteren</String>
         <String xml:lang="fr-FR">Trier</String>
         <String xml:lang="id-ID">Urutkan</String>
+        <String xml:lang="it-IT">Ordina</String>
+        <String xml:lang="de-DE">Sortieren</String>
     </Entry>
 
     <Entry Id="btn_add">
@@ -518,6 +520,8 @@
         <String xml:lang="nl-NL">Gebruik</String>
         <String xml:lang="fr-FR">Utiliser</String>
         <String xml:lang="id-ID">Gunakan</String>
+        <String xml:lang="it-IT">Usa</String>
+        <String xml:lang="de-DE">Benutzen</String>
     </Entry>
 
     <!-- ========================= -->
@@ -526,7 +530,7 @@
     <Entry Id="menu_choose_option">
         <String xml:lang="en-US">Select an option</String>
         <String xml:lang="nl-NL">Selecteer een optie</String>
-        <String xml:lang="fr-FR">Sélectionner une option</String>
+        <String xml:lang="fr-FR">Sélectionne une option</String>
         <String xml:lang="it-IT">Seleziona un'opzione</String>
         <String xml:lang="es-ES">Seleccione una opción</String>
         <String xml:lang="pt-BR">Selecione uma opção</String>
@@ -1160,12 +1164,35 @@
         <String xml:lang="id-ID">{0} telah menjadi ketua party.</String>
     </Entry>
 
+    <Entry Id="party_no_other_members">
+        <String xml:lang="en-US">There aren't any other party members.</String>
+        <String xml:lang="it-IT">Non ci sono altri membri nel party.</String>
+        <String xml:lang="fr-FR">Il n'y a pas d'autres membres dans le groupe.</String>
+        <String xml:lang="de-DE">Es gibt keine anderen Party-Mitglieder</String>
+    </Entry>
+
+    <Entry Id="party_sendgps_desc">
+        <String xml:lang="en-US">Sends your GPS location to other party members.</String>
+        <String xml:lang="it-IT">Invia la tua posizione GPS agli altri membri del party.</String>
+        <String xml:lang="fr-FR">Envoie ta position GPS aux autres membres du groupe.</String>
+        <String xml:lang="de-DE">Sende deine GPS-Position zu anderen Party-Mitgliedern.</String>
+    </Entry>
+
+    <Entry Id="party_sendwaypoint_desc">
+        <String xml:lang="en-US">Sends your waypoint to other party members.</String>
+        <String xml:lang="it-IT">Invia il tuo waypoint agli altri membri del party.</String>
+        <String xml:lang="fr-FR">Envoie ton point de repère aux autres membres du groupe.</String>
+        <String xml:lang="de-DE">Sende deinen Wegpunkt an andere Party-Mitglieder.</String>
+    </Entry>
+
     <!-- For bottom-left info boxes (timers etc..) (all upper case please)-->
     <Entry Id="mission_time_left">
         <String xml:lang="en-US">TIME LEFT</String>
         <String xml:lang="nl-NL">RESTERENDE TIJD</String>
         <String xml:lang="fr-FR">TEMPS RESTANT</String>
         <String xml:lang="id-ID">WAKTU TERSISA</String>
+        <String xml:lang="it-IT">TEMPO RIMANENTE</String>
+        <String xml:lang="de-DE">ZEIT VERBLEIBEND</String>
     </Entry>
 
     <Entry Id="mission_late">
@@ -1173,6 +1200,8 @@
         <String xml:lang="nl-NL">TE LAAT</String>
         <String xml:lang="fr-FR">EN RETARD</String>
         <String xml:lang="id-ID">TERLAMBAT</String>
+        <String xml:lang="it-IT">IN RITARDO</String>
+        <String xml:lang="de-DE">ZU SPÄT</String>
     </Entry>
 
     <Entry Id="mission_payout">
@@ -1180,6 +1209,8 @@
         <String xml:lang="nl-NL">UITBETALING</String>
         <String xml:lang="fr-FR">PAIEMENT</String>
         <String xml:lang="id-ID">GAJI</String>
+        <String xml:lang="it-IT">GUADAGNO</String>
+        <String xml:lang="de-DE">AUSZAHLUNG</String>
     </Entry>
 
     <Entry Id="menu_playerlist_title">
@@ -1187,6 +1218,8 @@
         <String xml:lang="nl-NL">Spelers</String>
         <String xml:lang="fr-FR">Joueurs</String>
         <String xml:lang="id-ID">Pemain</String>
+        <String xml:lang="it-IT">Giocatori</String>
+        <String xml:lang="de-DE">Spieler</String>
     </Entry>
 
     <Entry Id="menu_playerlist_no_players_text">
@@ -1194,6 +1227,8 @@
         <String xml:lang="nl-NL">Geen spelers gevonden</String>
         <String xml:lang="fr-FR">Aucun joueur trouvé</String>
         <String xml:lang="id-ID">Tidak ada pemain yang ditemukan</String>
+        <String xml:lang="it-IT">Nessun giocatore trovato</String>
+        <String xml:lang="de-DE">Keine Spieler gefunden</String>
     </Entry>
 
     <Entry Id="menu_playerlist_no_players_description">
@@ -1201,5 +1236,133 @@
         <String xml:lang="nl-NL">Er zijn geen spelers beschikbaar.</String>
         <String xml:lang="fr-FR">Il n'y a pas de joueurs disponibles.</String>
         <String xml:lang="id-ID">Tidak ada pemain yang tersedia</String>
+        <String xml:lang="it-IT">Non ci sono giocatori disponibili.</String>
+        <String xml:lang="de-DE">Es sind keine Spieler verfügbar.</String>
+    </Entry>
+
+    <Entry Id="cleargps_desc">
+        <String xml:lang="en-US">Clears the GPS destination.</String>
+        <String xml:lang="it-IT">Cancella la destinazione GPS.</String>
+        <String xml:lang="fr-FR">Retire la destination GPS.</String>
+        <String xml:lang="de-DE">Setzt das GPS-Ziel zurück.</String>
+    </Entry>
+
+    <Entry Id="cleargps_active_mission">
+        <String xml:lang="en-US">An active mission is preventing the GPS destination from being cleared.</String>
+        <String xml:lang="it-IT">Una missione attiva impedisce di cancellare la destinazione GPS.</String>
+        <String xml:lang="fr-FR">Une mission en cours empêche le retrait de la destination GPS.</String>
+        <String xml:lang="de-DE">Eine laufende Mission verhindert das Löschen des GPS-Ziels.</String>
+    </Entry>
+
+    <Entry Id="cleargps_success">
+        <String xml:lang="en-US">The GPS destination was cleared.</String>
+        <String xml:lang="it-IT">La destinazione GPS è stata cancellata.</String>
+        <String xml:lang="fr-FR">La destination GPS a été retirée.</String>
+        <String xml:lang="de-DE">Das GPS-Ziel wurde gelöscht.</String>
+    </Entry>
+
+    <Entry Id="cleargps_not_set">
+        <String xml:lang="en-US">GPS is not set.</String>
+        <String xml:lang="it-IT">Il GPS non è impostato.</String>
+        <String xml:lang="fr-FR">Le GPS n'est pas activé.</String>
+        <String xml:lang="de-DE">Kein GPS gesetzt.</String>
+    </Entry>
+
+    <Entry Id="sendgps_desc">
+        <String xml:lang="en-US">Sends your GPS location to another player.</String>
+        <String xml:lang="it-IT">Invia la tua posizione GPS a un altro giocatore.</String>
+        <String xml:lang="fr-FR">Envoie ta position GPS à un autre joueur.</String>
+        <String xml:lang="de-DE">Sende deine GPS-Position an einen anderen Spieler.</String>
+    </Entry>
+
+    <Entry Id="sendgps_param_player_desc">
+        <String xml:lang="en-US">The player you want to share your location with.</String>
+        <String xml:lang="it-IT">Il giocatore con cui vuoi condividere la tua posizione.</String>
+        <String xml:lang="fr-FR">Le joueur avec lequel tu souhaites partager ta position.</String>
+        <String xml:lang="de-DE">Der Spieler, mit dem du deine Position teilen willst.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_desc">
+        <String xml:lang="en-US">Sends your waypoint to another player.</String>
+        <String xml:lang="it-IT">Invia il tuo waypoint a un altro giocatore.</String>
+        <String xml:lang="fr-FR">Envoie ton point de repère à un autre joueur.</String>
+        <String xml:lang="de-DE">Sendet deinen Wegpunkt an einen anderen Spieler.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_param_player_desc">
+        <String xml:lang="en-US">The player you want to share your waypoint with.</String>
+        <String xml:lang="it-IT">Il giocatore con cui vuoi condividere il tuo waypoint.</String>
+        <String xml:lang="fr-FR">Le joueur avec lequel tu souhaites partager ton point de repère.</String>
+        <String xml:lang="de-DE">Der Spieler, mit dem du deinen Wegpunkt teilen willst.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_not_selected">
+        <String xml:lang="en-US">You need to select a waypoint on the map before calling this command</String>
+        <String xml:lang="it-IT">Devi selezionare un waypoint sulla mappa prima di eseguire questo comando.</String>
+        <String xml:lang="fr-FR">Tu dois sélectionner un point de repère sur la carte avant d'envoyer cette commande.</String>
+        <String xml:lang="de-DE">Du musst einen Wegpunkt auf der Karte setzen, bevor du diesen Command ausführen kannst.</String>
+    </Entry>
+
+    <Entry Id="gps_shared_prompt">
+        <String xml:lang="en-US">{0} wants to share their position with you.</String>
+        <String xml:lang="it-IT">{0} vuole condividere la sua posizione con te.</String>
+        <String xml:lang="fr-FR">{0} souhaite partager sa position avec toi.</String>
+        <String xml:lang="de-DE">{0} will seine Position mit dir teilen.</String>
+    </Entry>
+
+    <Entry Id="waypoint_shared_prompt">
+        <String xml:lang="en-US">{0} wants to share their waypoint with you.</String>
+        <String xml:lang="it-IT">{0} vuole condividere il suo waypoint con te.</String>
+        <String xml:lang="fr-FR">{0} souhaite partager son point de repère avec toi.</String>
+        <String xml:lang="de-DE">{0} will seinen Wegpunkt mit dir teilen.</String>
+    </Entry>
+
+    <Entry Id="gps_nobody_received">
+        <String xml:lang="en-US">~r~Nobody ~s~has received your ~y~position~s~.</String>
+        <String xml:lang="it-IT">~r~Nessuno ~s~ha ricevuto la tua ~y~posizione~s~.</String>
+        <String xml:lang="fr-FR">~r~Personne ~s~n'a reçu ta ~y~position~s~.</String>
+        <String xml:lang="de-DE">~r~Niemand ~s~hat deine ~y~Position~s~ erhalten.</String>
+    </Entry>
+
+    <Entry Id="sendgps_player_received">
+        <String xml:lang="en-US">You shared your ~y~position ~s~with {0}.</String>
+        <String xml:lang="it-IT">Hai condiviso la tua ~y~posizione ~s~con {0}.</String>
+        <String xml:lang="fr-FR">Tu as partagé ta ~y~position ~s~avec {0}.</String>
+        <String xml:lang="de-DE">Du hast deine ~y~Position ~s~mit {0} geteilt.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_player_received">
+        <String xml:lang="en-US">You shared your ~p~waypoint ~s~with {0}."</String>
+        <String xml:lang="it-IT">Hai condiviso il tuo ~p~waypoint ~s~con {0}.</String>
+        <String xml:lang="fr-FR">Tu as partagé ton ~p~point de repère ~s~avec {0}.</String>
+        <String xml:lang="de-DE">Du hast deinen ~p~Wegpunkt ~s~mit {0} geteilt."</String>
+    </Entry>
+
+    <Entry Id="sendgps_group_received">
+        <String xml:lang="en-US">You shared your ~y~position ~s~with ~y~{0} players~s~.</String>
+        <String xml:lang="it-IT">Hai condiviso la tua ~y~posizione ~s~con ~y~{0} giocatori~s~.</String>
+        <String xml:lang="fr-FR">Tu as partagé ta ~y~position ~s~avec ~y~{0} joueurs~s~.</String>
+        <String xml:lang="de-DE">Du hast deine ~y~Position ~s~mit ~y~{0} Spielern~s~ geteilt.</String>
+    </Entry>
+
+    <Entry Id="sendwaypoint_group_received">
+        <String xml:lang="en-US">You shared your ~p~waypoint ~s~with ~y~{0} players~s~.</String>
+        <String xml:lang="it-IT">Hai condiviso il tuo ~p~waypoiny ~s~con ~y~{0} giocatori~s~.</String>
+        <String xml:lang="fr-FR">Tu as partagé ton ~p~point de repère ~s~avec ~y~{0} joueurs~s~.</String>
+        <String xml:lang="de-DE">Du hast deinen ~p~Wegpunkt ~s~mit ~y~{0} Spielern~s~ geteilt.</String>
+    </Entry>
+
+    <Entry Id="gps_ignored">
+        <String xml:lang="en-US">{0} did not accept your shared ~r~position~s~.</String>
+        <String xml:lang="it-IT">{0} non ha accettato la tua ~r~posizione~s~.</String>
+        <String xml:lang="fr-FR">{0} n'a pas accepté le partage de ta ~r~position~s~.</String>
+        <String xml:lang="de-DE">{0} hat deine geteilte ~r~Position~s~ nicht angenommen.</String>
+    </Entry>
+
+    <Entry Id="gps_accepted">
+        <String xml:lang="en-US">{0} accepted your shared ~y~position~s~!</String>
+        <String xml:lang="it-IT">{0} ha accettato la tua ~y~posizione~s~!</String>
+        <String xml:lang="fr-FR">{0} a accepté le partage de ta ~y~position~s~!</String>
+        <String xml:lang="de-DE">{0} hat deine geteilte ~y~Position~s~ angenommen!</String>
     </Entry>
 </Entries>
