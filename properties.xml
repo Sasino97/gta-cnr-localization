@@ -39,6 +39,9 @@
         <String xml:lang="nl-NL">Eigenaren</String>
         <String xml:lang="fr-FR">Propriétaires</String>
         <String xml:lang="hi-Latn">Owners</String>
+        <String xml:lang="de-DE">Inhaber</String>
+        <String xml:lang="it-IT">Proprietari</String>
+        <String xml:lang="id-ID">Pemilik</String>
     </Entry>
 
     <!-- ========================= -->
@@ -380,7 +383,7 @@
         <String xml:lang="ar-001">~r~لا يمكنك تخزين هذه السيارة في الجراج.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat menaruh kendaraan ini kedalam garasi.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถเก็บรถคันนี้ไว้ในโรงรถได้</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas stocker ce véhicule dans un garage.</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas ranger ce véhicule dans un garage.</String>
         <String xml:lang="hi-Latn">~r~Aap vehicles store nahi kar sakte is garage mein.</String>
     </Entry>
 
@@ -427,7 +430,7 @@
         <String xml:lang="th-TH">~b~ยานพาหนะส่วนตัว ~s~นี้ถูกย้ายไปที่ ~y~โรงรถ~s~ แล้ว</String>
         <String xml:lang="fr-FR">Ce ~b~véhicule personnel ~s~a été déplacé dans ce ~y~garage~s~.</String>
         <String xml:lang="hi-Latn">Ye ~b~personal vehicle ~s~move kar di gayi hai aapke ~y~garage ~s~mein.</String>
-        
+
     </Entry>
 
     <Entry Id="garage_cant_park_vehicle_current_job">
@@ -441,7 +444,7 @@
         <String xml:lang="ar-001">~r~لا يمكنك ركن المركبات في الجراج في وظيفتك الحالية.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat memarkir kendaraan ini kedalam garasi dalam kerjaan anda saat ini.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถจอดรถในโรงรถในงานปัจจุบันของคุณได้</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas garer de véhicules dans un garage avec ton emploi actuel.</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas garer de véhicules dans un garage avec ton travail actuel.</String>
     </Entry>
 
     <Entry Id="garage_cant_park_someone_elses_vehicle">
@@ -485,7 +488,7 @@
         <String xml:lang="ar-001">~r~لا يمكنك إخراج المركبات من الجراج في وظيفتك الحالية.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat mengambil kendaraan ini dengan pekerjaan anda saat ini.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถนำยานพาหนะออกจากโรงรถในงานปัจจุบันของคุณได้</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas sortir les véhicules d'un garage avec ton emploi actuel.</String>
+        <String xml:lang="fr-FR">~r~Tu ne peux pas sortir les véhicules d'un garage avec ton travail actuel.</String>
         <String xml:lang="hi-Latn">~r~Aap apni current job mein vehicles bahar nahi nikaal sakte garage se.</String>
     </Entry>
 
@@ -612,6 +615,7 @@
         <String xml:lang="id-ID">properti</String>
         <String xml:lang="th-TH">คุณสมบัติ</String>
         <String xml:lang="fr-FR">Propriétés</String>
+        <String xml:lang="de-DE">Immobilien</String>
     </Entry>
 
     <Entry Id="menu_properties_subtitle">
@@ -624,8 +628,9 @@
         <String xml:lang="ar-001">عرض الممتلكات الخاصة بك</String>
         <String xml:lang="id-ID">Melihat properti anda</String>
         <String xml:lang="th-TH">ดูคุณสมบัติของคุณ</String>
-        <String xml:lang="fr-FR">Voir tes propriétés</String>
+        <String xml:lang="fr-FR">Tes propriétés</String>
         <String xml:lang="hi-Latn">View kare apni properties</String>
+        <String xml:lang="de-DE">Zeige deine Immobilien</String>
     </Entry>
 
     <Entry Id="btn_menu_properties_gps">
@@ -633,6 +638,9 @@
         <String xml:lang="nl-NL">Stel GPS in</String>
         <String xml:lang="hi-Latn">Set karo GPS</String>
         <String xml:lang="fr-FR">Définir le GPS</String>
+        <String xml:lang="de-DE">GPS einstellen</String>
+        <String xml:lang="it-IT">Imposta GPS</String>
+        <String xml:lang="id-ID">Tandai dengan GPS</String>
     </Entry>
 
     <!-- 0 = vehicle count -->
@@ -642,6 +650,9 @@
         <String xml:lang="nl-NL">Bezetting: {0} ~b~van {1}</String>
         <String xml:lang="hi-Latn">Occupied jagah: {0} ~b~by {1}</String>
         <String xml:lang="fr-FR">Occupation: {0} ~b~de {1}</String>
+        <String xml:lang="de-DE">Auslastung: {0} ~b~of {1}</String>
+        <String xml:lang="it-IT">Occupazione: {0} ~b~di {1}</String>
+        <String xml:lang="id-ID">Lahan yang kosong : {0} ~b~dari {1}</String>
     </Entry>
 
     <Entry Id="menu_properties_warehouse_capacity">
@@ -649,6 +660,9 @@
         <String xml:lang="nl-NL">Capaciteit: ~b~{0}</String>
         <String xml:lang="hi-Latn">Jagah: ~b~{0}</String>
         <String xml:lang="fr-FR">Capacité: ~b~{0}</String>
+        <String xml:lang="de-DE">Kapazität: ~b~{0}</String>
+        <String xml:lang="it-IT">Capacità: ~b~{0}</String>
+        <String xml:lang="id-ID">Kapasitas: ~b~{0}</String>
     </Entry>
 
     <Entry Id="menu_properties_empty">
@@ -656,6 +670,9 @@
         <String xml:lang="nl-NL">Je hebt geen enkel vastgoed in bezit :(</String>
         <String xml:lang="hi-Latn">Aapke koi property own nahi karte :(</String>
         <String xml:lang="fr-FR">Tu ne possèdes aucune propriété :(</String>
+        <String xml:lang="de-DE">Du besitzt keine Immobilien :(</String>
+        <String xml:lang="it-IT">Non possiedi nessuna proprietà :(</String>
+        <String xml:lang="id-ID">Kamu tidak memiliki properti apapun :(</String>
     </Entry>
 
     <Entry Id="menu_properties_empty_description">
@@ -663,6 +680,9 @@
         <String xml:lang="nl-NL">Verkrijg vastgoed en ze zullen worden weergegeven in dit menu.</String>
         <String xml:lang="hi-Latn">Properties li jiye aur woh fir show karengi iss menu pe</String>
         <String xml:lang="fr-FR">Acquérir des propriétés et elles seront affichées dans ce menu.</String>
+        <String xml:lang="de-DE">Erwirb Immobilien und sie werden in diesem Menü angezeigt.</String>
+        <String xml:lang="it-IT">Acquisisci proprietà e saranno mostrate in questo menu.</String>
+        <String xml:lang="id-ID">Beli properti dan properti tersebut akan tampil dimenu ini.</String>
     </Entry>
 
     <Entry Id="menu_properties_pretext">
@@ -670,6 +690,9 @@
         <String xml:lang="nl-NL">{0} panden</String>
         <String xml:lang="hi-Latn">{0} properties</String>
         <String xml:lang="fr-FR">{0} propriétés</String>
+        <String xml:lang="de-DE">{0} Immobilien</String>
+        <String xml:lang="it-IT">{0} proprietà</String>
+        <String xml:lang="id-ID">{0} properti</String>
     </Entry>
 
     <Entry Id="menu_properties_pretext_singular">
@@ -677,6 +700,9 @@
         <String xml:lang="nl-NL">{0} pand</String>
         <String xml:lang="hi-Latn">{0} property</String>
         <String xml:lang="fr-FR">{0} propriété</String>
+        <String xml:lang="de-DE">{0} Immobilie</String>
+        <String xml:lang="it-IT">{0} proprietà</String>
+        <String xml:lang="id-ID">{0} Properti</String>
     </Entry>
 
     <!-- ========================= -->
