@@ -139,24 +139,46 @@
         <String xml:lang="hi-Latn">~y~Warning! ~s~Aapne abhi ek ~r~redzone ~s~mein enter kiya hai. Yahan civilians aur criminals ko kisi ko bhi maarne ki permission hai.</String>
     </Entry>
 
+    <Entry Id="redzone_entered_cop">
+        <String xml:lang="en-US">1.5x bonus for ~b~arresting ~s~and ~r~killing ~s~criminals in this zone.</String>
+    </Entry>
+
+    <Entry Id="redzone_entered_ems">
+        <String xml:lang="en-US">1.5x bonus for ~p~reviving ~s~and ~r~healing ~s~patients in this zone.</String>
+    </Entry>
+    
     <Entry Id="redzone_entered_crim">
         <String xml:lang="en-US">Killing ~b~police officers ~s~and ~p~paramedics ~s~in this zone is rewarded.</String>
     </Entry>
 
+    
+    <Entry Id="redzone_announcement">
+        <String xml:lang="en-US">(C)Redzones:(/C) the active redzone is now (C){0}(/C).</String>
+    </Entry>
+    
+    <Entry Id="redzone_announcement_cop">
+        <String xml:lang="en-US">Arrest and kill criminals in redzones for a 1.5x bonus.</String>
+    </Entry>
+    
+    <Entry Id="redzone_announcement_ems">
+        <String xml:lang="en-US">Revive and heal patients in redzones for a 1.5x bonus.</String>
+    </Entry>
+    
+    <Entry Id="redzone_announcement_crim">
+        <String xml:lang="en-US">Kill cops and medics inside redzones for a reward.</String>
+    </Entry>
+    
+
     <Entry Id="redzone_left">
         <String xml:lang="en-US">You left the ~r~redzone~s~.</String>
     </Entry>
-    
-    <Entry Id="redzone_announcement">
-        <String xml:lang="en-US">The (C)Redzone(/C) is now (C){0}(/C). Criminals are rewarded for killing police officers and paramedics inside redzones.</String>
-    </Entry>
-    
+
     <Entry Id="redzone_command">
         <String xml:lang="en-US">The current redzone is ~r~{0}~s~.</String>
     </Entry>
 
     <Entry Id="redzone_changed">
-        <String xml:lang="en-US">~r~Redzone changed~s~</String>
+        <String xml:lang="en-US">~r~Redzone changed</String>
     </Entry>
 
     <!-- ========================= -->
