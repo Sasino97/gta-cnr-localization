@@ -6,5 +6,6 @@ description 'GTA CnR Localization'
 version '0.3'
 
 files {
-    'data/**/*.xml'
+    'index.json',
+    '**/*.xml'
 }
