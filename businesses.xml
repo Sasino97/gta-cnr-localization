@@ -792,7 +792,7 @@
     <!-- ========================= -->
     <!-- Dispatch Menu-->
     <!-- ========================= -->
-    <Entry Id="menu_dispatch_title">
+    <Entry Id="jobmenu_calls">
         <String xml:lang="en-US">Calls</String>
         <String xml:lang="it-IT">Chiamate</String>
         <String xml:lang="nl-NL">Meldingen</String>
@@ -809,7 +809,7 @@
         <String xml:lang="id-ID">Panggilan</String>
     </Entry>
 
-    <Entry Id="menu_dispatch_subtitle">
+    <Entry Id="jobmenu_calls_sub">
         <String xml:lang="en-US">Recent calls</String>
         <String xml:lang="it-IT">Chiamate recenti</String>
         <String xml:lang="nl-NL">Recente meldingen</String>
@@ -824,6 +824,56 @@
         <String xml:lang="tr-TR">Son aramalar</String>
         <String xml:lang="hi-Latn">Recent ki calls</String>
         <String xml:lang="id-ID">Panggilan terbaru</String>
+    </Entry>
+    
+    <!-- ========================= -->
+    <!-- Services-->
+    <!-- ========================= -->
+    <Entry Id="jobmenu_services">
+        <String xml:lang="en-US">Services</String>
+        <String xml:lang="it-IT">Servizi</String>
+        <String xml:lang="nl-NL">Diensten</String>
+        <String xml:lang="de-DE">Services</String>
+        <String xml:lang="es-ES">Servicios</String>
+        <String xml:lang="pt-BR">Serviços</String>
+        <String xml:lang="th-TH">บริการ</String>
+        <String xml:lang="vi-VN">Dịch vụ</String>
+        <String xml:lang="id-ID">Layanan</String>
+        <String xml:lang="zh-Hant">服務</String>
+        <String xml:lang="pl-PL">Usługi</String>
+        <String xml:lang="fr-FR">Services</String>
+        <String xml:lang="tr-TR">Hizmetler</String>
+        <String xml:lang="hi-Latn">Services</String>
+        <String xml:lang="ar-001">الخدمات</String>
+    </Entry>
+
+    <Entry Id="jobmenu_services_descr">
+        <String xml:lang="en-US">Manage your services.</String>
+        <String xml:lang="nl-NL">Beheer je diensten.</String>
+        <String xml:lang="fr-FR">Gérer tes services.</String>
+        <String xml:lang="tr-TR">Hizmetlerinizi yönetin.</String>
+        <String xml:lang="hi-Latn">Apni services manage kare.</String>
+        <String xml:lang="de-DE">Verwalte deine Dienstleistungen.</String>
+        <String xml:lang="it-IT">Gestisci i tuoi servizi.</String>
+        <String xml:lang="id-ID">Kelola layanan kamu.</String>
+        <String xml:lang="ar-001">إدارة الخدمات الخاصة بك.</String>
+    </Entry>
+
+    <Entry Id="jobmenu_recent_sales_sub">
+        <String xml:lang="en-US">Recent sales</String>
+        <String xml:lang="it-IT">Ultime vendite</String>
+        <String xml:lang="nl-NL">Recente bestellingen</String>
+        <String xml:lang="de-DE">Aktuelle Anrufe</String>
+        <String xml:lang="es-ES">Ventas recientes</String>
+        <String xml:lang="pt-BR">Vendas recentes</String>
+        <String xml:lang="pl-PL">Ostatnie sprzedaże</String>
+        <String xml:lang="th-TH">ขายล่าสุด</String>
+        <String xml:lang="zh-Hant">近期來電</String>
+        <String xml:lang="fr-FR">Ventes récentes</String>
+        <String xml:lang="tr-TR">Son satışlar</String>
+        <String xml:lang="hi-Latn">Recent ki sales</String>
+        <String xml:lang="id-ID">Penjualan terbaru</String>
+        <String xml:lang="ar-001">المبيعات الأخيرة</String>
     </Entry>
 
     <!-- ========================= -->
@@ -895,40 +945,6 @@
         <String xml:lang="hi-Latn">Drug Dealer</String>
         <String xml:lang="id-ID">Penjual Narkoba</String>
         <String xml:lang="ar-001">تاجر مخدرات</String>
-    </Entry>
-
-    <Entry Id="menu_drugdealer_calls_subtitle">
-        <String xml:lang="en-US">Calls</String>
-        <String xml:lang="it-IT">Chiamate</String>
-        <String xml:lang="nl-NL">Meldingen</String>
-        <String xml:lang="de-DE">Anrufe</String>
-        <String xml:lang="es-ES">Llamadas</String>
-        <String xml:lang="pt-BR">Chamadas</String>
-        <String xml:lang="pl-PL">Wezwania</String>
-        <String xml:lang="th-TH">เรียก</String>
-        <String xml:lang="zh-Hant">來電</String>
-        <String xml:lang="fr-FR">Appels</String>
-        <String xml:lang="tr-TR">Aramalar</String>
-        <String xml:lang="hi-Latn">Calls</String>
-        <String xml:lang="id-ID">Panggilan</String>
-        <String xml:lang="ar-001">المكالمات</String>
-    </Entry>
-
-    <Entry Id="menu_drugdealer_recentsales_subtitle">
-        <String xml:lang="en-US">Recent sales</String>
-        <String xml:lang="it-IT">Ultime vendite</String>
-        <String xml:lang="nl-NL">Recente bestellingen</String>
-        <String xml:lang="de-DE">Aktuelle Anrufe</String>u
-        <String xml:lang="es-ES">Ventas recientes</String>
-        <String xml:lang="pt-BR">Vendas recentes</String>
-        <String xml:lang="pl-PL">Ostatnie sprzedaże</String>
-        <String xml:lang="th-TH">ขายล่าสุด</String>
-        <String xml:lang="zh-Hant">近期來電</String>
-        <String xml:lang="fr-FR">Ventes récentes</String>
-        <String xml:lang="tr-TR">Son satışlar</String>
-        <String xml:lang="hi-Latn">Recent ki sales</String>
-        <String xml:lang="id-ID">Penjualan terbaru</String>
-        <String xml:lang="ar-001">المبيعات الأخيرة</String>
     </Entry>
 
     <Entry Id="menu_drugdealer_calls_description">
@@ -1064,36 +1080,6 @@
         <String xml:lang="ar-001">يوجد ~y~{0}~s~ ~b~لاعبون~s~ يعملون كميكانيكي في هذا المكان. حدد هذا الخيار لعرض خدماتهم</String>
     </Entry>
 
-    <Entry Id="menu_mechanic_services_subtitle">
-        <String xml:lang="en-US">Services</String>
-        <String xml:lang="it-IT">Servizi</String>
-        <String xml:lang="nl-NL">Diensten</String>
-        <String xml:lang="de-DE">Services</String>
-        <String xml:lang="es-ES">Servicios</String>
-        <String xml:lang="pt-BR">Serviços</String>
-        <String xml:lang="th-TH">บริการ</String>
-        <String xml:lang="vi-VN">Dịch vụ</String>
-        <String xml:lang="id-ID">Layanan</String>
-        <String xml:lang="zh-Hant">服務</String>
-        <String xml:lang="pl-PL">Usługi</String>
-        <String xml:lang="fr-FR">Services</String>
-        <String xml:lang="tr-TR">Hizmetler</String>
-        <String xml:lang="hi-Latn">Services</String>
-        <String xml:lang="ar-001">الخدمات</String>
-    </Entry>
-
-    <Entry Id="menu_mechanic_services_description">
-        <String xml:lang="en-US">Manage your services.</String>
-        <String xml:lang="nl-NL">Beheer je diensten.</String>
-        <String xml:lang="fr-FR">Gérer tes services.</String>
-        <String xml:lang="tr-TR">Hizmetlerinizi yönetin.</String>
-        <String xml:lang="hi-Latn">Apni services manage kare.</String>
-        <String xml:lang="de-DE">Verwalte deine Dienstleistungen.</String>
-        <String xml:lang="it-IT">Gestisci i tuoi servizi.</String>
-        <String xml:lang="id-ID">Kelola layanan kamu.</String>
-        <String xml:lang="ar-001">إدارة الخدمات الخاصة بك.</String>
-    </Entry>
-
     <Entry Id="menu_mechanic_services_request_subtitle">
         <String xml:lang="en-US">Request a service</String>
         <String xml:lang="it-IT">Richiedi un servizio</String>
@@ -1112,24 +1098,6 @@
         <String xml:lang="ar-001">اطلب خدمة</String>
     </Entry>
 
-    <Entry Id="menu_mechanic_calls_subtitle">
-        <String xml:lang="en-US">Calls</String>
-        <String xml:lang="it-IT">Chiamate</String>
-        <String xml:lang="nl-NL">Meldingen</String>
-        <String xml:lang="de-DE">Anrufe</String>
-        <String xml:lang="es-ES">Llamada</String>
-        <String xml:lang="pt-BR">Chamadas</String>
-        <String xml:lang="th-TH">เรียก</String>
-        <String xml:lang="vi-VN">Cuộc gọi</String>
-        <String xml:lang="id-ID">Panggilan</String>
-        <String xml:lang="zh-Hant">來電</String>
-        <String xml:lang="pl-PL">Wezwania</String>
-        <String xml:lang="fr-FR">Appels</String>
-        <String xml:lang="tr-TR">Aramalar</String>
-        <String xml:lang="hi-Latn">Calls</String>
-        <String xml:lang="ar-001">المكالمات</String>
-    </Entry>
-
     <Entry Id="menu_mechanic_calls_description">
         <String xml:lang="en-US">View recent calls for a mechanic.</String>
         <String xml:lang="nl-NL">Bekijk de meeste recente monteur oproepen.</String>
@@ -1140,24 +1108,6 @@
         <String xml:lang="it-IT">Visualizza le chiamate recenti per un meccanico.</String>
         <String xml:lang="id-ID">Melihat panggilan terbaru untuk mekanik.</String>
         <String xml:lang="ar-001">عرض المكالمات الأخيرة للميكانيكي.</String>
-    </Entry>
-
-    <Entry Id="menu_mechanic_recentsales_subtitle">
-        <String xml:lang="en-US">Recent sales</String>
-        <String xml:lang="it-IT">Ultime vendite</String>
-        <String xml:lang="nl-NL">Recente bestellingen</String>
-        <String xml:lang="de-DE">Aktuelle Anrufe</String>
-        <String xml:lang="es-ES">Ventas recientes</String>
-        <String xml:lang="pt-BR">Vendas recentes</String>
-        <String xml:lang="th-TH">ขายล่าสุด</String>
-        <String xml:lang="vi-VN">Hàng bán gần đây</String>
-        <String xml:lang="id-ID">Penjualan terakhir</String>
-        <String xml:lang="zh-Hant">近期銷售</String>
-        <String xml:lang="pl-PL">Ostatnie sprzedaże</String>
-        <String xml:lang="fr-FR">Ventes récentes</String>
-        <String xml:lang="tr-TR">Son satışlar</String>
-        <String xml:lang="hi-Latn">Recent ki sales</String>
-        <String xml:lang="ar-001">المبيعات الأخيرة</String>
     </Entry>
 
     <Entry Id="menu_mechanic_recentsales_description">
@@ -2219,24 +2169,6 @@
         <String xml:lang="hi-Latn">Paramedic</String>
     </Entry>
 
-    <Entry Id="menu_paramedic_calls_subtitle">
-        <String xml:lang="en-US">Calls</String>
-        <String xml:lang="it-IT">Chiamate</String>
-        <String xml:lang="nl-NL">Meldingen</String>
-        <String xml:lang="de-DE">Anrufe</String>
-        <String xml:lang="es-ES">Llamadas</String>
-        <String xml:lang="pt-BR">Chamadas</String>
-        <String xml:lang="ar-001">المكالمات</String>
-        <String xml:lang="th-TH">เรียก</String>
-        <String xml:lang="vi-VN">Cuộc gọi</String>
-        <String xml:lang="id-ID">Panggilan</String>
-        <String xml:lang="zh-Hant">來電</String>
-        <String xml:lang="pl-PL">Wezwania</String>
-        <String xml:lang="fr-FR">Appels</String>
-        <String xml:lang="tr-TR">Aramalar</String>
-        <String xml:lang="hi-Latn">Calls</String>
-    </Entry>
-
     <Entry Id="menu_paramedic_calls_description">
         <String xml:lang="en-US">View recent calls for EMS.</String>
         <String xml:lang="nl-NL">Bekijk recente ambulance oproepen.</String>
@@ -2267,24 +2199,6 @@
         <String xml:lang="fr-FR">Agent de police</String>
         <String xml:lang="tr-TR">Polis Memuru</String>
         <String xml:lang="hi-Latn">Police Officer</String>
-    </Entry>
-
-    <Entry Id="menu_policeofficer_calls_subtitle">
-        <String xml:lang="en-US">Calls</String>
-        <String xml:lang="it-IT">Chiamate</String>
-        <String xml:lang="nl-NL">Meldingen</String>
-        <String xml:lang="de-DE">Anrufe</String>
-        <String xml:lang="es-ES">Llamadas</String>
-        <String xml:lang="pt-BR">Chamadas</String>
-        <String xml:lang="ar-001">المكالمات</String>
-        <String xml:lang="th-TH">เรียก</String>
-        <String xml:lang="vi-VN">Cuộc gọi</String>
-        <String xml:lang="id-ID">Panggilan</String>
-        <String xml:lang="zh-Hant">來電</String>
-        <String xml:lang="pl-PL">Wezwania</String>
-        <String xml:lang="fr-FR">Appels</String>
-        <String xml:lang="tr-TR">Aramalar</String>
-        <String xml:lang="hi-Latn">Calls</String>
     </Entry>
 
     <Entry Id="menu_policeofficer_calls_description">
@@ -2822,5 +2736,10 @@
         <String xml:lang="it-IT">{0} ha creato un contratto di omicidio di ~r~{1} ~s~su di te.</String>
         <String xml:lang="de-DE">{0} hat einen ~r~{1}~s~-Auftrag für dich angesetzt.</String>
         <String xml:lang="ar-001">لقد قام {0} بإبرام ~r~{1} ~s~عقد قتل عليك.</String>
+    </Entry>
+
+    <!-- Private Medic Job -->
+    <Entry Id="menu_private_medic_title">
+        <String xml:lang="en-US">Private Medic</String>
     </Entry>
 </Entries>
