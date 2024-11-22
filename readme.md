@@ -5,7 +5,8 @@ This repository contains the necessary files for the localization of CnR.
 ## ⚠ IMPORTANT ⚠
 This guide is a little bit outdated. Yes, 90% of the info in it is still accurate, however it doesn't cover an important topic, which is **Pull Requests**, a feature that allows us to review your commits before merging them into the main branch of the repository. Thus, with this extra step, the actual workflow will be a little bit different, involving **merges** from the master branch, and pull requests to merge your branch into the master branch.
 
-*Please, ask other older translators for detailed guidance.*
+You can use the guide in the thread "Using GitHub Desktop for translations" for step-by-step guidance. 
+*Please, ask other older translators for help if needed.*
 
 ## Setup
 
