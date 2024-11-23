@@ -1763,25 +1763,15 @@
     </Entry>
 
     <Entry Id="stp_service_error_no_tools">
-        <String xml:lang="en-US">~y~This mechanic doesn't have the necessary tools to provide this service.</String>
-        <String xml:lang="nl-NL">~y~Deze monteur heeft niet de juiste gereedschappen om deze dienst te verlenen.</String>
-        <String xml:lang="fr-FR">~y~Ce mécanicien ne dispose pas des outils nécessaires pour fournir ce service.</String>
-        <String xml:lang="hi-Latn">~y~Is mechanic ke paas yeh service provide karne ke liye aavashyak tools nahi hain.</String>
-        <String xml:lang="de-DE">~y~Dieser Mechaniker besitzt nicht die notwendigen Werkzeuge, um diese Leistung anzubieten.</String>
-        <String xml:lang="it-IT">~y~Questo meccanico non ha gli strumenti necessari per fornire questo servizio.</String>
-        <String xml:lang="id-ID">~y~Mekanik ini tidak memiliki peralatan untuk memberikan jasa ini.</String>
-        <String xml:lang="ar-001">~y~لا يملك هذا الميكانيكي الأدوات اللازمة لتقديم هذه الخدمة.</String>
+        <String xml:lang="en-US">~y~The seller doesn't have the necessary items to provide this service.</String>
     </Entry>
 
     <Entry Id="stp_service_error_not_certified">
-        <String xml:lang="en-US">~y~This mechanic is not certified to provide this service.</String>
-        <String xml:lang="nl-NL">~y~Deze monteur is niet gecertificeerd om deze diensten te verlenen.</String>
-        <String xml:lang="fr-FR">~y~Ce mécanicien n'est pas certifié pour fournir ce service.</String>
-        <String xml:lang="hi-Latn">~y~Yeh mechanic is service ko provide karne ke liye pramanit nahi hai.</String>
-        <String xml:lang="de-DE">~y~Dieser Mechaniker ist nicht qualifiziert, um diese Leistung anzubieten.</String>
-        <String xml:lang="it-IT">~y~Questo meccanico non è certificato per fornire questo servizio.</String>
-        <String xml:lang="id-ID">~y~Mekanik ini tidak memiliki sertifikasi untuk memberikan jasa ini.</String>
-        <String xml:lang="ar-001">~y~هذا الميكانيكي غير معتمد لتقديم هذه الخدمة.</String>
+        <String xml:lang="en-US">~y~The seller is not certified to provide this service.</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_no_license">
+        <String xml:lang="en-US">~y~The seller is not licensed to sell this item.</String>
     </Entry>
 
     <Entry Id="stp_service_error_no_vehicle">
@@ -2726,12 +2716,12 @@
         <String xml:lang="ar-001">لقد قام {0} بإبرام ~r~{1} ~s~عقد قتل عليك.</String>
     </Entry>
 
-    <!-- Private Medic Job -->
+    <!-- M.D. Job -->
     <Entry Id="menu_private_medic_title">
-        <String xml:lang="en-US">Private Medic</String>
+        <String xml:lang="en-US">Medical Doctor</String>
     </Entry>
 
     <Entry Id="menu_private_medic_calls_description">
-        <String xml:lang="en-US">View recent calls for a private medic.</String>
+        <String xml:lang="en-US">View recent calls for a medical doctor.</String>
     </Entry>
 </Entries>
