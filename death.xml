@@ -266,6 +266,11 @@
         <String xml:lang="hi-Latn">{0} ~s~maare gaye ~r~drug overdos ~s~se.</String>
     </Entry>
 
+    <Entry Id="killed_by_disease">
+        <String xml:lang="en-US">{0} ~s~has died from ~r~disease~s~.</String>
+        <String xml:lang="nl-NL">{0} ~s~is doodgegaan van een ~r~ziekte~s~.</String>
+    </Entry>
+
     <Entry Id="drowned">
         <String xml:lang="en-US">{0} ~s~has ~r~drowned~s~.</String>
         <String xml:lang="de-DE">{0} ~s~ist ~r~ertrunken~s~.</String>
@@ -929,7 +934,7 @@
     <!-- ========================= -->
     <!-- Revive Messages -->
     <!-- ========================= -->
-    <Entry Id="medic_revived">
+    <Entry Id="paramedic_revived">
         <String xml:lang="en-US">Paramedic {0} revived you.</String>
         <String xml:lang="de-DE">Sanitäter {0} hat dich wiederbelebt.</String>
         <String xml:lang="fr-FR">L'ambulancier {0} t'a réanimé.</String>
@@ -948,7 +953,7 @@
         <String xml:lang="hi-Latn">Paramedic {0} revive kiye aapko.</String>
     </Entry>
 
-    <Entry Id="medic_failed">
+    <Entry Id="paramedic_failed">
         <String xml:lang="en-US">The ~p~paramedic ~s~has ~r~failed ~s~to revive you and you were transferred to a ~r~hospital~s~.</String>
         <String xml:lang="de-DE">Der ~p~Sanitäter ~s~hat ~r~versagt ~s~dich wiederzubeleben und du wurdest in ein ~r~Krankenhaus~s~ verlegt.</String>
         <String xml:lang="fr-FR">L'~p~ambulancier ~s~n'a ~r~pas réussi ~s~à te réanimer et tu as été transporté vers un ~r~hôpital~s~.</String>
@@ -965,6 +970,16 @@
         <String xml:lang="vi-VN">~p~Nhân viên y tế ~s~đã ~r~thất bại ~s~trong việc hồi sinh bạn và bạn đã được đưa về ~r~bệnh viện~s~.</String>
         <String xml:lang="id-ID">~p~Paramedis ~s~telah ~r~gagal ~s~untuk menolong anda dan anda telah dipindahkan ke ~r~rumah sakit~s~.</String>
         <String xml:lang="hi-Latn">~p~paramedic ~s~aapko revive karne me ~r~fail ~s~ho gaye, toh aapko ~r~hospital ~s~transfer kar diya gaya.</String>
+    </Entry>
+
+    <Entry Id="doctor_revived">
+        <String xml:lang="en-US">Medical Doctor {0} revived you.</String>
+        <String xml:lang="nl-NL">Dokter {0} heeft je gereanimeerd.</String>
+    </Entry>
+
+    <Entry Id="doctor_failed">
+        <String xml:lang="en-US">The ~y~doctor ~s~has ~r~failed ~s~to revive you and you were transferred to a ~r~hospital~s~.</String>
+        <String xml:lang="nl-NL">Het is de ~y~dokter ~s~~r~mislukt ~s~je te reanimeren en daarom ben je overgeplaatst naar een ~r~ziekenhuis~s~.</String>
     </Entry>
 
     <!-- ========================= -->

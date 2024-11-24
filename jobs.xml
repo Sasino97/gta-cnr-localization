@@ -78,6 +78,13 @@
         <String xml:lang="id-ID">Kamu harus lulus dari ~y~Ujian~s~ untuk bisa menjadi {0}.</String>
     </Entry>
 
+    <!-- {0} = Item name -->
+    <!-- {1} = Job name -->
+    <Entry Id="jobs_license_required">
+        <String xml:lang="en-US">You need a ~b~{0}~s~ to become a {1}.</String>
+        <String xml:lang="nl-NL">Je hebt een ~b~{0}~s~ nodig om een {1} te worden.</String>
+    </Entry>
+
     <!-- {0} = Job name -->
     <!-- {1} = Percentage -->
     <Entry Id="jobs_player_limit">
@@ -214,6 +221,11 @@
         <String xml:lang="id-ID">~b~GPS ~s~anda telah diaturkan untuk ke lokasi ~y~panggilan~s~.</String>
         <String xml:lang="tr-TR">~b~GPS~s~'niz seçilen ~y~çağrının ~s~konumuna ayarlandı.</String>
         <String xml:lang="hi-Latn">Aapke ~b~GPS ~s~ki location set kar diya gaya hai aapki selected ~y~call ~s~pe.</String>
+    </Entry>
+
+    <Entry Id="jobs_ban_info">
+        <String xml:lang="en-US">Ban reason: ~r~{0}~s~. Expires ~y~{1}~s~.</String>
+        <String xml:lang="nl-NL">Ban reden: ~r~{0}~s~. Verloopt ~y~{1}~s~.</String>        
     </Entry>
 
     <!-- ========================= -->
@@ -1586,6 +1598,7 @@
     <!-- ========================= -->
     <Entry Id="paramedic_teaming_warning">
         <String xml:lang="en-US">~y~(C)Reminder:(/C) ~s~you can only shoot when there's a threat, and you can't team up with ~o~criminals~s~.</String>
+        <String xml:lang="nl-NL">~y~(C)Reminder:(/C) ~s~je kan alleen schieten wanneer er gevaar is. Je mag niet samen spelen men ~o~criminelen~s~.</String>
         <String xml:lang="fr-FR">~y~(C)Rappel:(/C) ~s~tu ne peux tirer que lorsqu'il y a une menace, et tu ne peux pas faire équipe avec des ~o~criminels~s~.</String>
     </Entry>
 
@@ -2867,6 +2880,7 @@
 
     <Entry Id="police_cant_uncuff_when_in_vehicle">
         <String xml:lang="en-US">You cannot ~o~uncuff ~s~someone when you and the ~r~target ~s~are not in the same ~y~vehicle~s~.</String>
+        <String xml:lang="nl-NL">Je kan iemand zijn handboeien ~o~niet losmaken ~s~wanneer jij en het ~r~doelwit ~s~niet in hetzelfde ~y~voertuig ~s~zitten.</String>
     </Entry>
 
     <Entry Id="police_giving_ticket">
@@ -5851,6 +5865,7 @@
 
     <Entry Id="ddriver_job_goods_destroyed_by_player">
         <String xml:lang="en-US">{0} ~r~destroyed~s~ your goods.</String>
+        <String xml:lang="nl-NL">{0} heeft jouw goederen ~r~vernietigd~s~.</String>
         <String xml:lang="fr-FR">{0} a ~r~détruit~s~ tes biens.</String>
     </Entry>
 
@@ -5886,15 +5901,13 @@
         <String xml:lang="de-DE">Du musst ~r~{0} Sekunden warten ~s~bevor du wieder ein ~y~Münztelefon ~s~benutzen kannst.</String>
     </Entry>
 
+    <!-- {0} Colored player name -->
+    <!-- {1} Location name -->
     <Entry Id="hitman_payphone_used_hint">
-        <String xml:lang="en-US">You can find your ~r~target~s~ in the ~o~orange area ~s~on your map.</String>
-        <String xml:lang="nl-NL">Je kunt je ~r~doelwit ~s~vinden in het ~o~oranje gebied ~s~op je kaart.</String>
-        <String xml:lang="fr-FR">Tu peux trouver ta ~r~cible ~s~dans la ~o~zone orange ~s~sur ta map.</String>
-        <String xml:lang="id-ID">Kamu bisa menemukan ~r~targetmu~s~ di ~o~area orange ~s~di mapmu.</String>
-        <String xml:lang="it-IT">Puoi trovare il tuo ~r~bersaglio~s~ nell'~o~area arancione ~s~sulla tua mappa.</String>
-        <String xml:lang="de-DE">Du kannst dein ~r~Ziel~s~ im ~o~orangen Bereich ~s~auf deiner Karte finden.</String>
+        <String xml:lang="en-US">{0} was seen somewhere around {1}. Open your map to view the area.</String>
+        <String xml:lang="nl-NL">{0} was ergens gezien rond {1}. Open je kaart om dit gebied te bekijken.</String>
     </Entry>
-
+    
     <!-- {0} Name (id) of the target (already colored) -->
     <!-- {1} Amount -->
     <Entry Id="hitman_new_contract">
@@ -5917,9 +5930,10 @@
         <String xml:lang="de-DE">~y~(C)Auftrag aktualisiert:(/C) ~s~Die Belohnung für das ~r~Töten~s~von {0} wurde auf ~g~{1}~s~ erhöht.</String>
     </Entry>
 
-    <!-- When you switch to private medic -->
+    <!-- When you switch to M.D. -->
     <Entry Id="private_medic_description">
-        <String xml:lang="en-US">(C)Private Medic:(/C) ~s~provide ~p~healthcare ~s~services and items for money.</String>
-        <String xml:lang="fr-FR">(C)Ambulancier privé:(/C) ~s~offre des ~p~prestations de soins et des articles de santé ~s~contre de l'argent.</String>
+        <String xml:lang="en-US">(C)Medical Doctor:(/C) ~s~provide ~p~healthcare ~s~services and items for money.</String>
+        <String xml:lang="nl-NL">(C)Medisch Arts:(/C) ~s~biedt ~p~gezondheidszorg ~s~en artikelen voor geld.</String>
+        <String xml:lang="fr-FR">(C)Médecin:(/C) ~s~offre des ~p~prestations de soins et des articles de santé ~s~contre de l'argent.</String>
     </Entry>
 </Entries>
