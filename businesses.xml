@@ -20,6 +20,7 @@
         <String xml:lang="vi-VN">Cửa hàng</String>
         <String xml:lang="id-ID">Toko</String>
         <String xml:lang="hi-Latn">Dukaan</String>
+        <String xml:lang="sv-SE">Affär</String>
     </Entry>
 
     <Entry Id="menu_store_subtitle">
@@ -33,6 +34,7 @@
         <String xml:lang="hi-Latn">Ek item select kare</String>
         <String xml:lang="de-DE">Wähle einen Gegenstand aus</String>
         <String xml:lang="id-ID">Pilih barang</String>
+        <String xml:lang="sv-SE">Välj en artikel</String>
     </Entry>
 
     <!-- ========================= -->
@@ -54,6 +56,7 @@
         <String xml:lang="vi-VN">Đổi thẻ quà tặng</String>
         <String xml:lang="id-ID">Tukarkan kartu hadiah</String>
         <String xml:lang="hi-Latn">Redeem kare gift Cards</String>
+        <String xml:lang="sv-SE"> Utlös presentkort</String>
     </Entry>
 
     <!-- {0} = Current balance -->
@@ -1146,6 +1149,10 @@
         <String xml:lang="hi-Latn">Mods</String>
     </Entry>
 
+    <Entry Id="menu_mechanic_tints_subtitle">
+        <String xml:lang="en-US">Window Tints</String>
+    </Entry>
+
     <Entry Id="menu_mechanic_respray_subtitle">
         <String xml:lang="en-US">Respray</String>
         <String xml:lang="it-IT">Riverniciatura</String>
@@ -1763,25 +1770,18 @@
     </Entry>
 
     <Entry Id="stp_service_error_no_tools">
-        <String xml:lang="en-US">~y~This mechanic doesn't have the necessary tools to provide this service.</String>
-        <String xml:lang="nl-NL">~y~Deze monteur heeft niet de juiste gereedschappen om deze dienst te verlenen.</String>
-        <String xml:lang="fr-FR">~y~Ce mécanicien ne dispose pas des outils nécessaires pour fournir ce service.</String>
-        <String xml:lang="hi-Latn">~y~Is mechanic ke paas yeh service provide karne ke liye aavashyak tools nahi hain.</String>
-        <String xml:lang="de-DE">~y~Dieser Mechaniker besitzt nicht die notwendigen Werkzeuge, um diese Leistung anzubieten.</String>
-        <String xml:lang="it-IT">~y~Questo meccanico non ha gli strumenti necessari per fornire questo servizio.</String>
-        <String xml:lang="id-ID">~y~Mekanik ini tidak memiliki peralatan untuk memberikan jasa ini.</String>
-        <String xml:lang="ar-001">~y~لا يملك هذا الميكانيكي الأدوات اللازمة لتقديم هذه الخدمة.</String>
+        <String xml:lang="en-US">~y~The seller doesn't have the necessary items to provide this service.</String>
+        <String xml:lang="nl-NL">~y~De verkoper heeft niet de juiste spullen om deze dienst te kunnen verlenen.</String>
     </Entry>
 
     <Entry Id="stp_service_error_not_certified">
-        <String xml:lang="en-US">~y~This mechanic is not certified to provide this service.</String>
-        <String xml:lang="nl-NL">~y~Deze monteur is niet gecertificeerd om deze diensten te verlenen.</String>
-        <String xml:lang="fr-FR">~y~Ce mécanicien n'est pas certifié pour fournir ce service.</String>
-        <String xml:lang="hi-Latn">~y~Yeh mechanic is service ko provide karne ke liye pramanit nahi hai.</String>
-        <String xml:lang="de-DE">~y~Dieser Mechaniker ist nicht qualifiziert, um diese Leistung anzubieten.</String>
-        <String xml:lang="it-IT">~y~Questo meccanico non è certificato per fornire questo servizio.</String>
-        <String xml:lang="id-ID">~y~Mekanik ini tidak memiliki sertifikasi untuk memberikan jasa ini.</String>
-        <String xml:lang="ar-001">~y~هذا الميكانيكي غير معتمد لتقديم هذه الخدمة.</String>
+        <String xml:lang="en-US">~y~The seller is not certified to provide this service.</String>
+        <String xml:lang="nl-NL">~y~De verkoper is niet gecertificeerd om deze dienst te verlenen.</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_no_license">
+        <String xml:lang="en-US">~y~The seller is not licensed to sell this item.</String>
+        <String xml:lang="nl-NL">~y~De verkoper is niet gelicenseerd om dit artikel te mogen verkopen.</String>
     </Entry>
 
     <Entry Id="stp_service_error_no_vehicle">
@@ -2726,12 +2726,16 @@
         <String xml:lang="ar-001">لقد قام {0} بإبرام ~r~{1} ~s~عقد قتل عليك.</String>
     </Entry>
 
-    <!-- Private Medic Job -->
+    <!-- M.D. Job -->
     <Entry Id="menu_private_medic_title">
-        <String xml:lang="en-US">Private Medic</String>
+        <String xml:lang="en-US">Medical Doctor</String>
+        <String xml:lang="nl-NL">Medisch Arts</String>
+        <String xml:lang="hi-Latn">Medical Doctor</String>
     </Entry>
 
     <Entry Id="menu_private_medic_calls_description">
-        <String xml:lang="en-US">View recent calls for a private medic.</String>
+        <String xml:lang="en-US">View recent calls for a medical doctor.</String>
+        <String xml:lang="nl-NL">Bekijk alle oproepen voor een medische arts.</String>
+        <String xml:lang="hi-Latn">Medical doctor ke recent calls dekhne ke liye.</String>
     </Entry>
 </Entries>
