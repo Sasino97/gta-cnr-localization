@@ -20,6 +20,7 @@
         <String xml:lang="vi-VN">Cửa hàng</String>
         <String xml:lang="id-ID">Toko</String>
         <String xml:lang="hi-Latn">Dukaan</String>
+        <String xml:lang="sv-SE">Affär</String>
     </Entry>
 
     <Entry Id="menu_store_subtitle">
@@ -33,6 +34,7 @@
         <String xml:lang="hi-Latn">Ek item select kare</String>
         <String xml:lang="de-DE">Wähle einen Gegenstand aus</String>
         <String xml:lang="id-ID">Pilih barang</String>
+        <String xml:lang="sv-SE">Välj en artikel</String>
     </Entry>
 
     <!-- ========================= -->
@@ -54,6 +56,7 @@
         <String xml:lang="vi-VN">Đổi thẻ quà tặng</String>
         <String xml:lang="id-ID">Tukarkan kartu hadiah</String>
         <String xml:lang="hi-Latn">Redeem kare gift Cards</String>
+        <String xml:lang="sv-SE"> Utlös presentkort</String>
     </Entry>
 
     <!-- {0} = Current balance -->
@@ -1768,14 +1771,17 @@
 
     <Entry Id="stp_service_error_no_tools">
         <String xml:lang="en-US">~y~The seller doesn't have the necessary items to provide this service.</String>
+        <String xml:lang="nl-NL">~y~De verkoper heeft niet de juiste spullen om deze dienst te kunnen verlenen.</String>
     </Entry>
 
     <Entry Id="stp_service_error_not_certified">
         <String xml:lang="en-US">~y~The seller is not certified to provide this service.</String>
+        <String xml:lang="nl-NL">~y~De verkoper is niet gecertificeerd om deze dienst te verlenen.</String>
     </Entry>
 
     <Entry Id="stp_service_error_no_license">
         <String xml:lang="en-US">~y~The seller is not licensed to sell this item.</String>
+        <String xml:lang="nl-NL">~y~De verkoper is niet gelicenseerd om dit artikel te mogen verkopen.</String>
     </Entry>
 
     <Entry Id="stp_service_error_no_vehicle">
@@ -2723,9 +2729,13 @@
     <!-- M.D. Job -->
     <Entry Id="menu_private_medic_title">
         <String xml:lang="en-US">Medical Doctor</String>
+        <String xml:lang="nl-NL">Medisch Arts</String>
+        <String xml:lang="hi-Latn">Medical Doctor</String>
     </Entry>
 
     <Entry Id="menu_private_medic_calls_description">
         <String xml:lang="en-US">View recent calls for a medical doctor.</String>
+        <String xml:lang="nl-NL">Bekijk alle oproepen voor een medische arts.</String>
+        <String xml:lang="hi-Latn">Medical doctor ke recent calls dekhne ke liye.</String>
     </Entry>
 </Entries>
