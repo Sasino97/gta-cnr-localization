@@ -83,6 +83,7 @@
     <Entry Id="jobs_license_required">
         <String xml:lang="en-US">You need a ~b~{0}~s~ to become a {1}.</String>
         <String xml:lang="nl-NL">Je hebt een ~b~{0}~s~ nodig om een {1} te worden.</String>
+        <String xml:lang="fr-FR">Il faut un ~b~{0}~s~ pour devenir {1}.</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -225,7 +226,8 @@
 
     <Entry Id="jobs_ban_info">
         <String xml:lang="en-US">Ban reason: ~r~{0}~s~. Expires ~y~{1}~s~.</String>
-        <String xml:lang="nl-NL">Ban reden: ~r~{0}~s~. Verloopt ~y~{1}~s~.</String>        
+        <String xml:lang="nl-NL">Ban reden: ~r~{0}~s~. Verloopt ~y~{1}~s~.</String>   
+        <String xml:lang="fr-FR">Raison du bannissement: ~r~{0}~s~. Expiration: ~y~{1}~s~.</String>     
     </Entry>
 
     <!-- ========================= -->
@@ -2881,6 +2883,7 @@
     <Entry Id="police_cant_uncuff_when_in_vehicle">
         <String xml:lang="en-US">You cannot ~o~uncuff ~s~someone when you and the ~r~target ~s~are not in the same ~y~vehicle~s~.</String>
         <String xml:lang="nl-NL">Je kan iemand zijn handboeien ~o~niet losmaken ~s~wanneer jij en het ~r~doelwit ~s~niet in hetzelfde ~y~voertuig ~s~zitten.</String>
+        <String xml:lang="fr-FR">Tu ne peux pas ~o~démenotter ~s~quelqu'un si tu n'es pas dans le même ~y~véhicule ~s~que la ~r~personne visée~s~.</String>
     </Entry>
 
     <Entry Id="police_giving_ticket">
@@ -5906,6 +5909,7 @@
     <Entry Id="hitman_payphone_used_hint">
         <String xml:lang="en-US">{0} was seen somewhere around {1}. Open your map to view the area.</String>
         <String xml:lang="nl-NL">{0} was ergens gezien rond {1}. Open je kaart om dit gebied te bekijken.</String>
+        <String xml:lang="fr-FR">{0} a été vu quelque part autour de {1}. Ouvre ta map pour voir la zone.</String>
     </Entry>
     
     <!-- {0} Name (id) of the target (already colored) -->
