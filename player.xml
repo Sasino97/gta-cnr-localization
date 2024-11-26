@@ -121,21 +121,9 @@
         <String xml:lang="hi-Latn">Iss area mein ~r~airplanes ~s~kam uchai par udhana allowed nahi hai.</String>
     </Entry>
 
-    <Entry Id="cayo_deathmatch_zone_entered">
-        <String xml:lang="en-US">~y~Warning! ~s~You just entered the ~r~Cayo Perico Deathmatch Zone~s~. Civilians and criminals are allowed to kill anyone on sight here.</String>
-        <String xml:lang="nl-NL">~y~Waarschuwing! ~s~Je bent zojuist de ~r~Cayo Perico Deathmatch Zone~s~ betreden. Burgers en verdachten zijn toegestaan om iedereen hier te vermoorden.</String>
-        <String xml:lang="fr-FR">~y~Avertissement! ~s~Tu viens d'entrer dans la ~r~zone de combat à mort de Cayo Perico~s~. Les civils et les criminels sont autorisés à tuer n'importe qui à vue ici.</String>
-        <String xml:lang="it-IT">~y~Attenzione! ~s~Sei appena entrato nella ~r~Zona Deathmatch di Cayo Perico~s~. I civili e criminali qui sono autorizzati ad uccidere chiunque a vista.</String>
-        <String xml:lang="de-DE">~y~Achtung! ~s~Du hast gerade die ~r~Cayo Perico Deathmatch Zone~s~ betreten. Zivilisten und Kriminelle dürfen jeden bei Sichtkontakt töten.</String>
-        <String xml:lang="es-ES">~y~¡Advertencia! ~s~Acabas de entrar en la ~r~zona de combate a muerte de Cayo Perico~s~. Los civiles y los criminales pueden matar a cualquiera que vean aquí.</String>
-        <String xml:lang="pl-PL">~y~Ostrzeżenie! ~s~Weszłeś do ~r~Strefy Deathmatchu Cayo Perico~s~. Cywile i kryminaliści mogą zabijać tu zabijać wszystkich.</String>
-        <String xml:lang="pt-BR">~y~Aviso! ~s~Você acabou de entrar na ~r~zona de combate mortal de Cayo Perico~s~. Os civis e criminosos podem matar qualquer pessoa que virem aqui.</String>
-        <String xml:lang="ar-001">~y~تحذير! ~s~لقد دخلت للتو ~r~Cayo Perico Deathmatch منطقة~s~. يُسمح للمدنيين والمجرمين بقتل أي شخص يراه هنا.</String>
-        <String xml:lang="th-TH">~y~คำเตือน! ~s~คุณเพิ่งเข้าสู่ ~r~Cayo Perico Deathmatch Zone~s~ พลเรือนและอาชญากรได้รับอนุญาตให้สังหารใครก็ตามที่เห็นได้ที่นี่</String>
-        <String xml:lang="id-ID">~y~Peringatan! ~s~Anda baru saja memasuki ~r~zona deathmatch Cayo Perico~s~. Warga dan kriminal diperbolehkan untuk membunuh siapapun yang dilihat</String>
-        <String xml:lang="hi-Latn">~y~Warning! ~s~Aapne abhi ~r~Cayo Perico Deathmatch Zone ~s~mein enter kiya hai. Yahan civilians aur criminals ko kisi ko bhi marne ki permission hai.</String>
-    </Entry>
-
+    <!-- ========================= -->
+    <!-- Redzones -->
+    <!-- ========================= -->
     <Entry Id="redzone_entered">
         <String xml:lang="en-US">~y~Warning! ~s~You just entered a ~r~redzone~s~. Civilians and criminals are allowed to kill anyone on sight here.</String>
         <String xml:lang="nl-NL">~y~Waarschuwing! ~s~Je bent zojuist een ~r~rode zone~s~ betreden. Burgers en verdachten zijn toegestaan om iedereen hier te vermoorden.</String>
@@ -149,6 +137,73 @@
         <String xml:lang="th-TH">~y~คำเตือน! ~s~คุณเพิ่งเข้าสู่ ~r~เรดโซน~s~ พลเรือนและอาชญากรได้รับอนุญาตให้สังหารใครก็ตามที่เห็นได้ที่นี่</String>
         <String xml:lang="id-ID">~y~Peringatan! ~s~Anda baru saja memasuki ~r~zona merah~s~. Warga dan kriminal diperbolehkan membunuh siapapun yang dilihat.</String>
         <String xml:lang="hi-Latn">~y~Warning! ~s~Aapne abhi ek ~r~redzone ~s~mein enter kiya hai. Yahan civilians aur criminals ko kisi ko bhi maarne ki permission hai.</String>
+    </Entry>
+
+    <Entry Id="redzone_entered_cop">
+        <String xml:lang="en-US">1.5x bonus for ~b~arresting ~s~and ~r~killing ~s~criminals in this zone.</String>
+        <String xml:lang="nl-NL">1.5x bonus voor het ~b~arresteren ~s~en ~r~vermoorden ~s~van criminelen in deze zone.</String>
+        <String xml:lang="fr-FR">x1,5 bonus pour ~b~l'arrestation ~s~et le ~r~meurtre ~s~de criminels dans cette zone.</String>
+    </Entry>
+
+    <Entry Id="redzone_entered_ems">
+        <String xml:lang="en-US">1.5x bonus for ~p~reviving ~s~and ~r~healing ~s~patients in this zone.</String>
+        <String xml:lang="nl-NL">1.5x bonus voor ~p~reanimeren ~s~en ~r~genezen ~s~van patienten in deze zone.</String>
+        <String xml:lang="fr-FR">x1,5 bonus pour la ~p~réanimation ~s~et le ~r~soin ~s~des blessés dans cette zone.</String>
+    </Entry>
+    
+    <Entry Id="redzone_entered_crim">
+        <String xml:lang="en-US">Killing ~b~police officers ~s~and ~p~paramedics ~s~in this zone is rewarded.</String>
+        <String xml:lang="nl-NL">Het vermoorden van ~b~politie agenten ~s~en ~p~ambulanciers ~s~in deze zone word beloond.</String>
+        <String xml:lang="fr-FR">Tuer des ~b~policiers ~s~et des ~p~ambulanciers ~s~dans cette zone est récompensé.</String>
+    </Entry>
+
+    
+    <Entry Id="redzone_announcement">
+        <String xml:lang="en-US">(C)Redzones:(/C) the active redzone is now (C){0}(/C).</String>
+        <String xml:lang="nl-NL">(C)Rode zone:(/C) de actieve rode zone is nu (C){0}(/C).</String>
+        <String xml:lang="fr-FR">(C)Zones rouges:(/C) la zone rouge active est maintenant à (C){0}(/C).</String>
+    </Entry>
+    
+    <Entry Id="redzone_announcement_cop">
+        <String xml:lang="en-US">Arrest and kill criminals in redzones for a 1.5x bonus.</String>
+        <String xml:lang="nl-NL">Arresteer en vermoord criminelen in rode zones voor een 1.5x bonus.</String>
+        <String xml:lang="fr-FR">Arrêter et tuer les criminels dans les zones rouges pour un bonus x1,5.</String>
+    </Entry>
+    
+    <Entry Id="redzone_announcement_ems">
+        <String xml:lang="en-US">Revive and heal patients in redzones for a 1.5x bonus.</String>
+        <String xml:lang="nl-NL">Reanimeer en genees patienten in rode zones voor een 1.5x bonus.</String>
+        <String xml:lang="fr-FR">Ranimer et soigner les blessés dans les zones rouges pour un bonus x1,5.</String>
+    </Entry>
+    
+    <Entry Id="redzone_announcement_crim">
+        <String xml:lang="en-US">Kill cops and medics inside redzones for a reward.</String>
+        <String xml:lang="nl-NL">Vermoord politieagenten en ambulanciers binnen in rode zones voor een beloning.</String>
+        <String xml:lang="fr-FR">Tuer des policiers et des ambulanciers dans les zones rouges pour obtenir une récompense.</String>
+    </Entry>
+    
+
+    <Entry Id="redzone_left">
+        <String xml:lang="en-US">You left the ~r~redzone~s~.</String>
+        <String xml:lang="nl-NL">Je hebt de ~r~rode zone~s~ verlaten.</String>
+        <String xml:lang="fr-FR">Tu as quitté la ~r~zone rouge~s~.</String>
+    </Entry>
+
+    <Entry Id="redzone_command">
+        <String xml:lang="en-US">The current redzone is ~r~{0}~s~.</String>
+        <String xml:lang="nl-NL">De huidige rode zone is ~r~{0}~s~.</String>
+        <String xml:lang="fr-FR">La zone rouge actuelle est à ~r~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="redzone_will_change">
+        <String xml:lang="en-US">(C)Redzones:(/C) the active redzone will change ~y~{0}~s~.</String>
+        <String xml:lang="nl-NL">(C)Rode zones:(/C) de actieve rode zone verandert ~y~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="redzone_changed">
+        <String xml:lang="en-US">~r~Redzone changed</String>
+        <String xml:lang="nl-NL">~r~Rode zone is verandert</String>
+        <String xml:lang="fr-FR">~r~Changement de zone rouge</String>
     </Entry>
 
     <!-- ========================= -->
