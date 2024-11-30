@@ -490,6 +490,7 @@
         <String xml:lang="id-ID">Masukkan jumlah yang akan disetorkan.</String>
         <String xml:lang="hi-Latn">Deposit karne ke liye ek amount enter kare.</String>
         <String xml:lang="cs-CZ">Zadej částku k vložení.</String>
+        <String xml:lang="no-NO">Skriv inn et beløp som skal settes inn.</String>
     </Entry>
 
     <Entry Id="deposit_too_little">
@@ -510,6 +511,7 @@
         <String xml:lang="id-ID">~r~Anda tidak dapat menyetokan kurang dari ~s~{0} ~r~dalam satu kali transaksi</String>
         <String xml:lang="hi-Latn">~r~Aap isse kam ~s~{0} ~r~deposit nahi kar sakte ek time pe.</String>
         <String xml:lang="cs-CZ">~r~Nemůžeš vložit méně než ~s~{0} ~r~najednou.</String>
+        <String xml:lang="no-NO">~r~Du kan ikke sette inn mindre enn ~s~{0} ~r~ om gangen.</String>
     </Entry>
 
     <Entry Id="deposit_too_much">
@@ -530,6 +532,7 @@
         <String xml:lang="id-ID">~r~Anda hanya mampu menyetorkan dana sebesar ~s~{0} ~r~dalam satu kali transaksi</String>
         <String xml:lang="hi-Latn">~r~Aap isse zyada ~s~{0} ~r~deposit nahi kar sakte ek time pe.</String>
         <String xml:lang="cs-CZ">~r~Můžeš vložit pouze ~s~{0} ~r~najednou.</String>
+        <String xml:lang="no-NO">~r~Du kan bare sette inn ~s~{0} ~r~ om gangen.</String>
     </Entry>
 
     <Entry Id="atm_no_hacking_device">
@@ -550,6 +553,7 @@
         <String xml:lang="id-ID">Anda membutuhkan ~y~{0}~s~.</String>
         <String xml:lang="hi-Latn">Aapke paas ~y~{0} ~s~nahi hai.</String>
         <String xml:lang="cs-CZ">Na toto potřebuješ ~y~{0}~s~.</String>
+        <String xml:lang="no-NO">Du trenger en ~y~{0}~s~.</String>
     </Entry>
 
     <Entry Id="btn_atm_use">
@@ -570,6 +574,7 @@
         <String xml:lang="id-ID">Gunakan ATM</String>
         <String xml:lang="hi-Latn">Use ATM</String>
         <String xml:lang="cs-CZ">Použít bankomat</String>
+        <String xml:lang="no-NO">Bruk minibank</String>
     </Entry>
 
     <Entry Id="btn_atm_hack">
@@ -590,6 +595,8 @@
         <String xml:lang="id-ID">Meretas</String>
         <String xml:lang="hi-Latn">Hack</String>
         <String xml:lang="cs-CZ">Prolomit</String>
+        <String xml:lang="no-NO">Hakke</String>
+
     </Entry>
 
     <Entry Id="atm_hacking_cooldown">
@@ -610,6 +617,7 @@
         <String xml:lang="hi-Latn">Aap ko wait karna hoga ~r~{0} seconds ~s~doosra ~y~ATM ~s~hack karne se pehle.</String>
         <String xml:lang="id-ID">Kamu harus menunggu ~r~{0} detik ~s~sebelum bisa melakukan hacking ~y~ATM ~s~lagi.</String>
         <String xml:lang="cs-CZ">Musíš počkat ~r~{0} sekund ~s~než se pokusíš prolomit další ~y~bankomat~s~.</String>
+        <String xml:lang="no-NO">Du må vente ~r~{0} sekunder ~s~før du hacker en annen ~y~minibank~s~.</String>
 
     </Entry>
 
@@ -631,6 +639,7 @@
         <String xml:lang="id-ID">Anda berhasil meretas ~r~ATM~s~ dan berhasil mencuri ~g~{0}~s~!</String>
         <String xml:lang="hi-Latn">Aapne hack kiye ~r~ATM~s~ aur churaye ~g~{0}~s~!</String>
         <String xml:lang="cs-CZ">Prolomil jsi ~r~bankomat~s~ a ukradl ~g~{0}~s~!</String>
+        <String xml:lang="no-NO">Du hacket ~r~ATM~s~ og du stjal ~g~{0}~s~!</String>
     </Entry>
 
     <Entry Id="atm_hacking_success_announcement">
@@ -651,5 +660,6 @@
         <String xml:lang="hi-Latn">{0} ne hack kiya aur churaya {1}.</String>
         <String xml:lang="id-ID">{0} berhasil meretas ATM dan mencuri {1}!</String>
         <String xml:lang="cs-CZ">{0} prolomil bankomat a ukradl {1}.</String>
+        <String xml:lang="no-NO">{0} hacket en minibank og stjal {1}.</String>
     </Entry>
 </Entries>
