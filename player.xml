@@ -14,6 +14,7 @@
         <String xml:lang="th-TH">{0} ~s~ต้องการแบ่งปันตำแหน่งของพวกเขากับคุณ</String>
         <String xml:lang="id-ID">{0} ~s~Ingin membagikan lokasinya kepada anda</String>
         <String xml:lang="hi-Latn">{0} ~s~apni location share karna chahte hain aapse.</String>
+        <String xml:lang="lv-LV">{0} ~s~grib dalīties ar savu lokāciju.</String>
     </Entry>
 
     <Entry Id="gun_free_zone_entered">
@@ -29,6 +30,7 @@
         <String xml:lang="th-TH">~y~คำเตือน! ~s~คุณเพิ่งเข้าสู่ ~g~เขตปลอดปืน~s~ พลเรือนไม่สามารถใช้อาวุธปืนได้ที่นี่</String>
         <String xml:lang="id-ID">~y~Peringatan! ~s~Anda telah memasuki ~g~zona bebas senjata~s~. Warga tidak dapat menggunakan senjata api disini.</String>
         <String xml:lang="hi-Latn">~y~Warning! ~s~Aap bas ek ~g~gun-free zone ~s~enter kiye hain. Civilians yaha bandookon ka istemaal nahi kar sakte.</String>
+        <String xml:lang="lv-LV">~y~Brīdinājums! ~s~Jūs ienācāt ~g~gun-free zonā~s~. Civilie nevar izmantot ieročus šeit.</String>
     </Entry>
 
     <Entry Id="gun_free_zone_left">
@@ -44,6 +46,7 @@
         <String xml:lang="th-TH">คุณเพิ่งออกจาก ~g~เขตปลอดปืน~s~</String>
         <String xml:lang="id-ID">Anda baru saja meninggalkan ~g~zona bebas senjata~s~.</String>
         <String xml:lang="hi-Latn">Aap bas bahar aaye ~g~gun-free zone ~s~se.</String>
+        <String xml:lang="lv-LV">Jus tikko atstājāt ~g~gun-free zonu~s~.</String>
     </Entry>
 
     <Entry Id="mumble_voice_chat_disabled">
@@ -59,6 +62,7 @@
         <String xml:lang="th-TH">การแชทด้วยเสียงของคุณ ~r~ปิด~s~! คุณสามารถเปิดใช้งานได้ในเมนูหยุดชั่วคราว</String>
         <String xml:lang="id-ID">Voice chat anda ~r~dimatikan~s~! Anda dapat menyalakannya kembali di menu pause.</String>
         <String xml:lang="hi-Latn">Tumhara voice chat ~r~band ~s~hai! Aap pause menu mein jaake enable kar sakte ho..</String>
+        <String xml:lang="lv-LV">Jūsu balss tērzēšana ir ~r~atspējota~s~! Jūs varat iespējot to pauzes izvelnē.</String>
     </Entry>
 
     <Entry Id="mumble_mic_disable">
@@ -74,6 +78,7 @@
         <String xml:lang="th-TH">ไมโครโฟนของคุณ ~r~ปิด~s~! คุณสามารถเปิดใช้งานได้ในเมนูหยุดชั่วคราว</String>
         <String xml:lang="id-ID">Mikrofon anda ~r~dimatikan~s~! Anda dapat menyalakannya kembali di menu pause.</String>
         <String xml:lang="hi-Latn">Aapka microphone ~r~band ~s~hai! Aap pause menu mein jaake enable kar sakte ho..</String>
+        <String xml:lang="lv-LV">Jūsu mikrofons ir ~r~atspējots~s~! Jūs varat iespējot to pauzes izvelnē.</String>
     </Entry>
 
     <Entry Id="mumble_connected_voice_server">
@@ -89,6 +94,7 @@
         <String xml:lang="th-TH">ตอนนี้คุณเชิ่อมต่อ ~p~เปิดไมค์~s~</String>
         <String xml:lang="id-ID">Sekarang anda terhubung ke ~p~server suara~s~.</String>
         <String xml:lang="hi-Latn">Ab aap connect ho gaye ho ~p~voice server ~s~se.</String>
+        <String xml:lang="lv-LV">Jūs tagad esat pieslēgts ~p~balss tērzēšanas serverim~s~.</String>
     </Entry>
 
     <Entry Id="mumble_disconnected_voice_server">
@@ -104,6 +110,7 @@
         <String xml:lang="th-TH">คุณถูกตัดการเชื่อมต่อจาก ~p~เซิร์ฟเวอร์เสียง~s~</String>
         <String xml:lang="id-ID">Anda terputus dari jaringan ~p~server suara~s~.</String>
         <String xml:lang="hi-Latn">Aap disconnect ho gaye ho ~p~voice server ~s~se.</String>
+        <String xml:lang="lv-LV">Jūs tikat atslēgts no ~p~balss tērzēšanas servera~s~.</String>
     </Entry>
 
     <Entry Id="no_fly_zone_low_altitude">
@@ -119,6 +126,7 @@
         <String xml:lang="th-TH">คุณไม่สามารถ ~r~บินเครื่องบิน ~s~ที่ระดับความสูงต่ำในบริเวณนี้ได้</String>
         <String xml:lang="id-ID">Anda tidak dapat ~r~menerbangkan pesawat ~s~dengan ketinggian yang terlalu rendah di area ini.</String>
         <String xml:lang="hi-Latn">Iss area mein ~r~airplanes ~s~kam uchai par udhana allowed nahi hai.</String>
+        <String xml:lang="lv-LV">Jūs nevarat ~r~lidot ar līdmašīnu ~s~zemā augstumā šajā zonā.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -137,24 +145,31 @@
         <String xml:lang="th-TH">~y~คำเตือน! ~s~คุณเพิ่งเข้าสู่ ~r~เรดโซน~s~ พลเรือนและอาชญากรได้รับอนุญาตให้สังหารใครก็ตามที่เห็นได้ที่นี่</String>
         <String xml:lang="id-ID">~y~Peringatan! ~s~Anda baru saja memasuki ~r~zona merah~s~. Warga dan kriminal diperbolehkan membunuh siapapun yang dilihat.</String>
         <String xml:lang="hi-Latn">~y~Warning! ~s~Aapne abhi ek ~r~redzone ~s~mein enter kiya hai. Yahan civilians aur criminals ko kisi ko bhi maarne ki permission hai.</String>
+        <String xml:lang="lv-LV">~y~Brīdinājums! ~s~Jūs tikko ienācāt ~r~sarkanajā zonā~s~. Civilie un noziedznieki drīkst nogalināt jebkuru šeit.</String>
     </Entry>
 
     <Entry Id="redzone_entered_cop">
         <String xml:lang="en-US">1.5x bonus for ~b~arresting ~s~and ~r~killing ~s~criminals in this zone.</String>
         <String xml:lang="nl-NL">1.5x bonus voor het ~b~arresteren ~s~en ~r~vermoorden ~s~van criminelen in deze zone.</String>
         <String xml:lang="fr-FR">x1,5 bonus pour ~b~l'arrestation ~s~et le ~r~meurtre ~s~de criminels dans cette zone.</String>
+        <String xml:lang="lv-LV">1.5x bonuss par noziedznieku ~b~arestēšanu ~s~un ~r~nogalināšanu ~s~šajā zonā.</String>
+        <String xml:lang="de-DE">1.5x Bonus für das ~b~Festnehmen ~s~und ~r~Töten ~s~von Kriminellen in diesem Bereich.</String>
     </Entry>
 
     <Entry Id="redzone_entered_ems">
         <String xml:lang="en-US">1.5x bonus for ~p~reviving ~s~and ~r~healing ~s~patients in this zone.</String>
         <String xml:lang="nl-NL">1.5x bonus voor ~p~reanimeren ~s~en ~r~genezen ~s~van patienten in deze zone.</String>
         <String xml:lang="fr-FR">x1,5 bonus pour la ~p~réanimation ~s~et le ~r~soin ~s~des blessés dans cette zone.</String>
+        <String xml:lang="lv-LV">1.5x bonuss par pacientu ~p~atdzīvināšanu ~s~un ~r~dziedēšanu~s~ šajā zonā.</String>
+        <String xml:lang="de-DE">1.5x Bonus für das ~p~Wiederbeleben ~s~und ~r~Heilen ~s~von Patienten in diesem Bereich.</String>
     </Entry>
     
     <Entry Id="redzone_entered_crim">
         <String xml:lang="en-US">Killing ~b~police officers ~s~and ~p~paramedics ~s~in this zone is rewarded.</String>
         <String xml:lang="nl-NL">Het vermoorden van ~b~politie agenten ~s~en ~p~ambulanciers ~s~in deze zone word beloond.</String>
         <String xml:lang="fr-FR">Tuer des ~b~policiers ~s~et des ~p~ambulanciers ~s~dans cette zone est récompensé.</String>
+        <String xml:lang="lv-LV">~b~Policistu ~s~un ~p~ārstu ~s~nogalināšana šajā zonā ir atalgota.</String>
+        <String xml:lang="de-DE">Das Töten von ~b~Polizisten ~s~und ~p~Medizinern ~s~in diesem Bereich wird belohnt.</String>
     </Entry>
 
     
@@ -162,24 +177,32 @@
         <String xml:lang="en-US">(C)Redzones:(/C) the active redzone is now (C){0}(/C).</String>
         <String xml:lang="nl-NL">(C)Rode zone:(/C) de actieve rode zone is nu (C){0}(/C).</String>
         <String xml:lang="fr-FR">(C)Zones rouges:(/C) la zone rouge active est maintenant à (C){0}(/C).</String>
+        <String xml:lang="lv-LV">(C)Sarkanā zona:(/C) aktīva sarkanā zona tagad ir (C){0}(/C).</String>
+        <String xml:lang="de-DE">(C)Rote Zone:(/C) die aktuelle Rote Zone ist bei (C){0}(/C).</String>
     </Entry>
     
     <Entry Id="redzone_announcement_cop">
         <String xml:lang="en-US">Arrest and kill criminals in redzones for a 1.5x bonus.</String>
         <String xml:lang="nl-NL">Arresteer en vermoord criminelen in rode zones voor een 1.5x bonus.</String>
         <String xml:lang="fr-FR">Arrêter et tuer les criminels dans les zones rouges pour un bonus x1,5.</String>
+        <String xml:lang="lv-LV">Arestējiet un nogalinājiet noziedzniekus sarkanajā zonā, lai iegūtu 1.5x bonusu.</String>
+        <String xml:lang="de-DE">Verhaftet und tötet Verbrecher in roten Zonen für einen 1,5x Bonus.</String>
     </Entry>
     
     <Entry Id="redzone_announcement_ems">
         <String xml:lang="en-US">Revive and heal patients in redzones for a 1.5x bonus.</String>
         <String xml:lang="nl-NL">Reanimeer en genees patienten in rode zones voor een 1.5x bonus.</String>
         <String xml:lang="fr-FR">Ranimer et soigner les blessés dans les zones rouges pour un bonus x1,5.</String>
+        <String xml:lang="lv-LV">Atdzīviniet un dziedējiet pacientus sarkanajās zonās priekš 1.5x bonusa.</String>
+        <String xml:lang="de-DE">Belebe und heile Patienten in roten Zonen für einen 1,5x Bonus.</String>
     </Entry>
     
     <Entry Id="redzone_announcement_crim">
         <String xml:lang="en-US">Kill cops and medics inside redzones for a reward.</String>
         <String xml:lang="nl-NL">Vermoord politieagenten en ambulanciers binnen in rode zones voor een beloning.</String>
         <String xml:lang="fr-FR">Tuer des policiers et des ambulanciers dans les zones rouges pour obtenir une récompense.</String>
+        <String xml:lang="lv-LV">Nogaliniet policistus un ārstus sarkanajās zonās priekš atlīdzības.</String>
+        <String xml:lang="de-DE">Töte Polizisten und Mediziner innerhalb der roten Zonen um eine Belohnung zu erhalten.</String>
     </Entry>
     
 
@@ -187,23 +210,31 @@
         <String xml:lang="en-US">You left the ~r~redzone~s~.</String>
         <String xml:lang="nl-NL">Je hebt de ~r~rode zone~s~ verlaten.</String>
         <String xml:lang="fr-FR">Tu as quitté la ~r~zone rouge~s~.</String>
+        <String xml:lang="lv-LV">Jūs atstājāt ~r~sarkano zonu~s~.</String>
+        <String xml:lang="de-DE">Du hast die ~r~rote Zone~s~ verlassen.</String>
     </Entry>
 
     <Entry Id="redzone_command">
         <String xml:lang="en-US">The current redzone is ~r~{0}~s~.</String>
         <String xml:lang="nl-NL">De huidige rode zone is ~r~{0}~s~.</String>
         <String xml:lang="fr-FR">La zone rouge actuelle est à ~r~{0}~s~.</String>
+        <String xml:lang="lv-LV">Pašreizēja sarkanā zona ir ~r~{0}~s~.</String>
+        <String xml:lang="de-DE">Die aktuelle rote Zone ist ~r~{0}~s~.</String>
     </Entry>
 
     <Entry Id="redzone_will_change">
         <String xml:lang="en-US">(C)Redzones:(/C) the active redzone will change ~y~{0}~s~.</String>
-        <String xml:lang="nl-NL">(C)Rode zones:(/C) de actieve rode zone verandert ~y~{0}~s~.</String>
+        <String xml:lang="lv-LV">(C)Sarkanās zonas:(/C) aktīva sarkanā zona nomainīsies ~y~{0}~s~.</String>
+        <String xml:lang="nl-NL">(C)Rode zones:(/C) de actieve rode zone verandert elke ~y~{0}~s~.</String>
+        <String xml:lang="de-DE">(C)Rote Zone:(/C) die aktuelle rote Zone wird sich ändern: ~y~{0}~s~.</String>
     </Entry>
 
     <Entry Id="redzone_changed">
         <String xml:lang="en-US">~r~Redzone changed</String>
         <String xml:lang="nl-NL">~r~Rode zone is verandert</String>
         <String xml:lang="fr-FR">~r~Changement de zone rouge</String>
+        <String xml:lang="lv-LV">~r~Sarkanā zona ir mainījusies</String>
+        <String xml:lang="de-DE">~r~Rote Zone wurde geändert</String>
     </Entry>
 
     <!-- ========================= -->
@@ -222,6 +253,7 @@
         <String xml:lang="th-TH">~g~รายงาน ~s~บน ~r~{0} ~s~ของคุณถูกส่งไปแล้ว</String>
         <String xml:lang="id-ID">~g~Laporan anda ~s~terhadap ~r~{0} ~s~telah berhasil dikirimkan</String>
         <String xml:lang="hi-Latn">Aapki ~g~report ~s~inn par ~r~{0} ~s~submit ho gayi hai.</String>
+        <String xml:lang="lv-LV">Jūsu ~g~ziņojums ~s~par ~r~{0} ~s~tika iesniegts.</String>
     </Entry>
 
     <Entry Id="report_cant_report_player_that_soon">
@@ -237,6 +269,7 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถรายงานผู้เล่นคนเดียวกันได้ในเร็วๆ นี้</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat melaporkan pemain yang sama secepat itu.</String>
         <String xml:lang="hi-Latn">~r~Itni jaldi wapas usi player ko report nahi kar sakte ho.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat ziņot par to pašu spēlētāju tik drīz.</String>
     </Entry>
 
     <Entry Id="report_cmd_suggestion_help">
@@ -246,6 +279,7 @@
         <String xml:lang="it-IT">Segnala un giocatore per violazione delle regole di gioco o dei ToS.</String>
         <String xml:lang="fr-FR">Signaler un joueur qui enfreint les règles du jeu ou les CGU.</String>
         <String xml:lang="id-ID">Laporkan pemain yang melanggar aturan atau ToS.</String>
+        <String xml:lang="lv-LV">Ziņojiet par spēlētāju, kas pārkāpj spēles noteikumus vai ToS.</String>
     </Entry>
 
     <Entry Id="report_cmd_suggestion_param_name">
@@ -255,6 +289,7 @@
         <String xml:lang="it-IT">ID giocatore</String>
         <String xml:lang="fr-FR">ID du joueur</String>
         <String xml:lang="id-ID">Id pemain</String>
+        <String xml:lang="lv-LV">spēlētaja ID</String>
     </Entry>
 
     <Entry Id="report_cmd_suggestion_param_help">
@@ -264,6 +299,7 @@
         <String xml:lang="it-IT">L'ID del giocatore che desideri segnalare.</String>
         <String xml:lang="fr-FR">L'ID du joueur que tu souhaites signaler.</String>
         <String xml:lang="id-ID">Id pemain yang akan dilaporkan.</String>
+        <String xml:lang="lv-LV">Spēlētāja ID, par kuru gribat ziņot.</String>
     </Entry>
 
     <Entry Id="input_report_warning">
@@ -273,6 +309,7 @@
         <String xml:lang="it-IT">Stai per segnalare ~r~{0} ~s~per {1}.\nSegnalare falsamente un altro utente comporterà ~r~il tuo ban~s~. Vuoi procedere?</String>
         <String xml:lang="fr-FR">Tu es sur le point de signaler ~r~{0} ~s~pour {1}.\nSi tu signales faussement un autre utilisateur, ~r~tu seras banni ~s~à sa place. Veux-tu continuer?</String>
         <String xml:lang="id-ID">Kamu akan melaporkan ~r~{0} ~s~untuk {1}.\nLaporan yang salah terhadap pemain lain akan ~r~membuatmu diban~s~. Apakah kamu ingin melanjutkan laporanmu?</String>
+        <String xml:lang="lv-LV">Jūs gatavojaties ziņot par ~r~{0} ~s~par {1}. \nNepatiesa ziņošana rezultēs ~r~jūsu konta bloķēšanā~s~. Vai jūs gribat turpināt?</String>
     </Entry>
 
     <!-- ========================= -->
@@ -291,6 +328,7 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถยกเลิกการเชื่อมโยงบริการทั้งหมดได้ จะต้องมีการเชื่อมโยงอย่างน้อยหนึ่งบริการ</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat memutuskan seluruh akun. Wajib ada satu akun yang tersambung. </String>
         <String xml:lang="hi-Latn">~r~Aap sabhi services ko unlink nahi kar sakte. Kam se kam ek service ko link rakhna hoga.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat atsaistīt visus servisus. Vismaz vienam servisam ir jābūt saistītam.</String>
     </Entry>
 
     <!-- {0} = Service name (Discord; FiveM; Steam; ...) -->
@@ -307,6 +345,7 @@
         <String xml:lang="th-TH">คุณ ~g~สำเร็จ ~s~ยกเลิกการเชื่อมโยง {0} จากบัญชีของคุณ</String>
         <String xml:lang="id-ID">Anda ~g~telah berhasil ~s~melepaskan {0} dari akun anda.</String>
         <String xml:lang="hi-Latn">Aapne ~g~successfully ~s~apne account se {0} ko unlink kar diya hai.</String>
+        <String xml:lang="lv-LV">Jūs ~g~veiksmīgi ~s~atsaistījāt {0} no jūsu konta.</String>
     </Entry>
 
     <Entry Id="service_linked">
@@ -322,6 +361,7 @@
         <String xml:lang="th-TH">คุณได้ ~g~สำเร็จ ~s~เชื่อมโยง ~b~{0} ~s~กับบัญชีของคุณ</String>
         <String xml:lang="id-ID">Anda telah ~g~berhasil ~s~menyambungkan ~b~{0} ~s~kepada akun anda.</String>
         <String xml:lang="hi-Latn">Aapne ~g~successfully ~s~apne account se ~b~{0} ~s~ko link kar diya hai.</String>
+        <String xml:lang="lv-LV">Jūs ~g~veiksmīgi ~s~saistījāt ~b~{0} ~s~ar savu kontu.</String>
     </Entry>
 
     <Entry Id="service_mail_already_linked">
@@ -337,6 +377,7 @@
         <String xml:lang="th-TH">~r~ที่อยู่อีเมลนี้เชื่อมโยงกับบัญชีอื่นแล้ว</String>
         <String xml:lang="id-ID">~r~Email ini sudah terhubung dengan akun lain.</String>
         <String xml:lang="hi-Latn">~r~Yeh email address pehle se hi doosre account se link hai.</String>
+        <String xml:lang="lv-LV">~r~Šīs e-pasts jau ir saistīts ar citu kontu.</String>
     </Entry>
 
     <Entry Id="service_mail_cooldown">
@@ -352,6 +393,7 @@
         <String xml:lang="th-TH">~r~คุณต้องรอ 2 นาทีระหว่างการพยายามเปลี่ยนอีเมล</String>
         <String xml:lang="id-ID">~r~Anda harus menunggu 2 menit untuk setiap percobaan penggantian email.</String>
         <String xml:lang="hi-Latn">~r~Aapko email change karne ke attempts ke beech mein 2 minutes ka wait karna hoga.</String>
+        <String xml:lang="lv-LV">~r~Jums ir jāpagaida 2 minūtes pirms citas e-pasta mainīšanas mēģinājuma.</String>
     </Entry>
 
     <Entry Id="service_mail_invalid">
@@ -367,6 +409,7 @@
         <String xml:lang="th-TH">~r~{0} ไม่ใช่ที่อยู่อีเมลที่ถูกต้อง</String>
         <String xml:lang="id-ID">~r~{0} bukan alamat email yang valid</String>
         <String xml:lang="hi-Latn">~r~{0} ek valid email address nahi hai.</String>
+        <String xml:lang="lv-LV">~r~{0} nav derīga e-pasta adrese.</String>
     </Entry>
 
     <!-- {0} = both the same -> Service name (Discord; FiveM; Steam; ...) -->
@@ -383,6 +426,7 @@
         <String xml:lang="th-TH">ไม่พบบัญชี {0} ตรวจสอบให้แน่ใจว่าแอปเดสก์ท็อป {0} ของคุณทำงานอยู่ จากนั้นรีสตาร์ท FiveM แล้วลองอีกครั้ง</String>
         <String xml:lang="id-ID">{0} akun tidak ditemukan. Pastikan aplikasi desktop {0} anda berjalan, lalu restart FiveM dan coba kembali.</String>
         <String xml:lang="hi-Latn">{0} account nahi mila. Check kare ki aapka {0} desktop app chal raha hai, phir FiveM restart karo aur retry karo.</String>
+        <String xml:lang="lv-LV">{0} konts netika atrasts. Pārliecinieties, ka jūsu {0} datora lietotne darbojas, pēc tam restartējiet FiveM un mēģiniet vēlreiz.</String>
     </Entry>
 
     <Entry Id="service_account_not_found_disconnect">
@@ -398,6 +442,7 @@
         <String xml:lang="th-TH">ไม่พบบัญชี {0} ยกเลิกการเชื่อมต่อและกลับไปที่ FiveM Launcher จากนั้นเข้าสู่ระบบบัญชี FiveM ของคุณแล้วลองอีกครั้ง</String>
         <String xml:lang="id-ID">{0} akun tidak ditemukan. Silahkan keluar dari server dan kembali ke menu utama FiveM, lalu login akun FiveM anda dan coba kembali.</String>
         <String xml:lang="hi-Latn">{0} account nahi mila. Disconnect karo aur FiveM launcher mein wapas jao, phir apne FiveM account mein login karo aur retry karo.</String>
+        <String xml:lang="lv-LV">{0} konts netika atrasts. Atvienojieties un atveriet FiveM Launcher, pēc tam ienāciet savā FiveM kontā un mēģiniet vēlreiz.</String>
     </Entry>
 
     <Entry Id="server_processing_request">
@@ -413,6 +458,7 @@
         <String xml:lang="th-TH">~r~เซิร์ฟเวอร์ยังคงประมวลผลคำขอก่อนหน้าของคุณ กรุณารอก่อนที่จะส่งอีก</String>
         <String xml:lang="id-ID">~r~Server ini masih memproses permintaan sebelumnya. Mohon tunggu, sebelum mengirimkan permintaan kembali.</String>
         <String xml:lang="hi-Latn">~r~Server abhi bhi aapka pehla request process kar raha hai. Ek aur request bhejne se pehle thoda wait karo.</String>
+        <String xml:lang="lv-LV">~r~Serveris vēl apstrādā jūsu iepriekšējo pieprasījumu. Lūdzu, uzgaidiet pirms cita sniegšanas.</String>
     </Entry>
 
     <Entry Id="entered_password_too_short">
@@ -428,6 +474,7 @@
         <String xml:lang="th-TH">~r~รหัสผ่านที่ป้อนสั้นเกินไป (ขั้นต่ำ 8 ตัวอักษร) การดำเนินการถูกยกเลิก</String>
         <String xml:lang="id-ID">~r~Kata sandi yang anda masukkan terlalu pendek (min 8 karakter). Pengerjaan dibatalkan.</String>
         <String xml:lang="hi-Latn">~r~Enter kiya gaya password bahut chhota hai (minimum 8 characters). Operation cancel ho gaya hai.</String>
+        <String xml:lang="lv-LV">~r~Ievadīta parole ir pārāk īsa (min 8 rakstu zīmes). Operācija atcelta.</String>
     </Entry>
 
     <Entry Id="entered_password_dont_match">
@@ -443,6 +490,7 @@
         <String xml:lang="th-TH">~r~รหัสผ่านที่ป้อนไม่ตรงกัน การดำเนินการถูกยกเลิก</String>
         <String xml:lang="id-ID">~r~Kata sandi yang anda masukkan tidak sesuai. Pengerjaan dibatalkan.</String>
         <String xml:lang="hi-Latn">~r~Enter kiye gaye passwords match nahi karte. Operation cancel ho gaya hai.</String>
+        <String xml:lang="lv-LV">~r~Ievadītas paroles nesakrīt. Operācija atcelta.</String>
     </Entry>
 
     <Entry Id="password_changed">
@@ -458,6 +506,7 @@
         <String xml:lang="th-TH">~b~รหัสผ่าน ~s~ของคุณได้ถูกเปลี่ยน ~g~เรียบร้อยแล้ว~s~</String>
         <String xml:lang="id-ID">~b~Kata sandi anda ~s~sudah ~g~berhasil diganti~s~.</String>
         <String xml:lang="hi-Latn">Aapka ~b~password ~s~ho chuka hai ~g~successfully change~s~.</String>
+        <String xml:lang="lv-LV">Jūsu ~b~parole ~s~tika ~g~veiksmīgi nomainīta~s~.</String>
     </Entry>
 
     <Entry Id="cant_do_while_fake_username">
@@ -473,6 +522,7 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถทำเช่นนี้ได้ในขณะที่คุณใช้ชื่อผู้ใช้ปลอม</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat melakukan ini dengan menggunakan nama panggilan palsu</String>
         <String xml:lang="hi-Latn">~r~Aap fake username use karte hue ye nahi kar sakte.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat darīt šo kamēr jūs lietojat viltotu lietotājvārdu.</String>
     </Entry>
 
     <Entry Id="cant_do_when_dead">
@@ -483,6 +533,7 @@
         <String xml:lang="de-DE">~r~Du kannst das nicht tun, wenn du tot bist.</String>
         <String xml:lang="it-IT">~r~Non puoi fare questo quando sei morto.</String>
         <String xml:lang="id-ID">~r~Tidak dapat melakukan ini ketika kamu mati.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat darīt šo kamēr esat miris.</String>
     </Entry>
 
     <!-- {0} = Item name -->
@@ -494,6 +545,7 @@
         <String xml:lang="de-DE">~r~Du kannst kein {0} nutzen, wenn du gefesselt bist.</String>
         <String xml:lang="it-IT">~r~Non puoi usare un {0} quando sei ammanettato.</String>
         <String xml:lang="id-ID">~r~Tidak dapat menggunakan {0} ketika kamu terborgol.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat lietot {0} kamēr esat rokudzelžos.</String>
     </Entry>
 
     <!-- {0} = Item name -->
@@ -504,6 +556,7 @@
         <String xml:lang="id-ID">~r~Kamu tidak dapat menggunakan {0} ketika sedang ditahan kepolisian.</String>
         <String xml:lang="it-IT">~r~Non puoi usare un {0} quando sei in custodia della polizia.</String>
         <String xml:lang="de-DE">~r~Du kannst kein {0} benutzen, wenn du dich in Polizeigewahrsam befindest.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat lietot {0} kamēr esat policijas apcietinājumā.</String>
     </Entry>
 
     <!-- {0} = Item name (Membership, Name-change token, ...) -->
@@ -520,6 +573,7 @@
         <String xml:lang="th-TH">คุณเปิดใช้งาน ~p~{0}~s~ สำเร็จแล้ว</String>
         <String xml:lang="id-ID">Anda telah berhasil mengaktifkan ~p~{0}~s~ anda.</String>
         <String xml:lang="hi-Latn">Tumne apna ~p~{0} ~s~successfully activate kar liya hai.</String>
+        <String xml:lang="lv-LV">Jūs veiksmīgi aktivizējat savu ~p~{0}~s~.</String>
     </Entry>
 
     <Entry Id="already_active_subscription">
@@ -535,6 +589,7 @@
         <String xml:lang="th-TH">~r~คุณมีการสมัครใช้งานอยู่แล้ว หากคุณต้องการความช่วยเหลือ ให้เปิดตั๋วสนับสนุนบน Discord ของเรา</String>
         <String xml:lang="id-ID">~r~Anda sudah memiliki paket langganan yang aktif. Jika membutuhkan bantuan, silahkan buka support tiket di Discord kami.</String>
         <String xml:lang="hi-Latn">~r~Aapke paas already ek active subscription hai. Agar help chahiye toh hamare Discord pe support ticket kholo.</String>
+        <String xml:lang="lv-LV">~r~Jums jau ir aktīvs abonements. Ja jums ir nepieciešama palīdzība, atveriet atbalsta pieprasījumu mūsu Discord vietnē.</String>
     </Entry>
 
     <Entry Id="unable_deactivate_silver_membership">
@@ -550,6 +605,7 @@
         <String xml:lang="th-TH">~r~ไม่สามารถปิดการใช้งาน Silver Membership ปัจจุบันของคุณเพื่ออัปเกรดได้ หากข้อผิดพลาดยังคงอยู่ โปรดเปิดตั๋วสนับสนุนบน Discord ของเรา</String>
         <String xml:lang="id-ID">~r~Tidak dapat menonaktifkan paket langganan silver anda untuk peningkatan paket. Jika masih terjadi error, silahkan buka support tiket di Discord kami.</String>
         <String xml:lang="hi-Latn">~r~Aapke current Silver Membership ko upgrade karne mein problem aa rahi hai. Agar error aata rehta hai, toh Discord pe support ticket kholo.</String>
+        <String xml:lang="lv-LV">~r~Nav iespējams deaktivizēt jūsu pašreizējo Sudraba Abonementu lai jauninātu. Ja kļūda saglabājas, lūdzu atveriet atbalsta pieprasījumu mūsu Discord vietnē.</String>
     </Entry>
 
     <Entry Id="visit_hospital_plastic_surgery">
@@ -565,6 +621,7 @@
         <String xml:lang="th-TH">เยี่ยมชม ~r~โรงพยาบาล ~s~เพื่อรับ ~p~ศัลยกรรมพลาสติก~s~</String>
         <String xml:lang="id-ID">Kunjungi ~r~rumah sakit ~s~untuk mendapatkan ~p~operasi plastik~s~.</String>
         <String xml:lang="hi-Latn">Visit kare ek ~r~hospital ~s~apni ~p~plastic surgery ~s~karwane ke liye.</String>
+        <String xml:lang="lv-LV">Apmeklējiet ~r~slimnīcu~s~, lai iegūtu ~p~plastisku ķirurģiju~s~.</String>
     </Entry>
 
     <Entry Id="operation_canceled">
@@ -580,6 +637,7 @@
         <String xml:lang="th-TH">~r~การดำเนินการถูกยกเลิก</String>
         <String xml:lang="id-ID">~r~Operasi dibatalkan.</String>
         <String xml:lang="hi-Latn">~r~Operation cancel ho gaya hai.</String>
+        <String xml:lang="lv-LV">~r~Operācija atcelta.</String>
     </Entry>
 
     <Entry Id="account_menu_change_username">
@@ -595,6 +653,7 @@
         <String xml:lang="th-TH">กลับไปที่เมนู ~b~บัญชี ~s~เพื่อเปลี่ยนชื่อผู้ใช้ของคุณ</String>
         <String xml:lang="id-ID">Kembali ke ~b~Akun ~s~menu untuk mengganti nama panggilan anda.</String>
         <String xml:lang="hi-Latn">Apna username change karne ke liye ~b~Account ~s~menu mein jaao.</String>
+        <String xml:lang="lv-LV">Atgriezieties pie ~b~Konta ~s~izvēlnes, lai mainītu savu lietotājvārdu.</String>
     </Entry>
 
     <Entry Id="item_cant_used">
@@ -610,6 +669,7 @@
         <String xml:lang="th-TH">ไอเทมประเภทนี้ ~r~ไม่สามารถใช้ได้~s~</String>
         <String xml:lang="id-ID">Item seperti ini ~r~tidak dapat digunakan~s~.</String>
         <String xml:lang="hi-Latn">Ye item ~r~use nahi ~s~kiya ja sakta.</String>
+        <String xml:lang="lv-LV">Šāda veida priekšmets ~r~nevar tikt izmantots~s~.</String>
     </Entry>
 
     <Entry Id="username_change_cooldown">
@@ -625,6 +685,7 @@
         <String xml:lang="th-TH">คุณต้อง ~r~รอ ~s~ก่อนที่จะเปลี่ยน ~b~ชื่อผู้ใช้ ~s~อีกครั้ง</String>
         <String xml:lang="id-ID">Anda harus ~r~menunggu ~s~sebelum mengganti ~b~nama panggilan anda ~s~lagi.</String>
         <String xml:lang="hi-Latn">Tumhe apna ~b~username ~s~dobara change karne se pehle thoda ~r~wait ~s~karna hoga.</String>
+        <String xml:lang="lv-LV">Jums ir ~r~jāpagaida~s~ pirms jūsu ~b~lietotājvārda ~s~vēlreizējas mainīšanas.</String>
     </Entry>
 
     <!-- {0} = New username -->
@@ -641,6 +702,7 @@
         <String xml:lang="th-TH">ชื่อ ~b~{0} ~s~ถูกใช้ไปแล้ว</String>
         <String xml:lang="id-ID">Nama ini ~b~{0} ~s~sudah dipakai.</String>
         <String xml:lang="hi-Latn">Naam ~b~{0} ~s~pehle se hi liya gaya hai.</String>
+        <String xml:lang="lv-LV">Lietotājvārds ~b~{0} ~s~jau ir aizņemts.</String>
     </Entry>
 
     <!-- {0} = Discord -->
@@ -657,6 +719,7 @@
         <String xml:lang="th-TH">~g~พนักงาน ~s~ต้องติดต่อผู้ดูแลระบบหรือผู้จัดการเพื่อขอ ~b~การเปลี่ยนชื่อ~s~ ผู้ดูแลระบบต้องตรวจสอบให้แน่ใจว่าชื่อในเกมตรงกับชื่อบน {0} และไม่ลามกอนาจารหรือหยาบคาย</String>
         <String xml:lang="id-ID">~g~Member staf ~s~harus menghubungi admin atau manager untuk ~b~mengganti nama~s~. Admin harus memastikan bahwa nama didalam game sama dengan {0} dan tidak menggunakan kata kata cabul dan vulgar.</String>
         <String xml:lang="hi-Latn">~g~Staff members ~s~ko ~b~name change ~s~ke liye admin ya manager se contact karna hoga. Admin ko yeh ensure karna hoga ki in-game naam {0} ke naam se match karta hai aur obscene ya vulgar nahi hai.</String>
+        <String xml:lang="lv-LV">~g~Servera personālam ~s~ir jāsasniedz servera adminu vai menedžeru priekš ~b~lietotājvārda maiņas~s~. Adminam ir jāparbauda ka lietotājvārds spēlē atbilst lietotājvārdam {0} un nav neķītrs va vulgārs.</String>
     </Entry>
 
     <Entry Id="entered_code_incorrect">
@@ -672,6 +735,7 @@
         <String xml:lang="th-TH">~r~รหัสที่คุณป้อนไม่ถูกต้อง</String>
         <String xml:lang="id-ID">~r~Kode yang anda masukkan salah.</String>
         <String xml:lang="hi-Latn">~r~Aapne jo code enter kiya hai wo galat hai.</String>
+        <String xml:lang="lv-LV">~r~Kods, kuru jūs ievadījat, ir nepareizs.</String>
     </Entry>
 
     <Entry Id="entered_code_expired">
@@ -687,6 +751,7 @@
         <String xml:lang="th-TH">~r~รหัสหมดอายุแล้ว</String>
         <String xml:lang="id-ID">~r~Kode sudah kedaluwarsa.</String>
         <String xml:lang="hi-Latn">~r~Code expire ho gaya hai.</String>
+        <String xml:lang="lv-LV">~r~Kodam, kuru jūs ievadījat, ir beidzies derīguma termiņš.</String>
     </Entry>
 
     <!-- {0} = Amount -->
@@ -705,6 +770,7 @@
         <String xml:lang="th-TH">คุณโอน {0} ~p~{1} ~s~to ~y~{2}~s~ สำเร็จแล้ว</String>
         <String xml:lang="id-ID">Anda berhasil mengirimkan {0} ~p~{1} ~s~kepada ~y~{2}~s~.</String>
         <String xml:lang="hi-Latn">Tumne successfully {0} ~p~{1} ~s~ko ~y~{2} ~s~ko transfer kar diya hai.</String>
+        <String xml:lang="lv-LV">Jūs veiksmīgi nodevat {0} ~p~{1} ~y~{2}~s~.</String>
     </Entry>
 
     <Entry Id="unable_to_find_player">
@@ -720,6 +786,7 @@
         <String xml:lang="th-TH">~r~เซิร์ฟเวอร์ไม่พบผู้เล่นที่ระบุ</String>
         <String xml:lang="id-ID">~r~Server tidak dapat menemukan player yang dituju.</String>
         <String xml:lang="hi-Latn">~r~Server bataye gaye player ko dhund nahi paa raha hai.</String>
+        <String xml:lang="lv-LV">~r~Serverim nesanāca atrast noradīto spēlētāju.</String>
     </Entry>
 
     <Entry Id="cant_send_gift_yourself">
@@ -735,6 +802,7 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถส่งของขวัญให้ตัวเองได้</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat mengirimkan hadiah kepada diri anda sendiri.</String>
         <String xml:lang="hi-Latn">~r~Tum apne aap ko gift nahi kar sakte.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat nosūtīt dāvanu sev.</String>
     </Entry>
 
     <Entry Id="too_far_from_player">
@@ -750,6 +818,7 @@
         <String xml:lang="th-TH">คุณ ~r~ไกลเกินไป ~s~จากผู้เล่น!</String>
         <String xml:lang="id-ID">Anda ~r~terlalu jauh ~s~dari player tersebut!</String>
         <String xml:lang="hi-Latn">Tum player se ~r~bahut door ~s~ho!</String>
+        <String xml:lang="lv-LV">Jūs esat ~r~pārāk tālu ~s~no šī spēlētāja!</String>
     </Entry>
 
     <Entry Id="too_far_from_recipient">
@@ -765,6 +834,7 @@
         <String xml:lang="th-TH">คุณอยู่ ~r~~s~จากผู้รับมากเกินไป</String>
         <String xml:lang="id-ID">Anda ~r~terlalu jauh ~s~dari penerima.</String>
         <String xml:lang="hi-Latn">Tum recipient se ~r~bahut ~s~door ho.</String>
+        <String xml:lang="lv-LV">Jūs esat ~r~pārāk tālu ~s~no saņēmēja.</String>
     </Entry>
 
     <!-- {0} = Max-Amount -->
@@ -781,6 +851,7 @@
         <String xml:lang="th-TH">คุณสามารถส่งได้ครั้งละ ~r~{0} ~s~เท่านั้น</String>
         <String xml:lang="id-ID">Anda hanya dapat mengirimkan ~r~{0} ~s~dalam satu waktu.</String>
         <String xml:lang="hi-Latn">Aap ek baar mein sirf ~r~{0} ~s~bhej sakte ho.</String>
+        <String xml:lang="lv-LV">Jūs varat sūtīt tikai ~r~{0} ~s~vienā reizē.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -798,6 +869,7 @@
         <String xml:lang="th-TH">คุณให้ {0} ~r~{1}~s~</String>
         <String xml:lang="id-ID">Anda memberikan {0} ~r~{1}~s~.</String>
         <String xml:lang="hi-Latn">Aapne {0} ko ~r~{1} ~s~diya.</String>
+        <String xml:lang="lv-LV">Jūs iedevat {0} ~r~{1}~s~.</String>
     </Entry>
 
     <Entry Id="amount_entered_invalid">
@@ -813,6 +885,7 @@
         <String xml:lang="th-TH">จำนวนเงินที่คุณป้อนคือ ~r~invalid~s~!</String>
         <String xml:lang="id-ID">Jumlah yang anda masukan ~r~tidak valid~s~!</String>
         <String xml:lang="hi-Latn">Aapne jo amount enter kiya hai wo ~r~invalid ~s~hai!</String>
+        <String xml:lang="lv-LV">Daudzums, kuru jūs ievadījat, ir ~r~nederīgs~s~!</String>
     </Entry>
 
     <Entry Id="recipient_no_longer_online">
@@ -828,6 +901,7 @@
         <String xml:lang="th-TH">ผู้รับ ~r~ไม่ออนไลน์แล้ว~s~</String>
         <String xml:lang="id-ID">Penerima sudah ~r~tidak online~s~.</String>
         <String xml:lang="hi-Latn">Recipient ab ~r~online nahi ~s~hai.</String>
+        <String xml:lang="lv-LV">Saņēmējs vairs ~r~nav online~s~.</String>
     </Entry>
 
     <Entry Id="dont_have_required_level_transfer_money">
@@ -843,6 +917,7 @@
         <String xml:lang="th-TH">คุณไม่มีระดับ ~r~ที่ต้องการ ~s~ในการโอนเงินให้กับผู้เล่นอื่น</String>
         <String xml:lang="id-ID">Anda tidak memenuhi ~r~syarat level ~s~untuk mengirimkan uang kepada pemain lain.</String>
         <String xml:lang="hi-Latn">Aapke paas dusre players ko paise transfer karne ke liye ~r~required level ~s~nahi hai.</String>
+        <String xml:lang="lv-LV">Jums nav ~r~nepieciešama līmeņa ~s~lai pārskaitītu naudu citiem spēlētājiem.</String>
     </Entry>
 
     <Entry Id="sent_too_much_money_another_session">
@@ -858,6 +933,7 @@
         <String xml:lang="th-TH">คุณส่ง ~r~เงินมากเกินไป~s~ โปรดลองอีกครั้งใน ~r~เซสชันอื่น~s~</String>
         <String xml:lang="id-ID">properti</String>
         <String xml:lang="hi-Latn">Aapne ~r~bahut zyada paise ~s~bheje hain. Please, ~r~doosre session ~s~mein retry karo.</String>
+        <String xml:lang="lv-LV">Jūs esat nosūtījis ~r~pārāk daudz naudas~s~. Lūdzu, mēģiniet vēlreiz ~r~citā sesijā~s~.</String>
     </Entry>
 
     <Entry Id="sending_money_too_fast">
@@ -873,6 +949,7 @@
         <String xml:lang="th-TH">คุณกำลังส่ง ~r~เงินเร็วเกินไป~s~ กรุณา ~r~รอ ~s~ก่อนที่จะส่งเงินอีกครั้ง</String>
         <String xml:lang="id-ID">Anda mengirimkan ~r~uang terlalu cepat~s~. Mohon, ~r~tunggu ~s~sebelum mengirimkan uang lagi.</String>
         <String xml:lang="hi-Latn">Aap ~r~paise bahut tezi ~s~se bhej rahe ho. Please, dobara paise bhejne se pehle thoda ~r~wait ~s~karo.</String>
+        <String xml:lang="lv-LV">Jūs sūtat ~r~naudu pārāk ātri~s~. Lūdzu, ~r~uzgaidiet ~s~pirms vēlreizējas naudas sūtīšanas.</String>
     </Entry>
 
     <Entry Id="player_received_too_much_money">
@@ -888,6 +965,7 @@
         <String xml:lang="th-TH">ผู้เล่นรายนี้ได้รับ ~r~เงินมากเกินไป~s~ กรุณาลองอีกครั้ง ~r~ภายหลัง~s~</String>
         <String xml:lang="id-ID">Pemain ini menerima ~r~terlalu banyak uang~s~. Mohon, untuk mencoba lagi ~r~nanti~s~.</String>
         <String xml:lang="hi-Latn">Iss player ne ~r~bahut zyada paise ~s~receive kiye hain. Please, ~r~baad mein ~s~phir se try karo.</String>
+        <String xml:lang="lv-LV">Šīs spēlētājs saņema ~r~pārāk daudz naudas~s~. Lūdzu, mēģiniet vēlreiz ~r~vēlāk~s~.</String>
     </Entry>
 
     <Entry Id="player_received_money_recently">
@@ -903,6 +981,7 @@
         <String xml:lang="th-TH">ผู้เล่นรายนี้มี ~r~เมื่อเร็วๆ นี้ ~s~ได้รับเงิน กรุณาลองอีกครั้ง ~r~ภายหลัง~s~</String>
         <String xml:lang="id-ID">Pemain ini ~r~baru saja ~s~menerima uang. Mohon, untuk mencoba lagi ~r~nanti~s~.</String>
         <String xml:lang="hi-Latn">Iss player ne ~r~abhi haal hi mein ~s~paise receive kiye hain. Please, ~r~baad mein ~s~phir se try karo.</String>
+        <String xml:lang="lv-LV">Šīs spēlētājs ~r~nesen ~s~saņēma naudu. Lūdzu, meģiniet vēlreiz ~r~vēlāk~s~.</String>
     </Entry>
 
     <Entry Id="dont_have_vehicle_with_plate">
@@ -918,6 +997,7 @@
         <String xml:lang="th-TH">~r~คุณไม่มีรถที่มีป้ายทะเบียนนั้น</String>
         <String xml:lang="id-ID">~r~Anda tidak memiliki kendaraan dengan plat nomer itu.</String>
         <String xml:lang="hi-Latn">~r~Aapke paas us license plate wale vehicle nahi hai.</String>
+        <String xml:lang="lv-LV">~r~Jums nav transportlīdzekļa ar doto reģistrācijas numuru.</String>
     </Entry>
 
     <!-- {0} = vehicle_recalled_valid_name or vehicle_recalled_invalid_name -->
@@ -934,6 +1014,7 @@
         <String xml:lang="th-TH">{0} ~s~ได้รับการ ~r~เรียกคืน ~s~อย่างเป็นทางการโดย CnR V คุณสามารถขายรถคันนี้ได้ในราคา ~g~เต็ม ~s~ราคาเดิมด้านล่าง</String>
         <String xml:lang="id-ID">{0} ~s~secara resmi ~r~ditarik kembali ~s~oleh CnR V. Anda dapat menjual kendaraan tersebut dengan ~g~harga penuh ~s~harga asli dibawah.</String>
         <String xml:lang="hi-Latn">{0} ~s~ko official ~r~recall kiya gaya hai ~s~CnR V dwara. Aap iss vehicle ko ~g~full ~s~original price par sell kar sakte ho.</String>
+        <String xml:lang="lv-LV">CNR V oficiāli ~r~atsauca ~s~{0}. Jūs varat pārdot šo transportlīdzekli par ~g~PILNO ~s~oriģinālo cenu zemāk.</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
@@ -944,6 +1025,7 @@
         <String xml:lang="de-DE">Der ~y~{0}</String>
         <String xml:lang="it-IT">Il ~y~{0}</String>
         <String xml:lang="id-ID">~y~{0}</String>
+        <String xml:lang="lv-LV">~y~{0}</String>
     </Entry>
 
     <Entry Id="vehicle_recalled_invalid_name">
@@ -954,6 +1036,7 @@
         <String xml:lang="de-DE">Dieses Fahrzeug</String>
         <String xml:lang="it-IT">Questo veicolo</String>
         <String xml:lang="id-ID">Kendaraan ini</String>
+        <String xml:lang="lv-LV">Šīs transportlīdzeklis</String>
     </Entry>
 
     <Entry Id="unable_to_deliver_move">
@@ -969,6 +1052,7 @@
         <String xml:lang="th-TH">~r~ไม่สามารถส่งมอบยานพาหนะได้ที่นี่! กรุณาย้ายไปยังสถานที่อื่น</String>
         <String xml:lang="id-ID">~r~Tidak dapat mengirimkan kendaraan kesini! Mohon, pindahkan ke lokasi lain.</String>
         <String xml:lang="hi-Latn">~r~Iss jagah vehicle deliver nahi kiya ja sakta! Please, kisi aur location pe move karo.</String>
+        <String xml:lang="lv-LV">~r~Nav iespējams piegādāt transportlīdzekli šeit! Lūdzu, pārvietojieties uz citu vietu.</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
@@ -985,6 +1069,7 @@
         <String xml:lang="th-TH">~b~{0} ~s~ของคุณมาแล้ว! กรุณาอยู่ในพื้นที่</String>
         <String xml:lang="id-ID">~b~{0} anda ~s~dalam perjalanan! Mohon, tidak meninggalkan area.</String>
         <String xml:lang="hi-Latn">Aapki ~b~{0} ~s~raste mein hai! Please, area mein hi raho.</String>
+        <String xml:lang="lv-LV">Jūsu ~b~{0} ~s~ir ceļā! Lūdzu, palieciet zonā.</String>
     </Entry>
 
     <Entry Id="cant_deliver_here">
@@ -1000,6 +1085,7 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถส่งรถมาที่นี่ได้!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat meminta mengirim kendaraan kesini!</String>
         <String xml:lang="hi-Latn">~r~Aap yahan vehicle deliver nahi karwa sakte!</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat pasūtīt transportlīdzekļa pegādi šeit!</String>
     </Entry>
 
     <!-- {0} = Current job -->
@@ -1016,6 +1102,7 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถส่งรถมาที่นี่ได้ ~s~{0}~r~!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat meminta kendaraan ini dikirim sebagai ~s~{0}~r~!</String>
         <String xml:lang="hi-Latn">~r~Aap ye vehicle deliver nahi karwa sakte is roop mein ~s~{0}~r~!</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat pasūtīt šī transportlīdzekļa piegādi kamēr esat ~s~{0}~r~!</String>
     </Entry>
 
     <Entry Id="vehicle_attached_to_tow_truck">
@@ -1031,6 +1118,7 @@
         <String xml:lang="th-TH">~r~ยานพาหนะปัจจุบันของคุณติดอยู่กับรถบรรทุกพ่วง!</String>
         <String xml:lang="id-ID">~r~Kendaraan anda saat ini sedang diderek mobil towing!</String>
         <String xml:lang="hi-Latn">~r~Aap ye vehicle deliver nahi karwa sakte is roop mein!</String>
+        <String xml:lang="lv-LV">~r~Jūsu pašreizējais transportlīdzeklis ir uz evakuatora.</String>
     </Entry>
 
     <Entry Id="vehicle_rent_expired">
@@ -1041,6 +1129,7 @@
         <String xml:lang="de-DE">~r~Die Miete von diesem Fahrzeug ist abgelaufen!</String>
         <String xml:lang="it-IT">~r~Il noleggio di questo veicolo è scaduto!</String>
         <String xml:lang="id-ID">~r~Rental kendaraan ini sudah selesai.</String>
+        <String xml:lang="lv-LV">~r~Šī transportlīdzekļa īres termiņš ir beidzies!</String>
     </Entry>
 
     <Entry Id="unable_to_deliver_vehicle">
@@ -1051,6 +1140,7 @@
         <String xml:lang="de-DE">Dein Fahrzeug kann nicht geliefert werden</String>
         <String xml:lang="it-IT">Impossibile consegnare il tuo veicolo</String>
         <String xml:lang="id-ID">Tidak dapat mengirimkan kendaraanmu</String>
+        <String xml:lang="lv-LV">Nevar piegādāt jūsu transportlīdzekli</String>
     </Entry>
 
     <!-- Shown instead of the vehicle name if it cannot be found (fallback value) -->
@@ -1061,6 +1151,7 @@
         <String xml:lang="de-DE">Fahrzeug</String>
         <String xml:lang="it-IT">veicolo</String>
         <String xml:lang="id-ID">Kendaraan</String>
+        <String xml:lang="lv-LV">transportlīdzeklis</String>
     </Entry>
 
     <Entry Id="cant_store_vehicle_when_inside">
@@ -1076,6 +1167,7 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถเก็บยานพาหนะส่วนตัวของคุณในขณะที่อยู่ภายในรถได้!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat menaruh kendaraan pribadi ketika anda berada didalamnya!</String>
         <String xml:lang="hi-Latn">~r~Aap apne personal vehicle ko store nahi kar sakte jab tak aap andar baithe ho!</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat uzglabāt savu personīgo transportlīdzekli, kamēr atrodaties tajā!</String>
     </Entry>
 
     <Entry Id="cant_store_vehicle_when_part_of_mission">
@@ -1085,6 +1177,7 @@
         <String xml:lang="id-ID">~r~Kamu tidak bisa menyimpan kendaraan pribadi ketika sedang digunakan untuk sebuah misi!</String>
         <String xml:lang="it-IT">~r~Non puoi depositare il tuo veicolo personale quando è utilizzato in una missione!</String>
         <String xml:lang="de-DE">~r~Du kannst dein persönliches Fahrzeug nicht einlagern, wenn es als Teil einer Mission genutzt wird.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat uzglabāt savu personīgo transportlīdzekli, kamēr tas tiek izmantots misijas ietvaros!</String>
     </Entry>
 
     <Entry Id="cant_maintenance_vehicle_when_part_of_mission">
@@ -1094,6 +1187,7 @@
         <String xml:lang="id-ID">~r~Kamu tidak bisa mengirimkan kendaraan pribadi untuk perbaikan ketika sedang digunakan untuk misi!</String>
         <String xml:lang="it-IT">~r~Non puoi inviare il tuo veicolo personale in manutenzione quando è utilizzato in una missione!</String>
         <String xml:lang="de-DE">~r~Du kannst dein persönliches Fahrzeug nicht zur Wartung schicken, wenn es als Teil einer Mission genutzt wird!</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat nosūtīt savu personīgo transportlīdzekli servisā, kamēr tas tiek izmantots misijas ietvaros!</String>
     </Entry>
 
     <Entry Id="cant_summon_vehicle_when_part_of_mission">
@@ -1103,6 +1197,7 @@
         <String xml:lang="id-ID">~r~Kamu tidak meminta mengirimkan kendaraan ketika kendaraan yang sedang digunakan saat ini masih digunakan untuk misi!</String>
         <String xml:lang="it-IT">~r~Non puoi richiedere la consegna di un veicolo quando quello attuale è utilizzato in una missione!</String>
         <String xml:lang="de-DE">~r~ Du kannst kein Fahrzeug geliefert bekommen, wenn dein aktuelles Fahrzeug als Teil einer Mission benutzt wird!</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat pasūtīt transportlīdzekļa piegādi kamēr jūsu pašreizējais tiek izmantots misijas ietvaros!</String>
     </Entry>
 
     <Entry Id="changed_jobs_delivery_canceled">
@@ -1118,6 +1213,7 @@
         <String xml:lang="th-TH">คุณเปลี่ยน ~b~งาน~s~ ของคุณแล้ว การส่งมอบยานพาหนะของคุณ ~r~ยกเลิก~s~</String>
         <String xml:lang="id-ID">Anda mengubah ~b~pekerjaan~s~. Pengiriman kendaraan anda ~r~dibatalkan~s~.</String>
         <String xml:lang="hi-Latn">Aapne apni ~b~job ~s~change kar liya hai. Toh aapki vehicle delivery ~r~cancel ho gaya hai~s~.</String>
+        <String xml:lang="lv-LV">Jūs mainījat savu ~b~darbu~s~. Jūsu transportlīdzekļa piegāde tika ~r~atcelta~s~.</String>
     </Entry>
 
     <Entry Id="area_left_delivery_canceled">
@@ -1133,6 +1229,7 @@
         <String xml:lang="th-TH">คุณ ~r~ออกจากพื้นที่~s~ การส่งมอบยานพาหนะของคุณ ~r~ยกเลิก~s~</String>
         <String xml:lang="id-ID">Anda ~r~meninggalkan area~s~. Pengiriman kendaraan anda ~r~dibatalkan~s~.</String>
         <String xml:lang="hi-Latn">Aap ~r~area se chale gaye ~s~ho. Toh aapki vehicle delivery ~r~cancel ho gayi hai~s~.</String>
+        <String xml:lang="lv-LV">Jūs ~r~atstājat zonu~s~. Jūsu transportlīdzekļa piegāde tika ~r~atcelta~s~.</String>
     </Entry>
 
     <Entry Id="valet_killed_delivery_canceled">
@@ -1148,6 +1245,7 @@
         <String xml:lang="th-TH">คนรับใช้ของคุณถูก ~r~killed~s~ การส่งมอบยานพาหนะของคุณ ~r~ยกเลิก~s~</String>
         <String xml:lang="id-ID">Pegawai vallet anda telah ~r~dibunuh~s~. Pengiriman kendaraan anda ~r~dibatalkan~s~.</String>
         <String xml:lang="hi-Latn">Aapka valet ~r~maar diya gaya ~s~hai. Toh aapki vehicle delivery ~r~cancel ho gayi hai~s~.</String>
+        <String xml:lang="lv-LV">Jūsu sulainis tika ~r~nogalināts~s~. Jūsu transportlīdzekļa piegāde tika ~r~atcelta~s~.</String>
     </Entry>
 
     <Entry Id="too_far_from_road_delivery_canceled">
@@ -1163,6 +1261,7 @@
         <String xml:lang="th-TH">"~r~คุณอยู่ไกลจากถนนใดๆ มากเกินไป การส่งมอบรถของคุณถูกยกเลิกแล้ว</String>
         <String xml:lang="id-ID">~r~Anda terlalu jauh dari jalan manapun. Pengiriman kendaraan anda sudah dibatalkan.</String>
         <String xml:lang="hi-Latn">~r~Aap road se bahut door ho. Aapki vehicle delivery cancel ho gayi hai.</String>
+        <String xml:lang="lv-LV">~r~Jūs esat pārāk tālu no jebkura ceļa. Jūsu transportlīdzekļa piegāde tika atcelta.</String>
     </Entry>
 
     <!-- {0} = Attempts/MaxAttempts -->
@@ -1179,6 +1278,7 @@
         <String xml:lang="th-TH">ไม่สามารถดาวน์โหลด ~y~รุ่นยานพาหนะ~s~ กำลังลองอีกครั้ง ({0})...</String>
         <String xml:lang="id-ID">Tidak dapat mengunduh ~y~model kendaraan~s~. Mencoba kembali ({0})...</String>
         <String xml:lang="hi-Latn">Kisi karan se ~y~Vehicle model ~s~download nahi ho raha. Retry kar rahe hai ({0})...</String>
+        <String xml:lang="lv-LV">Nesanāca lejupielādēt ~y~transportlīdzekļa modeli~s~. Mēģina vēlreiz ({0})...</String>
     </Entry>
 
     <Entry Id="unable_to_download_vehicle_model_5c_3">
@@ -1194,6 +1294,7 @@
         <String xml:lang="th-TH">~r~ไม่สามารถโหลดโมเดลยานพาหนะได้ (0x5C-3) กรุณาลองอีกครั้งในภายหลัง</String>
         <String xml:lang="id-ID">~r~Tidak dapat memuat model kendaraan (0x5C-3). Mohon, coba kembali nanti.</String>
         <String xml:lang="hi-Latn">~r~Vehicle model load nahi ho raha (0x5C-3). Please, baad mein phir se try kariye.</String>
+        <String xml:lang="lv-LV">~r~Nesanāca lejupielādēt transportlīdzekļa modeli (0x5C-3). Lūdzu, mēģiniet vēlreiz vēlāk.</String>
     </Entry>
 
     <Entry Id="unable_to_download_vehicle_model_5c_4">
@@ -1209,6 +1310,7 @@
         <String xml:lang="th-TH">~r~ไม่สามารถรับรหัสเครือข่ายยานพาหนะ (0x5C-4) กรุณาลองอีกครั้งในภายหลัง</String>
         <String xml:lang="id-ID">~r~Tidak dapat memperoleh id jaringan kendaraan (0x5C-4). Mohon, coba kembali nanti.</String>
         <String xml:lang="hi-Latn">~r~Vehicle network id obtain nahi ho paa rahi (0x5C-4). Please, baad mein phir se try kariye.</String>
+        <String xml:lang="lv-LV">~r~Nesanāca iegūt transportlīdzekļa network id (0x5C-4). Lūdzu, mēģiniet vēlreiz vēlāk.</String>
     </Entry>
 
     <Entry Id="cant_use_wardrobe_not_gtao_character">
@@ -1224,6 +1326,7 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถใช้ตู้เสื้อผ้าได้ เมื่อคุณไม่ใช่ตัวละคร GTA:O</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat menggunakan lemari pakaian jika anda buka karakter GTA:0.</String>
         <String xml:lang="hi-Latn">~r~Aap GTA:O character nahi hain toh aap wardrobe use nahi kar sakte.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat lietot garderobi kamēr jūs neesat GTA:O personība.</String>
     </Entry>
 
     <Entry Id="ptt_spam_time_out_radio">
@@ -1239,6 +1342,7 @@
         <String xml:lang="th-TH">~r~สแปม ~s~ปุ่ม PTT จะทำให้คุณ ~r~หมดเวลา ~s~จาก ~b~วิทยุ~s~</String>
         <String xml:lang="id-ID">~r~spam ~s~tombol PTT akan menyebabkan anda ~r~dikeluarkan ~s~dari ~b~radio~s~.</String>
         <String xml:lang="hi-Latn">~r~Spam ~s~karoge PTT key, toh aapko ~r~time-out ~s~kar diya jayega ~b~radio ~s~se.</String>
+        <String xml:lang="lv-LV">~s~Radio pogas ~r~spamošana ~s~izraisīs jūsu laicīgo ~r~bloķēšanu ~s~no ~b~radio~s~.</String>
     </Entry>
 
     <Entry Id="radio_cooldown">
@@ -1254,6 +1358,7 @@
         <String xml:lang="th-TH">คุณต้องรอ ~r~{0} วินาที ~s~ก่อนที่จะเปิดวิทยุอีกครั้ง</String>
         <String xml:lang="id-ID">Anda harus menunggu ~r~{0} detik ~s~sebelum mencoba memasuki radio kembali.</String>
         <String xml:lang="hi-Latn">Aapko apna radio dobara on karne se pehle ~r~{0} seconds ~s~wait karna hoga.</String>
+        <String xml:lang="lv-LV">Jums ir jāpagaida ~r~{0} sekundes ~s~pirms radio atkartējās ieslēgšanas.</String>
     </Entry>
 
     <!-- {0} = Item name -->
@@ -1270,6 +1375,7 @@
         <String xml:lang="th-TH">คุณ ~r~ใช้ยาเกินขนาด ~s~{0} และคุณต้องการ ~p~การรักษาพยาบาล~s~</String>
         <String xml:lang="id-ID">Anda ~r~overdosis ~s~{0} dan anda butuh ~p~bantuan medis~s~.</String>
         <String xml:lang="hi-Latn">Aap {0} ~r~overdose ~s~ho kar liye ho aur aapko ~p~medical attention ~s~ki zarurat hai.</String>
+        <String xml:lang="lv-LV">Jūs ~r~pārdozējāties ~s~{0} un jums ir vajadzīga ~p~medicīniskā palīdzība~s~.</String>
     </Entry>
 
     <Entry Id="wanted_by_police">
@@ -1285,6 +1391,7 @@
         <String xml:lang="th-TH">~r~คุณเป็นที่ต้องการของตำรวจ กลับมาเมื่อคุณสะอาด!</String>
         <String xml:lang="id-ID">~r~Anda buronan kepolisian. Silahkan kembali ketika sudah tidak buron!</String>
         <String xml:lang="hi-Latn">~r~Police aapko dhoondh rahi hai. Wapas aana jab tak aap clean nahi ho!</String>
+        <String xml:lang="lv-LV">~r~Jūs meklē policija. Atgriezieties kad neesat noziedznieks!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1303,6 +1410,7 @@
         <String xml:lang="th-TH">อารมณ์</String>
         <String xml:lang="id-ID">Emotes</String>
         <String xml:lang="hi-Latn">Emotes</String>
+        <String xml:lang="lv-LV">Emocijas</String>
     </Entry>
 
     <Entry Id="menu_emotes_subtitle">
@@ -1318,6 +1426,7 @@
         <String xml:lang="th-TH">เล่นภาพเคลื่อนไหว</String>
         <String xml:lang="id-ID">Tampilkan animasi</String>
         <String xml:lang="hi-Latn">Animations play karo.</String>
+        <String xml:lang="lv-LV">Spēlēt animācijas.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1336,6 +1445,7 @@
         <String xml:lang="th-TH">ศูนย์ช่วยเหลือ</String>
         <String xml:lang="id-ID">Pusat bantuan</String>
         <String xml:lang="hi-Latn">Help Center</String>
+        <String xml:lang="lv-LV">Palīdzības Centrs</String>
     </Entry>
 
     <Entry Id="menu_help_subtitle">
@@ -1351,6 +1461,7 @@
         <String xml:lang="th-TH">ศูนย์ช่วยเหลือ CnR V</String>
         <String xml:lang="id-ID">Pusat bantuan CnR V</String>
         <String xml:lang="hi-Latn">CnR V Help Center</String>
+        <String xml:lang="lv-LV">CnR V Palīdzības Centrs</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1369,6 +1480,7 @@
         <String xml:lang="th-TH">รายงาน</String>
         <String xml:lang="id-ID">Laporan</String>
         <String xml:lang="hi-Latn">Report</String>
+        <String xml:lang="lv-LV">Ziņot</String>
     </Entry>
 
     <Entry Id="menu_report_subtitle">
@@ -1384,6 +1496,7 @@
         <String xml:lang="th-TH">รายงานผู้เล่น</String>
         <String xml:lang="id-ID">Melaporkan pemain</String>
         <String xml:lang="hi-Latn">Player ko report kar rahe</String>
+        <String xml:lang="lv-LV">Ziņot par spēlētāju</String>
     </Entry>
 
     <Entry Id="menu_reports_title">
@@ -1399,6 +1512,7 @@
         <String xml:lang="th-TH">รายงาน</String>
         <String xml:lang="id-ID">Laporan</String>
         <String xml:lang="hi-Latn">Reports</String>
+        <String xml:lang="lv-LV">Ziņojumi</String>
     </Entry>
 
     <Entry Id="menu_reports_subtitle">
@@ -1414,6 +1528,7 @@
         <String xml:lang="th-TH">ดูสถานะของรายงานของคุณ</String>
         <String xml:lang="id-ID">Lihat situasi dari laporan anda.</String>
         <String xml:lang="hi-Latn">Apni reports ka status dekhe</String>
+        <String xml:lang="lv-LV">Pārskatiet savu ziņojumu statusu</String>
     </Entry>
 
     <Entry Id="menu_report_reporting_subtitle">
@@ -1423,6 +1538,7 @@
         <String xml:lang="it-IT">Segnalazione ~r~{0}</String>
         <String xml:lang="fr-FR">Signalement ~r~{0}</String>
         <String xml:lang="id-ID">Melaporkan ~r~{0}</String>
+        <String xml:lang="lv-LV">Ziņot par ~r~{0}</String>
     </Entry>
 
     <Entry Id="menu_reports_info_description">
@@ -1432,6 +1548,7 @@
         <String xml:lang="it-IT">~b~Data e ora: ~s~{0}\n~b~Motivo: ~s~{1} ~s~- ~b~Dettagli: ~s~{2}</String>
         <String xml:lang="fr-FR">~b~Date et heure: ~s~{0}\n~b~Raison: ~s~{1} ~s~- ~b~Détails: ~s~{2}</String>
         <String xml:lang="id-ID">~b~Tanggal dan waktu: ~s~{0}\n~b~Alasan: ~s~{1} ~s~- ~b~Detail: ~s~{2}</String>
+        <String xml:lang="lv-LV">~b~Datums un laiks: ~s~{0}\nIemesls: ~s~{1} ~s~- ~b~Detaļas: ~s~{2}</String>
     </Entry>
 
     <Entry Id="menu_reports_info_response">
@@ -1441,6 +1558,7 @@
         <String xml:lang="it-IT">~b~Risposto da {0}: ~s~{1}</String>
         <String xml:lang="fr-FR">~b~Réponse de {0}: ~s~{1}</String>
         <String xml:lang="id-ID">~b~Tanggapan oleh {0}: ~s~{1}</String>
+        <String xml:lang="lv-LV">~b~Atbilde no {0}: ~s~{1}</String>
     </Entry>
 
     <Entry Id="menu_reports_info_assigned">
@@ -1450,6 +1568,7 @@
         <String xml:lang="it-IT">~b~Assegnato a: ~s~{0}</String>
         <String xml:lang="fr-FR">~b~Assigné à: ~s~{0}</String>
         <String xml:lang="id-ID">~b~Ditugaskan kepada: ~s~{0}</String>
+        <String xml:lang="lv-LV">~b~Nodots: ~s~{0}</String>
     </Entry>
 
     <Entry Id="menu_reports_info_subtitle">
@@ -1459,6 +1578,7 @@
         <String xml:lang="it-IT">{0} segnalazioni nell'ultimo mese</String>
         <String xml:lang="fr-FR">{0} signalements au cours du dernier mois</String>
         <String xml:lang="id-ID">{0} Laporan dalam sebbulan terakhir</String>
+        <String xml:lang="lv-LV">{0} ziņojumi iepriekšējā mēnesī</String>
     </Entry>
 
     <Entry Id="menu_reports_info_no_recent_text">
@@ -1468,6 +1588,7 @@
         <String xml:lang="it-IT">Nessuna segnalazione recente :(</String>
         <String xml:lang="fr-FR">Aucun signalement récent :(</String>
         <String xml:lang="id-ID">Tidak ada laporan terbaru :(</String>
+        <String xml:lang="lv-LV">Nav neseno ziņojumu :(</String>
     </Entry>
 
     <Entry Id="menu_reports_info_no_recent_description">
@@ -1477,6 +1598,7 @@
         <String xml:lang="it-IT">Non hai inviato nessuna segnalazione di recente.</String>
         <String xml:lang="fr-FR">Tu n'as pas envoyé de signalement récemment.</String>
         <String xml:lang="id-ID">Kamu tidak mengirimkan laporan apapun baru-baru ini.</String>
+        <String xml:lang="lv-LV">Jūs neiesniedzat nevienu ziņojumu pēdejā laikā.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1495,6 +1617,7 @@
         <String xml:lang="th-TH">ตัวเลือก</String>
         <String xml:lang="id-ID">Opsi</String>
         <String xml:lang="hi-Latn">Options</String>
+        <String xml:lang="lv-LV">Iestatījumi</String>
     </Entry>
 
     <Entry Id="menu_options_subtitle">
@@ -1510,6 +1633,7 @@
         <String xml:lang="th-TH">ปรับแต่งประสบการณ์ CnR ของคุณ</String>
         <String xml:lang="id-ID">Sesuaikan pengalaman CnR anda</String>
         <String xml:lang="hi-Latn">Apne CnR experience ko customize kare</String>
+        <String xml:lang="lv-LV">Pielāgojiet savu CnR pieredzi</String>
     </Entry>
 
     <Entry Id="menu_options_account_title">
@@ -1525,6 +1649,7 @@
         <String xml:lang="id-ID">Akun</String>
         <String xml:lang="hi-Latn">Account</String>
         <String xml:lang="de-DE">Account</String>
+        <String xml:lang="lv-LV">Konts</String>
     </Entry>
 
     <Entry Id="menu_options_account_subhistory_subtitle">
@@ -1540,6 +1665,7 @@
         <String xml:lang="th-TH">ประวัติการสมัครสมาชิก</String>
         <String xml:lang="id-ID">Sejarah berlangganan</String>
         <String xml:lang="hi-Latn">Subscription History</String>
+        <String xml:lang="lv-LV">Abonementu Vēsture</String>
     </Entry>
 
     <Entry Id="menu_options_account_purchases_subtitle">
@@ -1555,6 +1681,7 @@
         <String xml:lang="th-TH">การซื้อ</String>
         <String xml:lang="id-ID">Pembelian</String>
         <String xml:lang="hi-Latn">Purchases</String>
+        <String xml:lang="lv-LV">Pirkumi</String>
     </Entry>
 
     <Entry Id="menu_options_account_linkedservices_subtitle">
@@ -1570,6 +1697,7 @@
         <String xml:lang="th-TH">บริการที่เชื่อมโยง</String>
         <String xml:lang="id-ID">Servis yang terhubung</String>
         <String xml:lang="hi-Latn">Linked Services</String>
+        <String xml:lang="lv-LV">Pieslēgti Servisi</String>
     </Entry>
 
     <Entry Id="menu_options_display_title">
@@ -1585,6 +1713,7 @@
         <String xml:lang="th-TH">หน้าจอ</String>
         <String xml:lang="id-ID">Tampilan</String>
         <String xml:lang="hi-Latn">Display</String>
+        <String xml:lang="lv-LV">Displejs</String>
     </Entry>
 
     <Entry Id="menu_options_display_subtitle">
@@ -1600,6 +1729,7 @@
         <String xml:lang="th-TH">เปลี่ยนการตั้งค่าการแสดงผล</String>
         <String xml:lang="id-ID">Ubah pengaturan tampilan</String>
         <String xml:lang="hi-Latn">Display settings change karo</String>
+        <String xml:lang="lv-LV">Mainiet displeja iestatījumus</String>
     </Entry>
 
     <Entry Id="menu_options_accessibility_title">
@@ -1615,6 +1745,7 @@
         <String xml:lang="th-TH">การเข้าถึง</String>
         <String xml:lang="id-ID">Aksesibilitas</String>
         <String xml:lang="hi-Latn">Accessibility</String>
+        <String xml:lang="lv-LV">Pieejamība</String>
     </Entry>
 
     <Entry Id="menu_options_accessibility_subtitle">
@@ -1630,6 +1761,7 @@
         <String xml:lang="th-TH">การตั้งค่าการเข้าถึง</String>
         <String xml:lang="id-ID">Pengaturan aksesibilitas</String>
         <String xml:lang="hi-Latn">Accessibility ki settings</String>
+        <String xml:lang="lv-LV">Pieejamības iestatījumi</String>
     </Entry>
 
     <Entry Id="menu_options_hotkeys_title">
@@ -1645,6 +1777,7 @@
         <String xml:lang="th-TH">ปุ่มลัด</String>
         <String xml:lang="id-ID">Tombol pintas</String>
         <String xml:lang="hi-Latn">Hotkeys</String>
+        <String xml:lang="lv-LV">Karstie taustiņi</String>
     </Entry>
 
     <Entry Id="menu_options_chotkeys_subtitle">
@@ -1660,6 +1793,7 @@
         <String xml:lang="th-TH">ปุ่มลัดแบบกำหนดเอง</String>
         <String xml:lang="id-ID">Pengaturan pribadi tombol pintas</String>
         <String xml:lang="hi-Latn">Custom hotkeys</String>
+        <String xml:lang="lv-LV">Pielāgoti kārstie taustiņi</String>
     </Entry>
 
     <Entry Id="menu_options_hotkeys_subtitle">
@@ -1675,6 +1809,7 @@
         <String xml:lang="th-TH">เลือกประเภทการดำเนินการ</String>
         <String xml:lang="id-ID">Pilih tipe aksi</String>
         <String xml:lang="hi-Latn">Select an action type</String>
+        <String xml:lang="lv-LV">Izvēlēties darbības veidu</String>
     </Entry>
 
     <Entry Id="menu_options_weapons_title">
@@ -1690,6 +1825,7 @@
         <String xml:lang="th-TH">อาวุธ</String>
         <String xml:lang="id-ID">Senjata</String>
         <String xml:lang="hi-Latn">Weapons</String>
+        <String xml:lang="lv-LV">Ieroči</String>
     </Entry>
 
     <Entry Id="menu_options_weapons_subtitle">
@@ -1705,6 +1841,7 @@
         <String xml:lang="th-TH">เลือกอาวุธที่จะสวมใส่</String>
         <String xml:lang="id-ID">Pilih senjata untuk digunakan</String>
         <String xml:lang="hi-Latn">Equip karne ke liye weapon select karo</String>
+        <String xml:lang="lv-LV">Izvēlēties ieroci, ko aprīkot</String>
     </Entry>
 
     <Entry Id="menu_options_items_title">
@@ -1720,6 +1857,7 @@
         <String xml:lang="th-TH">สิ่งของ</String>
         <String xml:lang="id-ID">Barang</String>
         <String xml:lang="hi-Latn">Items</String>
+        <String xml:lang="lv-LV">Priekšmeti</String>
     </Entry>
 
     <Entry Id="menu_options_items_subtitle">
@@ -1735,6 +1873,7 @@
         <String xml:lang="th-TH">เลือกสิ่งของที่จะใช้</String>
         <String xml:lang="id-ID">Pilih barang untuk digunakan</String>
         <String xml:lang="hi-Latn">Use karne ke liye item select karo</String>
+        <String xml:lang="lv-LV">Izvēlēties priekšmetu, ko izmantot</String>
     </Entry>
 
     <Entry Id="menu_options_misc_title">
@@ -1750,6 +1889,7 @@
         <String xml:lang="th-TH">เบ็ดเตล็ด</String>
         <String xml:lang="id-ID">Hal lainnya</String>
         <String xml:lang="hi-Latn">Miscellaneous</String>
+        <String xml:lang="lv-LV">Dažāds</String>
     </Entry>
 
     <Entry Id="menu_options_misc_subtitle">
@@ -1765,6 +1905,7 @@
         <String xml:lang="th-TH">การตั้งค่าอื่นๆ</String>
         <String xml:lang="id-ID">pengaturan lainnya</String>
         <String xml:lang="hi-Latn">Other settings</String>
+        <String xml:lang="lv-LV">Citi iestatījumi</String>
     </Entry>
 
     <Entry Id="menu_options_experimental_title">
@@ -1780,6 +1921,7 @@
         <String xml:lang="th-TH">การทดลอง</String>
         <String xml:lang="id-ID">eksperiment</String>
         <String xml:lang="hi-Latn">Experimental</String>
+        <String xml:lang="lv-LV">Eksperimentāls</String>
     </Entry>
 
     <Entry Id="menu_options_experimental_subtitle">
@@ -1795,6 +1937,7 @@
         <String xml:lang="th-TH">การตั้งค่าการทดลอง</String>
         <String xml:lang="id-ID">pengaturan eksperiment</String>
         <String xml:lang="hi-Latn">Experimental settings</String>
+        <String xml:lang="lv-LV">Eksperimentāli iestatījumi</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1813,6 +1956,7 @@
         <String xml:lang="id-ID">Menu pemain</String>
         <String xml:lang="hi-Latn">Player Menu</String>
         <String xml:lang="de-DE">Spielermenü</String>
+        <String xml:lang="lv-LV">Spēlētāja Izvēlne</String>
     </Entry>
 
     <Entry Id="menu_playermenu_subtitle">
@@ -1823,6 +1967,7 @@
         <String xml:lang="de-DE">Interagiere mit {0}</String>
         <String xml:lang="it-IT">Interagisci con {0}</String>
         <String xml:lang="id-ID">Interaksi dengan {0}</String>
+        <String xml:lang="lv-LV">Mijiedarboties ar {0}</String>
     </Entry>
 
     <Entry Id="menu_playermenu_bribe_not_wanted">
@@ -1833,6 +1978,7 @@
         <String xml:lang="de-DE">~r~Du wirst nicht von der Polizei gesucht.</String>
         <String xml:lang="it-IT">~r~Non sei ricercato dalla polizia.</String>
         <String xml:lang="id-ID">~r~Kamu tidak diburu oleh polisi.</String>
+        <String xml:lang="lv-LV">~r~Jūs nemeklē policija.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_bribe_most_wanted">
@@ -1843,6 +1989,7 @@
         <String xml:lang="de-DE">~r~Du kannst die Polizei nicht bestechen, wenn du meisgesucht bist.</String>
         <String xml:lang="it-IT">~r~Non puoi corrompere la polizia se sei il più ricercato.</String>
         <String xml:lang="id-ID">~r~Kamu tidak dapat menyuap polisi ketika kamu sedang menjadi buronan paling dicari.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat iedot kukuli kad jūs esat Most Wanted.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_bribe_text">
@@ -1853,6 +2000,7 @@
         <String xml:lang="de-DE">~o~Bestechen</String>
         <String xml:lang="it-IT">~o~Corrompi</String>
         <String xml:lang="id-ID">~o~Suap</String>
+        <String xml:lang="lv-LV">~o~Kukulis</String>
     </Entry>
 
     <Entry Id="menu_playermenu_bribe_description">
@@ -1863,6 +2011,7 @@
         <String xml:lang="de-DE">Biete diesem ~b~Polizisten ~s~eine ~o~Bestechung ~s~und verliere dein Fahndungslevel.</String>
         <String xml:lang="it-IT">Offri a questo ~b~agente ~s~delle ~o~mazzette ~s~per ridurre il tuo livello di ricerca.</String>
         <String xml:lang="id-ID">Tawarkan ~b~petugas ~s~ini sebuah ~o~suap ~s~dan menghilangkan level buronanmu.</String>
+        <String xml:lang="lv-LV">Piedāvājiet šim ~b~policistam ~o~kukuli ~s~un zaudējiet savu wanted līmeni.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_uncuff">
@@ -1873,6 +2022,7 @@
         <String xml:lang="de-DE">~o~Entfesseln</String>
         <String xml:lang="it-IT">~o~Libera</String>
         <String xml:lang="id-ID">~o~Membuka borgol</String>
+        <String xml:lang="lv-LV">~o~Attaisīt rokudzelžus</String>
     </Entry>
 
     <Entry Id="menu_playermenu_uncuff_description">
@@ -1883,6 +2033,7 @@
         <String xml:lang="de-DE">Befreie diesen gefesselten Spieler, indem du ~y~Dietriche~s~ benutzt.</String>
         <String xml:lang="it-IT">Libera questo giocatore ammanettato utilizzando un ~y~grimaldello~s~.</String>
         <String xml:lang="id-ID">Buka pemain yang terborgol ini menggunakan ~y~lockpick~s~.</String>
+        <String xml:lang="lv-LV">Atbrīvojiet šo spēlētāju izmantojot ~y~rokuldzelžu uzlaušanas rīku~s~.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_drugs">
@@ -1893,6 +2044,7 @@
         <String xml:lang="de-DE">Biete ~r~Drogen~s~ an</String>
         <String xml:lang="it-IT">Offri ~r~droghe~s~</String>
         <String xml:lang="id-ID">Tawarkan ~r~narkoba~s~</String>
+        <String xml:lang="lv-LV">Piedāvājiet ~r~narkotikas~s~</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_drugs_description">
@@ -1903,6 +2055,7 @@
         <String xml:lang="de-DE">Biete diesem Spieler ~r~Drogen~s~ an.</String>
         <String xml:lang="it-IT">Offri ~r~droghe~s~ a questo giocatore.</String>
         <String xml:lang="id-ID">Tawarkan ~r~narkoba~s~ kepada pemain ini.</String>
+        <String xml:lang="lv-LV">Piedāvājiet ~r~narkotikas~s~ šim spēlētājam.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_services">
@@ -1913,6 +2066,7 @@
         <String xml:lang="de-DE">Biete ~y~Leistungen~s~ an</String>
         <String xml:lang="it-IT">Offri ~y~servizi~s~</String>
         <String xml:lang="id-ID">Tawarkan ~y~layanan~s~</String>
+        <String xml:lang="lv-LV">Piedāvājiet ~y~pakalpojumus~s~</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_services_description">
@@ -1923,6 +2077,7 @@
         <String xml:lang="de-DE">Biete diesem Spieler ~y~Leistungen~s~ an.</String>
         <String xml:lang="it-IT">Offri ~y~servizi~s~ a questo giocatore.</String>
         <String xml:lang="id-ID">Tawarkan ~y~layanan~s~ kepada pemain ini.</String>
+        <String xml:lang="lv-LV">Piedāvājiet ~y~pakalpojumus~s~ šim spēlētājam.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_arrest">
@@ -1933,6 +2088,7 @@
         <String xml:lang="de-DE">~b~Arrest-Menü</String>
         <String xml:lang="it-IT">~b~Menu di Arresto</String>
         <String xml:lang="id-ID">~b~Menu penangkapan</String>
+        <String xml:lang="lv-LV">~b~Arestēšanas izvēlne</String>
     </Entry>
 
     <Entry Id="menu_playermenu_custody">
@@ -1943,6 +2099,7 @@
         <String xml:lang="de-DE">~b~In Gewahrsam halten</String>
         <String xml:lang="it-IT">~b~Tieni in custodia</String>
         <String xml:lang="id-ID">~b~tahan dalam penahanan</String>
+        <String xml:lang="lv-LV">~b~Turēt apcietinājuma</String>
     </Entry>
 
     <Entry Id="menu_playermenu_cuff">
@@ -1953,6 +2110,7 @@
         <String xml:lang="de-DE">~b~Fesseln</String>
         <String xml:lang="it-IT">~b~Ammanetta</String>
         <String xml:lang="id-ID">~b~Borgol</String>
+        <String xml:lang="lv-LV">~b~Apcietināt</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_ticket">
@@ -1962,6 +2120,7 @@
         <String xml:lang="it-IT">~b~Dai una multa</String>
         <String xml:lang="fr-FR">~b~Donner une contravention</String>
         <String xml:lang="de-DE">~b~Strafzettel ausstellen</String>
+        <String xml:lang="lv-LV">~b~Iedot sodu</String>
     </Entry>
 
     <Entry Id="menu_playermenu_break_window">
@@ -1972,6 +2131,7 @@
         <String xml:lang="de-DE">~b~Scheibe einschlagen</String>
         <String xml:lang="it-IT">~b~Rompi finestra</String>
         <String xml:lang="id-ID">~b~Pecahkan kaca</String>
+        <String xml:lang="lv-LV">~b~Izsist logu</String>
     </Entry>
 
     <Entry Id="menu_playermenu_break_window_no_item">
@@ -1982,6 +2142,7 @@
         <String xml:lang="de-DE">Du brauchst ein ~y~{0}~s~ um das Fenster des ~o~Verdächtigen~s~ einzuschlagen.</String>
         <String xml:lang="it-IT">Hai bisogno di un ~y~{0}~s~ per rompere la finestra di un ~o~sospetto~s~.</String>
         <String xml:lang="id-ID">Kamu membutuhkan ~y~{0}~s~ untuk memecahkan kaca ~o~pelaku~s~.</String>
+        <String xml:lang="lv-LV">Jums ir nepieciešams ~y~{0}~s~ lai izsistu ~o~noziedznieka~s~ logu.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_suggest_bribe">
@@ -1992,6 +2153,7 @@
         <String xml:lang="de-DE">~o~Bestechung vorschlagen</String>
         <String xml:lang="it-IT">~o~Suggerisci corruzione</String>
         <String xml:lang="id-ID">~o~Menyarankan suap</String>
+        <String xml:lang="lv-LV">~o~Piedāvāt kukuli</String>
     </Entry>
 
     <Entry Id="menu_playermenu_suggest_bribe_description">
@@ -2002,6 +2164,7 @@
         <String xml:lang="de-DE">Frage den ~o~Verdächtigen~s~, ob er dich bezahlen will.</String>
         <String xml:lang="it-IT">Chiedi al ~o~sospetto~s~ di pagarti.</String>
         <String xml:lang="id-ID">Minta ~o~pelaku~s~ untuk membayarmu.</String>
+        <String xml:lang="lv-LV">Pieprasiet ~o~noziedzniekam~s~ iedot jums kukuli.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_suggest_bribe_most_wanted">
@@ -2012,6 +2175,7 @@
         <String xml:lang="de-DE">~r~Meistgesuchte Verdächtige können die Polizei nicht bestechen.</String>
         <String xml:lang="it-IT">~r~I sospetti più ricercati non possono corrompere la polizia.</String>
         <String xml:lang="id-ID">~r~Buronan paling dicari tidak dapat menyuap polisi.</String>
+        <String xml:lang="lv-LV">~r~Most Wanted noziedznieki nevar dot kukuļus policijai.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_antidote">
@@ -2022,6 +2186,7 @@
         <String xml:lang="de-DE">~p~Gegengift geben</String>
         <String xml:lang="it-IT">~p~Dai antidoto</String>
         <String xml:lang="id-ID">~p~Berikan obat penawar</String>
+        <String xml:lang="lv-LV">~p~Iedot pretindi</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_antidote_description">
@@ -2032,6 +2197,7 @@
         <String xml:lang="de-DE">Dieser Spieler leidet an einer ~r~Drogenüberdosis~s~. Wähle diese Option, um ihm das ~p~Gegengift~s~ zu geben.</String>
         <String xml:lang="it-IT">Questo giocatore è in ~r~overdose~s~ di droghe. Seleziona questa opzione per dargli l'~p~antidoto~s~.</String>
         <String xml:lang="id-ID">Pemain ini sedang ~r~keracunan narkoba~s~. Pilih opsi ini untuk memberikan mereka ~p~obat penawar~s~.</String>
+        <String xml:lang="lv-LV">Šīs spēlētājs ir ~r~pārdozējies~s~. Izvēlēties šo opciju lai iedotu viņiem ~p~pretindi~s~.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_antidote_no_item">
@@ -2042,6 +2208,7 @@
         <String xml:lang="de-DE">Du benötigst ~y~{0}~s~, um die ~r~Überdosis~s~ rückgängig zu machen.</String>
         <String xml:lang="it-IT">Hai bisogno di ~y~{0}~s~ per annullare l'~r~overdose~s~ di qualcuno.</String>
         <String xml:lang="id-ID">Kamu membutuhkan ~y~{0}~s~ untuk membalikkan ~r~keracunan~s~ seseorang.</String>
+        <String xml:lang="lv-LV">Jums ir vajadzīgs ~y~{0}~s~ lai apgrieztu kāda ~r~pārdozēšanos~s~.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_cash">
@@ -2052,6 +2219,7 @@
         <String xml:lang="de-DE">Bargeld geben</String>
         <String xml:lang="it-IT">Dai contante</String>
         <String xml:lang="id-ID">Berikan uang</String>
+        <String xml:lang="lv-LV">Iedot naudu</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_cash_description">
@@ -2062,6 +2230,7 @@
         <String xml:lang="de-DE">Gib (C){0}(/C) Bargeld aus deinem Portemonnaie.~n~~y~Warnung:~s~ Handle ~r~auf eigene Gefahr~s~, wir garantieren nicht, dass du etwas im Austausch für diese Transaktion erhälst.</String>
         <String xml:lang="it-IT">Dai (C){0}(/C) il contante dal tuo portafoglio.~n~~y~Attenzione:~s~ scambio ~r~a tuo rischio~s~, non garantiamo che riceverai qualcosa in cambio per questa transazione.</String>
         <String xml:lang="id-ID">Berikan (C){0}(/C) uang dari sakumu.~n~~y~Perhatian:~s~ resiko trading ~r~ditanggung masing-masing~s~, kami tidak dapat menjamin kamu mendapatkan apapun sebagai imbalan dari transaksi ini.</String>
+        <String xml:lang="lv-LV">Iedodiet (C){0}(/C) naudu no jūsu maka. ~n~~y~Brīdinājums:~s~ tirgojaties ~r~uz savu risku~s~, mēs nevaram garantēt ka jūs iegūsiet jebko apmaiņā pret šo darījumu.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_cash_level">
@@ -2072,6 +2241,7 @@
         <String xml:lang="de-DE">~r~Du musst Level {0} sein, um anderen Spielern Geld zu geben.</String>
         <String xml:lang="it-IT">~r~Devi essere di livello {0} per dare contante ad altri giocatori.</String>
         <String xml:lang="id-ID">~r~Kamu harus level {0} untuk bisa memberikan uang kepada pemain lain.</String>
+        <String xml:lang="lv-LV">~r~Jums ir jābūt {0}. līmeņa lai dotu citiem spēlētājiem naudu.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_item">
@@ -2082,6 +2252,7 @@
         <String xml:lang="de-DE">Gegenstand geben</String>
         <String xml:lang="it-IT">Consegna oggetto</String>
         <String xml:lang="id-ID">Berikan barang</String>
+        <String xml:lang="lv-LV">Iedot priekšmetu</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_item_description">
@@ -2092,6 +2263,7 @@
         <String xml:lang="de-DE">Gib (C){0}(/C) einen Gegenstand aus deinem Inventar.~n~~y~Warnung:~s~ Handle ~r~auf eigene Gefahr~s~, wir garantieren nicht, dass du etwas im Austausch für diese Transaktion erhälst.</String>
         <String xml:lang="it-IT">Dai a (C){0}(/C) un oggetto dal tuo inventario.~n~~y~Attenzione:~s~ scambio ~r~a tuo rischio~s~, non garantiamo che riceverai qualcosa in cambio per questa transazione.</String>
         <String xml:lang="id-ID">Berikan (C){0}(/C) item dari inventarismu. ~n~~y~Perhatian:~s~ resiko trading ~r~ditanggung masing-masing~s~, kami tidak dapat menjamin kamu mendapatkan apapun sebagai imbalan dari transaksi ini.</String>
+        <String xml:lang="lv-LV">Iedodiet (C){0}(/C) priekšmetu no jūsu inventāra. ~n~~y~Brīdinājums:~s~ tirgojaties ~r~uz savu risku~s~, mēs nevaram garantēt ka jūs iegūsiet jebko apmaiņā pret šo darījumu.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_keys">
@@ -2102,6 +2274,7 @@
         <String xml:lang="de-DE">Schlüssel geben</String>
         <String xml:lang="it-IT">Consegna chiavi</String>
         <String xml:lang="id-ID">Berikan kunci</String>
+        <String xml:lang="lv-LV">Iedot atslēgas</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_keys_description">
@@ -2112,6 +2285,7 @@
         <String xml:lang="de-DE">Gib diesem Spieler Schlüssel zu deinem Eigentum.</String>
         <String xml:lang="it-IT">Dai a questo giocatore le chiavi della tua proprietà.</String>
         <String xml:lang="id-ID">Berikan pemain ini kunci propertimu</String>
+        <String xml:lang="lv-LV">Iedodiet šim spēlētājam atslēgas no jūsu īpašuma.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_trade">
@@ -2122,6 +2296,7 @@
         <String xml:lang="de-DE">Handel anbieten</String>
         <String xml:lang="it-IT">Offri uno scambio</String>
         <String xml:lang="id-ID">Tawarkan trading</String>
+        <String xml:lang="lv-LV">Piedāvāt darījumu</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_trade_description">
@@ -2132,6 +2307,7 @@
         <String xml:lang="de-DE">Biete diesem Spieler einen Handel an.</String>
         <String xml:lang="it-IT">Offri a questo giocatore uno scambio.</String>
         <String xml:lang="id-ID">Tawarkan pemain ini trading.</String>
+        <String xml:lang="lv-LV">Piedāvājiet šim spēlētājam darījumu.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_no_actions">
@@ -2142,6 +2318,7 @@
         <String xml:lang="de-DE">Keine Aktionen :(</String>
         <String xml:lang="it-IT">Nessuna azione :(</String>
         <String xml:lang="id-ID">Tidak ada aksi :(</String>
+        <String xml:lang="lv-LV">Nav darbību :(</String>
     </Entry>
 
     <Entry Id="menu_playermenu_no_actions_description">
@@ -2152,6 +2329,7 @@
         <String xml:lang="de-DE">Es gibt keine Aktionen für diesen Spieler</String>
         <String xml:lang="it-IT">Non ci sono azioni per questo giocatore.</String>
         <String xml:lang="id-ID">Tidak ada aksi untuk pemain ini.</String>
+        <String xml:lang="lv-LV">Šim spēlētājam nav nekādu darbību.</String>
     </Entry>
 
     <Entry Id="gave_antidote">
@@ -2162,6 +2340,7 @@
         <String xml:lang="de-DE">Du hast {0} das ~p~Gegengift ~s~gegeben und dessen ~r~Drogenüberdosis~s~ behandelt.</String>
         <String xml:lang="it-IT">Hai dato a {0} l'~p~antidoto ~s~e trattato la loro ~r~overdose~s~ di droghe.</String>
         <String xml:lang="id-ID">Kamu memberikan {0} ~p~obat penawar~s~ dan menyembuhkan ~r~keracunan narkobanya~s~ mereka.</String>
+        <String xml:lang="lv-LV">Jūs iedēvat {0} ~p~pretindi ~s~un izārstējāt viņa ~r~pārdozēšanos~s~.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_suggest_bribe_requested">
@@ -2172,6 +2351,7 @@
         <String xml:lang="de-DE">ANGEFRAGT</String>
         <String xml:lang="it-IT">RICHIESTO</String>
         <String xml:lang="id-ID">MEMINTA</String>
+        <String xml:lang="lv-LV">PIEPRASĪTS</String>
     </Entry>
 
     <Entry Id="input_playermenu_give_cash">
@@ -2182,6 +2362,7 @@
         <String xml:lang="de-DE">Geld geben</String>
         <String xml:lang="it-IT">Dai contante</String>
         <String xml:lang="id-ID">Berikan uang</String>
+        <String xml:lang="lv-LV">Iedot Naudu</String>
     </Entry>
 
     <Entry Id="input_playermenu_give_cash_text">
@@ -2192,6 +2373,7 @@
         <String xml:lang="de-DE">Gib den Betrag des Geldes ein, den du {0} übergeben willst.</String>
         <String xml:lang="it-IT">Inserisci l'importo di denaro da inviare a {0}.</String>
         <String xml:lang="id-ID">Masukkan jumlah yang akan diberikan kepada {0}</String>
+        <String xml:lang="lv-LV">Ievadiet naudas summu, ko gribat nosūtīt {0}.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2210,6 +2392,7 @@
         <String xml:lang="id-ID">Statistik</String>
         <String xml:lang="hi-Latn">Statistics</String>
         <String xml:lang="de-DE">Statistik</String>
+        <String xml:lang="lv-LV">Statistika</String>
     </Entry>
 
     <Entry Id="menu_stats_subtitle">
@@ -2225,6 +2408,7 @@
         <String xml:lang="id-ID">Status</String>
         <String xml:lang="hi-Latn">Stats</String>
         <String xml:lang="de-DE">Stats</String>
+        <String xml:lang="lv-LV">Statistika</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2243,6 +2427,7 @@
         <String xml:lang="id-ID">Lemari pakaian</String>
         <String xml:lang="hi-Latn">Wardrobe</String>
         <String xml:lang="de-DE">Garderobe</String>
+        <String xml:lang="lv-LV">Garderobe</String>
     </Entry>
 
     <Entry Id="menu_wardrobe_subtitle">
@@ -2258,6 +2443,7 @@
         <String xml:lang="id-ID">Pilih kategori</String>
         <String xml:lang="hi-Latn">Category select kare</String>
         <String xml:lang="de-DE">Wähle eine Kategorie</String>
+        <String xml:lang="lv-LV">Izvēlēties kategoriju</String>
     </Entry>
 
     <Entry Id="menu_wardrobe_clear_text">
@@ -2267,6 +2453,7 @@
         <String xml:lang="it-IT">~b~Rimuovi tutto</String>
         <String xml:lang="fr-FR">~b~Supprimer tout</String>
         <String xml:lang="id-ID">~b~Hilangkan semua</String>
+        <String xml:lang="lv-LV">~b~Noņemt visu</String>
     </Entry>
 
     <Entry Id="menu_wardrobe_clear_description">
@@ -2276,6 +2463,7 @@
         <String xml:lang="it-IT">Rimuovi tutti i tuoi ~b~vestiti ~s~e ~b~trucco ~s~dal tuo personaggio.</String>
         <String xml:lang="fr-FR">Enlève tous tes ~b~vêtements ~s~et ~b~maquillage ~s~de ton personnage.</String>
         <String xml:lang="id-ID">Hilangkan semua ~b~pakaian ~s~dan ~b~makeup ~s~dari karaktermu.</String>
+        <String xml:lang="lv-LV">Noņemiet visus ~b~apģērbus ~s~un ~b~grimu ~s~no sava tēla.</String>
     </Entry>
 
     <Entry Id="btn_wardrobe_wear">
@@ -2285,6 +2473,7 @@
         <String xml:lang="it-IT">Indossa</String>
         <String xml:lang="fr-FR">Porter</String>
         <String xml:lang="id-ID">Pakai</String>
+        <String xml:lang="lv-LV">Valkāt</String>
     </Entry>
 
     <Entry Id="btn_wardrobe_browse">
@@ -2294,6 +2483,7 @@
         <String xml:lang="it-IT">Sfoglia</String>
         <String xml:lang="fr-FR">Parcourir</String>
         <String xml:lang="id-ID">Telusuri</String>
+        <String xml:lang="lv-LV">Pārlūkot</String>
     </Entry>
 
     <Entry Id="btn_wardrobe_remove">
@@ -2303,6 +2493,7 @@
         <String xml:lang="it-IT">Rimuovi</String>
         <String xml:lang="fr-FR">Retirer</String>
         <String xml:lang="id-ID">Lepaskan</String>
+        <String xml:lang="lv-LV">Noņemt</String>
     </Entry>
 
     <Entry Id="input_wardrobe_search_title">
@@ -2312,6 +2503,7 @@
         <String xml:lang="it-IT">Cerca</String>
         <String xml:lang="fr-FR">Rechercher</String>
         <String xml:lang="id-ID">Mencari</String>
+        <String xml:lang="lv-LV">Meklēt</String>
     </Entry>
 
     <Entry Id="input_wardrobe_search_text">
@@ -2321,6 +2513,7 @@
         <String xml:lang="it-IT">Inserisci il nome di un oggetto o una parte di esso</String>
         <String xml:lang="fr-FR">Saisir le nom d'un article ou une partie de celui-ci</String>
         <String xml:lang="id-ID">Masukkan nama item atau bagian dari item.</String>
+        <String xml:lang="lv-LV">Ievadiet priekšmeta nosaukumu vai tā daļu</String>
     </Entry>
 
     <Entry Id="menu_wardrobe_search_subtitle">
@@ -2330,6 +2523,7 @@
         <String xml:lang="it-IT">Ricerca: ''{0}''</String>
         <String xml:lang="fr-FR">Rechercher: ''{0}''</String>
         <String xml:lang="id-ID">Mencari: ''{0}''</String>
+        <String xml:lang="lv-LV">Meklēt: ''{0}''</String>
     </Entry>
 
 
@@ -2344,6 +2538,7 @@
         <String xml:lang="de-DE">gestartet</String>
         <String xml:lang="it-IT">Iniziato</String>
         <String xml:lang="id-ID">Dimulai</String>
+        <String xml:lang="lv-LV">Sākās</String>
     </Entry>
 
     <Entry Id="trading_state_confirmed">
@@ -2354,6 +2549,7 @@
         <String xml:lang="de-DE">bestätigt</String>
         <String xml:lang="it-IT">Confermato</String>
         <String xml:lang="id-ID">Konfirmasi</String>
+        <String xml:lang="lv-LV">Apsiprināts</String>
     </Entry>
 
     <Entry Id="trading_state_finalized">
@@ -2364,6 +2560,7 @@
         <String xml:lang="de-DE">Abgeschlossen</String>
         <String xml:lang="it-IT">Completato</String>
         <String xml:lang="id-ID">Finalisasi</String>
+        <String xml:lang="lv-LV">Pabeigts</String>
     </Entry>
 
     <Entry Id="menu_trading_current_state">
@@ -2374,6 +2571,7 @@
         <String xml:lang="de-DE">Status: {0}</String>
         <String xml:lang="it-IT">Stato: {0}</String>
         <String xml:lang="id-ID">Status: {0}</String>
+        <String xml:lang="lv-LV">Stāvoklis: {0}</String>
     </Entry>
 
     <Entry Id="menu_trading_title">
@@ -2384,6 +2582,7 @@
         <String xml:lang="de-DE">Handeln</String>
         <String xml:lang="it-IT">Commercio</String>
         <String xml:lang="id-ID">Trading</String>
+        <String xml:lang="lv-LV">Tirgo</String>
     </Entry>
 
     <Entry Id="menu_trading_my_offer_text">
@@ -2394,6 +2593,7 @@
         <String xml:lang="de-DE">Mein Angebot</String>
         <String xml:lang="it-IT">La mia offerta</String>
         <String xml:lang="id-ID">Penawaran saya</String>
+        <String xml:lang="lv-LV">Mans piedāvājums</String>
     </Entry>
 
     <Entry Id="menu_trading_my_offer_title">
@@ -2404,6 +2604,7 @@
         <String xml:lang="de-DE">Angebot</String>
         <String xml:lang="it-IT">Offerta</String>
         <String xml:lang="id-ID">Tawar</String>
+        <String xml:lang="lv-LV">Piedāvājums</String>
     </Entry>
 
     <Entry Id="menu_trading_my_offer_subtitle">
@@ -2414,6 +2615,7 @@
         <String xml:lang="de-DE">Mein Angebot</String>
         <String xml:lang="it-IT">La mia offerta</String>
         <String xml:lang="id-ID">Penawaran saya</String>
+        <String xml:lang="lv-LV">Mans piedāvājums</String>
     </Entry>
 
     <Entry Id="menu_trading_other_offer_text">
@@ -2424,6 +2626,7 @@
         <String xml:lang="de-DE">Angebot des anderen Spielers</String>
         <String xml:lang="it-IT">Offerta dell'altro giocatore</String>
         <String xml:lang="id-ID">Penawaran pemain lain</String>
+        <String xml:lang="lv-LV">Cita spēlētāja piedāvājums</String>
     </Entry>
 
     <Entry Id="menu_trading_other_offer_title">
@@ -2434,6 +2637,7 @@
         <String xml:lang="de-DE">Angebot</String>
         <String xml:lang="it-IT">Offerta</String>
         <String xml:lang="id-ID">Tawar</String>
+        <String xml:lang="lv-LV">Piedāvājums</String>
     </Entry>
 
     <Entry Id="menu_trading_other_offer_subtitle">
@@ -2444,6 +2648,7 @@
         <String xml:lang="de-DE">Angebot des anderen Spielers</String>
         <String xml:lang="it-IT">Offerta dell'altro giocatore</String>
         <String xml:lang="id-ID">Penawaran pemain lain</String>
+        <String xml:lang="lv-LV">Cita spēlētāja piedāvājums</String>
     </Entry>
 
     <Entry Id="menu_trading_confirm_text">
@@ -2454,6 +2659,7 @@
         <String xml:lang="de-DE">Bestätigen</String>
         <String xml:lang="it-IT">Conferma</String>
         <String xml:lang="id-ID">Konfirmasi</String>
+        <String xml:lang="lv-LV">Apstiprināt</String>
     </Entry>
 
     <Entry Id="menu_trading_confirm_description">
@@ -2464,6 +2670,7 @@
         <String xml:lang="de-DE">Durch Drücken dieser Taste wird der aktuelle Status aktualisiert</String>
         <String xml:lang="it-IT">Premendo questo pulsante si progredirà nello stato attuale</String>
         <String xml:lang="id-ID">Menekan tombol ini akan melanjutkan status ini</String>
+        <String xml:lang="lv-LV">Nospiežot šo pogu, tiks virzīts pašreizējais stāvoklis</String>
     </Entry>
 
     <Entry Id="trading_changed_offer">
@@ -2474,6 +2681,7 @@
         <String xml:lang="de-DE">{0} hat sein Angebot verändert.</String>
         <String xml:lang="it-IT">{0} ha modificato la sua offerta.</String>
         <String xml:lang="id-ID">{0} telah mengganti penawaran mereka.</String>
+        <String xml:lang="lv-LV">{0} mainīja savu piedāvājumu.</String>
     </Entry>
 
     <Entry Id="trading_offered">
@@ -2484,6 +2692,7 @@
         <String xml:lang="de-DE">Du hast deine ~y~Handelsanfrage~s~ an {0} gesendet.</String>
         <String xml:lang="it-IT">Hai inviato la tua ~y~richiesta di scambio~s~ a {0}.</String>
         <String xml:lang="id-ID">Kamu telah mengirimkan ~y~penawaran trading~s~ kepada {0}.</String>
+        <String xml:lang="lv-LV">Jūs nosūtījat {0} savu ~y~tirdzniecības pieprasījumu~s~.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -2496,6 +2705,7 @@
         <String xml:lang="de-DE">{0} hat dir eine Handelsanfrage gesendet. {1} um das Handelsmenü zu zeigen.</String>
         <String xml:lang="it-IT">{0} ti ha inviato una richiesta di scambio. {1} per visualizzare il menu di scambio.</String>
         <String xml:lang="id-ID">{0} mengirimkan permintaan untuk trading. {1} untuk melihat menu trading.</String>
+        <String xml:lang="lv-LV">{0} nosūtīja jums savu tirdzniecības pieprasījumu. {1} lai aplūkotu tirdzniecības izvēlni.</String>
     </Entry>
 
     <Entry Id="trading_other_confirmed">
@@ -2506,6 +2716,7 @@
         <String xml:lang="de-DE">{0} hat den Handel bestätigt.</String>
         <String xml:lang="it-IT">{0} ha confermato lo scambio.</String>
         <String xml:lang="id-ID">{0} telah mengkonfirmasi trading.</String>
+        <String xml:lang="lv-LV">{0} apstiprināja darījumu.</String>
     </Entry>
 
     <Entry Id="menu_trading_cash_label">
@@ -2516,6 +2727,7 @@
         <String xml:lang="de-DE">Geld: {0}</String>
         <String xml:lang="it-IT">Contanti: {0}</String>
         <String xml:lang="id-ID">Uang: {0}</String>
+        <String xml:lang="lv-LV">Nauda: {0}</String>
     </Entry>
 
     <Entry Id="menu_trading_cash_text">
@@ -2526,6 +2738,7 @@
         <String xml:lang="de-DE">Geld</String>
         <String xml:lang="it-IT">Contanti</String>
         <String xml:lang="id-ID">Uang</String>
+        <String xml:lang="lv-LV">Nauda</String>
     </Entry>
 
     <Entry Id="menu_trading_add_item">
@@ -2536,6 +2749,7 @@
         <String xml:lang="de-DE">Gegenstand hinzufügen</String>
         <String xml:lang="it-IT">Aggiungi Oggetto</String>
         <String xml:lang="id-ID">Tambahkan barang</String>
+        <String xml:lang="lv-LV">Pievienot Priekšmetu</String>
     </Entry>
 
     <Entry Id="menu_trading_add_purchaseable">
@@ -2546,6 +2760,7 @@
         <String xml:lang="de-DE">Erwerbbares hinzufügen</String>
         <String xml:lang="it-IT">Aggiungi Acquistabile</String>
         <String xml:lang="id-ID">Tambahkan barang yang dapat dibeli</String>
+        <String xml:lang="lv-LV">Pievienot Nopērkamo</String>
     </Entry>
 
     <Entry Id="trading_response_success">
@@ -2556,6 +2771,7 @@
         <String xml:lang="de-DE">Handel abgeschlossen.</String>
         <String xml:lang="it-IT">Scambio completato.</String>
         <String xml:lang="id-ID">Trading berhasil.</String>
+        <String xml:lang="lv-LV">Darījums pabeigts.</String>
     </Entry>
 
     <Entry Id="trading_response_amount">
@@ -2566,6 +2782,7 @@
         <String xml:lang="de-DE">~r~Unzureichender Betrag, um den Handel abzuschließen.</String>
         <String xml:lang="it-IT">~r~Importo insufficiente per completare lo scambio.</String>
         <String xml:lang="id-ID">~r~Jumlahnya tidak mencukupi untuk menyelesaikan trading.</String>
+        <String xml:lang="lv-LV">~r~Nepietiekama summa lai pabeigtu darījumu.</String>
     </Entry>
 
     <Entry Id="trading_response_item">
@@ -2576,6 +2793,7 @@
         <String xml:lang="de-DE">~r~Ungültiger Gegenstand wurde im Handel gefunden.</String>
         <String xml:lang="it-IT">~r~Oggetto non valido trovato nello scambio.</String>
         <String xml:lang="id-ID">~r~Barang yang tidak valid ditemukan ditrading.</String>
+        <String xml:lang="lv-LV">~r~Nederīgs priekšmets tika atrasts darījumā.</String>
     </Entry>
 
     <Entry Id="trading_response_item_limit">
@@ -2586,6 +2804,7 @@
         <String xml:lang="de-DE">~r~Gegenstandslimit erreicht, der Handel kann nicht abgeschlossen werden.</String>
         <String xml:lang="it-IT">~r~Limite di oggetti raggiunto, non è possibile completare lo scambio.</String>
         <String xml:lang="id-ID">~r~Limit barang tercapai, tidak dapat menyelesaikan trading.</String>
+        <String xml:lang="lv-LV">~r~Priekšmetu ierobežojums tika sasniegts, nevar pabeigt darījumu.</String>
     </Entry>
 
     <Entry Id="trading_response_not_transferable">
@@ -2596,6 +2815,7 @@
         <String xml:lang="de-DE">~r~Gegenstand ist nicht übertragbar.</String>
         <String xml:lang="it-IT">~r~L'oggetto non è trasferibile.</String>
         <String xml:lang="id-ID">~r~Barang ini tidak dapat dipindah tangan.</String>
+        <String xml:lang="lv-LV">~r~Priekšmets nav nododams.</String>
     </Entry>
 
     <Entry Id="trading_response_job">
@@ -2606,6 +2826,7 @@
         <String xml:lang="de-DE">~r~Job erlaubt es nicht, einen Handel mit diesem Gegenstand durchzuführen.</String>
         <String xml:lang="it-IT">~r~Lavoro non autorizzato a eseguire scambi su questo oggetto.</String>
         <String xml:lang="id-ID">~r~Pekerjaan tidak mengijinkan untuk melakukan trading ini.</String>
+        <String xml:lang="lv-LV">~r~Nav atļauts nodot šo priekšmetu šajā darbā.</String>
     </Entry>
 
     <Entry Id="trading_response_no_space">
@@ -2616,6 +2837,7 @@
         <String xml:lang="de-DE">~r~Kein Platz, um diesen Handel abzuschließen.</String>
         <String xml:lang="it-IT">~r~Non c'è più spazio per completare lo scambio.</String>
         <String xml:lang="id-ID">~r~Tidak ada tempat lagi untuk menyelesaikan trading.</String>
+        <String xml:lang="lv-LV">~r~Nav vietas lai pabeigtu darījumu.</String>
     </Entry>
 
     <Entry Id="trading_response_transfer_limit">
@@ -2626,6 +2848,7 @@
         <String xml:lang="de-DE">~r~Geldtransferlimit von {0} oder der Cooldown wurden erreicht.</String>
         <String xml:lang="it-IT">~r~Limite di trasferimento di denaro di {0} raggiunto o tempo di attesa scaduto.</String>
         <String xml:lang="id-ID">~r~Batas transfer uang sebesar {0} atau cooldown telah tercapai.</String>
+        <String xml:lang="lv-LV">~r~Tika sasniegts maudas nodošanas ierobežojums {0} apmērā vai atdzišana.</String>
     </Entry>
 
     <Entry Id="trading_response_transaction">
@@ -2636,5 +2859,6 @@
         <String xml:lang="de-DE">~r~Transaktionsfehler aufgetreten.</String>
         <String xml:lang="it-IT">~r~Errore durante la transazione.</String>
         <String xml:lang="id-ID">~r~Transaksi error terjadi.</String>
+        <String xml:lang="lv-LV">~r~Notika tranzakcijas kļūda.</String>
     </Entry>
 </Entries>
