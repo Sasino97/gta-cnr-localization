@@ -9,6 +9,7 @@
         <String xml:lang="de-DE">Wechsle zu {0}</String>
         <String xml:lang="it-IT">Passa a {0}</String>
         <String xml:lang="id-ID">Mengganti ke {0}</String>
+        <String xml:lang="sv-SE">Ändra till {0}</String>
     </Entry>
 
     <Entry Id="jobs_switch_to_description">
@@ -19,6 +20,7 @@
         <String xml:lang="de-DE">Speichere deinen aktuellen Job-Fortschritt und werde ein {0}.</String>
         <String xml:lang="it-IT">Salva i progressi del tuo lavoro attuale e diventa un {0}.</String>
         <String xml:lang="id-ID">Simpan progres pekerjaan anda saat ini dan menjadi {0}.</String>
+         <String xml:lang="sv-SE">Spara ditt nuvarande jobb framsteg och bli en {0}.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -83,6 +85,7 @@
     <Entry Id="jobs_license_required">
         <String xml:lang="en-US">You need a ~b~{0}~s~ to become a {1}.</String>
         <String xml:lang="nl-NL">Je hebt een ~b~{0}~s~ nodig om een {1} te worden.</String>
+        <String xml:lang="de-DE">Du benötigst ~b~{0}~s~ um ein {1} zu werden.</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -225,7 +228,8 @@
 
     <Entry Id="jobs_ban_info">
         <String xml:lang="en-US">Ban reason: ~r~{0}~s~. Expires ~y~{1}~s~.</String>
-        <String xml:lang="nl-NL">Ban reden: ~r~{0}~s~. Verloopt ~y~{1}~s~.</String>        
+        <String xml:lang="nl-NL">Ban reden: ~r~{0}~s~. Verloopt ~y~{1}~s~.</String>
+        <String xml:lang="de-DE">Bangrund: ~r~{0}~s~. Läuft ab: ~y~{1}~s~.</String>       
     </Entry>
 
     <!-- ========================= -->
@@ -1600,6 +1604,7 @@
         <String xml:lang="en-US">~y~(C)Reminder:(/C) ~s~you can only shoot when there's a threat, and you can't team up with ~o~criminals~s~.</String>
         <String xml:lang="nl-NL">~y~(C)Reminder:(/C) ~s~je kan alleen schieten wanneer er gevaar is. Je mag niet samen spelen men ~o~criminelen~s~.</String>
         <String xml:lang="fr-FR">~y~(C)Rappel:(/C) ~s~tu ne peux tirer que lorsqu'il y a une menace, et tu ne peux pas faire équipe avec des ~o~criminels~s~.</String>
+        <String xml:lang="de-DE">~y~(C)Erinnerung:(/C) ~s~Du darfst nur dann schießen, wenn es eine Bedrohung gibt und du darfst dich nicht mit ~o~Kriminellen~s~ verbünden.</String>
     </Entry>
 
     <!-- {0} = Clothing name -->
@@ -2881,6 +2886,7 @@
     <Entry Id="police_cant_uncuff_when_in_vehicle">
         <String xml:lang="en-US">You cannot ~o~uncuff ~s~someone when you and the ~r~target ~s~are not in the same ~y~vehicle~s~.</String>
         <String xml:lang="nl-NL">Je kan iemand zijn handboeien ~o~niet losmaken ~s~wanneer jij en het ~r~doelwit ~s~niet in hetzelfde ~y~voertuig ~s~zitten.</String>
+        <String xml:lang="de-DE">Du darfst niemanden ~o~freilassen, ~s~wenn du und das ~r~Ziel~s~ nicht im selben ~y~Fahrzeug~s~ sind.</String>
     </Entry>
 
     <Entry Id="police_giving_ticket">
@@ -5867,6 +5873,7 @@
         <String xml:lang="en-US">{0} ~r~destroyed~s~ your goods.</String>
         <String xml:lang="nl-NL">{0} heeft jouw goederen ~r~vernietigd~s~.</String>
         <String xml:lang="fr-FR">{0} a ~r~détruit~s~ tes biens.</String>
+        <String xml:lang="de-DE">{0} hat deine Güter ~r~zerstört~s~.</String>
     </Entry>
 
     <!-- ================================= -->
@@ -5906,6 +5913,7 @@
     <Entry Id="hitman_payphone_used_hint">
         <String xml:lang="en-US">{0} was seen somewhere around {1}. Open your map to view the area.</String>
         <String xml:lang="nl-NL">{0} was ergens gezien rond {1}. Open je kaart om dit gebied te bekijken.</String>
+        <String xml:lang="de-DE">{0} wurde irgendwo bei {1} gesehen. Öffne deine Karte um den Bereich zu sehen.</String>
     </Entry>
     
     <!-- {0} Name (id) of the target (already colored) -->
@@ -5935,5 +5943,6 @@
         <String xml:lang="en-US">(C)Medical Doctor:(/C) ~s~provide ~p~healthcare ~s~services and items for money.</String>
         <String xml:lang="nl-NL">(C)Medisch Arts:(/C) ~s~biedt ~p~gezondheidszorg ~s~en artikelen voor geld.</String>
         <String xml:lang="fr-FR">(C)Médecin:(/C) ~s~offre des ~p~prestations de soins et des articles de santé ~s~contre de l'argent.</String>
+        <String xml:lang="de-DE">(C)Doktor:(/C) ~s~biete ~p~Gesundheitsdienstleistungen ~s~und Gegenstände für Geld.</String>
     </Entry>
 </Entries>
