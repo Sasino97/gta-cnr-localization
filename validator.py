@@ -112,7 +112,7 @@ class Validator:
     """
     xml_files: list[str] = []
     supported_langs: list[str] = ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES", "pt-BR",
-        "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH", "id-ID", "cs-CZ", "da-DK"]
+        "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH", "id-ID", "cs-CZ", "da-DK", "sv-SE", "ru-RU", "lv-LV", "et-EE", "no-NO"]
     used_ids: set[str] = set()
     fatal_errors: int = 0
     errors: int = 0
