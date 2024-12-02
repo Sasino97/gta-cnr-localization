@@ -1660,6 +1660,7 @@
     <!-- {2} = Item unit -->
     <!-- {3} = Item name -->
     <!-- {4} = Price -->
+    <!-- Example: You sold Sasino (54) ~y~15g Cocaine~s~for ~g~$250,000~s~. -->
     <Entry Id="stp_sold">
         <String xml:lang="en-US">You sold {0} ~y~{1}{2} {3}~s~ for ~g~{4}~s~.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~y~{1}{2} {3}~s~ verkocht voor ~g~{4}~s~.</String>
@@ -2738,4 +2739,14 @@
         <String xml:lang="nl-NL">Bekijk alle oproepen voor een medische arts.</String>
         <String xml:lang="hi-Latn">Medical doctor ke recent calls dekhne ke liye.</String>
     </Entry>
+
+    <!-- Arms Dealer Job -->
+    <Entry Id="menu_arms_dealer_title">
+        <String xml:lang="en-US">Arms Dealer</String>
+    </Entry>
+
+    <Entry Id="menu_arms_dealer_calls_description">
+        <String xml:lang="en-US">View recent calls for an arms dealer.</String>
+    </Entry>
+    
 </Entries>
