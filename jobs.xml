@@ -86,6 +86,7 @@
         <String xml:lang="en-US">You need a ~b~{0}~s~ to become a {1}.</String>
         <String xml:lang="nl-NL">Je hebt een ~b~{0}~s~ nodig om een {1} te worden.</String>
         <String xml:lang="de-DE">Du benötigst ~b~{0}~s~ um ein {1} zu werden.</String>
+        <String xml:lang="hi-Latn">Aapko ek ~b~{0}~s~ chahiye taaki aap {1} ban sakein.</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -148,6 +149,7 @@
         <String xml:lang="id-ID">~r~Kamu tidak bisa mengganti pekerjaan ketika sedang mengerjakan misi.</String>
         <String xml:lang="it-IT">~r~Non puoi cambiare lavoro mentre sei in missione.</String>
         <String xml:lang="de-DE">~r~Du kannst deinen Job nicht wechseln, während du auf einer Mission bist.</String>
+        <String xml:lang="hi-Latn">~r~Aap apna kaam tab tak nahi change kar sakte jab tak aap mission par hain.</String>
     </Entry>
 
     <Entry Id="jobs_cant_change_inside_vehicle">
@@ -229,7 +231,8 @@
     <Entry Id="jobs_ban_info">
         <String xml:lang="en-US">Ban reason: ~r~{0}~s~. Expires ~y~{1}~s~.</String>
         <String xml:lang="nl-NL">Ban reden: ~r~{0}~s~. Verloopt ~y~{1}~s~.</String>
-        <String xml:lang="de-DE">Bangrund: ~r~{0}~s~. Läuft ab: ~y~{1}~s~.</String>       
+        <String xml:lang="de-DE">Bangrund: ~r~{0}~s~. Läuft ab: ~y~{1}~s~.</String>
+        <String xml:lang="hi-Latn">Ban reason: ~r~{0}~s~. Expire hoga ~y~{1}~s~.</String>       
     </Entry>
 
     <!-- ========================= -->
@@ -1605,6 +1608,7 @@
         <String xml:lang="nl-NL">~y~(C)Reminder:(/C) ~s~je kan alleen schieten wanneer er gevaar is. Je mag niet samen spelen men ~o~criminelen~s~.</String>
         <String xml:lang="fr-FR">~y~(C)Rappel:(/C) ~s~tu ne peux tirer que lorsqu'il y a une menace, et tu ne peux pas faire équipe avec des ~o~criminels~s~.</String>
         <String xml:lang="de-DE">~y~(C)Erinnerung:(/C) ~s~Du darfst nur dann schießen, wenn es eine Bedrohung gibt und du darfst dich nicht mit ~o~Kriminellen~s~ verbünden.</String>
+        <String xml:lang="hi-Latn">~y~(C)Reminder:(/C) ~s~Aap sirf tabhi goli chala sakte hain jab koi khatra ho, aur aap ~o~criminals~s~ ke saath milkar kaam nahi kar sakte.</String>
     </Entry>
 
     <!-- {0} = Clothing name -->
@@ -2887,6 +2891,7 @@
         <String xml:lang="en-US">You cannot ~o~uncuff ~s~someone when you and the ~r~target ~s~are not in the same ~y~vehicle~s~.</String>
         <String xml:lang="nl-NL">Je kan iemand zijn handboeien ~o~niet losmaken ~s~wanneer jij en het ~r~doelwit ~s~niet in hetzelfde ~y~voertuig ~s~zitten.</String>
         <String xml:lang="de-DE">Du darfst niemanden ~o~freilassen, ~s~wenn du und das ~r~Ziel~s~ nicht im selben ~y~Fahrzeug~s~ sind.</String>
+        <String xml:lang="hi-Latn">Aap kisi ko ~o~uncuff ~s~nahi kar sakte jab aap aur ~r~target ~s~ek hi ~y~vehicle ~s~mein nahi hain.</String>
     </Entry>
 
     <Entry Id="police_giving_ticket">
@@ -2896,6 +2901,7 @@
         <String xml:lang="it-IT">Stai dando una multa a {0}.</String>
         <String xml:lang="fr-FR">Tu donnes une contravention à {0}.</String>
         <String xml:lang="de-DE">Du gibst {0} einen Strafzettel.</String>
+        <String xml:lang="hi-Latn">Aap {0} ko ek ticket de rahe hain.</String>
     </Entry>
 
     <Entry Id="police_giving_ticket_failed">
@@ -2905,6 +2911,7 @@
         <String xml:lang="it-IT">~r~Non sei riuscito a dare una multa a {0}.</String>
         <String xml:lang="fr-FR">~r~Tu n'as pas réussi à donner une contravention à {0}.</String>
         <String xml:lang="de-DE">~r~Du hast es nicht geschafft, {0} einen Strafzettel zu geben.</String>
+        <String xml:lang="hi-Latn">~r~Aap {0} ko ticket dene mein fail ho gaye hain.</String>
     </Entry>
 
     <Entry Id="police_giving_ticket_succeeded">
@@ -2914,6 +2921,7 @@
         <String xml:lang="it-IT">Hai dato una multa di ~b~{1} ~s~a {0}.</String>
         <String xml:lang="fr-FR">Tu as donné une contravention de ~b~{1} ~s~à {0}.</String>
         <String xml:lang="de-DE">Du hast {0} einen ~b~{1}~s~-Strafzettel gegeben.</String>
+        <String xml:lang="hi-Latn">Aapne {0} ko ek ~b~{1} ~s~ticket diya hai.</String>
     </Entry>
 
     <Entry Id="police_ticket_menu_title">
@@ -2923,6 +2931,7 @@
         <String xml:lang="it-IT">Multa</String>
         <String xml:lang="fr-FR">Contravention</String>
         <String xml:lang="de-DE">Strafzettel</String>
+        <String xml:lang="hi-Latn">Ticket</String>
     </Entry>
 
     <Entry Id="police_ticket_menu_subtitle">
@@ -2932,6 +2941,7 @@
         <String xml:lang="it-IT">{0} ti ha dato una multa</String>
         <String xml:lang="fr-FR">{0} t'a donné une contravention</String>
         <String xml:lang="de-DE">{0} hat dir einen Strafzettel gegeben</String>
+        <String xml:lang="hi-Latn">{0} ne aapko ek ticket diya hai.</String>
     </Entry>
 
     <Entry Id="police_ticket_pay">
@@ -2941,6 +2951,7 @@
         <String xml:lang="it-IT">Paga</String>
         <String xml:lang="fr-FR">Payer</String>
         <String xml:lang="de-DE">Bezahlen</String>
+        <String xml:lang="hi-Latn">Pay</String>
     </Entry>
 
     <Entry Id="police_ticket_pay_desc">
@@ -2950,6 +2961,7 @@
         <String xml:lang="it-IT">Accetta e paga la ~y~multa ~s~ora con uno sconto del ~g~25%~s~. Se non hai fondi sufficienti, l'importo non pagato sarà aggiunto come ~r~debito~s~.</String>
         <String xml:lang="fr-FR">Accepter et payer ~y~l'amende ~s~dès maintenant avec une réduction de ~g~25%~s~. Si tu n'as pas assez d'argent, le montant impayé sera ajouté en ~r~dette~s~.</String>
         <String xml:lang="de-DE">Akzeptiere und bezahle die ~y~Geldstrafe ~s~jetzt mit einer ~g~25% Ermäßigung~s~. Wenn du nicht genug Geld hast, wird der Betrag, der nicht bezahlt wurde, als ~r~Schulden~s~ hinzugefügt.</String>
+        <String xml:lang="hi-Latn">~y~Fine ~s~ko abhi accept karke pay karein aur ~g~25% ki chhoot ~s~ka fayda uthaayein. Agar aapke paas poori amount nahi hai, toh bacha hua amount ~r~debt ~s~mein add ho diya jayega.</String>
     </Entry>
 
     <Entry Id="police_ticket_contest">
@@ -2959,6 +2971,7 @@
         <String xml:lang="it-IT">Contesta</String>
         <String xml:lang="fr-FR">Contester</String>
         <String xml:lang="de-DE">Anfechten</String>
+        <String xml:lang="hi-Latn">Contest</String>
     </Entry>
 
     <Entry Id="police_ticket_contest_desc">
@@ -2968,6 +2981,7 @@
         <String xml:lang="it-IT">Contesta questa multa in ~b~tribunale~s~. Hai il 30% di possibilità di vincere e non pagare nulla.</String>
         <String xml:lang="fr-FR">Contester cette contravention devant le ~b~tribunal~s~. Tu as 30% de chances de gagner et de ne rien payer.</String>
         <String xml:lang="de-DE">Fechte diesen Strafzettel vor ~b~Gericht~s~ an. Du hast eine 30% Chance, zu Gewinnen, und nichts bezahlen zu müssen.</String>
+        <String xml:lang="hi-Latn">Iss ticket ko ~b~court ~s~mein le jaye. Aapke paas 30% chance hai jeetne ka aur kuch bhi na pay karne ka.</String>
     </Entry>
 
     <Entry Id="police_ticket_bribe">
@@ -2977,6 +2991,7 @@
         <String xml:lang="it-IT">~o~Corrompi</String>
         <String xml:lang="fr-FR">~o~Pot-de-vin</String>
         <String xml:lang="de-DE">~o~Bestechen</String>
+        <String xml:lang="hi-Latn">~o~Bribe</String>
     </Entry>
 
     <Entry Id="police_ticket_bribe_desc">
@@ -2986,6 +3001,7 @@
         <String xml:lang="it-IT">Cerca di ~o~corrompere ~s~l'agente per annullare la multa. C'è un rischio significativo che l'agente ~r~rifiuti ~s~la corruzione e ti denunci per un ~o~reato~s~.</String>
         <String xml:lang="fr-FR">Tenter de ~o~soudoyer ~s~l'agent pour qu'il annule la contravention. Il y a un risque important que l'agent ~r~refuse ~s~le pot-de-vin et t'accuse d'un ~o~délit~s~.</String>
         <String xml:lang="de-DE">Versuch, ~o~den Beamten zu bestechen, um den Strafzettel ungültig zu machen. Es besteht ein erhebliches Risiko, dass der Beamte ~r~die Bestechung ablehnt ~s~und dich wegen eines ~o~Verbrechens~s~ belangt.</String>
+        <String xml:lang="hi-Latn">Ticket cancel karne ke liye officer ko ~o~bribe ~s~dene ki koshish kare. Isme yeh risk hai ki officer ~r~bribe refuse ~s~kar dega toh aap par ek ~o~felony ~s~ka charge lag jayega.</String>
     </Entry>
     
     <Entry Id="police_no_longer_around">
@@ -3465,6 +3481,7 @@
         <String xml:lang="de-DE">Das ~r~Fahrzeug~s~ bewegt sich.</String>
         <String xml:lang="it-IT">Il ~r~veicolo~s~ è in movimento.</String>
         <String xml:lang="id-ID">~r~Kendaraan~s~ ini sedang bergerak.</String>
+        <String xml:lang="hi-Latn">~r~Vehicle ~s~chal raha hai.</String>
     </Entry>
 
     <Entry Id="police_break_window_success">
@@ -3474,6 +3491,7 @@
         <String xml:lang="de-DE">Du hast die Fenster des {0} eingeschlagen und die Türen entriegelt.</String>
         <String xml:lang="it-IT">Hai sfondato il finestrino di {0} e sbloccato la porta.</String>
         <String xml:lang="id-ID">Kamu memecahkan jendela {0} dan membuka kunci pintu.</String>
+        <String xml:lang="hi-Latn">Aapne {0} ki window todd di aur darwaza unlock kar diya.</String>
     </Entry>
 
     <Entry Id="police_window_broken">
@@ -3483,6 +3501,8 @@
         <String xml:lang="de-DE">Polizist {0} hat deine Scheiben eingeschlagen und die Türen entriegelt.</String>
         <String xml:lang="it-IT">L'agente {0} ha sfondato il tuo finestrino e sbloccato la porta.</String>
         <String xml:lang="id-ID">Petugas {0} memecahkan jendelamu dan membuka kunci pintu.</String>
+        <String xml:lang="hi-Latn">Officer {0} ne aapki window todd di aur darwaza unlock kar diya.</String>
+
     </Entry>
 
     <!-- ========================= -->
@@ -5295,6 +5315,7 @@
         <String xml:lang="fr-FR">Tu es ~o~recherché ~s~par la police. Dégage de ma voiture!</String>
         <String xml:lang="it-IT">Sei ~o~ricercato ~s~dalla polizia. Fuori dalla mia auto!</String>
         <String xml:lang="id-ID">Kamu ~o~sedang diburu ~s~oleh kepolisian. Keluar dari mobilku!</String>
+        <String xml:lang="hi-Latn">Aap ~o~wanted ~s~list me ho police ke. Meri gaadi se turant bahar nikal jao!</String>
     </Entry>
 
     <Entry Id="dealership_drive_time">
@@ -5304,6 +5325,7 @@
         <String xml:lang="fr-FR">~r~Le temps est écoulé.</String>
         <String xml:lang="it-IT">~r~Il tempo è scaduto.</String>
         <String xml:lang="id-ID">~r~Waktu habis.</String>
+        <String xml:lang="hi-Latn">~r~Time khatam ho gaya.</String>
     </Entry>
 
     <Entry Id="dealership_drive_left">
@@ -5313,6 +5335,7 @@
         <String xml:lang="fr-FR">Tu as ~r~quitté ~s~le ~b~véhicule~s~.</String>
         <String xml:lang="it-IT">Hai ~r~lasciato ~s~il ~b~veicolo~s~.</String>
         <String xml:lang="id-ID">Kamu ~r~meninggalkan ~s~~b~kendaraan~s~.</String>
+        <String xml:lang="hi-Latn">Aap ~r~left ~s~kardiye ~b~vehicle~s~.</String>
     </Entry>
 
     <Entry Id="dealership_drive_too_far_away">
@@ -5322,6 +5345,7 @@
         <String xml:lang="fr-FR">Tu t'es ~r~trop éloigné ~s~du ~y~concessionnaire~s~.</String>
         <String xml:lang="it-IT">Ti sei ~r~allontanato troppo ~s~dal ~y~concessionario~s~.</String>
         <String xml:lang="id-ID">Kamu pergi ~r~terlalu jauh ~s~dari ~y~dealer kendaraan~s~.</String>
+        <String xml:lang="hi-Latn">Aap ~y~dealership ~s~se ~r~bahut door ~s~chale gaye.</String>
     </Entry>
 
     <Entry Id="dealership_drive_damaged">
@@ -5331,6 +5355,7 @@
         <String xml:lang="fr-FR">Tu as endommagé le véhicule! Tu ne récupéreras pas ta caution.</String>
         <String xml:lang="it-IT">Hai ~r~danneggiato ~s~il veicolo! Non riceverai indietro il deposito.</String>
         <String xml:lang="id-ID">Kamu ~r~merusak ~s~kendaraan! Kamu tidak akan mendapatkan depositmu lagi.</String>
+        <String xml:lang="hi-Latn">Aapne vehicle ~r~damage ~s~kar di! Aapko apna deposit wapas nahi milega.</String>
     </Entry>
 
     <Entry Id="dealership_specified_plate_taken">
@@ -5370,6 +5395,7 @@
         <String xml:lang="fr-FR">Job Garage</String>
         <String xml:lang="it-IT">Garage Lavoro</String>
         <String xml:lang="id-ID">Garasi pekerjaan</String>
+        <String xml:lang="hi-Latn">Job Garage</String>
     </Entry>
 
     <Entry Id="menu_job_garage_subtitle">
@@ -5379,6 +5405,7 @@
         <String xml:lang="fr-FR">Sélectionne un véhicule à sortir</String>
         <String xml:lang="it-IT">Seleziona un veicolo da prendere</String>
         <String xml:lang="id-ID">Pilih mobil untuk dibawa</String>
+        <String xml:lang="hi-Latn">Ek vehicle select karo bahar nikaal ne ke liye</String>
     </Entry>
 
     <Entry Id="menu_job_garage_empty_text">
@@ -5388,6 +5415,7 @@
         <String xml:lang="fr-FR">Pas de véhicules de travail :(</String>
         <String xml:lang="it-IT">Nessun veicolo da lavoro :(</String>
         <String xml:lang="id-ID">Tidak ada kendaraan untuk pekerjaan ini :(</String>
+        <String xml:lang="hi-Latn">Job vehicles nahi hai :(</String>
     </Entry>
 
     <Entry Id="menu_job_garage_empty_description">
@@ -5397,6 +5425,7 @@
         <String xml:lang="fr-FR">Tu n'as pas de véhicule pour ton ~b~travail actuel~s~, et tu ~r~ne peux pas ~s~utiliser tes véhicules personnels pendant ce travail. Achète des véhicules pour ton travail et ils apparaîtront dans ce menu.</String>
         <String xml:lang="it-IT">Non hai veicoli per il tuo ~b~lavoro attuale~s~, e ~r~non puoi ~s~usare i tuoi veicoli personali mentre sei a lavoro. Acquista veicoli da lavoro e compariranno in questo menu.</String>
         <String xml:lang="id-ID">Kamu tidak memiliki kendaraan untuk ~b~pekerjaanmu saat ini~s~, dan kamu ~r~tidak bisa ~s~menggunakan kendaraan pribadi ketika sedang bekerja pekerjaan ini. Beli kendaraan untuk pekerjaan ini dan mereka akan muncul di menu ini.</String>
+        <String xml:lang="hi-Latn">Aapke paas apni ~b~current job~s~ ke liye koi vehicle nahi hai, aur aap is job ke time apne personal vehicles ka istemal ~r~nahi kar sakte~s~. Job vehicles khareedein aur wo is menu mein show ho jayegi.</String>
     </Entry>
     
     <!-- ================================= -->
@@ -5410,6 +5439,7 @@
         <String xml:lang="id-ID">~c~(C)Supir pengiriman:(/C) ~s~Kirimkan ~b~barang ~s~untuk menghasilkan uang.</String>
         <String xml:lang="it-IT">~c~(C)Corriere:(/C) ~s~consegna ~b~merci ~s~per guadagnare soldi.</String>
         <String xml:lang="de-DE">~c~(C)Lieferfahrer:(/C) ~s~liefern ~b~Waren ~s~um Geld zu verdienen.</String>
+        <String xml:lang="hi-Latn">~c~(C)Delivery Driver:(/C) ~s~paise kamane ke liye ~b~goods ~s~deliver karein.</String>
     </Entry>
     
     <Entry Id="menu_ddriver_title">
@@ -5419,6 +5449,7 @@
         <String xml:lang="id-ID">Supir Pengiriman</String>
         <String xml:lang="it-IT">Corriere</String>
         <String xml:lang="de-DE">Lieferfahrer</String>
+        <String xml:lang="hi-Latn">Delivery Driver</String>
     </Entry>
     
     <Entry Id="menu_ddriver_deliveries_text">
@@ -5428,6 +5459,7 @@
         <String xml:lang="id-ID">Pengiriman</String>
         <String xml:lang="it-IT">Consegne</String>
         <String xml:lang="de-DE">Lieferungen</String>
+        <String xml:lang="hi-Latn">Deliveries</String>
     </Entry>
     
     <Entry Id="menu_ddriver_deliveries_descr">
@@ -5437,6 +5469,7 @@
         <String xml:lang="id-ID">Lihat pekerjaan pengiriman yang tersedia.</String>
         <String xml:lang="it-IT">Visualizza i lavori di consegna disponibili.</String>
         <String xml:lang="de-DE">Zeige die verfügbaren Lieferjobs.</String>
+        <String xml:lang="hi-Latn">Available delivery jobs dekhein.</String>
     </Entry>
     
     <!-- Try to keep this as short as possible (needs to fit in menu subheader) -->
@@ -5447,6 +5480,7 @@
         <String xml:lang="id-ID">Susun berdasarkan gaji</String>
         <String xml:lang="it-IT">Ordinato per pagamento</String>
         <String xml:lang="de-DE">Sortiert nach Auszahlung</String>
+        <String xml:lang="hi-Latn">Payout ke hisaab se sort kara hua</String>
     </Entry>
     
     <!-- Try to keep this as short as possible (needs to fit in menu subheader) -->
@@ -5457,6 +5491,7 @@
         <String xml:lang="id-ID">Susun berdasarkan jarak</String>
         <String xml:lang="it-IT">Ordinato per distanza di ritiro</String>
         <String xml:lang="de-DE">Sortiert nach Entfernung</String>
+        <String xml:lang="hi-Latn">Distance ke hisaab se sort kara hua</String>
     </Entry>
     
     <Entry Id="menu_ddriver_history_text">
@@ -5466,6 +5501,7 @@
         <String xml:lang="id-ID">Riwayat</String>
         <String xml:lang="it-IT">Cronologia</String>
         <String xml:lang="de-DE">Historie</String>
+        <String xml:lang="hi-Latn">History</String>
     </Entry>
     
     <Entry Id="menu_ddriver_history_descr">
@@ -5475,6 +5511,7 @@
         <String xml:lang="id-ID">Lihat pekerjaan pengiriman yang telah diselesaikan di sesi ini.</String>
         <String xml:lang="it-IT">Visualizza i lavori di consegna che hai completato nella sessione attuale.</String>
         <String xml:lang="de-DE">Zeige die Lieferjobs, die du in der aktuellen Sitzung erfüllt hast.</String>
+        <String xml:lang="hi-Latn">Current session mein complete kiye gaye delivery jobs dekhein.</String>
     </Entry>
     
     <Entry Id="menu_ddriver_history_subtitle">
@@ -5484,6 +5521,7 @@
         <String xml:lang="id-ID">Pilih pekerjaan pengiriman sebelumnya</String>
         <String xml:lang="it-IT">Seleziona un lavoro di consegna precedente</String>
         <String xml:lang="de-DE">Wähle einen vergangenen Lieferjob</String>
+        <String xml:lang="hi-Latn">Ek pelke ki delivery job select kare</String>
     </Entry>
     
     <Entry Id="menu_ddriver_current_delivery_text">
@@ -5493,6 +5531,7 @@
         <String xml:lang="id-ID">Pengiriman saat ini</String>
         <String xml:lang="it-IT">Consegna Attuale</String>
         <String xml:lang="de-DE">Aktuelle Lieferung</String>
+        <String xml:lang="hi-Latn">Abhi ki Delivery</String>
     </Entry>
     
     <Entry Id="menu_ddriver_current_delivery_descr">
@@ -5502,6 +5541,7 @@
         <String xml:lang="id-ID">Lihat detail tentang pengiriman yang sedang berlangsung.</String>
         <String xml:lang="it-IT">Visualizza i dettagli della consegna in corso.</String>
         <String xml:lang="de-DE">Zeige Details zu der laufenden Lieferung.</String>
+        <String xml:lang="hi-Latn">Chal rahi delivery ke details dekhein.</String>
     </Entry>
 
     <Entry Id="menu_ddriver_delivery_details_payout">
@@ -5511,6 +5551,7 @@
         <String xml:lang="id-ID">Gaji</String>
         <String xml:lang="it-IT">Pagamento</String>
         <String xml:lang="de-DE">Auszahlung</String>
+        <String xml:lang="hi-Latn">Payout</String>
     </Entry>
     
     <Entry Id="menu_ddriver_delivery_details_time_left">
@@ -5520,6 +5561,7 @@
         <String xml:lang="id-ID">Waktu tersisa</String>
         <String xml:lang="it-IT">Tempo rimanente</String>
         <String xml:lang="de-DE">Verbleibende Zeit</String>
+        <String xml:lang="hi-Latn">Time left</String>
     </Entry>
     
     <Entry Id="menu_ddriver_delivery_details_itinerary">
@@ -5529,6 +5571,7 @@
         <String xml:lang="id-ID">Rute</String>
         <String xml:lang="it-IT">Itinerario</String>
         <String xml:lang="de-DE">Route</String>
+        <String xml:lang="hi-Latn">Route</String>
     </Entry>
     
     <Entry Id="menu_ddriver_delivery_details_other">
@@ -5538,6 +5581,7 @@
         <String xml:lang="id-ID">Info lainnya</String>
         <String xml:lang="it-IT">Altre info</String>
         <String xml:lang="de-DE">Andere Informationen</String>
+        <String xml:lang="hi-Latn">Other info</String>
     </Entry>
     
     <Entry Id="menu_ddriver_delivery_details">
@@ -5547,6 +5591,7 @@
         <String xml:lang="id-ID">Detail</String>
         <String xml:lang="it-IT">Dettagli</String>
         <String xml:lang="de-DE">Details</String>
+        <String xml:lang="hi-Latn">Details</String>
     </Entry>
     
     <Entry Id="menu_ddriver_delivery_cancel">
@@ -5556,6 +5601,7 @@
         <String xml:lang="id-ID">~r~Membatalkan Pengiriman</String>
         <String xml:lang="it-IT">~r~Annulla Consegna</String>
         <String xml:lang="de-DE">~r~Lieferung abbrechen</String>
+        <String xml:lang="hi-Latn">~r~Cancel Delivery</String>
     </Entry>
     
     <Entry Id="menu_ddriver_delivery_cancel_desc">
@@ -5565,6 +5611,7 @@
         <String xml:lang="id-ID">Tinggalkan pengirimanmu saat ini.</String>
         <String xml:lang="it-IT">Abbandona la consegna attuale.</String>
         <String xml:lang="de-DE">Brich deine aktuelle Lieferung ab.</String>
+        <String xml:lang="hi-Latn">Apni current delivery ko band kare.</String>
     </Entry>
     
     <Entry Id="ddriver_job_menu_refresh_cooldown">
@@ -5574,6 +5621,7 @@
         <String xml:lang="id-ID">Kamu harus ~r~menunggu ~s~sebelum dapat memuat ulang menu pengiriman lagi.</String>
         <String xml:lang="it-IT">Devi ~r~aspettare ~s~prima di poter aggiornare di nuovo il menu delle consegne.</String>
         <String xml:lang="de-DE">Du must ~r~warten, ~s~bevor du das Liefer-Menü neu laden kannst.</String>
+        <String xml:lang="hi-Latn">Aapko deliveries menu phir se refresh karne ke liye ~r~intezaar ~s~karna hoga.</String>
     </Entry>
     
     <!-- {0} = Time to await -->
@@ -5584,6 +5632,7 @@
         <String xml:lang="id-ID">Kamu harus menunggu ~y~{0} ~s~sebelum bisa mengambil pekerjaan pengiriman lagi.</String>
         <String xml:lang="it-IT">Devi aspettare ~y~{0} ~s~prima di poter prendere un altro lavoro di consegna.</String>
         <String xml:lang="de-DE">Du musst ~y~{0} ~s~warten, bevor du einen weiteren Lieferjob annehmen kannst.</String>
+        <String xml:lang="hi-Latn">Aapko doosri delivery job lene ke liye ~y~{0} ~s~ka intezaar karna hoga.</String>
     </Entry>
     
     <!-- {0} = Final destination name -->
@@ -5594,6 +5643,7 @@
         <String xml:lang="id-ID">Pengiriman ke {0}</String>
         <String xml:lang="it-IT">Consegna a {0}</String>
         <String xml:lang="de-DE">Liefere nach {0}</String>
+        <String xml:lang="hi-Latn">Delivery {0} ko</String>
     </Entry>
     
     <!-- {0} = Number of jobs -->
@@ -5605,6 +5655,7 @@
         <String xml:lang="id-ID">Ada ~y~{0} pekerjaan pengiriman ~s~tersedia saat ini. {1} untuk membuka list pengiriman.</String>
         <String xml:lang="it-IT">Ci sono ~y~{0} lavori di consegna ~s~disponibili al momento. {1} per aprire la lista delle consegne.</String>
         <String xml:lang="de-DE">Aktuell sind ~y~{0} ~s~Lieferjobs verfügbar. {1} um die Lieferliste zu öffnen.</String>
+        <String xml:lang="hi-Latn">Iss samay ~y~{0} delivery jobs ~s~available hain. Press kare {1} delivery list open karne ke liye.</String>
     </Entry>
     
     <!-- Shown at the bottom right as an instructional button. -->
@@ -5616,6 +5667,7 @@
         <String xml:lang="id-ID">Lihat pekerjaan</String>
         <String xml:lang="it-IT">Visualizza lavori</String>
         <String xml:lang="de-DE">Zeige Jobs</String>
+        <String xml:lang="hi-Latn">View jobs</String>
     </Entry>
     
     <Entry Id="ddriver_already_on_job">
@@ -5625,6 +5677,7 @@
         <String xml:lang="id-ID">Kamu sedang bekerja di pengiriman.</String>
         <String xml:lang="it-IT">Sei già impegnato in un lavoro di consegna.</String>
         <String xml:lang="de-DE">Du befindest dich bereits in einem Lieferjob.</String>
+        <String xml:lang="hi-Latn">Aap already ek delivery job mein ho.</String>
     </Entry>
     
     <Entry Id="ddriver_job_no_longer_available">
@@ -5634,6 +5687,7 @@
         <String xml:lang="id-ID">Pekerjaan pengiriman ini tidak lagi tersedia.</String>
         <String xml:lang="it-IT">Questo lavoro di consegna non è più disponibile.</String>
         <String xml:lang="de-DE">Dieser Lieferjob ist nicht mehr verfügbar.</String>
+        <String xml:lang="hi-Latn">Yeh delivery job ab available nahi hai.</String>
     </Entry>
     
     <!-- Shown at the bottom as mission text / subtitle -->
@@ -5645,6 +5699,7 @@
         <String xml:lang="id-ID">Pergi ke ~y~{0} ~s~dan ambil ~b~barang~s~.</String>
         <String xml:lang="it-IT">Vai a ~y~{0} ~s~e ritira le ~b~merci~s~.</String>
         <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und sammle die ~b~Waren~s~ ein.</String>
+        <String xml:lang="hi-Latn">~y~{0} ~s~jaakar ~b~samaan~s~ uthayein.</String>
     </Entry>
     
     <Entry Id="ddriver_job_pick_up_trailer">
@@ -5654,6 +5709,7 @@
         <String xml:lang="id-ID">Ambil ~y~trailer ~s~menggunakan ~b~semi truk~s~.</String>
         <String xml:lang="it-IT">Ritira il ~y~rimorchio ~s~utilizzando un ~b~semi camion~s~.</String>
         <String xml:lang="de-DE">Hole den ~y~Anhänger ~s~mit einem ~b~Sattelschlepper~s~ab.</String>
+        <String xml:lang="hi-Latn">~y~Trailer ~s~ko ~b~semi truck~s~ ka use karke uthayein.</String>
     </Entry>
 
     <!-- Shown at the bottom as mission text / subtitle -->
@@ -5665,6 +5721,7 @@
         <String xml:lang="id-ID">pergi ke ~y~{0} ~s~dan antarkan ~b~barang~s~.</String>
         <String xml:lang="it-IT">Vai a ~y~{0} ~s~e consegna le ~b~merci~s~.</String>
         <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und lade die ~b~Waren~s~ ab.</String>
+        <String xml:lang="hi-Latn">~y~{0} ~s~jaakar ~b~samaan~s~ drop karein.</String>
     </Entry>
 
     <!-- {0} = Area name -->
@@ -5675,6 +5732,7 @@
         <String xml:lang="id-ID">Pergi ke ~y~{0} ~s~dan antarkan ~b~paket ~s~selanjutnya.</String>
         <String xml:lang="it-IT">Vai a ~y~{0} ~s~e consegna il prossimo ~b~pacco~s~.</String>
         <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und lade das nächste ~b~Paket~s~ ab.</String>
+        <String xml:lang="hi-Latn">~y~{0} ~s~jaakar agla ~b~package~s~ deliver karein.</String>
     </Entry>
 
     <!-- Shown at the bottom right as a box with a health bar (please all uppercase) -->
@@ -5685,6 +5743,7 @@
         <String xml:lang="id-ID">TRAILER</String>
         <String xml:lang="it-IT">RIMORCHIO</String>
         <String xml:lang="de-DE">ANHÄNGER</String>
+        <String xml:lang="hi-Latn">TRAILER</String>
     </Entry>
 
     <Entry Id="ddriver_truck_health">
@@ -5694,6 +5753,7 @@
         <String xml:lang="id-ID">TRUK</String>
         <String xml:lang="it-IT">CAMION</String>
         <String xml:lang="de-DE">LASTWAGEN</String>
+        <String xml:lang="hi-Latn">TRUCK</String>
     </Entry>
 
     <Entry Id="ddriver_num_deliveries">
@@ -5703,6 +5763,7 @@
         <String xml:lang="id-ID">PENGIRIMAN</String>
         <String xml:lang="it-IT">CONSEGNE</String>
         <String xml:lang="de-DE">LIEFERUNGEN</String>
+        <String xml:lang="hi-Latn">DELIVERIES</String>
     </Entry>
 
     <Entry Id="ddriver_job_park_truck_in_area">
@@ -5712,6 +5773,7 @@
         <String xml:lang="id-ID">Parkirkan ~b~truk ~s~di ~y~area yang ditandai~s~.</String>
         <String xml:lang="it-IT">Ferma il ~b~camion ~s~nell' ~y~area segnata~s~.</String>
         <String xml:lang="de-DE">Stoppe mit dem ~b~Lastwagen ~s~in dem ~y~markierten Bereich~s~.</String>
+        <String xml:lang="hi-Latn">~b~Truck ~s~ko ~y~marked area~s~ mein rok dein.</String>
     </Entry>
 
     <Entry Id="ddriver_job_park_trailer_in_area">
@@ -5721,6 +5783,7 @@
         <String xml:lang="id-ID">Parkirkan ~b~Tralier ~s~di ~y~area yang ditandai~s~.</String>
         <String xml:lang="it-IT">Parcheggia il ~b~rimorchio ~s~nell' ~y~area segnata~s~.</String>
         <String xml:lang="de-DE">Parke den ~b~Anhänger ~s~in dem ~y~markierten Bereich~s~.</String>
+        <String xml:lang="hi-Latn">~b~Trailer ~s~ko ~y~marked area~s~ mein park karein.</String>
     </Entry>
 
     <Entry Id="ddriver_job_deliver_package">
@@ -5730,6 +5793,7 @@
         <String xml:lang="id-ID">Kirimkan ~b~paket~s~.</String>
         <String xml:lang="it-IT">Consegna il ~b~pacco~s~.</String>
         <String xml:lang="de-DE">Liefer das ~b~Paket~s~.</String>
+        <String xml:lang="hi-Latn">Deliver kar do ~b~package~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_recover_vehicle">
@@ -5739,6 +5803,7 @@
         <String xml:lang="id-ID">Ambil kembali ~b~kendaraan pengiriman~s~.</String>
         <String xml:lang="it-IT">Recupera il ~b~veicolo di consegna~s~.</String>
         <String xml:lang="de-DE">Bringe das ~b~Auslieferungsfahrzeug~s~ zurück.</String>
+        <String xml:lang="hi-Latn">~b~Delivery vehicle~s~ ko recover karein.</String>
     </Entry>
 
     <Entry Id="ddriver_job_recover_package">
@@ -5748,6 +5813,7 @@
         <String xml:lang="id-ID">Ambil ~y~paket ~s~dari ~b~kendaraan pengiriman~s~.</String>
         <String xml:lang="it-IT">Recupera il ~y~pacco ~s~dal ~b~veicolo di consegna~s~.</String>
         <String xml:lang="de-DE">Bringe das ~y~Paket ~s~aus dem ~b~Auslieferungsfahrzeug~s~.</String>
+        <String xml:lang="hi-Latn">~y~Package ~s~ko ~b~delivery vehicle~s~ se recover karein.</String>
     </Entry>
 
     <!-- Must be oriented correctly means that the heading/angle of the vehicle must be as 
@@ -5761,6 +5827,7 @@
         <String xml:lang="id-ID">~b~Truk ~s~harus diarahkan seperti yang ditunjukan oleh ~y~panah~s~.</String>
         <String xml:lang="it-IT">Il ~b~camion ~s~deve essere orientato come indicato dalle ~y~frecce~s~.</String>
         <String xml:lang="de-DE">Der ~b~Lastwagen ~s~muss in die von den ~y~Pfeilen~s~ gezeigte Richtung ausgerichtet werden.</String>
+        <String xml:lang="hi-Latn">~b~Truck ~s~ko ~y~arrows~s~ ki madad se lagaye.</String>
     </Entry>
 
     <Entry Id="ddriver_job_detach_trailer">
@@ -5770,6 +5837,7 @@
         <String xml:lang="id-ID">Lepaskan ~b~trailer~s~.</String>
         <String xml:lang="it-IT">Sgancia il ~b~rimorchio~s~.</String>
         <String xml:lang="de-DE">Hänge den ~b~Anhänger~s~ ab.</String>
+        <String xml:lang="hi-Latn">Detach kare ~b~trailer~s~.</String>
     </Entry>
 
     <!-- {0} = Type of truck (semi truck, box truck, van) -->
@@ -5780,6 +5848,7 @@
         <String xml:lang="id-ID">Kamu membutuhkan ~b~{0} ~s~untuk melanjutkan ~y~pengiriman~s~.</String>
         <String xml:lang="it-IT">Hai bisogno di un ~b~{0} ~s~per continuare questa ~y~consegna~s~.</String>
         <String xml:lang="de-DE">Du benötigst ein ~b~{0}~s~, um diese ~y~Lieferung~s~ fortzusetzen.</String>
+        <String xml:lang="hi-Latn">Aapko yeh ~y~delivery ~s~continue karne ke liye ~b~{0} ~s~ki zarurat hai.</String>
     </Entry>
 
     <!-- {0} = Amount earned -->
@@ -5790,6 +5859,7 @@
         <String xml:lang="id-ID">Kamu menyelesaikan ~b~pekerjaan pengiriman ~s~dan mendapatkan ~g~{0}~s~!</String>
         <String xml:lang="it-IT">Hai completato il ~b~lavoro di consegna ~s~e guadagnato ~g~{0}~s~!</String>
         <String xml:lang="de-DE">Du hast den ~b~Lieferjob ~s~erledigt und hast ~g~{0}~s~ verdient!</String>
+        <String xml:lang="hi-Latn">Aapne ~b~delivery job ~s~complete kiya aur ~g~{0}~s~ kamaye!</String>
     </Entry>
 
     <!-- {0} = Player name (id) -->
@@ -5801,6 +5871,7 @@
         <String xml:lang="id-ID">{0} telah menyelesaikan pengiriman dan mendapatkan {1}.</String>
         <String xml:lang="it-IT">{0} ha completato una consegna e guadagnato {1}.</String>
         <String xml:lang="de-DE">{0} hat eine Lieferung erfüllt und {1} verdient.</String>
+        <String xml:lang="hi-Latn">{0} ne ek delivery complete ki aur {1} kamaye.</String>
     </Entry>
 
     <Entry Id="ddriver_job_canceled_by_user">
@@ -5810,6 +5881,7 @@
         <String xml:lang="id-ID">~r~Kamu telah ~s~membatalkan ~r~pekerjaan pengiriman.</String>
         <String xml:lang="it-IT">~r~Hai ~s~annullato ~r~il lavoro di consegna.</String>
         <String xml:lang="de-DE">~r~Du hast den Lieferjob ~s~abgebrochen~r~.</String>
+        <String xml:lang="hi-Latn">~r~Aapne ~s~delivery job ~r~cancel kiya hai.</String>
     </Entry>
 
     <!-- {0} = Amount charged -->
@@ -5820,6 +5892,7 @@
         <String xml:lang="id-ID">Kamu telah didenda ~r~{0} ~s~sebagai penalty pembatalan.</String>
         <String xml:lang="it-IT">Ti sono stati addebitati ~r~{0} ~s~come penale per annullamento.</String>
         <String xml:lang="de-DE">Du wurdest mit ~r~{0} ~s~als Stornierungsgebühr belastet.</String>
+        <String xml:lang="hi-Latn">Aap se ~r~{0} ~s~cancellation penalty charge ki gayi hai.</String>
     </Entry>
 
     <Entry Id="ddriver_job_goods_destroyed">
@@ -5829,6 +5902,7 @@
         <String xml:lang="id-ID">~r~~s~Barang ~r~telah dihancurkan.</String>
         <String xml:lang="it-IT">~r~Le ~s~merci ~r~sono state distrutte.</String>
         <String xml:lang="de-DE">~r~Die ~s~Waren ~r~wurden zerstört.</String>
+        <String xml:lang="hi-Latn">~r~Job ka ~s~samaan ~r~barbaad ho gaye hain.</String>
     </Entry>
 
     <!-- {0} = Amount charged -->
@@ -5839,6 +5913,7 @@
         <String xml:lang="id-ID">Kamu telah didenda ~r~{0} ~s~untuk mengganti kerugian.</String>
         <String xml:lang="it-IT">Ti sono stati addebitati ~r~{0} ~s~per coprire le perdite.</String>
         <String xml:lang="de-DE">Du wurdest mit ~r~{0} ~s~belastet, um die Verluste zu decken</String>
+        <String xml:lang="hi-Latn">Aap se ~r~{0} ~s~loss ko cover karne ke liye charge kiya gaya hai.</String>
     </Entry>
 
     <!-- {0} = Amount covered -->
@@ -5849,6 +5924,7 @@
         <String xml:lang="id-ID">~b~Perusahaan asuransi ~s~telah mengcover kerugian (~r~{0}~s~)</String>
         <String xml:lang="it-IT">La ~b~compagnia di assicurazione ~s~ha coperto completamente le perdite (~r~{0}~s~)</String>
         <String xml:lang="de-DE">Die ~b~Versicherung ~s~hat die Verluste vollständig gedeckt (~r~{0}~s~)</String>
+        <String xml:lang="hi-Latn">~b~Insurance company~s~ ne saare lossess fully cover kiya hai (~r~{0}~s~)</String>
     </Entry>
 
     <Entry Id="ddriver_job_goods_destroyed_not_covered">
@@ -5858,6 +5934,7 @@
         <String xml:lang="id-ID">~b~Perusahaan asuran ~s~telah menolah permintaanmu.</String>
         <String xml:lang="it-IT">La ~b~compagnia di assicurazione ~s~ha rifiutato la tua richiesta.</String>
         <String xml:lang="de-DE">Die ~b~Versicherung ~s~hat deinen Antrag abgelehnt</String>
+        <String xml:lang="hi-Latn">~b~Insurance company~s~ ne aapka claim reject kar diya hai.</String>
     </Entry>
 
     <Entry Id="ddriver_job_canceled_error">
@@ -5867,6 +5944,7 @@
         <String xml:lang="id-ID">~r~Pengiriman dibatalkan karena error.</String>
         <String xml:lang="it-IT">~r~La consegna è stata annullata a causa di un errore.</String>
         <String xml:lang="de-DE">~r~Die Lieferung wurde aufgrund eines Fehlers abgebrochen.</String>
+        <String xml:lang="hi-Latn">~r~Delivery ek error ke kaaran cancel kar di gayi hai.</String>
     </Entry>
 
     <Entry Id="ddriver_job_goods_destroyed_by_player">
@@ -5874,6 +5952,7 @@
         <String xml:lang="nl-NL">{0} heeft jouw goederen ~r~vernietigd~s~.</String>
         <String xml:lang="fr-FR">{0} a ~r~détruit~s~ tes biens.</String>
         <String xml:lang="de-DE">{0} hat deine Güter ~r~zerstört~s~.</String>
+        <String xml:lang="hi-Latn">{0} ne ~r~destroy~s~ kar diya aapka samaan.</String>
     </Entry>
 
     <!-- ================================= -->
@@ -5888,6 +5967,7 @@
         <String xml:lang="id-ID">Kamu memilih {0} sebagai ~r~targetmu~s~.</String>
         <String xml:lang="it-IT">Hai selezionato {0} come tuo ~r~bersaglio~s~.</String>
         <String xml:lang="de-DE">Du hast {0} als dein ~r~Ziel~s~ ausgewählt.</String>
+        <String xml:lang="hi-Latn">Aapne {0} ko apna ~r~target~s~ select kara hai.</String>
     </Entry>
 
     <Entry Id="hitman_target_selected_hint">
@@ -5897,6 +5977,7 @@
         <String xml:lang="id-ID">Gunakan ~y~telepon umum~s~ untuk menunjukan lokasi sekitar ~r~targetmu~s~.</String>
         <String xml:lang="it-IT">Usa qualsiasi ~y~telefono pubblico~s~ per rilevare la posizione del tuo ~r~bersaglio~s~.</String>
         <String xml:lang="de-DE">Benutze ein beliebiges ~y~Münztelefon~s~, um den nahen Standort deines ~r~Ziels~s~ aufzudecken.</String>
+        <String xml:lang="hi-Latn">Aap ~y~payphone~s~ ka use karke apne ~r~target~s~ ki nearby location pata kar sakte hain.</String>
     </Entry>
 
     <Entry Id="hitman_payphone_cooldown">
@@ -5906,6 +5987,7 @@
         <String xml:lang="id-ID">Kamu harus menunggu ~r~{0} detik ~s~sebelum bisa menggunakan ~y~telepon umum ~s~lagi.</String>
         <String xml:lang="it-IT">Devi aspettare ~r~{0} secondi ~s~prima di poter utilizzare di nuovo un ~y~telefono pubblico~s~.</String>
         <String xml:lang="de-DE">Du musst ~r~{0} Sekunden warten ~s~bevor du wieder ein ~y~Münztelefon ~s~benutzen kannst.</String>
+        <String xml:lang="hi-Latn">Aapko ~r~{0} seconds~s~ rukna hoga phir se ~y~payphone~s~ use karne se pehle.</String>
     </Entry>
 
     <!-- {0} Colored player name -->
@@ -5914,6 +5996,7 @@
         <String xml:lang="en-US">{0} was seen somewhere around {1}. Open your map to view the area.</String>
         <String xml:lang="nl-NL">{0} was ergens gezien rond {1}. Open je kaart om dit gebied te bekijken.</String>
         <String xml:lang="de-DE">{0} wurde irgendwo bei {1} gesehen. Öffne deine Karte um den Bereich zu sehen.</String>
+        <String xml:lang="hi-Latn">{0} ko kahin ~r~{1}~s~ ke aas-paas dekha gaya. Apna map khol ke area dekhein.</String>
     </Entry>
     
     <!-- {0} Name (id) of the target (already colored) -->
@@ -5925,6 +6008,7 @@
         <String xml:lang="id-ID">~y~(C)Kontrak baru:(/C) ~s~Bunuh~s~ {0} untuk mendapatkan ~g~{1}~s~.</String>
         <String xml:lang="it-IT">~y~(C)Nuovo contratto:(/C) ~s~Uccidi~s~ {0} per ~g~{1}~s~.</String>
         <String xml:lang="de-DE">~y~(C)Neuer Vertrag:(/C) ~s~Töte~s~ {0} für ~g~{1}~s~.</String>
+        <String xml:lang="hi-Latn">~y~(C)Naya contract:(/C) ~s~{0} ko maaro ~g~{1}~s~ ke liye.</String>
     </Entry>
 
     <!-- {0} Name (id) of the target (already colored) -->
@@ -5936,6 +6020,7 @@
         <String xml:lang="id-ID">~y~(C)kontrak update:(/C) ~s~Hadiah untuk ~r~membunuh~s~ {0} telah naik menjadi ~g~{1}~s~.</String>
         <String xml:lang="it-IT">~y~(C)Contratto aggiornato:(/C) ~s~La ricompensa per ~r~uccidere~s~ {0} è stata aumentata a ~g~{1}~s~.</String>
         <String xml:lang="de-DE">~y~(C)Auftrag aktualisiert:(/C) ~s~Die Belohnung für das ~r~Töten~s~von {0} wurde auf ~g~{1}~s~ erhöht.</String>
+        <String xml:lang="hi-Latn">~y~(C)Contract updated:(/C) ~s~{0} ko ~r~maarne ~s~ka inaam badhkar ~g~{1}~s~ ho gaya hai.</String>
     </Entry>
 
     <!-- When you switch to M.D. -->
@@ -5944,5 +6029,6 @@
         <String xml:lang="nl-NL">(C)Medisch Arts:(/C) ~s~biedt ~p~gezondheidszorg ~s~en artikelen voor geld.</String>
         <String xml:lang="fr-FR">(C)Médecin:(/C) ~s~offre des ~p~prestations de soins et des articles de santé ~s~contre de l'argent.</String>
         <String xml:lang="de-DE">(C)Doktor:(/C) ~s~biete ~p~Gesundheitsdienstleistungen ~s~und Gegenstände für Geld.</String>
+        <String xml:lang="hi-Latn">(C)Medical Doctor:(/C) ~s~paisa ke liye ~p~healthcare ~s~sevaayein aur saman pradan karein.</String>
     </Entry>
 </Entries>
