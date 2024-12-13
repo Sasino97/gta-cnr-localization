@@ -1855,6 +1855,7 @@
     <!-- {2} = Item unit -->
     <!-- {3} = Item name -->
     <!-- {4} = Price -->
+    <!-- Example: You sold Sasino (54) ~y~15g Cocaine~s~for ~g~$250,000~s~. -->
     <Entry Id="stp_sold">
         <String xml:lang="en-US">You sold {0} ~y~{1}{2} {3}~s~ for ~g~{4}~s~.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~y~{1}{2} {3}~s~ verkocht voor ~g~{4}~s~.</String>
@@ -3025,10 +3026,22 @@
 
     <Entry Id="menu_private_medic_calls_description">
         <String xml:lang="en-US">View recent calls for a medical doctor.</String>
-        <String xml:lang="nl-NL">Bekijk alle oproepen voor een medische arts.</String>
+        <String xml:lang="nl-NL">Bekijk de meeste recente medische arts oproepen.</String>
         <String xml:lang="hi-Latn">Medical doctor ke recent calls dekhne ke liye.</String>
         <String xml:lang="de-DE">Zeige aktuelle Anrufe für einen Arzt.</String>
         <String xml:lang="lv-LV">Skatiet nesenos zvanus dakteriem.</String>
         <String xml:lang="ar-001">عرض جميع المكالمات للطبيب</String>
     </Entry>
+
+    <!-- Arms Dealer Job -->
+    <Entry Id="menu_arms_dealer_title">
+        <String xml:lang="en-US">Arms Dealer</String>
+        <String xml:lang="nl-NL">Wapenhandelaar</String>
+    </Entry>
+
+    <Entry Id="menu_arms_dealer_calls_description">
+        <String xml:lang="en-US">View recent calls for an arms dealer.</String>
+        <String xml:lang="nl-NL">Bekijk de meeste recente wapenhandelaar oproepen.</String>
+    </Entry>
+    
 </Entries>
