@@ -24,6 +24,7 @@
         <String xml:lang="hi-Latn">Call 911</String>
         <String xml:lang="lv-LV">Uzzvanīt 911</String>
         <String xml:lang="sv-SE">Ring 911</String>
+        <String xml:lang="cs-CZ">Zavolej 911</String>
     </Entry>
 
     <Entry Id="btn_respawn">
@@ -68,7 +69,7 @@
         <String xml:lang="id-ID">Apakah anda mau pindah ke ~b~radio frekuensi yand direkomendasikan ~s~(~y~{0}~s~)?</String>
         <String xml:lang="hi-Latn">Kya aap hamare recommended ~b~radio frequency ~s~(~y~{0}~s~)Tune in karna chahte hain?</String>
         <String xml:lang="lv-LV">Vai vēlaties pārslēgties uz ieteicamo ~b~radio frekvenci ~s~(~y~{0}~s~)?</String>
-         <String xml:lang="sv-SE">Vill du ställa in i den rekommenderade ~b~radio kanalen ~s~(~y~{0}~s~)?</String>
+        <String xml:lang="sv-SE">Vill du ställa in i den rekommenderade ~b~radio kanalen ~s~(~y~{0}~s~)?</String>
     </Entry>
 
     <Entry Id="btn_tune_in">
@@ -295,7 +296,9 @@
         <String xml:lang="nl-NL">{0} ~s~is doodgegaan van een ~r~ziekte~s~.</String>
         <String xml:lang="hi-Latn">{0} ~s~ki maut ~r~bimari ~s~se gayi hai.</String>
         <String xml:lang="lv-LV">{0} ~s~nomira no ~r~slimības~s~.</String>
+        <String xml:lang="de-DE">{0} ~s~ist durch eine ~r~Erkrankung~s~ gestorben.</String>
         <String xml:lang="sv-SE">{0} ~s~har dött av en ~r~sjukdom~s~.</String>
+        <String xml:lang="ar-001">{0} ~s~لقد مات من ~r~مرض~s~.</String>
     </Entry>
 
     <Entry Id="drowned">
@@ -738,6 +741,7 @@
         <String xml:lang="hi-Latn">ek ~r~assault rifle ~s~se</String>
         <String xml:lang="lv-LV">ar ~r~triecienšauteni~s~</String>
         <String xml:lang="sv-SE">med ett ~r~automatgevär~s~</String>
+        <String xml:lang="ar-001">مع ~r~بندقيه هجوميه~s~</String>
     </Entry>
 
     <Entry Id="with_assault_rifle_headshot">
@@ -860,6 +864,7 @@
         <String xml:lang="id-ID">dengan ~r~api~s~</String>
         <String xml:lang="hi-Latn">ek ~r~fire ~s~se</String>
         <String xml:lang="lv-LV">ar ~r~uguni~s~</String>
+        <String xml:lang="sv-SE">med ~r~eld~s~</String>
     </Entry>
 
     <Entry Id="with_gas">
@@ -880,6 +885,7 @@
         <String xml:lang="id-ID">dengan ~r~gas~s~</String>
         <String xml:lang="hi-Latn">ek ~r~gas ~s~se</String>
         <String xml:lang="lv-LV">ar ~r~gāzi~s~</String>
+        <String xml:lang="sv-SE">med ~r~gas~s~</String>
     </Entry>
 
     <Entry Id="with_weapon">
@@ -900,6 +906,7 @@
         <String xml:lang="id-ID">dengan ~r~senjata~s~</String>
         <String xml:lang="hi-Latn">ek ~r~weapon ~s~se</String>
         <String xml:lang="lv-LV">ar ~r~ieroci~s~</String>
+        <String xml:lang="sv-SE">med ett ~r~vapen~s~</String>
     </Entry>
 
     <!-- ========================= -->
@@ -924,6 +931,7 @@
         <String xml:lang="id-ID">untuk ~g~{0}~s~</String>
         <String xml:lang="hi-Latn">for ~g~{0}~s~</String>
         <String xml:lang="lv-LV">par ~g~{0}~s~</String>
+        <String xml:lang="sv-SE">för ~g~{0}~s~</String>
     </Entry>
 
     <Entry Id="in_self_defense">
@@ -944,6 +952,7 @@
         <String xml:lang="id-ID">dalam ~g~membela diri~s~</String>
         <String xml:lang="hi-Latn">~g~self-defense ~s~mein</String>
         <String xml:lang="lv-LV">~g~pašaizsardzībā~s~</String>
+        <String xml:lang="sv-SE">i ~g~självförsvar~s~</String>
     </Entry>
 
     <Entry Id="in_revenge">
@@ -964,6 +973,7 @@
         <String xml:lang="id-ID">dalam ~r~balas dendam~s~</String>
         <String xml:lang="hi-Latn">~r~revenge ~s~mein</String>
         <String xml:lang="lv-LV">~r~atriebībā~s~</String>
+        <String xml:lang="sv-SE">in ~r~hämnd~s~</String>
     </Entry>
 
     <Entry Id="in_redzone">
@@ -984,6 +994,7 @@
         <String xml:lang="id-ID">didalam ~r~zona merah~s~</String>
         <String xml:lang="hi-Latn">~r~redzone ~s~mein</String>
         <String xml:lang="lv-LV">~r~sarkanā zonā~s~</String>
+        <String xml:lang="sv-SE">i en ~r~röd zon~s~</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1016,6 +1027,7 @@
         <String xml:lang="id-ID">{0} ~s~membunuh {1} ~s~{2} {3}</String>
         <String xml:lang="hi-Latn">{0} ~s~maar diye {1} ~s~{2} {3}</String>
         <String xml:lang="lv-LV">{0} ~s~nogalināja {1} ~s~{2} {3}</String>
+        <String xml:lang="sv-SE">{0} ~s~dödade {1} ~s~{2} {3}</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1039,6 +1051,7 @@
         <String xml:lang="id-ID">Paramedis {0} telah membangunkanmu.</String>
         <String xml:lang="hi-Latn">Paramedic {0} revive kiye aapko.</String>
         <String xml:lang="lv-LV">Ārsts {0} atdzīvināja jūs.</String>
+        <String xml:lang="sv-SE">Sjukvårdare {0} återupplivade dig.</String>
     </Entry>
 
     <Entry Id="paramedic_failed">
@@ -1059,6 +1072,7 @@
         <String xml:lang="id-ID">~p~Paramedis ~s~telah ~r~gagal ~s~untuk menolong anda dan anda telah dipindahkan ke ~r~rumah sakit~s~.</String>
         <String xml:lang="hi-Latn">~p~paramedic ~s~aapko revive karne me ~r~fail ~s~ho gaye, toh aapko ~r~hospital ~s~transfer kar diya gaya.</String>
         <String xml:lang="lv-LV">~p~Ārstam ~r~nesanāca ~s~jūs atdzivināt un jūs tika nogādāts uz ~r~slimnīcu~s~.</String>
+        <String xml:lang="sv-SE">~p~Sjukvårdaren ~s~har ~r~misslyckat ~s~att återuppliva dig och du blev skickad till ett ~r~sjukhus~s~.</String>
     </Entry>
 
     <Entry Id="doctor_revived">
@@ -1066,6 +1080,9 @@
         <String xml:lang="nl-NL">Dokter {0} heeft je gereanimeerd.</String>
         <String xml:lang="hi-Latn">Medical Doctor {0} ne aapko revive kiya.</String>
         <String xml:lang="lv-LV">Dakteris {0} atdzīvināja jūs.</String>
+        <String xml:lang="sv-SE">Läkaren {0} återupplivade dig.</String>
+        <String xml:lang="de-DE">Der Arzt {0} hat dich wiederbelebt.</String>
+        <String xml:lang="ar-001">الطبيب {0} احياك</String>
     </Entry>
 
     <Entry Id="doctor_failed">
@@ -1073,6 +1090,8 @@
         <String xml:lang="nl-NL">Het is de ~y~dokter ~s~~r~mislukt ~s~je te reanimeren en daarom ben je overgeplaatst naar een ~r~ziekenhuis~s~.</String>
         <String xml:lang="hi-Latn">~y~Doctor ~s~aapko revive karne mein ~r~fail ~s~ho gaye aur aapko ~r~hospital ~s~mein transfer kar diya gaya.</String>
         <String xml:lang="lv-LV">~y~Dakterim ~r~nesanāca ~s~jūs atdzivināt un jūs tika nogādāts uz ~r~slimnīcu~s~.</String>
+        <String xml:lang="de-DE">Der ~y~Doktor ~s~hat es ~r~nicht geschafft ~s~dich wiederzubeleben und du wurdest in ein ~r~Krankenhaus~s~ gebracht.</String>
+        <String xml:lang="ar-001">~y~الطبيب ~s~قد ~r~فشل ~s~في احياك وتم نقلك الي ~r~المستشفي~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1098,6 +1117,7 @@
         <String xml:lang="id-ID">Lihat daftar pemain yang dapat anda bunuh untuk membalaskan dendam dan yang dapat membunuh anda karena dendam.</String>
         <String xml:lang="hi-Latn">Wo players ki list dekhein, jinse aap revenge le sakte hain aur jo aap se revenge le sakte hain.</String>
         <String xml:lang="lv-LV">Skatiet spēlētāju sarakstu kurus jūs varat nogalināt atriebībā un kuri var nogalināt atriebībā jūs.</String>
+        <String xml:lang="sv-SE">Se en lista på spelare som du kan ta hämnd på och som kan ta hämnd på dig.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1120,6 +1140,8 @@
         <String xml:lang="id-ID">Dendam</String>
         <String xml:lang="hi-Latn">Revenge</String>
         <String xml:lang="lv-LV">Atriebība</String>
+        <String xml:lang="sv-SE">Hämnd</String>
+        <String xml:lang="ar-001">انتقام</String>
     </Entry>
 
     <Entry Id="menu_revenge_subtitle">
@@ -1140,6 +1162,7 @@
         <String xml:lang="id-ID">Informasi pembalasan dendam</String>
         <String xml:lang="hi-Latn">Revenge ki information</String>
         <String xml:lang="lv-LV">Atriebības informācija</String>
+        <String xml:lang="sv-SE">Hämnd information</String>
     </Entry>
 
     <Entry Id="menu_revenge_targets_text">
@@ -1160,6 +1183,7 @@
         <String xml:lang="id-ID">Target pembalasan dendam</String>
         <String xml:lang="hi-Latn">Revenge ke Targets</String>
         <String xml:lang="lv-LV">Atriebības mērķi</String>
+        <String xml:lang="sv-SE">Hämnd mål</String>
     </Entry>
 
     <Entry Id="menu_revenge_targets_descr">
@@ -1180,6 +1204,7 @@
         <String xml:lang="id-ID">Daftar pemain yang bisa kamu balaskan dendam.</String>
         <String xml:lang="hi-Latn">Wo players ki list jinse aap ~r~revenge ~s~le sakte hain.</String>
         <String xml:lang="lv-LV">Spēlētāju saraksts, kurus jūs varat nogalināt ~r~atriebībā~s~.</String>
+         <String xml:lang="sv-SE">Lista av spelare som du kan ta ~r~hämnd ~s~på.</String>
     </Entry>
 
     <Entry Id="menu_revenge_claimants_text">
@@ -1200,6 +1225,7 @@
         <String xml:lang="id-ID">Orang yang menaruh dendam padamu</String>
         <String xml:lang="hi-Latn">Revenge Claimants</String>
         <String xml:lang="lv-LV">Atriebības meklētāji</String>
+        <String xml:lang="sv-SE">Hämnd Mottagare</String>
     </Entry>
 
     <Entry Id="menu_revenge_claimants_descr">
@@ -1220,6 +1246,7 @@
         <String xml:lang="id-ID">Daftar pemain yang menaruh dendam padamu.</String>
         <String xml:lang="hi-Latn">Wo players ki list jo aap se ~r~revenge ~s~le sakte hain.</String>
         <String xml:lang="lv-LV">Spēlētāju saraksts, kuri var nogalināt jūs ~r~atriebībā~s~.</String>
+        <String xml:lang="sv-SE">Lista av spelare som kan ta ~r~hämnd ~s~på dig.</String>
     </Entry>
 
     <Entry Id="menu_revenge_transfers_text">
@@ -1235,6 +1262,8 @@
         <String xml:lang="de-DE">übertragene Rache</String>
         <String xml:lang="id-ID">Pindahkan dendam</String>
         <String xml:lang="lv-LV">Atriebības nodošana</String>
+        <String xml:lang="sv-SE">Hämnd överföringar</String>
+        <String xml:lang="ar-001">تحويلات الانتقام</String>
     </Entry>
 
     <Entry Id="menu_revenge_transfers_descr">
@@ -1250,6 +1279,8 @@
         <String xml:lang="id-ID">Memungkinkan pemain lain untuk memindahkan dendamnya kepadamu bila diaktifkan.</String>
         <String xml:lang="fr-FR">Permettre aux autres joueurs de te transférer leurs demandes de vengeance lorsque cette option est activée.</String>
         <String xml:lang="lv-LV">Ļaujiet citiem spēlētājiem nodot savas atriebības prasības jums, kad ir iespējots.</String>
+        <String xml:lang="sv-SE">Tillåt andra spelare att överföra deras hämnd till dig när det är aktiverat.</String>
+        <String xml:lang="ar-001">سماح اللاعبين الآخرين بنقل مطالباتهم الانتقامية إليك عند تمكينها.</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_targets_text">
@@ -1270,6 +1301,7 @@
         <String xml:lang="id-ID">Tidak ada target dendam :(</String>
         <String xml:lang="hi-Latn">Koi revenge targets nahi :(</String>
         <String xml:lang="lv-LV">Nav atriebības mērķu :(</String>
+        <String xml:lang="sv-SE">Inga hämnd mål :(</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_targets_descr">
@@ -1362,6 +1394,7 @@
         <String xml:lang="it-IT">Indicatori Bersaglio</String>
         <String xml:lang="de-DE">Zielmarkierungen</String>
         <String xml:lang="lv-LV">Atriebības mērķu markeri</String>
+        <String xml:lang="ar-001">علامة الهدف</String>
     </Entry>
 
     <Entry Id="menu_revenge_target_markers_descr">
@@ -1373,6 +1406,7 @@
         <String xml:lang="it-IT">Abilita il ~r~cerchio rosso ~s~attorno ai blip e il ~r~teschio rosso ~s~accanto al gamertag dei tuoi bersagli vendetta.</String>
         <String xml:lang="de-DE">Aktiviere den ~r~roten Kreis ~s~um Blips und ~r~roten Totenkopf ~s~neben dem Gamertag deiner Racheziele.</String>
         <String xml:lang="lv-LV">Rāda ~r~sarkano apli ~s~ap radara blipiem un ~r~sarkano galvaskausu ~s~blakus spēlētāja segvārdam jūsu atriebības mērķiem.</String>
+        <String xml:lang="ar-001">قم بتفعيل ~r~الدائرة الحمراء ~s~حول النقاط و ~r~الرأس الاحمر ~s~بجوار علامة اللاعب الخاصة بأهدافك الانتقامية</String>
     </Entry>
 
     <Entry Id="menu_revenge_claimant_markers">
@@ -1384,6 +1418,7 @@
         <String xml:lang="it-IT">Indicatori Rivendicatore</String>
         <String xml:lang="de-DE">Auftraggeber Markierungen</String>
         <String xml:lang="lv-LV">Atriebības meklētāju markeri</String>
+        <String xml:lang="ar-001">علامات المطالبين</String>
     </Entry>
 
     <Entry Id="menu_revenge_claimant_markers_descr">
@@ -1395,6 +1430,8 @@
         <String xml:lang="it-IT">Attiva il ~y~cerchio giallo ~s~attorno ai blips e il ~y~teschio giallo ~s~accanto al gamertag dei tuoi rivendicatori.</String>
         <String xml:lang="de-DE">Aktiviere den ~y~gelben Kreis ~s~um Blips und den ~y~gelben Totenkopf ~s~neben dem Gamertag deiner Rache-Auftraggeber.</String>
         <String xml:lang="lv-LV">Rāda ~y~dzelteno apli ~s~ap radara blipiem un ~y~dzelteno galvaskausu ~s~blakus spēlētāja segvārdam jūsu atriebības meklētājiem.</String>
+        <String xml:lang="ar-001">قم بتفعيل ~y~الدائرة الحمراء ~s~حول النقاط و ~y~الرأس الاصفر ~s~بجوار علامة اللاعب الخاصة بأهدافك الانتقامية</String>
+
     </Entry>
 
     <!-- ========================= -->
@@ -1450,6 +1487,7 @@
         <String xml:lang="it-IT">La ~b~compagnia assicurativa ~s~ha respinto la tua richiesta</String>
         <String xml:lang="de-DE">Die ~b~Versicherung ~s~hat deinen Antrag abgelehnt.</String>
         <String xml:lang="lv-LV">~b~Apdrošināsanas kompānija ~s~noraidīja jūsu prasību</String>
+        <String xml:lang="ar-001">~b~شركة التأمين ~s~رفضت طلبك</String>
     </Entry>
 
     <Entry Id="covered_by_insurance">
