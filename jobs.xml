@@ -86,7 +86,7 @@
         <String xml:lang="id-ID">Kamu tidak bisa menjadi {0} ketika kamu ~o~buron~s~.</String>
         <String xml:lang="sv-SE">Du kan inte bli en {0} när du är ~o~efterlyst~s~.</String>
         <String xml:lang="lv-LV">Jūs nevarat kļut par {0} kamēr jūs ~o~meklē ~s~policija.</String>
-        <String xml:lang="ar-001"> لا يمكنك أن تصبح {0} عندما تكون  ~o~مطلوب~s~</String>
+        <String xml:lang="ar-001"> لا يمكنك أن تصبح {0} عندما تكون ~o~مطلوب~s~</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -289,26 +289,31 @@
     <Entry Id="jobs_queue_added">
         <String xml:lang="en-US">You have been placed in the ~p~queue~s~.</String>
         <String xml:lang="lv-LV">Jūs tikāt ievietots ~p~rindā~s~.</String>
+        <String xml:lang="de-DE">Du wurdest in die ~p~Warteschlange~s~ eingetragen.</String>
     </Entry>
 
     <Entry Id="jobs_queue_position">
         <String xml:lang="en-US">Your position is ~y~{0}/{1}~s~ in the queue for {2} job.</String>
         <String xml:lang="lv-LV">Jūsu pozīcija ir ~y~{0}/{1}~s~ rindā uz {2} darbu.</String>
+        <String xml:lang="de-DE">Du befindest dich auf Position ~y~{0}/{1}~s~ in der Warteschlange für den {2} Job.</String>
     </Entry>
 
     <Entry Id="jobs_queue_finished">
         <String xml:lang="en-US">You have been assigned to {0} job.</String>
         <String xml:lang="lv-LV">Jums tika piešķirts {0} darbs.</String>
+        <String xml:lang="de-DE">Du bist dem {0} Job beigetreten.</String>
     </Entry>
 
     <Entry Id="jobs_queue_left">
         <String xml:lang="en-US">~r~You left the job queue!~s~</String>
         <String xml:lang="lv-LV">~r~Jūs atstājāt darba rindu!~s~</String>
+        <String xml:lang="de-DE">~r~Du hast die Job-Warteschlange verlassen!~s~</String>
     </Entry>
 
     <Entry Id="jobs_queue_already_in">
         <String xml:lang="en-US">~r~You are already in the queue for this job.</String>
         <String xml:lang="lv-LV">~r~Jūs jau esat rindā uz šo darbu.</String>
+        <String xml:lang="de-DE">~r~Du befindest dich bereits in der Warteschlange für diesen Job.</String>
     </Entry>
 
     <!-- ========================= -->
