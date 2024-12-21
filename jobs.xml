@@ -114,6 +114,8 @@
         <String xml:lang="sv-SE">du behöver en ~b~{0}~s~ för att bli en become {1}.</String>
         <String xml:lang="lv-LV">Jums ir nepieciešams ~b~{0}~s~, lai kļūtu par {1}.</String>
         <String xml:lang="ar-001">تحتاج الي ~b~{0}~s~ لتصبح {1}</String>
+        <String xml:lang="es-ES">Necesitas un ~b~{0} ~s~para convertirte en un {1}.</String>
+        <String xml:lang="pt-BR">Você precisa de um ~b~{0} ~s~para se tornar um {1}.</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -280,6 +282,8 @@
         <String xml:lang="de-DE">Bangrund: ~r~{0}~s~. Läuft ab: ~y~{1}~s~.</String>  
         <String xml:lang="sv-SE">Ban anledning: ~r~{0}~s~. utgår ~y~{1}~s~.</String>     
         <String xml:lang="lv-LV">Bloķējuma iemesls: ~r~{0}~s~. Beigsies ~y~{1}~s~.</String>
+        <String xml:lang="es-ES">Motivo de baneo: ~r~{0}~s~. Expira ~y~{1}~s~.</String>
+        <String xml:lang="pt-BR">Motivo da proibição: ~r~{0}~s~. Expira ~y~{1}~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -290,30 +294,40 @@
         <String xml:lang="en-US">You have been placed in the ~p~queue~s~.</String>
         <String xml:lang="lv-LV">Jūs tikāt ievietots ~p~rindā~s~.</String>
         <String xml:lang="de-DE">Du wurdest in die ~p~Warteschlange~s~ eingetragen.</String>
+        <String xml:lang="es-ES">Se le ha colocado en la ~p~cola~s~.</String>
+        <String xml:lang="pt-BR">Ele foi colocado na fila de ~p~espera~s~.</String>
     </Entry>
 
     <Entry Id="jobs_queue_position">
         <String xml:lang="en-US">Your position is ~y~{0}/{1}~s~ in the queue for {2} job.</String>
         <String xml:lang="lv-LV">Jūsu pozīcija ir ~y~{0}/{1}~s~ rindā uz {2} darbu.</String>
         <String xml:lang="de-DE">Du befindest dich auf Position ~y~{0}/{1}~s~ in der Warteschlange für den {2} Job.</String>
+        <String xml:lang="es-ES">Tu posición es ~y~{0}/{1}~s~ en la cola de {2} trabajos.</String>
+        <String xml:lang="pt-BR">Sua posição é ~y~~{0}/{1}~s~ na fila de {2} trabalhos.</String>
     </Entry>
 
     <Entry Id="jobs_queue_finished">
         <String xml:lang="en-US">You have been assigned to {0} job.</String>
         <String xml:lang="lv-LV">Jums tika piešķirts {0} darbs.</String>
         <String xml:lang="de-DE">Du bist dem {0} Job beigetreten.</String>
+        <String xml:lang="es-ES">Se le ha asignado el puesto {0} .</String>
+        <String xml:lang="pt-BR">A posição {0} foi atribuída a você.</String>
     </Entry>
 
     <Entry Id="jobs_queue_left">
         <String xml:lang="en-US">~r~You left the job queue!~s~</String>
         <String xml:lang="lv-LV">~r~Jūs atstājāt darba rindu!~s~</String>
         <String xml:lang="de-DE">~r~Du hast die Job-Warteschlange verlassen!~s~</String>
+        <String xml:lang="es-ES">~r~¡Has abandonado la cola de trabajo!~s~</String>
+        <String xml:lang="pt-BR">~r~Você saiu da fila de trabalho!~s~</String>
     </Entry>
 
     <Entry Id="jobs_queue_already_in">
         <String xml:lang="en-US">~r~You are already in the queue for this job.</String>
         <String xml:lang="lv-LV">~r~Jūs jau esat rindā uz šo darbu.</String>
         <String xml:lang="de-DE">~r~Du befindest dich bereits in der Warteschlange für diesen Job.</String>
+        <String xml:lang="es-ES">~r~Ya estás en la cola para este trabajo.</String>
+        <String xml:lang="pt-BR">~r~Você já está na fila de espera para este trabalho.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -3154,6 +3168,8 @@
         <String xml:lang="nl-NL">Je kan iemand zijn handboeien ~o~niet losmaken ~s~wanneer jij en het ~r~doelwit ~s~niet in hetzelfde ~y~voertuig ~s~zitten.</String>
         <String xml:lang="de-DE">Du darfst niemanden ~o~freilassen, ~s~wenn du und das ~r~Ziel~s~ nicht im selben ~y~Fahrzeug~s~ sind.</String>
         <String xml:lang="lv-LV">Jūs nevarat ~o~atbrīvot~s~ kādu, kamēr jūs un ~r~mērķis~s~ neatrodaties vienā ~y~transportlīdzeklī~s~.</String>
+        <String xml:lang="es-ES">No puedes ~o~quitarle las esposas ~s~a alguien cuando tú y el ~r~objetivo~s~ no estáis en el mismo ~y~vehículo~s~.</String>
+        <String xml:lang="pt-BR">Você não pode ~o~tirar as algemas ~s~de alguém quando você e o ~r~alvo ~s~não estiverem no mesmo ~y~veículo.~s~.</String>
     </Entry>
 
     <Entry Id="police_giving_ticket">
@@ -3164,6 +3180,8 @@
         <String xml:lang="fr-FR">Tu donnes une contravention à {0}.</String>
         <String xml:lang="de-DE">Du gibst {0} einen Strafzettel.</String>
         <String xml:lang="lv-LV">Jūs izsniedzat {0} sodu.</String>
+        <String xml:lang="es-ES">Usted está dando a {0} un multa.</String>
+        <String xml:lang="pt-BR">Você está dando uma multa a {0}.</String>
     </Entry>
 
     <Entry Id="police_giving_ticket_failed">
@@ -3174,6 +3192,8 @@
         <String xml:lang="fr-FR">~r~Tu n'as pas réussi à donner une contravention à {0}.</String>
         <String xml:lang="de-DE">~r~Du hast es nicht geschafft, {0} einen Strafzettel zu geben.</String>
         <String xml:lang="lv-LV">~r~Jums neizdevās izsniegt {0} sodu.</String>
+        <String xml:lang="es-ES">~r~No le has dado a {0} una multa.</String>
+        <String xml:lang="pt-BR">~r~Você não deu a {0} uma multa.</String>
     </Entry>
 
     <Entry Id="police_giving_ticket_succeeded">
@@ -3184,6 +3204,8 @@
         <String xml:lang="fr-FR">Tu as donné une contravention de ~b~{1} ~s~à {0}.</String>
         <String xml:lang="de-DE">Du hast {0} einen ~b~{1}~s~-Strafzettel gegeben.</String>
         <String xml:lang="lv-LV">Jūs esat izsniedzis {0} ~b~{1}~s~ sodu.</String>
+        <String xml:lang="es-ES">Le has dado a {0} un ~b~{1} ~s~multa.</String>
+        <String xml:lang="pt-BR">Você deu a {0} um ~b~{1} ~s~multa.</String>
     </Entry>
 
     <Entry Id="police_ticket_menu_title">
@@ -3194,6 +3216,8 @@
         <String xml:lang="fr-FR">Contravention</String>
         <String xml:lang="de-DE">Strafzettel</String>
         <String xml:lang="lv-LV">Sods</String>
+        <String xml:lang="es-ES">Multa</String>
+        <String xml:lang="pt-BR">Multa</String>
     </Entry>
 
     <Entry Id="police_ticket_menu_subtitle">
@@ -3204,6 +3228,8 @@
         <String xml:lang="fr-FR">{0} t'a donné une contravention</String>
         <String xml:lang="de-DE">{0} hat dir einen Strafzettel gegeben</String>
         <String xml:lang="lv-LV">{0} izsniedza jums sodu</String>
+        <String xml:lang="es-ES">{0} te dio una multa</String>
+        <String xml:lang="pt-BR">{0} lhe deu uma multa</String>
     </Entry>
 
     <Entry Id="police_ticket_pay">
@@ -3214,6 +3240,8 @@
         <String xml:lang="fr-FR">Payer</String>
         <String xml:lang="de-DE">Bezahlen</String>
         <String xml:lang="lv-LV">Maksāt</String>
+        <String xml:lang="es-ES">Pagar</String>
+        <String xml:lang="pt-BR">Pagar</String>
     </Entry>
 
     <Entry Id="police_ticket_pay_desc">
@@ -3224,6 +3252,8 @@
         <String xml:lang="fr-FR">Accepter et payer ~y~l'amende ~s~dès maintenant avec une réduction de ~g~25%~s~. Si tu n'as pas assez d'argent, le montant impayé sera ajouté en ~r~dette~s~.</String>
         <String xml:lang="de-DE">Akzeptiere und bezahle die ~y~Geldstrafe ~s~jetzt mit einer ~g~25% Ermäßigung~s~. Wenn du nicht genug Geld hast, wird der Betrag, der nicht bezahlt wurde, als ~r~Schulden~s~ hinzugefügt.</String>
         <String xml:lang="lv-LV">Pieņiemiet un samaksājiet ~y~sodu~s~ tagad ar ~g~25% samazinājumu~s~. Ja jums nav pietiekami daudz līdzekļu, nesamaksātā summa tiks pievienota kā ~r~parāds~s~.</String>
+        <String xml:lang="es-ES">Acepte y pague la ~y~multa ~s~ahora mismo con una ~g~ reducción de 25%~s~. Si no tiene fondos suficientes, el importe impagado se añadirá como ~r~deuda~s~.</String>
+        <String xml:lang="pt-BR">Aceite e pague a ~multa ~s~ agora mesmo com uma ~redução de 25%~s~. Se você não tiver fundos suficientes, o valor não pago será adicionado como ~r~dívida~s~.</String>
     </Entry>
 
     <Entry Id="police_ticket_contest">
@@ -3234,6 +3264,8 @@
         <String xml:lang="fr-FR">Contester</String>
         <String xml:lang="de-DE">Anfechten</String>
         <String xml:lang="lv-LV">Apstrīdēt</String>
+        <String xml:lang="es-ES">Concursante</String>
+        <String xml:lang="pt-BR">Concorrente</String>
     </Entry>
 
     <Entry Id="police_ticket_contest_desc">
@@ -3244,6 +3276,8 @@
         <String xml:lang="fr-FR">Contester cette contravention devant le ~b~tribunal~s~. Tu as 30% de chances de gagner et de ne rien payer.</String>
         <String xml:lang="de-DE">Fechte diesen Strafzettel vor ~b~Gericht~s~ an. Du hast eine 30% Chance, zu Gewinnen, und nichts bezahlen zu müssen.</String>
         <String xml:lang="lv-LV">Apstrīdējiet šo sodu ~b~tiesā~s~. Jums ir 30% iespēja uzvarēt un nemaksāt neko.</String>
+        <String xml:lang="es-ES">Lucha contra esta multa en los ~b~tribunales~s~. Usted tiene un 30% de posibilidades de ganar y no pagar nada.</String>
+        <String xml:lang="pt-BR">Lute contra essa multa no ~b~tribunal~s~. Você tem 30% de chance de ganhar e não pagar nada.</String>
     </Entry>
 
     <Entry Id="police_ticket_bribe">
@@ -3254,6 +3288,8 @@
         <String xml:lang="fr-FR">~o~Pot-de-vin</String>
         <String xml:lang="de-DE">~o~Bestechen</String>
         <String xml:lang="lv-LV">~o~Piedāvāt kukuli</String>
+        <String xml:lang="es-ES">~o~Soborno</String>
+        <String xml:lang="pt-BR">~o~Suborno</String>
     </Entry>
 
     <Entry Id="police_ticket_bribe_desc">
@@ -3264,6 +3300,8 @@
         <String xml:lang="fr-FR">Tenter de ~o~soudoyer ~s~l'agent pour qu'il annule la contravention. Il y a un risque important que l'agent ~r~refuse ~s~le pot-de-vin et t'accuse d'un ~o~délit~s~.</String>
         <String xml:lang="de-DE">Versuch, ~o~den Beamten zu bestechen, um den Strafzettel ungültig zu machen. Es besteht ein erhebliches Risiko, dass der Beamte ~r~die Bestechung ablehnt ~s~und dich wegen eines ~o~Verbrechens~s~ belangt.</String>
         <String xml:lang="lv-LV">Mēģiniet ~o~uzpirkt~s~ policistu, lai atceltu sodu. Pastāv ievērojams risks, ka policists ~r~atteiksies~s~ no kukuļa un apsūdzēs jūs ar ~o~kriminālnoziegumu~s~.</String>
+        <String xml:lang="es-ES">Intentar ~o~sobornar ~s~al agente para que anule la multa. Existe un riesgo importante de que el agente ~r~rechace ~s~el soborno y le acuse de un ~o~delito ~s~grave.</String>
+        <String xml:lang="pt-BR">Tentativa de ~o~subornar ~s~o policial para cancelar a multa. Há um risco significativo de o policial ~r~recusar ~s~o suborno e acusá-lo de um ~o~delito ~s~grave.</String>
     </Entry>
     
     <Entry Id="police_no_longer_around">
