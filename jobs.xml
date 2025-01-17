@@ -12,6 +12,7 @@
         <String xml:lang="sv-SE">Ändra till {0}</String>
         <String xml:lang="lv-LV">Pārslēgties uz {0}</String>
         <String xml:lang="ar-001">التحويل الي {0}</String>
+        <String xml:lang="tr-TR">Geçiş yap {0}</String>
     </Entry>
 
     <Entry Id="jobs_switch_to_description">
@@ -25,6 +26,7 @@
         <String xml:lang="sv-SE">Spara ditt nuvarande jobb framsteg och bli en {0}.</String>
         <String xml:lang="lv-LV">Saglabājiet jūsu pašreizējo darba progresu un kļūstiet par {0}.</String>
         <String xml:lang="ar-001">احفظ تقدمك الوظيفي الحالي وكن {0}</String>
+        <String xml:lang="tr-TR">Mevcut iş ilerlemenizi kaydedin ve {0} olun.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -65,6 +67,7 @@
         <String xml:lang="sv-SE">Du är tillfälligt ~r~förbjuden~s~ från {0} jobbet.</String>
         <String xml:lang="lv-LV">Jūs esat pagaidu ~r~bloķēts~s~ no {0} darba.</String>
         <String xml:lang="ar-001">لقد تم ~r~حظرك~s~ مؤقتًا من وظيفة {0}</String>
+        <String xml:lang="tr-TR">Geçici olarak {0} mesleğinden ~r~yasaklandın~s~.</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -79,6 +82,7 @@
         <String xml:lang="sv-SE">Du kan inte bli en {0} när du är ~o~efterlyst~s~.</String>
         <String xml:lang="lv-LV">Jūs nevarat kļut par {0} kamēr jūs ~o~meklē ~s~policija.</String>
         <String xml:lang="ar-001"> لا يمكنك أن تصبح {0} عندما تكون ~o~مطلوب~s~</String>
+        <String xml:lang="tr-TR">~o~Aranma~s~nız varken {0} olamazsınız.</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -93,6 +97,7 @@
         <String xml:lang="sv-SE">Du behöver att passera ~y~Testet~s~ för att bli en {0}.</String>
         <String xml:lang="lv-LV">Jums ir jānokārto ~y~eksāmens~s~, lai kļūtu par {0}.</String>
         <String xml:lang="ar-001">يتعين عليك اجتياز ~y~الاختبار~s~ لتصبح {0}</String>
+        <String xml:lang="tr-TR">{0} olabilmek için ~y~Sınav~s~ı geçmen gerekiyor.</String>
     </Entry>
 
     <!-- {0} = Item name -->
@@ -104,6 +109,7 @@
         <String xml:lang="sv-SE">du behöver en ~b~{0}~s~ för att bli en become {1}.</String>
         <String xml:lang="lv-LV">Jums ir nepieciešams ~b~{0}~s~, lai kļūtu par {1}.</String>
         <String xml:lang="ar-001">تحتاج الي ~b~{0}~s~ لتصبح {1}</String>
+        <String xml:lang="tr-TR">{1} olmak için ~b~{0}~s~ ihtiyacınız var.</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -119,6 +125,7 @@
         <String xml:lang="sv-SE">Du kan inte bli en {0} för att {1}% spelar gränsen har uppnått.</String>
         <String xml:lang="lv-LV">Jūs nevarat kļūt par {0}, jo ir sasniegts {1}% spēlētāju ierobežojums.</String>
         <String xml:lang="ar-001">لا يمكنك أن تصبح {0} لأنه تم الوصول إلى الحد الأقصى {1}% لعدد اللاعبين</String>
+        <String xml:lang="tr-TR">{1}% oyuncu sınırına ulaşıldığı için {0} olamazsın.</String>
     </Entry>
 
     <!-- {0} = required playtime -->
@@ -176,6 +183,7 @@
         <String xml:lang="sv-SE">~r~Du kan inte ändra ditt jobb när du är på ett uppdrag.</String>
         <String xml:lang="lv-LV">~r~Jūs nevarat mainīt jūsu darbu, kamēr atrodaties misijā.</String>
         <String xml:lang="ar-001">~r~لا يمكنك تغيير وظيفتك أثناء وجودك في مهمة</String>
+        <String xml:lang="tr-TR">~r~Bir görevdeyken mesleğini değiştiremezsin.</String>
     </Entry>
 
     <Entry Id="jobs_cant_change_inside_vehicle">
@@ -268,6 +276,7 @@
         <String xml:lang="de-DE">Bangrund: ~r~{0}~s~. Läuft ab: ~y~{1}~s~.</String>  
         <String xml:lang="sv-SE">Ban anledning: ~r~{0}~s~. utgår ~y~{1}~s~.</String>     
         <String xml:lang="lv-LV">Bloķējuma iemesls: ~r~{0}~s~. Beigsies ~y~{1}~s~.</String>
+        <String xml:lang="tr-TR">Yasaklanma sebebi: ~r~{0}~s~. Bitiş zamanı ~y~{1}~s~.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -278,30 +287,35 @@
         <String xml:lang="en-US">You have been placed in the ~p~queue~s~.</String>
         <String xml:lang="lv-LV">Jūs tikāt ievietots ~p~rindā~s~.</String>
         <String xml:lang="de-DE">Du wurdest in die ~p~Warteschlange~s~ eingetragen.</String>
+        <String xml:lang="tr-TR">~p~Sıra~s~ya girdin.</String>
     </Entry>
 
     <Entry Id="jobs_queue_position">
         <String xml:lang="en-US">Your position is ~y~{0}/{1}~s~ in the queue for {2} job.</String>
         <String xml:lang="lv-LV">Jūsu pozīcija ir ~y~{0}/{1}~s~ rindā uz {2} darbu.</String>
         <String xml:lang="de-DE">Du befindest dich auf Position ~y~{0}/{1}~s~ in der Warteschlange für den {2} Job.</String>
+        <String xml:lang="tr-TR">{2} mesleği için sıradaki pozisyonun ~y~{0}/{1}~s~.</String>
     </Entry>
 
     <Entry Id="jobs_queue_finished">
         <String xml:lang="en-US">You have been assigned to {0} job.</String>
         <String xml:lang="lv-LV">Jums tika piešķirts {0} darbs.</String>
         <String xml:lang="de-DE">Du bist dem {0} Job beigetreten.</String>
+        <String xml:lang="tr-TR">{0} mesleğine atandınız.</String>
     </Entry>
 
     <Entry Id="jobs_queue_left">
         <String xml:lang="en-US">~r~You left the job queue!~s~</String>
         <String xml:lang="lv-LV">~r~Jūs atstājāt darba rindu!~s~</String>
         <String xml:lang="de-DE">~r~Du hast die Job-Warteschlange verlassen!~s~</String>
+        <String xml:lang="tr-TR">~r~Meslek sırasından ayrıldın!~s~</String>
     </Entry>
 
     <Entry Id="jobs_queue_already_in">
         <String xml:lang="en-US">~r~You are already in the queue for this job.</String>
         <String xml:lang="lv-LV">~r~Jūs jau esat rindā uz šo darbu.</String>
         <String xml:lang="de-DE">~r~Du befindest dich bereits in der Warteschlange für diesen Job.</String>
+        <String xml:lang="tr-TR">~r~Bu meslek için zaten sıradasın.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -322,7 +336,7 @@
         <String xml:lang="zh-Hant">您已經把您的~y~服務項目 ~s~給予 {0}~s~查看.</String>
         <String xml:lang="vi-VN">Bạn đã đưa ra đề nghị ~y~dịch vụ ~s~đến {0}~s~.</String>
         <String xml:lang="id-ID">Anda telah menawarkan ~y~jasa anda ~s~kepada {0}~s~.</String>
-        <String xml:lang="tr-TR">{0}'ya ~y~hizmetlerinizi ~s~sundunuz.</String>
+        <String xml:lang="tr-TR">{0} kişisine ~y~hizmetlerinizi ~s~sundunuz.</String>
         <String xml:lang="hi-Latn">Aapne offer kari apni ~y~services ~s~to {0}~s~.</String>
         <String xml:lang="sv-SE">Du offrade dina ~y~tjänster ~s~till {0}~s~.</String>
         <String xml:lang="lv-LV">Jūs piedāvājāt savus ~y~pakalpojumus~s~ {0}~s~.</String>
@@ -387,7 +401,7 @@
         <String xml:lang="zh-Hant">{0} ~r~離~s~你太遠了</String>
         <String xml:lang="vi-VN">{0} đã ~r~quá xa ~s~bạn.</String>
         <String xml:lang="id-ID">{0} ~r~terlalu jauh ~s~dari anda.</String>
-        <String xml:lang="tr-TR">{0} sizden ~r~çok uzakta~s~.</String>
+        <String xml:lang="tr-TR">{0} senden ~r~çok uzakta~s~.</String>
         <String xml:lang="hi-Latn">{0} aapse ~r~kaafi door ~s~hain.</String>
         <String xml:lang="sv-SE">{0} är ~r~för långt bort ~s~ifrån dig.</String>
         <String xml:lang="lv-LV">{0} ir ~r~pārāk tālu~s~ no jums.</String>
@@ -466,7 +480,7 @@
         <String xml:lang="zh-Hant">~r~賣家離你太遠了!</String>
         <String xml:lang="vi-VN">~r~Bạn đứng quá xe so với người bán!</String>
         <String xml:lang="id-ID">~r~Anda terlalu jauh dari penjual!</String>
-        <String xml:lang="tr-TR">~r~Satıcıya çok uzaksınız!</String>
+        <String xml:lang="tr-TR">~r~Satıcıdan çok uzaktasın!</String>
         <String xml:lang="hi-Latn">~r~Aap bohot door hain seller se!</String>
         <String xml:lang="lv-LV">~r~Jūs esat pārāk tālu no pārdevēja!</String>
     </Entry>
@@ -504,7 +518,7 @@
         <String xml:lang="ar-001">~r~البائع ليس لديه الإمدادات الكافية لتقديم ~s~{0} ~r~خدمة!</String>
         <String xml:lang="vi-VN">~r~Người bạn hiện không có đủ nguồn vật phẩm ~s~{0} ~r~để phục vụ!</String>
         <String xml:lang="id-ID">~r~Penjual tidak memiliki cukup suplai untuk menyediakan jasa ~s~{0}~r~!</String>
-        <String xml:lang="tr-TR">~r~Satıcı, ~s~{0} ~r~hizmetini sağlamak için yeterli malzeme bulundurmuyor!</String>
+        <String xml:lang="tr-TR">~r~Satıcı ~s~{0} ~r~hizmetini sağlamak için yeterli malzemeye sahip değil!</String>
         <String xml:lang="hi-Latn">~r~Seller ke paas samaan nahi hai aapko ~s~{0} ~r~service dene ke liye!</String>
         <String xml:lang="lv-LV">~r~Pārdevējam nav pietiekami daudz materiāli, lai sniegtu ~s~{0} ~r~pakalpojumu!</String>
     </Entry>
@@ -523,7 +537,7 @@
         <String xml:lang="ar-001">~r~البائع ليس لديه الشهادة المطلوبة لتقديم خدمة ~s~{0}~r~!</String>
         <String xml:lang="vi-VN">~r~Người bán hiện không có giấy chứng nhận ~s~{0} ~r~để phục vụ!</String>
         <String xml:lang="id-ID">~r~Penjual tidak memenuhi persyaratan sertifikasi untuk menyediakan jasa ~s~{0}~r~!</String>
-        <String xml:lang="tr-TR">~r~The seller doesn't have the required certification to provide the ~s~{0} ~r~service!</String>
+        <String xml:lang="tr-TR">~r~Satıcı ~s~{0} ~r~hizmetini sağlamak için gerekli sertifikaya sahip değil!</String>
         <String xml:lang="hi-Latn">~r~Seller ke paas zaruri certification nahi hai aapko ~s~{0} ~r~service dene ke liye!</String>
         <String xml:lang="lv-LV">~r~Pārdevējam nav nepieciešamās ssertifikācijas, lai sniegtu ~s~{0} ~r~pakalpojumu!</String>
     </Entry>
@@ -684,7 +698,7 @@
         <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en verkoop drugs aan {1}.</String>
         <String xml:lang="fr-FR">Va à ~y~{0} ~s~et vend de la drogue à {1}.</String>
         <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und verkaufe {1} Drogen.</String>
-        <String xml:lang="tr-TR">~y~{0}~s~'a git ve {1}'a uyuşturucu sat.</String>
+        <String xml:lang="tr-TR">~y~{0}~s~ konumuna git ve {1} kişisine uyuşturucu sat.</String>
         <String xml:lang="es-ES">Ve a ~y~{0} ~s~y vende drogas a {1}.</String>
         <String xml:lang="pl-PL">Pójdź do ~y~{0} ~s~i sprzedaj narkotyki {1}.</String>
         <String xml:lang="zh-Hant">前往 ~y~{0} ~s~將毒品販售給 {1}.</String>
@@ -707,7 +721,7 @@
         <String xml:lang="nl-NL">Je hebt ~p~{0}g ~s~van ~r~{1} ~s~aan een NPC verkocht voor ~g~{2}~s~.</String>
         <String xml:lang="fr-FR">Tu as vendu ~p~{0}g ~s~de ~r~{1} ~s~à un PNJ pour ~g~{2}~s~.</String>
         <String xml:lang="de-DE">Du hast ~p~{0}g~s~ ~r~{1}~s~ an einen NPC für ~g~{2}~s~ verkauft.</String>
-        <String xml:lang="tr-TR">Sattın ~p~{0}g ~s~ile ilgili ~r~{1} ~s~için bir NPC'ye ~g~{2}~s~.</String>
+        <String xml:lang="tr-TR">~p~{0}g ~r~{1}'i ~s~bir NPC ye ~g~{2} ~s~karşılığında sattın.</String>
         <String xml:lang="es-ES">Vendiste ~p~{0}g ~s~de ~r~{1} ~s~a un NPC por ~g~{2}~s~.</String>
         <String xml:lang="pl-PL">Sprzedałeś ~p~{0}g ~s~~r~{1} ~s~botowi za ~g~{2}~s~.</String>
         <String xml:lang="zh-Hant">你販售了 ~p~{0}g ~s~個 ~r~{1} ~s~給 NPC 並賺取了 ~g~{2}~s~</String>
@@ -779,7 +793,7 @@
         <String xml:lang="ar-001">{0} ~s~يبحث عن تاجر مخدرات في ~y~{1}~s~.</String>
         <String xml:lang="vi-VN">{0} ~s~đang tìm người buôn lậu ở ~y~{1}~s~.</String>
         <String xml:lang="id-ID">{0} ~s~sedang mencari pengedar narkoba di ~y~{1}~s~.</String>
-        <String xml:lang="tr-TR">{0}, ~y~{1} ~s~taraflarında bir uyuşturucu satıcısı arıyor.</String>
+        <String xml:lang="tr-TR">{0} ~s~kişisi ~y~{1} ~s~civarında bir uyuşturucu satıcısı arıyor.</String>
         <String xml:lang="hi-Latn">{0} ~s~ek drug dealer ki talash mein hai ~y~{1} ~s~par.</String>
         <String xml:lang="lv-LV">{0} ~s~meklē narkotiku tirgotāju ~y~{1}~s~.</String>
     </Entry>
@@ -799,7 +813,7 @@
         <String xml:lang="ar-001">أنت في ~r~مكان في بيع المخدرات~s~. ابق هنا وسوف تطلب منك ~y~البوتات ~s~المخدرات.</String>
         <String xml:lang="id-ID">Anda sedang berada di ~r~tempat penjualan narkoba~s~. Tunggu disini dan ~y~NPC ~s~akan menanyakan anda perihal narkoba.</String>
         <String xml:lang="vi-VN">Bạn đang trong ~r~chỗ bán hàng lậu~s~. Đứng ở đây và ~y~NPCs ~s~sẽ tới và mua hàng của bạn</String>
-        <String xml:lang="tr-TR">~r~Uyuşturucu noktasındasınız~s~. Burada kalın ve ~y~NPC'ler ~s~size uyuşturucu isteyecek.</String>
+        <String xml:lang="tr-TR">Bir~r~uyuşturucu noktasındasın~s~. Burada kal. ~y~NPC'ler ~s~senden uyuşturucu isteyecek.</String>
         <String xml:lang="hi-Latn">Aap ~r~drug spot ~s~mein hain. Yahan rahoge toh ~y~NPCs ~s~aapse drugs maangenge.</String>
         <String xml:lang="lv-LV">Jūs atrodaties ~r~narkotiku pārdošanas zonā~s~. Palieciet šeit un ~y~NPC~s~ pirks no jums narkotikas.</String>
     </Entry>
@@ -819,7 +833,7 @@
         <String xml:lang="th-TH">มีคนโทรหา ~b~ตำรวจ~s~ คุณไม่สามารถใช้ ~r~จุดขายยา ~s~ไปอีก ~p~{0} นาที~s~</String>
         <String xml:lang="ar-001">لقد اتصل شخص ما بـ ~b~الشرطة~s~، لا يمكنك استخدام ~r~مكان بيع المخدرات هذا ~s~لمدة ~p~{0} دقيقة~s~ التالية.</String>
         <String xml:lang="id-ID">Seseorang telah memanggil ~b~kepolisian~s~, Anda tidak dapat menggunakan ~r~tempat penjualan narkoba ~s~ini selama ~p~{0} menit~s~.</String>
-        <String xml:lang="tr-TR">Birisi ~b~polisi ~s~aradı, bu ~r~uyuşturucu noktasını ~s~bir sonraki ~p~{0} dakika ~s~boyunca kullanamazsınız.</String>
+        <String xml:lang="tr-TR">Birisi ~b~polisleri ~s~aradı, bu ~r~uyuşturucu noktasını ~s~önümüzdeki ~p~{0} dakika ~s~boyunca kullanamazsınız.</String>
         <String xml:lang="hi-Latn">Kisi ne ~b~cops ~s~ko call kar diya hai, aap agle ~p~{0} minutes ~s~tak is ~r~drug spot ~s~use nahi kar sakte.</String>
         <String xml:lang="lv-LV">Kāds ir piezvanījis ~b~policijai~s~,jūs nevarat izmantot šo ~r~narkotiku pārdošanas vietu ~s~nākamās ~p~{0} minūtes~s~.</String>
     </Entry>
@@ -857,7 +871,7 @@
         <String xml:lang="th-TH">คุณมีอาวุธ! ~y~NPC ~s~จะซื้อยาน้อยลง</String>
         <String xml:lang="ar-001">لديك سلاح! عدد أقل من ~y~البوتات ~s~سيشتري المخدرات.</String>
         <String xml:lang="id-ID">Anda memegang senjata! Lebih sedikit ~y~NPC ~s~yang akan membeli narkoba.</String>
-        <String xml:lang="tr-TR">Silahınız var! Daha az ~y~NPC ~s~uyuşturucu alacak.</String>
+        <String xml:lang="tr-TR">Silahınız var! Daha az sayıda ~y~NPC ~s~uyuşturucu satın alacak.</String>
         <String xml:lang="hi-Latn">Aapke paas ek weapon hai! Kam ~y~NPCs ~s~drugs kharidenge.</String>
         <String xml:lang="lv-LV">Jums ir ierocis! Mazāk ~y~NPC~s~ pirks narkotikas no jums.</String>
     </Entry>
@@ -1014,7 +1028,7 @@
         <String xml:lang="th-TH">คุณสามารถจัดการยาเสพติดของคุณได้ใน {0} ~b~เมนู~s~ &gt; ~b~เมนูงาน</String>
         <String xml:lang="ar-001">يمكنك إدارة المخدرات الخاصة بك في {0} ~b~القائمة~s~ &gt; ~b~قائمة المهام.</String>
         <String xml:lang="id-ID">Anda dapat mengelola suplai narkoba didalam {0} ~b~Menu~s~ &gt; ~b~Menu Pekerjaan.</String>
-        <String xml:lang="tr-TR">Uyuşturucu stoklarınızı {0} ~b~Menüsünde~s~ yönetebilirsiniz &gt; ~b~İş Menüsü.</String>
+        <String xml:lang="tr-TR">Uyuşturucu stoğunu {0} ~b~Menüsünden~s~ yönetebilirsin &gt; ~b~İş Menüsü.</String>
         <String xml:lang="hi-Latn">Aap apne drug supplies manage kar sakte ho apne {0} ~b~Menu~s~ &gt; ~b~Job Menu.</String>
         <String xml:lang="lv-LV">Jūs varat pārvaldīt savus narkotiku krājumus jūsu {0} ~b~Izvēlne~s~ &gt; ~b~Darba Izvēlne.</String>
     </Entry>
@@ -1070,7 +1084,7 @@
         <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en assisteer {1}.</String>
         <String xml:lang="fr-FR">Aller à ~y~{0} ~s~et assister {1}.</String>
         <String xml:lang="de-DE">Gehe zu ~y~{0} ~s~und hilf {1}.</String>
-        <String xml:lang="tr-TR">~y~{0}~s~'a git ve {1}'e yardım et.</String>
+        <String xml:lang="tr-TR">~y~{0} ~s~konumuna git ve {1} kişisine yardım et.</String>
         <String xml:lang="es-ES">Ve a ~y~{0} ~s~y ayuda a {1}.</String>
         <String xml:lang="pl-PL">Pójdź do ~y~{0} ~s~i pomóż {1}.</String>
         <String xml:lang="zh-Hant">前往 ~y~{0} ~s~並協助 {1}</String>
@@ -1100,7 +1114,7 @@
         <String xml:lang="th-TH">{0} ~s~กำลังมองหาช่างเครื่องใน ~y~{1}~s~</String>
         <String xml:lang="ar-001">{0} ~s~يبحث عن ميكانيكي في ~y~{1}~s~.</String>
         <String xml:lang="id-ID">{0} ~s~sedang mencari mekanik di ~y~{1}~s~.</String>
-        <String xml:lang="tr-TR">{0}, ~y~{1} ~s~taraflarında bir mekanik arıyor.</String>
+        <String xml:lang="tr-TR">{0} kişisi ~y~{1} ~s~civarında bir mekanik arıyor.</String>
         <String xml:lang="hi-Latn">{0} ~s~ek mechanic ki talash mein hain ~y~{1} ~s~par.</String>
         <String xml:lang="lv-LV">{0}~s~ meklē mehāniķi ~y~{1}~s~.</String>
     </Entry>
@@ -1136,6 +1150,7 @@
         <String xml:lang="id-ID">Kamu mendapatkan ~b~{0}~s~!</String>
         <String xml:lang="lv-LV">Jus ieguvāt ~b~{0}~s~!</String>
         <String xml:lang="ar-001">لقد حصلت على ~b~{0}~s~!</String>
+        <String xml:lang="tr-TR">Bir ~b~{0} ~s~elde ettin!</String>
     </Entry>
 
     <Entry Id="mechanic_dont_have_vehicle_repair">
@@ -1186,6 +1201,7 @@
         <String xml:lang="id-ID">~r~Tipe kendaraan ini tidak bisa diperbaiki disini!</String>
         <String xml:lang="lv-LV">~r~Šeit nevar salabot šāda veida transportlīdzekli!</String>
         <String xml:lang="ar-001">~r~لا يمكن إصلاح هذا النوع من المركبات هنا!</String>
+        <String xml:lang="tr-TR">~r~Bu türde bir araç burada tamir edilemez!</String>
     </Entry>
 
     <Entry Id="mechanic_cant_change_plate_others">
@@ -1217,6 +1233,7 @@
         <String xml:lang="id-ID">Kendaraanmu sedang ~g~diperbaiki~s~. Jangan ~r~menggerakkan ~s~kendaraan!</String>
         <String xml:lang="lv-LV">Jūsu transportlīdzeklis tiek ~g~labots~s~. ~r~Nepārvietojiet~s~ transportlīdzekli!</String>
         <String xml:lang="ar-001">يتم الآن ~g~اصلاح~s~ سيارتك لا ~r~تحرك ~s~السيارة!</String>
+        <String xml:lang="tr-TR">Aracın ~g~tamir ediliyor~s~. Aracı ~r~hareket ~s~ettirme!</String>
     </Entry>
 
     <Entry Id="mechanic_vehicle_repaired">
@@ -1233,7 +1250,7 @@
         <String xml:lang="th-TH">รถของคุณได้รับการ ~g~ซ่อมแซม~s~</String>
         <String xml:lang="ar-001">~g~لقد تم إصلاح~s~ سيارتك.</String>
         <String xml:lang="id-ID">Kendaraan anda telah ~g~diperbaiki~s~.</String>
-        <String xml:lang="tr-TR">Aracınız ~g~tamir edildi~s~.</String>
+        <String xml:lang="tr-TR">Aracın ~g~tamir edildi~s~.</String>
         <String xml:lang="hi-Latn">Aapki vehicle ~g~repair ho gayi ~s~hai.</String>
         <String xml:lang="lv-LV">Jūsu transportlīdzeklis tika ~g~salabots~s~.</String>
     </Entry>
@@ -1252,7 +1269,7 @@
         <String xml:lang="th-TH">~r~คุณอยู่ไกลจากช่างมากเกินไป</String>
         <String xml:lang="ar-001">~r~أنت بعيد جدًا عن الميكانيكي.</String>
         <String xml:lang="id-ID">~r~Anda terlalu jauh dari mekanik.</String>
-        <String xml:lang="tr-TR">~r~Mekanikten çok uzaksınız..</String>
+        <String xml:lang="tr-TR">~r~Tamirciden çok uzaksınız.</String>
         <String xml:lang="hi-Latn">~r~Aap mechanic se bahut door ho.</String>
         <String xml:lang="lv-LV">~r~Jūs esat pārāk tālu no mehāniķa.</String>
     </Entry>
@@ -1286,6 +1303,7 @@
         <String xml:lang="id-ID">~r~Perbaikan dibatalkan.</String>
         <String xml:lang="lv-LV">~r~Remonts tika atcelts.</String>
         <String xml:lang="ar-001">~r~تم إلغاء الإصلاح.</String>
+        <String xml:lang="tr-TR">~r~Tamir iptal edildi.</String>
     </Entry>
 
     <Entry Id="mechanic_full_repair">
@@ -1298,6 +1316,7 @@
         <String xml:lang="id-ID">Perbaikan penuh</String>
         <String xml:lang="lv-LV">Pilns remonts</String>
         <String xml:lang="ar-001">اصلاح كامل</String>
+        <String xml:lang="tr-TR">Tam onarım</String>
     </Entry>
 
     <!-- {0} = seconds needed for the repair -->
@@ -1310,6 +1329,7 @@
         <String xml:lang="it-IT">Ripara completamente il tuo veicolo. Tempo: ~b~{0} secondi~s~.</String>
         <String xml:lang="id-ID">Perbaikan penuh kendaraanmu. Waktu: ~b~{0} detik~s~.</String>
         <String xml:lang="lv-LV">Pilnībā salabojiet jūsu transportlīdzekli. Laiks: ~b~{0} sekundes~s~.</String>
+        <String xml:lang="tr-TR">Aracınızı komple onarın. Zaman: ~b~{0} saniye~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_quick_repair">
@@ -1321,6 +1341,7 @@
         <String xml:lang="it-IT">Riparazione rapida</String>
         <String xml:lang="id-ID">Perbaikan cepat</String>
         <String xml:lang="lv-LV">Ātrs remonts</String>
+        <String xml:lang="tr-TR">Hızlı onarım</String>
     </Entry>
 
     <!-- {0} = seconds needed for the repair -->
@@ -1333,6 +1354,7 @@
         <String xml:lang="it-IT">Ripara rapidamente il motore del tuo veicolo fino al 75% di salute. Tempo: ~b~{0} secondi~s~.</String>
         <String xml:lang="id-ID">Perbaiki kendaraanmu secara cepat untuk memulihkan kondisi mesin hingga 75%. Waktu : ~b~{0} detik~s~.</String>
         <String xml:lang="lv-LV">Ātri salabojiet jūsu transportlīdzekļa dzinēju līdz 75% veselībai. Laiks: ~b~{0} sekundes~s~.</String>
+        <String xml:lang="tr-TR">Aracın motorunu %75'e kadar hızlı bir şekilde onar Zaman: ~b~{0} saniye~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_tire_repair">
@@ -1344,6 +1366,7 @@
         <String xml:lang="it-IT">Sostituzione pneumatici</String>
         <String xml:lang="id-ID">Perbaiki ban</String>
         <String xml:lang="lv-LV">Riepu remonts</String>
+        <String xml:lang="tr-TR">Lastik onarım</String>
     </Entry>
 
     <!-- {0} = seconds needed for the repair -->
@@ -1356,6 +1379,7 @@
         <String xml:lang="it-IT">Sostituisci gli pneumatici del tuo veicolo. Tempo: ~b~{0} secondi~s~.</String>
         <String xml:lang="id-ID">Mengganti ban kendaraanmu. Waktu: ~b~{0} detik~s~.</String>
         <String xml:lang="lv-LV">Nomainiet jūsu transportlīdzekļa riepas. Laiks: ~b~{0} sekundes~s~.</String>
+        <String xml:lang="tr-TR">Aracın lastiklerini değiştir. Zaman: ~b~{0} saniye~s~.</String>
     </Entry>
 
     <Entry Id="mechanic_cant_impound_vehicle">
@@ -1392,7 +1416,7 @@
         <String xml:lang="th-TH">กด {0} ค้างไว้เพื่อปล่อย ~r~ยานพาหนะ ~s~ออก</String>
         <String xml:lang="ar-001">اضغط مع الاستمرار على {0} لإيقاف تشغيل ~r~السيارة~s~.</String>
         <String xml:lang="id-ID">Tekah {0} untuk menurunkan ~r~kendaraan~s~.</String>
-        <String xml:lang="tr-TR">~r~Aracı ~s~bırakmak için {0}'ı basılı tutun.</String>
+        <String xml:lang="tr-TR">~r~Aracı ~s~bırakmak için {0} tuşuna basılı tutun.</String>
         <String xml:lang="hi-Latn">Hold karo {0} ~r~vehicle ~s~drop off karne ke liye.</String>
         <String xml:lang="lv-LV">Turiet {0}, lai nolaistu ~r~transportlīdzekli~s~.</String>
     </Entry>
@@ -1421,7 +1445,7 @@
         <String xml:lang="fr-FR">(C)Mécanicien:(/C) ~s~répare et modifie les ~y~véhicules des joueurs ~s~pour gagner de l'argent.</String>
         <String xml:lang="nl-NL">(C)Monteur:(/C) ~s~repareer en modificeer spelers' ~y~voertuigen ~s~om geld te verdienen.</String>
         <String xml:lang="de-DE">(C)Mechanic:(/C) ~s~repariere und modifiziere ~y~Fahrzeuge ~s~von Spielern, um Geld zu verdienen.</String>
-        <String xml:lang="tr-TR">(C)Tamirci:(/C) ~s~onarım ve mod oyuncuları' ~y~araçlar ~s~para kazanmak.</String>
+        <String xml:lang="tr-TR">(C)Tamirci:(/C) ~s~para kazanmak için oyuncuların ~y~araçlarını ~s~onarın ve modifiye edin.</String>
         <String xml:lang="es-ES">(C)Mecánico:(/C) ~s~repara y modifica los ~y~vehículos de los jugadores ~s~para ganar dinero.</String>
         <String xml:lang="pl-PL">(C)Mechanik:(/C) ~s~naprawiaj i ulepszaj ~y~pojazdy ~s~by zdobywać forsę.</String>
         <String xml:lang="zh-Hant">(C)技工:(/C) ~s~修理和改裝玩家的 ~y~車輛 ~s~來賺取現金.</String>
@@ -1443,6 +1467,7 @@
         <String xml:lang="it-IT">Targa personalizzata</String>
         <String xml:lang="id-ID">Plat nomor kustom</String>
         <String xml:lang="lv-LV">Personalizets numurs</String>
+        <String xml:lang="tr-TR">Plaka</String>
     </Entry>
 
     <Entry Id="mechanic_plate_input_text">
@@ -1454,6 +1479,7 @@
         <String xml:lang="it-IT">Inserisci una targa personalizzata per questo veicolo.\nAttenzione: quando ottieni una targa, la possiedi solo nella regione attuale (US o EU). Quando ti trasferisci in un'altra regione, il server cercherà di trasferirla lì, tuttavia, se è già in uso, non verrà trasferita.</String>
         <String xml:lang="id-ID">Masukkan plat nomor kustom untuk kendaraan ini. \nPerhatian: Ketika kamu mendapatkan plat nomor, plat nomor itu hanya berlaku di daerah (US atau EU). Ketika kamu bergabung ke daerah lain, server akan mencoba untuk memindahkan plat tersebut, tetapi, jika sudah ada yang menggunakannya maka plat nomor tersebut tidak akan dipindahkan.</String>
         <String xml:lang="lv-LV">Ievadiet šī transportlīdzekļa jauno numura zīmi.\nBrīdinajums: iegūstot numura zīmi, tā pieder jums tikai pašreizējā reģionā (US vai EU). Pievienojoties citam reģionam, serveris mēģina to pārnest uz to reģionu, taču ja tāda numura zīme jau ir aizņemta, tā netiks pārnesta.</String>
+        <String xml:lang="tr-TR">Bu araç için özel bir plaka girin.\nUyarı: bir plaka aldığınızda, ona yalnızca mevcut bölgede (NA veya EU) sahip olursunuz. Başka bir bölgeye katıldığınızda sunucu ona oraya aktarmaya çalışır. Ancak, zaten kullanımda ise aktarılamaz.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_word">
@@ -1520,7 +1546,7 @@
         <String xml:lang="nl-NL">~p~Je kentekenplaat is veranderd naar ~s~{0} ~p~en opgeslagen.</String>
         <String xml:lang="fr-FR">~p~Ta plaque d'immatriculation a été attribuée à ~s~{0} ~p~et sauvegardée.</String>
         <String xml:lang="de-DE">~p~Dein Wunschkennzeichen wurde zu ~s~{0}~p~ geändert und gespeichert.</String>
-        <String xml:lang="tr-TR">~p~Özel plakanız olarak ayarlandı ~s~{0} ~p~ve kaydedildi.</String>
+        <String xml:lang="tr-TR">~p~Plakanız ~s~{0} ~p~olarak ayarlandı ve kaydedildi.</String>
         <String xml:lang="es-ES">~p~Tu placa personalizada se ha configurado como ~s~{0} ~p~y se ha guardado.</String>
         <String xml:lang="pl-PL">~p~Twoja tablica rejestracyjna została ustawiona do ~s~{0} ~p~i zapisana.</String>
         <String xml:lang="zh-Hant">~p~您的客製化車牌已設置為 ~s~{0} ~p~並已保存.</String>
@@ -1542,6 +1568,7 @@
         <String xml:lang="it-IT">~r~Non puoi personalizzare la targa di un veicolo rubato.</String>
         <String xml:lang="id-ID">~r~Kamu tidak bisa merubah plat nomor dari kendaraan curian.</String>
         <String xml:lang="lv-LV">~r~Jūs nevarat mainīt nozagta transportlīdzekļa numura zīmi.</String>
+        <String xml:lang="tr-TR">~r~Çalıntı bir aracın plakasını değiştiremezsiniz.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_rented_car">
@@ -1570,7 +1597,7 @@
         <String xml:lang="nl-NL">~p~Je kentekenplaat is veranderd naar ~s~{0}~p~.</String>
         <String xml:lang="fr-FR">Ta plaque d'immatriculation a été fixée à ~s~{0}~p~.</String>
         <String xml:lang="de-DE">Dein Wunschkennzeichen wurde zu ~s~{0}~p~ geändert.</String>
-        <String xml:lang="tr-TR">Özel araç plakanız şu şekilde ayarlandı ~s~{0}~p~.</String>
+        <String xml:lang="tr-TR">Plakanız şu şekilde ayarlandı ~s~{0}~p~.</String>
         <String xml:lang="es-ES">Tu placa personalizada se ha establecido como ~s~{0}~p~.</String>
         <String xml:lang="pl-PL">Twoja tablica rejestracyjna to teraz ~s~{0}~p~.</String>
         <String xml:lang="zh-Hant">你的客製化車牌已被設置為 ~s~{0}~p~.</String>
@@ -1597,7 +1624,7 @@
         <String xml:lang="th-TH">~r~คุณไม่สามารถปรับเปลี่ยนรถเช่าได้!</String>
         <String xml:lang="ar-001">~r~لا يمكنك تعديل مركبة مستأجرة!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat modifikasi kendaraan rental!</String>
-        <String xml:lang="tr-TR">~r~Kiralık bir aracı değiştiremezsiniz.</String>
+        <String xml:lang="tr-TR">~r~Kiralık bir aracı modifiye edemezsiniz.</String>
         <String xml:lang="hi-Latn">~r~Aap ek rented vehicle ko modify nahi kar sakte!</String>
         <String xml:lang="lv-LV">~r~Jūs nevarat modificēt nomātu transportlīdzekli!</String>
     </Entry>
@@ -1611,7 +1638,7 @@
         <String xml:lang="nl-NL">Je kan een voertuig niet vastmaken terwijl je ~r~beweegt~s~.</String>
         <String xml:lang="fr-FR">Tu ne peux pas attacher un véhicule en ~r~mouvement~s~.</String>
         <String xml:lang="de-DE">Du kannst kein Fahrzeug anhängen, solange du dich ~r~bewegst~s~.</String>
-        <String xml:lang="tr-TR">~r~Hareket ~s~halindeyken bir araç bağlayamazsınız.</String>
+        <String xml:lang="tr-TR">~r~Hareket ederken ~s~bir araç bağlayamazsınız.</String>
         <String xml:lang="es-ES">No puedes acoplar un vehículo mientras ~r~te mueves~s~.</String>
         <String xml:lang="pl-PL">Nie możesz podpiąć pojazdu w ~r~ruchu~s~.</String>
         <String xml:lang="zh-Hant">你無法在 ~r~行進中~s~ 連接一輛車.</String>
@@ -1630,7 +1657,7 @@
         <String xml:lang="nl-NL">Voertuigen van dit type ~r~kunnen niet worden gesleept~s~.</String>
         <String xml:lang="fr-FR">Les véhicules de ce type ~r~ne peuvent pas être remorqués~s~.</String>
         <String xml:lang="de-DE">Fahrzeuge dieser Art können ~r~nicht angehangen werden.~s~</String>
-        <String xml:lang="tr-TR">Bu tip araçlar ~r~çekilemez~s~.</String>
+        <String xml:lang="tr-TR">Bu tür araçlar ~r~çekilemez~s~.</String>
         <String xml:lang="es-ES">Los vehículos de este tipo ~r~no pueden ser remolcados~s~.</String>
         <String xml:lang="pl-PL">Pojazdy tego typu ~r~nie mogą być holowane~s~.</String>
         <String xml:lang="zh-Hant">這種款式的車輛 ~r~無法被拖吊~s~.</String>
@@ -1649,7 +1676,7 @@
         <String xml:lang="nl-NL">Dit voertuig is ~r~al ~s~vastgemaakt aan een ander voertuig.</String>
         <String xml:lang="fr-FR">Le véhicule est ~r~déjà ~s~attaché à un autre camion.</String>
         <String xml:lang="de-DE">Das Fahrzeug ist ~r~bereits~s~ an einem anderen Abschlepper angehangen.</String>
-        <String xml:lang="tr-TR">"Araç ~r~zaten ~s~başka bir kamyona bağlanmıştır.</String>
+        <String xml:lang="tr-TR">Araç ~r~zaten ~s~başka bir kamyona bağlı.</String>
         <String xml:lang="es-ES">El vehículo ~r~ya ~s~esta conectado a otro camión.</String>
         <String xml:lang="pl-PL">Ten pojazd ~r~jest już ~s~podpięty do innej ciężarówki.</String>
         <String xml:lang="zh-Hant">這輛車 ~r~已經 ~s~被連接到其他台卡車上.</String>
@@ -1725,7 +1752,7 @@
         <String xml:lang="nl-NL">Je bent een ~y~speler's voertuig ~s~aan het slepen voor ~g~extra geld~s~, maar je hebt beperkt tijd. Wanneer de timer ~r~afloopt~s~, kan de eigenaar zijn voertuig ~y~terugroepen~s~.</String>
         <String xml:lang="fr-FR">Tu remorques le véhicule d'un ~y~joueur ~s~pour un ~g~supplément d'argent~s~, mais tu as un temps limité. Lorsque le temps est ~r~écoulé~s~, le propriétaire du véhicule peut le ~y~rappeler~s~.</String>
         <String xml:lang="de-DE">Du schleppst das Fahrzeug eines ~y~Spielers ~s~für ~g~extra Geld~s~ ab, aber du hast nur begrenzte Zeit. Wenn die Zeit ~r~ausläuft~s~, wird der Besitzer in der Lage sein ~y~das Fahrzeug ~s~zurückzurufen.</String>
-        <String xml:lang="tr-TR">~g~Ekstra para~s~ karşılığında bir ~y~oyuncunun aracını ~s~çekiyorsunuz, ancak sınırlı bir zamanınız var. Zamanlayıcı ~r~sona erdiğinde~s~, sahibi onu ~y~geri çağırabilecek~s~.</String>
+        <String xml:lang="tr-TR">~g~Ekstra para~s~ karşılığında bir ~y~oyuncunun aracını ~s~çekiyorsunuz. Ancak, zamanınız kısıtlı. Zamanlayıcı ~r~sona erdiğinde~s~, sahibi onu ~y~geri çağırabilecek~s~.</String>
         <String xml:lang="es-ES">Estás remolcando el vehículo de un ~y~jugador ~s~por ~g~dinero extra~s~, pero tienes un tiempo limitado. Cuando el temporizador ~r~se agote~s~, el propietario podrá ~y~llamarlo otravez~s~.</String>
         <String xml:lang="pl-PL">Holujesz ~y~pojazd gracz ~s~dla ~g~dodatkowej forsy~s~, lecz masz limitowany czas. Gdy stoper wybije 0 sekund ~r~upłynie~s~, właściciel będzie mógł ~y~wezwzać ~s~pojazd do siebie.</String>
         <String xml:lang="zh-Hant">你正在為了賺取 ~g~額外的錢~s~ 而拖吊 ~y~玩家的載具~s~, 但你必須在時間內完成. 當計時器 ~r~倒數結束~s~, 車輛的擁有者將會 ~y~調回 ~s~它.</String>
