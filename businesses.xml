@@ -652,6 +652,8 @@
         <String xml:lang="hi-Latn">{0} for {1}</String>
         <String xml:lang="de-DE">{0} für {1}</String>
         <String xml:lang="id-ID">{0} diharga {1}</String>
+        <String xml:lang="ar-001">{0} بـ {1}</String>
+        <String xml:lang="lv-LV">{0} par {1}</String>
     </Entry>
 
     <!-- Displays the unit price in the description -->
@@ -669,6 +671,8 @@
         <String xml:lang="hi-Latn">Price: {0}/{1}</String>
         <String xml:lang="de-DE">Preis: {0}/{1}</String>
         <String xml:lang="id-ID">{0} diharga {1}</String>
+        <String xml:lang="ar-001">لسعر: {0}/{1}</String>
+        <String xml:lang="lv-LV">Cena: {0}/{1}</String>
     </Entry>
 
     <!-- Example: You purchased a ~p~Standard Armor ~s~for ~r~$2500. -->
@@ -684,6 +688,8 @@
         <String xml:lang="de-DE">Du hast {0} ~p~{1} ~s~f+r ~r~{2}~s~ gekauft.~r~</String>
         <String xml:lang="it-IT">Hai acquistato {0} ~p~{1} ~s~per ~r~{2}.</String>
         <String xml:lang="id-ID">Kamu telah membeli {0} ~p~{1} ~s~diharga ~r~{2}.</String>
+        <String xml:lang="ar-001">لقد قمت بشراء {0} ~p~{1} ~s~لـ ~r~{2}.</String>
+        <String xml:lang="lv-LV">Jūs iegādājaties {0} ~p~{1} ~s~par ~r~{2}.</String>
     </Entry>
 
     <!-- Example: You purchased a ~p~Standard Armor ~s~for ~r~$2000 ~s~in gift card balance and ~r~$500 ~s~in cash. -->
@@ -700,6 +706,8 @@
         <String xml:lang="de-DE">Du hast {0} ~p~{1} ~s~für ~b~{2} ~s~mit Guthaben der Geschenkkarten und ~r~{3} ~s~in bar gekauft.</String>
         <String xml:lang="it-IT">Hai acquistato {0} ~p~{1} ~s~per ~b~{2} ~s~con il saldo della carta regalo e ~r~{3} ~s~in contanti.</String>
         <String xml:lang="id-ID">Kamu telah membeli {0} ~p~{1} ~s~diharga ~b~{2} ~s~dalam bentuk saldo kartu hadiah dan ~r~{3} ~s~dalam bentuk tunai.</String>
+        <String xml:lang="ar-001">لقد اشتريت {0} ~p~{1} ~s~مقابل ~b~{2} ~s~برصيد بطاقة الهدايا و ~r~{3} ~s~نقدًا.</String>
+        <String xml:lang="lv-LV">Jūs iegādājaties {0} ~p~{1} ~s~par ~b~{2} ~s~no dāvanu kartes bilances un ~r~{3} ~s~skaidrā naudā.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -773,6 +781,8 @@
         <String xml:lang="de-DE">Zeigt die Liste mit deinen kürzlich begangenen Straftaten.</String>
         <String xml:lang="it-IT">Ti mostra l'elenco dei tuoi crimini più recenti.</String>
         <String xml:lang="id-ID">Menampilkan daftar kejahatan terbaru kamu.</String>
+        <String xml:lang="ar-001">يظهر لك قائمة بأحدث جرائمك.</String>
+        <String xml:lang="lv-LV">Rāda jūsu nesen izdarīto noziegumu sarakstu.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1101,38 +1111,8 @@
         <String xml:lang="tr-TR">Uyuşturucu Satıcısı</String>
         <String xml:lang="hi-Latn">Drug Dealer</String>
         <String xml:lang="id-ID">Penjual Narkoba</String>
-    </Entry>
-
-    <Entry Id="menu_drugdealer_calls_subtitle">
-        <String xml:lang="en-US">Calls</String>
-        <String xml:lang="it-IT">Chiamate</String>
-        <String xml:lang="nl-NL">Meldingen</String>
-        <String xml:lang="de-DE">Anrufe</String>
-        <String xml:lang="es-ES">Llamadas</String>
-        <String xml:lang="pt-BR">Chamadas</String>
-        <String xml:lang="pl-PL">Wezwania</String>
-        <String xml:lang="th-TH">เรียก</String>
-        <String xml:lang="zh-Hant">來電</String>
-        <String xml:lang="fr-FR">Appels</String>
-        <String xml:lang="tr-TR">Aramalar</String>
-        <String xml:lang="hi-Latn">Calls</String>
-        <String xml:lang="id-ID">Panggilan</String>
-    </Entry>
-
-    <Entry Id="menu_drugdealer_recentsales_subtitle">
-        <String xml:lang="en-US">Recent sales</String>
-        <String xml:lang="it-IT">Ultime vendite</String>
-        <String xml:lang="nl-NL">Recente bestellingen</String>
-        <String xml:lang="de-DE">Aktuelle Anrufe</String>u
-        <String xml:lang="es-ES">Ventas recientes</String>
-        <String xml:lang="pt-BR">Vendas recentes</String>
-        <String xml:lang="pl-PL">Ostatnie sprzedaże</String>
-        <String xml:lang="th-TH">ขายล่าสุด</String>
-        <String xml:lang="zh-Hant">近期來電</String>
-        <String xml:lang="fr-FR">Ventes récentes</String>
-        <String xml:lang="tr-TR">Son satışlar</String>
-        <String xml:lang="hi-Latn">Recent ki sales</String>
-        <String xml:lang="id-ID">Penjualan terbaru</String>
+        <String xml:lang="ar-001">تاجر مخدرات</String>
+        <String xml:lang="lv-LV">Narkotiku Tirgotājs</String>
     </Entry>
 
     <Entry Id="menu_drugdealer_calls_description">
@@ -1144,17 +1124,8 @@
         <String xml:lang="de-DE">Zeigt aktuelle Rufe für einen Drogenhändler.</String>
         <String xml:lang="it-IT">Visualizza le chiamate recenti per uno spacciatore.</String>
         <String xml:lang="id-ID">Lihat panggilan terbaru untuk penjual narkoba.</String>
-    </Entry>
-
-    <Entry Id="menu_drugdealer_recentsales_description">
-        <String xml:lang="en-US">View your sales in the current session.</String>
-        <String xml:lang="nl-NL">Overzicht van bestellingen in huidige sessie.</String>
-        <String xml:lang="fr-FR">Consulter tes ventes de la session en cours.</String>
-        <String xml:lang="tr-TR">Mevcut oturumdaki satışlarınızı görüntüleyin.</String>
-        <String xml:lang="hi-Latn">Apne current session ki sales dekhe.</String>
-        <String xml:lang="de-DE">Zeigt deine Verkäufe in der aktuellen Sitzung.</String>
-        <String xml:lang="it-IT">Visualizza le tue vendite nella sessione corrente.</String>
-        <String xml:lang="id-ID">Lihat penjualan kamu di sesi ini.</String>
+        <String xml:lang="ar-001">عرض المكالمات الأخيرة لتاجر المخدرات.</String>
+        <String xml:lang="lv-LV">Skatiet nesenos zvanus narkotiku tirgotājiem.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -1222,6 +1193,9 @@
         <String xml:lang="it-IT">TASSA DEL NEGOZIO: {0}%</String>
         <String xml:lang="id-ID">BIAYA TOKO: {0}%</String>
         <String xml:lang="hi-Latn">SHOP KI FEES: {0}%</String>
+        <String xml:lang="ar-001">رسوم المتجر: {0}%</String>
+        <String xml:lang="lv-LV">SERVISA KOMISIJA: {0}%</String>
+        <String xml:lang="tr-TR">ALIŞVERİŞ ÜCRETİ: {0}%</String>
     </Entry>
 
     <Entry Id="menu_mechanic_shop_plate">
@@ -1232,6 +1206,9 @@
         <String xml:lang="it-IT">Targa personalizzata</String>
         <String xml:lang="id-ID">Plat Nomor Spesial</String>
         <String xml:lang="hi-Latn">Custom number plate</String>
+        <String xml:lang="ar-001">لوحة مخصصة</String>
+        <String xml:lang="lv-LV">Personalizēts numurs</String>
+        <String xml:lang="tr-TR">Plaka</String>
     </Entry>
 
     <Entry Id="menu_mechanic_shop_more_services">
@@ -1242,6 +1219,9 @@
         <String xml:lang="it-IT">Altri servizi</String>
         <String xml:lang="id-ID">Layanan lainnya</String>
         <String xml:lang="hi-Latn">More services</String>
+        <String xml:lang="ar-001">المزيد من الخدمات</String>
+        <String xml:lang="lv-LV">Vairāk pakalpojumu</String>
+        <String xml:lang="tr-TR">Diğer hizmetler</String>
     </Entry>
 
     <Entry Id="menu_mechanic_shop_no_players">
@@ -1252,6 +1232,9 @@
         <String xml:lang="it-IT">Non ci sono ~b~meccanici~s~ in questa officina. Non puoi personalizzare il tuo veicolo.</String>
         <String xml:lang="id-ID">Tidak ada mekanik ~b~players~s~ di bengkel ini. Kamu tidak dapat memodifikasi kendaraan kamu.</String>
         <String xml:lang="hi-Latn">Is shop mein koi mechanic ~b~players~s~ nahi hain. Aap apni gaadi ko customize nahi kar sakte.</String>
+        <String xml:lang="ar-001">لا يوجد ~b~لاعبون~s~ يعملون كميكانيكي في هذا المكان. لا يمكنك تعديل سيارتك</String>
+        <String xml:lang="lv-LV">Šajā servisā nav ~b~mehāniķu~s~. Jūs nevarat pielāgot savu transportlīdzekli.</String>
+        <String xml:lang="tr-TR">Bu dükkanda hiç ~b~tamirci~s~ yok. Aracınızı özelleştiremezsiniz.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_shop_players">
@@ -1262,34 +1245,9 @@
         <String xml:lang="it-IT">Ci sono ~y~{0}~s~ ~b~giocatori~s~ meccanici in questa officina. Seleziona questa opzione per vedere i loro servizi.</String>
         <String xml:lang="id-ID">Ada ~y~{0}~s~ ~b~pemain~s~ mekanik di bengkel ini. Pilih opsi ini untuk melihat layanan yang mereka sediakan.</String>
         <String xml:lang="hi-Latn">Iss shop mein ~y~{0}~s~ mechanic ~b~players~s~ hain. Unki services dekhne ke liye iss option ko select karein.</String>
-    </Entry>
-
-    <Entry Id="menu_mechanic_services_subtitle">
-        <String xml:lang="en-US">Services</String>
-        <String xml:lang="it-IT">Servizi</String>
-        <String xml:lang="nl-NL">Diensten</String>
-        <String xml:lang="de-DE">Services</String>
-        <String xml:lang="es-ES">Servicios</String>
-        <String xml:lang="pt-BR">Serviços</String>
-        <String xml:lang="th-TH">บริการ</String>
-        <String xml:lang="vi-VN">Dịch vụ</String>
-        <String xml:lang="id-ID">Layanan</String>
-        <String xml:lang="zh-Hant">服務</String>
-        <String xml:lang="pl-PL">Usługi</String>
-        <String xml:lang="fr-FR">Services</String>
-        <String xml:lang="tr-TR">Hizmetler</String>
-        <String xml:lang="hi-Latn">Services</String>
-    </Entry>
-
-    <Entry Id="menu_mechanic_services_description">
-        <String xml:lang="en-US">Manage your services.</String>
-        <String xml:lang="nl-NL">Beheer je diensten.</String>
-        <String xml:lang="fr-FR">Gérer tes services.</String>
-        <String xml:lang="tr-TR">Hizmetlerinizi yönetin.</String>
-        <String xml:lang="hi-Latn">Apni services manage kare.</String>
-        <String xml:lang="de-DE">Verwalte deine Dienstleistungen.</String>
-        <String xml:lang="it-IT">Gestisci i tuoi servizi.</String>
-        <String xml:lang="id-ID">Kelola layanan kamu.</String>
+        <String xml:lang="ar-001">يوجد ~y~{0}~s~ ~b~لاعبون~s~ يعملون كميكانيكي في هذا المكان. حدد هذا الخيار لعرض خدماتهم</String>
+        <String xml:lang="lv-LV">Šajā servisā ir ~y~{0}~s~ ~b~mehāniki~s~. Izvēlieties šo opciju lai apskatītos viņu pakalpojumus.</String>
+        <String xml:lang="tr-TR">Bu dükkanda ~y~{0}~s~ ~b~tamirci~s~ var. Hizmetlerini görmek için bu seçeneği seçin.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_services_request_subtitle">
@@ -1307,23 +1265,8 @@
         <String xml:lang="tr-TR">Bir hizmet talep et</String>
         <String xml:lang="hi-Latn">Service request kare.</String>
         <String xml:lang="de-DE">Eine Dienstleistung anfordern</String>
-    </Entry>
-
-    <Entry Id="menu_mechanic_calls_subtitle">
-        <String xml:lang="en-US">Calls</String>
-        <String xml:lang="it-IT">Chiamate</String>
-        <String xml:lang="nl-NL">Meldingen</String>
-        <String xml:lang="de-DE">Anrufe</String>
-        <String xml:lang="es-ES">Llamada</String>
-        <String xml:lang="pt-BR">Chamadas</String>
-        <String xml:lang="th-TH">เรียก</String>
-        <String xml:lang="vi-VN">Cuộc gọi</String>
-        <String xml:lang="id-ID">Panggilan</String>
-        <String xml:lang="zh-Hant">來電</String>
-        <String xml:lang="pl-PL">Wezwania</String>
-        <String xml:lang="fr-FR">Appels</String>
-        <String xml:lang="tr-TR">Aramalar</String>
-        <String xml:lang="hi-Latn">Calls</String>
+        <String xml:lang="ar-001">اطلب خدمة</String>
+        <String xml:lang="lv-LV">Pieprasīt pakalpojumu</String>
     </Entry>
 
     <Entry Id="menu_mechanic_calls_description">
@@ -1335,34 +1278,8 @@
         <String xml:lang="de-DE">Zeige aktuelle Anrufe für einen Mechaniker an.</String>
         <String xml:lang="it-IT">Visualizza le chiamate recenti per un meccanico.</String>
         <String xml:lang="id-ID">Melihat panggilan terbaru untuk mekanik.</String>
-    </Entry>
-
-    <Entry Id="menu_mechanic_recentsales_subtitle">
-        <String xml:lang="en-US">Recent sales</String>
-        <String xml:lang="it-IT">Ultime vendite</String>
-        <String xml:lang="nl-NL">Recente bestellingen</String>
-        <String xml:lang="de-DE">Aktuelle Anrufe</String>
-        <String xml:lang="es-ES">Ventas recientes</String>
-        <String xml:lang="pt-BR">Vendas recentes</String>
-        <String xml:lang="th-TH">ขายล่าสุด</String>
-        <String xml:lang="vi-VN">Hàng bán gần đây</String>
-        <String xml:lang="id-ID">Penjualan terakhir</String>
-        <String xml:lang="zh-Hant">近期銷售</String>
-        <String xml:lang="pl-PL">Ostatnie sprzedaże</String>
-        <String xml:lang="fr-FR">Ventes récentes</String>
-        <String xml:lang="tr-TR">Son satışlar</String>
-        <String xml:lang="hi-Latn">Recent ki sales</String>
-    </Entry>
-
-    <Entry Id="menu_mechanic_recentsales_description">
-        <String xml:lang="en-US">View your sales in the current session.</String>
-        <String xml:lang="nl-NL">Overzicht van bestellingen in huidige sessie.</String>
-        <String xml:lang="fr-FR">Consulter tes ventes de la session en cours.</String>
-        <String xml:lang="tr-TR">Mevcut oturumdaki satışlarınızı görüntüleyin.</String>
-        <String xml:lang="hi-Latn">Apne current session ki sales dekhe.</String>
-        <String xml:lang="de-DE">Zeigt deine Verkäufe in der aktuellen Sitzung.</String>
-        <String xml:lang="it-IT">Visualizza le tue vendite nella sessione corrente.</String>
-        <String xml:lang="id-ID">Lihat penjualan kamu di sesi ini.</String>
+        <String xml:lang="ar-001">عرض المكالمات الأخيرة للميكانيكي.</String>
+        <String xml:lang="lv-LV">Skatiet nesenos zvanus mehāniķiem.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_available_subtitle">
@@ -1459,6 +1376,9 @@
         <String xml:lang="it-IT">Colore Perlescente</String>
         <String xml:lang="id-ID">Warna Pearlescent</String>
         <String xml:lang="hi-Latn">Pearlescent Color</String>
+        <String xml:lang="ar-001">اللون اللؤلؤي</String>
+        <String xml:lang="lv-LV">Perlamutra krāsa</String>
+        <String xml:lang="tr-TR">Sedef rengi</String>
     </Entry>
 
     <Entry Id="menu_mechanic_secondarycolor_subtitle">
@@ -1803,6 +1723,9 @@
         <String xml:lang="de-DE">~b~Vorrat</String>
         <String xml:lang="it-IT">~b~Scorta</String>
         <String xml:lang="id-ID">~b~Persediaan</String>
+        <String xml:lang="ar-001">~b~مخزون</String>
+        <String xml:lang="lv-LV">~b~Krājumi</String>
+        <String xml:lang="tr-TR">~b~Stok</String>
     </Entry>
 
     <Entry Id="menu_stp_stock_description">
@@ -1813,6 +1736,9 @@
         <String xml:lang="de-DE">Lagere Gegenstände hier, wenn du sie später ~g~verkaufen ~s~willst.</String>
         <String xml:lang="it-IT">Metti gli oggetti qui se vuoi ~g~venderli ~s~in seguito.</String>
         <String xml:lang="id-ID">Masukkan barang kesini jika kamu mau ~g~menjualnya ~s~nanti.</String>
+        <String xml:lang="ar-001">ضع الأشياء هنا التي تريد ~g~بيعها ~s~لاحقًا.</String>
+        <String xml:lang="lv-LV">Ievietojiet priekšmetus šeit, ja vēlaties tos ~g~pārdot ~s~vēlāk.</String>
+        <String xml:lang="tr-TR">Daha sonrasında ~g~satmak istediğiniz ~s~eşyaları buraya koyun.</String>
     </Entry>
 
     <Entry Id="menu_stp_inventory_text">
@@ -1823,6 +1749,9 @@
         <String xml:lang="de-DE">Inventar</String>
         <String xml:lang="it-IT">Inventario</String>
         <String xml:lang="id-ID">Inventaris</String>
+        <String xml:lang="ar-001">المخزون</String>
+        <String xml:lang="lv-LV">Inventāris</String>
+        <String xml:lang="tr-TR">Envanter</String>
     </Entry>
 
     <Entry Id="menu_stp_inventory_description">
@@ -1833,6 +1762,9 @@
         <String xml:lang="de-DE">Lagere Gegenstände hier, wenn du sie ~r~verwenden ~s~willst.</String>
         <String xml:lang="it-IT">Metti gli oggetti qui se vuoi ~r~usarli~s~.</String>
         <String xml:lang="id-ID">Masukkan barang kesini jika kamu mau ~r~menggunakannya~s~.</String>
+        <String xml:lang="ar-001">ضع الأشياء التي تريد أن ~r~تستخدمها~s~.</String>
+        <String xml:lang="lv-LV">Ievietojiet priekšmetus šeit, ja vēlaties tos ~r~izmantot~s~.</String>
+        <String xml:lang="tr-TR">~r~Kullanmak ~s~istediğiniz eşyaları buraya koyun.</String>
     </Entry>
 
     <Entry Id="btn_seller_buy">
@@ -1843,6 +1775,9 @@
         <String xml:lang="de-DE">Kaufen</String>
         <String xml:lang="it-IT">Acquista</String>
         <String xml:lang="id-ID">Beli</String>
+        <String xml:lang="ar-001">شراء</String>
+        <String xml:lang="lv-LV">Pirkt</String>
+        <String xml:lang="tr-TR">Satın al</String>
     </Entry>
 
     <Entry Id="btn_seller_cancel">
@@ -1853,6 +1788,9 @@
         <String xml:lang="de-DE">Abbrechen</String>
         <String xml:lang="it-IT">Annulla</String>
         <String xml:lang="id-ID">Batal</String>
+        <String xml:lang="ar-001">إلغاء</String>
+        <String xml:lang="lv-LV">Atcelt</String>
+        <String xml:lang="tr-TR">İptal</String>
     </Entry>
 
     <Entry Id="btn_stp_offer">
@@ -1863,6 +1801,9 @@
         <String xml:lang="de-DE">Anbieten</String>
         <String xml:lang="it-IT">Offri</String>
         <String xml:lang="id-ID">Tawar</String>
+        <String xml:lang="ar-001">عرض</String>
+        <String xml:lang="lv-LV">Piedāvāt</String>
+        <String xml:lang="tr-TR">Teklif</String>
     </Entry>
 
     <!-- Example: Offer (hold) -->
@@ -1875,6 +1816,9 @@
         <String xml:lang="de-DE">{0} (halten)</String>
         <String xml:lang="it-IT">{0} (tieni premuto)</String>
         <String xml:lang="id-ID">{0} (tahan)</String>
+        <String xml:lang="ar-001">{0} </String>
+        <String xml:lang="lv-LV">{0} (turiet)</String>
+        <String xml:lang="tr-TR">{0} (basılı tut)</String>
     </Entry>
 
     <Entry Id="stp_offered">
@@ -1885,6 +1829,9 @@
         <String xml:lang="de-DE">Du hast {0}~s~ deine ~y~Dienste~s~angeboten.</String>
         <String xml:lang="it-IT">Hai offerto i tuoi ~y~servizi ~s~a {0}~s~.</String>
         <String xml:lang="id-ID">Kamu telah menawarkan ~y~layananmu ~s~kepada {0}~s~.</String>
+        <String xml:lang="ar-001">لقد عرضت ~y~خدماتك ~s~علي {0}~s~.</String>
+        <String xml:lang="lv-LV">Jūs piedāvājat savus ~y~pakalpojumus ~s~{0}~s~.</String>
+        <String xml:lang="tr-TR">{0} kişisine ~y~hizmetler~s~ini sundun.</String>
     </Entry>
 
     <!-- {0} = Button -->
@@ -1896,6 +1843,9 @@
         <String xml:lang="de-DE">Drücke {0}</String>
         <String xml:lang="it-IT">Premi {0}</String>
         <String xml:lang="id-ID">Tekan {0}</String>
+        <String xml:lang="ar-001">اضغط على {0}</String>
+        <String xml:lang="lv-LV">Spiediet {0}</String>
+        <String xml:lang="tr-TR">Bas {0}</String>
     </Entry>
 
     <Entry Id="stp_hold">
@@ -1906,6 +1856,9 @@
         <String xml:lang="de-DE">Halte {0}</String>
         <String xml:lang="it-IT">Tieni premuto {0}</String>
         <String xml:lang="id-ID">Tahan {0}</String>
+        <String xml:lang="ar-001">اضغط مع الاستمرار على {0}</String>
+        <String xml:lang="lv-LV">Turiet {0}</String>
+        <String xml:lang="tr-TR">Basılı tut {0}</String>
     </Entry>
 
     <!-- {0} = Job name -->
@@ -1919,6 +1872,9 @@
         <String xml:lang="de-DE">{0} {1} ~s~hat dir ~y~seine Dienste~s~ angeboten. {2} um dessen Menü anzuzeigen.</String>
         <String xml:lang="it-IT">{0} {1} ~s~ti ha offerto i ~y~sui servizi~s~. {2} per visualizzare il suo menu.</String>
         <String xml:lang="id-ID">{0} {1} ~s~telah menawarakan kamu ~y~layanan mereka~s~. {2} untuk melihat menu mereka.</String>
+        <String xml:lang="ar-001">{0} {1} ~s~عرضوا عليك ~y~خدماتهم~s~.{2} لعرض القائمة الخاصة بهم.</String>
+        <String xml:lang="lv-LV">{0} {1} ~s~piedāvāja jums ~y~savus pakalpojumus~s~. {2} lai aplūkotu viņu menu.</String>
+        <String xml:lang="tr-TR">{0} {1} ~s~size ~y~hizmetlerini ~s~sundu menülerini görüntülemek için {2}.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1935,6 +1891,9 @@
         <String xml:lang="de-DE">Du hast {0} ~y~{1}{2} {3}~s~ für ~g~{4}~s~ verkauft.</String>
         <String xml:lang="it-IT">Hai venduto a {0} ~y~{1}{2} {3}~s~ per ~g~{4}~s~.</String>
         <String xml:lang="id-ID">Anda menjual ke {0} ~y~{1}{2} {3}~s~ seharga ~g~{4}~s~.</String>
+        <String xml:lang="ar-001">لقد قمت ببيع {0} ~y~{1}{2} {3}~s~ مقابل ~g~{4}~s~.</String>
+        <String xml:lang="lv-LV">Jūs pārdevat {0} ~y~{1}{2} {3}~s~ par ~g~{4}~s~.</String>
+        <String xml:lang="tr-TR">{0} kişisine ~g~{4}~s~ karşılığında ~y~{1}{2} {3}~s~ sattın.</String>
     </Entry>
 
     <!-- Example: Metallic Black Respray -->
@@ -1947,6 +1906,9 @@
         <String xml:lang="de-DE">{0} Lackierung</String>
         <String xml:lang="it-IT">Rivernicia con {0}</String>
         <String xml:lang="id-ID">Ganti warna {0}</String>
+        <String xml:lang="ar-001">{0} إعادة الرش</String>
+        <String xml:lang="lv-LV">{0} Pārkrāsošana</String>
+        <String xml:lang="tr-TR">{0} Boya</String>
     </Entry>
 
     <!-- {0} = Livery index -->
@@ -1958,6 +1920,9 @@
         <String xml:lang="de-DE">Beklebung #{0}</String>
         <String xml:lang="it-IT">Rivernicia con Livrea #{0}</String>
         <String xml:lang="id-ID">Ganti warna Livery#{0}</String>
+        <String xml:lang="ar-001">إعادة رش الرسمة #{0}</String>
+        <String xml:lang="lv-LV">Livery #{0} Pārkrāsošana</String>
+        <String xml:lang="tr-TR">Kaplama #{0} Boya</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1971,6 +1936,9 @@
         <String xml:lang="de-DE">Du hast {0} ~y~{1}~s~ für ~g~{2}~s~ verkauft.</String>
         <String xml:lang="it-IT">Hai venduto a {0} un ~y~{1}~s~ per ~g~{2}~s~.</String>
         <String xml:lang="id-ID">Anda menjual ke {0} sebuah ~y~{1}~s~ seharga ~g~{2}~s~.</String>
+        <String xml:lang="ar-001">لقد قمت ببيع {0} ~y~{1}~s~ مقابل ~g~{2}~s~.</String>
+        <String xml:lang="lv-LV">Jūs pārdevat {0} ~y~{1}~s~ par ~g~{2}~s~.</String>
+        <String xml:lang="tr-TR">{0} kişisine ~g~{2}~s~ karşılığında ~y~{1}~s~ sattın.</String>
     </Entry>
 
     <!-- {0} = Fee -->
@@ -1983,6 +1951,9 @@
         <String xml:lang="de-DE">Ladengebühr: ~r~{0}~s~~n~Insgesamt verdient: ~g~{1}</String>
         <String xml:lang="it-IT">Tassa del negozio: ~r~{0}~s~~n~Totale guadagnato: ~g~{1}</String>
         <String xml:lang="id-ID">Biaya toko: ~r~{0}~s~~n~Total pendapatan: ~g~{1}</String>
+        <String xml:lang="ar-001">رسوم المتجر: ~r~{0}~s~~n~الإجمالي المكتسب: ~g~{1}</String>
+        <String xml:lang="lv-LV">Servisa komisija: ~r~{0}~s~~n~Kopā nopelnīts: ~g~{1}</String>
+        <String xml:lang="tr-TR">Satış bedeli: ~r~{0}~s~~n~Toplam kazanç: ~g~{1}</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -1994,6 +1965,9 @@
         <String xml:lang="de-DE">{0} ist ~r~zu weit ~s~von dir entfernt.</String>
         <String xml:lang="it-IT">{0} è ~r~troppo lontano ~s~da te.</String>
         <String xml:lang="id-ID">{0} terlalu ~r~jauh ~s~darimu.</String>
+        <String xml:lang="ar-001">{0} ~r~بعيد جدًا ~s~عنك.</String>
+        <String xml:lang="lv-LV">{0} ir ~r~pārāk tālu ~s~no jums.</String>
+        <String xml:lang="tr-TR">{0} kişisi sizden ~r~çok uzakta~s~.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -2005,6 +1979,9 @@
         <String xml:lang="de-DE">Kauf bei {0}</String>
         <String xml:lang="it-IT">Acquista da {0}</String>
         <String xml:lang="id-ID">Membeli dari {0}</String>
+        <String xml:lang="ar-001">الشراء من {0}</String>
+        <String xml:lang="lv-LV">Pērkat no {0}</String>
+        <String xml:lang="tr-TR">{0} kişisinden satın alınıyor</String>
     </Entry>
 
     <Entry Id="stp_service_fix_na">
@@ -2015,6 +1992,9 @@
         <String xml:lang="de-DE">UNBESCHÄDIGT</String>
         <String xml:lang="it-IT">INTATTO</String>
         <String xml:lang="id-ID">Tidak ada kerusakan</String>
+        <String xml:lang="ar-001">سليمة</String>
+        <String xml:lang="lv-LV">NAV BOJĀTS</String>
+        <String xml:lang="tr-TR">HASARSIZ</String>
     </Entry>
 
     <Entry Id="stp_service_wash_na">
@@ -2025,26 +2005,39 @@
         <String xml:lang="de-DE">SAUBER</String>
         <String xml:lang="it-IT">PULITO</String>
         <String xml:lang="id-ID">Bersih</String>
+        <String xml:lang="ar-001">تنظيف</String>
+        <String xml:lang="lv-LV">TĪRS</String>
+        <String xml:lang="tr-TR">TEMİZ</String>
     </Entry>
 
     <Entry Id="stp_service_error_no_tools">
-        <String xml:lang="en-US">~y~This mechanic doesn't have the necessary tools to provide this service.</String>
-        <String xml:lang="nl-NL">~y~Deze monteur heeft niet de juiste gereedschappen om deze dienst te verlenen.</String>
-        <String xml:lang="fr-FR">~y~Ce mécanicien ne dispose pas des outils nécessaires pour fournir ce service.</String>
-        <String xml:lang="hi-Latn">~y~Is mechanic ke paas yeh service provide karne ke liye aavashyak tools nahi hain.</String>
-        <String xml:lang="de-DE">~y~Dieser Mechaniker besitzt nicht die notwendigen Werkzeuge, um diese Leistung anzubieten.</String>
-        <String xml:lang="it-IT">~y~Questo meccanico non ha gli strumenti necessari per fornire questo servizio.</String>
-        <String xml:lang="id-ID">~y~Mekanik ini tidak memiliki peralatan untuk memberikan jasa ini.</String>
+        <String xml:lang="en-US">~y~The seller doesn't have the necessary items to provide this service.</String>
+        <String xml:lang="nl-NL">~y~De verkoper heeft niet de juiste spullen om deze dienst te kunnen verlenen.</String>
+        <String xml:lang="de-DE">~y~Der Verkäufer besitzt nicht die notwendigen Gegenstände, um diesen Service anzubieten.</String>
+        <String xml:lang="lv-LV">~y~Šim pārdevējam nav nepieciešamo priekšmetu šī pakalpojuma sniegšanai.</String>
+        <String xml:lang="hi-Latn">~y~Seller ke paas is service ke liye zaruri items nahi hain.</String>
+        <String xml:lang="ar-001">~y~ هذا البائع لا يملك العناصر اللازمة من اجل هذه الخدمه</String>
+        <String xml:lang="tr-TR">~y~Satıcı bu hizmeti sağlamak için gerekli eşyalara sahip değil.</String>
     </Entry>
 
     <Entry Id="stp_service_error_not_certified">
-        <String xml:lang="en-US">~y~This mechanic is not certified to provide this service.</String>
-        <String xml:lang="nl-NL">~y~Deze monteur is niet gecertificeerd om deze diensten te verlenen.</String>
-        <String xml:lang="fr-FR">~y~Ce mécanicien n'est pas certifié pour fournir ce service.</String>
-        <String xml:lang="hi-Latn">~y~Yeh mechanic is service ko provide karne ke liye pramanit nahi hai.</String>
-        <String xml:lang="de-DE">~y~Dieser Mechaniker ist nicht qualifiziert, um diese Leistung anzubieten.</String>
-        <String xml:lang="it-IT">~y~Questo meccanico non è certificato per fornire questo servizio.</String>
-        <String xml:lang="id-ID">~y~Mekanik ini tidak memiliki sertifikasi untuk memberikan jasa ini.</String>
+        <String xml:lang="en-US">~y~The seller is not certified to provide this service.</String>
+        <String xml:lang="nl-NL">~y~De verkoper is niet gecertificeerd om deze dienst te verlenen.</String>
+        <String xml:lang="de-DE">~y~Der Verkäufer ist nicht dafür zertifiziert, diesen Service anzubieten.</String>
+        <String xml:lang="lv-LV">~y~Pārdevējam nav vajadzīgās sertifikācijas, lai sniegtu šo pakalpojumu.</String>
+        <String xml:lang="hi-Latn">~y~Seller is service ko dene ke liye certified nahi hai.</String>
+        <String xml:lang="ar-001">~y~هذا البائع غير معتمد لتقديم هذه الخدمة</String>
+        <String xml:lang="tr-TR">~y~Satıcının bu hizmeti sağlamak için sertifikası yok.</String>
+    </Entry>
+
+    <Entry Id="stp_service_error_no_license">
+        <String xml:lang="en-US">~y~The seller is not licensed to sell this item.</String>
+        <String xml:lang="nl-NL">~y~De verkoper is niet gelicenseerd om dit artikel te mogen verkopen.</String>
+        <String xml:lang="de-DE">~y~Der Verkäufer ist nicht dazu lizensiert diesen Gegenstand zu verkaufen.</String>
+        <String xml:lang="lv-LV">~y~Pārdevējam nav vajadzīgās licences, lai pārdotu šo preci.</String>
+        <String xml:lang="hi-Latn">~y~Seller ke paas is item ko bechne ka license nahi hai.</String>
+        <String xml:lang="ar-001">~y~ هذا البائع غير مرخص لبيع هذا العنصر</String>
+        <String xml:lang="tr-TR">~y~Satıcı bu ürünü satma yetkisine sahip değil.</String>
     </Entry>
 
     <Entry Id="stp_service_error_no_vehicle">
@@ -2055,6 +2048,9 @@
         <String xml:lang="de-DE">~y~Du hast kein Fahrzeug.</String>
         <String xml:lang="it-IT">~y~Non hai un veicolo.</String>
         <String xml:lang="id-ID">~y~Anda tidak memiliki kendaraan.</String>
+        <String xml:lang="ar-001">~y~ليس لديك مَركبة.</String>
+        <String xml:lang="lv-LV">~y~Jums nav transportlīdzekļa.</String>
+        <String xml:lang="tr-TR">~y~Aracınız yok.</String>
     </Entry>
 
     <Entry Id="stp_service_error_vehicle_not_owned">
@@ -2065,6 +2061,9 @@
         <String xml:lang="de-DE">~y~Du besitzt dieses Fahrzeug nicht.</String>
         <String xml:lang="it-IT">~y~Non possiedi questo veicolo.</String>
         <String xml:lang="id-ID">~y~Anda bukan pemilik mobil ini.</String>
+        <String xml:lang="ar-001">~y~أنت لا تمتلك هذه المَركبة.</String>
+        <String xml:lang="lv-LV">~y~Jums nepieder šis transportlīdzeklis.</String>
+        <String xml:lang="tr-TR">~y~Bu arabaya sahip değilsin.</String>
     </Entry>
 
     <Entry Id="stp_service_error_mod_shop">
@@ -2075,6 +2074,9 @@
         <String xml:lang="de-DE">~y~Du musst dich bei einer Tuningwerkstatt befinden.</String>
         <String xml:lang="it-IT">~y~Devi essere in un officina.</String>
         <String xml:lang="id-ID">~y~Anda harus berada di bengkel modif.</String>
+        <String xml:lang="ar-001">~y~يجب أن تكون في متجر تعديلات</String>
+        <String xml:lang="lv-LV">~y~Jums ir jābūt autoservisā.</String>
+        <String xml:lang="tr-TR">~y~Bir modifikasyon dükkanında olmalısın.</String>
     </Entry>
 
     <Entry Id="stp_service_error_wanted">
@@ -2085,6 +2087,9 @@
         <String xml:lang="de-DE">~y~Du kannst diesen Gegenstand nicht kaufen, wenn es einen Haftbefehl gegen dich gibt.</String>
         <String xml:lang="it-IT">~y~Non puoi acquistare questo articolo se hai un mandato d'arresto.</String>
         <String xml:lang="id-ID">~y~Anda tidak dapat membeli item ini ketika sedang menjadi buronan.</String>
+        <String xml:lang="ar-001">~y~لا يمكنك شراء هذا الشىء عندما يكون لديك مذكرة اعتقال.</String>
+        <String xml:lang="lv-LV">~y~Jūs nevarat iegādāties šo preci, ja jums ir aresta orderis.</String>
+        <String xml:lang="tr-TR">~y~Tutuklama emriniz varken bu ürünü satın alamazsınız.</String>
     </Entry>
 
     <Entry Id="stp_service_error_vehicle_moving">
@@ -2095,6 +2100,9 @@
         <String xml:lang="de-DE">~r~Du kannst diese Leistung nicht kaufen, wenn das Fahrzeug sich bewegt.</String>
         <String xml:lang="it-IT">~r~Non puoi acquistare questo servizio mentre il veicolo è in movimento.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat membeli jasa ini ketika kendaraan sedang bergerak.</String>
+        <String xml:lang="ar-001">~r~لا يمكنك شراء هذه الخدمة أثناء تحرك المَركبة.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat iegādāties šo pakalpojumu, kad transportlīdzeklis pārvietojas.</String>
+        <String xml:lang="tr-TR">~r~Araç hareket halindeyken bu hizmeti satın alamazsınız.</String>
     </Entry>
 
     <Entry Id="stp_service_error_seller_inside">
@@ -2105,6 +2113,9 @@
         <String xml:lang="de-DE">~r~Du kannst diese Leistung nicht kaufen, solange sich der Verkäufer in einem Fahrzeug befindet.</String>
         <String xml:lang="it-IT">~r~Non puoi acquistare questo servizio quando il venditore è all'interno di un veicolo.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat membeli jasa ini ketika penjual sedang tidak berada didalam kendaraan.</String>
+        <String xml:lang="ar-001">~r~لا يمكنك شراء هذه الخدمة عندما يكون البائع داخل السيارة.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat iegādāties šo pakalpojumu, ja pārdevējs atrodas transportlīdzeklī.</String>
+        <String xml:lang="tr-TR">~r~Satıcı bir aracın içindeyken bu hizmeti satın alamazsınız.</String>
     </Entry>
 
     <Entry Id="stp_item_no_stock">
@@ -2115,6 +2126,9 @@
         <String xml:lang="de-DE">~r~AUSVERKAUFT</String>
         <String xml:lang="it-IT">~r~ESAURITO</String>
         <String xml:lang="id-ID">~r~STOK HABIS</String>
+        <String xml:lang="ar-001">~r~إنتهى من المخزون</String>
+        <String xml:lang="lv-LV">~r~BEIGUŠIES MATERIĀLI</String>
+        <String xml:lang="tr-TR">~r~STOK TÜKENDİ</String>
     </Entry>
 
     <!--
@@ -2128,6 +2142,9 @@
         <String xml:lang="de-DE">Stück</String>
         <String xml:lang="it-IT">pezzo</String>
         <String xml:lang="id-ID">satuan</String>
+        <String xml:lang="ar-001">قطعة</String>
+        <String xml:lang="lv-LV">gabals</String>
+        <String xml:lang="tr-TR">parça</String>
     </Entry>
 
     <!-- Example: Repair a broken car, truck or motorcycle engine on the go.~n~Price: ~b~5000~s~/piece -->
@@ -2142,6 +2159,9 @@
         <String xml:lang="de-DE">{0}~n~Preis: ~b~{1}~s~/{2}</String>
         <String xml:lang="it-IT">{0}~n~Prezzo: ~b~{1}~s~/{2}</String>
         <String xml:lang="id-ID">{0}~n~Harga: ~b~{1}~s~/{2}</String>
+        <String xml:lang="ar-001">{0}~n~السعر: ~b~{1}~s~/{2}</String>
+        <String xml:lang="lv-LV">{0}~n~Cena: ~b~{1}~s~/{2}</String>
+        <String xml:lang="tr-TR">{0}~n~Fiyat: ~b~{1}~s~/{2}</String>
     </Entry>
 
     <Entry Id="menu_stp_mods_none_text">
@@ -2152,6 +2172,9 @@
         <String xml:lang="de-DE">Keine Modifikationen verfügbar :(</String>
         <String xml:lang="it-IT">Nessuna modifica disponibile :(</String>
         <String xml:lang="id-ID">Tidak ada modifikasi yang tersedia:(</String>
+        <String xml:lang="ar-001">لا توجد تعديلات متاحة :(</String>
+        <String xml:lang="lv-LV">Nav pieejamu modifikāciju :(</String>
+        <String xml:lang="tr-TR">Hiçbir modifikasyon mevcut değil :(</String>
     </Entry>
 
     <Entry Id="menu_stp_mods_none_description">
@@ -2312,7 +2335,9 @@
         <String xml:lang="de-DE">~r~Der Verkäufer hat seine Preise angepasst. Das Menü wurde aktualisiert.</String>
         <String xml:lang="it-IT">~r~Il venditore ha aggiornato i suoi prezzi. Il menu è stato aggiornato.</String>
         <String xml:lang="id-ID">~r~Penjual telah mengubah harganya. Menu telah diperbarui.</String>
-        <String xml:lang="ar-001">قام البائع بتحديث أسعاره. تم تحديث القائمة.~r~</String>
+        <String xml:lang="ar-001">~r~قام البائع بتحديث أسعاره. تم تحديث القائمة.</String>
+        <String xml:lang="lv-LV">~r~Pārdevējs ir nomainījis savas cenas. Izvēlne tika atsvaidzināta.</String>
+        <String xml:lang="tr-TR">~r~Satıcı fiyatlarını güncelledi. Menü yenilendi.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2920,6 +2945,9 @@
         <String xml:lang="hi-Latn">Reward ka amount ~r~allowed limit se zyada hai ~s~jo hitman contract ke liye maximum limit hai (~r~{0}~s~)</String>
         <String xml:lang="it-IT">L'importo della ricompensa ~r~supera ~s~il limite massimo consentito per un contratto per sicari (~r~{0}~s~)</String>
         <String xml:lang="de-DE">Der Belohnungsbetrag ~r~übersteigt ~s~die für einen Auftragskiller zulässige Höchstgrenze (~r~{0}~s~)</String>
+        <String xml:lang="ar-001">مبلغ المكافأة ~r~يتجاوز ~s~الحد الأقصى المسموح به لعقد قاتل محترف (~r~{0}~s~)</String>
+        <String xml:lang="lv-LV">Atlīdzības summa ~r~pārsniedz ~s~maksimālo atļauto limitu par killeru kontraktu (~r~{0}~s~)</String>
+        <String xml:lang="tr-TR">Ödül miktarı tetikçi sözleşmesi için izin verilen maksimum limiti ~r~aşıyor ~s~(~r~{0}~s~)</String>
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_reward_below_minimum">
@@ -2930,6 +2958,8 @@
         <String xml:lang="hi-Latn">Reward ka amount ~r~is allowed limit se kam hai ~s~jo hitman contract ke liye minimum limit hai (~r~{0}~s~)</String>
         <String xml:lang="it-IT">L'importo della ricompensa ~r~è inferiore ~s~al minimo richiesto per un contratto per sicari (~r~{0}~s~)</String>
         <String xml:lang="de-DE">Der Belohnungsbetrag ~r~liegt unter ~s~dem für einen Auftragskiller erforderlichen Minimum (~r~{0}~s~)</String>
+        <String xml:lang="ar-001">مبلغ المكافأة ~r~أقل من ~s~الحد الأدنى المطلوب لعقد قاتل محترف (~r~{0}~s~)</String>
+        <String xml:lang="lv-LV">Atlīdzības summa ~r~nepārsniedz ~s~minimālo atļauto limitu par killeru kontraktu (~r~{0}~s~)</String>
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_target">
@@ -2977,6 +3007,8 @@
         <String xml:lang="hi-Latn">Aap yeh hit contract tabhi laga sakte hain agar aapke paas {0} ~r~ko maarne ~s~ka valid reason ho. Random players par hit contracts banane se aapko ~r~RDM ke liye ban~s~ kiya jaa sakta hai. Kripya ~b~gtacnr.net/rules~s~ par rules review karein.</String>
         <String xml:lang="it-IT">Puoi creare questo contratto di omicidio solo se hai un motivo valido per ~r~uccidere~s~ {0}. Creare contratti di omicidio su giocatori a caso comporterà ad ~r~un tuo ban~s~ per RDM. Ti preghiamo di rivedere le regole su ~b~gtacnr.net/rules~s~.</String>
         <String xml:lang="de-DE">Du kannst diesen Auftrag nur erteilen, wenn du einen triftigen Grund zum ~r~töten~s~ von {0} hast. Das Erstellen von Mordaufträgen an zufälligen Spielern wird dazu führen, dass ~r~du wegen RDM gebannt wirst~s~. Bitte lies die Regeln unter ~b~gtacnr.net/rules~s~.</String>
+        <String xml:lang="ar-001">لا يمكنك إبرام عقد القتل هذا إلا إذا كان لديك سبب وجيه لـ ~r~قتل~s~ {0}. إنشاء عقود قتل علي لاعبين عشوائيين سيؤدي الي ~r~حظرك من السيرفر~s~. يرجى مراجعة القواعد في ~b~gtacnr.net/rules~s~.</String>
+        <String xml:lang="lv-LV">Jūs varat izveidot šo kontraktu tikai ja jums ir derīgs iemesls ~r~nogalināt~s~ {0}. Kontraktu izveidošana uz nejaušiem spēlētājiem rezultēs ~r~jūsu konta bloķešanā~s~ par RDM. Lūdzu izskatiet noteikumus vietnē ~b~gtacnr.net/rules~s~.</String>
     </Entry>
 
     <Entry Id="hitman_new_contract_response_success">
@@ -3049,6 +3081,8 @@
         <String xml:lang="hi-Latn">{0} ne aap par ek ~r~{1} ~s~hit contract lagaya hai.</String>
         <String xml:lang="it-IT">{0} ha creato un contratto di omicidio di ~r~{1} ~s~su di te.</String>
         <String xml:lang="de-DE">{0} hat einen ~r~{1}~s~-Auftrag für dich angesetzt.</String>
+        <String xml:lang="ar-001">لقد قام {0} بإبرام ~r~{1} ~s~عقد قتل عليك.</String>
+        <String xml:lang="lv-LV">{0} izveidoja ~r~{1} ~s~kontraktu uz jums.</String>
     </Entry>
 
     <!-- M.D. Job -->
