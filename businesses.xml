@@ -434,7 +434,7 @@
         <String xml:lang="pl-PL">Wymaga {0}~n~~s~Zakup na ~b~{1}</String>
         <String xml:lang="tr-TR">{0} Gerekli~n~~s~Şu adresten satın al ~b~{1}</String>
         <String xml:lang="hi-Latn">Zarurat hai {0}~n~ ~s~ki, purchase kare ~b~{1}</String>
-        <String xml:lang="es-ES">Requiere  {0}~n~~s~Compralo en ~b~{1}</String>
+        <String xml:lang="es-ES">Requiere {0}~n~~s~Compralo en ~b~{1}</String>
         <String xml:lang="pt-BR">Requer {0}~n~~s~Comprar em ~b~{1}</String>
         <String xml:lang="de-DE">Erfordert {0}~n~~s~Kaufe auf ~b~{1}</String>
         <String xml:lang="id-ID">Membutuhkan {0}~n~~s~Dapat dibeli di ~b~{1}</String>
@@ -517,9 +517,7 @@
         <String xml:lang="nl-NL">Je bent gepakt voor ~r~stelen ~s~hier. Kom terug in ~y~{0}~s~.</String>
         <String xml:lang="it-IT">Sei stato colto in flagrante mentre ~r~rubavi ~s~qui. Torna in ~y~{0}~s~.</String>
         <String xml:lang="de-DE">Du wurdest hier beim ~r~Ladendiebstahl~s~ erwischt. Komm in ~y~{0}~s~ zurück.</String>
-        <String xml:lang="es-ES">Te han pillado ~r~robando ~s~aquí. Vuelve en ~y~{0}~s~.</String>
         <String xml:lang="pl-PL">Zostałeś złapany tu na ~r~kradzieży~s~. Wróć za ~y~{0}~s~.</String>
-        <String xml:lang="pt-BR">Você foi pego ~r~roubando ~s~aqui. Volte para dentro ~y~{0}~s~.</String>
         <String xml:lang="th-TH">คุณถูกจับได้ว่า ~r~ขโมยของในร้าน ~s~ที่นี่ กลับมาใน ~y~{0}~s~</String>
         <String xml:lang="fr-FR">Tu as été pris en flagrant délit de ~r~vol à l'étalage ~s~ici. Reviens dans ~y~{0}~s~.</String>
         <String xml:lang="tr-TR">Bu ~r~mağazada hırsızlık ~s~yaparken yakalandın. ~y~{0} ~s~Daha sonra tekrar gel.</String>
@@ -787,7 +785,7 @@
         <String xml:lang="id-ID">Kamu telah membeli {0} ~p~{1} ~s~diharga ~r~{2}.</String>
         <String xml:lang="ar-001">لقد قمت بشراء {0} ~p~{1} ~s~لـ ~r~{2}.</String>
         <String xml:lang="lv-LV">Jūs iegādājaties {0} ~p~{1} ~s~par ~r~{2}.</String>
-        <String xml:lang="zh-Hant">你以 {2} 買了 {0}~p~{1}~s~.</String>
+        <String xml:lang="zh-Hant">你以 ~r~{2} ~s~買了 {0}~p~{1}~s~.</String>
     </Entry>
 
     <!-- Example: You purchased a ~p~Standard Armor ~s~for ~r~$2000 ~s~in gift card balance and ~r~$500 ~s~in cash. -->
@@ -1382,12 +1380,14 @@
         <String xml:lang="fr-FR">Il y a ~y~{0}~s~ mécaniciens ~b~joueurs~s~ dans cet atelier. Sélectionner cette option pour voir leurs services.</String>
         <String xml:lang="es-ES">Hay ~y~{0}~s~ mecánicos ~s~ en esta tienda. Seleccione esta opción para ver sus servicios.</String>
         <String xml:lang="pt-BR">Há ~y~{0}~s~ mecânicos ~s~ nesta loja. Selecione esta opção para ver seus serviços.</String>
-        <String xml:lang="fr-FR">Il y a ~y~{0}~s~ mécanicien ~b~joueurs~s~ dans cet atelier. Sélectionne cette option pour voir leurs services.</String>
         <String xml:lang="de-DE">Es gibt ~y~{0} ~b~Spieler als Mechaniker~s~ in diesem Laden. Wähle diese Option, um ihre Dienstleistungen anzuzeigen.</String>
         <String xml:lang="it-IT">Ci sono ~y~{0}~s~ ~b~giocatori~s~ meccanici in questa officina. Seleziona questa opzione per vedere i loro servizi.</String>
         <String xml:lang="id-ID">Ada ~y~{0}~s~ ~b~pemain~s~ mekanik di bengkel ini. Pilih opsi ini untuk melihat layanan yang mereka sediakan.</String>
         <String xml:lang="hi-Latn">Iss shop mein ~y~{0}~s~ mechanic ~b~players~s~ hain. Unki services dekhne ke liye iss option ko select karein.</String>
         <String xml:lang="ar-001">يوجد ~y~{0}~s~ ~b~لاعبون~s~ يعملون كميكانيكي في هذا المكان. حدد هذا الخيار لعرض خدماتهم</String>
+        <String xml:lang="lv-LV">Šajā servisā ir ~y~{0}~s~ ~b~mehāniki~s~. Izvēlēties šo opciju lai apskatītos viņu pakalpojumus.</String>
+        <String xml:lang="tr-TR">Bu dükkanda ~y~{0}~s~ ~b~tamirci~s~ var. Hizmetlerini görmek için bu seçeneği seçin.</String>
+        <String xml:lang="zh-Hant">此商店有 ~y~{0}~s~ 個修車工. 選擇一個並查看他們移工的服務.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_services_subtitle">
@@ -1420,10 +1420,6 @@
         <String xml:lang="it-IT">Gestisci i tuoi servizi.</String>
         <String xml:lang="id-ID">Kelola layanan kamu.</String>
         <String xml:lang="ar-001">إدارة الخدمات الخاصة بك.</String>
-        <String xml:lang="lv-LV">Šajā servisā ir ~y~{0}~s~ ~b~mehāniki~s~. Izvēlēties šo opciju lai apskatītos viņu pakalpojumus.</String>
-        <String xml:lang="lv-LV">Šajā servisā ir ~y~{0}~s~ ~b~mehāniki~s~. Izvēlieties šo opciju lai apskatītos viņu pakalpojumus.</String>
-        <String xml:lang="tr-TR">Bu dükkanda ~y~{0}~s~ ~b~tamirci~s~ var. Hizmetlerini görmek için bu seçeneği seçin.</String>
-        <String xml:lang="zh-Hant">此商店有 ~y~{0}~s~ 個修車工. 選擇一個並查看他們移工的服務.</String>
     </Entry>
 
     <Entry Id="menu_mechanic_services_request_subtitle">
