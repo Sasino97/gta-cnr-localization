@@ -6706,4 +6706,30 @@
     <Entry Id="jewelry_hint_4">
         <String xml:lang="en-US">This seems like the perfect throwing spot... Do you have ~y~tear gas~s~?</String>
     </Entry>
+    
+    <Entry Id="jewelry_robbery_already_in_progress">
+        <String xml:lang="en-US">~r~The jewelry store robbery is already in progress.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_cooldown">
+        <String xml:lang="en-US">~r~The jewelry store robbery cannot be started for the next ~s~{0} minutes ~r~and ~s~{1} seconds~r~.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_initiated">
+        <String xml:lang="en-US">The ~y~teargas ~s~has entered the ~b~jewelry store~s~ through the vent.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_started_by_player">
+        <String xml:lang="en-US">(C){0}(/C) is robbing the ~b~jewelry store~s~.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_timer_bar_alarm">
+        <String xml:lang="en-US">ALARM</String>
+    </Entry>
+    
+    <!-- Please try to keep it short, this will show up at the bottom right of the screen -->
+    <!-- like the info bars that show up during normal robberies, and there's not much space there -->
+    <Entry Id="jewelry_robbery_timer_bar_take">
+        <String xml:lang="en-US">ITEMS TAKEN</String>
+    </Entry>
 </Entries>
