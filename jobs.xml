@@ -6715,12 +6715,22 @@
         <String xml:lang="en-US">~r~The jewelry store robbery cannot be started for the next ~s~{0} minutes ~r~and ~s~{1} seconds~r~.</String>
     </Entry>
     
-    <Entry Id="jewelry_robbery_initiated">
-        <String xml:lang="en-US">The ~y~teargas ~s~has entered the ~b~jewelry store~s~ through the vent.</String>
+    <Entry Id="jewelry_robbery_not_enough_cops">
+        <String xml:lang="en-US">You can't rob the ~b~jewelry store ~s~when there are less than ~b~{0} cops ~s~online.</String>
     </Entry>
     
-    <Entry Id="jewelry_robbery_started_by_player">
-        <String xml:lang="en-US">(C){0}(/C) is robbing the ~b~jewelry store~s~.</String>
+    <!-- Example: you can't rob the jewelry store before Sunday 10:00 -->
+    <Entry Id="jewelry_robbery_early">
+        <String xml:lang="en-US">You can't rob the ~b~jewelry store ~s~before ~y~{0}~s~.</String>
+    </Entry>
+    
+    <!-- Example: you can't rob the jewelry store after Saturday 14:00 -->
+    <Entry Id="jewelry_robbery_late">
+        <String xml:lang="en-US">You can't rob the ~b~jewelry store ~s~after ~y~{0} ~s~because the server will restart soon.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_initiated">
+        <String xml:lang="en-US">The ~y~tear gas ~s~has entered the ~b~jewelry store~s~ through the vent.</String>
     </Entry>
     
     <!-- Please try to keep it short, these will show up at the bottom right of the screen -->
@@ -6735,5 +6745,26 @@
     
     <Entry Id="jewelry_robbery_timer_bar_gas">
         <String xml:lang="en-US">GAS</String>
+    </Entry>
+    
+    <!-- This will show up at the bottom right as a hint. For example "[B] Break" -->
+    <Entry Id="jewelry_robbery_instruction_break">
+        <String xml:lang="en-US">Break</String>
+    </Entry>
+
+    <Entry Id="jewelry_robbery_instruction_stop">
+        <String xml:lang="en-US">Stop</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_need_blunt_weapon">
+        <String xml:lang="en-US">You need a ~y~blunt weapon ~s~to break this ~r~bulletproof glass~s~.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_break_glass_failed">
+        <String xml:lang="en-US">You ~r~failed ~s~to break this ~b~glass~s~. Try another one!</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_break_glass_succeeded">
+        <String xml:lang="en-US">You ~g~successfully ~s~broke the ~b~glass~s~.</String>
     </Entry>
 </Entries>
