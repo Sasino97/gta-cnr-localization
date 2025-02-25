@@ -6723,13 +6723,17 @@
         <String xml:lang="en-US">(C){0}(/C) is robbing the ~b~jewelry store~s~.</String>
     </Entry>
     
+    <!-- Please try to keep it short, these will show up at the bottom right of the screen -->
+    <!-- like the info bars that show up during normal robberies, and there's not much space there -->
+    <Entry Id="jewelry_robbery_timer_bar_take">
+        <String xml:lang="en-US">ITEMS TAKEN</String>
+    </Entry>
+    
     <Entry Id="jewelry_robbery_timer_bar_alarm">
         <String xml:lang="en-US">ALARM</String>
     </Entry>
     
-    <!-- Please try to keep it short, this will show up at the bottom right of the screen -->
-    <!-- like the info bars that show up during normal robberies, and there's not much space there -->
-    <Entry Id="jewelry_robbery_timer_bar_take">
-        <String xml:lang="en-US">ITEMS TAKEN</String>
+    <Entry Id="jewelry_robbery_timer_bar_gas">
+        <String xml:lang="en-US">GAS</String>
     </Entry>
 </Entries>
