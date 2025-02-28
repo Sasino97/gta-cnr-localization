@@ -6767,4 +6767,18 @@
     <Entry Id="jewelry_robbery_break_glass_succeeded">
         <String xml:lang="en-US">You ~g~successfully ~s~broke the ~b~glass~s~.</String>
     </Entry>
+
+    <!-- {0} is a list of items, for example: "You stole 1 Silver Watch, 2 Gold Necklace."-->
+    <Entry Id="jewelry_robbery_stole_items">
+        <String xml:lang="en-US">You stole {0}.</String>
+    </Entry>
+    
+    <!-- This will show up as a subtitle (bottom middle of screen) -->
+    <Entry Id="jewelry_robbery_leave_the_area">
+        <String xml:lang="en-US">Leave the ~o~orange area~s~.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_go_to_hideout">
+        <String xml:lang="en-US">You went far enough from the ~b~jewelry store~s~. Now go to a ~y~hideout ~s~to complete the ~r~robbery~s~.</String>
+    </Entry>
 </Entries>
