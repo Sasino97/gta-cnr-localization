@@ -197,6 +197,11 @@
         <String xml:lang="zh-Hant">偷</String>
     </Entry>
 
+    <!-- This is now shown in clothing/tattoo shop menus to rotate your character -->
+    <Entry Id="menu_store_btn_rotate">
+        <String xml:lang="en-US">Rotate</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Item/Supply Attributes -->
     <!-- ========================= -->
@@ -505,6 +510,12 @@
         <String xml:lang="ar-001">~y~تذكير: ~s~حافظ علي اشتراكك موفعل حتي تستمر في استخدام هذا العنصر</String>
         <String xml:lang="tr-TR">~y~Hatırlatma: ~s~bu öğeyi kullanmaya devam etmek için aboneliğinizi aktif tutun.</String>
         <String xml:lang="zh-Hant">~y~提醒: ~s~此物件只會在對應的會員激活時才得使用.</String>
+    </Entry>
+    
+    <!-- Remove (the tattoo) for $$$ -->
+    <!-- {0} = Amount of money -->
+    <Entry Id="item_attribute_remove_for">
+        <String xml:lang="en-US">Remove for {0}</String>
     </Entry>
 
     <!-- ========================= -->
