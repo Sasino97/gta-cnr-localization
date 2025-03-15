@@ -779,8 +779,8 @@
         <String xml:lang="zh-Hant">價格: {0}/{1}</String>
     </Entry>
 
-    <!-- Example: You purchased a ~p~Standard Armor ~s~for ~r~$2500. -->
-    <!-- {0} = Adjective -->
+    <!-- Example: You purchased 2 ~p~Standard Armor ~s~for ~r~$2500. -->
+    <!-- {0} = Amount -->
     <!-- {1} = Name -->
     <!-- {2} = Cash amount -->
     <Entry Id="menu_store_purchased_cash">
@@ -799,8 +799,8 @@
         <String xml:lang="zh-Hant">你以 ~r~{2} ~s~買了 {0}~p~{1}~s~.</String>
     </Entry>
 
-    <!-- Example: You purchased a ~p~Standard Armor ~s~for ~r~$2000 ~s~in gift card balance and ~r~$500 ~s~in cash. -->
-    <!-- {0} = Adjective -->
+    <!-- Example: You purchased 2 ~p~Standard Armor ~s~for ~r~$2000 ~s~in gift card balance and ~r~$500 ~s~in cash. -->
+    <!-- {0} = Amount -->
     <!-- {1} = Name -->
     <!-- {2} = Gift card amount -->
     <!-- {3} = Cash amount -->
