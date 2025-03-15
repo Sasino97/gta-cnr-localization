@@ -239,6 +239,33 @@
         <String xml:lang="it-IT">Sei sicuro di voler postare questa foto su ~b~{0}~s~?</String>
     </Entry>
 
+    <!-- {0} = phone model, for example "iFruit 14 Pro Max" -->
+    <Entry Id="imenu_phone_model_changed">
+        <String xml:lang="en-US">You are now using your ~y~{0}~s~.</String>
+        <String xml:lang="it-IT">Adesso stai usando il tuo ~y~{0}~s~.</String>
+    </Entry>
+
+    <!-- {0} = phone case name -->
+    <Entry Id="imenu_phone_case_changed">
+        <String xml:lang="en-US">You are now using ~y~{0} ~s~as your phone case.</String>
+        <String xml:lang="it-IT">Adesso stai usando ~y~{0} ~s~come cover del telefono.</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_case_removed">
+        <String xml:lang="en-US">You have ~r~removed ~s~your phone case.</String>
+        <String xml:lang="it-IT">Hai ~r~rimosso ~s~la cover del telefono.</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_case_no_phone">
+        <String xml:lang="en-US">You must select a ~y~phone ~s~before selecting a case.</String>
+        <String xml:lang="it-IT">Devi selezionare un ~y~telefono ~s~prima di selezionare una cover.</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_case_type_mismatch">
+        <String xml:lang="en-US">This case is not ~r~compatible ~s~with your current phone.</String>
+        <String xml:lang="it-IT">Questa cover non è ~r~compatibile ~s~con il tuo telefono attuale.</String>
+    </Entry>
+
 
 
     <Entry Id="imenu_party">
@@ -252,8 +279,8 @@
     </Entry>
     
     <Entry Id="imenu_phone_party_list">
-        <String xml:lang="en-US">Member List</String>
-        <String xml:lang="it-IT">Lista Membri</String>
+        <String xml:lang="en-US">Member list</String>
+        <String xml:lang="it-IT">Lista membri</String>
     </Entry>
 
     <Entry Id="imenu_phone_party_list_desc">
@@ -1625,7 +1652,7 @@
         <String xml:lang="nl-NL">Je hebt {0} ~y~{1} {2}~s~ gegeven.</String>
         <String xml:lang="tr-TR">{0}~s~'ya ~y~{1} {2} ~s~verdiniz.</String>
         <String xml:lang="de-DE">Du hast {0} ~y~{1} {2}~s~ gegeben.</String>
-        <String xml:lang="it-IT">Hai fornito ~y~{1} {2} ~s~a {0}.</String>
+        <String xml:lang="it-IT">Hai dato ~y~{1} {2} ~s~a {0}.</String>
         <String xml:lang="fr-FR">Tu as donné à {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="es-ES">Has dado a {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="zh-Hant">你給了 {0} ~y~{1} 個 {2}~s~.</String>
@@ -1652,7 +1679,7 @@
         <String xml:lang="nl-NL">Je hebt {0} ~y~{1}{2} van {3}~s~ gegeven.</String>
         <String xml:lang="tr-TR">{0}~s~'ya ~y~{1}{2} {3}~s~ verdiniz.</String>
         <String xml:lang="de-DE">Du hast {0} ~y~{1}{2} {3}~s~ gegeben.</String>
-        <String xml:lang="it-IT">Hai fornito a {0} ~y~{1}{2} di {3}~s~.</String>
+        <String xml:lang="it-IT">Hai dato a {0} ~y~{1}{2} di {3}~s~.</String>
         <String xml:lang="fr-FR">Tu as donné à {0} ~y~{1}{2} de {3}~s~.</String>
         <String xml:lang="zh-Hant">你給了 {0} ~y~{1} {2} {3}~s~.</String>
         <String xml:lang="zh-Hans">你给了 {0} ~y~{1} {2} {3}~s~.</String>
@@ -1673,7 +1700,7 @@
         <String xml:lang="nl-NL">Dit item mag niet ~r~gegeven ~s~worden aan andere spelers.</String>
         <String xml:lang="tr-TR">Bu öğe diğer oyunculara ~r~verilemez~s~.</String>
         <String xml:lang="de-DE">Dieser Gegenstand ~r~kann nicht ~s~an andere Spieler übergeben werden.</String>
-        <String xml:lang="it-IT">Questo oggetto non puo essere ~r~fornito ~s~ad altri giocatori.</String>
+        <String xml:lang="it-IT">Questo oggetto non puo essere ~r~dato ~s~ad altri giocatori.</String>
         <String xml:lang="fr-FR">Cet objet ne peut pas être ~r~donné ~s~à d'autres joueurs.</String>
         <String xml:lang="zh-Hant">這個物品 ~r~不能給予 ~s~其他玩家.</String>
         <String xml:lang="zh-Hans">这个物品 ~r~不能给予 ~s~其他玩家.</String>
