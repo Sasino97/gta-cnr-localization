@@ -174,7 +174,180 @@
         <String xml:lang="cs-CZ">Nemůžeš ~r~odebrat ~s~tento zásobník.</String>
         <String xml:lang="lv-LV">Jūs nevarat ~r~noņemt ~s~magazīnu.</String>
     </Entry>
+    
+    <Entry Id="imenu_phone">
+        <String xml:lang="en-US">Phone</String>
+        <String xml:lang="it-IT">Telefono</String>
+    </Entry>
 
+    <Entry Id="imenu_phone_descr">
+        <String xml:lang="en-US">Use your mobile phone</String>
+        <String xml:lang="it-IT">Utilizza il tuo telefono</String>
+    </Entry>
+    
+    <Entry Id="imenu_phone_send_dm">
+        <String xml:lang="en-US">Send message</String>
+        <String xml:lang="it-IT">Invia messaggio</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_send_dm_descr">
+        <String xml:lang="en-US">Send a DM to another player</String>
+        <String xml:lang="it-IT">Invia un DM a un altro giocatore</String>
+    </Entry>
+
+    <!-- {0} = Player name -->
+    <Entry Id="imenu_phone_send_dm_input_text">
+        <String xml:lang="en-US">Sending a DM to {0}</String>
+        <String xml:lang="it-IT">Stai inviando un DM a {0}</String>
+    </Entry>
+    
+    <Entry Id="imenu_phone_camera">
+        <String xml:lang="en-US">Camera</String>
+        <String xml:lang="it-IT">Fotocamera</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_camera_descr">
+        <String xml:lang="en-US">Take pictures with your phone</String>
+        <String xml:lang="it-IT">Scatta foto con il tuo telefono</String>
+    </Entry>
+
+    <!-- Context: "Shoot" here means to "shoot a picture", not to shoot someone 💀 -->
+    <Entry Id="imenu_phone_camera_shoot">
+        <String xml:lang="en-US">Shoot</String>
+        <String xml:lang="it-IT">Scatta</String>
+    </Entry>
+
+    <!-- Context: to "Flip" the camera here means to switch between the front camera and selfie camera -->
+    <Entry Id="imenu_phone_camera_flip">
+        <String xml:lang="en-US">Flip</String>
+        <String xml:lang="it-IT">Gira</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_camera_suggestion">
+        <String xml:lang="en-US">You can find your ~y~pictures ~s~in the ~b~Pause Menu ~s~under ~b~Gallery~s~.</String>
+        <String xml:lang="it-IT">Puoi trovare le tue ~y~foto ~s~nel ~b~Menu di Pausa ~s~sotto ~b~Galleria~s~.</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_camera_upload">
+        <String xml:lang="en-US">Post on FiveM Snapmatic</String>
+        <String xml:lang="it-IT">Posta su FiveM Snapmatic</String>
+    </Entry>
+
+    <!-- {0} is a constant (https://forum.cfx.re/c/fivem-snapmatic), but I made it a variable just in case the website is changed some day -->
+    <Entry Id="imenu_phone_camera_upload_confirm">
+        <String xml:lang="en-US">Are you sure you want to post this photo on ~b~{0}~s~?</String>
+        <String xml:lang="it-IT">Sei sicuro di voler postare questa foto su ~b~{0}~s~?</String>
+    </Entry>
+
+
+
+    <Entry Id="imenu_party">
+        <String xml:lang="en-US">Party</String>
+        <String xml:lang="it-IT">Party</String>
+    </Entry>
+
+    <Entry Id="imenu_party_descr">
+        <String xml:lang="en-US">View and manage your party</String>
+        <String xml:lang="it-IT">Visualizza e gestisci il tuo party</String>
+    </Entry>
+    
+    <Entry Id="imenu_phone_party_list">
+        <String xml:lang="en-US">Member List</String>
+        <String xml:lang="it-IT">Lista Membri</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_party_list_desc">
+        <String xml:lang="en-US">View a list of party members</String>
+        <String xml:lang="it-IT">Visualizza una lista dei membri del party</String>
+    </Entry>
+    
+    <!-- {0} is the number of members, for example: 12 members -->
+    <Entry Id="imenu_phone_party_list_label">
+        <String xml:lang="en-US">{0} members</String>
+        <String xml:lang="it-IT">{0} membri</String>
+    </Entry>
+    
+    <Entry Id="imenu_phone_party_create">
+        <String xml:lang="en-US">Create</String>
+        <String xml:lang="it-IT">Crea</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_party_create_desc">
+        <String xml:lang="en-US">Create a new temporary group of players</String>
+        <String xml:lang="it-IT">Crea un nuovo gruppo di giocatori temporaneo</String>
+    </Entry>
+    
+    <Entry Id="imenu_phone_party_join">
+        <String xml:lang="en-US">Join</String>
+        <String xml:lang="it-IT">Unisciti</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_party_join_desc">
+        <String xml:lang="en-US">Join an existing party</String>
+        <String xml:lang="it-IT">Unisciti a un party esistente</String>
+    </Entry>
+    
+    <Entry Id="imenu_phone_party_invite">
+        <String xml:lang="en-US">Invite</String>
+        <String xml:lang="it-IT">Invita</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_party_invite_desc">
+        <String xml:lang="en-US">Invite a player to your party</String>
+        <String xml:lang="it-IT">Invita un giocatore al tuo party</String>
+    </Entry>
+    
+    <Entry Id="imenu_phone_party_sendgps">
+        <String xml:lang="en-US">Send location</String>
+        <String xml:lang="it-IT">Invia posizione</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_party_sendgps_desc">
+        <String xml:lang="en-US">Send your current location to all the party members</String>
+        <String xml:lang="it-IT">Invia la tua posizione attuale a tutti i membri del party</String>
+    </Entry>
+    
+    <Entry Id="imenu_phone_party_sendwp">
+        <String xml:lang="en-US">Send waypoint</String>
+        <String xml:lang="it-IT">Invia waypoint</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_party_sendwp_desc">
+        <String xml:lang="en-US">Send your waypoint to all the party members</String>
+        <String xml:lang="it-IT">Invia il tuo waypoint a tutti i membri del party</String>
+    </Entry>
+    
+    <Entry Id="imenu_phone_party_kick">
+        <String xml:lang="en-US">~o~Kick</String>
+        <String xml:lang="it-IT">~o~Caccia</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_party_kick_desc">
+        <String xml:lang="en-US">Kick a player from the party</String>
+        <String xml:lang="it-IT">Caccia un giocatore dal party</String>
+    </Entry>
+    
+    <Entry Id="imenu_phone_party_leader">
+        <String xml:lang="en-US">~o~Transfer leadership</String>
+        <String xml:lang="it-IT">~o~Trasferisci leadership</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_party_leader_desc">
+        <String xml:lang="en-US">Transfer the leader role to someone else</String>
+        <String xml:lang="it-IT">Trasferisci il ruolo di leader a qualcun altro</String>
+    </Entry>
+    
+    <Entry Id="imenu_phone_party_leave">
+        <String xml:lang="en-US">~r~Leave</String>
+        <String xml:lang="it-IT">~r~Abbandona</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_party_leave_desc">
+        <String xml:lang="en-US">Leave your current party</String>
+        <String xml:lang="it-IT">Abbandona il tuo party attuale</String>
+    </Entry>
+
+    
 
     <Entry Id="imenu_vehicles">
         <String xml:lang="en-US">Vehicles</String>
@@ -285,24 +458,24 @@
     </Entry>
 
     <Entry Id="imenu_services_descr">
-        <String xml:lang="en-US">Request useful services.</String>
-        <String xml:lang="pl-PL">Skorzystaj z przydatnych usług. </String>
-        <String xml:lang="nl-NL">Verzoek nuttige diensten.</String>
-        <String xml:lang="tr-TR">Yararlı hizmetler talep edin.</String>
-        <String xml:lang="de-DE">Fordere nützliche Dienstleistungen an.</String>
-        <String xml:lang="it-IT">Richiedi dei servizi pratici alla tua posizione.</String>
-        <String xml:lang="fr-FR">Demander des services utiles.</String>
-        <String xml:lang="zh-Hant">請求有用的服務.</String>
+        <String xml:lang="en-US">Request useful services</String>
+        <String xml:lang="pl-PL">Skorzystaj z przydatnych usług</String>
+        <String xml:lang="nl-NL">Verzoek nuttige diensten</String>
+        <String xml:lang="tr-TR">Yararlı hizmetler talep edin</String>
+        <String xml:lang="de-DE">Fordere nützliche Dienstleistungen an</String>
+        <String xml:lang="it-IT">Richiedi dei servizi pratici</String>
+        <String xml:lang="fr-FR">Demander des services utiles</String>
+        <String xml:lang="zh-Hant">請求有用的服務</String>
         <String xml:lang="zh-Hans">请求有用的服务</String>
         <String xml:lang="es-ES">Solicita servicios útiles</String>
-        <String xml:lang="pt-BR">Solicitar serviços úteis.</String>
-        <String xml:lang="ar-001">طلب خدمات مفيدة.</String>
+        <String xml:lang="pt-BR">Solicitar serviços úteis</String>
+        <String xml:lang="ar-001">طلب خدمات مفيدة</String>
         <String xml:lang="th-TH">ขอรับบริการที่เป็นประโยชน์</String>
-        <String xml:lang="vi-VN">Yêu cầu dịch vụ hữu ích.</String>
-        <String xml:lang="id-ID">Minta layanan yang berguna.</String>
-        <String xml:lang="hi-Latn">Request kare useful services ke liye.</String>
-        <String xml:lang="cs-CZ">Vyžádat nápomocné služby.</String>
-        <String xml:lang="lv-LV">Pieprasiet noderīgo dienestu vai pakalpojumu.</String>
+        <String xml:lang="vi-VN">Yêu cầu dịch vụ hữu ích</String>
+        <String xml:lang="id-ID">Minta layanan yang berguna</String>
+        <String xml:lang="hi-Latn">Request kare useful services ke liye</String>
+        <String xml:lang="cs-CZ">Vyžádat nápomocné služby</String>
+        <String xml:lang="lv-LV">Pieprasiet noderīgo dienestu vai pakalpojumu</String>
     </Entry>
 
     <Entry Id="imenu_stats">
@@ -1062,7 +1235,7 @@
         <String xml:lang="nl-NL">Bekijk recente moordcontracten.</String>
         <String xml:lang="fr-FR">Voir les contrats de tueur à gages récents.</String>
         <String xml:lang="id-ID">Lihat kontrak bunuh terbaru.</String>
-        <String xml:lang="it-IT">Visualizza i contratti di omicidio recenti.</String>
+        <String xml:lang="it-IT">Visualizza i contratti di assassinio recenti.</String>
         <String xml:lang="de-DE">Zeige aktuelle Mordaufträge.</String>
         <String xml:lang="hi-Latn">Recent kill contracts dekhein.</String>
         <String xml:lang="lv-LV">Skatiet nesenos slepkavības kontraktus.</String>
@@ -2516,20 +2689,6 @@
     <!-- ========================= -->
     <!-- Services menu -->
     <!-- ========================= -->
-    <Entry Id="imenu_services_title">
-        <String xml:lang="en-US">Services</String>
-        <String xml:lang="nl-NL">Diensten</String>
-        <String xml:lang="de-DE">Leistungen</String>
-        <String xml:lang="fr-FR">Services</String>
-        <String xml:lang="it-IT">Servizi</String>
-        <String xml:lang="id-ID">Layanan</String>
-        <String xml:lang="hi-Latn">Services</String>
-        <String xml:lang="lv-LV">Dienesti/Pakalpojumi</String>
-        <String xml:lang="ar-001">الخدمات</String>
-        <String xml:lang="es-ES">Servicios</String>
-        <String xml:lang="pt-BR">Serviços</String>
-    </Entry>
-
     <Entry Id="imenu_services_subtitle">
         <String xml:lang="en-US">Request a service</String>
         <String xml:lang="nl-NL">Vraag een dienst aan</String>
@@ -2754,11 +2913,13 @@
         <String xml:lang="pt-BR">Chamar um ~r~assassino ~s~para se livrar de alguém.</String>
     </Entry>
 
-    <Entry Id="imenu_services_arms_dealer_text">
-        <String xml:lang="en-US">Arms Dealer</String>
+    <Entry Id="imenu_services_weapons_text">
+        <String xml:lang="en-US">Weapons</String>
+        <String xml:lang="it-IT">Armi</String>
     </Entry>
 
-    <Entry Id="imenu_services_arms_dealer_description">
+    <Entry Id="imenu_services_weapons_descr">
         <String xml:lang="en-US">Call an ~r~arms dealer ~s~to buy illegal weapons and ammo.</String>
+        <String xml:lang="it-IT">Chiama un ~r~venditore di armi ~s~per comprare armi e munizioni illegali.</String>
     </Entry>
 </Entries>
