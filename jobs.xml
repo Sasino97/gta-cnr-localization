@@ -6733,6 +6733,10 @@
         <String xml:lang="en-US">The ~y~tear gas ~s~has entered the ~b~jewelry store~s~ through the vent.</String>
     </Entry>
     
+    <Entry Id="jewelry_robbery_police_notification">
+        <String xml:lang="en-US">(C)Dispatch:(/C) Attention all units. The (C)jewelry store(/C) is being robbed.</String>
+    </Entry>
+    
     <!-- Please try to keep it short, these will show up at the bottom right of the screen -->
     <!-- like the info bars that show up during normal robberies, and there's not much space there -->
     <Entry Id="jewelry_robbery_timer_bar_take">
@@ -6779,6 +6783,26 @@
     </Entry>
     
     <Entry Id="jewelry_robbery_go_to_hideout">
-        <String xml:lang="en-US">You went far enough from the ~b~jewelry store~s~. Now go to a ~y~hideout ~s~to complete the ~r~robbery~s~.</String>
+        <String xml:lang="en-US">You went far enough from the ~b~jewelry store~s~. Now go to a ~r~hideout ~s~to finish the robbery~s~.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_hideouts_available">
+        <String xml:lang="en-US">You have ~y~{0} ~s~suitable ~r~hideouts~s~.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_no_hideouts_available">
+        <String xml:lang="en-US">You don't have a suitable ~r~hideout~s~. You can go to a ~g~friend~s~'s hideout to finish the robbery.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_list_hideouts_btn">
+        <String xml:lang="en-US">View Hideouts</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_list_hideouts">
+        <String xml:lang="en-US">Hideouts</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_list_hideouts_subtitle">
+        <String xml:lang="en-US">Available hideouts</String>
     </Entry>
 </Entries>
