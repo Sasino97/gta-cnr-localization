@@ -380,7 +380,6 @@
         <String xml:lang="id-ID">Kamu ~r~tidak punya cukup ~s~uang!</String>
         <String xml:lang="cs-CZ">Máš ~r~nedostatek ~s~prostředků!</String>
         <String xml:lang="lv-LV">Jums ~r~nepietiek ~s~līdzekļu!</String>
-
     </Entry>
 
     <Entry Id="atm_invalid_amount">
@@ -647,17 +646,17 @@
 
     <Entry Id="menu_bank_deposit">
         <String xml:lang="en-US">Deposit</String>
-        <String xml:lang="it-IT">Deposita</String>
+        <String xml:lang="it-IT">Versamento</String>
     </Entry>
 
     <Entry Id="menu_bank_deposit_desc">
         <String xml:lang="en-US">Deposit money to your ~g~checking account~s~.</String>
-        <String xml:lang="it-IT">Deposita denaro sul tuo ~g~conto corrente~s~.</String>
+        <String xml:lang="it-IT">Versa denaro sul tuo ~g~conto corrente~s~.</String>
     </Entry>
 
     <Entry Id="menu_bank_withdraw">
         <String xml:lang="en-US">Withdraw</String>
-        <String xml:lang="it-IT">Preleva</String>
+        <String xml:lang="it-IT">Prelievo</String>
     </Entry>
 
     <Entry Id="menu_bank_withdraw_desc">
@@ -667,12 +666,22 @@
 
     <Entry Id="menu_bank_transfer">
         <String xml:lang="en-US">Transfer</String>
-        <String xml:lang="it-IT">Trasferisci</String>
+        <String xml:lang="it-IT">Bonifico</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_desc">
         <String xml:lang="en-US">Transfer money to another player's ~g~checking account~s~.</String>
         <String xml:lang="it-IT">Trasferisci denaro sul ~g~conto corrente ~s~di un altro giocatore.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_transfer_amount">
+        <String xml:lang="en-US">Enter the amount to transfer.</String>
+        <String xml:lang="it-IT">Inserisci l'importo da trasferire.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_transfer_reason">
+        <String xml:lang="en-US">Enter the reason of the transfer.</String>
+        <String xml:lang="it-IT">Inserisci il motivo del bonifico.</String>
     </Entry>
 
     <!-- History of bank transactions, obviously. It's NOT history as in "Roman empire history" -->
@@ -718,7 +727,11 @@
         <String xml:lang="lv-LV">Iegūstiet savu pēdējo darījumu izrakstu.</String>
     </Entry>
 
-    <!-- The noun, not the verb -->
+    <Entry Id="menu_bank_history_sub">
+        <String xml:lang="en-US">Recent transactions</String>
+        <String xml:lang="it-IT">Transazioni recenti</String>
+    </Entry>
+
     <Entry Id="menu_bank_loan">
         <String xml:lang="en-US">Loan</String>
         <String xml:lang="it-IT">Prestito</String>
