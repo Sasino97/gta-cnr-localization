@@ -116,7 +116,7 @@
     <Entry Id="error_loading_loadout">
         <String xml:lang="en-US">~r~Warning: ~s~there was an error loading your loadout. Re-logging may fix this problem.</String>
         <String xml:lang="nl-NL">~r~Waarschuwing: ~s~er was een probleem tijdens het laden van je uitrusting. Reloggen kan mogelijk dit probleem oplossen.</String>
-        <String xml:lang="fr-FR">~r~Avertissement : ~s~il y a eu une erreur lors du chargement de ton équipement. La reconnexion peut résoudre ce problème.</String>
+        <String xml:lang="fr-FR">~r~Avertissement: ~s~il y a eu une erreur lors du chargement de ton équipement. La reconnexion peut résoudre ce problème.</String>
         <String xml:lang="it-IT">~r~Attenzione: ~s~Si è verificato un errore caricando il tuo equipaggiamento. Ri-entrare potrebbe risolvere il problema.</String>
         <String xml:lang="pl-PL">~r~Ostrzeżenie: ~s~wystąpił błąd wczytując twoje uzbrojenie. Ponowne zalogowanie może naprawić ten problem.</String>
         <String xml:lang="es-ES">~r~Atencion: ~s~hubo un error al cargar tu equipo. Salir y entrar al servidor puede solucionar este problema.</String>
@@ -249,7 +249,7 @@
         <String xml:lang="es-ES">~r~Lo sentimos, esta función aún no se ha implementado!</String>
         <String xml:lang="pt-BR">~r~Desculpe, mas essa função ainda não foi implementada!</String>
         <String xml:lang="ar-001">~r~عذرًا، لم يتم تنفيذ هذه الميزة بعد!</String>
-        <String xml:lang="id-ID">~r~Mohon maaf, Untuk fitur ini belom tersedia untuk saat ini!.</String>
+        <String xml:lang="id-ID">~r~Mohon maaf, Untuk fitur ini belom tersedia untuk saat ini!</String>
         <String xml:lang="th-TH">~r~ขออภัย ฟีเจอร์นี้ยังไม่ได้ใช้งาน!</String>
         <String xml:lang="hi-Latn">~r~Sorry, ye feature abhi tak implemented nahi hua!</String>
         <String xml:lang="cs-CZ">~r~Omlouváme se, ale tato funkce ještě nebyla implementována!</String>
@@ -422,24 +422,6 @@
         <String xml:lang="hi-Latn">Aap aur zyada nahi rakh sakte ye item!</String>
         <String xml:lang="cs-CZ">Již nemůžeš nést více tohoto předmětu!</String>
         <String xml:lang="lv-LV">Jūs nevarat turēt vairāk šī priekšmeta!</String>
-    </Entry>
-
-    <Entry Id="feature_not_implemented_yet">
-        <String xml:lang="en-US">~r~Sorry, this feature was not implemented yet!</String>
-        <String xml:lang="nl-NL">~r~Sorry, deze functie is nog niet geïmplementeerd!</String>
-        <String xml:lang="fr-FR">~r~Désolé, cette fonctionnalité n'a pas encore été implémentée!</String>
-        <String xml:lang="it-IT">~r~Ci dispiace, questa funzione non è ancora stata implementata!</String>
-        <String xml:lang="pl-PL">~r~Przepraszamy, ta funkcja nie jest jeszcze wprowadzona!</String>
-        <String xml:lang="es-ES">~r~Lo sentimos, esta función aún no se ha implementado.</String>
-        <String xml:lang="pt-BR">~r~Desculpe, mas essa função ainda não foi implementada.</String>
-        <String xml:lang="de-DE">~r~Sorry, diese Funktion wurde bisher noch nicht implementiert!</String>
-        <String xml:lang="ar-001">~r~عذرًا، لم يتم تنفيذ هذه الميزة بعد!</String>
-        <String xml:lang="id-ID">~r~Mohon maaf, Fitur ini belom tersedia untuk saat ini!</String>
-        <String xml:lang="th-TH">~r~ขออภัย ฟีเจอร์นี้ยังไม่ได้ใช้งาน!</String>
-        <String xml:lang="zh-Hant">~r~抱歉,此功能還未被被應用!</String>
-        <String xml:lang="hi-Latn">~r~Sorry, ye feature abhi tak implemented nahi hua hai!</String>
-        <String xml:lang="cs-CZ">~r~Omlouváme se, ale tato funkce ještě nebyla implementována!</String>
-        <String xml:lang="lv-LV">~r~Atvainojiet, šī funkcija vēl nav ieviesta!</String>
     </Entry>
 
     <!-- ========================= -->
@@ -997,12 +979,16 @@
         <String xml:lang="lv-LV">Ievadiet spēlētāja ID.</String>
     </Entry>
 
+    <Entry Id="party_desc">
+        <String xml:lang="en-US">Opens the party menu.</String>
+    </Entry>
+
     <Entry Id="party_create_desc">
         <String xml:lang="en-US">Creates a party: a temporary group of people. Members of the same party can communicate on a dedicated radio channel, see eachother on the map over long distances, and see eachother's ping markers. Additionally, some minor crimes and revenge between them is disabled.</String>
         <String xml:lang="nl-NL">Maakt een partygroep aan: een tijdelijke groep van spelers. Leden van dezelfde party kunnen communiceren via een speciaal eigen radiokanaal, elkaar zien op de kaart over lange afstanden en elkaars ping-markeringen zien. Bovendien worden enkele kleine misdaden en wraakacties tussen elkaar vergeven.</String>
         <String xml:lang="de-DE">Erstellt eine Party: Eine temporäre Gruppe von Spielern. Die Mitglieder einer Gruppe können über einen speziellen Funkkanal miteinander kommunizieren, sich gegenseitig über große Entfernungen auf der Karte sehen und die Ping-Markierungen der anderen sehen. Darüber hinaus werden einige kleinere Straftaten und Racheakte zwischen ihnen deaktiviert.</String>
-        <String xml:lang="fr-FR">Crée un groupe : un groupe temporaire de personnes. Les membres d'un même groupe peuvent communiquer sur un canal radio dédié, se voir sur la mini-carte sur de longues distances et voir les icônes de chacun. De plus, certains crimes mineurs et la vengeance entre eux sont désactivés.</String>
-        <String xml:lang="it-IT">Crea una party: un gruppo temporaneo di persone. I membri dello stesso party possono comunicare su un canale radio dedicato, vedersi sulla mappa a grandi distanze e vedere i marker di ping degli altri. Inoltre, alcuni crimini minori e vendette tra loro sono disabilitati.</String>
+        <String xml:lang="fr-FR">Crée un groupe: un groupe temporaire de personnes. Les membres d'un même groupe peuvent communiquer sur un canal radio dédié, se voir sur la mini-carte sur de longues distances et voir les icônes de chacun. De plus, certains crimes mineurs et la vengeance entre eux sont désactivés.</String>
+        <String xml:lang="it-IT">Crea un party: un gruppo temporaneo di persone. I membri dello stesso party possono comunicare su un canale radio dedicato, vedersi sulla mappa a grandi distanze e vedere i marker di ping degli altri. Inoltre, alcuni crimini minori e vendette tra loro sono disabilitati.</String>
         <String xml:lang="id-ID">Buat party: grup sementara. Anggota dari grup tersebut dapat saling berkomunikasi dengan chanel radio khusus, melihat satu sama lain di map walau jarak jauh, dapat melihat penanda satu dengan lainnya. Selain itu, sebagian kejahatan kecil dan dendam sesama anggota grup ditiadakan.</String>
         <String xml:lang="lv-LV">Izveido komandu: pagaidu cilvēku grupu. Vienas un tās pašas komandas dalībnieki var sazināties pa īpašu radio kanālu, redzēt viens otry kartē uz lieliem attālumiem, un redzēt citu dalībnieku ping marķierus. Papildus tam, daži sīkāki noziegumi un atriebība starp viņiem ir atslēgti.</String>
         <String xml:lang="hi-Latn">Ek party banata hai: ek temporary logon ka group. Ek hi party ke members ek dedicated radio channel par baat kar sakte hain, door se map par ek-dusre ko dekh sakte hain, aur ek-dusre ke ping markers dekh sakte hain. Iske alawa, kuch chote-mote crimes aur revenge wagera disable ho jata hai.</String>
