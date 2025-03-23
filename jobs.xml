@@ -3687,26 +3687,7 @@
         <String xml:lang="hi-Latn">{0} ne aapka bribe offer ~r~refuse ~s~kar diya hai aur report kar diya hai. Aapka wanted level badh gaya hai.</String>
         <String xml:lang="lv-LV">{0} ~r~noraidīja~s~ jūsu kukuļa piedāvājumu un ziņoja par incidentu. Jūs ieguvāt wanted līmeni.</String>
     </Entry>
-
-    <!-- {0} = Player -->
-    <!-- {1} = Reason -->
-    <Entry Id="police_player_911_call">
-        <String xml:lang="en-US">{0} {1}</String>
-        <String xml:lang="nl-NL">{0} {1}</String>
-        <String xml:lang="it-IT">{0} {1}</String>
-        <String xml:lang="fr-FR">{0} {1}</String>
-        <String xml:lang="pl-PL">{0} {1}</String>
-        <String xml:lang="es-ES">{0} {1}</String>
-        <String xml:lang="pt-BR">{0} {1}</String>
-        <String xml:lang="de-DE">{0} {1}</String>
-        <String xml:lang="ar-001">{0} {1}</String>
-        <String xml:lang="id-ID">{0} {1}</String>
-        <String xml:lang="zh-Hant">{0} {1}</String>
-        <String xml:lang="th-TH">{0} {1}</String>
-        <String xml:lang="hi-Latn">{0} {1}</String>
-        <String xml:lang="lv-LV">{0} {1}</String>
-    </Entry>
-
+    
     <!-- {0} = countdown -->
     <Entry Id="police_leaving_us_offduty">
         <String xml:lang="en-US">~y~Warning: ~s~you are leaving the ~b~United States~s~. You will go off duty in {0} seconds.</String>
@@ -6733,6 +6714,10 @@
         <String xml:lang="en-US">The ~y~tear gas ~s~has entered the ~b~jewelry store~s~ through the vent.</String>
     </Entry>
     
+    <Entry Id="jewelry_robbery_police_notification">
+        <String xml:lang="en-US">(C)Dispatch:(/C) Attention all units. The (C)jewelry store(/C) is being robbed.</String>
+    </Entry>
+    
     <!-- Please try to keep it short, these will show up at the bottom right of the screen -->
     <!-- like the info bars that show up during normal robberies, and there's not much space there -->
     <Entry Id="jewelry_robbery_timer_bar_take">
@@ -6779,6 +6764,26 @@
     </Entry>
     
     <Entry Id="jewelry_robbery_go_to_hideout">
-        <String xml:lang="en-US">You went far enough from the ~b~jewelry store~s~. Now go to a ~y~hideout ~s~to complete the ~r~robbery~s~.</String>
+        <String xml:lang="en-US">You went far enough from the ~b~jewelry store~s~. Now go to a ~r~hideout ~s~to finish the robbery~s~.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_hideouts_available">
+        <String xml:lang="en-US">You have ~y~{0} ~s~suitable ~r~hideouts~s~.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_no_hideouts_available">
+        <String xml:lang="en-US">You don't have a suitable ~r~hideout~s~. You can go to a ~g~friend~s~'s hideout to finish the robbery.</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_list_hideouts_btn">
+        <String xml:lang="en-US">View Hideouts</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_list_hideouts">
+        <String xml:lang="en-US">Hideouts</String>
+    </Entry>
+    
+    <Entry Id="jewelry_robbery_list_hideouts_subtitle">
+        <String xml:lang="en-US">Available hideouts</String>
     </Entry>
 </Entries>

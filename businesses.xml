@@ -79,11 +79,11 @@
         <String xml:lang="pl-PL">KARTA PODARUNKOWA: {0}</String>
         <String xml:lang="tr-TR">HEDİYE KARTI: {0}</String>
         <String xml:lang="hi-Latn">GIFT CARD: {0}</String>
-        <String xml:lang="es-ES">Tarjetas de regalo: {0}</String>
-        <String xml:lang="pt-BR">Cartões-presentes: {0}</String>
+        <String xml:lang="es-ES">TARJETAS DE REGALO: {0}</String>
+        <String xml:lang="pt-br">CARTÕES-PRESENTES: {0}</String>
         <String xml:lang="de-DE">GESCHENKKARTE: {0}</String>
-        <String xml:lang="id-ID">Kartu Hadiah: {0}</String>
-        <String xml:lang="sv-SE">Presentkort: {0}</String>
+        <String xml:lang="id-ID">KARTU HADIAH: {0}</String>
+        <String xml:lang="sv-SE">PRESENTKORT: {0}</String>
         <String xml:lang="cs-CZ">DÁRKOVÁ KARTA: {0}</String>
         <String xml:lang="lv-LV">DĀVANU KARTES: {0}</String>
         <String xml:lang="ar-001">بطاقة الهدايا: {0} </String>
@@ -195,6 +195,11 @@
         <String xml:lang="lv-LV">Nozagt</String>
         <String xml:lang="ar-001">سرقة</String>
         <String xml:lang="zh-Hant">偷</String>
+    </Entry>
+
+    <!-- This is now shown in clothing/tattoo shop menus to rotate your character -->
+    <Entry Id="menu_store_btn_rotate">
+        <String xml:lang="en-US">Rotate</String>
     </Entry>
 
     <!-- ========================= -->
@@ -449,7 +454,7 @@
     <!-- {0} = Membership Tier -->
     <Entry Id="item_attribute_unlocked_with_membership">
         <String xml:lang="en-US">Unlocked with your {0}</String>
-        <String xml:lang="it-IT">Sbloccato con il tuo {0}</String>
+        <String xml:lang="it-IT">Sbloccato con la tua {0}</String>
         <String xml:lang="nl-NL">Ontgrendeld met je {0}</String>
         <String xml:lang="th-TH">ปลดล็อคด้วย {0} ของคุณ</String>
         <String xml:lang="fr-FR">Débloqué avec ton {0}</String>
@@ -505,6 +510,12 @@
         <String xml:lang="ar-001">~y~تذكير: ~s~حافظ علي اشتراكك موفعل حتي تستمر في استخدام هذا العنصر</String>
         <String xml:lang="tr-TR">~y~Hatırlatma: ~s~bu öğeyi kullanmaya devam etmek için aboneliğinizi aktif tutun.</String>
         <String xml:lang="zh-Hant">~y~提醒: ~s~此物件只會在對應的會員激活時才得使用.</String>
+    </Entry>
+    
+    <!-- Remove (the tattoo) for $$$ -->
+    <!-- {0} = Amount of money -->
+    <Entry Id="item_attribute_remove_for">
+        <String xml:lang="en-US">Remove for {0}</String>
     </Entry>
 
     <!-- ========================= -->
@@ -768,8 +779,8 @@
         <String xml:lang="zh-Hant">價格: {0}/{1}</String>
     </Entry>
 
-    <!-- Example: You purchased a ~p~Standard Armor ~s~for ~r~$2500. -->
-    <!-- {0} = Adjective -->
+    <!-- Example: You purchased 2 ~p~Standard Armor ~s~for ~r~$2500. -->
+    <!-- {0} = Amount -->
     <!-- {1} = Name -->
     <!-- {2} = Cash amount -->
     <Entry Id="menu_store_purchased_cash">
@@ -788,8 +799,8 @@
         <String xml:lang="zh-Hant">你以 ~r~{2} ~s~買了 {0}~p~{1}~s~.</String>
     </Entry>
 
-    <!-- Example: You purchased a ~p~Standard Armor ~s~for ~r~$2000 ~s~in gift card balance and ~r~$500 ~s~in cash. -->
-    <!-- {0} = Adjective -->
+    <!-- Example: You purchased 2 ~p~Standard Armor ~s~for ~r~$2000 ~s~in gift card balance and ~r~$500 ~s~in cash. -->
+    <!-- {0} = Amount -->
     <!-- {1} = Name -->
     <!-- {2} = Gift card amount -->
     <!-- {3} = Cash amount -->
@@ -1014,27 +1025,6 @@
         <String xml:lang="hi-Latn">Rank</String>
         <String xml:lang="id-ID">Peringkat</String>
         <String xml:lang="lv-LV">Rangs</String>
-    </Entry>
-
-    <!-- ========================= -->
-    <!-- Arms Dealer Menu-->
-    <!-- ========================= -->
-    <Entry Id="menu_armsdealer_title">
-        <String xml:lang="en-US">Arms Dealer</String>
-        <String xml:lang="it-IT">Trafficante d'Armi</String>
-        <String xml:lang="nl-NL">Wapenhandelaar</String>
-        <String xml:lang="ar-001">تاجر أسلحة</String>
-        <String xml:lang="de-DE">Waffenhändler</String>
-        <String xml:lang="es-ES">Vendedor de armas</String>
-        <String xml:lang="pt-BR">Vendedor de armas</String>
-        <String xml:lang="pl-PL">Handlarz Bronią</String>
-        <String xml:lang="th-TH">พ่อค้าอาวุธ</String>
-        <String xml:lang="zh-Hant">武裝賣家</String>
-        <String xml:lang="fr-FR">Marchand d'armes</String>
-        <String xml:lang="tr-TR">Silah Tüccarı</String>
-        <String xml:lang="hi-Latn">Hathiyaar Dealer</String>
-        <String xml:lang="id-ID">Penjual Senjata</String>
-        <String xml:lang="lv-LV">Ieroču Tirgotājs</String>
     </Entry>
 
     <!-- ========================= -->
@@ -3085,13 +3075,13 @@
         <String xml:lang="fr-FR">~g~ON</String>
         <String xml:lang="tr-TR">~g~AÇIK</String>
         <String xml:lang="hi-Latn">~g~ON</String>
-        <String xml:lang="es-ES">~g~Encendido </String>
-        <String xml:lang="pt-BR">~g~Ligado</String>
+        <String xml:lang="es-ES">~g~ENCENDIDO </String>
+        <String xml:lang="pt-BR">~g~LIGADO</String>
         <String xml:lang="de-DE">~g~AN</String>
         <String xml:lang="it-IT">~g~ACCESA</String>
         <String xml:lang="id-ID">~g~AKTIF</String>
         <String xml:lang="ar-001">~g~تشغيل</String>
-        <String xml:lang="lv-LV">~g~Ieslēgts</String>
+        <String xml:lang="lv-LV">~g~IESLĒGTS</String>
     </Entry>
 
     <Entry Id="radio_off">
@@ -3100,13 +3090,13 @@
         <String xml:lang="fr-FR">~r~OFF</String>
         <String xml:lang="tr-TR">~r~KAPALI</String>
         <String xml:lang="hi-Latn">~r~OFF</String>
-        <String xml:lang="es-ES">~r~Apagado</String>
-        <String xml:lang="pt-BR">~r~Desligado</String>
+        <String xml:lang="es-ES">~r~APAGADO</String>
+        <String xml:lang="pt-BR">~r~DESLIGADO</String>
         <String xml:lang="de-DE">~r~AUS</String>
         <String xml:lang="it-IT">~r~SPENTA</String>
         <String xml:lang="id-ID">~r~TIDAK AKTIF</String>
         <String xml:lang="ar-001">~r~ايقاف</String>
-        <String xml:lang="lv-LV">~r~Izslēgts</String>
+        <String xml:lang="lv-LV">~r~IZSLĒGTS</String>
     </Entry>
 
     <Entry Id="radio_mute">
@@ -3267,7 +3257,7 @@
     </Entry>
 
     <Entry Id="menu_hitman_contracts_description">
-        <String xml:lang="en-US">View recent hitman contracts.</String>
+        <String xml:lang="en-US">View recent hit contracts.</String>
         <String xml:lang="nl-NL">Bekijk recente moordcontracten.</String>
         <String xml:lang="fr-FR">Voir les contrats récents de tueurs à gages.</String>
         <String xml:lang="id-ID">Lihat kontrak pembunuh bayaran terbaru.</String>
@@ -3340,19 +3330,17 @@
         <String xml:lang="pt-BR">O valor da recompensa ~r~está abaixo do mínimo ~s~exigido para um assassino contratado (~r~{0}~s~)</String>
     </Entry>
 
+    <!-- Sorry, this string has been updated to just say "Target", some of the previous -->
+    <!-- translations have been cleared because I don't know exactly how to translate them -->
     <Entry Id="menu_hitman_new_contract_target">
-        <String xml:lang="en-US">Select your target</String>
-        <String xml:lang="nl-NL">Selecteer je doelwit</String>
-        <String xml:lang="fr-FR">Sélectionne ta cible</String>
-        <String xml:lang="id-ID">Pilih targetmu</String>
-        <String xml:lang="hi-Latn">Apna target select karein</String>
-        <String xml:lang="it-IT">Seleziona il tuo obiettivo</String>
-        <String xml:lang="de-DE">Wähle dein Ziel</String>
-        <String xml:lang="ar-001">حدد هدفك</String>
-        <String xml:lang="lv-LV">Izvēlieties savu mērķi</String>
-        <String xml:lang="tr-TR">Hedefinizi seçin</String>
-        <String xml:lang="es-ES">Seleccione su objetivo</String>
-        <String xml:lang="pt-BR">Selecione seu alvo</String>
+        <String xml:lang="en-US">Target</String>
+        <String xml:lang="nl-NL">Doelwit</String>
+        <String xml:lang="fr-FR">Cible</String>
+        <String xml:lang="id-ID">Target</String>
+        <String xml:lang="it-IT">Obiettivo</String>
+        <String xml:lang="de-DE">Ziel</String>
+        <String xml:lang="es-ES">Objetivo</String>
+        <String xml:lang="pt-BR">Alvo</String>
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_reward">
@@ -3389,7 +3377,7 @@
         <String xml:lang="fr-FR">Tu ne peux placer ce contrat que si tu as une raison valable de ~r~tuer~s~ {0}. Si tu créais des contrats sur des joueurs aléatoires, tu seras banni pour RDM. Merci de consulter les règles sur ~b~gtacnr.net/rules~s~.</String>
         <String xml:lang="id-ID">Kamu dapat membuat kontrak ini hanya jika kamu memiliki alasan yang valid untuk ~r~membunuh~s~ {0}. Membuat kontrak bunuh kepada pemain secara acak dapat membuatmu ~r~terbanned ~s~karena RDM. Dimohon untuk melihat peraturan di ~b~gtacnr.net/rules~s~.</String>
         <String xml:lang="hi-Latn">Aap yeh hit contract tabhi laga sakte hain agar aapke paas {0} ~r~ko maarne ~s~ka valid reason ho. Random players par hit contracts banane se aapko ~r~RDM ke liye ban~s~ kiya jaa sakta hai. Kripya ~b~gtacnr.net/rules~s~ par rules review karein.</String>
-        <String xml:lang="it-IT">Puoi creare questo contratto di omicidio solo se hai un motivo valido per ~r~uccidere~s~ {0}. Creare contratti di omicidio su giocatori a caso comporterà ad ~r~un tuo ban~s~ per RDM. Ti preghiamo di rivedere le regole su ~b~gtacnr.net/rules~s~.</String>
+        <String xml:lang="it-IT">Puoi creare questo contratto di assassinio solo se hai un motivo valido per ~r~uccidere~s~ {0}. Creare contratti di assassinio su giocatori a caso comporterà ad ~r~un tuo ban~s~ per RDM. Ti preghiamo di rivedere le regole su ~b~gtacnr.net/rules~s~.</String>
         <String xml:lang="de-DE">Du kannst diesen Auftrag nur erteilen, wenn du einen triftigen Grund zum ~r~töten~s~ von {0} hast. Das Erstellen von Mordaufträgen an zufälligen Spielern wird dazu führen, dass ~r~du wegen RDM gebannt wirst~s~. Bitte lies die Regeln unter ~b~gtacnr.net/rules~s~.</String>
         <String xml:lang="ar-001">لا يمكنك إبرام عقد القتل هذا إلا إذا كان لديك سبب وجيه لـ ~r~قتل~s~ {0}. إنشاء عقود قتل علي لاعبين عشوائيين سيؤدي الي ~r~حظرك من السيرفر~s~. يرجى مراجعة القواعد في ~b~gtacnr.net/rules~s~.</String>
         <String xml:lang="lv-LV">Jūs varat izveidot šo kontraktu tikai ja jums ir derīgs iemesls ~r~nogalināt~s~ {0}. Kontraktu izveidošana uz nejaušiem spēlētājiem rezultēs ~r~jūsu konta bloķešanā~s~ par RDM. Lūdzu izskatiet noteikumus vietnē ~b~gtacnr.net/rules~s~.</String>
@@ -3475,7 +3463,7 @@
         <String xml:lang="fr-FR">{0} a placé un contrat de ~r~{1} ~s~sur toi.</String>
         <String xml:lang="id-ID">{0} telah menaruh kontrak bunuh kepadamu dengan nilai ~r~{1}~s~.</String>
         <String xml:lang="hi-Latn">{0} ne aap par ek ~r~{1} ~s~hit contract lagaya hai.</String>
-        <String xml:lang="it-IT">{0} ha creato un contratto di omicidio di ~r~{1} ~s~su di te.</String>
+        <String xml:lang="it-IT">{0} ha creato un contratto di assassinio di ~r~{1} ~s~su di te.</String>
         <String xml:lang="de-DE">{0} hat einen ~r~{1}~s~-Auftrag für dich angesetzt.</String>
         <String xml:lang="ar-001">لقد قام {0} بإبرام ~r~{1} ~s~عقد قتل عليك.</String>
         <String xml:lang="lv-LV">{0} izveidoja ~r~{1} ~s~kontraktu uz jums.</String>
@@ -3509,12 +3497,20 @@
     <!-- Arms Dealer Job -->
     <Entry Id="menu_arms_dealer_title">
         <String xml:lang="en-US">Arms Dealer</String>
-        <String xml:lang="hi-Latn">Arms Dealer</String>
+        <String xml:lang="it-IT">Trafficante d'Armi</String>
         <String xml:lang="nl-NL">Wapenhandelaar</String>
-        <String xml:lang="lv-LV">Ieroču Tirgotājs</String>
+        <String xml:lang="ar-001">تاجر أسلحة</String>
         <String xml:lang="de-DE">Waffenhändler</String>
         <String xml:lang="es-ES">Traficante de armas</String>
         <String xml:lang="pt-BR">Traficante de armas</String>
+        <String xml:lang="pl-PL">Handlarz Bronią</String>
+        <String xml:lang="th-TH">พ่อค้าอาวุธ</String>
+        <String xml:lang="zh-Hant">武裝賣家</String>
+        <String xml:lang="fr-FR">Marchand d'armes</String>
+        <String xml:lang="tr-TR">Silah Tüccarı</String>
+        <String xml:lang="hi-Latn">Hathiyaar Dealer</String>
+        <String xml:lang="id-ID">Penjual Senjata</String>
+        <String xml:lang="lv-LV">Ieroču Tirgotājs</String>
     </Entry>
 
     <Entry Id="menu_arms_dealer_calls_description">
