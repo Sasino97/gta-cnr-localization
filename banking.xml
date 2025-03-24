@@ -644,6 +644,12 @@
         <String xml:lang="it-IT">Tasso d'interesse giornaliero</String>
     </Entry>
 
+    <!-- {0} = Formatted amount -->
+    <Entry Id="bank_interest_received">
+        <String xml:lang="en-US">You have received ~g~{0} ~s~in interest from ~b~Fleeca Bank~s~.</String>
+        <String xml:lang="it-IT">Hai ricevuto ~g~{0} ~s~di interessi da ~b~Banca Fleeca~s~.</String>
+    </Entry>
+
     <Entry Id="menu_bank_deposit">
         <String xml:lang="en-US">Deposit</String>
         <String xml:lang="it-IT">Versamento</String>
@@ -682,6 +688,20 @@
     <Entry Id="menu_bank_transfer_reason">
         <String xml:lang="en-US">Enter the reason of the transfer.</String>
         <String xml:lang="it-IT">Inserisci il motivo del bonifico.</String>
+    </Entry>
+
+    <!-- {0} = Formatted amount -->
+    <!-- {1} = Player (Id) -->
+    <Entry Id="menu_bank_transfer_successful">
+        <String xml:lang="en-US">You have transfered ~g~{0} ~s~to {1}'s checking account.</String>
+        <String xml:lang="it-IT">Hai trasferito ~g~{0} ~s~sul conto corrente di {1}.</String>
+    </Entry>
+
+    <!-- {0} = Player (Id) -->
+    <!-- {1} = Formatted amount -->
+    <Entry Id="menu_bank_transfer_received">
+        <String xml:lang="en-US">{0} has transfered ~g~{1} ~s~to your checking account for ~b~"{2}"~s~.</String>
+        <String xml:lang="it-IT">{0} ha trasferito ~g~{1} ~s~sul tuo conto corrente per ~b~"{2}"~s~.</String>
     </Entry>
 
     <!-- History of bank transactions, obviously. It's NOT history as in "Roman empire history" -->
@@ -730,6 +750,12 @@
     <Entry Id="menu_bank_history_sub">
         <String xml:lang="en-US">Recent transactions</String>
         <String xml:lang="it-IT">Transazioni recenti</String>
+    </Entry>
+
+    <!-- Page number counter -->
+    <Entry Id="menu_bank_history_pre">
+        <String xml:lang="en-US">PAGE {0}</String>
+        <String xml:lang="it-IT">PAGINA {0}</String>
     </Entry>
 
     <Entry Id="menu_bank_loan">
