@@ -6668,23 +6668,23 @@
     </Entry>
     
     <!-- Jewelry Robbery -->
-    <Entry Id="jewelry_cannot_be_robbed">
+    <Entry Id="jewelry_robbery_not_ideal">
         <String xml:lang="en-US">This is not the ideal way to rob the ~b~jewelry store~s~. Keep exploring the area, and you might find something.</String>
     </Entry>
     
-    <Entry Id="jewelry_hint_1">
+    <Entry Id="jewelry_robbery_hint_1">
         <String xml:lang="en-US">What will you find ~b~up there~s~?</String>
     </Entry>
     
-    <Entry Id="jewelry_hint_2">
+    <Entry Id="jewelry_robbery_hint_2">
         <String xml:lang="en-US">Hey, that's the ~b~jewelry store~s~'s roof over there.</String>
     </Entry>
     
-    <Entry Id="jewelry_hint_3">
+    <Entry Id="jewelry_robbery_hint_3">
         <String xml:lang="en-US">Look at that, it's the ~y~air vent ~s~of the ~b~jewelry store~s~.</String>
     </Entry>
     
-    <Entry Id="jewelry_hint_4">
+    <Entry Id="jewelry_robbery_hint_4">
         <String xml:lang="en-US">This seems like the perfect throwing spot... Do you have ~y~tear gas~s~?</String>
     </Entry>
     
@@ -6692,15 +6692,19 @@
         <String xml:lang="en-US">~r~The jewelry store robbery is already in progress.</String>
     </Entry>
     
+    <!-- {0} = Minutes -->
+    <!-- {1} = Seconds -->
     <Entry Id="jewelry_robbery_cooldown">
         <String xml:lang="en-US">~r~The jewelry store robbery cannot be started for the next ~s~{0} minutes ~r~and ~s~{1} seconds~r~.</String>
     </Entry>
     
+    <!-- {0} = Number of required cops -->
     <Entry Id="jewelry_robbery_not_enough_cops">
         <String xml:lang="en-US">You can't rob the ~b~jewelry store ~s~when there are less than ~b~{0} cops ~s~online.</String>
     </Entry>
     
     <!-- Example: you can't rob the jewelry store before Sunday 10:00 -->
+    <!-- Week days are translated in main.xml -->
     <Entry Id="jewelry_robbery_early">
         <String xml:lang="en-US">You can't rob the ~b~jewelry store ~s~before ~y~{0}~s~.</String>
     </Entry>
@@ -6728,10 +6732,6 @@
         <String xml:lang="en-US">ALARM</String>
     </Entry>
     
-    <Entry Id="jewelry_robbery_timer_bar_gas">
-        <String xml:lang="en-US">GAS</String>
-    </Entry>
-    
     <!-- This will show up at the bottom right as a hint. For example "[B] Break" -->
     <Entry Id="jewelry_robbery_instruction_break">
         <String xml:lang="en-US">Break</String>
@@ -6753,7 +6753,7 @@
         <String xml:lang="en-US">You ~g~successfully ~s~broke the ~b~glass~s~.</String>
     </Entry>
 
-    <!-- {0} is a list of items, for example: "You stole 1 Silver Watch, 2 Gold Necklace."-->
+    <!-- {0} is a LIST of items, for example: "You stole 1 Silver Watch, 2 Gold Necklace."-->
     <Entry Id="jewelry_robbery_stole_items">
         <String xml:lang="en-US">You stole {0}.</String>
     </Entry>
@@ -6767,6 +6767,7 @@
         <String xml:lang="en-US">You went far enough from the ~b~jewelry store~s~. Now go to a ~r~hideout ~s~to finish the robbery~s~.</String>
     </Entry>
     
+    <!-- {0} = Number of available hideouts. Example: 4 -->
     <Entry Id="jewelry_robbery_hideouts_available">
         <String xml:lang="en-US">You have ~y~{0} ~s~suitable ~r~hideouts~s~.</String>
     </Entry>
@@ -6788,7 +6789,7 @@
     </Entry>
 
     <Entry Id="jewelry_robbery_no_items_taken">
-        <String xml:lang="en-US">~r~You haven't taken any items from the jewelry store.</String>
+        <String xml:lang="en-US">~r~You haven't stolen any items from the jewelry store.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_property_owner_offline">
@@ -6801,5 +6802,26 @@
     
     <Entry Id="jewelry_robbery_respawned">
         <String xml:lang="en-US">You ~r~died ~s~and you failed the ~b~jewelry store robbery~s~.</String>
+    </Entry>
+
+    <!-- {0} = Amount of items stolen. Example: 16 -->
+    <Entry Id="jewelry_robbery_success">
+        <String xml:lang="en-US">~g~Robbery completed! ~s~You successfully stole ~y~{0} items ~s~from the ~b~jewelry store~s~.</String>
+    </Entry>
+
+    <!-- {0} = Amount of items stolen. -->
+    <!-- {1} = Name of the owner of the property/hideout/warehouse -->
+    <Entry Id="jewelry_robbery_success_others_hideout">
+        <String xml:lang="en-US">~g~Robbery completed! ~s~You successfully stole ~y~{0} items ~s~from the ~b~jewelry store ~s~and stored them in {1}'s property.</String>
+    </Entry>
+
+    <Entry Id="jewelry_robbery_success_with_error">
+        <String xml:lang="en-US">~o~Robbery completed with an error: ~s~some items were not received likely due to ~r~insufficient space ~s~in the property.</String>
+    </Entry>
+    
+    <!-- {0} = Name of the player who completed the robbery -->
+    <!-- {1} = Amount of items stolen. -->
+    <Entry Id="jewelry_robbery_success_global_notification">
+        <String xml:lang="en-US">(C){0}(/C) robbed (C){1} jewels(/C) from the jewelry store!</String>
     </Entry>
 </Entries>
