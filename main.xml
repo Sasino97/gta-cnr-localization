@@ -1673,4 +1673,31 @@
         <String xml:lang="lv-LV">{0} pieņēma jūsu nosūtīto ~y~pozīciju~s~!</String>
         <String xml:lang="hi-Latn">{0} ne aapki ~y~location~s~ accept ki!</String>
     </Entry>
+
+    <Entry Id="redzone_vote_started">
+        <String xml:lang="en-US">Redzone voting started!</String>
+    </Entry>
+
+    <!-- {0} = Number of available options (default is 3, might change in the future) -->
+    <Entry Id="redzone_vote_instructions">
+        <String xml:lang="en-US">Enter (C)/redzone-vote [1-{0}](/C) to cast your vote.</String>
+    </Entry>
+
+    <Entry Id="redzone_vote_results">
+        <String xml:lang="en-US">Redzone voting results:</String>
+    </Entry>
+
+    <!-- This is the same as the next, but the next one is pluralized -->
+    <Entry Id="redzone_vote_result_count_1">
+        <String xml:lang="en-US">1 vote</String>
+    </Entry>
+
+    <!-- {0} = Number of votes -->
+    <Entry Id="redzone_vote_result_count_n">
+        <String xml:lang="en-US">{0} votes</String>
+    </Entry>
+
+    <Entry Id="redzone_vote_result_no_votes">
+        <String xml:lang="en-US">⚠️ No votes cast.</String>
+    </Entry>
 </Entries>
