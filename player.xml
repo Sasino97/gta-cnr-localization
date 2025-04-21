@@ -251,6 +251,7 @@
         <String xml:lang="hi-Latn">Abhi ka redzone ~r~{0}~s~ hai.</String>
     </Entry>
 
+    <!-- {0} = time string. For example "in 5 minutes". This string will be made translatable too in main.xml later -->
     <Entry Id="redzone_will_change">
         <String xml:lang="en-US">(C)Redzones:(/C) the active redzone will change ~y~{0}~s~.</String>
         <String xml:lang="lv-LV">(C)Sarkanās zonas:(/C) aktīva sarkanā zona nomainīsies ~y~{0}~s~.</String>
@@ -268,6 +269,37 @@
         <String xml:lang="de-DE">~r~Rote Zone wurde geändert</String>
         <String xml:lang="tr-TR">~r~Kırmızı bölge değişti</String>
         <String xml:lang="hi-Latn">~r~Redzone change ho gaya</String>
+    </Entry>
+
+    <Entry Id="redzone_vote_started">
+        <String xml:lang="en-US">Redzone voting started!</String>
+    </Entry>
+
+    <!-- {0} = Number of available options (default is 3, might change in the future) -->
+    <Entry Id="redzone_vote_instructions">
+        <String xml:lang="en-US">Enter (C)/redzone-vote [1-{0}](/C) to cast your vote.</String>
+    </Entry>
+
+    <Entry Id="redzone_vote_results">
+        <String xml:lang="en-US">Redzone voting results:</String>
+    </Entry>
+
+    <!-- This is the same as the next, but the next one is pluralized -->
+    <Entry Id="redzone_vote_result_count_1">
+        <String xml:lang="en-US">1 vote</String>
+    </Entry>
+
+    <!-- {0} = Number of votes -->
+    <Entry Id="redzone_vote_result_count_n">
+        <String xml:lang="en-US">{0} votes</String>
+    </Entry>
+
+    <Entry Id="redzone_vote_result_no_votes">
+        <String xml:lang="en-US">⚠️ No votes cast.</String>
+    </Entry>
+
+    <Entry Id="redzone_vote_reminder">
+        <String xml:lang="en-US">Don't forget to vote for the next ~r~redzone~s~!</String>
     </Entry>
 
     <!-- ========================= -->
