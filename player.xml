@@ -188,15 +188,15 @@
         <String xml:lang="hi-Latn">Iss zone mein ~b~police officers ~s~aur ~p~paramedics ~s~ko maarne par inaam milega.</String>
     </Entry>
 
-    
+    <!-- {0} = Name of the redzone -->
     <Entry Id="redzone_announcement">
-        <String xml:lang="en-US">(C)Redzones:(/C) the active redzone is now ~r~(C){0}(/C)~s~.</String>
-        <String xml:lang="nl-NL">(C)Rode zone:(/C) de actieve rode zone is nu ~r~(C){0}(/C)~s~.</String>
-        <String xml:lang="fr-FR">(C)Zones rouges:(/C) la zone rouge active est maintenant à ~r~(C){0}(/C)~s~.</String>
-        <String xml:lang="lv-LV">(C)Sarkanā zona:(/C) aktīva sarkanā zona tagad ir ~r~(C){0}(/C)~s~.</String>
-        <String xml:lang="de-DE">(C)Rote Zone:(/C) die aktuelle Rote Zone ist bei ~r~(C){0}(/C)~s~.</String>
-        <String xml:lang="tr-TR">(C)Kırmızı alanlar:(/C) şu anda aktif olan kırmızı bölge ~r~(C){0}(/C)~s~.</String>
-        <String xml:lang="hi-Latn">(C)Redzones:(/C) abhi ka active redzone ~r~(C){0}(/C) ~s~hai.</String>
+        <String xml:lang="en-US">The active redzone is now ~r~{0}~s~.</String>
+        <String xml:lang="nl-NL">De actieve rode zone is nu ~r~{0}~s~.</String>
+        <String xml:lang="fr-FR">La zone rouge active est maintenant à ~r~{0}~s~.</String>
+        <String xml:lang="lv-LV">Aktīva sarkanā zona tagad ir ~r~{0}~s~.</String>
+        <String xml:lang="de-DE">Die aktuelle Rote Zone ist bei ~r~{0}~s~.</String>
+        <String xml:lang="tr-TR">Şu anda aktif olan kırmızı bölge ~r~{0}~s~.</String>
+        <String xml:lang="hi-Latn">Abhi ka active redzone ~r~{0} ~s~hai.</String>
     </Entry>
     
     <Entry Id="redzone_announcement_cop">
@@ -207,7 +207,6 @@
         <String xml:lang="de-DE">Verhaftet und tötet Verbrecher in roten Zonen für einen 1,5x Bonus.</String>
         <String xml:lang="tr-TR">1.5 kat bonus için kırmızı bölgelerdeki suçluları tutuklayın ve yakalayın.</String>
         <String xml:lang="hi-Latn">Redzones mein criminals ko pakdo ya maaro, 1.5x bonus ke liye.</String>
-
     </Entry>
     
     <Entry Id="redzone_announcement_ems">
@@ -221,7 +220,7 @@
     </Entry>
     
     <Entry Id="redzone_announcement_crim">
-        <String xml:lang="en-US">Kill cops and medics inside redzones for a reward.</String>
+        <String xml:lang="en-US">Kill cops and paramedics inside redzones for a reward.</String>
         <String xml:lang="nl-NL">Vermoord politieagenten en ambulanciers binnen in rode zones voor een beloning.</String>
         <String xml:lang="fr-FR">Tuer des policiers et des ambulanciers dans les zones rouges pour obtenir une récompense.</String>
         <String xml:lang="lv-LV">Nogaliniet policistus un ārstus sarkanajās zonās priekš atlīdzības.</String>
