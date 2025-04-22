@@ -19,7 +19,7 @@
     </Entry>
 
     <Entry Id="gun_free_zone_entered">
-        <String xml:lang="en-US">~y~Warning! ~s~You just entered a ~g~gun-free zone~s~. Civilians can't use firearms here.</String>
+        <String xml:lang="en-US">~y~Warning! ~s~You just entered a ~g~safezone~s~. Civilians can't use firearms here.</String>
         <String xml:lang="nl-NL">~y~Waarschuwing! ~s~Je bent zojuist een ~g~wapen-vrije zone~s~ betreden. Burgers kunnen hier geen vuurwapens gebruiken.</String>
         <String xml:lang="fr-FR">~y~Avertissement! ~s~Tu viens d'entrer dans une ~g~zone interdite aux armes à feu~s~. Les civils ne peuvent pas utiliser d'armes à feu ici.</String>
         <String xml:lang="it-IT">~y~Attenzione! ~s~Sei entrato in una ~g~zona senza armi~s~. I civili non possono usare le armi da fuoco qui.</String>
@@ -30,13 +30,13 @@
         <String xml:lang="ar-001">~y~تحذير! ~s~لقد دخلت للتو إلى ~g~منطقة خالية من الأسلحة~s~. لا يمكن للمدنيين استخدام الأسلحة النارية هنا.</String>
         <String xml:lang="th-TH">~y~คำเตือน! ~s~คุณเพิ่งเข้าสู่ ~g~เขตปลอดปืน~s~ พลเรือนไม่สามารถใช้อาวุธปืนได้ที่นี่</String>
         <String xml:lang="id-ID">~y~Peringatan! ~s~Anda telah memasuki ~g~zona bebas senjata~s~. Warga tidak dapat menggunakan senjata api disini.</String>
-        <String xml:lang="hi-Latn">~y~Warning! ~s~Aap bas ek ~g~gun-free zone ~s~enter kiye hain. Civilians yaha bandookon ka istemaal nahi kar sakte.</String>
+        <String xml:lang="hi-Latn">~y~Warning! ~s~Aap bas ek ~g~safezone ~s~enter kiye hain. Civilians yaha bandookon ka istemaal nahi kar sakte.</String>
         <String xml:lang="lv-LV">~y~Brīdinājums! ~s~Jūs ienācāt ~g~gun-free zonā~s~. Civilie nevar izmantot ieročus šeit.</String>
         <String xml:lang="tr-TR">~y~Dikkat! ~s~Az önce a ~g~silahsız bölge~s~ye giriş yaptın. Burada siviller silah kullanamaz.</String>
     </Entry>
 
     <Entry Id="gun_free_zone_left">
-        <String xml:lang="en-US">You just left the ~g~gun-free zone~s~.</String>
+        <String xml:lang="en-US">You just left the ~g~safezone~s~.</String>
         <String xml:lang="nl-NL">Je bent zojuist de ~g~wapen-vrije zone~s~ verlaten.</String>
         <String xml:lang="fr-FR">Tu viens de quitter la ~g~zone interdite aux armes à feu~s~.</String>
         <String xml:lang="it-IT">Sei appena uscito dalla ~g~zona senza armi~s~.</String>
@@ -47,7 +47,7 @@
         <String xml:lang="ar-001">لقد غادرت للتو ~g~المنطقة الخالية من الأسلحة~s~.</String>
         <String xml:lang="th-TH">คุณเพิ่งออกจาก ~g~เขตปลอดปืน~s~</String>
         <String xml:lang="id-ID">Anda baru saja meninggalkan ~g~zona bebas senjata~s~.</String>
-        <String xml:lang="hi-Latn">Aap bas bahar aaye ~g~gun-free zone ~s~se.</String>
+        <String xml:lang="hi-Latn">Aap bas bahar aaye ~g~safezone ~s~se.</String>
         <String xml:lang="lv-LV">Jus tikko atstājāt ~g~gun-free zonu~s~.</String>
         <String xml:lang="tr-TR">~g~Silahsız bölge~s~yi terk ettin.</String>
     </Entry>
@@ -190,13 +190,13 @@
 
     
     <Entry Id="redzone_announcement">
-        <String xml:lang="en-US">(C)Redzones:(/C) the active redzone is now (C){0}(/C).</String>
-        <String xml:lang="nl-NL">(C)Rode zone:(/C) de actieve rode zone is nu (C){0}(/C).</String>
-        <String xml:lang="fr-FR">(C)Zones rouges:(/C) la zone rouge active est maintenant à (C){0}(/C).</String>
-        <String xml:lang="lv-LV">(C)Sarkanā zona:(/C) aktīva sarkanā zona tagad ir (C){0}(/C).</String>
-        <String xml:lang="de-DE">(C)Rote Zone:(/C) die aktuelle Rote Zone ist bei (C){0}(/C).</String>
-        <String xml:lang="tr-TR">(C)Kırmızı alanlar:(/C) şu anda aktif olan kırmızı bölge (C){0}(/C).</String>
-        <String xml:lang="hi-Latn">(C)Redzones:(/C) abhi ka active redzone (C){0}(/C) hai.</String>
+        <String xml:lang="en-US">(C)Redzones:(/C) the active redzone is now ~r~(C){0}(/C)~s~.</String>
+        <String xml:lang="nl-NL">(C)Rode zone:(/C) de actieve rode zone is nu ~r~(C){0}(/C)~s~.</String>
+        <String xml:lang="fr-FR">(C)Zones rouges:(/C) la zone rouge active est maintenant à ~r~(C){0}(/C)~s~.</String>
+        <String xml:lang="lv-LV">(C)Sarkanā zona:(/C) aktīva sarkanā zona tagad ir ~r~(C){0}(/C)~s~.</String>
+        <String xml:lang="de-DE">(C)Rote Zone:(/C) die aktuelle Rote Zone ist bei ~r~(C){0}(/C)~s~.</String>
+        <String xml:lang="tr-TR">(C)Kırmızı alanlar:(/C) şu anda aktif olan kırmızı bölge ~r~(C){0}(/C)~s~.</String>
+        <String xml:lang="hi-Latn">(C)Redzones:(/C) abhi ka active redzone ~r~(C){0}(/C) ~s~hai.</String>
     </Entry>
     
     <Entry Id="redzone_announcement_cop">
