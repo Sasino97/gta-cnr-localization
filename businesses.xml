@@ -2434,6 +2434,16 @@
         <String xml:lang="tr-TR">~r~STOK TÜKENDİ</String>
         <String xml:lang="zh-Hant">~r~缺貨</String>
     </Entry>
+    
+    <!-- {0} = Amount in stock -->
+    <Entry Id="stp_item_low_stock">
+        <String xml:lang="en-US">~o~Only {0} in stock</String>
+    </Entry>
+
+    <!-- {0} = Amount in stock -->
+    <Entry Id="stp_item_in_stock">
+        <String xml:lang="en-US">~g~{0} in stock</String>
+    </Entry>
 
     <!-- It shows in the menu to sell items to players (for example if you are a drug dealer, doctor or arms dealer)-->
     <!-- when the selected item doesn't have a unit (such as grams, rounds, etc.) -->
