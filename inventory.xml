@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Entries>
+    <Entry Id="inventory_disclaimer">
+        <String xml:lang="en-US">Disclaimer</String>
+        <String xml:lang="it-IT">Disclaimer</String>
+    </Entry>
+    
+    <Entry Id="disclaimer_illegal_drugs">
+        <String xml:lang="en-US">CnR V does not endorse the use of illegal drugs in real life.</String>
+        <String xml:lang="it-IT">CnR V non consiglia l'uso di droghe illegali nella vita reale.</String>
+    </Entry>
+    
+    <Entry Id="disclaimer_prescription_drugs">
+        <String xml:lang="en-US">CnR V does not endorse the abuse of prescription drugs in real life.</String>
+        <String xml:lang="it-IT">CnR V non consiglia l'abuso di farmaci da prescrizione nella vita reale.</String>
+    </Entry>
+    
+    <Entry Id="disclaimer_weed">
+        <String xml:lang="en-US">CnR V does not endorse the use of recreational drugs in real life.</String>
+        <String xml:lang="it-IT">CnR V non consiglia l'uso di droghe leggere nella vita reale.</String>
+    </Entry>
+    
+    <Entry Id="disclaimer_gambling">
+        <String xml:lang="en-US">Gambling is addictive. CnR V does not endorse gambling in real life.</String>
+        <String xml:lang="it-IT">Il gioco d'azzardo dà dipendenza. CnR V non consiglia il gioco d'azzardo nella vita reale.</String>
+    </Entry>
+    
+    <Entry Id="disclaimer_tobacco">
+        <String xml:lang="en-US">Tobacco contains harmful and addictive substances. CnR V does not endorse the use of tobacco in real life.</String>
+        <String xml:lang="it-IT">Il tabacco contiene sostanze nocive che danno dipendenza. CnR V non consiglia l'uso di tabacco nella vita reale.</String>
+    </Entry>
+    
+    <Entry Id="disclaimer_vaping">
+        <String xml:lang="en-US">Vaping is harmful and addictive. CnR V does not endorse vaping in real life.</String>
+        <String xml:lang="it-IT">Svapare nuoce e dà dipendenza. CnR V non consiglia l'uso di sigarette elettroniche nella vita reale.</String>
+    </Entry>
+    
+    <Entry Id="disclaimer_alcohol">
+        <String xml:lang="en-US">Alcohol is an addictive substance and causes many direct and indirect deaths. CnR V does not promote the use of alcohol.</String>
+        <String xml:lang="it-IT">L'alcol è una sostanza che crea dipendenza e causa svariate morti dirette e indirette. CnR V non consiglia l'uso di alcol.</String>
+    </Entry>
+
+    <Entry Id="item_armor_light">
+        <String xml:lang="en-US">Light Armor</String>
+        <String xml:lang="it-IT">Giubbotto leggero</String>
+    </Entry>
+    
+    <Entry Id="item_armor_light_desc">
+        <String xml:lang="en-US">Restores your body armor by 25%</String>
+        <String xml:lang="it-IT">Ripristina la tua armatura del 25%</String>
+    </Entry>
+
+    <Entry Id="item_armor_standard">
+        <String xml:lang="en-US">Standard Armor</String>
+        <String xml:lang="it-IT">Giubbotto standard</String>
+    </Entry>
+    
+    <Entry Id="item_armor_standard_desc">
+        <String xml:lang="en-US">Restores your body armor by 50%</String>
+        <String xml:lang="it-IT">Ripristina la tua armatura del 50%</String>
+    </Entry>
+
+    <Entry Id="item_armor_heavy">
+        <String xml:lang="en-US">Heavy Armor</String>
+        <String xml:lang="it-IT">Giubbotto pesante</String>
+    </Entry>
+    
+    <Entry Id="item_armor_heavy_desc">
+        <String xml:lang="en-US">Completely restores your body armor</String>
+        <String xml:lang="it-IT">Ripristina completamente la tua armatura</String>
+    </Entry>
+
+    <Entry Id="item_medkit">
+        <String xml:lang="en-US">Medkit</String>
+        <String xml:lang="it-IT">Kit medico</String>
+    </Entry>
+    
+    <Entry Id="item_medkit_desc">
+        <String xml:lang="en-US">Completely restores your health</String>
+        <String xml:lang="it-IT">Ripristina completamente la tua salute</String>
+    </Entry>
+
+    <Entry Id="item_bandage">
+        <String xml:lang="en-US">Bandage</String>
+        <String xml:lang="it-IT">Benda</String>
+    </Entry>
+    
+    <Entry Id="item_bandage_desc">
+        <String xml:lang="en-US">Restores your health by 20%, up to 80%</String>
+        <String xml:lang="it-IT">Ripristina la tua salute del 20%, fino all'80%</String>
+    </Entry>
+
+    <Entry Id="item_curekit">
+        <String xml:lang="en-US">Treatment Kit</String>
+        <String xml:lang="it-IT">Kit di trattamento</String>
+    </Entry>
+    
+    <Entry Id="item_curekit_desc">
+        <String xml:lang="en-US">A kit for treating any disease; for use by medics only</String>
+        <String xml:lang="it-IT">Un kit per trattare ogni malattia; riservato esclusivamente all'uso da parte dei medici</String>
+    </Entry>
+
+    <Entry Id="item_coke">
+        <String xml:lang="en-US">Cocaine</String>
+        <String xml:lang="it-IT">Cocaina</String>
+    </Entry>
+    
+    <Entry Id="item_coke_desc">
+        <String xml:lang="en-US">Increases your stamina and speed.</String>
+        <String xml:lang="it-IT">Aumenta la tua resistenza e velocità.</String>
+    </Entry>
+
+    <Entry Id="item_crack">
+        <String xml:lang="en-US">Crack Cocaine</String>
+        <String xml:lang="it-IT">Crack</String>
+    </Entry>
+    
+    <Entry Id="item_crack_desc">
+        <String xml:lang="en-US">Increases your stamina and speed significantly. Effects last less than those of powder cocaine.</String>
+        <String xml:lang="it-IT">Aumenta la tua resistenza e velocità significativamente. Gli effetti durano di meno rispetto a quelli della cocaina in polvere.</String>
+    </Entry>
+
+    <Entry Id="item_heroin">
+        <String xml:lang="en-US">Heroin</String>
+        <String xml:lang="it-IT">Eroina</String>
+    </Entry>
+    
+    <Entry Id="item_heroin_desc">
+        <String xml:lang="en-US">Gradually restores your health, but slows down your movement.</String>
+        <String xml:lang="it-IT">Ripristina la tua salute gradualmente, ma rallenta i tuoi movimenti.</String>
+    </Entry>
+
+    <Entry Id="item_meth">
+        <String xml:lang="en-US">Meth</String>
+        <String xml:lang="it-IT">Metanfetamina</String>
+    </Entry>
+    
+    <Entry Id="item_meth_desc">
+        <String xml:lang="en-US">Increases your resistance to damage and your physical strength.</String>
+        <String xml:lang="it-IT">Aumenta la tua resistenza al danno e la tua forza fisica.</String>
+    </Entry>
+
+    <Entry Id="item_blue_meth">
+        <String xml:lang="en-US">Blue Meth</String>
+        <String xml:lang="it-IT">Metanfetamina blu</String>
+    </Entry>
+    
+    <Entry Id="item_blue_meth_desc">
+        <String xml:lang="en-US">A rare but extremely pure form of meth that significantly increases your resistance to damage and physical strength.</String>
+        <String xml:lang="it-IT">Una rara ma estremamente pura forma di metanfetamina che aumenta la tua resistenza al danno e forza fisica significamente.</String>
+    </Entry>
+
+    <Entry Id="item_lsd">
+        <String xml:lang="en-US">LSD</String>
+        <String xml:lang="it-IT">LSD</String>
+    </Entry>
+    
+    <Entry Id="item_lsd_desc">
+        <String xml:lang="en-US">Gives you crazy hallucinations.</String>
+        <String xml:lang="it-IT">Ti dà allucinazioni pazzesche.</String>
+    </Entry>
+
+    <Entry Id="item_morphine">
+        <String xml:lang="en-US">Morphine</String>
+        <String xml:lang="it-IT">Morfina</String>
+    </Entry>
+
+    <Entry Id="item_codeine">
+        <String xml:lang="en-US">Codeine</String>
+        <String xml:lang="it-IT">Codeina</String>
+    </Entry>
+
+    <Entry Id="item_fentanyl">
+        <String xml:lang="en-US">Fentanyl</String>
+        <String xml:lang="it-IT">Fentanil</String>
+    </Entry>
+
+    <Entry Id="item_naloxone">
+        <String xml:lang="en-US">Naloxone</String>
+        <String xml:lang="it-IT">Naloxone</String>
+    </Entry>
+    
+    <Entry Id="item_naloxone_desc">
+        <String xml:lang="en-US">Antidote for drug overdoses. You can only use it on other players.</String>
+        <String xml:lang="it-IT">Antidoto per overdose di droga. Puoi usarlo solamente su altri giocatori.</String>
+    </Entry>
+    
+    <Entry Id="item_weed_desc">
+        <String xml:lang="en-US">Gets you high and applies a vision filter but slows you down if taken in high amounts.</String>
+        <String xml:lang="it-IT">Ti fa sballare e applica un filtro visivo ma ti rallenta se assunta in grandi quantità.</String>
+    </Entry>
+
+    <Entry Id="item_atm_hack">
+        <String xml:lang="en-US">ATM Hacking Device</String>
+        <String xml:lang="it-IT">Dispositivo di hacking bancomat</String>
+    </Entry>
+    
+    <Entry Id="item_atm_hack_desc">
+        <String xml:lang="en-US">A single-use device that can compromise ATM systems.</String>
+        <String xml:lang="it-IT">Un dispositivo monouso che può compromettere i sistemi bancomat.</String>
+    </Entry>
+
+    <Entry Id="item_c4_bomb_5">
+        <String xml:lang="en-US">C-4 Bomb (5kg)</String>
+        <String xml:lang="it-IT">Bomba C-4 (5kg)</String>
+    </Entry>
+    
+    <Entry Id="item_c4_bomb_5_desc">
+        <String xml:lang="en-US">A bomb with 5 kilos of C-4. It can only be planted in vehicles.</String>
+        <String xml:lang="it-IT">Una bomba con 5 chili di C-4. Può essere piazzata solo nei veicoli.</String>
+    </Entry>
+
+    <Entry Id="item_c4_bomb_10">
+        <String xml:lang="en-US">C-4 Bomb (10kg)</String>
+        <String xml:lang="it-IT">Bomba C-4 (10kg)</String>
+    </Entry>
+    
+    <Entry Id="item_c4_bomb_10_desc">
+        <String xml:lang="en-US">A bomb with 10 kilos of C-4. It can only be planted in vehicles.</String>
+        <String xml:lang="it-IT">Una bomba con 10 chili di C-4. Può essere piazzata solo nei veicoli.</String>
+    </Entry>
+
+    <!-- Notice: feel free to name the following scratch cards a little bit differently if the 
+    direct English translations sounds weird or a different one makes more sense in your language. -->
+    <Entry Id="item_scratch_card_1">
+        <String xml:lang="en-US">Instant Cash</String>
+        <String xml:lang="it-IT">Soldi facili</String>
+    </Entry>
+
+    <Entry Id="item_scratch_card_2">
+        <String xml:lang="en-US">Lucky Scratch</String>
+        <String xml:lang="it-IT">Grattino della fortuna</String>
+    </Entry>
+
+    <Entry Id="item_scratch_card_3">
+        <String xml:lang="en-US">Magic Numbers</String>
+        <String xml:lang="it-IT">Mago dei numeri</String>
+    </Entry>
+
+    <Entry Id="item_scratch_card_4">
+        <String xml:lang="en-US">Las Venturas Jackpot</String>
+        <String xml:lang="it-IT">Jackpot di Las Venturas</String>
+    </Entry>
+
+    <Entry Id="item_scratch_card_5">
+        <String xml:lang="en-US">Millionaire Shortcut</String>
+        <String xml:lang="it-IT">Diventa milionario</String>
+    </Entry>
+    
+    <!-- {0} = the max win amount -->
+    <Entry Id="item_scratch_card_desc">
+        <String xml:lang="en-US">Scratch this card and win up to ~g~{0}~s~!</String>
+        <String xml:lang="it-IT">Gratta questo biglietto e vinci fino a ~g~{0}~s~!</String>
+    </Entry>
+
+    <Entry Id="item_engine_kit">
+        <String xml:lang="en-US">Engine Repair Kit</String>
+        <String xml:lang="it-IT">Kit di riparazione motore</String>
+    </Entry>
+    
+    <Entry Id="item_engine_kit_desc">
+        <String xml:lang="en-US">Repair the engine of a car, truck or motorcycle on the go.</String>
+        <String xml:lang="it-IT">Ripara il motore di un'auto, camion o motocicletta strada facendo.</String>
+    </Entry>
+
+    <Entry Id="item_tire_kit">
+        <String xml:lang="en-US">Tire Repair Kit</String>
+        <String xml:lang="it-IT">Kit di riparazione pneumatici</String>
+    </Entry>
+    
+    <Entry Id="item_tire_kit_desc">
+        <String xml:lang="en-US">Repair a vehicle's flat tires.</String>
+        <String xml:lang="it-IT">Ripara gli pneumatici bucati di un veicolo.</String>
+    </Entry>
+    
+    <Entry Id="item_power_saw">
+        <String xml:lang="en-US">Power Saw</String>
+        <String xml:lang="it-IT">Sega elettrica</String>
+    </Entry>
+    
+    <Entry Id="item_power_saw_desc">
+        <String xml:lang="en-US">Cut off vehicle parts. There's a 20% chance of it breaking after each use.</String>
+        <String xml:lang="it-IT">Taglia parti di veicoli. C'è una probabilità del 20% che si rompa dopo ogni uso.</String>
+    </Entry>
+    
+    <Entry Id="item_cleaning_kit">
+        <String xml:lang="en-US">Vehicle Cleaning Kit</String>
+        <String xml:lang="it-IT">Kit di pulizia veicolo</String>
+    </Entry>
+    
+    <Entry Id="item_cleaning_kit_desc">
+        <String xml:lang="en-US">Cleans a vehicle.</String>
+        <String xml:lang="it-IT">Pulisce un veicolo</String>
+    </Entry>
+    
+    <Entry Id="item_modding_kit">
+        <String xml:lang="en-US">Vehicle Modding Kit</String>
+        <String xml:lang="it-IT">Kit di modifica veicolo</String>
+    </Entry>
+    
+    <Entry Id="item_modding_kit_desc">
+        <String xml:lang="en-US">Replaces a vehicle's custom parts.</String>
+        <String xml:lang="it-IT">Sostituisce parti di un veicolo.</String>
+    </Entry>
+    
+    <Entry Id="item_tint_kit">
+        <String xml:lang="en-US">Window Tint Kit</String>
+        <String xml:lang="it-IT">Kit per colorazione finestrini</String>
+    </Entry>
+    
+    <Entry Id="item_tint_kit_desc">
+        <String xml:lang="en-US">Apply tint to vehicle windows.</String>
+        <String xml:lang="it-IT">Applica colorazione ai finestrini di un veicolo.</String>
+    </Entry>
+    
+    <Entry Id="item_paint">
+        <String xml:lang="en-US">Paint</String>
+        <String xml:lang="it-IT">Vernice</String>
+    </Entry>
+    
+    <Entry Id="item_paint_desc">
+        <String xml:lang="en-US">Paint a vehicle.</String>
+        <String xml:lang="it-IT">Rivernicia un veicolo.</String>
+    </Entry>
+    
+    <Entry Id="item_boat_kit">
+        <String xml:lang="en-US">Boat Engine Repair Kit</String>
+        <String xml:lang="it-IT">Kit di riparazione motore di barca</String>
+    </Entry>
+    
+    <Entry Id="item_boat_kit_desc">
+        <String xml:lang="en-US">Repair a broken boat's engine.</String>
+        <String xml:lang="it-IT">Ripara il motore rotto di una barca.</String>
+    </Entry>
+    
+    <Entry Id="item_plane_kit">
+        <String xml:lang="en-US">Plane Engine Repair Kit</String>
+        <String xml:lang="it-IT">Kit di riparazione motore d'aeroplano</String>
+    </Entry>
+    
+    <Entry Id="item_plane_kit_desc">
+        <String xml:lang="en-US">Repair a broken airplane's engine.</String>
+        <String xml:lang="it-IT">Ripara il motore rotto di un aeroplano.</String>
+    </Entry>
+    
+    <Entry Id="item_heli_kit">
+        <String xml:lang="en-US">Helicopter Engine Repair Kit</String>
+        <String xml:lang="it-IT">Kit di riparazione motore d'elicottero</String>
+    </Entry>
+    
+    <Entry Id="item_heli_kit_desc">
+        <String xml:lang="en-US">Repair a broken helicopter's engine.</String>
+        <String xml:lang="it-IT">Ripara il motore rotto di un elicottero.</String>
+    </Entry>
+    
+    <Entry Id="item_cat_converter">
+        <String xml:lang="en-US">Catalytic Converter</String>
+        <String xml:lang="it-IT">Convertitore catalitico</String>
+    </Entry>
+    
+    <Entry Id="item_cat_converter_desc">
+        <String xml:lang="en-US">A catalytic converter stolen from someone's car. You can sell this to scrapyards.</String>
+        <String xml:lang="it-IT">Un convertitore catalitico rubato dall'auto di qualcuno. Puoi venderlo ai depositi rottami.</String>
+    </Entry>
+    
+    <Entry Id="item_car_battery">
+        <String xml:lang="en-US">Car Battery</String>
+        <String xml:lang="it-IT">Batteria d'auto</String>
+    </Entry>
+    
+    <Entry Id="item_car_battery_desc">
+        <String xml:lang="en-US">A battery stolen from someone's car. You can sell this to scrapyards.</String>
+        <String xml:lang="it-IT">Una batteria rubata dall'auto di qualcuno. Puoi venderlo ai depositi rottami.</String>
+    </Entry>
+    
+    <Entry Id="item_car_stereo">
+        <String xml:lang="en-US">Car Stereo</String>
+        <String xml:lang="it-IT">Stereo d'auto</String>
+    </Entry>
+    
+    <Entry Id="item_car_stereo_desc">
+        <String xml:lang="en-US">A stereo stolen from someone's car. You can sell this to scrapyards.</String>
+        <String xml:lang="it-IT">Uno stereo rubato dall'auto di qualcuno. Puoi venderlo ai depositi rottami.</String>
+    </Entry>
+    
+    <Entry Id="item_health_insurance">
+        <String xml:lang="en-US">Health Insurance</String>
+        <String xml:lang="it-IT">Assicurazione sanitaria</String>
+    </Entry>
+    
+    <!-- {0} = % of bill covered. Default: 80% - kept as a variable because it could change in the future -->
+    <!-- {1} = % chance of reject. Default: 10% - kept as a variable because it could change in the future -->
+    <Entry Id="item_health_insurance_desc">
+        <String xml:lang="en-US">Covers {0}% of your hospital bills. It will automatically activate on your next medical bill and last one game day. There's a {1}% chance that the insurance company rejects a claim.</String>
+        <String xml:lang="it-IT">Copre l'{0}% delle tue fatture dell'ospedale. Si attiverà automaticamente con la tua prossima fattura medica e durerà un giorno di gioco. C'è una probabilità del {1}% che la compagnia assicurativa rifiuti un reclamo.</String>
+    </Entry>
+    
+    <Entry Id="item_delivery_insurance">
+        <String xml:lang="en-US">Delivery Insurance</String>
+        <String xml:lang="it-IT">Assicurazione della consegna</String>
+    </Entry>
+    
+    <!-- {0} = % chance of reject. Default: 10% - kept as a variable because it could change in the future -->
+    <Entry Id="item_delivery_insurance_desc">
+        <String xml:lang="en-US">Fully covers the damages in case of loss of goods during a delivery job. Valid for one delivery job. There's a {0}% chance that the insurance company rejects a claim.</String>
+        <String xml:lang="it-IT">Copre tutti i danni in caso di perdita della merce durante un lavoro di consegna. Valido per un lavoro di consegna. C'è una probabilità del {0}% che la compagnia assicurativa rifiuti un reclamo.</String>
+    </Entry>
+    
+    <Entry Id="item_boat_repair_certificate">
+        <String xml:lang="en-US">Boat Repair Certification</String>
+        <String xml:lang="it-IT">Certificato di riparazione barche</String>
+    </Entry>
+    
+    <Entry Id="item_boat_repair_certificate_desc">
+        <String xml:lang="en-US">A certification that allows you to repair boats.</String>
+        <String xml:lang="it-IT">Un certificato che ti permette di riparare barche.</String>
+    </Entry>
+    
+    <Entry Id="item_plane_repair_certificate">
+        <String xml:lang="en-US">Airplane Repair Certification</String>
+        <String xml:lang="it-IT">Certificato di riparazione aeroplani</String>
+    </Entry>
+    
+    <Entry Id="item_plane_repair_certificate_desc">
+        <String xml:lang="en-US">A certification that allows you to repair airplanes.</String>
+        <String xml:lang="it-IT">Un certificato che ti permette di riparare aeroplani.</String>
+    </Entry>
+    
+    <Entry Id="item_heli_repair_certificate">
+        <String xml:lang="en-US">Helicopter Repair Certification</String>
+        <String xml:lang="it-IT">Certificato di riparazione elicotteri</String>
+    </Entry>
+    
+    <Entry Id="item_heli_repair_certificate_desc">
+        <String xml:lang="en-US">A certification that allows you to repair helicopters.</String>
+        <String xml:lang="it-IT">Un certificato che ti permette di riparare elicotteri.</String>
+    </Entry>
+    
+    <Entry Id="item_medical_license">
+        <String xml:lang="en-US">Medical License</String>
+        <String xml:lang="it-IT">Licenza di medicina</String>
+    </Entry>
+    
+    <Entry Id="item_medical_license_desc">
+        <String xml:lang="en-US">A license to practice medicine.</String>
+        <String xml:lang="it-IT">Una licenza che ti permette di praticare la medicina.</String>
+    </Entry>
+    
+    <Entry Id="item_disease_certification">
+        <String xml:lang="en-US">Infectious Disease Certification</String>
+        <String xml:lang="it-IT">Certificato di malattie infettive</String>
+    </Entry>
+    
+    <Entry Id="item_disease_certification_desc">
+        <String xml:lang="en-US">A certification that allows you to treat patients for infectious diseases.</String>
+        <String xml:lang="it-IT">Un certificato che ti permette di trattare i pazienti con malattie infettive.</String>
+    </Entry>
+    
+    <Entry Id="item_lockpick">
+        <String xml:lang="en-US">Lockpick</String>
+        <String xml:lang="it-IT">Grimaldello</String>
+    </Entry>
+    
+    <Entry Id="item_lockpick_desc">
+        <String xml:lang="en-US">Unlocks handcuffs.</String>
+        <String xml:lang="it-IT">Sblocca le manette.</String>
+    </Entry>
+    
+    <Entry Id="item_binoculars">
+        <String xml:lang="en-US">Binoculars</String>
+        <String xml:lang="it-IT">Binocolo</String>
+    </Entry>
+    
+    <Entry Id="item_binoculars_desc">
+        <String xml:lang="en-US">Allows you to view distant areas.</String>
+        <String xml:lang="it-IT">Ti permette di vedere aree distanti.</String>
+    </Entry>
+    
+    <Entry Id="item_lighter">
+        <String xml:lang="en-US">Lighter</String>
+        <String xml:lang="it-IT">Accendino</String>
+    </Entry>
+    
+    <Entry Id="item_lighter_desc">
+        <String xml:lang="en-US">A cheap plastic lighter to light up cigarettes with.</String>
+        <String xml:lang="it-IT">Un accendino di plastica economico per accendere sigarette.</String>
+    </Entry>
+    
+    <Entry Id="item_rolling_papers">
+        <String xml:lang="en-US">Rolling Papers</String>
+        <String xml:lang="it-IT">Cartine</String>
+    </Entry>
+    
+    <Entry Id="item_rolling_papers_desc">
+        <String xml:lang="en-US">Papers to roll joints with.</String>
+        <String xml:lang="it-IT">Cartine per rollare le canne.</String>
+    </Entry>
+    
+    <Entry Id="item_fake_wallet">
+        <String xml:lang="en-US">Fake Wallet</String>
+        <String xml:lang="it-IT">Portafoglio finto</String>
+    </Entry>
+    
+    <Entry Id="item_fake_wallet_desc">
+        <String xml:lang="en-US">An empty wallet that has the chance to fool pickpockets. Each wallet reduces the chance of being pickpocketed by 25%.</String>
+        <String xml:lang="it-IT">Un portafoglio vuoto che ha la possibilità di ingannare i borseggiatori. Ogni portafoglio riduce la possibilità di essere borseggiato del 25%.</String>
+    </Entry>
+    
+    <Entry Id="item_boombox">
+        <String xml:lang="en-US">Boombox</String>
+        <String xml:lang="it-IT">Stereo portatile</String>
+    </Entry>
+    
+    <Entry Id="item_boombox_desc">
+        <String xml:lang="en-US">Play loud music in public.</String>
+        <String xml:lang="it-IT">Riproduci musica ad alto volume in pubblico.</String>
+    </Entry>
+    
+    <Entry Id="item_window_punch">
+        <String xml:lang="en-US">Window Punch Tool</String>
+        <String xml:lang="it-IT">Strumento per punzonatura finestrini</String>
+    </Entry>
+    
+    <Entry Id="item_window_punch_desc">
+        <String xml:lang="en-US">A tool to break car windows.</String>
+        <String xml:lang="it-IT">Uno strumento per rompere i finestrini delle auto.</String>
+    </Entry>
+    
+    <Entry Id="item_spike_strip">
+        <String xml:lang="en-US">Spike Strip</String>
+        <String xml:lang="it-IT">Barriera chiodata</String>
+    </Entry>
+    
+    <Entry Id="item_spike_strip_desc">
+        <String xml:lang="en-US">Place on the road to puncture the tires of the first vehicle that touches it.</String>
+        <String xml:lang="it-IT">Mettila sulla strada per perforare gli pneumatici del primo veicolo che lo tocca.</String>
+    </Entry>
+    
+    <Entry Id="item_water">
+        <String xml:lang="en-US">Drinking Water</String>
+        <String xml:lang="it-IT">Acqua minerale</String>
+    </Entry>
+    
+    <Entry Id="item_spring_water">
+        <String xml:lang="en-US">Spring Water</String>
+        <String xml:lang="it-IT">Acqua di sorgente</String>
+    </Entry>
+    
+    <Entry Id="item_purified_water">
+        <String xml:lang="en-US">Purified Water</String>
+        <String xml:lang="it-IT">Acqua purificata</String>
+    </Entry>
+    
+    <Entry Id="item_milk">
+        <String xml:lang="en-US">Milk</String>
+        <String xml:lang="it-IT">Latte</String>
+    </Entry>
+    
+    <Entry Id="item_orange_juice">
+        <String xml:lang="en-US">Orange Juice</String>
+        <String xml:lang="it-IT">Succo d'arancia</String>
+    </Entry>
+    
+    <Entry Id="item_apple_juice">
+        <String xml:lang="en-US">Apple Juice</String>
+        <String xml:lang="it-IT">Succo di mela</String>
+    </Entry>
+    
+    <Entry Id="item_pineapple_juice">
+        <String xml:lang="en-US">Pineapple Juice</String>
+        <String xml:lang="it-IT">Succo d'ananas</String>
+    </Entry>
+    
+    <Entry Id="item_coffee">
+        <String xml:lang="en-US">Black Coffee</String>
+        <String xml:lang="it-IT">Caffè Americano</String>
+    </Entry>
+    
+    <Entry Id="item_coffee_desc">
+        <String xml:lang="en-US">A standard cup of Americano coffee. Increases your stamina.</String>
+        <String xml:lang="it-IT">Una tazza standard di caffè Americano. Aumenta la tua resistenza.</String>
+    </Entry>
+    
+    <Entry Id="item_latte">
+        <String xml:lang="en-US">Latte</String>
+        <String xml:lang="it-IT">Caffelatte</String>
+    </Entry>
+    
+    <Entry Id="item_latte_desc">
+        <String xml:lang="en-US">A mix of coffee and milk. Increases your stamina.</String>
+        <String xml:lang="it-IT">Una miscela di caffè e latte. Aumenta la tua resistenza.</String>
+    </Entry>
+    
+    <Entry Id="item_espresso">
+        <String xml:lang="en-US">Espresso</String>
+        <String xml:lang="it-IT">Espresso</String>
+    </Entry>
+    
+    <Entry Id="item_espresso_desc">
+        <String xml:lang="en-US">A double shot of strong coffee. Increases your stamina.</String>
+        <String xml:lang="it-IT">Una doppia dose di caffè forte. Aumenta la tua resistenza.</String>
+    </Entry>
+    
+    <Entry Id="item_energy_drink">
+        <String xml:lang="en-US">Junk Energy Drink</String>
+        <String xml:lang="it-IT">Junk Energy Drink</String>
+    </Entry>
+    
+    <Entry Id="item_energy_drink_desc">
+        <String xml:lang="en-US">A can of pure junk. Increases your stamina.</String>
+        <String xml:lang="it-IT">Una lattina di pura spazzatura. Aumenta la tua resistenza.</String>
+    </Entry>
+    
+    <Entry Id="item_vanilla_latte">
+        <String xml:lang="en-US">Vanilla Latte</String>
+        <String xml:lang="it-IT">Caffelatte alla vaniglia</String>
+    </Entry>
+    
+    <Entry Id="item_vanilla_latte_desc">
+        <String xml:lang="en-US">A mix of coffee, milk and vanilla. Increases your stamina.</String>
+        <String xml:lang="it-IT">Una miscela di caffè, latte e vaniglia. Aumenta la tua resistenza.</String>
+    </Entry>
+    
+    <Entry Id="item_caramel_macchiato">
+        <String xml:lang="en-US">Caramel Macchiato</String>
+        <String xml:lang="it-IT">Caffè macchiato al caramello</String>
+    </Entry>
+    
+    <Entry Id="item_caramel_macchiato_desc">
+        <String xml:lang="en-US">A mix of coffee, milk and caramel. Increases your stamina.</String>
+        <String xml:lang="it-IT">Una miscela di caffè, latte e caramello. Aumenta la tua resistenza.</String>
+    </Entry>
+    
+    <Entry Id="item_sandwich">
+        <String xml:lang="en-US">Sandwich</String>
+        <String xml:lang="it-IT">Panino</String>
+    </Entry>
+    
+    <Entry Id="item_baguette_sandwich">
+        <String xml:lang="en-US">Baguette Sandwich</String>
+        <String xml:lang="it-IT">Panino baguette</String>
+    </Entry>
+    
+    <Entry Id="item_bagel">
+        <String xml:lang="en-US">Bagel</String>
+        <String xml:lang="it-IT">Bagel</String>
+    </Entry>
+    
+    <Entry Id="item_croissant">
+        <String xml:lang="en-US">Croissant</String>
+        <String xml:lang="it-IT">Cornetto</String>
+    </Entry>
+    
+    <Entry Id="item_lemon_cake">
+        <String xml:lang="en-US">Lemon Cake</String>
+        <String xml:lang="it-IT">Torta al limone</String>
+    </Entry>
+    
+    <Entry Id="item_muffin">
+        <String xml:lang="en-US">Muffin</String>
+        <String xml:lang="it-IT">Muffin</String>
+    </Entry>
+    
+    <Entry Id="item_burger">
+        <String xml:lang="en-US">Burger</String>
+        <String xml:lang="it-IT">Hamburger</String>
+    </Entry>
+    
+    <Entry Id="item_burger_desc">
+        <String xml:lang="en-US">The classic Burger Shot hamburger. Ingredients: beef, tomato, onion, lettuce and pickles.</String>
+        <String xml:lang="it-IT">Il classico hamburger Burger Shot. Ingredienti: manzo, pomodoro, cipolla, lattuga e sottaceti.</String>
+    </Entry>
+    
+    <Entry Id="item_double_burger">
+        <String xml:lang="en-US">Double Burger</String>
+        <String xml:lang="it-IT">Doppio hamburger</String>
+    </Entry>
+    
+    <Entry Id="item_double_burger_desc">
+        <String xml:lang="en-US">The classic Burger Shot hamburger but with double the amount of beef.</String>
+        <String xml:lang="it-IT">Il classico hamburger Burger Shot ma con doppia porzione di manzo.</String>
+    </Entry>
+    
+    <Entry Id="item_cheeseburger">
+        <String xml:lang="en-US">Cheeseburger</String>
+        <String xml:lang="it-IT">Cheeseburger</String>
+    </Entry>
+    
+    <Entry Id="item_cheeseburger_desc">
+        <String xml:lang="en-US">Ingredients: beef, cheddar cheese, ketchup, mustard and pickles.</String>
+        <String xml:lang="it-IT">Ingredienti: manzo, formaggio cheddar, ketchup, mostarda e sottaceti.</String>
+    </Entry>
+    
+    <Entry Id="item_caesar_salad">
+        <String xml:lang="en-US">Caesar Salad</String>
+        <String xml:lang="it-IT">Caesar salad</String>
+    </Entry>
+    
+    <Entry Id="item_fries">
+        <String xml:lang="en-US">French Fries</String>
+        <String xml:lang="it-IT">Patatine fritte</String>
+    </Entry>
+    
+    <Entry Id="item_seasoned_fries">
+        <String xml:lang="en-US">Seasoned Fries</String>
+        <String xml:lang="it-IT">Patatine condite</String>
+    </Entry>
+    
+    <Entry Id="item_chicken_sandwich">
+        <String xml:lang="en-US">Chicken Sandwich</String>
+        <String xml:lang="it-IT">Panino al pollo</String>
+    </Entry>
+    
+    <Entry Id="item_chicken_nuggets">
+        <String xml:lang="en-US">Chicken Nuggets</String>
+        <String xml:lang="it-IT">Bocconcini di pollo</String>
+    </Entry>
+    
+    <Entry Id="item_chicken_wrap">
+        <String xml:lang="en-US">Chicken Wrap</String>
+        <String xml:lang="it-IT">Involtino di pollo</String>
+    </Entry>
+    
+    <Entry Id="item_taco">
+        <String xml:lang="en-US">Beef Taco</String>
+        <String xml:lang="it-IT">Taco di manzo</String>
+    </Entry>
+    
+    <Entry Id="item_large_taco">
+        <String xml:lang="en-US">Large Beef Taco</String>
+        <String xml:lang="it-IT">Taco di manzo grande</String>
+    </Entry>
+    
+    <Entry Id="item_taco_supreme">
+        <String xml:lang="en-US">Taco Supreme</String>
+        <String xml:lang="it-IT">Taco supremo</String>
+    </Entry>
+    
+    <Entry Id="item_taco_birria">
+        <String xml:lang="en-US">Taco Birria</String>
+        <String xml:lang="it-IT">Taco birria</String>
+    </Entry>
+    
+    <Entry Id="item_burrito">
+        <String xml:lang="en-US">Burrito</String>
+        <String xml:lang="it-IT">Burrito</String>
+    </Entry>
+    
+    <Entry Id="item_quesadilla">
+        <String xml:lang="en-US">Quesadilla</String>
+        <String xml:lang="it-IT">Quesadilla</String>
+    </Entry>
+    
+    <Entry Id="item_nachos">
+        <String xml:lang="en-US">Nachos</String>
+        <String xml:lang="it-IT">Nachos</String>
+    </Entry>
+    
+    <Entry Id="item_noodles">
+        <String xml:lang="en-US">Instant Noodles</String>
+        <String xml:lang="it-IT">Noodle istantanei</String>
+    </Entry>
+    
+    <Entry Id="item_noodles_szechuan">
+        <String xml:lang="en-US">Szechuan Noodles</String>
+        <String xml:lang="it-IT">Noodles del Sichuan</String>
+    </Entry>
+    
+    <Entry Id="item_noodles_ramen">
+        <String xml:lang="en-US">Ramen</String>
+        <String xml:lang="it-IT">Ramen</String>
+    </Entry>
+    
+    <Entry Id="item_noodles_indo">
+        <String xml:lang="en-US">Indonesian Noodles</String>
+        <String xml:lang="it-IT">Noodle Indonesiani</String>
+    </Entry>
+    
+    <Entry Id="item_pizza">
+        <String xml:lang="en-US">Pizza</String>
+        <String xml:lang="it-IT">Pizza</String>
+    </Entry>
+    
+    <Entry Id="item_donut">
+        <String xml:lang="en-US">Donut</String>
+        <String xml:lang="it-IT">Ciambella</String>
+    </Entry>
+    
+    <Entry Id="item_hotdog">
+        <String xml:lang="en-US">Hotdog</String>
+        <String xml:lang="it-IT">Hot dog</String>
+    </Entry>
+    
+    <Entry Id="item_sweet_corn">
+        <String xml:lang="en-US">Sweet Corn</String>
+        <String xml:lang="it-IT">Mais dolce</String>
+    </Entry>
+    
+    <Entry Id="item_cereal">
+        <String xml:lang="en-US">Cereal</String>
+        <String xml:lang="it-IT">Cereali</String>
+    </Entry>
+    
+    <Entry Id="item_white_bread">
+        <String xml:lang="en-US">White Bread</String>
+        <String xml:lang="it-IT">Pane bianco</String>
+    </Entry>
+    
+    <Entry Id="item_apple">
+        <String xml:lang="en-US">Apple</String>
+        <String xml:lang="it-IT">Mela</String>
+    </Entry>
+    
+    <Entry Id="item_orange">
+        <String xml:lang="en-US">Orange</String>
+        <String xml:lang="it-IT">Arancia</String>
+    </Entry>
+    
+    <Entry Id="item_pineapple">
+        <String xml:lang="en-US">Pineapple</String>
+        <String xml:lang="it-IT">Ananas</String>
+    </Entry>
+    
+    <Entry Id="item_date">
+        <String xml:lang="en-US">Date</String>
+        <String xml:lang="it-IT">Dattero</String>
+    </Entry>
+    
+    <Entry Id="item_date_desc">
+        <String xml:lang="en-US">The fruit of the date palm. Quickly regens your health for a short amount of time.</String>
+        <String xml:lang="it-IT">Il frutto della palma da datteri. Ripristina la tua salute rapidamente per un breve periodo di tempo.</String>
+    </Entry>
+</Entries>
