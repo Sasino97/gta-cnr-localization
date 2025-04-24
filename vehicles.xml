@@ -644,12 +644,12 @@
 
     <!-- {0} = Key -->
     <!-- TODO: Change "vehicle menu" to "vehicle dashboard" -->
-    <Entry Id="press_to_open_vehicle_menu">
+    <Entry Id="dashboard_press_to_open">
         <String xml:lang="en-US">Press {0} to access the ~b~vehicle dashboard~s~.</String>
         <String xml:lang="pl-PL">Wciśnij {0} by uzyskać dostęp do ~b~menu pojazdu~s~.</String>
         <String xml:lang="nl-NL">Druk op {0} om het ~b~voertuig menu ~s~te openen.</String>
         <String xml:lang="fr-FR">Appuie sur {0} pour accéder au ~b~menu du véhicule~s~.</String>
-        <String xml:lang="it-IT">Premi {0} per accedere al ~b~menu veicolo~s~.</String>
+        <String xml:lang="it-IT">Premi {0} per accedere al ~b~cruscotto~s~.</String>
         <String xml:lang="es-ES">Pulsa {0} para acceder al ~b~menú del vehículo~s~.</String>
         <String xml:lang="pt-BR">Pressione {0} para acessar o ~b~menu do veículo~s~.</String>
         <String xml:lang="de-DE">Drücke {0} um das ~b~Fahrzeug-Menü~s~ zu öffnen.</String>
@@ -663,13 +663,13 @@
         <String xml:lang="tr-TR">~b~Araç kontrol paneli~s~ne erişmek için {0} tuşuna basın.</String>
     </Entry>
 
-    <!-- TODO: Change "vehicle menu" to "vehicle dashboard" -->
-    <Entry Id="double_press_to_open_vehicle_menu">
+    <!-- This is for controllers. -->
+    <Entry Id="dashboard_double_press_to_open">
         <String xml:lang="en-US">Double press {0} to access the ~b~vehicle dashboard~s~.</String>
         <String xml:lang="pl-PL">Podwójnie wciśnij {0} by uzyskać dostęp do ~b~menu pojazdu~s~.</String>
         <String xml:lang="nl-NL">Druk {0} twee keer in om het ~b~voertuig menu ~s~te openen.</String>
         <String xml:lang="fr-FR">Appuie deux fois sur {0} pour accéder au ~b~menu du véhicule~s~.</String>
-        <String xml:lang="it-IT">Premi due volte {0} per accedere al ~b~menu del veicolo~s~.</String>
+        <String xml:lang="it-IT">Premi due volte {0} per accedere al ~b~cruscotto~s~.</String>
         <String xml:lang="es-ES">Pulse dos veces {0} para acceder al ~b~menú del vehículo~s~.</String>
         <String xml:lang="pt-BR">Pressione duas vezes {0} para acessar o ~b~menu do veículo~s~.</String>
         <String xml:lang="de-DE">Drücke {0} doppelt, um das ~b~Fahrzeug-Menü~s~ zu öffnen.</String>
@@ -682,6 +682,147 @@
         <String xml:lang="lv-LV">Divreiz nospiediet {0}, lai atvērtu ~b~transportlīdzekļa izvēlni~s~.</String>
         <String xml:lang="tr-TR">~b~Araç kontrol paneli~s~ne erişmek için {0} tuşuna iki kez basın.</String>
     </Entry>
+
+    <Entry Id="dashboard_explanation">
+        <String xml:lang="en-US">The vehicle dashboard allows you to access additional features of your vehicle, and to check its health and fuel level.</String>
+        <String xml:lang="it-IT">Il cruscotto ti permette di accedere a funzionalità aggiuntive del tuo veicolo, e a visualizzarne la salute e il carburante.</String>
+    </Entry>
+
+    <Entry Id="dashboard_menu_title">
+        <String xml:lang="en-US">Dashboard</String>
+        <String xml:lang="it-IT">Cruscotto</String>
+    </Entry>
+
+    <Entry Id="dashboard_doors">
+        <String xml:lang="en-US">Doors</String>
+        <String xml:lang="it-IT">Portiere</String>
+    </Entry>
+
+    <Entry Id="dashboard_doors_desc">
+        <String xml:lang="en-US">Lock or unlock vehicle doors.</String>
+        <String xml:lang="it-IT">Chiudi a chiave o sblocca le portiere del veicolo.</String>
+    </Entry>
+
+    <Entry Id="dashboard_doors_feature_unavailable">
+        <String xml:lang="en-US">This feature is only available for personal or job vehicles.</String>
+        <String xml:lang="it-IT">Questa funzionalità è disponibile solamente per i veicoli personali e di lavoro.</String>
+    </Entry>
+
+    <Entry Id="dashboard_locked">
+        <String xml:lang="en-US">~g~LOCKED</String>
+        <String xml:lang="it-IT">~g~CHIUSE A CHIAVE</String>
+    </Entry>
+
+    <Entry Id="dashboard_unlocked">
+        <String xml:lang="en-US">~r~UNLOCKED</String>
+        <String xml:lang="it-IT">~r~SBLOCCATE</String>
+    </Entry>
+
+    <Entry Id="dashboard_engine">
+        <String xml:lang="en-US">Engine</String>
+        <String xml:lang="it-IT">Motore</String>
+    </Entry>
+
+    <Entry Id="dashboard_engine_desc">
+        <String xml:lang="en-US">Turn your vehicle on or off.</String>
+        <String xml:lang="it-IT">Accendi o spegni il tuo veicolo.</String>
+    </Entry>
+
+    <Entry Id="dashboard_windows">
+        <String xml:lang="en-US">Windows</String>
+        <String xml:lang="it-IT">Finestrini</String>
+    </Entry>
+
+    <Entry Id="dashboard_windows_desc">
+        <String xml:lang="en-US">Roll up or down the windows.</String>
+        <String xml:lang="it-IT">Alza o abbassa i finestrini.</String>
+    </Entry>
+
+    <Entry Id="dashboard_window_fl">
+        <String xml:lang="en-US">Front Left</String>
+        <String xml:lang="it-IT">Anteriore sinistro</String>
+    </Entry>
+
+    <Entry Id="dashboard_window_fr">
+        <String xml:lang="en-US">Front Right</String>
+        <String xml:lang="it-IT">Anteriore destro</String>
+    </Entry>
+
+    <Entry Id="dashboard_window_bl">
+        <String xml:lang="en-US">Back Left</String>
+        <String xml:lang="it-IT">Posteriore sinistro</String>
+    </Entry>
+
+    <Entry Id="dashboard_window_br">
+        <String xml:lang="en-US">Back Right</String>
+        <String xml:lang="it-IT">Posteriore destro</String>
+    </Entry>
+
+    <Entry Id="dashboard_hood">
+        <String xml:lang="en-US">Hood</String>
+        <String xml:lang="it-IT">Cofano</String>
+    </Entry>
+
+    <Entry Id="dashboard_hood_desc">
+        <String xml:lang="en-US">Open or close the hood. You can only do this when the car is stationary.</String>
+        <String xml:lang="it-IT">Apri o chiudi il cofano. Puoi farlo solo quando l'auto è ferma.</String>
+    </Entry>
+
+    <Entry Id="dashboard_trunk">
+        <String xml:lang="en-US">Trunk</String>
+        <String xml:lang="it-IT">Bagagliaio</String>
+    </Entry>
+
+    <Entry Id="dashboard_trunk_desc">
+        <String xml:lang="en-US">Open or close the trunk. You can only do this when the car is stationary.</String>
+        <String xml:lang="it-IT">Apri o chiudi il bagagliaio. Puoi farlo solo quando l'auto è ferma.</String>
+    </Entry>
+
+    <Entry Id="dashboard_siren">
+        <String xml:lang="en-US">Siren</String>
+        <String xml:lang="it-IT">Sirena</String>
+    </Entry>
+
+    <Entry Id="dashboard_siren_desc">
+        <String xml:lang="en-US">Enable or disable the siren sound.</String>
+        <String xml:lang="it-IT">Abilita o disabilita il suono della sirena.</String>
+    </Entry>
+
+    <Entry Id="dashboard_passengers">
+        <String xml:lang="en-US">Passengers</String>
+        <String xml:lang="it-IT">Passegeri</String>
+    </Entry>
+
+    <Entry Id="dashboard_passengers_desc">
+        <String xml:lang="en-US">Interact with the occupants of this vehicle.</String>
+        <String xml:lang="it-IT">Interagisci con i passegeri di questo veicolo.</String>
+    </Entry>
+
+    <Entry Id="dashboard_passengers_none">
+        <String xml:lang="en-US">There are no passengers.</String>
+        <String xml:lang="it-IT">Non ci sono passegeri.</String>
+    </Entry>
+
+    <Entry Id="dashboard_label_health">
+        <String xml:lang="en-US">HEALTH</String>
+        <String xml:lang="it-IT">SALUTE</String>
+    </Entry>
+
+    <Entry Id="dashboard_label_fuel">
+        <String xml:lang="en-US">FUEL</String>
+        <String xml:lang="it-IT">CARBURANTE</String>
+    </Entry>
+
+    <Entry Id="dashboard_label_battery">
+        <String xml:lang="en-US">BATTERY</String>
+        <String xml:lang="it-IT">BATTERIA</String>
+    </Entry>
+
+    <Entry Id="dashboard_no_active_vehicle">
+        <String xml:lang="en-US">You currently have no active vehicle.</String>
+        <String xml:lang="it-IT">Non hai alcun veicolo attivo al momento.</String>
+    </Entry>
+    
 
     <!-- ========================= -->
     <!-- Vehicles Menu -->
