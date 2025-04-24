@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Entries>
+    <!-- ========================= -->
+    <!-- ===== CRIME MESSAGES ==== -->
+    <!-- ========================= -->
+    
+    <!-- {0} = Crime severity -->
+    <!-- {1} = Crime description -->
+    <!-- Example: You committed a Felony - Vehicle Theft -->
+    <Entry Id="committed_crime">
+        <String xml:lang="en-US">You committed a {0} ~s~- {1}</String>
+        <String xml:lang="nl-NL">Je hebt een {0} ~s~gepleegd - {1}</String>
+        <String xml:lang="fr-FR">Tu as commis un {0} ~s~- {1}</String>
+        <String xml:lang="it-IT">Hai commesso un {0} ~s~- {1}</String>
+        <String xml:lang="de-DE">Du hast eine {0} ~s~begangen - {1}</String>
+        <String xml:lang="es-ES">Cometiste un {0} ~s~- {1}</String>
+        <String xml:lang="pl-PL">Popełniłeś {0} ~s~- {1}</String>
+        <String xml:lang="pt-BR">Você cometeu um {0} ~s~- {1}</String>
+        <String xml:lang="id-ID">Anda telah melakukan {0} ~s~- {1}</String>
+        <String xml:lang="th-TH">คุณคอมมิต {0} ~s~- {1}</String>
+        <String xml:lang="hi-Latn">Aapne commit kiya {0} ~s~- {1}</String>
+        <String xml:lang="lv-LV">Jūs izdarījāt {0} ~s~- {1}</String>
+    </Entry>
+
+    <Entry Id="crime_warrant_issued">
+        <String xml:lang="en-US">~o~Arrest warrant ~s~issued - leave the area and stay away from the ~b~cops~s~!</String>
+        <String xml:lang="nl-NL">~o~Arrestatiebevel ~s~uitgedeeld - verlaat de regio en blijf weg van de ~b~politie~s~!</String>
+        <String xml:lang="fr-FR">~o~Mandat d'arrêt ~s~émis - quitte la zone et reste à l'écart des ~b~policiers~s~!</String>
+        <String xml:lang="it-IT">~s~Emesso ~o~mandato d'arresto~s~ - lascia l'area e resta lontano dalla ~b~polizia~s~!</String>
+        <String xml:lang="de-DE">~o~Haftbefehl ~s~ausgestellt - verlasse das Gebiet und halte dich von den ~b~Polizisten~s~ fern!</String>
+        <String xml:lang="es-ES">~o~Orden de arresto ~s~emitida. ¡Abandone el área y manténgase alejado de los ~b~policías~s~!</String>
+        <String xml:lang="pl-PL">~o~List gończy ~s~wysłany - ucieknij z okolicy i nie przebywaj blisko ~b~gliniarzy~s~!</String>
+        <String xml:lang="pt-BR">~o~Mandado de prisão ~s~emitido. Deixe a área e fique longe da ~b~polícia~s~!</String>
+        <String xml:lang="id-ID">~o~Perintah penangkapan ~s~diterbitkan - tinggalkan area dan jauhi ~b~kepolisian~s~!</String>
+        <String xml:lang="th-TH">~o~ออกหมายจับ ~s~ออกแล้ว - ออกจากพื้นที่และอยู่ห่างจาก ~b~ตำรวจ~s~!</String>
+        <String xml:lang="hi-Latn">~o~Arrest warrant ~s~issue hua hai - leave kardo area aur door raho ~b~cops ~s~se!</String>
+        <String xml:lang="lv-LV">~o~Apcietināšanas rīkojums~s~ izsniegts - atstājiet zonu un tureties prom no ~b~policistiem~s~!</String>
+    </Entry>
+
+    <Entry Id="crime_most_wanted">
+        <String xml:lang="en-US">You are ~r~most wanted~s~ - other players can kill you on sight!</String>
+        <String xml:lang="nl-NL">Je bent het ~r~meest gezocht~s~ - andere spelers mogen jou op zicht vermoorden!</String>
+        <String xml:lang="fr-FR">Tu es ~r~le plus recherché~s~ - les autres joueurs peuvent te tuer à vue!</String>
+        <String xml:lang="it-IT">Sei il ~r~più ricercato~s~ - altri giocatori possono ucciderti a vista!</String>
+        <String xml:lang="de-DE">Du bist ~r~meistgesucht~s~ - andere Spieler dürfen dich bei Sichtkontakt töten!</String>
+        <String xml:lang="es-ES">Eres ~r~el más buscado~s~ - ¡otros jugadores pueden matarte a si te ven!</String>
+        <String xml:lang="pl-PL">Jesteś ~r~najbardziej poszukiwany~s~ - inni gracze mogą cie zabić dla pieniędzy!</String>
+        <String xml:lang="pt-BR">Você é o ~r~mais procurado~s~ - os outros jogadores podem matá-lo logo de cara!</String>
+        <String xml:lang="id-ID">Anda adalah ~r~Buronan paling dicari~s~ - pemain lain dapat membunuh anda langsung!</String>
+        <String xml:lang="th-TH">คุณ ~r~ต้องการตัวมากที่สุด~s~ - ผู้เล่นคนอื่นสามารถฆ่าคุณได้ทันที!</String>
+        <String xml:lang="hi-Latn">Aap ~r~most wanted ~s~ho - doosre players aapko dekhte hi maar sakte hain!</String>
+        <String xml:lang="lv-LV">Jus esat ~r~Most Wanted~s~ - citi spēlētāji var jūs nogalināt, tiklīdz jūs ieraudzīs!</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- ==== CRIME SEVERITIES === -->
+    <!-- ========================= -->
+    <!-- Translate these in the way they make sense in your country/language. -->
+
+    <Entry Id="crime_severity_undefined">
+        <String xml:lang="en-US">Crime</String>
+        <String xml:lang="it-IT">Reato</String>
+    </Entry>
+
+    <Entry Id="crime_severity_misdemeanor">
+        <String xml:lang="en-US">Misdemeanor</String>
+        <String xml:lang="it-IT">Contravvenzione</String>
+    </Entry>
+
+    <Entry Id="crime_severity_felony">
+        <String xml:lang="en-US">Felony</String>
+        <String xml:lang="it-IT">Delitto</String>
+        <String xml:lang="nl-NL">Misdrijf</String>
+        <String xml:lang="fr-FR">Délit</String>
+        <String xml:lang="de-DE">Straftat</String>
+        <String xml:lang="es-ES">Delito</String>
+        <String xml:lang="pl-PL">Przestępstwo</String>
+        <String xml:lang="pt-BR">Crime</String>
+        <String xml:lang="id-ID">Kejahatan</String>
+        <String xml:lang="th-TH">ความผิดทางอาญา</String>
+        <String xml:lang="hi-Latn">Felony</String>
+        <String xml:lang="lv-LV">Noziegumu</String>
+    </Entry>
+
+    <Entry Id="crime_severity_major_felony">
+        <String xml:lang="en-US">Major Felony</String>
+        <String xml:lang="it-IT">Delitto grave</String>
+        <String xml:lang="nl-NL">Groot misdrijf</String>
+        <String xml:lang="fr-FR">Délit majeur</String>
+        <String xml:lang="de-DE">Schwere Straftat</String>
+        <String xml:lang="es-ES">Delito grave</String>
+        <String xml:lang="pl-PL">Wielkie przestępstwo</String>
+        <String xml:lang="pt-BR">Crime grave</String>
+        <String xml:lang="id-ID">Kejahatan berat</String>
+        <String xml:lang="th-TH">อาชญากรรมร้ายแรง</String>
+        <String xml:lang="hi-Latn">Major felony</String>
+        <String xml:lang="lv-LV">Kriminālnoziegumu</String>
+    </Entry>
+
+    <!-- Severity + violent -->
+    <!-- Example: violent major felony -->
+    <Entry Id="crime_modifier_violent">
+        <String xml:lang="en-US">violent {0}</String>
+        <String xml:lang="it-IT">{0} violento</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- ====== CRIME NAMES ====== -->
+    <!-- ========================= -->
+    <!-- Translate these crimes in the way they make sense in your country/language. -->
+
+    <Entry Id="crime_hit_n_run">
+        <String xml:lang="en-US">Hit and Run</String>
+        <String xml:lang="it-IT">Omissione di soccorso</String>
+    </Entry>
+
+    <Entry Id="crime_pickpocketing">
+        <String xml:lang="en-US">Pickpocketing</String>
+        <String xml:lang="it-IT">Borseggio</String>
+    </Entry>
+
+    <Entry Id="crime_shoplifting">
+        <String xml:lang="en-US">Shoplifting</String>
+        <String xml:lang="it-IT">Taccheggio</String>
+    </Entry>
+
+    <Entry Id="crime_gta">
+        <String xml:lang="en-US">Grand Theft Auto</String>
+        <String xml:lang="it-IT">Furto d'auto</String>
+    </Entry>
+
+    <Entry Id="crime_gta_emergency_vehicle">
+        <String xml:lang="en-US">Emergency Vehicle Theft</String>
+        <String xml:lang="it-IT">Furto di veicolo d'emergenza</String>
+    </Entry>
+
+    <Entry Id="crime_gta_armored_vehicle">
+        <String xml:lang="en-US">Armored Police Vehicle Theft</String>
+        <String xml:lang="it-IT">Furto di veicolo blindato della polizia</String>
+    </Entry>
+
+    <Entry Id="crime_gta_military_vehicle">
+        <String xml:lang="en-US">Military Vehicle Theft</String>
+        <String xml:lang="it-IT">Furto di veicolo militare</String>
+    </Entry>
+
+    <Entry Id="crime_export_vehicle">
+        <String xml:lang="en-US">Illegal Vehicle Exportation</String>
+        <String xml:lang="it-IT">Esportazione illegale di veicolo</String>
+    </Entry>
+
+    <Entry Id="crime_threat">
+        <String xml:lang="en-US">Threatening with a Weapon</String>
+        <String xml:lang="it-IT">Minaccia con arma</String>
+    </Entry>
+
+    <Entry Id="crime_police_threat">
+        <String xml:lang="en-US">Threatening an Officer</String>
+        <String xml:lang="it-IT">Minaccia a un agente</String>
+    </Entry>
+
+    <Entry Id="crime_damage_vehicle">
+        <String xml:lang="en-US">Damaging a Vehicle</String>
+        <String xml:lang="it-IT">Danneggiamento di un veicolo</String>
+    </Entry>
+
+    <Entry Id="crime_damage_emergency_vehicle">
+        <String xml:lang="en-US">Damaging an Emergency Vehicle</String>
+        <String xml:lang="it-IT">Danneggiamento di un veicolo d'emergenza</String>
+    </Entry>
+
+    <Entry Id="crime_shoot_emergency_vehicle">
+        <String xml:lang="en-US">Shooting at an Emergency Vehicle</String>
+        <String xml:lang="it-IT">Sparare a un veicolo di emergenza</String>
+    </Entry>
+
+    <Entry Id="crime_shoot_vehicle">
+        <String xml:lang="en-US">Shooting at a Vehicle</String>
+        <String xml:lang="it-IT">Sparare a un veicolo</String>
+    </Entry>
+
+    <Entry Id="crime_assault">
+        <String xml:lang="en-US">Assault</String>
+        <String xml:lang="it-IT">Aggressione</String>
+    </Entry>
+
+    <Entry Id="crime_armed_assault">
+        <String xml:lang="en-US">Assault with a Deadly Weapon</String>
+        <String xml:lang="it-IT">Aggressione a mano armata</String>
+    </Entry>
+
+    <Entry Id="crime_police_assault">
+        <String xml:lang="en-US">Assault on an Officer</String>
+        <String xml:lang="it-IT">Aggressione a un agente</String>
+    </Entry>
+
+    <Entry Id="crime_robbery">
+        <String xml:lang="en-US">Armed Robbery</String>
+        <String xml:lang="it-IT">Rapina a mano armata</String>
+    </Entry>
+
+    <Entry Id="crime_attempted_robbery">
+        <String xml:lang="en-US">Attempted Robbery</String>
+        <String xml:lang="it-IT">Tentata rapina</String>
+    </Entry>
+
+    <Entry Id="crime_burglary">
+        <String xml:lang="en-US">Burglary</String>
+        <String xml:lang="it-IT">Scasso</String>
+    </Entry>
+
+    <Entry Id="crime_home_invasion">
+        <String xml:lang="en-US">Home Invasion</String>
+        <String xml:lang="it-IT">Invasione domestica</String>
+    </Entry>
+
+    <Entry Id="crime_hacking_theft">
+        <String xml:lang="en-US">Hacking and Theft</String>
+        <String xml:lang="it-IT">Hackeraggio e furto</String>
+    </Entry>
+
+    <Entry Id="crime_jewelry_robbery">
+        <String xml:lang="en-US">Jewelry Robbery</String>
+        <String xml:lang="it-IT">Rapina di gioielleria</String>
+    </Entry>
+
+    <Entry Id="crime_attempted_jewelry_robbery">
+        <String xml:lang="en-US">Attempted Jewelry Robbery</String>
+        <String xml:lang="it-IT">Tentata rapina di gioielleria</String>
+    </Entry>
+
+    <Entry Id="crime_bank_robbery">
+        <String xml:lang="en-US">Bank Robbery</String>
+        <String xml:lang="it-IT">Rapina in banca</String>
+    </Entry>
+
+    <Entry Id="crime_carjacking">
+        <String xml:lang="en-US">Carjacking</String>
+        <String xml:lang="it-IT">Furto d'auto in movimento</String>
+    </Entry>
+
+    <Entry Id="crime_murder">
+        <String xml:lang="en-US">Murder</String>
+        <String xml:lang="it-IT">Omicidio</String>
+    </Entry>
+
+    <Entry Id="crime_police_murder">
+        <String xml:lang="en-US">Murder of an Officer</String>
+        <String xml:lang="it-IT">Omicidio di un agente</String>
+    </Entry>
+
+    <Entry Id="crime_eluding">
+        <String xml:lang="en-US">Eluding an Officer</String>
+        <String xml:lang="it-IT">Eludere un agente</String>
+    </Entry>
+
+    <Entry Id="crime_refusing_ticket">
+        <String xml:lang="en-US">Refusing a Ticket</String>
+        <String xml:lang="it-IT">Rifiuto di una multa</String>
+    </Entry>
+
+    <Entry Id="crime_freeing">
+        <String xml:lang="en-US">Freeing a Suspect</String>
+        <String xml:lang="it-IT">Liberare un sospettato</String>
+    </Entry>
+
+    <Entry Id="crime_harboring">
+        <String xml:lang="en-US">Harboring a Fugitive</String>
+        <String xml:lang="it-IT">Nascondere un fuggitivo</String>
+    </Entry>
+
+    <Entry Id="crime_resisting">
+        <String xml:lang="en-US">Resisting Arrest</String>
+        <String xml:lang="it-IT">Resistenza all'arresto</String>
+    </Entry>
+
+    <Entry Id="crime_drug_traffic">
+        <String xml:lang="en-US">Drug Trafficking</String>
+        <String xml:lang="it-IT">Traffico di droga</String>
+    </Entry>
+
+    <Entry Id="crime_weap_traffic">
+        <String xml:lang="en-US">Arms Trafficking</String>
+        <String xml:lang="it-IT">Traffico di armi</String>
+    </Entry>
+
+    <Entry Id="crime_kill_pet">
+        <String xml:lang="en-US">Killing a Pet</String>
+        <String xml:lang="it-IT">Uccisione di un animale domestico</String>
+    </Entry>
+
+    <Entry Id="crime_kill_protected">
+        <String xml:lang="en-US">Killing a Protected Species</String>
+        <String xml:lang="it-IT">Uccisione di una specie protetta</String>
+    </Entry>
+
+    <Entry Id="crime_hunting_wo_license">
+        <String xml:lang="en-US">Hunting without a License</String>
+        <String xml:lang="it-IT">Cacciare senza licenza</String>
+    </Entry>
+
+    <Entry Id="crime_fishing_wo_license">
+        <String xml:lang="en-US">Fishing without a License</String>
+        <String xml:lang="it-IT">Pescare senza licenza</String>
+    </Entry>
+
+    <Entry Id="crime_bribery">
+        <String xml:lang="en-US">Attempted Bribery</String>
+        <String xml:lang="it-IT">Tentata corruzione</String>
+    </Entry>
+
+    <Entry Id="crime_gambling">
+        <String xml:lang="en-US">Illegal Gambling</String>
+        <String xml:lang="it-IT">Gioco d'azzardo illegale</String>
+    </Entry>
+</Entries>
