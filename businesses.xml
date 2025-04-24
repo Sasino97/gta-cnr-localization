@@ -45,6 +45,16 @@
         <String xml:lang="zh-Hant">選擇一個物品</String>
     </Entry>
 
+    <Entry Id="menu_business_cash">
+        <String xml:lang="en-US">Cash payments only</String>
+        <String xml:lang="it-IT">Solo pagamenti in contanti</String>
+    </Entry>
+
+    <Entry Id="menu_business_cashless">
+        <String xml:lang="en-US">Cashless payments only</String>
+        <String xml:lang="it-IT">Solo pagamenti senza contanti</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Store Types -->
     <!-- ========================= -->
@@ -207,6 +217,11 @@
     <Entry Id="business_mall">
         <String xml:lang="en-US">Shopping Mall</String>
         <String xml:lang="it-IT">Centro commerciale</String>
+    </Entry>
+
+    <Entry Id="business_gas_station">
+        <String xml:lang="en-US">Gas Station</String>
+        <String xml:lang="it-IT">Benzinaio</String>
     </Entry>
 
     <!-- ========================= -->
@@ -3714,4 +3729,35 @@
         <String xml:lang="es-ES">Ver llamadas recientes para traficante de armas.</String>
         <String xml:lang="pt-BR">Veja as chamadas recentes para traficante de armas.</String>
     </Entry>
+
+    <Entry Id="gas_station_only_evs">
+        <String xml:lang="en-US">~r~You can only charge electric vehicles here.</String>
+        <String xml:lang="it-IT">~r~Qui puoi ricaricare solo i veicoli elettrici.</String>
+    </Entry>
+
+    <Entry Id="gas_station_no_evs">
+        <String xml:lang="en-US">~r~You can't charge your electric vehicle here. Use an EV charger instead.</String>
+        <String xml:lang="it-IT">~r~Non puoi caricare il tuo veicolo elettrico qui. Usa un caricatore per veicoli elettrici.</String>
+    </Entry>
+
+    <Entry Id="gas_station_charge_battery">
+        <String xml:lang="en-US">Charge your battery</String>
+        <String xml:lang="it-IT">Carica la batteria</String>
+    </Entry>
+
+    <Entry Id="gas_station_fill_tank">
+        <String xml:lang="en-US">Fill up your tank</String>
+        <String xml:lang="it-IT">Riempi il serbatoio</String>
+    </Entry>
+
+    <Entry Id="gas_station_fill_jerrycan">
+        <String xml:lang="en-US">Fill up your jerrycan</String>
+        <String xml:lang="it-IT">Riempi la tanica</String>
+    </Entry>
+
+    <Entry Id="gas_station_error_no_jerrycan">
+        <String xml:lang="en-US">~r~You don't have a jerrycan</String>
+        <String xml:lang="it-IT">~r~Non hai una tanica</String>
+    </Entry>
+    
 </Entries>
