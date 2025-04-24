@@ -524,7 +524,7 @@
         <String xml:lang="de-DE">mit einem ~r~Revolver~s~</String>
         <String xml:lang="fr-FR">avec un ~r~revolver~s~</String>
         <String xml:lang="nl-NL">met een ~r~revolver~s~</String>
-        <String xml:lang="it-IT">con una ~r~revolver~s~</String>
+        <String xml:lang="it-IT">con una ~r~rivoltella~s~</String>
         <String xml:lang="pl-PL">~r~rewolwerem~s~</String>
         <String xml:lang="tr-TR">bir ~r~revolverla~s~</String>
         <String xml:lang="zh-Hant">用~r~左輪手槍~s~</String>
@@ -545,7 +545,7 @@
         <String xml:lang="de-DE">mit einem ~r~Revolver Kopfschuss~s~</String>
         <String xml:lang="fr-FR">avec une balle de ~r~revolver dans la tête~s~</String>
         <String xml:lang="nl-NL">met een ~r~revolver hoofdschot~s~</String>
-        <String xml:lang="it-IT">con un ~r~colpo di revolver alla testa~s~</String>
+        <String xml:lang="it-IT">con un ~r~colpo di rivoltella alla testa~s~</String>
         <String xml:lang="pl-PL">~r~strzałem w głowę z rewolweru ~s~</String>
         <String xml:lang="tr-TR">bir ~r~revolverla (kafadan vuruş) ~s~</String>
         <String xml:lang="zh-Hant">用~r~左輪手槍爆頭~s~</String>
@@ -689,7 +689,7 @@
         <String xml:lang="de-DE">mit einer ~r~Schrotflinte~s~</String>
         <String xml:lang="fr-FR">avec un ~r~fusil à pompe~s~</String>
         <String xml:lang="nl-NL">met een ~r~shotgun~s~</String>
-        <String xml:lang="it-IT">con uno ~r~shotgun~s~</String>
+        <String xml:lang="it-IT">con un ~r~fucile a canna liscia~s~</String>
         <String xml:lang="pl-PL">~r~śrutówką~s~</String>
         <String xml:lang="tr-TR">bir ~r~pompalı tüfekle~s~</String>
         <String xml:lang="zh-Hant">用~r~霰彈槍~s~</String>
@@ -709,7 +709,7 @@
         <String xml:lang="en-US">with a ~r~shotgun headshot~s~</String>
         <String xml:lang="de-DE">mit einem ~r~Schrotflinten Kopfschuss~s~</String>
         <String xml:lang="nl-NL">met een ~r~shotgun hoofdschot~s~</String>
-        <String xml:lang="it-IT">con un ~r~colpo di shotgun alla testa~s~</String>
+        <String xml:lang="it-IT">con un ~r~colpo di fucile a canna liscia alla testa~s~</String>
         <String xml:lang="tr-TR">bir ~r~pompalı tüfekle (kafadan vuruş)~s~</String>
         <String xml:lang="zh-Hant">用~r~霰彈槍爆頭~s~</String>
         <String xml:lang="pl-PL">~r~strzałem w głowę ze śrutówki~s~</String>
@@ -1536,7 +1536,7 @@
         <String xml:lang="fr-FR">Paiement par chèque: ~g~{0}</String>
         <String xml:lang="nl-NL">Per cheque betaald: ~g~{0}</String>
         <String xml:lang="it-IT">Pagato con assegno: ~g~{0}</String>
-        <String xml:lang="pl-PL">Zapłacone przelewem: ~g~{0}</String>        <!-- Replaced check with wire transfer as checks are not available in Poland, many people I know, don't know what a check is -->
+        <String xml:lang="pl-PL">Zapłacone przelewem: ~g~{0}</String> <!-- Replaced check with wire transfer as checks are not available in Poland, many people I know, don't know what a check is -->
         <String xml:lang="tr-TR">Çek ile ödendi: ~g~{0}</String>
         <String xml:lang="zh-Hant">通過銀行支付: ~g~{0}</String>
         <String xml:lang="zh-Hans">通过支票支付: ~g~{0}</String>
@@ -1570,8 +1570,9 @@
         <String xml:lang="lv-LV">Apmaksāts skaidrā naudā: ~g~{0}</String>
     </Entry>
 
-    <!-- I just changed this from "unpaid" to "outstanding" in English too, as it gives a better understanding -->
-    <!-- that you are actually gonna have to pay it 😂 it's not free just cause you don't have the money! -->
+    <!-- "Outstanding" as in "Outstanding balance" (unpaid). 
+    This is not "outstanding" as in someone who is really good 
+    at something or out of the ordinary.-->
     <Entry Id="outstanding">
         <String xml:lang="en-US">Outstanding: ~r~{0}</String>
         <String xml:lang="de-DE">Ausstehend: ~r~{0}</String>
@@ -1580,8 +1581,8 @@
         <String xml:lang="it-IT">Insoluto: ~r~{0}</String>
         <String xml:lang="pl-PL">Dług: ~r~{0}</String>
         <String xml:lang="tr-TR">Borç: ~r~{0}</String>
-        <String xml:lang="zh-Hant">傑出的: ~r~{0}</String>
-        <String xml:lang="zh-Hans">杰出的: ~r~{0}</String>
+        <String xml:lang="zh-Hant">未結束的: ~r~{0}</String>
+        <String xml:lang="zh-Hans">未结束的: ~r~{0}</String>
         <String xml:lang="es-ES">Pendiente: ~r~{0}</String>
         <String xml:lang="pt-BR">Pendente: ~r~{0}</String>
         <String xml:lang="ar-001">غير مدفوعة: ~r~{0}</String>
