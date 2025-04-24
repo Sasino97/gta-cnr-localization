@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Entries>
+    <!-- ================================= -->
+    <!-- ========== DISCLAIMERS ========== -->
+    <!-- ================================= -->
     <Entry Id="inventory_disclaimer">
         <String xml:lang="en-US">Disclaimer</String>
         <String xml:lang="it-IT">Disclaimer</String>
@@ -41,6 +44,9 @@
         <String xml:lang="it-IT">L'alcol è una sostanza che crea dipendenza e causa svariate morti dirette e indirette. CnR V non consiglia l'uso di alcol.</String>
     </Entry>
 
+    <!-- ================================= -->
+    <!-- ============= ITEMS ============= -->
+    <!-- ================================= -->
     <Entry Id="item_armor_light">
         <String xml:lang="en-US">Light Armor</String>
         <String xml:lang="it-IT">Giubbotto leggero</String>
@@ -830,5 +836,875 @@
     <Entry Id="item_date_desc">
         <String xml:lang="en-US">The fruit of the date palm. Quickly regens your health for a short amount of time.</String>
         <String xml:lang="it-IT">Il frutto della palma da datteri. Ripristina la tua salute rapidamente per un breve periodo di tempo.</String>
+    </Entry>
+    
+    
+    <!-- ================================= -->
+    <!-- ============ WEAPONS ============ -->
+    <!-- ================================= -->
+    <Entry Id="weapon_unarmed">
+        <String xml:lang="en-US">Unarmed</String>
+        <String xml:lang="it-IT">Disarmato</String>
+    </Entry>
+
+    <Entry Id="weapon_knife">
+        <String xml:lang="en-US">Knife</String>
+        <String xml:lang="it-IT">Coltello</String>
+    </Entry>
+
+    <Entry Id="weapon_hatchet">
+        <String xml:lang="en-US">Hatchet</String>
+        <String xml:lang="it-IT">Accetta</String>
+    </Entry>
+
+    <Entry Id="weapon_switchblade">
+        <String xml:lang="en-US">Switchblade</String>
+        <String xml:lang="it-IT">Coltello a serramanico</String>
+    </Entry>
+
+    <Entry Id="weapon_battleaxe">
+        <String xml:lang="en-US">Battle Axe</String>
+        <String xml:lang="it-IT">Ascia da battaglia</String>
+    </Entry>
+
+    <Entry Id="weapon_bat">
+        <String xml:lang="en-US">Baseball Bat</String>
+        <String xml:lang="it-IT">Mazza da baseball</String>
+    </Entry>
+
+    <Entry Id="weapon_machete">
+        <String xml:lang="en-US">Machete</String>
+        <String xml:lang="it-IT">Macete</String>
+    </Entry>
+
+    <Entry Id="weapon_crowbar">
+        <String xml:lang="en-US">Crowbar</String>
+        <String xml:lang="it-IT">Piede di porco</String>
+    </Entry>
+
+    <Entry Id="weapon_wrench">
+        <String xml:lang="en-US">Wrench</String>
+        <String xml:lang="it-IT">Chiave inglese</String>
+    </Entry>
+
+    <Entry Id="weapon_hammer">
+        <String xml:lang="en-US">Hammer</String>
+        <String xml:lang="it-IT">Martello</String>
+    </Entry>
+
+    <Entry Id="weapon_knuckle">
+        <String xml:lang="en-US">Brass Knuckles</String>
+        <String xml:lang="it-IT">Tirapugni</String>
+    </Entry>
+
+    <Entry Id="weapon_nightstick">
+        <String xml:lang="en-US">Nightstick</String>
+        <String xml:lang="it-IT">Manganello</String>
+    </Entry>
+
+    <Entry Id="weapon_pistol">
+        <String xml:lang="en-US">Pistol</String>
+        <String xml:lang="it-IT">Pistola</String>
+    </Entry>
+
+    <Entry Id="weapon_pistol_mk2">
+        <String xml:lang="en-US">Pistol Mk II</String>
+        <String xml:lang="it-IT">Pistola Mk II</String>
+    </Entry>
+
+    <Entry Id="weapon_combatpistol">
+        <String xml:lang="en-US">Combat Pistol</String>
+        <String xml:lang="it-IT">Pistola da combattimento</String>
+    </Entry>
+
+    <Entry Id="weapon_heavypistol">
+        <String xml:lang="en-US">Heavy Pistol</String>
+        <String xml:lang="it-IT">Pistola pesante</String>
+    </Entry>
+
+    <Entry Id="weapon_pistol50">
+        <String xml:lang="en-US">.50 Caliber Pistol</String>
+        <String xml:lang="it-IT">Pistola calibro .50</String>
+    </Entry>
+
+    <Entry Id="weapon_revolver">
+        <String xml:lang="en-US">Heavy Revolver</String>
+        <String xml:lang="it-IT">Rivoltella pesante</String>
+    </Entry>
+
+    <Entry Id="weapon_doubleaction">
+        <String xml:lang="en-US">Double-Action Revolver</String>
+        <String xml:lang="it-IT">Rivoltella a doppia azione</String>
+    </Entry>
+
+    <Entry Id="weapon_machinepistol">
+        <String xml:lang="en-US">Machine pistol</String>
+        <String xml:lang="it-IT">Pistola mitragliatrice</String>
+    </Entry>
+
+    <Entry Id="weapon_appistol">
+        <String xml:lang="en-US">AP Pistol</String>
+        <String xml:lang="it-IT">Pistola AP</String>
+    </Entry>
+
+    <Entry Id="weapon_ceramicpistol">
+        <String xml:lang="en-US">Ceramic Pistol</String>
+        <String xml:lang="it-IT">Pistola di ceramica</String>
+    </Entry>
+
+    <Entry Id="weapon_minismg">
+        <String xml:lang="en-US">Mini SMG</String>
+        <String xml:lang="it-IT">Mini mitra</String>
+    </Entry>
+
+    <Entry Id="weapon_microsmg">
+        <String xml:lang="en-US">Micro SMG</String>
+        <String xml:lang="it-IT">Micro mitra</String>
+    </Entry>
+
+    <Entry Id="weapon_smg">
+        <String xml:lang="en-US">SMG</String>
+        <String xml:lang="it-IT">Mitraglietta</String>
+    </Entry>
+
+    <Entry Id="weapon_smg_mk2">
+        <String xml:lang="en-US">SMG Mk II</String>
+        <String xml:lang="it-IT">Mitraglietta Mk II</String>
+    </Entry>
+
+    <Entry Id="weapon_combatpdw">
+        <String xml:lang="en-US">Combat PDW</String>
+        <String xml:lang="it-IT">PDW da combattimento</String>
+    </Entry>
+
+    <Entry Id="weapon_mg">
+        <String xml:lang="en-US">Machine Gun</String>
+        <String xml:lang="it-IT">Mitragliatrice</String>
+    </Entry>
+
+    <Entry Id="weapon_gusenberg">
+        <String xml:lang="en-US">Gusenberg Sweeper</String>
+        <String xml:lang="it-IT">Spazzatrice Gusenberg</String>
+    </Entry>
+
+    <Entry Id="weapon_pumpshotgun">
+        <String xml:lang="en-US">Pump Shotgun</String>
+        <String xml:lang="it-IT">Fucile a pompa</String>
+    </Entry>
+
+    <Entry Id="weapon_pumpshotgun_mk2">
+        <String xml:lang="en-US">Pump Shotgun Mark II</String>
+        <String xml:lang="it-IT">Fucile a pompa Mk II</String>
+    </Entry>
+
+    <Entry Id="weapon_bullpupshotgun">
+        <String xml:lang="en-US">Bullpup Shotgun</String>
+        <String xml:lang="it-IT">Fucile a pompa bullpup</String>
+    </Entry>
+
+    <Entry Id="weapon_combatshotgun">
+        <String xml:lang="en-US">Combat Shotgun</String>
+        <String xml:lang="it-IT">Fucile a pompa da combattimento</String>
+    </Entry>
+
+    <Entry Id="weapon_sawnoffshotgun">
+        <String xml:lang="en-US">Sawn-Off Pump Shotgun</String>
+        <String xml:lang="it-IT">Fucile a pompa a canne mozze</String>
+    </Entry>
+
+    <Entry Id="weapon_dbshotgun">
+        <String xml:lang="en-US">Double-Barreled Shotgun</String>
+        <String xml:lang="it-IT">Doppietta</String>
+    </Entry>
+
+    <Entry Id="weapon_heavyshotgun">
+        <String xml:lang="en-US">Heavy Shotgun</String>
+        <String xml:lang="it-IT">Fucile a canna liscia pesante</String>
+    </Entry>
+
+    <Entry Id="weapon_boltrifle">
+        <String xml:lang="en-US">Bolt Rifle</String>
+        <String xml:lang="it-IT">Fucile a catenaccio</String>
+    </Entry>
+
+    <Entry Id="weapon_winchester">
+        <String xml:lang="en-US">Lever Rifle</String>
+        <String xml:lang="it-IT">Fucile a leva</String>
+    </Entry>
+
+    <Entry Id="weapon_marksmanrifle">
+        <String xml:lang="en-US">Marksman Rifle</String>
+        <String xml:lang="it-IT">Fucile da tiratore scelto</String>
+    </Entry>
+
+    <Entry Id="weapon_springfield">
+        <String xml:lang="en-US">Classic Bolt Rifle</String>
+        <String xml:lang="it-IT">Fucile a catenaccio classico</String>
+    </Entry>
+
+    <Entry Id="weapon_sniperrifle">
+        <String xml:lang="en-US">Sniper Rifle</String>
+        <String xml:lang="it-IT">Fucile da cecchino</String>
+    </Entry>
+
+    <Entry Id="weapon_marksmanrifle_mk2">
+        <String xml:lang="en-US">Marksman Rifle Mk II</String>
+        <String xml:lang="it-IT">Fucile da tiratore scelto Mk II</String>
+    </Entry>
+
+    <Entry Id="weapon_heavysniper">
+        <String xml:lang="en-US">Heavy Sniper Rifle</String>
+        <String xml:lang="it-IT">Fucile da cecchino pesante</String>
+    </Entry>
+
+    <Entry Id="weapon_assaultrifle">
+        <String xml:lang="en-US">Assault Rifle</String>
+        <String xml:lang="it-IT">Fucile d'assalto</String>
+    </Entry>
+
+    <Entry Id="weapon_carbinerifle">
+        <String xml:lang="en-US">Carbine</String>
+        <String xml:lang="it-IT">Carabina</String>
+    </Entry>
+
+    <Entry Id="weapon_carbinerifle_mk2">
+        <String xml:lang="en-US">Carbine Mk II</String>
+        <String xml:lang="it-IT">Carabina Mk II</String>
+    </Entry>
+
+    <Entry Id="weapon_assaultrifle_mk2">
+        <String xml:lang="en-US">Assault Rifle Mk II</String>
+        <String xml:lang="it-IT">Fucile d'assalto Mk II</String>
+    </Entry>
+
+    <Entry Id="weapon_compactrifle">
+        <String xml:lang="en-US">Compact Rifle</String>
+        <String xml:lang="it-IT">Fucile compatto</String>
+    </Entry>
+
+    <Entry Id="weapon_heavyrifle">
+        <String xml:lang="en-US">Heavy Rifle</String>
+        <String xml:lang="it-IT">Fucile pesante</String>
+    </Entry>
+
+    <Entry Id="weapon_flaregun">
+        <String xml:lang="en-US">Flare Gun</String>
+        <String xml:lang="it-IT">Pistola da segnalazione</String>
+    </Entry>
+
+    <Entry Id="weapon_flashlight">
+        <String xml:lang="en-US">Flashlight</String>
+        <String xml:lang="it-IT">Torcia</String>
+    </Entry>
+
+    <Entry Id="weapon_parachute">
+        <String xml:lang="en-US">Parachute</String>
+        <String xml:lang="it-IT">Paracadute</String>
+    </Entry>
+
+    <Entry Id="weapon_fireextinguisher">
+        <String xml:lang="en-US">Fire Extinguisher</String>
+        <String xml:lang="it-IT">Estintore</String>
+    </Entry>
+
+    <Entry Id="weapon_petrolcan">
+        <String xml:lang="en-US">Jerrycan</String>
+        <String xml:lang="it-IT">Tanica</String>
+    </Entry>
+
+    <Entry Id="weapon_stungun">
+        <String xml:lang="en-US">Stun Gun</String>
+        <String xml:lang="it-IT">Pistola stordente</String>
+    </Entry>
+    
+    <Entry Id="weapon_snowball">
+        <String xml:lang="en-US">Snowball</String>
+        <String xml:lang="it-IT">Palla di neve</String>
+    </Entry>
+
+    <Entry Id="weapon_grenade">
+        <String xml:lang="en-US">Grenade</String>
+        <String xml:lang="it-IT">Granata</String>
+    </Entry>
+
+    <Entry Id="weapon_molotov">
+        <String xml:lang="en-US">Molotov</String>
+        <String xml:lang="it-IT">Molotov</String>
+    </Entry>
+
+    <Entry Id="weapon_smokegrenade">
+        <String xml:lang="en-US">Tear Gas</String>
+        <String xml:lang="it-IT">Gas lacrimogeno</String>
+    </Entry>
+
+    <Entry Id="weapon_flashbang">
+        <String xml:lang="en-US">Flashbang</String>
+        <String xml:lang="it-IT">Granata stordente</String>
+    </Entry>
+
+    <Entry Id="weapon_dagger">
+        <String xml:lang="en-US">Antique Cavalry Dagger</String>
+        <String xml:lang="it-IT">Pugnale antico da cavalleria</String>
+    </Entry>
+
+    <Entry Id="weapon_candycane1">
+        <String xml:lang="en-US">Candy Cane</String>
+        <String xml:lang="it-IT">Bastone di zucchero</String>
+    </Entry>
+
+    <Entry Id="weapon_stocking">
+        <String xml:lang="en-US">Stocking</String>
+        <String xml:lang="it-IT">Calza</String>
+    </Entry>
+
+    <Entry Id="weapon_gingerbreadbattleaxe">
+        <String xml:lang="en-US">Gingerbread Battle Axe</String>
+        <String xml:lang="it-IT">Ascia da battaglia di pan di zenzero</String>
+    </Entry>
+
+    <Entry Id="weapon_battlerifle">
+        <String xml:lang="en-US">Battle Rifle</String>
+        <String xml:lang="it-IT">Fucile da battaglia</String>
+    </Entry>
+
+    <Entry Id="weapon_tecpistol">
+        <String xml:lang="en-US">Tactical SMG</String>
+        <String xml:lang="it-IT">Mitra tattico</String>
+    </Entry>
+
+    <!-- ================================= -->
+    <!-- =========== CATEGORIES ========== -->
+    <!-- ================================= -->
+
+    <!-- No this is not literal cat food 💀 -->
+    <!-- cat = category -->
+    <Entry Id="cat_food">
+        <String xml:lang="en-US">Food</String>
+        <String xml:lang="it-IT">Cibo</String>
+    </Entry>
+    
+    <Entry Id="cat_drinks">
+        <String xml:lang="en-US">Drinks</String>
+        <String xml:lang="it-IT">Bevande</String>
+    </Entry>
+    
+    <Entry Id="cat_soft_drinks">
+        <String xml:lang="en-US">Soft Drinks</String>
+        <String xml:lang="it-IT">Bevande analcoliche</String>
+    </Entry>
+    
+    <Entry Id="cat_other_drinks">
+        <String xml:lang="en-US">Other Drinks</String>
+        <String xml:lang="it-IT">Altre bevande</String>
+    </Entry>
+    
+    <Entry Id="cat_beers">
+        <String xml:lang="en-US">Beers</String>
+        <String xml:lang="it-IT">Birre</String>
+    </Entry>
+    
+    <Entry Id="cat_wines">
+        <String xml:lang="en-US">Wines</String>
+        <String xml:lang="it-IT">Vini</String>
+    </Entry>
+    
+    <Entry Id="cat_whiskeys">
+        <String xml:lang="en-US">Whiskeys</String>
+        <String xml:lang="it-IT">Whiskey</String>
+    </Entry>
+    
+    <Entry Id="cat_cognac">
+        <String xml:lang="en-US">Cognacs</String>
+        <String xml:lang="it-IT">Cognac</String>
+    </Entry>
+    
+    <Entry Id="cat_vodkas">
+        <String xml:lang="en-US">Vodkas</String>
+        <String xml:lang="it-IT">Vodka</String>
+    </Entry>
+    
+    <Entry Id="cat_rums">
+        <String xml:lang="en-US">Rums</String>
+        <String xml:lang="it-IT">Rum</String>
+    </Entry>
+    
+    <Entry Id="cat_smoking">
+        <String xml:lang="en-US">Smoking</String>
+        <String xml:lang="it-IT">Fumo</String>
+    </Entry>
+    
+    <Entry Id="cat_accessories">
+        <String xml:lang="en-US">Accessories</String>
+        <String xml:lang="it-IT">Accessori</String>
+    </Entry>
+    
+    <Entry Id="cat_scratch_cards">
+        <String xml:lang="en-US">Scratch Cards</String>
+        <String xml:lang="it-IT">Lotteria istantanea</String>
+    </Entry>
+    
+    <Entry Id="cat_masks">
+        <String xml:lang="en-US">Masks</String>
+        <String xml:lang="it-IT">Maschere</String>
+    </Entry>
+    
+    <Entry Id="cat_weapons">
+        <String xml:lang="en-US">Weapons</String>
+        <String xml:lang="it-IT">Armi</String>
+    </Entry>
+    
+    <Entry Id="cat_ammo">
+        <String xml:lang="en-US">Ammo</String>
+        <String xml:lang="it-IT">Munizioni</String>
+    </Entry>
+    
+    <Entry Id="cat_armor">
+        <String xml:lang="en-US">Body Armor</String>
+        <String xml:lang="it-IT">Armatura</String>
+    </Entry>
+    
+    <!-- Notice: if directly translating "medical" (stuff) to your language sounds weird
+    better translate other words that would make more sense in menus, such as "first aid" instead -->
+    <Entry Id="cat_medical">
+        <String xml:lang="en-US">Medical</String>
+        <String xml:lang="it-IT">Pronto soccorso</String>
+    </Entry>
+    
+    <Entry Id="cat_tools">
+        <String xml:lang="en-US">Tools</String>
+        <String xml:lang="it-IT">Strumenti</String>
+    </Entry>
+    
+    <Entry Id="cat_tops">
+        <String xml:lang="en-US">Tops</String>
+        <String xml:lang="it-IT">Top</String>
+    </Entry>
+    
+    <Entry Id="cat_tshirts">
+        <String xml:lang="en-US">T-Shirts</String>
+        <String xml:lang="it-IT">T-Shirt</String>
+    </Entry>
+    
+    <Entry Id="cat_shirts">
+        <String xml:lang="en-US">Shirts</String>
+        <String xml:lang="it-IT">Camicie</String>
+    </Entry>
+    
+    <Entry Id="cat_jackets">
+        <String xml:lang="en-US">Jackets</String>
+        <String xml:lang="it-IT">Giacche</String>
+    </Entry>
+    
+    <Entry Id="cat_hoodies">
+        <String xml:lang="en-US">Hoodies</String>
+        <String xml:lang="it-IT">Felpe</String>
+    </Entry>
+    
+    <Entry Id="cat_vests">
+        <String xml:lang="en-US">Vests</String>
+        <String xml:lang="it-IT">Gilet</String>
+    </Entry>
+    
+    <Entry Id="cat_bottoms">
+        <String xml:lang="en-US">Bottoms</String>
+        <String xml:lang="it-IT">Pantaloni</String>
+    </Entry>
+    
+    <Entry Id="cat_jeans">
+        <String xml:lang="en-US">Jeans</String>
+        <String xml:lang="it-IT">Jeans</String>
+    </Entry>
+    
+    <Entry Id="cat_pants">
+        <String xml:lang="en-US">Pants</String>
+        <String xml:lang="it-IT">Pantaloni</String>
+    </Entry>
+    
+    <Entry Id="cat_shorts">
+        <String xml:lang="en-US">Shorts</String>
+        <String xml:lang="it-IT">Pantaloncini</String>
+    </Entry>
+    
+    <Entry Id="cat_shoes">
+        <String xml:lang="en-US">Shoes</String>
+        <String xml:lang="it-IT">Scarpe</String>
+    </Entry>
+    
+    <Entry Id="cat_slippers">
+        <String xml:lang="en-US">Slippers</String>
+        <String xml:lang="it-IT">Pantofole</String>
+    </Entry>
+    
+    <Entry Id="cat_sneakers">
+        <String xml:lang="en-US">Sneakers</String>
+        <String xml:lang="it-IT">Scarpe da ginnastica</String>
+    </Entry>
+    
+    <Entry Id="cat_sport_shoes">
+        <String xml:lang="en-US">Sports Shoes</String>
+        <String xml:lang="it-IT">Scarpe sportive</String>
+    </Entry>
+    
+    <Entry Id="cat_smart_shoes">
+        <String xml:lang="en-US">Dress Shoes</String>
+        <String xml:lang="it-IT">Scarpe eleganti</String>
+    </Entry>
+    
+    <Entry Id="cat_boots">
+        <String xml:lang="en-US">Boots</String>
+        <String xml:lang="it-IT">Stivali</String>
+    </Entry>
+    
+    <Entry Id="cat_hats">
+        <String xml:lang="en-US">Hats</String>
+        <String xml:lang="it-IT">Cappelli</String>
+    </Entry>
+    
+    <Entry Id="cat_fedoras">
+        <String xml:lang="en-US">Fedoras</String>
+        <String xml:lang="it-IT">Cappelli di feltro</String>
+    </Entry>
+    
+    <Entry Id="cat_cowboy_hats">
+        <String xml:lang="en-US">Cowboy Hats</String>
+        <String xml:lang="it-IT">Cappelli da cowboy</String>
+    </Entry>
+    
+    <Entry Id="cat_beanies">
+        <String xml:lang="en-US">Beanies</String>
+        <String xml:lang="it-IT">Berretti</String>
+    </Entry>
+    
+    <Entry Id="cat_caps">
+        <String xml:lang="en-US">Caps</String>
+        <String xml:lang="it-IT">Cappellini</String>
+    </Entry>
+    
+    <Entry Id="cat_bandanas">
+        <String xml:lang="en-US">Bandanas</String>
+        <String xml:lang="it-IT">Bandane</String>
+    </Entry>
+    
+    <Entry Id="cat_headsets">
+        <String xml:lang="en-US">Headsets</String>
+        <String xml:lang="it-IT">Cuffie</String>
+    </Entry>
+    
+    <Entry Id="cat_watches">
+        <String xml:lang="en-US">Watches</String>
+        <String xml:lang="it-IT">Orologi</String>
+    </Entry>
+    
+    <Entry Id="cat_glasses">
+        <String xml:lang="en-US">Glasses</String>
+        <String xml:lang="it-IT">Occhiali</String>
+    </Entry>
+    
+    <Entry Id="cat_other">
+        <String xml:lang="en-US">Other</String>
+        <String xml:lang="it-IT">Altro</String>
+    </Entry>
+    
+    <Entry Id="cat_suits">
+        <String xml:lang="en-US">Suits</String>
+        <String xml:lang="it-IT">Abiti</String>
+    </Entry>
+    
+    <Entry Id="cat_outfits">
+        <String xml:lang="en-US">Outfits</String>
+        <String xml:lang="it-IT">Completi</String>
+    </Entry>
+    
+    <Entry Id="cat_premium">
+        <String xml:lang="en-US">~p~Premium</String>
+        <String xml:lang="it-IT">~p~Premium</String>
+    </Entry>
+    
+    <Entry Id="cat_backpacks">
+        <String xml:lang="en-US">Backpacks</String>
+        <String xml:lang="it-IT">Zaini</String>
+    </Entry>
+    
+    <Entry Id="cat_tank_tops">
+        <String xml:lang="en-US">Tank Tops</String>
+        <String xml:lang="it-IT">Canottiere</String>
+    </Entry>
+    
+    <Entry Id="cat_coats">
+        <String xml:lang="en-US">Coats</String>
+        <String xml:lang="it-IT">Cappotti</String>
+    </Entry>
+    
+    <Entry Id="cat_skirts">
+        <String xml:lang="en-US">Skirts</String>
+        <String xml:lang="it-IT">Gonne</String>
+    </Entry>
+    
+    <Entry Id="cat_leggings">
+        <String xml:lang="en-US">Leggings</String>
+        <String xml:lang="it-IT">Leggings</String>
+    </Entry>
+    
+    <Entry Id="cat_high_heels">
+        <String xml:lang="en-US">High Heels</String>
+        <String xml:lang="it-IT">Tacchi alti</String>
+    </Entry>
+    
+    <Entry Id="cat_dresses">
+        <String xml:lang="en-US">Dresses</String>
+        <String xml:lang="it-IT">Vestiti</String>
+    </Entry>
+    
+    <Entry Id="cat_scarfs">
+        <String xml:lang="en-US">Scarfs</String>
+        <String xml:lang="it-IT">Sciarpe</String>
+    </Entry>
+    
+    <Entry Id="cat_chains">
+        <String xml:lang="en-US">Chains</String>
+        <String xml:lang="it-IT">Catene</String>
+    </Entry>
+    
+    <Entry Id="cat_earrings">
+        <String xml:lang="en-US">Earrings</String>
+        <String xml:lang="it-IT">Orecchini</String>
+    </Entry>
+    
+    <Entry Id="cat_bracelets">
+        <String xml:lang="en-US">Bracelets</String>
+        <String xml:lang="it-IT">Braccialetti</String>
+    </Entry>
+    
+    <Entry Id="cat_rings">
+        <String xml:lang="en-US">Rings</String>
+        <String xml:lang="it-IT">Anelli</String>
+    </Entry>
+    
+    <Entry Id="cat_phone_cases">
+        <String xml:lang="en-US">Cases</String>
+        <String xml:lang="it-IT">Cover</String>
+    </Entry>
+    
+    <Entry Id="cat_water">
+        <String xml:lang="en-US">Water</String>
+        <String xml:lang="it-IT">Acqua</String>
+    </Entry>
+    
+    <Entry Id="cat_juices">
+        <String xml:lang="en-US">Juices</String>
+        <String xml:lang="it-IT">Succhi di frutta</String>
+    </Entry>
+    
+    <Entry Id="cat_brandys">
+        <String xml:lang="en-US">Brandys</String>
+        <String xml:lang="it-IT">Brandy</String>
+    </Entry>
+    
+    <Entry Id="cat_scotches">
+        <String xml:lang="en-US">Scotches</String>
+        <String xml:lang="it-IT">Scotch</String>
+    </Entry>
+    
+    <Entry Id="cat_tequilas">
+        <String xml:lang="en-US">Tequilas</String>
+        <String xml:lang="it-IT">Tequila</String>
+    </Entry>
+    
+    <Entry Id="cat_uniforms">
+        <String xml:lang="en-US">Uniforms</String>
+        <String xml:lang="it-IT">Uniformi</String>
+    </Entry>
+    
+    <Entry Id="cat_weed">
+        <String xml:lang="en-US">Weed</String>
+        <String xml:lang="it-IT">Cannabis</String>
+    </Entry>
+    
+    <Entry Id="cat_shotgun_shells">
+        <String xml:lang="en-US">Shotgun Shells</String>
+        <String xml:lang="it-IT">Cartucce per fucili a canna liscia</String>
+    </Entry>
+    
+    <Entry Id="cat_tracers">
+        <String xml:lang="en-US">Tracers</String>
+        <String xml:lang="it-IT">Traccianti</String>
+    </Entry>
+    
+    <Entry Id="cat_fmj">
+        <String xml:lang="en-US">FMJ</String>
+        <String xml:lang="it-IT">FMJ</String>
+    </Entry>
+    
+    <Entry Id="cat_hp">
+        <String xml:lang="en-US">Hollow Point</String>
+        <String xml:lang="it-IT">Punta cava</String>
+    </Entry>
+    
+    <Entry Id="cat_mags">
+        <String xml:lang="en-US">Mags</String>
+        <String xml:lang="it-IT">Caricatori</String>
+    </Entry>
+    
+    <Entry Id="cat_attachments">
+        <String xml:lang="en-US">Attachments</String>
+        <String xml:lang="it-IT">Accessori</String>
+    </Entry>
+    
+    <Entry Id="cat_skins">
+        <String xml:lang="en-US">Skins</String>
+        <String xml:lang="it-IT">Skin</String>
+    </Entry>
+    
+    <Entry Id="cat_handguns">
+        <String xml:lang="en-US">Handguns</String>
+        <String xml:lang="it-IT">Pistole</String>
+    </Entry>
+    
+    <Entry Id="cat_smgs">
+        <String xml:lang="en-US">SMGs</String>
+        <String xml:lang="it-IT">Mitragliette</String>
+    </Entry>
+    
+    <Entry Id="cat_shotguns">
+        <String xml:lang="en-US">Shotguns</String>
+        <String xml:lang="it-IT">Fucili a canna liscia</String>
+    </Entry>
+    
+    <Entry Id="cat_assault_rifles">
+        <String xml:lang="en-US">Assault Rifles</String>
+        <String xml:lang="it-IT">Fucili d'assalto</String>
+    </Entry>
+    
+    <Entry Id="cat_precision_rifles">
+        <String xml:lang="en-US">Precision Rifles</String>
+        <String xml:lang="it-IT">Fucili di precisione</String>
+    </Entry>
+    
+    <Entry Id="cat_blades">
+        <String xml:lang="en-US">Blades</String>
+        <String xml:lang="it-IT">Armi da taglio</String>
+    </Entry>
+    
+    <Entry Id="cat_clothing">
+        <String xml:lang="en-US">Clothing</String>
+        <String xml:lang="it-IT">Abbigliamento</String>
+    </Entry>
+    
+    <Entry Id="cat_gear">
+        <String xml:lang="en-US">Gear</String>
+        <String xml:lang="it-IT">Attrezzatura</String>
+    </Entry>
+    
+    <!-- Incendiary (ammo) -->
+    <Entry Id="cat_incendiary">
+        <String xml:lang="en-US">Incendiary</String>
+        <String xml:lang="it-IT">Incendiarie</String>
+    </Entry>
+    
+    <Entry Id="cat_ap">
+        <String xml:lang="en-US">Armor-Piercing</String>
+        <String xml:lang="it-IT">Perforanti</String>
+    </Entry>
+    
+    <Entry Id="cat_melee">
+        <String xml:lang="en-US">Melee</String>
+        <String xml:lang="it-IT">Armi da mischia</String>
+    </Entry>
+    
+    <Entry Id="cat_lmgs">
+        <String xml:lang="en-US">LMGs</String>
+        <String xml:lang="it-IT">Mitragliatrici</String>
+    </Entry>
+    
+    <Entry Id="cat_throwables">
+        <String xml:lang="en-US">Throwables</String>
+        <String xml:lang="it-IT">Armi da lancio</String>
+    </Entry>
+    
+    <Entry Id="cat_explosives">
+        <String xml:lang="en-US">Explosives</String>
+        <String xml:lang="it-IT">Esplosivi</String>
+    </Entry>
+    
+    <Entry Id="cat_less_lethal">
+        <String xml:lang="en-US">Less-Lethal</String>
+        <String xml:lang="it-IT">Armi non letali</String>
+    </Entry>
+    
+    
+    <Entry Id="cat_special_mags">
+        <String xml:lang="en-US">Special Mags</String>
+        <String xml:lang="it-IT">Caricatori speciali</String>
+    </Entry>
+    
+    <!-- {0} = Job name -->
+    <Entry Id="cat_job_clothing">
+        <String xml:lang="en-US">~b~{0} Clothing</String>
+        <String xml:lang="it-IT">~b~Abbigliamento da {0}</String>
+    </Entry>
+    
+    <Entry Id="cat_coveralls">
+        <String xml:lang="en-US">Coveralls</String>
+        <String xml:lang="it-IT">Tute</String>
+    </Entry>
+    
+    <Entry Id="cat_shop">
+        <String xml:lang="en-US">Shop</String>
+        <String xml:lang="it-IT">Negozio</String>
+    </Entry>
+    
+    <Entry Id="cat_plasters">
+        <String xml:lang="en-US">Plasters</String>
+        <String xml:lang="it-IT">Cerotti</String>
+    </Entry>
+    
+    <Entry Id="cat_cigarettes">
+        <String xml:lang="en-US">Cigarettes</String>
+        <String xml:lang="it-IT">Sigarette</String>
+    </Entry>
+    
+    <Entry Id="cat_coffee">
+        <String xml:lang="en-US">Coffee</String>
+        <String xml:lang="it-IT">Caffè</String>
+    </Entry>
+    
+    <Entry Id="cat_head">
+        <String xml:lang="en-US">Head</String>
+        <String xml:lang="it-IT">Testa</String>
+    </Entry>
+    
+    <Entry Id="cat_torso">
+        <String xml:lang="en-US">Torso</String>
+        <String xml:lang="it-IT">Torso</String>
+    </Entry>
+    
+    <Entry Id="cat_r_arm">
+        <String xml:lang="en-US">Right Arm</String>
+        <String xml:lang="it-IT">Braccio destro</String>
+    </Entry>
+    
+    <Entry Id="cat_l_arm">
+        <String xml:lang="en-US">Left Arm</String>
+        <String xml:lang="it-IT">Braccio sinistro</String>
+    </Entry>
+    
+    <Entry Id="cat_r_leg">
+        <String xml:lang="en-US">Right Leg</String>
+        <String xml:lang="it-IT">Gamba destra</String>
+    </Entry>
+    
+    <Entry Id="cat_l_leg">
+        <String xml:lang="en-US">Left Leg</String>
+        <String xml:lang="it-IT">Gamba sinistra</String>
+    </Entry>
+    
+    <Entry Id="cat_containers">
+        <String xml:lang="en-US">Containers</String>
+        <String xml:lang="it-IT">Contenitori</String>
+    </Entry>
+    
+    <Entry Id="cat_chemicals">
+        <String xml:lang="en-US">Chemicals</String>
+        <String xml:lang="it-IT">Prodotti chimici</String>
     </Entry>
 </Entries>
