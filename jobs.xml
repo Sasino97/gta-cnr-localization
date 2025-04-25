@@ -2217,6 +2217,7 @@
         <String xml:lang="es-ES">Cambia los neumáticos de su vehículo. Tiempo: ~b~{0} segundos~s~.</String>
         <String xml:lang="pt-BR">Troque os pneus de seu veículo. Tempo: ~b~{0} segundos~s~.</String>
         <String xml:lang="sv-SE">Byt ut ditt fordons däck. Tid: ~b~{0} sekunder~s~.</String>
+        <String xml:lang="zh-Hant">換輪胎. 用時: ~b~{0}秒~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Hotkey (for example: Y) -->
@@ -7351,7 +7352,7 @@
         <String xml:lang="no-NO">~r~Smykkebutikkranet kan ikke startes de neste ~s~{0} minuttene ~r~og ~s~{1} sekundene~r~.</String>
         <String xml:lang="fr-FR">~r~Le braquage de la bijouterie ne peut pas être lancé avant ~s~{0} minutes ~r~et~s~ {1} secondes~r~.</String>
         <String xml:lang="it-IT">~r~La rapina alla gioielleria non può essere iniziata per i prossimi ~s~{0} minuti ~r~e ~s~{1} secondi~r~.</String>
-        <String xml:lang="lv-LV">~r~Juvelierizstrādājumu veikala aplaupīšanu nevar sākt nākamās~s~ {0} minūtes ~r~un~s~ {1} seconds~r~.</String>
+        <String xml:lang="lv-LV">~r~Juvelierizstrādājumu veikala aplaupīšanu nevar sākt nākamo~s~ {0} minūšu ~r~un~s~ {1} sekunžu~r~ laikā.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_not_enough_cops">
@@ -7452,7 +7453,7 @@
         <String xml:lang="no-NO">Du gikk langt nok fra ~b~smykkebutikken~s~. Gå nå til et ~y~gjemmested ~s~for å fullføre ~r~ranet~s~.</String>
         <String xml:lang="fr-FR">Vous êtes assez loin de la ~b~bijouterie~s~. Maintenant dirigez-vous vers une ~y~planque ~s~pour compléter le ~r~braquage~s~.</String>
         <String xml:lang="it-IT">Ti sei allontanato abbastanza dalla ~b~gioielleria~s~. Ora vai in un ~y~nascondiglio~s~ per completare il ~r~colpo~s~.</String>
-        <String xml:lang="lv-LV">Jūs aizgājat pietiekami tālu no ~b~juvelierizstrādājumu veikala~s~. Tagad dodaties uz ~y~hideout~s~, lai pabeigtu ~r~laupīšanu~s~.</String>
+        <String xml:lang="lv-LV">Jūs aizgājat pietiekami tālu no ~b~juvelierizstrādājumu veikala~s~. Tagad dodaties uz ~y~slēptuvi~s~, lai pabeigtu ~r~laupīšanu~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Time (for example: Sunday 10:00) -->
@@ -7760,7 +7761,7 @@
         <String xml:lang="no-NO">ARTIKLER TATT</String>
         <String xml:lang="fr-FR">OBJETS PRIS</String>
         <String xml:lang="it-IT">OGGETTI PRESI</String>
-        <String xml:lang="lv-LV">PAŅEMTIE VIENUMI</String>
+        <String xml:lang="lv-LV">PAŅEMTIE DĀRGUMI</String>
     </Entry>
 
     <!-- This will show up as a subtitle (bottom middle of screen) -->
@@ -7779,108 +7780,131 @@
         <String xml:lang="en-US">This is not the ideal way to rob the ~b~jewelry store~s~. Keep exploring the area, and you might find something.</String>
         <String xml:lang="no-NO">Dette er ikke den ideelle måten å rane ~b~smykkebutikken~s~. Fortsett å utforske området, så finner du kanskje noe.</String>
         <String xml:lang="fr-FR">Ce n'est pas le moyen idéal pour braquer la ~b~Bijouterie~s~. Continuez à explorer autour, et peut-être trouverez-vous quelques chose.</String>
+        <String xml:lang="lv-LV">Šis nav ideālākais veids, kā aplaupīt ~b~juvelierizstrādājumu veikalu~s~. Turpini pētīt apkārtni, un varbūt kaut ko atradīsi.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_hint_1">
         <String xml:lang="en-US">What will you find ~b~up there~s~?</String>
         <String xml:lang="no-NO">Hva finner du ~b~deropp~s~?</String>
         <String xml:lang="fr-FR">Que trouverez-vous ~b~là-haut~s~?</String>
+        <String xml:lang="lv-LV">Ko tu atradīsi ~b~tur augšā~s~?</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_hint_2">
         <String xml:lang="en-US">Hey, that's the ~b~jewelry store~s~'s roof over there.</String>
         <String xml:lang="no-NO">Hei, det er ~b~smykkebutikken~s~s tak der borte.</String>
         <String xml:lang="fr-FR">Hey, c'est le toit de la ~b~Bijouterie~s~ par ici.</String>
+        <String xml:lang="lv-LV">Hei, tas tur ir ~b~juvelierizstrādājumu veikala~s~ jumts.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_hint_3">
         <String xml:lang="en-US">Look at that, it's the ~y~air vent ~s~of the ~b~jewelry store~s~.</String>
         <String xml:lang="no-NO">Se på det, det er ~y~luftventilen ~s~i ~b~smykkebutikken~s~.</String>
         <String xml:lang="fr-FR">Regardez ceci, c'est le ~y~conduit d'aération ~s~de la ~b~Bijouterie~s~.</String>
+        <String xml:lang="lv-LV">Paskaties, tās ir ~b~juvelierizstrādājumu veikala~s~ ~y~gaisa ventilācijas atveres~s~.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_hint_4">
         <String xml:lang="en-US">This seems like the perfect throwing spot... Do you have ~y~tear gas~s~?</String>
         <String xml:lang="no-NO">Dette virker som det perfekte kastestedet... Har du ~y~tåregass~s~?</String>
         <String xml:lang="fr-FR">Cela semble être l'endroit parfait pour lancer quelque chose... avez-vous du ~y~gas lacrymogène~s~?</String>
+        <String xml:lang="lv-LV">Šķiet, ka šī ir ideāla vieta mešanai... Vai jums ir ~y~asaru gāze~s~?</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_police_notification">
         <String xml:lang="en-US">(C)Dispatch:(/C) Attention all units. The (C)jewelry store(/C) is being robbed.</String>
         <String xml:lang="no-NO">(C) Utsendelse:(/C) Vær oppmerksom på alle enheter. (C)smykkebutikken(/C) blir ranet.</String>
         <String xml:lang="fr-FR">(C)Dispatch:(/C) Attention à toutes les unités. La (C)Bijouterie(/C) est en train de se faire braquer.</String>
+        <String xml:lang="lv-LV">(C)Dispečers:(/C) Uzmanību visām vienībām. (C)Juvelierizstrādājumu veikals(/C) tiek aplaupīts.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_hideouts_available">
         <String xml:lang="en-US">You have ~y~{0} ~s~suitable ~r~hideouts~s~.</String>
         <String xml:lang="no-NO">Du har ~y~{0} ~s~egnede ~r~gjemmesteder~s~.</String>
         <String xml:lang="fr-FR">You have ~y~{0} ~s~suitable ~r~hideouts~s~.</String>
+        <String xml:lang="lv-LV">Jums ir ~y~{0}~s~ piemērotas~r~slēptuves~s~.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_no_hideouts_available">
         <String xml:lang="en-US">You don't have a suitable ~r~hideout~s~. You can go to a ~g~friend~s~'s hideout to finish the robbery.</String>
         <String xml:lang="no-NO">Du har ikke et passende ~r~gjemmested~s~. Du kan gå til en ~g~venn~s~s gjemmested for å fullføre ranet.</String>
         <String xml:lang="fr-FR">Vous n'avez pas de ~r~cachettes~s~ valides. Vous pouvez aller à la cachette d'un ~g~ami~s~ pour compléter le braquage.</String>
+        <String xml:lang="lv-LV">Jums nav piemērotas ~r~slēptuves~s~. Jūs varat doties uz ~g~drauga~s~slēptuvi, lai pabeigtu laupīšanu.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_list_hideouts_btn">
         <String xml:lang="en-US">View Hideouts</String>
         <String xml:lang="no-NO">Se gjemmesteder</String>
         <String xml:lang="fr-FR">Voir les cachettes</String>
+        <String xml:lang="lv-LV">Skatīt slēptuves</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_list_hideouts">
         <String xml:lang="en-US">Hideouts</String>
         <String xml:lang="no-NO">Skjuler</String>
         <String xml:lang="fr-FR">Cachettes</String>
+        <String xml:lang="lv-LV">Slēptuves</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_list_hideouts_subtitle">
         <String xml:lang="en-US">Available hideouts</String>
         <String xml:lang="no-NO">Tilgjengelige gjemmesteder</String>
         <String xml:lang="fr-FR">Cachettes disponibles</String>
+        <String xml:lang="lv-LV">Pieejamas slēptuves</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_no_items_taken">
         <String xml:lang="en-US">~r~You haven't stolen any items from the jewelry store.</String>
         <String xml:lang="no-NO">~r~Du har ikke stjålet noen gjenstander fra smykkebutikken.</String>
         <String xml:lang="fr-FR">~r~Vous n'avez volé aucun objet à la Bijouterie.</String>
+        <String xml:lang="lv-LV">~r~Jūz neesat nozadzis nekādus dārgumus no juvelierizstrādājumu veikala.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_property_owner_offline">
         <String xml:lang="en-US">~r~The owner of this property is offline. Use a different hideout.</String>
         <String xml:lang="no-NO">~r~Eieren av denne eiendommen er frakoblet. Bruk et annet gjemmested.</String>
         <String xml:lang="fr-FR">~r~Le propriétaire de cette propriété est hors-ligne. Utilisez une autre cachette.</String>
+        <String xml:lang="lv-LV">~r~Šī īpašuma īpašnieks nav tiešsaistē. Izmantojet citu slēptuvi.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_cuffed">
         <String xml:lang="en-US">You have been ~r~cuffed ~s~and you failed the ~b~jewelry store robbery~s~.</String>
         <String xml:lang="no-NO">Du har blitt ~r~pålagt ~s~og du mislyktes i ~b~smykkebutikk-ranet~s~.</String>
         <String xml:lang="fr-FR">You have been ~r~cuffed ~s~and you failed the ~b~jewelry store robbery~s~.</String>
+        <String xml:lang="zh-Hant">你已被 ~r~上銬~s~ 且未能完成 ~b~珠寶店搶劫~s~.</String>
+        <String xml:lang="lv-LV">Jūs tikat ~r~apcietināts~s~ un jums neizdevās ~b~juvelierizstrādajumu veikala aplaupīšana~s~.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_respawned">
         <String xml:lang="en-US">You ~r~died ~s~and you failed the ~b~jewelry store robbery~s~.</String>
         <String xml:lang="no-NO">Du ~r~døde ~s~og du mislyktes i ~b~smykkebutikk-ranet~s~.</String>
         <String xml:lang="fr-FR">Vous êtes ~r~mort ~s~et vous avez échoué le ~b~braquage de la Bijouterie~s~.</String>
+        <String xml:lang="zh-Hant">你已 ~r~死亡 ~s~且未能完成~b~珠寶店搶劫~s~.</String>
+        <String xml:lang="lv-LV">Jūs ~r~nomirāt~s~ un jums neizdevās ~b~juvelierizstrādājumu veikala aplaupīšana~s~.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success">
         <String xml:lang="en-US">~g~Robbery completed! ~s~You successfully stole ~y~{0} items ~s~from the ~b~jewelry store~s~.</String>
         <String xml:lang="no-NO">~g~Ranet fullført! ~s~Du har stjålet ~y~{0} varer ~s~fra ~b~smykkebutikken~s~.</String>
         <String xml:lang="fr-FR">~g~Braquage complété! ~s~Vous avez volé avec succès ~y~{0} objets~s~ à la ~b~Bijouterie~s~.</String>
+        <String xml:lang="zh-Hant">~g~搶劫成功! ~s~你成功的從~b~ 珠寶店 ~s~偷了 ~y~{0} 個物品~s~.</String>
+        <String xml:lang="lv-LV">~g~Laupīšana pabeigta!~s~ Jūs veiksmīgi nozagāt ~y~{0} dārgumus~s~ no ~b~juvelierizstrādājumu veikala~s~.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success_others_hideout">
         <String xml:lang="en-US">~g~Robbery completed! ~s~You successfully stole ~y~{0} items ~s~from the ~b~jewelry store ~s~and stored them in {1}'s property.</String>
         <String xml:lang="no-NO">~g~Ranet fullført! ~s~Du har stjålet ~y~{0} varer ~s~fra ~b~smykkebutikken ~s~og lagret dem i {1}s eiendom.</String>
         <String xml:lang="fr-FR">~g~Braquage complété! ~s~Vous avez volé avec succès ~y~{0} objets ~s~à la ~b~Bijouterie ~s~et les avez stockés dans la propriété {1}.</String>
+        <String xml:lang="zh-Hant">~g~搶劫成功! ~s~你成功的從~b~ 珠寶店 ~s~偷了 ~y~{0} 個物品 ~s~並將它存入房產 {1}.</String>
+        <String xml:lang="lv-LV">~g~Laupīšana pabeigta!~s~ Jūs veiksmīgi nozagāt ~y~{0} dārgumus~s~ no ~b~juvelierizstrādājumu veikala~s~ un novietojāt tos {1} īpašumā.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success_with_error">
         <String xml:lang="en-US">~o~Robbery completed with an error: ~s~some items were not received likely due to ~r~insufficient space ~s~in the property.</String>
         <String xml:lang="no-NO">~o~Rån fullført med en feil: ~s~noen gjenstander ble sannsynligvis ikke mottatt på grunn av ~r~ikke nok plass ~s~i eiendommen.</String>
         <String xml:lang="fr-FR">~o~Braquage completé avec une erreur : ~s~certains objets n'ont pas été reçus probablement du à un ~r~manque d'espace ~s~dans la propriété.</String>
+        <String xml:lang="zh-Hant">~o~搶劫出現錯誤: ~s~有些物品因為~r~空間不足~s~而無法獲得.</String>
+        <String xml:lang="lv-LV">~o~Laupīšana pabeigta ar kļūdu:~s~ dažas mantas netika saņemtas, iespējams, dēļ ~r~nepietiekamas vietas ~s~inventārī.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success_global_notification">
@@ -7888,5 +7912,6 @@
         <String xml:lang="no-NO">(C){0}(/C) ranet (C){1} juveler(/C) fra smykkebutikken!</String>
         <String xml:lang="fr-FR">(C){0}(/C) a volé (C){1} bijoux(/C) à la Bijouterie!</String>
         <String xml:lang="zh-Hant">(C){0}(/C) 從珠寶店搶了 (C){1} 個珠寶(/C)</String>
+        <String xml:lang="lv-LV">(C){0}(/C) nozaga (C){1} dārgumusC) no juvelierizstrādājumu veikala!</String>
     </Entry>
 </Entries>

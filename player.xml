@@ -164,7 +164,7 @@
         <String xml:lang="th-TH">~y~คำเตือน! ~s~คุณเพิ่งเข้าสู่ ~r~เรดโซน~s~ พลเรือนและอาชญากรได้รับอนุญาตให้สังหารใครก็ตามที่เห็นได้ที่นี่</String>
         <String xml:lang="id-ID">~y~Peringatan! ~s~Anda baru saja memasuki ~r~zona merah~s~. Warga dan kriminal diperbolehkan membunuh siapapun yang dilihat.</String>
         <String xml:lang="hi-Latn">~y~Warning! ~s~Aapne abhi ek ~r~redzone ~s~mein enter kiya hai. Yahan civilians aur criminals ko kisi ko bhi maarne ki permission hai.</String>
-        <String xml:lang="lv-LV">~y~Brīdinājums! ~s~Jūs tikko ienācāt ~r~sarkanajā zonā~s~. Civilie un noziedznieki drīkst nogalināt jebkuru šeit.</String>
+        <String xml:lang="lv-LV">~y~Brīdinājums! ~s~Jūs tikko ienācāt ~r~redzone~s~. Civilie un noziedznieki drīkst nogalināt jebkuru šeit.</String>
         <String xml:lang="tr-TR">~y~Dikkat! ~s~Az önce ~r~kırmızı bölgeye~s~. giriş yaptınız. Burada siviller ve suçlular gördükleri herkesi öldürebilir.</String>
         <String xml:lang="no-NO">~y~Advarsel! ~s~Du skrev nettopp inn en ~r~rødzone~s~. Sivile og kriminelle har lov til å drepe alle som er på stedet her.</String>
         <String xml:lang="fr-FR">~y~Avertissement! ~s~Vous venez d'entrer dans une ~r~zone rouge~s~. Les civils et les criminels sont autorisés à tuer n'importe qui à vue ici.</String>
@@ -217,9 +217,9 @@
         <String xml:lang="en-US">(C)Redzones:(/C) the active redzone is now (C){0}(/C).</String>
         <String xml:lang="nl-NL">(C)Rode zone:(/C) de actieve rode zone is nu (C){0}(/C).</String>
         <String xml:lang="fr-FR">(C)Zones rouges:(/C) la zone rouge active est maintenant à (C){0}(/C).</String>
-        <String xml:lang="lv-LV">(C)Sarkanā zona:(/C) aktīva sarkanā zona tagad ir (C){0}(/C).</String>
         <String xml:lang="de-DE">(C)Rote Zone:(/C) die aktuelle Rote Zone ist bei (C){0}(/C).</String>
         <String xml:lang="tr-TR">(C)Kırmızı alanlar:(/C) şu anda aktif olan kırmızı bölge (C){0}(/C).</String>
+        <String xml:lang="lv-LV">(C)Redzone:(/C) aktīva sarkanā zona tagad ir (C){0}(/C).</String>
         <String xml:lang="hi-Latn">(C)Redzones:(/C) abhi ka active redzone (C){0}(/C) hai.</String>
         <String xml:lang="id-ID">(C)Redzones:(/C) Redzone aktif sekarang di (C){0}(/C).</String>
         <String xml:lang="no-NO">(C)Røde soner:(/C) den aktive røde sonen er nå (C){0}(/C).</String>
@@ -230,10 +230,10 @@
     <Entry Id="redzone_announcement_cop">
         <String xml:lang="en-US">Arrest and kill criminals in redzones for a 1.5x bonus.</String>
         <String xml:lang="nl-NL">Arresteer en vermoord criminelen in rode zones voor een 1.5x bonus.</String>
-        <String xml:lang="lv-LV">Arestējiet un nogalinājiet noziedzniekus sarkanajā zonā, lai iegūtu 1.5x bonusu.</String>
         <String xml:lang="de-DE">Verhaftet und tötet Verbrecher in roten Zonen für einen 1,5x Bonus.</String>
         <String xml:lang="tr-TR">1.5 kat bonus için kırmızı bölgelerdeki suçluları tutuklayın ve yakalayın.</String>
         <String xml:lang="fr-FR">Arrêtez et tuez les criminels dans les zones rouges pour un bonus de x1,5.</String>
+        <String xml:lang="lv-LV">Arestējiet un nogalinājiet noziedzniekus redzonās, lai saņemtu 1.5x bonusu.</String>
         <String xml:lang="hi-Latn">Redzones mein criminals ko pakadne ya maarne par, 1.5x bonus ka bonus milega.</String>
         <String xml:lang="id-ID">Tangkap dan bunuh kriminal di redzone untuk mendapatkan bonus 1.5x</String>
         <String xml:lang="no-NO">Arrester og drep kriminelle i røde områder for en 1,5x bonus.</String>
@@ -244,10 +244,10 @@
     <Entry Id="redzone_announcement_ems">
         <String xml:lang="en-US">Revive and heal patients in redzones for a 1.5x bonus.</String>
         <String xml:lang="nl-NL">Reanimeer en genees patienten in rode zones voor een 1.5x bonus.</String>
-        <String xml:lang="lv-LV">Atdzīviniet un dziedējiet pacientus sarkanajās zonās priekš 1.5x bonusa.</String>
         <String xml:lang="de-DE">Belebe und heile Patienten in roten Zonen für einen 1,5x Bonus.</String>
         <String xml:lang="tr-TR">1.5 kat bonus için kırmızı bölgelerdeki hastaları canlandırın ve iyileştirin.</String>
         <String xml:lang="fr-FR">Réanimez et soignez les blessés dans les zones rouges pour un bonus de x1,5.</String>
+        <String xml:lang="lv-LV">Atdzīviniet un dziedējiet pacientus redzonās, lai saņemtu 1.5x bonusu.</String>
         <String xml:lang="hi-Latn">Redzones mein patients ko revive ya heal karne par, 1.5x bonus ka bonus milega.</String>
         <String xml:lang="id-ID">Bangunkan dan sembuhkan pasien di redzone untuk mendapatkan bonus 1.5x.</String>
         <String xml:lang="no-NO">Gjenoppliv og helbred pasienter i røde områder for en 1,5x bonus.</String>
@@ -272,10 +272,10 @@
     <Entry Id="redzone_left">
         <String xml:lang="en-US">You left the ~r~redzone~s~.</String>
         <String xml:lang="nl-NL">Je hebt de ~r~rode zone~s~ verlaten.</String>
-        <String xml:lang="lv-LV">Jūs atstājāt ~r~sarkano zonu~s~.</String>
         <String xml:lang="de-DE">Du hast die ~r~rote Zone~s~ verlassen.</String>
         <String xml:lang="tr-TR">~r~Kırmızı bölge~s~den ayrıldın.</String>
         <String xml:lang="fr-FR">Vous avez quitté la ~r~zone rouge~s~.</String>
+        <String xml:lang="lv-LV">Jūs atstājāt ~r~redzone~s~.</String>
         <String xml:lang="hi-Latn">Aap ne ~r~redzone~s~ leave kar diya.</String>
         <String xml:lang="id-ID">Kamu telah meninggalkan ~r~redzone~s~.</String>
         <String xml:lang="no-NO">Du forlot ~r~redzone~s~.</String>
@@ -287,9 +287,9 @@
         <String xml:lang="en-US">The current redzone is ~r~{0}~s~.</String>
         <String xml:lang="nl-NL">De huidige rode zone is ~r~{0}~s~.</String>
         <String xml:lang="fr-FR">La zone rouge actuelle est à ~r~{0}~s~.</String>
-        <String xml:lang="lv-LV">Pašreizēja sarkanā zona ir ~r~{0}~s~.</String>
         <String xml:lang="de-DE">Die aktuelle rote Zone ist ~r~{0}~s~.</String>
         <String xml:lang="tr-TR">Şu anki kırmızı bölge ~r~{0}~s~.</String>
+        <String xml:lang="lv-LV">Pašreizēja redzone ir ~r~{0}~s~.</String>
         <String xml:lang="hi-Latn">Abhi ka redzone ~r~{0}~s~ hai.</String>
         <String xml:lang="id-ID">Redzone saat ini di ~r~{0}~s~.</String>
         <String xml:lang="no-NO">Gjeldende rødsone er ~r~{0}~s~.</String>
@@ -299,10 +299,10 @@
 
     <Entry Id="redzone_will_change">
         <String xml:lang="en-US">(C)Redzones:(/C) the active redzone will change ~y~{0}~s~.</String>
-        <String xml:lang="lv-LV">(C)Sarkanās zonas:(/C) aktīva sarkanā zona nomainīsies ~y~{0}~s~.</String>
         <String xml:lang="nl-NL">(C)Rode zones:(/C) de actieve rode zone verandert elke ~y~{0}~s~.</String>
         <String xml:lang="de-DE">(C)Rote Zone:(/C) die aktuelle rote Zone wird sich ändern: ~y~{0}~s~.</String>
         <String xml:lang="tr-TR">(C)Kırmızı bölgeler:(/C) aktif olan kırmızı bölge değişecek ~y~{0}~s~.</String>
+        <String xml:lang="lv-LV">(C)Redzone:(/C) aktīva redzone nomainīsies ~y~{0}~s~.</String>
         <String xml:lang="hi-Latn">(C)Redzones:(/C) active redzone ab ~y~{0}~s~ change ho jayega.</String>
         <String xml:lang="fr-FR">(C)Zones rouge:(/C) la zone rouge actuelle va changer ~y~{0}~s~.</String>
         <String xml:lang="id-ID">(C)Redzones:(/C) redzone yang aktif akan berpindah ~y~{0}~s~.</String>
@@ -314,10 +314,10 @@
     <Entry Id="redzone_changed">
         <String xml:lang="en-US">~r~Redzone changed</String>
         <String xml:lang="nl-NL">~r~Rode zone is verandert</String>
-        <String xml:lang="lv-LV">~r~Sarkanā zona ir mainījusies</String>
         <String xml:lang="de-DE">~r~Rote Zone wurde geändert</String>
         <String xml:lang="tr-TR">~r~Kırmızı bölge değişti</String>
         <String xml:lang="fr-FR">~r~La zone rouge a changé</String>
+        <String xml:lang="lv-LV">~r~Redzone ir mainījusies</String>
         <String xml:lang="hi-Latn">~r~Redzone change ho gaya</String>
         <String xml:lang="id-ID">~r~Redzone berganti tempat</String>
         <String xml:lang="no-NO">~r~Redzone endret</String>
@@ -1298,6 +1298,7 @@
         <String xml:lang="hi-Latn">~r~Aap apni personal vehicle ko maintenance ke liye nahi bhej sakte jab woh ek mission ka hissa ho!</String>
         <String xml:lang="no-NO">~r~Du kan ikke sende ditt personlige kjøretøy til vedlikehold når det brukes som en del av et oppdrag!</String>
         <String xml:lang="sv-SE">~r~Du kan inte skicka ditt personliga fordon till underhåll när det används som en del av ett uppdrag!</String>
+        <String xml:lang="zh-Hant">~r~你不能在任務進行時將個人載具送去保養!</String>
     </Entry>
 
     <Entry Id="cant_summon_vehicle_when_part_of_mission">
@@ -2129,6 +2130,7 @@
         <String xml:lang="hi-Latn">vehicle</String>
         <String xml:lang="sv-SE">fordon</String>
         <String xml:lang="no-NO">kjøretøy</String>
+        <String xml:lang="zh-Hant">車輛</String>
     </Entry>
 
     <!-- nullnull{0} = Attempts/MaxAttempts (for example: 1/5) -->
@@ -3557,12 +3559,16 @@
         <String xml:lang="en-US">Redzone voting started!</String>
         <String xml:lang="no-NO">Redzone-avstemningen startet!</String>
         <String xml:lang="fr-FR">Le vote de la zone rouge a commencé!</String>
+        <String xml:lang="zh-Hant">死鬥區域投票已開始!</String>
+        <String xml:lang="lv-LV">Redzone balsošana sākusies!</String>
     </Entry>
 
     <Entry Id="redzone_vote_instructions">
         <String xml:lang="en-US">Enter (C)/redzone-vote [1-{0}](/C) to cast your vote.</String>
         <String xml:lang="no-NO">Skriv inn (C)/redzone-vote [1-{0}](/C) for å avgi din stemme.</String>
         <String xml:lang="fr-FR">Entrez (C)/redzone-vote [1-{0}](/C) pour exprimer votre vote.</String>
+        <String xml:lang="zh-Hant">輸入 (C)/redzone-vote [1-{0}](/C) 以投下你的選擇.</String>
+        <String xml:lang="lv-LV">Ievadiet (C)/redzone-vote [1-{0}](/C), lai balsotu.</String>
     </Entry>
 
     <Entry Id="redzone_vote_results">
@@ -3570,6 +3576,7 @@
         <String xml:lang="no-NO">Stemmeresultater for Redzone:</String>
         <String xml:lang="fr-FR">Résultats du vote de zone rouge :</String>
         <String xml:lang="zh-Hant">死鬥區域投票結果:</String>
+        <String xml:lang="lv-LV">Redzone balsošanas rezultāti:</String>
     </Entry>
 
     <Entry Id="redzone_vote_result_count_1">
@@ -3577,6 +3584,7 @@
         <String xml:lang="no-NO">1 stemme</String>
         <String xml:lang="fr-FR">1 vote</String>
         <String xml:lang="zh-Hant">1 票</String>
+        <String xml:lang="lv-LV">1 balsojums</String>
     </Entry>
 
     <Entry Id="redzone_vote_result_count_n">
@@ -3584,6 +3592,7 @@
         <String xml:lang="no-NO">{0} stemmer</String>
         <String xml:lang="fr-FR">{0} votes</String>
         <String xml:lang="zh-Hant">{0} 票</String>
+        <String xml:lang="lv-LV">{0} balsojumi</String>
     </Entry>
 
     <Entry Id="redzone_vote_result_no_votes">
@@ -3591,6 +3600,7 @@
         <String xml:lang="no-NO">⚠️ Ingen stemmer.</String>
         <String xml:lang="fr-FR">⚠️ Aucun vote exprimé.</String>
         <String xml:lang="zh-Hant">⚠️ 沒有人投票.</String>
+        <String xml:lang="lv-LV">⚠️ Nav nodotu balsojumu.</String>
     </Entry>
 
     <Entry Id="redzone_vote_reminder">
@@ -3598,5 +3608,6 @@
         <String xml:lang="no-NO">Ikke glem å stemme på neste ~r~redzone~s~!</String>
         <String xml:lang="fr-FR">N'oubliez pas de voter pour la prochaine ~r~zone rouge~s~!</String>
         <String xml:lang="zh-Hant"> 別忘了投下一個 ~r~死鬥區域~s~ 的地點!</String>
+        <String xml:lang="lv-LV">Neaizmirstiet balsot par nākamo ~r~sarkano zonu~s~!</String>
     </Entry>
 </Entries>
