@@ -459,23 +459,6 @@
         <String xml:lang="tr-TR">BATARYA</String>
     </Entry>
 
-    <Entry Id="on_foot_to_use_ev_charger">
-        <String xml:lang="en-US">You must be ~r~on foot ~s~to use an ~g~EV charger~s~.</String>
-        <String xml:lang="nl-NL">Je moet ~r~te voet zijn ~s~om een ~g~EV oplader~s~ te gebruiken.</String>
-        <String xml:lang="hi-Latn">Aapko ~r~on foot ~s~rehna hoga apni vehicle ko ~g~EV charger ~s~se charge karne ke liye.</String>
-        <String xml:lang="de-DE">Du musst ~r~zu Fuß ~s~sein, um einen ~g~EV-Lader~s~ zu benutzen.</String>
-        <String xml:lang="it-IT">Devi essere ~r~a piedi ~s~per usare un ~g~caricatore EV~s~.</String>
-        <String xml:lang="id-ID">Anda harus ~r~dalam posisi berjalan ~s~untuk menggunakan ~g~Charger EV~s~.</String>
-        <String xml:lang="cs-CZ">Nesmíš být ~r~ve vozidle ~s~abys mohl použít ~g~nabíječkur~s~.</String>
-        <String xml:lang="lv-LV">Jums ir jābūt ~r~kājām~s~, lai izmantotu ~g~uzlādes staciju~s~.</String>
-        <String xml:lang="no-NO">Du må være ~r~til fots ~s~for å bruke en ~g~EV-lader~s~.</String>
-        <String xml:lang="sv-SE">Du måste vara ~r~till fots ~s~för att använda en ~g~EV-laddare~s~.</String>
-        <String xml:lang="fr-FR">Vous devez être ~r~à pied ~s~pour utiliser un ~g~chargeur électrique~s~.</String>
-        <String xml:lang="es-ES">Debe ir a ~r~pie ~s~para utilizar ~g~un cargador EV~s~.</String>
-        <String xml:lang="pt-BR">É preciso ir a ~r~pé ~s~para usar um ~g~carregador de EV~s~.</String>
-        <String xml:lang="tr-TR">~g~Şarj istasyonu~s~nu kullanmak için ~r~yaya ~s~olmanız gerekir.</String>
-    </Entry>
-
     <Entry Id="vehicle_in_maintenance">
         <String xml:lang="en-US">~r~This vehicle is in maintenance.</String>
         <String xml:lang="pl-PL">~r~Ten pojazd jest w trakcie konserwacji.</String>
@@ -1989,24 +1972,39 @@
     <!-- Do not include information about an EV charger, electric cars will get the "on_foot_to_use_ev_charger" notification instead. -->
     <Entry Id="on_foot_to_use_fuel_pump">
         <String xml:lang="en-US">You must be ~r~on foot ~s~to use a ~y~gas pump~s~.</String>
-        <String xml:lang="pl-PL">Musisz być ~r~pieszo ~s~by użyć dystrybutora paliw.</String>
-        <String xml:lang="nl-NL">Je moet ~r~te voet ~s~zijn om een tank/laadstation te gebruiken.</String>
-        <String xml:lang="es-ES">Usted debe de estar ~r~parado ~s~para utilizar una bomba de combustible.</String>
-        <String xml:lang="pt-BR">Você deve ter um pé para usar uma bomba de combustível</String>
-        <String xml:lang="de-DE">Du musst ~r~zu Fuß ~s~sein, Um die Zapfsäule zu nutzen.</String>
-        <String xml:lang="ar-001">يجب أن تكون ~r~سيرًا على الأقدام ~s~لاستخدام مضخة الوقود.</String>
-        <String xml:lang="id-ID">Anda harus ~r~Turun dari mobil~s~untuk menggunakan pom bensin.</String>
+        <String xml:lang="pl-PL">Musisz być ~r~pieszo ~s~by użyć ~y~dystrybutora paliw~s~.</String>
+        <String xml:lang="es-ES">Usted debe de estar ~r~parado ~s~para utilizar una ~y~bomba de combustible~s~.</String>
+        <String xml:lang="pt-BR">Você deve ter um pé para usar uma ~y~bomba de combustível~s~.</String>
+        <String xml:lang="de-DE">Du musst ~r~zu Fuß ~s~sein, Um die ~y~Zapfsäule zu nutzen~s~.</String>
+        <String xml:lang="id-ID">Anda harus ~r~turun dari mobil ~s~untuk menggunakan ~y~pom bensin~s~.</String>
         <String xml:lang="th-TH">คุณต้อง ~r~เดินเท้า ~s~จึงจะสามารถใช้ปั๊มน้ำมันเชื้อเพลิงได้</String>
         <String xml:lang="vi-VN">Bạn cần phải ~r~xuống xe ~s~để có thể sử dụng vòi bom nhiên liệu.</String>
         <String xml:lang="cs-CZ">Nesmíš být ~r~ve vozidle ~s~abys mohl čerpat palivo.</String>
         <String xml:lang="lv-LV">Jums ir jābūt ~r~kājām~s~, lai izmantotu degvielas sūkni.</String>
-        <String xml:lang="it-IT">Devi essere a ~r~piedi ~s~per utilizzare una ~y~pompa di carburante~s~.</String>
+        <String xml:lang="it-IT">Devi essere a ~r~piedi ~s~per utilizzare una ~y~pompa di benzina~s~.</String>
         <String xml:lang="hi-Latn">Aapko ~r~on foot ~s~rehna hoga ~y~petrol pump ~s~use karne ke liye.</String>
         <String xml:lang="fr-FR">Vous devez être ~r~à pied ~s~pour utiliser une ~y~pompe à essence.~s~</String>
         <String xml:lang="sv-SE">Du måste vara ~r~till fots ~s~för att använda en ~y~bränslepump~s~.</String>
         <String xml:lang="tr-TR">Benzin pompasını kullanmak için ~r~yaya ~s~olmanız gerekir.</String>
         <String xml:lang="no-NO">~y~Du må være ~r~til fots ~s~for å bruke en drivstoffpumpe.</String>
         <String xml:lang="zh-Hant">你需要 ~r~離開車輛~s~ 已使用 ~y~自助加油~s~.</String>
+    </Entry>
+
+    <Entry Id="on_foot_to_use_ev_charger">
+        <String xml:lang="en-US">You must be ~r~on foot ~s~to use an ~g~EV charger~s~.</String>
+        <String xml:lang="nl-NL">Je moet ~r~te voet zijn ~s~om een ~g~EV oplader~s~ te gebruiken.</String>
+        <String xml:lang="hi-Latn">Aapko ~r~on foot ~s~rehna hoga apni vehicle ko ~g~EV charger ~s~se charge karne ke liye.</String>
+        <String xml:lang="de-DE">Du musst ~r~zu Fuß ~s~sein, um einen ~g~EV-Lader~s~ zu benutzen.</String>
+        <String xml:lang="it-IT">Devi essere ~r~a piedi ~s~per usare un ~g~caricatore EV~s~.</String>
+        <String xml:lang="id-ID">Anda harus ~r~dalam posisi berjalan ~s~untuk menggunakan ~g~Charger EV~s~.</String>
+        <String xml:lang="cs-CZ">Nesmíš být ~r~ve vozidle ~s~abys mohl použít ~g~nabíječkur~s~.</String>
+        <String xml:lang="lv-LV">Jums ir jābūt ~r~kājām~s~, lai izmantotu ~g~uzlādes staciju~s~.</String>
+        <String xml:lang="no-NO">Du må være ~r~til fots ~s~for å bruke en ~g~EV-lader~s~.</String>
+        <String xml:lang="sv-SE">Du måste vara ~r~till fots ~s~för att använda en ~g~EV-laddare~s~.</String>
+        <String xml:lang="fr-FR">Vous devez être ~r~à pied ~s~pour utiliser un ~g~chargeur électrique~s~.</String>
+        <String xml:lang="es-ES">Debe ir a ~r~pie ~s~para utilizar ~g~un cargador EV~s~.</String>
+        <String xml:lang="pt-BR">É preciso ir a ~r~pé ~s~para usar um ~g~carregador de EV~s~.</String>
+        <String xml:lang="tr-TR">~g~Şarj istasyonu~s~nu kullanmak için ~r~yaya ~s~olmanız gerekir.</String>
     </Entry>
 
     <!-- nullnull{0} = Key (for example: U) -->
