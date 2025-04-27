@@ -478,6 +478,7 @@
         <String xml:lang="nl-NL">Speler blokkeren</String>
         <String xml:lang="fr-FR">Bloquer un joueur</String>
         <String xml:lang="tr-TR">Oyuncuyu engelle</String>
+        <String xml:lang="cs-CZ">Zablokovat hráče</String>
         <String xml:lang="de-DE">blockiere Spieler</String>
         <String xml:lang="it-IT">Blocca giocatore</String>
         <String xml:lang="id-ID">Blokir pemain</String>
@@ -825,44 +826,6 @@
         <String xml:lang="no-NO">Blokkere</String>
         <String xml:lang="es-ES">Bloquear</String>
         <String xml:lang="pt-BR">Bloquear</String>
-    </Entry>
-
-    <!-- {0} = Number of blocked users -->
-    <Entry Id="imenu_blocked_players_pretext">
-        <String xml:lang="en-US">{0} blocked users</String>
-        <String xml:lang="nl-NL">{0} geblokkeerde spelers</String>
-        <String xml:lang="fr-FR">{0} utilisateurs bloqués</String>
-        <String xml:lang="tr-TR">{0} engellenen kullanıcı</String>
-        <String xml:lang="hi-Latn">{0} block kiye gaye users</String>
-        <String xml:lang="cs-CZ">Počet zablokovaných hráčů: {0}</String>
-        <String xml:lang="es-ES">{0} usuarios bloqueados</String>
-        <String xml:lang="pt-BR">{0} usuários bloqueados</String>
-        <String xml:lang="de-DE">{0} blockierte Spieler</String>
-        <String xml:lang="it-IT">{0} utenti bloccati</String>
-        <String xml:lang="id-ID">{0} Pemain yang diblokir</String>
-        <String xml:lang="lv-LV">{0} bloķēto spēlētāju</String>
-        <String xml:lang="ar-001">{0} المستخدمين المحظورين</String>
-        <String xml:lang="no-NO">{0} blokkerte brukere</String>
-        <String xml:lang="sv-SE">{0} blockerade användare</String>
-    </Entry>
-
-    <!-- {0} = Username -->
-    <Entry Id="imenu_blocked_players_menuitem_description">
-        <String xml:lang="en-US">You are ~r~not ~s~receiving any text/voice messages and pings from ~y~{0}~s~.</String>
-        <String xml:lang="nl-NL">Je ontvangt ~r~geen ~s~tekst/spraak berichten en pings meer van ~y~{0}~s~.</String>
-        <String xml:lang="fr-FR">Tu ne reçois ~r~plus ~s~de messages textuels/vocaux et de mentions de ~y~{0}~s~.</String>
-        <String xml:lang="tr-TR">~y~{0}~s~'dan herhangi bir metin/ses ileti veya sinyal ~r~alamıyorsunuz~s~.</String>
-        <String xml:lang="hi-Latn">Ab aap ~r~nahi ~s~receive karenge koi text ya voice messages aur pings from ~y~{0}~s~.</String>
-        <String xml:lang="cs-CZ">~r~Nedostáváš ~s~žádné textové/hlasové zprávy a pingy od hráče ~y~{0}~s~.</String>
-        <String xml:lang="es-ES">~r~No ~s~estás recibiendo ningún mensaje de texto/voz ni pings de ~y~{0}~s~.</String>
-        <String xml:lang="pt-BR">Você ~r~não ~s~está recebendo mensagens de texto/voz ou pings de ~y~{0}~s~.</String>
-        <String xml:lang="de-DE">Du erhälst ~r~keine ~s~Text-/Sprachnachrichten und Erwähnungen von ~y~{0}~s~.</String>
-        <String xml:lang="it-IT">~r~Non ~s~ricevi più messaggi di testo/voce e notifiche da ~y~{0}~s~.</String>
-        <String xml:lang="id-ID">Kamu ~r~tidak akan ~s~menerima pesan teks/suara dan ping apapun dari ~y~{0}~s~.</String>
-        <String xml:lang="lv-LV">Jūs ~r~nesaņemat ~s~nekādas teksta/balss īsziņas un pings no ~y~{0}~s~.</String>
-        <String xml:lang="ar-001">انت ~r~لا ~s~تتلقي اي زسائل نصيه او صوتيه او اشعارات من ~y~{0}~s~</String>
-        <String xml:lang="no-NO">Du ~r~ikke ~s~mottar noen tekst-/talemeldinger og ping fra ~y~{0}~s~.</String>
-        <String xml:lang="sv-SE">Du ~r~inte ~s~får några text-/röstmeddelanden och pingar från ~y~{0}~s~.</String>
     </Entry>
 
     <Entry Id="imenu_blocked_players_empty_menuitem_text">
@@ -1349,17 +1312,17 @@
         <String xml:lang="en-US">Pick up</String>
         <String xml:lang="nl-NL">Oprapen</String>
         <String xml:lang="cs-CZ">Zvednout</String>
-        <String xml:lang="fr-FR">Ramasser</String>
-        <String xml:lang="es-ES">Levantar</String>
-        <String xml:lang="pt-BR">Levantar</String>
         <String xml:lang="de-DE">Aufheben</String>
         <String xml:lang="it-IT">Raccogli</String>
         <String xml:lang="id-ID">Mengambil</String>
         <String xml:lang="hi-Latn">Uthaye</String>
         <String xml:lang="lv-LV">Pacelt</String>
         <String xml:lang="ar-001">التقط</String>
+        <String xml:lang="fr-FR">Ramasser</String>
         <String xml:lang="no-NO">Plukk opp</String>
         <String xml:lang="sv-SE">Plocka upp</String>
+        <String xml:lang="es-ES">Levantar</String>
+        <String xml:lang="pt-BR">Levantar</String>
     </Entry>
 
     <Entry Id="imenu_inventory_stock">
@@ -1648,130 +1611,6 @@
         <String xml:lang="sv-SE">Det här föremålet kan inte ~r~ges ~s~till andra spelare.</String>
     </Entry>
 
-    <!-- 0 = Item name -->
-    <Entry Id="imenu_inventory_send_insufficient_amount">
-        <String xml:lang="en-US">You do not have enough ~r~{0}~s~.</String>
-        <String xml:lang="pl-PL">Nie masz wystarczająco dużo ~r~{0}~s~.</String>
-        <String xml:lang="nl-NL">Je hebt niet genoeg ~r~{0}~s~.</String>
-        <String xml:lang="tr-TR">Sende yeterince yok ~r~{0}~s~.</String>
-        <String xml:lang="de-DE">Du hast nicht genügend ~r~{0}~s~.</String>
-        <String xml:lang="it-IT">Non hai abbastanza ~r~{0}~s~.</String>
-        <String xml:lang="fr-FR">Tu n'as pas assez de ~r~{0}~s~.</String>
-        <String xml:lang="zh-Hant">你沒有足夠的 ~r~{0}~s~.</String>
-        <String xml:lang="zh-Hans">你没有足够的 ~r~{0}~s~.</String>
-        <String xml:lang="es-ES">No tienes suficientes ~r~{0}~s~.</String>
-        <String xml:lang="pt-BR">Você não tem o suficiente ~r~{0}~s~.</String>
-        <String xml:lang="ar-001">ليس لديك ما يكفي من ~r~{0}~s~.</String>
-        <String xml:lang="th-TH">คุณมี ~r~{0}~s~ ไม่เพียงพอ</String>
-        <String xml:lang="vi-VN">Bạn không có đủ ~r~{0}~s~.</String>
-        <String xml:lang="id-ID">Anda tidak memiliki ~r~{0}~s~ yang cukup.</String>
-        <String xml:lang="hi-Latn">Aapke pass enough nahi hai ~r~{0}~s~.</String>
-        <String xml:lang="cs-CZ">Nemáš dostatek~r~{0}~s~.</String>
-        <String xml:lang="lv-LV">Jums nav pietiekami daudz ~r~{0}~s~.</String>
-        <String xml:lang="no-NO">Du har ikke nok ~r~{0}~s~.</String>
-        <String xml:lang="sv-SE">Du har inte tillräckligt med ~r~{0}~s~.</String>
-    </Entry>
-
-    <!-- 0 = Player name -->
-    <Entry Id="imenu_inventory_send_insufficient_space">
-        <String xml:lang="en-US">{0} doesn't have enough space in their inventory.</String>
-        <String xml:lang="pl-PL">{0} nie ma wystarczająco wolnego miejsca w ekwipunku.</String>
-        <String xml:lang="nl-NL">{0} heeft niet genoeg ruimte in zijn inventaris.</String>
-        <String xml:lang="tr-TR">{0} envanterde yeterli boş alan yok.</String>
-        <String xml:lang="de-DE">{0} hat nicht genügend Platz im Inventar.</String>
-        <String xml:lang="it-IT">{0} non ha abbastanza spazio nel suo inventario.</String>
-        <String xml:lang="fr-FR">{0} n'a pas assez de place dans son inventaire.</String>
-        <String xml:lang="zh-Hant">{0} 的背包已經沒有多餘的空間了.</String>
-        <String xml:lang="zh-Hans">{0} 的背包已经没有多余的空间了.</String>
-        <String xml:lang="es-ES">{0} no tienes suficiente espacio en tu inventario.</String>
-        <String xml:lang="pt-BR">{0} você não tem espaço suficiente em seu inventário.</String>
-        <String xml:lang="ar-001">ليس لدى {0} مساحة كافية في مخزونه.</String>
-        <String xml:lang="th-TH">{0} มีพื้นที่ไม่เพียงพอในสินค้าคงคลัง</String>
-        <String xml:lang="vi-VN">{0} Không có đủ chỗ trống trong túi đồ của họ.</String>
-        <String xml:lang="id-ID">{0} tidak memiliki kapasitas yang mencukup didalam invetarisnya.</String>
-        <String xml:lang="hi-Latn">{0} nahi hai enough space unki inventory me.</String>
-        <String xml:lang="cs-CZ">{0} nemá v intentáři dostatek místa.</String>
-        <String xml:lang="lv-LV">{0} nav pietiekami daudz vietas viņu inventārī.</String>
-        <String xml:lang="no-NO">{0} har ikke nok plass i beholdningen.</String>
-        <String xml:lang="sv-SE">{0} har inte tillräckligt med utrymme i sitt förråd.</String>
-    </Entry>
-
-    <!-- 0 = Player name -->
-    <!-- 1 = Amount -->
-    <!-- 2 = Item name -->
-    <Entry Id="imenu_inventory_send_limit_reached">
-        <String xml:lang="en-US">{0} can't hold ~r~{1} ~s~more ~r~{2}~s~.</String>
-        <String xml:lang="pl-PL">{0} nie może nieść ~r~{1} ~s~więcej ~r~{2}~s~.</String>
-        <String xml:lang="nl-NL">{0} kan niet ~r~{1} ~s~meer ~r~{2} ~s~dragen.</String>
-        <String xml:lang="tr-TR">{0} ~r~{1} ~s~adet daha ~r~{2} ~s~taşıyamaz.</String>
-        <String xml:lang="de-DE">{0} kann nicht ~r~{1} ~s~weitere/n ~r~{2}~s~ halten.</String>
-        <String xml:lang="zh-Hant">{0} 無法攜帶 ~r~{1} ~s~個或以上的 ~r~{2}~s~.</String>
-        <String xml:lang="zh-Hans">{0} 无法携带 ~r~{1} ~s~个或以上的 ~r~{2}~s~.</String>
-        <String xml:lang="es-ES">{0} no puedes tener ~r~{1} ~s~más ~r~{2}~s~.</String>
-        <String xml:lang="pt-BR">{0} você não pode ter ~r~{1} ~s~mais ~r~{2}~s~.</String>
-        <String xml:lang="ar-001">{0} لا يمكنه استقبال ~r~{1} ~s~اكثر~r~{2}~s~.</String>
-        <String xml:lang="th-TH">{0} ไม่สามารถถือ ~r~{1} ~s~more ~r~{2}~s~</String>
-        <String xml:lang="vi-VN">{0} không thể giữ thêm ~r~{1}~s~ ~r~{2}~s~.</String>
-        <String xml:lang="id-ID">{0} tidak dapat membawa ~r~{1} ~s~lagi ~r~{2}~s~.</String>
-        <String xml:lang="it-IT">{0} non può reggere altri ~r~{1}~s~ ~r~{2}~s~.</String>
-        <String xml:lang="hi-Latn">{0} nahi rakh sakte ~r~{1} ~s~zyada ~r~{2}~s~.</String>
-        <String xml:lang="cs-CZ">{0} nemůže nést ~r~{1} ~s~více ~r~{2}~s~.</String>
-        <String xml:lang="lv-LV">{0} nevar turēt vēl ~r~{1} {2}~s~.</String>
-        <String xml:lang="no-NO">{0} kan ikke holde ~r~{1} ~s~mer ~r~{2}~s~.</String>
-        <String xml:lang="sv-SE">{0} kan inte hålla ~r~{1} ~s~mer ~r~{2}~s~.</String>
-        <String xml:lang="fr-FR">{0} ne peut pas porter plus de ~r~{1} {2}~s~.</String>
-    </Entry>
-
-    <!-- 0 = Player name -->
-    <!-- 1 = Amount -->
-    <!-- 2 = Unit of measurement -->
-    <!-- 3 = Item name -->
-    <!-- Example: Sasino can't hold 2 more g of Cocaine. -->
-    <Entry Id="imenu_inventory_send_limit_reached_unit">
-        <String xml:lang="en-US">{0} can't hold ~r~{1} ~s~more {2} of ~r~{3}~s~.</String>
-        <String xml:lang="pl-PL">{0} nie może nieść ~r~{1} ~s~więcej {2} ~r~{3}~s~.</String>
-        <String xml:lang="nl-NL">{0} kan niet ~r~{1} ~s~meer {2} van ~r~{3} ~s~dragen.</String>
-        <String xml:lang="tr-TR">{0} ~r~{1}~s~ {2}~s~ daha ~r~{3}~s~ tutamaz.</String>
-        <String xml:lang="de-DE">{0} kann nicht ~r~{1} ~s~weitere{2} von ~r~{3}~s~ halten.</String>
-        <String xml:lang="zh-Hant">{0} 無法攜帶 ~r~{1} ~s~{2}或以上的 ~r~{3}~s~.</String>
-        <String xml:lang="zh-Hans">{0} 无法携带 ~r~{1} ~s~{2}或以上的 ~r~{3}~s~.</String>
-        <String xml:lang="es-ES">{0} no puedes tener ~r~{1} ~s~más {2} de ~r~{3}~s~.</String>
-        <String xml:lang="pt-BR">{0} você não pode ter ~r~{1} ~s~mais {2} de ~r~{3}~s~.</String>
-        <String xml:lang="ar-001">{0} لا يمكنه استقبال ~r~{1} ~s~اكثر{2} من ~r~{3}~s~.</String>
-        <String xml:lang="th-TH">{0} ไม่สามารถเก็บ ~r~{1} ~s~more {2} จาก ~r~{3}~s~</String>
-        <String xml:lang="vi-VN">{0} không thể giữ thêm {1} ~s~{2} ~r~của {3}~s~.</String>
-        <String xml:lang="id-ID">{0} tidak dapat membawa ~r~{1} ~s~{2} lagi dari ~r~{3}~s~.</String>
-        <String xml:lang="hi-Latn">{0} nahi rakh sakte ~r~{1} ~s~zyada {2} of ~r~{3}~s~.</String>
-        <String xml:lang="cs-CZ">{0} už nemůže mít ~r~{1} ~s~více {2} ~r~{3}~s~.</String>
-        <String xml:lang="lv-LV">{0} nevar turēt vēl ~r~{1}{2} {3}~s~.</String>
-        <String xml:lang="it-IT">{0} non può reggere altri ~r~{1}{2} ~s~di {3}.</String>
-        <String xml:lang="no-NO">{0} kan ikke holde ~r~{1} ~s~mer {2} av ~r~{3}~s~.</String>
-        <String xml:lang="sv-SE">{0} kan inte hålla ~r~{1} ~s~fler {2} av ~r~{3}~s~.</String>
-        <String xml:lang="fr-FR">{0} ne peut pas porter plus de ~r~{1} {2} ~s~de ~r~{3}~s~.</String>
-    </Entry>
-    
-    <!-- 0 = Player name -->
-    <!-- 1 = Amount -->
-    <!-- 2 = Unit of measurement -->
-    <!-- 3 = Item name -->
-    <!-- Example: Sasino gave you ~y~2g of Cocaine~s~. -->
-    <Entry Id="imenu_inventory_received_item">
-        <String xml:lang="en-US">{0} gave you ~y~{1}{2} {3}~s~.</String>
-        <String xml:lang="nl-NL">{0} heeft je ~y~{1}{2} {3}~s~ gegeven.</String>
-        <String xml:lang="cs-CZ">{0} ti dal ~y~{1}{2} {3}~s~.</String>
-        <String xml:lang="de-DE">{0} hat dir ~y~{1}{2} {3}~s~ gegeben.</String>
-        <String xml:lang="id-ID">{0} memberimu ~y~{1}{2} {3}~s~.</String>
-        <String xml:lang="hi-Latn">{0} ne aapko ~y~{1}{2} {3}~s~ diya.</String>
-        <String xml:lang="lv-LV">{0} iedeva jums ~y~{1}{2} {3}~s~.</String>
-        <String xml:lang="ar-001">{0} أعطاك ~y~{1}{2} {3}~s~</String>
-        <String xml:lang="it-IT">{0} ti ha dato ~y~{1}{2} {3}~s~.</String>
-        <String xml:lang="no-NO">{0} ga deg ~y~{1}{2} {3}~s~.</String>
-        <String xml:lang="sv-SE">{0} gav dig ~y~{1}{2} {3}~s~.</String>
-        <String xml:lang="es-ES">{0} te dio ~y~{1}{2} {3}~s~.</String>
-        <String xml:lang="pt-BR">{0} te deu ~y~{1}{2} {3}~s~.</String>
-        <String xml:lang="fr-FR">{0} vous a donné ~y~{1}{2} de {3}~s~.</String>
-    </Entry>
-
     <Entry Id="imenu_inventory_no_items_in_category">
         <String xml:lang="en-US">No items in this category :(</String>
         <String xml:lang="nl-NL">Geen voorwerpen in deze categorie :(</String>
@@ -1932,93 +1771,6 @@
         <String xml:lang="pt-BR">~r~Este item está sendo adquirido por outra pessoa!</String>
     </Entry>
 
-    <!-- {0} = item amount -->
-    <!-- {1} = item unit -->
-    <!-- {2} = item name preposition -->
-    <!-- {3} = item name -->
-    <!-- You picked up 5g of ~b~Meth~s~. -->
-    <!-- You picked up 2 ~b~Heavy Armor~s~. -->
-    <Entry Id="imenu_inventory_pickup_success">
-        <String xml:lang="en-US">You picked up {0}{1} {2}~b~{3}~s~.</String>
-        <String xml:lang="nl-NL">Je hebt {0}{1} {2}~b~{3}~s~ opgepakt.</String>
-        <String xml:lang="hi-Latn">Aap uthaye {0}{1} {2}~b~{3}~s~.</String>
-        <String xml:lang="fr-FR">Tu as ramassé {0}{1} {2}~b~{3}~s~.</String>
-        <String xml:lang="cs-CZ">Sebral jsi {0}{1} {2}~b~{3}~s~.</String>
-        <String xml:lang="es-ES">Recogiste {0}{1} {2}~b~{3}~s~.</String>
-        <String xml:lang="pt-BR">Você agarrou {0}{1} {2}~b~{3}~s~.</String>
-        <String xml:lang="de-DE">Du hast {0}{1} {2}~b~{3}~s~ aufgehoben.</String>
-        <String xml:lang="it-IT">Hai raccolto {0}{1} {2}~b~{3}~s~.</String>
-        <String xml:lang="id-ID">Kamu mengambil {0}{1} {2}~b~{3}~s~.</String>
-        <String xml:lang="lv-LV">Jūs pacēlat {0}{1} {2}~b~{3}~s~.</String>
-        <String xml:lang="ar-001">لقد التقطت {0}{1} {2}~b~{3}~s~</String>
-        <String xml:lang="sv-SE">Du plockade upp {0}{1} {2}~b~{3}~s~.</String>
-        <String xml:lang="no-NO">Du hentet {0}{1} {2}~b~{3}~s~.</String>
-    </Entry>
-
-    <!-- {0} = item amount -->
-    <!-- {1} = item unit -->
-    <!-- {2} = item name preposition -->
-    <!-- {3} = item name -->
-    <!-- You dropped ~p~5g~s~ of ~y~Meth~s~. -->
-    <!-- You dropped ~p~2~s~ ~y~Heavy Armor~s~. -->
-    <Entry Id="imenu_inventory_drop_success">
-        <String xml:lang="en-US">You dropped ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
-        <String xml:lang="nl-NL">Je hebt ~p~{0}{1}~s~ {2}~y~{3}~s~ neergelegd.</String>
-        <String xml:lang="hi-Latn">Aap drop kiye ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
-        <String xml:lang="cs-CZ">Vyhodil jsi ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
-        <String xml:lang="de-DE">Du hast ~p~{0}{1}~s~ {2}~y~{3}~s~ fallengelassen.</String>
-        <String xml:lang="id-ID">Kamu menjatuhkan ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
-        <String xml:lang="lv-LV">Jūs nometāt ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
-        <String xml:lang="ar-001">لقد أسقطت ~p~{0}{1}~s~ {2}~y~{3}~s~</String>
-        <String xml:lang="fr-FR">Vous avez déposé ~p~{0}{1}~s~ de {2}~y~{3}~s~.</String>
-        <String xml:lang="it-IT">Hai gettato ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
-        <String xml:lang="sv-SE">Du slängde ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
-        <String xml:lang="no-NO">Du droppet ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
-        <String xml:lang="es-ES">Soltaste ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
-        <String xml:lang="pt-BR">Você lançou ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
-    </Entry>
-
-    <!-- {0} = item name -->
-    <Entry Id="input_imenu_inventory_drop">
-        <String xml:lang="en-US">Drop {0}</String>
-        <String xml:lang="nl-NL">Leg {0} neer</String>
-        <String xml:lang="hi-Latn">Drop kare {0}</String>
-        <String xml:lang="cs-CZ">Vyhodit {0}</String>
-        <String xml:lang="de-DE">Wirf {0} weg</String>
-        <String xml:lang="id-ID">Jatuhkan {0}</String>
-        <String xml:lang="lv-LV">Nomest {0}</String>
-        <String xml:lang="ar-001">اسقاط {0}</String>
-        <String xml:lang="fr-FR">Déposer {0}</String>
-        <String xml:lang="it-IT">Getta {0}</String>
-        <String xml:lang="sv-SE">Släng {0}</String>
-        <String xml:lang="no-NO">Slipp {0}</String>
-        <String xml:lang="es-ES">Soltar {0}</String>
-        <String xml:lang="pt-BR">Lançar {0}</String>
-    </Entry>
-
-    <!-- {0} = item amount -->
-    <!-- {1} = item unit -->
-    <!-- {2} = item name preposition -->
-    <!-- {3} = item name -->
-    <!-- You have 5g of Meth. Enter the amount you want to drop: -->
-    <!-- You have 2 Heavy Armor. Enter the amount you want to drop: -->
-    <Entry Id="input_imenu_inventory_drop_text">
-        <String xml:lang="en-US">You have {0}{1} {2}{3}. Enter the amount you want to drop:</String>
-        <String xml:lang="nl-NL">Je hebt {0}{1} {2}{3}. Voer het aantal in dat je wilt neerleggen:</String>
-        <String xml:lang="hi-Latn">Aap ke paas {0}{1} {2}{3}. Enter kare drop karne ka amount:</String>
-        <String xml:lang="cs-CZ">Právě máš {0}{1} {2}{3}. Zadej počet který chceš vyhodit:</String>
-        <String xml:lang="de-DE">Du hast {0}{1} {2}{3}. Gib die Menge ein, die du wegwerfen willst:</String>
-        <String xml:lang="id-ID">Kamu mempunyai {0}{1} {2}{3}. Masukkan jumlah barang yang akan di jatuhkan:</String>
-        <String xml:lang="lv-LV">Jums ir {0}{1} {2}{3}. Ievadiet daudzumu, ko gribat nomest:</String>
-        <String xml:lang="ar-001">لديك {0}{1} {2}{3} أدخل الكميه الذي تريد إسقاطه:</String>
-        <String xml:lang="it-IT">Hai {0}{1} {2}{3}. Inserisci la quantità che desideri gettare:</String>
-        <String xml:lang="sv-SE">Du har {0}{1} {2}{3}. Ange det belopp du vill slänga:</String>
-        <String xml:lang="no-NO">Du har {0}{1} {2}{3}. Skriv inn beløpet du vil slippe:</String>
-        <String xml:lang="es-ES">Tienes {0}{1} {2}{3}. Ingresa la cantidad que deseas soltar:</String>
-        <String xml:lang="pt-BR">Você tem {0}{1} {2}{3}. Digite o valor que deseja lançar</String>
-        <String xml:lang="fr-FR">Vous avez {0}{1} {2}{3}. Saisissez le montant que vous souhaitez déposer:</String>
-    </Entry>
-
     <Entry Id="item_name_preposition">
         <String xml:lang="en-US">of</String>
         <String xml:lang="nl-NL">van</String>
@@ -2070,27 +1822,6 @@
         <String xml:lang="pt-BR">Digite o nome de um item ou parte dele</String>
     </Entry>
 
-    <!-- 0 = User input (what the user has entered before, after pressing "E" to search) -->
-    <Entry Id="imenu_inventory_search_subtitle">
-        <String xml:lang="en-US">Search: {0}</String>
-        <String xml:lang="lv-LV">Meklēšana: {0}</String>
-        <String xml:lang="nl-NL">Zoek: {0}</String>
-        <String xml:lang="hi-Latn">Search: {0}</String>
-        <String xml:lang="cs-CZ">Hledat: {0}</String>
-        <String xml:lang="de-DE">Suche: {0}</String>
-        <String xml:lang="id-ID">Mencari: {0}</String>
-        <String xml:lang="it-IT">Cerca: {0}</String>
-        <String xml:lang="ar-001">ابحث: {0}</String>
-        <String xml:lang="sv-SE">Sök: {0}</String>
-        <String xml:lang="no-NO">Søk: {0}</String>
-        <String xml:lang="es-ES">Buscar: {0}</String>
-        <String xml:lang="pt-BR">Pesquisa: {0}</String>
-        <String xml:lang="fr-FR">Fouiller: {0}</String>
-    </Entry>
-
-    <!-- ========================= -->
-    <!-- Job menu -->
-    <!-- ========================= -->
     <Entry Id="imenu_jobmenu_mechanic_changes">
         <String xml:lang="en-US">The ~b~changes ~s~have been saved.</String>
         <String xml:lang="nl-NL">De ~b~aanpassingen ~s~zijn opgeslagen.</String>
@@ -2877,6 +2608,181 @@
         <String xml:lang="pt-BR">Chamar um ~r~assassino ~s~para se livrar de alguém.</String>
     </Entry>
 
+    <!-- nullnull{0} = Player name (for example: Stijnjw) -->
+    <Entry Id="imenu_inventory_send_insufficient_space">
+        <String xml:lang="en-US">{0} doesn't have enough space in their inventory.</String>
+        <String xml:lang="pl-PL">{0} nie ma wystarczająco wolnego miejsca w ekwipunku.</String>
+        <String xml:lang="nl-NL">{0} heeft niet genoeg ruimte in zijn inventaris.</String>
+        <String xml:lang="tr-TR">{0} envanterde yeterli boş alan yok.</String>
+        <String xml:lang="de-DE">{0} hat nicht genügend Platz im Inventar.</String>
+        <String xml:lang="zh-Hant">{0} 的背包已經沒有多餘的空間了.</String>
+        <String xml:lang="zh-Hans">{0} 的背包已经没有多余的空间了.</String>
+        <String xml:lang="es-ES">{0} no tienes suficiente espacio en tu inventario.</String>
+        <String xml:lang="pt-BR">{0} você não tem espaço suficiente em seu inventário.</String>
+        <String xml:lang="ar-001">ليس لدى {0} مساحة كافية في مخزونه.</String>
+        <String xml:lang="th-TH">{0} มีพื้นที่ไม่เพียงพอในสินค้าคงคลัง</String>
+        <String xml:lang="vi-VN">{0} Không có đủ chỗ trống trong túi đồ của họ.</String>
+        <String xml:lang="id-ID">{0} tidak memiliki kapasitas yang mencukup didalam invetarisnya.</String>
+        <String xml:lang="hi-Latn">{0} nahi hai enough space unki inventory me.</String>
+        <String xml:lang="cs-CZ">{0} nemá v intentáři dostatek místa.</String>
+        <String xml:lang="lv-LV">{0} nav pietiekami daudz vietas viņu inventārī.</String>
+        <String xml:lang="it-IT">{0} non ha abbastanza spazio nel suo inventario.</String>
+        <String xml:lang="no-NO">{0} har ikke nok plass i beholdningen.</String>
+        <String xml:lang="sv-SE">{0} har inte tillräckligt med utrymme i sitt förråd.</String>
+        <String xml:lang="fr-FR">{0} n'a pas assez de place dans son inventaire.</String>
+    </Entry>
+
+    <!-- nullnull{0} = Player name (for example: Stijnjw)
+         {2} = Item name (for example: Heavy armor)
+         {1} = Amount (for example: 5) 
+    -->
+    <Entry Id="imenu_inventory_send_limit_reached">
+        <String xml:lang="en-US">{0} can't hold ~r~{1} ~s~more ~r~{2}~s~.</String>
+        <String xml:lang="pl-PL">{0} nie może nieść ~r~{1} ~s~więcej ~r~{2}~s~.</String>
+        <String xml:lang="nl-NL">{0} kan niet ~r~{1} ~s~meer ~r~{2} ~s~dragen.</String>
+        <String xml:lang="tr-TR">{0} ~r~{1} ~s~adet daha ~r~{2} ~s~taşıyamaz.</String>
+        <String xml:lang="de-DE">{0} kann nicht ~r~{1} ~s~weitere/n ~r~{2}~s~ halten.</String>
+        <String xml:lang="zh-Hant">{0} 無法攜帶 ~r~{1} ~s~個或以上的 ~r~{2}~s~.</String>
+        <String xml:lang="zh-Hans">{0} 无法携带 ~r~{1} ~s~个或以上的 ~r~{2}~s~.</String>
+        <String xml:lang="es-ES">{0} no puedes tener ~r~{1} ~s~más ~r~{2}~s~.</String>
+        <String xml:lang="pt-BR">{0} você não pode ter ~r~{1} ~s~mais ~r~{2}~s~.</String>
+        <String xml:lang="ar-001">{0} لا يمكنه استقبال ~r~{1} ~s~اكثر~r~{2}~s~.</String>
+        <String xml:lang="th-TH">{0} ไม่สามารถถือ ~r~{1} ~s~more ~r~{2}~s~</String>
+        <String xml:lang="vi-VN">{0} không thể giữ thêm ~r~{1}~s~ ~r~{2}~s~.</String>
+        <String xml:lang="id-ID">{0} tidak dapat membawa ~r~{1} ~s~lagi ~r~{2}~s~.</String>
+        <String xml:lang="it-IT">{0} non può reggere altri ~r~{1}~s~ ~r~{2}~s~.</String>
+        <String xml:lang="hi-Latn">{0} nahi rakh sakte ~r~{1} ~s~zyada ~r~{2}~s~.</String>
+        <String xml:lang="cs-CZ">{0} nemůže nést ~r~{1} ~s~více ~r~{2}~s~.</String>
+        <String xml:lang="lv-LV">{0} nevar turēt vēl ~r~{1} {2}~s~.</String>
+        <String xml:lang="no-NO">{0} kan ikke holde ~r~{1} ~s~mer ~r~{2}~s~.</String>
+        <String xml:lang="sv-SE">{0} kan inte hålla ~r~{1} ~s~mer ~r~{2}~s~.</String>
+        <String xml:lang="fr-FR">{0} ne peut pas porter plus de ~r~{1} {2}~s~.</String>
+    </Entry>
+
+    <!-- nullnull{0} = Player name (for example: Stijnjw)
+         {2} = Unit of measurement (for example: g)
+         {1} = Amount (for example: 5)
+         {3} = Item name (for example: Cocaine) 
+    -->
+    <Entry Id="imenu_inventory_received_item">
+        <String xml:lang="en-US">{0} gave you ~y~{1}{2} {3}~s~.</String>
+        <String xml:lang="nl-NL">{0} heeft je ~y~{1}{2} {3}~s~ gegeven.</String>
+        <String xml:lang="cs-CZ">{0} ti dal ~y~{1}{2} {3}~s~.</String>
+        <String xml:lang="de-DE">{0} hat dir ~y~{1}{2} {3}~s~ gegeben.</String>
+        <String xml:lang="id-ID">{0} memberimu ~y~{1}{2} {3}~s~.</String>
+        <String xml:lang="hi-Latn">{0} ne aapko ~y~{1}{2} {3}~s~ diya.</String>
+        <String xml:lang="lv-LV">{0} iedeva jums ~y~{1}{2} {3}~s~.</String>
+        <String xml:lang="ar-001">{0} أعطاك ~y~{1}{2} {3}~s~</String>
+        <String xml:lang="it-IT">{0} ti ha dato ~y~{1}{2} {3}~s~.</String>
+        <String xml:lang="no-NO">{0} ga deg ~y~{1}{2} {3}~s~.</String>
+        <String xml:lang="sv-SE">{0} gav dig ~y~{1}{2} {3}~s~.</String>
+        <String xml:lang="es-ES">{0} te dio ~y~{1}{2} {3}~s~.</String>
+        <String xml:lang="pt-BR">{0} te deu ~y~{1}{2} {3}~s~.</String>
+        <String xml:lang="fr-FR">{0} vous a donné ~y~{1}{2} de {3}~s~.</String>
+    </Entry>
+
+    <!-- nullnull{0} = Amount (for example: 5)
+         {2} = Item name preposition (can be empty!) (for example: of)
+         {1} = Unit (can be empty!) (for example: g)
+         {3} = Item name (for example: Meth) 
+    -->
+    <Entry Id="imenu_inventory_pickup_success">
+        <String xml:lang="en-US">You picked up {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt {0}{1} {2}~b~{3}~s~ opgepakt.</String>
+        <String xml:lang="hi-Latn">Aap uthaye {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="cs-CZ">Sebral jsi {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="de-DE">Du hast {0}{1} {2}~b~{3}~s~ aufgehoben.</String>
+        <String xml:lang="id-ID">Kamu mengambil {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="lv-LV">Jūs pacēlat {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="ar-001">لقد التقطت {0}{1} {2}~b~{3}~s~</String>
+        <String xml:lang="fr-FR">Vous avez ramassé {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="it-IT">Hai raccolto {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="sv-SE">Du plockade upp {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="no-NO">Du hentet {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="es-ES">Recogiste {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="pt-BR">Você agarrou {0}{1} {2}~b~{3}~s~.</String>
+    </Entry>
+
+    <!-- nullnull{0} = Amount (for example: 5)
+         {1} = Unit (can be empty!) (for example: g)
+         {2} = Item name preposition (can be empty!) (for example: of)
+         {3} = Item name (for example: Meth) 
+    -->
+    <Entry Id="imenu_inventory_drop_success">
+        <String xml:lang="en-US">You dropped ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt ~p~{0}{1}~s~ {2}~y~{3}~s~ neergelegd.</String>
+        <String xml:lang="hi-Latn">Aap drop kiye ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+        <String xml:lang="cs-CZ">Vyhodil jsi ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+        <String xml:lang="de-DE">Du hast ~p~{0}{1}~s~ {2}~y~{3}~s~ fallengelassen.</String>
+        <String xml:lang="id-ID">Kamu menjatuhkan ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+        <String xml:lang="lv-LV">Jūs nometāt ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+        <String xml:lang="ar-001">لقد أسقطت ~p~{0}{1}~s~ {2}~y~{3}~s~</String>
+        <String xml:lang="fr-FR">Vous avez déposé ~p~{0}{1}~s~ de {2}~y~{3}~s~.</String>
+        <String xml:lang="it-IT">Hai gettato ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+        <String xml:lang="sv-SE">Du slängde ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+        <String xml:lang="no-NO">Du droppet ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+        <String xml:lang="es-ES">Soltaste ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+        <String xml:lang="pt-BR">Você lançou ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+    </Entry>
+
+    <!-- nullnull{0} = Item name (for example: Heavy Armor) -->
+    <Entry Id="input_imenu_inventory_drop">
+        <String xml:lang="en-US">Drop {0}</String>
+        <String xml:lang="nl-NL">Leg {0} neer</String>
+        <String xml:lang="hi-Latn">Drop kare {0}</String>
+        <String xml:lang="cs-CZ">Vyhodit {0}</String>
+        <String xml:lang="de-DE">Wirf {0} weg</String>
+        <String xml:lang="id-ID">Jatuhkan {0}</String>
+        <String xml:lang="lv-LV">Nomest {0}</String>
+        <String xml:lang="ar-001">اسقاط {0}</String>
+        <String xml:lang="fr-FR">Déposer {0}</String>
+        <String xml:lang="it-IT">Getta {0}</String>
+        <String xml:lang="sv-SE">Släng {0}</String>
+        <String xml:lang="no-NO">Slipp {0}</String>
+        <String xml:lang="es-ES">Soltar {0}</String>
+        <String xml:lang="pt-BR">Lançar {0}</String>
+    </Entry>
+
+    <!-- nullnull{0} = Amount (for example: 5)
+         {2} = Item name preposition (can be empty!) (for example: of)
+         {1} = Unit (Can be empty!) (for example: g)
+         {3} = Item name (for example: Meth) 
+    -->
+    <Entry Id="input_imenu_inventory_drop_text">
+        <String xml:lang="en-US">You have {0}{1} {2}{3}. Enter the amount you want to drop:</String>
+        <String xml:lang="nl-NL">Je hebt {0}{1} {2}{3}. Voer het aantal in dat je wilt neerleggen:</String>
+        <String xml:lang="hi-Latn">Aap ke paas {0}{1} {2}{3}. Enter kare drop karne ka amount:</String>
+        <String xml:lang="cs-CZ">Právě máš {0}{1} {2}{3}. Zadej počet který chceš vyhodit:</String>
+        <String xml:lang="de-DE">Du hast {0}{1} {2}{3}. Gib die Menge ein, die du wegwerfen willst:</String>
+        <String xml:lang="id-ID">Kamu mempunyai {0}{1} {2}{3}. Masukkan jumlah barang yang akan di jatuhkan:</String>
+        <String xml:lang="lv-LV">Jums ir {0}{1} {2}{3}. Ievadiet daudzumu, ko gribat nomest:</String>
+        <String xml:lang="ar-001">لديك {0}{1} {2}{3} أدخل الكميه الذي تريد إسقاطه:</String>
+        <String xml:lang="it-IT">Hai {0}{1} {2}{3}. Inserisci la quantità che desideri gettare:</String>
+        <String xml:lang="sv-SE">Du har {0}{1} {2}{3}. Ange det belopp du vill slänga:</String>
+        <String xml:lang="no-NO">Du har {0}{1} {2}{3}. Skriv inn beløpet du vil slippe:</String>
+        <String xml:lang="es-ES">Tienes {0}{1} {2}{3}. Ingresa la cantidad que deseas soltar:</String>
+        <String xml:lang="pt-BR">Você tem {0}{1} {2}{3}. Digite o valor que deseja lançar</String>
+        <String xml:lang="fr-FR">Vous avez {0}{1} {2}{3}. Saisissez le montant que vous souhaitez déposer:</String>
+    </Entry>
+
+    <!-- nullnull{0} = Input (button to press) (for example: Y) -->
+    <Entry Id="imenu_inventory_search_subtitle">
+        <String xml:lang="en-US">Search: {0}</String>
+        <String xml:lang="lv-LV">Meklēšana: {0}</String>
+        <String xml:lang="nl-NL">Zoek: {0}</String>
+        <String xml:lang="hi-Latn">Search: {0}</String>
+        <String xml:lang="cs-CZ">Hledat: {0}</String>
+        <String xml:lang="de-DE">Suche: {0}</String>
+        <String xml:lang="id-ID">Mencari: {0}</String>
+        <String xml:lang="it-IT">Cerca: {0}</String>
+        <String xml:lang="ar-001">ابحث: {0}</String>
+        <String xml:lang="sv-SE">Sök: {0}</String>
+        <String xml:lang="no-NO">Søk: {0}</String>
+        <String xml:lang="es-ES">Buscar: {0}</String>
+        <String xml:lang="pt-BR">Pesquisa: {0}</String>
+        <String xml:lang="fr-FR">Fouiller: {0}</String>
+    </Entry>
+
     <!-- nullnull{0} = Amount (for example: 5)
          {2} = Item name (for example: Cocaine)
          {1} = Unit (for example: g) 
@@ -3003,6 +2909,97 @@
         <String xml:lang="lv-LV">Izsauciet ~r~Ieroču Izplatītāju~s~, lai iegādātos nelegālos ieročus un ammunīciju.</String>
     </Entry>
 
+    <!-- nullnull{0} = Number of blocked users (for example: 500) -->
+    <Entry Id="imenu_blocked_players_pretext">
+        <String xml:lang="en-US">{0} blocked users</String>
+        <String xml:lang="nl-NL">{0} geblokkeerde spelers</String>
+        <String xml:lang="tr-TR">{0} engellenen kullanıcı</String>
+        <String xml:lang="hi-Latn">{0} block kiye gaye users</String>
+        <String xml:lang="cs-CZ">Počet zablokovaných hráčů: {0}</String>
+        <String xml:lang="de-DE">{0} blockierte Spieler</String>
+        <String xml:lang="id-ID">{0} Pemain yang diblokir</String>
+        <String xml:lang="lv-LV">{0} bloķēto spēlētāju</String>
+        <String xml:lang="ar-001">{0} المستخدمين المحظورين</String>
+        <String xml:lang="fr-FR">{0} utilisateurs bloqués</String>
+        <String xml:lang="it-IT">{0} utenti bloccati</String>
+        <String xml:lang="no-NO">{0} blokkerte brukere</String>
+        <String xml:lang="es-ES">{0} usuarios bloqueados</String>
+        <String xml:lang="pt-BR">{0} usuários bloqueados</String>
+        <String xml:lang="sv-SE">{0} blockerade användare</String>
+    </Entry>
+
+    <!-- nullnull{0} = Username (for example: Sasino) -->
+    <Entry Id="imenu_blocked_players_menuitem_description">
+        <String xml:lang="en-US">You are ~r~not ~s~receiving any text/voice messages and pings from ~y~{0}~s~.</String>
+        <String xml:lang="nl-NL">Je ontvangt ~r~geen ~s~tekst/spraak berichten en pings meer van ~y~{0}~s~.</String>
+        <String xml:lang="tr-TR">~y~{0}~s~'dan herhangi bir metin/ses ileti veya sinyal ~r~alamıyorsunuz~s~.</String>
+        <String xml:lang="hi-Latn">Ab aap ~r~nahi ~s~receive karenge koi text ya voice messages aur pings from ~y~{0}~s~.</String>
+        <String xml:lang="cs-CZ">~r~Nedostáváš ~s~žádné textové/hlasové zprávy a pingy od hráče ~y~{0}~s~.</String>
+        <String xml:lang="de-DE">Du erhälst ~r~keine ~s~Text-/Sprachnachrichten und Erwähnungen von ~y~{0}~s~.</String>
+        <String xml:lang="id-ID">Kamu ~r~tidak akan ~s~menerima pesan teks/suara dan ping apapun dari ~y~{0}~s~.</String>
+        <String xml:lang="lv-LV">Jūs ~r~nesaņemat ~s~nekādas teksta/balss īsziņas un pings no ~y~{0}~s~.</String>
+        <String xml:lang="ar-001">انت ~r~لا ~s~تتلقي اي زسائل نصيه او صوتيه او اشعارات من ~y~{0}~s~</String>
+        <String xml:lang="it-IT">~r~Non ~s~riceverai più messaggi di testo/voce e notifiche da ~y~{0}~s~.</String>
+        <String xml:lang="no-NO">Du ~r~ikke ~s~mottar noen tekst-/talemeldinger og ping fra ~y~{0}~s~.</String>
+        <String xml:lang="sv-SE">Du ~r~inte ~s~får några text-/röstmeddelanden och pingar från ~y~{0}~s~.</String>
+        <String xml:lang="es-ES">~r~No ~s~estás recibiendo ningún mensaje de texto/voz ni pings de ~y~{0}~s~.</String>
+        <String xml:lang="pt-BR">Você ~r~não ~s~está recebendo mensagens de texto/voz ou pings de ~y~{0}~s~.</String>
+        <String xml:lang="fr-FR"> Vous ne recevrez ~r~plus ~s~de messages textuels/vocaux et de mentions venant de ~y~{0}~s~.</String>
+    </Entry>
+
+    <!-- nullnull{0} = Item name (for example: Light armor) -->
+    <Entry Id="imenu_inventory_send_insufficient_amount">
+        <String xml:lang="en-US">You do not have enough ~r~{0}~s~.</String>
+        <String xml:lang="pl-PL">Nie masz wystarczająco dużo ~r~{0}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt niet genoeg ~r~{0}~s~.</String>
+        <String xml:lang="tr-TR">Sende yeterince yok ~r~{0}~s~.</String>
+        <String xml:lang="de-DE">Du hast nicht genügend ~r~{0}~s~.</String>
+        <String xml:lang="zh-Hant">你沒有足夠的 ~r~{0}~s~.</String>
+        <String xml:lang="zh-Hans">你没有足够的 ~r~{0}~s~.</String>
+        <String xml:lang="es-ES">No tienes suficientes ~r~{0}~s~.</String>
+        <String xml:lang="pt-BR">Você não tem o suficiente ~r~{0}~s~.</String>
+        <String xml:lang="ar-001">ليس لديك ما يكفي من ~r~{0}~s~.</String>
+        <String xml:lang="th-TH">คุณมี ~r~{0}~s~ ไม่เพียงพอ</String>
+        <String xml:lang="vi-VN">Bạn không có đủ ~r~{0}~s~.</String>
+        <String xml:lang="id-ID">Anda tidak memiliki ~r~{0}~s~ yang cukup.</String>
+        <String xml:lang="hi-Latn">Aapke pass enough nahi hai ~r~{0}~s~.</String>
+        <String xml:lang="cs-CZ">Nemáš dostatek~r~{0}~s~.</String>
+        <String xml:lang="lv-LV">Jums nav pietiekami daudz ~r~{0}~s~.</String>
+        <String xml:lang="fr-FR">Vous n'avez pas assez de ~r~{0}~s~.</String>
+        <String xml:lang="it-IT">Non hai abbastanza ~r~{0}~s~.</String>
+        <String xml:lang="no-NO">Du har ikke nok ~r~{0}~s~.</String>
+        <String xml:lang="sv-SE">Du har inte tillräckligt med ~r~{0}~s~.</String>
+    </Entry>
+
+    <!-- Same as imenu_inventory_send_limit_reached, but with a unit
+         {0} = Player name (for example: Stijnjw)
+         {2} = Unit of measurement (for example: g)
+         {1} = Amount (for example: 5)
+         {3} = Item name (for example: Cocaine) 
+    -->
+    <Entry Id="imenu_inventory_send_limit_reached_unit">
+        <String xml:lang="en-US">{0} can't hold ~r~{1} ~s~more {2} of ~r~{3}~s~.</String>
+        <String xml:lang="pl-PL">{0} nie może nieść ~r~{1} ~s~więcej {2} ~r~{3}~s~.</String>
+        <String xml:lang="nl-NL">{0} kan niet ~r~{1} ~s~meer {2} van ~r~{3} ~s~dragen.</String>
+        <String xml:lang="tr-TR">{0} ~r~{1}~s~ {2}~s~ daha ~r~{3}~s~ tutamaz.</String>
+        <String xml:lang="de-DE">{0} kann nicht ~r~{1} ~s~weitere{2} von ~r~{3}~s~ halten.</String>
+        <String xml:lang="zh-Hant">{0} 無法攜帶 ~r~{1} ~s~{2}或以上的 ~r~{3}~s~.</String>
+        <String xml:lang="zh-Hans">{0} 无法携带 ~r~{1} ~s~{2}或以上的 ~r~{3}~s~.</String>
+        <String xml:lang="es-ES">{0} no puedes tener ~r~{1} ~s~más {2} de ~r~{3}~s~.</String>
+        <String xml:lang="pt-BR">{0} você não pode ter ~r~{1} ~s~mais {2} de ~r~{3}~s~.</String>
+        <String xml:lang="ar-001">{0} لا يمكنه استقبال ~r~{1} ~s~اكثر{2} من ~r~{3}~s~.</String>
+        <String xml:lang="th-TH">{0} ไม่สามารถเก็บ ~r~{1} ~s~more {2} จาก ~r~{3}~s~</String>
+        <String xml:lang="vi-VN">{0} không thể giữ thêm {1} ~s~{2} ~r~của {3}~s~.</String>
+        <String xml:lang="id-ID">{0} tidak dapat membawa ~r~{1} ~s~{2} lagi dari ~r~{3}~s~.</String>
+        <String xml:lang="hi-Latn">{0} nahi rakh sakte ~r~{1} ~s~zyada {2} of ~r~{3}~s~.</String>
+        <String xml:lang="cs-CZ">{0} už nemůže mít ~r~{1} ~s~více {2} ~r~{3}~s~.</String>
+        <String xml:lang="lv-LV">{0} nevar turēt vēl ~r~{1}{2} {3}~s~.</String>
+        <String xml:lang="it-IT">{0} non può reggere altri ~r~{1}{2} ~s~di {3}.</String>
+        <String xml:lang="no-NO">{0} kan ikke holde ~r~{1} ~s~mer {2} av ~r~{3}~s~.</String>
+        <String xml:lang="sv-SE">{0} kan inte hålla ~r~{1} ~s~fler {2} av ~r~{3}~s~.</String>
+        <String xml:lang="fr-FR">{0} ne peut pas porter plus de ~r~{1} {2} ~s~de ~r~{3}~s~.</String>
+    </Entry>
+
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom)
          {2} = Check amount (for example: $10,000,000)
          {1} = Gift card amount (for example: $12,500,000) 
@@ -3036,6 +3033,7 @@
         <String xml:lang="no-NO">Telefon</String>
         <String xml:lang="fr-FR">Téléphone</String>
         <String xml:lang="lv-LV">Tālrunis</String>
+        <String xml:lang="zh-Hant">手機</String>
     </Entry>
 
     <Entry Id="imenu_phone_descr">
@@ -3044,6 +3042,7 @@
         <String xml:lang="no-NO">Bruk mobiltelefonen din</String>
         <String xml:lang="fr-FR">Utilisez votre téléphone mobile</String>
         <String xml:lang="lv-LV">Izmantojiet savu tālruni</String>
+        <String xml:lang="zh-Hant">使用手機</String>
     </Entry>
 
     <Entry Id="imenu_phone_send_dm">
@@ -3052,6 +3051,7 @@
         <String xml:lang="no-NO">Send melding</String>
         <String xml:lang="fr-FR">Envoyer le message</String>
         <String xml:lang="lv-LV">Nosūtīt tiešo ziņojumu</String>
+        <String xml:lang="zh-Hant">傳訊息</String>
     </Entry>
 
     <Entry Id="imenu_phone_send_dm_descr">
@@ -3365,7 +3365,6 @@
         <String xml:lang="no-NO">Våpen</String>
         <String xml:lang="fr-FR">Armes</String>
         <String xml:lang="lv-LV">Ieroči</String>
-        <String xml:lang="id-ID">Senjata</String>
     </Entry>
 
     <Entry Id="imenu_services_weapons_descr">
@@ -3374,6 +3373,5 @@
         <String xml:lang="no-NO">Ring en ~r~våpenforhandler ~s~for å kjøpe ulovlige våpen og ammunisjon.</String>
         <String xml:lang="fr-FR">Appelez un ~r~Traffiquant d'armes ~s~pour acheter des armes et munitions illégales.</String>
         <String xml:lang="lv-LV">Izsauciet ~r~Ieroču Izplatītāju~s~, lai iegādātos nelegālos ieročus un ammunīciju.</String>
-        <String xml:lang="id-ID">Panggil ~r~Penjual senjata ~s~untuk membeli senjata dan amunisi ilegal.</String>
     </Entry>
 </Entries>
