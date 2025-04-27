@@ -92,6 +92,28 @@
         <String xml:lang="hi-Latn">~r~Paise nahi hain</String>
     </Entry>
 
+    <Entry Id="menu_atm_fee">
+        <String xml:lang="en-US">Fee: ~r~{0}</String>
+        <String xml:lang="it-IT">Commissione: ~r~{0}</String>
+        <String xml:lang="de-DE">Gebühr: ~r~{0}</String>
+        <String xml:lang="nl-NL">Tarief: ~r~{0}</String>
+        <String xml:lang="fr-FR">Frais: ~r~{0}</String>
+        <String xml:lang="pl-PL">Opłata: ~r~{0}</String>
+        <String xml:lang="tr-TR">Ücret: ~r~{0}</String>
+        <String xml:lang="zh-Hant">手續費: ~r~{0}</String>
+        <String xml:lang="zh-Hans">手续费: ~r~{0}</String>
+        <String xml:lang="es-ES">Tarifa: ~r~{0}</String>
+        <String xml:lang="ar-001">مصاريف: ~r~{0}</String>
+        <String xml:lang="pt-BR">Comissão: ~r~{0}</String>
+        <String xml:lang="th-TH">ค่าธรรมเนียม: ~r~{0}</String>
+        <String xml:lang="vi-VN">Phí: ~r~{0}</String>
+        <String xml:lang="id-ID">Pajak: ~r~{0}</String>
+        <String xml:lang="hi-Latn">Fees: ~r~{0}</String>
+        <String xml:lang="cs-CZ">Poplatek: ~r~{0}</String>
+        <String xml:lang="lv-LV">Komisija: ~r~{0}</String>
+        <String xml:lang="no-NO">Avgift: ~r~{0}</String>
+    </Entry>
+
     <Entry Id="menu_atm_withdraw_text">
         <String xml:lang="en-US">Withdraw</String>
         <String xml:lang="it-IT">Preleva</String>
@@ -713,44 +735,9 @@
         <String xml:lang="no-NO">{0} hacket en minibank og stjal {1}.</String>
     </Entry>
 
-    <Entry Id="menu_bank_transfer">
-        <String xml:lang="en-US">Transfer</String>
-        <String xml:lang="it-IT">Bonifico</String>
-        <String xml:lang="no-NO">Overføre</String>
-        <String xml:lang="fr-FR">Virement</String>
-        <String xml:lang="lv-LV">Pārskaitīt</String>
-    </Entry>
-
-    <Entry Id="menu_bank_transfer_desc">
-        <String xml:lang="en-US">Transfer money to another player's ~g~checking account~s~.</String>
-        <String xml:lang="it-IT">Trasferisci denaro sul ~g~conto corrente ~s~di un altro giocatore.</String>
-        <String xml:lang="no-NO">Overfør penger til en annen spillers ~g~sjekkkonto~s~.</String>
-        <String xml:lang="fr-FR">Virez de l'argent sur le ~g~compte bancaire~s~ d'un autre joueur.</String>
-        <String xml:lang="lv-LV">Pārskaitiet naudu uz cuta spēlētāja ~g~norēķinu kontu~s~.</String>
-    </Entry>
-
-    <Entry Id="menu_atm_fee">
-        <String xml:lang="en-US">Fee: ~r~{0}</String>
-        <String xml:lang="it-IT">Commissione: ~r~{0}</String>
-        <String xml:lang="de-DE">Gebühr: ~r~{0}</String>
-        <String xml:lang="nl-NL">Tarief: ~r~{0}</String>
-        <String xml:lang="fr-FR">~n~Frais: ~r~{0}</String>
-        <String xml:lang="pl-PL">Opłata: ~r~{0}</String>
-        <String xml:lang="tr-TR">Ücret: ~r~{0}</String>
-        <String xml:lang="zh-Hant">手續費: ~r~{0}</String>
-        <String xml:lang="zh-Hans">手续费: ~r~{0}</String>
-        <String xml:lang="es-ES">Tarifa: ~r~{0}</String>
-        <String xml:lang="ar-001">مصاريف: ~r~{0}</String>
-        <String xml:lang="pt-BR">~n~Comissão: ~r~{0}</String>
-        <String xml:lang="th-TH">~n~ค่าธรรมเนียม: ~r~{0}</String>
-        <String xml:lang="vi-VN">~n~Phí: ~r~{0}</String>
-        <String xml:lang="id-ID">~n~Pajak: ~r~{0}</String>
-        <String xml:lang="hi-Latn">Fees: ~r~{0}</String>
-        <String xml:lang="cs-CZ">Poplatek: ~r~{0}</String>
-        <String xml:lang="lv-LV">Komisija: ~r~{0}</String>
-        <String xml:lang="no-NO">Avgift: ~r~{0}</String>
-    </Entry>
-
+    <!--=======================-->
+    <!--===    Bank Menu    ===-->
+    <!--=======================-->
     <Entry Id="menu_bank_interest_rate">
         <String xml:lang="en-US">Daily interest rate</String>
         <String xml:lang="it-IT">Tasso d'interesse giornaliero</String>
@@ -760,6 +747,7 @@
         <String xml:lang="lv-LV">Dienas procentu likme</String>
     </Entry>
 
+    <!-- {0} = Formatted amount -->
     <Entry Id="bank_interest_received">
         <String xml:lang="en-US">You have received ~g~{0} ~s~in interest from ~b~Fleeca Bank~s~.</String>
         <String xml:lang="it-IT">Hai ricevuto ~g~{0} ~s~di interessi da ~b~Banca Fleeca~s~.</String>
@@ -800,6 +788,25 @@
         <String xml:lang="no-NO">Ta ut penger fra din ~g~sjekkkonto~s~.</String>
         <String xml:lang="fr-FR">Retirez de l'argent depuis votre ~g~compte bancaire~s~.</String>
         <String xml:lang="lv-LV">Izņemiet naudu no sava ~g~norēķinu konta~s~.</String>
+        <String xml:lang="id-ID">Menarik uang dari ~g~rekening tabungan~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_transfer">
+        <String xml:lang="en-US">Transfer</String>
+        <String xml:lang="it-IT">Bonifico</String>
+        <String xml:lang="no-NO">Overføre</String>
+        <String xml:lang="fr-FR">Virement</String>
+        <String xml:lang="lv-LV">Pārskaitīt</String>
+        <String xml:lang="id-ID">Transfer</String>
+    </Entry>
+
+    <Entry Id="menu_bank_transfer_desc">
+        <String xml:lang="en-US">Transfer money to another player's ~g~checking account~s~.</String>
+        <String xml:lang="it-IT">Trasferisci denaro sul ~g~conto corrente ~s~di un altro giocatore.</String>
+        <String xml:lang="no-NO">Overfør penger til en annen spillers ~g~sjekkkonto~s~.</String>
+        <String xml:lang="fr-FR">Virez de l'argent sur le ~g~compte bancaire~s~ d'un autre joueur.</String>
+        <String xml:lang="lv-LV">Pārskaitiet naudu uz cuta spēlētāja ~g~norēķinu kontu~s~.</String>
+        <String xml:lang="id-ID">Transfer uang kepada ~g~rekening tabungan~s~ pemain lain.</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_amount">
@@ -808,6 +815,7 @@
         <String xml:lang="no-NO">Angi beløpet som skal overføres.</String>
         <String xml:lang="fr-FR">Entrez la somme à virer.</String>
         <String xml:lang="lv-LV">Ievadiet pārskaitāmo summu.</String>
+        <String xml:lang="id-ID">Masukkan jumlah yang akan ditransfer.</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_reason">
@@ -816,6 +824,7 @@
         <String xml:lang="no-NO">Angi årsaken til overføringen.</String>
         <String xml:lang="fr-FR">Entrez la raison du virement.</String>
         <String xml:lang="lv-LV">Ievadiet pārskaitījuma iemeslu.</String>
+        <String xml:lang="id-ID">Masukkan alasan transfer.</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_successful">
@@ -824,6 +833,7 @@
         <String xml:lang="no-NO">Du har overført ~g~{0} ~s~til {1}s brukskonto.</String>
         <String xml:lang="fr-FR">Vous avez viré ~g~{0} ~s~au compte bancaire de {1}.</String>
         <String xml:lang="lv-LV">Jūs esat pārskaitījis ~g~{0}~s~ uz {1}'s norēķinu kontu.</String>
+        <String xml:lang="id-ID">Kamu telah melakukan transfer sejumlah ~g~{0} ~s~kepada rekening tabungan {1}.</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_received">
@@ -833,6 +843,7 @@
         <String xml:lang="fr-FR">{0} a viré~g~{1} ~s~sur votre compte bancaire pour ~b~"{2}"~s~.</String>
         <String xml:lang="lv-LV">{0} ir pārskaitījis ~g~{1}~s~ uz jūsu norēķinu kontu par ~b~"{2}"~s~.</String>
         <String xml:lang="zh-Hant">{0} 因為 ~b~"{2}"~s~ 轉了 ~g~{1}~s~ 到你的支票帳戶.</String>
+        <String xml:lang="id-ID">{0} telah melakukan transfer sejumlah ~g~{1} kedalam rekening tabunganmu dengan alasan ~b~"{2}"~s~.</String>
     </Entry>
 
     <Entry Id="menu_bank_history">
@@ -886,6 +897,7 @@
         <String xml:lang="fr-FR">Transactions récentes</String>
         <String xml:lang="lv-LV">Nesenas transakcijas</String>
         <String xml:lang="zh-Hant">近期交易紀錄</String>
+        <String xml:lang="id-ID">Transaksi terbaru</String>
     </Entry>
 
     <Entry Id="menu_bank_history_pre">
@@ -895,6 +907,7 @@
         <String xml:lang="fr-FR">PAGE {0}</String>
         <String xml:lang="lv-LV">LAPA {0}</String>
         <String xml:lang="zh-Hant">{0} 頁</String>
+        <String xml:lang="id-ID">HALAMAN {0}</String>
     </Entry>
 
     <Entry Id="menu_bank_loan">
@@ -904,6 +917,7 @@
         <String xml:lang="fr-FR">Prêt</String>
         <String xml:lang="lv-LV">Aizdevums</String>
         <String xml:lang="zh-Hant">借款</String>
+        <String xml:lang="id-ID">Pinjaman</String>
     </Entry>
 
     <Entry Id="menu_bank_loan_desc">
@@ -913,6 +927,7 @@
         <String xml:lang="fr-FR">Obtenez un ~r~prêt ~s~à votre banque.</String>
         <String xml:lang="lv-LV">Saņemt ~r~aizdevumu~s~ no bankas.</String>
         <String xml:lang="zh-Hant">向銀行 ~r~借款~s~.</String>
+        <String xml:lang="id-ID">Dapatkan ~r~pinjaman ~s~dari bank.</String>
     </Entry>
 
     <Entry Id="menu_bank_debt">
@@ -922,6 +937,7 @@
         <String xml:lang="fr-FR">Paiement de dettes</String>
         <String xml:lang="lv-LV">Maksāt parādu</String>
         <String xml:lang="zh-Hant">還款</String>
+        <String xml:lang="id-ID">Bayar hutang</String>
     </Entry>
 
     <Entry Id="menu_bank_debt_desc">
@@ -931,5 +947,6 @@
         <String xml:lang="fr-FR">Faites un paiement envers votre ~r~dette~s~.</String>
         <String xml:lang="lv-LV">Veiciet maksājumu par savu ~r~parādi~s~.</String>
         <String xml:lang="zh-Hant">把你一部分的 ~r~欠款~s~ 還掉.</String>
+        <String xml:lang="id-ID">Lakukan pembayaran untuk ~r~hutangmu~s~.</String>
     </Entry>
 </Entries>

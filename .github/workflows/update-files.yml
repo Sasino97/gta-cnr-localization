@@ -24,7 +24,7 @@ jobs:
           if git ls-remote --exit-code --heads origin $BRANCH_NAME; then
             git checkout $BRANCH_NAME
           else
-            git checkout -b $BRANCH_NAME origin/main
+            git checkout -b $BRANCH_NAME origin/master
             git push --set-upstream origin $BRANCH_NAME
           fi
 
@@ -37,7 +37,7 @@ jobs:
           git fetch origin
           git checkout $BRANCH_NAME
 
-          git merge -X theirs origin/main || true
+          git merge -X theirs origin/master || true
 
           # If merge conflicts exist, resolve automatically
           git diff --name-only --diff-filter=U | xargs git checkout --theirs || true
@@ -99,7 +99,7 @@ jobs:
         if: env.changes == 'true' && env.PR_EXISTS == 'false'
         run: |
           gh pr create \
-            --base main \
+            --base master \
             --head ${{ env.BRANCH_NAME }} \
             --title "Upload updated XML files - up to $(date +"%Y-%m-%d %H:%M:%S") UTC" \
             --body "This PR contains updated files from the translator website." \
