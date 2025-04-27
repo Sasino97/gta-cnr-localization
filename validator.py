@@ -17,9 +17,6 @@ XML_LANG_ATTRIB =  "xml:lang"
 SHORT_GTA_FORMAT_REGEX = r"~(?:[s,b,r,n,y,p,g,o,h,c]|HUD_COLOUR_NET_PLAYER1)~"
 TOO_MANY_SPACES_REGEX = r"\s~[s,b,r,n,y,p,g,o,h,c]~\s|\s\s+"
 TEXT_VARIABLE_REGEX = r"{[0-9]+}"
-PUNCTUATION_MARKS_REGEX = r"[.,?,!]"
-WRONG_PUNCTUATION_REGEX = r"\s" + PUNCTUATION_MARKS_REGEX + r"|\s" + SHORT_GTA_FORMAT_REGEX + PUNCTUATION_MARKS_REGEX
-
 
 try:
     import colorama
@@ -351,7 +348,7 @@ class Validator:
             Correct usage of text formatting tags (~[s,b,r,n,y,p,g,o,h,c]~).
             Consistency and correctness of variables ({[0-9]+}) within the text.
             Presence of empty translations.
-            Proper spacing between words and punctuation mark placement.
+            Proper spacing between words.
 
         Additionally, it reports warnings if a specific language translation is missing.
 
@@ -431,7 +428,7 @@ class Validator:
         - Proper usage of text formatting tags (~[s,b,r,n,y,p,g,o,h,c]~).
         - Consistency and correctness of variables ({[0-9]+}) within the text.
         - Presence of empty translations.
-        - Proper spacing between words and punctuation mark placement.
+        - Proper spacing between words.
 
         The function uses the Validator class for error reporting and configuration.
 
@@ -500,10 +497,6 @@ class Validator:
         if too_many_spaces_match:
             position: tuple[int] = (start_position[0], start_position[1]+too_many_spaces_match.end()-1)
             Validator.print_warning_or_error("Found too many spaces between words", path1, position)
-        wrong_punctuation_match: re.Match = re.search(WRONG_PUNCTUATION_REGEX, text)
-        if wrong_punctuation_match:
-            position: tuple[int] = (start_position[0], start_position[1]+wrong_punctuation_match.start())
-            Validator.print_warning_or_error("Found invalid punctuation mark placement", path1, position)
 
 
 if __name__ == '__main__':
