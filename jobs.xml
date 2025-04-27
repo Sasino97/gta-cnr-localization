@@ -7,61 +7,73 @@
     <Entry Id="job_none">
         <String xml:lang="en-US">Unemployed</String>
         <String xml:lang="it-IT">Disoccupato</String>
+        <String xml:lang="id-ID">Pengangguran</String>
     </Entry>
 
     <Entry Id="job_police">
         <String xml:lang="en-US">Police Officer</String>
         <String xml:lang="it-IT">Poliziotto</String>
+        <String xml:lang="id-ID">Petugas Kepolisian</String>
     </Entry>
 
     <Entry Id="job_paramedic">
         <String xml:lang="en-US">Paramedic</String>
         <String xml:lang="it-IT">Paramedico</String>
+        <String xml:lang="id-ID">Paramedis</String>
     </Entry>
 
     <Entry Id="job_firefighter">
         <String xml:lang="en-US">Firefighter</String>
         <String xml:lang="it-IT">Pompiere</String>
+        <String xml:lang="id-ID">Pemadam Kebakaran</String>
     </Entry>
 
     <Entry Id="job_security">
         <String xml:lang="en-US">Security Guard</String>
         <String xml:lang="it-IT">Guardia di sicurezza</String>
+        <String xml:lang="id-ID">Penjaga</String>
     </Entry>
 
     <Entry Id="job_mechanic">
         <String xml:lang="en-US">Mechanic</String>
         <String xml:lang="it-IT">Meccanico</String>
+        <String xml:lang="id-ID">Mekanik</String>
     </Entry>
 
     <Entry Id="job_taxi_driver">
         <String xml:lang="en-US">Taxi Driver</String>
         <String xml:lang="it-IT">Tassista</String>
+        <String xml:lang="id-ID">Supir Taksi</String>
     </Entry>
 
     <Entry Id="job_delivery_driver">
         <String xml:lang="en-US">Delivery Driver</String>
         <String xml:lang="it-IT">Autista di consegna</String>
+        <String xml:lang="id-ID">Kurir Paket</String>
     </Entry>
 
     <Entry Id="job_drug_dealer">
         <String xml:lang="en-US">Drug Dealer</String>
         <String xml:lang="it-IT">Spacciatore</String>
+        <String xml:lang="id-ID">Bandar Narkoba</String>
     </Entry>
 
     <Entry Id="job_hitman">
         <String xml:lang="en-US">Hitman</String>
         <String xml:lang="it-IT">Sicario</String>
+        <String xml:lang="id-ID">Pembunuh Bayaran</String>
     </Entry>
 
     <Entry Id="job_private_medic">
         <String xml:lang="en-US">Medical Doctor</String>
         <String xml:lang="it-IT">Dottore</String>
+        <String xml:lang="id-ID">Dokter Medis</String>
     </Entry>
 
     <Entry Id="job_arms_dealer">
         <String xml:lang="en-US">Arms Dealer</String>
         <String xml:lang="it-IT">Trafficante d'armi</String>
+        <String xml:lang="id-ID">Penjual Senjata</String>
     </Entry>
     
     <!-- ================================= -->
@@ -6654,158 +6666,193 @@
     <!-- Jewelry Robbery -->
     <Entry Id="jewelry_robbery_not_ideal">
         <String xml:lang="en-US">This is not the ideal way to rob the ~b~jewelry store~s~. Keep exploring the area, and you might find something.</String>
+        <String xml:lang="id-ID">Ini bukan cara terbaik untuk merampok ~b~toko perhiasan~s~. Cobalah untuk berkeliling di area ini, dan kamu mungkin akan menemukan sesuatu.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_hint_1">
         <String xml:lang="en-US">What will you find ~b~up there~s~?</String>
+        <String xml:lang="id-ID">Apa yang akan kamu temukan ~b~diatas sana~s~?</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_hint_2">
         <String xml:lang="en-US">Hey, that's the ~b~jewelry store~s~'s roof over there.</String>
+        <String xml:lang="id-ID">Hey, itu adalah atap ~b~toko perhiasan~s~ disana.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_hint_3">
         <String xml:lang="en-US">Look at that, it's the ~y~air vent ~s~of the ~b~jewelry store~s~.</String>
+        <String xml:lang="id-ID">Lihatlah itu, itu adalah ~y~ventilasi udara~s~dari ~b~toko perhiasan~s~.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_hint_4">
         <String xml:lang="en-US">This seems like the perfect throwing spot... Do you have ~y~tear gas~s~?</String>
+        <String xml:lang="id-ID">Ini terlihat seperti tempat yang tepat untuk melempar... Apakah kamu punya ~y~gas air mata~s~?</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_already_in_progress">
         <String xml:lang="en-US">~r~The jewelry store robbery is already in progress.</String>
+        <String xml:lang="id-ID">~r~Perampokan toko perhiasan sedang berlangsung.</String>
     </Entry>
     
     <!-- {0} = Minutes -->
     <!-- {1} = Seconds -->
     <Entry Id="jewelry_robbery_cooldown">
         <String xml:lang="en-US">~r~The jewelry store robbery cannot be started for the next ~s~{0} minutes ~r~and ~s~{1} seconds~r~.</String>
+        <String xml:lang="id-ID">~r~Perampokan toko perhiasan tidak dapat dilakukan selama ~s~{0} menit ~r~dan ~s~{1} detik~r~.</String>
     </Entry>
     
     <!-- {0} = Number of required cops -->
     <Entry Id="jewelry_robbery_not_enough_cops">
         <String xml:lang="en-US">You can't rob the ~b~jewelry store ~s~when there are less than ~b~{0} cops ~s~online.</String>
+        <String xml:lang="id-ID">Kamu tidak dapat merampok ~b~toko perhiasan ~s~ketika polisi yang bertugas kurang dari~b~ {0} polisi~s~.</String>
     </Entry>
     
     <!-- Example: you can't rob the jewelry store before Sunday 10:00 -->
     <!-- Week days are translated in main.xml -->
     <Entry Id="jewelry_robbery_early">
         <String xml:lang="en-US">You can't rob the ~b~jewelry store ~s~before ~y~{0}~s~.</String>
+        <String xml:lang="id-ID">Kamu tidak dapat merampok ~b~toko perhiasan ~s~sebelum ~y~{0}~s~.</String>
     </Entry>
     
     <!-- Example: you can't rob the jewelry store after Saturday 14:00 -->
     <Entry Id="jewelry_robbery_late">
         <String xml:lang="en-US">You can't rob the ~b~jewelry store ~s~after ~y~{0} ~s~because the server will restart soon.</String>
+        <String xml:lang="id-ID">Kamu tidak dapat merampok ~b~toko perhiasan ~s~setelah ~y~{0} ~s~karena server akan restart sebentar lagi.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_initiated">
         <String xml:lang="en-US">The ~y~tear gas ~s~has entered the ~b~jewelry store~s~ through the vent.</String>
+        <String xml:lang="id-ID">~y~Gas air mata ~s~telah masuk kedalam ~b~toko perhiasan~s~ melalui ventilasi.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_police_notification">
         <String xml:lang="en-US">(C)Dispatch:(/C) Attention all units. The (C)jewelry store(/C) is being robbed.</String>
+        <String xml:lang="id-ID">(C)Dispatch:(/C) Perhatian seluruh petugas. (C)toko perhiasan(/C) sedang dirampok.</String>
     </Entry>
     
     <!-- Please try to keep it short, these will show up at the bottom right of the screen -->
     <!-- like the info bars that show up during normal robberies, and there's not much space there -->
     <Entry Id="jewelry_robbery_timer_bar_take">
         <String xml:lang="en-US">ITEMS TAKEN</String>
+        <String xml:lang="id-ID">Barang terambil</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_timer_bar_alarm">
         <String xml:lang="en-US">ALARM</String>
+        <String xml:lang="id-ID">ALARM</String>
     </Entry>
     
     <!-- This will show up at the bottom right as a hint. For example "[B] Break" -->
     <Entry Id="jewelry_robbery_instruction_break">
         <String xml:lang="en-US">Break</String>
+        <String xml:lang="id-ID">Pecahkan</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_instruction_stop">
         <String xml:lang="en-US">Stop</String>
+        <String xml:lang="id-ID">Berhenti</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_need_blunt_weapon">
         <String xml:lang="en-US">You need a ~y~blunt weapon ~s~to break this ~r~bulletproof glass~s~.</String>
+        <String xml:lang="id-ID">Kamu membutuhkan ~y~senjata tumpul ~s~untuk memecahkan ~r~kaca anti peluru~s~ ini.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_break_glass_failed">
         <String xml:lang="en-US">You ~r~failed ~s~to break this ~b~glass~s~. Try another one!</String>
+        <String xml:lang="id-ID">Kamu ~r~gagal ~s~untuk memecahkan ~b~kaca~s~. Coba lagi yang lain!</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_break_glass_succeeded">
         <String xml:lang="en-US">You ~g~successfully ~s~broke the ~b~glass~s~.</String>
+        <String xml:lang="id-ID">Kamu ~g~berhasil ~s~untuk memecahkan ~b~kacanya~s~.</String>
     </Entry>
 
     <!-- {0} is a LIST of items, for example: "You stole 1 Silver Watch, 2 Gold Necklace."-->
     <Entry Id="jewelry_robbery_stole_items">
         <String xml:lang="en-US">You stole {0}.</String>
+        <String xml:lang="id-ID">Kamu mencuri {0}.</String>
     </Entry>
     
     <!-- This will show up as a subtitle (bottom middle of screen) -->
     <Entry Id="jewelry_robbery_leave_the_area">
         <String xml:lang="en-US">Leave the ~o~orange area~s~.</String>
+        <String xml:lang="id-ID">Tinggalkan ~o~area oranye~s~.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_go_to_hideout">
         <String xml:lang="en-US">You went far enough from the ~b~jewelry store~s~. Now go to a ~r~hideout ~s~to finish the robbery~s~.</String>
+        <String xml:lang="id-ID">Kamu telah pergi cukup jauh dari ~b~toko perhiasan~s~. Sekarang pergi ~r~tempat persembunyian ~s~ untuk menyelesaikan perampokan.</String>
     </Entry>
     
     <!-- {0} = Number of available hideouts. Example: 4 -->
     <Entry Id="jewelry_robbery_hideouts_available">
         <String xml:lang="en-US">You have ~y~{0} ~s~suitable ~r~hideouts~s~.</String>
+        <String xml:lang="id-ID">Kamu memiliki ~y~{0} ~s~yang cocok untuk jadi ~r~tempat persembunyian~s~.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_no_hideouts_available">
         <String xml:lang="en-US">You don't have a suitable ~r~hideout~s~. You can go to a ~g~friend~s~'s hideout to finish the robbery.</String>
+        <String xml:lang="id-ID">Kamu tidak memiliki ~r~tempat persembunyian~s~ yang cocok. Kamu bisa menumpang ketempat persembunyian ~g~teman~s~ untuk menyelesaikan perampokan.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_list_hideouts_btn">
         <String xml:lang="en-US">View Hideouts</String>
+        <String xml:lang="id-ID">Lihat tempat persembunyian</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_list_hideouts">
         <String xml:lang="en-US">Hideouts</String>
+        <String xml:lang="id-ID">Tempat Persembunyian</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_list_hideouts_subtitle">
         <String xml:lang="en-US">Available hideouts</String>
+        <String xml:lang="id-ID">Tempat persembunyian yang tersedia</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_no_items_taken">
         <String xml:lang="en-US">~r~You haven't stolen any items from the jewelry store.</String>
+        <String xml:lang="id-ID">~r~Kamu belum mencuri barang apapun dari toko perhiasan.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_property_owner_offline">
         <String xml:lang="en-US">~r~The owner of this property is offline. Use a different hideout.</String>
+        <String xml:lang="id-ID">~r~Pemilik properti ini sedang offline. Gunakan tempat persembunyian lain.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_cuffed">
         <String xml:lang="en-US">You have been ~r~cuffed ~s~and you failed the ~b~jewelry store robbery~s~.</String>
+        <String xml:lang="id-ID">Kamu telah ~r~diborgol ~s~dan kamu telah gagal untuk ~b~merampok toko perhiasan~s~.</String>
     </Entry>
     
     <Entry Id="jewelry_robbery_respawned">
         <String xml:lang="en-US">You ~r~died ~s~and you failed the ~b~jewelry store robbery~s~.</String>
+        <String xml:lang="id-ID">Kamu ~r~mati ~s~dan kamu gagal untuk ~b~merampok toko perhiasan~s~.</String>
     </Entry>
 
     <!-- {0} = Amount of items stolen. Example: 16 -->
     <Entry Id="jewelry_robbery_success">
         <String xml:lang="en-US">~g~Robbery completed! ~s~You successfully stole ~y~{0} items ~s~from the ~b~jewelry store~s~.</String>
+        <String xml:lang="id-ID">~g~Perampokan berhasil! ~s~Kamu berhasil mencuri ~y~{0} barang ~s~dari ~b~toko perhiasan~s~.</String>
     </Entry>
 
     <!-- {0} = Amount of items stolen. -->
     <!-- {1} = Name of the owner of the property/hideout/warehouse -->
     <Entry Id="jewelry_robbery_success_others_hideout">
         <String xml:lang="en-US">~g~Robbery completed! ~s~You successfully stole ~y~{0} items ~s~from the ~b~jewelry store ~s~and stored them in {1}'s property.</String>
+        <String xml:lang="id-ID">~g~Perampokan berhasil! ~s~Kamu berhasil merampok ~y~{0} barang ~s~dari ~b~toko perhiasan ~s~dan menaruhnya di properti milik {1}.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success_with_error">
         <String xml:lang="en-US">~o~Robbery completed with an error: ~s~some items were not received likely due to ~r~insufficient space ~s~in the property.</String>
+        <String xml:lang="id-ID">~o~Perampokan berhasil dengan error: ~s~sebagian barang tidak dapat diambil dikarenakan ~r~Tempat yang tersedia tidak mencukupi~s~ pada properti.</String>
     </Entry>
     
     <!-- {0} = Name of the player who completed the robbery -->
     <!-- {1} = Amount of items stolen. -->
     <Entry Id="jewelry_robbery_success_global_notification">
         <String xml:lang="en-US">(C){0}(/C) robbed (C){1} jewels(/C) from the jewelry store!</String>
+        <String xml:lang="id-ID">(C){0}(/C) merampok (C){1} perhiasan(/C) dari toko perhiasan!</String>
     </Entry>
 </Entries>
