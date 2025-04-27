@@ -1073,20 +1073,19 @@
     <!-- {1} = Name -->
     <!-- {2} = Cash amount -->
     <Entry Id="menu_store_purchased_cash">
-        <String xml:lang="en-US">You purchased {0} ~p~{1} ~s~for ~r~{2}.</String>
-        <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~gekocht voor ~r~{2}.</String>
-        <String xml:lang="tr-TR">Bir {0} ~p~{1} ~s~için ~r~{2} ödediniz.</String>
-        <String xml:lang="hi-Latn">Aapne khareeda {0} ~p~{1} ~s~for ~r~{2}.</String>
-        <String xml:lang="de-DE">Du hast {0} ~p~{1} ~s~f+r ~r~{2}~s~ gekauft.~r~</String>
-        <String xml:lang="id-ID">Kamu telah membeli {0} ~p~{1} ~s~diharga ~r~{2}.</String>
-        <String xml:lang="ar-001">لقد قمت بشراء {0} ~p~{1} ~s~لـ ~r~{2}.</String>
-        <String xml:lang="lv-LV">Jūs iegādājaties {0} ~p~{1} ~s~par ~r~{2}.</String>
-        <String xml:lang="fr-FR">Vous avez acheté {0} ~p~{1} ~s~pour ~r~{2}.</String>
-        <String xml:lang="it-IT">Hai acquistato {0} ~p~{1} ~s~per ~r~{2}.</String>
-        <String xml:lang="sv-SE">Du köpte {0} ~p~{1} ~s~för ~r~{2}.</String>
-        <String xml:lang="no-NO">Du kjøpte {0} ~p~{1} ~s~for ~r~{2}.</String>
-        <String xml:lang="es-ES">Has comprado {0} ~p~{1} ~s~por ~r~{2}.</String>
-        <String xml:lang="pt-BR">Você comprou {0} ~p~{1} ~s~por ~r~{2}.</String>
+        <String xml:lang="en-US">You purchased {0} ~p~{1} ~s~for ~r~{2}~s~.</String>
+        <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~gekocht voor ~r~{2}~s~.</String>
+        <String xml:lang="tr-TR">Bir {0} ~p~{1} ~s~için ~r~{2} ~s~ödediniz.</String>
+        <String xml:lang="hi-Latn">Aapne khareeda {0} ~p~{1} ~s~for ~r~{2}~s~.</String>
+        <String xml:lang="id-ID">Kamu telah membeli {0} ~p~{1} ~s~diharga ~r~{2}~s~.</String>
+        <String xml:lang="ar-001">لقد قمت بشراء {0} ~p~{1} ~s~لـ ~r~{2}~s~.</String>
+        <String xml:lang="lv-LV">Jūs iegādājaties {0} ~p~{1} ~s~par ~r~{2}~s~.</String>
+        <String xml:lang="fr-FR">Vous avez acheté {0} ~p~{1} ~s~pour ~r~{2}~s~.</String>
+        <String xml:lang="it-IT">Hai acquistato {0} ~p~{1} ~s~per ~r~{2}~s~.</String>
+        <String xml:lang="sv-SE">Du köpte {0} ~p~{1} ~s~för ~r~{2}~s~.</String>
+        <String xml:lang="no-NO">Du kjøpte {0} ~p~{1} ~s~for ~r~{2}~s~.</String>
+        <String xml:lang="es-ES">Has comprado {0} ~p~{1} ~s~por ~r~{2}~s~.</String>
+        <String xml:lang="pt-BR">Você comprou {0} ~p~{1} ~s~por ~r~{2}~s~.</String>
         <String xml:lang="zh-Hant">你以 ~r~{2} ~s~買了 {0}~p~{1}~s~.</String>
     </Entry>
 
@@ -1109,8 +1108,8 @@
         <String xml:lang="no-NO">Du kjøpte {0} ~p~{1} ~s~for ~b~{2} ~s~in gavekortsaldo og ~r~{3} ~s~i kontanter.</String>
         <String xml:lang="fr-FR">Vous avez acheté {0} ~p~{1} ~s~pour ~b~{2} ~s~avec des cartes cadeaux et ~r~{3} ~s~en espèces.</String>
         <String xml:lang="es-ES">Usted compró {0} ~p~{1} ~s~por ~b~{2} ~s~con el saldo de la tarjeta regalo y ~r~{3} ~s~en efectivo.</String>
-        <String xml:lang="pt-BR">Você comprou {0} ~p~{1} ~s~por ~b~{2} ~s~ com o saldo do cartão-presente e ~r~{3} ~s~em dinheiro.</String>
-        <String xml:lang="zh-Hant">你以 {2} 的點數和 {3} 的現金購買了 {0}{1}.</String>
+        <String xml:lang="pt-BR">Você comprou {0} ~p~{1} ~s~por ~b~{2} ~s~com o saldo do cartão-presente e ~r~{3} ~s~em dinheiro.</String>
+        <String xml:lang="zh-Hant">你以{2}的點數和{3}的現金購買了{0}{1}.</String>
     </Entry>
 
     <!-- Example: You sold 1 ~p~Red Diamond ~s~to the store for ~g~$30,000,000. -->
@@ -2495,7 +2494,7 @@
         <String xml:lang="fr-FR">Vous avez vendu à {0} ~y~{1}{2} {3}~s~ pour ~g~{4}~s~.</String>
         <String xml:lang="es-ES">Usted vendió {0} ~y~{1}{2} {3}~s~ por ~g~{4}~s~.</String>
         <String xml:lang="pt-BR">Você vendeu {0} ~y~{1}{2} {3}~s~ por ~g~{4}~s~.</String>
-        <String xml:lang="zh-Hant">你賣了 ~g~{4}~s~ 的 ~y~ {1}{2} {3}~s~ 給 {0}.</String>
+        <String xml:lang="zh-Hant">你賣了~g~{4}~s~的~y~{1}{2}{3}~s~給{0}.</String>
     </Entry>
 
     <!-- Example: Metallic Black Respray -->
