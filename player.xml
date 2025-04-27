@@ -325,43 +325,6 @@
         <String xml:lang="it-IT">~r~Zona rossa cambiata</String>
     </Entry>
 
-    <Entry Id="redzone_vote_started">
-        <String xml:lang="en-US">Redzone voting started!</String>
-    </Entry>
-
-    <!-- {0} = Number of available options (default is 3, might change in the future) -->
-    <Entry Id="redzone_vote_instructions">
-        <String xml:lang="en-US">Enter (C)/redzone-vote [1-{0}](/C) to cast your vote.</String>
-        <String xml:lang="id-ID">Masukan (C)/redzone-vote [1-{0}](/C) untuk memberikan votemu.</String>
-    </Entry>
-
-    <Entry Id="redzone_vote_results">
-        <String xml:lang="en-US">Redzone voting results:</String>
-        <String xml:lang="id-ID">Hasil voting redzone:</String>
-    </Entry>
-
-    <!-- This is the same as the next, but the next one is pluralized -->
-    <Entry Id="redzone_vote_result_count_1">
-        <String xml:lang="en-US">1 vote</String>
-        <String xml:lang="id-ID">1 vote</String>
-    </Entry>
-
-    <!-- {0} = Number of votes -->
-    <Entry Id="redzone_vote_result_count_n">
-        <String xml:lang="en-US">{0} votes</String>
-        <String xml:lang="id-ID">{0} vote</String>
-    </Entry>
-
-    <Entry Id="redzone_vote_result_no_votes">
-        <String xml:lang="en-US">⚠️ No votes cast.</String>
-        <String xml:lang="id-ID">⚠️ Tidak ada voting.</String>
-    </Entry>
-
-    <Entry Id="redzone_vote_reminder">
-        <String xml:lang="en-US">Don't forget to vote for the next ~r~redzone~s~!</String>
-        <String xml:lang="id-ID">Jangan lupa voting untuk ~r~redzone~s~ selanjutnya!</String>
-    </Entry>
-
     <!-- ========================= -->
     <!-- Report -->
     <!-- ========================= -->
@@ -454,7 +417,7 @@
         <String xml:lang="lv-LV">Jūs gatavojaties ziņot par ~r~{0} ~s~par {1}. \nNepatiesa ziņošana rezultēs ~r~jūsu konta bloķēšanā~s~. Vai jūs gribat turpināt?</String>
         <String xml:lang="tr-TR">~r~{0} ~s~isimli oyuncuyu {1} ~s~nedenden dolayı rapor etmek üzeresin.\nYanlışlıkla başka bir oyuncuyu raporlamak onun yerine ~r~senin yasaklanmana ~s~neden olur. Devam etmek istiyormusun?</String>
         <String xml:lang="hi-Latn">Aap ~r~{0} ~s~ko {1} ke liye report karne wale ho.\nGalat report karne par ~r~aap ko ban kiya ja sakta hai. ~s~Kya aap proceed chahte ho?</String>
-        <String xml:lang="no-NO"> Du er i ferd med å rapportere ~r~{0} ~s~for {1}.\nFeilaktig rapportering av en annen bruker vil føre til ~r~du blir utestengt ~s~i stedet. Vil du fortsette?</String>
+        <String xml:lang="no-NO">Du er i ferd med å rapportere ~r~{0} ~s~for {1}.\nFeilaktig rapportering av en annen bruker vil føre til ~r~du blir utestengt ~s~i stedet. Vil du fortsette?</String>
         <String xml:lang="fr-FR">Vous êtes sur le point de signaler ~r~{0} ~s~pour {1}.\nSignaler faussement un autre utilisateur peut ~r~vous faire bannir ~s~à sa place. Voulez-vous continuer?</String>
         <String xml:lang="sv-SE">Du är på väg att rapportera ~r~{0} ~s~för {1}.\nOm du rapporterar en annan spelare felaktigt kommer ~r~du att bli bannad~s~ istället. Vill du fortsätta?</String>
     </Entry>
@@ -1408,7 +1371,7 @@
         <String xml:lang="lv-LV">Jūsu sulainis tika ~r~nogalināts~s~. Jūsu transportlīdzekļa piegāde tika ~r~atcelta~s~.</String>
         <String xml:lang="tr-TR">Valeniz ~r~öldürüldü~s~. Araç teslimatınız ~r~iptal edildi~s~.</String>
         <String xml:lang="fr-FR">Votre valet a été ~r~tué~s~. La livraison de votre véhicule a été ~r~annulée~s~.</String>
-        <String xml:lang="no-NO"> Betjenten din har blitt ~r~drept~s~. Leveringen av kjøretøyet er ~r~kansellert~s~.</String>
+        <String xml:lang="no-NO">Betjenten din har blitt ~r~drept~s~. Leveringen av kjøretøyet er ~r~kansellert~s~.</String>
         <String xml:lang="sv-SE">Din betjänt har blivit ~r~dödad~s~. Ditt fordonsleverans har ~r~inställts~s~.</String>
     </Entry>
 
@@ -1867,7 +1830,7 @@
         <String xml:lang="hi-Latn">Subscription History</String>
         <String xml:lang="lv-LV">Abonementu Vēsture</String>
         <String xml:lang="tr-TR">Abonelik Geçmişi</String>
-        <String xml:lang="no-NO"> Abonnementshistorikk</String>
+        <String xml:lang="no-NO">Abonnementshistorikk</String>
         <String xml:lang="sv-SE">Prenumerationshistorik</String>
     </Entry>
 
@@ -2228,7 +2191,7 @@
         <String xml:lang="hi-Latn">Items</String>
         <String xml:lang="lv-LV">Priekšmeti</String>
         <String xml:lang="tr-TR">Eşyalar</String>
-        <String xml:lang="no-NO"> Varer</String>
+        <String xml:lang="no-NO">Varer</String>
         <String xml:lang="sv-SE">Föremål</String>
     </Entry>
 
@@ -2246,7 +2209,7 @@
         <String xml:lang="hi-Latn">Use karne ke liye item select karo</String>
         <String xml:lang="lv-LV">Izvēlieties priekšmetu, ko izmantot</String>
         <String xml:lang="tr-TR">Kullanılacak bir eşya seçin</String>
-        <String xml:lang="no-NO"> Velg et element du vil bruke</String>
+        <String xml:lang="no-NO">Velg et element du vil bruke</String>
         <String xml:lang="sv-SE">Välj ett artikel att använda</String>
         <String xml:lang="fr-FR">Sélectionnez un objet à utiliser</String>
     </Entry>
@@ -2470,26 +2433,6 @@
         <String xml:lang="fr-FR">Proposez des ~r~drogues~s~ à ce joueur.</String>
         <String xml:lang="no-NO">Tilby ~r~drugs~s~ til denne spilleren.</String>
         <String xml:lang="sv-SE">Erbjud ~r~droger~s~ till den här spelaren.</String>
-    </Entry>
-    
-    <Entry Id="menu_playermenu_offer_services">
-        <String xml:lang="en-US">Offer</String>
-        <String xml:lang="id-ID">Tawarkan</String>
-    </Entry>
-
-    <Entry Id="menu_playermenu_offer_services_description">
-        <String xml:lang="en-US">Offer your ~y~items ~s~and ~y~services ~s~to this player.</String>
-        <String xml:lang="id-ID">Tawarkan ~y~barang ~s~dan ~y~jasa ~s~milikmu kepada pemain ini.</String>
-    </Entry>
-
-    <Entry Id="menu_playermenu_browse_services">
-        <String xml:lang="en-US">Browse</String>
-        <String xml:lang="id-ID">Telusuri</String>
-    </Entry>
-
-    <Entry Id="menu_playermenu_browse_services_description">
-        <String xml:lang="en-US">Browse the ~y~items ~s~and ~y~services ~s~that this player is selling.</String>
-        <String xml:lang="id-ID">telusuri ~y~barang ~s~dan ~y~jasa ~s~yang pemain ini tawarkan.</String>
     </Entry>
 
     <Entry Id="menu_playermenu_arrest">
@@ -3364,7 +3307,7 @@
         <String xml:lang="hi-Latn">{0} ne aapko trading request bheji hai. {1} dabaye trading menu dekhne ke liye.</String>
         <String xml:lang="lv-LV">{0} nosūtīja jums savu tirdzniecības pieprasījumu. {1} lai aplūkotu tirdzniecības izvēlni.</String>
         <String xml:lang="tr-TR">{0} kişisi size bir takas talebi gönderdi. Ticaret menüsünü görüntülemek için {1}.</String>
-        <String xml:lang="no-NO"> {0} sendte deg en handelsforespørsel. {1} for å vise handelsmenyen.</String>
+        <String xml:lang="no-NO">{0} sendte deg en handelsforespørsel. {1} for å vise handelsmenyen.</String>
         <String xml:lang="sv-SE">{0} har skickat en handelsförfrågan till dig. {1} för att visa handelsmenyn.</String>
         <String xml:lang="fr-FR">{0} vous a envoyé une demande d'échange. {1} pour afficher le menu d'échange.</String>
     </Entry>
@@ -3492,7 +3435,7 @@
         <String xml:lang="hi-Latn">Offer</String>
         <String xml:lang="sv-SE">Offra</String>
         <String xml:lang="fr-FR">Offre</String>
-        <String xml:lang="no-NO"> Tilby</String>
+        <String xml:lang="no-NO">Tilby</String>
     </Entry>
 
     <Entry Id="menu_playermenu_offer_services_description">
@@ -3503,7 +3446,7 @@
         <String xml:lang="hi-Latn">Offer kare apne ~y~items ~s~aur ~y~services~s~ iss player ko.</String>
         <String xml:lang="id-ID">Tawarkan ~y~layanan~s~ kepada pemain ini.</String>
         <String xml:lang="tr-TR">Bu oyuncuya ~y~hizmetler~s~ini sun.</String>
-        <String xml:lang="no-NO"> Tilby ~y~varer ~s~og ~y~tjenester ~s~til denne spilleren.</String>
+        <String xml:lang="no-NO">Tilby ~y~varer ~s~og ~y~tjenester ~s~til denne spilleren.</String>
         <String xml:lang="lv-LV">Piedāvājiet ~y~preces~s~ un ~y~pakalpojumus~s~ šim spēlētājam.</String>
         <String xml:lang="sv-SE">Erbjud dina ~y~artiklar~s~och ~y~tjänster ~s~till denna spelare.</String>
         <String xml:lang="fr-FR">Proposez vos ~y~objets~s~ et ~y~services~s~ à ce joueur.</String>
@@ -3512,10 +3455,10 @@
     <Entry Id="menu_playermenu_browse_services">
         <String xml:lang="en-US">Browse</String>
         <String xml:lang="fr-FR">Parcourir</String>
-        <String xml:lang="no-NO"> Bla gjennom</String>
+        <String xml:lang="no-NO">Bla gjennom</String>
         <String xml:lang="de-DE">Durchsuchen</String>
         <String xml:lang="lv-LV">Pārlūkot</String>
-        <String xml:lang="id-ID">Lihat</String>
+        <String xml:lang="id-ID">Telusuri</String>
         <String xml:lang="es-ES">Examinar</String>
         <String xml:lang="sv-SE">Bläddra</String>
         <String xml:lang="hi-Latn">Browse</String>
@@ -3528,7 +3471,7 @@
         <String xml:lang="fr-FR">Parcourez les ~y~objets~s~ et les ~y~services ~s~vendus par ce joueur.</String>
         <String xml:lang="de-DE">Durchsuche die ~y~Artikel ~s~und ~y~Dienstleistungen~s~, die dieser Spieler verkauft.</String>
         <String xml:lang="lv-LV">Pārlūko ~y~preces~s~ un ~y~pakalpojumus~s~, ko pārdod šis spēlētājs.</String>
-        <String xml:lang="id-ID">Lihat ~y~barang ~s~dan ~y~jasa ~s~yang pemain ini jual.</String>
+        <String xml:lang="id-ID">Telusuri ~y~barang ~s~dan ~y~jasa ~s~yang pemain ini tawarkan.</String>
         <String xml:lang="es-ES">Examine los ~y~artículos~s~ y ~y~servicios~s~ que vende este jugador.</String>
         <String xml:lang="sv-SE">Bläddra bland ~y~artiklar ~s~och ~y~tjänster ~s~som den här spelaren säljer.</String>
         <String xml:lang="nl-NL">Bekijk de ~y~spullen ~s~en ~y~diensten ~s~die deze speler verkoopt;.</String>
@@ -3623,12 +3566,14 @@
         <String xml:lang="lv-LV">Redzone balsošana sākusies!</String>
     </Entry>
 
+    <!-- {0} = Number of available options (default is 3, might change in the future) -->
     <Entry Id="redzone_vote_instructions">
         <String xml:lang="en-US">Enter (C)/redzone-vote [1-{0}](/C) to cast your vote.</String>
         <String xml:lang="no-NO">Skriv inn (C)/redzone-vote [1-{0}](/C) for å avgi din stemme.</String>
         <String xml:lang="fr-FR">Entrez (C)/redzone-vote [1-{0}](/C) pour exprimer votre vote.</String>
         <String xml:lang="zh-Hant">輸入 (C)/redzone-vote [1-{0}](/C) 以投下你的選擇.</String>
         <String xml:lang="lv-LV">Ievadiet (C)/redzone-vote [1-{0}](/C), lai balsotu.</String>
+        <String xml:lang="id-ID">Masukan (C)/redzone-vote [1-{0}](/C) untuk memberikan votemu.</String>
     </Entry>
 
     <Entry Id="redzone_vote_results">
@@ -3637,16 +3582,20 @@
         <String xml:lang="fr-FR">Résultats du vote de zone rouge :</String>
         <String xml:lang="zh-Hant">死鬥區域投票結果:</String>
         <String xml:lang="lv-LV">Redzone balsošanas rezultāti:</String>
+        <String xml:lang="id-ID">Hasil voting redzone:</String>
     </Entry>
 
+    <!-- This is the same as the next, but the next one is pluralized -->
     <Entry Id="redzone_vote_result_count_1">
         <String xml:lang="en-US">1 vote</String>
         <String xml:lang="no-NO">1 stemme</String>
         <String xml:lang="fr-FR">1 vote</String>
         <String xml:lang="zh-Hant">1 票</String>
         <String xml:lang="lv-LV">1 balsojums</String>
+        <String xml:lang="id-ID">1 vote</String>
     </Entry>
 
+    <!-- {0} = Number of votes -->
     <Entry Id="redzone_vote_result_count_n">
         <String xml:lang="en-US">{0} votes</String>
         <String xml:lang="no-NO">{0} stemmer</String>
@@ -3661,13 +3610,15 @@
         <String xml:lang="fr-FR">⚠️ Aucun vote exprimé.</String>
         <String xml:lang="zh-Hant">⚠️ 沒有人投票.</String>
         <String xml:lang="lv-LV">⚠️ Nav nodotu balsojumu.</String>
+        <String xml:lang="id-ID">⚠️ Tidak ada voting.</String>
     </Entry>
 
     <Entry Id="redzone_vote_reminder">
         <String xml:lang="en-US">Don't forget to vote for the next ~r~redzone~s~!</String>
         <String xml:lang="no-NO">Ikke glem å stemme på neste ~r~redzone~s~!</String>
         <String xml:lang="fr-FR">N'oubliez pas de voter pour la prochaine ~r~zone rouge~s~!</String>
-        <String xml:lang="zh-Hant"> 別忘了投下一個 ~r~死鬥區域~s~ 的地點!</String>
+        <String xml:lang="zh-Hant">別忘了投下一個 ~r~死鬥區域~s~ 的地點!</String>
         <String xml:lang="lv-LV">Neaizmirstiet balsot par nākamo ~r~sarkano zonu~s~!</String>
+        <String xml:lang="id-ID">Jangan lupa voting untuk ~r~redzone~s~ selanjutnya!</String>
     </Entry>
 </Entries>
