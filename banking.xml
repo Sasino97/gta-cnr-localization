@@ -642,52 +642,62 @@
     <Entry Id="menu_bank_interest_rate">
         <String xml:lang="en-US">Daily interest rate</String>
         <String xml:lang="it-IT">Tasso d'interesse giornaliero</String>
+        <String xml:lang="id-ID">Suku bunga harian</String>
     </Entry>
 
     <!-- {0} = Formatted amount -->
     <Entry Id="bank_interest_received">
         <String xml:lang="en-US">You have received ~g~{0} ~s~in interest from ~b~Fleeca Bank~s~.</String>
         <String xml:lang="it-IT">Hai ricevuto ~g~{0} ~s~di interessi da ~b~Banca Fleeca~s~.</String>
+        <String xml:lang="id-ID">Kamu telah menerima ~g~{0} ~s~dari bunga oleh ~b~Bank Fleeca~s~.</String>
     </Entry>
 
     <Entry Id="menu_bank_deposit">
         <String xml:lang="en-US">Deposit</String>
         <String xml:lang="it-IT">Versamento</String>
+        <String xml:lang="id-ID">Deposit</String>
     </Entry>
 
     <Entry Id="menu_bank_deposit_desc">
         <String xml:lang="en-US">Deposit money to your ~g~checking account~s~.</String>
         <String xml:lang="it-IT">Versa denaro sul tuo ~g~conto corrente~s~.</String>
+        <String xml:lang="id-ID">Depositkan uangmu kedalam ~g~rekening tabungan~s~.</String>
     </Entry>
 
     <Entry Id="menu_bank_withdraw">
         <String xml:lang="en-US">Withdraw</String>
         <String xml:lang="it-IT">Prelievo</String>
+        <String xml:lang="id-ID">Penarikan</String>
     </Entry>
 
     <Entry Id="menu_bank_withdraw_desc">
         <String xml:lang="en-US">Withdraw money from your ~g~checking account~s~.</String>
         <String xml:lang="it-IT">Preleva denaro dal tuo ~g~conto corrente~s~.</String>
+        <String xml:lang="id-ID">Menarik uang dari ~g~rekening tabungan~s~.</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer">
         <String xml:lang="en-US">Transfer</String>
         <String xml:lang="it-IT">Bonifico</String>
+        <String xml:lang="id-ID">Transfer</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_desc">
         <String xml:lang="en-US">Transfer money to another player's ~g~checking account~s~.</String>
         <String xml:lang="it-IT">Trasferisci denaro sul ~g~conto corrente ~s~di un altro giocatore.</String>
+        <String xml:lang="id-ID">Transfer uang kepada ~g~rekening tabungan~s~ pemain lain.</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_amount">
         <String xml:lang="en-US">Enter the amount to transfer.</String>
         <String xml:lang="it-IT">Inserisci l'importo da trasferire.</String>
+        <String xml:lang="id-ID">Masukkan jumlah yang akan ditransfer.</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_reason">
         <String xml:lang="en-US">Enter the reason of the transfer.</String>
         <String xml:lang="it-IT">Inserisci il motivo del bonifico.</String>
+        <String xml:lang="id-ID">Masukkan alasan transfer.</String>
     </Entry>
 
     <!-- {0} = Formatted amount -->
@@ -695,6 +705,7 @@
     <Entry Id="menu_bank_transfer_successful">
         <String xml:lang="en-US">You have transfered ~g~{0} ~s~to {1}'s checking account.</String>
         <String xml:lang="it-IT">Hai trasferito ~g~{0} ~s~sul conto corrente di {1}.</String>
+        <String xml:lang="id-ID">Kamu telah melakukan transfer sejumlah ~g~{0} ~s~kepada rekening tabungan {1}.</String>
     </Entry>
 
     <!-- {0} = Player (Id) -->
@@ -702,6 +713,7 @@
     <Entry Id="menu_bank_transfer_received">
         <String xml:lang="en-US">{0} has transfered ~g~{1} ~s~to your checking account for ~b~"{2}"~s~.</String>
         <String xml:lang="it-IT">{0} ha trasferito ~g~{1} ~s~sul tuo conto corrente per ~b~"{2}"~s~.</String>
+        <String xml:lang="id-ID">{0} telah melakukan transfer sejumlah ~g~{1} kedalam rekening tabunganmu dengan alasan ~b~"{2}"~s~.</String>
     </Entry>
 
     <!-- History of bank transactions, obviously. It's NOT history as in "Roman empire history" -->
@@ -750,31 +762,37 @@
     <Entry Id="menu_bank_history_sub">
         <String xml:lang="en-US">Recent transactions</String>
         <String xml:lang="it-IT">Transazioni recenti</String>
+        <String xml:lang="id-ID">Transaksi terbaru</String>
     </Entry>
 
     <!-- Page number counter -->
     <Entry Id="menu_bank_history_pre">
         <String xml:lang="en-US">PAGE {0}</String>
         <String xml:lang="it-IT">PAGINA {0}</String>
+        <String xml:lang="id-ID">HALAMAN {0}</String>
     </Entry>
 
     <Entry Id="menu_bank_loan">
         <String xml:lang="en-US">Loan</String>
         <String xml:lang="it-IT">Prestito</String>
+        <String xml:lang="id-ID">Pinjaman</String>
     </Entry>
 
     <Entry Id="menu_bank_loan_desc">
         <String xml:lang="en-US">Obtain a ~r~loan ~s~from the bank.</String>
         <String xml:lang="it-IT">Ottieni un ~r~prestito ~s~dalla banca.</String>
+        <String xml:lang="id-ID">Dapatkan ~r~pinjaman ~s~dari bank.</String>
     </Entry>
 
     <Entry Id="menu_bank_debt">
         <String xml:lang="en-US">Pay debt</String>
         <String xml:lang="it-IT">Paga debito</String>
+        <String xml:lang="id-ID">Bayar hutang</String>
     </Entry>
 
     <Entry Id="menu_bank_debt_desc">
         <String xml:lang="en-US">Make a payment towards your ~r~debt~s~.</String>
         <String xml:lang="it-IT">Fai un pagamento verso il tuo ~r~debito~s~.</String>
+        <String xml:lang="id-ID">Lakukan pembayaran untuk ~r~hutangmu~s~.</String>
     </Entry>
 </Entries>
