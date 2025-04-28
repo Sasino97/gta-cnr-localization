@@ -642,7 +642,30 @@
         <String xml:lang="tr-TR">{0} kişisi seni arabasından ~r~attı~s~.</String>
     </Entry>
 
-    <Entry Id="double_press_to_open_vehicle_menu">
+    <!-- {0} = Key (for example: U) -->
+    <Entry Id="dashboard_press_to_open">
+        <String xml:lang="en-US">Press {0} to access the ~b~vehicle dashboard~s~.</String>
+        <String xml:lang="pl-PL">Wciśnij {0} by uzyskać dostęp do ~b~menu pojazdu~s~.</String>
+        <String xml:lang="nl-NL">Druk op {0} om het ~b~voertuig menu ~s~te openen.</String>
+        <String xml:lang="es-ES">Pulsa {0} para acceder al ~b~menú del vehículo~s~.</String>
+        <String xml:lang="pt-BR">Pressione {0} para acessar o ~b~menu do veículo~s~.</String>
+        <String xml:lang="de-DE">Drücke {0} um das ~b~Fahrzeug-Menü~s~ zu öffnen.</String>
+        <String xml:lang="ar-001">اضغط على {0} للوصول إلى ~b~قائمة المركبات~s~.</String>
+        <String xml:lang="id-ID">Tekan {0} untuk mengakses ~b~menu kendaraan~s~.</String>
+        <String xml:lang="th-TH">กด {0} เพื่อเข้าถึง ~b~เมนูยานพาหนะ~s~</String>
+        <String xml:lang="vi-VN">Nhấn {0} để truy cập ~b~Menu xe~s~.</String>
+        <String xml:lang="cs-CZ">Zmáčkni {0} pro přístup k ~b~palubní desce vozidla~s~.</String>
+        <String xml:lang="lv-LV">Spiediet {0}, lai atvērtu ~b~transportlīdzekļa izvēlni~s~.</String>
+        <String xml:lang="it-IT">Premi {0} per accedere al ~b~menu veicolo~s~.</String>
+        <String xml:lang="hi-Latn">{0} press karo ~b~vehicle menu ~s~access karne ke liye.</String>
+        <String xml:lang="fr-FR">Appuyez sur {0} pour accéder au ~b~menu du véhicule~s~.</String>
+        <String xml:lang="no-NO">Trykk på {0} for å få tilgang til ~b~bildashbordet~s~.</String>
+        <String xml:lang="tr-TR">{0} tuşuna basarak ~b~araç gösterge paneline ~s~ulaşın.</String>
+        <String xml:lang="sv-SE">Tryck på {0} för att komma åt ~b~fordonsinstrumentpanelen~s~.</String>
+        <String xml:lang="zh-Hant">按下 {0} 來使用 ~b~車輛控制系統~s~.</String>
+    </Entry>
+
+    <Entry Id="dashboard_double_press_to_open">
         <String xml:lang="en-US">Double press {0} to access the ~b~vehicle dashboard~s~.</String>
         <String xml:lang="pl-PL">Podwójnie wciśnij {0} by uzyskać dostęp do ~b~menu pojazdu~s~.</String>
         <String xml:lang="nl-NL">Druk {0} twee keer in om het ~b~voertuig menu ~s~te openen.</String>
@@ -2000,29 +2023,6 @@
         <String xml:lang="es-ES">Debe ir a ~r~pie ~s~para utilizar ~g~un cargador EV~s~.</String>
         <String xml:lang="pt-BR">É preciso ir a ~r~pé ~s~para usar um ~g~carregador de EV~s~.</String>
         <String xml:lang="tr-TR">~g~Şarj istasyonu~s~nu kullanmak için ~r~yaya ~s~olmanız gerekir.</String>
-    </Entry>
-
-    <!-- nullnull{0} = Key (for example: U) -->
-    <Entry Id="press_to_open_vehicle_menu">
-        <String xml:lang="en-US">Press {0} to access the ~b~vehicle dashboard~s~.</String>
-        <String xml:lang="pl-PL">Wciśnij {0} by uzyskać dostęp do ~b~menu pojazdu~s~.</String>
-        <String xml:lang="nl-NL">Druk op {0} om het ~b~voertuig menu ~s~te openen.</String>
-        <String xml:lang="es-ES">Pulsa {0} para acceder al ~b~menú del vehículo~s~.</String>
-        <String xml:lang="pt-BR">Pressione {0} para acessar o ~b~menu do veículo~s~.</String>
-        <String xml:lang="de-DE">Drücke {0} um das ~b~Fahrzeug-Menü~s~ zu öffnen.</String>
-        <String xml:lang="ar-001">اضغط على {0} للوصول إلى ~b~قائمة المركبات~s~.</String>
-        <String xml:lang="id-ID">Tekan {0} untuk mengakses ~b~menu kendaraan~s~.</String>
-        <String xml:lang="th-TH">กด {0} เพื่อเข้าถึง ~b~เมนูยานพาหนะ~s~</String>
-        <String xml:lang="vi-VN">Nhấn {0} để truy cập ~b~Menu xe~s~.</String>
-        <String xml:lang="cs-CZ">Zmáčkni {0} pro přístup k ~b~palubní desce vozidla~s~.</String>
-        <String xml:lang="lv-LV">Spiediet {0}, lai atvērtu ~b~transportlīdzekļa izvēlni~s~.</String>
-        <String xml:lang="it-IT">Premi {0} per accedere al ~b~menu veicolo~s~.</String>
-        <String xml:lang="hi-Latn">{0} press karo ~b~vehicle menu ~s~access karne ke liye.</String>
-        <String xml:lang="fr-FR">Appuyez sur {0} pour accéder au ~b~menu du véhicule~s~.</String>
-        <String xml:lang="no-NO">Trykk på {0} for å få tilgang til ~b~bildashbordet~s~.</String>
-        <String xml:lang="tr-TR">{0} tuşuna basarak ~b~araç gösterge paneline ~s~ulaşın.</String>
-        <String xml:lang="sv-SE">Tryck på {0} för att komma åt ~b~fordonsinstrumentpanelen~s~.</String>
-        <String xml:lang="zh-Hant">按下 {0} 來使用 ~b~車輛控制系統~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Membership (for example: a Silver Membership) -->
