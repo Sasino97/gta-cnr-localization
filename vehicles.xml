@@ -2041,6 +2041,104 @@
         <String xml:lang="zh-Hant">~p~該車輛需 {0} 才得正常使用.\n~s~ 你還是可以從 ~y~車庫~s~ 中將他取出,但 ~y~運送功能~s~ 已被取消.</String>
     </Entry>
 
+    <Entry Id="menu_vehicles_active">
+        <String xml:lang="en-US">Active</String>
+        <String xml:lang="it-IT">Attiva</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_destroyed">
+        <String xml:lang="en-US">Destroyed</String>
+        <String xml:lang="it-IT">Distrutta</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_impounded">
+        <String xml:lang="en-US">Impounded</String>
+        <String xml:lang="it-IT">Sequestrata</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_in_maintenance">
+        <String xml:lang="en-US">In Maintenance</String>
+        <String xml:lang="it-IT">In manutenzione</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_damaged">
+        <String xml:lang="en-US">Damaged</String>
+        <String xml:lang="it-IT">Danneggiata</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_fuel_low">
+        <String xml:lang="en-US">Fuel Low</String>
+        <String xml:lang="it-IT">Carburante quasi finito</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_battery_low">
+        <String xml:lang="en-US">Battery Low</String>
+        <String xml:lang="it-IT">Batteria quasi scarica</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_recalled">
+        <String xml:lang="en-US">Recalled</String>
+        <String xml:lang="it-IT">Richiamata</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_color">
+        <String xml:lang="en-US">Color</String>
+        <String xml:lang="it-IT">Colore</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_plate">
+        <String xml:lang="en-US">License Plate</String>
+        <String xml:lang="it-IT">Targa</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_health">
+        <String xml:lang="en-US">Health</String>
+        <String xml:lang="it-IT">Salute</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_fuel">
+        <String xml:lang="en-US">Fuel</String>
+        <String xml:lang="it-IT">Carburante</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_battery">
+        <String xml:lang="en-US">Battery</String>
+        <String xml:lang="it-IT">Batteria</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_tank">
+        <String xml:lang="en-US">Tank</String>
+        <String xml:lang="it-IT">Serbatoio</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_tires">
+        <String xml:lang="en-US">Tires</String>
+        <String xml:lang="it-IT">Pneumatici</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_cleanliness">
+        <String xml:lang="en-US">Cleanliness</String>
+        <String xml:lang="it-IT">Pulizia</String>
+    </Entry>
+
+    <!-- specifically shown in the vehicles menu when the tires/tank are OK (no damage). This is NOT a confirmation "ok". -->
+    <Entry Id="menu_vehicles_ok">
+        <String xml:lang="en-US">OK</String>
+        <String xml:lang="it-IT">OK</String>
+    </Entry>
+
+    <!-- Specifically shown for the tank (for now) when damaged -->
+    <Entry Id="menu_vehicles_tank_damaged">
+        <String xml:lang="en-US">Damaged</String>
+        <String xml:lang="it-IT">Danneggiato</String>
+    </Entry>
+
+    <!-- Specifically shown for the tires when at least one is punctured -->
+    <Entry Id="menu_vehicles_tire_flat">
+        <String xml:lang="en-US">{0} flat</String>
+        <String xml:lang="it-IT">{0} forati</String>
+    </Entry>
+
     <!-- {0} = Vehicle name -->
     <Entry Id="dealership_previewing_vehicle">
         <String xml:lang="en-US">Previewing a ~b~{0}~s~.</String>
