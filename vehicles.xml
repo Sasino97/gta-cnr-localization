@@ -2040,4 +2040,28 @@
         <String xml:lang="no-NO"> ~p~Dette kjøretøyet krever {0}.\n~s~Du kan fortsatt bruke det ved å ta det ut av ~y~garasjen~s~, men ~y~Delivery ~s~-funksjonen er deaktivert for det.</String>
         <String xml:lang="zh-Hant">~p~該車輛需 {0} 才得正常使用.\n~s~ 你還是可以從 ~y~車庫~s~ 中將他取出,但 ~y~運送功能~s~ 已被取消.</String>
     </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <Entry Id="dealership_previewing_vehicle">
+        <String xml:lang="en-US">Previewing a ~b~{0}~s~.</String>
+        <String xml:lang="it-IT">Stai visualizzando una ~b~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="dealership_credits_and_usage_rights">
+        <String xml:lang="en-US">Credits and Usage Rights</String>
+        <String xml:lang="it-IT">Riconoscimenti e Diritti d'Utilizzo</String>
+    </Entry>
+
+    <Entry Id="dealership_need_to_own_garage">
+        <String xml:lang="en-US">You need to own a garage before purchasing a vehicle.</String>
+        <String xml:lang="it-IT">Devi possedere un garage prima di acquistare un veicolo.</String>
+    </Entry>
+
+    <!-- {0} = Vehicle name -->
+    <!-- {1} = Garage name -->
+    <!-- {2} = Location -->
+    <Entry Id="dealership_store_vehicle_in_garage">
+        <String xml:lang="en-US">Store your new ~b~{0} ~s~in your ~p~{1} ~s~garage in ~y~{2}~s~.</String>
+        <String xml:lang="it-IT">Parcheggia la tua nuova ~b~{0} ~s~nel tuo garage ~p~{1} ~s~a ~y~{2}~s~.</String>
+    </Entry>
 </Entries>
