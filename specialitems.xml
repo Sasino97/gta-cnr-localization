@@ -192,51 +192,45 @@
         <String xml:lang="sv-SE">Du kan inte använda ~r~{0} ~s~när du är {1}</String>
     </Entry>
 
-    <!-- nullnull{0} = Player color (for example: ~r~)
-         {1} = Player name (for example: Stijnjw)
-         {2} = Player Id (for example: 152) 
-    -->
+    <!-- {0} = Colored player name and id (for example: Stijnjw (152)) -->
     <Entry Id="player_used_medkit">
-        <String xml:lang="en-US">(C){0}{1} ({2})(/C) ~s~used a ~p~medkit~s~.</String>
-        <String xml:lang="nl-NL">(C){0}{1} ({2})(/C) ~s~gebruikt een ~p~verbandkit~s~.</String>
-        <String xml:lang="pl-PL">(C){0}{1} ({2})(/C) ~s~użył ~p~apteczkę~s~.</String>
-        <String xml:lang="es-ES">(C){0}{1} ({2})(/C) ~s~usaste un ~p~botiquín~s~.</String>
-        <String xml:lang="de-DE">(C){0}{1} ({2})(/C) ~s~hat einen ~p~Verbandskasten genutzt~s~.</String>
-        <String xml:lang="pt-BR">(C){0}{1} ({2})(/C) ~s~usou um ~p~kit de primeiros socorros~s~.</String>
-        <String xml:lang="ar-001">(C){0}{1} ({2})(/C) ~s~استخدم ~p~حقيبة طبية~s~.</String>
-        <String xml:lang="id-ID">(C){0}{1} ({2})(/C) ~s~Menggunakan ~p~medkit~s~.</String>
-        <String xml:lang="th-TH">(C){0}{1} ({2})(/C) ~s~ใช้ ~p~ยา~s~</String>
-        <String xml:lang="lv-LV">(C){0}{1} ({2})(/C) ~s~izmantoja ~p~aptieciņu~s~.</String>
-        <String xml:lang="it-IT">(C){0}{1} ({2})(/C) ~s~ha usato un ~p~kit medico~s~.</String>
-        <String xml:lang="hi-Latn">(C){0}{1} ({2})(/C) ~s~use kiye ek ~p~health kit~s~.</String>
-        <String xml:lang="no-NO">(C){0}{1} ({2})(/C) ~s~brukte et ~p~medkit~s~.</String>
-        <String xml:lang="sv-SE">(C){0}{1} ({2})(/C) ~s~använde ett ~p~medkit~s~.</String>
-        <String xml:lang="fr-FR">(C){0}{1} ({2})(/C) ~s~a utilisé un ~p~kit de soin~s~.</String>
+        <String xml:lang="en-US">{0} ~s~used a ~p~medkit~s~.</String>
+        <String xml:lang="nl-NL">{0} ~s~gebruikt een ~p~verbandkit~s~.</String>
+        <String xml:lang="pl-PL">{0} ~s~użył ~p~apteczkę~s~.</String>
+        <String xml:lang="es-ES">{0} ~s~usaste un ~p~botiquín~s~.</String>
+        <String xml:lang="de-DE">{0} ~s~hat einen ~p~Verbandskasten genutzt~s~.</String>
+        <String xml:lang="pt-BR">{0} ~s~usou um ~p~kit de primeiros socorros~s~.</String>
+        <String xml:lang="ar-001">{0} ~s~استخدم ~p~حقيبة طبية~s~.</String>
+        <String xml:lang="id-ID">{0} ~s~Menggunakan ~p~medkit~s~.</String>
+        <String xml:lang="th-TH">{0} ~s~ใช้ ~p~ยา~s~</String>
+        <String xml:lang="lv-LV">{0} ~s~izmantoja ~p~aptieciņu~s~.</String>
+        <String xml:lang="it-IT">{0} ~s~ha usato un ~p~kit medico~s~.</String>
+        <String xml:lang="hi-Latn">{0} ~s~use kiye ek ~p~health kit~s~.</String>
+        <String xml:lang="no-NO">{0} ~s~brukte et ~p~medkit~s~.</String>
+        <String xml:lang="sv-SE">{0} ~s~använde ett ~p~medkit~s~.</String>
+        <String xml:lang="fr-FR">{0} ~s~a utilisé un ~p~kit de soin~s~.</String>
     </Entry>
 
-    <!-- nullnull{0} = Player color (for example: ~r~)
-         {1} = Player name (for example: Stijnjw)
-         {2} = Player Id (for example: 152) 
-    -->
+    <!-- {0} = Colored player name and id (for example: Stijnjw (152)) -->
     <Entry Id="player_used_bandage">
-        <String xml:lang="en-US">(C){0}{1} ({2})(/C) ~s~used a ~p~bandage~s~.</String>
-        <String xml:lang="nl-NL">(C){0}{1} ({2})(/C) ~s~heeft ~p~verband~s~ gebruikt.</String>
-        <String xml:lang="pl-PL">(C){0}{1} ({2})(/C) ~p~zabandażował~s~ się.</String>
-        <String xml:lang="es-ES">(C){0}{1} ({2})(/C) ~s~has usado un ~p~vendaje~s~.</String>
-        <String xml:lang="de-DE">(C){0}{1} ({2})(/C) ~s~hat eine ~p~Bandage~s~ verwendet.</String>
-        <String xml:lang="pt-BR">(C){0}{1} ({2})(/C) ~s~você usou uma ~p~bandagem~s~.</String>
-        <String xml:lang="ar-001">(C){0}{1} ({2})(/C) ~s~استخدم ~p~ضمادة~s~.</String>
-        <String xml:lang="th-TH">(C){0}{1} ({2})(/C) ~s~ใช้ ~p~ผ้าพันแผล~s~</String>
-        <String xml:lang="lv-LV">(C){0}{1} ({2})(/C) ~s~izmantoja ~p~pārsēju~s~.</String>
-        <String xml:lang="hi-Latn">(C){0}{1} ({2})(/C) ~s~use kiye ek ~p~bandage~s~.</String>
-        <String xml:lang="fr-FR">(C){0}{1} ({2})(/C) ~s~a utilisé un ~p~bandage~s~.</String>
-        <String xml:lang="it-IT">(C){0}{1} ({2})(/C) ~s~ha usato una ~p~benda~s~.</String>
-        <String xml:lang="no-NO">(C){0}{1} ({2})(/C) ~s~brukte en ~p~bandasje~s~.</String>
-        <String xml:lang="sv-SE">(C){0}{1} ({2})(/C) ~s~använde ett ~p~bandage~s~.</String>
-        <String xml:lang="id-ID">(C){0}{1} ({2})(/C) ~s~menggunakan ~p~perban~s~.</String>
+        <String xml:lang="en-US">{0} ~s~used a ~p~bandage~s~.</String>
+        <String xml:lang="nl-NL">{0} ~s~heeft ~p~verband~s~ gebruikt.</String>
+        <String xml:lang="pl-PL">{0} ~p~zabandażował~s~ się.</String>
+        <String xml:lang="es-ES">{0} ~s~has usado un ~p~vendaje~s~.</String>
+        <String xml:lang="de-DE">{0} ~s~hat eine ~p~Bandage~s~ verwendet.</String>
+        <String xml:lang="pt-BR">{0} ~s~você usou uma ~p~bandagem~s~.</String>
+        <String xml:lang="ar-001">{0} ~s~استخدم ~p~ضمادة~s~.</String>
+        <String xml:lang="th-TH">{0} ~s~ใช้ ~p~ผ้าพันแผล~s~</String>
+        <String xml:lang="lv-LV">{0} ~s~izmantoja ~p~pārsēju~s~.</String>
+        <String xml:lang="hi-Latn">{0} ~s~use kiye ek ~p~bandage~s~.</String>
+        <String xml:lang="fr-FR">{0} ~s~a utilisé un ~p~bandage~s~.</String>
+        <String xml:lang="it-IT">{0} ~s~ha usato una ~p~benda~s~.</String>
+        <String xml:lang="no-NO">{0} ~s~brukte en ~p~bandasje~s~.</String>
+        <String xml:lang="sv-SE">{0} ~s~använde ett ~p~bandage~s~.</String>
+        <String xml:lang="id-ID">{0} ~s~menggunakan ~p~perban~s~.</String>
     </Entry>
 
-    <!-- nullnull{0} = Player (for example: Stijnjw (152)) -->
+    <!-- {0} = Colored player name and id (for example: Stijnjw (152)) -->
     <Entry Id="player_used_bodyarmor">
         <String xml:lang="en-US">{0} ~s~equipped a ~p~body armor~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~gebruikt een ~p~kogelvrij vest~s~.</String>
