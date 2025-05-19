@@ -368,4 +368,41 @@
         <String xml:lang="it-IT">Gioco d'azzardo illegale</String>
         <String xml:lang="id-ID">Perjudian Ilegal</String>
     </Entry>
+
+    <!-- =============================== -->
+    <!-- ======= DISPATCHHHHHHHH ======= -->
+    <!-- =============================== -->
+
+    <!-- {0} = Suspect name and id -->
+    <!-- {1} = Crime severity, such as "Felony", with eventual modifiers, such as "violent" -->
+    <!-- {2} = Crime name (for example "Assault") -->
+    <!-- {3} = Location name -->
+    <!-- {4} = Distance -->
+    <Entry Id="dispatch_crime_reported">
+        <String xml:lang="en-US">~b~(C)Dispatch:(/C) ~s~Suspect {0} ~s~committed a {1} ({2}).~n~Location: ~y~{3} ~s~({4}).</String>
+        <String xml:lang="it-IT">~b~(C)Centrale:(/C) ~s~Il sospettato {0} ~s~ha commesso un(a) {1} ({2}).~n~Luogo: ~y~{3} ~s~({4}).</String>
+    </Entry>
+
+    <Entry Id="dispatch_crime_reported_vehicle">
+        <String xml:lang="en-US">Vehicle: {0}</String>
+        <String xml:lang="it-IT">Veicolo: {1}</String>
+    </Entry>
+    
+    <!-- {0} = Suspect name and id -->
+    <!-- {1} = Crime type (felony, misdemeanor etc..) -->
+    <!-- {2} = Crime name (Robbery, assault, etc..) -->
+    <Entry Id="dispatch_crime_spotted">
+        <String xml:lang="en-US">You spotted {0} ~s~committing a {1} - {2}.</String>
+        <String xml:lang="it-IT">Hai avvistato {0} ~s~mentre commetteva un(a) {1} - {2}.</String>
+    </Entry>
+
+    <Entry Id="dispatch_respond">
+        <String xml:lang="en-US">Respond</String>
+        <String xml:lang="it-IT">Rispondi</String>
+    </Entry>
+
+    <Entry Id="dispatch_respond_message">
+        <String xml:lang="en-US">Head to ~y~{0} ~s~and capture {1}.</String>
+        <String xml:lang="it-IT">Dirigiti a ~y~{0} ~s~e cattura {1}.</String>
+    </Entry>
 </Entries>
