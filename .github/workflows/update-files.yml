@@ -1,0 +1,116 @@
+name: Update Files from API
+
+on:
+  repository_dispatch:
+    types: [update-files]
+
+jobs:
+  update-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create or Checkout Branch
+        id: create-or-checkout-branch
+        run: |
+          BRANCH_NAME="update-files"
+          git fetch origin
+
+          # Check if the branch exists remotely
+          if git ls-remote --exit-code --heads origin $BRANCH_NAME; then
+            git checkout $BRANCH_NAME
+          else
+            git checkout -b $BRANCH_NAME origin/master
+            git push --set-upstream origin $BRANCH_NAME
+          fi
+
+          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
+
+      - name: Merge Main into Branch
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git fetch origin
+          git checkout $BRANCH_NAME
+
+          git merge -X theirs origin/master || true
+
+          # If merge conflicts exist, resolve automatically
+          git diff --name-only --diff-filter=U | xargs git checkout --theirs || true
+          git add --all
+          git commit -m "Merge main into update-files" || true
+
+          git push origin $BRANCH_NAME || true
+
+      - name: Download ZIP from API
+        run: |
+            curl -o files.zip "${{ secrets.API_URL }}/translations/retrieve/xml"
+
+      - name: Unzip Files
+        run: |
+          unzip -o files.zip -d new_files
+
+      - name: Move Files to Repository
+        run: |
+          mv new_files/* .
+
+      - name: Remove ZIP File
+        run: |
+          rm files.zip
+
+      - name: Commit and Push Changes
+        id: commit-and-push
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+          git add --all
+          if git diff --cached --quiet; then
+            echo "changes=false" >> $GITHUB_ENV
+          else
+            git commit -m "Update files from API"
+
+            # Pull remote changes before pushing
+            git pull --no-rebase origin $BRANCH_NAME
+
+            # Push changes
+            git push origin $BRANCH_NAME
+            echo "changes=true" >> $GITHUB_ENV
+          fi
+
+      - name: Check for Existing Pull Request
+        id: check-pr
+        run: |
+          PR_URL=$(gh pr list --head $BRANCH_NAME --json url --jq '.[0].url')
+          if [ -z "$PR_URL" ]; then
+            echo "PR_EXISTS=false" >> $GITHUB_ENV
+          else
+            echo "PR_EXISTS=true" >> $GITHUB_ENV
+            echo "PR_URL=$PR_URL" >> $GITHUB_ENV
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create or Update Pull Request
+        if: env.changes == 'true' && env.PR_EXISTS == 'false'
+        run: |
+          gh pr create \
+            --base master \
+            --head ${{ env.BRANCH_NAME }} \
+            --title "Upload updated XML files - up to $(date +"%Y-%m-%d %H:%M:%S") UTC" \
+            --body "This PR contains updated files from the translator website." \
+            --label "automated"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update Pull Request
+        if: env.changes == 'true' && env.PR_EXISTS == 'true'
+        run: |
+          gh pr comment ${{ env.PR_URL }} --body "Updated files from the translator website."
+          gh pr edit ${{ env.PR_URL }} --title "Upload updated XML files - up to $(date +"%Y-%m-%d %H:%M:%S") UTC"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
