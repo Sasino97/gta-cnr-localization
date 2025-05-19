@@ -2357,7 +2357,7 @@
         <String xml:lang="hi-Latn">~o~Bribe</String>
         <String xml:lang="fr-FR">~o~Pot-de-vin</String>
         <String xml:lang="de-DE">~o~Bestechen</String>
-        <String xml:lang="it-IT">~o~Corrompi</String>
+        <String xml:lang="it-IT">~o~Offri tangente</String>
         <String xml:lang="id-ID">~o~Suap</String>
         <String xml:lang="lv-LV">~o~Kukulis</String>
         <String xml:lang="tr-TR">~o~Rüşvet</String>
@@ -2370,7 +2370,7 @@
         <String xml:lang="nl-NL">Bied deze ~b~agent ~s~een ~o~omkoping ~s~aan en verlies je wanted level.</String>
         <String xml:lang="hi-Latn">Offer kare iss ~b~officer ~s~ko ek ~o~bribe ~s~aur apna wanted level lose kare.</String>
         <String xml:lang="de-DE">Biete diesem ~b~Polizisten ~s~eine ~o~Bestechung ~s~und verliere dein Fahndungslevel.</String>
-        <String xml:lang="it-IT">Offri a questo ~b~agente ~s~delle ~o~mazzette ~s~per ridurre il tuo livello di ricerca.</String>
+        <String xml:lang="it-IT">Offri a questo ~b~agente ~s~una ~o~tangente ~s~per ridurre il tuo livello di ricerca.</String>
         <String xml:lang="id-ID">Tawarkan ~b~petugas ~s~ini sebuah ~o~suap ~s~dan menghilangkan level buronanmu.</String>
         <String xml:lang="lv-LV">Piedāvājiet šim ~b~policistam ~o~kukuli ~s~un zaudējiet savu wanted līmeni.</String>
         <String xml:lang="tr-TR">Bu ~b~polis memuruna ~o~rüşvet ~s~teklif edin ve aranma seviyenizi kaybedin.</String>
@@ -2519,13 +2519,106 @@
         <String xml:lang="fr-FR">Vous avez besoin d'un ~y~{0}~s~ pour casser la fenêtre d'un ~o~suspect~s~.</String>
     </Entry>
 
+    <Entry Id="menu_playermenu_search">
+        <String xml:lang="en-US">Search</String>
+        <String xml:lang="it-IT">Perquisisci</String>
+    </Entry>
+
+    <!-- {0} = Suspect color code -->
+    <Entry Id="menu_playermenu_search_desc">
+        <String xml:lang="en-US">Search the {0}suspect ~s~for illegal ~r~drugs ~s~and ~r~stolen ~s~items~s~.</String>
+        <String xml:lang="it-IT">Perquisisci il {0}sospettato ~s~in cerca di ~r~droghe ~s~illegali e oggetti ~r~rubati~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_follow">
+        <String xml:lang="en-US">Follow</String>
+        <String xml:lang="it-IT">Seguimi</String>
+    </Entry>
+
+    <!-- {0} = Suspect color code -->
+    <Entry Id="menu_playermenu_follow_desc">
+        <String xml:lang="en-US">Order the {0}suspect ~s~to follow you.</String>
+        <String xml:lang="it-IT">Ordina al {0}sospettato ~s~di seguirti.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_stop_following">
+        <String xml:lang="en-US">Stop following</String>
+        <String xml:lang="it-IT">Smetti di seguirmi</String>
+    </Entry>
+
+    <!-- {0} = Suspect color code -->
+    <Entry Id="menu_playermenu_stop_following_desc">
+        <String xml:lang="en-US">Order the {0}suspect ~s~to stop following you.</String>
+        <String xml:lang="it-IT">Ordina al {0}sospettato ~s~di smettere di seguirti.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_enter_vehicle">
+        <String xml:lang="en-US">Enter vehicle</String>
+        <String xml:lang="it-IT">Entra nel veicolo</String>
+    </Entry>
+
+    <!-- {0} = Suspect color code -->
+    <Entry Id="menu_playermenu_enter_vehicle_desc">
+        <String xml:lang="en-US">Order the {0}suspect ~s~to enter your ~b~police vehicle~s~. You can transport suspects to the ~p~police station ~s~to earn a ~g~bonus~s~!</String>
+        <String xml:lang="it-IT">Ordina al {0}sospettato ~s~di entrare nel tuo ~b~veicolo della polizia~s~. Puoi trasportare i sospettati alla ~b~centrale di polizia ~s~per guadagnare un ~g~bonus~s~!</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_exit_vehicle">
+        <String xml:lang="en-US">Exit vehicle</String>
+        <String xml:lang="it-IT">Esci dal veicolo</String>
+    </Entry>
+
+    <!-- {0} = Suspect color code -->
+    <Entry Id="menu_playermenu_exit_vehicle_desc">
+        <String xml:lang="en-US">Order the {0}suspect ~s~to exit the vehicle.</String>
+        <String xml:lang="it-IT">Ordina al {0}sospettato ~s~di uscire dal veicolo.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_handover">
+        <String xml:lang="en-US">~b~Hand over suspect</String>
+        <String xml:lang="it-IT">~b~Consegna il sospettato</String>
+    </Entry>
+
+    <!-- {0} = Suspect color code -->
+    <Entry Id="menu_playermenu_handover_desc">
+        <String xml:lang="en-US">Hand over the {0}suspect ~s~to the front desk of the ~b~police station~s~.</String>
+        <String xml:lang="it-IT">Consegna il {0}sospettato ~s~alla reception della ~b~centrale di polizia~s~.</String>
+    </Entry>
+
+    <!-- This was recently changed. It was previously known as "Quick Arrest" -->
+    <Entry Id="menu_playermenu_quick_arrest">
+        <String xml:lang="en-US">~b~Request transport</String>
+        <String xml:lang="it-IT">~b~Richiedi trasporto</String>
+    </Entry>
+
+    <!-- {0} = Suspect color code -->
+    <Entry Id="menu_playermenu_quick_arrest_desc">
+        <String xml:lang="en-US">Request a local unit to transport the {0}suspect ~s~to a ~b~police station~s~.</String>
+        <String xml:lang="it-IT">Richiedi un'unità di trasporto locale per trasportare il {0}sospettato ~s~ad una ~b~centrale di polizia~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_suspect_already_in_custody">
+        <String xml:lang="en-US">~r~This suspect is already in custody of another police officer.</String>
+        <String xml:lang="it-IT">~r~Questo sospettato è già in custodia di un altro agente di polizia.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_suspect_already_searched">
+        <String xml:lang="en-US">You have already searched {0}.</String>
+        <String xml:lang="it-IT">Hai già perquisito {0}.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_suspect_already_searched_by_someone">
+        <String xml:lang="en-US">{0} was already searched.</String>
+        <String xml:lang="it-IT">{0} è stato già perquisito.</String>
+    </Entry>
+
     <Entry Id="menu_playermenu_suggest_bribe">
         <String xml:lang="en-US">~o~Suggest bribe</String>
         <String xml:lang="nl-NL">~o~Bied omkoping aan</String>
         <String xml:lang="hi-Latn">~o~Bribe suggest karo</String>
         <String xml:lang="fr-FR">~o~Suggérer un pot-de-vin</String>
         <String xml:lang="de-DE">~o~Bestechung vorschlagen</String>
-        <String xml:lang="it-IT">~o~Suggerisci corruzione</String>
+        <String xml:lang="it-IT">~o~Suggerisci tangente</String>
         <String xml:lang="id-ID">~o~Menyarankan suap</String>
         <String xml:lang="lv-LV">~o~Piedāvāt kukuli</String>
         <String xml:lang="tr-TR">~o~Rüşvet öner</String>
@@ -2559,6 +2652,31 @@
         <String xml:lang="tr-TR">~r~En çok aranan şüpheliler polise rüşvet veremez.</String>
         <String xml:lang="no-NO">~r~De fleste ettersøkte mistenkte kan ikke bestikke politiet.</String>
         <String xml:lang="sv-SE">~r~De flesta eftersökta misstänkta kan inte muta polisen.</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_confiscate">
+        <String xml:lang="en-US">~b~Confiscate all</String>
+        <String xml:lang="it-IT">~b~Sequestra tutto</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_confiscate_desc">
+        <String xml:lang="en-US">~b~Confiscate ~s~all the ~r~illegal items ~s~you have found.</String>
+        <String xml:lang="it-IT">~b~Sequestra ~s~tutti gli ~r~articoli illegali ~s~che hai trovato.</String>
+    </Entry>
+    
+    <Entry Id="menu_playermenu_confiscate_reward">
+        <String xml:lang="en-US">Reward: {0}</String>
+        <String xml:lang="it-IT">Ricompensa: {0}</String>
+    </Entry>
+    
+    <Entry Id="menu_count_items">
+        <String xml:lang="en-US">{0} items</String>
+        <String xml:lang="it-IT">{0} articoli</String>
+    </Entry>
+
+    <Entry Id="menu_playermenu_search_no_results">
+        <String xml:lang="en-US">You didn't find ~r~anything ~s~on {0}</String>
+        <String xml:lang="it-IT">Non hai trovato ~r~nulla ~s~su {0}</String>
     </Entry>
 
     <Entry Id="menu_playermenu_give_antidote">

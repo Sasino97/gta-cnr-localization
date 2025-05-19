@@ -2586,6 +2586,10 @@
         <String xml:lang="sv-SE">~r~Du har misslyckats med att handfängsla {0}.</String>
     </Entry>
 
+    <Entry Id="police_arrest_notification">
+        <String xml:lang="en-US">Officer {0} arrested suspect {1}.</String>
+    </Entry>
+
     <!-- nullnull{0} = Location name (for example: Downtown Los Santos)
          {1} = Caller (for example: Sasino) 
     -->
@@ -2690,7 +2694,7 @@
         <String xml:lang="hi-Latn">{0} ne {1} ki ~g~{2} ~s~bribe accept kiya lekin share nahi kiya.</String>
         <String xml:lang="lv-LV">{0} pieņēma {1} ~g~{2}~s~ kukuli, bet nolēma ar to nedalīties.</String>
         <String xml:lang="fr-FR">{0} a accepté ~g~{2} ~s~de pot-de-vin de {1} mais ne l'a pas partagé.</String>
-        <String xml:lang="it-IT">{0} ha accettato l'offerta di corruzione di ~g~{2} ~s~da {1} senza condividerla.</String>
+        <String xml:lang="it-IT">{0} ha accettato una tangente da ~g~{2} ~s~da {1} senza condividerla.</String>
         <String xml:lang="no-NO">{0} godtok {1}s ~g~{2} ~s~bestikkelse, men delte den ikke.</String>
         <String xml:lang="sv-SE">{0} accepterade {1}s ~g~{2} ~s~muta men delade den inte.</String>
     </Entry>
@@ -2707,7 +2711,7 @@
         <String xml:lang="pt-BR">{0} aceitou o suborno de {1} e o compartilhou com os policiais próximos.</String>
         <String xml:lang="zh-Hant">{0} 接受了 {1} 的賄絡並與附近的警員分享.</String>
         <String xml:lang="th-TH">{0} รับสินบนของ {1} และแบ่งปันให้กับเจ้าหน้าที่ที่อยู่ใกล้เคียง</String>
-        <String xml:lang="it-IT">{0} ha accettato l'offerta di corruzione da {1} e l'ha condivisa con gli agenti vicini.</String>
+        <String xml:lang="it-IT">{0} ha accettato una tangente da {1} e l'ha condivisa con gli agenti vicini.</String>
         <String xml:lang="ar-001">قبل {0} رشوة {1} وشاركها مع الضباط القريبين.</String>
         <String xml:lang="id-ID">{0} menerima suap dari {1} dan berbagi kepada petugas sekitar.</String>
         <String xml:lang="hi-Latn">{0} ne {1} ki bribe accept kiya aur nearby officers ke saath share kiya.</String>
@@ -3613,7 +3617,7 @@
         <String xml:lang="en-US">~o~Bribe</String>
         <String xml:lang="nl-NL">~o~Omkopen</String>
         <String xml:lang="id-ID">~o~Suap</String>
-        <String xml:lang="it-IT">~o~Corrompi</String>
+        <String xml:lang="it-IT">~o~Offri tangente</String>
         <String xml:lang="fr-FR">~o~Pot-de-vin</String>
         <String xml:lang="de-DE">~o~Bestechen</String>
         <String xml:lang="lv-LV">~o~Piedāvāt kukuli</String>
@@ -3628,7 +3632,7 @@
         <String xml:lang="en-US">Attempt to ~o~bribe ~s~the officer to cancel the ticket. There's a significant risk the officer will ~r~refuse ~s~the bribe and charge you with a ~o~felony~s~.</String>
         <String xml:lang="nl-NL">Probeer de agent ~o~om te kopen ~s~om de bekeuring te annuleren. Er is een groot risico dat de agent de ~r~omkoping ~s~zal ~r~weigeren ~s~en je zal aanklagen voor een ~o~misdrijf~s~.</String>
         <String xml:lang="id-ID">Mencoba untuk ~o~menyuap ~s~petugas untuk membatalkan tiket. Ada resiko petugas ~r~menolak ~s~suapmu dan menuntutmu melakukan ~o~tindak pidana~s~.</String>
-        <String xml:lang="it-IT">Cerca di ~o~corrompere ~s~l'agente per annullare la multa. C'è un rischio significativo che l'agente ~r~rifiuti ~s~la corruzione e ti denunci per un ~o~reato~s~.</String>
+        <String xml:lang="it-IT">Tenta di offrire una ~o~tangente ~s~all'agente per annullare la multa. C'è un rischio significativo che l'agente ~r~rifiuti ~s~la tangente e ti denunci per un ~o~reato~s~.</String>
         <String xml:lang="de-DE">Versuch, ~o~den Beamten zu bestechen, um den Strafzettel ungültig zu machen. Es besteht ein erhebliches Risiko, dass der Beamte ~r~die Bestechung ablehnt ~s~und dich wegen eines ~o~Verbrechens~s~ belangt.</String>
         <String xml:lang="lv-LV">Mēģiniet ~o~uzpirkt~s~ policistu, lai atceltu sodu. Pastāv ievērojams risks, ka policists ~r~atteiksies~s~ no kukuļa un apsūdzēs jūs ar ~o~kriminālnoziegumu~s~.</String>
         <String xml:lang="no-NO">Forsøk å ~o~bestikke~s~ betjenten for å kansellere billetten. Det er en betydelig risiko for at betjenten vil ~r~nekte ~s~bestikkelsen og anklage deg for en ~o~forbrytelse~s~.</String>
@@ -3718,7 +3722,7 @@
     <Entry Id="police_you_asked_for_bribe">
         <String xml:lang="en-US">You asked {0} to ~o~bribe ~s~you.</String>
         <String xml:lang="nl-NL">Je hebt {0} gevraagd om jou ~o~om te kopen~s~.</String>
-        <String xml:lang="it-IT">Hai chiesto a {0} di ~o~corromperti~s~.</String>
+        <String xml:lang="it-IT">Hai chiesto a {0} di darti una ~o~tangente~s~.</String>
         <String xml:lang="es-ES">Le pediste a {0} que te ofrezca un ~o~soborno~s~.</String>
         <String xml:lang="pl-PL">Zasugerowałeś {0} ~o~łapówkę~s~.</String>
         <String xml:lang="pt-BR">Você pediu a {0} que lhe oferecesse um ~o~suborno~s~.</String>
@@ -3737,7 +3741,7 @@
     <Entry Id="police_asked_to_bribe">
         <String xml:lang="en-US">~b~Officer {0} asked you to ~o~bribe ~s~them.</String>
         <String xml:lang="nl-NL">~b~Agent {0} heeft jou gevraagd om hem ~o~om te kopen~s~.</String>
-        <String xml:lang="it-IT">L'~b~agente {0} ~s~ti ha chiesto di ~o~corromperlo~s~.</String>
+        <String xml:lang="it-IT">L'~b~agente {0} ~s~ti ha chiesto una ~o~tangente~s~.</String>
         <String xml:lang="es-ES">~b~El oficial {0} te pidió que ~o~lo sobornes~s~.</String>
         <String xml:lang="pl-PL">~b~Oficer {0} zasugerował ~o~łapówkę~s~.</String>
         <String xml:lang="pt-BR">~b~O policial {0} pediu que você o ~o~subornasse~s~.</String>
@@ -3753,10 +3757,17 @@
         <String xml:lang="sv-SE">~b~Polis {0} bad dig att ~o~muta ~s~dem.</String>
     </Entry>
 
+    <!-- {0} = Action can be "Press X" or "Hold X", where X is the mapped key. 
+    The translations can be found in entries stp_press and stp_hold -->
+    <Entry Id="police_bribe_menu_action">
+        <String xml:lang="en-US">{0} to open the bribe menu.</String>
+        <String xml:lang="it-IT">{0} per aprire il menù tangente.</String>
+    </Entry>
+
     <Entry Id="police_too_far_to_accept_bribe">
         <String xml:lang="en-US">You are ~r~too far ~s~from {0}, you can't accept or refuse the ~r~bribe~s~.</String>
         <String xml:lang="nl-NL">Je bent ~r~te ver weg ~s~van {0}, je kan de ~r~omkoping~s~ niet accepteren of weigeren.</String>
-        <String xml:lang="it-IT">Sei ~r~troppo lontano~s~ da {0}, non puoi accettare o rifiutare l'~r~offerta di corruzione~s~.</String>
+        <String xml:lang="it-IT">Sei ~r~troppo lontano~s~ da {0}, non puoi accettare o rifiutare la sua ~r~tangente~s~.</String>
         <String xml:lang="pl-PL">Jesteś ~r~za daleko ~s~od {0}, nie możesz akceptować ani odrzucić ~r~łapówki~s~.</String>
         <String xml:lang="es-ES">Estás ~r~demasiado lejos ~s~de {0}, y no puedes aceptar ni rechazar el ~r~soborno~s~.</String>
         <String xml:lang="pt-BR">Você está ~r~muito longe ~s~de {0} e não pode aceitar nem rejeitar o suborno.</String>
@@ -3775,7 +3786,7 @@
     <Entry Id="police_wait_ten_minutes_bribe">
         <String xml:lang="en-US">You must wait 10 minutes before accepting a ~r~bribe ~s~from the same player again.</String>
         <String xml:lang="nl-NL">Je moet 10 minuten wachten voordat je een ~r~omkopingsoffer~s~ kan accepteren van dezelfde speler.</String>
-        <String xml:lang="it-IT">Devi aspettare 10 minuti prima di accettare nuovamente un'~r~offerta di corruzione ~s~dallo stesso giocatore.</String>
+        <String xml:lang="it-IT">Devi aspettare 10 minuti prima di accettare nuovamente una ~r~tangente ~s~dallo stesso giocatore.</String>
         <String xml:lang="pl-PL">Musisz poczekać 10 minut zanim zaakceptujesz ~r~łapówkę ~s~od tego samego gracza.</String>
         <String xml:lang="es-ES">Debes esperar 10 minutos antes de volver a aceptar un ~r~soborno ~s~del mismo jugador.</String>
         <String xml:lang="pt-BR">Você deve esperar 10 minutos antes de aceitar outro ~r~suborno ~s~do mesmo jogador.</String>
@@ -3794,7 +3805,7 @@
     <Entry Id="police_could_not_afford_bribe">
         <String xml:lang="en-US">{0} could not afford the ~r~bribe~s~.</String>
         <String xml:lang="nl-NL">{0} kon de ~r~omkoping~s~ niet betalen.</String>
-        <String xml:lang="it-IT">{0} non può permettersi di pagare l'~r~offerta di corruzione~s~.</String>
+        <String xml:lang="it-IT">{0} non può permettersi di pagare la ~r~tangente~s~.</String>
         <String xml:lang="fr-FR">{0} n'avait pas les moyens de payer le ~r~pot-de-vin~s~.</String>
         <String xml:lang="pl-PL">{0} nie stać na zapłacenie ~r~łapówki~s~.</String>
         <String xml:lang="es-ES">{0} no podía pagar el ~r~soborno~s~.</String>
@@ -3840,6 +3851,10 @@
         <String xml:lang="lv-LV">~g~Iesniegt</String>
         <String xml:lang="no-NO">~g~Send inn</String>
         <String xml:lang="sv-SE">~g~Skicka in</String>
+    </Entry>
+
+    <Entry Id="police_no_longer_in_custody">
+        <String xml:lang="en-US">{0} ~r~is no longer in your custody!</String>
     </Entry>
 
     <!-- nullnull{0} = Officer's name (for example: Stijnjw)
@@ -3898,7 +3913,7 @@
         <String xml:lang="th-TH">คุณเพิกเฉยต่อข้อเสนอสินบนของ {0}</String>
         <String xml:lang="hi-Latn">Aap ignore kar diye {0} ka bribe offer.</String>
         <String xml:lang="lv-LV">Jūs ignorējāt {0} kukuļa piedāvājumu.</String>
-        <String xml:lang="it-IT">Hai ignorato l'offerta di corruzione di {0}.</String>
+        <String xml:lang="it-IT">Hai ignorato la proposta di tangente da {0}.</String>
         <String xml:lang="fr-FR">Vous avez ignoré l'offre de pot-de-vin de {0}.</String>
         <String xml:lang="no-NO">Du ignorerte {0}s bestikkelsestilbud.</String>
         <String xml:lang="sv-SE">Du ignorerade {0}'s muterbjudande.</String>
@@ -3920,7 +3935,7 @@
         <String xml:lang="th-TH">คุณเสนอเงินจำนวน {0} ~s~a ~g~{1} ~s~สินบน</String>
         <String xml:lang="hi-Latn">Aap offer kiye {0} ~s~ko ~g~{1} ~s~as bribe.</String>
         <String xml:lang="lv-LV">Jūs piedāvājāt {0} ~g~{1}~s~ kukuli.</String>
-        <String xml:lang="it-IT">Hai offerto ~g~{1} ~s~per corrompere {0}~s~.</String>
+        <String xml:lang="it-IT">Hai offerto a {0} ~s~una tangente di ~g~{1}~s~.</String>
         <String xml:lang="fr-FR">Vous avez offert à {0} ~s~un pot-de-vin de ~g~{1}~s~.</String>
         <String xml:lang="no-NO">Du tilbød {0} ~s~a ~g~{1} ~s~bestikkelse.</String>
         <String xml:lang="sv-SE">Du erbjöd {0} ~s~en ~g~{1} ~s~muta.</String>
@@ -3929,7 +3944,7 @@
     <Entry Id="police_not_close_enough_to_bribe">
         <String xml:lang="en-US">~r~{0} is not close enough to offer them a bribe.</String>
         <String xml:lang="nl-NL">~r~{0} is niet dichtbij genoeg om hem een omkoping aan te bieden.</String>
-        <String xml:lang="it-IT">~r~{0} non è abbastanza vicino per fargli un'offerta di corruzione.</String>
+        <String xml:lang="it-IT">~r~{0} non è abbastanza vicino per offrirgli una tangente.</String>
         <String xml:lang="fr-FR">~r~{0} n'est pas assez proche pour lui offrir un pot-de-vin.</String>
         <String xml:lang="pl-PL">~r~{0} jest za daleko by oferować mu łapówkę.</String>
         <String xml:lang="es-ES">~r~{0} no está lo suficientemente cerca como para ofrecerles un soborno.</String>
@@ -3948,7 +3963,7 @@
     <Entry Id="police_already_have_open_offer">
         <String xml:lang="en-US">~r~You already have an active bribe offer.</String>
         <String xml:lang="nl-NL">~r~Je hebt al een actieve omkopingsoffer.</String>
-        <String xml:lang="it-IT">~r~Hai già un'offerta di corruzione attiva.</String>
+        <String xml:lang="it-IT">~r~Hai già una offerta di tangente attiva.</String>
         <String xml:lang="pl-PL">~r~Masz już aktywną ofertę łapówki.</String>
         <String xml:lang="es-ES">~r~Ya tienes una oferta de soborno activa.</String>
         <String xml:lang="pt-BR">~r~Você já tem uma oferta de suborno ativa.</String>
@@ -4005,7 +4020,7 @@
     <Entry Id="police_viewing_bribe">
         <String xml:lang="en-US">{0} is ~y~viewing ~s~your bribe offer.</String>
         <String xml:lang="nl-NL">{0} is jouw omkopingsoffer ~y~aan het bekijken~s~.</String>
-        <String xml:lang="it-IT">{0} sta ~y~guardando ~s~la tua offerta di corruzione.</String>
+        <String xml:lang="it-IT">{0} sta ~y~guardando ~s~la tua offerta di tangente.</String>
         <String xml:lang="pl-PL">{0} ~y~ogląda ~s~twoją ofertę łapówki.</String>
         <String xml:lang="es-ES">{0} está ~y~viendo ~s~tu oferta de soborno.</String>
         <String xml:lang="pt-BR">{0} está ~y~vendo ~s~sua oferta de suborno</String>
@@ -4024,7 +4039,7 @@
     <Entry Id="police_player_left_canceled_bribe">
         <String xml:lang="en-US">{0} has ~r~left the server ~s~and your bribe offer was canceled.</String>
         <String xml:lang="nl-NL">{0} heeft ~r~de server verlaten ~s~en jouw omkopingsoffer is geannuleerd.</String>
-        <String xml:lang="it-IT">{0} è ~r~uscito dal server ~s~e la tua offerta di corruzione è stata annullata.</String>
+        <String xml:lang="it-IT">{0} è ~r~uscito dal server ~s~e la tua offerta di tangente è stata annullata.</String>
         <String xml:lang="pl-PL">{0} ~r~wyszedł z serwera~s~, a twoja oferta łapówki została anulowana.</String>
         <String xml:lang="es-ES">{0} ~r~dejó el servidor ~s~y tu oferta de soborno fue cancelada.</String>
         <String xml:lang="pt-BR">{0} ~r~deixou o servidor ~s~e sua oferta de suborno foi cancelada.</String>
@@ -4043,7 +4058,7 @@
     <Entry Id="police_accepted_bribe">
         <String xml:lang="en-US">{0} has ~g~accepted ~s~your bribe offer.</String>
         <String xml:lang="nl-NL">{0} heeft jouw omkopingsoffer ~g~geaccepteerd~s~.</String>
-        <String xml:lang="it-IT">{0} ha ~g~accettato ~s~la tua offerta di corruzione.</String>
+        <String xml:lang="it-IT">{0} ha ~g~accettato ~s~la tua tangente.</String>
         <String xml:lang="pl-PL">{0} ~g~zaakeceptował ~s~twoją łapówkę.</String>
         <String xml:lang="es-ES">{0} ha ~g~aceptado ~s~tu oferta de soborno.</String>
         <String xml:lang="pt-BR">{0} ~g~aceitou ~s~sua oferta de suborno.</String>
@@ -4062,7 +4077,7 @@
     <Entry Id="police_refused_wanted_level_bribe">
         <String xml:lang="en-US">{0} has ~r~refused ~s~your bribe offer and reported the incident. You gained a wanted level.</String>
         <String xml:lang="nl-NL">{0} heeft jouw omkopingsoffer ~r~geweigerd ~s~en heeft het incident gerapporteerd. Je hebt een wanted level ontvangen.</String>
-        <String xml:lang="it-IT">{0} ha ~r~rifiutato ~s~la tua offerta di corruzione e ha segnalato l'incidente. Il tuo livello di ricercato è salito.</String>
+        <String xml:lang="it-IT">{0} ha ~r~rifiutato ~s~la tua tangente e ha segnalato l'incidente. Il tuo livello di ricercato è salito.</String>
         <String xml:lang="pl-PL">{0} ~r~odrzucił ~s~twoją łapówkę i zgłosił zdarzenie. Dostałeś za to poziom pościgu.</String>
         <String xml:lang="es-ES">{0} ~r~rechazó ~s~tu oferta de soborno y denunció el incidente. Obtuviste un nivel de búsqueda.</String>
         <String xml:lang="pt-BR">{0} ~r~recusou ~s~sua oferta de suborno e relatou o incidente. Você obteve um nível de busca</String>
@@ -4135,10 +4150,10 @@
     </Entry>
 
     <Entry Id="police_seized_all">
-        <String xml:lang="en-US">You seized all of {0}'s ~r~illegal items~s~.</String>
+        <String xml:lang="en-US">You confiscated all of {0}'s ~r~illegal items~s~.</String>
         <String xml:lang="nl-NL">Je hebt alle ~r~illegale items~s~ van {0} in beslag genomen.</String>
-        <String xml:lang="it-IT">Hai sequestrato tutti gli ~r~oggetti illegali~s~ di {0}.</String>
-        <String xml:lang="es-ES">Has confiscado todos los ~r~artículos ilegales~s~ de {0}.</String>
+        <String xml:lang="it-IT">Hai sequestrato tutti gli ~r~oggetti illegali ~s~di {0}.</String>
+        <String xml:lang="es-ES">Has confiscado todos los ~r~artículos ilegales ~s~de {0}.</String>
         <String xml:lang="pl-PL">Skonfiskowałeś ~r~nielegalne przedmioty~s~ {0}.</String>
         <String xml:lang="pt-BR">Você confiscou todos os ~r~artigos~s~ ilegais ~s~de {0}.</String>
         <String xml:lang="de-DE">Du hast alle ~r~illegalen Gegenstände ~s~von {0} beschlagnahmt~s~.</String>
@@ -4841,7 +4856,7 @@
         <String xml:lang="es-ES">{0} ~s~te ha ofrecido ~g~{1} ~s~para sobornarte. {2} para ver la oferta.</String>
         <String xml:lang="pt-BR">{0} ~s~lhe ofereceu ~g~{1} ~s~para suborná-lo. {2} para ver a oferta.</String>
         <String xml:lang="fr-FR">{0} ~s~vous a offert un pot-de-vin de ~g~{1}~s~. {2} pour consulter l'offre.</String>
-        <String xml:lang="it-IT">{0} ~s~ti ha fatto un offerta di corruzione di ~g~{1}~s~. {2} per visualizzare l'offerta.</String>
+        <String xml:lang="it-IT">{0} ~s~ti ha offerto una tangente di ~g~{1}~s~. {2} per visualizzare l'offerta.</String>
         <String xml:lang="de-DE">{0} hat dir eine {0}-Bestechung angeboten. {2} um das Angebot anzusehen.</String>
         <String xml:lang="ar-001">{0} ~s~عرض عليك ~g~{1} ~s~رشوة {2}لمشاهدة العرض.</String>
         <String xml:lang="id-ID">{0} ~s~telah menawarkanmu suap sebesar ~g~{1}~s~. {2} untuk melihat penawaran.</String>
@@ -5940,6 +5955,32 @@
         <String xml:lang="sv-SE">Du ~r~avbröt ~s~kassaskåps rånet</String>
     </Entry>
 
+    <Entry Id="robbery_looting_no_space_left">
+        <String xml:lang="en-US">~r~You don't have enough space in your inventory, so the item has been dropped.</String>
+        <String xml:lang="it-IT">~r~Non hai abbastanza spazio nel tuo inventario, quindi l'oggetto è stato fatto cadere.</String>
+    </Entry>
+
+    <!-- {0} = Amount -->
+    <!-- {1} = Item -->
+    <Entry Id="robbery_looted_item">
+        <String xml:lang="en-US">You stole ~y~{0} {1}~s~.</String>
+        <String xml:lang="it-IT">Hai rubato ~y~{0} {1}~s~.</String>
+    </Entry>
+
+    <!-- {0} = Player -->
+    <!-- {1} = Amount -->
+    <!-- {2} = Item -->
+    <Entry Id="robbery_player_looted_item">
+        <String xml:lang="en-US">{0} stole ~y~{1} {2}~s~.</String>
+        <String xml:lang="it-IT">{0} ha rubato ~y~{1} {2}~s~.</String>
+    </Entry>
+
+    <!-- Imperative mode, it's a button -->
+    <Entry Id="robbery_instructional_loot">
+        <String xml:lang="en-US">Loot</String>
+        <String xml:lang="it-IT">Saccheggia</String>
+    </Entry>
+
     <Entry Id="robbery_intimidation_bar">
         <String xml:lang="en-US">INTIMIDATION</String>
         <String xml:lang="nl-NL">INTIMIDATIE</String>
@@ -5955,6 +5996,8 @@
         <String xml:lang="pt-BR">INTIMIDAÇÃO</String>
     </Entry>
 
+    <!-- Notice: this means "the take" (what you have taken from the store), as in "the loot" -->
+    <!-- It is a noun, not an action -->
     <Entry Id="robbery_take_counter">
         <String xml:lang="en-US">TAKE</String>
         <String xml:lang="nl-NL">DEEL</String>
@@ -5978,7 +6021,7 @@
         <String xml:lang="nl-NL">JOUW DEEL</String>
         <String xml:lang="de-DE">DEIN ANTEIL</String>
         <String xml:lang="hi-Latn">AAPKA HISSA</String>
-        <String xml:lang="no-NO">DITT Kutt</String>
+        <String xml:lang="no-NO">DITT KUTT</String>
         <String xml:lang="fr-FR">VOTRE PART</String>
         <String xml:lang="sv-SE">DITT SNITT</String>
         <String xml:lang="es-ES">TU PARTE</String>
@@ -7365,6 +7408,10 @@
         <String xml:lang="id-ID">Kamu ~r~gagal ~s~untuk memecahkan ~b~kaca~s~. Coba lagi yang lain!</String>
     </Entry>
 
+    <Entry Id="jewelry_robbery_break_glass_canceled">
+        <String xml:lang="en-US">You ~r~canceled ~s~breaking this ~b~glass~s~.</String>
+    </Entry>
+
     <Entry Id="jewelry_robbery_break_glass_succeeded">
         <String xml:lang="en-US">You ~g~successfully ~s~broke the ~b~glass~s~.</String>
         <String xml:lang="nl-NL">Je hebt ~g~succesvol~s~ het ~b~glas~s~ gebroken.</String>
@@ -7575,6 +7622,11 @@
         <String xml:lang="fr-FR">~y~Avertissement: ~s~vous quittez les ~b~États-Unis~s~. Vous serez hors service dans {0} secondes.</String>
         <String xml:lang="sv-SE">~y~Varning: ~s~du lämnar ~b~USA~s~. Du avslutar tjänsten om {0} sekunder.</String>
         <String xml:lang="it-IT">~y~Attenzione: ~s~stai lasciando gli ~b~Stati Uniti~s~. Fra {0} secondi sarai fuori servizio.</String>
+    </Entry>
+
+    <Entry Id="police_off_duty_timer">
+        <String xml:lang="en-US">OFF DUTY</String>
+        <String xml:lang="it-IT">FUORI SERVIZIO</String>
     </Entry>
 
     <!-- nullnull{0} = Questions count (for example: 10)
