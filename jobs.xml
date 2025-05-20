@@ -74,7 +74,7 @@
     </Entry>
 
     <Entry Id="job_private_medic">
-        <String xml:lang="en-US">Medical Doctor</String>
+        <String xml:lang="en-US">Doctor</String>
         <String xml:lang="it-IT">Dottore</String>
         <String xml:lang="id-ID">Dokter Medis</String>
     </Entry>
@@ -2030,8 +2030,13 @@
         <String xml:lang="it-IT">~y~(C)Promemoria:(/C) ~s~puoi sparare solo quando c'è una minaccia, e non puoi allearti con i ~o~criminali~s~.</String>
     </Entry>
 
+    <Entry Id="paramedic_revival_canceled">
+        <String xml:lang="en-US">~r~You have canceled the resuscitation procedure.</String>
+        <String xml:lang="it-IT">~r~Hai annullato la procedura di rianimazione.</String>
+    </Entry>
+
     <Entry Id="paramedic_revival_fail">
-        <String xml:lang="en-US">~r~Your revival attempt has failed.</String>
+        <String xml:lang="en-US">~r~Your resuscitation attempt has failed.</String>
         <String xml:lang="it-IT">~r~Il tuo tentativo di rianimazione è fallito.</String>
         <String xml:lang="nl-NL">~r~Je poging tot reanimatie is mislukt.</String>
         <String xml:lang="de-DE">~r~Dein Wiederbelebungsversuch ist gescheitert.</String>
@@ -2166,7 +2171,7 @@
     </Entry>
 
     <Entry Id="paramedic_active_shootout_cant_revive">
-        <String xml:lang="en-US">There's an active ~r~shooting~s~! You can't revive ~o~wanted suspects ~s~now.</String>
+        <String xml:lang="en-US">There's an active ~r~shooting~s~! You can't resuscitate ~o~wanted suspects ~s~now.</String>
         <String xml:lang="nl-NL">Er is een actief ~r~schietgevecht~s~! Je kan geen ~o~gezochte verdachten ~s~reanimeren op dit moment.</String>
         <String xml:lang="it-IT">È in croso una ~r~sparatoria~s~! Non puoi rianimare i ~o~sospettati ~s~per il momento.</String>
         <String xml:lang="es-ES">¡Hay un ~r~tiroteo~s~ activo! No puedes revivir ~o~sospechosos en busqueda ~s~ahora.</String>
@@ -2649,7 +2654,7 @@
 
     <!-- nullnull{0} = Player name (for example: Sasino) -->
     <Entry Id="paramedic_player_revived">
-        <String xml:lang="en-US">You ~p~revived ~s~{0}!</String>
+        <String xml:lang="en-US">You ~p~resuscitated ~s~{0}!</String>
         <String xml:lang="nl-NL">Je hebt {0} ~p~gereanimeerd~s~!</String>
         <String xml:lang="es-ES">~p~Reviviste ~s~a {0}!</String>
         <String xml:lang="pl-PL">~p~Ocuciłeś ~s~{0}!</String>
@@ -4021,6 +4026,16 @@
         <String xml:lang="sv-SE">Du ignorerade {0}'s muterbjudande.</String>
     </Entry>
 
+    <Entry Id="police_player_ignored_bribe">
+        <String xml:lang="en-US">{0} has ~r~ignored ~s~your bribe offer.</String>
+        <String xml:lang="it-IT">{0} ha ~r~ignorato ~s~la tua proposta di tangente.</String>
+    </Entry>
+
+    <Entry Id="police_player_canceled_bribe_disconnect">
+        <String xml:lang="en-US">{0} has ~r~left the server ~s~ and your bribe offer was canceled.</String>
+        <String xml:lang="it-IT">{0} si è ~r~disconnesso dal server ~s~e la tua proposta di tangente è stata annullata.</String>
+    </Entry>
+
     <!-- nullnull{0} = Officer's name (for example: Stijnjw)
          {1} = Amount (for example: $1,000,000) 
     -->
@@ -4063,9 +4078,9 @@
     </Entry>
 
     <Entry Id="police_already_have_open_offer">
-        <String xml:lang="en-US">~r~You already have an active bribe offer.</String>
+        <String xml:lang="en-US">~r~You already have an open bribe offer.</String>
         <String xml:lang="nl-NL">~r~Je hebt al een actieve omkopingsoffer.</String>
-        <String xml:lang="it-IT">~r~Hai già una offerta di tangente attiva.</String>
+        <String xml:lang="it-IT">~r~Hai già una offerta di tangente aperta.</String>
         <String xml:lang="pl-PL">~r~Masz już aktywną ofertę łapówki.</String>
         <String xml:lang="es-ES">~r~Ya tienes una oferta de soborno activa.</String>
         <String xml:lang="pt-BR">~r~Você já tem uma oferta de suborno ativa.</String>
@@ -4081,42 +4096,49 @@
         <String xml:lang="sv-SE">~r~Du har redan ett aktivt muterbjudande.</String>
     </Entry>
 
-    <Entry Id="police_cant_bribe_same_officer_within_ten">
-        <String xml:lang="en-US">~r~You cannot bribe the same officer twice within 10 minutes.</String>
-        <String xml:lang="nl-NL">~r~Je kan niet dezelfde agent twee keer omkopen binnen 10 minuten.</String>
-        <String xml:lang="it-IT">~r~Non puoi corrompere lo stesso agente due volte in 10 minuti.</String>
-        <String xml:lang="pl-PL">~r~Nie możesz przekupić tego samego gliniarza dwa razy przez 10 minut.</String>
-        <String xml:lang="es-ES">~r~No se puede sobornar al mismo oficial dos veces en 10 minutos.</String>
-        <String xml:lang="pt-BR">~r~Não é possível subornar o mesmo policial duas vezes em 10 minutos.</String>
-        <String xml:lang="de-DE">~r~Du kannst nicht denselben Polizisten innerhalb von 10 Minuten bestechen.</String>
-        <String xml:lang="ar-001">~r~لا يمكنك رشوة نفس الضابط مرتين خلال 10 دقائق.</String>
-        <String xml:lang="id-ID">~r~Anda tidak dapat menyuap petugas yang sama dua kali dalam kurun waktu 10 menit.</String>
-        <String xml:lang="zh-Hant">~r~你不能能在十分鐘內賄賂同個警員兩次.</String>
-        <String xml:lang="th-TH">~r~คุณไม่สามารถติดสินบนเจ้าหน้าที่คนเดียวกันสองครั้งภายใน 10 นาที</String>
-        <String xml:lang="hi-Latn">~r~Aap dobara wahi officer ko bribe nahi kar sakte 10 minutes ke andar.</String>
-        <String xml:lang="lv-LV">~r~Jūs nevarat uzpirkt vienu un to pašu policistu divreiz 10 minūšu laikā.</String>
-        <String xml:lang="fr-FR">~r~Vous ne pouvez pas donner deux pots-de-vin au même officier en l'espace de 10 minutes.</String>
-        <String xml:lang="no-NO">~r~Du kan ikke bestikke den samme offiseren to ganger innen 10 minutter.</String>
-        <String xml:lang="sv-SE">~r~Du kan inte muta samma polis två gånger inom 10 minuter.</String>
+    <!-- {0} = player -->
+    <Entry Id="police_player_already_has_open_offer">
+        <String xml:lang="en-US">~r~{0} already has an open bribe offer.</String>
+        <String xml:lang="it-IT">~r~{0} ha già una offerta di tangente aperta.</String>
     </Entry>
 
+    <!-- {0} = minutes -->
+    <Entry Id="police_cant_bribe_same_officer_cooldown">
+        <String xml:lang="en-US">~r~You cannot bribe the same officer twice within {0} minutes.</String>
+        <String xml:lang="nl-NL">~r~Je kan niet dezelfde agent twee keer omkopen binnen {0} minuten.</String>
+        <String xml:lang="it-IT">~r~Non puoi corrompere lo stesso agente due volte in {0} minuti.</String>
+        <String xml:lang="pl-PL">~r~Nie możesz przekupić tego samego gliniarza dwa razy przez {0} minut.</String>
+        <String xml:lang="es-ES">~r~No se puede sobornar al mismo oficial dos veces en {0} minutos.</String>
+        <String xml:lang="pt-BR">~r~Não é possível subornar o mesmo policial duas vezes em {0} minutos.</String>
+        <String xml:lang="de-DE">~r~Du kannst nicht denselben Polizisten innerhalb von {0} Minuten bestechen.</String>
+        <String xml:lang="ar-001">~r~لا يمكنك رشوة نفس الضابط مرتين خلال {0} دقائق.</String>
+        <String xml:lang="id-ID">~r~Anda tidak dapat menyuap petugas yang sama dua kali dalam kurun waktu {0} menit.</String>
+        <String xml:lang="zh-Hant">~r~你不能能在{0}分鐘內賄賂同個警員兩次.</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถติดสินบนเจ้าหน้าที่คนเดียวกันสองครั้งภายใน {0} นาที</String>
+        <String xml:lang="hi-Latn">~r~Aap dobara wahi officer ko bribe nahi kar sakte {0} minutes ke andar.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat uzpirkt vienu un to pašu policistu divreiz {0} minūšu laikā.</String>
+        <String xml:lang="fr-FR">~r~Vous ne pouvez pas donner deux pots-de-vin au même officier en l'espace de {0} minutes.</String>
+        <String xml:lang="no-NO">~r~Du kan ikke bestikke den samme offiseren to ganger innen {0} minutter.</String>
+        <String xml:lang="sv-SE">~r~Du kan inte muta samma polis två gånger inom {0} minuter.</String>
+    </Entry>
+
+    <!-- Auto-cuff warning -->
+    <!-- {0} = seconds -->
     <Entry Id="police_cant_bribe_after_revive_auto_cuff">
-        <String xml:lang="en-US">~r~You cannot bribe a police officer for 2 minutes after being revived and auto-cuffed.</String>
-        <String xml:lang="nl-NL">~r~Je kan niet een politieagent omkopen voor 2 minuten na gereanimeerd en auto-cuffed te zijn.</String>
-        <String xml:lang="it-IT">~r~Non puoi corrompere un agente di polizia per 2 minuti dopo essere stato rianimato e ammanettato automaticamente.</String>
-        <String xml:lang="pl-PL">~r~Nie możesz przekupić gliniarzy przez 2 minuty po zostaniu ocuconym i automatycznie zakutym.</String>
-        <String xml:lang="es-ES">~r~No se puede sobornar a un oficial de policía durante 2 minutos después de haber sido reanimado y esposado automáticamente.</String>
-        <String xml:lang="pt-BR">~r~Um policial não pode ser subornado por 2 minutos após ser reanimado e automaticamente algemado.</String>
-        <String xml:lang="de-DE">~r~Du kannst keinen Polizeibeamten für 2 Minuten bestechen, nachdem du wiederbelebt und automatisch festgenommen wurdest.</String>
-        <String xml:lang="ar-001">~r~لا يمكنك رشوة ضابط شرطة لمدة دقيقتين بعد إحيائه وتقييده تلقائيًا.</String>
-        <String xml:lang="id-ID">~r~Anda tidak dapat menyuap petugas kepolisian dalam waktu 2 menit setelah dibangungkan dan diborgol otomatis.</String>
-        <String xml:lang="zh-Hant">~r~你不能在醫護治癒您時賄賂警員.</String>
-        <String xml:lang="th-TH">~r~คุณไม่สามารถติดสินบนเจ้าหน้าที่ตำรวจได้เป็นเวลา 2 นาทีหลังจากฟื้นคืนชีพและใส่กุญแจมืออัตโนมัติ</String>
-        <String xml:lang="hi-Latn">~r~Aap revive aur auto-cuffed hone ke baad 2 minutes tak bribe nahi kar sakte.</String>
-        <String xml:lang="lv-LV">~r~Jūs nevarat uzpirkt policistu 2 minūtes pēc tam, kad tikāt atdzīvināts un automātiski apcietināts.</String>
-        <String xml:lang="no-NO">~r~Du kan ikke bestikke en politimann i 2 minutter etter å ha blitt gjenopplivet og satt i håndjern.</String>
-        <String xml:lang="fr-FR">~r~Vous ne pouvez pas donner de pot-de-vin à un officier de police pendant 2 minutes après avoir été réanimé et auto-menotté.</String>
-        <String xml:lang="sv-SE">~r~Du kan inte muta en polis under 2 minuter efter att ha blivit återupplivad och auto-handfängslad.</String>
+        <String xml:lang="en-US">~r~You cannot bribe a police officer for {0} seconds after being resuscitated and auto-cuffed.</String>
+        <String xml:lang="it-IT">~r~Non puoi corrompere un agente di polizia per {0} secondi dopo essere stato rianimato e ammanettato automaticamente.</String>
+        <String xml:lang="fr-FR">~r~Vous ne pouvez pas donner de pot-de-vin à un officier de police pendant {0} secondes après avoir été réanimé et auto-menotté.</String>
+        <String xml:lang="de-DE">~r~Du kannst keinen Polizeibeamten für {0} Sekunden bestechen, nachdem du wiederbelebt und automatisch festgenommen wurdest.</String>
+        <String xml:lang="nl-NL">~r~Je kan niet een politieagent omkopen voor {0} seconden na gereanimeerd en auto-cuffed te zijn.</String>
+        <String xml:lang="pl-PL">~r~Nie możesz przekupić gliniarzy przez {0} sekund po zostaniu ocuconym i automatycznie zakutym.</String>
+        <String xml:lang="es-ES">~r~No se puede sobornar a un oficial de policía durante {0} segundos después de haber sido reanimado y esposado automáticamente.</String>
+        <String xml:lang="pt-BR">~r~Um policial não pode ser subornado por {0} segundos após ser reanimado e automaticamente algemado.</String>
+        <String xml:lang="id-ID">~r~Anda tidak dapat menyuap petugas kepolisian dalam waktu {0} detik setelah dibangungkan dan diborgol otomatis.</String>
+        <String xml:lang="th-TH">~r~คุณไม่สามารถติดสินบนเจ้าหน้าที่ตำรวจได้เป็นเวลา {0} วินาทีหลังจากฟื้นคืนชีพและใส่กุญแจมืออัตโนมัติ</String>
+        <String xml:lang="hi-Latn">~r~Aap revive aur auto-cuffed hone ke baad {0} seconds tak bribe nahi kar sakte.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat uzpirkt policistu {0} sekundes pēc tam, kad tikāt atdzīvināts un automātiski apcietināts.</String>
+        <String xml:lang="no-NO">~r~Du kan ikke bestikke en politimann i {0} sekunder etter å ha blitt gjenopplivet og satt i håndjern.</String>
+        <String xml:lang="sv-SE">~r~Du kan inte muta en polis under {0} sekunder efter att ha blivit återupplivad och auto-handfängslad.</String>
     </Entry>
 
     <Entry Id="police_viewing_bribe">
@@ -4176,7 +4198,7 @@
         <String xml:lang="sv-SE">{0} har ~g~accepterat ~s~ditt muterbjudande.</String>
     </Entry>
 
-    <Entry Id="police_refused_wanted_level_bribe">
+    <Entry Id="police_refused_bribe">
         <String xml:lang="en-US">{0} has ~r~refused ~s~your bribe offer and reported the incident. You gained a wanted level.</String>
         <String xml:lang="nl-NL">{0} heeft jouw omkopingsoffer ~r~geweigerd ~s~en heeft het incident gerapporteerd. Je hebt een wanted level ontvangen.</String>
         <String xml:lang="it-IT">{0} ha ~r~rifiutato ~s~la tua tangente e ha segnalato l'incidente. Il tuo livello di ricercato è salito.</String>
@@ -4947,9 +4969,9 @@
         <String xml:lang="sv-SE">~g~Bekräfta ~s~och gå till nästa fråga (du ~r~kan inte ~s~kolla igenom den senare).</String>
     </Entry>
 
-    <!-- nullnull{0} = Player's name (for example: Stijnjw)
+    <!-- {0} = Player's name (for example: Stijnjw)
          {1} = Amount (for example: $10,000)
-         {2} = Control instructions (for example: Press Y) 
+         {2} = Control instructions (for example: Press Y) - Can be translated in STP_PRESS and STP_HOLD if missing.
     -->
     <Entry Id="police_received_bribe">
         <String xml:lang="en-US">{0} ~s~has offered you a ~g~{1} ~s~bribe. {2} to view the offer.</String>
@@ -4967,6 +4989,11 @@
         <String xml:lang="lv-LV">{0} ~s~ir piedāvājis jums ~g~{1}~s~ kukuli. {2}, lai aplūkotu piedāvājumu.</String>
         <String xml:lang="sv-SE">{0} ~s~har erbjudit dig en ~g~{1} ~s~muta. {2} för att se erbjudandet.</String>
         <String xml:lang="no-NO">{0} ~s~har tilbudt deg en ~g~{1} ~s~bestikkelse. {2} for å se tilbudet.</String>
+    </Entry>
+
+    <Entry Id="police_received_bribe_instructional">
+        <String xml:lang="en-US">View offer</String>
+        <String xml:lang="it-IT">Vedi offerta</String>
     </Entry>
 
     <!-- nullnull{0} = Current question number (for example: 3)
@@ -7377,15 +7404,15 @@
 
     <!-- When you switch to M.D. -->
     <Entry Id="private_medic_description">
-        <String xml:lang="en-US">(C)Medical Doctor:(/C) ~s~provide ~p~healthcare ~s~services and items for money.</String>
+        <String xml:lang="en-US">(C)Doctor:(/C) ~s~provide ~p~healthcare ~s~services and items for money.</String>
         <String xml:lang="nl-NL">(C)Medisch Arts:(/C) ~s~biedt ~p~gezondheidszorg ~s~en artikelen voor geld.</String>
         <String xml:lang="de-DE">(C)Doktor:(/C) ~s~biete ~p~Gesundheitsdienstleistungen ~s~und Gegenstände für Geld.</String>
         <String xml:lang="lv-LV">(C)Dakteris:(/C) ~s~sniedziet ~p~veselības aprūpes~s~ pakalpojumus un preces par naudu.</String>
-        <String xml:lang="no-NO">(C) Lege:(/C) ~s~gir ~p~helsetjenester ~s~tjenester og varer for penger.</String>
-        <String xml:lang="sv-SE">(C) Läkare:(/C) ~s~tillhandahåller ~p~hälsovård ~s~tjänster och föremål för pengar.</String>
-        <String xml:lang="hi-Latn">(C)Medical Doctor:(/C)~s~ paise kamane ke liye ~p~healthcare ~s~services aur items provide karein.</String>
+        <String xml:lang="no-NO">(C)Lege:(/C) ~s~gir ~p~helsetjenester ~s~tjenester og varer for penger.</String>
+        <String xml:lang="sv-SE">(C)Läkare:(/C) ~s~tillhandahåller ~p~hälsovård ~s~tjänster och föremål för pengar.</String>
+        <String xml:lang="hi-Latn">(C)Doctor:(/C)~s~ paise kamane ke liye ~p~healthcare ~s~services aur items provide karein.</String>
         <String xml:lang="fr-FR">(C)Médecin:(/C) ~s~offrez des ~p~prestations de soins et des articles de santé ~s~contre de l'argent.</String>
-        <String xml:lang="it-IT">(C)Medico:(/C) ~s~fornisce ~p~servizi sanitari~s~ e oggetti in cambio di denaro.</String>
+        <String xml:lang="it-IT">(C)Dottore:(/C) ~s~fornisce ~p~servizi sanitari~s~ e oggetti in cambio di denaro.</String>
     </Entry>
     
     <!-- Jewelry Robbery -->
