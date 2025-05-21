@@ -5519,6 +5519,7 @@
         <String xml:lang="lv-LV">~r~Atvainojiet! ~s~Jūs neesat nokārtojis eksāmenu (~r~{0}~s~/{1} puknti) ({2} lai nokārtotu).</String>
         <String xml:lang="no-NO">~r~Beklager! ~s~Du har ikke bestått eksamen (~r~{0}~s~/{1} poeng) ({2} for å bestå).</String>
         <String xml:lang="sv-SE">~r~Förlåt! ~s~Du har inte klarat provet (~r~{0}~s~/{1} poäng) ({2} för att bli godkänd).</String>
+        <String xml:lang="pl-PL">~r~Przepraszamy! ~s~Nie udało ci się zdać egzaminu (~r~{0}~s~/{1} punktów) ({2} byc zdać).</String>
     </Entry>
 
     <!-- nullnull{0} = Final score (for example: 11)
@@ -5536,6 +5537,7 @@
         <String xml:lang="no-NO">~g~Gratulerer! ~s~Du har bestått eksamen med ~g~{0}~s~/{1} poeng ({2} for å bestå). Du kan nå bli ~b~politibetjent~s~.</String>
         <String xml:lang="sv-SE">~g~Grattis! ~s~Du har klarat provet med ~g~{0}~s~/{1} poäng ({2} för att bli godkänd). Du kan nu bli ~b~polis~s~.</String>
         <String xml:lang="fr-FR">~g~Félicitations! ~s~Vous avez réussi l'examen avec ~g~{0}~s~/{1} points ({2} pour réussir). Vous pouvez maintenant devenir un ~b~Officier de Police~s~.</String>
+        <String xml:lang="pl-PL">~g~Gratulacje! ~s~Zdałeś egzamin z ~g~{0}~s~/{1} punktów ({2} by zdać). Teraz możesz zostać ~b~Policjantem~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152))
@@ -6770,6 +6772,7 @@
         <String xml:lang="no-NO">Sortert etter utbetaling</String>
         <String xml:lang="sv-SE">Sorterat efter utbetalning</String>
         <String xml:lang="hi-Latn">Payout ke hisaab se sort kiya gaya</String>
+        <String xml:lang="pl-PL">Posortowane według wypłaty</String>
     </Entry>
 
     <!-- nullnull{0} = Time to await (for example: 5 minutes) -->
@@ -6784,6 +6787,7 @@
         <String xml:lang="no-NO">Du må vente ~y~{0} ~s~før du tar en annen leveringsjobb.</String>
         <String xml:lang="sv-SE">Du måste vänta ~y~{0} ~s~innan du tar ett annat leveransjobb.</String>
         <String xml:lang="hi-Latn">Aapko ~y~{0} ~s~wait karna hoga agli delivery job lene se pehle.</String>
+        <String xml:lang="pl-PL">Musisz poczekać ~y~{0} ~s~zanim weźmiesz się za kolejne zlecenie.</String>
     </Entry>
 
     <!-- nullnull{0} = Final destination name (for example: Downtown Los Santos) -->
@@ -6798,6 +6802,7 @@
         <String xml:lang="no-NO">Levering til {0}</String>
         <String xml:lang="sv-SE">Leverera till {0}</String>
         <String xml:lang="hi-Latn">{0} tak delivery</String>
+        <String xml:lang="pl-PL">Dostarcz do {0}</String>
     </Entry>
 
     <!-- nullnull{0} = Number of jobs (for example: 12)
@@ -6814,6 +6819,7 @@
         <String xml:lang="fr-FR">Il y a ~y~{0} livraisons ~s~disponibles en ce moment. {1} pour ouvrir la liste des livraisons.</String>
         <String xml:lang="sv-SE">Det finns ~y~{0} leveransjobb ~s~tillgängliga för tillfället. {1} för att öppna leveranslistan.</String>
         <String xml:lang="hi-Latn">Abhi ~y~{0} delivery jobs ~s~available hai. {1} delivery list kholne ke liye.</String>
+        <String xml:lang="pl-PL">Na ten moment jest ~y~{0} kursów ~s~{1} aby otworzyć listę dostaw.</String>
     </Entry>
 
     <Entry Id="ddriver_already_on_job">
@@ -7063,6 +7069,7 @@
         <String xml:lang="no-NO">Gå til ~y~{0} ~s~og legg av ~b~varene~s~.</String>
         <String xml:lang="sv-SE">Gå till ~y~{0} ~s~och lämna ~b~varorna~s~.</String>
         <String xml:lang="hi-Latn">~y~{0} ~s~jaaye aur ~b~samaan ~s~drop off kare.</String>
+        <String xml:lang="pl-PL">Jedź do ~y~{0} ~s~i rozładuj ~b~ładunek~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Area name (for example: Downtown Los Santos) -->
@@ -7077,6 +7084,7 @@
         <String xml:lang="sv-SE">Gå till ~y~{0} ~s~och leverera nästa ~b~paket~s~..</String>
         <String xml:lang="hi-Latn">~y~{0} ~s~jaaye aur agla ~b~package ~s~delivery kare.</String>
         <String xml:lang="lv-LV">Dodieties uz ~y~{0}~s~ un piegādājiet nākamo ~b~paku~s~.</String>
+        <String xml:lang="pl-PL">Idź do ~y~{0} ~s~i dostarcz kolejną ~b~przesyłkę~s~.</String>
     </Entry>
 
     <!-- Shown at the bottom right as a box with a health bar (please all uppercase) -->
@@ -7091,6 +7099,7 @@
         <String xml:lang="no-NO">TILHENGER</String>
         <String xml:lang="sv-SE">SLÄP</String>
         <String xml:lang="hi-Latn">TRAILER</String>
+        <String xml:lang="pl-PL">PRZYCZEPA</String>
     </Entry>
 
     <!-- nullnull{0} = Type of truck (for example: semi truck) -->
@@ -7105,6 +7114,7 @@
         <String xml:lang="sv-SE">Du behöver en ~b~{0} ~s~för att fortsätta denna ~y~leverans~s~.</String>
         <String xml:lang="hi-Latn">Aapko ~y~delivery ~s~ko continue karne ke liye ~b~{0} ~s~ki zarurat hai.</String>
         <String xml:lang="no-NO">Du trenger en ~b~{0} ~s~for å fortsette denne ~y~leveringen~s~.</String>
+        <String xml:lang="pl-PL">Potrzebujesz ~b~{0} ~s~aby kontynuować tą ~y~dostawę~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount earned (for example: $125,000) -->
@@ -7119,6 +7129,7 @@
         <String xml:lang="sv-SE">Du slutförde ~b~leveransjobbet ~s~och fick ~g~{0}~s~!</String>
         <String xml:lang="no-NO">Du fullførte ~b~leveringsjobben ~s~og tjente ~g~{0}~s~!</String>
         <String xml:lang="hi-Latn">Aapne ~b~delivery job ~s~complete kiya aur ~g~{0} ~s~kamaya!</String>
+        <String xml:lang="pl-PL">Ukończyłeś ~b~pracę dostawcy ~s~i zyskałeś ~g~{0}~s~!</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (id) (for example: Stijnjw (152))
@@ -7135,6 +7146,7 @@
         <String xml:lang="sv-SE">{0} har slutfört en leverans och tjänat {1}.</String>
         <String xml:lang="no-NO">{0} har fullført en levering og tjent {1}.</String>
         <String xml:lang="hi-Latn">{0} ne ek delivery complete ki aur {1} kamaya.</String>
+        <String xml:lang="pl-PL">{0} ukończył dostawę i zdobył {1}.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount charged (for example: $500,000) -->
@@ -7163,6 +7175,7 @@
         <String xml:lang="fr-FR">Vous avez été facturé ~r~{0} ~s~pour couvrir les pertes</String>
         <String xml:lang="sv-SE">Du har debiterats ~r~{0}~s~ för att täcka förlusterna</String>
         <String xml:lang="hi-Latn">Aap par ~r~{0} ~s~charge kiya gaya hai nuksan cover karne ke liye.</String>
+        <String xml:lang="pl-PL">Pobrano od ciebie ~r~{0} ~s~aby pokryć straty</String>
     </Entry>
 
     <!-- nullnull{0} = Amount covered (for example: $450,000) -->
@@ -7177,6 +7190,7 @@
         <String xml:lang="no-NO">~b~forsikringsselskapet ~s~har dekket tapene fullt ut (~r~{0}~s~)</String>
         <String xml:lang="sv-SE">~b~försäkringsbolaget ~s~har helt täckt förlusterna (~r~{0}~s~)</String>
         <String xml:lang="hi-Latn">~b~Insurance company ~s~ne puri tarah se losses cover kiye (~r~{0}~s~)</String>
+        <String xml:lang="pl-PL">~b~Ubezpieczyciel ~s~w pełni pokrył straty (~r~{0}~s~)</String>
     </Entry>
 
     <!-- nullnull{0} = Name (id) of the target, including colors (for example: ~r~Stijnjw ~s~(152)) -->
@@ -7191,6 +7205,7 @@
         <String xml:lang="no-NO">Du valgte {0} som ditt ~r~mål~s~.</String>
         <String xml:lang="sv-SE">Du valde {0} som ditt ~r~mål~s~.</String>
         <String xml:lang="hi-Latn">Aapne {0} ko apna ~r~target ~s~select kiya hai.</String>
+        <String xml:lang="pl-PL">Wybrałeś {0} jako swój ~r~cel~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Name (id) of the target (already colored) (for example: ~r~Stijnjw ~s~(152))
@@ -7223,6 +7238,7 @@
         <String xml:lang="sv-SE">{0} sågs någonstans runt {1}. Öppna din karta för att se området.</String>
         <String xml:lang="it-IT">{0} è stato visto da qualche parte intorno a {1}. Apri la tua mappa per visualizzare l'area.</String>
         <String xml:lang="hi-Latn">{0} kahin {1} ke aas paas dekha gaya tha. Map open karein area dekhne ke liye.</String>
+        <String xml:lang="pl-PL">{0} był widziany gdzieś w pobliżu {1}. Otwórz mapę by zobaczyć obszar.</String>
     </Entry>
 
     <!-- nullnull{0} = Name (id) of the target (already colored) (for example: ~r~Stijnjw ~s~(152))
@@ -7696,6 +7712,7 @@
         <String xml:lang="sv-SE">Stopp</String>
         <String xml:lang="es-ES">Detener (mantener)</String>
         <String xml:lang="pt-BR">Parar (manter)</String>
+        <String xml:lang="pl-PL">STOP</String>
     </Entry>
 
     <!-- nullnull{0} = Weapon (for example: Shotgun)
@@ -7730,6 +7747,7 @@
         <String xml:lang="no-NO">Sortert etter henteavstand</String>
         <String xml:lang="sv-SE">Sorterat efter hämtningsavstånd</String>
         <String xml:lang="hi-Latn">Pickup distance ke hisaab se sort kiya gaya</String>
+        <String xml:lang="pl-PL">Posortowane według dystansu.</String>
     </Entry>
 
     <!-- Shown at the bottom right as an instructional button.
@@ -7746,6 +7764,7 @@
         <String xml:lang="sv-SE">Se jobb</String>
         <String xml:lang="fr-FR">Voir les livraisons</String>
         <String xml:lang="hi-Latn">Jobs dekhe</String>
+        <String xml:lang="pl-PL">Zobacz oferty</String>
     </Entry>
 
     <!-- Shown at the bottom as mission text / subtitle
@@ -7762,6 +7781,7 @@
         <String xml:lang="no-NO">Gå til ~y~{0} ~s~og hent ~b~varene~s~.</String>
         <String xml:lang="sv-SE">Gå till ~y~{0} ~s~och hämta ~b~varorna~s~.</String>
         <String xml:lang="hi-Latn">~y~{0} ~s~jaaye aur ~b~samaan ~s~pick up kare.</String>
+        <String xml:lang="pl-PL">Jedź do ~y~{0} ~s~i odbierz ~b~ładunek~s~.</String>
     </Entry>
 
     <!-- Must be oriented correctly means that the heading/angle of the vehicle must be as per the markers. For example, the marker shows the player that the vehicle must be facing north, then the player must park it north. This explanation was given to avoid mistranslations due to missing context. -->
@@ -7776,6 +7796,7 @@
         <String xml:lang="sv-SE">~b~Lastbilen ~s~måste vara orienterad enligt ~y~pilarna~s~.</String>
         <String xml:lang="hi-Latn">~b~Truck ~s~ko ~y~arrows~s~ ke hisaab se set karna hoga.</String>
         <String xml:lang="lv-LV">~b~Kravas auto~s~ ir jābūt orientētam, kā parādīts ar ~y~bultām~s~.</String>
+        <String xml:lang="pl-PL">~b~Ciężarówka ~s~musi jechać tak jak pokazują ~y~strzałki~s~.</String>
     </Entry>
 
     <!-- Please try to keep it short, these will show up at the bottom right of the screen like the info bars that show up during normal robberies, and there's not much space there -->
@@ -8025,7 +8046,7 @@
         <String xml:lang="no-NO">(C){0}(/C) ranet (C){1} juveler(/C) fra smykkebutikken!</String>
         <String xml:lang="fr-FR">(C){0}(/C) a volé (C){1} bijoux(/C) à la Bijouterie!</String>
         <String xml:lang="zh-Hant">(C){0}(/C) 從珠寶店搶了 (C){1} 個珠寶(/C)</String>
-        <String xml:lang="lv-LV">(C){0}(/C) nozaga (C){1} dārgumusC) no juvelierizstrādājumu veikala!</String>
+        <String xml:lang="lv-LV">{0} nozaga {1} dārgumus no juvelierizstrādājumu veikala!</String>
         <String xml:lang="sv-SE">(C){0}(/C) rånade (C){1} juveler(/C) från smyckesaffären!</String>
         <String xml:lang="it-IT">(C){0}(/C) ha rubato (C){1} gioielli(/C) dalla gioielleria!</String>
         <String xml:lang="pl-PL">(C){0}(/C) ukradł (C){1} biżuterię(/C) ze sklepu jubilerskiego!</String>
