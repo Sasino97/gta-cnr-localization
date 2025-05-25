@@ -2727,7 +2727,7 @@
         <String xml:lang="hi-Latn">Cash do</String>
         <String xml:lang="fr-FR">Donner de l'argent</String>
         <String xml:lang="de-DE">Bargeld geben</String>
-        <String xml:lang="it-IT">Dai contante</String>
+        <String xml:lang="it-IT">Consegna denaro</String>
         <String xml:lang="id-ID">Berikan uang</String>
         <String xml:lang="lv-LV">Iedot naudu</String>
         <String xml:lang="tr-TR">Para ver</String>
@@ -2909,7 +2909,7 @@
         <String xml:lang="hi-Latn">Cash Do</String>
         <String xml:lang="fr-FR">Donner de l'argent</String>
         <String xml:lang="de-DE">Geld geben</String>
-        <String xml:lang="it-IT">Dai contante</String>
+        <String xml:lang="it-IT">Consegna denaro</String>
         <String xml:lang="id-ID">Berikan uang</String>
         <String xml:lang="lv-LV">Iedot Naudu</String>
         <String xml:lang="tr-TR">Nakit para ver</String>
@@ -3119,23 +3119,10 @@
         <String xml:lang="sv-SE">Sök: ''{0}''</String>
     </Entry>
 
-    <Entry Id="trading_state_started">
-        <String xml:lang="en-US">Started</String>
-        <String xml:lang="nl-NL">Gestart</String>
-        <String xml:lang="hi-Latn">Start ho gaya hai</String>
-        <String xml:lang="fr-FR">Commencé</String>
-        <String xml:lang="de-DE">gestartet</String>
-        <String xml:lang="it-IT">Iniziato</String>
-        <String xml:lang="id-ID">Dimulai</String>
-        <String xml:lang="lv-LV">Sākās</String>
-        <String xml:lang="tr-TR">Başladı</String>
-        <String xml:lang="no-NO">Startet</String>
-        <String xml:lang="sv-SE">Startade</String>
-    </Entry>
-
     <Entry Id="trading_state_confirmed">
         <String xml:lang="en-US">Confirmed</String>
         <String xml:lang="nl-NL">Bevestigd</String>
+        <!-- hi-Latn: Too long! Try to make it as short as possible or it will likely overlap player name -->
         <String xml:lang="hi-Latn">Confirm ho gaya hai</String>
         <String xml:lang="fr-FR">Confirmé</String>
         <String xml:lang="de-DE">bestätigt</String>
@@ -3147,41 +3134,13 @@
         <String xml:lang="sv-SE">Bekräftad</String>
     </Entry>
 
-    <Entry Id="trading_state_finalized">
-        <String xml:lang="en-US">Finalized</String>
-        <String xml:lang="nl-NL">Afgerond</String>
-        <String xml:lang="hi-Latn">Khatam ho gaya</String>
-        <String xml:lang="fr-FR">Finalisé</String>
-        <String xml:lang="de-DE">Abgeschlossen</String>
-        <String xml:lang="it-IT">Completato</String>
-        <String xml:lang="id-ID">Finalisasi</String>
-        <String xml:lang="lv-LV">Pabeigts</String>
-        <String xml:lang="tr-TR">Kesinleşti</String>
-        <String xml:lang="no-NO">Fullført</String>
-        <String xml:lang="sv-SE">Avslutad</String>
-    </Entry>
-
-    <Entry Id="menu_trading_current_state">
-        <String xml:lang="en-US">State: {0}</String>
-        <String xml:lang="nl-NL">Status: {0}</String>
-        <String xml:lang="hi-Latn">Status: {0}</String>
-        <String xml:lang="fr-FR">Statut: {0}</String>
-        <String xml:lang="de-DE">Status: {0}</String>
-        <String xml:lang="it-IT">Stato: {0}</String>
-        <String xml:lang="id-ID">Status: {0}</String>
-        <String xml:lang="lv-LV">Stāvoklis: {0}</String>
-        <String xml:lang="tr-TR">Durum: {0}</String>
-        <String xml:lang="no-NO">Delstat: {0}</String>
-        <String xml:lang="sv-SE">Stat: {0}</String>
-    </Entry>
-
     <Entry Id="menu_trading_title">
         <String xml:lang="en-US">Trading</String>
         <String xml:lang="nl-NL">Handelen</String>
-        <String xml:lang="hi-Latn">Trading(lena-dena)</String>
+        <String xml:lang="hi-Latn">Lena-dena</String>
         <String xml:lang="fr-FR">Echange</String>
         <String xml:lang="de-DE">Handeln</String>
-        <String xml:lang="it-IT">Commercio</String>
+        <String xml:lang="it-IT">Scambio</String>
         <String xml:lang="id-ID">Trading</String>
         <String xml:lang="lv-LV">Tirgo</String>
         <String xml:lang="tr-TR">Ticaret</String>
@@ -3288,17 +3247,25 @@
     </Entry>
 
     <Entry Id="menu_trading_confirm_description">
-        <String xml:lang="en-US">Pressing this button will progress current state</String>
-        <String xml:lang="nl-NL">Door deze knop in te drukken bevestig je de transactie</String>
-        <String xml:lang="hi-Latn">Yeh button press karte hi process start ho jayegi</String>
-        <String xml:lang="de-DE">Durch Drücken dieser Taste wird der aktuelle Status aktualisiert</String>
-        <String xml:lang="it-IT">Premendo questo pulsante si progredirà nello stato attuale</String>
-        <String xml:lang="id-ID">Menekan tombol ini akan melanjutkan status ini</String>
-        <String xml:lang="lv-LV">Nospiežot šo pogu, tiks virzīts pašreizējais stāvoklis</String>
-        <String xml:lang="tr-TR">Bu düğmeye basmak mevcut durumu ilerletecektir</String>
-        <String xml:lang="fr-FR">Appuyer sur ce bouton fera progresser l'échange actuel</String>
-        <String xml:lang="no-NO">Ved å trykke på denne knappen vil gjeldende tilstand gå videre</String>
-        <String xml:lang="sv-SE">Genom att trycka på den här knappen går det aktuella läget vidare</String>
+        <String xml:lang="en-US">Confirm that you have completed your offer and you have read the other player's offer.</String>
+        <String xml:lang="it-IT">Conferma che hai completato la tua offerta e che hai letto l'offerta dell'altro giocatore.</String>
+    </Entry>
+
+    <Entry Id="menu_trading_undo_confirm_text">
+        <String xml:lang="en-US">Undo confirm</String>
+        <String xml:lang="it-IT">Annulla conferma</String>
+    </Entry>
+
+    <Entry Id="menu_trading_undo_confirm_description">
+        <String xml:lang="en-US">Select this option if you want to change your offer, or want to double check the other player's offer.</String>
+        <String xml:lang="it-IT">Seleziona questa opzione se vuoi cambiare la tua offerta, o ricontrollare l'offerta dell'altro giocatore.</String>
+    </Entry>
+
+    <!-- {0} = Amount -->
+    <!-- {1} = Item -->
+    <Entry Id="menu_trading_item_added">
+        <String xml:lang="en-US">You added ~b~{0} {1} ~s~to your offer.</String>
+        <String xml:lang="it-IT">Hai aggiunto ~b~{0} {1} ~s~alla tua offerta.</String>
     </Entry>
 
     <Entry Id="trading_changed_offer">
@@ -3343,6 +3310,11 @@
         <String xml:lang="sv-SE">{0} har bekräftat affären.</String>
     </Entry>
 
+    <Entry Id="trading_other_unconfirmed">
+        <String xml:lang="en-US">{0} wants to review the trade.</String>
+        <String xml:lang="it-IT">{0} vuole rivedere lo scambio.</String>
+    </Entry>
+
     <Entry Id="menu_trading_cash_label">
         <String xml:lang="en-US">Cash: {0}</String>
         <String xml:lang="nl-NL">Geld: {0}</String>
@@ -3377,7 +3349,7 @@
         <String xml:lang="hi-Latn">Add Item</String>
         <String xml:lang="fr-FR">Ajouter un objet</String>
         <String xml:lang="de-DE">Gegenstand hinzufügen</String>
-        <String xml:lang="it-IT">Aggiungi Oggetto</String>
+        <String xml:lang="it-IT">Aggiungi oggetto</String>
         <String xml:lang="id-ID">Tambahkan barang</String>
         <String xml:lang="lv-LV">Pievienot Priekšmetu</String>
         <String xml:lang="tr-TR">Eşya ekle</String>
@@ -3386,12 +3358,12 @@
     </Entry>
 
     <Entry Id="menu_trading_add_purchaseable">
-        <String xml:lang="en-US">Add Purchaseable</String>
+        <String xml:lang="en-US">Add Purchasable</String>
         <String xml:lang="nl-NL">Tegoeden Toevoegen</String>
         <String xml:lang="hi-Latn">Add karo khareedne ke liye</String>
         <String xml:lang="fr-FR">Ajouter un objet achetable</String>
         <String xml:lang="de-DE">Erwerbbares hinzufügen</String>
-        <String xml:lang="it-IT">Aggiungi Acquistabile</String>
+        <String xml:lang="it-IT">Aggiungi acquistabile</String>
         <String xml:lang="id-ID">Tambahkan barang yang dapat dibeli</String>
         <String xml:lang="lv-LV">Pievienot Nopērkamo</String>
         <String xml:lang="tr-TR">Satın alınabilir eşya ekle</String>
