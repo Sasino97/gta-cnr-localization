@@ -176,6 +176,7 @@
         <String xml:lang="lv-LV">(C){0}(/C) uzvarēja (C){1}(/C) momentloterijā!</String>
         <String xml:lang="no-NO">(C){0}(/C) vant (C){1}(/C) fra et skrapelodd!</String>
         <String xml:lang="sv-SE">(C){0}(/C) vann (C){1}(/C) från en skraplott!</String>
+        <String xml:lang="zh-Hant">(C){0}(/C) 贏了 (C){1}(/C) 的樂透!</String>
     </Entry>
 
     <!-- {0} = Drug name (for example: Cocaine)
@@ -198,6 +199,7 @@
         <String xml:lang="lv-LV">Jūs nevarat izmantot ~r~{0} ~s~kad esat {1}</String>
         <String xml:lang="no-NO">Du kan ikke bruke ~r~{0} ~s~når du er {1}</String>
         <String xml:lang="sv-SE">Du kan inte använda ~r~{0} ~s~när du är {1}</String>
+        <String xml:lang="zh-Hant">你不能在進行 {1} 時使用 ~r~{0}~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Player color (for example: ~r~)
@@ -220,6 +222,7 @@
         <String xml:lang="no-NO">(C){0}{1} ({2})(/C) ~s~brukte et ~p~medkit~s~.</String>
         <String xml:lang="sv-SE">(C){0}{1} ({2})(/C) ~s~använde ett ~p~medkit~s~.</String>
         <String xml:lang="fr-FR">(C){0}{1} ({2})(/C) ~s~a utilisé un ~p~kit de soin~s~.</String>
+        <String xml:lang="zh-Hant">(C){0}{1} ({2})(/C) ~s~使用了 ~p~醫療箱~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Player color (for example: ~r~)
@@ -242,6 +245,7 @@
         <String xml:lang="no-NO">(C){0}{1} ({2})(/C) ~s~brukte en ~p~bandasje~s~.</String>
         <String xml:lang="sv-SE">(C){0}{1} ({2})(/C) ~s~använde ett ~p~bandage~s~.</String>
         <String xml:lang="id-ID">(C){0}{1} ({2})(/C) ~s~menggunakan ~p~perban~s~.</String>
+        <String xml:lang="zh-Hant">(C){0}{1} ({2})(/C) ~s~使用了 ~p~繃帶~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152)) -->
@@ -261,6 +265,7 @@
         <String xml:lang="pl-PL">{0} ~s~założył ~p~kamizelkę kuloodporną~s~.</String>
         <String xml:lang="no-NO">{0} ~s~utstyrte en ~p~kroppsrustning~s~.</String>
         <String xml:lang="sv-SE">{0} ~s~utrustade sig med en ~p~kroppsrustning~s~.</String>
+        <String xml:lang="zh-Hant">{0} ~s~穿了一件 ~p~防彈衣~s~.</String>
     </Entry>
 
     <Entry Id="on_fire">
@@ -876,6 +881,7 @@
         <String xml:lang="lv-LV">Jums ir jāgaida ~r~{0} sekundes ~s~pirms cita ~b~{1} ~s~izmantošanas.</String>
         <String xml:lang="no-NO">Du må vente ~r~{0} sekunder ~s~før du bruker en annen ~b~{1}~s~.</String>
         <String xml:lang="sv-SE">Du måste vänta ~r~{0} sekunder ~s~innan du använder en annan ~b~{1}~s~.</String>
+        <String xml:lang="zh-Hant">再用另一個 ~b~{1}~s~ 前請先等待 ~r~{0}~s~ 秒.</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Stijnjw)
@@ -897,6 +903,7 @@
         <String xml:lang="lv-LV">{0} ~s~atrada {1} ~o~ķirbju~s~!</String>
         <String xml:lang="no-NO">{0} ~s~har funnet {1} ~o~gresskar~s~!</String>
         <String xml:lang="sv-SE">{0} ~s~har hittat {1} ~o~pumpor~s~!</String>
+        <String xml:lang="zh-Hant">{0} ~s~找到了 {1} 個~o~南瓜~s~!</String>
     </Entry>
 
     <!-- nullnull{0} = Error code (for example: 123) -->
@@ -916,6 +923,7 @@
         <String xml:lang="no-NO">~r~Advarsel: ~s~Du kunne ikke motta en halloween-godteri på grunn av en feil 0x88-{0}.</String>
         <String xml:lang="sv-SE">~r~Varning: ~s~Du kunde inte ta emot ett halloween godis på grund av ett fel 0x88-{0}.</String>
         <String xml:lang="fr-FR">~r~Avertissement: ~s~Vous n'avez pas pu recevoir un bonbon d'Halloween en raison d'une erreur 0x88-{0}.</String>
+        <String xml:lang="zh-Hant">~r~警告: ~s~你因為 0x88-{0} 錯誤而無法獲得萬聖節糖果.</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Stijnjw)
@@ -1039,6 +1047,7 @@
         <String xml:lang="sv-SE">Du måste ~r~vänta {0} sekunder ~s~innan du köper en annan ~p~{1}~s~.</String>
         <String xml:lang="fr-FR">Vous devez ~r~attendre {0} secondes ~s~avant d'acheter un autre ~p~{1}~s~.</String>
         <String xml:lang="hi-Latn">Aapko ~r~wait karna hoga {0} seconds ~s~wapas purchase karne se pehle ~p~{1}~s~.</String>
+        <String xml:lang="zh-Hant">在購買 ~p~{1}~s~ 前你你得先等 ~r~{0}秒~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount (for example: 1) -->
@@ -1059,6 +1068,7 @@
         <String xml:lang="no-NO">Du har brukt {0} ~p~bandasjer~s~.</String>
         <String xml:lang="sv-SE">Du har använt {0} ~p~bandage~s~.</String>
         <String xml:lang="fr-FR">Vous avez utilisé {0} ~p~bandages~s~.</String>
+        <String xml:lang="zh-Hant">你用了 {0} 個 ~p~繃帶~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Item name (for example: Repair kit) -->
@@ -1079,5 +1089,6 @@
         <String xml:lang="lv-LV">Jūs ~r~nevarat izmantot ~b~{0} ~s~kamēr jūs esat transportlīdzeklī.</String>
         <String xml:lang="no-NO">Du ~r~kan ikke bruke ~s~a ~b~{0} ~s~når du er inne i et kjøretøy.</String>
         <String xml:lang="sv-SE">Du ~r~kan inte använda ~s~en ~b~{0} ~s~när du är inne i ett fordon.</String>
+        <String xml:lang="zh-Hant">你 ~r~不能~s~ 在車內使用 ~b~{0}~s~.</String>
     </Entry>
 </Entries>
