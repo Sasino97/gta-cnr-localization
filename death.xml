@@ -1557,7 +1557,6 @@
     <!-- Keep 911, don't change it to your country's emergency number. -->
     <Entry Id="btn_call_911">
         <String xml:lang="en-US">Call 911</String>
-        <String xml:lang="de-DE">Informiere 911</String>
         <String xml:lang="nl-NL">Bel 911</String>
         <String xml:lang="pl-PL">Zadzwoń na 911</String>
         <String xml:lang="tr-TR">911'i ara</String>
@@ -1575,13 +1574,13 @@
         <String xml:lang="fr-FR">Appeler le 911</String>
         <String xml:lang="it-IT">Chiama il 911</String>
         <String xml:lang="lv-LV">Uzzvanīt 911</String>
+        <String xml:lang="de-DE">Informiere 911</String>
         <String xml:lang="no-NO">Ring 911</String>
     </Entry>
 
     <!-- Recommended frequency on respawn -->
     <Entry Id="tune_sugg_freq">
         <String xml:lang="en-US">Do you want to tune in to the recommended ~b~radio frequency ~s~(~y~{0}~s~)?</String>
-        <String xml:lang="de-DE">Möchtest du die vorgeschlagene ~b~Funk-Frequenz ~s~(~y~{0}~s~) einstellen?</String>
         <String xml:lang="nl-NL">Wil je je radio op de aangeraden ~b~radio frequentie ~s~(~y~{0}~s~) instellen?</String>
         <String xml:lang="pl-PL">Czy chcesz połączyć się z rekomendowaną ~b~częstotliwością radiową ~s~(~y~{0}~s~)?</String>
         <String xml:lang="tr-TR">Tavsiye edilen seviyede olmasını ister misin ~b~radyo frekansının ~s~(~y~{0}~s~)?</String>
@@ -1598,6 +1597,7 @@
         <String xml:lang="hi-Latn">Kya aap hamare recommended ~b~radio frequency ~s~(~y~{0}~s~) Tune in karna chahte hain?</String>
         <String xml:lang="fr-FR">Voulez-vous vous brancher à la ~b~fréquence radio ~s~recommandée (~y~{0}~s~)?</String>
         <String xml:lang="lv-LV">Vai vēlaties pārslēgties uz ieteicamo ~b~radio frekvenci ~s~(~y~{0}~s~)?</String>
+        <String xml:lang="de-DE">Möchtest du die vorgeschlagene ~b~Funk-Frequenz ~s~(~y~{0}~s~) einstellen?</String>
         <String xml:lang="no-NO">Vil du stille inn på den anbefalte ~b~radiofrekvensen ~s~(~y~{0}~s~)?</String>
     </Entry>
 
@@ -1608,7 +1608,6 @@
     -->
     <Entry Id="kill_msg">
         <String xml:lang="en-US">{0} ~s~killed {1} ~s~{2} {3}</String>
-        <String xml:lang="de-DE">{0} ~s~hat {1} ~s~{2} {3} getötet</String>
         <String xml:lang="nl-NL">{0} ~s~heeft {1} ~s~vermoord {2} {3}</String>
         <String xml:lang="pl-PL">{0} ~s~zabił {1} ~s~{2} {3}</String>
         <String xml:lang="tr-TR">{0}~s~, {3} {1}~s~'i {2} ~s~öldürdü</String>
@@ -1625,13 +1624,13 @@
         <String xml:lang="it-IT">{0} ~s~ha ucciso {1} ~s~{2} {3}</String>
         <String xml:lang="zh-Hant">{0} 因為 {3} 以 {2} 把 {1} 殺死了~s~</String>
         <String xml:lang="lv-LV">{0} ~s~nogalināja {1} ~s~{2} {3}</String>
+        <String xml:lang="de-DE">{0} ~s~hat {1} ~s~{2} {3} getötet</String>
         <String xml:lang="no-NO">{0} ~s~drepte {1} {2} {3}</String>
     </Entry>
 
     <!-- nullnull{0} = Job name (for example: Police Officer) -->
     <Entry Id="menu_revenge_invalid_job">
         <String xml:lang="en-US">~r~You can't take revenge on other players as a {0}.</String>
-        <String xml:lang="de-DE">~r~Du darfst keine Rache an anderen Spielern als {0} nehmen.</String>
         <String xml:lang="nl-NL">~r~Je mag geen wraak nemen op andere spelers als een {0}</String>
         <String xml:lang="pl-PL">~r~Nie możesz zabijać w zemście jako {0}.</String>
         <String xml:lang="tr-TR">~r~{0} Olarak diğer oyunculardan intikam alamazsın.</String>
@@ -1647,6 +1646,7 @@
         <String xml:lang="hi-Latn">~r~Aap revenge nahi le sakte doosre players se, jab aap {0} ho.</String>
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas vous venger d'autres joueurs en tant que {0}.</String>
         <String xml:lang="lv-LV">~r~Jūs nevarat nogalināt citus spēlētājus atriebībā kad esat {0}.</String>
+        <String xml:lang="de-DE">~r~Du darfst keine Rache an anderen Spielern als {0} nehmen.</String>
         <String xml:lang="cs-CZ">~r~Nemůžeš se pomstít jiným hráčům jako {0}.</String>
         <String xml:lang="no-NO">~r~Du kan ikke ta hevn på andre spillere som en {0}.</String>
         <String xml:lang="sv-SE">~r~Du kan inte hämnas på andra spelare som en {0}.</String>
