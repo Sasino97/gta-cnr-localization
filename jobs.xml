@@ -214,6 +214,7 @@
         <String xml:lang="pt-BR">~r~Você já está na fila de espera para este trabalho.</String>
         <String xml:lang="hi-Latn">~r~Aap pehle se hi is job ke queue mein hain.</String>
         <String xml:lang="it-IT">~r~Sei già in coda per questo lavoro.</String>
+        <String xml:lang="pl-PL">~r~Jesteś już w kolejce do tego zadania.</String>
     </Entry>
 
     <Entry Id="stp_offered_service">
@@ -782,6 +783,7 @@
         <String xml:lang="es-ES">Ha obtenido un ~b~{0}~s~!</String>
         <String xml:lang="pt-BR">Você recebeu um ~b~{0}~s~!</String>
         <String xml:lang="sv-SE">Du fick en ~b~{0}~s~!</String>
+        <String xml:lang="pl-PL">Zdobyłeś ~b~{0}~s~!</String>
     </Entry>
 
     <Entry Id="mechanic_dont_have_vehicle_repair">
@@ -838,6 +840,7 @@
         <String xml:lang="ar-001">~r~لا يمكن إصلاح هذا النوع من المركبات هنا!</String>
         <String xml:lang="no-NO">~r~Denne typen kjøretøy kan ikke repareres her!</String>
         <String xml:lang="sv-SE">~r~Den här typen av fordon kan inte repareras här!</String>
+        <String xml:lang="pl-PL">~r~Tego typu pojazdów nie da się tu naprawić!</String>
     </Entry>
 
     <Entry Id="mechanic_cant_change_plate_others">
@@ -875,6 +878,7 @@
         <String xml:lang="es-ES">Su vehículo está siendo ~g~reparado~s~. No ~r~mueva ~s~el vehículo!</String>
         <String xml:lang="pt-BR">Seu veículo está sendo ~g~consertado~s~. Não ~r~mova ~s~o veículo!</String>
         <String xml:lang="sv-SE">Ditt fordon ~g~repareras~s~. Flytta ~r~inte ~s~fordonet!</String>
+        <String xml:lang="pl-PL">Twoj pojazd jest ~g~naprawiany~s~. Nie ~r~ruszaj ~s~pojazdu!</String>
     </Entry>
 
     <Entry Id="mechanic_vehicle_repaired">
@@ -954,6 +958,7 @@
         <String xml:lang="es-ES">~r~La reparación ha sido cancelada.</String>
         <String xml:lang="pt-BR">~r~O conserto foi cancelado</String>
         <String xml:lang="sv-SE">~r~Reparationen har avbrutits.</String>
+        <String xml:lang="pl-PL">~r~Naprawa została zakończona</String>
     </Entry>
 
     <!-- nullnull{0} = Job name (for example: Police Officer) -->
@@ -1427,6 +1432,7 @@
         <String xml:lang="es-ES">Reparación completa</String>
         <String xml:lang="pt-BR">Conserto completo</String>
         <String xml:lang="sv-SE">Fullständig reparation</String>
+        <String xml:lang="pl-PL">Pełna naprawa</String>
     </Entry>
 
     <Entry Id="mechanic_quick_repair">
@@ -1442,6 +1448,7 @@
         <String xml:lang="es-ES">Reparación rápida</String>
         <String xml:lang="pt-BR">Conserto rápido</String>
         <String xml:lang="sv-SE">Snabbfix</String>
+        <String xml:lang="pl-PL">Szybka naprawa</String>
     </Entry>
 
     <Entry Id="mechanic_tire_repair">
@@ -1457,6 +1464,7 @@
         <String xml:lang="es-ES">Reparar neumaticos</String>
         <String xml:lang="pt-BR">Conserto de pneus</String>
         <String xml:lang="sv-SE">Fixa däck</String>
+        <String xml:lang="pl-PL">Napraw opony</String>
     </Entry>
 
     <Entry Id="mechanic_cant_impound_vehicle">
@@ -1532,6 +1540,7 @@
         <String xml:lang="lv-LV">Personalizets numurs</String>
         <String xml:lang="no-NO">Servantplate</String>
         <String xml:lang="sv-SE">Egen registreringsskylt</String>
+        <String xml:lang="pl-PL">Tablica rejestracyjna</String>
     </Entry>
 
     <Entry Id="mechanic_plate_input_text">
@@ -1545,6 +1554,7 @@
         <String xml:lang="no-NO">Skriv inn et bilskilt for dette kjøretøyet.\nAdvarsel: Når du skaffer deg et bilskilt, eier du det bare i gjeldende region (USA eller EU). Når du blir med i en annen region, prøver serveren å overføre den dit, men hvis den allerede er i bruk vil den ikke bli overført.</String>
         <String xml:lang="fr-FR">Entrez une plaque d'immatriculation personnalisée pour ce véhicule.\nAvertissement: quand vous obtenez une plaque d'immatriculation, vous ne la possèdez que dans la région actuelle (US ou EU). Quand vous rejoignez une autre région, le serveur tente de la transférer, mais si elle est déjà utilisée, elle ne sera pas transférée.</String>
         <String xml:lang="sv-SE">Ange en registreringsskylt för det här fordonet.\nVarning: när du skaffar en registreringsskylt äger du den bara i den aktuella regionen (USA eller EU). När du går med i en annan region försöker servern överföra den dit, men om den redan används kommer den inte att överföras.</String>
+        <String xml:lang="pl-PL">Wprowadź tablicę rejestracyjną dla tego pojazdu.\nOstrzeżenie: gdy uzyskasz tablicę rejestracyjną, będziesz jej właścicielem tylko w bieżącym regionie (USA lub UE). Gdy dołączysz do innego regionu, serwer spróbuje ją tam przenieść, jednak jeśli jest już używana, nie zostanie przeniesiona.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_word">
@@ -1621,6 +1631,7 @@
         <String xml:lang="no-NO">~r~Du kan ikke endre bilskiltet til et stjålet kjøretøy.</String>
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas changer la plaque d'immatriculation d'un véhicule volé.</String>
         <String xml:lang="sv-SE">~r~Du kan inte ändra registreringsskylten på ett stulet fordon.</String>
+        <String xml:lang="pl-PL">~r~Nie można zmienić tablicy rejestracyjnej skradzionego pojazdu.</String>
     </Entry>
 
     <Entry Id="mechanic_plate_rented_car">
@@ -1843,6 +1854,7 @@
         <String xml:lang="sv-SE">~y~(C)Påminnelse:(/C) ~s~du kan bara skjuta när det finns ett hot, och du kan inte hjälpa till med ~o~kriminella~s~.</String>
         <String xml:lang="it-IT">~y~(C)Promemoria:(/C) ~s~puoi sparare solo quando c'è una minaccia, e non puoi allearti con i ~o~criminali~s~.</String>
         <String xml:lang="hi-Latn">~y~(C)Reminder:(/C) ~s~Aap sirf tabhi goli chala sakte hain jab koi khatra ho, aur aap ~o~criminals ~s~ke saath milkar kaam nahi kar sakte.</String>
+        <String xml:lang="pl-PL">~y~(C)Przypomnienie:(/C) ~s~możesz strzelać tylko wtedy, gdy istnieje zagrożenie i nie możesz współpracować z ~o~przestępcami~s~.</String>
     </Entry>
 
     <Entry Id="paramedic_revival_fail">
@@ -3390,6 +3402,7 @@
         <String xml:lang="hi-Latn">Jab tak aap aur ~r~target~s~ ek hi ~y~vehicle ~s~mein nahi hote, tab tak aap kisi ko ~o~uncuff ~s~nahi kar sakte.</String>
         <String xml:lang="sv-SE">Du kan inte ~o~lossa handfängslen ~s~när du och ~r~personen ~s~är inte i samma ~y~fordon~s~.</String>
         <String xml:lang="it-IT">Non puoi ~o~liberare~s~ qualcuno quando tu e il ~r~bersaglio~s~ non siete nello stesso ~y~veicolo~s~.</String>
+        <String xml:lang="pl-PL">Nie możesz~o~ rozkuć ~s~kogoś kiedy ty i ~r~gracz ~s~nie jesteście w tym samym ~y~pojeździe~s~.</String>
     </Entry>
 
     <Entry Id="police_giving_ticket">
@@ -3405,6 +3418,7 @@
         <String xml:lang="pt-BR">Você está dando uma multa a {0}.</String>
         <String xml:lang="hi-Latn">Aap {0} ko ek ticket de rahe hain.</String>
         <String xml:lang="sv-SE">Du ger {0} en böter.</String>
+        <String xml:lang="pl-PL">Dajesz {0} mandat.</String>
     </Entry>
 
     <Entry Id="police_giving_ticket_failed">
@@ -3420,6 +3434,7 @@
         <String xml:lang="pt-BR">~r~Você não deu a {0} uma multa.</String>
         <String xml:lang="hi-Latn">~r~Aap {0} ko ticket nahi de paaye.</String>
         <String xml:lang="sv-SE">~r~Du har misslyckats med att ge {0} en böter.</String>
+        <String xml:lang="pl-PL">~r~Nie udało Ci się wystawić mandatu użytkownikowi {0}.</String>
     </Entry>
 
     <Entry Id="police_giving_ticket_succeeded">
@@ -3435,6 +3450,7 @@
         <String xml:lang="pt-BR">Você deu a {0} um ~b~{1} ~s~multa.</String>
         <String xml:lang="hi-Latn">Aapne {0} ko ek ~b~{1} ~s~ticket diya.</String>
         <String xml:lang="sv-SE">Du har gett {0} en ~b~{1} ~s~böter.</String>
+        <String xml:lang="pl-PL">Wlepiłeś {0} ~b~{1} ~s~mandat.</String>
     </Entry>
 
     <Entry Id="police_ticket_menu_title">
@@ -3450,6 +3466,7 @@
         <String xml:lang="pt-BR">Multa</String>
         <String xml:lang="hi-Latn">Ticket</String>
         <String xml:lang="sv-SE">Böter</String>
+        <String xml:lang="pl-PL">Mandat</String>
     </Entry>
 
     <Entry Id="police_ticket_menu_subtitle">
@@ -3465,6 +3482,7 @@
         <String xml:lang="pt-BR">{0} lhe deu uma multa</String>
         <String xml:lang="hi-Latn">{0} ne aapko ek ticket diya</String>
         <String xml:lang="sv-SE">{0} gav dig en böter</String>
+        <String xml:lang="pl-PL">{0} wlepił Ci mandat.</String>
     </Entry>
 
     <Entry Id="police_ticket_pay">
@@ -3480,6 +3498,7 @@
         <String xml:lang="pt-BR">Pagar</String>
         <String xml:lang="hi-Latn">Pay kare</String>
         <String xml:lang="sv-SE">Betala</String>
+        <String xml:lang="pl-PL">Zapłać</String>
     </Entry>
 
     <Entry Id="police_ticket_pay_desc">
@@ -3495,6 +3514,7 @@
         <String xml:lang="pt-BR">Aceite e pague a ~y~multa ~s~agora mesmo com uma ~g~redução de 25%~s~. Se você não tiver fundos suficientes, o valor não pago será adicionado como ~r~dívida~s~.</String>
         <String xml:lang="hi-Latn">Abhi ~y~fine ~s~ko ~g~25% kam karke ~s~chukaye. Agar aapke paas paise nahi hain, toh unpaid amount aapke ~r~debt ~s~mein add ho jayega.</String>
         <String xml:lang="sv-SE">Acceptera och betala ~y~böterna ~s~just nu med ~g~25% reduktion~s~. Om du inte har tillräckligt med pengar kommer det obetalda beloppet att läggas till som ~r~skuld~s~.</String>
+        <String xml:lang="pl-PL">Zaakceptuj i zapłać ~y~grzywnę ~s~już teraz z ~g~25% zniżką~s~. Jeśli nie masz wystarczających środków, niezapłacona kwota zostanie dodana jako ~r~dług~s~.</String>
     </Entry>
 
     <Entry Id="police_ticket_contest">
@@ -3510,6 +3530,7 @@
         <String xml:lang="pt-BR">Concorrente</String>
         <String xml:lang="hi-Latn">Contest kare</String>
         <String xml:lang="sv-SE">Tävla</String>
+        <String xml:lang="pl-PL">Sądź się</String>
     </Entry>
 
     <Entry Id="police_ticket_contest_desc">
@@ -3525,6 +3546,7 @@
         <String xml:lang="pt-BR">Lute contra essa multa no ~b~tribunal~s~. Você tem 30% de chance de ganhar e não pagar nada.</String>
         <String xml:lang="hi-Latn">Iss ticket ko ~b~court ~s~mein contest kare. Aapko 30% chance hai ki aap jeet jayein aur kuch na pay karna pade.</String>
         <String xml:lang="sv-SE">Slåss mot denna biljetten i ~b~domstolen~s~. Du har 30 % chans att vinna och inte betala någonting.</String>
+        <String xml:lang="pl-PL">Walcz z tym mandatem w ~b~sądzie~s~. Masz 30% szans na wygraną i brak konieczności zapłaty.</String>
     </Entry>
 
     <Entry Id="police_ticket_bribe">
@@ -3540,6 +3562,7 @@
         <String xml:lang="pt-BR">~o~Suborno</String>
         <String xml:lang="hi-Latn">~o~Bribe</String>
         <String xml:lang="sv-SE">~o~Muta</String>
+        <String xml:lang="pl-PL">~o~Łapówka</String>
     </Entry>
 
     <Entry Id="police_ticket_bribe_desc">
@@ -3555,6 +3578,7 @@
         <String xml:lang="pt-BR">Tentativa de ~o~subornar ~s~o policial para cancelar a multa. Há um risco significativo de o policial ~r~recusar ~s~o suborno e acusá-lo de um ~o~delito ~s~grave.</String>
         <String xml:lang="hi-Latn">~o~Bribe ~s~karne ki koshish karein officer ko ticket cancel karne ke liye. Officer aapke bribe ko ~r~refuse ~s~karne ke khatre mein hain aur aapko ~o~felony ~s~ke saath charge kar sakte hain.</String>
         <String xml:lang="sv-SE">Försök att ~o~muta ~s~polisen för att avbryta bötern. Det finns en betydande risk som polisen villl ~r~vägra~s~ mutan och anklagar dig för ett ~o~brott~s~.</String>
+        <String xml:lang="pl-PL">Spróbuj dać~o~ łapówkę ~s~dla policjanta aby uniknąć mandatu. Jest znaczące ryzyko że policjant ~r~odmówi ~s~łapówki i oskarży cię o ~o~przestępstwo~s~.</String>
     </Entry>
 
     <Entry Id="police_no_longer_around">
@@ -3758,6 +3782,7 @@
         <String xml:lang="lv-LV">~g~Iesniegt</String>
         <String xml:lang="no-NO">~g~Send inn</String>
         <String xml:lang="sv-SE">~g~Skicka in</String>
+        <String xml:lang="pl-PL">~g~Potwierdź</String>
     </Entry>
 
     <!-- nullnull{0} = Officer's name (for example: Stijnjw)
@@ -4101,6 +4126,7 @@
         <String xml:lang="pt-BR">O ~r~veículo~s~ está em movimento.</String>
         <String xml:lang="hi-Latn">~r~Vehicle ~s~chal rahi hai.</String>
         <String xml:lang="sv-SE">~r~fordonet~s~ rör sig.</String>
+        <String xml:lang="pl-PL">~r~Pojazd~s~ się porusza.</String>
     </Entry>
 
     <Entry Id="police_break_window_success">
@@ -4493,6 +4519,7 @@
         <String xml:lang="sv-SE">Att informera andra ~b~poliser ~s~och ~p~sjukvårdare ~s~om ett pågående kriminell aktivitet på gång</String>
         <String xml:lang="es-ES">Informar a otros ~b~policías ~s~y ~p~paramédicos ~s~de actividades delictivas en curso.</String>
         <String xml:lang="pt-BR">Informar outros ~b~policiais ~s~e ~p~paramédicos ~s~sobre atividades criminosas em andamento.</String>
+        <String xml:lang="pl-PL">By poinformować innych ~b~gliniarzy ~s~i ~p~paramedyków ~s~o aktywności przestępczej która jest w trakcie.</String>
     </Entry>
 
     <Entry Id="police_exam_answer_radio_hush">
@@ -4508,6 +4535,7 @@
         <String xml:lang="sv-SE">Att säga till de andra poliserna att ~r~hålla käften ~s~vid varje gång de rapporterar ett brott</String>
         <String xml:lang="es-ES">Decir a otros policías que se ~r~callen ~s~cada vez que denuncien un delito.</String>
         <String xml:lang="pt-BR">Dizer a outros policiais para se ~r~calarem ~s~toda vez que denunciam um crime.</String>
+        <String xml:lang="pl-PL">Powiedzieć innym policjantom, żeby ~r~zamknęli się ~s~za każdym razem, gdy wzywają wsparcie</String>
     </Entry>
 
     <Entry Id="police_exam_answer_radio_coordinate">
@@ -4523,6 +4551,7 @@
         <String xml:lang="sv-SE">Att samordna och samarbeta med andra ~b~poliser ~s~och ~p~sjukvårdare</String>
         <String xml:lang="es-ES">Para coordinarse y cooperar con otros ~b~policías ~s~y ~p~paramédicos</String>
         <String xml:lang="pt-BR">Coordenar e cooperar com outros ~b~policiais ~s~e ~p~paramédicos</String>
+        <String xml:lang="pl-PL">By wymieniać się informacjami i współpracować z innymi ~b~gliniarzami ~s~i ~p~paramedykami.</String>
     </Entry>
 
     <Entry Id="police_exam_question_suspect_attack">
@@ -4538,6 +4567,7 @@
         <String xml:lang="sv-SE">En ~o~misstänkt ~s~kan attackera och döda en ~b~polis ~s~när</String>
         <String xml:lang="es-ES">Un ~o~sospechoso~s~ puede atacar y matar a un ~b~policía ~s~cuando</String>
         <String xml:lang="pt-BR">Um ~o~suspeito ~s~pode atacar e matar um ~b~policial ~s~quando ele ou ela</String>
+        <String xml:lang="pl-PL">~o~Podejrzany ~s~może zaatakować i zabić ~b~gliniarza ~s~kiedy</String>
     </Entry>
 
     <Entry Id="police_exam_answer_suspect_attack_revenge">
@@ -4553,6 +4583,7 @@
         <String xml:lang="sv-SE">De vill ta ~r~hämnd ~s~på ~b~polisen ~s~för en tidigare negativ handling under samma session</String>
         <String xml:lang="es-ES">Quieren ~r~vengarse~s~ del ~b~policía~s~ por una actuación negativa anterior en la misma sesión</String>
         <String xml:lang="pt-BR">Eles querem se ~r~vingar~s~ do ~b~policial~s~ por um desempenho negativo anterior na mesma sessão.</String>
+        <String xml:lang="pl-PL">Chcą ~r~zemsty ~s~na ~b~policjancie ~s~za wcześniejszą negatywną sytuację podczas tej samej sesji.</String>
     </Entry>
 
     <Entry Id="police_exam_answer_suspect_attack_rescue">
@@ -4566,6 +4597,7 @@
         <String xml:lang="lv-LV">Viņi vēlas glābt ~g~draugu~s~, kuru apcietina vai nogalina ~b~policists</String>
         <String xml:lang="no-NO">De ønsker å redde en ~g~venn ~s~som blir arrestert eller drept av ~b~offiseren</String>
         <String xml:lang="sv-SE">De vill rädda en ~g~vän ~s~som blir arresterad eller dödad av ~b~polisen</String>
+        <String xml:lang="pl-PL">Chcą uratować ~g~kumpla ~s~który został aresztowany, bądź zabity przez ~b~policjanta.</String>
     </Entry>
 
     <Entry Id="police_exam_answer_suspect_attack_rioter">
@@ -4579,6 +4611,7 @@
         <String xml:lang="lv-LV">Viņi vēlas spēlēt lomu kā ~o~nemieru cēlējs~s~, kas ienīst policiju</String>
         <String xml:lang="no-NO">De vil spille rolle som en ~o~opprører ~s~som hater politiet</String>
         <String xml:lang="sv-SE">De vill spela roller som en ~o~bråkare ~s~som hatar polisen</String>
+        <String xml:lang="pl-PL">Chcą odgrywać rolę ~o~awanturnika ~s~który nienawidzi policji</String>
     </Entry>
 
     <Entry Id="police_exam_answer_suspect_attack_robbery">
@@ -4592,6 +4625,7 @@
         <String xml:lang="fr-FR">Il est en train de ~r~braquer ~s~un magasin et le ~b~policier ~s~s'en approche</String>
         <String xml:lang="no-NO">De ~r~raner ~s~en butikk og ~b~offiseren ~s~nærmer seg</String>
         <String xml:lang="sv-SE">De ~r~rånar ~s~en butik och ~b~polisen~s~ närmar sig</String>
+        <String xml:lang="pl-PL">~r~Okradają ~s~sklep i ~b~policjant ~s~się zbliża</String>
     </Entry>
 
     <Entry Id="police_exam_question_mw">
@@ -4606,6 +4640,7 @@
         <String xml:lang="fr-FR">En tant que ~b~policier~s~, vous pouvez tuer un des suspects ~r~les plus recherchés ~s~(rouge)</String>
         <String xml:lang="sv-SE">Som ~b~polis~s~ kan du döda en ~r~mest efterlyst ~s~(röd) misstänkt...</String>
         <String xml:lang="zh-Hant">當你是 ~b~警察 ~s~時, 你可以擊殺被 ~r~五星通緝~s~ 的逃犯...</String>
+        <String xml:lang="pl-PL">Jako ~b~gliniarz~s~, możesz zabić ~r~najbardziej poszukiwanego ~s~(tzn. czerwonego) kryminalistę...</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_fleeing">
@@ -4619,6 +4654,7 @@
         <String xml:lang="fr-FR">Quand il prend la fuite</String>
         <String xml:lang="no-NO">Når de flykter</String>
         <String xml:lang="sv-SE">När de flyr</String>
+        <String xml:lang="pl-PL">Kiedy uciekają</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_surrendering">
@@ -4632,6 +4668,7 @@
         <String xml:lang="lv-LV">Kad viņi padodas uz ceļiem</String>
         <String xml:lang="no-NO">Når de overgir seg på knærne</String>
         <String xml:lang="sv-SE">När de ger upp på knä</String>
+        <String xml:lang="pl-PL">Kiedy poddają się na kolana</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_gun">
@@ -4645,6 +4682,7 @@
         <String xml:lang="no-NO">Når du ser dem holde en pistol</String>
         <String xml:lang="fr-FR">Quand vous le voyez tenir une arme</String>
         <String xml:lang="sv-SE">När du ser dem hålla i en pistol</String>
+        <String xml:lang="pl-PL">Kiedy widzisz ich trzymających broń</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_cuffed">
@@ -4658,6 +4696,7 @@
         <String xml:lang="lv-LV">kad viņi ir apcietināti</String>
         <String xml:lang="no-NO">Når de er i håndjern</String>
         <String xml:lang="sv-SE">När de är handfängslade</String>
+        <String xml:lang="pl-PL">Kiedy są skuci</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_shooting">
@@ -4671,6 +4710,7 @@
         <String xml:lang="fr-FR">Quand il vous tire dessus</String>
         <String xml:lang="no-NO">Når de skyter på deg</String>
         <String xml:lang="sv-SE">När de skjuter på dig</String>
+        <String xml:lang="pl-PL">Kiedy do ciebie strzelają</String>
     </Entry>
 
     <Entry Id="police_exam_error_already_started">
@@ -4684,6 +4724,7 @@
         <String xml:lang="fr-FR">~r~Vous avez déjà commencé un examen.</String>
         <String xml:lang="no-NO">~r~Du er allerede i en eksamen.</String>
         <String xml:lang="sv-SE">~r~Du befinner dig redan i ett prov.</String>
+        <String xml:lang="pl-PL">~r~Jesteś w trakcie egzaminu</String>
     </Entry>
 
     <Entry Id="police_exam_error_cooldown">
@@ -4697,6 +4738,7 @@
         <String xml:lang="no-NO">~r~Du må vente en time mellom eksamensforsøkene.</String>
         <String xml:lang="fr-FR">~r~Vous devez attendre une heure entre chaque tentative d'examen.</String>
         <String xml:lang="sv-SE">~r~Du måste vänta en timme mellan provförsöken.</String>
+        <String xml:lang="pl-PL">~r~Musisz odczekać godzinę pomiędzy kolejnymi podejściami do egzaminu.</String>
     </Entry>
 
     <Entry Id="police_exam_question_menu_title">
@@ -4710,6 +4752,7 @@
         <String xml:lang="lv-LV">Jautājums</String>
         <String xml:lang="no-NO">Spørsmål</String>
         <String xml:lang="sv-SE">Fråga</String>
+        <String xml:lang="pl-PL">Pytanie</String>
     </Entry>
 
     <Entry Id="police_exam_menu_select_all">
@@ -4723,6 +4766,7 @@
         <String xml:lang="fr-FR">~y~(sélectionnez toutes les réponses possibles)</String>
         <String xml:lang="no-NO">~y~(velg alle som passer)</String>
         <String xml:lang="sv-SE">~y~(markera allt som stämmer)</String>
+        <String xml:lang="pl-PL">~y~(zaznacz wszystkie, które mają zastosowanie)</String>
     </Entry>
 
     <Entry Id="police_exam_menu_next_button_text">
@@ -4736,6 +4780,7 @@
         <String xml:lang="lv-LV">~g~Nākamais</String>
         <String xml:lang="no-NO">~g~Neste</String>
         <String xml:lang="sv-SE">~g~Nästa</String>
+        <String xml:lang="pl-PL">~g~Następne</String>
     </Entry>
 
     <Entry Id="police_exam_menu_next_button_description">
@@ -4749,6 +4794,7 @@
         <String xml:lang="fr-FR">~g~Confirmer ~s~et passer à la question suivante (vous ~r~ne pourrez pas ~s~la refaire plus tard).</String>
         <String xml:lang="no-NO">~g~Bekreft ~s~og gå til neste spørsmål (du ~r~kan ikke ~s~se gjennom det senere).</String>
         <String xml:lang="sv-SE">~g~Bekräfta ~s~och gå till nästa fråga (du ~r~kan inte ~s~kolla igenom den senare).</String>
+        <String xml:lang="pl-PL">~g~Potwierdź ~s~i przejdź do następnego pytania (nie ~r~możesz ~s~go później przejrzeć).</String>
     </Entry>
 
     <!-- nullnull{0} = Player's name (for example: Stijnjw)
@@ -4817,6 +4863,7 @@
         <String xml:lang="no-NO">~g~Send inn ~s~eksamenen din til serveren for umiddelbar ~g~automatisert gjennomgang~s~.</String>
         <String xml:lang="fr-FR">~g~Envoyez ~s~votre examen au serveur pour une révision ~g~automatisée immédiate~s~.</String>
         <String xml:lang="sv-SE">~g~Skicka in ~s~ditt prov till servern för omedelbar ~g~automatiserad granskning~s~.</String>
+        <String xml:lang="pl-PL">~g~Prześlij ~s~swój egzamin dla serwera w celu natychmiastowej ~g~automatycznej kontroli~s~.</String>
     </Entry>
 
     <Entry Id="police_exam_confirm_title">
@@ -4830,6 +4877,7 @@
         <String xml:lang="lv-LV">~y~Policijas eksāmens</String>
         <String xml:lang="no-NO">~y~ Politieksamen</String>
         <String xml:lang="sv-SE">~y~Polisprov</String>
+        <String xml:lang="pl-PL">~y~Egzamin policyjny</String>
     </Entry>
 
     <Entry Id="police_exam_menu_title">
@@ -4843,6 +4891,7 @@
         <String xml:lang="lv-LV">~y~Policijas eksāmens</String>
         <String xml:lang="no-NO">~y~ Politieksamen</String>
         <String xml:lang="sv-SE">~y~Polisprov</String>
+        <String xml:lang="pl-PL">~y~Egzamin policyjny</String>
     </Entry>
 
     <Entry Id="police_exam_extremely_wrong_answer">
@@ -4856,6 +4905,7 @@
         <String xml:lang="no-NO">~r~Du valgte et ekstremt feil svar. Du bør lese reglene før du prøver å bli politi.</String>
         <String xml:lang="fr-FR">~r~Vous avez choisi une très mauvaise réponse. Vous feriez mieux d'aller lire le règlement avant de tenter de devenir policier.</String>
         <String xml:lang="sv-SE">~r~Du valde ett extremt fel svar. Du bör läsa reglerna innan du försöker bli polis.</String>
+        <String xml:lang="pl-PL">~r~Wybrałeś bardzo złą odpowiedź. Lepiej przeczytaj zasady, zanim spróbujesz zostać policjantem.</String>
     </Entry>
 
     <Entry Id="police_exam_terminate_title">
