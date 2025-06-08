@@ -126,6 +126,7 @@
         <String xml:lang="de-DE">Speichere deinen aktuellen Job-Fortschritt und werde ein {0}.</String>
         <String xml:lang="it-IT">Salva i progressi del tuo lavoro attuale e diventa un {0}.</String>
         <String xml:lang="id-ID">Simpan progres pekerjaan anda saat ini dan menjadi {0}.</String>
+         <String xml:lang="sv-SE">Spara ditt nuvarande jobb framsteg och bli en {0}.</String>
         <String xml:lang="sv-SE">Spara ditt nuvarande jobbs framsteg och bli en {0}.</String>
         <String xml:lang="lv-LV">Saglabājiet jūsu pašreizējo darba progresu un kļūstiet par {0}.</String>
         <String xml:lang="ar-001">احفظ تقدمك الوظيفي الحالي وكن {0}</String>
@@ -154,11 +155,100 @@
         <String xml:lang="id-ID">Anda harus berada di ~r~level {0} ~s~untuk dapat bekerja sebagai seorang ~p~{1}~s~.</String>
         <String xml:lang="tr-TR">~p~{1}~s~ olabilmek için en az ~r~seviye {0} ~s~olmaslınız.</String>
         <String xml:lang="hi-Latn">Aapko kamse kam ~r~level {0} ~s~hona chahiye ~p~{1} ~s~banne ke liye.</String>
-        <String xml:lang="lv-LV">Jums ir jābūt vismaz ~r~{0}. līmenim~s~, lai kļūtu par ~p~{1}~s~.</String>
-        <String xml:lang="fr-FR">Vous devez être au moins ~r~niveau {0} ~s~pour devenir ~p~{1}~s~.</String>
-        <String xml:lang="sv-SE">Du måste minst vara ~r~nivå {0} ~s~för att bli en ~p~{1}~s~.</String>
-        <String xml:lang="it-IT">Devi essere almeno ~r~livello {0} ~s~per diventare un ~p~{1}~s~.</String>
-        <String xml:lang="no-NO">Du må være minst ~r~nivå {0} ~s~for å bli en ~p~{1}~s~.</String>
+    </Entry>
+
+    <!-- {0} = Job name -->
+    <Entry Id="jobs_banned">
+        <String xml:lang="en-US">You are temporarily ~r~banned~s~ from the {0} job.</String>
+        <String xml:lang="nl-NL">Je bent tijdelijk ~r~verbannen~s~ van de {0} baan.</String>
+        <String xml:lang="fr-FR">Tu es temporairement ~r~banni~s~ du travail {0}.</String>
+        <String xml:lang="hi-Latn">Aap temporarily ~r~banned ~s~ho {0} ~s~job se.</String>
+        <String xml:lang="de-DE">Du wurdest temporär vom {0}-Job ~r~gebannt~s~.</String>
+        <String xml:lang="it-IT">Sei temporaneamente ~r~bannato~s~ dal lavoro di {0}.</String>
+        <String xml:lang="id-ID">Kamu ~r~terbanned~s~ sementara dari pekerjaan {0}.</String>
+    </Entry>
+
+    <!-- {0} = Job name -->
+    <Entry Id="jobs_wanted_level">
+        <String xml:lang="en-US">You cannot become a {0} when you are ~o~wanted~s~.</String>
+        <String xml:lang="nl-NL">Je kan geen {0} worden wanneer je ~o~gezocht~s~ wordt.</String>
+        <String xml:lang="fr-FR">Tu ne peux pas devenir un {0} quand tu es ~o~recherché~s~.</String>
+        <String xml:lang="hi-Latn">Aap {0} nahi bann sakte jab aap ~o~wanted ~s~ho.</String>
+        <String xml:lang="de-DE">Du kannst kein {0} werden, wenn du ~o~gesucht~s~ wirst.</String>
+        <String xml:lang="it-IT">Non puoi diventare un {0} quando sei ~o~ricercato~s~.</String>
+        <String xml:lang="id-ID">Kamu tidak bisa menjadi {0} ketika kamu ~o~buron~s~.</String>
+    </Entry>
+
+    <!-- {0} = Job name -->
+    <Entry Id="jobs_test_required">
+        <String xml:lang="en-US">You need to pass the ~y~Exam~s~ to become a {0}.</String>
+        <String xml:lang="nl-NL">Je moet het ~y~Examen~s~ halen om een {0} te worden.</String>
+        <String xml:lang="fr-FR">Tu dois réussir l'~y~examen~s~ pour devenir un {0}.</String>
+        <String xml:lang="hi-Latn">Aapko ~y~Exam ~s~pass karna hoga {0} banne ke liye.</String>
+        <String xml:lang="de-DE">Du musst die ~y~Prüfung~s~ bestehen, um ein {0} zu werden.</String>
+        <String xml:lang="it-IT">Devi superare l'~y~Esame~s~ per diventare un {0}.</String>
+        <String xml:lang="id-ID">Kamu harus lulus dari ~y~Ujian~s~ untuk bisa menjadi {0}.</String>
+    </Entry>
+
+    <!-- {0} = Item name -->
+    <!-- {1} = Job name -->
+    <Entry Id="jobs_license_required">
+        <String xml:lang="en-US">You need a ~b~{0}~s~ to become a {1}.</String>
+        <String xml:lang="nl-NL">Je hebt een ~b~{0}~s~ nodig om een {1} te worden.</String>
+        <String xml:lang="de-DE">Du benötigst ~b~{0}~s~ um ein {1} zu werden.</String>
+    </Entry>
+
+    <!-- {0} = Job name -->
+    <!-- {1} = Percentage -->
+    <Entry Id="jobs_player_limit">
+        <String xml:lang="en-US">You can't become a {0} because the {1}% player limit has been reached.</String>
+        <String xml:lang="nl-NL">Je kan geen {0} worden omdat het limiet van {1}% is bereikt.</String>
+        <String xml:lang="fr-FR">Tu ne peux pas devenir un {0} car la limite de joueurs de {1}% a été atteinte.</String>
+        <String xml:lang="hi-Latn">Aap {0} nahi bann sakte kyuki {1}% player ki limit lag chuki hai.</String>
+        <String xml:lang="de-DE">Du kannst kein {0} werden, da das {1}% Spielerlimit erreicht wurde.</String>
+        <String xml:lang="it-IT">Non puoi diventare un {0} perché è stato raggiunto il limite del {1}% di giocatori.</String>
+        <String xml:lang="id-ID">Kamu tidak bisa menjadi {0} karena batas {1}% pemain yang bekerja itu telah terpenuhi.</String>
+    </Entry>
+
+    <!-- {0} = required playtime -->
+    <!-- {1} = Job name -->
+    <Entry Id="jobs_min_playtime">
+        <String xml:lang="en-US">You need to play for ~r~{0} hours ~s~to become a ~p~{1}~s~.</String>
+        <String xml:lang="nl-NL">Je moet minimaal ~r~{0} uur ~s~speeltijd hebben om een ~p~{1}~s~ te kunnen worden.</String>
+        <String xml:lang="fr-FR">Tu dois jouer ~r~{0} heures ~s~pour devenir ~p~{1}~s~.</String>
+        <String xml:lang="it-IT">Devi giocare per almeno ~r~{0} ore ~s~per diventare un ~p~{1}~s~.</String>
+        <String xml:lang="de-DE">Du musst mindestens ~r~{0} Stunden ~s~spielen, um ein ~p~{1}~s~ zu werden.</String>
+        <String xml:lang="pl-PL">Musisz grać conajmniej ~r~{0} godzin ~s~by zostać ~p~{1}~s~.</String>
+        <String xml:lang="zh-Hant">您需要玩 ~r~{0} 小時~s~ 才能成為 ~p~{1}~s~.</String>
+        <String xml:lang="zh-Hans">您需要玩 ~r~{0} 小时~s~ 才能成为 ~p~{1}~s~.</String>
+        <String xml:lang="es-ES">Necesitas jugar durante ~r~{0} horas ~s~para convertirte en ~p~{1}~s~.</String>
+        <String xml:lang="pt-BR">Você precisa jogar por ~r~{0} horas ~s~para ser ~p~{1}~s~.</String>
+        <String xml:lang="ar-001">أنت بحاجة للعب لمدة ~r~{0} ساعات ~s~لتصبح ~p~{1}~s~.</String>
+        <String xml:lang="th-TH">คุณต้องเล่นเป็นเวลา ~r~{0} ชั่วโมง ~s~เพื่อที่จะกลายเป็น ~p~{1}~s~</String>
+        <String xml:lang="vi-VN">Bạn cần phải chơi đủ ~r~{0} hours ~s~để trở thành ~p~{1}~s~.</String>
+        <String xml:lang="id-ID">Anda harus bermain selama ~r~{0} jam ~s~sebelum dapat bekerja sebagai seorang ~p~{1}~s~.</String>
+        <String xml:lang="tr-TR">~p~{1}~s~ olabilmek için ~r~{0} saat ~s~oynamanız gerekiyor.</String>
+        <String xml:lang="hi-Latn">Aapko aur ~r~{0} hours ~s~khelna hoga ~p~{1} ~s~banne ke liye.</String>
+    </Entry>
+
+    <!-- {0} = Job name -->
+    <Entry Id="jobs_switch_cooldown">
+        <String xml:lang="en-US">You need to ~r~wait ~s~before becoming a ~p~{0} ~s~again.</String>
+        <String xml:lang="nl-NL">Je moet ~r~wachten ~s~voordat je weer een ~p~{0} ~s~kan worden.</String>
+        <String xml:lang="fr-FR">Tu dois ~r~attendre ~s~avant de redevenir ~p~{0}~s~.</String>
+        <String xml:lang="it-IT">Devi ~r~aspettare ~s~prima di diventare un ~p~{0} ~s~nuovamente.</String>
+        <String xml:lang="de-DE">Du musst ~r~warten~s~, bevor du erneut ein ~p~{0} ~s~werden kannst. </String>
+        <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~zanim zostaniesz ~p~{0}em ~s~ponownie.</String>
+        <String xml:lang="zh-Hant">你需要 ~r~等待 ~s~才能 ~s~再次成為 ~p~{0}~s~.</String>
+        <String xml:lang="zh-Hans">你需要 ~r~等待 ~s~才能 ~s~再次成为 ~p~{0}~s~.</String>
+        <String xml:lang="es-ES">Debes ~r~esperar ~s~antes de convertirte en ~p~{0} ~s~nuevamente.</String>
+        <String xml:lang="pt-BR">Você deve ~r~esperar ~s~alguns segundos antes transformarse nuevamente em ~p~{0}~s~.</String>
+        <String xml:lang="ar-001">أنت بحاجة إلى ~r~الأنتظار ~s~قبل أن تصبح ~p~{0} ~s~مرة أخرى.</String>
+        <String xml:lang="th-TH">คุณต้อง ~r~รอ ~s~ก่อนที่จะกลายเป็น ~p~{0} ~s~อีกครั้ง</String>
+        <String xml:lang="vi-VN">Bạn cần phải ~r~đoi ~s~trước khi trở thành một ~p~{0} ~s~một lần nữa.</String>
+        <String xml:lang="id-ID">Anda harus ~r~menunggu ~s~sebelum dapat bekerja sebagai ~p~{0} ~s~lagi.</String>
+        <String xml:lang="tr-TR">Tekrar ~p~{0} ~s~olmadan önce ~r~beklemeniz ~s~gerekiyor.</String>
+        <String xml:lang="hi-Latn">Aapko ~r~wait ~s~karna hoga dobara ~p~{0} ~s~banne se pehle.</String>
     </Entry>
 
     <Entry Id="jobs_cant_change_while_on_mission">
@@ -192,10 +282,6 @@
         <String xml:lang="id-ID">~r~Anda tidak dapat mengganti pekerjaan anda didalam kendaraan.</String>
         <String xml:lang="tr-TR">~r~Araçta olduğunuz sürece mesleğinizi değiştiremezsiniz.</String>
         <String xml:lang="hi-Latn">~r~Aap job change nahi kar sakte jab ek ek vehicle ke andar ho.</String>
-        <String xml:lang="sv-SE">~r~Du kan inte ändra ditt job när du är i en bil.</String>
-        <String xml:lang="lv-LV">~r~Jūs nevarat mainīt darbu, kamēr atrodaties transportlīdzeklī.</String>
-        <String xml:lang="fr-FR">~r~Vous ne pouvez pas changer de métier lorsque vous êtes dans un véhicule.</String>
-        <String xml:lang="no-NO">~r~Du kan ikke bytte jobb mens du er i et kjøretøy.</String>
     </Entry>
 
     <Entry Id="jobs_cant_become_when_wanted">
@@ -214,10 +300,26 @@
         <String xml:lang="id-ID">Anda tidak dapat menjadi ~p~{0} ~s~ketika anda sedang ~o~buron~s~.</String>
         <String xml:lang="tr-TR">~o~Aranıyorken ~p~{0} ~s~olamazsınız.</String>
         <String xml:lang="hi-Latn">Aap ek a ~p~{0} ~s~nahi bann sakte jab aap pe ~o~wanted ~s~ho.</String>
-        <String xml:lang="sv-SE">Du kan inte bli en ~p~{0} ~s~när du är ~o~efterlyst~s~.</String>
-        <String xml:lang="lv-LV">Jūs nevarat kļūt par ~p~{0}~s~, kamēr jūs ~o~meklē~s~ policija.</String>
-        <String xml:lang="no-NO">Du kan ikke bli en ~p~{0} ~s~når du er ~o~wanted~s~.</String>
-        <String xml:lang="fr-FR">Vous ne pouvez pas devenir un ~p~{0} ~s~quand vous êtes ~o~recherché~s~.</String>
+    </Entry>
+
+    <!-- Add ban reason & time left here? -->
+    <Entry Id="jobs_temp_banned">
+        <String xml:lang="en-US">You are temporarily ~r~banned ~s~from the ~p~{0} ~s~job.</String>
+        <String xml:lang="nl-NL">Je bent tijdelijk ~r~verbannen ~s~van de ~p~{0} ~s~baan.</String>
+        <String xml:lang="fr-FR">Tu es temporairement ~r~banni ~s~du travail ~p~{0}~s~.</String>
+        <String xml:lang="it-IT">Sei temporaneamente ~r~bannato ~s~dal lavoro di ~p~{0}~s~.</String>
+        <String xml:lang="es-ES">Está ~r~baneado temporalmente ~s~del trabajo de ~p~{0}~s~.</String>
+        <String xml:lang="zh-Hant">你已被 ~p~{0} ~s~職業暫時 ~r~封禁~s~.</String>
+        <String xml:lang="zh-Hans">你已被 ~p~{0} ~s~职业暂时 ~r~封禁~s~.</String>
+        <String xml:lang="pl-PL">Jesteś tymczasowo ~r~zbanowany ~s~z pracy ~p~{0}~s~.</String>
+        <String xml:lang="pt-BR">Você esta temporariamente ~r~banido ~s~do ~p~{0} ~s~trabalho.</String>
+        <String xml:lang="de-DE">Du bist temporär vom ~p~{0}~s~-Job ~r~gebannt~s~.</String>
+        <String xml:lang="ar-001">لقد تم ~r~حظرك مؤقتًا ~s~من ~p~{0} ~s~وظيفة.</String>
+        <String xml:lang="th-TH">คุณถูก ~r~แบน ~s~จาก ~p~{0} ~s~งานชั่วคราว</String>
+        <String xml:lang="vi-VN">Bạn đang tạm thời ~r~bị cấm ~s~khỏi nghề ~p~{0}~s~.</String>
+        <String xml:lang="id-ID">Anda untuk sementara ~r~diban ~s~dari pekerjaan ~p~{0}~s~.</String>
+        <String xml:lang="tr-TR">Geçici olarak ~p~{0} ~s~mesleğinden ~r~yasaklandınız~s~.</String>
+        <String xml:lang="hi-Latn">Aap temporarily ~r~banned ~s~ho ~p~{0} ~s~job se.</String>
     </Entry>
 
     <Entry Id="jobs_gps_set_call">
@@ -235,15 +337,12 @@
         <String xml:lang="id-ID">~b~GPS ~s~anda telah diaturkan untuk ke lokasi ~y~panggilan~s~.</String>
         <String xml:lang="tr-TR">~b~GPS~s~'niz seçilen ~y~çağrının ~s~konumuna ayarlandı.</String>
         <String xml:lang="hi-Latn">Aapke ~b~GPS ~s~ki location set kar diya gaya hai aapki selected ~y~call ~s~pe.</String>
-        <String xml:lang="sv-SE">Din ~b~GPS ~s~har fastställs till den platsen du valde på ~y~samtalet~s~.</String>
-        <String xml:lang="lv-LV">Jūsu ~b~GPS~s~ tika iestatīts uz atlasītā ~y~zvana~s~ atrašanās vietu.</String>
-        <String xml:lang="no-NO">Din ~b~GPS ~s~er blitt satt til plasseringen til de valgte ~y~anropene~s~.</String>
-        <String xml:lang="fr-FR">Votre ~b~GPS ~s~a été réglé sur l'emplacement de l'~y~appel~s~ sélectionné.</String>
     </Entry>
 
     <Entry Id="jobs_ban_info">
         <String xml:lang="en-US">Ban reason: ~r~{0}~s~. Expires ~y~{1}~s~.</String>
         <String xml:lang="nl-NL">Ban reden: ~r~{0}~s~. Verloopt ~y~{1}~s~.</String>
+        <String xml:lang="de-DE">Bangrund: ~r~{0}~s~. Läuft ab: ~y~{1}~s~.</String>       
         <String xml:lang="de-DE">Bangrund: ~r~{0}~s~. Läuft ab: ~y~{1}~s~.</String>
         <String xml:lang="sv-SE">Ban anledning: ~r~{0}~s~. utgår ~y~{1}~s~.</String>
         <String xml:lang="lv-LV">Bloķējuma iemesls: ~r~{0}~s~. Beigsies ~y~{1}~s~.</String>
@@ -343,9 +442,47 @@
         <String xml:lang="id-ID">Anda telah menawarkan ~y~jasa anda ~s~kepada {0}~s~.</String>
         <String xml:lang="tr-TR">{0}'ya ~y~hizmetlerinizi ~s~sundunuz.</String>
         <String xml:lang="hi-Latn">Aapne offer kari apni ~y~services ~s~to {0}~s~.</String>
-        <String xml:lang="sv-SE">Du offrade dina ~y~tjänster ~s~till {0}~s~.</String>
-        <String xml:lang="lv-LV">Jūs piedāvājāt savus ~y~pakalpojumus~s~ {0}~s~.</String>
-        <String xml:lang="no-NO">Du har tilbudt ~y~tjenestene dine til {0}~s~.</String>
+    </Entry>
+
+
+    <!-- {0} = Player -->
+    <!-- {1} = Hotkey -->
+    <Entry Id="stp_player_offered_service">
+        <String xml:lang="en-US">{0} ~s~has offered you ~y~their services~s~. {1} to view their menu.</String>
+        <String xml:lang="nl-NL">{0} ~s~heeft ~y~zijn diensten~s~ aangeboden. {1} om hun menu te bekijken.</String>
+        <String xml:lang="fr-FR">{0} ~s~t'a proposé ~y~ses services~s~. {1} pour consulter son menu.</String>
+        <String xml:lang="it-IT">{0} ~s~ti ha offerto i ~y~suoi servizi~s~. {1} per visualizzare il suo menu.</String>
+        <String xml:lang="pl-PL">{0} ~s~zaoferował ci ~y~swoje usługi~s~. {1} by zobaczyć ich menu.</String>
+        <String xml:lang="es-ES">{0} ~s~te a ofrecido sus ~y~servicos~s~. {1} para ver su menú.</String>
+        <String xml:lang="pt-BR">{0} ~s~ofereceu seus ~y~serviços~s~ a você. {1} para ver seu menu.</String>
+        <String xml:lang="de-DE">{0} ~s~hat dir ~y~seinen Service~s~ angeboten. {1} um das Menü zu sehen.</String>
+        <String xml:lang="ar-001">{0} ~s~عرض عليك ~y~خدماته~s~. {1} لعرض القائمة الخاصة به.</String>
+        <String xml:lang="th-TH">{0} ~s~ได้เสนอ ~y~บริการของเขา~s~ ให้กับคุณ {1} เพื่อดูเมนูของพวกเขา</String>
+        <String xml:lang="zh-Hant">{0} ~s~將 ~y~他的服務項目~s~. {1} 以查看他的服務項目.</String>
+        <String xml:lang="vi-VN">{0} ~s~đã đề nghị bạn ~y~dịch vụ của họ~s~. {1} để xem menu của họ.</String>
+        <String xml:lang="id-ID">{0} ~s~telah menawarkan anda ~y~jasa mereka~s~. {1} untuk melihat menu mereka.</String>
+        <String xml:lang="tr-TR">{0} ~s~size ~y~hizmetlerini ~s~sundu. Menüyü görmek için {1} tuşuna basın.</String>
+        <String xml:lang="hi-Latn">{0} ~s~ne offer kiya aapko ~y~unke services~s~. {1} dabaye menu view karne ke liye.</String>
+    </Entry>
+
+    <!-- {0} = Job -->
+    <!-- {1} = Limit in percentage -->
+    <Entry Id="stp_player_limit">
+        <String xml:lang="en-US">You can't become a ~b~{0} ~s~because the {1}% player limit has been reached.</String>
+        <String xml:lang="nl-NL">Je kan geen ~b~{0} ~s~worden omdat het {1}% speler limiet bereikt is.</String>
+        <String xml:lang="fr-FR">Tu ne peux pas devenir ~b~{0} ~s~car la limite de {1}% de joueurs a été atteinte.</String>
+        <String xml:lang="it-IT">Non puoi diventare un ~b~{0} ~s~perché è stato raggiunto il limite del {1}% dei giocatori.</String>
+        <String xml:lang="pl-PL">Nie możesz zostać ~b~{0} ~s~bo {1}% limit graczy został osiągnięty</String>
+        <String xml:lang="es-ES">No puedes convertirte en ~b~{0} ~s~porque se llego al limite del {1}% de jugadores.</String>
+        <String xml:lang="pt-BR">Você não pode se tornar um ~b~{0} ~s~porque o limite de {1}% de jogadores foi atingido..</String>
+        <String xml:lang="de-DE">Du kannst kein ~b~{0} ~s~werden, da das {1}% Spielerlimit erreicht wurde.</String>
+        <String xml:lang="ar-001">لا يمكنك أن تصبح ~b~{0} ~s~لأنه تم الوصول إلى الحد الأقصى لعدد اللاعبين بنسبة {1}%.</String>
+        <String xml:lang="th-TH">คุณไม่สามารถเป็น ~b~{0} ~s~ได้เนื่องจากมีผู้เล่นถึงขีดจำกัด {1}% แล้ว</String>
+        <String xml:lang="zh-Hant">你不能成為 ~b~{0} ~s~因為有超過 {1}% 的玩家選取了該職業</String>
+        <String xml:lang="vi-VN">Bạn không thể trở thành một ~b~{0} ~s~bởi vì {1}% đã chọn nghề này.</String>
+        <String xml:lang="id-ID">Anda tidak dapat menjadi ~b~{0} ~s~karena limit {1}% pemain sudah tercapai.</String>
+        <String xml:lang="tr-TR">{1}% oyuncu sınırına ulaşıldığı için ~b~{0} ~s~olamazsınız.</String>
+        <String xml:lang="hi-Latn">Aap ~b~{0} ~s~nahi bann sakte kyuki {1}% player limit pehle hi lag chuki hai.</String>
     </Entry>
 
     <Entry Id="stp_too_far">
@@ -363,10 +500,6 @@
         <String xml:lang="id-ID">{0} ~r~terlalu jauh ~s~dari anda.</String>
         <String xml:lang="tr-TR">{0} sizden ~r~çok uzakta~s~.</String>
         <String xml:lang="hi-Latn">{0} aapse ~r~kaafi door ~s~hain.</String>
-        <String xml:lang="sv-SE">{0} är ~r~för långt bort ~s~ifrån dig.</String>
-        <String xml:lang="lv-LV">{0} ir ~r~pārāk tālu~s~ no jums.</String>
-        <String xml:lang="fr-FR">{0} est ~r~trop loin ~s~de vous.</String>
-        <String xml:lang="no-NO">{0} er ~r~for langt ~s~fra deg.</String>
     </Entry>
 
     <Entry Id="stp_need_vehicle_to_purchase">
@@ -384,10 +517,6 @@
         <String xml:lang="id-ID">~r~Anda membutuhkan sebuah mobil untuk membeli jasa ini.</String>
         <String xml:lang="tr-TR">~r~Bu hizmeti satın almak için bir araca ihtiyacınız var.</String>
         <String xml:lang="hi-Latn">~r~Aapko ek gaadi chahiye hogi yeh service purchase karne ke liye.</String>
-        <String xml:lang="sv-SE">~r~Du behöver ett fordon för att köpa denna tjänsten.</String>
-        <String xml:lang="lv-LV">~r~Lai iegādātos šo pakalpojumu, jums ir nepieciešams transportlīdzeklis.</String>
-        <String xml:lang="no-NO">~r~Du trenger et kjøretøy for å kjøpe denne tjenesten.</String>
-        <String xml:lang="fr-FR">~r~Vous avez besoin d'un véhicule pour acheter ce service.</String>
     </Entry>
 
     <Entry Id="stp_cant_purchase_service_while_moving">
@@ -405,10 +534,6 @@
         <String xml:lang="id-ID">~r~Anda tidak dapat membeli jasa ini ketika sedang dalam kendaraan yang bergerak.</String>
         <String xml:lang="tr-TR">~r~Araç hareket ederken bu hizmeti satın alamzsınız.</String>
         <String xml:lang="hi-Latn">~r~Aap purchase nahi kar sakte jab aapki gaadi move kar rahi ho.</String>
-        <String xml:lang="sv-SE">~r~Du kan inte köpa denna tjänst när fordonet rör på sig.</String>
-        <String xml:lang="lv-LV">~r~Jūs nevarat iegādāties šo pakalpojumu, kamēr jūsu transportlīdzeklis pārvietojas.</String>
-        <String xml:lang="fr-FR">~r~Vous ne pouvez pas acheter ce service quand le véhicule est en mouvement.</String>
-        <String xml:lang="no-NO">~r~Du kan ikke kjøpe denne tjenesten når kjøretøyet er i bevegelse.</String>
     </Entry>
 
     <Entry Id="stp_cant_purchase_when_seller_in_vehicle">
