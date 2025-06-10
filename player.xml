@@ -904,7 +904,6 @@
     <Entry Id="successfully_activated_item">
         <String xml:lang="en-US">You successfully activated your ~p~{0}~s~.</String>
         <String xml:lang="nl-NL">Je hebt met succes je ~p~{0}~s~ gebruikt.</String>
-        <String xml:lang="pl-PL">Pomyślnie aktywowałeś swój ~p~{0}~s~.</String>
         <String xml:lang="es-ES">Ha activado correctamente su~p~{0}~s~.</String>
         <String xml:lang="pt-BR">Você ativou com sucesso seu~p~{0}~s~.</String>
         <String xml:lang="ar-001">لقد قمت بتنشيط ~p~{0}~s~ بنجاح.</String>
@@ -916,6 +915,7 @@
         <String xml:lang="hi-Latn">Tumne apna ~p~{0} ~s~successfully activate kar liya hai.</String>
         <String xml:lang="lv-LV">Jūs veiksmīgi aktivizējat savu ~p~{0}~s~.</String>
         <String xml:lang="de-DE">Du hast dein ~p~{0} ~s~erfolgreich aktiviert.</String>
+        <String xml:lang="pl-PL">Pomyślnie aktywowałeś swój ~p~{0}~s~.</String>
         <String xml:lang="no-NO">Du har aktivert ~p~{0}~s~.</String>
         <String xml:lang="sv-SE">Du har lyckats aktivera din ~p~{0}~s~.</String>
     </Entry>
@@ -924,7 +924,6 @@
     <Entry Id="username_new_already_taken">
         <String xml:lang="en-US">The name ~b~{0} ~s~is already taken.</String>
         <String xml:lang="nl-NL">De naam ~b~{0} ~s~is al in gebruik.</String>
-        <String xml:lang="pl-PL">Nick ~b~{0} ~s~jest już zajęty.</String>
         <String xml:lang="es-ES">El nombre ~b~{0} ~s~ya está tomado.</String>
         <String xml:lang="pt-BR">O nome ~b~{0} ~s~já está sendo usado.</String>
         <String xml:lang="ar-001">الاسم ~b~{0} ~s~مأخوذ بالفعل.</String>
@@ -936,6 +935,7 @@
         <String xml:lang="hi-Latn">~b~{0} ~s~Naam pehle se hi liya gaya hai.</String>
         <String xml:lang="lv-LV">Lietotājvārds ~b~{0} ~s~jau ir aizņemts.</String>
         <String xml:lang="de-DE">Der Name ~b~{0} ~s~wird bereits verwendet.</String>
+        <String xml:lang="pl-PL">Nick ~b~{0} ~s~jest już zajęty.</String>
         <String xml:lang="no-NO">Navnet ~b~{0} ~s~er allerede tatt.</String>
         <String xml:lang="sv-SE">Namnet ~b~{0} ~s~är redan taget</String>
     </Entry>
@@ -944,11 +944,11 @@
     <Entry Id="staff_name_change">
         <String xml:lang="en-US">~g~Staff members ~s~must contact an admin or manager for a ~b~name change~s~. The admin must make sure that the in-game name matches the name on {0} and is not obscene or vulgar.</String>
         <String xml:lang="nl-NL">~g~Staffleden ~s~moeten een admin of manager contacteren voor een ~b~naamswijziging~s~. De admin moet checken dat de in-game name matcht met de naam op {0} en dat de naam niet onzedelijk of grof is.</String>
-        <String xml:lang="pl-PL">~g~Staff musi skontaktować się z adminem lub managerem dla ~b~zmiany nicku~s~. Admin musi się upewnić że nick w grze jest taki sam jak w {0} i nie jest wulgarny lub nieodpowiedni.</String>
         <String xml:lang="es-ES">~g~Los miembros del staff ~s~deben contactar con un admin o manager para un ~b~cambio de nombre~s~. El administrador debe asegurarse de que el nombre en el juego coincide con el nombre en {0} y no es obsceno o vulgar.</String>
         <String xml:lang="pt-BR">~g~Os membros da equipe ~s~devem entrar em contato com um administrador ou gerente para uma ~b~alteração de nome~s~. O administrador deve garantir que o nome no jogo corresponda ao nome em {0} e não seja obsceno ou vulgar.</String>
         <String xml:lang="ar-001">~g~يجب على أعضاء فريق العمل ~s~الاتصال بالمسؤول أو المدير لإجراء ~b~تغيير الاسم~s~. يجب على المسؤول التأكد من أن الاسم الموجود في اللعبة يطابق الاسم الموجود في {0} وأنه ليس فاحشًا أو مبتذلاً.</String>
         <String xml:lang="it-IT">~g~I membri dello staff ~s~devono contattare un admin o un manager per ~b~cambiare il nome~s~. L'admin deve assicurarsi che il nome in gioco corrisponda al nome su {0} e che non sia osceno o volgare.</String>
+        <String xml:lang="pl-PL">~g~Staff musi skontaktować się z adminem lub managerem dla ~b~zmiany nicku~s~. Admin musi się upewnić że nick w grze jest taki sam jak w {0} i nie jest wulgarny lub nieodpowiedni.</String>
         <String xml:lang="th-TH">~g~พนักงาน ~s~ต้องติดต่อผู้ดูแลระบบหรือผู้จัดการเพื่อขอ ~b~การเปลี่ยนชื่อ~s~ ผู้ดูแลระบบต้องตรวจสอบให้แน่ใจว่าชื่อในเกมตรงกับชื่อบน {0} และไม่ลามกอนาจารหรือหยาบคาย</String>
         <String xml:lang="id-ID">~g~Member staf ~s~harus menghubungi admin atau manager untuk ~b~mengganti nama~s~. Admin harus memastikan bahwa nama didalam game sama dengan {0} dan tidak menggunakan kata kata cabul dan vulgar.</String>
         <String xml:lang="tr-TR">~g~Staff üyeleri ~b~isim değişikliği ~s~için bir admin ya da manager ile iletişime geçmelidir. Admin oyun içi ismin {0} ismiyle eşleştiğinden, müstehcen veya kaba olmadığından emin olmalıdır.</String>
@@ -967,7 +967,6 @@
     <Entry Id="successfully_transferred">
         <String xml:lang="en-US">You successfully transferred {0} ~p~{1} ~s~to ~y~{2}~s~.</String>
         <String xml:lang="nl-NL">Je hebt succesvol {0} ~p~{1} ~s~overgedragen aan ~y~{2}~s~.</String>
-        <String xml:lang="pl-PL">Pomyślnie przekazałeś {0} ~p~{1} ~s~do ~y~{2}~s~.</String>
         <String xml:lang="es-ES">Has transferido con éxito {0} ~p~{1} ~s~a ~y~{2}~s~.</String>
         <String xml:lang="pt-BR">Você transferiu com sucesso {0} ~p~{1} ~s~a ~y~{2}~s~.</String>
         <String xml:lang="ar-001">لقد نجحت في نقل {0} ~p~{1} ~s~إلى ~y~{2}~s~.</String>
@@ -979,6 +978,7 @@
         <String xml:lang="hi-Latn">Aapne successfully {0} ~p~{1} ~y~{2} ~s~ko transfer kar diya hai.</String>
         <String xml:lang="lv-LV">Jūs veiksmīgi nodevat {0} ~p~{1} ~y~{2}~s~.</String>
         <String xml:lang="de-DE">Du hast {0} ~p~{1} ~s~erfolgreich zu ~y~{2}~s~ übertragen.</String>
+        <String xml:lang="pl-PL">Pomyślnie przekazałeś {0} ~p~{1} ~s~do ~y~{2}~s~.</String>
         <String xml:lang="no-NO">Du har overført {0} ~p~{1} ~s~til ~y~{2}~s~.</String>
         <String xml:lang="sv-SE">Du har överfört {0} ~p~{1} ~s~till ~y~{2}~s~.</String>
         <String xml:lang="zh-Hant">你成功把 {0} 個 ~p~{1} ~s~給了 ~y~{2}~s~.</String>
@@ -2079,7 +2079,6 @@
     <Entry Id="you_gave_currency">
         <String xml:lang="en-US">You gave {0} ~r~{1}~s~.</String>
         <String xml:lang="nl-NL">Je geeft {0} ~r~{1}~s~.</String>
-        <String xml:lang="pl-PL">Przekazałeś {0} ~r~{1}~s~.</String>
         <String xml:lang="es-ES">Le diste a {0} ~r~{1}~s~.</String>
         <String xml:lang="pt-BR">Você deu a {0} ~r~{1}~s~.</String>
         <String xml:lang="ar-001">لقد أعطيت {0} ~r~{1}~s~.</String>
@@ -2091,6 +2090,7 @@
         <String xml:lang="hi-Latn">Aapne {0} ko ~r~{1} ~s~diya.</String>
         <String xml:lang="lv-LV">Jūs iedevat {0} ~r~{1}~s~.</String>
         <String xml:lang="de-DE">Du hast {0} ~r~{1}~s~ gegeben.</String>
+        <String xml:lang="pl-PL">Przekazałeś {0} ~r~{1}~s~.</String>
         <String xml:lang="no-NO">Du ga {0} ~r~{1}~s~.</String>
         <String xml:lang="sv-SE">Du gav {0} ~r~{1}~s~.</String>
         <String xml:lang="zh-Hant">你把 ~r~{1}~s~ 給了 {0}.</String>
@@ -2117,7 +2117,6 @@
     <Entry Id="vehicle_on_the_way">
         <String xml:lang="en-US">Your ~b~{0} ~s~is on the way! Please, stay in the area.</String>
         <String xml:lang="nl-NL">Je ~b~{0} ~s~is onderweg! Blijf in de buurt, aub.</String>
-        <String xml:lang="pl-PL">Twój ~b~{0} ~s~jest w drodze! Proszę, pozostań w okolicy.</String>
         <String xml:lang="es-ES">¡Su ~b~{0} ~s~está en camino! Por favor, quédate en la zona.</String>
         <String xml:lang="pt-BR">Seu ~b~{0} ~s~está a caminho! Por favor, permaneça na área.</String>
         <String xml:lang="ar-001">~b~{0} ~s~الخاص بك في الطريق! من فضلك، البقاء في المنطقة.</String>
@@ -2129,6 +2128,7 @@
         <String xml:lang="hi-Latn">Aapki ~b~{0} ~s~raste mein hai! Please, area mein hi raho.</String>
         <String xml:lang="lv-LV">Jūsu ~b~{0} ~s~ir ceļā! Lūdzu, palieciet zonā.</String>
         <String xml:lang="de-DE">Dein ~b~{0} ~s~ist auf dem Weg! Bitte bleibe in der Umgebung.</String>
+        <String xml:lang="pl-PL">Twój ~b~{0} ~s~jest w drodze! Proszę, pozostań w okolicy.</String>
         <String xml:lang="no-NO">Din ~b~{0} ~s~er på vei! Vær så snill, bli i området.</String>
         <String xml:lang="sv-SE">Din ~b~{0} ~s~är på väg! Snälla, stanna i området.</String>
         <String xml:lang="zh-Hant">你的 ~b~{0} ~s~正在來的路上! 請待在叫車範圍附近.</String>
@@ -2138,7 +2138,6 @@
     <Entry Id="cant_get_delivered_as_job">
         <String xml:lang="en-US">~r~You can't get this vehicle delivered as a ~s~{0}~r~!</String>
         <String xml:lang="nl-NL">~r~Je kan dit voertuig niet laten bezorgen als een ~s~{0}~r~!</String>
-        <String xml:lang="pl-PL">~r~Nie możesz zlecić dostarczenia tego pojazdu jako ~s~{0}~r~!</String>
         <String xml:lang="es-ES">~r~Usted no puede conseguir este vehículo entregado como un ~s~{0}~r~!</String>
         <String xml:lang="pt-BR">~r~Você não pode receber esse veículo como um ~s~{0}~r~!</String>
         <String xml:lang="ar-001">~r~لا يمكنك تسليم هذه السيارة كـ ~s~{0}~r~!</String>
@@ -2149,6 +2148,7 @@
         <String xml:lang="it-IT">~r~Non puoi ricevere la consegna di questo veicolo come ~s~{0}~r~!</String>
         <String xml:lang="hi-Latn">~r~Aap ye vehicle deliver nahi karwa sakte jab aap ek ~s~{0} ~r~ho!</String>
         <String xml:lang="de-DE">~r~Du kannst dieses Fahrzeug nicht als ~s~{0}~r~ geliefert bekommen!</String>
+        <String xml:lang="pl-PL">~r~Nie możesz zlecić dostarczenia tego pojazdu jako ~s~{0}~r~!</String>
         <String xml:lang="sv-SE">~r~Du kan inte få det här fordonet levererat som en ~s~{0}~r~!</String>
         <String xml:lang="no-NO">~r~Du kan ikke få dette kjøretøyet levert som en ~s~{0}~r~!</String>
         <String xml:lang="zh-Hant">~r~你無法在是 ~s~{0}~r~ 時將該車輛送達!</String>
@@ -2176,7 +2176,6 @@
     <Entry Id="unable_to_download_vehicle_model">
         <String xml:lang="en-US">Unable to download the ~y~vehicle model~s~. Retrying ({0})...</String>
         <String xml:lang="nl-NL">Kan het ~y~voertuig model~s~ niet downloaden. Opnieuw proberen ({0})...</String>
-        <String xml:lang="pl-PL">Nie udało się pobrać ~y~modelu pojazdu~s~. Ponawianie ({0})...</String>
         <String xml:lang="es-ES">No se han podido descargar los modelos de los ~y~vehículos~s~. Reintentando ({0})...</String>
         <String xml:lang="pt-BR">Não foi possível fazer o download dos modelos do ~y~veículos~s~. Nova tentativa ({0})...</String>
         <String xml:lang="ar-001">غير قادر على تنزيل ~y~طراز السيارة~s~. جارٍ إعادة المحاولة ({0})...</String>
@@ -2187,6 +2186,7 @@
         <String xml:lang="it-IT">Impossibile scaricare il ~y~modello del veicolo~s~. Sto riprovando ({0})...</String>
         <String xml:lang="lv-LV">Nesanāca lejupielādēt ~y~transportlīdzekļa modeli~s~. Mēģina vēlreiz ({0})...</String>
         <String xml:lang="de-DE">Dieses ~y~Fahrzeug-Modell~s~ kann nicht geladen werden. Erneuter Versuch ({0})...</String>
+        <String xml:lang="pl-PL">Nie udało się pobrać ~y~modelu pojazdu~s~. Ponawianie ({0})...</String>
         <String xml:lang="sv-SE">Det går inte att ladda ner ~y~fordonsmodellen~s~. Försöker igen ({0})...</String>
         <String xml:lang="no-NO">Kan ikke laste ned ~y~kjøretøysmodellen~s~. Prøver på nytt ({0})...</String>
         <String xml:lang="hi-Latn">Kisi karan se ~y~vehicle model ~s~download nahi ho raha. Retry kar rahe hai ({0})...</String>
@@ -2197,7 +2197,6 @@
     <Entry Id="overdosed_need_medic">
         <String xml:lang="en-US">You ~r~overdosed ~s~{0} and you need ~p~medical attention~s~.</String>
         <String xml:lang="nl-NL">Je hebt een ~r~overdosis ~s~{0} genomen en je hebt ~p~medische hulp~s~ nodig.</String>
-        <String xml:lang="pl-PL">~r~Przedawkowałeś ~s~{0} i potrzebujesz ~p~pomocy medycznej~s~.</String>
         <String xml:lang="es-ES">Usted tiene ~r~sobredosis ~s~{0} y necesita ~p~atención médica~s~.</String>
         <String xml:lang="pt-BR">Você teve uma ~r~overdose de ~s~{0} e precisa de ~p~atenção médica~s~.</String>
         <String xml:lang="ar-001">لقد ~r~تناولت جرعة زائدة من ~s~{0} وتحتاج إلى ~p~رعاية طبية~s~.</String>
@@ -2209,6 +2208,7 @@
         <String xml:lang="hi-Latn">Aap {0} ~r~zarurat se zyada ~s~use kar liye ho aur aapko ~p~medical attention ~s~ki zarurat hai.</String>
         <String xml:lang="lv-LV">Jūs ~r~pārdozējāties ~s~{0} un jums ir vajadzīga ~p~medicīniskā palīdzība~s~.</String>
         <String xml:lang="de-DE">Du erleidest eine ~r~Überdosis ~s~{0} und du benötigst ~p~medizinische Versorgung~s~.</String>
+        <String xml:lang="pl-PL">~r~Przedawkowałeś ~s~{0} i potrzebujesz ~p~pomocy medycznej~s~.</String>
         <String xml:lang="no-NO">Du ~r~overdoserte ~s~{0} og du trenger ~p~medisinsk hjelp~s~.</String>
         <String xml:lang="sv-SE">Du ~r~överdoserade ~s~{0} och du behöver ~p~läkarvård~s~.</String>
         <String xml:lang="zh-Hant">你嗑太多 {0} 導致 ~r~用藥過量~s~. 你現在需要 ~p~醫療照護~s~.</String>
@@ -3602,7 +3602,6 @@
     <Entry Id="service_unlinked">
         <String xml:lang="en-US">You ~g~successfully ~s~unlinked {0} from your account.</String>
         <String xml:lang="nl-NL">Je hebt ~g~succesvol ~s~{0} verwijderd van je account.</String>
-        <String xml:lang="pl-PL">~g~Udało ci się ~s~odpiąć {0} od twojego konta.</String>
         <String xml:lang="es-ES">Has ~g~desvinculado ~s~con éxito {0} de tu cuenta.</String>
         <String xml:lang="pt-BR">Você ~g~desvinculou ~s~com sucesso {0} de sua conta.</String>
         <String xml:lang="ar-001">لقد ~g~نجحت في ~s~إلغاء ربط {0} بحسابك.</String>
@@ -3613,6 +3612,7 @@
         <String xml:lang="fr-FR">Vous avez ~g~réussi ~s~à dissocier {0} de votre compte.</String>
         <String xml:lang="lv-LV">Jūs ~g~veiksmīgi ~s~atsaistījāt {0} no jūsu konta.</String>
         <String xml:lang="de-DE">Du hast die {0}-Verknüpfung ~g~erfolgreich ~s~von deinem Account aufgehoben.</String>
+        <String xml:lang="pl-PL">~g~Udało ci się ~s~odpiąć {0} od twojego konta.</String>
         <String xml:lang="no-NO">Du ~g~flettet {0} fra kontoen din. ~s~</String>
         <String xml:lang="sv-SE">Du ~g~lykcades ~s~ta bort länken {0} från ditt konto</String>
         <String xml:lang="hi-Latn">Aapne ~g~successfully ~s~apne account se {0} ko unlink kar diya hai.</String>
@@ -3622,7 +3622,6 @@
     <Entry Id="service_account_not_found_restart">
         <String xml:lang="en-US">{0} account not found. Make sure your {0} desktop app is running, then restart FiveM and retry.</String>
         <String xml:lang="nl-NL">{0} account niet gevonden. Zorg ervoor dat de {0} desktop app aan staat, herstart FiveM en probeer opnieuw.</String>
-        <String xml:lang="pl-PL">{0} konto nie znalezione. Upewnij się że aplikacja {0} jest uruchomiona, a potem zrestartuj FiveM i spróbuj ponownie.</String>
         <String xml:lang="es-ES">{0} cuenta no encontrada. Asegúrese de que su aplicación de escritorio {0} se está ejecutando, reinicie FiveM y vuelva a intentarlo.</String>
         <String xml:lang="pt-BR">{0} cuenta no encontrada. Asegúrese de que su aplicación de escritorio {0} se está ejecutando, reinicie FiveM y vuelva a intentarlo.</String>
         <String xml:lang="ar-001">لم يتم العثور على حساب {0}. تأكد من تشغيل التطبيق علي سطح المكتب {0}، ثم أعد تشغيل FiveM وأعد المحاولة.</String>
@@ -3634,6 +3633,7 @@
         <String xml:lang="hi-Latn">{0} account nahi mila. Check kare ki aapka {0} desktop app open hai, phir FiveM restart karke dobara try karo.</String>
         <String xml:lang="lv-LV">{0} konts netika atrasts. Pārliecinieties, ka jūsu {0} datora lietotne darbojas, pēc tam restartējiet FiveM un mēģiniet vēlreiz.</String>
         <String xml:lang="de-DE">{0} Account wurde nicht gefunden. Stelle sicher, dass deine {0} Desktop-App läuft, starte danach FiveM neu und versuche es erneut.</String>
+        <String xml:lang="pl-PL">{0} konto nie znalezione. Upewnij się że aplikacja {0} jest uruchomiona, a potem zrestartuj FiveM i spróbuj ponownie.</String>
         <String xml:lang="no-NO">{0} konto ikke funnet. Kontroller at {0} skrivebordsappen kjører, start FiveM på nytt og prøv på nytt.</String>
         <String xml:lang="sv-SE">{0} konto hittades inte. Se till att din {0}-skrivbordsapp körs, starta sedan om FiveM och försök igen.</String>
     </Entry>
@@ -3642,7 +3642,6 @@
     <Entry Id="player_only_send_at_a_time">
         <String xml:lang="en-US">You can only send ~r~{0} ~s~at a time.</String>
         <String xml:lang="nl-NL">Je kan maar ~r~{0} ~s~tegelijk sturen.</String>
-        <String xml:lang="pl-PL">Możesz tylko wysłać ~r~{0} ~s~na raz.</String>
         <String xml:lang="es-ES">Sólo puede enviar ~r~{0} ~s~a la vez.</String>
         <String xml:lang="pt-BR">Só pode enviar ~r~{0} ~s~de cada vez.</String>
         <String xml:lang="ar-001">يمكنك فقط إرسال ~r~{0} ~s~في المرة الواحدة.</String>
@@ -3653,6 +3652,7 @@
         <String xml:lang="it-IT">Puoi inviarne solo ~r~{0} ~s~alla volta.</String>
         <String xml:lang="lv-LV">Jūs varat sūtīt tikai ~r~{0} ~s~vienā reizē.</String>
         <String xml:lang="de-DE">Du kannst nur ~r~{0} ~s~zur gleichen Zeit senden.</String>
+        <String xml:lang="pl-PL">Możesz tylko wysłać ~r~{0} ~s~na raz.</String>
         <String xml:lang="no-NO">Du kan bare sende ~r~{0} ~s~om gangen.</String>
         <String xml:lang="sv-SE">Du kan bara skicka ~r~{0} ~s~åt gången.</String>
         <String xml:lang="hi-Latn">Aap ek baar mein sirf ~r~{0} ~s~bhej sakte ho.</String>
@@ -3663,10 +3663,10 @@
     <Entry Id="vehicle_recalled">
         <String xml:lang="en-US">{0} ~s~has been officially ~r~recalled ~s~by CnR V. You can sell this vehicle for the ~g~FULL ~s~original price below.</String>
         <String xml:lang="nl-NL">{0} ~s~is officieel ~r~teruggeroepen ~s~door CnR V. Je kan dit voertuig verkopen voor de ~g~VOLLEDIGE ~s~originele prijs hieronder.</String>
-        <String xml:lang="pl-PL">{0} ~s~został ~r~wycofany ~s~przez CnR V. Możesz sprzedać ten pojazd za ~g~PEŁNĄ ~s~oryginalną cenę poniżej.</String>
         <String xml:lang="es-ES">{0} ~s~ha sido oficialmente ~r~retirado ~s~por CnR V. Usted puede vender este vehículo por el precio ~g~COMPLETO ~s~original a continuación.</String>
         <String xml:lang="pt-BR">{0} ~s~foi oficialmente ~r~retirado ~s~pela CnR V. Você pode vender esse veículo pelo preço ~g~COMPLETO ~s~original da seguinte forma.</String>
         <String xml:lang="it-IT">{0} ~s~è stato ufficialmente ~r~richiamato ~s~da CnR V. Puoi vendere questo veicolo per il prezzo ~g~ORIGINALE COMPLETO~s~ qui sotto.</String>
+        <String xml:lang="pl-PL">{0} ~s~został ~r~wycofany ~s~przez CnR V. Możesz sprzedać ten pojazd za ~g~PEŁNĄ ~s~oryginalną cenę poniżej.</String>
         <String xml:lang="ar-001">{0} ~r~تم استدعاء ~s~رسميًا ~s~بواسطة CnR V.يمكنك بيع هذه السيارة ~g~بالسعر الأصلي أدناه~s~.</String>
         <String xml:lang="th-TH">{0} ~s~ได้รับการ ~r~เรียกคืน ~s~อย่างเป็นทางการโดย CnR V คุณสามารถขายรถคันนี้ได้ในราคา ~g~เต็ม ~s~ราคาเดิมด้านล่าง</String>
         <String xml:lang="id-ID">{0} ~s~secara resmi ~r~ditarik kembali ~s~oleh CnR V. Anda dapat menjual kendaraan tersebut dengan ~g~harga penuh ~s~harga asli dibawah.</String>
