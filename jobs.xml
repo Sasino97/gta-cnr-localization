@@ -15,6 +15,7 @@
         <String xml:lang="es-ES">Cambiar a {0}</String>
         <String xml:lang="pt-BR">Mudar para {0}</String>
         <String xml:lang="pl-PL">Przełącz na {0}</String>
+        <String xml:lang="tr-TR">{0} olarak değiştir.</String>
     </Entry>
 
     <Entry Id="jobs_switch_to_description">
@@ -32,6 +33,7 @@
         <String xml:lang="es-ES">Guarda tu progreso laboral actual y conviértete en {0}.</String>
         <String xml:lang="pt-BR">Salve sua progressão no trabalho atual e torne-se um {0}.</String>
         <String xml:lang="pl-PL">Zapisz swoje obecne postępy w pracy i zostań {0}.</String>
+        <String xml:lang="tr-TR">Mevcut iş ilerlemenizi kaydedin ve {0} olun.</String>
     </Entry>
 
     <!-- nullnull{0} = Required level (for example: 7)
@@ -72,6 +74,7 @@
         <String xml:lang="no-NO">~r~Du kan ikke bytte jobb mens du er på oppdrag.</String>
         <String xml:lang="hi-Latn">~r~Aap mission ke dauraan apni job change nahi kar sakte.</String>
         <String xml:lang="pl-PL">~r~Nie możesz zmienić swojej pracy, gdy jesteś na misji.</String>
+        <String xml:lang="tr-TR">~r~Görevdeyken mesleğinizi değiştiremezsiniz.</String>
     </Entry>
 
     <Entry Id="jobs_cant_change_inside_vehicle">
@@ -985,6 +988,7 @@
         <String xml:lang="es-ES">No puedes convertirte en {0} cuando eres ~o~buscado~s~ por la policia.</String>
         <String xml:lang="pt-BR">Você não pode se tornar um {0} quando está sendo ~o~procurado~s~ pela polícia.</String>
         <String xml:lang="pl-PL">Nie możesz zostać {0} kiedy jesteś ~o~poszukiwany~s~.</String>
+        <String xml:lang="tr-TR">~o~Polis peşinizdeyken ~s~varken {0} olamazsınız.</String>
     </Entry>
 
     <!-- nullnull{0} = Job name (for example: Police Officer) -->
@@ -1003,6 +1007,7 @@
         <String xml:lang="es-ES">Para ser {0} hay que aprobar el ~y~examen~s~.</String>
         <String xml:lang="pt-BR">É preciso passar no ~y~exame~s~ para se tornar um {0}.</String>
         <String xml:lang="pl-PL">Musisz ukończyć ~y~egzamin~s~ aby zostać {0}.</String>
+        <String xml:lang="tr-TR">{0} olmak için ~y~Sınav~s~ı geçmeniz gerekiyor.</String>
     </Entry>
 
     <!-- nullnull{0} = Item name 
@@ -1023,6 +1028,7 @@
         <String xml:lang="it-IT">Hai bisogno di un ~b~{0}~s~ per diventare un {1}.</String>
         <String xml:lang="hi-Latn">Aapko {1} banne ke liye ~b~{0} ~s~chahiye.</String>
         <String xml:lang="pl-PL">Potrzebujesz ~b~{0}~s~ by zostać {1}.</String>
+        <String xml:lang="tr-TR">{1} olmak için ~b~{0} ~s~gerekiyor.</String>
     </Entry>
 
     <!-- nullnull{0} = Job name (for example: Police Officer)
@@ -1043,6 +1049,7 @@
         <String xml:lang="es-ES">No puedes convertirte en {0} porque se ha alcanzado el límite del {1}% de jugadores.</String>
         <String xml:lang="pt-BR">Você não pode se tornar um {0} porque o limite de {1}% de jogadores foi atingido.</String>
         <String xml:lang="pl-PL">Nie możesz zostać {0} ponieważ {1}% limit graczy został osiągnięty.</String>
+        <String xml:lang="tr-TR">{1}% oyuncu sınırına ulaşıldığı için {0} olamazsınız.</String>
     </Entry>
 
     <!-- nullnull{0} = Required playtime in hours (for example: 5)
@@ -2095,6 +2102,7 @@
         <String xml:lang="lv-LV">~o~{0}~s~ jau atrodas policijas apcietinājumā.</String>
         <String xml:lang="no-NO">~o~{0} ~s~er allerede i politiets varetekt.</String>
         <String xml:lang="sv-SE">~o~{0} ~s~är redan i polisens förvar.</String>
+        <String xml:lang="tr-TR">~o~{0} ~s~zaten polis memurları tarafından gözaltında.</String>
     </Entry>
 
     <Entry Id="police_not_in_custody">
@@ -2114,6 +2122,7 @@
         <String xml:lang="lv-LV">{0} ~r~nav apcietinājumā!</String>
         <String xml:lang="no-NO">{0} ~r~er ikke i varetekt!</String>
         <String xml:lang="sv-SE">{0} ~r~är inte häktad!</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncu ~r~gözaltında değil!</String>
     </Entry>
 
     <Entry Id="police_holding_you_in_custody">
@@ -2133,6 +2142,7 @@
         <String xml:lang="no-NO">Offiser ~b~{0} ~s~holder deg nå i varetekt.</String>
         <String xml:lang="fr-FR">L'officier ~b~{0} ~s~vous détient maintenant en état d'arrestation.</String>
         <String xml:lang="sv-SE">Polis ~b~{0} ~s~håller dig nu häktad.</String>
+        <String xml:lang="tr-TR">Polis memuru ~b~{0}~s~, şuanda seni gözaltında tutuyor.</String>
     </Entry>
 
     <Entry Id="police_suspect_arrested_by_other">
@@ -2151,6 +2161,7 @@
         <String xml:lang="fr-FR">~r~Ce suspect se fait déjà arrêter par un autre officier de police.</String>
         <String xml:lang="no-NO">~r~Denne mistenkte blir arrestert av en annen politimann.</String>
         <String xml:lang="sv-SE">~r~Den här misstänkte grips av en annan polis.</String>
+        <String xml:lang="tr-TR">~r~Bu şüpheli başka bir polis memuru tarafından tutuklanıyor.</String>
     </Entry>
 
     <Entry Id="police_suspect_already_following_other">
@@ -2170,6 +2181,7 @@
         <String xml:lang="no-NO">Den ~o~mistenkte ~s~følger allerede etter en annen offiser.</String>
         <String xml:lang="fr-FR">Le ~o~suspect ~s~suit déjà un autre officier.</String>
         <String xml:lang="sv-SE">Den ~o~misstänkte ~s~följer redan efter en annan polis.</String>
+        <String xml:lang="tr-TR">~o~Şüpheli ~s~zaten başka bir polis memurunu takip ediyor.</String>
     </Entry>
 
     <Entry Id="police_cuffing_you">
@@ -2188,6 +2200,7 @@
         <String xml:lang="fr-FR">L'officier {0} vous menotte.{1}</String>
         <String xml:lang="no-NO">Offiser {0} legger håndjern på deg.{1}</String>
         <String xml:lang="sv-SE">Polis {0} handfängslar dig.{1}</String>
+        <String xml:lang="tr-TR">Polis memuru {0}, sizi kelepçeliyor.{1}</String>
     </Entry>
 
     <Entry Id="police_cuffed_you">
@@ -2207,6 +2220,7 @@
         <String xml:lang="fr-FR">L'officier {0} vous a menotté.</String>
         <String xml:lang="no-NO">Offiser {0} har lagt deg i håndjern.</String>
         <String xml:lang="sv-SE">Polis {0} har handfängslat dig</String>
+        <String xml:lang="tr-TR">Polis memuru {0}, sizi kelepçeledi.</String>
     </Entry>
 
     <Entry Id="police_failed_to_cuff_you">
@@ -2226,6 +2240,7 @@
         <String xml:lang="fr-FR">L'officier {0} n'a pas réussi à vous menotter.</String>
         <String xml:lang="no-NO">Tjenestemann {0} har ikke klart å håndjerne deg.</String>
         <String xml:lang="sv-SE">Polis {0} har misslyckats med att handfängsla dig.</String>
+        <String xml:lang="tr-TR">Polis memuru {0}, sizi kelepçelemekte başarısız oldu.</String>
     </Entry>
 
     <!-- nullnull{0} = Seconds needed for the repair (for example: 2) -->
@@ -2244,6 +2259,7 @@
         <String xml:lang="sv-SE">Byt ut ditt fordons däck. Tid: ~b~{0} sekunder~s~.</String>
         <String xml:lang="zh-Hant">換輪胎. 用時: ~b~{0}秒~s~.</String>
         <String xml:lang="pl-PL">Wymień opony w pojeździe. Czas: ~b~{0} sekund~s~.</String>
+        <String xml:lang="tr-TR">Aracınızın lastiklerini yenileyin. Süre: ~b~{0} saniye~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Hotkey (for example: Y) -->
@@ -2441,6 +2457,7 @@
         <String xml:lang="pl-PL">Medyk {0} ~s~jest na miejscu wypadku!</String>
         <String xml:lang="no-NO">ambulansepersonell {0} ~s~er på stedet!</String>
         <String xml:lang="sv-SE">Sjukvårdare {0} ~s~är på plats!</String>
+        <String xml:lang="tr-TR">Sağlık Görevlisi {0} ~s~olay yerinde!</String>
     </Entry>
 
     <!-- nullnull{0} = Patient (for example: Sasino) -->
@@ -2461,6 +2478,7 @@
         <String xml:lang="pl-PL">~p~Uleczyłeś ~s~{0}.</String>
         <String xml:lang="no-NO">Du ~p~helbredt ~s~{0}.</String>
         <String xml:lang="sv-SE">Du ~p~läkte ~s~{0}.</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncuyu ~p~iyileştirdiniz~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount of players (for example: 523) -->
@@ -2481,6 +2499,7 @@
         <String xml:lang="sv-SE">Du ~p~läkte ~s~{0} spelare.</String>
         <String xml:lang="no-NO">Du ~p~helbredt ~s~{0} spillere.</String>
         <String xml:lang="lv-LV">Jūs ~p~sadziedinājāt~s~ {0} spēlētājus.</String>
+        <String xml:lang="tr-TR">{0} oyuncuyu ~p~iyileştirdiniz~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Sasino) -->
@@ -2501,6 +2520,7 @@
         <String xml:lang="pl-PL">~p~Ocuciłeś ~s~{0}!</String>
         <String xml:lang="no-NO">Du ~p~gjenopplivet ~s~{0}!</String>
         <String xml:lang="sv-SE">Du ~p~återupplivade ~s~{0}!</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncuyu ~p~hayata döndürdünüz~s~!</String>
     </Entry>
 
     <!-- nullnull{0} = Target (for example: Sasino) -->
@@ -2588,6 +2608,7 @@
         <String xml:lang="pl-PL">Oficer {0} ~r~skonfiskował ~s~{1} ~s~od ciebie.</String>
         <String xml:lang="no-NO">Offiser {0} har ~r~konfiskert ~s~{1} fra deg.</String>
         <String xml:lang="sv-SE">Polisen {0} har ~r~konfiskerat ~s~{1} ~s~från dig.</String>
+        <String xml:lang="tr-TR">Polis memuru {0}, ~r~{1} ~s~bu eşyalarınıza el koydu.</String>
     </Entry>
 
     <!-- nullnull{0} = Officer (for example: Stijnjw) -->
@@ -2608,6 +2629,7 @@
         <String xml:lang="no-NO">Tjenestemann {0} har svart på anropet.</String>
         <String xml:lang="fr-FR">L'officier {0} a répondu à l'appel.</String>
         <String xml:lang="sv-SE">Polisen {0} har svarat på samtalet.</String>
+        <String xml:lang="tr-TR">Polis memuru {0} çağrıya yanıt verdi.</String>
     </Entry>
 
     <!-- nullnull{0} = Officer's name (for example: Stijnjw)
@@ -2631,6 +2653,7 @@
         <String xml:lang="pl-PL">{0} przyjął ~g~{2} ~s~łapówki {1} ale się nią nie podzielił.</String>
         <String xml:lang="no-NO">{0} godtok {1}s ~g~{2} ~s~bestikkelse, men delte den ikke.</String>
         <String xml:lang="sv-SE">{0} accepterade {1}s ~g~{2} ~s~muta men delade den inte.</String>
+        <String xml:lang="tr-TR">{0}, {1} isimli oyuncunun ~g~{2} ~s~rüşvetini kabul etti ama polis memurlarıyla paylaşmadı.</String>
     </Entry>
 
     <!-- nullnull{0} = Officer's name (for example: Stijnjw)
@@ -2653,6 +2676,7 @@
         <String xml:lang="no-NO">{0} godtok {1}s bestikkelse og delte den med nærliggende offiserer.</String>
         <String xml:lang="sv-SE">{0} accepterade {1}s muta och delade den med nära poliser.</String>
         <String xml:lang="fr-FR">{0} a accepté le pot-de-vin de {1} et l'a partagé avec les officiers à proximité.</String>
+        <String xml:lang="tr-TR">{0}, {1} isimli oyuncunun rüşvetini kabul etti ve çevredeki polis memurlarıyla paylaştı.</String>
     </Entry>
 
     <!-- nullnull{0} = Officer's name (for example: Stijnjw)
@@ -2675,6 +2699,7 @@
         <String xml:lang="no-NO">Tjenestemann {0} holder allerede {1} i varetekt.</String>
         <String xml:lang="sv-SE">Polisen {0} håller redan {1} i förvar.</String>
         <String xml:lang="fr-FR">L'officier {0} a déjà procédé à l'arrestation de {1}.</String>
+        <String xml:lang="tr-TR">Polis memuru {0}, zaten {1} isimli oyuncuyu gözaltında tutuyor.</String>
     </Entry>
 
     <Entry Id="police_uncuffing_you">
@@ -2694,6 +2719,7 @@
         <String xml:lang="no-NO">Offiser {0} ~s~løser håndjernene på deg.</String>
         <String xml:lang="fr-FR">L'officier {0} ~s~vous démenotte.</String>
         <String xml:lang="sv-SE">Polis {0} ~s~håller på att lossa dig.</String>
+        <String xml:lang="tr-TR">Polis memuru {0}~s~, kelepçenizi çıkartıyor.</String>
     </Entry>
 
     <Entry Id="police_uncuffed_you">
@@ -2713,6 +2739,7 @@
         <String xml:lang="fr-FR">L'officier {0} ~s~vous a démenotté.</String>
         <String xml:lang="no-NO">Offiser {0} ~s~utløste deg.</String>
         <String xml:lang="sv-SE">Polis {0} ~s~tog bort handbojorna</String>
+        <String xml:lang="tr-TR">Polis memuru {0}~s~, kelepçenizi çıkarttı</String>
     </Entry>
 
     <Entry Id="police_ordered_you_get_vehicle">
@@ -2732,6 +2759,7 @@
         <String xml:lang="fr-FR">Les ~b~officiers de police ~s~ont ordonné que vous montiez dans le ~b~véhicule~s~.</String>
         <String xml:lang="no-NO">~b~ politibetjentene ~s~beordret deg til å sette deg inn i ~b~bilen~s~.</String>
         <String xml:lang="sv-SE">~b~Poliserna ~s~beordrade dig att sätta dig i ~b~fordonet~s~.</String>
+        <String xml:lang="tr-TR">~b~Polis memurları~s~, ~b~araca ~s~binmenizi emretti.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_you_get_vehicle">
@@ -2751,6 +2779,7 @@
         <String xml:lang="fr-FR">~b~L'officier {0} ~s~vous a ordonné de monter dans le ~b~véhicule~s~!</String>
         <String xml:lang="no-NO">~b~Betjent {0} ~s~beordret deg til å sette deg inn i ~b~kjøretøyet~s~!</String>
         <String xml:lang="sv-SE">~b~Polis {0} ~s~beordrade dig att sätta dig i ~b~fordonet~s~!</String>
+        <String xml:lang="tr-TR">~b~Polis memuru {0}~s~, ~b~araca ~s~binmenizi emretti!</String>
     </Entry>
 
     <Entry Id="police_you_ordered_suspect_get_vehicle">
@@ -2770,6 +2799,7 @@
         <String xml:lang="no-NO">Du beordret ~o~{0} ~s~å gå inn i ~b~kjøretøyet~s~.</String>
         <String xml:lang="fr-FR">Vous avez demandé à ~o~{0} ~s~d'entrer dans votre ~b~véhicule~s~.</String>
         <String xml:lang="sv-SE">Du beordrade ~o~{0} ~s~att gå in i ditt ~b~fordon~s~.</String>
+        <String xml:lang="tr-TR">~o~{0} ~s~isimli oyuncuya ~b~araca ~s~binmesini emrettiniz.</String>
     </Entry>
 
     <Entry Id="police_you_ordered_suspect_exit_vehicle">
@@ -2789,6 +2819,7 @@
         <String xml:lang="fr-FR">Vous avez ordonné à ~o~{0} ~s~de sortir du véhicule.</String>
         <String xml:lang="no-NO">Du beordret ~o~{0} ~s~å gå ut av kjøretøyet.</String>
         <String xml:lang="sv-SE">Du beordrade ~o~{0} ~s~att lämna fordonet.</String>
+        <String xml:lang="tr-TR">~o~{0} ~s~isimli oyuncuya araçtan inmesini emrettiniz.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_you_exit_vehicle">
@@ -2808,6 +2839,7 @@
         <String xml:lang="no-NO">~b~Betjent {0} ~s~beordret deg til å forlate ~b~kjøretøyet~s~.</String>
         <String xml:lang="fr-FR">~b~L'officier {0} ~s~vous a ordonné de sortir du ~b~véhicule~s~.</String>
         <String xml:lang="sv-SE">~b~Polisen {0} ~s~beordrade dig att gå ut ifrån ~b~fordonet~s~.</String>
+        <String xml:lang="tr-TR">~b~Polis memuru {0}~s~, ~b~araçtan ~s~çıkmanızı emretti.</String>
     </Entry>
 
     <Entry Id="police_suspect_already_in_vehicle">
@@ -2827,6 +2859,7 @@
         <String xml:lang="lv-LV">~o~Aizdomās turamais~s~ jau atrodas transportlīdzeklī.</String>
         <String xml:lang="no-NO">Den ~o~mistenkte ~s~er allerede i et kjøretøy.</String>
         <String xml:lang="sv-SE">Den ~o~misstänkte ~s~är redan i ett fordon.</String>
+        <String xml:lang="tr-TR">~o~Şüpheli ~s~zaten aracın içinde.</String>
     </Entry>
 
     <Entry Id="police_suspect_not_in_vehicle">
@@ -2846,6 +2879,7 @@
         <String xml:lang="lv-LV">~o~Aizdomās turamais~s~ neatrodas transportlīdzeklī.</String>
         <String xml:lang="no-NO">Den ~o~mistenkte~s~ befinner seg ikke i et kjøretøy.</String>
         <String xml:lang="sv-SE">Den ~o~misstänkte ~s~är inte i ett fordon.</String>
+        <String xml:lang="tr-TR">~o~Şüpheli ~s~araçta değil.</String>
     </Entry>
 
     <Entry Id="police_player_surrender_warn">
@@ -2865,6 +2899,7 @@
         <String xml:lang="fr-FR">{0} ~s~se rend! ~r~Ne tirez pas.</String>
         <String xml:lang="no-NO">{0} ~s~overgir seg! ~r~Ikke skyt.</String>
         <String xml:lang="sv-SE">{0} ~s~ger upp!~r~ Skjut inte.</String>
+        <String xml:lang="tr-TR">{0} ~s~teslim oluyor! ~r~Ateş etmeyin.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_follow">
@@ -2884,6 +2919,7 @@
         <String xml:lang="fr-FR">~b~L'officier {0} ~s~vous a ordonné de le suivre.</String>
         <String xml:lang="no-NO">~b~Offiser {0} ~s~beordret deg til å følge dem.</String>
         <String xml:lang="sv-SE">~b~Polis {0} ~s~beordrade dig att följa dem.</String>
+        <String xml:lang="tr-TR">~b~Polis memuru {0}~s~, sizi takip etmenizi emretti.</String>
     </Entry>
 
     <Entry Id="police_dont_have_police_vehicle">
@@ -2903,6 +2939,7 @@
         <String xml:lang="fr-FR">Vous n'avez pas de ~b~véhicule de police~s~.</String>
         <String xml:lang="no-NO">Du har ikke en ~b~politibil~s~.</String>
         <String xml:lang="sv-SE">Du har inget ~b~polisfordon~s~.</String>
+        <String xml:lang="tr-TR">~b~Polis aracı~s~nız yok.</String>
     </Entry>
 
     <Entry Id="police_need_police_vehicle_to_transport">
@@ -2922,6 +2959,7 @@
         <String xml:lang="no-NO">Du trenger en ~p~politibil ~s~for å frakte en mistenkt til fengsel.</String>
         <String xml:lang="fr-FR">Vous avez besoin d'un ~p~véhicule de police ~s~pour transporter un suspect en prison.</String>
         <String xml:lang="sv-SE">Du behöver ett ~p~polisfordon ~s~för att transportera en misstänkt till fängelset.</String>
+        <String xml:lang="tr-TR">Bir şüpheliyi hapishaneye götürmek için ~p~polis aracına ~s~ihtiyacınız var.</String>
     </Entry>
 
     <Entry Id="police_need_police_vehicle_with_rearseat_to_transport">
@@ -2941,6 +2979,7 @@
         <String xml:lang="fr-FR">Vous avez besoin d'un ~p~véhicule ~s~avec des sièges à l'arrière pour transporter un suspect.</String>
         <String xml:lang="no-NO">Du trenger et ~p~kjøretøy ~s~med bakseter for å transportere en mistenkt.</String>
         <String xml:lang="sv-SE">Du behöver ett ~p~fordon ~s~med baksäten för att transportera en misstänkt.</String>
+        <String xml:lang="tr-TR">Bir şüpheliyi transfer etmek için arka koltuğu olan bir ~p~araca ~s~ihtiyacınız var.</String>
     </Entry>
 
     <Entry Id="police_need_police_vehicle_with_backseat_occupied">
@@ -2960,6 +2999,7 @@
         <String xml:lang="no-NO">Baksetet på ~b~kjøretøyet ditt ~s~er opptatt.</String>
         <String xml:lang="fr-FR">La ~b~banquette arrière ~s~de votre ~b~véhicule ~s~est occupée.</String>
         <String xml:lang="sv-SE">Ditt ~b~fordons backsäte ~s~är upptaget</String>
+        <String xml:lang="tr-TR">Aracınızın ~b~arka koltuğu ~s~dolu.</String>
     </Entry>
 
     <Entry Id="police_vehicle_too_far">
@@ -2979,6 +3019,7 @@
         <String xml:lang="fr-FR">Votre ~b~véhicule ~s~est ~r~trop loin~s~.</String>
         <String xml:lang="no-NO">Ditt ~b~kjøretøy ~s~er ~r~for langt~s~.</String>
         <String xml:lang="sv-SE">Ditt ~b~fordon ~s~är ~r~för långt~s~.</String>
+        <String xml:lang="tr-TR">~b~Arac~s~ınız ~r~çok uzakta~s~.</String>
     </Entry>
 
     <Entry Id="police_you_officer_ordered_follow">
@@ -2998,6 +3039,7 @@
         <String xml:lang="no-NO">Du beordret ~o~{0} ~s~å følge deg.</String>
         <String xml:lang="fr-FR">Vous avez ordonné à ~o~{0} ~s~de vous suivre.</String>
         <String xml:lang="sv-SE">Du beordrade ~o~{0} ~s~att följa dig</String>
+        <String xml:lang="tr-TR">~o~{0} ~s~isimli oyuncuya seni takip etmesini emrettin.</String>
     </Entry>
 
     <Entry Id="police_officer_ordered_stop_follow">
@@ -3459,6 +3501,7 @@
         <String xml:lang="hi-Latn">Aapne {0} ko ek ~b~{1} ~s~ticket diya.</String>
         <String xml:lang="sv-SE">Du har gett {0} en ~b~{1} ~s~böter.</String>
         <String xml:lang="pl-PL">Wlepiłeś {0} ~b~{1} ~s~mandat.</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncuya ~b~{1} ~s~ceza kestiniz.</String>
     </Entry>
 
     <Entry Id="police_ticket_menu_title">
@@ -3475,6 +3518,7 @@
         <String xml:lang="hi-Latn">Ticket</String>
         <String xml:lang="sv-SE">Böter</String>
         <String xml:lang="pl-PL">Mandat</String>
+        <String xml:lang="tr-TR">Ceza</String>
     </Entry>
 
     <Entry Id="police_ticket_menu_subtitle">
@@ -3491,6 +3535,7 @@
         <String xml:lang="hi-Latn">{0} ne aapko ek ticket diya</String>
         <String xml:lang="sv-SE">{0} gav dig en böter</String>
         <String xml:lang="pl-PL">{0} wlepił Ci mandat.</String>
+        <String xml:lang="tr-TR">{0} size ceza yazdı.</String>
     </Entry>
 
     <Entry Id="police_ticket_pay">
@@ -3507,6 +3552,7 @@
         <String xml:lang="hi-Latn">Pay kare</String>
         <String xml:lang="sv-SE">Betala</String>
         <String xml:lang="pl-PL">Zapłać</String>
+        <String xml:lang="tr-TR">Öde</String>
     </Entry>
 
     <Entry Id="police_ticket_pay_desc">
@@ -3523,6 +3569,7 @@
         <String xml:lang="hi-Latn">Abhi ~y~fine ~s~ko ~g~25% kam karke ~s~chukaye. Agar aapke paas paise nahi hain, toh unpaid amount aapke ~r~debt ~s~mein add ho jayega.</String>
         <String xml:lang="sv-SE">Acceptera och betala ~y~böterna ~s~just nu med ~g~25% reduktion~s~. Om du inte har tillräckligt med pengar kommer det obetalda beloppet att läggas till som ~r~skuld~s~.</String>
         <String xml:lang="pl-PL">Zaakceptuj i zapłać ~y~grzywnę ~s~już teraz z ~g~25% zniżką~s~. Jeśli nie masz wystarczających środków, niezapłacona kwota zostanie dodana jako ~r~dług~s~.</String>
+        <String xml:lang="tr-TR">~y~Para cezasını ~s~şimdi ~g~%25 indirimle ~s~kabul edin ve ödeyin. Yeterli paranız yoksa, ödenmeyen miktar ~r~borç ~s~olarak eklenecektir.</String>
     </Entry>
 
     <Entry Id="police_ticket_contest">
@@ -3539,6 +3586,7 @@
         <String xml:lang="hi-Latn">Contest kare</String>
         <String xml:lang="sv-SE">Tävla</String>
         <String xml:lang="pl-PL">Sądź się</String>
+        <String xml:lang="tr-TR">İtiraz Et</String>
     </Entry>
 
     <Entry Id="police_ticket_contest_desc">
@@ -3555,6 +3603,7 @@
         <String xml:lang="hi-Latn">Iss ticket ko ~b~court ~s~mein contest kare. Aapko 30% chance hai ki aap jeet jayein aur kuch na pay karna pade.</String>
         <String xml:lang="sv-SE">Slåss mot denna biljetten i ~b~domstolen~s~. Du har 30 % chans att vinna och inte betala någonting.</String>
         <String xml:lang="pl-PL">Walcz z tym mandatem w ~b~sądzie~s~. Masz 30% szans na wygraną i brak konieczności zapłaty.</String>
+        <String xml:lang="tr-TR">Bu cezaya ~b~mahkeme~s~de itiraz edin. Kazanma şansınız %30 ve hiçbir ödeme yapmanıza gerek kalmayabilir.</String>
     </Entry>
 
     <Entry Id="police_ticket_bribe">
@@ -3571,6 +3620,7 @@
         <String xml:lang="hi-Latn">~o~Bribe</String>
         <String xml:lang="sv-SE">~o~Muta</String>
         <String xml:lang="pl-PL">~o~Łapówka</String>
+        <String xml:lang="tr-TR">~o~Rüşvet</String>
     </Entry>
 
     <Entry Id="police_ticket_bribe_desc">
@@ -3587,6 +3637,7 @@
         <String xml:lang="hi-Latn">~o~Bribe ~s~karne ki koshish karein officer ko ticket cancel karne ke liye. Officer aapke bribe ko ~r~refuse ~s~karne ke khatre mein hain aur aapko ~o~felony ~s~ke saath charge kar sakte hain.</String>
         <String xml:lang="sv-SE">Försök att ~o~muta ~s~polisen för att avbryta bötern. Det finns en betydande risk som polisen villl ~r~vägra~s~ mutan och anklagar dig för ett ~o~brott~s~.</String>
         <String xml:lang="pl-PL">Spróbuj dać~o~ łapówkę ~s~dla policjanta aby uniknąć mandatu. Jest znaczące ryzyko że policjant ~r~odmówi ~s~łapówki i oskarży cię o ~o~przestępstwo~s~.</String>
+        <String xml:lang="tr-TR">Memura ceza iptali için ~o~rüşvet ~s~vermeye çalışın. Ancak, polis memuru rüşveti ~r~reddedip ~s~sizi ~o~suçtan ~s~yargılayabileceği riski vardır.</String>
     </Entry>
 
     <Entry Id="police_no_longer_around">
@@ -3606,6 +3657,7 @@
         <String xml:lang="no-NO">~b~politiet ~s~er ikke lenger i nærheten!</String>
         <String xml:lang="fr-FR">Les ~b~policiers ~s~ne sont plus à proximité!</String>
         <String xml:lang="sv-SE">~b~poliserna ~s~är inte längre omkring</String>
+        <String xml:lang="tr-TR">Artık çevrede ~b~polis memuru ~s~yok!</String>
     </Entry>
 
     <Entry Id="police_you_surrendered">
@@ -3625,6 +3677,7 @@
         <String xml:lang="fr-FR">Vous vous êtes rendu à la ~b~police~s~!</String>
         <String xml:lang="no-NO">Du overga deg til ~b~politiet~s~!</String>
         <String xml:lang="sv-SE">Du överlämnade dig till ~b~polisen~s~!</String>
+        <String xml:lang="tr-TR">~b~Polis memurları~s~na teslim oldunuz!</String>
     </Entry>
 
     <Entry Id="police_searching_no_illegal_items">
@@ -3644,6 +3697,7 @@
         <String xml:lang="fr-FR">Vous n'avez ~r~rien ~s~trouvé sur {0}.</String>
         <String xml:lang="no-NO">Du fant ikke ~r~noe ~s~på {0}.</String>
         <String xml:lang="sv-SE">Du hittade inte ~r~något ~s~på {0}.</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncunun üzerinde ~r~hiçbir şey ~s~bulamadınız.</String>
     </Entry>
 
     <Entry Id="police_already_searched">
@@ -3663,6 +3717,7 @@
         <String xml:lang="lv-LV">~r~Aizdomās turētais jau tika pārmeklēts.</String>
         <String xml:lang="no-NO">~r~Mistenkte er allerede ransaket.</String>
         <String xml:lang="sv-SE">~r~Den misstänkte har redan blivit genomsökt.</String>
+        <String xml:lang="tr-TR">~r~Şüphelinin üstü zaten arandı.</String>
     </Entry>
 
     <Entry Id="police_you_asked_for_bribe">
@@ -3682,6 +3737,7 @@
         <String xml:lang="no-NO">Du ba {0} om å ~o~bestikke ~s~deg.</String>
         <String xml:lang="fr-FR">Vous avez demandé à {0} de vous donner un ~o~pot-de-vin~s~.</String>
         <String xml:lang="sv-SE">Du bad {0} att ~o~muta ~s~dig.</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncudan size ~o~rüşvet ~s~vermesini istediniz.</String>
     </Entry>
 
     <Entry Id="police_asked_to_bribe">
@@ -3701,6 +3757,7 @@
         <String xml:lang="fr-FR">~b~L'Officier {0}~s~ vous a proposé de lui donner un ~o~pot-de-vin~s~.</String>
         <String xml:lang="no-NO">~b~Offiser {0} ba deg om å ~o~bestikke ~s~dem.</String>
         <String xml:lang="sv-SE">~b~Polis {0} bad dig att ~o~muta ~s~dem.</String>
+        <String xml:lang="tr-TR">~b~Polis memuru {0} sizden ona ~o~rüşvet ~s~vermenizi istedi.</String>
     </Entry>
 
     <Entry Id="police_too_far_to_accept_bribe">
@@ -3720,6 +3777,7 @@
         <String xml:lang="fr-FR">Vous êtes ~r~trop loin ~s~de {0}, vous ne pouvez pas accepter ou refuser le ~r~pot-de-vin~s~.</String>
         <String xml:lang="no-NO">Du er ~r~for langt ~s~fra {0}, du kan ikke godta eller nekte ~r~bestikkelsen~s~.</String>
         <String xml:lang="sv-SE">Du är ~r~för långt ~s~från {0}, du kan inte acceptera eller vägra ~r~muten~s~.</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncudan çok uzaktasınız, ~r~rüşvet~s~i kabul edemez veya reddedemezsiniz.</String>
     </Entry>
 
     <Entry Id="police_wait_ten_minutes_bribe">
@@ -3739,6 +3797,7 @@
         <String xml:lang="no-NO">Du må vente 10 minutter før du godtar en ~r~bestikkelse ~s~fra samme spiller igjen.</String>
         <String xml:lang="fr-FR">Vous devez attendre 10 minutes avant d'accepter à nouveau un ~r~pot-de-vin ~s~du même joueur.</String>
         <String xml:lang="sv-SE">Du måste vänta 10 minuter innan du accepterar en ~r~muta ~s~från samma spelare igen.</String>
+        <String xml:lang="tr-TR">Aynı oyuncudan tekrar ~r~rüşvet ~s~kabul etmek için 10 dakika beklemelisiniz.</String>
     </Entry>
 
     <Entry Id="police_could_not_afford_bribe">
@@ -3777,6 +3836,7 @@
         <String xml:lang="lv-LV">~r~{0} vairs nav pieslēgts serverim.</String>
         <String xml:lang="no-NO">~r~{0} er ikke lenger koblet til serveren.</String>
         <String xml:lang="sv-SE">~r~{0} är inte längre ansluten till servern.</String>
+        <String xml:lang="tr-TR">~r~{0} isimli oyuncu artık sunucuda değil.</String>
     </Entry>
 
     <Entry Id="police_exam_menu_submit_button_text">
@@ -3833,6 +3893,7 @@
         <String xml:lang="pl-PL">Przeszukujesz {0}~s~.</String>
         <String xml:lang="sv-SE">Du söker igenom {0}~s~.</String>
         <String xml:lang="no-NO">Du søker etter {0}~s~.</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncunun üstünü arıyorsunuz~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Player's name (for example: Stijnjw) -->
@@ -3853,6 +3914,7 @@
         <String xml:lang="pl-PL">Zignorowałeś łapówkę {0}.</String>
         <String xml:lang="no-NO">Du ignorerte {0}s bestikkelsestilbud.</String>
         <String xml:lang="sv-SE">Du ignorerade {0}'s muterbjudande.</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncunun rüşvet teklifini görmezden geldiniz.</String>
     </Entry>
 
     <!-- nullnull{0} = Officer's name (for example: Stijnjw)
@@ -3875,6 +3937,7 @@
         <String xml:lang="no-NO">Du tilbød {0} ~s~a ~g~{1} ~s~bestikkelse.</String>
         <String xml:lang="sv-SE">Du erbjöd {0} ~s~en ~g~{1} ~s~muta.</String>
         <String xml:lang="de-DE">Du hast {0} eine ~g~{1} ~s~Bestechung angeboten.</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncuya ~g~{1} ~s~rüşvet teklif ettiniz.</String>
     </Entry>
 
     <Entry Id="police_not_close_enough_to_bribe">
@@ -3894,6 +3957,7 @@
         <String xml:lang="lv-LV">~r~{0} nav pietiekami tuvu, lai piedāvātu viņiem kukuli.</String>
         <String xml:lang="no-NO">~r~{0} er ikke nær nok til å tilby dem bestikkelse.</String>
         <String xml:lang="sv-SE">~r~{0} är inte tillräckligt nära för att erbjuda dem en muta.</String>
+        <String xml:lang="tr-TR">~r~{0} isimli oyuncu rüşvet teklifi vermek için yeterince yakın değil.</String>
     </Entry>
 
     <Entry Id="police_already_have_open_offer">
@@ -3913,6 +3977,7 @@
         <String xml:lang="no-NO">~r~Du har allerede et aktivt bestikkelsestilbud.</String>
         <String xml:lang="fr-FR">~r~Vous avez déjà une offre de pot-de-vin en cours.</String>
         <String xml:lang="sv-SE">~r~Du har redan ett aktivt muterbjudande.</String>
+        <String xml:lang="tr-TR">~r~Zaten aktif bir rüşvet teklifiniz var.</String>
     </Entry>
 
     <Entry Id="police_cant_bribe_same_officer_within_ten">
@@ -3932,6 +3997,7 @@
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas donner deux pots-de-vin au même officier en l'espace de 10 minutes.</String>
         <String xml:lang="no-NO">~r~Du kan ikke bestikke den samme offiseren to ganger innen 10 minutter.</String>
         <String xml:lang="sv-SE">~r~Du kan inte muta samma polis två gånger inom 10 minuter.</String>
+        <String xml:lang="tr-TR">~r~Aynı polis memuruna 10 dakika içinde iki kez rüşvet veremezsiniz.</String>
     </Entry>
 
     <Entry Id="police_cant_bribe_after_revive_auto_cuff">
@@ -3951,6 +4017,7 @@
         <String xml:lang="no-NO">~r~Du kan ikke bestikke en politimann i 2 minutter etter å ha blitt gjenopplivet og satt i håndjern.</String>
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas donner de pot-de-vin à un officier de police pendant 2 minutes après avoir été réanimé et auto-menotté.</String>
         <String xml:lang="sv-SE">~r~Du kan inte muta en polis under 2 minuter efter att ha blivit återupplivad och auto-handfängslad.</String>
+        <String xml:lang="tr-TR">~r~Yeniden canlandırıldıktan sonra ve otomatik kelepçelendikten sonra 2dakika boyunca polis memurlarına rüşvet veremezsiniz.</String>
     </Entry>
 
     <Entry Id="police_viewing_bribe">
@@ -3970,6 +4037,7 @@
         <String xml:lang="fr-FR">{0} ~y~consulte ~s~votre offre de pot-de-vin.</String>
         <String xml:lang="no-NO">{0} ~y~viser ~s~bestikkelsestilbudet ditt.</String>
         <String xml:lang="sv-SE">{0} ~y~kollar ~s~på ditt muterbjudande.</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncu rüşvet teklifinizi ~y~görüntülüyor~s~.</String>
     </Entry>
 
     <Entry Id="police_player_left_canceled_bribe">
@@ -3989,6 +4057,7 @@
         <String xml:lang="no-NO">{0} har ~r~forlatt serveren ~s~og bestikkelsestilbudet ditt ble kansellert.</String>
         <String xml:lang="fr-FR">{0} a ~r~quitté le serveur ~s~et votre offre de pot-de-vin a été annulée.</String>
         <String xml:lang="sv-SE">{0} har ~r~lämnat servern ~s~och ditt muterbjudande avbröts.</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncu ~r~sunucudan çıktı ~s~ve rüşvet teklifiniz iptal edildi.</String>
     </Entry>
 
     <Entry Id="police_accepted_bribe">
@@ -4425,6 +4494,7 @@
         <String xml:lang="es-ES">Cuando el sospechoso dispara desde el vehículo</String>
         <String xml:lang="pt-BR">Quando o suspeito dispara do veículo</String>
         <String xml:lang="pl-PL">Gdy podejrzany strzela z pojazdu</String>
+        <String xml:lang="tr-TR">Şüpheli araçtan ateş ettiğinde</String>
     </Entry>
 
     <Entry Id="police_exam_question_arrest">
@@ -4441,6 +4511,7 @@
         <String xml:lang="es-ES">¿Cómo puede un ~b~policía ~s~detener a un ~o~sospechoso ~s~que no obedece pero no amenaza?</String>
         <String xml:lang="pt-BR">Como um ~b~policial ~s~pode prender um ~o~suspeito ~s~que não obedece, mas não ameaça?</String>
         <String xml:lang="pl-PL">W jaki sposób ~b~gliniarz ~s~aresztuje słuchającego poleceń i niegroźnego ~o~podejrzanego~s~?</String>
+        <String xml:lang="tr-TR">~b~Polis memuru~s~, işbirliği yapmayan veya tehdit oluşturmayan ~o~şüpheliyi ~s~nasıl tutuklayabilir?</String>
     </Entry>
 
     <Entry Id="police_exam_answer_arrest_kill">
@@ -4457,6 +4528,7 @@
         <String xml:lang="es-ES">No se arresta a los sospechosos, sólo se les dispara y se les mata. Esto es CnR, no un servidor RP.</String>
         <String xml:lang="pt-BR">Você não prende os suspeitos, apenas atira e os mata. Este é CnR, não um servidor de RP.</String>
         <String xml:lang="pl-PL">Nie aresztujesz podejrzanych, po prostu strzelasz i zabijasz ich. To jest CnR, nie serwer RP.</String>
+        <String xml:lang="tr-TR">Şüphelileri tutuklamazsınız, sadece vurup öldürürsünüz. Burası CnR, RP sunucusu değil.</String>
     </Entry>
 
     <Entry Id="police_exam_answer_arrest_stun">
@@ -4473,6 +4545,7 @@
         <String xml:lang="es-ES">Aturdiéndolos con una pistola paralizante</String>
         <String xml:lang="pt-BR">Atordoá-los com uma arma de choque.</String>
         <String xml:lang="pl-PL">Obezwładniając ich paralizatorem</String>
+        <String xml:lang="tr-TR">Onları elektroşok tabancasıyla sersemleterek</String>
     </Entry>
 
     <Entry Id="police_exam_answer_arrest_shoot">
@@ -4489,6 +4562,7 @@
         <String xml:lang="es-ES">Disparándoles como advertencia, mientras les ordenas que dejen de moverse o morirán</String>
         <String xml:lang="pt-BR">Atire neles como um aviso, enquanto ordena que parem de se mover ou morrerão</String>
         <String xml:lang="pl-PL">Strzelając do nich ostrzegawczo jednocześnie nakazując im, aby przestali się ruszać bo inaczej zginą</String>
+        <String xml:lang="tr-TR">Hareket etmeyi kesmelerini söyleyip, aksi takdirde vurulacakları tehdidinde bulunarak ateş etmek</String>
     </Entry>
 
     <Entry Id="police_exam_answer_arrest_baton">
@@ -4505,6 +4579,7 @@
         <String xml:lang="es-ES">Usando una porra y dándoles una paliza</String>
         <String xml:lang="pt-BR">Usar um cassetete e dar uma surra neles</String>
         <String xml:lang="pl-PL">Używając pałki i bijąc ich</String>
+        <String xml:lang="tr-TR">Bir cop kullanarak ve onları döverek</String>
     </Entry>
 
     <Entry Id="police_exam_answer_arrest_tap">
@@ -4521,6 +4596,7 @@
         <String xml:lang="es-ES">Usando su coche patrulla para golpearlos suavemente a baja velocidad</String>
         <String xml:lang="pt-BR">Usar seu carro de patrulha para atingi-los suavemente em baixa velocidade</String>
         <String xml:lang="pl-PL">Używając radiowozu, delikatnie uderzając przy niskiej prędkości</String>
+        <String xml:lang="tr-TR">Devriye aracıyla düşük hızda nazikçe dokunarak</String>
     </Entry>
 
     <Entry Id="police_exam_question_radio">
@@ -4537,6 +4613,7 @@
         <String xml:lang="es-ES">La radio de emergencia puede utilizarse...</String>
         <String xml:lang="pt-BR">O rádio de emergência pode ser usado...</String>
         <String xml:lang="pl-PL">Radio służbowe może zostać użytę...</String>
+        <String xml:lang="tr-TR">Acil durum radyosu şu amaçlarla kullanılabilir...</String>
     </Entry>
 
     <Entry Id="police_exam_answer_radio_activity">
@@ -4553,6 +4630,7 @@
         <String xml:lang="es-ES">Informar a otros ~b~policías ~s~y ~p~paramédicos ~s~de actividades delictivas en curso.</String>
         <String xml:lang="pt-BR">Informar outros ~b~policiais ~s~e ~p~paramédicos ~s~sobre atividades criminosas em andamento.</String>
         <String xml:lang="pl-PL">By poinformować innych ~b~gliniarzy ~s~i ~p~paramedyków ~s~o aktywności przestępczej która jest w trakcie.</String>
+        <String xml:lang="tr-TR">Devam eden suç faaliyetleri hakkında diğer ~b~polis memurları ~s~ve ~p~ilk yardım görevlileri~s~ne bilgi vermek için</String>
     </Entry>
 
     <Entry Id="police_exam_answer_radio_hush">
@@ -4569,6 +4647,7 @@
         <String xml:lang="es-ES">Decir a otros policías que se ~r~callen ~s~cada vez que denuncien un delito.</String>
         <String xml:lang="pt-BR">Dizer a outros policiais para se ~r~calarem ~s~toda vez que denunciam um crime.</String>
         <String xml:lang="pl-PL">Powiedzieć innym policjantom, żeby ~r~zamknęli się ~s~za każdym razem, gdy wzywają wsparcie</String>
+        <String xml:lang="tr-TR">Diğer polis memurları, suç bildirdiklerinde ~r~çenelerini kapatmaları ~s~için uyarmak amacıyla</String>
     </Entry>
 
     <Entry Id="police_exam_answer_radio_coordinate">
@@ -4585,6 +4664,7 @@
         <String xml:lang="es-ES">Para coordinarse y cooperar con otros ~b~policías ~s~y ~p~paramédicos</String>
         <String xml:lang="pt-BR">Coordenar e cooperar com outros ~b~policiais ~s~e ~p~paramédicos</String>
         <String xml:lang="pl-PL">By wymieniać się informacjami i współpracować z innymi ~b~gliniarzami ~s~i ~p~paramedykami.</String>
+        <String xml:lang="tr-TR">Diğer ~b~polis memurları ~s~ve ~p~sağlık görevlileri ~s~ile koordinasyon sağlamak ve iş birliği yapmak için.~p~</String>
     </Entry>
 
     <Entry Id="police_exam_question_suspect_attack">
@@ -4601,6 +4681,7 @@
         <String xml:lang="es-ES">Un ~o~sospechoso~s~ puede atacar y matar a un ~b~policía ~s~cuando</String>
         <String xml:lang="pt-BR">Um ~o~suspeito ~s~pode atacar e matar um ~b~policial ~s~quando ele ou ela</String>
         <String xml:lang="pl-PL">~o~Podejrzany ~s~może zaatakować i zabić ~b~gliniarza ~s~kiedy</String>
+        <String xml:lang="tr-TR">Bir ~o~şüpheli~s~, ~b~polis memuruna ~s~şu durumda saldırıp öldürebilir</String>
     </Entry>
 
     <Entry Id="police_exam_answer_suspect_attack_revenge">
@@ -4617,6 +4698,7 @@
         <String xml:lang="es-ES">Quieren ~r~vengarse~s~ del ~b~policía~s~ por una actuación negativa anterior en la misma sesión</String>
         <String xml:lang="pt-BR">Eles querem se ~r~vingar~s~ do ~b~policial~s~ por um desempenho negativo anterior na mesma sessão.</String>
         <String xml:lang="pl-PL">Chcą ~r~zemsty ~s~na ~b~policjancie ~s~za wcześniejszą negatywną sytuację podczas tej samej sesji.</String>
+        <String xml:lang="tr-TR">Aynı oturumda yaşanan önceki olumsuz bir durum için ~b~polis memuruna ~s~karşı ~r~intikam ~s~almak istediklerinde</String>
     </Entry>
 
     <Entry Id="police_exam_answer_suspect_attack_rescue">
@@ -4631,6 +4713,7 @@
         <String xml:lang="no-NO">De ønsker å redde en ~g~venn ~s~som blir arrestert eller drept av ~b~offiseren</String>
         <String xml:lang="sv-SE">De vill rädda en ~g~vän ~s~som blir arresterad eller dödad av ~b~polisen</String>
         <String xml:lang="pl-PL">Chcą uratować ~g~kumpla ~s~który został aresztowany, bądź zabity przez ~b~policjanta.</String>
+        <String xml:lang="tr-TR">~b~Polis memuru ~s~tarafından tutuklanan veya öldürülmekte olan bir ~g~arkadaşını ~s~kurtarmak istediklerinde~b~</String>
     </Entry>
 
     <Entry Id="police_exam_answer_suspect_attack_rioter">
@@ -4645,6 +4728,7 @@
         <String xml:lang="no-NO">De vil spille rolle som en ~o~opprører ~s~som hater politiet</String>
         <String xml:lang="sv-SE">De vill spela roller som en ~o~bråkare ~s~som hatar polisen</String>
         <String xml:lang="pl-PL">Chcą odgrywać rolę ~o~awanturnika ~s~który nienawidzi policji</String>
+        <String xml:lang="tr-TR">Polisten nefret eden bir ~o~isyancı ~s~olarak rol yapmak istediklerinde</String>
     </Entry>
 
     <Entry Id="police_exam_answer_suspect_attack_robbery">
@@ -4659,6 +4743,7 @@
         <String xml:lang="no-NO">De ~r~raner ~s~en butikk og ~b~offiseren ~s~nærmer seg</String>
         <String xml:lang="sv-SE">De ~r~rånar ~s~en butik och ~b~polisen~s~ närmar sig</String>
         <String xml:lang="pl-PL">~r~Okradają ~s~sklep i ~b~policjant ~s~się zbliża</String>
+        <String xml:lang="tr-TR">Bir mağazayı ~r~soyarlarken ~s~ve ~b~polis memuru ~s~yaklaşırken</String>
     </Entry>
 
     <Entry Id="police_exam_question_mw">
@@ -4674,6 +4759,7 @@
         <String xml:lang="sv-SE">Som ~b~polis~s~ kan du döda en ~r~mest efterlyst ~s~(röd) misstänkt...</String>
         <String xml:lang="zh-Hant">當你是 ~b~警察 ~s~時, 你可以擊殺被 ~r~五星通緝~s~ 的逃犯...</String>
         <String xml:lang="pl-PL">Jako ~b~gliniarz~s~, możesz zabić ~r~najbardziej poszukiwanego ~s~(tzn. czerwonego) kryminalistę...</String>
+        <String xml:lang="tr-TR">~b~Polis memuru ~s~olarak, ~r~en çok aranan ~s~(kırmızı) şüpheliyi öldürebilirsiniz...</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_fleeing">
@@ -4688,6 +4774,7 @@
         <String xml:lang="no-NO">Når de flykter</String>
         <String xml:lang="sv-SE">När de flyr</String>
         <String xml:lang="pl-PL">Kiedy uciekają</String>
+        <String xml:lang="tr-TR">Kaçarken</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_surrendering">
@@ -4702,6 +4789,7 @@
         <String xml:lang="no-NO">Når de overgir seg på knærne</String>
         <String xml:lang="sv-SE">När de ger upp på knä</String>
         <String xml:lang="pl-PL">Kiedy poddają się na kolana</String>
+        <String xml:lang="tr-TR">Diz çökmüş halde teslim olduklarında</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_gun">
@@ -4716,6 +4804,7 @@
         <String xml:lang="fr-FR">Quand vous le voyez tenir une arme</String>
         <String xml:lang="sv-SE">När du ser dem hålla i en pistol</String>
         <String xml:lang="pl-PL">Kiedy widzisz ich trzymających broń</String>
+        <String xml:lang="tr-TR">Onları silah tutarken gördüğünüzde</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_cuffed">
@@ -4730,6 +4819,7 @@
         <String xml:lang="no-NO">Når de er i håndjern</String>
         <String xml:lang="sv-SE">När de är handfängslade</String>
         <String xml:lang="pl-PL">Kiedy są skuci</String>
+        <String xml:lang="tr-TR">Kelepçelendiklerinde</String>
     </Entry>
 
     <Entry Id="police_exam_answer_mw_shooting">
@@ -4744,6 +4834,7 @@
         <String xml:lang="no-NO">Når de skyter på deg</String>
         <String xml:lang="sv-SE">När de skjuter på dig</String>
         <String xml:lang="pl-PL">Kiedy do ciebie strzelają</String>
+        <String xml:lang="tr-TR">Size ateş ettiklerinde</String>
     </Entry>
 
     <Entry Id="police_exam_error_already_started">
@@ -4758,6 +4849,7 @@
         <String xml:lang="no-NO">~r~Du er allerede i en eksamen.</String>
         <String xml:lang="sv-SE">~r~Du befinner dig redan i ett prov.</String>
         <String xml:lang="pl-PL">~r~Jesteś w trakcie egzaminu</String>
+        <String xml:lang="tr-TR">~r~Zaten bir sınavdasınız.</String>
     </Entry>
 
     <Entry Id="police_exam_error_cooldown">
@@ -4772,6 +4864,7 @@
         <String xml:lang="fr-FR">~r~Vous devez attendre une heure entre chaque tentative d'examen.</String>
         <String xml:lang="sv-SE">~r~Du måste vänta en timme mellan provförsöken.</String>
         <String xml:lang="pl-PL">~r~Musisz odczekać godzinę pomiędzy kolejnymi podejściami do egzaminu.</String>
+        <String xml:lang="tr-TR">~r~Sınavlar arasında bir saat beklemelisiniz.</String>
     </Entry>
 
     <Entry Id="police_exam_question_menu_title">
@@ -4786,6 +4879,7 @@
         <String xml:lang="no-NO">Spørsmål</String>
         <String xml:lang="sv-SE">Fråga</String>
         <String xml:lang="pl-PL">Pytanie</String>
+        <String xml:lang="tr-TR">Soru</String>
     </Entry>
 
     <Entry Id="police_exam_menu_select_all">
@@ -4850,6 +4944,7 @@
         <String xml:lang="de-DE">{0} hat dir eine ~g~{1}~s~-Bestechung angeboten. {2} um das Angebot anzusehen.</String>
         <String xml:lang="sv-SE">{0} ~s~har erbjudit dig en ~g~{1} ~s~muta. {2} för att se erbjudandet.</String>
         <String xml:lang="no-NO">{0} ~s~har tilbudt deg en ~g~{1} ~s~bestikkelse. {2} for å se tilbudet.</String>
+        <String xml:lang="tr-TR">{0} ~s~size ~g~{1} ~s~rüşvet teklif etti. Teklifi görmek için {2} tuşuna basın.</String>
     </Entry>
 
     <!-- nullnull{0} = Current question number (for example: 3)
@@ -4868,6 +4963,7 @@
         <String xml:lang="no-NO">Spørsmål {0}/{1} ({2} poeng)</String>
         <String xml:lang="sv-SE">Fråga {0}/{1} ({2} poäng)</String>
         <String xml:lang="pl-PL">Pytanie {0}/{1} ({2} 2 punkty)</String>
+        <String xml:lang="tr-TR">Soru {0}/{1} ({2} puan)</String>
     </Entry>
 
     <!-- nullnull{0} = Letter (for example: B) -->
@@ -4883,6 +4979,7 @@
         <String xml:lang="no-NO">Alternativ {0}</String>
         <String xml:lang="sv-SE">Alternativ {0}</String>
         <String xml:lang="pl-PL">Odpowiedź {0}</String>
+        <String xml:lang="tr-TR">Seçenek {0}</String>
     </Entry>
 
     <Entry Id="police_exam_menu_submit_button_description">
@@ -5276,6 +5373,7 @@
         <String xml:lang="fr-FR">Seuls les ~b~officiers de police ~s~peuvent effectuer des achats dans ce magasin.</String>
         <String xml:lang="no-NO">Bare ~b~polititjenestemenn ~s~kan handle i denne butikken.</String>
         <String xml:lang="sv-SE">Endast ~b~poliser ~s~kan handla i denna butik.</String>
+        <String xml:lang="tr-TR">Sadece ~b~polis memurları ~s~bu mağazadan alışveriş yapabilir. </String>
     </Entry>
 
     <Entry Id="disclaimer_illegal_weapons_ammo">
@@ -5293,6 +5391,7 @@
         <String xml:lang="lv-LV">~b~Policija~s~ var konfiscēt ~r~nelegālos ieročus un munīciju~s~, taču ieroču modifikācijas saglabāsies.</String>
         <String xml:lang="no-NO">~r~Ulovlige våpen og ammunisjon ~s~kan konfiskeres av ~b~politiet ~s~hvis de søker på deg, men våpentilpasninger vil spare.</String>
         <String xml:lang="sv-SE">~r~Olagliga vapen och ammunition ~s~kan konfiskeras av ~b~polisen ~s~om de söker igenom dig, men vapenanpassningar sparas.</String>
+        <String xml:lang="tr-TR">~r~Yasadığı silahlar ve cephaneler ~b~polis memurları ~s~tarafından üstünüz arandığında el konulabilir. Ancak, silah eklentileri korunur.</String>
     </Entry>
 
     <Entry Id="dont_have_required_level_item">
@@ -5310,6 +5409,7 @@
         <String xml:lang="no-NO">~r~Du har ikke det nødvendige nivået for å kjøpe denne varen!</String>
         <String xml:lang="fr-FR">~r~Vous n'avez pas le niveau requis pour acheter cet objet!</String>
         <String xml:lang="sv-SE">~r~Du har inte den nivå som krävs för att köpa den här produkten!</String>
+        <String xml:lang="tr-TR">~r~Bu eşyayı satın almak için gerekli seviyeye sahip değilsiniz!</String>
     </Entry>
 
     <Entry Id="item_requires_membership">
@@ -5327,6 +5427,7 @@
         <String xml:lang="fr-FR">~r~Cet objet nécessite une adhésion premium!</String>
         <String xml:lang="no-NO">~r~Denne varen krever et premium medlemskapsabonnement!</String>
         <String xml:lang="sv-SE">~r~Denna produkten kräver ett premiummedlemskap!</String>
+        <String xml:lang="tr-TR">~r~Bu eşya için özel üyelik aboneliği gereklidir!</String>
     </Entry>
 
     <Entry Id="public_officer_cant_rob">
@@ -5344,6 +5445,7 @@
         <String xml:lang="no-NO">~r~Offentlige tjenestemenn kan ikke butikktyveri!</String>
         <String xml:lang="fr-FR">~r~Les officiers de police ne peuvent pas voler à l'étalage!</String>
         <String xml:lang="sv-SE">~r~Offentliga tjänstemän kan inte snatta!</String>
+        <String xml:lang="tr-TR">~r~Kamu görevlileri hırsızlık yapamaz!</String>
     </Entry>
 
     <Entry Id="cannot_rob_same_store_twice">
@@ -5361,6 +5463,7 @@
         <String xml:lang="fr-FR">Vous ~r~ne pouvez pas braquer ~s~le même ~y~magasin ~s~deux fois d'affilé.</String>
         <String xml:lang="no-NO">Du ~r~kan ikke rane ~s~den samme ~y~butikken ~s~to ganger på rad.</String>
         <String xml:lang="sv-SE">Du ~r~kan inte råna ~s~samma ~y~butik ~s~två gånger i rad.</String>
+        <String xml:lang="tr-TR">Aynı ~y~mağaza~s~yı art arda iki kez ~r~soyamazsınız~s~.</String>
     </Entry>
 
     <Entry Id="business_cannot_be_robbed_yet">
@@ -5378,6 +5481,7 @@
         <String xml:lang="lv-LV">Šo uzņēmumu vēl ~r~nevar aplaupīt~s~. Šī laupīšana tiks pievienota ~b~nākamajā atjauninājumā~s~.</String>
         <String xml:lang="no-NO">Denne virksomheten ~r~kan ikke ranes ~s~ennå. Dette ranet kommer i en ~b~fremtidig oppdatering~s~.</String>
         <String xml:lang="sv-SE">Denna butiken ~r~kan inte bli rånat ~s~ännu. Detta rånet kommer i en ~b~framtids uppdatering.~s~.</String>
+        <String xml:lang="tr-TR">Bu iş yeri henüz ~r~soyulamaz~s~. Bu soygun ~b~gelecekteki bir güncellemede ~s~eklenecek.</String>
     </Entry>
 
     <Entry Id="business_cannot_be_robbed">
@@ -5395,6 +5499,7 @@
         <String xml:lang="fr-FR">Ce commerce ~r~ne peut pas être braqué~s~.</String>
         <String xml:lang="no-NO">Denne virksomheten ~r~kan ikke ranes~s~.</String>
         <String xml:lang="sv-SE">Denna butiken ~r~kan inte rånas~s~.</String>
+        <String xml:lang="tr-TR">Bu iş yeri ~r~soyulamaz~s~.</String>
     </Entry>
 
     <Entry Id="business_recently_robbed">
@@ -5412,6 +5517,7 @@
         <String xml:lang="no-NO">Denne virksomheten har ~r~nylig blitt ~s~ranet. Prøv igjen senere.</String>
         <String xml:lang="fr-FR">Ce commerce a été ~r~récemment ~s~braqué. Réessayez plus tard.</String>
         <String xml:lang="sv-SE">Denna verksamheten har ~r~nyligen ~s~rånats. Försök igen senare.</String>
+        <String xml:lang="tr-TR">Bu iş yeri ~r~yakın zamanda ~s~soyuldu. Daha sonra tekrar deneyin.</String>
     </Entry>
 
     <Entry Id="robbery_complete">
@@ -5429,6 +5535,7 @@
         <String xml:lang="fr-FR">~b~Braquage terminé! ~s~Vous avez réussi à braquer ~y~{0} ~s~et gagné ~g~{1}~s~!</String>
         <String xml:lang="no-NO">~b~Ranet fullført! ~s~Du har ranet ~y~{0} ~s~og tjent ~g~{1}~s~!</String>
         <String xml:lang="sv-SE">~b~Rånet slutfört! ~s~Du har lyckats råna ~y~{0} ~s~och tjänat ~g~{1}~s~!</String>
+        <String xml:lang="tr-TR">~b~Soygun tamamlandı! ~y~{0} ~s~Başarıyla soyuldu. Kazancınız ~g~{1}~s~</String>
     </Entry>
 
     <Entry Id="robbery_clerk_killed_cut">
@@ -5443,6 +5550,7 @@
         <String xml:lang="no-NO">~r~Å drepe kontoristen var ikke i planen! ~s~Kuttet ditt er ~g~{0}~s~.</String>
         <String xml:lang="sv-SE">~r~Att döda tjänstemannen var inte i planen! ~s~Ditt snitt är ~g~{0}~s~.</String>
         <String xml:lang="pl-PL">~r~Zabicie sprzedawcy nie było w planie! ~s~Twoja działka to ~g~{0}~s~.</String>
+        <String xml:lang="tr-TR">~r~Kasiyeri öldürmek planın bir parçası değildi! ~s~Size düşen pay ~g~{0}~s~.</String>
     </Entry>
 
     <Entry Id="robbery_clerk_killed_complete">
@@ -5457,6 +5565,7 @@
         <String xml:lang="no-NO">~r~Å drepe kontoristen var ikke i planen! ~s~Du tjente ~g~{0}~s~.</String>
         <String xml:lang="sv-SE">~r~Att döda tjänstemannen var inte i planen! ~s~Du tjänade ~g~{0}~s~.</String>
         <String xml:lang="pl-PL">~r~Zabicie sprzedawcy nie było w planie! ~s~Zarobiłeś ~g~{0}~s~.</String>
+        <String xml:lang="tr-TR">~r~Kasiyeri öldürmek planın bir parçası değildi! ~g~{0} ~s~kazandınız.</String>
     </Entry>
 
     <Entry Id="robbery_clerk_not_intimidated_cut">
@@ -5471,6 +5580,7 @@
         <String xml:lang="fr-FR">~r~Le caissier n'est plus intimidé! ~s~Votre part est de ~g~{0}~s~.</String>
         <String xml:lang="sv-SE">~r~Tjänstemannen är inte längre skrämd! ~s~Ditt snitt är ~g~{0}~s~.</String>
         <String xml:lang="pl-PL">~r~Sprzedawca nie jest już wystraszony! ~s~Twoja działka to ~g~{0}~s~.</String>
+        <String xml:lang="tr-TR">~r~Kasiyer artık korkmuyor! ~s~Size düşen pay ~g~{0}~s~.</String>
     </Entry>
 
     <Entry Id="robbery_clerk_not_intimidated_complete">
@@ -5485,6 +5595,7 @@
         <String xml:lang="no-NO">~r~Ekspeditøren er ikke lenger skremt! ~s~Du tjente ~g~{0}~s~.</String>
         <String xml:lang="sv-SE">~r~Tjänstemannen är inte längre skrämd! ~s~Du tjänade ~g~{0}~s~.</String>
         <String xml:lang="pl-PL">~r~Sprzedawca nie jest już wystraszony! ~s~Zdobyłeś ~g~{0}~s~.</String>
+        <String xml:lang="tr-TR">~r~Kasiyer artık korkmuyor! ~g~{0} ~s~kazandınız.</String>
     </Entry>
 
     <Entry Id="robbery_fail_clerk_killed">
@@ -5502,6 +5613,7 @@
         <String xml:lang="fr-FR">~r~Le braquage a échoué! Tuer le caissier n'était pas dans le plan!</String>
         <String xml:lang="no-NO">~r~Ran mislyktes! Å drepe kontoristen var ikke i planen!</String>
         <String xml:lang="sv-SE">~r~Rån misslyckades! Att döda tjänstemannen var inte i planen!</String>
+        <String xml:lang="tr-TR">~r~Soygun başarısız! Kasiyeri öldürmek planın bir parçası değildi!</String>
     </Entry>
 
     <Entry Id="robbery_fail_clerk_not_intimidated">
@@ -5519,6 +5631,7 @@
         <String xml:lang="no-NO">~r~Ran mislyktes! Ekspeditøren er ikke lenger skremt.</String>
         <String xml:lang="fr-FR">~r~Le braquage a échoué! Le caissier n'est plus intimidé.</String>
         <String xml:lang="sv-SE">~r~Rånet misslyckades! Tjänstemannen är inte längre skrämd.</String>
+        <String xml:lang="tr-TR">~r~Soygun başarısız! Kasiyer artık korkmuyor.</String>
     </Entry>
 
     <Entry Id="robbery_shots_called_police">
@@ -5536,6 +5649,7 @@
         <String xml:lang="lv-LV">Kāds uzdzirdēja šāvienus un piezvanīja ~r~policijai~s~!</String>
         <String xml:lang="no-NO">Noen hørte skudd og ringte ~r~politiet~s~!</String>
         <String xml:lang="sv-SE">Någon hörde skott och ringde ~r~polisen~s~!</String>
+        <String xml:lang="tr-TR">Birileri silah sesinlerini duydu ve ~r~polis~s~i aradı!</String>
     </Entry>
 
     <Entry Id="robbery_player_called_police">
@@ -5553,6 +5667,7 @@
         <String xml:lang="no-NO">{0} har ringt ~r~politiet ~s~på deg!</String>
         <String xml:lang="fr-FR">{0} a appelé la ~r~police ~s~contre vous!</String>
         <String xml:lang="sv-SE">{0} har ringt ~r~polisen ~s~på dig!</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncu sizi ~r~polis~s~e ihbar etti!</String>
     </Entry>
 
     <Entry Id="robbery_caught_shoplifting_cant_buy">
@@ -5570,6 +5685,7 @@
         <String xml:lang="no-NO">Du har blitt tatt i ~r~butikktyveri ~s~her. Du kan ikke kjøpe varer fra denne butikken i ~y~{0} sekunder~s~.</String>
         <String xml:lang="fr-FR">Vous avez été pris en flagrant délit de ~r~vol à l'étalage ~s~ici. Vous ne pouvez pas acheter d'objets dans ce magasin pendant ~y~{0} secondes~s~.</String>
         <String xml:lang="sv-SE">Du har åkt på ~r~butiksnatteri ~s~här. Du kan inte köpa varor från denna butiken för ~y~{0} seconds~s~.</String>
+        <String xml:lang="tr-TR">Burada ~r~hırsızlık ~s~yaparken yakalandınız. Bu mağazadan ~y~{0} saniye ~s~boyunca alışveriş yapamazsınız.</String>
     </Entry>
 
     <Entry Id="robbery_shoplifting_success">
@@ -5584,6 +5700,7 @@
         <String xml:lang="no-NO">Du har ~r~stjålet ~s~a ~p~{0}~s~</String>
         <String xml:lang="sv-SE">Du har ~r~stulit ~s~en ~p~{0}~s~</String>
         <String xml:lang="pl-PL">~r~Ukradłeś ~s~~p~{0}~s~</String>
+        <String xml:lang="tr-TR">Bir ~p~{0} ~r~çaldınız~s~</String>
     </Entry>
 
     <Entry Id="robbery_caught_shoplifting_reported_police">
@@ -5601,6 +5718,7 @@
         <String xml:lang="fr-FR">~r~Votre tentative de vol à l'étalage a été repérée! Vous avez été signalé à la police.</String>
         <String xml:lang="no-NO">~r~Butikktyveriforsøket ditt har blitt oppdaget! Du er anmeldt til politiet.</String>
         <String xml:lang="sv-SE">~r~Ditt stöldförsök har upptäckts! Du har blivit polisanmäld.</String>
+        <String xml:lang="tr-TR">~r~Hırsızlık girişiminiz fark edildi! Polise bildirildiniz.</String>
     </Entry>
 
     <!-- nullnull{0} = Final score (for example: 2)
@@ -5619,6 +5737,7 @@
         <String xml:lang="no-NO">~r~Beklager! ~s~Du har ikke bestått eksamen (~r~{0}~s~/{1} poeng) ({2} for å bestå).</String>
         <String xml:lang="sv-SE">~r~Förlåt! ~s~Du har inte klarat provet (~r~{0}~s~/{1} poäng) ({2} för att bli godkänd).</String>
         <String xml:lang="pl-PL">~r~Przepraszamy! ~s~Nie udało ci się zdać egzaminu (~r~{0}~s~/{1} punktów) ({2} byc zdać).</String>
+        <String xml:lang="tr-TR">~r~Üzgünüz! ~s~Sınavı geçemediniz (~r~{0}~s~/{1} puan) Geçme Notu:{2}).</String>
     </Entry>
 
     <!-- nullnull{0} = Final score (for example: 11)
@@ -5637,6 +5756,7 @@
         <String xml:lang="sv-SE">~g~Grattis! ~s~Du har klarat provet med ~g~{0}~s~/{1} poäng ({2} för att bli godkänd). Du kan nu bli ~b~polis~s~.</String>
         <String xml:lang="fr-FR">~g~Félicitations! ~s~Vous avez réussi l'examen avec ~g~{0}~s~/{1} points ({2} pour réussir). Vous pouvez maintenant devenir un ~b~Officier de Police~s~.</String>
         <String xml:lang="pl-PL">~g~Gratulacje! ~s~Zdałeś egzamin z ~g~{0}~s~/{1} punktów ({2} by zdać). Teraz możesz zostać ~b~Policjantem~s~.</String>
+        <String xml:lang="tr-TR">~g~Tebrikler! ~s~Sınavı ~g~{0}~s~/{1} puan ile geçtiniz (Geçme notu:{2}). Artık ~b~Polis Memuru ~s~olabilirsiniz.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152))
@@ -5682,6 +5802,7 @@
         <String xml:lang="no-NO">{0}Du kan eksportere dette kjøretøyet for ~g~{1}~s~. {2}</String>
         <String xml:lang="fr-FR">{0}Vous pouvez exporter ce véhicule pour ~g~{1}~s~. {2}</String>
         <String xml:lang="sv-SE">{0} Du kan exportera det här fordonet för ~g~{1}~s~. {2}</String>
+        <String xml:lang="tr-TR">{0}Bu aracı ~g~{1} ~s~karşılığında ihraç edebilirsiniz. {2}</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom)
@@ -5702,6 +5823,7 @@
         <String xml:lang="no-NO">Du eksporterte en ~b~{0} ~s~for ~g~{1}~s~.</String>
         <String xml:lang="sv-SE">Du exporterade en ~b~{0} ~s~för ~g~{1}~s~.</String>
         <String xml:lang="fr-FR">Vous avez exporté une ~b~{0} ~s~pour ~g~{1}~s~.</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracı ~g~{1} ~s~karşılığında ihraç ettiniz.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount (for example: $12,500,000)
@@ -5722,6 +5844,7 @@
         <String xml:lang="no-NO">Du kan skrote dette kjøretøyet for ~g~{0}~s~. {1}</String>
         <String xml:lang="sv-SE">Du kan skrota det här fordonet för ~g~{0}~s~. {1}</String>
         <String xml:lang="lv-LV">Jūs varat utilizēt šo transportlīdzekli par ~g~{0}~s~. {1}</String>
+        <String xml:lang="tr-TR">Bu aracı ~g~{0} ~s~karşılığında hurdaya çıkarabilirsin. {1}</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom)
@@ -5742,6 +5865,7 @@
         <String xml:lang="pl-PL">Sprzedałeś ~b~{0} ~s~za ~g~{1}~s~.</String>
         <String xml:lang="no-NO">Du solgte en ~b~{0} ~s~for ~g~{1}~s~.</String>
         <String xml:lang="sv-SE">Du sålde en ~b~{0} ~s~för ~g~{1}~s~.</String>
+        <String xml:lang="tr-TR">bir ~b~{0} ~s~sattınız ve karşılığında ~g~{1} ~s~kazandınız.</String>
     </Entry>
 
     <!-- nullnull{0} = Required cops to rob business (for example: 5) -->
@@ -5760,6 +5884,7 @@
         <String xml:lang="pl-PL">Nie możesz okraść tego ~r~biznesu ~s~gdy na serwerze jest mniej niż ~b~{0} gliniarzy~s~.</String>
         <String xml:lang="no-NO">Du kan ikke rane denne ~r~virksomheten ~s~når det er færre enn ~b~{0} politimenn ~s~på nettet.</String>
         <String xml:lang="sv-SE">Du kan inte råna detta ~r~företaget ~s~när det finns färre än ~b~{0} poliser ~s~anslutna.</String>
+        <String xml:lang="tr-TR">Mevcut polis sayısı ~b~{0}~s~'den az iken bu ~r~iş yerini ~s~soyamazsınız.</String>
     </Entry>
 
     <!-- {0} = Type - reference to string "felony" and "major_felony" 
@@ -5781,6 +5906,7 @@
         <String xml:lang="no-NO">Du har begått en {0} ~s~- {1}</String>
         <String xml:lang="sv-SE">Du begick ett {0} ~s~- {1}</String>
         <String xml:lang="vi-VN">Bạn đã phạm một tội {0} ~s~- {1}</String>
+        <String xml:lang="tr-TR">{0} ~s~olan {1} işlediniz.</String>
     </Entry>
 
     <!-- nullnull{0} = Location (for example: Downtown Los Santos)
@@ -5801,6 +5927,7 @@
         <String xml:lang="no-NO">~b~Ranet fullført! ~s~Du har ranet ~y~{0}~s~. Klippet ditt er ~g~{1}~s~.</String>
         <String xml:lang="fr-FR">~b~Braquage terminé! ~s~Vous avez réussi à braquer ~y~{0}~s~. Votre part est de ~g~{1}~s~.</String>
         <String xml:lang="sv-SE">~b~Rånet slutfört! ~s~Du har lyckats råna ~y~{0}~s~. Ditt snitt är ~g~{1}~s~.</String>
+        <String xml:lang="tr-TR">~b~Soygun Tamamlandı! ~s~Başarıyla ~y~{0} ~s~noktasını soydunuz. Payınız ~g~{1}~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Player's name (for example: Stijnjw) -->
@@ -5819,6 +5946,7 @@
         <String xml:lang="pl-PL">{0} zobaczył napad!</String>
         <String xml:lang="no-NO">{0} har oppdaget ranet!</String>
         <String xml:lang="sv-SE">{0} har upptäckt rånet!</String>
+        <String xml:lang="tr-TR">{0} soygunu fark etti!</String>
     </Entry>
 
     <!-- nullnull{0} = Cooldown (for example: 5 minutes) -->
@@ -5836,6 +5964,7 @@
         <String xml:lang="pl-PL">Zostałeś złapany tu na ~r~kradzieży~s~. Wróć za ~y~{0}~s~.</String>
         <String xml:lang="no-NO">Du har blitt tatt i ~r~butikktyveri ~s~her. Kom tilbake om ~y~{0}~s~.</String>
         <String xml:lang="sv-SE">Du har åkt på ~r~butiksnatteri ~s~här. Kom tillbaka om ~y~{0}~s~.</String>
+        <String xml:lang="tr-TR">Burada ~r~hırsızlık ~s~yaparken yakalandınız. ~y~{0} ~s~sonra tekrar gelin.</String>
     </Entry>
 
     <!-- nullnull{1} = Player name (for example: Stijnjw)
@@ -5860,6 +5989,7 @@
         <String xml:lang="no-NO">{0}{1} ({2}) ~s~har funnet dagens ~b~mest ettersøkte kjøretøy ~s~i ~y~{3}~s~. Verdi: ~g~{4}~s~.</String>
         <String xml:lang="zh-Hant">{0}{1} ({2}) ~s~在 ~y~{3}~s~找到了今天 ~b~最有價值的車輛~s~. 價值: ~g~{4}~s~.</String>
         <String xml:lang="lv-LV">{0}{1} ({2}) ~s~ir atradis šodienas ~b~Most Wanted transportlīdzekli ~y~{3}~s~. Vērtība: ~g~{4}~s~.</String>
+        <String xml:lang="tr-TR">{0}{1} ({2}) ~s~isimli oyuncu ~y~{3} ~s~civarında bugünün ~b~en çok aranan aracı~s~nı buldu. Değeri: ~g~{4}~s~.</String>
     </Entry>
 
     <Entry Id="robbery_caught_shoplifting_wait">
@@ -5878,6 +6008,7 @@
         <String xml:lang="no-NO">~r~Du må vente før du stjeler denne butikken igjen!</String>
         <String xml:lang="fr-FR">~r~Tu devez attendre avant de voler de nouveau dans ce magasin!</String>
         <String xml:lang="sv-SE">~r~Du måste vänta innan du snattar från den här butiken igen!</String>
+        <String xml:lang="tr-TR">~r~Bu mağazada tekrar hırsızlık yapmadan önce beklemeniz gerekiyor!</String>
     </Entry>
 
     <Entry Id="robbery_steal_weapon">
@@ -5896,6 +6027,7 @@
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas voler une arme!</String>
         <String xml:lang="no-NO">~r~Du kan ikke stjele et våpen!</String>
         <String xml:lang="sv-SE">~r~Du kan inte stjäla ett vapen!</String>
+        <String xml:lang="tr-TR">~r~Silah çalamazsınız!</String>
     </Entry>
 
     <Entry Id="robbery_steal_weapon_attachment">
@@ -5914,6 +6046,7 @@
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas voler un accessoire d'arme!</String>
         <String xml:lang="no-NO">~r~Du kan ikke stjele et våpenvedlegg!</String>
         <String xml:lang="sv-SE">~r~Du kan inte stjäla ett vapentillbehör!</String>
+        <String xml:lang="tr-TR">~r~Silah eklentisi çalamazsınız!</String>
     </Entry>
 
     <Entry Id="robbery_player_cracking_safe">
@@ -6003,6 +6136,7 @@
         <String xml:lang="hi-Latn">Aap ~g~successfully ~s~tijori crack kar liye!</String>
         <String xml:lang="no-NO">Du ~g~vellykket ~s~knekt opp safen!</String>
         <String xml:lang="sv-SE">Du ~g~lyckates ~s~knäcka kassaskåpet!</String>
+        <String xml:lang="tr-TR">Kasayı ~g~başarıyla ~s~açtınız!</String>
     </Entry>
 
     <Entry Id="robbery_cracking_safe">
@@ -6427,6 +6561,7 @@
         <String xml:lang="sv-SE">~r~Tiden är ute.</String>
         <String xml:lang="hi-Latn">~r~Time khatam.</String>
         <String xml:lang="pl-PL">~r~Czas się skończył.</String>
+        <String xml:lang="tr-TR">~r~Süre doldu.</String>
     </Entry>
 
     <Entry Id="dealership_drive_left">
@@ -6441,6 +6576,7 @@
         <String xml:lang="sv-SE">Du ~r~lämnade ~s~~b~fordonet~s~.</String>
         <String xml:lang="hi-Latn">Aapne ~b~vehicle ~r~left ~s~kar diya.</String>
         <String xml:lang="pl-PL">~r~Opuściłeś ~s~~b~pojazd~s~.</String>
+        <String xml:lang="tr-TR">~b~Aracı ~r~terk ettin~s~.</String>
     </Entry>
 
     <Entry Id="dealership_drive_too_far_away">
@@ -6455,6 +6591,7 @@
         <String xml:lang="sv-SE">Du gick ~r~för långt ~s~från ~y~återförsäljaren~s~.</String>
         <String xml:lang="hi-Latn">Aap ~r~dealership ~s~se ~y~bahut door ~s~chale gaye.</String>
         <String xml:lang="pl-PL">Oddaliłeś się ~r~zbyt daleko ~s~od ~y~salonu samochodowego~s~.</String>
+        <String xml:lang="tr-TR">~y~Galeri~s~den ~r~çok uzaklaştınız~s~.</String>
     </Entry>
 
     <Entry Id="dealership_drive_damaged">
@@ -6469,6 +6606,7 @@
         <String xml:lang="sv-SE">Du ~r~skadade~s~ fordonet! Du får inte tillbaka din insättning.</String>
         <String xml:lang="hi-Latn">Aapne vehicle ko ~r~damage ~s~kiya! Aapka deposit wapas nahi milega.</String>
         <String xml:lang="pl-PL">~r~Uszkodziłeś ~s~pojazd! Nie odzyskasz swojego depozytu.</String>
+        <String xml:lang="tr-TR">Araca ~r~hasar verdiniz~s~! Depozitonuzu geri alamayacaksınız.</String>
     </Entry>
 
     <Entry Id="dealership_specified_plate_taken">
@@ -6487,6 +6625,7 @@
         <String xml:lang="fr-FR">~r~Cette plaque d'immatriculation est déjà prise.</String>
         <String xml:lang="no-NO">~r~Det angitte bilskiltet er allerede tatt.</String>
         <String xml:lang="sv-SE">~r~Den angivna registreringsskylten är redan upptagen.</String>
+        <String xml:lang="tr-TR">~r~Belirtilen plaka başkası tarafından halihazırda kullanılıyor.</String>
     </Entry>
 
     <Entry Id="dealership_garage_full_use_another">
@@ -6505,6 +6644,7 @@
         <String xml:lang="no-NO">~r~Garasjen din er full. Vennligst velg en annen garasje.</String>
         <String xml:lang="fr-FR">~r~Votre garage est plein. Merci de sélectionner un autre garage.</String>
         <String xml:lang="sv-SE">~r~Ditt garage är fullt. Vänligen välj ett annat garage.</String>
+        <String xml:lang="tr-TR">~r~Garajınız dolu. Lütfen başka bir garaj seçin.</String>
     </Entry>
 
     <Entry Id="job_garage">
@@ -6519,6 +6659,7 @@
         <String xml:lang="sv-SE">Jobb Garage</String>
         <String xml:lang="hi-Latn">Job Garage</String>
         <String xml:lang="pl-PL">Garaż służbowy</String>
+        <String xml:lang="tr-TR">Meslek Garajı</String>
     </Entry>
 
     <Entry Id="menu_job_garage_subtitle">
@@ -6533,6 +6674,7 @@
         <String xml:lang="sv-SE">Välj ett fordon att ta ut</String>
         <String xml:lang="hi-Latn">Bahar nikalne ke liye ek vehicle select karien.</String>
         <String xml:lang="pl-PL">Wybierz pojazd który chcesz wyjąć z garażu</String>
+        <String xml:lang="tr-TR">Dışarı çıkartmak üzere bir araç seçin.</String>
     </Entry>
 
     <Entry Id="menu_job_garage_empty_text">
@@ -6547,6 +6689,7 @@
         <String xml:lang="sv-SE">Inga jobbbilar :(</String>
         <String xml:lang="hi-Latn">Koi job vehicles nahi hai :(</String>
         <String xml:lang="pl-PL">Brak pojazdów służbowych :(</String>
+        <String xml:lang="tr-TR">Hiç meslek aracınız yok :(</String>
     </Entry>
 
     <Entry Id="menu_job_garage_empty_description">
@@ -6561,6 +6704,7 @@
         <String xml:lang="hi-Latn">Aapke paas koi vehicle nahi hai aapki ~b~current job~s~ ke liye, aur aap ~r~personal vehicles ~s~use nahi kar sakte jab aap is job pe hai. Job vehicles kharidein aur woh iss menu me show hoegi.</String>
         <String xml:lang="sv-SE">Du har inget fordon för ditt ~b~nuvarande jobb~s~, och du ~r~kan inte ~s~sanvända dina personliga fordon medan du är på det här jobbet. Köp jobbbilar så dyker de upp i den här menyn.</String>
         <String xml:lang="pl-PL">Nie masz żadnego pojazdu do ~b~bieżącej pracy~s~ i ~r~nie możesz ~s~używać swoich pojazdów osobistych podczas tej pracy. Kup pojazdy do pracy, a pojawią się one w tym menu.</String>
+        <String xml:lang="tr-TR">~b~Mevcut mesleğiniz~s~için herhangi bir aracınız yok. Bu meslekte çalışırken, kişisel araçlarınızı ~r~kullanamazsınız~s~. Satın aldığınız meslek araçları bu menüde görünecektir.</String>
     </Entry>
 
     <Entry Id="ddriver_description">
@@ -6575,6 +6719,7 @@
         <String xml:lang="sv-SE">~c~(C)Leveransförare:(/C) ~s~leverera ~b~varor ~s~för att tjäna pengar.</String>
         <String xml:lang="hi-Latn">~c~(C)Delivery Driver:(/C) ~s~paise kamane ke liye ~b~samaan~s~ deliver karein.</String>
         <String xml:lang="pl-PL">~c~(C)Kierowca dostaw:(/C) ~s~dostarcza ~b~towary ~s~aby zarabiać pieniądze.</String>
+        <String xml:lang="tr-TR">~c~(C)Teslimat Sürücüsü:(/C) ~s~para kazanmak için ~b~yük ~s~teslim et.</String>
     </Entry>
 
     <Entry Id="menu_ddriver_title">
@@ -6589,6 +6734,7 @@
         <String xml:lang="sv-SE">Leverans förare</String>
         <String xml:lang="hi-Latn">Delivery Driver</String>
         <String xml:lang="pl-PL">Kierowca dostawczaka</String>
+        <String xml:lang="tr-TR">Teslimat Sürücüsü</String>
     </Entry>
 
     <Entry Id="menu_ddriver_deliveries_text">
@@ -6603,6 +6749,7 @@
         <String xml:lang="sv-SE">Leveranser</String>
         <String xml:lang="hi-Latn">Deliveries</String>
         <String xml:lang="pl-PL">Dostawy</String>
+        <String xml:lang="tr-TR">Teslimatlar</String>
     </Entry>
 
     <Entry Id="menu_ddriver_deliveries_descr">
@@ -6617,6 +6764,7 @@
         <String xml:lang="sv-SE">Se tillgängliga leveransjobb.</String>
         <String xml:lang="hi-Latn">View karein available delivery jobs.</String>
         <String xml:lang="pl-PL">Zobacz dostępne oferty pracy w dostawach.</String>
+        <String xml:lang="tr-TR">Mevcut teslimat işlerini görüntüle.</String>
     </Entry>
 
     <Entry Id="menu_ddriver_history_text">
@@ -6631,6 +6779,7 @@
         <String xml:lang="sv-SE">Historik</String>
         <String xml:lang="hi-Latn">History</String>
         <String xml:lang="pl-PL">Historia</String>
+        <String xml:lang="tr-TR">Geçmiş</String>
     </Entry>
 
     <Entry Id="menu_ddriver_history_descr">
@@ -6645,6 +6794,7 @@
         <String xml:lang="sv-SE">Visa leveransjobben som du slutförde under den aktuella sessionen.</String>
         <String xml:lang="hi-Latn">View karein pichli delivery jobs jo aapne current session me complete kiye hai.</String>
         <String xml:lang="pl-PL">Wyświetl zadania dostawy, które ukończyłeś w bieżącej sesji.</String>
+        <String xml:lang="tr-TR">Mevcut oturumda tamamladığınız teslimat işlerini görüntüleyin.</String>
     </Entry>
 
     <Entry Id="menu_ddriver_history_subtitle">
@@ -6659,6 +6809,7 @@
         <String xml:lang="sv-SE">Välj ett tidigare leveransjobb</String>
         <String xml:lang="hi-Latn">Select karein ek purani delivery job</String>
         <String xml:lang="pl-PL">Wybierz poprzednią dostawę</String>
+        <String xml:lang="tr-TR">Geçmiş teslimat işini seçin.</String>
     </Entry>
 
     <Entry Id="menu_ddriver_current_delivery_text">
@@ -6673,6 +6824,7 @@
         <String xml:lang="sv-SE">Nuvarande Leverans</String>
         <String xml:lang="hi-Latn">Current Delivery</String>
         <String xml:lang="pl-PL">Aktualna dostawa</String>
+        <String xml:lang="tr-TR">Mevcut Teslimat</String>
     </Entry>
 
     <Entry Id="menu_ddriver_current_delivery_descr">
@@ -6687,6 +6839,7 @@
         <String xml:lang="sv-SE">Se detaljer om pågående leverans.</String>
         <String xml:lang="hi-Latn">View karein details jo abhi delivery progress me hai.</String>
         <String xml:lang="pl-PL">Zobacz szczegóły dotyczące trwającej dostawy.</String>
+        <String xml:lang="tr-TR">Devam eden teslimat hakkında detayları görüntüle.</String>
     </Entry>
 
     <Entry Id="menu_ddriver_delivery_details_payout">
@@ -6701,6 +6854,7 @@
         <String xml:lang="sv-SE">Utbetalning</String>
         <String xml:lang="hi-Latn">Payout</String>
         <String xml:lang="pl-PL">Wypłata</String>
+        <String xml:lang="tr-TR">Ödeme</String>
     </Entry>
 
     <Entry Id="menu_ddriver_delivery_details_time_left">
@@ -6715,6 +6869,7 @@
         <String xml:lang="sv-SE">Tid kvar</String>
         <String xml:lang="hi-Latn">Time bacha</String>
         <String xml:lang="pl-PL">Pozostały czas</String>
+        <String xml:lang="tr-TR">Kalan süre</String>
     </Entry>
 
     <Entry Id="menu_ddriver_delivery_details_itinerary">
@@ -6729,6 +6884,7 @@
         <String xml:lang="sv-SE">Resväg</String>
         <String xml:lang="hi-Latn">Route</String>
         <String xml:lang="pl-PL">Trasa</String>
+        <String xml:lang="tr-TR">Güzergah</String>
     </Entry>
 
     <Entry Id="menu_ddriver_delivery_details_other">
@@ -6743,6 +6899,7 @@
         <String xml:lang="sv-SE">Övrig info</String>
         <String xml:lang="hi-Latn">Baaki info</String>
         <String xml:lang="pl-PL">Pozostałe informacje</String>
+        <String xml:lang="tr-TR">Diğer bilgiler</String>
     </Entry>
 
     <Entry Id="menu_ddriver_delivery_details">
@@ -6757,6 +6914,7 @@
         <String xml:lang="sv-SE">Detaljer</String>
         <String xml:lang="hi-Latn">Details</String>
         <String xml:lang="pl-PL">Szczegóły</String>
+        <String xml:lang="tr-TR">Detaylar</String>
     </Entry>
 
     <Entry Id="menu_ddriver_delivery_cancel">
@@ -6771,6 +6929,7 @@
         <String xml:lang="sv-SE">~r~Avbryt Leverans</String>
         <String xml:lang="hi-Latn">~r~Delivery cancel karein</String>
         <String xml:lang="pl-PL">~r~Anuluj dostawę</String>
+        <String xml:lang="tr-TR">~r~Teslimatı iptal et</String>
     </Entry>
 
     <Entry Id="menu_ddriver_delivery_cancel_desc">
@@ -6819,6 +6978,7 @@
         <String xml:lang="pl-PL">Przekazałeś {0} ~y~{1}~s~.</String>
         <String xml:lang="no-NO">Du ga {0} en ~y~{1}~s~.</String>
         <String xml:lang="sv-SE">Du gav {0} en ~y~{1}~s~.</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncuya ~y~{1} ~s~verdin.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152))
@@ -6839,6 +6999,7 @@
         <String xml:lang="pl-PL">{0} ma już ~y~{1}~s~.</String>
         <String xml:lang="no-NO">{0} har allerede en ~y~{1}~s~.</String>
         <String xml:lang="sv-SE">{0} har redan en ~y~{1}~s~.</String>
+        <String xml:lang="tr-TR">{0} zaten ~y~{1}~s~'ı var.</String>
     </Entry>
 
     <!-- nullnull{0} = Job name (for example: Police Officer) -->
@@ -6858,6 +7019,7 @@
         <String xml:lang="pl-PL">~r~Ten salon nie jest dostępny gdy jesteś {0}.</String>
         <String xml:lang="no-NO">~r~Denne forhandleren er ikke tilgjengelig når du er en {0}.</String>
         <String xml:lang="sv-SE">~r~Denna återförsäljare är inte tillgänglig när du är en {0}.</String>
+        <String xml:lang="tr-TR">~r~Bu galeri, {0} iken erişilebilir değil.</String>
     </Entry>
 
     <!-- nullnull{0} = Job name (for example: Police Officer) -->
@@ -6877,6 +7039,7 @@
         <String xml:lang="sv-SE">~r~Du kan inte gå in i en bilhandlare när du är en {0}.</String>
         <String xml:lang="no-NO">~r~Du kan ikke gå inn i en bilforhandler når du er en {0}.</String>
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas entrer dans un concessionnaire en étant un {0}.</String>
+        <String xml:lang="tr-TR">~r~{0} iken araç galerisine giremezsiniz.</String>
     </Entry>
 
     <!-- nullnull{0} = Verb (for example: purchased)
@@ -6898,6 +7061,7 @@
         <String xml:lang="sv-SE">Hantera dina {0} fordon i {1} ~y~Meny ~s~&gt; ~y~Fordon</String>
         <String xml:lang="no-NO">Administrer {0} kjøretøy i {1} ~y~Meny ~s~&gt; ~y~Kjøretøy</String>
         <String xml:lang="fr-FR">Gérez vos véhicules {0} dans le ~y~menu {1} ~s~&gt; ~y~Véhicules</String>
+        <String xml:lang="tr-TR">{0} araçlarınızı {1} ~y~Menü ~s~&gt; ~y~Araçlar ~s~bölümünden yönetin.~y~</String>
     </Entry>
 
     <!-- Try to keep this as short as possible (needs to fit in menu subheader) -->
@@ -6913,6 +7077,7 @@
         <String xml:lang="sv-SE">Sorterat efter utbetalning</String>
         <String xml:lang="hi-Latn">Payout ke hisaab se sort kiya gaya</String>
         <String xml:lang="pl-PL">Posortowane według wypłaty</String>
+        <String xml:lang="tr-TR">Ödeme tutarına göre sıralandı.</String>
     </Entry>
 
     <!-- nullnull{0} = Time to await (for example: 5 minutes) -->
@@ -6928,6 +7093,7 @@
         <String xml:lang="sv-SE">Du måste vänta ~y~{0} ~s~innan du tar ett annat leveransjobb.</String>
         <String xml:lang="hi-Latn">Aapko ~y~{0} ~s~wait karna hoga agli delivery job lene se pehle.</String>
         <String xml:lang="pl-PL">Musisz poczekać ~y~{0} ~s~zanim weźmiesz się za kolejne zlecenie.</String>
+        <String xml:lang="tr-TR">Başka bir teslimat görevi almadan önce ~y~{0} ~s~beklemelisiniz.</String>
     </Entry>
 
     <!-- nullnull{0} = Final destination name (for example: Downtown Los Santos) -->
@@ -6943,6 +7109,7 @@
         <String xml:lang="sv-SE">Leverera till {0}</String>
         <String xml:lang="hi-Latn">{0} tak delivery</String>
         <String xml:lang="pl-PL">Dostarcz do {0}</String>
+        <String xml:lang="tr-TR">{0} noktasına teslimat</String>
     </Entry>
 
     <!-- nullnull{0} = Number of jobs (for example: 12)
@@ -6960,6 +7127,7 @@
         <String xml:lang="sv-SE">Det finns ~y~{0} leveransjobb ~s~tillgängliga för tillfället. {1} för att öppna leveranslistan.</String>
         <String xml:lang="hi-Latn">Abhi ~y~{0} delivery jobs ~s~available hai. {1} delivery list kholne ke liye.</String>
         <String xml:lang="pl-PL">Na ten moment jest ~y~{0} kursów ~s~{1} aby otworzyć listę dostaw.</String>
+        <String xml:lang="tr-TR">Şu anda ~y~{0} ~s~teslimat görevi var. Teslimat listesini açmak için {1}.</String>
     </Entry>
 
     <Entry Id="ddriver_already_on_job">
@@ -7228,6 +7396,7 @@
         <String xml:lang="sv-SE">Gå till ~y~{0} ~s~och lämna ~b~varorna~s~.</String>
         <String xml:lang="hi-Latn">~y~{0} ~s~jaaye aur ~b~samaan ~s~drop off kare.</String>
         <String xml:lang="pl-PL">Jedź do ~y~{0} ~s~i rozładuj ~b~ładunek~s~.</String>
+        <String xml:lang="tr-TR">~y~{0} ~s~noktasına gidin ve ~b~malları ~s~teslim edin.</String>
     </Entry>
 
     <!-- nullnull{0} = Area name (for example: Downtown Los Santos) -->
@@ -7243,6 +7412,7 @@
         <String xml:lang="hi-Latn">~y~{0} ~s~jaaye aur agla ~b~package ~s~delivery kare.</String>
         <String xml:lang="lv-LV">Dodieties uz ~y~{0}~s~ un piegādājiet nākamo ~b~paku~s~.</String>
         <String xml:lang="pl-PL">Idź do ~y~{0} ~s~i dostarcz kolejną ~b~przesyłkę~s~.</String>
+        <String xml:lang="tr-TR">~y~{0} ~s~noktasına gidin ve bir sonraki ~b~paketi ~s~teslim edin.</String>
     </Entry>
 
     <!-- Shown at the bottom right as a box with a health bar (please all uppercase) -->
@@ -7258,6 +7428,7 @@
         <String xml:lang="sv-SE">SLÄP</String>
         <String xml:lang="hi-Latn">TRAILER</String>
         <String xml:lang="pl-PL">PRZYCZEPA</String>
+        <String xml:lang="tr-TR">RÖMORK</String>
     </Entry>
 
     <!-- nullnull{0} = Type of truck (for example: semi truck) -->
@@ -7273,6 +7444,7 @@
         <String xml:lang="hi-Latn">Aapko ~y~delivery ~s~ko continue karne ke liye ~b~{0} ~s~ki zarurat hai.</String>
         <String xml:lang="no-NO">Du trenger en ~b~{0} ~s~for å fortsette denne ~y~leveringen~s~.</String>
         <String xml:lang="pl-PL">Potrzebujesz ~b~{0} ~s~aby kontynuować tą ~y~dostawę~s~.</String>
+        <String xml:lang="tr-TR">Bu ~y~teslimata ~s~devam etmek için ~b~{0} ~s~gerekiyor.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount earned (for example: $125,000) -->
@@ -7288,6 +7460,7 @@
         <String xml:lang="no-NO">Du fullførte ~b~leveringsjobben ~s~og tjente ~g~{0}~s~!</String>
         <String xml:lang="hi-Latn">Aapne ~b~delivery job ~s~complete kiya aur ~g~{0} ~s~kamaya!</String>
         <String xml:lang="pl-PL">Ukończyłeś ~b~pracę dostawcy ~s~i zyskałeś ~g~{0}~s~!</String>
+        <String xml:lang="tr-TR">~b~Teslimat görevini ~s~tamamladınız ve ~g~{0} ~s~kazandınız!</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (id) (for example: Stijnjw (152))
@@ -7305,6 +7478,7 @@
         <String xml:lang="no-NO">{0} har fullført en levering og tjent {1}.</String>
         <String xml:lang="hi-Latn">{0} ne ek delivery complete ki aur {1} kamaya.</String>
         <String xml:lang="pl-PL">{0} ukończył dostawę i zdobył {1}.</String>
+        <String xml:lang="tr-TR">{0} bir teslimatı tamamladı ve {1} kazandı.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount charged (for example: $500,000) -->
@@ -7320,6 +7494,7 @@
         <String xml:lang="sv-SE">Du har debiterats ~r~{0} ~s~som en avbokningsstraff.</String>
         <String xml:lang="hi-Latn">Aap par ~r~{0} ~s~ki cancellation penalty lagi hai.</String>
         <String xml:lang="pl-PL">Potrącono Ci ~r~{0} ~s~jako kara za anulowanie zlecenia.</String>
+        <String xml:lang="tr-TR">İptal cezası olarak ~r~{0} ~s~tutarı tarafınızdan tahsil edildi.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount charged (for example: $500,000) -->
@@ -7335,6 +7510,7 @@
         <String xml:lang="sv-SE">Du har debiterats ~r~{0}~s~ för att täcka förlusterna</String>
         <String xml:lang="hi-Latn">Aap par ~r~{0} ~s~charge kiya gaya hai nuksan cover karne ke liye.</String>
         <String xml:lang="pl-PL">Pobrano od ciebie ~r~{0} ~s~aby pokryć straty</String>
+        <String xml:lang="tr-TR">Zararınızı karşılamak için ~r~{0} ~s~tutarında ücret aldınız.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount covered (for example: $450,000) -->
@@ -7350,6 +7526,7 @@
         <String xml:lang="sv-SE">~b~försäkringsbolaget ~s~har helt täckt förlusterna (~r~{0}~s~)</String>
         <String xml:lang="hi-Latn">~b~Insurance company ~s~ne puri tarah se losses cover kiye (~r~{0}~s~)</String>
         <String xml:lang="pl-PL">~b~Ubezpieczyciel ~s~w pełni pokrył straty (~r~{0}~s~)</String>
+        <String xml:lang="tr-TR">~b~Sigorta şirketi~s~, zararını tamamen karşıladı (~r~{0}~s~)</String>
     </Entry>
 
     <!-- nullnull{0} = Name (id) of the target, including colors (for example: ~r~Stijnjw ~s~(152)) -->
@@ -7365,6 +7542,7 @@
         <String xml:lang="sv-SE">Du valde {0} som ditt ~r~mål~s~.</String>
         <String xml:lang="hi-Latn">Aapne {0} ko apna ~r~target ~s~select kiya hai.</String>
         <String xml:lang="pl-PL">Wybrałeś {0} jako swój ~r~cel~s~.</String>
+        <String xml:lang="tr-TR">~r~Hedefiniz ~s~olarak {0} isimli oyuncuyu seçtiniz.</String>
     </Entry>
 
     <!-- nullnull{0} = Name (id) of the target (already colored) (for example: ~r~Stijnjw ~s~(152))
@@ -7382,6 +7560,7 @@
         <String xml:lang="sv-SE">~y~(C)Nytt kontrakt:(/C) ~s~Döda~s~ {0} för ~g~{1}~s~.</String>
         <String xml:lang="hi-Latn">~y~(C)Naya contract:(/C) ~s~{0} ko ~g~{1}~s~ ke liye kill karein.</String>
         <String xml:lang="pl-PL">~y~(C)Nowy kontrakt:(/C) ~s~Zabij~s~ {0} za ~g~{1}~s~.</String>
+        <String xml:lang="tr-TR">~y~(C)Yeni sözleşme:(/C) ~s~{0} isimli oyuncuyu ~s~ve ~g~{1} ~s~kazan.</String>
     </Entry>
 
     <!-- nullnull{0} = Colored player name (for example: ~r~Stijnjw~s~)
@@ -7398,6 +7577,7 @@
         <String xml:lang="it-IT">{0} è stato visto da qualche parte intorno a {1}. Apri la tua mappa per visualizzare l'area.</String>
         <String xml:lang="hi-Latn">{0} kahin {1} ke aas paas dekha gaya tha. Map open karein area dekhne ke liye.</String>
         <String xml:lang="pl-PL">{0} był widziany gdzieś w pobliżu {1}. Otwórz mapę by zobaczyć obszar.</String>
+        <String xml:lang="tr-TR">{0} en son {1} civarlarında görüldü. Bölgeyi görmek için haritanı kontrol et.</String>
     </Entry>
 
     <!-- nullnull{0} = Name (id) of the target (already colored) (for example: ~r~Stijnjw ~s~(152))
@@ -7415,6 +7595,7 @@
         <String xml:lang="fr-FR">~y~(C)Contrat mis à jour:(/C) ~s~La récompense pour ~r~tuer~s~ {0} a été augmentée à ~g~{1}~s~.</String>
         <String xml:lang="lv-LV">~y~(C)Kontrakts atjaunināts:(/C) ~s~Atlīdzība par {0} ~r~nogalināšanu~s~ tika palielināta līdz ~g~{1}~s~.</String>
         <String xml:lang="pl-PL">~y~(C)Kontrakt zaaktualizowany:(/C) ~s~Nagroda za ~r~zabicie~s~ {0} została podniesiona do ~g~{1}~s~.</String>
+        <String xml:lang="tr-TR">~y~(C)Sözleşme güncellendi:(/C) ~s~{0} isimli oyuncunun ~r~öldürülmesi ~s~için verilen ödül ~g~{1} ~s~olarak arttırıldı.</String>
     </Entry>
 
     <!-- When you switch to M.D. -->
@@ -7430,6 +7611,7 @@
         <String xml:lang="it-IT">(C)Medico:(/C) ~s~fornisce ~p~servizi sanitari~s~ e oggetti in cambio di denaro.</String>
         <String xml:lang="pl-PL">(C)Doktor:(/C) ~s~zapewnia ~p~opiekę zdrowotną ~s~usługi i przedmioty za pieniądze.</String>
         <String xml:lang="zh-Hant">(C)自費醫生:(/C) ~s~給予 ~p~醫療照護 ~s~相關服務與物品以賺取金錢.</String>
+        <String xml:lang="tr-TR">(C)Doktor:(/C) ~s~para karşılığında ~p~sağlık hizmetleri ~s~ve malzemeleri sağlar.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Sasino)
@@ -7452,6 +7634,7 @@
         <String xml:lang="pl-PL">{0} {1}</String>
         <String xml:lang="sv-SE">{0} {1}</String>
         <String xml:lang="no-NO">{0} {1}</String>
+        <String xml:lang="tr-TR">{0} {1}</String>
     </Entry>
 
     <Entry Id="jewelry_hint_1">
@@ -7467,6 +7650,7 @@
         <String xml:lang="hi-Latn">Kya milega aapko wahan ~b~upar jaake~s~?</String>
         <String xml:lang="it-IT">Cosa troverai ~b~là sopra~s~?</String>
         <String xml:lang="pl-PL">Co możesz znaleźć ~b~tam na górze~s~?</String>
+        <String xml:lang="tr-TR">~b~Yukarıda ~s~ne bulacaksın?</String>
     </Entry>
 
     <Entry Id="jewelry_hint_4">
@@ -7482,6 +7666,7 @@
         <String xml:lang="hi-Latn">Yeh jagah bilkul perfect lag rahi hai throw karne ke liye... Kya aapke paas ~y~tear gas ~s~hai?</String>
         <String xml:lang="it-IT">Questo sembra il posto perfetto per il lancio... Hai il ~y~gas lacrimogeno~s~?</String>
         <String xml:lang="pl-PL">Wygląda to na idealne miejsce do rzutu... Czy masz ~y~gaz łzawiący~s~?</String>
+        <String xml:lang="tr-TR">Burası atış için ideal yer gibi görünüyor... ~y~Biber gazın~s~ var mı?</String>
     </Entry>
 
     <Entry Id="jewelry_cannot_be_robbed">
@@ -7497,6 +7682,7 @@
         <String xml:lang="it-IT">Questo non è il modo ideale per rapinare la ~b~gioielleria~s~. Continua a esplorare l'area, e potresti trovare qualcosa.</String>
         <String xml:lang="hi-Latn">Yeh ~b~jewelry store ~s~ko lootne ka sahi tareeka nahi hai. Area ko aur ache se explore karo, shayad kuch mil jaaye.</String>
         <String xml:lang="pl-PL">To nie jest najlepszy sposób na okradnięcie ~b~sklepu jubilerskiego~s~. Rozglądaj się po okolicy, a może znajdziesz wskazówkę</String>
+        <String xml:lang="tr-TR">~b~Mücevher dükkanı~s~nı soymanın ideal yolu bu değil. Bölgeyi keşfetmeye devam et, belki bir şeyler bulursun.</String>
     </Entry>
 
     <Entry Id="jewelry_hint_2">
@@ -7512,6 +7698,7 @@
         <String xml:lang="it-IT">Ehi, quello laggiù è il tetto della ~b~gioielleria~s~.</String>
         <String xml:lang="hi-Latn">Hey, waha ~b~jewelry store ~s~ki roof hai.</String>
         <String xml:lang="pl-PL">Ej, to dach ~b~sklepu jubilerskiego~s~!</String>
+        <String xml:lang="tr-TR">Hey, şurada ~b~mücevher dükkanı~s~nın çatı kısmı görünüyor.</String>
     </Entry>
 
     <Entry Id="jewelry_hint_3">
@@ -7528,6 +7715,7 @@
         <String xml:lang="it-IT">Guarda, è il ~y~condotto dell'aria~s~ della ~b~gioielleria~s~.</String>
         <String xml:lang="hi-Latn">Waha dekho, Yeh iss ~b~jewelry store ~s~ka ~y~air vent ~s~hai.</String>
         <String xml:lang="pl-PL">Spójrz na to! ~y~Szyb wentylacyjny ~s~~b~sklepu jubilerskiego~s~.</String>
+        <String xml:lang="tr-TR">Şuna bak, burası ~b~mücevher dükkanı~s~nın ~y~havalandırma menfezi~s~.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_already_in_progress">
@@ -7541,6 +7729,7 @@
         <String xml:lang="hi-Latn">~r~Jewelry store ki robbery pehle se hi chal rahi hai.</String>
         <String xml:lang="pl-PL">~r~Napad na jubiler jest w toku.</String>
         <String xml:lang="de-DE"> ~r~Der Überfall auf das Juweliergeschäft ist bereits im Gange.</String>
+        <String xml:lang="tr-TR">~r~Mücevher dükkanı soygunu halihazırda sürüyor.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_cooldown">
@@ -7554,6 +7743,7 @@
         <String xml:lang="hi-Latn">~r~Jewelry store ki robbery agle ~s~{0} minute ~r~aur ~s~{1} seconds ~r~tak shuru nahi ki ja sakti.</String>
         <String xml:lang="pl-PL">~r~Napad na jubilera nie może zostać rozpoczęty przez następne ~s~{0} minut ~r~i ~s~{1} sekund~r~.</String>
         <String xml:lang="de-DE"> ~r~Der Überfall auf das Juweliergeschäft kann in den nächsten ~s~{0} Minuten ~r~und ~s~{1} Sekunden~r~ nicht gestartet werden.</String>
+        <String xml:lang="tr-TR">~r~Mücevher dükkanı soygunu önümüzdeki ~s~{0} dakika ~r~ve ~s~{1} saniye ~r~başlatılamaz.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_not_enough_cops">
@@ -7567,6 +7757,7 @@
         <String xml:lang="hi-Latn">Jab online cops ~b~{0} ~s~se kam hote hain. Toh aap ~b~jewelry store ~s~tab aap jewelry store ko loot nahi sakte.</String>
         <String xml:lang="pl-PL">Nie możesz okraść ~b~jubilera ~s~kiedy jest mniej niż ~b~{0} policjantów ~s~online.</String>
         <String xml:lang="de-DE"> Man kann den ~b~Schmuckladen ~s~nicht ausrauben, wenn weniger als ~b~{0} Polizisten ~s~online sind.</String>
+        <String xml:lang="tr-TR">Çevrimiçi ~b~{0}polis ~s~olmadan ~b~mücevher dükkanı~s~nı soyamazsınız.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_initiated">
@@ -7581,6 +7772,7 @@
         <String xml:lang="pl-PL">~y~Gaz łzawiący ~s~wpadł do ~b~sklepu jubilerskiego~s~ przez wentylację.</String>
         <String xml:lang="zh-Hant">~y~催淚瓦斯~s~ 已從通風口進入 ~b~珠寶店~s~.</String>
         <String xml:lang="de-DE"> Das ~y~Tränengas~s~ ist durch die Entlüftungsöffnung in das ~b~Schmuckgeschäft~s~ gelangt.</String>
+        <String xml:lang="tr-TR">~y~biber gazı ~s~havalandırma borusundan ~b~mücevher mağazasına ~s~girdi.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_timer_bar_alarm">
@@ -7596,6 +7788,7 @@
         <String xml:lang="pl-PL">ALARM</String>
         <String xml:lang="zh-Hant">警報</String>
         <String xml:lang="de-DE">ALARM</String>
+        <String xml:lang="tr-TR">ALARM</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_timer_bar_gas">
@@ -7611,6 +7804,7 @@
         <String xml:lang="pl-PL">GAZ</String>
         <String xml:lang="zh-Hant">催淚瓦斯</String>
         <String xml:lang="de-DE">GAS</String>
+        <String xml:lang="tr-TR">GAZ</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_instruction_stop">
@@ -7626,6 +7820,7 @@
         <String xml:lang="pl-PL">Stop</String>
         <String xml:lang="zh-Hant">停止</String>
         <String xml:lang="de-DE">Stop</String>
+        <String xml:lang="tr-TR">Dur</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_need_blunt_weapon">
@@ -7640,6 +7835,7 @@
         <String xml:lang="hi-Latn">Iss ~r~bulletproof glass ~s~ko todne ke liye aapko ek ~y~blunt weapon ~s~ki zarurat hai.</String>
         <String xml:lang="pl-PL">Potrzebujesz ~y~broni tępej ~s~aby rozbić to ~r~kuloodporne szkło~s~.</String>
         <String xml:lang="de-DE"> Du brauchst eine ~y~stumpfe Waffe~s~, um dieses ~r~kugelsichere Glas~s~ zu zerbrechen.</String>
+        <String xml:lang="tr-TR">Bu ~r~kurşun geçirmez camı ~s~kırmak için ~y~künt silaha ~s~ihtiyacınız var.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_break_glass_failed">
@@ -7654,6 +7850,7 @@
         <String xml:lang="lv-LV">Jums ~r~neizdevās~s~ salauzt šo ~b~stiklu~s~. Izmēģiniet citu!</String>
         <String xml:lang="pl-PL">~r~Nie udało ci się ~s~rozbić tego ~b~szkła~s~. Spróbuj inne!</String>
         <String xml:lang="de-DE">Du hast es nicht ~r~geschafft~s~, dieses ~b~Glas~s~ zu zerbrechen. Versuch ein anderes!</String>
+        <String xml:lang="tr-TR">Bu ~b~camı ~s~kırmakta ~r~başarısız oldunuz~s~. Başka bir tane deneyin!</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_break_glass_succeeded">
@@ -7668,6 +7865,7 @@
         <String xml:lang="lv-LV">Jūs ~g~veiksmīgi~s~ salauzāt ~b~stiklu~s~.</String>
         <String xml:lang="pl-PL">Z ~g~powodzeniem~s~ rozbiłeś ~b~szkło~s~.</String>
         <String xml:lang="de-DE"> Du hast ~g~erfolgreich ~s~das ~b~Glas~s~ zerbrochen.</String>
+        <String xml:lang="tr-TR">~g~Başarıyla ~s~~b~camı ~s~kırdınız.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_go_to_hideout">
@@ -7681,6 +7879,7 @@
         <String xml:lang="hi-Latn">Aap ~b~jewelry store ~s~se kaafi door aagaye hain. Ab aap apne ~y~hideout ~s~pe jayie ~r~robbery ~s~complete kariye.</String>
         <String xml:lang="pl-PL">Oddaliłeś się wystarczająco daleko od ~b~jubilera~s~. Teraz jedź do ~y~skrytki ~s~aby ukończyć ~r~napad~s~.</String>
         <String xml:lang="de-DE"> Du hast dich weit genug vom ~b~Juwelier~s~ entfernt. Gehe jetzt zu einem ~y~Versteck~s~, um den ~r~Raub~s~ zu vollenden.</String>
+        <String xml:lang="tr-TR">~b~Mücevher mağazasından~s~ yeterince uzaklaştınız. Şimdi ~r~soygun~s~u tamamlamak için bir ~y~saklanma yeri~s~ne gidin.</String>
     </Entry>
 
     <!-- nullnull{0} = Time (for example: Sunday 10:00) -->
@@ -7695,6 +7894,7 @@
         <String xml:lang="hi-Latn">Aap ~y~{0} ~s~ke pehle tak ~b~jewelry store ~s~loot nahi sakte.</String>
         <String xml:lang="pl-PL">Nie możesz okraść ~b~sklepu jubilerskiego ~s~przed ~y~{0}~s~.</String>
         <String xml:lang="de-DE"> Du kannst den ~b~Juwelier ~s~nicht vor ~y~{0}~s~ ausrauben.</String>
+        <String xml:lang="tr-TR">~y~{0} ~s~'dan önce ~b~mücevher dükkanı~s~nı soyamazsınız.</String>
     </Entry>
 
     <!-- nullnull{0} = Time (for example: Saturday 14:00) -->
@@ -7709,6 +7909,7 @@
         <String xml:lang="hi-Latn">Aap ~b~jewelry store ~s~ko ~y~{0} ~s~ke baad nahi loot sakte kyuki server jald hi restart hone wala hai.</String>
         <String xml:lang="pl-PL">Nie możesz okraść ~b~sklepu jubilerskiego ~s~po ~y~{0} ~s~ponieważ serwer wkrótce się zrestartuje.</String>
         <String xml:lang="de-DE"> Du kannst den ~b~Juwelier ~s~nach ~y~{0} ~s~nicht mehr ausrauben, weil der Server bald neu gestartet wird.</String>
+        <String xml:lang="tr-TR">Sunucu yakında yeniden başlatılacağı için ~y~{0}~s~'dan sonra ~b~mücevher dükkanı~s~nı soyamazsınız.</String>
     </Entry>
 
     <!-- This will show up at the bottom right as a hint. For example "[B] Break" -->
@@ -7724,6 +7925,7 @@
         <String xml:lang="lv-LV">Lauzt</String>
         <String xml:lang="pl-PL">Wybij</String>
         <String xml:lang="de-DE">Zerstören</String>
+        <String xml:lang="tr-TR">Kır</String>
     </Entry>
 
     <!-- nullnull{0} = List of items (for example: 1 Silver Watch, 2 Gold Necklace) -->
@@ -7739,6 +7941,7 @@
         <String xml:lang="lv-LV">Jūs nozagāt {0}.</String>
         <String xml:lang="pl-PL">Ukradłeś {0}.</String>
         <String xml:lang="de-DE">Du hast {0} gestohlen.</String>
+        <String xml:lang="tr-TR">{0} çaldın.</String>
     </Entry>
 
     <!-- nullnull{0} = Job name (for example: Police) -->
@@ -7757,6 +7960,7 @@
         <String xml:lang="es-ES">Se le prohíbe temporalmente el trabajo de {0}.</String>
         <String xml:lang="pt-BR">Você está temporariamente proibido de como {0}</String>
         <String xml:lang="pl-PL">Jesteś tymczasowo ~r~zbanowany~s~ w pracy {0}.</String>
+        <String xml:lang="tr-TR">Geçici olarak {0} mesleğinden ~r~yasaklandınız~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Stijnjw (152))
@@ -7798,6 +8002,7 @@
         <String xml:lang="pt-BR">Conserte seu veículo completamente. Tempo: ~b~{0} segundos~s~.</String>
         <String xml:lang="sv-SE">Reparera ditt fordon helt. Tid: ~b~{0} sekunder~s~.</String>
         <String xml:lang="pl-PL">W pełni naprawia Twój pojazd. czas: ~b~{0} sekund~s~.</String>
+        <String xml:lang="tr-TR">Aracınızı tamamen onarın. Süre: ~b~{0} saniye~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Seconds needed for the repair (for example: 5) -->
@@ -7815,6 +8020,7 @@
         <String xml:lang="pt-BR">Conserte rapidamente o motor do seu veículo para obter 75% de saúde. Tempo: ~b~{0} segundos~s~.</String>
         <String xml:lang="sv-SE">Fixa snabbt ditt fordons motor upp till 75 % hälsa. Tid: ~b~{0} sekunder~s~.</String>
         <String xml:lang="pl-PL">Szybko naprawia silnik twojego pojazdu do 75% hp. Czas: ~b~{0} sekund~s~.</String>
+        <String xml:lang="tr-TR">Aracınızın motorunu hızlıca %75 seviyesine kadar onarın. Süre: ~b~{0} saniye~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Target (for example: Sasino)
@@ -7857,6 +8063,7 @@
         <String xml:lang="no-NO">Du fant ~r~ulovlige gjenstander ~s~på {0}!</String>
         <String xml:lang="sv-SE">Du hittade ~r~olagliga föremål ~s~på {0}~s~!</String>
         <String xml:lang="lv-LV">Jūs atradāt ~r~nelegālus priekšmetus~s~ pie {0}~s~!</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncunun üzerinde ~r~yasadışı maddeler ~s~buldunuz!</String>
     </Entry>
 
     <!-- nullnull{0} = Countdown (for example: 30) -->
@@ -7877,6 +8084,7 @@
         <String xml:lang="fr-FR">~y~Avertissement: ~s~vous quittez les ~b~États-Unis~s~. Vous serez hors service dans {0} secondes.</String>
         <String xml:lang="sv-SE">~y~Varning: ~s~du lämnar ~b~USA~s~. Du avslutar tjänsten om {0} sekunder.</String>
         <String xml:lang="it-IT">~y~Attenzione: ~s~stai lasciando gli ~b~Stati Uniti~s~. Fra {0} secondi sarai fuori servizio.</String>
+        <String xml:lang="tr-TR">~y~Uyarı: ~s~Şu anda ~b~Amerika Birleşik Devletleri ~s~dışına çıkıyorsunuz. {0} saniye içinde mesai dışı kalacaksınız.</String>
     </Entry>
 
     <!-- nullnull{0} = Questions count (for example: 10)
@@ -7895,6 +8103,7 @@
         <String xml:lang="no-NO">Velkommen til ~y~CnR V ~s~politieksamen.\n\nVennligst, lær deg politireglene på ~b~gtacnr.net/rules ~s~før du tar eksamen. Riktige svar gir ett eller flere poeng. Feil svar trekker fra ett poeng. Noen av feil svar vil umiddelbart mislykkes og avslutte eksamen hvis valgt. Hvis du stryker på eksamen eller forlater serveren, kan du ikke ta den igjen før en time. Svarene dine blir umiddelbart gjennomgått av serveren. Det er totalt ~y~{0} spørsmål~s~, riktige svar gir deg ett eller to poeng og bestått poengsum er ~y~{1} poeng~s~. Du har {2} minutter på deg til å sende inn eksamen.\n\n</String>
         <String xml:lang="fr-FR">Bienvenue à l'examen de police de ~y~CnR V~s~.\n\nMerci d'apprendre le règlement de la police sur ~b~gtacnr.net/rules ~s~avant de passer l'examen. Les bonnes réponses donnent un ou plusieurs points. Les mauvaises réponses enlèvent un point. Certaines mauvaises réponses vont entraîner un échec immédiat et terminer l'examen si elles sont sélectionnées. Si vous échouez à l'examen ou si vous quittez le serveur, vous ne pourrez pas le repasser avant une heure. Vos réponses sont immédiatement examinées par le serveur. Il y a un total de ~y~{0} questions~s~, les bonnes réponses donnent un ou deux points et le score de réussite est de ~y~{1} points~s~. Vous avez {2} minutes pour finir l'examen.\n\n</String>
         <String xml:lang="pl-PL">Witaj na egzaminie policyjnym ~y~CnR V ~s~\n\nProsimy byś nauczył się zasad jak grać policjantem na ~b~gtacnr.net/rules ~s~zanim przystąpisz do egzaminu. Poprawne odpowiedzi dają jeden lub więcej punktów. Złe odpowiedzi oznaczają jeden punkt mniej. Niektóre z odpowiedzi jeśli zostaną źle zaznaczone mogą natychmiastowo przerwać egzamin. Jeśli przerwiesz egzamin lub opuścisz serwer, nie możesz podejść do niego ponownie w ciągu 1 godziny. Odpowiedzi są natychmiastowo rozpatrywane przez serwer. Łącznie jest ~y~{0} pytań~s~, dobre odpowiedzi dają ci jeden lub dwa punkty, a potrzebny wynik to ~y~{1} points~s~. Masz {2} minut na ukończenie egzaminu.\n\n</String>
+        <String xml:lang="tr-TR">~y~CnR V ~s~Polis Sınavına Hoş Geldiniz. \n\nLütfen sınava başlamadan önce ~b~gtacnr.net/rules ~s~adresinden polis kurallarını öğrenin. Doğru cevaplar bir veya daha fazla puan kazandırır. Yanlış cevaplar bir puan düşürür. Bazı yanlış cevaplar ise sınavı anında geçersiz kılar ve sınavı sonlandırır. Eğer sınavdan kalırsanız veya sunucudan çıkarsanız, bir saat boyunca sınava tekrardan giremezsiniz. Cevaplarınız sunucu tarafından anında değerlendirilir. Toplam ~y~{0} soru ~s~vardır, doğru cevaplar size bir veya iki puan kazandırır ve geçme notu ~y~{1} puandır~s~. Sınavı tamamlamak için {2} dakikanız var.\n\n</String>
     </Entry>
 
     <!-- i.e. stop cracking the safe -->
@@ -7913,6 +8122,7 @@
         <String xml:lang="pt-BR">Parar (manter)</String>
         <String xml:lang="pl-PL">STOP</String>
         <String xml:lang="zh-Hant">停止</String>
+        <String xml:lang="tr-TR">Dur</String>
     </Entry>
 
     <!-- nullnull{0} = Weapon (for example: Shotgun)
@@ -7933,6 +8143,7 @@
         <String xml:lang="no-NO">Mottok en ~y~{0} ~s~fra (C){1}(/C).</String>
         <String xml:lang="fr-FR">Vous avez reçu un ~y~{0} ~s~de (C){1}(/C).</String>
         <String xml:lang="sv-SE">Fick en ~y~{0} ~s~från (C){1}(/C).</String>
+        <String xml:lang="tr-TR">(C){1}(/C) isimli oyuncudan ~y~{0} ~s~aldın.</String>
     </Entry>
 
     <!-- Try to keep this as short as possible (needs to fit in menu subheader) -->
@@ -7948,6 +8159,7 @@
         <String xml:lang="sv-SE">Sorterat efter hämtningsavstånd</String>
         <String xml:lang="hi-Latn">Pickup distance ke hisaab se sort kiya gaya</String>
         <String xml:lang="pl-PL">Posortowane według dystansu.</String>
+        <String xml:lang="tr-TR">Yük alma mesafesine göre sıralandı.</String>
     </Entry>
 
     <!-- Shown at the bottom right as an instructional button.
@@ -7965,6 +8177,7 @@
         <String xml:lang="fr-FR">Voir les livraisons</String>
         <String xml:lang="hi-Latn">Jobs dekhe</String>
         <String xml:lang="pl-PL">Zobacz oferty</String>
+        <String xml:lang="tr-TR">İşleri görüntüle</String>
     </Entry>
 
     <!-- Shown at the bottom as mission text / subtitle
@@ -7982,6 +8195,7 @@
         <String xml:lang="sv-SE">Gå till ~y~{0} ~s~och hämta ~b~varorna~s~.</String>
         <String xml:lang="hi-Latn">~y~{0} ~s~jaaye aur ~b~samaan ~s~pick up kare.</String>
         <String xml:lang="pl-PL">Jedź do ~y~{0} ~s~i odbierz ~b~ładunek~s~.</String>
+        <String xml:lang="tr-TR">~y~{0} ~s~noktasına gidin ve ~b~malları ~s~alın.</String>
     </Entry>
 
     <!-- Must be oriented correctly means that the heading/angle of the vehicle must be as per the markers. For example, the marker shows the player that the vehicle must be facing north, then the player must park it north. This explanation was given to avoid mistranslations due to missing context. -->
@@ -7997,6 +8211,7 @@
         <String xml:lang="hi-Latn">~b~Truck ~s~ko ~y~arrows~s~ ke hisaab se set karna hoga.</String>
         <String xml:lang="lv-LV">~b~Kravas auto~s~ ir jābūt orientētam, kā parādīts ar ~y~bultām~s~.</String>
         <String xml:lang="pl-PL">~b~Ciężarówka ~s~musi jechać tak jak pokazują ~y~strzałki~s~.</String>
+        <String xml:lang="tr-TR">~b~Tır~s~ın yönü ~y~okların ~s~gösterdiği şekilde olmalıdır.</String>
     </Entry>
 
     <!-- Please try to keep it short, these will show up at the bottom right of the screen like the info bars that show up during normal robberies, and there's not much space there -->
@@ -8011,6 +8226,7 @@
         <String xml:lang="lv-LV">PAŅEMTIE DĀRGUMI</String>
         <String xml:lang="pl-PL">SKRADZIONE PRZEDMIOTY</String>
         <String xml:lang="de-DE">GENOMMENE GEGENSTÄNDE</String>
+        <String xml:lang="tr-TR">ALINAN EŞYALAR</String>
     </Entry>
 
     <!-- This will show up as a subtitle (bottom middle of screen) -->
@@ -8025,6 +8241,7 @@
         <String xml:lang="hi-Latn">Leave karo ~o~orange area~s~.</String>
         <String xml:lang="pl-PL">Opuść ~o~pomaranćzową strefę~s~.</String>
         <String xml:lang="de-DE">Verlasse den ~o~orangen Bereich~s~.</String>
+        <String xml:lang="tr-TR">~o~Turuncu alan~s~dan ayrıl.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_not_ideal">
@@ -8038,6 +8255,7 @@
         <String xml:lang="pl-PL">To nie jest idealna metoda aby okraść ~b~sklep jubilerski~s~. Rozglądaj się po okolicy, być może coś znajdziesz.</String>
         <String xml:lang="hi-Latn">Yeh ~b~jewelry store ~s~ko lootne ka sahi tareeka nahi hai. Area ko explore karte raho, shayad kuch mil jaaye.</String>
         <String xml:lang="de-DE"> Das ist nicht der ideale Weg, um die ~b~Juweliere~s~ auszurauben. Erkunde die Gegend weiter und du wirst vielleicht etwas finden.</String>
+        <String xml:lang="tr-TR">~b~Mücevher dükkanını~s~ soymanın ideal yolu bu değil. Bölgeyi keşfetmeye devam et, belki bir şey bulursun.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_hint_1">
@@ -8051,6 +8269,7 @@
         <String xml:lang="pl-PL">Co ~b~tam~s~ znajdziesz?</String>
         <String xml:lang="hi-Latn">Aapko ~b~waha upar ~s~kya milega?</String>
         <String xml:lang="de-DE"> Was wirst du dort ~b~oben~s~ finden?</String>
+        <String xml:lang="tr-TR">~b~Yukarıda ~s~ne bulacaksın?</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_hint_2">
@@ -8064,6 +8283,7 @@
         <String xml:lang="pl-PL">Spójrz, to jest dach ~b~sklepu jubilerskiego~s~</String>
         <String xml:lang="hi-Latn">Hey, woh ~b~jewelry store ~s~ki roof hai waha par.</String>
         <String xml:lang="de-DE"> Hey, da drüben ist das Dach des ~b~Juweliers~s~.</String>
+        <String xml:lang="tr-TR">~s~Hey, bak oradaki ~b~mücevher dükkanı~s~nın çatısı~s~.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_hint_3">
@@ -8077,6 +8297,7 @@
         <String xml:lang="pl-PL">Spójrz na to, to jest ~y~szyb wentylacyjny ~s~ze ~b~sklepu jubilerskiego~s~.</String>
         <String xml:lang="hi-Latn">Woh dekho, wo iss poore ~b~jewelry store ~s~ka ~y~air vent ~s~hai.</String>
         <String xml:lang="de-DE"> Sieh dir das an, das ist der ~y~Lüftungsschacht~s~ des ~b~Juweliergeschäfts~s~.</String>
+        <String xml:lang="tr-TR">~s~Şuna bak, bu ~b~mücevher dükkanı~s~nın ~y~havalandırma menfezi~s~.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_hint_4">
@@ -8090,6 +8311,7 @@
         <String xml:lang="pl-PL">Wygląda na świetne miejsce do rzucenia... Masz ~y~gaz łzawiący~s~?</String>
         <String xml:lang="hi-Latn">Yeh jagah toh tear gas fekne ke liye perfect lag rahi hai... Kya aapke paas ~y~tear gas ~s~hai?</String>
         <String xml:lang="de-DE"> Das scheint der perfekte Ort zum Werfen zu sein... Hast du ~y~Tränengas~s~?</String>
+        <String xml:lang="tr-TR">Burası fırlatmak için mükemmel bir yer gibi görünüyor... ~y~biber gaz~s~ın var mı?</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_police_notification">
@@ -8103,6 +8325,7 @@
         <String xml:lang="pl-PL">(C)Centrala:(/C) Wszystkie jednostki! (C)Sklep Jubilerski(/C) jest okradany.</String>
         <String xml:lang="hi-Latn">(C)Dispatch:(/C) Sabhi units dhyaan dein. (C)jewelry store(/C) mein chori ho rahi hai.</String>
         <String xml:lang="de-DE"> (C)Leitstelle:(/C) Achtung an alle Einheiten. Das (C)Juweliergeschäft(/C) wird gerade ausgeraubt.</String>
+        <String xml:lang="tr-TR">(C)Merkez:(/C) Tüm birimlerin dikkatine. (C)Kuyumcu dükkanı(/C) soyuluyor.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_hideouts_available">
@@ -8116,6 +8339,7 @@
         <String xml:lang="pl-PL">Masz ~y~{0} ~s~odpowiednich ~r~kryjówek~s~.</String>
         <String xml:lang="hi-Latn">Aapke paas ~y~{0} ~s~suitable ~r~hideouts ~s~hain.</String>
         <String xml:lang="de-DE">Du hast ~y~{0} ~s~geeignete ~r~Verstecke~s~.</String>
+        <String xml:lang="tr-TR">~y~{0} ~s~adet uygun ~r~saklanma yerin~s~ var.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_no_hideouts_available">
@@ -8129,6 +8353,7 @@
         <String xml:lang="pl-PL">Nie masz odpowiedniej ~r~skrytki~s~. Możesz udać się do skrytki ~g~kumpla~s~ aby ukończyć napad.</String>
         <String xml:lang="hi-Latn">Aapke paas koi suitable ~r~hideout ~s~nahi hai. Aap robbery poora karne ke liye apne ~g~friend ~s~ke hideout par ja sakte hain.</String>
         <String xml:lang="de-DE"> Du hast kein geeignetes ~r~Versteck~s~. Du kannst zum Versteck eines ~g~Freundes~s~ gehen, um den Raub zu beenden.</String>
+        <String xml:lang="tr-TR">Uygun bir ~r~saklanma yeri~s~n yok. Soygunu tamamlamak için bir ~g~arkadaşının~s~ saklanma yerine gidebilirsin.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_list_hideouts_btn">
@@ -8142,6 +8367,7 @@
         <String xml:lang="pl-PL">Zobacz kryjówki</String>
         <String xml:lang="hi-Latn">Hideouts dekho</String>
         <String xml:lang="de-DE">Verstecke ansehen</String>
+        <String xml:lang="tr-TR">Saklanma yerlerini görüntüle</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_list_hideouts">
@@ -8155,6 +8381,7 @@
         <String xml:lang="pl-PL">Kryjówki</String>
         <String xml:lang="hi-Latn">Hideouts</String>
         <String xml:lang="de-DE">Verstecke</String>
+        <String xml:lang="tr-TR">Saklanma yerleri</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_list_hideouts_subtitle">
@@ -8168,6 +8395,7 @@
         <String xml:lang="pl-PL">Dostępne kryjówki</String>
         <String xml:lang="hi-Latn">Available hideouts</String>
         <String xml:lang="de-DE"> Verfügbare Verstecke</String>
+        <String xml:lang="tr-TR">Mevcut saklanma yerleri</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_no_items_taken">
@@ -8181,6 +8409,7 @@
         <String xml:lang="pl-PL">~r~Nie ukradłeś żadnych przedmiotów z jubilera.</String>
         <String xml:lang="hi-Latn">~r~Aapne jewelry store se koi bhi item nahi churaya hai.</String>
         <String xml:lang="de-DE">~r~Du hast keine Gegenstände aus dem Juweliergeschäft gestohlen.</String>
+        <String xml:lang="tr-TR">~r~Mücevher dükkanından hiç eşya çalmadın.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_property_owner_offline">
@@ -8194,6 +8423,7 @@
         <String xml:lang="pl-PL">~r~Właściciel posesji jest offline. Użyj innej kryjówki.</String>
         <String xml:lang="hi-Latn">~r~Iss property ka owner offline hai. Kisi doosre hideout ka use karo.</String>
         <String xml:lang="de-DE">~r~Der Besitzer dieser Immobilie ist offline. Benutze ein anderes Versteck.</String>
+        <String xml:lang="tr-TR">~r~Bu mülkün sahibi çevrimdışı. Farklı bir saklanma yeri kullan.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_cuffed">
@@ -8207,6 +8437,7 @@
         <String xml:lang="pl-PL">Zostałeś ~r~zatrzymany ~s~i nie udało ci się okraść ~b~jubilera~s~.</String>
         <String xml:lang="hi-Latn">Aapko ~r~cuff ~s~kar diya gaya hai aur aap ~b~jewelry store robbery ~s~mein fail ho gaye hain..</String>
         <String xml:lang="de-DE">Du wurdest in ~r~Handschellen~s~ gelegt und bist beim ~b~Juweliergeschäft-Überfall ~s~gescheitert.</String>
+        <String xml:lang="tr-TR">~r~Kelepçelendin ~s~ve ~b~mücevher dükkanı soygununu~s~ başaramadın.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_respawned">
@@ -8220,6 +8451,7 @@
         <String xml:lang="pl-PL"> ~r~Zginąłeś! ~s~Nie udało ci się okraść ~b~jubilera!~s~.</String>
         <String xml:lang="hi-Latn">Aap ~r~mar gaye ~s~aur ~b~jewelry store robbery ~s~mein fail ho gaye.</String>
         <String xml:lang="de-DE">Du bist ~r~gestorben ~s~und du hast den ~b~Schmuckladenüberfall~s~ nicht bestanden.</String>
+        <String xml:lang="tr-TR">~r~Öldün ~s~ve ~b~mücevher dükkanı soygununu~s~ başaramadın.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success">
@@ -8233,6 +8465,7 @@
         <String xml:lang="pl-PL">~g~Kradzież się udała! ~s~Z powodzeniem ukradłeś ~y~{0} przedmiotów ~s~z ~b~jubilera~s~.</String>
         <String xml:lang="hi-Latn">~g~Robbery completed! ~s~Aap successfully ~y~{0} items ~b~jewelry store ~s~se churaye.</String>
         <String xml:lang="de-DE">~g~Raubüberfall abgeschlossen! ~s~Du hast erfolgreich ~y~{0} Gegenstände ~s~aus dem ~b~Schmuckladen ~s~gestohlen.</String>
+        <String xml:lang="tr-TR">~g~Soygun Tamamlandı! ~y~{0} eşya~s~yı başarıyla ~b~mücevher dükkanı~s~ndan çaldın.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success_others_hideout">
@@ -8246,6 +8479,7 @@
         <String xml:lang="pl-PL">~g~Napad się udał! ~s~Z powodzeniem ukradłeś ~y~{0} przedmiotów ~s~z ~b~jubilera ~s~i schowałeś je w {1}'s posiadłości.</String>
         <String xml:lang="hi-Latn">~g~Robbery complete hui! ~s~Aapne successfully ~y~{0} items ~b~jewelry store ~s~se churaye aur unhe {1} ki property mein rakha.</String>
         <String xml:lang="de-DE">~g~Raubüberfall abgeschlossen! ~s~Du hast erfolgreich ~y~{0} Gegenstände ~s~aus dem ~b~Schmuckladen ~s~gestohlen und sie in {1}'s Immobilie gelagert.</String>
+        <String xml:lang="tr-TR">~g~Soygun Tamamlandı! ~y~{0} eşya~s~yı başarıyla ~b~mücevher dükkanı~s~ndan çaldın ve {1}'in mülküne ~s~depoladın.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success_with_error">
@@ -8259,6 +8493,7 @@
         <String xml:lang="pl-PL">~o~Kradzież zakończona błędem: ~s~niektórze przedmioty nie zostaną otrzymane z powodu ~r~brakującego miejca ~s~w posiadłości.</String>
         <String xml:lang="hi-Latn">~o~Robbery complete hui error ke saath: ~s~kuch items shayad isliye nahi mile kyunki property mein ~r~sufficient space ~s~nahi thi.</String>
         <String xml:lang="de-DE">~o~Überfall mit einem Fehler abgeschlossen: ~s~Einige Gegenstände wurden nicht aufgenommen, wahrscheinlich aufgrund von ~r~unzureichendem Platz ~s~in der Immobilie.</String>
+        <String xml:lang="tr-TR">~o~Soygun hata ile tamamlandı: ~s~bazı eşyalar alınamadı, muhtemelen mülkünde ~r~yeterli alan ~s~olmadığı için.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success_global_notification">
@@ -8272,5 +8507,6 @@
         <String xml:lang="pl-PL">(C){0}(/C) ukradł (C){1} biżuterię(/C) ze sklepu jubilerskiego!</String>
         <String xml:lang="hi-Latn">(C){0}(/C) ne jewelry store se (C){1} jewels(/C) churaaye!</String>
         <String xml:lang="de-DE">(C){0}(/C) hat (C){1} Juwelen(/C) aus dem Juweliergeschäft gestohlen!</String>
+        <String xml:lang="tr-TR">(C){0}(/C) kuyumcu dükkanından (C){1} mücevher(/C) çaldı!</String>
     </Entry>
 </Entries>
