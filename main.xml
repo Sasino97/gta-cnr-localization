@@ -84,6 +84,7 @@
         <String xml:lang="lv-LV">~r~Serverī radās neparedzēta kļūda, un laupīšana tika atcelta.</String>
         <String xml:lang="sv-SE">~r~Ett oväntat fel har inträffat på servern och rånet har avbrutits.</String>
         <String xml:lang="no-NO">~r~En uventet feil har oppstått på serveren og ranet er avbrutt.</String>
+        <String xml:lang="tr-TR">~r~Sunucuda beklenmeyen bir hata oluştu ve soygun iptal edildi.</String>
     </Entry>
 
     <Entry Id="invalid_item">
@@ -104,6 +105,7 @@
         <String xml:lang="lv-LV">~r~Nederīgs priekšmets.</String>
         <String xml:lang="no-NO">~r~Ugyldig element.</String>
         <String xml:lang="sv-SE">~r~Ogiltig artikel.</String>
+        <String xml:lang="tr-TR">~r~Geçersiz eşya.</String>
     </Entry>
 
     <Entry Id="not_available_short">
@@ -140,6 +142,7 @@
         <String xml:lang="no-NO">~r~Advarsel: ~s~det oppstod en feil ved lasting av lasten. Re-logging kan løse dette problemet.</String>
         <String xml:lang="fr-FR">~r~Avertissement : ~s~une erreur s'est produite lors du chargement de votre équipement. Se re-connecter peut résoudre ce problème.</String>
         <String xml:lang="sv-SE">~r~Varning: ~s~det var ett fel vid laddning av din loadout. Omloggning kan lösa detta problem.</String>
+        <String xml:lang="tr-TR">~r~Uyarı: ~s~Ekipman yüklenirken bir hata oluştu. Sorunu çözmek için yeniden giriş yapmayı deneyebilirsin.</String>
     </Entry>
 
     <Entry Id="error_loading_purchase_data">
@@ -157,6 +160,7 @@
         <String xml:lang="es-ES">No se han podido cargar los datos de su compra.</String>
         <String xml:lang="pt-BR">Não foi possível fazer o upload dos detalhes de sua compra.</String>
         <String xml:lang="pl-PL">Nie można załadować danych zakupu.</String>
+        <String xml:lang="tr-TR">Satın alma verilerin yüklenemiyor.</String>
     </Entry>
 
     <Entry Id="error_loading_subscription_data">
@@ -885,6 +889,7 @@
         <String xml:lang="es-ES">Desbloquear</String>
         <String xml:lang="pt-BR">Desbloquear</String>
         <String xml:lang="pl-PL">Odblokuj</String>
+        <String xml:lang="tr-TR">Engelini kaldır</String>
     </Entry>
 
     <Entry Id="block_cmd_suggestion_help">
@@ -902,6 +907,7 @@
         <String xml:lang="es-ES">Bloquea a un jugador. No verás ningún mensaje suyo hasta que lo desbloquees. No introduzcas un id para ver la lista de jugadores bloqueados.</String>
         <String xml:lang="pt-BR">Bloqueia um jogador. Você não verá nenhuma mensagem dele até que o desbloqueie. Não digite um ID para ver a lista de jogadores bloqueados.</String>
         <String xml:lang="pl-PL">Blokuje gracza. Nie zobaczysz żadnej wiadomości od niego, dopóki go nie odblokujesz. Nie wpisuj ID, aby zobaczyć listę zablokowanych graczy.</String>
+        <String xml:lang="tr-TR">Bir oyuncuyu engeller. Engelini kaldırana kadar ondan gelen hiçbir mesajı görmezsin. Engellenen oyuncular listesini görmek için id girmeden komutu kullan.</String>
     </Entry>
 
     <Entry Id="block_cmd_suggestion_param_name">
@@ -919,6 +925,7 @@
         <String xml:lang="es-ES">jugador id</String>
         <String xml:lang="pt-BR">player id</String>
         <String xml:lang="pl-PL">id gracza</String>
+        <String xml:lang="tr-TR">oyuncu id'si</String>
     </Entry>
 
     <Entry Id="block_cmd_suggestion_param_help">
@@ -936,6 +943,7 @@
         <String xml:lang="es-ES">El id actual del jugador que quieres bloquear.</String>
         <String xml:lang="pt-BR">O ID atual do jogador que você deseja bloquear.</String>
         <String xml:lang="pl-PL">ID gracza którego chcesz zablokować.</String>
+        <String xml:lang="tr-TR">Engellemek istediğin oyuncunun mevcut id'si</String>
     </Entry>
 
     <Entry Id="block_cmd_error_already_blocked">
@@ -953,6 +961,7 @@
         <String xml:lang="es-ES">El jugador especificado ya está bloqueado. Utiliza /unblock para desbloquear a un jugador.</String>
         <String xml:lang="pt-BR">O jogador especificado já está bloqueado. Use /unblock para desbloquear um jogador.</String>
         <String xml:lang="pl-PL">Ten gracz jest juz zablokowany. Wpisz /unblock aby odblokować.</String>
+        <String xml:lang="tr-TR">Belirtilen oyuncu zaten engellenmiş. Engelini kaldırmak için /unblock komutunu kullan.</String>
     </Entry>
 
     <Entry Id="unblock_cmd_suggestion_help">
@@ -970,6 +979,7 @@
         <String xml:lang="es-ES">Desbloquea un jugador.</String>
         <String xml:lang="pt-BR">Desbloquear um jogador.</String>
         <String xml:lang="pl-PL">Odblokowywuje gracza.</String>
+        <String xml:lang="tr-TR">Bir oyuncunun engelini kaldırır.</String>
     </Entry>
 
     <Entry Id="unblock_cmd_suggestion_param_help">
@@ -987,6 +997,7 @@
         <String xml:lang="es-ES">El id actual del jugador que quieres desbloquear.</String>
         <String xml:lang="pt-BR">O ID atual do jogador que você deseja desbloquear.</String>
         <String xml:lang="pl-PL">ID gracza którego chcesz odblokować.</String>
+        <String xml:lang="tr-TR">Engelini kaldırmak istediğin oyuncunun mevcut id'si</String>
     </Entry>
 
     <Entry Id="unblock_cmd_error_not_blocked">
@@ -1004,6 +1015,7 @@
         <String xml:lang="es-ES">El jugador indicado no está bloqueado.</String>
         <String xml:lang="pt-BR">O jogador indicado não está bloqueado.</String>
         <String xml:lang="pl-PL">Ten gracz nie jest zablokowany.</String>
+        <String xml:lang="tr-TR">Belirtilen oyuncu engellenmemiş.</String>
     </Entry>
 
     <Entry Id="cmd_player_numeric">
@@ -1018,6 +1030,7 @@
         <String xml:lang="sv-SE">Spelar-id måste vara ett nummer.</String>
         <String xml:lang="hi-Latn">Player id ek number hona chahiye.</String>
         <String xml:lang="pl-PL">ID gracza musi być numerem.</String>
+        <String xml:lang="tr-TR">Oyuncu id'si bir sayı olmalı.</String>
     </Entry>
 
     <Entry Id="input_enter_id">
@@ -1035,6 +1048,7 @@
         <String xml:lang="es-ES">Introduce el id del jugador.</String>
         <String xml:lang="pt-BR">Digite o ID do jogador.</String>
         <String xml:lang="pl-PL">Wpisz ID gracza.</String>
+        <String xml:lang="tr-TR">Oyuncunun id'sini gir</String>
     </Entry>
 
     <Entry Id="party_create_desc">
@@ -1049,6 +1063,7 @@
         <String xml:lang="fr-FR">Créer un groupe temporaire de personnes. Les membres d'un même groupe peuvent communiquer sur un canal radio dédié, se voir sur la mini-carte sur de longues distances et voir les icônes de chacun. De plus, certains crimes mineurs et la vengeance entre eux sont désactivés.</String>
         <String xml:lang="hi-Latn">Ek party banata hai: ek temporary logon ka group. Ek hi party ke members ek dedicated radio channel par baat kar sakte hain, door se map par ek-dusre ko dekh sakte hain, aur ek-dusre ke ping markers dekh sakte hain. Iske alawa, kuch chote-mote crimes aur revenge wagera disable ho jata hai.</String>
         <String xml:lang="pl-PL">Tworzy grupę: tymczasową grupę osób. Członkowie tej samej grupy mogą komunikować się przez dedykowany kanał radiowy, widzą się nawzajem na mapie z dużej odległości oraz widzą swoje znaczniki pingów. Dodatkowo, drobne przestępstwa oraz zemsta między nimi są wyłączone.</String>
+        <String xml:lang="tr-TR">Bir parti oluşturur: geçici bir insan grubu. Aynı partideki üyeler, özel bir radyo kanalında iletişim kurabilir, uzun mesafelerde haritada birbirlerini görebilir ve birbirlerinin işaretlerini takip edebilirler. Ayrıca, aralarındaki bazı küçük suçlar ve intikam işlemleri devre dışı bırakılır.</String>
     </Entry>
 
     <Entry Id="party_invite_desc">
@@ -1063,6 +1078,7 @@
         <String xml:lang="sv-SE">Bjuder in en spelare till ditt party</String>
         <String xml:lang="hi-Latn">Ek player ko aapki party mein bulata hai.</String>
         <String xml:lang="pl-PL">Zaprasza gracza do swojej drużyny.</String>
+        <String xml:lang="tr-TR">Bir oyuncuyu partine davet eder.</String>
     </Entry>
 
     <Entry Id="party_invite_param_player_desc">
@@ -1078,6 +1094,7 @@
         <String xml:lang="hi-Latn">Woh player id jise aap invite karna chahte hain.</String>
         <String xml:lang="zh-Hant">你想要邀請加入隊伍的玩家 ID.</String>
         <String xml:lang="pl-PL">ID gracza którego chcesz zaprosić.</String>
+        <String xml:lang="tr-TR">Davet etmek istediğin oyuncunun id'si</String>
     </Entry>
 
     <Entry Id="party_join_desc">
@@ -1093,6 +1110,7 @@
         <String xml:lang="hi-Latn">Ek player ki party join karne ki request bhejta hai.</String>
         <String xml:lang="zh-Hant">請求加入該玩家的隊伍.</String>
         <String xml:lang="pl-PL">Prośby o dołączenie do drużyny gracza.</String>
+        <String xml:lang="tr-TR">Bir oyuncunun partisine katılma isteğinde bulunur.</String>
     </Entry>
 
     <Entry Id="party_join_param_player_desc">
@@ -1108,6 +1126,7 @@
         <String xml:lang="hi-Latn">Woh player id jiski party aap join karna chahte hain.</String>
         <String xml:lang="zh-Hant">你想要加入的隊伍玩家 ID.</String>
         <String xml:lang="pl-PL">ID gracza, do którego drużyny chcesz dołączyć.</String>
+        <String xml:lang="tr-TR">Partisine katılmak istediğin oyuncunun id'si</String>
     </Entry>
 
     <Entry Id="party_leave_desc">
@@ -1267,6 +1286,7 @@
         <String xml:lang="hi-Latn">Please wait karein dubara party join request bhejne se pehle.</String>
         <String xml:lang="zh-Hant">請等一段時間再申請加入隊伍.</String>
         <String xml:lang="pl-PL">Poczekaj zanim ponownie poprosisz o dołączenie do grupy.</String>
+        <String xml:lang="tr-TR">Bir partiye yeniden katılma isteği göndermeden önce lütfen bekle.</String>
     </Entry>
 
     <Entry Id="party_join_requested_leader">
@@ -2113,6 +2133,7 @@
         <String xml:lang="hi-Latn">Sunday</String>
         <String xml:lang="de-DE">Sonntag</String>
         <String xml:lang="tr-TR">Pazar</String>
+        <String xml:lang="ga-IE">Dé Domhnaigh</String>
     </Entry>
 
     <Entry Id="weekday_1">
@@ -2127,6 +2148,7 @@
         <String xml:lang="hi-Latn">Monday</String>
         <String xml:lang="de-DE">Montag</String>
         <String xml:lang="tr-TR">Pazartesi</String>
+        <String xml:lang="ga-IE">Dé luan</String>
     </Entry>
 
     <Entry Id="weekday_2">
@@ -2141,6 +2163,7 @@
         <String xml:lang="hi-Latn">Tuesday</String>
         <String xml:lang="de-DE">Dienstag</String>
         <String xml:lang="tr-TR">Salı</String>
+        <String xml:lang="ga-IE">Dé Máirt</String>
     </Entry>
 
     <Entry Id="weekday_3">
@@ -2156,6 +2179,7 @@
         <String xml:lang="hi-Latn">Wednesday</String>
         <String xml:lang="de-DE">Mittwoch</String>
         <String xml:lang="tr-TR">Çarşamba</String>
+        <String xml:lang="ga-IE">Dé Céadaoin</String>
     </Entry>
 
     <Entry Id="weekday_4">
@@ -2171,6 +2195,7 @@
         <String xml:lang="hi-Latn">Thursday</String>
         <String xml:lang="de-DE">Donnerstag</String>
         <String xml:lang="tr-TR">Perşembe</String>
+        <String xml:lang="ga-IE">Déardaoin</String>
     </Entry>
 
     <Entry Id="weekday_5">
@@ -2186,6 +2211,7 @@
         <String xml:lang="hi-Latn">Friday</String>
         <String xml:lang="de-DE">Freitag</String>
         <String xml:lang="tr-TR">Cuma</String>
+        <String xml:lang="ga-IE">Dé hAoine</String>
     </Entry>
 
     <Entry Id="weekday_6">
@@ -2201,6 +2227,7 @@
         <String xml:lang="hi-Latn">Saturday</String>
         <String xml:lang="de-DE">Samstag</String>
         <String xml:lang="tr-TR">Cumartesi</String>
+        <String xml:lang="ga-IE">Dé Sathairn</String>
     </Entry>
 
     <Entry Id="party_desc">
@@ -2215,6 +2242,7 @@
         <String xml:lang="hi-Latn">Party menu open karta hai.</String>
         <String xml:lang="de-DE">Öffnet das Partymenü.</String>
         <String xml:lang="tr-TR">Parti menüsünü açar.</String>
+        <String xml:lang="ga-IE">Osclaíonn sé roghchlár an pháirtí.</String>
     </Entry>
 
     <Entry Id="menu_playerlist_subtitle">
@@ -2229,5 +2257,6 @@
         <String xml:lang="hi-Latn">Ek player select karo</String>
         <String xml:lang="de-DE">Wähle einen Spieler</String>
         <String xml:lang="tr-TR">Bir oyuncu seç</String>
+        <String xml:lang="ga-IE">Roghnaigh imreoir</String>
     </Entry>
 </Entries>

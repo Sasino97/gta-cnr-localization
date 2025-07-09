@@ -71,7 +71,7 @@
         <String xml:lang="sv-SE">~r~Du kan inte förvara ditt personliga fordon när du är död!</String>
         <String xml:lang="es-ES">~r~No puedes guardar tu vehículo personal cuando estás muerto!</String>
         <String xml:lang="pt-BR">~r~Você não pode guardar seu veículo pessoal quando estiver morto!</String>
-        <String xml:lang="tr-TR">~r~Ölüyken kişisel aracını muhafaza edemezsin!</String>
+        <String xml:lang="tr-TR">~r~Ölüyken kişisel aracını geri gönderemezsin!</String>
         <String xml:lang="pl-PL">~r~Nie możesz schować swojego osobistego pojazdu, gdy jesteś martwy!</String>
     </Entry>
 
@@ -89,7 +89,7 @@
         <String xml:lang="sv-SE">~r~Du kan inte förvara ditt personliga fordon när du är handfängslad</String>
         <String xml:lang="es-ES">~r~No puedes guardar tu vehículo personal cuando estás esposado!</String>
         <String xml:lang="pt-BR">~r~Você não pode guardar seu veículo pessoal quando estiver algemado.!</String>
-        <String xml:lang="tr-TR">~r~Kelepçeliyken kişisel aracını muhafaza edemezsin!</String>
+        <String xml:lang="tr-TR">~r~Kelepçeliyken kişisel aracını geri gönderemezsin!</String>
         <String xml:lang="pl-PL">~r~Nie możesz schować swojego pojazdu osobistego, gdy jesteś skuty!</String>
     </Entry>
 
@@ -98,7 +98,6 @@
         <String xml:lang="pl-PL">~r~Nie możesz wysłać swojego pojazdu do konserwacji gdy jesteś w środku niego.</String>
         <String xml:lang="nl-NL">~r~Je kan je persoonlijke voertuig niet naar een onderhoudsbeurt sturen wanneer je erin zit!</String>
         <String xml:lang="it-IT">~r~Non puoi inviare il tuo veicolo personale in manutenzione mentre sei dentro di esso!</String>
-        <String xml:lang="tr-TR">~r~Aracınızın içinde iken bakıma yollayamazsınız.</String>
         <String xml:lang="es-ES">~r~No puedes enviar tu vehículo personal a mantenimiento cuando estás dentro de él.</String>
         <String xml:lang="pt-BR">~r~Não é possível enviar seu veículo pessoal para manutenção quando você estiver dentro dele.</String>
         <String xml:lang="de-DE">~r~Du kannst dein persönliches Fahrzeug nicht zur Wartung schicken, wenn du dich darin befindest!</String>
@@ -109,6 +108,7 @@
         <String xml:lang="hi-Latn">~r~Aap apni vehicle maintenance pe nahi bhej sakte jab aap uske andar ho!</String>
         <String xml:lang="cs-CZ">~r~Své vozidlo nemůžeš poslat do servisu, dokud v něm sedíš.</String>
         <String xml:lang="lv-LV">~r~Jūs nevarat nosūtīt savu personīgo transportlīdzekli uz apkopi, kamēr atrodaties tajā!</String>
+        <String xml:lang="tr-TR">~r~Aracınızın içindeyken bakıma yollayamazsınız.</String>
         <String xml:lang="no-NO">~r~Du kan ikke sende ditt personlige kjøretøy til vedlikehold når du er inne i det!</String>
         <String xml:lang="sv-SE">~r~Du kan inte skicka ditt personliga fordon till underhåll när du är inne i det!</String>
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas envoyer votre véhicule personnel en maintenance en étant à l'intérieur!</String>
@@ -242,7 +242,6 @@
     <Entry Id="vehicle_returned_garage">
         <String xml:lang="en-US">Your ~b~{0} ~s~has been returned to your garage!</String>
         <String xml:lang="nl-NL">Je ~b~{0} ~s~is teruggebracht naar je garage!</String>
-        <String xml:lang="tr-TR">Senin ~b~{0} ~s~Garajına gönderildi!!</String>
         <String xml:lang="es-ES">¡Tu ~b~{0} ~s~ha sido devuelta a tu garaje!</String>
         <String xml:lang="pt-BR">Seu ~b~{0} ~s~foi devolvido à sua garagem!</String>
         <String xml:lang="ar-001">لقد تم إرجاع ~b~{0}~s~ الخاص بك إلى المرآب الخاص بك!</String>
@@ -255,6 +254,7 @@
         <String xml:lang="lv-LV">Jūsu ~b~{0} ~s~tika atgriezts garāžā!</String>
         <String xml:lang="de-DE">Dein ~b~{0} ~s~wurde zurück zur Garage gebracht!</String>
         <String xml:lang="pl-PL">Twój ~b~{0} ~s~został zwrócony do garażu!</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracın garajına geri gönderildi!</String>
         <String xml:lang="no-NO">Din ~b~{0} ~s~har blitt returnert til garasjen din!</String>
         <String xml:lang="sv-SE">Din ~b~{0} ~s~har återlämnats till ditt garage!</String>
         <String xml:lang="hi-Latn">Aapki ~b~{0} ~s~garage me return kar di gayi!</String>
@@ -276,16 +276,15 @@
         <String xml:lang="sv-SE">Din ~b~{0} ~s~har levererats!</String>
         <String xml:lang="es-ES">Tu ~b~{0} ~s~se ha entregado!</String>
         <String xml:lang="pt-BR">Your ~b~{0} ~s~foi entregue!</String>
-        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracın teslim edildi!</String>
         <String xml:lang="zh-Hant">你的 ~b~{0}~s~ 已送達!</String>
         <String xml:lang="pl-PL">Twój ~b~{0} ~s~został dostarczony!</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracın teslim edildi!</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
     <Entry Id="vehicle_completed_maintenance">
         <String xml:lang="en-US">The maintenance of your ~b~{0} ~s~has been completed.</String>
         <String xml:lang="nl-NL">De onderhoudsbeurt van je ~b~{0} ~s~is klaar.</String>
-        <String xml:lang="tr-TR">Senin aracın ~b~{0} ~s~tamiri tamamlandı.</String>
         <String xml:lang="es-ES">El mantenimiento de su ~b~{0} ~s~ha finalizado.</String>
         <String xml:lang="pt-BR">A manutenção de seu ~b~{0} ~s~foi concluída.</String>
         <String xml:lang="ar-001">تم الانتهاء من صيانة ~b~{0}~s~.</String>
@@ -299,6 +298,7 @@
         <String xml:lang="lv-LV">Jūsu ~b~{0} ~s~apkope tika pabeigta.</String>
         <String xml:lang="de-DE">Die Wartung von deinem ~b~{0} ~s~wurde abgeschlossen.</String>
         <String xml:lang="pl-PL">Konserwacja twojego ~b~{0} ~s~została ukończona.</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracınızın bakımı tamamlandı.</String>
         <String xml:lang="no-NO">Vedlikeholdet av din ~b~{0} ~s~er fullført.</String>
         <String xml:lang="sv-SE">Underhållet av din ~b~{0}~s~ har slutförts.</String>
         <String xml:lang="zh-Hant">~b~{0}~s~ 的保養已完成.</String>
@@ -308,7 +308,6 @@
     <Entry Id="vehicle_replaced_transported_garage">
         <String xml:lang="en-US">Your ~b~{0} ~s~has been replaced and transported to your garage!</String>
         <String xml:lang="nl-NL">Je ~b~{0} ~s~is vervangen en getransporteerd naar je garage!</String>
-        <String xml:lang="tr-TR">Senin ~b~{0} ~s~değiştirildi ve garajına gönderildi!</String>
         <String xml:lang="es-ES">¡Su ~b~{0} ~s~ha sido sustituido y transportado a su garaje!</String>
         <String xml:lang="pt-BR">Seu ~b~{0} ~s~foi substituído e transportado para sua garagem!</String>
         <String xml:lang="ar-001">لقد تم استبدال ~b~{0} ~s~الخاص بك ونقله إلى المرآب الخاص بك!</String>
@@ -317,6 +316,7 @@
         <String xml:lang="vi-VN">Xe ~b~{0} ~s~đã được thay thế và vận chuyển về gara của bạn!</String>
         <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata sostituita e trasportata al tuo garage!</String>
         <String xml:lang="pl-PL">Twój ~b~{0} ~s~został zamieniony i przetransportowany do twojego garażu!</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracın yenilenmiş haliyle garajına gönderildi!</String>
         <String xml:lang="cs-CZ">Tvé vozidlo ~b~{0} ~s~bylo nahrazeno a přepraveno do garáže!</String>
         <String xml:lang="hi-Latn">Aapki ~b~{0} ~s~replace karwa ke garage me teleport kara di gayi hai!</String>
         <String xml:lang="lv-LV">Jūsu ~b~{0} ~s~tika aizstāts un nosūtīts jūsu garāžā!</String>
@@ -347,7 +347,7 @@
         <String xml:lang="pl-PL">Twój wynajem ~b~{0}~s~ został przedłużony na kolejny tydzień w grze za ~g~{1}~s~!</String>
         <String xml:lang="no-NO">Leien av din ~b~{0}~s~ er forlenget med en ny spilluke for ~g~{1}~s~!</String>
         <String xml:lang="sv-SE">Din ~b~{0}~s~s hyra har förlängts med ytterligare en spelvecka för ~g~{1}~s~!</String>
-        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracınızın kirası ~g~{1}~s~karşılığında bir oyun haftası daha uzatıldı!</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracınızın kiralama süresi ~g~{1}~s~karşılığında bir oyun haftası daha uzatıldı!</String>
         <String xml:lang="hi-Latn">Aapki ~b~{0} ~s~ka rental ~g~{1} ~s~de kar ek aur game week ke liye extend kar diya gaya hai!</String>
         <String xml:lang="zh-Hant">你的 ~b~{0}~s~ 租賃已用 ~g~{1}~s~ 延長了一個遊戲周!</String>
     </Entry>
@@ -373,7 +373,7 @@
         <String xml:lang="no-NO"> Du solgte ~b~{0} ~s~en din til serveren for ~g~{1}~s~.</String>
         <String xml:lang="sv-SE">Du sålde din ~b~{0}~s~ till servern för ~g~{1}~s~.</String>
         <String xml:lang="fr-FR">Vous avez vendu votre ~b~{0} ~s~au serveur pour ~g~{1}~s~.</String>
-        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracınızı ~g~{1}~s~ karşılığında sunucuya sattınız.</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracınızı sunucuya ~g~{1} ~s~karşılşığında sattınız.</String>
         <String xml:lang="zh-Hant">你把你的 ~b~{0} ~s~以~g~{1}~s~ 售給伺服器.</String>
     </Entry>
 
@@ -395,7 +395,7 @@
         <String xml:lang="de-DE">Dein Vorrat an ~r~{0}~s~ ist niedrig. Zur nächstgelegenden ~y~Tankstelle ~s~navigieren? </String>
         <String xml:lang="no-NO">Du går tom for ~r~{0}~s~. Naviger til nærmeste ~y~bensinstasjon~s~?</String>
         <String xml:lang="fr-FR">Vous êtes à court ~r~{0}~s~. Naviguer vers la ~y~station-service ~s~la plus proche?</String>
-        <String xml:lang="tr-TR">~r~{0}~s~'nız azalıyor. En yakın ~y~benzin istasyonu~s~na yönlendirilmek istermisin?</String>
+        <String xml:lang="tr-TR">~r~{0}~s~'iniz azalıyor. En yakın ~y~benzin istasyonu~s~na yönlendirilmek istermisin?</String>
         <String xml:lang="sv-SE">Du börjar ta slut ~r~{0}~s~. Navigera till den näraste ~y~bensin stationen~s~?</String>
         <String xml:lang="zh-Hant">你的 ~r~{0}~s~ 不夠了. 需要導航最近的~y~加油站嗎~s~?</String>
     </Entry>
@@ -530,8 +530,8 @@
         <String xml:lang="fr-FR">Votre véhicule actif a été ~r~détruit~s~! Vous pouvez demander un remplacement dans {0} ~y~Menu ~s~&gt; ~y~Vehicules~s~.</String>
         <String xml:lang="no-NO">Ditt aktive kjøretøy har blitt ~r~ødelagt~s~! Du kan be om en erstatning i {0} ~y~Meny ~s~&gt; ~y~Vehicles~s~.</String>
         <String xml:lang="sv-SE">Ditt aktiva fordon har ~r~förstörts~s~! Du kan begära en ersättning i {0} ~y~Meny ~s~&gt; ~y~Fordon~s~.</String>
-        <String xml:lang="tr-TR">Aktif aracınız ~r~imha edildi~s~! Değişim talebini şuradan yapabilirsin {0} ~y~Menü ~s~&gt; ~y~Araçlar~s~.</String>
         <String xml:lang="zh-Hant">該車輛已被 ~r~摧毀~s~! 你可以在 {0} ~y~Menu ~s~&gt; ~y~Vehicles~s~ 中申請重製該車輛.</String>
+        <String xml:lang="tr-TR">Aktif aracın ~r~yok edildi~s~! {0} ~y~Menü ~s~&gt; ~y~Araçlar ~s~bölümünden aracının yerine geçecek yeni bir tanesini çağırabilirsin.</String>
     </Entry>
 
     <Entry Id="vehicle_impounded">
@@ -552,7 +552,7 @@
         <String xml:lang="fr-FR">Votre ~y~véhicule ~s~a été ~o~mis en fourrière~s~. Rendez-vous à la fourrière et payez une caution pour le récupérer.</String>
         <String xml:lang="no-NO">Ditt ~y~kjøretøy ~s~har blitt ~o~beslaglagt~s~. Gå til et beslaglagt parti og betal et gebyr for å kreve det tilbake.</String>
         <String xml:lang="sv-SE">Ditt ~y~fordon ~s~har ~o~beslagtagits~s~. Gå till ett beslag och betala en avgift för att kräva tillbaka det.</String>
-        <String xml:lang="tr-TR">~y~Aracınıza ~s~~o~el koyuldu~s~. Alıkonulan alana git ve onu tekrar elde etmek için bir ücret öde.</String>
+        <String xml:lang="tr-TR">~y~Aracınız ~o~bağlandı~s~. Geri almak için çekici otoparkına gidin ve ücret ödeyin.</String>
     </Entry>
 
     <Entry Id="vehicle_cant_lock_unlock_when_cuffed">
@@ -629,7 +629,7 @@
         <String xml:lang="sv-SE">~r~olåste</String>
         <String xml:lang="es-ES">~r~desbloqueado</String>
         <String xml:lang="pt-BR">~r~desbloqueado</String>
-        <String xml:lang="tr-TR">~r~açıldı</String>
+        <String xml:lang="tr-TR">~r~kilidi açıldı</String>
         <String xml:lang="pl-PL">~r~otworzyłeś</String>
     </Entry>
 
@@ -971,7 +971,7 @@
         <String xml:lang="lv-LV">Nav darba transportlīdzekļu :(</String>
         <String xml:lang="fr-FR">Pas de véhicules de profession :(</String>
         <String xml:lang="no-NO"> Ingen jobbkjøretøy :(</String>
-        <String xml:lang="tr-TR">İş aracı yok :(</String>
+        <String xml:lang="tr-TR">Hiç meslek aracın yok :(</String>
         <String xml:lang="sv-SE">Inga jobbbilar :(</String>
         <String xml:lang="es-ES">No hay vehículos de trabajo:(</String>
         <String xml:lang="pt-BR">Não há veículos de trabalho :(</String>
@@ -1061,8 +1061,8 @@
         <String xml:lang="fr-FR">Renvoyez votre ~b~{0} ~s~louée au garage.</String>
         <String xml:lang="no-NO"> Send din leide ~b~{0} ~s~tilbake til lageret.</String>
         <String xml:lang="sv-SE"> Skicka tillbaka dina hyrda ~b~{0} ~s~till förrådet.</String>
-        <String xml:lang="tr-TR">~b~{0} ~s~isimli kiraladığın aracı muhafaza et.</String>
         <String xml:lang="pl-PL">Wyślij wypożyczone ~b~{0} ~s~spowrotem do garażu</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~isimli kiraladığın aracı geri gönder.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_delivery_title">
@@ -1078,7 +1078,7 @@
         <String xml:lang="de-DE">Lieferung</String>
         <String xml:lang="no-NO">Leveranse</String>
         <String xml:lang="sv-SE">Leverera</String>
-        <String xml:lang="tr-TR">Çağırmak</String>
+        <String xml:lang="tr-TR">Çağır</String>
         <String xml:lang="pl-PL">Zamów</String>
     </Entry>
 
@@ -1343,7 +1343,7 @@
         <String xml:lang="pl-PL">{0} ~s~swój ~b~pojazd~s~.</String>
         <String xml:lang="no-NO">Du {0} ~s~ditt ~b~kjøretøy~s~.</String>
         <String xml:lang="sv-SE">Du {0} ~s~ditt ~b~fordon~s~.</String>
-        <String xml:lang="tr-TR">~b~Araç kapı kilidi~s~{0}.</String>
+        <String xml:lang="tr-TR">~b~Araç kapı kilidi ~s~{0}.</String>
         <String xml:lang="fr-FR">Vous avez {0} ~s~votre ~b~véhicule~s~.</String>
         <String xml:lang="zh-Hant">你已將你的 ~b~車輛~s~ {0}~s~.</String>
     </Entry>
@@ -1367,7 +1367,7 @@
         <String xml:lang="lv-LV">{0} tika ~r~izstumts~s~.</String>
         <String xml:lang="no-NO">{0} har blitt ~r~kastet ut~s~.</String>
         <String xml:lang="sv-SE">{0} har blivit ~r~ut kastad~s~.</String>
-        <String xml:lang="tr-TR">{0} kişisi ~r~çıkarıldı~s~.</String>
+        <String xml:lang="tr-TR">{0} araçtan ~r~atıldı~s~.</String>
         <String xml:lang="zh-Hant">{0} 已被 ~r~踢出~s~.</String>
     </Entry>
 
@@ -1383,7 +1383,7 @@
         <String xml:lang="lv-LV">Pārvaldiet jūsu {0}</String>
         <String xml:lang="de-DE">Verwalte dein {0}</String>
         <String xml:lang="no-NO">Administrer din {0}</String>
-        <String xml:lang="tr-TR">{0} Öğenizi Yönetin</String>
+        <String xml:lang="tr-TR">{0} isimli aracınızı yönetin.</String>
         <String xml:lang="sv-SE">Hantera din {0}</String>
         <String xml:lang="es-ES">Gestione su {0}</String>
         <String xml:lang="pt-BR">Gerencie seu {0}</String>
@@ -1403,7 +1403,7 @@
         <String xml:lang="lv-LV">Pārvaldiet jūsu nomāto {0}</String>
         <String xml:lang="de-DE">Verwalte dein gemietetes {0}</String>
         <String xml:lang="no-NO">Administrer din leide {0}</String>
-        <String xml:lang="tr-TR">Kiraladığınız {0} öğesini yönetin.</String>
+        <String xml:lang="tr-TR">Kiraladığınız {0} isimli aracı yönetin.</String>
         <String xml:lang="sv-SE">Hantera din hyrda {0}</String>
         <String xml:lang="es-ES">Gestione su {0} alquilado</String>
         <String xml:lang="pt-BR">Gerencie sua {0} alugada</String>
@@ -1421,7 +1421,7 @@
         <String xml:lang="de-DE">Du hast ~p~{0}~s~ von deinen favorisierten Fahrzeugen ~r~entfernt~s~. Aktualisiere das Menü, um die Änderungen anzuzeigen.</String>
         <String xml:lang="lv-LV">Jūs ~r~noņēmāt ~s~šo ~p~{0} ~s~no savas izlases. Atsvaidziniet izvēlni, lai ieraudzītu izmaiņas.</String>
         <String xml:lang="no-NO">Du ~r~fjernet ~s~dette ~p~{0} ~s~fra favorittkjøretøyene dine. Oppdater menyen for å se endringene som er tatt i bruk.</String>
-        <String xml:lang="tr-TR">~p~{0} ~s~öğesini favori araçlarınızdan ~r~kaldırdınız~s~. Değişikliklerin uygulanmasını görmek için menüyü yenileyin.</String>
+        <String xml:lang="tr-TR">~p~{0} ~s~isimli aracını favori araçlarından ~r~kaldırdın~s~. Değişikliklerin uygulanması için menüyü yenile.</String>
         <String xml:lang="fr-FR">Vous avez ~r~supprimé ~s~cette ~p~{0} ~s~de vos véhicules favoris. Actualisez le menu pour voir les changements appliqués.</String>
         <String xml:lang="es-ES">Has ~r~eliminado ~s~el ~p~{0} ~s~de tus vehículos favoritos. Actualice el menú para ver los cambios aplicados.</String>
         <String xml:lang="pt-BR">Você ~r~removeu~s~ o ~p~{0} ~s~de seus veículos favoritos. Atualize o menu para ver as alterações aplicadas.</String>
@@ -1444,7 +1444,7 @@
         <String xml:lang="lv-LV">Vai tiešām vēlaties pagarināt šī ~b~{0} ~s~nomu par ~g~{1}~s~?</String>
         <String xml:lang="de-DE">Möchtest du die Miete von ~b~{0} ~s~für ~g~{1}~s~ verlängern?</String>
         <String xml:lang="no-NO"> Vil du virkelig forlenge utleien av denne ~b~{0} ~s~for ~g~{1}~s~?</String>
-        <String xml:lang="tr-TR">Bu ~b~{0} ~s~kiralamasını ~g~{1} ~s~için uzatmak istediğinizden emin misiniz?</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracının kirasını ~g~{1} ~s~karşılığında uzatmak istediğinden emin misin?</String>
         <String xml:lang="sv-SE">Vill du verkligen förlänga uthyrningen av denna ~b~{0} ~s~för ~g~{1}~s~?</String>
         <String xml:lang="fr-FR">Voulez-vous vraiment prolonger la location de cette ~b~{0} ~s~pour ~g~{1}~s~?</String>
         <String xml:lang="es-ES">¿De verdad quieres extender el alquiler de este ~b~{0} ~s~por ~g~{1}~s~?</String>
@@ -1464,7 +1464,7 @@
         <String xml:lang="cs-CZ">Opravdu chceš ukončit pronájem vozidla ~b~{0}~s~?</String>
         <String xml:lang="lv-LV">Vai tiešām vēlaties pārtraukt šī ~b~{0} ~s~nomu?</String>
         <String xml:lang="no-NO">Vil du virkelig avslutte leieforholdet av denne ~b~{0}~s~?</String>
-        <String xml:lang="tr-TR">Bu ~b~{0} ~s~kiralamasını gerçekten sonlandırmak istiyor musunuz?</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracın kirasını sonlandırmak istediğinden emin misin?</String>
         <String xml:lang="sv-SE">Vill du verkligen avsluta uthyrningen av denna ~b~{0}~s~?</String>
         <String xml:lang="fr-FR">Voulez-vous vraiment résilier la location de cette ~b~{0}~s~?</String>
         <String xml:lang="es-ES">¿De verdad quieres poner fin al alquiler de este ~b~{0}~s~?</String>
@@ -1487,7 +1487,7 @@
         <String xml:lang="lv-LV">Vai tiešām vēlaties pārdot jūsu ~b~{0} ~s~serverim par ~g~{1}~s~?</String>
         <String xml:lang="de-DE">Möchtest du dein ~b~{0} ~s~an den Server für ~g~{1}~s~ verkaufen?</String>
         <String xml:lang="no-NO"> Vil du virkelig selge ~b~{0} ~s~en din til serveren for ~g~{1}~s~?</String>
-        <String xml:lang="tr-TR">Sunucuya ~b~{0} ~s~öğesini ~g~{1} ~s~karşılığında gerçekten satmak istiyor musunuz?</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracını ~g~{1} ~s~karşılığında sunucuya satmak istediğinden emin misin?</String>
         <String xml:lang="sv-SE">Vill du verkligen sälja din ~b~{0} ~s~till servern för ~g~{1}~s~?</String>
         <String xml:lang="es-ES">¿Realmente quieres vender tu ~b~{0} ~s~al servidor por~g~{1}~s~?</String>
         <String xml:lang="pt-BR">Você realmente quer vender seu ~b~{0} ~s~para o servidor por ~g~{1}~s~?</String>
@@ -1507,7 +1507,7 @@
         <String xml:lang="it-IT">{0} veicoli</String>
         <String xml:lang="de-DE">{0} Fahrzeuge</String>
         <String xml:lang="no-NO"> {0} kjøretøy</String>
-        <String xml:lang="tr-TR">{0} araçlar</String>
+        <String xml:lang="tr-TR">{0} araç</String>
         <String xml:lang="sv-SE">{0} fordon</String>
         <String xml:lang="es-ES">{0} vehículos</String>
         <String xml:lang="pt-BR">{0} veículos</String>
@@ -1531,9 +1531,9 @@
         <String xml:lang="de-DE">Einlagern</String>
         <String xml:lang="no-NO"> Lager</String>
         <String xml:lang="sv-SE">Lagra</String>
-        <String xml:lang="tr-TR">Muhafaza</String>
         <String xml:lang="zh-Hant">存車</String>
         <String xml:lang="pl-PL">Sklep</String>
+        <String xml:lang="tr-TR">Geri gönder</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
@@ -1827,7 +1827,7 @@
         <String xml:lang="sv-SE">Kasta ut</String>
         <String xml:lang="no-NO">Støte</String>
         <String xml:lang="pl-PL">Wyrzuć</String>
-        <String xml:lang="tr-TR">Atmak</String>
+        <String xml:lang="tr-TR">Araçtan at</String>
     </Entry>
 
     <Entry Id="menu_player_eject_desc">
@@ -1942,7 +1942,7 @@
         <String xml:lang="de-DE">Du musst ~r~zu Fuß ~s~sein, Um die ~y~Zapfsäule~s~ zu nutzen.</String>
         <String xml:lang="pl-PL">Musisz być ~r~pieszo ~s~by użyć ~y~dystrybutora ~s~paliw.</String>
         <String xml:lang="sv-SE">Du måste vara ~r~till fots ~s~för att använda en ~y~bränslepump~s~.</String>
-        <String xml:lang="tr-TR">Benzin pompasını kullanmak için ~r~yaya ~s~olmanız gerekir.</String>
+        <String xml:lang="tr-TR">~y~Benzin pompası~s~nı kullanmak için ~r~yaya ~s~olmalısın.</String>
         <String xml:lang="no-NO">~y~Du må være ~r~til fots ~s~for å bruke en drivstoffpumpe.</String>
         <String xml:lang="zh-Hant">你需要 ~r~離開車輛~s~ 已使用 ~y~自助加油~s~.</String>
     </Entry>
@@ -1965,7 +1965,7 @@
         <String xml:lang="de-DE">Drücke {0} um das ~b~Fahrzeug-Menü~s~ zu öffnen.</String>
         <String xml:lang="pl-PL">Wciśnij {0} by uzyskać dostęp do ~b~menu pojazdu~s~.</String>
         <String xml:lang="no-NO">Trykk på {0} for å få tilgang til ~b~bildashbordet~s~.</String>
-        <String xml:lang="tr-TR">{0} tuşuna basarak ~b~araç gösterge paneline ~s~ulaşın.</String>
+        <String xml:lang="tr-TR">~b~Araç kontrol paneli~s~ne erişmek için {0} tuşuna basın.</String>
         <String xml:lang="sv-SE">Tryck på {0} för att komma åt ~b~fordonsinstrumentpanelen~s~.</String>
         <String xml:lang="zh-Hant">按下 {0} 來使用 ~b~車輛控制系統~s~.</String>
     </Entry>

@@ -17,6 +17,7 @@
         <String xml:lang="no-NO">Du kan bare bruke ~r~ett ~s~skrapelodd om gangen.</String>
         <String xml:lang="sv-SE">Du kan bara använda ~r~en ~s~skraplott åt gången.</String>
         <String xml:lang="cs-CZ">Najednou můžeš setřít jen ~r~jeden ~s~los.</String>
+        <String xml:lang="tr-TR">Aynı anda yalnızca ~r~bir ~s~kazı kazan kartı kullanabilirsin.</String>
     </Entry>
 
     <Entry Id="specialitem_armor_at_time">
@@ -189,7 +190,6 @@
         <String xml:lang="en-US">You can't use ~r~{0} ~s~when you're {1}</String>
         <String xml:lang="nl-NL">Je kan geen ~r~{0}~s~ gebruiken wanneer je {1} bent</String>
         <String xml:lang="es-ES">No puedes usar ~r~{0} ~s~cuando estas {1}</String>
-        <String xml:lang="tr-TR">Kullanamazsınız {0} şu durumlarda {1}</String>
         <String xml:lang="pt-BR">Não é possível usar ~r~{0} ~s~quando você está {1}</String>
         <String xml:lang="ar-001">لا يمكنك استخدام ~r~{0} ~s~عندما تكون {1}</String>
         <String xml:lang="id-ID">Anda tidak dapat menggunakan ~r~{0} ~s~ketika anda sedang {1}</String>
@@ -200,6 +200,7 @@
         <String xml:lang="lv-LV">Jūs nevarat izmantot ~r~{0} ~s~kad esat {1}</String>
         <String xml:lang="de-DE">Du kannst ~r~{0}~s~ nicht verwenden, wenn du {1}</String>
         <String xml:lang="pl-PL">Nie możesz użyć ~r~{0} ~s~gdy jesteś {1}</String>
+        <String xml:lang="tr-TR">{1} durumundayken ~r~{0} ~s~kullanamazsınız.</String>
         <String xml:lang="no-NO">Du kan ikke bruke ~r~{0} ~s~når du er {1}</String>
         <String xml:lang="sv-SE">Du kan inte använda ~r~{0} ~s~när du är {1}</String>
         <String xml:lang="zh-Hant">你不能在進行 {1} 時使用 ~r~{0}~s~.</String>
@@ -889,7 +890,6 @@
         <String xml:lang="en-US">You must wait ~r~{0} seconds ~s~before using another ~b~{1}~s~.</String>
         <String xml:lang="nl-NL">Je moet ~r~{0} seconden ~s~wachten voordat je nog een ~b~{1}~s~ kan gebruiken.</String>
         <String xml:lang="es-ES">Debes esperar ~r~{0} segundos ~s~antes de usar otro ~b~{1}~s~.</String>
-        <String xml:lang="tr-TR">Beklemeniz gerekir ~r~{0} saniye ~s~başka birini kullanmadan önce ~b~{1}~s~.</String>
         <String xml:lang="pt-BR">Você deve esperar ~r~{0} segundos ~s~antes de usar outro ~b~{1}~s~.</String>
         <String xml:lang="ar-001">يجب عليك الانتظار ~r~{0} ثانية ~s~قبل استخدام ~b~{1}~s~ أخرى.</String>
         <String xml:lang="id-ID">Anda harus menunggu ~r~{0} detik ~s~sebelum dapat menggunakan ~b~{1}~s~ lagi.</String>
@@ -900,6 +900,7 @@
         <String xml:lang="lv-LV">Jums ir jāgaida ~r~{0} sekundes ~s~pirms cita ~b~{1} ~s~izmantošanas.</String>
         <String xml:lang="pl-PL">Musisz poczekać ~r~{0} sekund ~s~zanim użyjesz kolejny ~b~{1}~s~.</String>
         <String xml:lang="de-DE">Du musst ~r~{0} Sekunden ~s~warten, bevor du ein weiteres ~b~{1}~s~ verwenden kannst.</String>
+        <String xml:lang="tr-TR">Başka bir ~b~{1} ~s~kullanmadan önce ~r~{0} saniye ~s~beklemelisiniz.</String>
         <String xml:lang="no-NO">Du må vente ~r~{0} sekunder ~s~før du bruker en annen ~b~{1}~s~.</String>
         <String xml:lang="sv-SE">Du måste vänta ~r~{0} sekunder ~s~innan du använder en annan ~b~{1}~s~.</String>
         <String xml:lang="zh-Hant">再用另一個 ~b~{1}~s~ 前請先等待 ~r~{0}~s~ 秒.</String>
@@ -1084,7 +1085,6 @@
         <String xml:lang="en-US">You've used {0} ~p~bandages~s~.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~p~verband~s~ gebruikt.</String>
         <String xml:lang="es-ES">Has usado {0} ~p~vendajes~s~.</String>
-        <String xml:lang="tr-TR">Bir miktar {0} ~p~bandaj ~s~kullandın.</String>
         <String xml:lang="pt-BR">Você usou {0} ~p~bindings~s~.</String>
         <String xml:lang="ar-001">لقد استخدمت {0} ~p~ضمادات~s~.</String>
         <String xml:lang="id-ID">Anda menggunakan {0} ~p~perban~s~.</String>
@@ -1094,6 +1094,7 @@
         <String xml:lang="lv-LV">Jūs izmantojat {0} ~p~pārsējus~s~.</String>
         <String xml:lang="de-DE">Du hast {0} ~p~Bandagen~s~ verwendet.</String>
         <String xml:lang="pl-PL">Użyłeś {0} ~p~bandaża~s~.</String>
+        <String xml:lang="tr-TR">{0} ~p~bandaj ~s~kullandın.</String>
         <String xml:lang="no-NO">Du har brukt {0} ~p~bandasjer~s~.</String>
         <String xml:lang="sv-SE">Du har använt {0} ~p~bandage~s~.</String>
         <String xml:lang="fr-FR">Vous avez utilisé {0} ~p~bandages~s~.</String>
@@ -1105,7 +1106,6 @@
         <String xml:lang="en-US">You ~r~can't use ~s~a ~b~{0} ~s~when you're inside a vehicle.</String>
         <String xml:lang="nl-NL">Je ~r~kan geen ~b~{0} ~s~gebruiken wanneer je in een voertuig zit.</String>
         <String xml:lang="es-ES">~r~No puedes usar ~s~un ~b~{0} ~s~cuando estás dentro de un vehículo.</String>
-        <String xml:lang="tr-TR">Sen ~r~kullanamazsın ~b~{0} ~s~bir aracın içindeyken.</String>
         <String xml:lang="pt-BR">você ~r~não pode usar ~s~a ~b~{0} ~s~quando estiver dentro de um veículo.</String>
         <String xml:lang="ar-001">لا يمكنك ~r~استخدام ~s~a ~b~{0} ~s~عندما تكون داخل السيارة.</String>
         <String xml:lang="id-ID">Anda ~r~tidak dapat menggunakan ~s~a ~b~{0} ~s~ketika berada didalam kendaraan.</String>
@@ -1116,6 +1116,7 @@
         <String xml:lang="lv-LV">Jūs ~r~nevarat izmantot ~b~{0} ~s~kamēr jūs esat transportlīdzeklī.</String>
         <String xml:lang="pl-PL">~r~Nie możesz użyć ~s~a ~b~{0} ~s~w środku pojazdu.</String>
         <String xml:lang="de-DE">Du kannst kein ~b~{0} ~s~~r~verwenden~s~, wenn du im Fahrzeug bist.</String>
+        <String xml:lang="tr-TR">Araç içindeyken ~b~{0} ~r~kullanamazsınız~s~.</String>
         <String xml:lang="no-NO">Du ~r~kan ikke bruke ~s~a ~b~{0} ~s~når du er inne i et kjøretøy.</String>
         <String xml:lang="sv-SE">Du ~r~kan inte använda ~s~en ~b~{0} ~s~när du är inne i ett fordon.</String>
         <String xml:lang="zh-Hant">你 ~r~不能~s~ 在車內使用 ~b~{0}~s~.</String>
