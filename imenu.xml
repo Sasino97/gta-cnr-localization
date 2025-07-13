@@ -1612,7 +1612,6 @@
     <Entry Id="imenu_inventory_item_sent">
         <String xml:lang="en-US">You gave {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~y~{1} {2}~s~ gegeven.</String>
-        <String xml:lang="tr-TR">{0}~s~'ya ~y~{1} {2} ~s~verdiniz.</String>
         <String xml:lang="es-ES">Has dado a {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="zh-Hant">你給了 {0} ~y~{1} 個 {2}~s~.</String>
         <String xml:lang="zh-Hans">你给了 {0} ~y~{1} 个 {2}~s~.</String>
@@ -1627,6 +1626,7 @@
         <String xml:lang="lv-LV">Jūs iedevāt {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="de-DE">Du hast {0} ~y~{1} {2}~s~ gegeben.</String>
         <String xml:lang="pl-PL">Przekazałeś {0} ~y~{1} {2}~s~.</String>
+        <String xml:lang="tr-TR">{0} ~s~isimli oyuncuya ~y~{1}{2} ~s~verdiniz.</String>
         <String xml:lang="sv-SE">Du gav {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="no-NO">Du ga {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="fr-FR">Vous avez donné à {0} ~y~{1} {2}~s~.</String>
@@ -1641,7 +1641,6 @@
     <Entry Id="imenu_inventory_item_sent_unit">
         <String xml:lang="en-US">You gave {0} ~y~{1}{2} of {3}~s~.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~y~{1}{2} van {3}~s~ gegeven.</String>
-        <String xml:lang="tr-TR">{0}~s~'ya ~y~{1}{2} {3}~s~ verdiniz.</String>
         <String xml:lang="zh-Hant">你給了 {0} ~y~{1} {2} {3}~s~.</String>
         <String xml:lang="zh-Hans">你给了 {0} ~y~{1} {2} {3}~s~.</String>
         <String xml:lang="es-ES">Has dado a {0} ~y~{1}{2} de {3}~s~.</String>
@@ -1656,6 +1655,7 @@
         <String xml:lang="hi-Latn">Aapne ~y~{1}{2} of {3}~s~ diya {0} ko.</String>
         <String xml:lang="de-DE">Du hast {0} ~y~{1}{2} {3}~s~ gegeben.</String>
         <String xml:lang="pl-PL">Przekazałeś {0} ~y~{1}{2} {3}~s~.</String>
+        <String xml:lang="tr-TR">{0} ~s~isimli oyuncuya ~y~{1}{2} {3} ~s~verdiniz.</String>
         <String xml:lang="no-NO">Du ga {0} ~y~{1}{2} av {3}~s~.</String>
         <String xml:lang="sv-SE">Du gav {0} ~y~{1}{2} av {3}~s~.</String>
         <String xml:lang="fr-FR">Vous avez donné à {0} ~y~{1}{2} de {3}~s~.</String>
@@ -2759,7 +2759,6 @@
     <Entry Id="imenu_inventory_send_insufficient_space">
         <String xml:lang="en-US">{0} doesn't have enough space in their inventory.</String>
         <String xml:lang="nl-NL">{0} heeft niet genoeg ruimte in zijn inventaris.</String>
-        <String xml:lang="tr-TR">{0} envanterde yeterli boş alan yok.</String>
         <String xml:lang="zh-Hant">{0} 的背包已經沒有多餘的空間了.</String>
         <String xml:lang="zh-Hans">{0} 的背包已经没有多余的空间了.</String>
         <String xml:lang="es-ES">{0} no tienes suficiente espacio en tu inventario.</String>
@@ -2777,6 +2776,7 @@
         <String xml:lang="no-NO">{0} har ikke nok plass i beholdningen.</String>
         <String xml:lang="sv-SE">{0} har inte tillräckligt med utrymme i sitt förråd.</String>
         <String xml:lang="fr-FR">{0} n'a pas assez de place dans son inventaire.</String>
+        <String xml:lang="tr-TR">{0} isimli oyuncunun envanterinde yeterli alan yok.</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Stijnjw)
@@ -2786,7 +2786,6 @@
     <Entry Id="imenu_inventory_send_limit_reached">
         <String xml:lang="en-US">{0} can't hold ~r~{1} ~s~more ~r~{2}~s~.</String>
         <String xml:lang="nl-NL">{0} kan niet ~r~{1} ~s~meer ~r~{2} ~s~dragen.</String>
-        <String xml:lang="tr-TR">{0} ~r~{1} ~s~adet daha ~r~{2} ~s~taşıyamaz.</String>
         <String xml:lang="zh-Hant">{0} 無法攜帶 ~r~{1} ~s~個或以上的 ~r~{2}~s~.</String>
         <String xml:lang="zh-Hans">{0} 无法携带 ~r~{1} ~s~个或以上的 ~r~{2}~s~.</String>
         <String xml:lang="es-ES">{0} no puedes tener ~r~{1} ~s~más ~r~{2}~s~.</String>
@@ -2798,6 +2797,7 @@
         <String xml:lang="it-IT">{0} non può reggere altri ~r~{1}~s~ ~r~{2}~s~.</String>
         <String xml:lang="de-DE">{0} kann nicht ~r~{1} ~s~weitere/n ~r~{2}~s~ halten.</String>
         <String xml:lang="pl-PL">{0} nie może nieść ~r~{1} ~s~więcej ~r~{2}~s~.</String>
+        <String xml:lang="tr-TR">{0} ~r~{1} ~s~adet daha ~r~{2} ~s~taşıyamaz.</String>
         <String xml:lang="cs-CZ">{0} nemůže nést ~r~{1} ~s~více ~r~{2}~s~.</String>
         <String xml:lang="hi-Latn">{0} aur ~r~{1} {2} ~s~nahi rakh sakte.</String>
         <String xml:lang="lv-LV">{0} nevar turēt vēl ~r~{1} {2}~s~.</String>
@@ -3087,7 +3087,6 @@
     <Entry Id="imenu_blocked_players_pretext">
         <String xml:lang="en-US">{0} blocked users</String>
         <String xml:lang="nl-NL">{0} geblokkeerde spelers</String>
-        <String xml:lang="tr-TR">{0} engellenen kullanıcı</String>
         <String xml:lang="cs-CZ">Počet zablokovaných hráčů: {0}</String>
         <String xml:lang="id-ID">{0} Pemain yang diblokir</String>
         <String xml:lang="ar-001">{0} المستخدمين المحظورين</String>
@@ -3096,6 +3095,7 @@
         <String xml:lang="hi-Latn">{0} block kiye gaye users</String>
         <String xml:lang="lv-LV">{0} bloķēto spēlētāju</String>
         <String xml:lang="de-DE">{0} blockierte Spieler</String>
+        <String xml:lang="tr-TR">{0} engellenen kullanıcı</String>
         <String xml:lang="no-NO">{0} blokkerte brukere</String>
         <String xml:lang="es-ES">{0} usuarios bloqueados</String>
         <String xml:lang="pt-BR">{0} usuários bloqueados</String>
@@ -3108,7 +3108,6 @@
     <Entry Id="imenu_blocked_players_menuitem_description">
         <String xml:lang="en-US">You are ~r~not ~s~receiving any text/voice messages and pings from ~y~{0}~s~.</String>
         <String xml:lang="nl-NL">Je ontvangt ~r~geen ~s~tekst/spraak berichten en pings meer van ~y~{0}~s~.</String>
-        <String xml:lang="tr-TR">~y~{0}~s~'dan herhangi bir metin/ses ileti veya sinyal ~r~alamıyorsunuz~s~.</String>
         <String xml:lang="cs-CZ">~r~Nedostáváš ~s~žádné textové/hlasové zprávy a pingy od hráče ~y~{0}~s~.</String>
         <String xml:lang="id-ID">Kamu ~r~tidak akan ~s~menerima pesan teks/suara dan ping apapun dari ~y~{0}~s~.</String>
         <String xml:lang="ar-001">انت ~r~لا ~s~تتلقي اي زسائل نصيه او صوتيه او اشعارات من ~y~{0}~s~</String>
@@ -3116,6 +3115,7 @@
         <String xml:lang="hi-Latn">Ab aap ~y~{0} ~s~se koi text ya voice messages aur pings ~r~nahi ~s~receive karenge.</String>
         <String xml:lang="lv-LV">Jūs ~r~nesaņemat ~s~nekādas teksta/balss īsziņas un pings no ~y~{0}~s~.</String>
         <String xml:lang="de-DE">Du erhälst ~r~keine ~s~Text-/Sprachnachrichten und Erwähnungen von ~y~{0}~s~.</String>
+        <String xml:lang="tr-TR">~y~{0} ~s~isimli oyuncudan gelen yazılı/sesli mesajları ~r~almıyor~s~, işaretlemelerini ~r~görmüyorsun~s~.</String>
         <String xml:lang="no-NO">Du ~r~ikke ~s~mottar noen tekst-/talemeldinger og ping fra ~y~{0}~s~.</String>
         <String xml:lang="sv-SE">Du ~r~inte ~s~får några text-/röstmeddelanden och pingar från ~y~{0}~s~.</String>
         <String xml:lang="es-ES">~r~No ~s~estás recibiendo ningún mensaje de texto/voz ni pings de ~y~{0}~s~.</String>
@@ -3129,7 +3129,6 @@
     <Entry Id="imenu_inventory_send_insufficient_amount">
         <String xml:lang="en-US">You do not have enough ~r~{0}~s~.</String>
         <String xml:lang="nl-NL">Je hebt niet genoeg ~r~{0}~s~.</String>
-        <String xml:lang="tr-TR">Sende yeterince yok ~r~{0}~s~.</String>
         <String xml:lang="zh-Hant">你沒有足夠的 ~r~{0}~s~.</String>
         <String xml:lang="zh-Hans">你没有足够的 ~r~{0}~s~.</String>
         <String xml:lang="es-ES">No tienes suficientes ~r~{0}~s~.</String>
@@ -3145,6 +3144,7 @@
         <String xml:lang="lv-LV">Jums nav pietiekami daudz ~r~{0}~s~.</String>
         <String xml:lang="de-DE">Du hast nicht genügend ~r~{0}~s~.</String>
         <String xml:lang="pl-PL">Nie masz wystarczająco dużo ~r~{0}~s~.</String>
+        <String xml:lang="tr-TR">Yeterince ~r~{0} ~s~öğesine sahip değilsin.</String>
         <String xml:lang="no-NO">Du har ikke nok ~r~{0}~s~.</String>
         <String xml:lang="sv-SE">Du har inte tillräckligt med ~r~{0}~s~.</String>
     </Entry>
@@ -3158,7 +3158,6 @@
     <Entry Id="imenu_inventory_send_limit_reached_unit">
         <String xml:lang="en-US">{0} can't hold ~r~{1} ~s~more {2} of ~r~{3}~s~.</String>
         <String xml:lang="nl-NL">{0} kan niet ~r~{1} ~s~meer {2} van ~r~{3} ~s~dragen.</String>
-        <String xml:lang="tr-TR">{0} ~r~{1}~s~ {2}~s~ daha ~r~{3}~s~ tutamaz.</String>
         <String xml:lang="zh-Hant">{0} 無法攜帶 ~r~{1} ~s~{2}或以上的 ~r~{3}~s~.</String>
         <String xml:lang="zh-Hans">{0} 无法携带 ~r~{1} ~s~{2}或以上的 ~r~{3}~s~.</String>
         <String xml:lang="es-ES">{0} no puedes tener ~r~{1} ~s~más {2} de ~r~{3}~s~.</String>
@@ -3173,6 +3172,7 @@
         <String xml:lang="lv-LV">{0} nevar turēt vēl ~r~{1}{2} {3}~s~.</String>
         <String xml:lang="de-DE">{0} kann nicht ~r~{1} ~s~weitere{2} von ~r~{3}~s~ halten.</String>
         <String xml:lang="pl-PL">{0} nie może nieść ~r~{1} ~s~więcej {2} ~r~{3}~s~.</String>
+        <String xml:lang="tr-TR">{0}, ~r~{1}~s~ {2}~s~ daha ~r~{3}~s~ taşıyamaz.</String>
         <String xml:lang="no-NO">{0} kan ikke holde ~r~{1} ~s~mer {2} av ~r~{3}~s~.</String>
         <String xml:lang="sv-SE">{0} kan inte hålla ~r~{1} ~s~fler {2} av ~r~{3}~s~.</String>
         <String xml:lang="fr-FR">{0} ne peut pas porter plus de ~r~{1} {2} ~s~de ~r~{3}~s~.</String>
