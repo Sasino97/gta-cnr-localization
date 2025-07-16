@@ -1164,6 +1164,7 @@
         <String xml:lang="pl-PL">Zobacz ostatnie zlecenia na zabójstwo.</String>
         <String xml:lang="vi-VN">Xem các hợp đồng sát thủ gần đây.</String>
         <String xml:lang="tr-TR">Son suikast kontratlarını görüntüle.</String>
+        <String xml:lang="zh-Hant">查看近期的合約.</String>
     </Entry>
 
     <Entry Id="imenu_job_descr_private_medic">
@@ -2733,6 +2734,7 @@
         <String xml:lang="pl-PL">Zabójca</String>
         <String xml:lang="vi-VN">Sát thủ</String>
         <String xml:lang="tr-TR">Tetikçi</String>
+        <String xml:lang="zh-Hant">殺手</String>
     </Entry>
 
     <Entry Id="imenu_services_hitman_description">
@@ -2753,6 +2755,7 @@
         <String xml:lang="pl-PL">Wezwij ~r~zabójcę ~s~aby się kogoś pozbyć.</String>
         <String xml:lang="vi-VN">Gọi một ~r~sát thủ ~s~để tiêu diệt ai đó.</String>
         <String xml:lang="tr-TR">Birinden kurtulmak için ~r~tetikçi ~s~ara</String>
+        <String xml:lang="zh-Hant">打給 ~r~殺手 ~s~以剷除某個人.</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Stijnjw) -->
@@ -2829,6 +2832,7 @@
         <String xml:lang="pl-PL">{0} dał Ci ~y~{1}{2} {3}~s~.</String>
         <String xml:lang="vi-VN">{0} đã đưa cho bạn ~y~{1}{2} {3}~s~.</String>
         <String xml:lang="tr-TR">{0} size ~y~{1}{2} {3} ~s~verdi.</String>
+        <String xml:lang="zh-Hant">{0} 把 ~y~{1}{2} {3}~s~ 給你.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount (for example: 5)
@@ -2854,6 +2858,7 @@
         <String xml:lang="pl-PL">Podniosłeś {0}{1} {2}~b~{3}~s~.</String>
         <String xml:lang="vi-VN">Bạn đã nhặt {0}{1} {2}~b~{3}~s~.</String>
         <String xml:lang="tr-TR">Yerden {0}{1} {2}~b~{3} ~s~aldınız.</String>
+        <String xml:lang="zh-Hant">你撿起了 {0}{1} {2}~b~{3}~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount (for example: 5)
@@ -2879,6 +2884,7 @@
         <String xml:lang="pl-PL">Wyrzuciłeś ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
         <String xml:lang="vi-VN">Bạn đã thả ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
         <String xml:lang="tr-TR">~p~{0}{1}~s~ {2}~y~{3} ~s~yere bıraktınız.</String>
+        <String xml:lang="zh-Hant">你丟掉了 ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Item name (for example: Heavy Armor) -->
@@ -2900,6 +2906,7 @@
         <String xml:lang="pl-PL">Wyrzuć {0}</String>
         <String xml:lang="vi-VN">Thả {0}</String>
         <String xml:lang="tr-TR">Yere {0} at</String>
+        <String xml:lang="zh-Hant">丟掉 {0}</String>
     </Entry>
 
     <!-- nullnull{0} = Amount (for example: 5)
@@ -2925,6 +2932,7 @@
         <String xml:lang="pl-PL">Masz {0}{1} {2}{3}. Wpisz ilość jaką chcesz wyrzucić:</String>
         <String xml:lang="vi-VN">Bạn có {0}{1} {2}{3}. Nhập số lượng bạn muốn bỏ:</String>
         <String xml:lang="tr-TR">Elinizde {0}{1} {2}{3} var. Bırakmak istediğiniz miktarı girin:</String>
+        <String xml:lang="zh-Hant">你有 {0}{1}{2}{3}. 輸入你想丟掉的數量:</String>
     </Entry>
 
     <!-- nullnull{0} = Input (button to press) (for example: Y) -->
@@ -2946,6 +2954,7 @@
         <String xml:lang="pl-PL">Szukaj: {0}</String>
         <String xml:lang="vi-VN">Tìm kiếm: {0}</String>
         <String xml:lang="tr-TR">Ara: {0}</String>
+        <String xml:lang="zh-Hant">查: {0}</String>
     </Entry>
 
     <!-- nullnull{0} = Amount (for example: 5)
@@ -2980,7 +2989,6 @@
         <String xml:lang="en-US">~r~Your license plate cannot be 'ERROR' because it's reserved for special use.</String>
         <String xml:lang="nl-NL">~r~Je kentekenplaat mag niet gelijk zijn aan 'ERROR' omdat het gereserveerd is voor speciaal gebruik.</String>
         <String xml:lang="es-ES">~r~Tu matrícula no puede ser 'ERROR' porque está reservada para un uso especial.</String>
-        <String xml:lang="zh-Hant">~r~你的車牌不能為 'ERROR' 因為它是為特別用途而保留.</String>
         <String xml:lang="zh-Hans">~r~你的车牌不能为 'ERROR' 因为它是为特别用途而保留.</String>
         <String xml:lang="pt-BR">~r~Sua placa de identificação não pode ser 'ERROR' porque ela é reservada para uso especial.</String>
         <String xml:lang="ar-001">~r~لا يمكن أن تكون لوحة الترخيص الخاصة بك 'ERROR' لأنها مخصصة للاستخدام الخاص.</String>
@@ -2994,6 +3002,7 @@
         <String xml:lang="de-DE">~r~Dein Wunschkennzeichen darf nicht 'ERROR' lauten, da es für spezielle Zwecke reserviert ist.</String>
         <String xml:lang="pl-PL">~r~Twoją blachą nie może być 'ERROR' bo jest ona zarezerwowana do specjalnych przypadków.</String>
         <String xml:lang="tr-TR">~r~Plakanız 'ERROR' olamaz, çünkü özel kullanım için ayrılmıştır.</String>
+        <String xml:lang="zh-Hant">~r~你的車牌不能為 'ERROR' 因為它是為特別用途而保留.</String>
         <String xml:lang="sv-SE">~r~Din registreringsskylt kan inte vara 'ERROR' eftersom den är reserverad för speciell användning.</String>
         <String xml:lang="no-NO">~r~Lisensskiltet ditt kan ikke være ERROR' fordi det er reservert for spesiell bruk.</String>
         <String xml:lang="fr-FR">~r~Votre plaque d'immatriculation ne peut pas être 'ERROR' car elle est réservée à un usage spécial.</String>
@@ -3006,7 +3015,6 @@
         <String xml:lang="en-US">You purchased a ~p~{0} ~s~for ~r~{1}~s~.</String>
         <String xml:lang="nl-NL">Je hebt een ~p~{0} ~s~gekocht voor ~r~{1}~s~.</String>
         <String xml:lang="es-ES">Has compraste un ~p~{0} ~s~por ~r~{1}~s~.</String>
-        <String xml:lang="zh-Hant">你花費了 ~r~{1}~s~ 購買 ~p~{0}~s~.</String>
         <String xml:lang="zh-Hans">你花费了 ~r~{1}~s~ 购买 ~p~{0}~s~.</String>
         <String xml:lang="pt-BR">Você comprou um ~p~{0} ~s~por ~r~{1}~s~.</String>
         <String xml:lang="ar-001">لقد اشتريت ~p~{0} ~s~لـ ~r~{1}~s~.</String>
@@ -3021,6 +3029,7 @@
         <String xml:lang="de-DE">Du hast einen ~p~{0}~s~ für ~r~{1}~s~ gekauft.</String>
         <String xml:lang="pl-PL">Kupiłeś ~p~{0} ~s~za ~r~{1}~s~.</String>
         <String xml:lang="tr-TR">~p~{0} ~s~isimli aracı ~r~{1} ~s~karşılığında satın aldınız.</String>
+        <String xml:lang="zh-Hant">你已以 ~r~{1}~s~ 購買 ~p~{0}~s~.</String>
         <String xml:lang="sv-SE">Du köpte en ~p~{0} ~s~för ~r~{1}~s~.</String>
         <String xml:lang="no-NO">Du kjøpte en ~p~{0} ~s~for ~r~{1}~s~.</String>
     </Entry>
@@ -3032,7 +3041,6 @@
         <String xml:lang="en-US">You rented a ~p~{0} ~s~for ~r~{1}~s~/week.</String>
         <String xml:lang="nl-NL">Je hebt een ~p~{0} ~s~gehuurd voor ~r~{1}~s~/week.</String>
         <String xml:lang="es-ES">Alquilaste un ~p~{0} ~s~por ~r~{1}~s~/por semana.</String>
-        <String xml:lang="zh-Hant">你以 ~r~{1}~s~/月 的金額租了 ~p~{0}~s~.</String>
         <String xml:lang="zh-Hans">你以 ~r~{1}~s~/月 的金额租了 ~p~{0}~s~.</String>
         <String xml:lang="pt-BR">Você alugou um ~p~{0} ~s~por ~r~{1}~s~/por semana.</String>
         <String xml:lang="ar-001">لقد استأجرت ~p~{0}~s~ لمدة ~r~{1}~s~/أسبوع.</String>
@@ -3045,6 +3053,7 @@
         <String xml:lang="de-DE">Du hast einen ~p~{0} ~s~für ~r~{1}~s~ gemietet.</String>
         <String xml:lang="pl-PL">Wynająłeś ~p~{0} ~s~za ~r~{1}~s~/tydzień.</String>
         <String xml:lang="tr-TR">~p~{0} ~s~isimli aracı haftalık ~r~{1} ~s~karşılığında kiraladın.</String>
+        <String xml:lang="zh-Hant">你以 ~r~{1}~s~/月 的金額租了 ~p~{0}~s~.</String>
         <String xml:lang="no-NO">Du leide en ~p~{0} ~s~for ~r~{1}~s~/uke.</String>
         <String xml:lang="sv-SE">Du hyrde en ~p~{0} ~s~för ~r~{1}~s~/vecka.</String>
         <String xml:lang="fr-FR">Vous avez loué une ~p~{0} ~s~pour ~r~{1}~s~/semaine.</String>
@@ -3186,10 +3195,10 @@
         <String xml:lang="en-US">You purchased a ~b~{0} ~s~for ~b~{1} ~s~in gift card balance and ~r~{2} ~s~by check.</String>
         <String xml:lang="nl-NL">Je hebt een ~b~{0} ~s~gekocht voor ~b~{1} ~s~in toegoedbonnen en ~r~{2} ~s~met check.</String>
         <String xml:lang="es-ES">Has comprado un ~b~{0} ~s~por ~b~{1} ~s~en el saldo de la tarjeta de regalo y ~r~{2} ~s~con cheque.</String>
-        <String xml:lang="zh-Hant">您以 {1} 的禮品卡餘額和 {2} 購買了 {0}.</String>
         <String xml:lang="zh-Hans">您以 {1} 的礼品卡余额和 {2} 购买了 {0}.</String>
         <String xml:lang="it-IT">Hai acquistato un ~b~{0} ~s~per ~b~{1} ~s~con il credito della carta regalo e ~r~{2} ~s~con assegno.</String>
         <String xml:lang="pl-PL">Kupiłeś ~b~{0} ~s~za ~b~{1} ~s~w kuponach oraz ~r~{2} ~s~przelewem.</String>
+        <String xml:lang="zh-Hant">您以 ~b~{1}~s~ 的禮品卡餘額和 ~r~{2}~s~ 購買了 ~b~{0}~s~.</String>
         <String xml:lang="pt-BR">Você comprou um ~b~{0} ~s~por ~b~{1} ~s~sobre o saldo do cartão-presente e ~r~{2} ~s~com cheuqe.</String>
         <String xml:lang="ar-001">لقد قمت بشراء ~b~{0} ~s~for ~b~{1} ~s~في رصيد بطاقة الهدايا و~r~{2} ~s~بواسطة شيك.</String>
         <String xml:lang="th-TH">คุณซื้อ ~b~{0} ~s~สำหรับ ~b~{1} ~s~ในยอดบัตรของขวัญและ ~r~{2} ~s~ด้วยเช็ค</String>
