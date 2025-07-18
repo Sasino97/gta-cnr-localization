@@ -398,6 +398,7 @@
         <String xml:lang="tr-TR">~r~{0}~s~'iniz azalıyor. En yakın ~y~benzin istasyonu~s~na yönlendirilmek istermisin?</String>
         <String xml:lang="sv-SE">Du börjar ta slut ~r~{0}~s~. Navigera till den näraste ~y~bensin stationen~s~?</String>
         <String xml:lang="zh-Hant">你的 ~r~{0}~s~ 不夠了. 需要導航最近的~y~加油站嗎~s~?</String>
+        <String xml:lang="ga-IE">Tá laghdú ag teaht ar do ~r~{0}~s~. An dteastaíonn uait treorú go dtí an ~y~staisean gháis~s~ is gaire?</String>
     </Entry>
 
     <Entry Id="running_low_fuel_unit">
@@ -618,13 +619,13 @@
     <Entry Id="vehicle_option_unlocked">
         <String xml:lang="en-US">~r~unlocked</String>
         <String xml:lang="nl-NL">~r~ontgrendeld</String>
-        <String xml:lang="de-DE">~r~abgeschlossen</String>
         <String xml:lang="it-IT">~r~sbloccato</String>
         <String xml:lang="id-ID">~r~membuka kunci</String>
         <String xml:lang="cs-CZ">~r~Odemkl</String>
         <String xml:lang="lv-LV">~r~atslēdzat</String>
         <String xml:lang="hi-Latn">~r~unlock</String>
         <String xml:lang="fr-FR">~r~déverrouillé</String>
+        <String xml:lang="de-DE">~r~aufgeschlossen</String>
         <String xml:lang="no-NO">~r~låst opp</String>
         <String xml:lang="sv-SE">~r~olåste</String>
         <String xml:lang="es-ES">~r~desbloqueado</String>
@@ -1346,6 +1347,7 @@
         <String xml:lang="tr-TR">~b~Araç kapı kilidi ~s~{0}.</String>
         <String xml:lang="fr-FR">Vous avez {0} ~s~votre ~b~véhicule~s~.</String>
         <String xml:lang="zh-Hant">你已將你的 ~b~車輛~s~ {0}~s~.</String>
+        <String xml:lang="ga-IE">Tá tú {0} ~s~do ~b~fheithicilI~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Player's name (for example: Sasino) -->
@@ -1455,6 +1457,7 @@
         <String xml:lang="pt-BR">Você realmente deseja estender o aluguel desse ~b~{0} ~s~por ~g~{1}~s~?</String>
         <String xml:lang="zh-Hant">你確定以 ~g~{1}~s~ 延長 ~b~{0}~s~ 的租賃嗎?</String>
         <String xml:lang="pl-PL">Czy na pewno chcesz wydłużyć wypożyczenie ~b~{0} ~s~za ~g~{1}~s~?</String>
+        <String xml:lang="ga-IE">An bhfuil tú i ndáiríre ag iarraidh cíosa an ~b~{0} ~s~seo a leathnú ar feadh ~g~{1}~s~?</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
@@ -1475,6 +1478,7 @@
         <String xml:lang="pt-BR">Você realmente quer acabar com o aluguel desse ~b~{0}~s~?</String>
         <String xml:lang="zh-Hant">你確定要終止 ~b~{0}~s~ 的租賃嗎?</String>
         <String xml:lang="pl-PL">Czy na pewno chcesz zakończyć wypożyczenie ~b~{0}~s~?</String>
+        <String xml:lang="ga-IE">An bhfuil tú i ndáiríre ag iarraidh deireadh a chur le cíosa an ~b~{0}~s~ seo?</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom)
@@ -1497,6 +1501,7 @@
         <String xml:lang="pt-BR">Você realmente quer vender seu ~b~{0} ~s~para o servidor por ~g~{1}~s~?</String>
         <String xml:lang="zh-Hant">你確定要以 ~g~{1}~s~ 將 ~b~{0}~s~ 售出嗎?</String>
         <String xml:lang="pl-PL">Czy na pewno chcesz sprzedać swój ~b~{0} ~s~dla serwera za ~g~{1}~s~?</String>
+        <String xml:lang="ga-IE">An bhfuil tú i ndáiríre ag iarraidh do ~b~{0}~s~ a dhíol leis an tseirbhís ar feadh ~g~{1}~s~?</String>
     </Entry>
 
     <!-- nullnull{0} = Number of vehicles (for example: 15) -->
@@ -1517,6 +1522,7 @@
         <String xml:lang="pt-BR">{0} veículos</String>
         <String xml:lang="zh-Hant">{0} 輛車</String>
         <String xml:lang="pl-PL">{0} pojazdów</String>
+        <String xml:lang="ga-IE">{0} feithiclí</String>
     </Entry>
 
     <!-- Store here means "to store" (your car in the garage) ✅
@@ -1538,6 +1544,7 @@
         <String xml:lang="zh-Hant">存車</String>
         <String xml:lang="pl-PL">Sklep</String>
         <String xml:lang="tr-TR">Geri gönder</String>
+        <String xml:lang="ga-IE">Siopa</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
@@ -1557,6 +1564,7 @@
         <String xml:lang="zh-Hant">將你的 ~b~{0}~s~ 送至保養廠.</String>
         <String xml:lang="pl-PL">Wyślij swój ~b~{0} ~s~do serwisu.</String>
         <String xml:lang="tr-TR">~b~{0} ~s~ismili aracı bakıma gönder.</String>
+        <String xml:lang="ga-IE">Seol do ~b~{0}~s~ chuig an chothabháil.</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
@@ -1576,6 +1584,7 @@
         <String xml:lang="pl-PL">Wyślij wypożyczony ~b~{0} ~s~do serwisu.</String>
         <String xml:lang="de-DE">Schicke deinen gemieteten ~b~{0} ~s~zur Wartung.</String>
         <String xml:lang="tr-TR">Kiraladığın ~b~{0} ~s~isimli aracını bakıma gönder.</String>
+        <String xml:lang="ga-IE">Seol do ~b~{0}~s~ ar cíos chuig an chothabháil.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rental_title">
@@ -1868,6 +1877,7 @@
         <String xml:lang="zh-Hant">將你的 ~b~{0} ~s~還給租賃公司.</String>
         <String xml:lang="pl-PL">Zwróć pojazd ~b~{0} ~s~do wypożyczalni.</String>
         <String xml:lang="tr-TR">~b~{0} ~s~isimli aracını kiralama şirketine geri ver.</String>
+        <String xml:lang="ga-IE">Fill ar ais an ~b~{0}~s~ seo chuig an gcomhlacht cíosa.</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
@@ -1887,6 +1897,7 @@
         <String xml:lang="zh-Hant"> 將 ~b~{0}~s~ 的租賃期限續約.</String>
         <String xml:lang="pl-PL">Przedłuż umowę wypożyczenia ~b~{0}~s~.</String>
         <String xml:lang="tr-TR">~b~{0} ~s~isimli aracın kira sözleşmesini yenile.</String>
+        <String xml:lang="ga-IE">Déan athnuachan ar chomhaontú cíosa an ~b~{0}~s~ seo.</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
@@ -1906,6 +1917,7 @@
         <String xml:lang="zh-Hant">將你的 ~b~{0} ~s~賣給伺服器並獲取部分的退款.</String>
         <String xml:lang="pl-PL">Sprzedaj swój ~b~{0} ~s~do serwera za pewien procent od ceny zakupu.</String>
         <String xml:lang="tr-TR">~b~{0} ~s~aracını satın alma fiyatının belli bir yüzdesi karşılığında sunucuya sat.</String>
+        <String xml:lang="ga-IE">Díol do ~b~{0}~s~ leis an tseirbhís do thacar de phraghas an cheannach.</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom)
@@ -1926,6 +1938,7 @@
         <String xml:lang="zh-Hant">將你的 ~b~{0} ~s~送回 ~y~{1}~s~.</String>
         <String xml:lang="it-IT">Invia il tuo ~b~{0} ~s~indietro al ~y~{1}~s~.</String>
         <String xml:lang="pl-PL">Wyślij swój ~b~{0} ~s~spowrotem do ~y~{1}~s~.</String>
+        <String xml:lang="ga-IE">Seol do ~b~{0}~s~ ar ais chuig ~y~{1}~s~.</String>
     </Entry>
 
     <!-- Do not include information about an EV charger, electric cars will get the "on_foot_to_use_ev_charger" notification instead. -->
@@ -1949,6 +1962,7 @@
         <String xml:lang="tr-TR">~y~Benzin pompası~s~nı kullanmak için ~r~yaya ~s~olmalısın.</String>
         <String xml:lang="no-NO">~y~Du må være ~r~til fots ~s~for å bruke en drivstoffpumpe.</String>
         <String xml:lang="zh-Hant">你需要 ~r~離開車輛~s~ 已使用 ~y~自助加油~s~.</String>
+        <String xml:lang="ga-IE">Caithfidh tú a bheith ~r~ar do chos~s~ chun ~y~caidéal gáis~s~ a úsáíd.</String>
     </Entry>
 
     <!-- nullnull{0} = Key (for example: U) -->
@@ -1991,5 +2005,6 @@
         <String xml:lang="pl-PL">~p~Ten pojazd wymaga {0}.\n~s~Wciąz możesz go używać jeśli wyciągniesz go z ~y~Garażu~s~, ale opcja ~y~Dostarczenia ~s~została wyłączona.</String>
         <String xml:lang="de-DE">~p~Dieses Fahrzeug erfordert {0}.\n~s~Du kannst es weiterhin verwenden, indem du es aus deiner ~y~Garage~s~ holst, aber die ~y~Liefer~s~-Funktion dafür wurde deaktiiviert.</String>
         <String xml:lang="tr-TR">~p~Bu araç {0} gerektirir.\n~s~Yine de ~y~garaj~s~ından dışarı çıkartarak kullanabilirsin. Ancak, ~y~Teslimat ~s~özelliği bu araç için devre dışı bırakılmıştır.</String>
+        <String xml:lang="ga-IE">~p~Tá {0} ag teastáil ón bhfeithicil seo.\n~s~ls féidir leat é a úsáid fós trí é a thógáil amach as do ~y~ghearálais~s~, ach tá an ghné ~y~Seachadta~s~ díghníomhachtaithe dó.</String>
     </Entry>
 </Entries>
