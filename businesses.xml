@@ -77,6 +77,7 @@
         <String xml:lang="no-NO">Kun kontant betaling</String>
         <String xml:lang="zh-Hant">只收現金</String>
         <String xml:lang="et-EE">Ainult sularahamaksed</String>
+        <String xml:lang="pl-PL">Tylko płatności gotówkowe</String>
     </Entry>
 
     <Entry Id="menu_store_no_items_desc">
@@ -1152,7 +1153,6 @@
     <Entry Id="menu_drugdealer_calls_description">
         <String xml:lang="en-US">View recent calls for a drug dealer.</String>
         <String xml:lang="nl-NL">Bekijk de meeste recente drugdealer oproepen.</String>
-        <String xml:lang="tr-TR">Son zamanlarda uyuşturucu satıcısı için yapılan aramalar.</String>
         <String xml:lang="hi-Latn">Drug dealer ke liye recent ki calls dekhe.</String>
         <String xml:lang="de-DE">Zeigt aktuelle Rufe für einen Drogenhändler.</String>
         <String xml:lang="it-IT">Visualizza le chiamate recenti per uno spacciatore.</String>
@@ -1167,6 +1167,7 @@
         <String xml:lang="pl-PL">Zobacz ostatnie wezwania handlarza narkotyków.</String>
         <String xml:lang="vi-VN">Xem các cuộc gọi gần đây cho một kẻ buôn thuốc</String>
         <String xml:lang="zh-Hant">查看近期打給藥頭的電話.</String>
+        <String xml:lang="tr-TR">Uyuşturucu satıcısı için yapılan son çağrıları görüntüle.</String>
     </Entry>
 
     <Entry Id="menu_impound_title">
@@ -1181,10 +1182,10 @@
         <String xml:lang="zh-Hant">扣押</String>
         <String xml:lang="pl-PL">Konfiskata</String>
         <String xml:lang="fr-FR">Fourrière</String>
-        <String xml:lang="tr-TR">El koymak</String>
         <String xml:lang="hi-Latn">Impound</String>
         <String xml:lang="id-ID">Penyitaan</String>
         <String xml:lang="lv-LV">Konfiscēts</String>
+        <String xml:lang="tr-TR">Bağlamak</String>
         <String xml:lang="no-NO">Beslaglagt</String>
         <String xml:lang="sv-SE">Beslagta</String>
         <String xml:lang="vi-VN">Bị tịch thu</String>
@@ -1201,11 +1202,11 @@
         <String xml:lang="th-TH">รถที่ถูกยึด</String>
         <String xml:lang="zh-Hant">扣押車輛</String>
         <String xml:lang="pl-PL">Skonfiskowane pojazdy</String>
-        <String xml:lang="tr-TR">El konulan araçlar</String>
         <String xml:lang="hi-Latn">Impund ki gayi gadiyan.</String>
         <String xml:lang="id-ID">Kendaraan yang disita</String>
         <String xml:lang="lv-LV">Konfiscēti transportlīdzekļi</String>
         <String xml:lang="fr-FR">Véhicules retenus à la fourrière</String>
+        <String xml:lang="tr-TR">Çekilen araçlar</String>
         <String xml:lang="no-NO">Beslaglagte kjøretøy</String>
         <String xml:lang="sv-SE">Beslagta fordon</String>
         <String xml:lang="vi-VN">Các phương tiện bị tịch thu</String>
@@ -1242,7 +1243,7 @@
         <String xml:lang="hi-Latn">SHOP KI FEES: {0}%</String>
         <String xml:lang="ar-001">رسوم المتجر: {0}%</String>
         <String xml:lang="lv-LV">SERVISA KOMISIJA: {0}%</String>
-        <String xml:lang="tr-TR">ALIŞVERİŞ ÜCRETİ: {0}%</String>
+        <String xml:lang="tr-TR">ALIŞVERİŞ ÜCRETİ: %{0}</String>
         <String xml:lang="no-NO">BUTIKKGEBYR: {0}%</String>
         <String xml:lang="sv-SE">BUTIKSAVGIFT: {0}%</String>
         <String xml:lang="es-ES">TASA DE TIENDA: {0}%</String>
@@ -1656,11 +1657,11 @@
         <String xml:lang="zh-Hant">與被逮捕的玩家互動</String>
         <String xml:lang="pl-PL">Interaguj z aresztowanym graczem</String>
         <String xml:lang="fr-FR">Interagir avec le joueur arrêté</String>
-        <String xml:lang="tr-TR">Tutuklanan oyuncuyla etkileşimde bulun</String>
         <String xml:lang="hi-Latn">Arrested player ke saath interact kare.</String>
         <String xml:lang="lv-LV">Mijiedarbojieties ar arestēto spēlētāju</String>
         <String xml:lang="sv-SE">Interagera med den arresterade spelaren</String>
         <String xml:lang="no-NO">Samhandle med den arresterte spilleren</String>
+        <String xml:lang="tr-TR">Tutuklanan oyuncuyla etkileşime geç</String>
     </Entry>
 
     <Entry Id="menu_search_results_title">
@@ -1718,9 +1719,9 @@
         <String xml:lang="id-ID">Kantor kepolisian</String>
         <String xml:lang="zh-Hant">警察局</String>
         <String xml:lang="pl-PL">Komisariat Policji</String>
-        <String xml:lang="tr-TR">Polis İstasyonu</String>
         <String xml:lang="hi-Latn">Police Station</String>
         <String xml:lang="lv-LV">Policijas Iecirknis</String>
+        <String xml:lang="tr-TR">Karakol</String>
         <String xml:lang="sv-SE">Polisstation</String>
         <String xml:lang="no-NO">Politistasjon</String>
         <String xml:lang="fr-FR">Commissariat</String>
@@ -1740,9 +1741,9 @@
         <String xml:lang="zh-Hant">逮捕遭通緝玩家</String>
         <String xml:lang="pl-PL">Nakaz Aresztowania</String>
         <String xml:lang="fr-FR">Mandats d'arrêt</String>
-        <String xml:lang="tr-TR">Tutuklama Emri</String>
         <String xml:lang="hi-Latn">Arrest Warrants</String>
         <String xml:lang="lv-LV">Arestēšanas Orderi</String>
+        <String xml:lang="tr-TR">Tutuklama Kararı Olanlar</String>
         <String xml:lang="sv-SE">Arresteringsorder</String>
         <String xml:lang="no-NO">Arrestordrer</String>
     </Entry>
@@ -1761,9 +1762,9 @@
         <String xml:lang="zh-Hant">懸賞最高的玩家</String>
         <String xml:lang="pl-PL">Najbardziej Poszukiwani Gracze</String>
         <String xml:lang="fr-FR">Joueurs les plus recherchés</String>
-        <String xml:lang="tr-TR">En çok aranan oyuncular</String>
         <String xml:lang="hi-Latn">Most Wanted Players</String>
         <String xml:lang="lv-LV">Most Wanted spēlētāji</String>
+        <String xml:lang="tr-TR">En Çok Aranlar</String>
         <String xml:lang="sv-SE">Mest eftertraktade spelare</String>
         <String xml:lang="no-NO">Mest ettersøkte spillere</String>
     </Entry>
@@ -1845,9 +1846,9 @@
         <String xml:lang="zh-Hant">選擇一個地點</String>
         <String xml:lang="pl-PL">Wybierz destynację</String>
         <String xml:lang="fr-FR">Sélectionner la destination</String>
-        <String xml:lang="tr-TR">Varış yerini seç</String>
         <String xml:lang="hi-Latn">Select destination</String>
         <String xml:lang="lv-LV">Izvēlieties galamērķi</String>
+        <String xml:lang="tr-TR">Varış noktası seç</String>
         <String xml:lang="sv-SE">Välj destination</String>
         <String xml:lang="no-NO">Velg destinasjon</String>
     </Entry>
@@ -2003,6 +2004,7 @@
         <String xml:lang="no-NO">Kun kontantløse betalinger</String>
         <String xml:lang="zh-Hant">不收現金</String>
         <String xml:lang="et-EE">Ainult sularahata maksed</String>
+        <String xml:lang="pl-PL">Tylko płatności bezgotówkowe</String>
     </Entry>
 
     <Entry Id="stp_offered">
@@ -2058,6 +2060,7 @@
         <String xml:lang="zh-Hant">加油站</String>
         <String xml:lang="et-EE">Tankla</String>
         <String xml:lang="hi-Latn">Fuel Station</String>
+        <String xml:lang="pl-PL">Stacja benzynowa</String>
     </Entry>
 
     <Entry Id="stp_service_fix_na">
@@ -2311,6 +2314,7 @@
         <String xml:lang="no-NO">Flyplass</String>
         <String xml:lang="zh-Hant">機場</String>
         <String xml:lang="et-EE">Lennujaam</String>
+        <String xml:lang="pl-PL">Lotnisko</String>
     </Entry>
 
     <Entry Id="menu_stp_mods_none_text">
@@ -2566,6 +2570,7 @@
         <String xml:lang="no-NO">Sikkerhetsselskap</String>
         <String xml:lang="zh-Hant">保全公司</String>
         <String xml:lang="et-EE">Turvafirma</String>
+        <String xml:lang="pl-PL">Firma ochroniarska</String>
     </Entry>
 
     <Entry Id="menu_stp_liveries_none">
@@ -2867,7 +2872,7 @@
         <String xml:lang="ar-001">عرض المكالمات الأخيرة لـلمسعف.</String>
         <String xml:lang="lv-LV">Skatiet nesenos zvanus ārstiem.</String>
         <String xml:lang="no-NO">Se nylige samtaler for EMS.</String>
-        <String xml:lang="tr-TR">Son EMS sözleşmelerini görüntüle.</String>
+        <String xml:lang="tr-TR">Son acil durum çağrılarını görüntüle.</String>
         <String xml:lang="sv-SE">Visa de senaste samtalen för akutsjukvård</String>
         <String xml:lang="es-ES">Ver llamadas recientes de Ambulancia.</String>
         <String xml:lang="pt-BR">Ver chamadas recentes de ambulância.</String>
@@ -3868,6 +3873,7 @@
         <String xml:lang="no-NO">PÅ SALG!</String>
         <String xml:lang="zh-Hant">開賣!</String>
         <String xml:lang="et-EE">SOODUSHINNAGA!</String>
+        <String xml:lang="pl-PL">DO SPRZEDANIA!</String>
     </Entry>
 
     <Entry Id="cat_attribute_sales">
@@ -3881,6 +3887,7 @@
         <String xml:lang="no-NO">SALG!</String>
         <String xml:lang="zh-Hant">折扣!</String>
         <String xml:lang="et-EE">SOODUSTUSED!</String>
+        <String xml:lang="pl-PL">SPRZEDAŻ!</String>
     </Entry>
 
     <Entry Id="cat_attribute_multiple_sales">
@@ -3894,6 +3901,7 @@
         <String xml:lang="no-NO">Flere salg!</String>
         <String xml:lang="zh-Hant">很多折扣!</String>
         <String xml:lang="et-EE">Mitmed soodustused!</String>
+        <String xml:lang="pl-PL">Wiele sprzedaży!</String>
     </Entry>
 
     <Entry Id="item_sale_descr">
@@ -3907,6 +3915,7 @@
         <String xml:lang="no-NO">{0}: {1}% RABATT frem til {2}!</String>
         <String xml:lang="zh-Hant">{0}: {1}% OFF 到 {2}!</String>
         <String xml:lang="et-EE">{0}: {1}% ALLAHINDLUS kuni {2}!</String>
+        <String xml:lang="pl-PL">{0}: {1}% zniżki do {2}!</String>
     </Entry>
 
     <Entry Id="item_attribute_bonus">
@@ -3920,6 +3929,7 @@
         <String xml:lang="no-NO">BONUS!</String>
         <String xml:lang="zh-Hant">紅利!</String>
         <String xml:lang="et-EE">BOONUS!</String>
+        <String xml:lang="pl-PL">BONUS!</String>
     </Entry>
 
     <Entry Id="menu_store_no_gun_for_attachment">
@@ -3933,6 +3943,7 @@
         <String xml:lang="no-NO">Du har ikke det nødvendige våpenet for dette vedlegget.</String>
         <String xml:lang="zh-Hant">你沒有這個配件對應的武器.</String>
         <String xml:lang="et-EE">Sul ei ole selle kinnituse jaoks sobivat relva.</String>
+        <String xml:lang="pl-PL">Nie posiadasz wymaganej broni dla tego dodatku.</String>
     </Entry>
 
     <Entry Id="gas_station_only_evs">
@@ -3947,6 +3958,8 @@
         <String xml:lang="no-NO">~r~Du kan bare lade elbiler her.</String>
         <String xml:lang="zh-Hant">~r~油車不吃電.</String>
         <String xml:lang="et-EE">~r~Siin saab laadida ainult elektrisõidukeid.</String>
+        <String xml:lang="pl-PL">~r~Tutaj możesz ładować tylko pojazdy elektryczne.</String>
+        <String xml:lang="hi-Latn">~r~Yahaan sirf electric vehicles charge kar sakte ho.</String>
     </Entry>
 
     <Entry Id="gas_station_no_evs">
@@ -3956,11 +3969,12 @@
         <String xml:lang="vi-VN">~r~Bạn không thể sạc xe điện tại đây. Hãy sử dụng trạm sạc EV thay thế.</String>
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas charger votre véhicule électrique ici. Utilisez plutôt un chargeur de VE.</String>
         <String xml:lang="de-DE">~r~Sie können ihr Elektrofahrzeug hier nicht aufladen. Verwenden Sie stattdessen ein EV-Ladegerät</String>
-        <String xml:lang="tr-TR">~r~Elektrikli aracını burada şarj edemezsin. Bunun yerine bir EA şarj cihazı kullan.</String>
         <String xml:lang="ga-IE">~r~Ní féidir leat do fheithicil leictreach a mhuirearú anseo. Bain úsáid as luchtaire EV ina ionad.</String>
         <String xml:lang="no-NO">~r~Du kan ikke lade elbilen din her. Bruk en elbillader i stedet.</String>
         <String xml:lang="zh-Hant">~r~你不能把汽油加到電車裡. 請用 EV充電器.</String>
         <String xml:lang="et-EE">~r~Siin ei saa sa oma elektrisõidukit laadida. Kasuta selle asemel EV-laadijat.</String>
+        <String xml:lang="pl-PL">~r~Nie możesz tu naładować swojego pojazdu elektrycznego. Zamiast tego użyj ładowarki do pojazdów elektrycznych.</String>
+        <String xml:lang="tr-TR">~r~Elektrikli aracınızı burada şarj edemezsiniz. Bunun yerine bir elektrikli araç şarj istasyonu kullanın.</String>
     </Entry>
 
     <Entry Id="gas_station_charge_battery">
@@ -3975,6 +3989,7 @@
         <String xml:lang="no-NO">Lad batteriet</String>
         <String xml:lang="zh-Hant">充電</String>
         <String xml:lang="et-EE">Lae oma akut</String>
+        <String xml:lang="pl-PL">Naładuj baterię</String>
     </Entry>
 
     <Entry Id="gas_station_fill_tank">
@@ -3989,6 +4004,7 @@
         <String xml:lang="no-NO">Fyll opp tanken</String>
         <String xml:lang="zh-Hant">加油</String>
         <String xml:lang="et-EE">Täida oma paak</String>
+        <String xml:lang="pl-PL">Napełnij swój zbiornik</String>
     </Entry>
 
     <Entry Id="gas_station_fill_jerrycan">
@@ -4003,6 +4019,7 @@
         <String xml:lang="no-NO">Fyll opp Gassbeholderen din</String>
         <String xml:lang="zh-Hant">填充汽油桶</String>
         <String xml:lang="et-EE">Täida oma kanister</String>
+        <String xml:lang="pl-PL">Napełnij swój kanister</String>
     </Entry>
 
     <Entry Id="gas_station_error_no_jerrycan">
@@ -4018,6 +4035,7 @@
         <String xml:lang="zh-Hant">~r~你沒有汽油桶</String>
         <String xml:lang="et-EE">~r~Sul pole kanistrit</String>
         <String xml:lang="hi-Latn">~r~Aapke paas jerrycan nahin hai</String>
+        <String xml:lang="pl-PL">~r~Nie masz kanistra</String>
     </Entry>
 
     <Entry Id="menu_store_sell_items">
@@ -4031,6 +4049,7 @@
         <String xml:lang="no-NO">Selg varer</String>
         <String xml:lang="zh-Hant"> 銷售</String>
         <String xml:lang="et-EE">Müü esemed maha</String>
+        <String xml:lang="pl-PL">Sprzedaj przedmioty</String>
     </Entry>
 
     <Entry Id="menu_store_sell_items_desc">
@@ -4044,6 +4063,7 @@
         <String xml:lang="no-NO">Selg ~b~varene dine ~s~til butikken.</String>
         <String xml:lang="zh-Hant">把這些 ~b~物品~s~ 賣給商店.</String>
         <String xml:lang="et-EE">Müü oma ~b~esemed ~s~poele.</String>
+        <String xml:lang="pl-PL">Sprzedaj swoje ~b~przedmioty ~s~do sklepu.</String>
     </Entry>
 
     <Entry Id="menu_store_sell_for">
