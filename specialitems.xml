@@ -42,13 +42,13 @@
 
     <Entry Id="specialitem_armor_cooldown">
         <String xml:lang="en-US">You need to ~r~wait ~s~{0} seconds to use this type of ~p~body armor ~s~again.</String>
-        <String xml:lang="it-IT">Devi ~r~aspettare ~s~{0} secondi prima di poter usare questo tipo di ~p~giubbotto antiproiettile ~s~ancora.</String>
         <String xml:lang="nl-NL">Je moet {0} seconden ~r~wachten ~s~voordat je dit type ~p~kogelvrij vest~s~ weer kan gebruiken.</String>
         <String xml:lang="de-DE">Du musst {0} Sekunden ~r~warten~s~, bevor du diesen ~p~Typ Schutzweste ~s~wieder verwenden kannst. </String>
         <String xml:lang="es-ES">Tienes que ~r~esperar ~s~{0} segundos para poder usar este tipo de ~p~chaleco antibalas ~s~otravez.</String>
         <String xml:lang="tr-TR">Gerekli {0} saniye ~r~beklemelisin~s~, bu tip ~p~vücut zırhını ~s~tekrar kullanmadan önce.</String>
         <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~{0} sekund zanim użyjesz ten typ ~p~kamizelki kuloodpornej ~s~ponownie.</String>
         <String xml:lang="pt-BR">Você precisa ~r~esperar ~s~{0} segundos para poder usar esse tipo de ~p~colete à prova de balas ~s~uma vez.</String>
+        <String xml:lang="it-IT">Dovrai ~r~aspettare ~s~{0} secondi prima di poter usare questo tipo di ~p~giubbotto antiproiettile ~s~ancora.</String>
         <String xml:lang="ar-001">أنت بحاجة إلى ~r~الانتظار ~s~{0} ثانية لاستخدام هذا النوع من ~p~درع واقي للرصاص ~s~مرة أخرى.</String>
         <String xml:lang="id-ID">Anda harus ~r~menunggu ~s~{0} detik untuk dapat menggunakan ~p~pelindung badan tipe ini ~s~lagi.</String>
         <String xml:lang="th-TH">คุณต้อง ~r~รอ ~s~{0} วินาทีเพื่อใช้ ~p~body armour ~s~อีกครั้ง</String>
@@ -84,7 +84,6 @@
     <Entry Id="medkit_cooldown">
         <String xml:lang="en-US">You need to ~r~wait ~s~30 seconds between ~p~medkit ~s~uses.</String>
         <String xml:lang="nl-NL">Je moet 30 seconden ~r~wachten ~s~tussen gebruik van de ~p~verbandkit~s~.</String>
-        <String xml:lang="it-IT">Devi ~r~aspetare ~s~30 secondi prima di poter usare un altro ~p~kit medico~s~.</String>
         <String xml:lang="es-ES">Tienes que ~r~esperar ~s~30 segundos para usar otro ~p~botiquín~s~.</String>
         <String xml:lang="de-DE">Du musst zwischen der Verwendung von ~p~Verbandskästen~s~ 30 Sekunden ~r~warten~s~.</String>
         <String xml:lang="pt-BR">Você precisa ~r~esperar ~s~30 segundos para usar outro ~p~kit de primeiros socorros~s~.</String>
@@ -99,6 +98,7 @@
         <String xml:lang="sv-SE">Du måste ~r~vänta ~s~30 sekunder mellan ~p~medkit ~s~användningar.</String>
         <String xml:lang="cs-CZ">Musíš ~r~počkat ~s~30 sekund před použitím další ~p~lékárničky~s~.</String>
         <String xml:lang="tr-TR">~p~İlk yardım çantası ~s~kullanımları arasında 30 saniye ~r~beklemeniz ~s~gerekiyor</String>
+        <String xml:lang="it-IT">Dovrai ~r~aspetare ~s~30 secondi prima di poter usare un altro ~p~kit medico~s~.</String>
     </Entry>
 
     <Entry Id="medkit_at_time">
@@ -393,7 +393,6 @@
 
     <Entry Id="suffering_od">
         <String xml:lang="en-US">suffering from an ~r~overdose~s~.</String>
-        <String xml:lang="it-IT">stai soffrendo di ~r~overdose~s~.</String>
         <String xml:lang="nl-NL">lijdt aan een ~r~overdosis~s~.</String>
         <String xml:lang="fr-FR">souffrant d'une ~r~overdose~s~.</String>
         <String xml:lang="de-DE">unter einer ~r~Überdosis~s~ leidst.</String>
@@ -406,6 +405,7 @@
         <String xml:lang="th-TH">ทุกข์ทรมานจาก ~r~ใช้ยาเกินขนาด~s~</String>
         <String xml:lang="hi-Latn">suffer kar rahe hain dawa ke ~r~overdose ~s~se.</String>
         <String xml:lang="lv-LV">cieš no ~r~pārdozēšanas~s~.</String>
+        <String xml:lang="it-IT">stai soffrendo da un attaco di ~r~overdose~s~.</String>
         <String xml:lang="no-NO">lider av en ~r~overdose~s~.</String>
         <String xml:lang="sv-SE">lider av en ~r~överdos~s~.</String>
         <String xml:lang="cs-CZ">trpí ~r~předávkováním~s~.</String>
@@ -433,7 +433,6 @@
 
     <Entry Id="specialitem_bandage_piece">
         <String xml:lang="en-US">You've used a piece of ~p~bandage~s~.</String>
-        <String xml:lang="it-IT">Hai usato un pezzo di ~p~benda~s~.</String>
         <String xml:lang="nl-NL">Je hebt een stukje ~p~verband~s~ gebruikt.</String>
         <String xml:lang="de-DE">Du hast ein Stück von der ~p~Bandage ~s~verwendet.</String>
         <String xml:lang="es-ES">Has usado un pedazo de ~p~vendaje~s~.</String>
@@ -446,6 +445,7 @@
         <String xml:lang="hi-Latn">Aapne ek piece use kiya ~p~bandage ~s~ka.</String>
         <String xml:lang="lv-LV">Jūs izmantojat ~p~pārsēja~s~ gabalu.</String>
         <String xml:lang="fr-FR">Vous avez un morceau de ~p~bandage~s~.</String>
+        <String xml:lang="it-IT">Hai usato un pezzo di ~p~bende~s~.</String>
         <String xml:lang="no-NO">Du har brukt et stykke ~p~bandasje~s~.</String>
         <String xml:lang="sv-SE">Du har använt en bit ~p~bandage~s~.</String>
         <String xml:lang="cs-CZ">Použil jsi kousek ~p~obvazu~s~.</String>
@@ -514,7 +514,6 @@
 
     <Entry Id="specialitem_repairkit_vehicle_control">
         <String xml:lang="en-US">Unable to take control of the ~b~vehicle~s~. If other ~r~players ~s~are inside it, ask them to exit.</String>
-        <String xml:lang="it-IT">Non è possibile prendere il controllo del ~b~veicolo~s~. ~s~Se ci sono ~r~player ~s~all'interno del veicolo, chiedigli di uscire.</String>
         <String xml:lang="nl-NL">Niet in staat om controle over het ~b~voertuig ~s~te nemen. Als er andere ~r~spelers ~s~in zitten, vraag ze om uit te stappen.</String>
         <String xml:lang="de-DE">Die Kontrolle über das ~b~Fahrzeug~s~ kann nicht übernommen werden. Wenn andere ~r~Spieler~s~ im Fahrzeug sind, bitte sie, auszusteigen.</String>
         <String xml:lang="es-ES">No se puede tomar el control de los ~b~vehículos~s~. Si hay otros ~r~jugadores ~s~dentro, pídeles que salgan.</String>
@@ -530,6 +529,7 @@
         <String xml:lang="fr-FR">Impossible de prendre le contrôle du ~b~véhicule~s~. Si d'autres ~r~joueurs ~s~se trouvent à l'intérieur, demandez-leur de sortir.</String>
         <String xml:lang="cs-CZ">Nelze převzít kontrolu nad ~b~vozidlem~s~. Pokud je v něm jiný ~r~hráč~s~, musí první vystoupit.</String>
         <String xml:lang="tr-TR">~b~Aracın ~s~kontrolü sağlanamıyor. İçinde başka ~r~oyuncular ~s~varsa, araçtan inmelerini isteyin.</String>
+        <String xml:lang="it-IT">Non è possibile prendere il controllo del ~b~veicolo~s~. ~s~Se ci sono ~r~giocatori ~s~all'interno del veicolo, chiedigli di uscire.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_type">
@@ -576,9 +576,9 @@
         <String xml:lang="en-US">Your vehicle's engine isn't ~r~damaged enough~s~ to use ~b~{0}~s~.</String>
         <String xml:lang="nl-NL">De motor van je voertuig is niet ~r~beschadigd genoeg~s~ om ~b~{0}~s~ te gebruiken.</String>
         <String xml:lang="de-DE">Dein Fahrzeug ist nicht ~r~genug beschädigt~s~, um ~b~{0}~s~ zu benutzen.</String>
-        <String xml:lang="it-IT">Il motore del tuo veicolo non è ~r~abbastanza danneggiato~s~ per usare ~b~{0}~s~.</String>
         <String xml:lang="id-ID">Mesin kendaraanmu tidak ~r~terlalu rusak~s~ untuk menggunakan ~b~{0}~s~.</String>
         <String xml:lang="lv-LV">Jūsu transportlīdzekļa dzinējs nav ~r~pietiekami bojāts~s~, lai izmantotu ~b~{0}~s~.</String>
+        <String xml:lang="it-IT">Il motore del tuo veicolo non è ~r~abbastanza danneggiato~s~ per poter usare~b~{0}~s~.</String>
         <String xml:lang="hi-Latn">&gt;Aapki gaadi ka engine itna ~r~kharaab nahi hai~s~ ki ~b~{0}~s~ use kar sakein.</String>
         <String xml:lang="no-NO">Kjøretøyets motor er ikke ~r~skadet nok~s~ til å bruke ~b~{0}~s~.</String>
         <String xml:lang="sv-SE">Ditt fordons motor är inte ~r~skadad nog~s~ för att använda ~b~{0}~s~.</String>
@@ -751,7 +751,6 @@
     <Entry Id="specialitem_halloween_candy_inventory_full">
         <String xml:lang="en-US">~r~Warning: ~s~You couldn't receive a halloween candy because your inventory is full.</String>
         <String xml:lang="nl-NL">~r~Waarschuwing: ~s~Je kon geen halloween candy ontvangen omdat je inventaris vol zit.</String>
-        <String xml:lang="it-IT">~r~Attenzione: ~s~Non hai potuto ricevere la caramella di halloween poiché il tuo inventario è pieno.</String>
         <String xml:lang="pl-PL">~r~Uwaga: ~s~Nie dostałeś cukierka halloweenowego bo twój ekwipunek jest pełny.</String>
         <String xml:lang="es-ES">~r~Advertencia: ~s~No pudiste recibir un dulce de Halloween porque tu inventario está lleno.</String>
         <String xml:lang="de-DE">~r~Achtung: ~s~Du konntest keine Halloween-Süßigkeiten erhalten, weil dein Inventar voll ist.</String>
@@ -762,6 +761,7 @@
         <String xml:lang="hi-Latn">~r~Warning: ~s~Aap aur halloween candy receive nahi kar sake kyunki aapki inventory full hai.</String>
         <String xml:lang="lv-LV">~r~Brīdinājums: ~s~Jūs nevarējat saņemt halovīna saldumu jo jūsu inventārs ir pilns.</String>
         <String xml:lang="fr-FR">~r~Avertissement: ~s~Vous n'avez pas pu recevoir un bonbon d'Halloween car votre inventaire est plein.</String>
+        <String xml:lang="it-IT">~r~Attenzione: ~s~Non hai potuto ricevere la caramella di halloween perché il tuo inventario è pieno.</String>
         <String xml:lang="no-NO">~r~Advarsel: ~s~Du kunne ikke motta en halloween-godteri fordi beholdningen din er full.</String>
         <String xml:lang="sv-SE">~r~Varning: ~s~Du kunde inte ta emot ett halloweengodis eftersom ditt lager är fullt.</String>
         <String xml:lang="tr-TR">~r~Uyarı: ~s~Envanteriniz dolu olduğu için bir Cadılar Bayramı şekeri alamadınız.</String>
@@ -809,7 +809,6 @@
         <String xml:lang="en-US">You collected a ~g~present~s~! You can open your presents in ~b~M ~s~&gt; ~b~Inventory~s~!</String>
         <String xml:lang="pl-PL">Podniosłes ~g~prezent~s~! Możesz otworzyć swoje prezenty w ~b~M ~s~&gt; ~b~Ekwipunek~s~!</String>
         <String xml:lang="nl-NL">Je hebt een ~g~cadeau~s~ gevonden! Je kan je cadeaus openen in ~b~M ~s~&gt; ~b~Inventaris~s~!</String>
-        <String xml:lang="it-IT">Hai raccolto un ~g~regalo~s~! Puoi aprire i tuoi regali in ~b~M ~s~&gt; ~b~Inventario~s~!</String>
         <String xml:lang="es-ES">¡Has recogido un ~g~regalo~s~! Puedes abrir tus regalos en ~b~M ~s~&gt; ~b~Inventario~s~!</String>
         <String xml:lang="pt-BR">Você ganhou um ~g~presente~s~! Você pode abrir seus presentes em ~b~M ~s~&gt; ~b~Inventário~s~!</String>
         <String xml:lang="de-DE">Du hast ein ~g~Geschenk~s~ eingesammlt! Du kannst dein Geschenk in ~b~M ~s~&gt; ~b~Inventar~s~ öffnen!</String>
@@ -818,6 +817,7 @@
         <String xml:lang="th-TH">คุณรวบรวม ~g~ของขวัญ~s~! คุณสามารถเปิดของขวัญได้ใน ~b~M ~s~&gt; ~b~สินค้าคงคลัง~s~!</String>
         <String xml:lang="hi-Latn">Aapne collect kiya ek ~g~present~s~! Aap apne presents open kar sakte ho, ~b~M ~s~&gt; ~b~Inventory~s~!</String>
         <String xml:lang="lv-LV">Jūs savācat ~g~dāvanu~s~! Jūs varat atvērt savas dāvanas ~b~M ~s~&gt; ~b~Inventārs~s~!</String>
+        <String xml:lang="it-IT">Hai raccolto un ~g~regalo~s~! Puoi aprire i tuoi regali usando ~b~M ~s~&gt; ~b~Inventario~s~!</String>
         <String xml:lang="no-NO">Du har samlet en ~g~gave~s~! Du kan åpne gavene dine i ~b~M ~s~&gt; ~b~Inventory~s~!</String>
         <String xml:lang="sv-SE">Du har samlat en ~g~present~s~! Du kan öppna dina presenter i ~b~M ~s~&gt; ~b~Lager~s~!</String>
         <String xml:lang="fr-FR">Vous avez collecté un ~g~cadeau~s~! Vous pouvez ouvrir vos cadeaux dans ~b~M ~s~&gt; ~b~Inventaire~s~!</String>
@@ -828,7 +828,6 @@
         <String xml:lang="en-US">You must ~r~wait ~s~before collecting another ~g~present~s~!</String>
         <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~przed podniesieniem kolejnego ~g~prezentu~s~!</String>
         <String xml:lang="nl-NL">Je moet ~r~wachten ~s~voordat je een ander ~g~cadeau~s~ kan oppakken!</String>
-        <String xml:lang="it-IT">Devi ~r~aspettare ~s~prima di raccogliere un altro ~g~regalo~s~!</String>
         <String xml:lang="es-ES">Debes ~r~esperar ~s~antes de recoger otro ~g~regalo~s~!</String>
         <String xml:lang="pt-BR">Você deve ~r~esperar ~s~antes de pegar outro ~g~presente~s~!</String>
         <String xml:lang="de-DE">Du musst ~r~warten~s~, bevor du ein weiteres ~g~Geschenk ~s~einsammelst.</String>
@@ -837,6 +836,7 @@
         <String xml:lang="th-TH">คุณต้อง ~r~รอ ~s~ก่อนที่จะรวบรวม ~g~ปัจจุบัน~s~!</String>
         <String xml:lang="hi-Latn">Aapko ~r~wait ~s~karna hoga doosra ~g~present ~s~collect karne se pehle!</String>
         <String xml:lang="lv-LV">Jums ir ~r~jāpagaida ~s~pirms citas ~g~dāvanas ~s~savākšanas!</String>
+        <String xml:lang="it-IT">Dovrai ~r~aspettare ~s~prima di raccogliere un altro ~g~regalo~s~!</String>
         <String xml:lang="no-NO">Du må ~r~vente ~s~før du samler en annen ~g~gave~s~!</String>
         <String xml:lang="sv-SE">Du måste ~r~vänta ~s~innan du hämtar en annan ~g~present~s~!</String>
         <String xml:lang="fr-FR">Vous devez ~r~attendre ~s~avant de pouvoir collecter un autre ~g~cadeau~s~!</String>
@@ -867,7 +867,6 @@
         <String xml:lang="pl-PL">~g~Prezent upuszczony przez ~r~Świętego Mikołaja ~s~jest blisko!</String>
         <String xml:lang="nl-NL">Het ~g~cadeau ~s~dat is gedropt door ~r~de kerstman ~s~is in de buurt!</String>
         <String xml:lang="fr-FR">Le ~g~cadeau déposé par le ~r~Père Noël ~s~est à proximité!</String>
-        <String xml:lang="it-IT">Il ~g~regalo lasciato da ~r~Babbo Natale ~s~è nelle vicinanze!</String>
         <String xml:lang="es-ES">El ~g~regalo que tiro ~r~Santa Claus ~s~está cerca!</String>
         <String xml:lang="pt-BR">o ~g~presente que joguei ~r~Papai Noel ~s~está por perto!</String>
         <String xml:lang="de-DE">Das ~g~Geschenk~s~, welches von ~r~Santa Claus ~s~fallen gelassen wurde~s~, befindet sich in der Nähe.</String>
@@ -876,6 +875,7 @@
         <String xml:lang="th-TH">~g~ของขวัญที่ดรอปโดย ~r~Santa Claus ~s~อยู่ใกล้ๆ แล้ว!</String>
         <String xml:lang="hi-Latn">Ek ~g~present drop kara hai ~r~Santa Claus ~s~ne aas-paas mein!</String>
         <String xml:lang="lv-LV">Netālu no jums ir nokrituši ~r~Ziemassvētku vecīša ~g~dāvana~s~.</String>
+        <String xml:lang="it-IT">Il ~g~regalo lasciato da ~r~Babbo Natale ~s~è vicino a te!</String>
         <String xml:lang="no-NO">~g~gaven innom ~r~nissen ~s~er i nærheten!</String>
         <String xml:lang="sv-SE">~g~presenten som släpptes av ~r~tomten ~s~är i närheten!</String>
         <String xml:lang="tr-TR">~r~Noel baba ~g~tarafından bırakılan hediye ~s~yakınlarda!</String>
