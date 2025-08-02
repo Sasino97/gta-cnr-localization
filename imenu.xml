@@ -1614,7 +1614,6 @@
     <Entry Id="imenu_inventory_item_sent">
         <String xml:lang="en-US">You gave {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~y~{1} {2}~s~ gegeven.</String>
-        <String xml:lang="es-ES">Has dado a {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="zh-Hant">你給了 {0} ~y~{1} 個 {2}~s~.</String>
         <String xml:lang="zh-Hans">你给了 {0} ~y~{1} 个 {2}~s~.</String>
         <String xml:lang="pt-BR">Você deu a {0} ~y~{1} {2}~s~.</String>
@@ -1623,6 +1622,7 @@
         <String xml:lang="vi-VN">Bạn đã đưa {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="id-ID">Anda memberikan {0} ~y~{1} {2}~s~.</String>
         <String xml:lang="cs-CZ">Dal jsi {0} ~y~{1} {2}~s~.</String>
+        <String xml:lang="es-ES">Le diste ~y~{1} {2}~s~ a {0}.</String>
         <String xml:lang="it-IT">Hai fornito ~y~{1} {2} ~s~a {0}.</String>
         <String xml:lang="hi-Latn">Aapne ~y~{1} {2}~s~ diya {0}.</String>
         <String xml:lang="lv-LV">Jūs iedevāt {0} ~y~{1} {2}~s~.</String>
@@ -1645,7 +1645,6 @@
         <String xml:lang="nl-NL">Je hebt {0} ~y~{1}{2} van {3}~s~ gegeven.</String>
         <String xml:lang="zh-Hant">你給了 {0} ~y~{1} {2} {3}~s~.</String>
         <String xml:lang="zh-Hans">你给了 {0} ~y~{1} {2} {3}~s~.</String>
-        <String xml:lang="es-ES">Has dado a {0} ~y~{1}{2} de {3}~s~.</String>
         <String xml:lang="pt-BR">Você deu a {0} ~y~{1}{2} de {3}~s~.</String>
         <String xml:lang="ar-001">لقد أعطيت {0} ~y~{1}{2} من {3}~s~.</String>
         <String xml:lang="th-TH">คุณให้ {0} ~y~{1}{2} จาก {3}~s~</String>
@@ -1661,6 +1660,7 @@
         <String xml:lang="no-NO">Du ga {0} ~y~{1}{2} av {3}~s~.</String>
         <String xml:lang="sv-SE">Du gav {0} ~y~{1}{2} av {3}~s~.</String>
         <String xml:lang="fr-FR">Vous avez donné à {0} ~y~{1}{2} de {3}~s~.</String>
+        <String xml:lang="es-ES">Le diste ~y~{1}{2} de {3}~s~ a {0}.</String>
     </Entry>
 
     <Entry Id="imenu_inventory_send_cant_give_item">
@@ -2765,7 +2765,6 @@
         <String xml:lang="nl-NL">{0} heeft niet genoeg ruimte in zijn inventaris.</String>
         <String xml:lang="zh-Hant">{0} 的背包已經沒有多餘的空間了.</String>
         <String xml:lang="zh-Hans">{0} 的背包已经没有多余的空间了.</String>
-        <String xml:lang="es-ES">{0} no tienes suficiente espacio en tu inventario.</String>
         <String xml:lang="pt-BR">{0} você não tem espaço suficiente em seu inventário.</String>
         <String xml:lang="ar-001">ليس لدى {0} مساحة كافية في مخزونه.</String>
         <String xml:lang="th-TH">{0} มีพื้นที่ไม่เพียงพอในสินค้าคงคลัง</String>
@@ -2777,6 +2776,7 @@
         <String xml:lang="lv-LV">{0} nav pietiekami daudz vietas viņu inventārī.</String>
         <String xml:lang="de-DE">{0} hat nicht genügend Platz im Inventar.</String>
         <String xml:lang="pl-PL">{0} nie ma wystarczająco wolnego miejsca w ekwipunku.</String>
+        <String xml:lang="es-ES">{0} no tiene suficiente espacio en su inventario.</String>
         <String xml:lang="no-NO">{0} har ikke nok plass i beholdningen.</String>
         <String xml:lang="sv-SE">{0} har inte tillräckligt med utrymme i sitt förråd.</String>
         <String xml:lang="fr-FR">{0} n'a pas assez de place dans son inventaire.</String>
@@ -2792,7 +2792,6 @@
         <String xml:lang="nl-NL">{0} kan niet ~r~{1} ~s~meer ~r~{2} ~s~dragen.</String>
         <String xml:lang="zh-Hant">{0} 無法攜帶 ~r~{1} ~s~個或以上的 ~r~{2}~s~.</String>
         <String xml:lang="zh-Hans">{0} 无法携带 ~r~{1} ~s~个或以上的 ~r~{2}~s~.</String>
-        <String xml:lang="es-ES">{0} no puedes tener ~r~{1} ~s~más ~r~{2}~s~.</String>
         <String xml:lang="pt-BR">{0} você não pode ter ~r~{1} ~s~mais ~r~{2}~s~.</String>
         <String xml:lang="ar-001">{0} لا يمكنه استقبال ~r~{1} ~s~اكثر~r~{2}~s~.</String>
         <String xml:lang="th-TH">{0} ไม่สามารถถือ ~r~{1} ~s~more ~r~{2}~s~</String>
@@ -2802,6 +2801,7 @@
         <String xml:lang="pl-PL">{0} nie może nieść ~r~{1} ~s~więcej ~r~{2}~s~.</String>
         <String xml:lang="tr-TR">{0} ~r~{1} ~s~adet daha ~r~{2} ~s~taşıyamaz.</String>
         <String xml:lang="it-IT">{0} non può supportare altri ~r~{1}~s~ ~r~{2}~s~.</String>
+        <String xml:lang="es-ES">{0} no puede tener ~r~{1} ~s~más ~r~{2}~s~.</String>
         <String xml:lang="cs-CZ">{0} nemůže nést ~r~{1} ~s~více ~r~{2}~s~.</String>
         <String xml:lang="hi-Latn">{0} aur ~r~{1} {2} ~s~nahi rakh sakte.</String>
         <String xml:lang="lv-LV">{0} nevar turēt vēl ~r~{1} {2}~s~.</String>
@@ -2827,8 +2827,8 @@
         <String xml:lang="de-DE">{0} hat dir ~y~{1}{2} {3}~s~ gegeben.</String>
         <String xml:lang="no-NO">{0} ga deg ~y~{1}{2} {3}~s~.</String>
         <String xml:lang="sv-SE">{0} gav dig ~y~{1}{2} {3}~s~.</String>
-        <String xml:lang="es-ES">{0} te dio ~y~{1}{2} {3}~s~.</String>
         <String xml:lang="pt-BR">{0} te deu ~y~{1}{2} {3}~s~.</String>
+        <String xml:lang="es-ES">{0} te dio ~y~{1}{2} {3}~s~.</String>
         <String xml:lang="fr-FR">{0} vous a donné ~y~{1}{2} de {3}~s~.</String>
         <String xml:lang="pl-PL">{0} dał Ci ~y~{1}{2} {3}~s~.</String>
         <String xml:lang="vi-VN">{0} đã đưa cho bạn ~y~{1}{2} {3}~s~.</String>
@@ -2854,8 +2854,8 @@
         <String xml:lang="de-DE">Du hast {0}{1} {2}~b~{3}~s~ aufgehoben.</String>
         <String xml:lang="sv-SE">Du plockade upp {0}{1} {2}~b~{3}~s~.</String>
         <String xml:lang="no-NO">Du hentet {0}{1} {2}~b~{3}~s~.</String>
-        <String xml:lang="es-ES">Recogiste {0}{1} {2}~b~{3}~s~.</String>
         <String xml:lang="pt-BR">Você agarrou {0}{1} {2}~b~{3}~s~.</String>
+        <String xml:lang="es-ES">Recogiste {0}{1} {2}~b~{3}~s~.</String>
         <String xml:lang="pl-PL">Podniosłeś {0}{1} {2}~b~{3}~s~.</String>
         <String xml:lang="vi-VN">Bạn đã nhặt {0}{1} {2}~b~{3}~s~.</String>
         <String xml:lang="tr-TR">Yerden {0}{1} {2}~b~{3} ~s~aldınız.</String>
@@ -2880,12 +2880,12 @@
         <String xml:lang="de-DE">Du hast ~p~{0}{1}~s~ {2}~y~{3}~s~ fallengelassen.</String>
         <String xml:lang="sv-SE">Du slängde ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
         <String xml:lang="no-NO">Du droppet ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
-        <String xml:lang="es-ES">Soltaste ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
         <String xml:lang="pt-BR">Você lançou ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
         <String xml:lang="pl-PL">Wyrzuciłeś ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
         <String xml:lang="vi-VN">Bạn đã thả ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
         <String xml:lang="tr-TR">~p~{0}{1}~s~ {2}~y~{3} ~s~yere bıraktınız.</String>
         <String xml:lang="zh-Hant">你丟掉了 ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
+        <String xml:lang="es-ES">Soltaste ~p~{0}{1}~s~ {2}~y~{3}~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Item name (for example: Heavy Armor) -->
@@ -2902,8 +2902,8 @@
         <String xml:lang="de-DE">Wirf {0} weg</String>
         <String xml:lang="sv-SE">Släng {0}</String>
         <String xml:lang="no-NO">Slipp {0}</String>
-        <String xml:lang="es-ES">Soltar {0}</String>
         <String xml:lang="pt-BR">Lançar {0}</String>
+        <String xml:lang="es-ES">Soltar {0}</String>
         <String xml:lang="pl-PL">Wyrzuć {0}</String>
         <String xml:lang="vi-VN">Thả {0}</String>
         <String xml:lang="tr-TR">Yere {0} at</String>
@@ -2927,8 +2927,8 @@
         <String xml:lang="de-DE">Du hast {0}{1} {2}{3}. Gib die Menge ein, die du wegwerfen willst:</String>
         <String xml:lang="sv-SE">Du har {0}{1} {2}{3}. Ange det belopp du vill slänga:</String>
         <String xml:lang="no-NO">Du har {0}{1} {2}{3}. Skriv inn beløpet du vil slippe:</String>
-        <String xml:lang="es-ES">Tienes {0}{1} {2}{3}. Ingresa la cantidad que deseas soltar:</String>
         <String xml:lang="pt-BR">Você tem {0}{1} {2}{3}. Digite o valor que deseja lançar</String>
+        <String xml:lang="es-ES">Tienes {0}{1} {2}{3}. ¿Cuántas unidades quieres soltar?</String>
         <String xml:lang="fr-FR">Vous avez {0}{1} {2}{3}. Saisissez le montant que vous souhaitez déposer:</String>
         <String xml:lang="lv-LV">Jums ir {0}{1} {2}{3}. Ievadiet daudzumu, ko gribat nomest:</String>
         <String xml:lang="pl-PL">Masz {0}{1} {2}{3}. Wpisz ilość jaką chcesz wyrzucić:</String>
@@ -2950,8 +2950,8 @@
         <String xml:lang="ar-001">ابحث: {0}</String>
         <String xml:lang="sv-SE">Sök: {0}</String>
         <String xml:lang="no-NO">Søk: {0}</String>
-        <String xml:lang="es-ES">Buscar: {0}</String>
         <String xml:lang="pt-BR">Pesquisa: {0}</String>
+        <String xml:lang="es-ES">Buscar: {0}</String>
         <String xml:lang="fr-FR">Fouiller: {0}</String>
         <String xml:lang="pl-PL">Szukaj: {0}</String>
         <String xml:lang="vi-VN">Tìm kiếm: {0}</String>
@@ -2966,7 +2966,6 @@
     <Entry Id="imenu_jobmenu_stock_dont_have">
         <String xml:lang="en-US">~r~You don't have {0}{1} {2}.</String>
         <String xml:lang="nl-NL">~r~Je hebt geen {0}{1} {2}.</String>
-        <String xml:lang="es-ES">~r~No tienes {0}{1} {2}.</String>
         <String xml:lang="zh-Hant">~r~你並不擁有 {0}{1} {2}.</String>
         <String xml:lang="zh-Hans">~r~你并不拥有 {0}{1} {2}.</String>
         <String xml:lang="pt-BR">~r~Você não precisa {0}{1} {2}.</String>
@@ -2980,6 +2979,7 @@
         <String xml:lang="de-DE">~r~Du hast nicht {0}{1} {2}.</String>
         <String xml:lang="pl-PL">~r~Nie posiadasz {0}{1} {2}.</String>
         <String xml:lang="tr-TR">~r~Elinde {0}{1} {2} yok.</String>
+        <String xml:lang="es-ES">~r~No tienes {0}{1} {2}.</String>
         <String xml:lang="sv-SE">~r~Du har inte {0}{1} {2}.</String>
         <String xml:lang="no-NO">~r~Du har ikke {0}{1} {2}.</String>
         <String xml:lang="fr-FR">~r~Vous n'avez pas {0}{1} {2}.</String>
@@ -2990,7 +2990,6 @@
     <Entry Id="imenu_dealership_plate_error">
         <String xml:lang="en-US">~r~Your license plate cannot be 'ERROR' because it's reserved for special use.</String>
         <String xml:lang="nl-NL">~r~Je kentekenplaat mag niet gelijk zijn aan 'ERROR' omdat het gereserveerd is voor speciaal gebruik.</String>
-        <String xml:lang="es-ES">~r~Tu matrícula no puede ser 'ERROR' porque está reservada para un uso especial.</String>
         <String xml:lang="zh-Hans">~r~你的车牌不能为 'ERROR' 因为它是为特别用途而保留.</String>
         <String xml:lang="pt-BR">~r~Sua placa de identificação não pode ser 'ERROR' porque ela é reservada para uso especial.</String>
         <String xml:lang="ar-001">~r~لا يمكن أن تكون لوحة الترخيص الخاصة بك 'ERROR' لأنها مخصصة للاستخدام الخاص.</String>
@@ -3005,6 +3004,7 @@
         <String xml:lang="pl-PL">~r~Twoją blachą nie może być 'ERROR' bo jest ona zarezerwowana do specjalnych przypadków.</String>
         <String xml:lang="tr-TR">~r~Plakanız 'ERROR' olamaz, çünkü özel kullanım için ayrılmıştır.</String>
         <String xml:lang="zh-Hant">~r~你的車牌不能為 'ERROR' 因為它是為特別用途而保留.</String>
+        <String xml:lang="es-ES">~r~La matrícula 'ERROR' está reservada para un uso especial, intenta con otra.</String>
         <String xml:lang="sv-SE">~r~Din registreringsskylt kan inte vara 'ERROR' eftersom den är reserverad för speciell användning.</String>
         <String xml:lang="no-NO">~r~Lisensskiltet ditt kan ikke være ERROR' fordi det er reservert for spesiell bruk.</String>
         <String xml:lang="fr-FR">~r~Votre plaque d'immatriculation ne peut pas être 'ERROR' car elle est réservée à un usage spécial.</String>
@@ -3016,7 +3016,6 @@
     <Entry Id="imenu_dealership_purchase_vehicle">
         <String xml:lang="en-US">You purchased a ~p~{0} ~s~for ~r~{1}~s~.</String>
         <String xml:lang="nl-NL">Je hebt een ~p~{0} ~s~gekocht voor ~r~{1}~s~.</String>
-        <String xml:lang="es-ES">Has compraste un ~p~{0} ~s~por ~r~{1}~s~.</String>
         <String xml:lang="zh-Hans">你花费了 ~r~{1}~s~ 购买 ~p~{0}~s~.</String>
         <String xml:lang="pt-BR">Você comprou um ~p~{0} ~s~por ~r~{1}~s~.</String>
         <String xml:lang="ar-001">لقد اشتريت ~p~{0} ~s~لـ ~r~{1}~s~.</String>
@@ -3032,6 +3031,7 @@
         <String xml:lang="pl-PL">Kupiłeś ~p~{0} ~s~za ~r~{1}~s~.</String>
         <String xml:lang="tr-TR">~p~{0} ~s~isimli aracı ~r~{1} ~s~karşılığında satın aldınız.</String>
         <String xml:lang="zh-Hant">你已以 ~r~{1}~s~ 購買 ~p~{0}~s~.</String>
+        <String xml:lang="es-ES">Compraste un(a) ~p~{0} ~s~por ~r~{1}~s~.</String>
         <String xml:lang="sv-SE">Du köpte en ~p~{0} ~s~för ~r~{1}~s~.</String>
         <String xml:lang="no-NO">Du kjøpte en ~p~{0} ~s~for ~r~{1}~s~.</String>
     </Entry>
@@ -3042,7 +3042,6 @@
     <Entry Id="imenu_dealership_rent_vehicle">
         <String xml:lang="en-US">You rented a ~p~{0} ~s~for ~r~{1}~s~/week.</String>
         <String xml:lang="nl-NL">Je hebt een ~p~{0} ~s~gehuurd voor ~r~{1}~s~/week.</String>
-        <String xml:lang="es-ES">Alquilaste un ~p~{0} ~s~por ~r~{1}~s~/por semana.</String>
         <String xml:lang="zh-Hans">你以 ~r~{1}~s~/月 的金额租了 ~p~{0}~s~.</String>
         <String xml:lang="pt-BR">Você alugou um ~p~{0} ~s~por ~r~{1}~s~/por semana.</String>
         <String xml:lang="ar-001">لقد استأجرت ~p~{0}~s~ لمدة ~r~{1}~s~/أسبوع.</String>
@@ -3056,6 +3055,7 @@
         <String xml:lang="pl-PL">Wynająłeś ~p~{0} ~s~za ~r~{1}~s~/tydzień.</String>
         <String xml:lang="tr-TR">~p~{0} ~s~isimli aracı haftalık ~r~{1} ~s~karşılığında kiraladın.</String>
         <String xml:lang="zh-Hant">你以 ~r~{1}~s~/月 的金額租了 ~p~{0}~s~.</String>
+        <String xml:lang="es-ES">Rentaste un ~p~{0} ~s~por ~r~{1}~s~ a la semana. (En juego)</String>
         <String xml:lang="no-NO">Du leide en ~p~{0} ~s~for ~r~{1}~s~/uke.</String>
         <String xml:lang="sv-SE">Du hyrde en ~p~{0} ~s~för ~r~{1}~s~/vecka.</String>
         <String xml:lang="fr-FR">Vous avez loué une ~p~{0} ~s~pour ~r~{1}~s~/semaine.</String>
@@ -3077,6 +3077,7 @@
         <String xml:lang="zh-Hant">軍火商</String>
         <String xml:lang="vi-VN">Kẻ buôn vũ khí</String>
         <String xml:lang="tr-TR">Silah Tüccarı</String>
+        <String xml:lang="es-ES">Traficante de Armas</String>
     </Entry>
 
     <Entry Id="imenu_services_arms_dealer_description">
@@ -3092,6 +3093,7 @@
         <String xml:lang="pl-PL">Zadzwoń po ~r~handlarza bronią ~s~by kupić nielegalną broń i amunicję.</String>
         <String xml:lang="vi-VN">Gọi cho ~r~kẻ buôn vũ khí ~s~để mua vũ khí và đạn dược bất hợp pháp.</String>
         <String xml:lang="tr-TR">Yasadışı silah ve cephane satın almak için ~r~silah tüccarı~s~nı ara.</String>
+        <String xml:lang="es-ES">Llama a un ~r~traficante de armas ~s~para comprar armas y municiones ilegales.</String>
     </Entry>
 
     <!-- nullnull{0} = Number of blocked users (for example: 500) -->
@@ -3108,11 +3110,11 @@
         <String xml:lang="de-DE">{0} blockierte Spieler</String>
         <String xml:lang="tr-TR">{0} engellenen kullanıcı</String>
         <String xml:lang="no-NO">{0} blokkerte brukere</String>
-        <String xml:lang="es-ES">{0} usuarios bloqueados</String>
         <String xml:lang="pt-BR">{0} usuários bloqueados</String>
         <String xml:lang="sv-SE">{0} blockerade användare</String>
         <String xml:lang="pl-PL">{0} zablokowanych użytkowników</String>
         <String xml:lang="vi-VN">{0} người chơi bị chặn</String>
+        <String xml:lang="es-ES">{0} usuarios bloqueados</String>
     </Entry>
 
     <!-- nullnull{0} = Username (for example: Sasino) -->
@@ -3129,8 +3131,8 @@
         <String xml:lang="it-IT">~r~Non ~s~stai ricevendo messaggi di testo/voce e notifiche da ~y~{0}~s~.</String>
         <String xml:lang="no-NO">Du ~r~ikke ~s~mottar noen tekst-/talemeldinger og ping fra ~y~{0}~s~.</String>
         <String xml:lang="sv-SE">Du ~r~inte ~s~får några text-/röstmeddelanden och pingar från ~y~{0}~s~.</String>
-        <String xml:lang="es-ES">~r~No ~s~estás recibiendo ningún mensaje de texto/voz ni pings de ~y~{0}~s~.</String>
         <String xml:lang="pt-BR">Você ~r~não ~s~está recebendo mensagens de texto/voz ou pings de ~y~{0}~s~.</String>
+        <String xml:lang="es-ES">~r~No estás recibiendo ~s~ningún mensaje de texto/voz ni pings de ~y~{0}~s~.</String>
         <String xml:lang="fr-FR"> Vous ne recevrez ~r~plus ~s~de messages textuels/vocaux et de mentions venant de ~y~{0}~s~.</String>
         <String xml:lang="pl-PL">~r~Nie otrzymujesz ~s~wiadomości głosowych i tekstowych od ~y~{0}~s~.</String>
         <String xml:lang="vi-VN">Bạn ~r~không ~s~nhận được bất kỳ tin nhắn văn bản/giọng nói và ping nào từ ~y~{0}~s~.</String>
@@ -3142,7 +3144,6 @@
         <String xml:lang="nl-NL">Je hebt niet genoeg ~r~{0}~s~.</String>
         <String xml:lang="zh-Hant">你沒有足夠的 ~r~{0}~s~.</String>
         <String xml:lang="zh-Hans">你没有足够的 ~r~{0}~s~.</String>
-        <String xml:lang="es-ES">No tienes suficientes ~r~{0}~s~.</String>
         <String xml:lang="pt-BR">Você não tem o suficiente ~r~{0}~s~.</String>
         <String xml:lang="ar-001">ليس لديك ما يكفي من ~r~{0}~s~.</String>
         <String xml:lang="th-TH">คุณมี ~r~{0}~s~ ไม่เพียงพอ</String>
@@ -3150,6 +3151,7 @@
         <String xml:lang="id-ID">Anda tidak memiliki ~r~{0}~s~ yang cukup.</String>
         <String xml:lang="cs-CZ">Nemáš dostatek~r~{0}~s~.</String>
         <String xml:lang="fr-FR">Vous n'avez pas assez de ~r~{0}~s~.</String>
+        <String xml:lang="es-ES">No tienes suficiente(s) ~r~{0}~s~.</String>
         <String xml:lang="it-IT">Non hai abbastanza ~r~{0}~s~.</String>
         <String xml:lang="hi-Latn">Aapke pass enough ~r~{0} ~s~nahi hai.</String>
         <String xml:lang="lv-LV">Jums nav pietiekami daudz ~r~{0}~s~.</String>
@@ -3171,13 +3173,13 @@
         <String xml:lang="nl-NL">{0} kan niet ~r~{1} ~s~meer {2} van ~r~{3} ~s~dragen.</String>
         <String xml:lang="zh-Hant">{0} 無法攜帶 ~r~{1} ~s~{2}或以上的 ~r~{3}~s~.</String>
         <String xml:lang="zh-Hans">{0} 无法携带 ~r~{1} ~s~{2}或以上的 ~r~{3}~s~.</String>
-        <String xml:lang="es-ES">{0} no puedes tener ~r~{1} ~s~más {2} de ~r~{3}~s~.</String>
         <String xml:lang="pt-BR">{0} você não pode ter ~r~{1} ~s~mais {2} de ~r~{3}~s~.</String>
         <String xml:lang="ar-001">{0} لا يمكنه استقبال ~r~{1} ~s~اكثر{2} من ~r~{3}~s~.</String>
         <String xml:lang="th-TH">{0} ไม่สามารถเก็บ ~r~{1} ~s~more {2} จาก ~r~{3}~s~</String>
         <String xml:lang="vi-VN">{0} không thể giữ thêm {1} ~s~{2} ~r~của {3}~s~.</String>
         <String xml:lang="id-ID">{0} tidak dapat membawa ~r~{1} ~s~{2} lagi dari ~r~{3}~s~.</String>
         <String xml:lang="cs-CZ">{0} už nemůže mít ~r~{1} ~s~více {2} ~r~{3}~s~.</String>
+        <String xml:lang="es-ES">{0} no puede tener ~r~{1} ~s~más {2} de ~r~{3}~s~.</String>
         <String xml:lang="hi-Latn">{0} nahi rakh sakte ~r~{1} ~s~zyada {2} of ~r~{3}~s~.</String>
         <String xml:lang="lv-LV">{0} nevar turēt vēl ~r~{1}{2} {3}~s~.</String>
         <String xml:lang="de-DE">{0} kann nicht ~r~{1} ~s~weitere{2} von ~r~{3}~s~ halten.</String>
@@ -3196,11 +3198,11 @@
     <Entry Id="imenu_dealership_purchase_vehicle_with_gift_card">
         <String xml:lang="en-US">You purchased a ~b~{0} ~s~for ~b~{1} ~s~in gift card balance and ~r~{2} ~s~by check.</String>
         <String xml:lang="nl-NL">Je hebt een ~b~{0} ~s~gekocht voor ~b~{1} ~s~in toegoedbonnen en ~r~{2} ~s~met check.</String>
-        <String xml:lang="es-ES">Has comprado un ~b~{0} ~s~por ~b~{1} ~s~en el saldo de la tarjeta de regalo y ~r~{2} ~s~con cheque.</String>
         <String xml:lang="zh-Hans">您以 {1} 的礼品卡余额和 {2} 购买了 {0}.</String>
         <String xml:lang="it-IT">Hai acquistato un ~b~{0} ~s~per ~b~{1} ~s~con il credito della carta regalo e ~r~{2} ~s~con assegno.</String>
         <String xml:lang="pl-PL">Kupiłeś ~b~{0} ~s~za ~b~{1} ~s~w kuponach oraz ~r~{2} ~s~przelewem.</String>
         <String xml:lang="zh-Hant">您以 ~b~{1}~s~ 的禮品卡餘額和 ~r~{2}~s~ 購買了 ~b~{0}~s~.</String>
+        <String xml:lang="es-ES">Compraste un(a) ~b~{0} ~s~por ~b~{1} ~s~con saldo de tu tarjeta de regalo y ~r~{2} ~s~con cheque.</String>
         <String xml:lang="pt-BR">Você comprou um ~b~{0} ~s~por ~b~{1} ~s~sobre o saldo do cartão-presente e ~r~{2} ~s~com cheuqe.</String>
         <String xml:lang="ar-001">لقد قمت بشراء ~b~{0} ~s~for ~b~{1} ~s~في رصيد بطاقة الهدايا و~r~{2} ~s~بواسطة شيك.</String>
         <String xml:lang="th-TH">คุณซื้อ ~b~{0} ~s~สำหรับ ~b~{1} ~s~ในยอดบัตรของขวัญและ ~r~{2} ~s~ด้วยเช็ค</String>

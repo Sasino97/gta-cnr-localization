@@ -756,7 +756,6 @@
         <String xml:lang="nl-NL">Melding</String>
         <String xml:lang="zh-Hant">警告</String>
         <String xml:lang="zh-Hans">警告</String>
-        <String xml:lang="es-ES">Alerta</String>
         <String xml:lang="pt-BR">Alerta</String>
         <String xml:lang="ar-001">تحذير</String>
         <String xml:lang="id-ID">Perhatian</String>
@@ -765,6 +764,7 @@
         <String xml:lang="pl-PL">Uwaga</String>
         <String xml:lang="tr-TR">Uyarı</String>
         <String xml:lang="it-IT">Allerto</String>
+        <String xml:lang="es-ES">Alerta</String>
         <String xml:lang="no-NO">Varsle</String>
         <String xml:lang="sv-SE">Varna</String>
         <String xml:lang="lv-LV">Brīdinājums</String>
@@ -785,6 +785,7 @@
         <String xml:lang="pl-PL">{0} (hold)</String>
         <String xml:lang="tr-TR">{0} (basılı tut)</String>
         <String xml:lang="zh-Hant">{0} (按住)</String>
+        <String xml:lang="es-ES">{0} (Mantener)</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Sasino)
@@ -795,7 +796,6 @@
     <Entry Id="ac_server_ban">
         <String xml:lang="en-US">🛡️ ~b~CnR V Shield ~s~banned {0} for {1} for ~r~{2}~s~. Total players banned: {3}</String>
         <String xml:lang="nl-NL">🛡️ ~b~CnR V Shield ~s~heeft {0} verbannen voor {1} voor ~r~{2}~s~. Totaal spelers banned: {3}</String>
-        <String xml:lang="es-ES">🛡️ ~b~CnR V Shield ~s~baneo {0} por {1} por ~r~{2}~s~. Total de jugadores baneados: {3}</String>
         <String xml:lang="pt-BR">🛡️ ~b~CnR V Shield ~s~baneo {0} por {1} por ~r~{2}~s~. Total de jogadores banidos: {3}</String>
         <String xml:lang="ar-001">🛡️ ~b~CnR V Shield ~s~حظر {0} لـ {1} لـ ~r~{2}~s~. إجمالي اللاعبين المحظورين: {3}</String>
         <String xml:lang="id-ID">🛡️ ~b~CnR V Shield ~s~{0} telah di ban dari server selama {1} karena ~r~{2}~s~. Jumlah Pemain yang telah di ban: {3}</String>
@@ -804,6 +804,7 @@
         <String xml:lang="fr-FR">🛡️ ~b~CnR V Shield ~s~a banni {0} pendant {1} pour ~r~{2}~s~. Total de joueurs bannis: {3}</String>
         <String xml:lang="de-DE">🛡️ ~b~CnR V Shield ~s~hat {0} für {1} wegen ~r~{2}~s~ gebannt. Insgesamt gebannte Spieler: {3}</String>
         <String xml:lang="pl-PL">🛡️ ~b~CnR V Shield ~s~zbanowała {0} za {1} na ~r~{2}~s~. Gracze zbanowani: {3}</String>
+        <String xml:lang="es-ES">🛡️ ~b~CnR V Shield ~s~baneó a {0} por {1}. Motivo: ~r~{2}~s~. Total de jugadores baneados: {3}</String>
         <String xml:lang="cs-CZ">🛡️ ~b~CnR V Shield ~s~zabanoval {0} na {1} za ~r~{2}~s~. Celkový počet banů: {3}</String>
         <String xml:lang="lv-LV">🛡️ ~b~CnR V Shield ~s~nobloķēja {0} uz {1} par ~r~{2}~s~. Kopējais nobloķēto spēlētāju skaits: {3}</String>
         <String xml:lang="no-NO">🛡️ ~b~CnR V Shield ~s~utestengt {0} for {1} for ~r~{2}~s~. Totalt antall spillere utestengt: {3}</String>
@@ -1732,8 +1733,8 @@
         <String xml:lang="de-DE">Du hast {0} freigegeben. Verwalte deine Block-List über M &gt; Hilfe &gt; Blockierte Spieler.</String>
         <String xml:lang="no-NO">Du har opphevet blokkeringen av {0}. Administrer blokkeringslisten din i M &gt; Hjelp &gt; Blokkerte spillere.</String>
         <String xml:lang="fr-FR">Vous avez débloqué {0}. Gérez votre liste de blocage dans M &gt; Aide &gt; Joueurs bloqués.</String>
-        <String xml:lang="es-ES">Has desbloqueado a {0}. Gestiona tu lista de bloqueados en M &gt; Ayuda &gt; Jugadores bloqueados.</String>
         <String xml:lang="pt-BR">Você desbloqueou {0}. Gerencie sua lista de bloqueados em M &gt; Ajuda &gt; Jogadores bloqueados.</String>
+        <String xml:lang="es-ES">Desbloqueaste a {0}. Gestiona tu lista de bloqueados en M &gt; Ayuda &gt; Jugadores bloqueados.</String>
         <String xml:lang="sv-SE">Du har avblockerat {0}. Hantera din blockeringslista i M &gt; Hjälp &gt; Blockerade spelare.</String>
         <String xml:lang="lv-LV">Jūs east abloķējusi {0}. Pārvaldiet savu bloķēto spēlētāju sarakstu: M &gt; Palīdzība &gt; Bloķētie spēlētāji.</String>
         <String xml:lang="pl-PL">Odblokowałeś {0}. Zarządzaj czarną listą w M &gt; Help &gt; Zablokowani gracze.</String>
@@ -1754,8 +1755,8 @@
         <String xml:lang="de-DE">Verwende: {0}</String>
         <String xml:lang="no-NO">Bruk: {0}</String>
         <String xml:lang="sv-SE">Användning: {0}</String>
-        <String xml:lang="es-ES">Utiliza: {0}</String>
         <String xml:lang="pt-BR">Usar: {0}</String>
+        <String xml:lang="es-ES">Utiliza: {0}</String>
         <String xml:lang="pl-PL">Użycie: {0}</String>
         <String xml:lang="tr-TR">Kullanımı: {0}</String>
         <String xml:lang="zh-Hant">用法: {0}</String>
@@ -1776,6 +1777,7 @@
         <String xml:lang="pl-PL">Gracz o id {0} nie jest online.</String>
         <String xml:lang="tr-TR">Oyuncu id {0} çevrimiçi değil.</String>
         <String xml:lang="zh-Hant">玩家 id {0} 不在線.</String>
+        <String xml:lang="es-ES">El jugador con el ID {0} está desconectado.</String>
     </Entry>
 
     <!-- nullnull{0} = Target player (for example: Stijnjw (152)) -->
@@ -1793,6 +1795,7 @@
         <String xml:lang="pl-PL">{0} nie jest w grupie.</String>
         <String xml:lang="zh-Hant">{0} 不在一個隊伍內.</String>
         <String xml:lang="tr-TR">{0} bir partide değil.</String>
+        <String xml:lang="es-ES">{0} no está en una party.</String>
     </Entry>
 
     <!-- nullnull{0} = Party leader (for example: Stijnjw (152)) -->
@@ -1810,6 +1813,7 @@
         <String xml:lang="pl-PL">Lider grupy {0} nie jest online.</String>
         <String xml:lang="zh-Hant">隊伍的隊長 {0} 不在線.</String>
         <String xml:lang="tr-TR">Parti lideri {0} çevrimdışı.</String>
+        <String xml:lang="es-ES">El líder de la party ({0}) está desconectado.</String>
     </Entry>
 
     <!-- nullnull{0} = Party leader (for example: Stijnjw (152)) -->
@@ -1827,6 +1831,7 @@
         <String xml:lang="pl-PL">Dołączyłeś do grupy {0}'s.</String>
         <String xml:lang="zh-Hant">你加入了 {0} 的隊伍.</String>
         <String xml:lang="tr-TR">{0} isimli oyuncunun partisine katıldınız.</String>
+        <String xml:lang="es-ES">Te uniste a la party de {0}</String>
     </Entry>
 
     <!-- nullnull{0} = New player in the party (for example: Sasino (153)) -->
@@ -1845,6 +1850,7 @@
         <String xml:lang="zh-Hant">{0} 加入了你的隊伍.</String>
         <String xml:lang="tr-TR">{0} partine katıldı.</String>
         <String xml:lang="et-EE">{0} Liitus sinu grupiga.</String>
+        <String xml:lang="es-ES">{0} se unió a tu party</String>
     </Entry>
 
     <!-- nullnull{0} = Player that is trying to join the party (for example: Sasino (153))
@@ -1866,6 +1872,7 @@
         <String xml:lang="tr-TR">{0} ~y~parti~s~ne katılmak istiyor. Kabul etmek için ~b~/party-invite {1} ~s~yaz.</String>
         <String xml:lang="et-EE">{0} tahab liituda sinu ~y~grupiga~s~. Sisesta ~b~/party-invite {1} ~s~et vastu võtta.</String>
         <String xml:lang="ga-IE">Ba mhaith le {0} dul isteach i do ~y~pháirtí~s~. Clóscríobh ~b~/party-invite {1} ~s~chun glacadh leis.</String>
+        <String xml:lang="es-ES">{0} quiere unirse a tu ~y~party~s~. Escribe ~b~/party-invite {1} ~s~en el chat para aceptar.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152)) -->
@@ -1885,6 +1892,7 @@
         <String xml:lang="tr-TR">{0} zaten bir partide.</String>
         <String xml:lang="et-EE">{0} on juba grupis.</String>
         <String xml:lang="ga-IE">Tá {0} i bpáirtí cheana féin.</String>
+        <String xml:lang="es-ES">{0} ya es miembro de una party.</String>
     </Entry>
 
     <!-- {1} will only be added if the person you asked to join was NOT the leader of the party
@@ -1907,6 +1915,7 @@
         <String xml:lang="tr-TR">{0} isimli oyuncunun partisine katılmak için talepte bulundunuz. {1}</String>
         <String xml:lang="et-EE">Sa esitasid soovi liituda {0}'i grupiga. {1}</String>
         <String xml:lang="ga-IE">D'iarr tú dul isteach i bpáirtí {0}. {1}.</String>
+        <String xml:lang="es-ES">Solicitaste unirte a la party de {0}'s party. {1}</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152)) -->
@@ -1926,6 +1935,7 @@
         <String xml:lang="tr-TR">{0} isimli oyuncuyu partinize davet ettiniz.</String>
         <String xml:lang="et-EE">Sa kutsusid {0} oma gruppi.</String>
         <String xml:lang="ga-IE">Thug tú cuireadh do {0} dul isteach i do pháirtí.</String>
+        <String xml:lang="es-ES">{0} fue invitado a tu party.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152))
@@ -1947,6 +1957,7 @@
         <String xml:lang="tr-TR">{0} partinden ayrıldı. {1}</String>
         <String xml:lang="et-EE">{0} lahkus sinu grupist. {1}</String>
         <String xml:lang="ga-IE">D'fhág {0} do pháirtí. {1}</String>
+        <String xml:lang="es-ES">{0} dejó la party. {1}</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152)) -->
@@ -1966,6 +1977,7 @@
         <String xml:lang="tr-TR">{0} partinden atıldı.</String>
         <String xml:lang="et-EE">{0} visati sinu grupist välja.</String>
         <String xml:lang="ga-IE">Tá {0} curtha amach ó do pháirtí.</String>
+        <String xml:lang="es-ES">{0} fue expulsado de tu party.</String>
     </Entry>
 
     <!-- For bottom-left info boxes (timers etc..) (all upper case please) -->
@@ -1985,6 +1997,7 @@
         <String xml:lang="tr-TR">KALAN SÜRE</String>
         <String xml:lang="et-EE">AEGA JÄÄNUD</String>
         <String xml:lang="ga-IE">AM FÁGTHA</String>
+        <String xml:lang="es-ES">TIEMPO RESTANTE</String>
     </Entry>
 
     <Entry Id="sendwaypoint_player_received">
@@ -2069,7 +2082,6 @@
     <Entry Id="ac_job_ban">
         <String xml:lang="en-US">🛡️ ~b~CnR V Shield ~s~banned {0} from the {1} job for {2} days.</String>
         <String xml:lang="nl-NL">🛡️ ~b~CnR V Shield ~s~heeft {0} verbannen van de {1} baan voor {2} dagen.</String>
-        <String xml:lang="es-ES">🛡️ ~b~CnR V Shield ~s~baneo a {0} del trabajo {1} durante {2} días.</String>
         <String xml:lang="pt-BR">🛡️ ~b~CnR V Shield ~s~Proíbo a {0} de trabalhar {1} por {2} dias.</String>
         <String xml:lang="ar-001">🛡️ ~b~CnR V Shield ~s~حذر {0} من العمل {1} لمدة {2} يومًا.</String>
         <String xml:lang="id-ID">🛡️ ~b~CnR V Shield ~s~{0} telah di ban dari {1} selama {2} hari.</String>
@@ -2081,6 +2093,7 @@
         <String xml:lang="lv-LV">🛡️ ~b~CnR V Shield ~s~nobloķēja {0} no {1} darba uz {2} dienām.</String>
         <String xml:lang="de-DE">🛡️ ~b~CnR V Shield ~s~hat {0} vom {1} Job für {2} gebannt.</String>
         <String xml:lang="pl-PL">🛡️ ~b~CnR V Shield ~s~zbanowała {0} z roli {1} na {2} dni.</String>
+        <String xml:lang="es-ES">🛡️ ~b~CnR V Shield ~s~baneó a {0} del trabajo de {1} por {2} días.</String>
         <String xml:lang="no-NO">🛡️ ~b~CnR V Shield ~s~utestengt {0} fra {1}-jobben i {2} dager.</String>
         <String xml:lang="sv-SE">🛡️ ~b~CnR V Shield ~s~bannade {0} från {1}-jobbet i {2} dagar.</String>
         <String xml:lang="fr-FR">🛡️ ~b~CnR V Shield ~s~a banni {0} du métier de {1} pendant {2} jours.</String>
@@ -2100,8 +2113,8 @@
         <String xml:lang="no-NO">Du har blokkert {0}. Administrer blokkeringslisten din i M &gt; Hjelp &gt; Blokkerte spillere.</String>
         <String xml:lang="sv-SE">Du har blockerat {0}. Hantera din blockeringslista i M &gt; Hjälp &gt; Blockerade spelare.</String>
         <String xml:lang="fr-FR">Vous avez bloqué {0}. Gérez votre liste de blocage dans M &gt; Aide &gt; Joueurs bloqués.</String>
-        <String xml:lang="es-ES">Has bloqueado a {0}. Gestiona tu lista de bloqueados en M &gt; Ayuda &gt; Jugadores bloqueados.</String>
         <String xml:lang="pt-BR">Você bloqueou {0}. Gerencie sua lista de bloqueados em M &gt; Ajuda &gt; Jogadores bloqueados</String>
+        <String xml:lang="es-ES">Bloqueaste a {0}. Gestiona tu lista de bloqueados en M &gt; Ayuda &gt; Jugadores bloqueados.</String>
         <String xml:lang="pl-PL">Zablokowałeś {0}. Zarządzaj blacklistą w M &gt; Help &gt; Blocked players.</String>
         <String xml:lang="tr-TR">{0} isimli oyuncuyu engellediniz. Engellenen oyuncuları yönetmek için M &gt; Yardım &gt; Engellenen oyuncular bölümünü kullanabilirsiniz.</String>
         <String xml:lang="zh-Hant">你成功封鎖了 Sasino{0}. 在 M &gt; 幫助 &gt; 封鎖玩家 中管理你的黑名單.</String>
@@ -2122,6 +2135,7 @@
         <String xml:lang="pl-PL">Celem nie możesz być ty.</String>
         <String xml:lang="tr-TR">Hedef oyuncu kendin olamazsın.</String>
         <String xml:lang="zh-Hant">你不能把目標設在自己身上.</String>
+        <String xml:lang="es-ES">No puedes usar tu ID de jugador para esto</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152))
@@ -2143,6 +2157,7 @@
         <String xml:lang="tr-TR">{0} sizi ~y~partisine~s~ davet etti. Kabul etmek için ~b~/party-join {1}~s~ yazın.</String>
         <String xml:lang="et-EE">{0} kutsus sind oma ~y~gruppi~s~. Sisesta ~b~/party-join {1} ~s~et liituda.</String>
         <String xml:lang="ga-IE">Thug {0} cuireadh duit dul isteach ina ~y~bpáirtí~s~. Clóscríobh ~b~/party-join {1} ~s~chun glacadh leis.</String>
+        <String xml:lang="es-ES">{0} te invitó a su ~y~party~s~. Escribe ~b~/party-join {1} ~s~en el chat para unirte.</String>
     </Entry>
 
     <Entry Id="weekday_0">

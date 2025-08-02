@@ -223,7 +223,6 @@
         <String xml:lang="pl-PL">Twój wynajem ~b~{0} ~s~został anulowany!</String>
         <String xml:lang="nl-NL">Je ~b~{0}~s~'s huurcontract is beëindigd!</String>
         <String xml:lang="it-IT">Il noleggio per la tua ~b~{0} ~s~è terminato!</String>
-        <String xml:lang="es-ES">¡El alquiler de su ~b~{0}~s~ ha terminado!</String>
         <String xml:lang="pt-BR">O aluguel do seu ~b~{0}~s~ acabou</String>
         <String xml:lang="de-DE">Die Miete deines ~b~{0}~s~ wurde eingestellt!</String>
         <String xml:lang="ar-001">تم إنهاء استئجار ~b~{0}~s~!</String>
@@ -234,6 +233,7 @@
         <String xml:lang="cs-CZ">Pronájem vozidla ~b~{0}~s~byl ukončen!</String>
         <String xml:lang="lv-LV">Jūsu ~b~{0} ~s~īre tika pārtraukta!</String>
         <String xml:lang="fr-FR">La location de votre ~b~{0}~s~ a été résiliée!</String>
+        <String xml:lang="es-ES">¡La renta del vehículo ~b~{0}~s~ ha finalizado!</String>
         <String xml:lang="no-NO">Leien til din ~b~{0}~s~ er avsluttet!</String>
         <String xml:lang="sv-SE">Din ~b~{0}~s~s hyra har avslutats!</String>
         <String xml:lang="tr-TR">~b~{0} ~s~isimli aracınızın kirası sonlandırıldı!</String>
@@ -554,7 +554,6 @@
         <String xml:lang="pl-PL">Twój ~y~pojazd ~s~został ~o~odholowany~s~. Pójdź do firmy holowniczej i zapłać by go odzyskać.</String>
         <String xml:lang="nl-NL">Je ~y~voertuig ~s~is ~o~in beslag genomen~s~. Ga naar een bewaarterrein en betaal een vergoeding om het terug te krijgen.</String>
         <String xml:lang="it-IT">Il tuo ~y~veicolo~s~ è stato ~o~sequestrato~s~. Vai in un deposito e paga una commissione per riaverlo.</String>
-        <String xml:lang="es-ES">Su ~y~vehículo ~s~ha sido ~o~incautado~s~. Vaya a un depósito y pague una tasa para recuperarlo.</String>
         <String xml:lang="pt-BR">Seu ~y~veículo ~s~foi ~o~apreendido~s~. Vá a um pátio de apreensão e pague uma taxa para recuperá-lo.</String>
         <String xml:lang="de-DE">Dein ~y~Fahrzeug ~s~wurde ~o~verwahrt~s~. Gehe zu einer Verwahrstelle und zahle die Gebühr, um es zurückzukriegen.</String>
         <String xml:lang="ar-001">لقد تم ~o~حجز~s~~y~مركبتك~s~. اذهب إلى مكان الحجز وادفع رسومًا للمطالبة باستعادته.</String>
@@ -565,6 +564,7 @@
         <String xml:lang="cs-CZ">Tvé ~y~vozidlo ~s~bylo ~o~odtaženo~s~. Jdi na odstavné parkoviště a zaplať poplatek za vrácení vozidla.</String>
         <String xml:lang="lv-LV">Jūsu ~y~transportlīdzeklis ~s~tika ~o~evakuēts~s~. Dodieties uz evakuatora stāvlaukumu un samaksājiet sodu, lai iegūtu to atpakaļ.</String>
         <String xml:lang="fr-FR">Votre ~y~véhicule ~s~a été ~o~mis en fourrière~s~. Rendez-vous à la fourrière et payez une caution pour le récupérer.</String>
+        <String xml:lang="es-ES">Tu ~y~vehículo ~s~fue ~o~incautado~s~. Ve a un depósito vehicular y paga la multa para reclamarlo.</String>
         <String xml:lang="no-NO">Ditt ~y~kjøretøy ~s~har blitt ~o~beslaglagt~s~. Gå til et beslaglagt parti og betal et gebyr for å kreve det tilbake.</String>
         <String xml:lang="sv-SE">Ditt ~y~fordon ~s~har ~o~beslagtagits~s~. Gå till ett beslag och betala en avgift för att kräva tillbaka det.</String>
         <String xml:lang="tr-TR">~y~Aracınız ~o~bağlandı~s~. Geri almak için çekici otoparkına gidin ve ücret ödeyin.</String>
@@ -1038,9 +1038,9 @@
         <String xml:lang="lv-LV">Nav personīgo transportlīdzekļu :(</String>
         <String xml:lang="no-NO">Ingen personlige kjøretøy :(</String>
         <String xml:lang="sv-SE">Inga personliga fordon :(</String>
-        <String xml:lang="es-ES">Sin vehículos personales :(</String>
         <String xml:lang="pt-BR">Sem veículos pessoais :(</String>
         <String xml:lang="tr-TR">Kişisel aracın yok :(</String>
+        <String xml:lang="es-ES">No posees ningún vehículo :(</String>
         <String xml:lang="pl-PL">Nie posiadasz żadnego pojazdu :(</String>
         <String xml:lang="et-EE">Isiklikke sõidukeid pole :(</String>
     </Entry>
@@ -1181,6 +1181,7 @@
         <String xml:lang="pl-PL">~y~Ten pojazd został odholowany. Odwiedź parking policyjny, aby go odzyskać.</String>
         <String xml:lang="tr-TR">~y~Bu araç otoparka çekildi. Geri almak için park alanına gidin.</String>
         <String xml:lang="et-EE">~y~See sõiduk on arestitud. Selle tagasisaamiseks külasta arestimaja.</String>
+        <String xml:lang="es-ES">~y~Este vehículo fue incautado. Ve a un depósito vehicular para reclamarlo</String>
     </Entry>
 
     <Entry Id="menu_vehicles_info_in_maintenance">
@@ -1200,6 +1201,7 @@
         <String xml:lang="pl-PL">~y~Ten pojazd został wysłany do naprawy.</String>
         <String xml:lang="tr-TR">~y~Bu araç bakıma gönderildi.</String>
         <String xml:lang="et-EE">~y~See sõiduk on saadetud hooldusesse.</String>
+        <String xml:lang="es-ES">~y~El vehículo fue enviado a mantenimiento.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_delivery_info_recalled">
@@ -1234,6 +1236,7 @@
         <String xml:lang="fr-FR">~r~La location de ce véhicule a expiré.</String>
         <String xml:lang="pl-PL">~r~Czynsz za ten pojazd jest do zapłaty.</String>
         <String xml:lang="tr-TR">~r~Bu aracın kira süresi doldu.</String>
+        <String xml:lang="es-ES">~r~La renta de este vehícula está vencida.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_delivery_info_garage_membership">
@@ -1251,6 +1254,7 @@
         <String xml:lang="fr-FR">~p~Le garage où ce véhicule est garé nécessite {0}.\n~s~Vous pouvez toujours utiliser les véhicules qui s'y trouvent, mais la fonction ~y~Livraison ~s~est désactivée pour eux.</String>
         <String xml:lang="pl-PL">~p~Garaż w którym masz pojazd wymaga {0}.\n~s~ Możesz go wyciągnąc z garażu lecz opcja ~y~dostarczenia ~s~została wyłączona.</String>
         <String xml:lang="tr-TR">~p~Bu aracın park edildiği garaj için {0} gerekiyor. ~s~İçindeki araçları kullanabilirsiniz. Ancak, ~y~Teslimat ~s~özelliği kullanılamaz.</String>
+        <String xml:lang="es-ES">~p~El garage donde se encuentra este vehículo requiere {0}.\n~s~Puedes seguir utilizando los vehículos dentro de este, pero su ~y~entrega~s~ está deshabilitada.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_maintenance_title">
@@ -1269,6 +1273,7 @@
         <String xml:lang="zh-Hant">保養</String>
         <String xml:lang="pl-PL">Wyślij do naprawy</String>
         <String xml:lang="tr-TR">Bakım</String>
+        <String xml:lang="es-ES">Dar Mantenimiento</String>
     </Entry>
 
     <Entry Id="menu_vehicles_maintenance_info_destroyed">
@@ -1287,6 +1292,7 @@
         <String xml:lang="zh-Hant">~r~ 該車輛已經被摧毀了. 申請重製一台已具續使用.</String>
         <String xml:lang="pl-PL">~r~Ten pojazd został zniszczony. Zamów zamiennik.</String>
         <String xml:lang="tr-TR">~r~Bu araç yok edildi. Yenisini sipariş edin.</String>
+        <String xml:lang="es-ES">~r~El vehículo fue destruido. Pide un reemplazo.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_maintenance_info_in_maintenance">
@@ -1305,6 +1311,7 @@
         <String xml:lang="zh-Hant">~y~ 該車輛已被送至保養.</String>
         <String xml:lang="pl-PL">~y~Ten pojazd został już wysłany na przegląd.</String>
         <String xml:lang="tr-TR">~y~Bu araç zaten bakıma gönderildi.</String>
+        <String xml:lang="es-ES">~y~Este vehículo ya fue enviado a mantenimiento</String>
     </Entry>
 
     <Entry Id="menu_vehicles_replace_title">
@@ -1323,6 +1330,7 @@
         <String xml:lang="zh-Hant">重製</String>
         <String xml:lang="pl-PL">Zastąp</String>
         <String xml:lang="tr-TR">Yenisiyle değiştir</String>
+        <String xml:lang="es-ES">Reemplazar</String>
     </Entry>
 
     <Entry Id="menu_vehicles_replace_description">
@@ -1360,6 +1368,7 @@
         <String xml:lang="pl-PL">~r~Ten pojazd nie wymaga wymiany.</String>
         <String xml:lang="tr-TR">~r~Bu aracı yenilemeye gerek yok.</String>
         <String xml:lang="et-EE">~r~Seda sõidukit ei ole vaja asendada.</String>
+        <String xml:lang="es-ES">~r~Este vehículo no necesita ser reemplazado.</String>
     </Entry>
 
     <!-- nullnull{0} = Reference to "vehicle_option_locked" or "vehicle_option_unlocked" (for example: ~g~locked) -->
@@ -1589,6 +1598,7 @@
         <String xml:lang="tr-TR">Geri gönder</String>
         <String xml:lang="ga-IE">Siopa</String>
         <String xml:lang="et-EE">Hoiusta</String>
+        <String xml:lang="es-ES">Guardar</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
@@ -1610,6 +1620,7 @@
         <String xml:lang="tr-TR">~b~{0} ~s~ismili aracı bakıma gönder.</String>
         <String xml:lang="ga-IE">Seol do ~b~{0}~s~ chuig an chothabháil.</String>
         <String xml:lang="et-EE">Saada oma ~b~{0} ~s~hooldusesse.</String>
+        <String xml:lang="es-ES">Envía tu ~b~{0} ~s~a mantenimiento.</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
@@ -1631,6 +1642,7 @@
         <String xml:lang="tr-TR">Kiraladığın ~b~{0} ~s~isimli aracını bakıma gönder.</String>
         <String xml:lang="ga-IE">Seol do ~b~{0}~s~ ar cíos chuig an chothabháil.</String>
         <String xml:lang="et-EE">Saada rentitud ~b~{0} ~s~hooldusesse.</String>
+        <String xml:lang="es-ES">Envía este vehículo rentado (~b~{0}~s~) a mantenimiento.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rental_title">
@@ -1667,6 +1679,7 @@
         <String xml:lang="pl-PL">~b~Data rozpoczęcia: ~s~{0} UTC\n~b~Data zakończenia: ~s~{1} UTC\n~b~Opłata: ~g~{2} ~c~/tydzień</String>
         <String xml:lang="tr-TR">~b~Başlangıç tarihi: ~s~{0} UTC\n~b~Bitiş tarihi: ~s~{1} UTC\n~b~Ücret: ~g~{2} ~c~/hafta</String>
         <String xml:lang="et-EE">~b~Alguskuupäev: ~s~{0} UTC\n~b~Lõppkuupäev: ~s~{1} UTC\n~b~Tasu: ~g~{2} ~c~/week</String>
+        <String xml:lang="es-ES">~b~Fecha de inicio: ~s~{0} UTC\n~b~Fecha de término: ~s~{1} UTC\n~b~Costo: ~g~{2} ~c~/semana</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rental_info_overdue">
@@ -1684,6 +1697,7 @@
         <String xml:lang="no-NO"> ~r~FORSIDEN</String>
         <String xml:lang="pl-PL">~r~PO TERMINIE</String>
         <String xml:lang="tr-TR">~r~SÜRESİ BİTMİŞ</String>
+        <String xml:lang="es-ES">~r~VENCIDO</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rent_renew_title">
@@ -1702,6 +1716,7 @@
         <String xml:lang="pl-PL">Przedłuż wynajem</String>
         <String xml:lang="tr-TR">Kiralama Süresini Uzat</String>
         <String xml:lang="et-EE">Pikenda Renti</String>
+        <String xml:lang="es-ES">Extender Renta</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rent_renew_info_ongoing">
@@ -1719,6 +1734,7 @@
         <String xml:lang="sv-SE">~r~Uthyrningen av detta fordon pågår fortfarande.</String>
         <String xml:lang="pl-PL">~r~Wynajem tego pojazdu jest nadal w toku.</String>
         <String xml:lang="tr-TR">~r~Bu aracın kirası hala devam ediyor.</String>
+        <String xml:lang="es-ES">~r~La renta del vehículo se encuentra en curso.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rent_end_title">
@@ -1737,6 +1753,7 @@
         <String xml:lang="pl-PL">Zakończ wynajem</String>
         <String xml:lang="tr-TR">Kiralamayı Sonlandır</String>
         <String xml:lang="et-EE">Lõpeta Rendileping</String>
+        <String xml:lang="es-ES">Finalizar Renta</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rent_end_info_destroyed">
@@ -1755,6 +1772,7 @@
         <String xml:lang="zh-Hant">~r~ 該車輛已經被摧毀了. 請再還給租賃公司前先申請重製一台.</String>
         <String xml:lang="pl-PL">~r~Ten pojazd został zniszczony. Poproś o wymianę przed zwróceniem go do wypożyczalni.</String>
         <String xml:lang="tr-TR">~r~Bu araç imha edildi. Kiralama şirketine teslim etmeden önce yenisini talep edin.</String>
+        <String xml:lang="es-ES">~r~El vehículo fue destruido. Pide un reemplazo antes de retornarlo a la compañía de renta.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_rent_end_info_ongoing">
@@ -1772,6 +1790,7 @@
         <String xml:lang="fr-FR">~y~La location de ce véhicule est toujours en cours et vous ne serez pas indemnisé pour le temps qu'il reste.</String>
         <String xml:lang="pl-PL">~y~Wynajem tego pojazdu jest nadal w toku i nie otrzymasz rekompensaty za pozostały czas.</String>
         <String xml:lang="tr-TR">~y~Bu aracın kirası hala devam ediyor ve kalan süre için herhangi bir tazminat alamayacaksınız.</String>
+        <String xml:lang="es-ES">~y~La renta del vehículo está en curso y no tendrás compensación por el tiempo restante.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_history_title">
@@ -1790,6 +1809,7 @@
         <String xml:lang="pl-PL">Historia</String>
         <String xml:lang="tr-TR">Geçmiş</String>
         <String xml:lang="et-EE">Ajalugu</String>
+        <String xml:lang="es-ES">Historial</String>
     </Entry>
 
     <Entry Id="menu_vehicles_history_description">
@@ -1808,6 +1828,7 @@
         <String xml:lang="pl-PL">Zobacz historię własności tego pojazdu.</String>
         <String xml:lang="tr-TR">Bu aracın sahiplik geçmişini görüntüle.</String>
         <String xml:lang="et-EE">Vaata selle sõiduki omandiõiguse ajalugu.</String>
+        <String xml:lang="es-ES">Consulta el historial de propiedad del vehículo.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_history_entry_description">
@@ -1826,6 +1847,7 @@
         <String xml:lang="pl-PL">~b~Data zakupu: ~s~{0}\n~b~Cena zakupu: ~s~{1}</String>
         <String xml:lang="tr-TR">~b~Satın Alma tarihi: ~s~{0}\n~b~Satın Alma Fiyatı: ~s~{1}</String>
         <String xml:lang="et-EE">~b~Ostu kuupäev: ~s~{0}\n~b~Ostuhind: ~s~{1}</String>
+        <String xml:lang="es-ES">~b~Fecha de Compra: ~s~{0}\n~b~Precio de Compra: ~s~{1}</String>
     </Entry>
 
     <Entry Id="menu_vehicles_history_empty_title">
@@ -1844,6 +1866,7 @@
         <String xml:lang="pl-PL">Brak historii :(</String>
         <String xml:lang="tr-TR">Geçmiş yok :(</String>
         <String xml:lang="et-EE">Pole Ajalugu :(</String>
+        <String xml:lang="es-ES">Sin historial :(</String>
     </Entry>
 
     <Entry Id="menu_vehicles_history_empty_description">
@@ -1862,6 +1885,7 @@
         <String xml:lang="pl-PL">Ten pojazd nie ma udokumentowanej historii własności.</String>
         <String xml:lang="tr-TR">Bu aracın kayıtlı bir sahiplik geçmişi yok.</String>
         <String xml:lang="et-EE">Sellel sõidukil puudub registreeritud omandiõiguse ajalugu.</String>
+        <String xml:lang="es-ES">Este vehículo no tiene historial de propiedad registrado.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_sell_title">
@@ -1880,6 +1904,7 @@
         <String xml:lang="pl-PL">Sprzedaj</String>
         <String xml:lang="tr-TR">Sat</String>
         <String xml:lang="et-EE">Müü maha</String>
+        <String xml:lang="es-ES">Vender</String>
     </Entry>
 
     <Entry Id="menu_player_eject">
@@ -1898,6 +1923,7 @@
         <String xml:lang="pl-PL">Wyrzuć</String>
         <String xml:lang="tr-TR">Araçtan at</String>
         <String xml:lang="et-EE">Viska välja</String>
+        <String xml:lang="es-ES">Expulsar</String>
     </Entry>
 
     <Entry Id="menu_player_eject_desc">
@@ -1916,6 +1942,7 @@
         <String xml:lang="pl-PL">Wyrzuć tego gracza z pojazdu.</String>
         <String xml:lang="tr-TR">Bu oyuncuyu arabadan at.</String>
         <String xml:lang="et-EE">Viska see mängija oma sõidukist välja.</String>
+        <String xml:lang="es-ES">Expulsar este jugador de tu vehículo.</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
@@ -1937,6 +1964,7 @@
         <String xml:lang="tr-TR">~b~{0} ~s~isimli aracını kiralama şirketine geri ver.</String>
         <String xml:lang="ga-IE">Fill ar ais an ~b~{0}~s~ seo chuig an gcomhlacht cíosa.</String>
         <String xml:lang="et-EE">Tagasta see ~b~{0} ~s~rendifirmale.</String>
+        <String xml:lang="es-ES">Regresa este vehículo (~b~{0}~s~) a la compañía de renta</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
@@ -1958,6 +1986,7 @@
         <String xml:lang="tr-TR">~b~{0} ~s~isimli aracın kira sözleşmesini yenile.</String>
         <String xml:lang="ga-IE">Déan athnuachan ar chomhaontú cíosa an ~b~{0}~s~ seo.</String>
         <String xml:lang="et-EE">Uuenda selle ~b~{0}~s~ sõiduki rendilepingut.</String>
+        <String xml:lang="es-ES">Renueva la renta de este vehículo (~b~{0}~s~).</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
@@ -1979,6 +2008,7 @@
         <String xml:lang="tr-TR">~b~{0} ~s~aracını satın alma fiyatının belli bir yüzdesi karşılığında sunucuya sat.</String>
         <String xml:lang="ga-IE">Díol do ~b~{0}~s~ leis an tseirbhís do thacar de phraghas an cheannach.</String>
         <String xml:lang="et-EE">Müü maha oma ~b~{0} ~s~serverile ostuhinna protsendi eest.</String>
+        <String xml:lang="es-ES">Vende tu ~b~{0} ~s~al servidor por un porcentaje de su precio original.</String>
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom)
@@ -2001,6 +2031,7 @@
         <String xml:lang="pl-PL">Wyślij swój ~b~{0} ~s~spowrotem do ~y~{1}~s~.</String>
         <String xml:lang="ga-IE">Seol do ~b~{0}~s~ ar ais chuig ~y~{1}~s~.</String>
         <String xml:lang="et-EE">Saada oma ~b~{0} ~s~tagasi ~y~{1}~s~ garaaži.</String>
+        <String xml:lang="es-ES">Envía tu ~b~{0} ~s~de vuelta al garage ~y~{1}~s~.</String>
     </Entry>
 
     <!-- Do not include information about an EV charger, electric cars will get the "on_foot_to_use_ev_charger" notification instead. -->
@@ -2070,5 +2101,6 @@
         <String xml:lang="tr-TR">~p~Bu araç {0} gerektirir.\n~s~Yine de ~y~garaj~s~ından dışarı çıkartarak kullanabilirsin. Ancak, ~y~Teslimat ~s~özelliği bu araç için devre dışı bırakılmıştır.</String>
         <String xml:lang="ga-IE">~p~Tá {0} ag teastáil ón bhfeithicil seo.\n~s~ls féidir leat é a úsáid fós trí é a thógáil amach as do ~y~ghearálais~s~, ach tá an ghné ~y~Seachadta~s~ díghníomhachtaithe dó.</String>
         <String xml:lang="et-EE">[NEED HELP] ~p~~s~~y~~s~~y~ ~s~{0}</String>
+        <String xml:lang="es-ES">~p~Se require {0} para invocar este vehículo.\n~s~Aún puedes sacarlo directamente de tu ~y~garage~s~, pero la función de ~y~Entrega~s~ está deshabilitada para este vehículo.</String>
     </Entry>
 </Entries>
