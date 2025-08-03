@@ -39,9 +39,9 @@
         <String xml:lang="lv-LV">Izvēlieties priekšmetu</String>
         <String xml:lang="ar-001">اختر عنصرا</String>
         <String xml:lang="no-NO">Velg et element</String>
-        <String xml:lang="es-ES">Seleccione un item</String>
         <String xml:lang="pt-BR">Selecione um item</String>
         <String xml:lang="zh-Hant">選擇一個物品</String>
+        <String xml:lang="es-ES">Selecciona un artículo</String>
         <String xml:lang="vi-VN">Chọn một sản phẩm</String>
         <String xml:lang="et-EE">Vali ese</String>
     </Entry>
@@ -145,9 +145,9 @@
         <String xml:lang="lv-LV">Pārlūkot</String>
         <String xml:lang="ar-001">تصفح</String>
         <String xml:lang="no-NO">Bla gjennom</String>
-        <String xml:lang="es-ES">Browse</String>
         <String xml:lang="pt-BR">Browse</String>
         <String xml:lang="zh-Hant">瀏覽</String>
+        <String xml:lang="es-ES">Abrir menú</String>
         <String xml:lang="vi-VN">Duyệt</String>
         <String xml:lang="et-EE">Sirvi</String>
     </Entry>
@@ -189,9 +189,9 @@
         <String xml:lang="tr-TR">~y~Hatırlatma: ~s~bu öğeyi kullanmaya devam etmek için aboneliğinizi aktif tutun.</String>
         <String xml:lang="fr-FR">~y~Rappel: ~s~gardez votre abonnement actif pour continuer à utiliser cet objet.</String>
         <String xml:lang="no-NO">~y~Påminnelse: ~s~hold abonnementet ditt aktivt for å fortsette å bruke dette elementet.</String>
-        <String xml:lang="es-ES">~y~Recordatorio: ~s~mantén tu suscripción activa para seguir usando este artículo.</String>
         <String xml:lang="pt-BR">~y~Lembrete: ~s~mantenha sua assinatura ativa para continuar usando este artigo.</String>
         <String xml:lang="zh-Hant">~y~提醒: ~s~此物件只會在對應的會員激活時才得使用.</String>
+        <String xml:lang="es-ES">~y~Recordatorio: ~s~Mantén tu suscripción activa para seguir usando este artículo.</String>
         <String xml:lang="pl-PL">~y~Przypomnienie: ~s~utrzymuj aktywną subskrypcję, aby nadal korzystać z tego przedmiotu.</String>
         <String xml:lang="vi-VN">~y~Lời nhắc: ~s~hãy duy trì hội viên của bạn để tiếp tục sử dụng vật phẩm này.</String>
     </Entry>
@@ -210,9 +210,9 @@
         <String xml:lang="tr-TR">Mağazadan tekrar ~r~hırsızlık ~s~yapmak için önce bekle.</String>
         <String xml:lang="no-NO">Vent før du forsøker å ~r~shoplifte ~s~igjen.</String>
         <String xml:lang="fr-FR">Attendez avant de re-tenter un ~r~vol à l'étalage. ~s~</String>
-        <String xml:lang="es-ES">Espere antes de intentar ~r~robar ~s~nuevamente.</String>
         <String xml:lang="pt-BR">Espere antes de tentar ~r~roubar ~s~novamente.</String>
         <String xml:lang="zh-Hant">請先等一段時間再~r~偷東西~s~.</String>
+        <String xml:lang="es-ES">Debes esperar antes de intentar ~r~robar ~s~de nuevo.</String>
         <String xml:lang="pl-PL">Poczekaj zanim spróbujesz ponownie ~r~wykraść coś ze sklepu ~s~</String>
         <String xml:lang="vi-VN">Vui lòng chờ trước khi cố gắng ~r~ăn cắp vặt ~s~lại.</String>
         <String xml:lang="et-EE">Oota enne kui proovid uuesti ~r~näppata. ~s~</String>
@@ -245,7 +245,6 @@
         <String xml:lang="nl-NL">Je kan niet winkelen bij deze winkel wanneer je ~b~in dienst~s~ bent.</String>
         <String xml:lang="it-IT">Non puoi fare acquisti in questo negozio mentre sei ~b~in servizio~s~!</String>
         <String xml:lang="de-DE">Du kannst bei diesem Laden nicht einkaufen, wenn du ~b~im Dienst~s~ bist.</String>
-        <String xml:lang="es-ES">No puedes comprar en esta tienda cuando estás ~b~de servicio~s~.</String>
         <String xml:lang="pl-PL">Nie możesz kupować w tym sklepie ~b~na służbie~s~.</String>
         <String xml:lang="pt-BR">Você não pode fazer compras nesta loja quando ~b~estiver em serviço~s~.</String>
         <String xml:lang="th-TH">คุณไม่สามารถซื้อสินค้าที่ร้านนี้ได้เมื่อคุณ ~b~ปฏิบัติหน้าที่~s~</String>
@@ -256,6 +255,7 @@
         <String xml:lang="ar-001">لا يمكنك التسوق في هذا المتجر عندما تكون ~b~في الخدمه~s~.</String>
         <String xml:lang="fr-FR">Vous ne pouvez pas faire d'achats dans ce magasin lorsque vous êtes ~b~en service~s~.</String>
         <String xml:lang="hi-Latn">Jab aap ~b~ON-Duty ~s~ho toh aap is store pe kharidaari nahi kar sakte.</String>
+        <String xml:lang="es-ES">No puedes comprar en esta tienda mientras estás ~b~en servicio~s~.</String>
         <String xml:lang="no-NO">Du kan ikke handle i denne butikken når du er ~b~på-vakt~s~.</String>
         <String xml:lang="zh-Hant">你不能在~b~上班~s~時在此購買物品.</String>
         <String xml:lang="vi-VN">Bạn không thể mua sắm tại cửa hàng này khi bạn đang ~b~trong giờ làm việc~s~.</String>
@@ -267,7 +267,6 @@
         <String xml:lang="nl-NL">Alleen ~b~politieagenten ~s~kunnen winkelen bij deze winkel.</String>
         <String xml:lang="it-IT">Solo gli ~b~agenti di polizia ~s~possono fare acquisti in questo negozio!</String>
         <String xml:lang="de-DE">Ausschließlich ~b~Polizisten ~s~können in diesem Laden einkaufen.</String>
-        <String xml:lang="es-ES">Solo ~b~los agentes de policía ~s~pueden comprar en esta tienda.</String>
         <String xml:lang="pl-PL">Tylko ~b~gliniarze ~s~mogą kupować w tym sklepie.</String>
         <String xml:lang="pt-BR">Somente ~b~policiais ~s~podem fazer compras nessa loja.</String>
         <String xml:lang="th-TH">มีเพียง ~b~เจ้าหน้าที่ตำรวจ ~s~เท่านั้นที่สามารถซื้อสินค้าที่ร้านนี้ได้</String>
@@ -276,6 +275,7 @@
         <String xml:lang="id-ID">Hanya ~b~Petugas kepolisian ~s~yang dapat belanja ditoko ini.</String>
         <String xml:lang="lv-LV">Tikai ~b~policisti ~s~var iepirkties šajā veikalā.</String>
         <String xml:lang="ar-001">فقط~b~الشرطة ~s~يمكنهم التسوق في هذا المتجر</String>
+        <String xml:lang="es-ES">Sólo los ~b~oficiales de policía ~s~pueden comprar en esta tienda.</String>
         <String xml:lang="sv-SE">Endast ~b~poliser ~s~kan handla i denna butiken.</String>
         <String xml:lang="no-NO">Bare ~b~polititjenestemenn ~s~kan handle i denne butikken.</String>
         <String xml:lang="fr-FR">Seuls les ~b~officiers de police ~s~peuvent faire des achats dans ce magasin.</String>
@@ -299,9 +299,9 @@
         <String xml:lang="fr-FR">Vous n'avez aucune arme qui puisse utiliser ce type de munitions.</String>
         <String xml:lang="sv-SE">Du har inget vapen som kan använda den här typen av ammunition.</String>
         <String xml:lang="no-NO">Du har ingen pistol som kan bruke denne typen ammunisjon.</String>
-        <String xml:lang="es-ES">Usted no tiene ningún arma que puede utilizar este tipo de munición.</String>
         <String xml:lang="pt-BR">Você não tem nenhuma arma que possa usar esse tipo de munição..</String>
         <String xml:lang="zh-Hant">你沒有使用這種彈藥的武器.</String>
+        <String xml:lang="es-ES">No tienes armas que usen este tipo de munición.</String>
         <String xml:lang="vi-VN">Bạn không có khẩu súng nào có thể sử dụng loại đạn này.</String>
     </Entry>
 
@@ -310,7 +310,6 @@
         <String xml:lang="nl-NL">~r~Je hebt dit wapen al!</String>
         <String xml:lang="it-IT">~r~Possiedi già quest'arma!</String>
         <String xml:lang="de-DE">~r~Du besitzt diese Waffe bereits!</String>
-        <String xml:lang="es-ES">~r~¡Ya tienes este arma!</String>
         <String xml:lang="pl-PL">~r~Masz już tą broń!</String>
         <String xml:lang="pt-BR">~r~Você já tem essa arma!</String>
         <String xml:lang="th-TH">~r~คุณเป็นเจ้าของอาวุธนี้แล้ว!</String>
@@ -320,6 +319,7 @@
         <String xml:lang="lv-LV">~r~Jums jau pieder šīs ierocis!</String>
         <String xml:lang="ar-001">~r~ انت تمتلك هذا السلاح بالفعل</String>
         <String xml:lang="fr-FR">~r~Vous possédez déjà cette arme!</String>
+        <String xml:lang="es-ES">~r~¡Ya posees este arma!</String>
         <String xml:lang="sv-SE">~r~Du äger redan det här vapnet!</String>
         <String xml:lang="no-NO">~r~Du eier allerede dette våpenet!</String>
         <String xml:lang="zh-Hant">~r~你已經有這把武器了!</String>
@@ -332,7 +332,6 @@
         <String xml:lang="nl-NL">~r~Je hebt dit accessoire al!</String>
         <String xml:lang="it-IT">~r~Possiedi già questo accessorio!</String>
         <String xml:lang="de-DE">~r~Du besitzt dieses Zubehör bereits!</String>
-        <String xml:lang="es-ES">~r~¡Ya posee este accesorio!</String>
         <String xml:lang="pl-PL">~r~Masz już ten dodatek!</String>
         <String xml:lang="pt-BR">~r~Já possui esse acessório!</String>
         <String xml:lang="th-TH">~r~คุณเป็นเจ้าของของแต่งนี้แล้ว!</String>
@@ -342,6 +341,7 @@
         <String xml:lang="lv-LV">~r~Jums jau pieder šīs ieroča piederums!</String>
         <String xml:lang="ar-001">~r~انت تمتلك هذا المرفق بالفعل</String>
         <String xml:lang="fr-FR">~r~Vous possédez déjà cet accessoire!</String>
+        <String xml:lang="es-ES">~r~¡Ya posees este accesorio!</String>
         <String xml:lang="sv-SE">~r~Du äger redan den här bilagan!</String>
         <String xml:lang="no-NO">~r~Du eier allerede dette vedlegget!</String>
         <String xml:lang="zh-Hant">~r~你已經擁有這個配件了!</String>
@@ -406,9 +406,9 @@
         <String xml:lang="sv-SE">Visar dig listan över dina senaste brott.</String>
         <String xml:lang="no-NO">Viser deg listen over de siste forbrytelsene dine.</String>
         <String xml:lang="fr-FR">Affiche la liste de vos crimes les plus récents.</String>
-        <String xml:lang="es-ES">Te muestra la lista de tus delitos más recientes.</String>
         <String xml:lang="pt-BR">Mostra a lista de seus crimes mais recentes.</String>
         <String xml:lang="zh-Hant">顯使最近的犯行.</String>
+        <String xml:lang="es-ES">Te muestra la lista de tus delitos cometidos más recientes.</String>
         <String xml:lang="pl-PL">Pokazuje listę twoich ostatnich przestępstw</String>
         <String xml:lang="vi-VN">Hiển thị danh sách các hành vi phạm tội gần đây nhất của bạn.</String>
         <String xml:lang="et-EE">Näitab sulle nimekirja sinu hiljutistest kuritegudest.</String>
@@ -442,7 +442,6 @@
         <String xml:lang="nl-NL">Crew Menu</String>
         <String xml:lang="ar-001">قائمة الطاقم</String>
         <String xml:lang="de-DE">Crew-Menü</String>
-        <String xml:lang="es-ES">Crew Menu</String>
         <String xml:lang="pt-BR">Crew Menu</String>
         <String xml:lang="pl-PL">Menu Ekip</String>
         <String xml:lang="th-TH">เมนูแก็ง</String>
@@ -456,6 +455,7 @@
         <String xml:lang="no-NO">Mannskapsmeny</String>
         <String xml:lang="vi-VN">Menu Tổ đội</String>
         <String xml:lang="et-EE">Meeskonna menüü</String>
+        <String xml:lang="es-ES">Menú de Crews</String>
     </Entry>
 
     <Entry Id="menu_crews_apply_subtitle">
@@ -464,7 +464,6 @@
         <String xml:lang="nl-NL">Selecteer een crew om je voor aan te melden.</String>
         <String xml:lang="ar-001">.اختر الطاقم الذي ستتقدم إليه</String>
         <String xml:lang="de-DE">Wähle eine Crew, für die du dich bewerben möchtest.</String>
-        <String xml:lang="es-ES">Seleccione una crew para postularte.</String>
         <String xml:lang="pt-BR">Selecione uma crew para se candidatar.</String>
         <String xml:lang="pl-PL">Wybierz ekipę do której chcesz aplikować.</String>
         <String xml:lang="th-TH">เลือกแก็งที่จะสมัคร</String>
@@ -474,6 +473,7 @@
         <String xml:lang="hi-Latn">Apply karne ke liye ek crew select karein.</String>
         <String xml:lang="id-ID">Pilih kru yang akan dilamar.</String>
         <String xml:lang="lv-LV">Izvēlieties crew kurai gribat pieteikties.</String>
+        <String xml:lang="es-ES">Selecciona la crew a la que quieres postularte.</String>
         <String xml:lang="sv-SE">Välj en besättning att ansöka om.</String>
         <String xml:lang="no-NO">Velg et mannskap du vil søke på.</String>
         <String xml:lang="vi-VN">Chọn một tổ đội để đăng ký tham gia.</String>
@@ -486,7 +486,6 @@
         <String xml:lang="nl-NL">Crew Sollicitatie</String>
         <String xml:lang="ar-001">طلب دخول الطاقم</String>
         <String xml:lang="de-DE">Crew-Bewerbungen</String>
-        <String xml:lang="es-ES">Solucitudes de crew</String>
         <String xml:lang="pt-BR">Solicitação da crew</String>
         <String xml:lang="pl-PL">Aplikacja do Ekipy</String>
         <String xml:lang="th-TH">ใบสมัครแก็ง</String>
@@ -496,6 +495,7 @@
         <String xml:lang="hi-Latn">Crew Application</String>
         <String xml:lang="id-ID">Kandidat Kru</String>
         <String xml:lang="lv-LV">Crew Pieteikums</String>
+        <String xml:lang="es-ES">Postulación para crew</String>
         <String xml:lang="sv-SE">Besättningsansökan</String>
         <String xml:lang="no-NO">Besetningsapplikasjon</String>
         <String xml:lang="vi-VN">Đơn xin gia nhập Tổ đội.</String>
@@ -541,9 +541,9 @@
         <String xml:lang="pl-PL">Posiadane</String>
         <String xml:lang="tr-TR">Sahipsin</String>
         <String xml:lang="no-NO">Eid</String>
-        <String xml:lang="es-ES">Propiedad</String>
         <String xml:lang="pt-BR">Propriedades</String>
         <String xml:lang="zh-Hant">以擁有</String>
+        <String xml:lang="es-ES">En propiedad</String>
         <String xml:lang="vi-VN">Đã sở hữu</String>
         <String xml:lang="et-EE">Omatud</String>
     </Entry>
@@ -683,9 +683,9 @@
         <String xml:lang="pl-PL">Odblokowane na poziomie {0}</String>
         <String xml:lang="tr-TR">{0}. seviyede açılır</String>
         <String xml:lang="no-NO">Låst opp på nivå {0}</String>
-        <String xml:lang="es-ES">Se desbloquea en el nivel {0}</String>
         <String xml:lang="pt-BR">Desbloqueado no nível {0}</String>
         <String xml:lang="zh-Hant">將在 {0} 等解鎖</String>
+        <String xml:lang="es-ES">Desbloqueable al llegar al nivel {0}</String>
         <String xml:lang="vi-VN">Mở khóa ở cấp độ {0}</String>
         <String xml:lang="et-EE">Saadaval alles 16. levelist {0}</String>
     </Entry>
@@ -709,9 +709,9 @@
         <String xml:lang="de-DE">Freigeschalten mit deiner {0}</String>
         <String xml:lang="no-NO">Låst opp med din {0}</String>
         <String xml:lang="fr-FR">Débloqué avec votre {0}</String>
-        <String xml:lang="es-ES">Desbloquealo con {0}</String>
         <String xml:lang="pt-BR">Desbloqueie-o com {0}</String>
         <String xml:lang="zh-Hant">已以 {0} 解鎖</String>
+        <String xml:lang="es-ES">Desbloqueable con {0}</String>
         <String xml:lang="vi-VN">Đã mở khóa bằng {0} của bạn</String>
     </Entry>
 
@@ -721,7 +721,6 @@
     <Entry Id="menu_store_shoplifting_cooldown">
         <String xml:lang="en-US">You have been caught ~r~shoplifting ~s~here. Come back in ~y~{0}~s~.</String>
         <String xml:lang="nl-NL">Je bent gepakt voor ~r~stelen ~s~hier. Kom terug in ~y~{0}~s~.</String>
-        <String xml:lang="es-ES">Te han pillado ~r~robando ~s~aquí. Vuelve en ~y~{0}~s~.</String>
         <String xml:lang="pt-BR">Você foi pego ~r~roubando ~s~aqui. Volte para dentro ~y~{0}~s~.</String>
         <String xml:lang="th-TH">คุณถูกจับได้ว่า ~r~ขโมยของในร้าน ~s~ที่นี่ กลับมาใน ~y~{0}~s~</String>
         <String xml:lang="id-ID">Kamu sudah pernah tertangkap ~r~mencuri barang toko ~s~disini. Kembali lagi dalam ~y~{0}~s~.</String>
@@ -729,6 +728,7 @@
         <String xml:lang="ar-001">لقد تم القبض عليك وانت~r~تسرق ~s~هنا. تعال بعد ~y~{0}~s~.</String>
         <String xml:lang="sv-SE">Du har blivit tagen på ~r~snatteri ~s~här. Kom tillbaka in om ~y~{0}~s~.</String>
         <String xml:lang="hi-Latn">Aap ~r~dukan se chori ~s~karte hue pakde gaye. Ab ~y~{0} ~s~ke baad wapas aana.</String>
+        <String xml:lang="es-ES">Te atraparon ~r~robando~s~. Vuelve en ~y~{0}~s~.</String>
         <String xml:lang="lv-LV">Jūs tika pieķerts ~r~zādzībā ~s~šeit. Atgriezieties pēc ~y~{0}~s~.</String>
         <String xml:lang="de-DE">Du wurdest hier beim ~r~Ladendiebstahl~s~ erwischt. Komm in ~y~{0}~s~ zurück.</String>
         <String xml:lang="pl-PL">Zostałeś złapany tu na ~r~kradzieży~s~. Wróć za ~y~{0}~s~.</String>
@@ -753,9 +753,9 @@
         <String xml:lang="de-DE">Du musst mindestens ~b~Level {0}~s~, oder höher sein, um diesen ~r~Laden~s~ zu nutzen.</String>
         <String xml:lang="tr-TR">~r~Bu mağaza~s~ya erişebilmek için ~b~seviyenizin {0} ~s~veya üzeri olması gerekir.</String>
         <String xml:lang="no-NO">Du må være ~b~nivå {0} ~s~eller over for å bruke denne ~r~butikken~s~.</String>
-        <String xml:lang="es-ES">Necesitas ser ~b~nivel {0} ~s~o superior para usar esta ~r~tienda~s~.</String>
         <String xml:lang="pt-BR">Você precisa ser ~b~level {0} ~s~ ou superior para usar esta ~r~loja~s~.</String>
         <String xml:lang="zh-Hant">你的等級須高於 ~b~{0}等~s~ 才可在此~r~商店~s~購買物品.</String>
+        <String xml:lang="es-ES">Necesitas ser por lo menos ~b~nivel {0} ~s~para accesar a esta ~r~tienda~s~.</String>
         <String xml:lang="sv-SE">Du måste vara ~b~nivå {0} ~s~eller högre för att använda denna ~r~butik~s~.</String>
         <String xml:lang="fr-FR">Vous devez être ~b~niveau {0} ~s~ou plus pour utiliser ce ~r~magasin~s~.</String>
         <String xml:lang="pl-PL">Musisz mieć ~b~level {0} ~s~lub wyższy by użyć tego ~r~sklepu~s~.</String>
@@ -777,9 +777,9 @@
         <String xml:lang="de-DE">Du kannst nicht mehr von ~y~{0}~s~ ~r~kaufen~s~.</String>
         <String xml:lang="tr-TR">Daha fazla ~y~{0} ~r~satın alamazsın~s~.</String>
         <String xml:lang="no-NO">Du kan ikke ~r~kjøpe ~s~mer ~y~{0}~s~.</String>
-        <String xml:lang="es-ES">No puedes  ~r~comprar ~s~ más ~y~{0}~s~.</String>
         <String xml:lang="pt-BR">Você não pode ~r~comprar ~s~mais  ~y~{0}~s~.</String>
         <String xml:lang="zh-Hant">你無法再~r~購買~s~~y~{0}~s~</String>
+        <String xml:lang="es-ES">No puedes ~r~comprar~s~ más ~y~{0}~s~.</String>
         <String xml:lang="sv-SE">Du kan inte ~r~köpa ~s~mer ~y~{0}~s~.</String>
         <String xml:lang="vi-VN">Bạn không thể ~r~mua ~s~thêm ~y~{0}~s~nữa.</String>
     </Entry>
@@ -803,9 +803,9 @@
         <String xml:lang="lv-LV">{0} par {1}</String>
         <String xml:lang="sv-SE">{0} för {1}</String>
         <String xml:lang="no-NO">{0} for {1}</String>
-        <String xml:lang="es-ES">{0} por {1}</String>
         <String xml:lang="pt-BR">{0} por {1}</String>
         <String xml:lang="zh-Hant">{0} 個 {1}</String>
+        <String xml:lang="es-ES">{0} por {1}</String>
         <String xml:lang="vi-VN">{0} với giá {1}</String>
     </Entry>
 
@@ -827,9 +827,9 @@
         <String xml:lang="pl-PL">Cena: {0}/{1}</String>
         <String xml:lang="tr-TR">Fiyat: {0}/{1}</String>
         <String xml:lang="no-NO">Pris: {0}/{1}</String>
-        <String xml:lang="es-ES">Precio: {0}/{1}</String>
         <String xml:lang="pt-BR">Preço: {0}/{1}</String>
         <String xml:lang="zh-Hant">價格: {0}/{1}</String>
+        <String xml:lang="es-ES">Precio: {0}/{1}</String>
         <String xml:lang="sv-SE">Pris: {0}/{1}</String>
         <String xml:lang="vi-VN">Giá: {0}/{1}</String>
     </Entry>
@@ -851,9 +851,9 @@
         <String xml:lang="tr-TR">{0} ~p~{1} ~s~için ~r~{2} ödediniz.</String>
         <String xml:lang="sv-SE">Du köpte {0} ~p~{1} ~s~för ~r~{2}.</String>
         <String xml:lang="no-NO">Du kjøpte {0} ~p~{1} ~s~for ~r~{2}.</String>
-        <String xml:lang="es-ES">Has comprado {0} ~p~{1} ~s~por ~r~{2}.</String>
         <String xml:lang="pt-BR">Você comprou {0} ~p~{1} ~s~por ~r~{2}.</String>
         <String xml:lang="zh-Hant">你以 ~r~{2} ~s~買了 {0}~p~{1}~s~.</String>
+        <String xml:lang="es-ES">Compraste {0} ~p~{1} ~s~por ~r~{2}.</String>
         <String xml:lang="pl-PL">Kupiłeś {0} ~p~{1} ~s~za ~r~{2}.</String>
         <String xml:lang="vi-VN">Bạn đã mua {0} ~p~{1} ~s~với giá ~r~{2}~s~.</String>
     </Entry>
@@ -875,12 +875,12 @@
         <String xml:lang="sv-SE">Du köpte {0} ~p~{1} ~s~för ~b~{2} ~s~in presentkortsaldo och ~r~{3} ~s~i kontanter.</String>
         <String xml:lang="no-NO">Du kjøpte {0} ~p~{1} ~s~for ~b~{2} ~s~in gavekortsaldo og ~r~{3} ~s~i kontanter.</String>
         <String xml:lang="fr-FR">Vous avez acheté {0} ~p~{1} ~s~pour ~b~{2} ~s~avec des cartes cadeaux et ~r~{3} ~s~en espèces.</String>
-        <String xml:lang="es-ES">Usted compró {0} ~p~{1} ~s~por ~b~{2} ~s~con el saldo de la tarjeta regalo y ~r~{3} ~s~en efectivo.</String>
         <String xml:lang="pt-BR">Você comprou {0} ~p~{1} ~s~ por ~b~{2} ~s~ com o saldo do cartão-presente e ~r~{3} ~s~ em dinheiro.</String>
         <String xml:lang="zh-Hant">你以 {2} 的點數和 {3} 的現金購買了 {0}{1}.</String>
         <String xml:lang="pl-PL">Kupiłeś {0} ~p~{1} ~s~za ~b~{2} ~s~z karty podarunkowej i ~r~{3} ~s~gotówki.</String>
         <String xml:lang="de-DE">Du hast {0} ~p~{1} ~s~für ~b~{2} ~s~mit Guthaben der Geschenkkarten und ~r~{3} ~s~in bar gekauft.</String>
         <String xml:lang="vi-VN">Bạn đã mua {0} ~p~{1} ~s~với ~b~{2} ~s~từ số dư thẻ quà tặng và ~r~{3} ~s~tiền mặt.</String>
+        <String xml:lang="es-ES">Compraste {0} ~p~{1} ~s~por ~b~{2} ~s~con el saldo de la tarjeta regalo y ~r~{3} ~s~en efectivo.</String>
     </Entry>
 
     <!-- nullnull{0} = Job name (for example: Mechanic) -->
@@ -955,7 +955,6 @@
         <String xml:lang="nl-NL">Wapenhandelaar</String>
         <String xml:lang="ar-001">تاجر أسلحة</String>
         <String xml:lang="de-DE">Waffenhändler</String>
-        <String xml:lang="es-ES">Vendedor de armas</String>
         <String xml:lang="pt-BR">Vendedor de armas</String>
         <String xml:lang="pl-PL">Handlarz Bronią</String>
         <String xml:lang="th-TH">พ่อค้าอาวุธ</String>
@@ -964,6 +963,7 @@
         <String xml:lang="hi-Latn">Hathiyaar Dealer</String>
         <String xml:lang="id-ID">Penjual Senjata</String>
         <String xml:lang="lv-LV">Ieroču Tirgotājs</String>
+        <String xml:lang="es-ES">Traficante de armas</String>
         <String xml:lang="sv-SE">Vapenhandlare</String>
         <String xml:lang="no-NO">Våpenhandler</String>
         <String xml:lang="fr-FR">Vendeur d'armes</String>
@@ -1151,7 +1151,6 @@
         <String xml:lang="nl-NL">Drugs Leverancier</String>
         <String xml:lang="ar-001">مورد المخدرات</String>
         <String xml:lang="de-DE">Drogenlieferant</String>
-        <String xml:lang="es-ES">Proveedor de Drogas</String>
         <String xml:lang="pt-BR">Fornecedor de Drogas</String>
         <String xml:lang="pl-PL">Przemytnik Narkotyków</String>
         <String xml:lang="th-TH">ผู้จำหน่ายยาเสพติด</String>
@@ -1161,6 +1160,7 @@
         <String xml:lang="hi-Latn">Drug Supplier</String>
         <String xml:lang="id-ID">Pengedar Narkoba</String>
         <String xml:lang="lv-LV">Narkotiku Piegādātājs</String>
+        <String xml:lang="es-ES">Traficante de drogas</String>
         <String xml:lang="no-NO">Legemiddelleverandør</String>
         <String xml:lang="sv-SE">Läkemedelsleverantör</String>
         <String xml:lang="vi-VN">Nhà cung cấp thuốc</String>
@@ -1201,8 +1201,8 @@
         <String xml:lang="no-NO">Se nylige henvendelser etter en narkotikaforhandler.</String>
         <String xml:lang="fr-FR">Voir les appels récents pour un dealer de drogue.</String>
         <String xml:lang="sv-SE">Se de senaste samtalen för en droghandlare.</String>
-        <String xml:lang="es-ES">Ver las llamadas recientes para un traficante de drogas.</String>
         <String xml:lang="pt-BR">Ver chamadas recentes para um traficante de drogasr.</String>
+        <String xml:lang="es-ES">Ver la lista de llamadas para solicitar para un traficante de drogas.</String>
         <String xml:lang="pl-PL">Zobacz ostatnie wezwania handlarza narkotyków.</String>
         <String xml:lang="vi-VN">Xem các cuộc gọi gần đây cho một kẻ buôn thuốc</String>
         <String xml:lang="zh-Hant">查看近期打給藥頭的電話.</String>
@@ -1225,7 +1225,7 @@
         <String xml:lang="id-ID">Penyitaan</String>
         <String xml:lang="lv-LV">Konfiscēts</String>
         <String xml:lang="tr-TR">Bağlamak</String>
-        <String xml:lang="es-ES">Depósito</String>
+        <String xml:lang="es-ES">Depósito Vehicular</String>
         <String xml:lang="no-NO">Beslaglagt</String>
         <String xml:lang="sv-SE">Beslagta</String>
         <String xml:lang="vi-VN">Bị tịch thu</String>
@@ -1287,8 +1287,8 @@
         <String xml:lang="tr-TR">ALIŞVERİŞ ÜCRETİ: %{0}</String>
         <String xml:lang="no-NO">BUTIKKGEBYR: {0}%</String>
         <String xml:lang="sv-SE">BUTIKSAVGIFT: {0}%</String>
-        <String xml:lang="es-ES">TASA DE TIENDA: {0}%</String>
         <String xml:lang="zh-Hant">商店抽成: {0}%</String>
+        <String xml:lang="es-ES">COMISIÓN DE LA TIENDA: {0}%</String>
         <String xml:lang="pt-BR">TAXA DA LOJA: {0}%</String>
         <String xml:lang="pl-PL">OPŁATA ZA SKLEP: {0}%</String>
         <String xml:lang="vi-VN">PHÍ CỬA HÀNG: {0}%</String>
@@ -1308,9 +1308,9 @@
         <String xml:lang="fr-FR">Plaque d'immatriculation personnalisée</String>
         <String xml:lang="no-NO">Servantplate</String>
         <String xml:lang="sv-SE">Egen registreringsskylt</String>
-        <String xml:lang="es-ES">Matricula</String>
         <String xml:lang="pt-BR">Registro</String>
         <String xml:lang="zh-Hant">客製化車牌</String>
+        <String xml:lang="es-ES">Matrícula Personalizada</String>
         <String xml:lang="pl-PL">Tablica rejestracyjna</String>
         <String xml:lang="vi-VN">Biển số xe tùy chỉnh</String>
         <String xml:lang="et-EE">Isikupärane numbrimärk</String>
@@ -1329,9 +1329,9 @@
         <String xml:lang="fr-FR">Services supplémentaires</String>
         <String xml:lang="no-NO">Flere tjenester</String>
         <String xml:lang="sv-SE">Fler tjänster</String>
-        <String xml:lang="es-ES">Mas servicios</String>
         <String xml:lang="pt-BR">Mais serviços</String>
         <String xml:lang="zh-Hant">更多服務</String>
+        <String xml:lang="es-ES">Servicios adicionales</String>
         <String xml:lang="pl-PL">Więcej usług</String>
         <String xml:lang="vi-VN">Các dịch vụ khác</String>
         <String xml:lang="et-EE">Rohkem teenuseid</String>
@@ -1350,9 +1350,9 @@
         <String xml:lang="fr-FR">Il n'y a pas de ~b~joueurs~s~ mécaniciens dans cet atelier. Vous ne pouvez pas personnaliser votre véhicule.</String>
         <String xml:lang="no-NO">Det er ingen mekanikere ~b~spillere~s~ i denne butikken. Du kan ikke tilpasse kjøretøyet ditt.</String>
         <String xml:lang="sv-SE">Det finns inga mekaniker ~b~spelare~s~ i denna butik. Du kan inte modifiera ditt fordon.</String>
-        <String xml:lang="es-ES">No hay ~b~jugadores~s~  mecánicosen este taller. No puedes personalizar tu vehículo.</String>
         <String xml:lang="pt-BR">Não há mecânicos do ~b~jogador~s~ nesta oficina. Você não pode personalizar seu veículo.</String>
         <String xml:lang="zh-Hant">此商店沒有~b~修車工的玩家~s~. 你無法客製化你得車輛.</String>
+        <String xml:lang="es-ES">No es posible modificar tu vehículo. No hay ~b~jugadores~s~ mecánicos en este taller.</String>
         <String xml:lang="pl-PL">W tym sklepie nie ma żadnych~b~ mechaników~s~. Nie możesz stuningować swojego pojazdu.</String>
         <String xml:lang="vi-VN">Không có ~b~người chơi~s~ thợ máy nào trong cửa hàng này. Bạn không thể tùy chỉnh xe của mình.</String>
         <String xml:lang="et-EE">Siin mehaanikutöökojas ei ole ühtegi ~b~mehhaanikut.~s~ Sa ei saa oma sõidukit tuunida.</String>
@@ -1371,9 +1371,9 @@
         <String xml:lang="no-NO">Det er ~y~{0}~s~ mekanikere ~b~spillere~s~ i denne butikken. Velg dette alternativet for å se deres tjenester.</String>
         <String xml:lang="fr-FR">Il y a ~y~{0}~s~ ~b~joueurs~s~ mécaniciens dans cet atelier. Sélectionnez cette option pour voir leurs services.</String>
         <String xml:lang="sv-SE">Det finns ~y~{0}~s~ mekaniker ~b~spelare~s~ i den här butiken. Välj det här alternativet för att se deras tjänster.</String>
-        <String xml:lang="es-ES">Hay ~y~{0}~s~ mecánicos ~s~ en esta tienda. Seleccione esta opción para ver sus servicios.</String>
         <String xml:lang="pt-BR">Há ~y~{0}~s~ mecânicos ~s~ nesta loja. Selecione esta opção para ver seus serviços.</String>
         <String xml:lang="zh-Hant">此商店有 ~y~{0}~s~ 個修車工. 選擇一個並查看他們移工的服務.</String>
+        <String xml:lang="es-ES">Hay ~y~{0}~s~ ~b~mecánico(s) ~s~en este taller. Selecciona esta opción para ver sus servicios.</String>
         <String xml:lang="pl-PL">W tym sklepie jest ~y~{0}~s~ ~b~mechaników~s~. Wybierz tę opcję, aby zobaczyć ich usługi.</String>
         <String xml:lang="vi-VN">Có ~y~{0}~s~ ~b~người chơi~s~ thợ máy trong cửa hàng này. Chọn tùy chọn này để xem dịch vụ của họ.</String>
         <String xml:lang="et-EE">Selles mehaanikutöökojas on ~y~{0}~s~ ~b~mehhaanikut.~s~ Vali see valik, et vaadata nende teenuseid.</String>
@@ -1413,8 +1413,8 @@
         <String xml:lang="lv-LV">Skatiet nesenos zvanus mehāniķiem.</String>
         <String xml:lang="no-NO">Se nylige samtaler etter en mekaniker.</String>
         <String xml:lang="sv-SE">Se de senaste samtalen för en mekaniker.</String>
-        <String xml:lang="es-ES">Ver las últimas llamadas para un mecánico.</String>
         <String xml:lang="pt-BR">Veja as últimas chamadas para um mecânico.</String>
+        <String xml:lang="es-ES">Ver las últimas llamadas para solicitar un mecánico.</String>
         <String xml:lang="pl-PL">Zobacz ostatnie wezwania mechanika.</String>
         <String xml:lang="vi-VN">Xem các cuộc gọi gần đây cho thợ máy.</String>
         <String xml:lang="zh-Hant">查看近期打給修車工的電話.</String>
@@ -1478,6 +1478,7 @@
         <String xml:lang="it-IT">Tinte per Finestrini</String>
         <String xml:lang="pl-PL">Przyciemniane szyby</String>
         <String xml:lang="vi-VN">Phim kính</String>
+        <String xml:lang="es-ES">Tintes de Ventana</String>
     </Entry>
 
     <Entry Id="menu_mechanic_respray_subtitle">
@@ -1535,9 +1536,9 @@
         <String xml:lang="tr-TR">Sedef rengi</String>
         <String xml:lang="no-NO">Perleskinnende farge</String>
         <String xml:lang="sv-SE">Pärlemorfärg</String>
-        <String xml:lang="es-ES">Color nacarado</String>
         <String xml:lang="pt-BR">Cor perolada</String>
         <String xml:lang="zh-Hant">珠光</String>
+        <String xml:lang="es-ES">Nacarado</String>
         <String xml:lang="pl-PL">Kolor perłowy</String>
         <String xml:lang="vi-VN">Màu sơn ngọc trai</String>
     </Entry>
@@ -1569,7 +1570,6 @@
         <String xml:lang="nl-NL">Bekleding kleur</String>
         <String xml:lang="ar-001">اللون الداخلي</String>
         <String xml:lang="de-DE">Ausstattungsfarbe</String>
-        <String xml:lang="es-ES">Color de los acabados</String>
         <String xml:lang="pt-BR">Cor dos acabamentos</String>
         <String xml:lang="th-TH">สีล้อ</String>
         <String xml:lang="vi-VN">Thứ tự màu</String>
@@ -1580,6 +1580,7 @@
         <String xml:lang="tr-TR">Döşeme Rengi</String>
         <String xml:lang="hi-Latn">Trim Color</String>
         <String xml:lang="lv-LV">Interjera krāsa</String>
+        <String xml:lang="es-ES">Color de acabados</String>
         <String xml:lang="no-NO">Trim farge</String>
         <String xml:lang="sv-SE">Trim Färg</String>
     </Entry>
@@ -1590,7 +1591,6 @@
         <String xml:lang="nl-NL">Dashboard kleur</String>
         <String xml:lang="ar-001">لون الداخلية</String>
         <String xml:lang="de-DE">Farbe des Armaturenbretts</String>
-        <String xml:lang="es-ES">Color del salpicadero</String>
         <String xml:lang="pt-BR">Cor do painel</String>
         <String xml:lang="th-TH">สีภายใน</String>
         <String xml:lang="vi-VN">Màu biển số</String>
@@ -1603,6 +1603,7 @@
         <String xml:lang="lv-LV">Informācijas paneļa krāsa</String>
         <String xml:lang="sv-SE">Färg på instrumentbrädan</String>
         <String xml:lang="no-NO">Dashboard farge</String>
+        <String xml:lang="es-ES">Color del tablero</String>
     </Entry>
 
     <Entry Id="menu_mechanic_liveries_subtitle">
@@ -1611,7 +1612,6 @@
         <String xml:lang="nl-NL">Livery kleur</String>
         <String xml:lang="ar-001">سكنات للمركبة</String>
         <String xml:lang="de-DE">Folierungsfarbe</String>
-        <String xml:lang="es-ES">Color de la Pegatina</String>
         <String xml:lang="pt-BR">Cor do adesivo</String>
         <String xml:lang="th-TH">ลวดลาย</String>
         <String xml:lang="vi-VN">Màu Liveries</String>
@@ -1624,6 +1624,7 @@
         <String xml:lang="lv-LV">Liveries krāsa</String>
         <String xml:lang="sv-SE">Liveries Färg</String>
         <String xml:lang="no-NO">Liveries Farge</String>
+        <String xml:lang="es-ES">Pegatinas</String>
     </Entry>
 
     <Entry Id="menu_hospital_title">
@@ -1674,7 +1675,6 @@
         <String xml:lang="nl-NL">Arrestatie Menu</String>
         <String xml:lang="ar-001">قائمة الاعتقال</String>
         <String xml:lang="de-DE">Gefangenenmenü</String>
-        <String xml:lang="es-ES">Menú de arrestos</String>
         <String xml:lang="pt-BR">Menu de detenções</String>
         <String xml:lang="th-TH">เมนูจับกลุม</String>
         <String xml:lang="vi-VN">Menu bắt giữ</String>
@@ -1684,6 +1684,7 @@
         <String xml:lang="tr-TR">Tutuklama Menüsü</String>
         <String xml:lang="hi-Latn">Arrest Menu</String>
         <String xml:lang="lv-LV">Arestēšanas Izvēlne</String>
+        <String xml:lang="es-ES">Menú de arresto</String>
         <String xml:lang="sv-SE">Arresteringsmeny</String>
         <String xml:lang="no-NO">Arrestmeny</String>
         <String xml:lang="fr-FR">Menu d'Arrestation</String>
@@ -1716,7 +1717,6 @@
         <String xml:lang="nl-NL">Zoekresultaten</String>
         <String xml:lang="ar-001">نتائج البحث</String>
         <String xml:lang="de-DE">Durchsuchungsergebnisse</String>
-        <String xml:lang="es-ES">Resultados de la búsqueda</String>
         <String xml:lang="pt-BR">Resultados da pesquisa</String>
         <String xml:lang="th-TH">ผลลับการค้นหา</String>
         <String xml:lang="vi-VN">Kết quả kiểm tra</String>
@@ -1727,6 +1727,7 @@
         <String xml:lang="tr-TR">Arama Sonuçları</String>
         <String xml:lang="lv-LV">Meklēšanas rezultāti</String>
         <String xml:lang="hi-Latn">Search Ke Results</String>
+        <String xml:lang="es-ES">Resultados de búsqueda</String>
         <String xml:lang="sv-SE">Sökresultat</String>
         <String xml:lang="no-NO">Søkeresultater</String>
     </Entry>
@@ -1758,12 +1759,12 @@
         <String xml:lang="nl-NL">Politiebureau</String>
         <String xml:lang="ar-001">قسم الشرطة</String>
         <String xml:lang="de-DE">Polizeistation</String>
-        <String xml:lang="es-ES">Comisaría de policía</String>
         <String xml:lang="pt-BR">Delegacia de polícia</String>
         <String xml:lang="th-TH">สถานีตำรวจ</String>
         <String xml:lang="vi-VN">Trụ sở cảnh sát</String>
         <String xml:lang="id-ID">Kantor kepolisian</String>
         <String xml:lang="zh-Hant">警察局</String>
+        <String xml:lang="es-ES">Comisaría</String>
         <String xml:lang="pl-PL">Komisariat Policji</String>
         <String xml:lang="hi-Latn">Police Station</String>
         <String xml:lang="lv-LV">Policijas Iecirknis</String>
@@ -1779,7 +1780,6 @@
         <String xml:lang="nl-NL">Gesignaleerde verdachten</String>
         <String xml:lang="ar-001">اعتقال المتهمين</String>
         <String xml:lang="de-DE">Haftbefehle</String>
-        <String xml:lang="es-ES">Órdenes de detención</String>
         <String xml:lang="pt-BR">Mandados de prisão</String>
         <String xml:lang="th-TH">หมายจับ</String>
         <String xml:lang="vi-VN">Lệnh bắt giữ</String>
@@ -1790,6 +1790,7 @@
         <String xml:lang="hi-Latn">Arrest Warrants</String>
         <String xml:lang="lv-LV">Arestēšanas Orderi</String>
         <String xml:lang="tr-TR">Tutuklama Kararı Olanlar</String>
+        <String xml:lang="es-ES">Órdenes de arresto</String>
         <String xml:lang="sv-SE">Arresteringsorder</String>
         <String xml:lang="no-NO">Arrestordrer</String>
     </Entry>
@@ -1932,9 +1933,9 @@
         <String xml:lang="fr-FR">Vous pouvez mettre des objets ici si vous voulez les ~g~vendre ~s~plus tard.</String>
         <String xml:lang="sv-SE">Lägg föremål här om du vill ~g~sälja dem ~s~senare.</String>
         <String xml:lang="no-NO">Legg varer her hvis du vil ~g~selge dem ~s~senere.</String>
-        <String xml:lang="es-ES">Ponga los artículos aquí si desea ~g~venderlos ~s~más tarde.</String>
         <String xml:lang="pt-BR">Coloque os itens aqui se você quiser ~g~vendê-los ~s~mais tarde.</String>
         <String xml:lang="zh-Hant">如果你想要~r~販售~s~,請將商品放置於此</String>
+        <String xml:lang="es-ES">Guarda los artículos aquí para ~g~venderlos ~s~más tarde si así lo deseas.</String>
         <String xml:lang="pl-PL">Wpisz tutaj przedmioty, które chcesz ~g~sprzedać ~s~później.</String>
         <String xml:lang="vi-VN">Đặt các vật phẩm vào đây nếu bạn muốn ~g~bán chúng ~s~sau.</String>
     </Entry>
@@ -1972,9 +1973,9 @@
         <String xml:lang="sv-SE">Lägg objekt här om du vill ~r~använda dem~s~.</String>
         <String xml:lang="no-NO">Legg inn elementer her hvis du vil ~r~bruke dem~s~.</String>
         <String xml:lang="fr-FR">Vous pouvez mettre des objets ici si vous voulez les ~r~utiliser~s~.</String>
-        <String xml:lang="es-ES">Coloque aquí los elementos que ~r~desee utilizar~s~.</String>
         <String xml:lang="pt-BR">Coloque aqui os elementos que você ~r~deseja usar~s~.</String>
         <String xml:lang="zh-Hant">如果你想要~r~使用~s~他,請將物品放置於此.</String>
+        <String xml:lang="es-ES">Pon aquí los artículos que ~r~quieras utilizar~s~.</String>
         <String xml:lang="pl-PL">Połóż przedmioty tutaj jeśli chcesz ~r~ich użyć~s~.</String>
         <String xml:lang="vi-VN">Đặt các vật phẩm vào đây nếu bạn muốn ~r~sử dụng chúng~s~.</String>
     </Entry>
@@ -2032,9 +2033,9 @@
         <String xml:lang="sv-SE">Erbjuda</String>
         <String xml:lang="no-NO">Tilby</String>
         <String xml:lang="fr-FR">Offrir</String>
-        <String xml:lang="es-ES">Oferta</String>
         <String xml:lang="pt-BR">Oferta</String>
         <String xml:lang="zh-Hant">提議</String>
+        <String xml:lang="es-ES">Ofrecer</String>
         <String xml:lang="pl-PL">Oferuj</String>
         <String xml:lang="vi-VN">Đề nghị</String>
     </Entry>
@@ -2067,9 +2068,9 @@
         <String xml:lang="tr-TR">{0} kişisine ~y~hizmetler~s~ini sundun.</String>
         <String xml:lang="sv-SE">Du har erbjudit dina ~y~tjänster ~s~till {0}~s.</String>
         <String xml:lang="no-NO">Du har tilbudt ~y~tjenestene dine til {0}~s~.</String>
-        <String xml:lang="es-ES">Usted ha ofrecido sus ~y~servicios ~s~a {0}~s~.</String>
         <String xml:lang="pt-BR">Você ofereceu seus ~y~serviços ~s~a {0}~s~.</String>
         <String xml:lang="zh-Hant">擬將你得~y~服務~s~提供給{0}~s~.</String>
+        <String xml:lang="es-ES">Ofreciste tus ~y~servicios ~s~a {0}~s~.</String>
         <String xml:lang="pl-PL">Zaoferowałeś swoje ~y~usługi ~s~dla {0}~s~.</String>
         <String xml:lang="vi-VN">Bạn đã đề nghị ~y~dịch vụ ~s~của mình cho {0}~s~.</String>
     </Entry>
@@ -2143,10 +2144,10 @@
         <String xml:lang="lv-LV">TĪRS</String>
         <String xml:lang="sv-SE">REN</String>
         <String xml:lang="no-NO">RENGJØRE</String>
-        <String xml:lang="es-ES">LIMPIAR</String>
         <String xml:lang="pt-BR">LIMPAR</String>
         <String xml:lang="tr-TR">TEMİZ</String>
         <String xml:lang="zh-Hant">乾淨</String>
+        <String xml:lang="es-ES">LIMPIO</String>
         <String xml:lang="pl-PL">UMYJ</String>
         <String xml:lang="vi-VN">LÀM SẠCH</String>
     </Entry>
@@ -2243,10 +2244,10 @@
         <String xml:lang="fr-FR">~y~Vous n'êtes pas propriétaire de ce véhicule.</String>
         <String xml:lang="sv-SE">~y~Du äger inte det här fordonet.</String>
         <String xml:lang="no-NO">~y~Du eier ikke dette kjøretøyet.</String>
-        <String xml:lang="es-ES">~y~Usted no es dueño de este vehículo.</String>
         <String xml:lang="pt-BR">~y~Você não possui este veículo.</String>
         <String xml:lang="tr-TR">~y~Bu arabaya sahip değilsin.</String>
         <String xml:lang="zh-Hant">~y~你並不擁有這輛車.</String>
+        <String xml:lang="es-ES">~y~No eres el propietario de este vehículo.</String>
         <String xml:lang="pl-PL">~y~Nie jesteś właścicielem tego pojazdu.</String>
         <String xml:lang="vi-VN">~y~Bạn không sở hữu phương tiện này.</String>
     </Entry>
@@ -2263,13 +2264,13 @@
         <String xml:lang="sv-SE">~y~Du måste vara i en modbutik.</String>
         <String xml:lang="no-NO">~y~Du må være i en mod-butikk.</String>
         <String xml:lang="fr-FR">~y~Vous devez être dans un atelier de modifications.</String>
-        <String xml:lang="es-ES">~y~Debes estar en una tienda de modificaciones.</String>
         <String xml:lang="pt-BR">~y~Você deve estar em uma loja de modificações.</String>
         <String xml:lang="tr-TR">~y~Bir modifikasyon dükkanında olmalısın.</String>
         <String xml:lang="zh-Hant">~y~你必須在改裝廠內.</String>
         <String xml:lang="pl-PL">~y~Musisz być w sklepie z modyfikacjami.</String>
         <String xml:lang="vi-VN">~y~Bạn phải ở một cửa hàng độ xe.</String>
         <String xml:lang="et-EE">~y~Sa pead olema tuunimistöökojas.</String>
+        <String xml:lang="es-ES">~y~Debes estar en un taller mecánico para hacer esto.</String>
     </Entry>
 
     <Entry Id="stp_service_error_wanted">
@@ -2284,10 +2285,10 @@
         <String xml:lang="sv-SE">~y~Du kan inte köpa denna artikel när du har en arresteringsorder.</String>
         <String xml:lang="no-NO">~y~Du kan ikke kjøpe denne varen når du har en arrestordre.</String>
         <String xml:lang="fr-FR">~y~Vous ne pouvez pas acheter ce service si vous êtes sous mandat d'arrêt.</String>
-        <String xml:lang="es-ES">~y~No puedes comprar este artículo si tienes una orden de arresto.</String>
         <String xml:lang="pt-BR">~y~Você não pode comprar este item se tiver um mandado de prisão.</String>
         <String xml:lang="tr-TR">~y~Tutuklama emriniz varken bu ürünü satın alamazsınız.</String>
         <String xml:lang="zh-Hant">~y~你無法再被通緝時購買此物品.</String>
+        <String xml:lang="es-ES">~y~No puedes comprar este artículo cuando te está buscando la policía.</String>
         <String xml:lang="pl-PL">~y~Nie możesz kupić tego przedmiotu, jeśli masz nakaz aresztowania.</String>
         <String xml:lang="vi-VN">~y~Bạn không thể mua mặt hàng này khi đang có lệnh bắt giữ.</String>
     </Entry>
@@ -2304,10 +2305,10 @@
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas acheter ce service lorsque le véhicule est en mouvement.</String>
         <String xml:lang="sv-SE">~r~Du kan inte köpa den här tjänsten när fordonet är i rörelse.</String>
         <String xml:lang="no-NO">~r~Du kan ikke kjøpe denne tjenesten når kjøretøyet er i bevegelse.</String>
-        <String xml:lang="es-ES">~r~No se puede adquirir este servicio cuando el vehículo está en movimiento.</String>
         <String xml:lang="pt-BR">~r~Este serviço não pode ser adquirido com o veículo em movimento.</String>
         <String xml:lang="tr-TR">~r~Araç hareket halindeyken bu hizmeti satın alamazsınız.</String>
         <String xml:lang="zh-Hant">~y~你無法在被通緝時購買該服務.</String>
+        <String xml:lang="es-ES">~r~No puedes recibir este servicio si el vehículo está en movimiento.</String>
         <String xml:lang="pl-PL">~r~Nie możesz kupić tej usługi, gdy pojazd jest w ruchu.</String>
         <String xml:lang="vi-VN">~r~Bạn không thể mua dịch vụ này khi xe đang di chuyển.</String>
     </Entry>
@@ -2324,10 +2325,10 @@
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas acheter ce service lorsque le vendeur est à l'intérieur d'un véhicule.</String>
         <String xml:lang="sv-SE">~r~Du kan inte köpa den här tjänsten när säljaren är inne i ett fordon.</String>
         <String xml:lang="no-NO">~r~Du kan ikke kjøpe denne tjenesten når selgeren er inne i et kjøretøy.</String>
-        <String xml:lang="es-ES">~r~No puedes comprar este servicio cuando el vendedor se encuentra dentro de un vehículo.</String>
         <String xml:lang="pt-BR">~r~Você não pode adquirir este serviço quando o vendedor estiver dentro de um veículo.</String>
         <String xml:lang="tr-TR">~r~Satıcı bir aracın içindeyken bu hizmeti satın alamazsınız.</String>
         <String xml:lang="zh-Hant">~r~你不能在賣家在車內時購買他的服務.</String>
+        <String xml:lang="es-ES">~r~No puedes adquirir este servicio si el vendedor está dentro del vehículo.</String>
         <String xml:lang="pl-PL">~r~Nie możesz kupić tej usługi, gdy sprzedawca znajduje się w pojeździe.</String>
         <String xml:lang="vi-VN">~r~Bạn không thể mua dịch vụ này khi người bán đang ở trong xe.</String>
     </Entry>
@@ -2449,9 +2450,9 @@
         <String xml:lang="sv-SE">{0} Färga om</String>
         <String xml:lang="no-NO">{0} Spray på nytt</String>
         <String xml:lang="tr-TR">{0} Renk değişimi</String>
-        <String xml:lang="es-ES">{0} Repintado</String>
         <String xml:lang="pt-BR">{0} Repintura</String>
         <String xml:lang="zh-Hant">{0} 噴漆</String>
+        <String xml:lang="es-ES">Pintura: {0}</String>
         <String xml:lang="pl-PL">{0} Przemaluj</String>
         <String xml:lang="vi-VN">Sơn lại {0}</String>
     </Entry>
@@ -2603,10 +2604,10 @@
         <String xml:lang="sv-SE">~r~Det finns inga ändringar tillgängliga för denna fordonsmodell.</String>
         <String xml:lang="no-NO">~r~Det er ingen mods tilgjengelig for denne kjøretøymodellen.</String>
         <String xml:lang="fr-FR">~r~Il n'y a aucune modification disponible pour ce modèle de véhicule.</String>
-        <String xml:lang="es-ES">~r~No hay modificaciones disponibles para este modelo de vehículo..</String>
         <String xml:lang="pt-BR">~r~Não há modificações disponíveis para este modelo de veículo.</String>
         <String xml:lang="tr-TR">~r~Bu araç modeli için herhangi bir modifikasyon mevcut değil.</String>
         <String xml:lang="zh-Hant">~r~此載具沒有可用的改裝.</String>
+        <String xml:lang="es-ES">~r~No hay modificaciones disponibles para este modelo de vehículo.</String>
         <String xml:lang="pl-PL">~r~Dla tego modelu pojazdu nie ma żadnych modyfikacji.</String>
         <String xml:lang="vi-VN">~r~Không có đồ độ nào khả dụng cho mẫu xe này.</String>
     </Entry>
@@ -2637,10 +2638,10 @@
         <String xml:lang="lv-LV">Šim transportlīdzekļa modeļam nav ~r~liveries~s~.</String>
         <String xml:lang="no-NO">Det er ingen ~r~leveranser ~s~for denne kjøretøymodellen.</String>
         <String xml:lang="sv-SE">Det finns inga ~r~färger ~s~för denna fordonsmodellen.</String>
-        <String xml:lang="es-ES">No existen ~r~pegatinas ~s~para este modelo de vehículo.</String>
         <String xml:lang="pt-BR">Não há ~r~adesivos ~s~para este modelo de veículo.</String>
         <String xml:lang="tr-TR">Bu araç modeli için hiçbir ~r~kaplama ~s~bulunmamakta.</String>
         <String xml:lang="zh-Hant">此車輛沒有~r~塗裝~s~可供使用.</String>
+        <String xml:lang="es-ES">No hay ~r~pegatinas ~s~para este modelo de vehículo.</String>
         <String xml:lang="hi-Latn">Iss vehicle model ke liye koi ~r~liveries ~s~nahi hain.</String>
         <String xml:lang="pl-PL">Nie ma żadnych ~r~malowań~s~ dla tego modelu pojazdu.</String>
         <String xml:lang="vi-VN">Không có ~r~mẫu tem~s~ nào cho mẫu xe này.</String>
@@ -2678,10 +2679,10 @@
         <String xml:lang="fr-FR">~r~Le véhicule est trop éloigné de vous.</String>
         <String xml:lang="no-NO">~r~Kjøretøyet er for langt unna deg.</String>
         <String xml:lang="sv-SE">~r~Fordonet är för långt ifrån dig.</String>
-        <String xml:lang="es-ES">~r~El vehículo está demasiado lejos de usted.</String>
         <String xml:lang="pt-BR">~r~O veículo está muito longe de você.</String>
         <String xml:lang="tr-TR">~r~Araç sizden çok uzakta.</String>
         <String xml:lang="zh-Hant">~r~載具離你太遠.</String>
+        <String xml:lang="es-ES">~r~El vehículo está demasiado lejos.</String>
         <String xml:lang="pl-PL">~r~Pojazd jest zbyt daleko od Ciebie.</String>
         <String xml:lang="vi-VN">~r~Xe quá xa bạn.</String>
     </Entry>
@@ -2698,9 +2699,9 @@
         <String xml:lang="fr-FR">~r~Vous êtes trop loin du vendeur!</String>
         <String xml:lang="no-NO">~r~Du er for langt fra selgeren!</String>
         <String xml:lang="sv-SE">~r~Du är för långt från säljaren!</String>
-        <String xml:lang="es-ES">~r~¡Estás demasiado lejos del vendedor!</String>
         <String xml:lang="pt-BR">~r~Você está muito longe do vendedor!</String>
         <String xml:lang="tr-TR">~r~Satıcıdan çok uzaksın!</String>
+        <String xml:lang="es-ES">~r~¡Estás muy lejos del vendedor!</String>
         <String xml:lang="pl-PL">~r~Jesteś zbyt daleko od sprzedającego.</String>
         <String xml:lang="vi-VN">~r~Bạn quá xa người bán!</String>
         <String xml:lang="zh-Hant">~r~你離賣家太遠了!</String>
@@ -2708,7 +2709,6 @@
 
     <Entry Id="cat_attribute_new">
         <String xml:lang="en-US">NEW!</String>
-        <String xml:lang="es-ES">NUEVO!</String>
         <String xml:lang="pt-BR">NOVIDADE!</String>
         <String xml:lang="zh-Hant">新商品!</String>
         <String xml:lang="it-IT">NOVITÀ!</String>
@@ -2728,6 +2728,7 @@
         <String xml:lang="no-NO">NY!</String>
         <String xml:lang="ga-IE">NUA!</String>
         <String xml:lang="et-EE">UUS!</String>
+        <String xml:lang="es-ES">¡NUEVO!</String>
     </Entry>
 
     <Entry Id="stp_service_error_not_certified_named">
@@ -2746,6 +2747,7 @@
         <String xml:lang="pl-PL">~r~Sprzedawca nie posiada wymaganego certyfikatu, aby świadczyć ~s~{0} ~r~usługi~s~!</String>
         <String xml:lang="vi-VN">~r~Người bán không có chứng nhận cần thiết để cung cấp dịch vụ ~s~{0}!</String>
         <String xml:lang="zh-Hant">~r~賣家沒有需要的物品來提供 ~s~{0} ~r~服務~s~!</String>
+        <String xml:lang="es-ES">~r~¡El vendedor no tiene la certificación requerida para proveer el servicio ~s~{0}~r~!~s~</String>
     </Entry>
 
     <Entry Id="stp_service_error_rented_vehicle">
@@ -2814,7 +2816,6 @@
         <String xml:lang="it-IT">Armeria</String>
         <String xml:lang="nl-NL">Wapenkamer</String>
         <String xml:lang="de-DE">Waffenkammer</String>
-        <String xml:lang="es-ES">Arsenal</String>
         <String xml:lang="pt-BR">Arsenal</String>
         <String xml:lang="ar-001">مستودع الأسلحة</String>
         <String xml:lang="th-TH">คลังแสง</String>
@@ -2826,6 +2827,7 @@
         <String xml:lang="tr-TR">Cephanelik</String>
         <String xml:lang="hi-Latn">Armory</String>
         <String xml:lang="lv-LV">Ieroču noliktava</String>
+        <String xml:lang="es-ES">Tu Arsenal</String>
         <String xml:lang="no-NO">Ammunisjon</String>
         <String xml:lang="sv-SE">Vapenförråd</String>
     </Entry>
@@ -2835,7 +2837,6 @@
         <String xml:lang="it-IT">Gestisci le tue armi</String>
         <String xml:lang="nl-NL">Beheer je wapens</String>
         <String xml:lang="de-DE">Verwalte deine Waffen</String>
-        <String xml:lang="es-ES">Administra tus armas</String>
         <String xml:lang="pt-BR">gerencie suas armas</String>
         <String xml:lang="ar-001">إدارة الأسلحة الخاصة بك</String>
         <String xml:lang="th-TH">จัดการอาวุธของคุณ</String>
@@ -2846,6 +2847,7 @@
         <String xml:lang="tr-TR">Silahlarınızı yönetin</String>
         <String xml:lang="hi-Latn">Apne weapons manage kare.</String>
         <String xml:lang="lv-LV">Pārvaldiet savus ieročus</String>
+        <String xml:lang="es-ES">Gestiona tus armas</String>
         <String xml:lang="no-NO">Administrer våpnene dine</String>
         <String xml:lang="fr-FR">Gérer vos armes</String>
         <String xml:lang="sv-SE">Hantera dina vapen</String>
@@ -2856,7 +2858,6 @@
         <String xml:lang="it-IT">Munizioni</String>
         <String xml:lang="nl-NL">Munitie</String>
         <String xml:lang="de-DE">Munition</String>
-        <String xml:lang="es-ES">Munición</String>
         <String xml:lang="pt-BR">Munição</String>
         <String xml:lang="ar-001">الذخيرة</String>
         <String xml:lang="th-TH">กระสุน</String>
@@ -2868,6 +2869,7 @@
         <String xml:lang="tr-TR">Mermi</String>
         <String xml:lang="hi-Latn">Ammo</String>
         <String xml:lang="lv-LV">Munīcija</String>
+        <String xml:lang="es-ES">Tus municiones</String>
         <String xml:lang="no-NO">Ammunisjon</String>
         <String xml:lang="sv-SE">Ammunition</String>
     </Entry>
@@ -2927,8 +2929,8 @@
         <String xml:lang="no-NO">Se nylige samtaler for EMS.</String>
         <String xml:lang="tr-TR">Son acil durum çağrılarını görüntüle.</String>
         <String xml:lang="sv-SE">Visa de senaste samtalen för akutsjukvård</String>
-        <String xml:lang="es-ES">Ver llamadas recientes de Ambulancia.</String>
         <String xml:lang="pt-BR">Ver chamadas recentes de ambulância.</String>
+        <String xml:lang="es-ES">Ver llamadas recientes para solicitar Paramédicos.</String>
         <String xml:lang="pl-PL">Zobacz ostatnie wezwania pogotowia ratunkowego.</String>
         <String xml:lang="vi-VN">Xem các cuộc gọi gần đây cho Cấp cứu</String>
         <String xml:lang="zh-Hant">查看近期打給醫護的電話.</String>
@@ -2980,7 +2982,6 @@
         <String xml:lang="it-IT">Scorta</String>
         <String xml:lang="nl-NL">Voorraad</String>
         <String xml:lang="de-DE">Bestand</String>
-        <String xml:lang="es-ES">Stock</String>
         <String xml:lang="pt-BR">Estoque</String>
         <String xml:lang="ar-001">مخزون</String>
         <String xml:lang="th-TH">คลัง</String>
@@ -2992,6 +2993,7 @@
         <String xml:lang="tr-TR">Stok</String>
         <String xml:lang="hi-Latn">Stock</String>
         <String xml:lang="lv-LV">Materiāli</String>
+        <String xml:lang="es-ES">Stock de Ventas</String>
         <String xml:lang="no-NO">Lager</String>
         <String xml:lang="sv-SE">Förråd</String>
     </Entry>
@@ -3001,7 +3003,6 @@
         <String xml:lang="it-IT">Inventario Vendite</String>
         <String xml:lang="nl-NL">Verkoopvoorraad</String>
         <String xml:lang="de-DE">Verkaufsinventar</String>
-        <String xml:lang="es-ES">Inventario de ventas</String>
         <String xml:lang="pt-BR">Inventário de vendas</String>
         <String xml:lang="ar-001">مخزون المبيعات</String>
         <String xml:lang="th-TH">ขายสินค้า</String>
@@ -3013,6 +3014,7 @@
         <String xml:lang="tr-TR">Satış Envanteri</String>
         <String xml:lang="hi-Latn">Sales Inventory</String>
         <String xml:lang="lv-LV">Pārdošanas inventārs</String>
+        <String xml:lang="es-ES">Menú de Ventas</String>
         <String xml:lang="no-NO">Salgslager</String>
         <String xml:lang="sv-SE">Försäljningslager</String>
     </Entry>
@@ -3072,8 +3074,8 @@
         <String xml:lang="fr-FR">Utiliser votre radio.</String>
         <String xml:lang="sv-SE">Använd din radio.</String>
         <String xml:lang="no-NO">Bruk radioen din.</String>
-        <String xml:lang="es-ES">Utilice su radio.</String>
         <String xml:lang="pt-BR">Use seu rádio.</String>
+        <String xml:lang="es-ES">Usa tu radio.</String>
         <String xml:lang="pl-PL">Użyj radia</String>
         <String xml:lang="vi-VN">Sử dụng bộ đàm của bạn.</String>
         <String xml:lang="zh-Hant">使用你的無線電.</String>
@@ -3092,8 +3094,8 @@
         <String xml:lang="lv-LV">Strāva</String>
         <String xml:lang="no-NO">slå på</String>
         <String xml:lang="sv-SE">Kraft</String>
-        <String xml:lang="es-ES">Energía</String>
         <String xml:lang="pt-BR">Energia</String>
+        <String xml:lang="es-ES">Estado</String>
         <String xml:lang="pl-PL">Zasilanie</String>
         <String xml:lang="vi-VN">Năng lượng</String>
         <String xml:lang="zh-Hant">電源</String>
@@ -3172,8 +3174,8 @@
         <String xml:lang="fr-FR">Envoi d'un message textuel depuis votre radio actuelle.</String>
         <String xml:lang="no-NO">Send en tekstmelding over din nåværende radio.</String>
         <String xml:lang="sv-SE">Skicka ett textmeddelande via din nuvarande radio.</String>
-        <String xml:lang="es-ES">Envía un mensaje de texto a través de tu radio actual.</String>
         <String xml:lang="pt-BR">Envie uma mensagem de texto através do seu rádio atual.</String>
+        <String xml:lang="es-ES">Envía un mensaje de texto por medio de tu canal de radio.</String>
         <String xml:lang="pl-PL">Wyślij wiadomość tekstową przez swoje obecne radio.</String>
         <String xml:lang="vi-VN">Gửi tin nhắn văn bản qua bộ đàm hiện tại của bạn.</String>
         <String xml:lang="zh-Hant">在現在的無線電頻道內傳訊息.</String>
@@ -3232,8 +3234,8 @@
         <String xml:lang="no-NO">Det er ingen tilgjengelige radiokanaler for deg.</String>
         <String xml:lang="sv-SE">Det finns inga tillgängliga radiokanaler för dig.</String>
         <String xml:lang="fr-FR">Il n'y a aucun canal radio disponible pour vous.</String>
-        <String xml:lang="es-ES">No hay canales de radio disponibles para usted.</String>
         <String xml:lang="pt-BR">Não há canais de rádio disponíveis para você.</String>
+        <String xml:lang="es-ES">No hay canales de radio disponibles.</String>
         <String xml:lang="pl-PL">Nie ma dostępnych dla Ciebie kanałów radiowych.</String>
         <String xml:lang="vi-VN">Không có kênh radio nào khả dụng dành cho bạn.</String>
         <String xml:lang="zh-Hant">沒有可用的無線電.</String>
@@ -3255,6 +3257,7 @@
         <String xml:lang="pl-PL">Teraz możesz wysyłać wiadomości tekstowe za pomocą kanałów radiowych: przed wiadomością wpisz znak ~b~wykrzyknika ~s~(~b~!~s~), aby skorzystać z tej funkcji!</String>
         <String xml:lang="vi-VN">Bạn giờ có thể gửi tin nhắn trong các kênh radio: đặt trước tin nhắn của bạn một ~b~dấu chấm than ~s~(~b~!~s~) để sử dụng tính năng này!</String>
         <String xml:lang="zh-Hant">你現在可以無線電頻道內打字, 以 ~b~驚嘆號~s~(~b~!~s~) 作前綴 以使用該功能!</String>
+        <String xml:lang="es-ES">Ahora puedes enviar mensajes de texto en los canales de radio: ¡Escribe un ~b~signo de admiración ~s~(~b~!~s~) al inicio de tu mensaje para utilizar esta función!</String>
     </Entry>
 
     <Entry Id="radio_on">
@@ -3270,8 +3273,8 @@
         <String xml:lang="lv-LV">~g~Ieslēgts</String>
         <String xml:lang="sv-SE">~g~PÅ</String>
         <String xml:lang="no-NO">~g~PÅ</String>
-        <String xml:lang="es-ES">~g~Encendido</String>
         <String xml:lang="pt-BR">~g~Ligado</String>
+        <String xml:lang="es-ES">~g~ENCENDIDO</String>
         <String xml:lang="pl-PL">~g~Włącz</String>
         <String xml:lang="vi-VN">~g~BẬT</String>
         <String xml:lang="zh-Hant">~g~開啟</String>
@@ -3290,8 +3293,8 @@
         <String xml:lang="lv-LV">~r~Izslēgts</String>
         <String xml:lang="sv-SE">~r~AV</String>
         <String xml:lang="no-NO">~r~AV</String>
-        <String xml:lang="es-ES">~r~Apagado</String>
         <String xml:lang="pt-BR">~r~Desligado</String>
+        <String xml:lang="es-ES">~r~APAGADO</String>
         <String xml:lang="pl-PL">~r~Wyłącz</String>
         <String xml:lang="vi-VN">~r~TẮT</String>
         <String xml:lang="zh-Hant">~r~關閉</String>
@@ -3383,12 +3386,12 @@
         <String xml:lang="en-US">Rental</String>
         <String xml:lang="it-IT">Noleggio</String>
         <String xml:lang="nl-NL">Verhuur</String>
-        <String xml:lang="es-ES">Alquiler</String>
         <String xml:lang="pt-BR">Aluguel</String>
         <String xml:lang="ar-001">تأجير</String>
         <String xml:lang="th-TH">เช่า</String>
         <String xml:lang="vi-VN">Thuê</String>
         <String xml:lang="id-ID">Sewa</String>
+        <String xml:lang="es-ES">Rentas</String>
         <String xml:lang="zh-Hant">租賃</String>
         <String xml:lang="pl-PL">Wypożyczalnia</String>
         <String xml:lang="fr-FR">Location</String>
@@ -3405,7 +3408,6 @@
         <String xml:lang="pl-PL">Garaże</String>
         <String xml:lang="nl-NL">Garages</String>
         <String xml:lang="it-IT">Garage</String>
-        <String xml:lang="es-ES">Garages</String>
         <String xml:lang="pt-BR">Garagem</String>
         <String xml:lang="ar-001">الجراجات</String>
         <String xml:lang="id-ID">Garasi</String>
@@ -3419,6 +3421,7 @@
         <String xml:lang="tr-TR">Garajlar</String>
         <String xml:lang="vi-VN">Nhà để xe</String>
         <String xml:lang="zh-Hant">車庫</String>
+        <String xml:lang="es-ES">Garajes</String>
     </Entry>
 
     <Entry Id="menu_dealership_garages_subtitle">
@@ -3426,7 +3429,6 @@
         <String xml:lang="pl-PL">Wybierz garaż</String>
         <String xml:lang="nl-NL">Selecteer een garage</String>
         <String xml:lang="it-IT">Seleziona un garage</String>
-        <String xml:lang="es-ES">Seleccione un garaje</String>
         <String xml:lang="pt-BR">Selecione uma garagem</String>
         <String xml:lang="ar-001">اختر جراج</String>
         <String xml:lang="id-ID">Pilih garasi</String>
@@ -3435,6 +3437,7 @@
         <String xml:lang="hi-Latn">Select kare ek garage</String>
         <String xml:lang="de-DE">Wähle eine Garage</String>
         <String xml:lang="lv-LV">Izvēlieties garāžu</String>
+        <String xml:lang="es-ES">Selecciona un garaje</String>
         <String xml:lang="no-NO">Velg en garasje</String>
         <String xml:lang="sv-SE">Välj ett garage</String>
         <String xml:lang="tr-TR">Bir garaj seç</String>
@@ -3515,8 +3518,8 @@
         <String xml:lang="sv-SE">Ny kontrakt</String>
         <String xml:lang="no-NO">Ny kontrakt</String>
         <String xml:lang="tr-TR">Yeni Sözleşme</String>
-        <String xml:lang="es-ES">Nuevo contrato</String>
         <String xml:lang="pt-BR">Novo contrato</String>
+        <String xml:lang="es-ES">Nuevo Contrato</String>
         <String xml:lang="pl-PL">Nowe zlecenie</String>
         <String xml:lang="vi-VN">Hợp đồng mới</String>
         <String xml:lang="zh-Hant">新的合約</String>
@@ -3535,8 +3538,8 @@
         <String xml:lang="no-NO">Gebyr: {0}%</String>
         <String xml:lang="sv-SE">Avgift: {0}%</String>
         <String xml:lang="tr-TR">Hizmet Ücreti: {0}%</String>
-        <String xml:lang="es-ES">Tarifa: {0}%</String>
         <String xml:lang="pt-BR">Comissão: {0}%</String>
+        <String xml:lang="es-ES">Comisión: {0}%</String>
         <String xml:lang="pl-PL">Opłata: {0}%</String>
         <String xml:lang="vi-VN">Phí: {0}%</String>
         <String xml:lang="zh-Hant">手續費: {0}%</String>
@@ -3555,11 +3558,11 @@
         <String xml:lang="no-NO">Belønningsbeløpet ~r~overskrider ~s~maksimumsgrensen tillatt for en leiemorderkontrakt (~r~{0}~s~)</String>
         <String xml:lang="sv-SE">Belöningsbeloppet ~r~överstiger ~s~den högsta tillåtna gränsen för ett hitmankontrakt (~r~{0}~s~)</String>
         <String xml:lang="tr-TR">Ödül miktarı bir kiralık katil sözleşmesi için izin verilen maksimum limitin ~r~üzerinde~s~ (~r~{0}~s~)</String>
-        <String xml:lang="es-ES">El importe de la recompensa ~r~excede ~s~el límite máximo permitido para un contrato de sicario (~r~{0}~s~)</String>
         <String xml:lang="pt-BR">O valor da recompensa ~r~excede ~s~o limite máximo permitido para um contrato de assassino (~r~{0}~s~)</String>
         <String xml:lang="pl-PL">Kwota nagrody ~r~przekracza ~s~maksymalny limit dozwolony dla kontraktu płatnego zabójcy (~r~{0}~s~)</String>
         <String xml:lang="vi-VN">Số tiền thưởng ~r~vượt quá ~s~giới hạn tối đa cho phép của hợp đồng sát thủ (~r~{0}~s~)</String>
         <String xml:lang="zh-Hant">懸賞的金額 ~r~太高了.~s~ (~r~{0}~s~)</String>
+        <String xml:lang="es-ES">La recompensa que ingresaste ~r~excede ~s~el límite permitido para iniciar un contrato de sicario (~r~{0}~s~)</String>
     </Entry>
 
     <Entry Id="menu_hitman_new_contract_reward_below_minimum">
@@ -3575,8 +3578,8 @@
         <String xml:lang="no-NO">Belønningsbeløpet ~r~er under ~s~minimumet som kreves for en leiemorderkontrakt (~r~{0}~s~)</String>
         <String xml:lang="sv-SE">Belöningsbeloppet ~r~är under ~s~minimikravet för ett hitmankontrakt (~r~{0}~s~)</String>
         <String xml:lang="tr-TR">Ödül miktarı bir kiralık katil sözleşmesi için gereken minimum tutarın ~r~altında~s~ (~r~{0}~s~) </String>
-        <String xml:lang="es-ES">El importe de la recompensa ~r~está por debajo ~s~del mínimo exigido para un contrato de sicario (~r~{0}~s~)</String>
         <String xml:lang="pt-BR">O valor da recompensa ~r~está abaixo do mínimo ~s~exigido para um assassino contratado (~r~{0}~s~)</String>
+        <String xml:lang="es-ES">La recompensa está ~r~menor ~s~del mínimo permitido para un contrato de sicario (~r~{0}~s~)</String>
         <String xml:lang="pl-PL">Kwota nagrody~r~ jest niższa niż ~s~minimum wymagane do zawarcia kontraktu dla zabójcy (~r~{0}~s~)</String>
         <String xml:lang="vi-VN">Số tiền thưởng ~r~thấp hơn ~s~mức tối thiểu yêu cầu cho hợp đồng sát thủ (~r~{0}~s~)</String>
         <String xml:lang="zh-Hant">懸賞的金額 ~r~太低~s~. (~r~{0}~s~)</String>
@@ -3595,8 +3598,8 @@
         <String xml:lang="sv-SE">Välj ditt mål</String>
         <String xml:lang="no-NO">Velg målet ditt</String>
         <String xml:lang="tr-TR">Hedefini seç</String>
-        <String xml:lang="es-ES">Seleccione su objetivo</String>
         <String xml:lang="pt-BR">Selecione seu alvo</String>
+        <String xml:lang="es-ES">Selecciona al objetivo</String>
         <String xml:lang="pl-PL">Wybierz swój cel</String>
         <String xml:lang="vi-VN">Chọn mục tiêu của bạn</String>
         <String xml:lang="zh-Hant">選擇目標</String>
@@ -3635,8 +3638,8 @@
         <String xml:lang="sv-SE">Skapa</String>
         <String xml:lang="no-NO">Skape</String>
         <String xml:lang="tr-TR">Oluştur</String>
-        <String xml:lang="es-ES">Crear</String>
         <String xml:lang="pt-BR">Criar</String>
+        <String xml:lang="es-ES">Inicio</String>
         <String xml:lang="pl-PL">Stwórz</String>
         <String xml:lang="vi-VN">Tạo</String>
         <String xml:lang="zh-Hant">創立</String>
@@ -3655,8 +3658,8 @@
         <String xml:lang="sv-SE">Du kan bara lägga detta träffkontrakt om du har en giltig anledning att ~r~döda~s~ {0}. Att skapa träffkontrakt på slumpmässiga spelare kommer att resultera i att ~r~du blir avstängd~s~ för RDM. Läs igenom reglerna på ~b~gtacnr.net/rules~s~.</String>
         <String xml:lang="tr-TR">Bu suikast sözleşmesini yalnızca {0}'ı ~r~öldürmek ~s~için geçerli bir sebebin varsa oluşturabilirsin. Rastgele oyunculara suikast sözleşmesi oluşturmak, RDM nedeniyle ~r~yasaklanmana ~s~yol açacaktır. Lütfen kuralları ~b~gtacnr.net/rules~s~ adresinden incele</String>
         <String xml:lang="fr-FR">Vous ne pouvez placer ce contrat que si vous avez une raison valable de ~r~tuer~s~ {0}. Créer des contrats sur des joueurs aléatoires pourra vous faire bannir pour RDM. Merci de consulter les règles sur ~b~gtacnr.net/rules~s~.</String>
-        <String xml:lang="es-ES">Puedes colocar este contrato de ataque sólo si tienes una razón válida para ~r~matar~s~ {0}. Crear contratos de asesinato a jugadores aleatorios resultará en ~r~que seas baneado~s~ por RDM. Por favor, revisa las reglas en ~b~gtacnr.net/rules~s~.</String>
         <String xml:lang="pt-BR">Você só pode fazer esse contrato de sucesso se tiver um motivo válido para ~r~matar~s~ {0}. Criar contratos de assassinato em jogadores aleatórios resultará em seu banimento por RDM. Consulte as regras em ~b~gtacnr.net/rules~s~.</String>
+        <String xml:lang="es-ES">Puedes iniciar un contrato de estos siempre y cuando tengas una razón válida para ~r~matar~s~ a {0}. Iniciar estos contratos contra jugadores aleatorios resultará en un ~r~baneo~s~ por RDM. Por favor, lee la normativa en ~b~gtacnr.net/rules~s~.</String>
         <String xml:lang="pl-PL">Możesz zlecić zabójstwo tylko wtedy, gdy masz ważny powód, aby ~r~zabić~s~ {0}. Tworzenie zleceń na losowych graczach spowoduje, że ~r~zostaniesz zbanowany~s~ za RDM. Zapoznaj się z zasadami na ~b~gtacnr.net/rules~s~.</String>
         <String xml:lang="vi-VN">Bạn chỉ có thể đặt hợp đồng ~r~giết~s~ {0} nếu bạn có lý do hợp lệ. Việc tạo hợp đồng sát thủ cho những người chơi ngẫu nhiên sẽ dẫn đến việc ~r~bị cấm~s~ vì RDM. Vui lòng xem lại các quy định tại ~b~gtacnr.net/rules~s~.</String>
         <String xml:lang="zh-Hant">在你對 {0} 設下懸賞前你需要有合理的 ~r~原因~s~. 對毫無關聯的玩家設下懸賞會導致你因為 ~r~RDM 被伺服器封禁~s~. 請在官網查看規則 ~b~gtacnr.net/rules~s~.</String>
@@ -3675,8 +3678,8 @@
         <String xml:lang="no-NO">Kontrakten er ~g~vellykket~s~ opprettet!</String>
         <String xml:lang="sv-SE">Kontraktet har ~g~framgångsrikt~s~ skapats!</String>
         <String xml:lang="tr-TR">Sözleşme ~g~başarıyla ~s~oluşturuldu!</String>
-        <String xml:lang="es-ES">¡El contrato ha sido creado con ~g~éxito~s~!</String>
         <String xml:lang="pt-BR">O contrato foi criado com ~g~sucesso~s~!</String>
+        <String xml:lang="es-ES">¡Contrato iniciado con ~g~éxito~s~!</String>
         <String xml:lang="pl-PL">Zlecenie zostało ~g~z powodzeniem~s~ utworzone!</String>
         <String xml:lang="vi-VN">Hợp đồng đã được ~g~tạo thành công~s~!</String>
         <String xml:lang="zh-Hant">懸賞以 ~g~成功的~s~ 設下!</String>
@@ -3715,8 +3718,8 @@
         <String xml:lang="sv-SE">~r~The reward amount is invalid.</String>
         <String xml:lang="no-NO">~r~Belønningsbeløpet er ugyldig.</String>
         <String xml:lang="tr-TR">~r~Ödül miktarı geçersiz.</String>
-        <String xml:lang="es-ES">~r~El importe de la recompensa no es válido.</String>
         <String xml:lang="pt-BR">~r~O valor do prêmio não é válido.</String>
+        <String xml:lang="es-ES">~r~Monto de recompensa inválido.</String>
         <String xml:lang="pl-PL">~r~Kwota nagrody jest nieprawidłowa.</String>
         <String xml:lang="vi-VN">~r~Số tiền thưởng không hợp lệ.</String>
         <String xml:lang="zh-Hant">~r~懸賞金額錯誤.</String>
@@ -3735,8 +3738,8 @@
         <String xml:lang="no-NO">~r~Target har nådd maksimalt antall aktive kontrakter.</String>
         <String xml:lang="tr-TR">~r~Hedef maksimum aktif sözleşme sayısına ulaştı.</String>
         <String xml:lang="sv-SE">~r~Målet har nått det maximala antalet aktiva kontrakt.</String>
-        <String xml:lang="es-ES">~r~El objetivo ha alcanzado el número máximo de contratos activos.</String>
         <String xml:lang="pt-BR">~r~O alvo atingiu o número máximo de contratos ativos.</String>
+        <String xml:lang="es-ES">~r~El objetivo tiene el número máximo de contratos activos contra él/ella.</String>
         <String xml:lang="pl-PL">~r~Cel osiągnął maksymalną liczbę aktywnych zleceń.</String>
         <String xml:lang="vi-VN">~r~Mục tiêu đã đạt số hợp đồng hoạt động tối đa.</String>
         <String xml:lang="zh-Hant">~r~目標已經達到最大限額的懸賞價格.</String>
@@ -3793,8 +3796,8 @@
         <String xml:lang="tr-TR">Silah tüccarına yapılan son çağrıları görüntüleyin.</String>
         <String xml:lang="fr-FR">Voir les appels récents pour un vendeur d'armes.</String>
         <String xml:lang="hi-Latn">Arms dealer ke recent calls dekhne ke liye.</String>
-        <String xml:lang="es-ES">Ver llamadas recientes para traficante de armas.</String>
         <String xml:lang="pt-BR">Veja as chamadas recentes para traficante de armas.</String>
+        <String xml:lang="es-ES">Consulta las llamadas recientes para solicitar un traficante de armas.</String>
         <String xml:lang="it-IT">Visualizza le chiamate recenti per un trafficante d'armi.</String>
         <String xml:lang="pl-PL">Zobacz ostatnie wezwania dla handlarza bronią.</String>
         <String xml:lang="vi-VN">Xem các cuộc gọi gần đây dành cho kẻ buôn vũ khí.</String>
@@ -4209,6 +4212,7 @@
         <String xml:lang="et-EE">See ese on reserveeritud premium-liikmetele.</String>
         <String xml:lang="pl-PL">Ten przedmiot jest zarezerwowany dla użytkowników premium.</String>
         <String xml:lang="hi-Latn">Ye item sirf premium members ke liye reserve hai.</String>
+        <String xml:lang="es-ES">Este artículo está reservado para los miembros premium.</String>
     </Entry>
 
     <Entry Id="menu_drugdealer_recentsales_description">
@@ -4484,9 +4488,9 @@
         <String xml:lang="pl-PL">Wymaga {0}~n~~s~Zakup na ~b~{1}</String>
         <String xml:lang="tr-TR">{0} gerekli~n~~b~{1} ~s~adresinden satın alabilirsin~b~</String>
         <String xml:lang="no-NO">Krever {0}~n~~s~Kjøp hos ~b~{1}</String>
-        <String xml:lang="es-ES">Requiere {0}~n~~s~Compralo en ~b~{1}</String>
         <String xml:lang="pt-BR">Requer {0}~n~~s~Comprar em ~b~{1}</String>
         <String xml:lang="zh-Hant">需要 {0}~n~~s~, 可在~b~{1}購買</String>
+        <String xml:lang="es-ES">{0} requerida~n~~s~Adquiérela en ~b~{1}</String>
         <String xml:lang="vi-VN">Yêu cầu {0}~n~~s~Mua tại ~b~{1}</String>
     </Entry>
 
@@ -4509,9 +4513,9 @@
         <String xml:lang="pl-PL">(wymaga {0})</String>
         <String xml:lang="tr-TR">({0} gerekli)</String>
         <String xml:lang="no-NO">(krever {0})</String>
-        <String xml:lang="es-ES">(requieres {0})</String>
         <String xml:lang="pt-BR">(requer {0})</String>
         <String xml:lang="zh-Hant">(需要 {0})</String>
+        <String xml:lang="es-ES">({0} requerida)</String>
         <String xml:lang="vi-VN">(yêu cầu {0})</String>
     </Entry>
 
@@ -4528,9 +4532,9 @@
         <String xml:lang="pl-PL">Zakupując ten dodatek utracisz ~y~{0} ~s~na tej broni. Czy chcesz kontynuować?</String>
         <String xml:lang="no-NO">Hvis du kjøper dette vedlegget, mister du ~y~{0} ~s~en din på dette våpenet. Vil du fortsette?</String>
         <String xml:lang="fr-FR">Si vous achetez cet accessoire, vous perderez votre ~y~{0} ~s~sur cette arme. Voulez-vous continuer?</String>
-        <String xml:lang="es-ES">Si usted compra este accesorio perderá su ~y~{0} ~s~ en esta arma. ¿Quieres continuar?</String>
         <String xml:lang="pt-BR">Se você comprar esse acessório, perderá seus ~y~{0} ~s~ nessa arma. Você quer continuar?</String>
         <String xml:lang="zh-Hant">如果購買此配件,你將失去原本在該武器上的 ~y~{0}~s~ . 你確定要購買嗎?</String>
+        <String xml:lang="es-ES">Si compras este accesorio perderás tu ~y~{0}~s~ para esta arma. ¿Quieres continuar?</String>
         <String xml:lang="sv-SE">Om du köper den här bilagan kommer du att förlora din ~y~{0} ~s~på det här vapnet. Vill du fortsätta?</String>
         <String xml:lang="it-IT">Se acquisti questo accessorio, perderai il tuo ~y~{0} ~s~su quest'arma. Vuoi procedere?</String>
         <String xml:lang="vi-VN">Nếu bạn mua phụ kiện này, bạn sẽ mất ~y~{0} ~s~trên vũ khí này. Bạn có muốn tiếp tục không?</String>
@@ -5201,6 +5205,7 @@
         <String xml:lang="tr-TR">Silah Dükkanı</String>
         <String xml:lang="ga-IE">Armlann</String>
         <String xml:lang="et-EE">Relvaladu</String>
+        <String xml:lang="es-ES">Armería</String>
     </Entry>
 
     <Entry Id="business_hospital">
@@ -5360,6 +5365,7 @@
         <String xml:lang="vi-VN">Đại lý</String>
         <String xml:lang="tr-TR">Galeri</String>
         <String xml:lang="et-EE">Autokauplus</String>
+        <String xml:lang="es-ES">Concesionario</String>
     </Entry>
 
     <Entry Id="business_mechanic">

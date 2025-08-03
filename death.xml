@@ -77,13 +77,13 @@
         <String xml:lang="pl-PL">W pobliżu nie było ~p~medyków~s~, a ty zostałeś przetransportowany do ~r~szpitala~s~.</String>
         <String xml:lang="tr-TR">Yakınlarda ~p~sağlık görevlisi ~s~yoktu ve otomatik olarak bir ~r~hastaneye ~s~sevk edildiniz.</String>
         <String xml:lang="zh-Hans">附近没有~p~医护~s~,你被自动转移到~r~医院~s~.</String>
-        <String xml:lang="es-ES">No había ~p~paramédicos ~s~cerca y te trasladaron automáticamente a un ~r~hospital~s~.</String>
         <String xml:lang="pt-BR">Não havia ~p~paramédicos ~s~perto e você foi automaticamente transportado para um ~r~hospital~s~.</String>
         <String xml:lang="ar-001">لم يكن هناك~p~مسعفون ~s~بالجوار و تم نقلك تلقائيًا إلي ~r~المستشفي~s~.</String>
         <String xml:lang="th-TH">ไม่มี ~p~หน่วยแพทย์ ~s~อยู่ใกล้ๆ และคุณถูกย้ายไปยังโดยอัตโนมัติ ~r~โรงพยาบาล~s~ </String>
         <String xml:lang="vi-VN">Gần đây không có ~p~nhân viên y tế ~s~nào gần bạn, bạn đã được tự động chuyển về ~r~bệnh viện~s~.</String>
         <String xml:lang="id-ID">Tidak ada ~p~paramedis ~s~didekat anda dan anda telah otomatis dipindah kan ke ~r~rumah sakit~s~.</String>
         <String xml:lang="zh-Hant">附近沒有~p~醫護~s~,你將被自動轉移到~r~醫院~s~.</String>
+        <String xml:lang="es-ES">No había ~p~paramédicos ~s~cerca. Fuiste enviado automáticamente a un ~r~hospital~s~.</String>
         <String xml:lang="hi-Latn">Aapke aas-paas koi bhi ~p~paramedics ~s~naa hone ki wajah se aap ko automatically ek ~r~hospital ~s~transfer kar diya gaya.</String>
         <String xml:lang="lv-LV">Netālu nebija neviena ~p~ārsta ~s~un jūs tika automātiski nogādāts uz ~r~slimnīcu~s~.</String>
         <String xml:lang="sv-SE">Det var inga ~p~sjukvårdare i ~s~Närheten och du blev automatiskt skickad till ett ~r~sjukhus~s~.</String>
@@ -100,7 +100,6 @@
         <String xml:lang="pl-PL">W pobliżu jest co najmniej jeden ~p~medyk ~s~Nie możesz się odrodzić do póki nie minie czas, medycy oddalą się z okolicy lub zginą.</String>
         <String xml:lang="tr-TR">Yakınlarda bir veya daha fazla ~p~sağlık görevlisi ~s~var. Zamanlayıcı bitene, sağlık görevlileri bölgeyi terk edene veya onlar ölene kadar yeniden doğamazsınız.</String>
         <String xml:lang="zh-Hans">附近有一名或多名护理人员. 在倒数计时结束或护理人员离开该区域或死亡之前,您无法重生.</String>
-        <String xml:lang="es-ES">Hay uno o más ~p~paramédicos ~s~cerca. No puedes reaparecer hasta que se agote el tiempo, los paramédicos abandonen el área o mueran.</String>
         <String xml:lang="pt-BR">Há um ou mais~p~paramedicos ~s~nas proximidades.Você não pode fazer reparos até que o tempo se esgote, os paramédicos saiam da área ou morram..</String>
         <String xml:lang="ar-001">يوجد ~p~مسعف ~s~واحد أو أكثر بالقرب منك. لا يمكنك العودة إلى الحياة حتى ينفد الموقت، أو يغادر المسعفون المنطقة، أو يموتون.</String>
         <String xml:lang="th-TH">มีหนึ่งหรือมากกว่านั้น ~p~หน่วยแพทย์ ~s~ใกล้. คุณไม่สามารถเกิดใหม่ได้จนกว่าตัวจับเวลาจะหมด, เจ้าหน้าที่กู้ภัยออกจากพื้นที่แล้ว, หรือพวกเขาตาย.</String>
@@ -109,6 +108,7 @@
         <String xml:lang="hi-Latn">Aapke aas-paas ek ya ek se zyada ~p~paramedics ~s~hone ki wajah se aap respawn nahi le sakte jab tak time khatm, doctors area leave kar dete, ya mar jaate.</String>
         <String xml:lang="lv-LV">Netālu no jums ir viens vai vairāki ~p~ārsti~s~. Jūs nevarat atzdimt, kamēr nav beidzies taimers, ārsti nav atstājusi zonu, vai viņi nav mirusi.</String>
         <String xml:lang="zh-Hant">附近有一名或多名 ~p~醫護~s~. 在倒數計時結束或護理人員離開該區域或死亡之前,您將無法重生.</String>
+        <String xml:lang="es-ES">Hay uno o más ~p~paramédicos ~s~cerca. No puedes reaparecer hasta que los paramédicos abandonen el área, mueran o se agote el tiempo de espera.</String>
         <String xml:lang="sv-SE">Det är en eller mer ~p~sjukvårdare ~s~i närheten. Du kan inte återupplivas förän tiden tar slut, Sjukvårdarna lämnar detta område, eller de dör.</String>
         <String xml:lang="no-NO">Det er en eller flere ~p~ambulansepersonell ~s~i nærheten. Du kan ikke starte på nytt før timeren går ut, ambulansepersonellet forlater området, eller de dør.</String>
         <String xml:lang="fr-FR">Il y a un ou plusieurs ~p~ambulanciers ~s~à proximité. Vous ne pouvez pas réapparaître tant que le minuteur n'est pas écoulé, que les ambulanciers n'ont pas quitté la zone ou qu'ils ne sont pas morts.</String>
@@ -171,7 +171,6 @@
         <String xml:lang="tr-TR">{0} ~s~öldü.</String>
         <String xml:lang="zh-Hant">{0} ~s~死亡了.</String>
         <String xml:lang="zh-Hans">{0} ~s~死亡了.</String>
-        <String xml:lang="es-ES">{0} ~s~ha muerto.</String>
         <String xml:lang="pt-BR">{0} ~s~faleceu.</String>
         <String xml:lang="ar-001">{0} ~s~مات.</String>
         <String xml:lang="th-TH">{0} ~s~ได้ตายแล้ว.</String>
@@ -180,6 +179,7 @@
         <String xml:lang="lv-LV">{0} ~s~nomira.</String>
         <String xml:lang="sv-SE">{0} ~s~har dött.</String>
         <String xml:lang="hi-Latn">{0} ~s~mar gaye.</String>
+        <String xml:lang="es-ES">{0} ~s~murió.</String>
         <String xml:lang="no-NO">{0} ~s~er død.</String>
         <String xml:lang="cs-CZ">{0} ~s~zemřel.</String>
     </Entry>
@@ -193,7 +193,6 @@
         <String xml:lang="pl-PL">{0} ~s~został zabity przez ~r~bota~s~.</String>
         <String xml:lang="tr-TR">{0}, ~r~NPC ~s~tarafından öldürüldü.</String>
         <String xml:lang="zh-Hans">{0} ~s~被 ~r~NPC~s~ 击杀了.</String>
-        <String xml:lang="es-ES">{0} ~s~ha sido asesinado por un ~r~NPC~s~.</String>
         <String xml:lang="pt-BR">{0} ~s~foi assassinado por um ~r~NPC~s~.</String>
         <String xml:lang="ar-001">{0} ~s~قُتل على يد ~r~شخصية غير قابلة للعب~s~.</String>
         <String xml:lang="th-TH">{0} ~s~ถูกฆ่าโดย ~r~NPC~s~.</String>
@@ -202,6 +201,7 @@
         <String xml:lang="lv-LV">{0} ~s~nogalinājis ~r~NPC~s~.</String>
         <String xml:lang="sv-SE">{0} ~s~har dött av en ~r~NPC~s~.</String>
         <String xml:lang="zh-Hant">{0} ~s~被 ~r~NPC~s~ 殺死了.</String>
+        <String xml:lang="es-ES">{0} ~s~fue asesinado por un ~r~NPC~s~.</String>
         <String xml:lang="no-NO">{0} ~s~har blitt drept av en ~r~NPC~s~.</String>
         <String xml:lang="hi-Latn">{0} kisi ~r~NPC ~s~se mar gaye.</String>
         <String xml:lang="cs-CZ">{0} ~s~byl zabit ~r~NPC~s~.</String>
@@ -217,7 +217,6 @@
         <String xml:lang="tr-TR">{0}, ~r~hayvan ~s~tarafından öldürüldü.</String>
         <String xml:lang="zh-Hant">{0} ~s~被 ~r~動物~s~ 擊殺了.</String>
         <String xml:lang="zh-Hans">{0} ~s~被 ~r~动物~s~ 击杀了.</String>
-        <String xml:lang="es-ES">{0} ~s~ha sido asesinado por un ~r~animal~s~.</String>
         <String xml:lang="pt-BR">{0} ~s~foi assassinado por um ~r~animal~s~.</String>
         <String xml:lang="ar-001">{0} ~s~قُتل على يد ~r~حيوان~s~.</String>
         <String xml:lang="th-TH">{0} ~s~ถูกฆ่าโดย ~r~สัตว์~s~.</String>
@@ -226,6 +225,7 @@
         <String xml:lang="lv-LV">{0} ~s~nogalinājis ~r~dzīvnieks~s~.</String>
         <String xml:lang="sv-SE">{0} ~s~har blivit dödat av ett ~r~djur~s~.</String>
         <String xml:lang="hi-Latn">{0} kisi ~r~animal ~s~se mar gaye.</String>
+        <String xml:lang="es-ES">{0} ~s~fue atacado por un ~r~animal~s~.</String>
         <String xml:lang="no-NO">{0} ~s~har blitt drept av et ~r~dyr~s~.</String>
         <String xml:lang="cs-CZ">{0} ~s~byl zabit ~r~zvířetem~s~.</String>
     </Entry>
