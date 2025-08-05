@@ -355,9 +355,9 @@
         <String xml:lang="nl-NL">Je ~g~rapport ~s~op ~r~{0} ~s~is verstuurd.</String>
         <String xml:lang="it-IT">La tua ~g~segnalazione ~s~su ~r~{0} ~s~è stata inviata.</String>
         <String xml:lang="pl-PL">Twoje ~g~zgłoszenie ~r~{0} ~s~zostało przyjęte.</String>
-        <String xml:lang="es-ES">Su ~g~informe ~s~sobre ~r~{0} ~s~ha sido presentado.</String>
         <String xml:lang="pt-BR">Seu ~g~report ~s~sobre ~r~{0} ~s~foi enviado.</String>
         <String xml:lang="de-DE">Deine ~g~Meldung gegen ~r~{0} ~s~wurde eingereicht.</String>
+        <String xml:lang="es-ES">~g~Reportaste~s~ a ~r~{0} ~s~ha sido enviado </String>
         <String xml:lang="th-TH">~g~รายงาน ~s~บน ~r~{0} ~s~ของคุณถูกส่งไปแล้ว</String>
         <String xml:lang="id-ID">~g~Laporan anda ~s~terhadap ~r~{0} ~s~telah berhasil dikirimkan</String>
         <String xml:lang="hi-Latn">Aapki ~g~report ~s~inn par ~r~{0} ~s~submit ho gayi hai.</String>
@@ -373,7 +373,6 @@
         <String xml:lang="nl-NL">~r~Je kan niet dezelfde speler zo kort achter elkaar rapporteren.</String>
         <String xml:lang="it-IT">~r~Non puoi segnalare lo stesso giocatore così presto.</String>
         <String xml:lang="pl-PL">~r~Nie możesz tak szybko zgłosić tego samego gracza.</String>
-        <String xml:lang="es-ES">~r~No se puede denunciar al mismo jugador tan pronto.</String>
         <String xml:lang="pt-BR">~r~O mesmo jogador não pode ser denunciado tão cedo.</String>
         <String xml:lang="de-DE">~r~Du kannst denselben Spieler so schnell nicht noch einmal melden.</String>
         <String xml:lang="ar-001">~r~لا يمكنك الإبلاغ عن نفس اللاعب بهذه السرعة.</String>
@@ -383,6 +382,7 @@
         <String xml:lang="lv-LV">~r~Jūs nevarat ziņot par to pašu spēlētāju tik drīz.</String>
         <String xml:lang="tr-TR">~r~Aynı oyuncuyu bu kadar kısa sürede rapor edemezsin.</String>
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas signaler le même joueur aussi tôt.</String>
+        <String xml:lang="es-ES">~r~No puedes reportar al mismo jugador tan pronto.</String>
         <String xml:lang="no-NO">~r~Du kan ikke rapportere den samme spilleren så snart.</String>
         <String xml:lang="sv-SE">~r~Du kan inte rapportera samma spelare så snart.</String>
     </Entry>
@@ -475,7 +475,6 @@
         <String xml:lang="nl-NL">Je hebt ~g~succesvol ~b~{0} ~s~gelinkt aan je account.</String>
         <String xml:lang="it-IT">Hai collegato con ~g~successo ~b~{0} ~s~al tuo account.</String>
         <String xml:lang="pl-PL">~g~Udało ci się ~s~podpiąć ~b~{0} ~s~do twojego konta.</String>
-        <String xml:lang="es-ES">Usted ha ~g~con éxito ~s~vinculado ~b~{0} ~s~a su cuenta.</String>
         <String xml:lang="pt-BR">Você foi ~g~sucessivamente ~s~vinculado ~b~{0} ~s~à sua conta.</String>
         <String xml:lang="de-DE">Du hast ~g~erfolgreich~s~ ~b~{0} ~s~mit deinem Account verknüpft.</String>
         <String xml:lang="ar-001">لقد ~g~نجحت في ~s~ربط ~b~{0} ~s~بحسابك.</String>
@@ -485,6 +484,7 @@
         <String xml:lang="lv-LV">Jūs ~g~veiksmīgi ~s~saistījāt ~b~{0} ~s~ar savu kontu.</String>
         <String xml:lang="tr-TR">~b~{0} ~g~başarıyla ~s~hesabına bağlandı.</String>
         <String xml:lang="fr-FR">Vous avez ~g~réussi ~s~à lier ~b~{0} ~s~à votre compte.</String>
+        <String xml:lang="es-ES">Vinculaste ~b~{0}~s~ a tu cuenta ~g~de forma exitosa ~s~</String>
         <String xml:lang="no-NO">Du har ~g~knyttet ~b~{0} ~s~til kontoen din.</String>
         <String xml:lang="sv-SE">Du har ~g~lyckat ~s~länka ~b~{0} ~s~till ditt konto.</String>
     </Entry>
@@ -495,7 +495,6 @@
         <String xml:lang="fr-FR">~r~Cette adresse email est déjà liée à un autre compte.</String>
         <String xml:lang="it-IT">~r~Questo indirizzo email è già collegato ad un altro account.</String>
         <String xml:lang="pl-PL">~r~Ten adres email jest już podpięty do innego konta.</String>
-        <String xml:lang="es-ES">~r~Su dirección de correo electrónico ya está vinculada a otra cuenta.</String>
         <String xml:lang="pt-BR">~r~Seu endereço de e-mail já está vinculado a outra conta.</String>
         <String xml:lang="de-DE">~r~Diese Email-Adresse ist bereits mit einem anderen Account verknüpft.</String>
         <String xml:lang="ar-001">~r~البريد الإلكتروني هذا مرتبط بالفعل بحساب آخر.</String>
@@ -504,6 +503,7 @@
         <String xml:lang="hi-Latn">~r~Yeh email address pehle se hi doosre account se link hai.</String>
         <String xml:lang="lv-LV">~r~Šīs e-pasts jau ir saistīts ar citu kontu.</String>
         <String xml:lang="tr-TR">~r~Bu e-posta adresi başka bir hesaba bağlı.</String>
+        <String xml:lang="es-ES">~r~Esta dirección de correo electrónico ya está vinculada a otra cuenta.</String>
         <String xml:lang="no-NO">~r~Denne e-postadressen er allerede koblet til en annen konto.</String>
         <String xml:lang="sv-SE">~r~Den här e-postadressen är redan länkad till ett annat konto.</String>
     </Entry>
@@ -513,7 +513,6 @@
         <String xml:lang="nl-NL">~r~Je moet 2 minuten wachten tussen email aanpassingen.</String>
         <String xml:lang="it-IT">~r~Devi aspettare 2 minuti tra i tentativi di cambio dell'indirizzo email.</String>
         <String xml:lang="pl-PL">~r~Musisz poczekać 2 minuty pomiędzy zmianami emaila.</String>
-        <String xml:lang="es-ES">~r~Debe esperar 2 minutos entre los intentos de cambio de correo electrónico.</String>
         <String xml:lang="pt-BR">~r~É necessário aguardar 2 minutos entre as tentativas de alteração de e-mail.</String>
         <String xml:lang="de-DE">~r~Du musst 2 Minuten zwischen Email-Änderungsversuchen warten.</String>
         <String xml:lang="ar-001">~r~يجب عليك الانتظار لمدة دقيقتين بين محاولات تغيير البريد الإلكتروني.</String>
@@ -522,6 +521,7 @@
         <String xml:lang="hi-Latn">~r~Aapko email change karne ke attempts ke beech mein 2 minutes ka wait karna hoga.</String>
         <String xml:lang="lv-LV">~r~Jums ir jāpagaida 2 minūtes pirms citas e-pasta mainīšanas mēģinājuma.</String>
         <String xml:lang="tr-TR">~r~E-posta değişikliği girişimleri arasında 2 dakika beklemelisin.</String>
+        <String xml:lang="es-ES">~r~Debe esperar 2 minutos entre cada intento de cambio de correo electrónico.</String>
         <String xml:lang="no-NO">~r~Du må vente 2 minutter mellom e-postforsøkene.</String>
         <String xml:lang="fr-FR">~r~Vous devez attendre 2 minutes entre tentatives de changement d'adresse email.</String>
         <String xml:lang="sv-SE">~r~Du måste vänta 2 minuter mellan e-poständringsförsöken.</String>
@@ -551,7 +551,6 @@
         <String xml:lang="nl-NL">{0} account niet gevonden. Disconnect en ga terug naar de FiveM laucnher, log in op de FiveM account en probeer opnieuw.</String>
         <String xml:lang="it-IT">Account {0} non trovato. Disconnettiti e torna al launcher di FiveM, poi effettua l'accesso al tuo account FiveM e riprova.</String>
         <String xml:lang="pl-PL">{0} konto nie znalezione. Rozłącz się i zrestartuj FiveM, potem zaloguj się do konta FiveM i spróbuj ponownie.</String>
-        <String xml:lang="es-ES">{0} cuenta no encontrada. Desconéctese y vuelva al lanzador FiveM, luego inicie sesión en su cuenta FiveM y vuelva a intentarlo.</String>
         <String xml:lang="pt-BR">{0} conta não encontrada. Faça logout e retorne ao inicializador do FiveM, depois faça login na sua conta do FiveM e tente novamente.</String>
         <String xml:lang="de-DE">{0} Account wurde nicht gefunden. Trenne die Verbindung und gehe zurück in den FiveM Launcher, logge dich in deinen FiveM Account ein und versuche es erneut.</String>
         <String xml:lang="ar-001">لم يتم العثور على حساب {0}. اقطع الاتصال وارجع إلى مشغل FiveM، ثم قم بتسجيل الدخول إلى حساب FiveM الخاص بك وأعد المحاولة.</String>
@@ -560,6 +559,7 @@
         <String xml:lang="hi-Latn">{0} account nahi mila. Disconnect karo aur FiveM launcher mein wapas jao, phir apne FiveM account mein login karo aur retry karo.</String>
         <String xml:lang="lv-LV">{0} konts netika atrasts. Atvienojieties un atveriet FiveM Launcher, pēc tam ienāciet savā FiveM kontā un mēģiniet vēlreiz.</String>
         <String xml:lang="tr-TR">{0} hesabı bulunamadı. Bağlantıyı kes ve FiveM başlatıcısına geri dön, ardından FiveM hesabında oturum aç ve yeniden dene.</String>
+        <String xml:lang="es-ES">{0} cuenta no encontrada. Reinicia FiveM, inicia sesión en tu cuenta FiveM (Cfx.re) y vuelva a intentarlo.</String>
         <String xml:lang="no-NO">{0} konto ikke funnet. Koble fra og gå tilbake til FiveM-startprogrammet, logg på FiveM-kontoen din og prøv på nytt.</String>
         <String xml:lang="fr-FR">Le compte {0} n'a pas été trouvé. Déconnectez-vous et retournez au launcher FiveM, puis connectez-vous à votre compte FiveM et réessayez.</String>
         <String xml:lang="sv-SE">{0} konto hittades inte. Koppla från och gå tillbaka till FiveM-startprogrammet, logga sedan in på ditt FiveM-konto och försök igen.</String>
@@ -570,7 +570,7 @@
         <String xml:lang="nl-NL">~r~De server is nog je vorige aanvraag aan het verwerken. Wacht alstublieft voordat je een nieuwe stuurt.</String>
         <String xml:lang="it-IT">~r~Il server sta ancora elaborando la tua richiesta precedente. Per favore, attendi prima di inviarne un'altra.</String>
         <String xml:lang="pl-PL">~r~Serwer nadal przetwarza twoją ostatnią akcję. Poczekaj zanim wykonasz kolejną.</String>
-        <String xml:lang="es-ES">~r~El servidor aún está procesando su solicitud anterior. Por favor, espere antes de enviar otra.</String>
+        <String xml:lang="es-ES">~r~El servidor está procesando tu solicitud anterior. Espera antes de enviar otra.</String>
         <String xml:lang="pt-BR">~r~O servidor ainda está processando sua solicitação anterior. Aguarde antes de enviar outra.</String>
         <String xml:lang="de-DE">~r~Der Server verarbeitet immernoch deine vorherige Anfrage. Bitte warte, bevor du eine weitere sendes.</String>
         <String xml:lang="ar-001">~r~يزال السيرفر يعالج طلبك السابق. من فضلك، انتظر قبل إرسال واحد أخر.</String>
@@ -590,7 +590,6 @@
         <String xml:lang="fr-FR">~r~Le mot de passe saisi est trop court (minimum 8 caractères). L'opération est annulée.</String>
         <String xml:lang="it-IT">~r~La password inserita è troppo corta (minimo 8 caratteri). Operazione annullata.</String>
         <String xml:lang="pl-PL">~r~Hasło jest za krótkie (minimum 8 znaków). Operacja anulowana.</String>
-        <String xml:lang="es-ES">~r~La contraseña introducida es demasiado corta (mínimo 8 caracteres). Operación cancelada.</String>
         <String xml:lang="pt-BR">~r~A senha digitada é muito curta (mínimo de 8 caracteres). Operação cancelada.</String>
         <String xml:lang="de-DE">~r~Das eingegebene Passwort ist zu kurz (mindestens 8 Zeichen). Vorgang abgebrochen.</String>
         <String xml:lang="ar-001">~r~كلمة المرور التي تم إدخالها قصيرة جدًا (8 أحرف على الأقل). تم إلغاء العملية</String>
@@ -599,6 +598,7 @@
         <String xml:lang="hi-Latn">~r~Enter kiya gaya password bahut chhota hai (minimum 8 characters). Operation cancel ho gaya hai.</String>
         <String xml:lang="lv-LV">~r~Ievadīta parole ir pārāk īsa (min 8 rakstu zīmes). Operācija atcelta.</String>
         <String xml:lang="tr-TR">~r~Girilen şifre çok kısa. (minimum 8 karakter). İşlem iptal edildi.</String>
+        <String xml:lang="es-ES">~r~La contraseña introducida es demasiado corta (8 caracteres mínimo). Cancelando...</String>
         <String xml:lang="no-NO">~r~Det angitte passordet er for kort (minst 8 tegn). Operasjonen avbrutt.</String>
         <String xml:lang="sv-SE">~r~Det angivna lösenordet är för kort (minst 8 tecken). Åtgärden avbröts.</String>
     </Entry>
@@ -609,7 +609,6 @@
         <String xml:lang="fr-FR">~r~Les mots de passe saisis ne correspondent pas. L'opération est annulée.</String>
         <String xml:lang="it-IT">~r~Le password inserite non corrispondono. Operazione annullata.</String>
         <String xml:lang="pl-PL">~r~Hasła się nie zgadzają. Operacja anulowana.</String>
-        <String xml:lang="es-ES">~r~Las contraseñas introducidas no coinciden. Operación cancelada.</String>
         <String xml:lang="pt-BR">~r~As senhas inseridas não correspondem. Operação cancelada.</String>
         <String xml:lang="de-DE">~r~Die eingegebenen Passwörter stimmen nicht überein. Vorgang abgebrochen.</String>
         <String xml:lang="ar-001">~r~كلمات المرور المدخلة غير متطابقة. تم إلغاء العملية.</String>
@@ -618,6 +617,7 @@
         <String xml:lang="hi-Latn">~r~Enter kiye gaye passwords match nahi karte. Operation cancel ho gaya hai.</String>
         <String xml:lang="lv-LV">~r~Ievadītas paroles nesakrīt. Operācija atcelta.</String>
         <String xml:lang="tr-TR">~r~Girilen şifreler eşleşmiyor. İşlem iptal edildi.</String>
+        <String xml:lang="es-ES">~r~Las contraseñas no coinciden. Cancelando...</String>
         <String xml:lang="no-NO">~r~De angitte passordene samsvarer ikke. Operasjonen avbrutt.</String>
         <String xml:lang="sv-SE">~r~De angivna lösenorden matchar inte. Åtgärden avbröts.</String>
     </Entry>
@@ -627,7 +627,6 @@
         <String xml:lang="nl-NL">Je ~b~wachtwoord ~s~is ~g~succesvol aangepast~s~.</String>
         <String xml:lang="it-IT">La tua ~b~password ~s~è stata ~g~cambiata con successo~s~.</String>
         <String xml:lang="pl-PL">Twoje ~b~hasło ~s~zostało ~g~pomyślnie zmienione~s~.</String>
-        <String xml:lang="es-ES">Su ~b~contraseña ~s~ha sido ~g~cambiada con éxito~s~.</String>
         <String xml:lang="pt-BR">Sua ~b~senha ~s~foi ~g~alterada com sucesso~s~.</String>
         <String xml:lang="de-DE">Dein ~b~Passwort ~s~wurde ~g~erfolgreich geändert~s~.</String>
         <String xml:lang="ar-001">لقد تم ~g~تغيير بنجاح~s~ ~b~كلمة المرور~s~.</String>
@@ -637,6 +636,7 @@
         <String xml:lang="lv-LV">Jūsu ~b~parole ~s~tika ~g~veiksmīgi nomainīta~s~.</String>
         <String xml:lang="tr-TR">~b~Şifreniz ~g~başarıyla ~s~değiştirildi.</String>
         <String xml:lang="fr-FR">Votre ~b~mot de passe ~s~a été ~g~changé avec succès~s~.</String>
+        <String xml:lang="es-ES">Cambio de ~b~contraseña ~s~~g~realizado con éxito~s~.</String>
         <String xml:lang="no-NO">Ditt ~b~passord ~s~har blitt ~g~endret~s~.</String>
         <String xml:lang="sv-SE">Ditt ~b~lösenord ~s~har ~g~lyckat ändrats~s~.</String>
     </Entry>
@@ -646,8 +646,8 @@
         <String xml:lang="nl-NL">~r~Je kan dit niet doen terwijl je een fake username gebruikt.</String>
         <String xml:lang="it-IT">~r~Non puoi farlo mentre stai usando un nome utente falso.</String>
         <String xml:lang="pl-PL">~r~Nie możesz tego zrobić gdy używasz fałszywego nicku.</String>
-        <String xml:lang="es-ES">~r~No puedes hacer esto mientras estés usando un nombre de usuario falso.</String>
         <String xml:lang="pt-BR">~r~Não é possível fazer isso enquanto estiver usando um nome de usuário falso.</String>
+        <String xml:lang="es-ES">~r~No puedes hacer esto mientras utilizas un nombre falso.</String>
         <String xml:lang="de-DE">~r~Du kannst das nicht tun, während du einen Fake-Username nutzt.</String>
         <String xml:lang="ar-001">~r~لا يمكنك القيام بذلك أثناء استخدام اسم مستخدم مزيف.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถทำเช่นนี้ได้ในขณะที่คุณใช้ชื่อผู้ใช้ปลอม</String>
@@ -700,7 +700,6 @@
         <String xml:lang="nl-NL">~r~Niet gelukt om je Silver Membership te upgraden. Als deze error blijft voorkomen, maak alstublieft een support ticket in onze Discord.</String>
         <String xml:lang="it-IT">~r~Impossibile disattivare la tua l'iscrizione all'abbonamento Silver per l'aggiornamento. Se l'errore persiste, apri un support ticket sul nostro Discord.</String>
         <String xml:lang="pl-PL">~r~Deaktywacja twego obecnego Srebrnego Członkostwa nie powiodła się. Jeśli błąd dalej będzie występował, otwórz ticket na naszym Discordzie.</String>
-        <String xml:lang="es-ES">~r~No se ha podido desactivar la suscripción Silver actual para actualizarla. Si el error persiste, por favor abra un ticket de soporte en nuestro Discord.</String>
         <String xml:lang="pt-BR">~r~A assinatura Silver atual não pôde ser desativada para upgrade. Se o erro persistir, abra um tíquete de suporte em nosso Discord.</String>
         <String xml:lang="de-DE">~r~Du kannst deine aktuelle Silber-Mitgliedschaft nicht deaktivieren, um upzugraden. Falls dieser Fehler weiterhin auftritt öffne bitte ein Ticket auf unserem Discord.</String>
         <String xml:lang="ar-001">~r~غير قادر على إلغاء تنشيط عضويتك الفضية الحالية للترقية. إذا استمر الخطأ، يرجى فتح تذكرة دعم على الديسكورد الخاص بنا.</String>
@@ -709,6 +708,7 @@
         <String xml:lang="hi-Latn">~r~Aapke current Silver Membership ko upgrade karne mein problem aa rahi hai. Agar error aata rehta hai, toh Discord pe support ticket kholo.</String>
         <String xml:lang="lv-LV">~r~Nav iespējams deaktivizēt jūsu pašreizējo Sudraba Abonementu lai jauninātu. Ja kļūda saglabājas, lūdzu atveriet atbalsta pieprasījumu mūsu Discord vietnē.</String>
         <String xml:lang="tr-TR">~r~Mevcut Gümüş Üyeliğiniz yükseltilmek için devre dışı bırakılamıyor. Hata devam ederse lütfen Discord'umuzdan bir destek bileti açın.</String>
+        <String xml:lang="es-ES">~r~No fue posible desactivar la suscripción Silver actual para actualizarla. Si el error persiste, abre un ticket de soporte en nuestro Discord.</String>
         <String xml:lang="no-NO">~r~Kan ikke deaktivere ditt nåværende sølvmedlemskap for å oppgradere. Hvis feilen vedvarer, vennligst åpne en støttebillett på vår Discord.</String>
         <String xml:lang="fr-FR">~r~Impossible de désactiver votre adhésion Silver actuelle pour l'améliorer. Si l'erreur persiste, merci d'ouvrir un ticket support sur notre Discord.</String>
         <String xml:lang="sv-SE">~r~Det går inte att avaktivera ditt nuvarande Silvermedlemskap för att uppgradera. Om felet kvarstår, öppna en support ticket på vår Discord.</String>
@@ -719,7 +719,6 @@
         <String xml:lang="nl-NL">Bezoek een ~r~ziekenhuis ~s~om ~p~plastische chirurgie~s~ te krijgen.</String>
         <String xml:lang="it-IT">Visita un ~r~ospedale ~s~per effetuare una ~p~chirurgia plastica~s~.</String>
         <String xml:lang="pl-PL">Odwiedź ~r~szpital ~s~aby wykonać ~p~operację plastyczną~s~.</String>
-        <String xml:lang="es-ES">Visita un ~r~hospital ~s~para obtener una ~p~cirugía plástica~s~.</String>
         <String xml:lang="pt-BR">Visite um ~r~hospital ~s~para fazer uma ~p~cirurgia plástica~s~.</String>
         <String xml:lang="de-DE">Bersuche ein ~r~Krankenhaus ~s~um eine ~p~Schönheitsoperation ~s~vorzunehmen.</String>
         <String xml:lang="ar-001">قم بزيارة أحد ~r~المستشفيات ~s~لإجراء ~p~جراحة تجميلية~s~.</String>
@@ -729,6 +728,7 @@
         <String xml:lang="lv-LV">Apmeklējiet ~r~slimnīcu~s~, lai iegūtu ~p~plastisku ķirurģiju~s~.</String>
         <String xml:lang="tr-TR">~p~Plastik cerrahi ~s~için bir ~r~hastane ~s~ziyaret edin.</String>
         <String xml:lang="fr-FR">Visitez un ~r~hôpital ~s~pour effectuer une ~p~chirurgie plastique~s~.</String>
+        <String xml:lang="es-ES">Ve al ~r~hospital~s~ de Pillbox Hill para hacerte una ~p~cirugía plástica~s~.</String>
         <String xml:lang="no-NO">Besøk et ~r~sykehus ~s~for å få en ~p~plastisk kirurgi~s~.</String>
         <String xml:lang="sv-SE">Besök ett ~r~sjukhus ~s~för att få en ~p~plastikoperation~s~.</String>
     </Entry>
@@ -795,7 +795,6 @@
         <String xml:lang="nl-NL">Je moet nog even ~r~wachten ~s~voordat je opnieuw je ~b~gebruikersnaam ~s~weer kan aanpassen.</String>
         <String xml:lang="it-IT">Devi ~r~aspettare ~s~prima di cambiare di nuovo il tuo ~b~nome utente~s~.</String>
         <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~zanim ponownie zmienisz swój ~b~nick~s~.</String>
-        <String xml:lang="es-ES">Tienes que ~r~esperar ~s~antes de cambiar tu ~b~nombre de usuario ~s~de nuevo.</String>
         <String xml:lang="pt-BR">Você deve ~r~esperar ~s~antes de alterar seu ~b~nome de usuário ~s~novamente.</String>
         <String xml:lang="de-DE">Du musst ~r~warten~s~, bevor du deinen ~b~Nutzernamen ~s~erneut ändern kannst.</String>
         <String xml:lang="ar-001">أنت بحاجة إلى ~r~الأنتظار ~s~قبل تغيير ~b~اسم المستخدم ~s~الخاص بك مرة أخرى.</String>
@@ -805,6 +804,7 @@
         <String xml:lang="lv-LV">Jums ir ~r~jāpagaida~s~ pirms jūsu ~b~lietotājvārda ~s~vēlreizējas mainīšanas.</String>
         <String xml:lang="tr-TR">~b~Kullanıcı adını ~s~tekrardan değiştirmeden önce ~r~beklemen ~s~gerekir.</String>
         <String xml:lang="fr-FR">Vous devez ~r~attendre ~s~avant de changer votre ~b~nom d'utilisateur ~s~de nouveau.</String>
+        <String xml:lang="es-ES">~r~Espera ~s~antes de cambiar tu ~b~nombre de usuario ~s~de nuevo.</String>
         <String xml:lang="no-NO">Du må ~r~vente ~s~før du endrer ~b~brukernavn ~s~igjen.</String>
         <String xml:lang="sv-SE">Du behöver ~r~vänta ~s~innan du ändrar ditt ~b~användarnamn ~s~igen.</String>
     </Entry>
@@ -834,7 +834,6 @@
         <String xml:lang="fr-FR">~r~Le code a expiré.</String>
         <String xml:lang="it-IT">~r~Il codice è scaduto.</String>
         <String xml:lang="pl-PL">~r~Kod wygasł.</String>
-        <String xml:lang="es-ES">~r~TEl código ha caducado.</String>
         <String xml:lang="pt-BR">~r~O código expirou.</String>
         <String xml:lang="de-DE">~r~Der Code ist abgelaufen.</String>
         <String xml:lang="ar-001">~r~لقد انتهت صلاحية الرمز.</String>
@@ -843,6 +842,7 @@
         <String xml:lang="hi-Latn">~r~Code expire ho gaya hai.</String>
         <String xml:lang="lv-LV">~r~Kodam, kuru jūs ievadījat, ir beidzies derīguma termiņš.</String>
         <String xml:lang="tr-TR">~r~Kodun süresi doldu.</String>
+        <String xml:lang="es-ES">~r~El código ha caducado.</String>
         <String xml:lang="no-NO">~r~Koden er utløpt.</String>
         <String xml:lang="sv-SE">~r~Koden har upphört att gälla.</String>
     </Entry>
@@ -1060,13 +1060,13 @@
         <String xml:lang="nl-NL">Het aantal dat je hebt ingevoerd is ~r~ongeldig~s~!</String>
         <String xml:lang="it-IT">La quantità che hai inserito ~r~non è valida~s~!</String>
         <String xml:lang="pl-PL">Podana wartość jest ~r~nieprawidłowa~s~!</String>
-        <String xml:lang="es-ES">La cantidad que ha introducido ~r~no es válida~s~!</String>
         <String xml:lang="pt-BR">A quantidade que você inseriu ~r~não é válida~s~!</String>
         <String xml:lang="de-DE">Der Betrag, den du eingegeben hast, ist ~r~ungültig~s~.</String>
         <String xml:lang="ar-001">المبلغ الذي أدخلته ~r~غير صالح~s~!</String>
         <String xml:lang="th-TH">จำนวนเงินที่คุณป้อนคือ ~r~invalid~s~!</String>
         <String xml:lang="id-ID">Jumlah yang anda masukan ~r~tidak valid~s~!</String>
         <String xml:lang="hi-Latn">Aapne jo amount enter kiya hai wo ~r~invalid ~s~hai!</String>
+        <String xml:lang="es-ES">¡La cantidad que ingresaste ~r~es inválida~s~!</String>
         <String xml:lang="lv-LV">Daudzums, kuru jūs ievadījat, ir ~r~nederīgs~s~!</String>
         <String xml:lang="tr-TR">Girdiğiniz tutar ~r~geçersiz~s~!</String>
         <String xml:lang="no-NO">Beløpet du skrev inn er ~r~ugyldig~s~!</String>
@@ -1080,7 +1080,6 @@
         <String xml:lang="fr-FR">Le destinataire n'est ~r~plus en ligne~s~.</String>
         <String xml:lang="it-IT">Il destinatario non è ~r~più online~s~.</String>
         <String xml:lang="pl-PL">Odbiorca ~r~nie jest już online~s~.</String>
-        <String xml:lang="es-ES">El destinatario ya ~r~no está conectado~s~.</String>
         <String xml:lang="pt-BR">O destinatário ~r~não está mais on-line~s~.</String>
         <String xml:lang="de-DE">Der Empfänger ist ~r~nicht länger online~s~.</String>
         <String xml:lang="ar-001">المستلم ~r~لم يعد متصلاً~s~.</String>
@@ -1089,6 +1088,7 @@
         <String xml:lang="hi-Latn">Recipient ab ~r~online nahi ~s~hai.</String>
         <String xml:lang="lv-LV">Saņēmējs vairs ~r~nav online~s~.</String>
         <String xml:lang="tr-TR">Alıcı ~r~artık çevrim içi değil~s~.</String>
+        <String xml:lang="es-ES">El destinatario ya ~r~está desconectado~s~.</String>
         <String xml:lang="no-NO">Mottakeren er ~r~ikke lenger online~s~.</String>
         <String xml:lang="sv-SE">Mottagaren är ~r~inte längre online~s~.</String>
     </Entry>
@@ -1098,7 +1098,6 @@
         <String xml:lang="nl-NL">Je hebt niet het ~r~vereiste level ~s~om geld over te schrijven naar andere spelers.</String>
         <String xml:lang="it-IT">Non hai il ~r~livello richiesto ~s~per trasferire denaro ad altri giocatori.</String>
         <String xml:lang="pl-PL">Nie masz ~r~wymaganego poziomu ~s~do przekazywania pieniędzy graczom.</String>
-        <String xml:lang="es-ES">No tienes el nivel ~r~necesario ~s~para transferir dinero a otros jugadores.</String>
         <String xml:lang="pt-BR">Você não tem o nível ~r~necessário ~s~para transferir dinheiro para outros jogadores.</String>
         <String xml:lang="de-DE">Du besitzt nicht das ~r~benötigte Level~s~, um Geld an andere Spieler zu übergeben.</String>
         <String xml:lang="ar-001">ليس لديك ~r~المستوى المطلوب ~s~لتحويل الأموال إلى لاعبين آخرين.</String>
@@ -1108,6 +1107,7 @@
         <String xml:lang="lv-LV">Jums nav ~r~nepieciešama līmeņa ~s~lai pārskaitītu naudu citiem spēlētājiem.</String>
         <String xml:lang="tr-TR">Diğer oyunculara para aktarmak için ~r~gerekli seviyeye ~s~sahip değilsiniz.</String>
         <String xml:lang="fr-FR">Vous n'avez pas le ~r~niveau requis ~s~pour transférer de l'argent à d'autres joueurs.</String>
+        <String xml:lang="es-ES">No tienes el nivel ~r~suficiente ~s~para transferir dinero a otros jugadores.</String>
         <String xml:lang="no-NO">Du har ikke det ~r~påkrevde nivået ~s~for å overføre penger til andre spillere.</String>
         <String xml:lang="sv-SE">Du har inte den ~r~krävda nivån ~s~för att överföra pengar till andra spelare.</String>
     </Entry>
@@ -1117,7 +1117,6 @@
         <String xml:lang="nl-NL">Je hebt ~r~te veel geld~s~ verstuurd. Probeer het alstublieft opnieuw in een ~r~andere sessie~s~.</String>
         <String xml:lang="it-IT">Hai inviato ~r~troppo denaro~s~. Per favore, riprova in ~r~un'altra sessione~s~.</String>
         <String xml:lang="pl-PL">Wysłałeś ~r~za dużo pieniędzy~s~. Proszę, spróbuj w ~r~innej sesji~s~.</String>
-        <String xml:lang="es-ES">Usted envió ~r~demasiado dinero~s~. Por favor, vuelva a intentarlo en ~r~otra sesión~s~.</String>
         <String xml:lang="pt-BR">Você enviou ~r~muito dinheiro~s~. Tente novamente em ~r~outra sessão~s~.</String>
         <String xml:lang="de-DE">Du hast ~r~zu viel Geld ~s~verschickt. Bitte versuche es in einer ~r~anderen Spielsitzung ~s~erneut.</String>
         <String xml:lang="ar-001">لقد أرسلت ~r~الكثير من المال~s~. من فضلك، أعد المحاولة في ~r~جلسة أخرى~s~.</String>
@@ -1127,6 +1126,7 @@
         <String xml:lang="lv-LV">Jūs esat nosūtījis ~r~pārāk daudz naudas~s~. Lūdzu, mēģiniet vēlreiz ~r~citā sesijā~s~.</String>
         <String xml:lang="tr-TR">~r~Çok fazla para ~s~gönderdin. Lütfen, ~r~başka bir oturumda ~s~tekrar dene.</String>
         <String xml:lang="fr-FR">Vous avez envoyé ~r~trop d'argent~s~. Veuillez réessayer dans ~r~une autre session~s~.</String>
+        <String xml:lang="es-ES">Enviaste ~r~demasiado dinero~s~. Intenta de nuevo en ~r~otra sesión~s~ (después del reinicio).</String>
         <String xml:lang="no-NO">Du sendte ~r~for mye penger~s~. Vennligst prøv igjen i ~r~en annen økt~s~.</String>
         <String xml:lang="sv-SE">Du skickade ~r~för mycket pengar~s~. Vänligen försök igen i ~r~en annan session~s~.</String>
     </Entry>
@@ -1136,7 +1136,6 @@
         <String xml:lang="nl-NL">Je verzendt ~r~geld te snel~s~. ~r~Wacht ~s~voordat je opnieuw geld verzendt.</String>
         <String xml:lang="it-IT">Stai inviando ~r~denaro troppo velocemente~s~. Per favore, ~r~aspetta~s~ prima di inviare denaro di nuovo.</String>
         <String xml:lang="pl-PL">Wysyłasz ~r~pieniądze za szybko~s~. Proszę, ~r~poczekaj ~s~zanim wyślesz pieniądze ponownie.</String>
-        <String xml:lang="es-ES">Está enviando ~r~dinero demasiado rápido~s~. Por favor, ~r~espera ~s~antes de volver a enviar dinero.</String>
         <String xml:lang="pt-BR">Você enviou ~r~muito dinheiro~s~. Tente novamente em outra sessão.</String>
         <String xml:lang="de-DE">Du sendest das ~r~Geld zu schnell~s~. Bite ~r~warte~s~, bevor du erneut Geld sendest.</String>
         <String xml:lang="ar-001">أنت ترسل ~r~الأموال بسرعة كبيرة~s~. من فضلك ~r~انتظر~s~قبل إرسال الأموال مرة أخرى.</String>
@@ -1148,6 +1147,7 @@
         <String xml:lang="no-NO">Du sender ~r~penger for fort~s~. Vennligst ~r~vent ~s~før du sender penger igjen.</String>
         <String xml:lang="fr-FR">Vous envoyez de ~r~l'argent trop vite~s~. Veuillez ~r~patienter ~s~avant d'envoyer à nouveau de l'argent.</String>
         <String xml:lang="sv-SE">Du skickar ~r~pengar för snabbt~s~. Vänligen ~r~vänta ~s~innan du skickar pengar igen.</String>
+        <String xml:lang="es-ES">Está enviando ~r~dinero demasiado rápido~s~. ~r~Espera ~s~antes de volver a enviar dinero.</String>
     </Entry>
 
     <Entry Id="player_received_too_much_money">
@@ -1155,7 +1155,6 @@
         <String xml:lang="nl-NL">Deze speler heeft ~r~te veel geld~s~ ontvangen. Probeer het ~r~later~s~ opnieuw.</String>
         <String xml:lang="it-IT">Questo giocatore ha ricevuto ~r~troppo denaro~s~. Per favore, prova ~r~più tardi~s~.</String>
         <String xml:lang="pl-PL">Ten gracz otrzymał ~r~za dużo pieniędzy~s~. Proszę, spróbuj ponownie ~r~później~s~.</String>
-        <String xml:lang="es-ES">Este jugador ha recibido ~r~demasiado dinero~s~. Por favor, inténtelo de nuevo ~r~más tarde~s~.</String>
         <String xml:lang="pt-BR">Este jogador recebeu ~r~muito dinheiro~s~. Por favor, tente novamente ~r~mais tarde~s~.</String>
         <String xml:lang="de-DE">Dieser Spieler hat ~r~zu viel Geld ~s~erhalten. Bitte versuche es ~r~später erneut~s~.</String>
         <String xml:lang="ar-001">لقد تلقى هذا اللاعب ~r~الكثير من المال~s~. من فضلك، حاول مرة أخرى ~r~لاحقًا~s~.</String>
@@ -1165,6 +1164,7 @@
         <String xml:lang="lv-LV">Šīs spēlētājs saņema ~r~pārāk daudz naudas~s~. Lūdzu, mēģiniet vēlreiz ~r~vēlāk~s~.</String>
         <String xml:lang="tr-TR">Bu oyuncu ~r~çok fazla para ~s~aldı. Lütfen, ~r~daha sonra ~s~tekrar deneyin.</String>
         <String xml:lang="fr-FR">Ce joueur a reçu ~r~trop d'argent~s~. Veuillez réessayer ~r~plus tard~s~.</String>
+        <String xml:lang="es-ES">Este jugador recibió ~r~demasiado dinero~s~. Inténtalo de nuevo ~r~más tarde~s~.</String>
         <String xml:lang="no-NO">Denne spilleren har mottatt ~r~for mye penger~s~. Vennligst prøv igjen ~r~later~s~.</String>
         <String xml:lang="sv-SE">Den här spelaren har fått ~r~för mycket pengar~s~. Vänligen försök igen ~r~later~s~.</String>
     </Entry>
@@ -1174,7 +1174,6 @@
         <String xml:lang="nl-NL">Deze speler heeft ~r~recent ~s~al geld ontvangen. Probeer het ~r~later~s~ opnieuw.</String>
         <String xml:lang="it-IT">Questo giocatore ha ~r~recentemente ~s~ricevuto denaro. Per favore, prova ~r~più tardi~s~.</String>
         <String xml:lang="pl-PL">Ten gracz otrzymał ~r~przed chwilą ~s~pieniądze. Proszę, spróbuj ponownie ~r~później~s~.</String>
-        <String xml:lang="es-ES">Este jugador ha ~r~recientemente ~s~recibido dinero. Por favor, inténtelo de nuevo ~r~más tarde~s~.</String>
         <String xml:lang="pt-BR">Este jogador ~r~recebeu dinheiro recentemente~s~. Por favor, tente novamente ~r~mais tarde~s~.</String>
         <String xml:lang="de-DE">Dieser Spieler hat ~r~vor Kurzem ~s~Geld erhalten. Bitte warte versuche es ~r~später erneut~s~.</String>
         <String xml:lang="ar-001">لقد تلقى هذا اللاعب أموالاً ~r~مؤخرًا~s~ من فضلك، حاول مرة أخرى ~r~لاحقًا~s~.</String>
@@ -1184,6 +1183,7 @@
         <String xml:lang="lv-LV">Šīs spēlētājs ~r~nesen ~s~saņēma naudu. Lūdzu, meģiniet vēlreiz ~r~vēlāk~s~.</String>
         <String xml:lang="tr-TR">Bu oyuncu ~r~yakın zamanda ~s~para aldı. Lütfen, ~r~daha sonra ~s~tekrar deneyin.</String>
         <String xml:lang="fr-FR">Ce joueur a reçu de l'argent ~r~récemment~s~. Veuillez réessayer ~r~plus tard~s~.</String>
+        <String xml:lang="es-ES">Este jugador recibió dinero ~r~recientemente~s~. Inténtalo de nuevo ~r~más tarde~s~.</String>
         <String xml:lang="no-NO">Denne spilleren har ~r~nylig ~s~mottatt penger. Vennligst prøv igjen ~r~later~s~.</String>
         <String xml:lang="sv-SE">Den här spelaren har ~r~nyligen ~s~fick pengar. Vänligen, försök igen ~r~senare~s~.</String>
     </Entry>
@@ -1193,7 +1193,6 @@
         <String xml:lang="nl-NL">~r~Je hebt geen voertuig met dat kentekenplaat.</String>
         <String xml:lang="it-IT">~r~Non possiedi un veicolo con quella targa.</String>
         <String xml:lang="pl-PL">~r~Nie masz pojazdu z tą tablicą rejestracyjną.</String>
-        <String xml:lang="es-ES">~r~Usted no tiene un vehículo con esa matrícula.</String>
         <String xml:lang="pt-BR">~r~Você não tem um veículo com esse registro.</String>
         <String xml:lang="de-DE">~r~Du hast kein Fahrzeug mit diesem Kennzeichen.</String>
         <String xml:lang="ar-001">~r~ليس لديك سيارة تحمل لوحة الترخيص تلك.</String>
@@ -1203,6 +1202,7 @@
         <String xml:lang="lv-LV">~r~Jums nav transportlīdzekļa ar doto reģistrācijas numuru.</String>
         <String xml:lang="tr-TR">~r~Bu plakaya sahip bir aracın yok.</String>
         <String xml:lang="fr-FR">~r~Vous n'avez pas de véhicule avec cette plaque d'immatriculation.</String>
+        <String xml:lang="es-ES">~r~No tienes un vehículo con esa matrícula.</String>
         <String xml:lang="no-NO">~r~Du har ikke et kjøretøy med det bilskiltet.</String>
         <String xml:lang="sv-SE">~r~Du har inget fordon med den registreringsskylten.</String>
     </Entry>
@@ -1228,7 +1228,6 @@
         <String xml:lang="nl-NL">~r~Kan hier geen voertuig afleveren! Verplaats naar een andere locatie, aub.</String>
         <String xml:lang="it-IT">~r~Impossibile consegnare un veicolo qui! Per favore, spostati in un'altra posizione.</String>
         <String xml:lang="pl-PL">~r~Nie można dostarczyć tu pojazdu! Proszę, pójdź do innej lokalizacji.</String>
-        <String xml:lang="es-ES">~r~¡No se puede entregar un vehículo aquí! Por favor, desplácese a otra ubicación.</String>
         <String xml:lang="pt-BR">~r~Um veículo não pode ser entregue aqui! Por favor, vá para outro local.</String>
         <String xml:lang="de-DE">~r~Hier kann kein Fahrzeug geliefert werden! Bitte gehe zu einer anderen Position.</String>
         <String xml:lang="ar-001">~r~غير قادر على تسليم السيارة هنا! من فضلك، انتقل إلى مكان آخر.</String>
@@ -1237,6 +1236,7 @@
         <String xml:lang="hi-Latn">~r~Iss jagah vehicle deliver nahi kiya ja sakta! Please, kisi aur location pe move karo.</String>
         <String xml:lang="lv-LV">~r~Nav iespējams piegādāt transportlīdzekli šeit! Lūdzu, pārvietojieties uz citu vietu.</String>
         <String xml:lang="tr-TR">~r~Buraya araç teslim edilemiyor! Lütfen, başka bir yere git.</String>
+        <String xml:lang="es-ES">~r~¡No es posible pedir tu vehículo aquí! Cambia de ubicación e intenta de nuevo.</String>
         <String xml:lang="no-NO">~r~Kan ikke levere et kjøretøy her! Vennligst flytt til et annet sted.</String>
         <String xml:lang="sv-SE">~r~Kan inte leverera ett fordon här! Snälla, flytta till en annan plats.</String>
         <String xml:lang="fr-FR">~r~Impossible de livrer un véhicule ici! Veuillez changer d'emplacement.</String>
@@ -1247,7 +1247,6 @@
         <String xml:lang="nl-NL">~r~Je kunt hier geen voertuig laten bezorgen!</String>
         <String xml:lang="it-IT">~r~Il tuo veicolo non può essere consegnato qui!</String>
         <String xml:lang="pl-PL">~r~Pojazd nie może być tu dostarczony!</String>
-        <String xml:lang="es-ES">~r~¡No puedes conseguir que te entreguen un vehículo aquí!</String>
         <String xml:lang="pt-BR">~r~Você não pode receber um veículo entregue aqui!</String>
         <String xml:lang="de-DE">~r~Du kannst hier kein Fahrzeug geliefert bekommen!</String>
         <String xml:lang="ar-001">~r~لا يمكنك تسليم مركبة هنا!</String>
@@ -1256,6 +1255,7 @@
         <String xml:lang="hi-Latn">~r~Aap yahan vehicle deliver nahi karwa sakte!</String>
         <String xml:lang="lv-LV">~r~Jūs nevarat pasūtīt transportlīdzekļa pegādi šeit!</String>
         <String xml:lang="tr-TR">~r~Buraya araç teslim edilemez!</String>
+        <String xml:lang="es-ES">~r~¡No es posible recibir tu vehículo aquí!</String>
         <String xml:lang="no-NO">~r~Du kan ikke få et kjøretøy levert her!</String>
         <String xml:lang="sv-SE">~r~Du kan inte få ett fordon levererat här!</String>
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas vous faire livrer un véhicule ici!</String>
@@ -1266,7 +1266,6 @@
         <String xml:lang="nl-NL">~r~Je huidige voertuig is gekoppeld aan een takelwagen!</String>
         <String xml:lang="it-IT">~r~Il tuo veicolo attuale è attaccato ad un carro attrezzi!</String>
         <String xml:lang="pl-PL">~r~Twój obecny pojazd jest na lawecie!</String>
-        <String xml:lang="es-ES">~r~¡Su vehículo actual está enganchado a una grúa!</String>
         <String xml:lang="pt-BR">~r~Seu veículo atual está conectado a um caminhão de reboque!</String>
         <String xml:lang="de-DE">~r~Dein aktuelles Fahrzeug ist an einem Abschlepper angehakt!</String>
         <String xml:lang="ar-001">~r~سيارتك الحالية متصلة بشاحنة سحب!</String>
@@ -1276,6 +1275,7 @@
         <String xml:lang="lv-LV">~r~Jūsu pašreizējais transportlīdzeklis ir uz evakuatora.</String>
         <String xml:lang="tr-TR">~r~Mevcut aracın bir çekiciye bağlı!</String>
         <String xml:lang="fr-FR">~r~Votre véhicule actuel est attaché à une dépanneuse!</String>
+        <String xml:lang="es-ES">~r~¡Tu vehículo está siendo remolcado por una grúa!</String>
         <String xml:lang="no-NO">~r~Ditt nåværende kjøretøy er festet til en bergingsbil!</String>
         <String xml:lang="sv-SE">~r~Ditt nuvarande fordon är kopplat till en bärgningsbil!</String>
     </Entry>
@@ -1385,7 +1385,6 @@
         <String xml:lang="nl-NL">Je hebt je ~b~baan~s~ veranderd. Je voertuig levering is ~r~geannuleerd~s~.</String>
         <String xml:lang="it-IT">Hai cambiato ~b~lavoro~s~. La consegna del tuo veicolo è stata ~r~annullata~s~.</String>
         <String xml:lang="pl-PL">Zmieniłeś ~b~pracę~s~. Dostawa pojazdu została ~r~anulowana~s~.</String>
-        <String xml:lang="es-ES">Usted ha cambiado su ~b~trabajo~s~. La entrega de su vehículo ha sido ~r~canceladado~s~.</String>
         <String xml:lang="pt-BR">Você mudou de ~b~emprego~s~. A entrega de seu veículo foi ~r~cancelada~s~.</String>
         <String xml:lang="de-DE">Du hast deinen ~b~Job ~s~gewechselt. Deine Fahrzeuglieferung wurde ~r~abgebrochen~s~.</String>
         <String xml:lang="ar-001">لقد قمت بتغيير ~b~وظيفتك~s~.لقد تم ~r~إلغاء~s~ تسليم سيارتك.</String>
@@ -1394,6 +1393,7 @@
         <String xml:lang="hi-Latn">Aapne apni ~b~job ~s~change kar liya hai. Toh aapki vehicle delivery ~r~cancel ho gaya hai~s~.</String>
         <String xml:lang="lv-LV">Jūs mainījat savu ~b~darbu~s~. Jūsu transportlīdzekļa piegāde tika ~r~atcelta~s~.</String>
         <String xml:lang="tr-TR">~b~Mesleğini ~s~değiştirdin. Araç teslimatınız ~r~iptal edildi~s~.</String>
+        <String xml:lang="es-ES">Cambiaste de ~b~trabajo~s~. La entrega de tu vehículo fue ~r~cancelada~s~.</String>
         <String xml:lang="no-NO">Du har endret ~b~jobb~s~. Leveringen av kjøretøyet er ~r~kansellert~s~.</String>
         <String xml:lang="sv-SE">Du har bytt ~b~jobb~s~. Din fordonsleverans har ~r~inställts~s~.</String>
         <String xml:lang="fr-FR">Vous avez changé de ~b~métier~s~. La livraison de votre véhicule a été ~r~annulée~s~.</String>
@@ -1404,13 +1404,13 @@
         <String xml:lang="nl-NL">Je ~r~hebt het gebied verlaten~s~. Je voertuig levering is ~r~geannuleerd~s~.</String>
         <String xml:lang="it-IT">Hai ~r~lasciato l'area~s~. La consegna del tuo veicolo è stata ~r~annullata~s~.</String>
         <String xml:lang="pl-PL">~r~Opuściłeś okolicę~s~. Dostawa pojazdu została ~r~anulowana~s~.</String>
-        <String xml:lang="es-ES">Ha ~r~abandonado la zona~s~. La entrega de su vehículo ha sido ~r~cancelada~s~.</String>
         <String xml:lang="pt-BR">Você ~r~abandonou a área~s~. A entrega de seu veículo foi ~r~cancelada~s~.</String>
         <String xml:lang="de-DE">Du hast den ~r~Bereich verlassen~s~. Deine Fahrzeuglieferung wurde ~r~abgebrochen~s~.</String>
         <String xml:lang="ar-001">لقد ~r~غادرت المنطقة~s~. لقد تم ~r~إلغاء~s~ تسليم سيارتك.</String>
         <String xml:lang="th-TH">คุณ ~r~ออกจากพื้นที่~s~ การส่งมอบยานพาหนะของคุณ ~r~ยกเลิก~s~</String>
         <String xml:lang="id-ID">Anda ~r~meninggalkan area~s~. Pengiriman kendaraan anda ~r~dibatalkan~s~.</String>
         <String xml:lang="hi-Latn">Aap ~r~area se chale gaye ~s~ho. Toh aapki vehicle delivery ~r~cancel ho gayi hai~s~.</String>
+        <String xml:lang="es-ES">~r~Abandonaste la zona~s~. La entrega de tu vehículo fue ~r~cancelada~s~.</String>
         <String xml:lang="lv-LV">Jūs ~r~atstājat zonu~s~. Jūsu transportlīdzekļa piegāde tika ~r~atcelta~s~.</String>
         <String xml:lang="tr-TR">~r~Bölgeyi terk ettin~s~. Araç teslimatınız ~r~iptal edildi~s~.</String>
         <String xml:lang="no-NO">Du ~r~forlot området~s~. Leveringen av kjøretøyet er ~r~kansellert~s~.</String>
@@ -1423,7 +1423,6 @@
         <String xml:lang="nl-NL">Je bezorger is ~r~vermoord~s~. Je voertuig levering is ~r~geannuleerd~s~.</String>
         <String xml:lang="it-IT">Il tuo parcheggiatore è stato ~r~ucciso~s~. La consegna del tuo veicolo è stata ~r~annullata~s~.</String>
         <String xml:lang="pl-PL">Twój parkingowy został ~r~zabity~s~. Dostawa pojazdu została ~r~anulowana~s~.</String>
-        <String xml:lang="es-ES">Su valet ha sido ~r~asesinado~s~. La entrega de su vehículo ha sido ~r~cancelada~s~.</String>
         <String xml:lang="pt-BR">Seu manobrista foi ~r~assassinado~s~. A entrega de seu veículo foi ~r~cancelada~s~.</String>
         <String xml:lang="de-DE">Dein Lieferant wurde ~r~getötet~s~. Deine Fahrzeuglieferung wurde ~r~abgebrochen~s~.</String>
         <String xml:lang="ar-001">لقد تم ~r~قتل~s~ خادمك. لقد تم ~r~إلغاء~s~ تسليم سيارتك.</String>
@@ -1433,6 +1432,7 @@
         <String xml:lang="lv-LV">Jūsu sulainis tika ~r~nogalināts~s~. Jūsu transportlīdzekļa piegāde tika ~r~atcelta~s~.</String>
         <String xml:lang="tr-TR">Valeniz ~r~öldürüldü~s~. Araç teslimatınız ~r~iptal edildi~s~.</String>
         <String xml:lang="fr-FR">Votre valet a été ~r~tué~s~. La livraison de votre véhicule a été ~r~annulée~s~.</String>
+        <String xml:lang="es-ES">~r~Mataron~s~ a tu valet. Se ~r~canceló~s~ la entrega de tu vehículo.</String>
         <String xml:lang="no-NO"> Betjenten din har blitt ~r~drept~s~. Leveringen av kjøretøyet er ~r~kansellert~s~.</String>
         <String xml:lang="sv-SE">Din betjänt har blivit ~r~dödad~s~. Ditt fordonsleverans har ~r~inställts~s~.</String>
     </Entry>
@@ -1442,7 +1442,6 @@
         <String xml:lang="nl-NL">~r~Je bent te ver weg van de wegen. Je voertuig levering is geannuleerd.</String>
         <String xml:lang="it-IT">~r~Sei troppo lontano da qualsiasi strada. La consegna del tuo veicolo è stata annullata.</String>
         <String xml:lang="pl-PL">~r~Jesteś za daleko od jakiejkolwiek drogi. Dostawa pojazdu została anulowana.</String>
-        <String xml:lang="es-ES">~r~Estás demasiado lejos de cualquier carretera. Se ha cancelado la entrega de tu vehículo.</String>
         <String xml:lang="pt-BR">~r~Você está muito longe de qualquer estrada. A entrega de seu veículo foi cancelada.</String>
         <String xml:lang="de-DE">~r~Du bist zu weit von einer Straße entfernt. Deine Fahrzeuglieferung wurde abgebrochen.</String>
         <String xml:lang="ar-001">~r~أنت بعيد جدًا عن أي طريق. لقد تم إلغاء تسليم سيارتك.</String>
@@ -1452,6 +1451,7 @@
         <String xml:lang="lv-LV">~r~Jūs esat pārāk tālu no jebkura ceļa. Jūsu transportlīdzekļa piegāde tika atcelta.</String>
         <String xml:lang="tr-TR">~r~Yoldan çok uzaktasın. Araç teslimatın iptal edildi.</String>
         <String xml:lang="fr-FR">~r~Vous êtes trop loin d'une route. La livraison de votre véhicule a été annulée.</String>
+        <String xml:lang="es-ES">~r~Estás demasiado lejos de cualquier camino viable. Se canceló la entrega de tu vehículo.</String>
         <String xml:lang="no-NO">~r~Du er for langt fra noen vei. Leveringen av kjøretøyet er kansellert.</String>
         <String xml:lang="sv-SE">~r~Du är för långt från någon väg. Din fordonsleverans har avbrutits.</String>
     </Entry>
@@ -1461,9 +1461,9 @@
         <String xml:lang="nl-NL">~r~Kan het voertuig model niet downloaden (0x5C-3). Probeer het later nog eens.</String>
         <String xml:lang="it-IT">~r~Impossibile caricare il modello del veicolo (0x5C-3). Per favore, prova di nuovo più tardi.</String>
         <String xml:lang="pl-PL">~r~Pobranie modelu pojazdu niepomyślne (0x5C-3). Spróbuj ponownie później.</String>
-        <String xml:lang="es-ES">~r~No se ha podido cargar el modelo de vehículo (0x5C-3). Por favor, inténtelo de nuevo más tarde.</String>
         <String xml:lang="pt-BR">~r~O modelo do veículo (0x5C-3) não pôde ser carregado. Tente novamente mais tarde.</String>
         <String xml:lang="de-DE">~r~Dieses Fahrzeug-Modell kann nicht geladen werden (0x5C-3). Bitte versuche es später erneut.</String>
+        <String xml:lang="es-ES">~r~No se ha podido cargar el modelo de vehículo (0x5C-3). Inténtalo más tarde.</String>
         <String xml:lang="ar-001">~r~غير قادر على تحميل طراز المركبة (0x5C-3). من فضلك حاول مرة أخرى لاحقا.</String>
         <String xml:lang="th-TH">~r~ไม่สามารถโหลดโมเดลยานพาหนะได้ (0x5C-3) กรุณาลองอีกครั้งในภายหลัง</String>
         <String xml:lang="id-ID">~r~Tidak dapat memuat model kendaraan (0x5C-3). Mohon, coba kembali nanti.</String>
@@ -1499,7 +1499,6 @@
         <String xml:lang="nl-NL">~r~Je kan de garderobe niet gebruiken wanneer je niet de GTA:O karakter bent.</String>
         <String xml:lang="it-IT">~r~Non puoi usare l'armadio quando non sei il personaggio di GTA:O.</String>
         <String xml:lang="pl-PL">~r~Nie możesz uzywać garderoby gdy nie jesteś postacią z GTA:O.</String>
-        <String xml:lang="es-ES">~r~No puedes usar el armario cuando no eres el personaje de GTA:O.</String>
         <String xml:lang="pt-BR">~r~Não é possível usar o armário quando você não é o personagem do GTA:O.</String>
         <String xml:lang="de-DE">~r~Du kannst den Kleiderschrank nicht nutzen, wenn du kein GTA:O Charakter bist.</String>
         <String xml:lang="ar-001">~r~لا يمكنك استخدام خزانة الملابس عندما لا تكون شخصية GTA:O.</String>
@@ -1509,6 +1508,7 @@
         <String xml:lang="lv-LV">~r~Jūs nevarat lietot garderobi kamēr jūs neesat GTA:O personība.</String>
         <String xml:lang="tr-TR">~r~GTA:O karakteri değilken gardırobunuzu kullanamazsınız.</String>
         <String xml:lang="fr-FR">~r~Vous ne pouvez pas utiliser la garde-robe quand vous n'avez pas un personnage de GTA:O.</String>
+        <String xml:lang="es-ES">~r~No puedes accesar al armario con un personaje o ped diferente al de GTA:Online.</String>
         <String xml:lang="no-NO">~r~Du kan ikke bruke garderoben når du ikke er GTA:O-karakteren.</String>
         <String xml:lang="sv-SE">~r~Du kan inte använda garderoben när du inte är GTA:O-karaktären.</String>
     </Entry>
@@ -1518,7 +1518,6 @@
         <String xml:lang="nl-NL">~r~Spammen ~s~van de PTT-toets zal ervoor zorgen dat je een ~r~time-out krijgt ~s~van de ~b~radio~s~.</String>
         <String xml:lang="it-IT">~s~Lo ~r~spam ~s~del tasto PTT ti causerà un ~r~time out ~s~dalla ~b~radio~s~.</String>
         <String xml:lang="pl-PL">~r~Spamowanie ~s~przycisku PTT spowoduje ~r~zablokowanie ~s~możliwości użytku ~b~radia~s~.</String>
-        <String xml:lang="es-ES">~r~Spamear ~s~la tecla PTT hará que usted sea ~r~muteado ~s~de la radio ~b~radio~s~.</String>
         <String xml:lang="pt-BR">~r~Pressionar ~s~a tecla PTT fará com que você seja ~r~desligado ~s~do rádio ~b~rádio~s~.</String>
         <String xml:lang="de-DE">~r~Das Spammen ~s~der PTT-Taste wird dafür sorgen, dass du vom ~b~Funk~s~ ~r~temporär gesperrt ~s~wirst.</String>
         <String xml:lang="ar-001">~r~كثرة استخدام ~s~زر ال PTT سوف يتسبب في ~r~فصلك ~s~من ~b~الراديو~s~.</String>
@@ -1527,6 +1526,7 @@
         <String xml:lang="hi-Latn">~r~Spam ~s~karoge PTT key, toh aapko ~r~time-out ~s~kar diya jayega ~b~radio ~s~se.</String>
         <String xml:lang="lv-LV">~s~Radio pogas ~r~spamošana ~s~izraisīs jūsu laicīgo ~r~bloķēšanu ~s~no ~b~radio~s~.</String>
         <String xml:lang="tr-TR">~s~PTT tuşunu ~r~spamlamak ~b~radyodan ~r~zaman aşımına ~s~uğramanıza sebep olur.</String>
+        <String xml:lang="es-ES">~r~Spamear ~s~la tecla para hablar en radio hará que te ~r~silencien ~s~de la ~b~radio~s~.</String>
         <String xml:lang="no-NO">~r~Spamming ~s~PTT-tasten vil føre til at du blir ~r~tidsavbrutt ~s~fra ~b~radioen~s~.</String>
         <String xml:lang="sv-SE">~r~Spamming ~s~PTT-tangenten kommer att göra att du ~r~timeout ~s~från ~b~radio~s~.</String>
         <String xml:lang="fr-FR">~s~Si vous utilisez la touche pour parler de manière ~r~abusive~s~, vous serez ~r~déconnecté ~s~de la ~b~radio~s~.</String>
@@ -1537,7 +1537,6 @@
         <String xml:lang="nl-NL">Je moet ~r~{0} seconden ~s~wachten voordat je je radio weer aan kan doen.</String>
         <String xml:lang="it-IT">Devi aspettare ~r~{0} secondi ~s~prima di riaccendere la tua radio.</String>
         <String xml:lang="pl-PL">Musisz poczekać ~r~{0} sekund ~s~przed ponownym włączeniem radia.</String>
-        <String xml:lang="es-ES">Usted debe esperar ~r~{0} segundos ~s~antes de encender su radio de nuevo.</String>
         <String xml:lang="pt-BR">Você deve esperar ~r~{0} segundos ~s~antes de ligar o rádio novamente.</String>
         <String xml:lang="de-DE">Du musst ~r~{0} Sekunden ~s~warten, bevor du deinen Funk erneut einschalten kannst.</String>
         <String xml:lang="ar-001">يجب عليك الانتظار ~r~{0} ثانية ~s~قبل تشغيل الراديو مرة أخرى.</String>
@@ -1546,6 +1545,7 @@
         <String xml:lang="hi-Latn">Aapko apna radio dobara on karne se pehle ~r~{0} seconds ~s~wait karna hoga.</String>
         <String xml:lang="lv-LV">Jums ir jāpagaida ~r~{0} sekundes ~s~pirms radio atkartējās ieslēgšanas.</String>
         <String xml:lang="tr-TR">Radyonuzu tekrar açmadan önce ~r~{0} saniye ~s~beklemelisiniz.</String>
+        <String xml:lang="es-ES">Espera ~r~{0} segundos ~s~antes de encender su radio nuevamente.</String>
         <String xml:lang="no-NO">Du må vente ~r~{0} sekunder ~s~før du slår på radioen igjen.</String>
         <String xml:lang="sv-SE">Du måste vänta ~r~{0} sekunder~s~ innan du slår på din radio igen.</String>
         <String xml:lang="fr-FR">Vous devez attendre ~r~{0} secondes ~s~avant d'utiliser votre radio de nouveau.</String>
@@ -1578,7 +1578,6 @@
         <String xml:lang="pl-PL">Emotki</String>
         <String xml:lang="it-IT">Emotes</String>
         <String xml:lang="de-DE">Emotes</String>
-        <String xml:lang="es-ES">Emotes</String>
         <String xml:lang="pt-BR">Emotes</String>
         <String xml:lang="ar-001">العواطف</String>
         <String xml:lang="th-TH">อารมณ์</String>
@@ -1586,6 +1585,7 @@
         <String xml:lang="hi-Latn">Emotes</String>
         <String xml:lang="lv-LV">Emocijas</String>
         <String xml:lang="tr-TR">Emojiler</String>
+        <String xml:lang="es-ES">Animaciones</String>
         <String xml:lang="no-NO">Følelser</String>
         <String xml:lang="sv-SE">Danser</String>
     </Entry>
@@ -1597,7 +1597,6 @@
         <String xml:lang="pl-PL">Odtwarzaj animacje.</String>
         <String xml:lang="it-IT">Riproduci le animazioni.</String>
         <String xml:lang="de-DE">Spiele Animationen.</String>
-        <String xml:lang="es-ES">Reproducir animaciones.</String>
         <String xml:lang="pt-BR">Reproduzir animações.</String>
         <String xml:lang="ar-001">تشغيل حركات</String>
         <String xml:lang="th-TH">เล่นภาพเคลื่อนไหว</String>
@@ -1605,6 +1604,7 @@
         <String xml:lang="hi-Latn">Animations play karo.</String>
         <String xml:lang="lv-LV">Spēlēt animācijas.</String>
         <String xml:lang="tr-TR">Animasyonları oynat.</String>
+        <String xml:lang="es-ES">Reproducir animaciones (emotes).</String>
         <String xml:lang="no-NO">Spill av animasjoner.</String>
         <String xml:lang="sv-SE">Spela animationer.</String>
     </Entry>
@@ -1635,7 +1635,6 @@
         <String xml:lang="pl-PL">Centrum Pomocy CnR V</String>
         <String xml:lang="it-IT">Centro assistenza di CnR V</String>
         <String xml:lang="de-DE">CnR V Hilfszentrum</String>
-        <String xml:lang="es-ES">CnR V Centro de ayuda</String>
         <String xml:lang="pt-BR">CnR V Central de ajuda</String>
         <String xml:lang="ar-001">مركز مساعدة CnR V</String>
         <String xml:lang="th-TH">ศูนย์ช่วยเหลือ CnR V</String>
@@ -1643,6 +1642,7 @@
         <String xml:lang="hi-Latn">CnR V Help Center</String>
         <String xml:lang="lv-LV">CnR V Palīdzības Centrs</String>
         <String xml:lang="tr-TR">CnR V Yardım merkezi</String>
+        <String xml:lang="es-ES">CnR V - Centro de ayuda</String>
         <String xml:lang="no-NO">CnR V-hjelpesenter</String>
         <String xml:lang="sv-SE">CnR V Hjälpcenter</String>
     </Entry>
@@ -1710,7 +1710,6 @@
         <String xml:lang="pl-PL">Sprawdź status swoich zgłoszeń</String>
         <String xml:lang="it-IT">Visualizza lo stato delle tue segnalazioni</String>
         <String xml:lang="de-DE">Sieh dir den Statur deiner Meldungen an</String>
-        <String xml:lang="es-ES">Ver el estado de sus reportes</String>
         <String xml:lang="pt-BR">Visualizar o status de seus denuncias</String>
         <String xml:lang="ar-001">عرض حالة البلاغات الخاصة بك</String>
         <String xml:lang="th-TH">ดูสถานะของรายงานของคุณ</String>
@@ -1718,6 +1717,7 @@
         <String xml:lang="hi-Latn">Apni reports ka status dekhe</String>
         <String xml:lang="lv-LV">Pārskatiet savu ziņojumu statusu</String>
         <String xml:lang="tr-TR">Raporlarının durumuna bak</String>
+        <String xml:lang="es-ES">Comprueba estado de tus reportes</String>
         <String xml:lang="no-NO">Se statusen til rapportene dine</String>
         <String xml:lang="sv-SE">Visa status för dina rapporter</String>
         <String xml:lang="fr-FR">Consulter le statut de vos signalements</String>
