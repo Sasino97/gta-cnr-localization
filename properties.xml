@@ -212,7 +212,6 @@
         <String xml:lang="pl-PL">~b~Wszedłeś do magazynu {0}.</String>
         <String xml:lang="nl-NL">~b~Je bent het warenhuis van {0} binnengegaan.</String>
         <String xml:lang="it-IT">Sei ~b~entrato nel magazzino di {0}.</String>
-        <String xml:lang="es-ES">Has ~b~entrado en el almacén de {0}.</String>
         <String xml:lang="pt-BR">Você ~b~entrou no depósito de {0}.</String>
         <String xml:lang="de-DE">Du hast ~b~{0}'s Lagerhaus betreten.</String>
         <String xml:lang="ar-001">لقد ~b~دخلت إلى مستودع {0}</String>
@@ -221,6 +220,7 @@
         <String xml:lang="zh-Hant">你 ~b~進入了 {0} 的倉庫.</String>
         <String xml:lang="hi-Latn">Aapne ~b~enter kiya {0}'s warehouse.</String>
         <String xml:lang="lv-LV">Jūs ienācāt {0} noliktavā.</String>
+        <String xml:lang="es-ES">~b~Entraste al almacén de {0}.</String>
         <String xml:lang="no-NO">Du gikk inn i {0}s lager.~b~</String>
         <String xml:lang="sv-SE">Du ~b~gick in i {0}s lager.</String>
         <String xml:lang="fr-FR">Vous êtes ~b~entré dans l'entrepôt de {0}.</String>
@@ -233,7 +233,6 @@
         <String xml:lang="pl-PL">Nie masz ~o~nakazu ~s~wejścia do magazynu. Możesz tylko wejść gdy zobaczysz wchodzącego ~o~poszukiwango kryminalistę~s~.</String>
         <String xml:lang="nl-NL">Je hebt geen ~o~bevel ~s~om dit warenhuis binnen te gaan. Je kan alleen naar binnen als je een ~o~gesignaleerde verdachte ~s~ziet binnenkomen.</String>
         <String xml:lang="it-IT">Non hai un ~o~mandato ~s~per entrare in questo magazzino. Puoi entrarci solo quando individui un ~o~ricercato ~s~che entra.</String>
-        <String xml:lang="es-ES">No tienes una ~o~orden ~s~para entrar en este almacén. Sólo se puede entrar cuando se ve un ~o~sospechoso buscado ~s~entrando.</String>
         <String xml:lang="pt-BR">Você não tem um ~o~mandado ~s~para entrar neste depósito. Você só pode entrar quando vir um ~o~suspeito procurado ~s~entrando.</String>
         <String xml:lang="de-DE">Du hast keinen ~o~Durchsuchungsbefehl~s~, um dieses Lagerhaus zu betreten. Du kannst es nur betreten, wenn du einen gesuchten Verdächtigen siehst, wie er das Lagerhaus betritt.</String>
         <String xml:lang="ar-001">ليس لديك ~o~ضمان ~s~لدخول هذا المستودع.لا يمكنك الدخول إلا عندما تكتشف ~o~دخول~s~ أحد المشتبه بهم المطلوبين</String>
@@ -247,6 +246,7 @@
         <String xml:lang="sv-SE">Du har ingen ~o~bekräftelse ~s~att gå in i detta lager. Du kan bara gå in när du ser en ~o~efterlyst misstänkt ~s~inträde.</String>
         <String xml:lang="tr-TR">Bu depoya girmek için bir ~o~arama emri~s~ne sahip değilsiniz. Sadece ~o~aranan bir şüpheli~s~yi gördüğünüzde girebilirsiniz.</String>
         <String xml:lang="cs-CZ">Nemáš ~o~povolení ~s~pro vstup do tohoto skladu. To můžeš udělat pouze pokud uvidíš ~o~podezřelého ~s~vstoupit.</String>
+        <String xml:lang="es-ES">No tienes una ~o~orden de allanamiento ~s~para entrar a este almacén. Sólo es posible entrar si ves a un ~o~sospechoso ~s~entrando.</String>
     </Entry>
 
     <Entry Id="warehouse_attempt_cooldown">
@@ -254,7 +254,6 @@
         <String xml:lang="pl-PL">~r~Musisz poczekać przed ponowną próbą wejścia.</String>
         <String xml:lang="nl-NL">~r~Je moet wachten voordat je weer probeert binnen te komen.</String>
         <String xml:lang="it-IT">~r~Devi attendere prima di tentare di entrare di nuovo.</String>
-        <String xml:lang="es-ES">~r~Debe esperar antes de intentar entrar de nuevo.</String>
         <String xml:lang="pt-BR">~r~Você deve aguardar antes de tentar entrar novamente.</String>
         <String xml:lang="de-DE">~r~Du musst warten, bevor du erneut versuchst, das Lagerhaus zu betreten.</String>
         <String xml:lang="ar-001">~r~يجب عليك الانتظار قبل محاولة الدخول مرة أخرى.</String>
@@ -264,6 +263,7 @@
         <String xml:lang="hi-Latn">~r~Aapko rukna hoga firse enter karne se pehle.</String>
         <String xml:lang="lv-LV">~r~Jums ir jāpagaida pirms ienākt vēlreiz.</String>
         <String xml:lang="fr-FR">~r~Vous devez attendre avant de pouvoir entrer de nouveau.</String>
+        <String xml:lang="es-ES">~r~Espera antes de intentar entrar de nuevo.</String>
         <String xml:lang="no-NO">~r~Du må vente før du prøver å gå inn igjen.</String>
         <String xml:lang="sv-SE">~r~Du måste vänta innan du försöker komma in igen.</String>
         <String xml:lang="tr-TR">~r~Tekrar girmeyi denemeden önce beklemelisin.</String>
@@ -639,8 +639,8 @@
         <String xml:lang="fr-FR">Vous ne possèdez aucune propriété :(</String>
         <String xml:lang="no-NO">Du eier ingen eiendom :(</String>
         <String xml:lang="sv-SE">Du äger ingen egendom :(</String>
-        <String xml:lang="es-ES">Usted no posee ninguna propiedad :(</String>
         <String xml:lang="pt-BR">Você não possui nenhuma propriedade :(</String>
+        <String xml:lang="es-ES">No has comprado ninguna propiedad :(</String>
         <String xml:lang="pl-PL">Nie posiadasz żadnej nieruchomości :(</String>
         <String xml:lang="tr-TR">Hiçbir mülke sahip değilsin :(</String>
         <String xml:lang="cs-CZ">Nevlastníš žádné nemovitosti :( </String>
@@ -657,8 +657,8 @@
         <String xml:lang="no-NO">Skaff deg eiendommer og de vil vises i denne menyen.</String>
         <String xml:lang="sv-SE">Skaffa fastigheter och de kommer att visas i den här menyn.</String>
         <String xml:lang="fr-FR">Acquérez des propriétés et elles seront affichées dans ce menu.</String>
-        <String xml:lang="es-ES">Adquirire propiedades y se mostrarán en este menú.</String>
         <String xml:lang="pt-BR">Vou adquirir propriedades e elas serão exibidas neste menu.</String>
+        <String xml:lang="es-ES">Adquiere propiedades y se mostrarán en este menú.</String>
         <String xml:lang="pl-PL">Zakup posiadłośći, a zostaną one wyświetlone w tym menu.</String>
         <String xml:lang="tr-TR">Mülk edindiğinizde, mülkleriniz bu menüde gösterilecek.</String>
         <String xml:lang="cs-CZ">Tvé zakoupené nemovitosti se zobrazí v tomto menu.</String>
