@@ -772,6 +772,7 @@
         <String xml:lang="sv-SE">Varna</String>
         <String xml:lang="lv-LV">Brīdinājums</String>
         <String xml:lang="ga-IE">Fógra</String>
+        <String xml:lang="vi-VN">Cảnh báo</String>
     </Entry>
 
     <!-- nullnull{0} = Label (for example: Offer) -->
@@ -791,6 +792,7 @@
         <String xml:lang="zh-Hant">{0} (按住)</String>
         <String xml:lang="es-ES">{0} (Mantener)</String>
         <String xml:lang="ga-IE">{0} (coiméad)</String>
+        <String xml:lang="vi-VN">{0} (giữ)</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Sasino)
@@ -818,6 +820,7 @@
         <String xml:lang="hi-Latn">🛡️ ~b~CnR V Shield ~s~ne {0} ko {1} ke liye ban kiya ~r~{2} ~s~ke reason se. Total ban kiye gaye players: {3}</String>
         <String xml:lang="tr-TR">🛡️ ~b~CnR V Shield, ~s~{0} isimli oyuncuyu ~r~{2} ~s~nedeniyle {1} süreyle yasakladı. Toplam yasaklanan oyuncu sayısı: {3}</String>
         <String xml:lang="ga-IE">🛡️ ~b~CnR V Sciath ~s~bannáilte {0} ar feadh {1} ar feadh ~r~{2}~s~. Iomlán imreoirí bannáilte: {3}</String>
+        <String xml:lang="vi-VN">🛡️ ~b~CnR V Shield ~s~đã cấm {0} với lý do {1} trong thời gian ~r~{2}~s~. Tổng số người chơi bị cấm: {3}</String>
     </Entry>
 
     <Entry Id="weapon_can_only_be_used_by_police">
@@ -1791,6 +1794,7 @@
         <String xml:lang="tr-TR">{0} isimli oyuncunun engelini kaldırdın. Engel listesini M &gt; Yardım &gt; Engellenen oyuncular bölümünden yönetebilirsin.</String>
         <String xml:lang="zh-Hant">你成功的解除對 {0} 的封鎖. 在 M &gt; 幫助 &gt; 封鎖玩家 中管理你的黑名單.</String>
         <String xml:lang="ga-IE">Tá {0} díbhacáilte agat. Bainistigh do liosta bacáilte i M &gt; Cabhair &gt; Imreoirí bacáilte.</String>
+        <String xml:lang="vi-VN">Bạn đã bỏ chặn {0}. Quản lý danh sách chặn của bạn trong M &gt; Trợ giúp &gt; Người chơi bị chặn.</String>
     </Entry>
 
     <!-- nullnull{0} = Command + parameters (for example: /block [player id]) -->
@@ -1812,6 +1816,7 @@
         <String xml:lang="tr-TR">Kullanımı: {0}</String>
         <String xml:lang="zh-Hant">用法: {0}</String>
         <String xml:lang="ga-IE">Úsáid: {0}</String>
+        <String xml:lang="vi-VN">Cách sử dụng: {0}</String>
     </Entry>
 
     <!-- nullnull{0} = Target id (for example: 123) -->
@@ -1831,6 +1836,7 @@
         <String xml:lang="zh-Hant">玩家 id {0} 不在線.</String>
         <String xml:lang="es-ES">El jugador con el ID {0} está desconectado.</String>
         <String xml:lang="ga-IE">Níl aitheantas imreora {0} ceangailte.</String>
+        <String xml:lang="vi-VN">Người chơi với ID {0} không kết nối.</String>
     </Entry>
 
     <!-- nullnull{0} = Target player (for example: Stijnjw (152)) -->
@@ -1850,6 +1856,7 @@
         <String xml:lang="tr-TR">{0} bir partide değil.</String>
         <String xml:lang="es-ES">{0} no está en una party.</String>
         <String xml:lang="ga-IE">Níl {0} i bpáirtí.</String>
+        <String xml:lang="vi-VN">{0} không có trong nhóm nào.</String>
     </Entry>
 
     <!-- nullnull{0} = Party leader (for example: Stijnjw (152)) -->
@@ -1869,6 +1876,7 @@
         <String xml:lang="tr-TR">Parti lideri {0} çevrimdışı.</String>
         <String xml:lang="es-ES">El líder de la party ({0}) está desconectado.</String>
         <String xml:lang="ga-IE">Níl ceannaire an pháirtí {0} ceangailte.</String>
+        <String xml:lang="vi-VN">Trưởng nhóm {0} không kết nối.</String>
     </Entry>
 
     <!-- nullnull{0} = Party leader (for example: Stijnjw (152)) -->
@@ -1888,6 +1896,7 @@
         <String xml:lang="tr-TR">{0} isimli oyuncunun partisine katıldınız.</String>
         <String xml:lang="es-ES">Te uniste a la party de {0}</String>
         <String xml:lang="ga-IE">Tá tú tar éis dul le páirtí {0}.</String>
+        <String xml:lang="vi-VN">Bạn đã tham gia nhóm của {0}.</String>
     </Entry>
 
     <!-- nullnull{0} = New player in the party (for example: Sasino (153)) -->
@@ -1908,6 +1917,7 @@
         <String xml:lang="et-EE">{0} Liitus sinu grupiga.</String>
         <String xml:lang="es-ES">{0} se unió a tu party</String>
         <String xml:lang="ga-IE">Tá {0} tar éis dul le do pháirtí.</String>
+        <String xml:lang="vi-VN">{0} đã tham gia nhóm của bạn.</String>
     </Entry>
 
     <!-- nullnull{0} = Player that is trying to join the party (for example: Sasino (153))
@@ -1930,6 +1940,7 @@
         <String xml:lang="et-EE">{0} tahab liituda sinu ~y~grupiga~s~. Sisesta ~b~/party-invite {1} ~s~et vastu võtta.</String>
         <String xml:lang="ga-IE">Ba mhaith le {0} dul isteach i do ~y~pháirtí~s~. Clóscríobh ~b~/party-invite {1} ~s~chun glacadh leis.</String>
         <String xml:lang="es-ES">{0} quiere unirse a tu ~y~party~s~. Escribe ~b~/party-invite {1} ~s~en el chat para aceptar.</String>
+        <String xml:lang="vi-VN">{0} muốn tham gia ~y~nhóm~s~ của bạn. Gõ ~b~/party-invite {1} ~s~để chấp nhận.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152)) -->
@@ -1950,6 +1961,7 @@
         <String xml:lang="et-EE">{0} on juba grupis.</String>
         <String xml:lang="ga-IE">Tá {0} i bpáirtí cheana féin.</String>
         <String xml:lang="es-ES">{0} ya es miembro de una party.</String>
+        <String xml:lang="vi-VN">{0} đã có trong một nhóm rồi.</String>
     </Entry>
 
     <!-- {1} will only be added if the person you asked to join was NOT the leader of the party
@@ -1973,6 +1985,7 @@
         <String xml:lang="et-EE">Sa esitasid soovi liituda {0}'i grupiga. {1}</String>
         <String xml:lang="ga-IE">D'iarr tú dul isteach i bpáirtí {0}. {1}.</String>
         <String xml:lang="es-ES">Solicitaste unirte a la party de {0}'s party. {1}</String>
+        <String xml:lang="vi-VN">Bạn đã gửi yêu cầu tham gia nhóm của {0}. {1}</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152)) -->
@@ -1993,6 +2006,7 @@
         <String xml:lang="et-EE">Sa kutsusid {0} oma gruppi.</String>
         <String xml:lang="ga-IE">Thug tú cuireadh do {0} dul isteach i do pháirtí.</String>
         <String xml:lang="es-ES">{0} fue invitado a tu party.</String>
+        <String xml:lang="vi-VN">Bạn đã mời {0} tham gia nhóm của mình.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152))
@@ -2015,6 +2029,7 @@
         <String xml:lang="et-EE">{0} lahkus sinu grupist. {1}</String>
         <String xml:lang="ga-IE">D'fhág {0} do pháirtí. {1}</String>
         <String xml:lang="es-ES">{0} dejó la party. {1}</String>
+        <String xml:lang="vi-VN">{0} đã rời khỏi nhóm của bạn. {1}</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152)) -->
@@ -2035,6 +2050,7 @@
         <String xml:lang="et-EE">{0} visati sinu grupist välja.</String>
         <String xml:lang="ga-IE">Tá {0} curtha amach ó do pháirtí.</String>
         <String xml:lang="es-ES">{0} fue expulsado de tu party.</String>
+        <String xml:lang="vi-VN">{0} đã bị đá khỏi nhóm của bạn.</String>
     </Entry>
 
     <!-- For bottom-left info boxes (timers etc..) (all upper case please) -->
@@ -2055,6 +2071,7 @@
         <String xml:lang="et-EE">AEGA JÄÄNUD</String>
         <String xml:lang="ga-IE">AM FÁGTHA</String>
         <String xml:lang="es-ES">TIEMPO RESTANTE</String>
+        <String xml:lang="vi-VN">THỜI GIAN CÒN LẠI</String>
     </Entry>
 
     <Entry Id="sendwaypoint_player_received">
@@ -2161,6 +2178,7 @@
         <String xml:lang="fr-FR">🛡️ ~b~CnR V Shield ~s~a banni {0} du métier de {1} pendant {2} jours.</String>
         <String xml:lang="tr-TR">🛡️ ~b~CnR V Shield, ~s~{0} isimli oyuncuyu {1} mesleğinden {2} gün süreyle yasakladı.</String>
         <String xml:lang="ga-IE">🛡️ ~b~CnR V Sciath ~s~bhac {0} ón post {1} ar feadh {2} lá.</String>
+        <String xml:lang="vi-VN">🛡️ ~b~CnR V Shield ~s~đã cấm {0} khỏi công việc {1} trong {2} ngày.</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Sasino) -->
@@ -2182,6 +2200,7 @@
         <String xml:lang="tr-TR">{0} isimli oyuncuyu engellediniz. Engellenen oyuncuları yönetmek için M &gt; Yardım &gt; Engellenen oyuncular bölümünü kullanabilirsiniz.</String>
         <String xml:lang="zh-Hant">你成功封鎖了 Sasino{0}. 在 M &gt; 幫助 &gt; 封鎖玩家 中管理你的黑名單.</String>
         <String xml:lang="ga-IE">Tá tú tar éis {0} a bhacadh. Bainistigh do liosta bhlocáilte i M &gt; Cúnamh &gt; Imreoirí bhlocáilte.</String>
+        <String xml:lang="vi-VN">Bạn đã chặn {0}. Quản lý danh sách chặn của bạn trong M &gt; Trợ giúp &gt; Người chơi bị chặn.</String>
     </Entry>
 
     <!-- This is shown when a command can't be done on yourself, for example, typing "/party-invite 25" while you yourself are id 25  -->
@@ -2201,6 +2220,7 @@
         <String xml:lang="zh-Hant">你不能把目標設在自己身上.</String>
         <String xml:lang="es-ES">No puedes usar tu ID de jugador para esto</String>
         <String xml:lang="ga-IE">Ní féidir leat tú féin a roghnú mar sprioc-imreoir.</String>
+        <String xml:lang="vi-VN">Người chơi mục tiêu không thể là chính bạn.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152))
@@ -2223,10 +2243,12 @@
         <String xml:lang="et-EE">{0} kutsus sind oma ~y~gruppi~s~. Sisesta ~b~/party-join {1} ~s~et liituda.</String>
         <String xml:lang="ga-IE">Thug {0} cuireadh duit dul isteach ina ~y~bpáirtí~s~. Clóscríobh ~b~/party-join {1} ~s~chun glacadh leis.</String>
         <String xml:lang="es-ES">{0} te invitó a su ~y~party~s~. Escribe ~b~/party-join {1} ~s~en el chat para unirte.</String>
+        <String xml:lang="vi-VN">{0} đã mời bạn tham gia ~y~nhóm~s~ của họ. Gõ ~b~/party-join {1} ~s~để chấp nhận.</String>
     </Entry>
 
     <Entry Id="weekday_0">
         <String xml:lang="en-US">Sunday</String>
+        <String xml:lang="vi-VN">Chủ Nhật</String>
         <String xml:lang="no-NO">søndag</String>
         <String xml:lang="it-IT">Domenica</String>
         <String xml:lang="fr-FR">Dimanche</String>
@@ -2244,6 +2266,7 @@
 
     <Entry Id="weekday_1">
         <String xml:lang="en-US">Monday</String>
+        <String xml:lang="vi-VN">Thứ Hai</String>
         <String xml:lang="it-IT">Lunedì</String>
         <String xml:lang="no-NO">mandag</String>
         <String xml:lang="fr-FR">Lundi</String>
@@ -2274,6 +2297,7 @@
         <String xml:lang="ga-IE">Dé Máirt</String>
         <String xml:lang="et-EE">Teisipäev</String>
         <String xml:lang="es-ES">Martes</String>
+        <String xml:lang="vi-VN">Thứ Ba</String>
     </Entry>
 
     <Entry Id="weekday_3">
@@ -2292,6 +2316,7 @@
         <String xml:lang="ga-IE">Dé Céadaoin</String>
         <String xml:lang="et-EE">Kolmapäev</String>
         <String xml:lang="es-ES">Miércoles</String>
+        <String xml:lang="vi-VN">Thứ Tư</String>
     </Entry>
 
     <Entry Id="weekday_4">
@@ -2310,6 +2335,7 @@
         <String xml:lang="ga-IE">Déardaoin</String>
         <String xml:lang="et-EE">Neljapäev</String>
         <String xml:lang="es-ES">Jueves</String>
+        <String xml:lang="vi-VN">Thứ Năm</String>
     </Entry>
 
     <Entry Id="weekday_5">
@@ -2328,6 +2354,7 @@
         <String xml:lang="ga-IE">Dé hAoine</String>
         <String xml:lang="et-EE">Reede</String>
         <String xml:lang="es-ES">Viernes</String>
+        <String xml:lang="vi-VN">Thứ sáu</String>
     </Entry>
 
     <Entry Id="weekday_6">
@@ -2346,6 +2373,7 @@
         <String xml:lang="ga-IE">Dé Sathairn</String>
         <String xml:lang="et-EE">Laupäev</String>
         <String xml:lang="es-ES">Sábado</String>
+        <String xml:lang="vi-VN">Thứ Bảy</String>
     </Entry>
 
     <Entry Id="party_desc">
@@ -2363,6 +2391,7 @@
         <String xml:lang="ga-IE">Osclaíonn sé roghchlár an pháirtí.</String>
         <String xml:lang="et-EE">Avab grupi menüü</String>
         <String xml:lang="es-ES">Abre el menú de party</String>
+        <String xml:lang="vi-VN">Mở menu nhóm</String>
     </Entry>
 
     <Entry Id="menu_playerlist_subtitle">
@@ -2380,5 +2409,6 @@
         <String xml:lang="ga-IE">Roghnaigh imreoir</String>
         <String xml:lang="et-EE">Vali mängija</String>
         <String xml:lang="es-ES">Seleccionar jugador</String>
+        <String xml:lang="vi-VN">Chọn đối tượng</String>
     </Entry>
 </Entries>
