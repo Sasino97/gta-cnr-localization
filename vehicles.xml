@@ -2158,96 +2158,112 @@
         <String xml:lang="en-US">Active</String>
         <String xml:lang="it-IT">Attiva</String>
         <String xml:lang="vi-VN">Còn hoạt động</String>
+        <String xml:lang="sv-SE">Aktiv</String>
     </Entry>
 
     <Entry Id="menu_vehicles_destroyed">
         <String xml:lang="en-US">Destroyed</String>
         <String xml:lang="it-IT">Distrutta</String>
         <String xml:lang="vi-VN">Bị phá hủy</String>
+        <String xml:lang="sv-SE">Förstörd</String>
     </Entry>
 
     <Entry Id="menu_vehicles_impounded">
         <String xml:lang="en-US">Impounded</String>
         <String xml:lang="it-IT">Sequestrata</String>
         <String xml:lang="vi-VN">Bị tịch thu</String>
+        <String xml:lang="sv-SE">Beslagtagen</String>
     </Entry>
 
     <Entry Id="menu_vehicles_in_maintenance">
         <String xml:lang="en-US">In Maintenance</String>
         <String xml:lang="it-IT">In manutenzione</String>
         <String xml:lang="vi-VN">Đang bảo dưỡng</String>
+        <String xml:lang="sv-SE">I Underhåll</String>
     </Entry>
 
     <Entry Id="menu_vehicles_damaged">
         <String xml:lang="en-US">Damaged</String>
         <String xml:lang="it-IT">Danneggiata</String>
         <String xml:lang="vi-VN">Bị hư hỏng</String>
+        <String xml:lang="sv-SE">Skadad</String>
     </Entry>
 
     <Entry Id="menu_vehicles_fuel_low">
         <String xml:lang="en-US">Fuel Low</String>
         <String xml:lang="it-IT">Carburante quasi finito</String>
         <String xml:lang="vi-VN">Sắp hết nhiên liệu</String>
+        <String xml:lang="sv-SE">Lågt Bränsle</String>
     </Entry>
 
     <Entry Id="menu_vehicles_battery_low">
         <String xml:lang="en-US">Battery Low</String>
         <String xml:lang="it-IT">Batteria quasi scarica</String>
         <String xml:lang="vi-VN">Sắp hết pin</String>
+        <String xml:lang="sv-SE">Lågt Batteri</String>
     </Entry>
 
     <Entry Id="menu_vehicles_recalled">
         <String xml:lang="en-US">Recalled</String>
         <String xml:lang="it-IT">Richiamata</String>
         <String xml:lang="vi-VN">Thu hồi</String>
+        <String xml:lang="sv-SE">Återkallad</String>
     </Entry>
 
     <Entry Id="menu_vehicles_color">
         <String xml:lang="en-US">Color</String>
         <String xml:lang="it-IT">Colore</String>
         <String xml:lang="vi-VN">Màu</String>
+        <String xml:lang="sv-SE">Färg</String>
     </Entry>
 
     <Entry Id="menu_vehicles_plate">
         <String xml:lang="en-US">License Plate</String>
         <String xml:lang="it-IT">Targa</String>
         <String xml:lang="vi-VN">Biển số xe</String>
+        <String xml:lang="sv-SE">registreringsskylt</String>
     </Entry>
 
     <Entry Id="menu_vehicles_health">
         <String xml:lang="en-US">Health</String>
         <String xml:lang="it-IT">Salute</String>
         <String xml:lang="vi-VN">Máu</String>
+        <String xml:lang="sv-SE">Hälsa</String>
     </Entry>
 
     <Entry Id="menu_vehicles_fuel">
         <String xml:lang="en-US">Fuel</String>
         <String xml:lang="it-IT">Carburante</String>
         <String xml:lang="vi-VN">Nhiên liệu</String>
+        <String xml:lang="sv-SE">Bränsle</String>
     </Entry>
 
     <Entry Id="menu_vehicles_battery">
         <String xml:lang="en-US">Battery</String>
         <String xml:lang="it-IT">Batteria</String>
         <String xml:lang="vi-VN">Pin</String>
+        <String xml:lang="sv-SE">Batteri</String>
     </Entry>
 
     <Entry Id="menu_vehicles_tank">
         <String xml:lang="en-US">Tank</String>
         <String xml:lang="it-IT">Serbatoio</String>
         <String xml:lang="vi-VN">Thùng xăng</String>
+        <String xml:lang="sv-SE">Tank</String>
     </Entry>
 
     <Entry Id="menu_vehicles_tires">
         <String xml:lang="en-US">Tires</String>
         <String xml:lang="it-IT">Pneumatici</String>
         <String xml:lang="vi-VN">Lốp xe</String>
+        <String xml:lang="sv-SE">Däck</String>
     </Entry>
 
     <Entry Id="menu_vehicles_cleanliness">
         <String xml:lang="en-US">Cleanliness</String>
         <String xml:lang="it-IT">Pulizia</String>
         <String xml:lang="vi-VN">Mức độ sạch</String>
+        <String xml:lang="sv-SE">Renlighet</String>
     </Entry>
 
     <!-- specifically shown in the vehicles menu when the tires/tank are OK (no damage). This is NOT a confirmation "ok". -->
@@ -2255,6 +2271,7 @@
         <String xml:lang="en-US">OK</String>
         <String xml:lang="it-IT">OK</String>
         <String xml:lang="vi-VN">TỐT</String>
+        <String xml:lang="sv-SE">OKEJ</String>
     </Entry>
 
     <!-- Specifically shown for the tank (for now) when damaged -->
@@ -2262,6 +2279,7 @@
         <String xml:lang="en-US">Damaged</String>
         <String xml:lang="it-IT">Danneggiato</String>
         <String xml:lang="vi-VN">Hư hỏng</String>
+        <String xml:lang="sv-SE">Skadad</String>
     </Entry>
 
     <!-- Specifically shown for the tires when at least one is punctured -->
@@ -2269,6 +2287,7 @@
         <String xml:lang="en-US">{0} flat</String>
         <String xml:lang="it-IT">{0} forati</String>
         <String xml:lang="vi-VN">{0} lốp bị lủng</String>
+        <String xml:lang="sv-SE">{0} Punka</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
@@ -2276,18 +2295,21 @@
         <String xml:lang="en-US">Previewing a ~b~{0}~s~.</String>
         <String xml:lang="it-IT">Stai visualizzando una ~b~{0}~s~.</String>
         <String xml:lang="vi-VN">Xem trước ~b~{0}~s~.</String>
+        <String xml:lang="sv-SE">Förhandsvisar en ~b~{0}~s~.</String>
     </Entry>
 
     <Entry Id="dealership_credits_and_usage_rights">
         <String xml:lang="en-US">Credits and Usage Rights</String>
         <String xml:lang="it-IT">Riconoscimenti e Diritti d'Utilizzo</String>
         <String xml:lang="vi-VN">Ghi công và quyền sử dụng</String>
+        <String xml:lang="sv-SE">Krediter och nyttjanderättigheter</String>
     </Entry>
 
     <Entry Id="dealership_need_to_own_garage">
         <String xml:lang="en-US">You need to own a garage before purchasing a vehicle.</String>
         <String xml:lang="it-IT">Devi possedere un garage prima di acquistare un veicolo.</String>
         <String xml:lang="vi-VN">Bạn cần phải có nhà để xe trước khi mua xe.</String>
+        <String xml:lang="sv-SE">Du behöver äga ett fordon innan du köper ett garage.</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
@@ -2297,12 +2319,14 @@
         <String xml:lang="en-US">Store your new ~b~{0} ~s~in your ~p~{1} ~s~garage in ~y~{2}~s~.</String>
         <String xml:lang="it-IT">Parcheggia la tua nuova ~b~{0} ~s~nel tuo garage ~p~{1} ~s~a ~y~{2}~s~.</String>
         <String xml:lang="vi-VN">Cất ~b~{0} ~s~mới của bạn vào nhà để xe ~p~{1} ~s~ở ~y~{2}~s~.</String>
+        <String xml:lang="sv-SE">Lagra din nya ~b~{0} ~s~i ditt ~p~{1} ~s~garage i ~y~{2}~s~.</String>
     </Entry>
 
     <Entry Id="info_unmarked_vehicle">
         <String xml:lang="en-US">~b~Unmarked police vehicle!~n~~s~Civilians will see you as a fellow civilian until you get close enough or turn on your siren.</String>
         <String xml:lang="it-IT">~b~Veicolo della polizia non contrassegnato!~n~~s~I civili ti vedranno come un altro civile finché non ti avvicini abbastanza o non accendi la sirena.</String>
         <String xml:lang="vi-VN">~b~Phương tiện cảnh sát không có dấu hiệu nhận dạng!~n~~s~Dân thường sẽ thấy bạn là thường dân cho đến khi bạn đến đủ gần hoặc bật còi.</String>
+        <String xml:lang="sv-SE">~b~Civilt polis fordon!~n~~s~Civila personer kommer se dig som en civilare tills du går för nära nog eller du slår på din siren.</String>
     </Entry>
     
 </Entries>
