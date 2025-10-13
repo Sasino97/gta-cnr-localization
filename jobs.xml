@@ -8,18 +8,21 @@
         <String xml:lang="it-IT">Disoccupato</String>
         <String xml:lang="id-ID">Pengangguran</String>
         <String xml:lang="vi-VN">Thất nghiệp</String>
+        <String xml:lang="de-DE">Arbeitslos</String>
     </Entry>
     
     <Entry Id="job_unknown">
         <String xml:lang="en-US">Unknown</String>
         <String xml:lang="it-IT">Sconosciuto</String>
         <String xml:lang="vi-VN">Không rõ</String>
+        <String xml:lang="de-DE">Unbekannt</String>
     </Entry>
 
     <Entry Id="job_moderator">
         <String xml:lang="en-US">Moderator</String>
         <String xml:lang="it-IT">Moderatore</String>
         <String xml:lang="vi-VN">Quản trị viên</String>
+        <String xml:lang="de-DE">Moderator</String>
     </Entry>
 
     <Entry Id="job_police">
@@ -27,6 +30,7 @@
         <String xml:lang="it-IT">Poliziotto</String>
         <String xml:lang="id-ID">Petugas Kepolisian</String>
         <String xml:lang="vi-VN">Cảnh sát</String>
+        <String xml:lang="de-DE">Polizeibeamter</String>
     </Entry>
 
     <Entry Id="job_paramedic">
@@ -34,6 +38,7 @@
         <String xml:lang="it-IT">Paramedico</String>
         <String xml:lang="id-ID">Paramedis</String>
         <String xml:lang="vi-VN">Nhân viên y tế</String>
+        <String xml:lang="de-DE">Sanitäter</String>
     </Entry>
 
     <Entry Id="job_firefighter">
@@ -41,6 +46,7 @@
         <String xml:lang="it-IT">Pompiere</String>
         <String xml:lang="id-ID">Pemadam Kebakaran</String>
         <String xml:lang="vi-VN">Cứu hỏa</String>
+        <String xml:lang="de-DE">Feuerwehrmann</String>
     </Entry>
 
     <Entry Id="job_security">
@@ -48,6 +54,7 @@
         <String xml:lang="it-IT">Guardia di sicurezza</String>
         <String xml:lang="id-ID">Penjaga</String>
         <String xml:lang="vi-VN">Bảo vệ</String>
+        <String xml:lang="de-DE">Sicherheitsbeamter</String>
     </Entry>
 
     <Entry Id="job_mechanic">
@@ -55,6 +62,7 @@
         <String xml:lang="it-IT">Meccanico</String>
         <String xml:lang="id-ID">Mekanik</String>
         <String xml:lang="vi-VN">Thợ máy</String>
+        <String xml:lang="de-DE">Mechaniker</String>
     </Entry>
 
     <Entry Id="job_taxi_driver">
@@ -62,6 +70,7 @@
         <String xml:lang="it-IT">Tassista</String>
         <String xml:lang="id-ID">Supir Taksi</String>
         <String xml:lang="vi-VN">Tài xế taxi</String>
+        <String xml:lang="de-DE">Taxi Fahrer</String>
     </Entry>
 
     <Entry Id="job_delivery_driver">
@@ -69,6 +78,7 @@
         <String xml:lang="it-IT">Autista di consegna</String>
         <String xml:lang="id-ID">Kurir Paket</String>
         <String xml:lang="vi-VN">Tài xế giao hàng</String>
+        <String xml:lang="de-DE">Lieferfahrer</String>
     </Entry>
 
     <Entry Id="job_drug_dealer">
@@ -76,6 +86,7 @@
         <String xml:lang="it-IT">Spacciatore</String>
         <String xml:lang="id-ID">Bandar Narkoba</String>
         <String xml:lang="vi-VN">Kẻ buôn thuốc</String>
+        <String xml:lang="de-DE">Drogendealer</String>
     </Entry>
 
     <Entry Id="job_hitman">
@@ -83,6 +94,7 @@
         <String xml:lang="it-IT">Sicario</String>
         <String xml:lang="id-ID">Pembunuh Bayaran</String>
         <String xml:lang="vi-VN">Sát thủ</String>
+        <String xml:lang="de-DE">Auftragskiller</String>
     </Entry>
 
     <Entry Id="job_private_medic">
@@ -90,6 +102,7 @@
         <String xml:lang="it-IT">Dottore</String>
         <String xml:lang="id-ID">Dokter Medis</String>
         <String xml:lang="vi-VN">Bác sĩ</String>
+        <String xml:lang="de-DE">Doktor</String>
     </Entry>
 
     <Entry Id="job_arms_dealer">
@@ -97,6 +110,7 @@
         <String xml:lang="it-IT">Trafficante d'armi</String>
         <String xml:lang="id-ID">Penjual Senjata</String>
         <String xml:lang="vi-VN">Kẻ buôn vũ khí</String>
+        <String xml:lang="de-DE">Waffenhändler</String>
     </Entry>
     
     <!-- ================================= -->
@@ -4112,12 +4126,14 @@
         <String xml:lang="en-US">{0} has ~r~ignored ~s~your bribe offer.</String>
         <String xml:lang="it-IT">{0} ha ~r~ignorato ~s~la tua proposta di tangente.</String>
         <String xml:lang="vi-VN">{0} đã ~r~từ chối ~s~lời đề nghị hối lộ của bạn.</String>
+        <String xml:lang="de-DE">{0} hat dein Bestechungsangbeot ~r~ignoriert ~s~.</String>
     </Entry>
 
     <Entry Id="police_player_canceled_bribe_disconnect">
         <String xml:lang="en-US">{0} has ~r~left the server ~s~and your bribe offer was canceled.</String>
         <String xml:lang="it-IT">{0} si è ~r~disconnesso dal server ~s~e la tua proposta di tangente è stata annullata.</String>
         <String xml:lang="vi-VN">{0} đã ~r~rời khỏi máy chủ ~s~và lời đề nghị hối lộ của bạn đã bị hủy.</String>
+        <String xml:lang="de-DE">{0} hat den Server~r~verlassen~s~und dein Bestechungsangbeot wurde abgebrochen.</String>
     </Entry>
 
     <!-- nullnull{0} = Officer's name (for example: Stijnjw)
@@ -4188,6 +4204,7 @@
         <String xml:lang="en-US">~r~{0} already has an open bribe offer.</String>
         <String xml:lang="it-IT">~r~{0} ha già una offerta di tangente aperta.</String>
         <String xml:lang="vi-VN">~r~{0} hiện đang có một lời đề nghị hối lộ.</String>
+        <String xml:lang="de-DE">~r~{0} hat bereits ein offenes Bestechungsangebot.</String>
     </Entry>
 
     <!-- {0} = minutes -->
@@ -5141,6 +5158,7 @@
         <String xml:lang="en-US">View offer</String>
         <String xml:lang="it-IT">Vedi offerta</String>
         <String xml:lang="vi-VN">Xem đề nghị</String>
+        <String xml:lang="de-DE">Angebot ansehen</String>
     </Entry>
 
     <!-- nullnull{0} = Current question number (for example: 3)
@@ -6300,6 +6318,7 @@
         <String xml:lang="en-US">~r~You don't have enough space in your inventory, so the item has been dropped.</String>
         <String xml:lang="it-IT">~r~Non hai abbastanza spazio nel tuo inventario, quindi l'oggetto è stato fatto cadere.</String>
         <String xml:lang="vi-VN">~r~Bạn không có đủ chỗ trong túi đồ nên vật phẩm đã bị rơi.</String>
+        <String xml:lang="de-DE">~r~Du hast nicht genug Platz in deinem Inventar, daher wurde der Gegenstand fallengelassen.</String>
     </Entry>
 
     <!-- {0} = Amount -->
@@ -6308,6 +6327,7 @@
         <String xml:lang="en-US">You stole ~y~{0} {1}~s~.</String>
         <String xml:lang="it-IT">Hai rubato ~y~{0} {1}~s~.</String>
         <String xml:lang="vi-VN">Bạn đã bị trộm ~y~{0} {1}~s~.</String>
+        <String xml:lang="de-DE">Du hast ~y~{0} {1}~s~ gestohlen.</String>
     </Entry>
 
     <!-- {0} = Player -->
@@ -6317,6 +6337,7 @@
         <String xml:lang="en-US">{0} stole ~y~{1} {2}~s~.</String>
         <String xml:lang="it-IT">{0} ha rubato ~y~{1} {2}~s~.</String>
         <String xml:lang="vi-VN">{0} đã trộm ~y~{1} {2}~s~.</String>
+        <String xml:lang="de-DE">{0} hat ~y~{1} {2}~s~ gestohlen.</String>
     </Entry>
 
     <!-- Imperative mode, it's a button -->
@@ -6324,6 +6345,7 @@
         <String xml:lang="en-US">Loot</String>
         <String xml:lang="it-IT">Saccheggia</String>
         <String xml:lang="vi-VN">Nhặt Đồ</String>
+        <String xml:lang="de-DE">Beute</String>
     </Entry>
 
     <Entry Id="robbery_intimidation_bar">
@@ -7745,6 +7767,7 @@
         <String xml:lang="lv-LV">~r~Juvelierizstrādājumu veikala aplaupīšana jau notiek.</String>
         <String xml:lang="id-ID">~r~Perampokan toko perhiasan sedang berlangsung.</String>
         <String xml:lang="vi-VN">~r~Vụ cướp của hàng trang sức đã diễn ra.</String>
+        <String xml:lang="de-DE">~r~Der Juwelierüberfall ist bereits im gange.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_cooldown">
@@ -7756,11 +7779,13 @@
         <String xml:lang="lv-LV">~r~Juvelierizstrādājumu veikala aplaupīšanu nevar sākt nākamo~s~ {0} minūšu ~r~un~s~ {1} sekunžu~r~ laikā.</String>
         <String xml:lang="id-ID">~r~Perampokan toko perhiasan tidak dapat dilakukan selama ~s~{0} menit ~r~dan ~s~{1} detik~r~.</String>
         <String xml:lang="vi-VN">~r~Vụ cướp cửa hàng trang sức không thể bắt đầu trong ~s~{0} phút ~r~và ~s~{1} giây~r~ tiếp theo.</String>
+        <String xml:lang="de-DE">~r~Der Juwelierüberfall kann in den nächsten ~s~{0} Minuten ~r~und ~s~{1} Sekunden~r~nicht gestartet werden.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_per_player_cooldown">
         <String xml:lang="en-US">~r~You cannot rob the jewelry store for the next ~s~{0} minutes ~r~and ~s~{1} seconds~r~.</String>
         <String xml:lang="vi-VN">~r~Bạn không thể cướp cửa hàng trang sức trong ~s~{0} phút ~r~và ~s~{1} giây~r~ tiếp theo.</String>
+        <String xml:lang="de-DE">~r~Du kannst den Juwelierladen in den nächsten ~s~{0} Minuten ~r~und ~s~{1} Sekunden~r~nicht ausrauben.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_not_enough_cops">
@@ -7772,6 +7797,7 @@
         <String xml:lang="lv-LV">Jūs nevarat aplaupīt ~b~juvelierizstrādājumu veikalu~s~, ja tiešsaistē ir mazāk nekā ~b~{0} policistu~s~.</String>
         <String xml:lang="id-ID">Kamu tidak dapat merampok ~b~toko perhiasan ~s~ketika polisi yang bertugas kurang dari~b~ {0} polisi~s~.</String>
         <String xml:lang="vi-VN">Bạn không thể cướp ~b~cửa hàng trang sức ~s~khi có ít hơn ~b~{0} cảnh sát ~s~trực tuyến.</String>
+        <String xml:lang="de-DE">Du kannst den ~b~Juwelierladen ~s~nicht ausrauben, wenn weniger als ~b~{0} Polizisten ~s~online sind.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_initiated">
@@ -7784,6 +7810,7 @@
         <String xml:lang="lv-LV">~y~Asaru gāze~s~ ir ieplūdūsi ~b~juvelierizstrādājumu veikalā~s~ caur ventilācijas atveri.</String>
         <String xml:lang="id-ID">~y~Gas air mata ~s~telah masuk kedalam ~b~toko perhiasan~s~ melalui ventilasi.</String>
         <String xml:lang="vi-VN">~y~Hơi cay ~s~đã bay vào ~b~cửa hàng trang sức~s~ ~s~qua lỗ thông hơi.</String>
+         <String xml:lang="de-DE">Das ~y~Tränengas ~s~ist durch das Lüftungssystem in den ~b~Juwelierladen~s~ eingedrungen.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_timer_bar_alarm">
@@ -7798,6 +7825,7 @@
         <String xml:lang="it-IT">ALLARME</String>
         <String xml:lang="lv-LV">SIGNALIZĀCIJA</String>
         <String xml:lang="vi-VN">BÁO ĐỘNG</String>
+        <String xml:lang="de-DE">ALARM</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_timer_bar_gas">
@@ -7811,6 +7839,7 @@
         <String xml:lang="it-IT">GAS</String>
         <String xml:lang="lv-LV">GĀZE</String>
         <String xml:lang="vi-VN">KHÍ GAS</String>
+        <String xml:lang="de-DE">GAS</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_instruction_stop">
@@ -7825,6 +7854,7 @@
         <String xml:lang="lv-LV">Pārtraukt</String>
         <String xml:lang="id-ID">Berhenti</String>
         <String xml:lang="vi-VN">Dừng lại</String>
+        <String xml:lang="de-DE">Stopp</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_need_blunt_weapon">
@@ -7838,6 +7868,7 @@
         <String xml:lang="lv-LV">Lai izsistu šo ~r~ložu necarlaudīgu stiklu~s~, jums ir nepieciešams ~y~truls ierocis~s~.</String>
         <String xml:lang="id-ID">Kamu membutuhkan ~y~senjata tumpul ~s~untuk memecahkan ~r~kaca anti peluru~s~ ini.</String>
         <String xml:lang="vi-VN">Bạn cần một ~y~vũ khí cùn ~s~để phá vỡ ~r~tấm kính chống đạn ~s~này.</String>
+        <String xml:lang="de-DE">Du bruachst eine ~y~Schlagwaffe ~s~, um diese ~r~Kugelsichere Scheibe~s~zu zerschlagen.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_break_glass_failed">
@@ -7852,11 +7883,13 @@
         <String xml:lang="lv-LV">Jums ~r~neizdevās~s~ salauzt šo ~b~stiklu~s~. Izmēģiniet citu!</String>
         <String xml:lang="id-ID">Kamu ~r~gagal ~s~untuk memecahkan ~b~kaca~s~. Coba lagi yang lain!</String>
         <String xml:lang="vi-VN">Bạn đã ~r~thất bại ~s~trong việc đập vỡ ~b~tấm kính~s~ này. Hãy thử cái khác!</String>
+        <String xml:lang="de-DE">Du hast es ~r~nicht geschafft ~s~, dieses ~b~Glas~s~zu zerbrechen. Versuche es an einer anderen!</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_break_glass_canceled">
         <String xml:lang="en-US">You ~r~canceled ~s~breaking this ~b~glass~s~.</String>
         <String xml:lang="vi-VN">Bạn đã ~r~hủy bỏ ~s~việc đập vỡ ~b~tấm kính~s~ này.</String>
+        <String xml:lang="de-DE">Du hast das ~r~Zerbrechen ~s~dieses ~b~Glases~s~abgebrochen.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_break_glass_succeeded">
@@ -7871,6 +7904,7 @@
         <String xml:lang="lv-LV">Jūs ~g~veiksmīgi~s~ salauzāt ~b~stiklu~s~.</String>
         <String xml:lang="id-ID">Kamu ~g~berhasil ~s~untuk memecahkan ~b~kacanya~s~.</String>
         <String xml:lang="vi-VN">Bạn đã ~g~thành công ~s~đập vỡ ~b~tấm kính~s~.</String>
+        <String xml:lang="de-DE">Du hast das ~b~glass~s~ ~g~erfolgreich~s~ zerbrochen.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_go_to_hideout">
@@ -7883,6 +7917,7 @@
         <String xml:lang="lv-LV">Jūs aizgājat pietiekami tālu no ~b~juvelierizstrādājumu veikala~s~. Tagad dodaties uz ~y~slēptuvi~s~, lai pabeigtu ~r~laupīšanu~s~.</String>
         <String xml:lang="id-ID">Kamu telah pergi cukup jauh dari ~b~toko perhiasan~s~. Sekarang pergi ~y~tempat persembunyian ~s~untuk menyelesaikan ~r~perampokan~s~.</String>
         <String xml:lang="vi-VN">Bạn đã đi đủ xa khỏi ~b~cửa hàng trang sức~s~. Bây giờ hãy đến một ~y~nơi ẩn náu ~s~để hoàn thành vụ ~r~cướp~s~.</String>
+        <String xml:lang="de-DE">Du hast dich weit genug vom ~b~Juwelierladen~s~entfernt. Geh jetzt zu einem ~y~Versteck~s~um den ~r~Überfall~s~abzuschließen.</String>
     </Entry>
 
     <!-- Example: you can't rob the jewelry store before Sunday 10:00 -->
@@ -7897,6 +7932,7 @@
         <String xml:lang="lv-LV">Jūs nevarat aplaupīt ~b~juvelierizstrādājumu veikalu~s~ pirms ~y~{0}~s~.</String>
         <String xml:lang="id-ID">Kamu tidak dapat merampok ~b~toko perhiasan ~s~sebelum ~y~{0}~s~.</String>
         <String xml:lang="vi-VN">Bạn không thể cướp ~b~cửa hàng trang sức ~s~trước ~y~{0}~s~.</String>
+        <String xml:lang="de-DE">Du kannst den ~b~Juwelierladen ~s~vor ~y~{0}~s~nicht ausrauben.</String>
     </Entry>
 
     <!-- Example: you can't rob the jewelry store after Saturday 14:00 -->
@@ -7910,6 +7946,7 @@
         <String xml:lang="lv-LV">Jūs nevarat aplaupīt ~b~juvelierizstrādājumu veikalu~s~ pēc ~y~{0}~s~, jo serveris drīz tiks restartēts.</String>
         <String xml:lang="id-ID">Kamu tidak dapat merampok ~b~toko perhiasan ~s~setelah ~y~{0} ~s~karena server akan restart sebentar lagi.</String>
         <String xml:lang="vi-VN">Bạn không thể cướp ~b~cửa hàng trang sức ~s~sau ~y~{0} ~s~vì máy chủ sẽ sớm khởi động lại.</String>
+        <String xml:lang="en-US"> ~b~jewelry store ~s~after ~y~{0} ~s~because the server will restart soon.</String>
     </Entry>
 
     <!-- This will show up at the bottom right as a hint. For example "[B] Break" -->
@@ -8087,6 +8124,7 @@
         <String xml:lang="en-US">OFF DUTY</String>
         <String xml:lang="it-IT">FUORI SERVIZIO</String>
         <String xml:lang="vi-VN">Kết thúc ca làm việc</String>
+        <String xml:lang="de-DE">AUßER DIENST</String>
     </Entry>
 
     <!-- nullnull{0} = Questions count (for example: 10)
@@ -8221,6 +8259,7 @@
         <String xml:lang="lv-LV">PAŅEMTIE DĀRGUMI</String>
         <String xml:lang="id-ID">BARANG TERAMBIL</String>
         <String xml:lang="vi-VN">ĐÃ LẤY</String>
+        <String xml:lang="de-DE">GENOMMENE GEGENSTÄNDE</String>
     </Entry>
 
     <!-- This will show up as a subtitle (bottom middle of screen) -->
@@ -8235,6 +8274,7 @@
         <String xml:lang="lv-LV">Atstājiet ~o~oranžu teritoriju~s~.</String>
         <String xml:lang="id-ID">Tinggalkan ~o~area oranye~s~.</String>
         <String xml:lang="vi-VN">Rời khỏi ~o~khu vực màu cam~s~.</String>
+        <String xml:lang="de-DE">Verlasse den ~o~orangen Bereich~s~.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_not_ideal">
@@ -8244,6 +8284,7 @@
         <String xml:lang="lv-LV">Šis nav ideālākais veids, kā aplaupīt ~b~juvelierizstrādājumu veikalu~s~. Turpini pētīt apkārtni, un varbūt kaut ko atradīsi.</String>
         <String xml:lang="id-ID">Ini bukan cara terbaik untuk merampok ~b~toko perhiasan~s~. Cobalah untuk berkeliling di area ini, dan kamu mungkin akan menemukan sesuatu.</String>
         <String xml:lang="vi-VN">Đây không phải cách tốt nhất để cướp ~b~cửa hàng trang sức~s~ đâu. Tiếp tục khám phá khu vực, biết đâu bạn sẽ tìm được thứ gì đó.</String>
+        <String xml:lang="de-DE"> Das ist nicht der ideale Weg, um die ~b~Juweliere~s~ auszurauben. Erkunde die Gegend weiter und du wirst vielleicht etwas finden.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_hint_1">
@@ -8313,6 +8354,7 @@
         <String xml:lang="lv-LV">(C)Dispečers:(/C) Uzmanību visām vienībām. (C)Juvelierizstrādājumu veikals(/C) tiek aplaupīts.</String>
         <String xml:lang="id-ID">(C)Dispatch:(/C) Perhatian seluruh petugas. (C)toko perhiasan(/C) sedang dirampok.</String>
         <String xml:lang="vi-VN">(C)Tin nhắn:(/C) Xin tất cả các đơn vị chú ý. (C)Cửa hàng trang sức(/C) đang bị cướp.</String>
+        <String xml:lang="de-DE">(C)Leitstelle:(/C) Achtung an alle Einheiten. Das (C)Juweliergeschäft(/C) wird gerade ausgeraubt.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_hideouts_available">
@@ -8323,6 +8365,7 @@
         <String xml:lang="lv-LV">Jums ir ~y~{0}~s~ piemērotas~r~slēptuves~s~.</String>
         <String xml:lang="id-ID">Kamu memiliki ~y~{0} ~s~yang cocok untuk jadi ~r~tempat persembunyian~s~.</String>
         <String xml:lang="vi-VN">Bạn có ~y~{0} ~r~nơi ẩn náu ~s~phù hợp.</String>
+        <String xml:lang="de-DE">Du hast ~y~{0} ~s~geeignete ~r~Verstecke~s~.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_no_hideouts_available">
@@ -8332,6 +8375,7 @@
         <String xml:lang="lv-LV">Jums nav piemērotas ~r~slēptuves~s~. Jūs varat doties uz ~g~drauga~s~slēptuvi, lai pabeigtu laupīšanu.</String>
         <String xml:lang="id-ID">Kamu tidak memiliki ~r~tempat persembunyian~s~ yang cocok. Kamu bisa menumpang ketempat persembunyian ~g~teman~s~ untuk menyelesaikan perampokan.</String>
         <String xml:lang="vi-VN">Bạn không có ~r~nơi ẩn náu ~s~phù hợp. Bạn có thể đến nơi ẩn náu của ~g~bạn bè~s~ để hoàn thành vụ cướp.</String>
+        <String xml:lang="de-DE"> Du hast kein geeignetes ~r~Versteck~s~. Du kannst zum Versteck eines ~g~Freundes~s~ gehen, um den Raub zu beenden.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_list_hideouts_btn">
@@ -8341,6 +8385,7 @@
         <String xml:lang="lv-LV">Skatīt slēptuves</String>
         <String xml:lang="id-ID">Lihat tempat persembunyian</String>
         <String xml:lang="vi-VN">Xem nơi ẩn náu</String>
+        <String xml:lang="de-DE">Verstecke ansehen</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_list_hideouts">
@@ -8350,6 +8395,7 @@
         <String xml:lang="lv-LV">Slēptuves</String>
         <String xml:lang="id-ID">Tempat Persembunyian</String>
         <String xml:lang="vi-VN">Nơi ẩn náu</String>
+        <String xml:lang="de-DE">Verstecke</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_list_hideouts_subtitle">
@@ -8359,6 +8405,7 @@
         <String xml:lang="lv-LV">Pieejamas slēptuves</String>
         <String xml:lang="id-ID">Tempat persembunyian yang tersedia</String>
         <String xml:lang="vi-VN">Nơi ẩn náu có sẵn</String>
+        <String xml:lang="de-DE"> Verfügbare Verstecke</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_no_items_taken">
@@ -8368,6 +8415,7 @@
         <String xml:lang="lv-LV">~r~Jūz neesat nozadzis nekādus dārgumus no juvelierizstrādājumu veikala.</String>
         <String xml:lang="id-ID">~r~Kamu belum mencuri barang apapun dari toko perhiasan.</String>
         <String xml:lang="vi-VN">~r~Bạn không hề lấy cắp bất kỳ món đồ nào từ cửa hàng trang sức.</String>
+        <String xml:lang="de-DE">~r~Du hast keine Gegenstände aus dem Juweliergeschäft gestohlen.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_property_owner_offline">
@@ -8377,6 +8425,7 @@
         <String xml:lang="lv-LV">~r~Šī īpašuma īpašnieks nav tiešsaistē. Izmantojet citu slēptuvi.</String>
         <String xml:lang="id-ID">~r~Pemilik properti ini sedang offline. Gunakan tempat persembunyian lain.</String>
         <String xml:lang="vi-VN">~r~Chủ sở hữu tài sản này đang ngoại tuyến. Hãy sử dụng một nơi ẩn náu khác.</String>
+        <String xml:lang="de-DE">~r~Der Besitzer dieser Immobilie ist offline. Benutze ein anderes Versteck.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_cuffed">
@@ -8387,6 +8436,7 @@
         <String xml:lang="lv-LV">Jūs tikat ~r~apcietināts~s~ un jums neizdevās ~b~juvelierizstrādajumu veikala aplaupīšana~s~.</String>
         <String xml:lang="id-ID">Kamu telah ~r~diborgol ~s~dan kamu telah gagal untuk ~b~merampok toko perhiasan~s~.</String>
         <String xml:lang="vi-VN">Bạn đã bị ~r~còng tay ~s~và bạn đã thất bại trong vụ ~b~cướp cửa hàng trang sức~s~.</String>
+        <String xml:lang="de-DE">Du wurdest in ~r~Handschellen~s~ gelegt und bist beim ~b~Juweliergeschäft-Überfall ~s~gescheitert.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_respawned">
@@ -8397,6 +8447,7 @@
         <String xml:lang="lv-LV">Jūs ~r~nomirāt~s~ un jums neizdevās ~b~juvelierizstrādājumu veikala aplaupīšana~s~.</String>
         <String xml:lang="id-ID">Kamu ~r~mati ~s~dan kamu gagal untuk ~b~merampok toko perhiasan~s~.</String>
         <String xml:lang="vi-VN">Bạn ~r~đã chết ~s~và bạn đã thất bại trong vụ ~b~cướp cửa hàng trang sức~s~.</String>
+        <String xml:lang="de-DE">Du bist ~r~gestorben ~s~und du hast den ~b~Schmuckladenüberfall~s~ nicht bestanden.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success">
@@ -8407,6 +8458,7 @@
         <String xml:lang="lv-LV">~g~Laupīšana pabeigta!~s~ Jūs veiksmīgi nozagāt ~y~{0} dārgumus~s~ no ~b~juvelierizstrādājumu veikala~s~.</String>
         <String xml:lang="id-ID">~g~Perampokan berhasil! ~s~Kamu berhasil mencuri ~y~{0} barang ~s~dari ~b~toko perhiasan~s~.</String>
         <String xml:lang="vi-VN">~g~Vụ cướp hoàn thành! ~s~Bạn đã thành công lấy ~y~{0} vật phẩm ~s~từ ~b~cửa hàng trang sức~s~.</String>
+        <String xml:lang="de-DE">~g~Raubüberfall abgeschlossen! ~s~Du hast erfolgreich ~y~{0} Gegenstände ~s~aus dem ~b~Schmuckladen ~s~gestohlen.</String>
     </Entry>
 
     <!-- {0} = Number of items -->
@@ -8419,6 +8471,7 @@
         <String xml:lang="lv-LV">~g~Laupīšana pabeigta!~s~ Jūs veiksmīgi nozagāt ~y~{0} dārgumus~s~ no ~b~juvelierizstrādājumu veikala~s~ un novietojāt tos {1} īpašumā.</String>
         <String xml:lang="id-ID">~g~Perampokan berhasil! ~s~Kamu berhasil merampok ~y~{0} barang ~s~dari ~b~toko perhiasan ~s~dan menaruhnya di properti milik {1}.</String>
         <String xml:lang="vi-VN">~g~Vụ cướp hoàn thành! ~s~Bạn đã thành công lấy ~y~{0} vật phẩm ~s~từ ~b~cửa hàng trang sức ~s~và cất vào túi tài sản của {1}.</String>
+        <String xml:lang="de-DE">~g~Raubüberfall abgeschlossen! ~s~Du hast erfolgreich ~y~{0} Gegenstände ~s~aus dem ~b~Schmuckladen ~s~gestohlen und sie in {1}'s Immobilie gelagert.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success_with_error">
@@ -8429,6 +8482,7 @@
         <String xml:lang="lv-LV">~o~Laupīšana pabeigta ar kļūdu:~s~ dažas mantas netika saņemtas, iespējams, dēļ ~r~nepietiekamas vietas ~s~inventārī.</String>
         <String xml:lang="id-ID">~o~Perampokan berhasil dengan error: ~s~sebagian barang tidak dapat diambil dikarenakan ~r~Tempat yang tersedia tidak mencukupi~s~ pada properti.</String>
         <String xml:lang="vi-VN">~o~Vụ cướp hoàn thành nhưng có lỗi: ~s~một số vật phẩm không lấy được, có thể do ~r~không đủ chỗ ~s~trong túi tài sản.</String>
+        <String xml:lang="de-DE">~o~Überfall mit einem Fehler abgeschlossen: ~s~Einige Gegenstände wurden nicht aufgenommen, wahrscheinlich aufgrund von ~r~unzureichendem Platz ~s~in der Immobilie.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success_global_notification">
@@ -8439,5 +8493,6 @@
         <String xml:lang="lv-LV">(C){0}(/C) nozaga (C){1} dārgumusC) no juvelierizstrādājumu veikala!</String>
         <String xml:lang="id-ID">(C){0}(/C) merampok (C){1} perhiasan(/C) dari toko perhiasan!</String>
         <String xml:lang="vi-VN">(C){0}(/C) đã cướp (C){1} đồ trang sức(/C) từ cửa hàng trang sức!</String>
+        <String xml:lang="de-DE">(C){0}(/C) hat (C){1} Juwelen(/C) aus dem Juweliergeschäft gestohlen!</String>
     </Entry>
 </Entries>
