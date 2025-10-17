@@ -3994,100 +3994,124 @@
     <Entry Id="racing_menu_main">
         <String xml:lang="en-US">Racing</String>
         <String xml:lang="pl-PL">Wyścigi</String>
+        <String xml:lang="de-DE">Rennen</String>
     </Entry>
 
     <!-- === Racing Menu Items === -->
     <Entry Id="racing_menu_item_edit_tracks">
         <String xml:lang="en-US">Edit Tracks</String>
+        <String xml:lang="de-DE">Strecke bearbeiten</String>
     </Entry>
 
     <Entry Id="racing_menu_item_select_track">
         <String xml:lang="en-US">Select Track</String>
+        <String xml:lang="de-DE">Strecke auswählen</String>
     </Entry>
 
     <Entry Id="racing_menu_item_laps">
         <String xml:lang="en-US">Laps</String>
+        <String xml:lang="de-DE">Runden</String>
     </Entry>
 
     <Entry Id="racing_menu_item_bet">
         <String xml:lang="en-US">Bet</String>
+        <String xml:lang="de-DE">Wette</String>
     </Entry>
 
     <Entry Id="racing_menu_item_register_race">
         <String xml:lang="en-US">Register Race</String>
+        <String xml:lang="de-DE">Rennen registrieren</String>
     </Entry>
 
     <Entry Id="racing_menu_item_invite_players">
         <String xml:lang="en-US">Invite Players</String>
+        <String xml:lang="de-DE">Spieler einladen</String>
     </Entry>
 
     <Entry Id="racing_menu_item_start_race">
         <String xml:lang="en-US">Start Race</String>
+        <String xml:lang="de-DE">Rennen starten</String>
     </Entry>
 
     <Entry Id="racing_menu_item_join_race">
         <String xml:lang="en-US">Join Race</String>
+        <String xml:lang="de-DE">Rennen beitreten</String>
     </Entry>
 
     <Entry Id="racing_menu_item_leave_race">
         <String xml:lang="en-US">Leave Race</String>
+        <String xml:lang="de-DE">Rennen verlassen</String>
     </Entry>
 
     <Entry Id="racing_menu_item_checkpoints">
         <String xml:lang="en-US">Checkpoints</String>
+        <String xml:lang="de-DE">Kontrollpunkt</String>
     </Entry>
 
     <Entry Id="racing_got_invited">
         <String xml:lang="en-US">{0} invited you to a race. ~y~{1}~s~ to view invitation.</String>
+        <String xml:lang="en-US">{0} hat dich zu einem Rennen eingeladen. ~y~{1}~s~ um die Einladung anzusehen.</String>
     </Entry>
 
     <Entry Id="racing_join_error">
         <String xml:lang="en-US">~r~Failed to join this race: {0}</String>
+        <String xml:lang="en-US">~r~Beitritt zum Rennen fehlgeschlagen: {0}</String>
     </Entry>
 
     <Entry Id="racing_error_no_vehicle">
         <String xml:lang="en-US">~r~You need to be inside a vehicle to take part in race!</String>
+        <String xml:lang="de-DE">~r~Du musst in einem Fahrzeug sitzen, um am Rennen teilzunehmen!</String>
     </Entry>
 
     <Entry Id="racing_error_wrong_vehicle">
         <String xml:lang="en-US">~r~You need to use the same vehicle model as you started this race in: ~y~{0}~s~!</String>
+        <String xml:lang="de-DE">~r~Du musst dasselbe Fahrzeugmodell verwenden, mit dem du das Rennen gestartet hast: ~y~{0}~s~!</String>
     </Entry>
 
     <Entry Id="racing_error_no_track_selected">
         <String xml:lang="en-US">~r~You need to select race track first!</String>
+         <String xml:lang="de-DE">~r~Du musst zuerst eine Rennstrecke auswählen!</String>
     </Entry>
 
     <Entry Id="racing_error_too_far_from_first_checkpoint">
         <String xml:lang="en-US">~r~You are too far away from first checkpoint!</String>
+        <String xml:lang="de-DE">~r~Du bist zu weit vom ersten Kontrollpunkt entfernt!</String>
     </Entry>
 
     <Entry Id="racing_error_too_close_to_first_checkpoint">
         <String xml:lang="en-US">~r~You are too close to the first checkpoint!</String>
+        <String xml:lang="de-DE">~r~Du bist zu nah am ersten Kontrollpunkt!</String>
     </Entry>
 
     <Entry Id="racing_error_track_too_few_checkpoints">
         <String xml:lang="en-US">~r~Race track needs at least {0} checkpoints!</String>
+        <String xml:lang="de-DE">~r~Die Rennstrecke benötigt mindestens {0} Kontrollpunkte!</String>
     </Entry>
 
     <Entry Id="racing_error_lap_distance_too_far">
         <String xml:lang="en-US">~r~Track start and finish are too far apart for multiple laps!</String>
+        <String xml:lang="de-DE">~r~Start und Ziel der Strecke sind für mehrere Runden zu weit auseinander!</String>
     </Entry>
 
     <Entry Id="racing_start_confirm_message">
         <String xml:lang="en-US">~y~Are you sure~s~ you want to start this race? You won't be able to use other vehicle than ~g~{0}~s~.</String>
+        <String xml:lang="de-DE">~y~Bist du sicher~s~, dass du dieses Rennen starten möchtest? Du kannst kein anderes Fahrzeug als ~g~{0}~s~ benutzen.</String>
     </Entry>
 
     <Entry Id="racing_join_confirm_message">
         <String xml:lang="en-US">~y~Are you sure~s~ you want to join this race? You won't be able to use other vehicle than ~g~{0}~s~.</String>
+        <String xml:lang="de-DE">~y~Bist du sicher~s~, dass du diesem Rennen beitreten möchtest? Du kannst kein anderes Fahrzeug als ~g~{0}~s~ benutzen.</String>
     </Entry>
 
     <Entry Id="racing_leave_confirm_message">
         <String xml:lang="en-US">Are you sure you want to leave this race? You will lose your bet!</String>
+        <String xml:lang="de-DE">Bist du sicher, dass du dieses Rennen verlassen möchtest? Du wirst deine Wette verlieren!</String>
     </Entry>
 
     <!-- === Race Editor Menus === -->
     <Entry Id="racing_menu_editor_main">
         <String xml:lang="en-US">Tracks</String>
+        <String xml:lang="de-DE">Strecken</String>
     </Entry>
 
     <Entry Id="racing_menu_editor_editor">
@@ -4097,91 +4121,113 @@
     <!-- === Race Editor Menu Items === -->
     <Entry Id="racing_menu_item_create_track">
         <String xml:lang="en-US">Create Track</String>
+        <String xml:lang="de-DE">Strecke erstellen</String>
     </Entry>
 
     <Entry Id="racing_menu_item_add_checkpoint_here">
         <String xml:lang="en-US">Add Checkpoint From Current Position</String>
+        <String xml:lang="en-US">Kontrollpunkt an aktueller Position hinzufügen</String>
     </Entry>
 
     <!-- === Race Editor Instructional Buttons === -->
     <Entry Id="racing_editor_instructions_replace">
         <String xml:lang="en-US">Replace</String>
+        <String xml:lang="de-DE">Ersetzen</String>
     </Entry>
 
     <Entry Id="racing_editor_instructions_move_here">
         <String xml:lang="en-US">Move Here</String>
+        <String xml:lang="de-DE">Hierhin verschieben</String>
     </Entry>
 
     <Entry Id="racing_editor_error_new_pos_too_close">
         <String xml:lang="en-US">~r~New checkpoint position is too close to another one!</String>
+        <String xml:lang="de-DE">~r~Der neue Kontrollpunkt ist zu nah an einem anderen!</String>
     </Entry>
 
     <Entry Id="racing_editor_error_new_pos_too_far_away">
         <String xml:lang="en-US">~r~New checkpoint position is too far away from previous one!</String>
+        <String xml:lang="de-DE">~r~Der neue Kontrollpunkt ist zu weit von der vorherigen entfernt!</String>
     </Entry>
 
     <Entry Id="racing_editor_error_track_limit">
         <String xml:lang="en-US">~r~Only {0} tracks can be created!</String>
+        <String xml:lang="de-DE">~r~Es können nur {0} Strecken erstellt werden!</String>
     </Entry>
 
     <Entry Id="racing_editor_error_checkpoint_limit">
         <String xml:lang="en-US">~r~Only {0} checkpoints can be created!</String>
+        <String xml:lang="de-DE">~r~Es können nur {0} Kontrollpunkte erstellt werden!</String>
     </Entry>
 
     <Entry Id="racing_editor_error_driver">
         <String xml:lang="en-US">~r~You must be in a vehicle to create a checkpoint!</String>
+        <String xml:lang="de-DE">~r~Du musst in einem Fahrzeug sitzen, um einen Kontrollpunkt zu setzen!</String>
     </Entry>
 
     <Entry Id="racing_editor_error_ground">
         <String xml:lang="en-US">~r~You must be on the ground to create a checkpoint!</String>
+        <String xml:lang="de-DE">~r~Du musst auf dem Boden stehen, um einen Kontrollpunkt zu setzen!</String>
     </Entry>
 
     <Entry Id="racing_track">
         <String xml:lang="en-US">Track #{0}</String>
+        <String xml:lang="de-DE">Strecke #{0}</String>
     </Entry>
 
     <Entry Id="racing_checkpoint">
         <String xml:lang="en-US">Checkpoint #{0}</String>
+        <String xml:lang="de-DE">Kontrollpunkt #{0}</String>
     </Entry>
 
     <!-- {0} = (for example: in 30 seconds) -->
     <Entry Id="racing_time_warning">
         <String xml:lang="en-US">~o~This race will end if nobody reaches next checkpoint {0}!</String>
+        <String xml:lang="de-DE">~o~Dieses Rennen endet, wenn niemand den nächsten Kontrollpunkt {0} erreicht!</String>
     </Entry>
 
     <Entry Id="racing_timer_bar_checkpoint_label">
         <String xml:lang="en-US">Checkpoint</String>
+        <String xml:lang="de-DE">Kontrollpunkt</String>
     </Entry>
 
     <Entry Id="racing_timer_bar_lap_label">
         <String xml:lang="en-US">Lap</String>
+        <String xml:lang="de-DE">Runde</String>
     </Entry>
 
     <Entry Id="racing_timer_bar_participants_label">
         <String xml:lang="en-US">Participants</String>
+        <String xml:lang="de-DE">Teilnehmer</String>
     </Entry>
 
     <Entry Id="racing_timer_bar_time_left_label">
         <String xml:lang="en-US">Time Left</String>
+        <String xml:lang="de-DE">Verbleibende Zeit</String>
     </Entry>
 
     <Entry Id="racing_start_new_race">
         <String xml:lang="en-US">Start new race</String>
+        <String xml:lang="de-DE">Neues Rennen starten</String>
     </Entry>
 
     <Entry Id="racing_participant_joined">
         <String xml:lang="en-US">{0} has joined this race</String>
+        <String xml:lang="de-DE">{0} ist dem Rennen beigetreten</String>
     </Entry>
 
     <Entry Id="racing_participant_left">
         <String xml:lang="en-US">{0} has left this race</String>
+        <String xml:lang="de-DE">{0} hat das Rennen verlassen</String>
     </Entry>
 
     <Entry Id="racing_ignored_your_invite">
         <String xml:lang="en-US">{0} has ignored your invite to this race</String>
+        <String xml:lang="de-DE">{0} hat deine Einladung zu diesem Rennen ignoriert</String>
     </Entry>
 
     <Entry Id="racing_invite_expired">
         <String xml:lang="en-US">Invite to race from {0} has expired</String>
+        <String xml:lang="de-DE">Einladung zum Rennen von {0} ist abgelaufen</String>
     </Entry>
 </Entries>
