@@ -49,6 +49,7 @@
         <String xml:lang="nl-NL">Alleen contante betalingen</String>
         <String xml:lang="it-IT">Solo pagamenti in contanti</String>
         <String xml:lang="vi-VN">Chỉ thanh toán bằng tiền mặt</String>
+        <String xml:lang="fr-FR">Paiement en argent comptant seulement</String>
     </Entry>
 
     <Entry Id="menu_business_cashless">
@@ -56,6 +57,8 @@
         <String xml:lang="nl-NL">Alleen betalingen met pinpas</String>
         <String xml:lang="it-IT">Solo pagamenti senza contanti</String>
         <String xml:lang="vi-VN">Chỉ thanh toán không dùng tiền mặt</String>
+        <String xml:lang="fr-FR">Paiements par carte seulement</String>
+
     </Entry>
 
     <!-- ========================= -->
@@ -176,7 +179,7 @@
         <String xml:lang="nl-NL">Fastfood</String>
         <String xml:lang="it-IT">Fast food</String>
         <String xml:lang="id-ID">Makanan Cepat Saji</String>
-        <String xml:lang="fr-FR">Fast Food</String>
+        <String xml:lang="fr-FR">Casse-Croûte</String>
         <String xml:lang="zh-Hant">速食</String>
         <String xml:lang="lv-LV">Ātrās ēdināšanas restorāns</String>
         <String xml:lang="vi-VN">Cửa hàng thức ăn nhanh</String>
@@ -253,7 +256,7 @@
         <String xml:lang="nl-NL">Bouwmarkt</String>
         <String xml:lang="it-IT">Ferramenta</String>
         <String xml:lang="id-ID">Toko Perkakas</String>
-        <String xml:lang="fr-FR">Magasin de Bricolage</String>
+        <String xml:lang="fr-FR">Quincaillerie</String>
         <String xml:lang="zh-Hant">五金店</String>
         <String xml:lang="lv-LV">Hardware Veikals</String>
         <String xml:lang="vi-VN">Cửa hàng dụng cụ</String>
@@ -696,6 +699,7 @@
         <String xml:lang="nl-NL">AANBIEDING!</String>
         <String xml:lang="it-IT">IN SCONTO!</String>
         <String xml:lang="vi-VN">ĐANG GIẢM GIÁ!</String>
+        <String xml:lang="fr-FR">EN VENTE!</String>
     </Entry>
 
     <!-- Shows up in green for categories that contain items for sale -->
@@ -704,6 +708,7 @@
         <String xml:lang="nl-NL">AANBIEDING!</String>
         <String xml:lang="it-IT">SCONTI!</String>
         <String xml:lang="vi-VN">ĐANG CÓ GIẢM GIÁ!</String>
+        <String xml:lang="fr-FR">VENTES!</String>
     </Entry>
 
     <!--  -->
@@ -712,6 +717,7 @@
         <String xml:lang="nl-NL">AANBIEDINGEN!</String>
         <String xml:lang="it-IT">Sconti Multipli!</String>
         <String xml:lang="vi-VN">Nhiều Ưu Đãi Giảm Giá!</String>
+        <String xml:lang="fr-FR">Ventes Multiples</String>
     </Entry>
 
     <!-- Shows the details of an item that is on sale -->
@@ -724,6 +730,7 @@
         <String xml:lang="nl-NL">{0}: {1}% KORTING tot {2}!</String>
         <String xml:lang="it-IT">{0}: {1}% di sconto fino al {2}!</String>
         <String xml:lang="vi-VN">{0}: Giảm {1}% đến {2}!</String>
+        <String xml:lang="fr-FR">{0}: {1}% de rabais jusqu'au {2}!</String>
     </Entry>
 
     <!-- Shows up in yellow in the description of uncommon items -->
@@ -837,6 +844,7 @@
         <String xml:lang="nl-NL">BONUS!</String>
         <String xml:lang="it-IT">BONUS!</String>
         <String xml:lang="vi-VN">THƯỞNG!</String>
+        <String xml:lang="fr-FR">BONUS</String>
     </Entry>
 
     <!-- {0} = Date -->
@@ -1328,7 +1336,7 @@
         <String xml:lang="pl-PL">Zasoby {0}</String>
         <String xml:lang="th-TH">{0} จำนวน</String>
         <String xml:lang="zh-Hant">{0} 補給</String>
-        <String xml:lang="fr-FR">{0} Matériel</String>
+        <String xml:lang="fr-FR">{0} Matériaux</String>
         <String xml:lang="tr-TR">{0} Malzemesi</String>
         <String xml:lang="hi-Latn">{0} Supplies</String>
         <String xml:lang="id-ID">Perlengkapan {0}</String>
@@ -4511,6 +4519,7 @@
         <String xml:lang="it-IT">~r~Qui puoi ricaricare solo i veicoli elettrici.</String>
         <String xml:lang="id-ID">~r~Kamu hanya bisa mengisi kendaraan listrik disini.</String>
         <String xml:lang="vi-VN">~r~Bạn chỉ có thể sạc xe điện tại đây.</String>
+        <String xml:lang="fr-FR">~r~ Tu peux seulement charger des véhicles électriques ici.</String>
     </Entry>
 
     <Entry Id="gas_station_no_evs">
@@ -4519,6 +4528,7 @@
         <String xml:lang="it-IT">~r~Non puoi caricare il tuo veicolo elettrico qui. Usa un caricatore per veicoli elettrici.</String>
         <String xml:lang="id-ID">~r~kamu tidak bisa mengisi kendaraan listrikmu disini. Gunakan charger EV.</String>
         <String xml:lang="vi-VN">~r~Bạn không thể sạc xe điện tại đây. Hãy sử dụng trạm sạc EV thay thế.</String>
+        <String xml:lang="fr-FR">~r~Vous ne pouvez pas charger votre véhicule électrique ici. Utilisez plutôt un chargeur de VE.</String>
     </Entry>
 
     <Entry Id="gas_station_charge_battery">
@@ -4527,6 +4537,7 @@
         <String xml:lang="it-IT">Carica la batteria</String>
         <String xml:lang="id-ID">Isi ulang bateraimu</String>
         <String xml:lang="vi-VN">Sạc pin của bạn</String>
+        <String xml:lang="fr-FR">Recharge ta batterie</String>
     </Entry>
 
     <Entry Id="gas_station_fill_tank">
@@ -4535,6 +4546,7 @@
         <String xml:lang="it-IT">Riempi il serbatoio</String>
         <String xml:lang="id-ID">Isi ulang bensinmu</String>
         <String xml:lang="vi-VN">Đổ đầy bình xăng của bạn</String>
+        <String xml:lang="fr-FR">Remplis ton réservoir</String>
     </Entry>
 
     <Entry Id="gas_station_fill_jerrycan">
@@ -4543,6 +4555,7 @@
         <String xml:lang="it-IT">Riempi la tanica</String>
         <String xml:lang="id-ID">Isi ulang jerigenmu</String>
         <String xml:lang="vi-VN">Đổ đầy can xăng dự phòng của bạn</String>
+        <String xml:lang="fr-FR">Remplissez votre bidon d'essence</String>
     </Entry>
 
     <Entry Id="gas_station_error_no_jerrycan">
@@ -4551,6 +4564,7 @@
         <String xml:lang="it-IT">~r~Non hai una tanica</String>
         <String xml:lang="id-ID">~r~Kamu tidak punya jerigen</String>
         <String xml:lang="vi-VN">~r~Bạn không có bình xăng dự phòng</String>
+        <String xml:lang="fr-FR">~r~Vous n'avez pas un bidon d'essence</String>
     </Entry>
 
     <!-- nullnull{0} = Label (for example: Offer) -->
@@ -4598,6 +4612,7 @@
         <String xml:lang="nl-NL">Verkoop artikelen</String>
         <String xml:lang="it-IT">Vendi oggetti</String>
         <String xml:lang="vi-VN">Bán sản phẩm</String>
+        <String xml:lang="fr-FR">Vendre articles</String>
     </Entry>
 
     <Entry Id="menu_store_sell_items_desc">
@@ -4605,6 +4620,7 @@
         <String xml:lang="nl-NL">Verkoop je ~b~artikelen ~s~aan de winkel.</String>
         <String xml:lang="it-IT">Vendi i tuoi ~b~oggetti ~s~al negozio.</String>
         <String xml:lang="vi-VN">Bán ~b~sản phẩm ~s~của bạn cho cửa hàng.</String>
+        <String xml:lang="fr-FR">Vendre vos ~b~articles ~s~au magasin.</String>
     </Entry>
 
     <!-- {0} = Amount -->
@@ -4615,6 +4631,7 @@
         <String xml:lang="nl-NL">Verkoop {0} voor ~g~{1}</String>
         <String xml:lang="it-IT">Vendi {0} per ~g~{1}</String>
         <String xml:lang="vi-VN">Bán {0} với giá ~g~{1}</String>
+        <String xml:lang="fr-FR">Vendre {0} pour ~g~{1}</String>
     </Entry>
 
     <Entry Id="menu_store_no_items_sell_desc">
@@ -4640,6 +4657,7 @@
         <String xml:lang="nl-NL">Je hebt niet genoeg ruimte in je inventaris!</String>
         <String xml:lang="it-IT">Non hai abbastanza spazio nel tuo inventario!</String>
         <String xml:lang="vi-VN">Bạn không có đủ chỗ trong túi đồ!</String>
+        <String xml:lang="fr-FR">Tu n'as pas assez de place dans ton inventaire!</String>
     </Entry>
     
     <Entry Id="shop_error_already_owned">
@@ -4647,6 +4665,7 @@
         <String xml:lang="nl-NL">Je hebt dit item al.</String>
         <String xml:lang="it-IT">Già possiedi questo articolo.</String>
         <String xml:lang="vi-VN">Bạn đã có sản phẩm này rồi.</String>
+        <String xml:lang="fr-FR">Vous avez déjà cet article.</String>
     </Entry>
     
     <Entry Id="shop_error_insufficient_level">
@@ -4654,6 +4673,7 @@
         <String xml:lang="nl-NL">Je hebt niet het vereiste level om dit item te kopen!</String>
         <String xml:lang="it-IT">Non hai il livello necessario per acquistare questo articolo!</String>
         <String xml:lang="vi-VN">Bạn chưa đủ cấp độ để mua sản phẩm này!</String>
+        <String xml:lang="fr-FR">Tu n'as pas le niveau nécessaire pour acheter cet article!</String>
     </Entry>
     
     <Entry Id="shop_error_insufficient_membership">
@@ -4661,5 +4681,6 @@
         <String xml:lang="nl-NL">Dit artikel is gereserveerd voor premium leden.</String>
         <String xml:lang="it-IT">Questo articolo è riservato per i membri premium.</String>
         <String xml:lang="vi-VN">Sản phẩm này dành riêng cho hội viên cao cấp.</String>
+        <String xml:lang="fr-FR">Cet article est réservé aux membres premium.</String>
     </Entry>
 </Entries>
