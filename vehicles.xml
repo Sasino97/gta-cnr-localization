@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entries>
+    <!-- {0} = Vehicle -->
     <Entry Id="vehicle_returned_garage_invalid_vehicle">
         <String xml:lang="en-US">vehicle</String>
         <String xml:lang="nl-NL">voertuig</String>
@@ -31,12 +32,7 @@
         <String xml:lang="id-ID">~r~Anda tidak dapat melakukan ini ketika sedang diborgol.</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถทำเช่นนี้เมื่อคุณถูกใส่กุญแจมือ</String>
         <String xml:lang="vi-VN">~r~Bạn không thể làm điều này trong khi đang bị còng.</String>
-        <String xml:lang="hi-Latn">~r~Aap ye nahi kar sakte jab aap cuffed ho.</String>
-        <String xml:lang="cs-CZ">~r~Tuto akci nemůžeš provést spoutaný.</String>
-        <String xml:lang="lv-LV">~r~Jūs nevarat darīt šo kamēr esat rokudzelžos.</String>
-        <String xml:lang="fr-FR">~r~Vous ne pouvez pas faire cela en étant menotté.</String>
-        <String xml:lang="no-NO">~r~Du kan ikke gjøre dette når du er i håndjern.</String>
-        <String xml:lang="sv-SE">~r~Du kan inte göra det här när du är handfängslad</String>
+        <String xml:lang="fr-FR">~r~Vous ne pouvez pas faire ça quand vous êtes menotter.</String>
     </Entry>
 
     <Entry Id="cant_deliver_when_dead">
@@ -105,14 +101,8 @@
         <String xml:lang="ar-001">~r~لا يمكنك إرسال سيارتك الشخصية للصيانة وأنت بداخلها!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat mengirimkan kendaraan pribadi anda untuk perbaikan ketika anda sedang mengendarainya!</String>
         <String xml:lang="th-TH">~r~คุณไม่สามารถส่งยานพาหนะส่วนตัวของคุณไปซ่อมบำรุงได้เมื่อคุณอยู่ข้างใน!</String>
-        <String xml:lang="vi-VN">~r~Bạn không thể gửi phương tiện cá nhân đi bảo dưỡng khi đang ngồi trong đó!</String>
-        <String xml:lang="hi-Latn">~r~Aap apni vehicle maintenance pe nahi bhej sakte jab aap uske andar ho!</String>
-        <String xml:lang="cs-CZ">~r~Své vozidlo nemůžeš poslat do servisu, dokud v něm sedíš.</String>
-        <String xml:lang="lv-LV">~r~Jūs nevarat nosūtīt savu personīgo transportlīdzekli uz apkopi, kamēr atrodaties tajā!</String>
-        <String xml:lang="no-NO">~r~Du kan ikke sende ditt personlige kjøretøy til vedlikehold når du er inne i det!</String>
-        <String xml:lang="sv-SE">~r~Du kan inte skicka ditt personliga fordon till underhåll när du är inne i det!</String>
-        <String xml:lang="fr-FR">~r~Vous ne pouvez pas envoyer votre véhicule personnel en maintenance en étant à l'intérieur!</String>
-        <String xml:lang="zh-Hant">~r~你得離開車輛已將個人載具送去保養.</String>
+        <String xml:lang="vi-VN">~r~Bạn không thể gửi xe của bạn đi bảo dưỡng trong khi bạn đang ngồi trên xe!</String>
+        <String xml:lang="fr-FR">~r~Vous ne pouvez pas envoyer votre véhicule en maintenance tant que vous êtes à l'intérieur!</String>
     </Entry>
 
     <Entry Id="vehicle_sent_to_maintenance">
@@ -127,14 +117,8 @@
         <String xml:lang="ar-001">تم إرسال ~b~{0}~s~ الخاص بك إلى الصيانة. هذا سوف يستغرق بضع دقائق</String>
         <String xml:lang="id-ID">Kendaraan ~b~{0} ~s~sudah di kirimkan untuk perbaikan. Perbaikan akan membutuhkan waktu beberapa menit.</String>
         <String xml:lang="th-TH">~b~{0} ~s~ของคุณถูกส่งไปยังการบำรุงรักษาแล้ว การดำเนินการนี้จะใช้เวลาสักครู่</String>
-        <String xml:lang="vi-VN">Phương tiện ~b~{0} ~s~của bạn đã được gửi đi bảo dưỡng. Quá trình này sẽ mất vài phút.</String>
-        <String xml:lang="hi-Latn">Aapki ~b~{0} ~s~maintenance ke liye bhej di gayi. Kuch hi minutes ki baat hai.</String>
-        <String xml:lang="cs-CZ">Tvé vozidlo ~b~{0} ~s~bylo odesláno do servisu. Potrvá to pár minut.</String>
-        <String xml:lang="lv-LV">Jūsu ~b~{0} ~s~tika nosūtīts uz apkopi. Tā aizņems dažas minūtes.</String>
-        <String xml:lang="no-NO">Din ~b~{0} ~s~er blitt sendt til vedlikehold. Dette vil ta noen minutter.</String>
-        <String xml:lang="sv-SE">Din ~b~{0} ~s~har skickats till underhåll. Detta kommer ta några minuter.</String>
-        <String xml:lang="fr-FR">Votre ~b~{0} ~s~a été envoyée en maintenance. Cela prendra quelques minutes.</String>
-        <String xml:lang="zh-Hant">你的 ~b~{0}~s~已被送去保養. 這會需要幾分鐘的時間.</String>
+        <String xml:lang="vi-VN">Xe ~b~{0} ~s~đã được gửi đến nơi bảo dưỡng. Việc này sẽ mất một vài phút.</String>
+        <String xml:lang="fr-FR">Votre ~b~{0} ~s~as été envoyé en maitenance. Cela va prendre quelques minutes.</String>
     </Entry>
 
     <Entry Id="vehicle_already_in_maintenance">
@@ -150,13 +134,7 @@
         <String xml:lang="ar-001">~r~هذه السيارة قيد الصيانة بالفعل!</String>
         <String xml:lang="id-ID">~r~Kendaraan ini sudah dalam perbaikan!</String>
         <String xml:lang="th-TH">~r~รถคันนี้อยู่ในการบำรุงรักษาแล้ว</String>
-        <String xml:lang="vi-VN">~r~Phương tiện này hiện đang được bảo dưỡng rồi!</String>
-        <String xml:lang="hi-Latn">~r~Ye vehicle pehle se hi maintenance mai hai!</String>
-        <String xml:lang="cs-CZ">~r~Toto vozidlo je již v servisu!</String>
-        <String xml:lang="lv-LV">~r~Šīs transportlīdzeklis jau ir uz apkopes!</String>
-        <String xml:lang="no-NO">~r~Dette kjøretøyet er allerede under vedlikehold!</String>
-        <String xml:lang="sv-SE">~r~Det här fordonet är redan i underhåll!</String>
-        <String xml:lang="zh-Hant">~r~ 該車輛已經在被保養了!</String>
+        <String xml:lang="vi-VN">~r~Chiếc xe này đang trong bảo dưỡng!</String>      
     </Entry>
 
     <Entry Id="vehicle_already_in_delivery">
@@ -179,20 +157,39 @@
 
     <Entry Id="vehicle_delivered_prank">
         <String xml:lang="en-US">~b~Sometimes we don't get what we want.</String>
-        <String xml:lang="nl-NL">~b~Soms krijg je niet wat je wilt.</String>
-        <String xml:lang="hi-Latn">~b~Kabhi-kabhi hame wo nahi milta jo ham chahte hain.</String>
-        <String xml:lang="de-DE">~b~Manchmal bekommen wir nicht das, was wir wollen.</String>
-        <String xml:lang="it-IT">~b~A volte non otteniamo quello che vogliamo.</String>
-        <String xml:lang="id-ID">~b~Terkadang kita tidak dapat apa yang kita mau.</String>
-        <String xml:lang="cs-CZ">~b~Né pokaždé dostaneme to co chceme.</String>
-        <String xml:lang="lv-LV">~b~Dažreiz mēs nesaņemam to, ko vēlamies.</String>
-        <String xml:lang="fr-FR">~b~Parfois, nous n'obtenons pas ce que l'on souhaite.</String>
-        <String xml:lang="no-NO">~b~Noen ganger får vi ikke det vi ønsker.</String>
-        <String xml:lang="sv-SE">~b~Ibland får vi inte som vi vill.</String>
-        <String xml:lang="pt-BR">~b~Às vezes, não conseguimos o que queremos.</String>
-        <String xml:lang="tr-TR">~b~Bazen istediğimiz şeyleri alamayız.</String>
-        <String xml:lang="es-ES">~b~A veces no conseguimos lo que queremos.</String>
-        <String xml:lang="vi-VN">~b~Đôi khi chúng ta không đạt được điều mình mong muốn.</String>
+    </Entry>
+
+    <!-- {0} = Vehicle -->
+    <Entry Id="vehicle_completed_maintenance">
+        <String xml:lang="en-US">The maintenance of your ~b~{0} ~s~has been completed.</String>
+        <String xml:lang="pl-PL">Konserwacja twojego ~b~{0} ~s~została ukończona.</String>
+        <String xml:lang="nl-NL">De onderhoudsbeurt van je ~b~{0} ~s~is klaar.</String>
+        <String xml:lang="it-IT">La manutenzione della tua ~b~{0} ~s~è stata completata.</String>
+        <String xml:lang="tr-TR">Senin aracın ~b~{0} ~s~tamiri tamamlandı.</String>
+        <String xml:lang="es-ES">El mantenimiento de su ~b~{0} ~s~ha finalizado.</String>
+        <String xml:lang="pt-BR">A manutenção de seu ~b~{0} ~s~foi concluída.</String>
+        <String xml:lang="de-DE">Die Wartung von deinem ~b~{0} ~s~wurde abgeschlossen.</String>
+        <String xml:lang="ar-001">تم الانتهاء من صيانة ~b~{0}~s~.</String>
+        <String xml:lang="id-ID">Perbaikan ~b~{0} ~s~telah selesai.</String>
+        <String xml:lang="th-TH">การบำรุงรักษาของคุณ ~b~{0} ~s~เสร็จเรียบร้อยแล้ว</String>
+        <String xml:lang="vi-VN">Bảo dưỡng cho xe ~b~{0} ~s~của bạn đã hoàn thành</String>
+        <String xml:lang="fr-FR">La maintenance de votre ~b~{0} ~s~est terminée.</String>
+    </Entry>
+
+    <!-- {0} = Vehicle -->
+    <Entry Id="vehicle_replaced_transported_garage">
+        <String xml:lang="en-US">Your ~b~{0} ~s~has been replaced and transported to your garage!</String>
+        <String xml:lang="pl-PL">Twój ~b~{0} ~s~został zamieniony i przetransportowany do twojego garażu!</String>
+        <String xml:lang="nl-NL">Je ~b~{0} ~s~is vervangen en getransporteerd naar je garage!</String>
+        <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata sostituita e trasportata al tuo garage!</String>
+        <String xml:lang="tr-TR">Senin ~b~{0} ~s~değiştirildi ve garajına gönderildi!</String>
+        <String xml:lang="es-ES">¡Su ~b~{0} ~s~ha sido sustituido y transportado a su garaje!</String>
+        <String xml:lang="pt-BR">Seu ~b~{0} ~s~foi substituído e transportado para sua garagem!</String>
+        <String xml:lang="de-DE">Dein ~b~{0} ~s~wurde ersetzt und zu deiner Garage transportiert!</String>
+        <String xml:lang="ar-001">لقد تم استبدال ~b~{0} ~s~الخاص بك ونقله إلى المرآب الخاص بك!</String>
+        <String xml:lang="id-ID">Kendaraan ~b~{0} ~s~telah diganti dan dikirimkan ke garasi anda!</String>
+        <String xml:lang="th-TH">~b~{0} ~s~ของคุณได้ถูกแทนที่และขนส่งไปยังโรงรถของคุณแล้ว!</String>
+        <String xml:lang="vi-VN">Xe ~b~{0} ~s~đã được thay thế và vận chuyển về gara của bạn!</String>
     </Entry>
 
     <Entry Id="vehicle_replaced">
@@ -280,51 +277,9 @@
     </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
-    <Entry Id="vehicle_completed_maintenance">
-        <String xml:lang="en-US">The maintenance of your ~b~{0} ~s~has been completed.</String>
-        <String xml:lang="pl-PL">Konserwacja twojego ~b~{0} ~s~została ukończona.</String>
-        <String xml:lang="nl-NL">De onderhoudsbeurt van je ~b~{0} ~s~is klaar.</String>
-        <String xml:lang="tr-TR">Senin aracın ~b~{0} ~s~tamiri tamamlandı.</String>
-        <String xml:lang="es-ES">El mantenimiento de su ~b~{0} ~s~ha finalizado.</String>
-        <String xml:lang="pt-BR">A manutenção de seu ~b~{0} ~s~foi concluída.</String>
-        <String xml:lang="de-DE">Die Wartung von deinem ~b~{0} ~s~wurde abgeschlossen.</String>
-        <String xml:lang="ar-001">تم الانتهاء من صيانة ~b~{0}~s~.</String>
-        <String xml:lang="id-ID">Perbaikan ~b~{0} ~s~telah selesai.</String>
-        <String xml:lang="th-TH">การบำรุงรักษาของคุณ ~b~{0} ~s~เสร็จเรียบร้อยแล้ว</String>
-        <String xml:lang="vi-VN">Việc bảo dưỡng ~b~{0} ~s~của bạn đã hoàn tất.</String>
-        <String xml:lang="cs-CZ">Tvé vozidlo ~b~{0} ~s~bylo úspěšně opraveno.</String>
-        <String xml:lang="lv-LV">Jūsu ~b~{0} ~s~apkope tika pabeigta.</String>
-        <String xml:lang="hi-Latn">Aapki ~b~{0} ~s~ka maintenance complete ho gaya.</String>
-        <String xml:lang="fr-FR">La maintenance de votre ~b~{0} ~s~est terminée.</String>
-        <String xml:lang="it-IT">La manutenzione della tua ~b~{0} ~s~è stata completata.</String>
-        <String xml:lang="no-NO">Vedlikeholdet av din ~b~{0} ~s~er fullført.</String>
-        <String xml:lang="sv-SE">Underhållet av din ~b~{0}~s~ har slutförts.</String>
-        <String xml:lang="zh-Hant">~b~{0}~s~ 的保養已完成.</String>
-    </Entry>
 
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
-    <Entry Id="vehicle_replaced_transported_garage">
-        <String xml:lang="en-US">Your ~b~{0} ~s~has been replaced and transported to your garage!</String>
-        <String xml:lang="pl-PL">Twój ~b~{0} ~s~został zamieniony i przetransportowany do twojego garażu!</String>
-        <String xml:lang="nl-NL">Je ~b~{0} ~s~is vervangen en getransporteerd naar je garage!</String>
-        <String xml:lang="tr-TR">Senin ~b~{0} ~s~değiştirildi ve garajına gönderildi!</String>
-        <String xml:lang="es-ES">¡Su ~b~{0} ~s~ha sido sustituido y transportado a su garaje!</String>
-        <String xml:lang="pt-BR">Seu ~b~{0} ~s~foi substituído e transportado para sua garagem!</String>
-        <String xml:lang="de-DE">Dein ~b~{0} ~s~wurde ersetzt und zu deiner Garage transportiert!</String>
-        <String xml:lang="ar-001">لقد تم استبدال ~b~{0} ~s~الخاص بك ونقله إلى المرآب الخاص بك!</String>
-        <String xml:lang="id-ID">Kendaraan ~b~{0} ~s~telah diganti dan dikirimkan ke garasi anda!</String>
-        <String xml:lang="th-TH">~b~{0} ~s~ของคุณได้ถูกแทนที่และขนส่งไปยังโรงรถของคุณแล้ว!</String>
-        <String xml:lang="vi-VN">~b~{0} ~s~của bạn đã được thay thế và vận chuyển về nhà để xe của bạn!</String>
-        <String xml:lang="it-IT">La tua ~b~{0} ~s~è stata sostituita e trasportata al tuo garage!</String>
-        <String xml:lang="cs-CZ">Tvé vozidlo ~b~{0} ~s~bylo nahrazeno a přepraveno do garáže!</String>
-        <String xml:lang="lv-LV">Jūsu ~b~{0} ~s~tika aizstāts un nosūtīts jūsu garāžā!</String>
-        <String xml:lang="hi-Latn">Aapki ~b~{0} ~s~replace karwa ke garage me teleport kara di gayi hai!</String>
-        <String xml:lang="no-NO">Din ~b~{0} ~s~er blitt skiftet ut og fraktet til garasjen din!</String>
-        <String xml:lang="sv-SE">Din ~b~{0} ~s~har bytts ut och transporterats till ditt garage!</String>
-        <String xml:lang="fr-FR">Votre ~b~{0} ~s~a été remplacée et transportée dans votre garage!</String>
-        <String xml:lang="zh-Hant">你的 ~b~{0}~s~ 已被重製並送達至車庫!</String>
-    </Entry>
-
+   
     <!-- nullnull{0} = Vehicle name (for example: Nero Custom)
          {1} = Amount (for example: $250,000) 
     -->
@@ -2190,6 +2145,7 @@
         <String xml:lang="nl-NL">Actief</String>
         <String xml:lang="it-IT">Attiva</String>
         <String xml:lang="vi-VN">Còn hoạt động</String>
+        <String xml:lang="fr-FR">Actif</String>
     </Entry>
 
     <Entry Id="menu_vehicles_destroyed">
@@ -2197,6 +2153,7 @@
         <String xml:lang="nl-NL">Vernield</String>
         <String xml:lang="it-IT">Distrutta</String>
         <String xml:lang="vi-VN">Bị phá hủy</String>
+        <String xml:lang="fr-FR">Détruit</String>
     </Entry>
 
     <Entry Id="menu_vehicles_impounded">
@@ -2204,6 +2161,7 @@
         <String xml:lang="nl-NL">In beslag genomen</String>
         <String xml:lang="it-IT">Sequestrata</String>
         <String xml:lang="vi-VN">Bị tịch thu</String>
+        <String xml:lang="fr-FR">En fourrière</String>
     </Entry>
 
     <Entry Id="menu_vehicles_in_maintenance">
@@ -2211,6 +2169,7 @@
         <String xml:lang="nl-NL">In onderhoud</String>
         <String xml:lang="it-IT">In manutenzione</String>
         <String xml:lang="vi-VN">Đang bảo dưỡng</String>
+        <String xml:lang="fr-FR">En Maintenance</String>
     </Entry>
 
     <Entry Id="menu_vehicles_damaged">
@@ -2218,6 +2177,7 @@
         <String xml:lang="nl-NL">Beschadigd</String>
         <String xml:lang="it-IT">Danneggiata</String>
         <String xml:lang="vi-VN">Bị hư hỏng</String>
+        <String xml:lang="fr-FR">Abimé</String>
     </Entry>
 
     <Entry Id="menu_vehicles_fuel_low">
@@ -2225,6 +2185,7 @@
         <String xml:lang="nl-NL">Weinig brandstof</String>
         <String xml:lang="it-IT">Carburante quasi finito</String>
         <String xml:lang="vi-VN">Sắp hết nhiên liệu</String>
+        <String xml:lang="fr-FR">Essence Faible</String>
     </Entry>
 
     <Entry Id="menu_vehicles_battery_low">
@@ -2232,6 +2193,7 @@
         <String xml:lang="nl-NL">Weinig batterij</String>
         <String xml:lang="it-IT">Batteria quasi scarica</String>
         <String xml:lang="vi-VN">Sắp hết pin</String>
+        <String xml:lang="fr-FR">Batterie Faible</String>
     </Entry>
 
     <Entry Id="menu_vehicles_recalled">
@@ -2239,6 +2201,7 @@
         <String xml:lang="nl-NL">Teruggeroepen</String>
         <String xml:lang="it-IT">Richiamata</String>
         <String xml:lang="vi-VN">Thu hồi</String>
+        <String xml:lang="fr-FR">rappelé</String>
     </Entry>
 
     <Entry Id="menu_vehicles_color">
@@ -2246,6 +2209,7 @@
         <String xml:lang="nl-NL">Kleur</String>
         <String xml:lang="it-IT">Colore</String>
         <String xml:lang="vi-VN">Màu</String>
+        <String xml:lang="fr-FR">Couleur</String>
     </Entry>
 
     <Entry Id="menu_vehicles_plate">
@@ -2253,6 +2217,7 @@
         <String xml:lang="nl-NL">Kentekenplaat</String>
         <String xml:lang="it-IT">Targa</String>
         <String xml:lang="vi-VN">Biển số xe</String>
+        <String xml:lang="fr-FR">Plaque d'immatriculation</String>
     </Entry>
 
     <Entry Id="menu_vehicles_health">
@@ -2260,6 +2225,7 @@
         <String xml:lang="nl-NL">Gezondheid</String>
         <String xml:lang="it-IT">Salute</String>
         <String xml:lang="vi-VN">Máu</String>
+        <String xml:lang="fr-FR">Santé</String>
     </Entry>
 
     <Entry Id="menu_vehicles_fuel">
@@ -2267,6 +2233,7 @@
         <String xml:lang="nl-NL">Brandstof</String>
         <String xml:lang="it-IT">Carburante</String>
         <String xml:lang="vi-VN">Nhiên liệu</String>
+        <String xml:lang="fr-FR">Essence</String>
     </Entry>
 
     <Entry Id="menu_vehicles_battery">
@@ -2274,6 +2241,7 @@
         <String xml:lang="nl-NL">Batterij</String>
         <String xml:lang="it-IT">Batteria</String>
         <String xml:lang="vi-VN">Pin</String>
+        <String xml:lang="fr-FR">Batterie</String>
     </Entry>
 
     <Entry Id="menu_vehicles_tank">
@@ -2281,6 +2249,7 @@
         <String xml:lang="nl-NL">Brandstoftank</String>
         <String xml:lang="it-IT">Serbatoio</String>
         <String xml:lang="vi-VN">Thùng xăng</String>
+        <String xml:lang="fr-FR">Réservoir</String>
     </Entry>
 
     <Entry Id="menu_vehicles_tires">
@@ -2288,6 +2257,7 @@
         <String xml:lang="nl-NL">Banden</String>
         <String xml:lang="it-IT">Pneumatici</String>
         <String xml:lang="vi-VN">Lốp xe</String>
+        <String xml:lang="fr-FR">Pneus</String>
     </Entry>
 
     <Entry Id="menu_vehicles_cleanliness">
@@ -2295,6 +2265,7 @@
         <String xml:lang="nl-NL">Schoonheid</String>
         <String xml:lang="it-IT">Pulizia</String>
         <String xml:lang="vi-VN">Mức độ sạch</String>
+        <String xml:lang="fr-FR">Propreté</String>
     </Entry>
 
     <!-- specifically shown in the vehicles menu when the tires/tank are OK (no damage). This is NOT a confirmation "ok". -->
@@ -2311,6 +2282,7 @@
         <String xml:lang="nl-NL">Beschadigd</String>
         <String xml:lang="it-IT">Danneggiato</String>
         <String xml:lang="vi-VN">Hư hỏng</String>
+        <String xml:lang="fr-FR">Endommagé</String>
     </Entry>
 
     <!-- Specifically shown for the tires when at least one is punctured -->
@@ -2319,6 +2291,7 @@
         <String xml:lang="nl-NL">{0} lekke banden</String>
         <String xml:lang="it-IT">{0} forati</String>
         <String xml:lang="vi-VN">{0} lốp bị lủng</String>
+        <String xml:lang="fr-FR">{0} Plat</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
@@ -2327,6 +2300,7 @@
         <String xml:lang="nl-NL">Voorbeeld van een ~b~{0}~s~.</String>
         <String xml:lang="it-IT">Stai visualizzando una ~b~{0}~s~.</String>
         <String xml:lang="vi-VN">Xem trước ~b~{0}~s~.</String>
+        <String xml:lang="fr-FR">Prévisualisation de ~b~{0}~s~.</String>
     </Entry>
 
     <Entry Id="dealership_credits_and_usage_rights">
@@ -2334,6 +2308,7 @@
         <String xml:lang="nl-NL">Credits en auteursrechten</String>
         <String xml:lang="it-IT">Riconoscimenti e Diritti d'Utilizzo</String>
         <String xml:lang="vi-VN">Ghi công và quyền sử dụng</String>
+        <String xml:lang="fr-FR">Crédits et Droits d'utilisation</String>
     </Entry>
 
     <Entry Id="dealership_need_to_own_garage">
@@ -2341,6 +2316,7 @@
         <String xml:lang="nl-NL">Je moet een garage bezitten voordat je een voertuig kunt kopen.</String>
         <String xml:lang="it-IT">Devi possedere un garage prima di acquistare un veicolo.</String>
         <String xml:lang="vi-VN">Bạn cần phải có nhà để xe trước khi mua xe.</String>
+        <String xml:lang="fr-FR">Tu as besoin de posséder un garage avant de pouvoir acheter un véhicule.</String>
     </Entry>
 
     <!-- {0} = Vehicle name -->
@@ -2351,6 +2327,7 @@
         <String xml:lang="nl-NL">Stal je nieuwe ~b~{0} ~s~in je ~p~{1} ~s~garage in ~y~{2}~s~.</String>
         <String xml:lang="it-IT">Parcheggia la tua nuova ~b~{0} ~s~nel tuo garage ~p~{1} ~s~a ~y~{2}~s~.</String>
         <String xml:lang="vi-VN">Cất ~b~{0} ~s~mới của bạn vào nhà để xe ~p~{1} ~s~ở ~y~{2}~s~.</String>
+        <String xml:lang="fr-FR">Garez votre nouveau ~b~{0} ~s~dans votre ~p~{1} ~s~garage ~y~{2}~s~.</String>
     </Entry>
 
     <Entry Id="info_unmarked_vehicle">
@@ -2358,6 +2335,7 @@
         <String xml:lang="nl-NL">~b~Onopvallend politievoertuig!~n~~s~Burgers zullen je zien als een mede-burger totdat je dichtbij genoeg bent of je sirene aanzet.</String>
         <String xml:lang="it-IT">~b~Veicolo della polizia non contrassegnato!~n~~s~I civili ti vedranno come un altro civile finché non ti avvicini abbastanza o non accendi la sirena.</String>
         <String xml:lang="vi-VN">~b~Phương tiện cảnh sát không có dấu hiệu nhận dạng!~n~~s~Dân thường sẽ thấy bạn là thường dân cho đến khi bạn đến đủ gần hoặc bật còi.</String>
+        <String xml:lang="fr-FR">~b~Véhicule de Police Banalisée!~n~~s~Les citoyens vous verronts comme un citoyen à moins que vous soyez assez proche ou si vous allumez votre sirène.</String>
     </Entry>
     
 </Entries>
