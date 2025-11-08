@@ -4051,8 +4051,8 @@
     </Entry>
 
     <Entry Id="racing_got_invited">
-        <String xml:lang="en-US">{0} invited you to a race. ~y~{1}~s~ to view invitation.</String>
-        <String xml:lang="nl-NL">{0} heeft je uitgenodigd voor een race. ~y~{1}~s~ om de uitnodiging te bekijken.</String>
+        <String xml:lang="en-US">{0} invited you to a race with a bet of ~g~{1}~s~. ~y~{2}~s~ to view invitation.</String>
+        <String xml:lang="nl-NL">{0} heeft je uitgenodigd voor een race met een inzet van ~g~{1}~s~. ~y~{2}~s~ om de uitnodiging te bekijken.</String>
     </Entry>
 
     <Entry Id="racing_join_error">
@@ -4178,6 +4178,14 @@
         <String xml:lang="nl-NL">Track #{0}</String>
     </Entry>
 
+    <Entry Id="racing_track_export_title">
+        <String xml:lang="en-US">Track</String>
+    </Entry>
+
+    <Entry Id="racing_track_export_text">
+        <String xml:lang="en-US">Race track data.</String>
+    </Entry>
+
     <Entry Id="racing_checkpoint">
         <String xml:lang="en-US">Checkpoint #{0}</String>
         <String xml:lang="nl-NL">Checkpoint #{0}</String>
@@ -4209,14 +4217,22 @@
         <String xml:lang="nl-NL">Resterende Tijd</String>
     </Entry>
 
+    <Entry Id="racing_timer_bar_lap_time_label">
+        <String xml:lang="en-US">Lap Time</String>
+    </Entry>
+
+    <Entry Id="racing_timer_bar_race_time_label">
+        <String xml:lang="en-US">Race Time</String>
+    </Entry>
+
     <Entry Id="racing_start_new_race">
         <String xml:lang="en-US">Start new race</String>
         <String xml:lang="nl-NL">Start nieuwe race</String>
     </Entry>
 
     <Entry Id="racing_participant_joined">
-        <String xml:lang="en-US">{0} has joined this race</String>
-        <String xml:lang="nl-NL">{0} heeft zich aangemeld voor deze race</String>
+        <String xml:lang="en-US">{0} has joined this race with a bet of {1}</String>
+        <String xml:lang="nl-NL">{0} heeft zich aangemeld voor deze race met een inzet van {1}</String>
     </Entry>
 
     <Entry Id="racing_participant_left">
