@@ -1918,6 +1918,16 @@
         <String xml:lang="vi-VN">Tài khoản</String>
     </Entry>
 
+    <Entry Id="menu_options_account_subtitle">
+        <String xml:lang="en-US">You are currently logged in as ~b~{0}~s~. Select this option to configure your ~y~Cops and Robbers V Account ~s~settings.</String>
+        <String xml:lang="it-IT">Sei attualmente loggato come ~b~{0}~s~. Seleziona quest'opzione per gestire le opzioni del tuo ~y~Account di Cops and Robbers V~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_subscription">
+        <String xml:lang="en-US">Subscription</String>
+        <String xml:lang="it-IT">Abbonamento</String>
+    </Entry>
+
     <Entry Id="menu_options_account_subhistory_subtitle">
         <String xml:lang="en-US">Subscription History</String>
         <String xml:lang="nl-NL">Abonnement Geschiedenis</String>
@@ -1956,6 +1966,46 @@
         <String xml:lang="no-NO">Kjøp</String>
         <String xml:lang="sv-SE">Inköp</String>
         <String xml:lang="vi-VN">Mua hàng</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_refresh_desc">
+        <String xml:lang="en-US">Refresh your ~p~Member ~s~status and ~b~Purchases~s~. If you have just made a purchase and you don't have it in game, select this option.</String>
+        <String xml:lang="it-IT">Aggiorna lo stato del tuo ~p~Abbonamento ~s~e ~b~Acquisti~s~. Seleziona quest'opzion se hai appena fatto un acquisto e non l'hai ancora ricevuto nel gioco.</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_change_name">
+        <String xml:lang="en-US">Change Username</String>
+        <String xml:lang="it-IT">Cambia Nome Utente</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_change_name_desc">
+        <String xml:lang="en-US">Requires a ~p~{0} ~s~or a ~p~Premium Membership~s~. If you only want to add/remove a crew tag or fix a typo, contact the server staff for a free name change.</String>
+        <String xml:lang="it-IT">Richiede una ~p~{0} ~s~o un ~p~Abbonamento Premium~s~. Se vuoi semplicemente aggiungere o rimuovere un tag di squadra o correggere un errore, contatta lo staff del server per un cambio di nome gratuito.</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_change_email">
+        <String xml:lang="en-US">Change Email</String>
+        <String xml:lang="it-IT">Cambia Email</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_add_email">
+        <String xml:lang="en-US">Add Email</String>
+        <String xml:lang="it-IT">Aggiungi Email</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_link_email_desc">
+        <String xml:lang="en-US">Link your email address to your ~b~Cops and Robbers V Account ~s~so we can contact you about important ~y~account issues ~s~and ~y~game updates~s~. Don't worry, we have ~b~no annoying newsletter ~s~:).</String>
+        <String xml:lang="it-IT">Collega il tuo email al tuo account di ~b~Cops and Robbers V ~s~così possiamo contattarti a riguardo di ~y~problemi con il tuo account ~s~e ~y~aggiornamenti del gioco~s~. Non preoccuparti, non abbiamo alcuna ~b~fastidiosa newsletter ~s~:).</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_change_password">
+        <String xml:lang="en-US">Change Password</String>
+        <String xml:lang="it-IT">Cambia Password</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_change_password_desc">
+        <String xml:lang="en-US">Change the password of your ~b~Cops and Robbers V Account~s~. You can use this password to log in to the game with this account when you're not at your PC, you can also use it to access your personal profile at ~b~https://gtacnr.net~s~. ~y~Security tip~s~: never use the same password across multiple websites and services.</String>
+        <String xml:lang="it-IT">Cambia la password del tuo Account di ~b~Cops and Robbers V~s~. Puoi utilizzare questa password per accedere al gioco con questo account quando non sei al tuo PC, puoi anche usarla per accedere al tuo profilo personale su ~b~https://gtacnr.net~s~. ~y~Consiglio di sicurezza~s~: non usare mai la stessa password per diversi siti e servizi.</String>
     </Entry>
 
     <Entry Id="menu_options_account_linkedservices_subtitle">
@@ -2078,7 +2128,7 @@
         <String xml:lang="vi-VN">Phím tắt</String>
     </Entry>
 
-    <Entry Id="menu_options_chotkeys_subtitle">
+    <Entry Id="menu_options_hotkeys_subtitle">
         <String xml:lang="en-US">Custom hotkeys</String>
         <String xml:lang="nl-NL">Eigen sneltoetsen</String>
         <String xml:lang="fr-FR">Raccourcis clavier personnalisés</String>
@@ -2098,7 +2148,11 @@
         <String xml:lang="vi-VN">Tùy chỉnh phím tắt</String>
     </Entry>
 
-    <Entry Id="menu_options_hotkeys_subtitle">
+    <Entry Id="menu_options_hotkeys_subtitle_2">
+        <String xml:lang="en-US">Bind custom keys to actions</String>
+    </Entry>
+
+    <Entry Id="menu_options_hotkeys_subtitle_3">
         <String xml:lang="en-US">Select an action type</String>
         <String xml:lang="nl-NL">Selecteer eenn actie type</String>
         <String xml:lang="pl-PL">Wybierz typ akcji</String>
@@ -4051,8 +4105,8 @@
     </Entry>
 
     <Entry Id="racing_got_invited">
-        <String xml:lang="en-US">{0} invited you to a race. ~y~{1}~s~ to view invitation.</String>
-        <String xml:lang="nl-NL">{0} heeft je uitgenodigd voor een race. ~y~{1}~s~ om de uitnodiging te bekijken.</String>
+        <String xml:lang="en-US">{0} invited you to a race with a bet of ~g~{1}~s~. ~y~{2}~s~ to view invitation.</String>
+        <String xml:lang="nl-NL">{0} heeft je uitgenodigd voor een race met een inzet van ~g~{1}~s~. ~y~{2}~s~ om de uitnodiging te bekijken.</String>
     </Entry>
 
     <Entry Id="racing_join_error">
@@ -4178,6 +4232,14 @@
         <String xml:lang="nl-NL">Track #{0}</String>
     </Entry>
 
+    <Entry Id="racing_track_export_title">
+        <String xml:lang="en-US">Track</String>
+    </Entry>
+
+    <Entry Id="racing_track_export_text">
+        <String xml:lang="en-US">Race track data.</String>
+    </Entry>
+
     <Entry Id="racing_checkpoint">
         <String xml:lang="en-US">Checkpoint #{0}</String>
         <String xml:lang="nl-NL">Checkpoint #{0}</String>
@@ -4209,14 +4271,22 @@
         <String xml:lang="nl-NL">Resterende Tijd</String>
     </Entry>
 
+    <Entry Id="racing_timer_bar_lap_time_label">
+        <String xml:lang="en-US">Lap Time</String>
+    </Entry>
+
+    <Entry Id="racing_timer_bar_race_time_label">
+        <String xml:lang="en-US">Race Time</String>
+    </Entry>
+
     <Entry Id="racing_start_new_race">
         <String xml:lang="en-US">Start new race</String>
         <String xml:lang="nl-NL">Start nieuwe race</String>
     </Entry>
 
     <Entry Id="racing_participant_joined">
-        <String xml:lang="en-US">{0} has joined this race</String>
-        <String xml:lang="nl-NL">{0} heeft zich aangemeld voor deze race</String>
+        <String xml:lang="en-US">{0} has joined this race with a bet of {1}</String>
+        <String xml:lang="nl-NL">{0} heeft zich aangemeld voor deze race met een inzet van {1}</String>
     </Entry>
 
     <Entry Id="racing_participant_left">
