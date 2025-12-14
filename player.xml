@@ -2008,7 +2008,7 @@
         <String xml:lang="it-IT">Cambia la password del tuo Account di ~b~Cops and Robbers V~s~. Puoi utilizzare questa password per accedere al gioco con questo account quando non sei al tuo PC, puoi anche usarla per accedere al tuo profilo personale su ~b~https://gtacnr.net~s~. ~y~Consiglio di sicurezza~s~: non usare mai la stessa password per diversi siti e servizi.</String>
     </Entry>
 
-    <Entry Id="menu_options_account_linkedservices_subtitle">
+    <Entry Id="menu_options_account_linked_services">
         <String xml:lang="en-US">Linked Services</String>
         <String xml:lang="nl-NL">Gelinkte Diensten</String>
         <String xml:lang="pl-PL">Połączone Usługi</String>
@@ -2026,6 +2026,9 @@
         <String xml:lang="no-NO">Tilknyttede tjenester</String>
         <String xml:lang="sv-SE">Länkade tjänster</String>
         <String xml:lang="vi-VN">Các dịch vụ đã liên kết</String>
+    </Entry>
+    <Entry Id="menu_options_account_linked_services_desc">
+        <String xml:lang="en-US">Manage your ~b~third-party authentication services~s~.</String>
     </Entry>
 
     <Entry Id="menu_options_display_title">
@@ -2270,6 +2273,198 @@
 
     <Entry Id="menu_options_misc_cam_cycle_no_fp">
         <String xml:lang="en-US">No FP</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_language_text">
+        <String xml:lang="en-US">Language</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_language_desc">
+        <String xml:lang="en-US">Change your display language.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_language_warning">
+        <String xml:lang="en-US">~r~Warning: ~s~translations are ~y~INCOMPLETE~s~, some languages more than others. Anyone can contribute at ~b~https://github.com/Sasino97/gta-cnr-localization~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_chat_pos_text">
+        <String xml:lang="en-US">Chat Position</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_chat_pos_desc">
+        <String xml:lang="en-US">~b~SA-MP Style: ~s~Chat on the left, menus on the right.\n~b~GTA:O Style: ~s~Chat on the right, menus on the left.\n~y~Try the GTA:O Style setting if you have an ultra wide monitor and have issues with the menus.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_chat_pos_option_1">
+        <String xml:lang="en-US">SA-MP Style</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_chat_pos_option_2">
+        <String xml:lang="en-US">GTA:O Style</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_death_feed_text">
+        <String xml:lang="en-US">Death Feed</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_death_feed_desc">
+        <String xml:lang="en-US">~b~Off: ~s~No death and arrest feed.\n~b~On: ~s~All deaths and arrests.\n~b~Proximity: ~s~Only nearby deaths and arrests.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_death_feed_option_proximity">
+        <String xml:lang="en-US">Proximity</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_speedometer_text">
+        <String xml:lang="en-US">Speedometer</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_speedometer_desc">
+        <String xml:lang="en-US">Display/hide speedometer. You can change the measurement system in your GTA settings.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_altimeter_text">
+        <String xml:lang="en-US">Altimeter</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_altimeter_desc">
+        <String xml:lang="en-US">Display/hide altimeter. You can change the measurement system in your GTA settings.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_immersive_mode_text">
+        <String xml:lang="en-US">Immersive Mode</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_immersive_mode_desc">
+        <String xml:lang="en-US">Disables the HUD when turned on. You can also toggle this option by pressing ~p~F9~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_text_chat_text">
+        <String xml:lang="en-US">Text Chat</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_text_chat_desc">
+        <String xml:lang="en-US">Display or hide the text chat. You can also toggle this option by pressing ~p~F10~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_property_blips_text">
+        <String xml:lang="en-US">Property Blips</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_property_blips_desc">
+        <String xml:lang="en-US">Toggles property blips on the radar, such as warehouses and garages.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_property_blips_option_all">
+        <String xml:lang="en-US">All</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_property_blips_option_owned">
+        <String xml:lang="en-US">Owned</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_health_percent_text">
+        <String xml:lang="en-US">Health Percentage</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_health_percent_desc">
+        <String xml:lang="en-US">Display/hide health in percentage above players' heads (impacts performance).</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_signs_text">
+        <String xml:lang="en-US">Custom Signs</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_signs_desc">
+        <String xml:lang="en-US">Display/hide custom player signs over their heads (could impact performance if too many players are using signs at the same time).</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_low_fuel_prompt_text">
+        <String xml:lang="en-US">Low Fuel Prompt</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_low_fuel_prompt_desc">
+        <String xml:lang="en-US">Display/hide low fuel prompt.</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_fuel_bar_text">
+        <String xml:lang="en-US">Fuel Bar</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_fuel_bar_desc">
+        <String xml:lang="en-US">Always show the fuel bar.</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_crosshair_text">
+        <String xml:lang="en-US">Crosshair</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_crosshair_desc">
+        <String xml:lang="en-US">Display/hide the default GTA crosshair. Recommended if you use an external crosshair software such as HudSight. You can also use ~b~/crosshair ~s~to open our editor for FiveM's custom crosshair.</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_usernames_on_blips_text">
+        <String xml:lang="en-US">Show Usernames on Blips</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_usernames_on_blips_desc">
+        <String xml:lang="en-US">Toggles whether or not name labels are shown on the expanded minimap next to player blips.</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_hide_xp_bar_text">
+        <String xml:lang="en-US">Hide XP Bar</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_hide_xp_bar_desc">
+        <String xml:lang="en-US">Hides</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_menu_offsets_text">
+        <String xml:lang="en-US">Menu Offsets</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_menu_offsets_desc">
+        <String xml:lang="en-US">Adjust the offsets of menu text.</String>
+    </Entry>
+    
+    <Entry Id="menu_options_accessibility_colorblind_mode_text">
+        <String xml:lang="en-US">Colorblind Mode</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_colorblind_mode_desc">
+        <String xml:lang="en-US">Adds shapes inside player circles to help you distinguish roles.</String>
+    </Entry>
+    
+    <Entry Id="menu_options_accessibility_flashbang_mode_text">
+        <String xml:lang="en-US">Flashbang Mode</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_flashbang_mode_desc">
+        <String xml:lang="en-US">~b~Standard: ~s~A white screen, similar to most games that have flashbangs.\n~b~Blackout: ~s~A black screen, more suitable for photosensitive people.</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_flashbang_mode_option_standard">
+        <String xml:lang="en-US">Standard</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_flashbang_mode_option_blackout">
+        <String xml:lang="en-US">Blackout</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_thousands_separator_text">
+        <String xml:lang="en-US">Thousands Separator</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_thousands_separator_desc">
+        <String xml:lang="en-US">Adds thousands separators to the money HUD.</String>
+    </Entry>
+
+    <Entry Id="menu_options_keybinds_btn_bind">
+        <String xml:lang="en-US">Bind</String>
+    </Entry>
+
+    <Entry Id="menu_options_keybinds_btn_unbind">
+        <String xml:lang="en-US">Unbind</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152))
