@@ -166,7 +166,7 @@
         <String xml:lang="it-IT">~y~Attenzione! ~s~Sei appena entrato in una ~r~zona rossa~s~. I civili e criminali qui sono autorizzati ad uccidere chiunque a vista.</String>
         <String xml:lang="de-DE">~y~Achtung! ~s~Du hast gerade eine ~r~rote Zone~s~ betreten. Zivilisten und Kriminelle dürfen jeden bei Sichtkontakt töten.</String>
         <String xml:lang="es-ES">~y~¡Advertencia! ~s~Acabas de entrar en una ~r~zona roja~s~. Los civiles y los criminales pueden matar a cualquiera que vean aquí.</String>
-        <String xml:lang="pl-PL">~y~Ostrzeżenie! ~s~Weszłeś do ~r~strefy zagrożonej~s~. Cywile i kryminaliści mogą zabijać tu zabijać wszystkich.</String>
+        <String xml:lang="pl-PL">~y~Ostrzeżenie! ~s~Wszedłeś do ~r~czerwonej strefy~s~. Cywile i kryminaliści mogą zabijać tu wszystkich.</String>
         <String xml:lang="pt-BR">~y~viso! ~s~Vocês acabaram de entrar em uma ~r~zona vermelha~s~. Os civis e criminosos podem matar qualquer pessoa que virem aqui.</String>
         <String xml:lang="ar-001">~y~تحذير! ~s~لقد دخلت للتو إلى ~r~المنطقة الحمراء~s~. يُسمح للمدنيين والمجرمين بقتل أي شخص يراه هنا.</String>
         <String xml:lang="th-TH">~y~คำเตือน! ~s~คุณเพิ่งเข้าสู่ ~r~เรดโซน~s~ พลเรือนและอาชญากรได้รับอนุญาตให้สังหารใครก็ตามที่เห็นได้ที่นี่</String>
@@ -193,6 +193,8 @@
         <String xml:lang="sv-SE">1.5x bonus for ~b~arresting ~s~and ~r~killing ~s~criminals in this zone.</String>
         <String xml:lang="it-IT">Bonus 1.5x per ~b~arrestare~s~ e ~r~uccidere~s~ criminali in questa zona.</String>
         <String xml:lang="vi-VN">Thưởng 1.5 lần cho việc ~b~bắt giữ ~s~và ~r~tiêu diệt ~s~tội phạm trong khu vực này.</String>
+        <String xml:lang="pl-PL">1.5x bonus za ~b~aresztowanie ~s~i ~r~zabijanie~s~ przestępców w tej strefie.</String>
+        
     </Entry>
 
     <Entry Id="redzone_entered_ems">
@@ -208,6 +210,8 @@
         <String xml:lang="sv-SE">1,5x bonus för ~p~återupplivande ~s~och ~r~läkande ~s~patienter i denna zon.</String>
         <String xml:lang="it-IT">Bonus 1.5x per ~p~rianimare~s~ e ~r~curare~s~ i pazienti in questa zona.</String>
         <String xml:lang="vi-VN">Thưởng 1.5 lần cho việc ~p~hồi sinh ~s~và ~r~chữa trị ~s~bệnh nhân trong khu vực này.</String>
+        <String xml:lang="pl-PL">1.5x bonus za ~p~reanimowanie ~s~i ~r~leczenie ~s~pacjentów w tej strefie.</String>
+
     </Entry>
 
     <Entry Id="redzone_entered_crim">
@@ -223,6 +227,7 @@
         <String xml:lang="sv-SE">Att döda ~b~poliser ~s~och ~p~sjukvårdare ~s~i denna zon belönas.</String>
         <String xml:lang="it-IT">Uccidere ~b~agenti di polizia~s~ e ~p~paramedici~s~ in questa zona è ricompensato.</String>
         <String xml:lang="vi-VN">Giết ~b~cảnh sát ~s~và ~p~nhân viên y tế ~s~trong khu vực này sẽ được thưởng.</String>
+        <String xml:lang="pl-PL">Zabijanie ~b~policjantów ~s~i~p~ paramedyków ~s~w tej strefie jest nagradzane.</String>
     </Entry>
 
     <Entry Id="redzone_announcement">
@@ -238,6 +243,7 @@
         <String xml:lang="sv-SE">(C)Röda zoner:(/C) den aktiva röda zonen är nu (C){0}(/C).</String>
         <String xml:lang="it-IT">(C)Zone Rosse:(/C) la zona rossa attiva ora è (C){0}(/C).</String>
         <String xml:lang="vi-VN">(C)Khu vực màu đỏ:(/C) khu vực màu đỏ đang hoạt động bây giờ là (C){0}(/C).</String>
+        <String xml:lang="pl-PL">(C)Strefy czerwone:(/C) aktywna strefa czerwona to teraz (C){0}(/C).</String>
     </Entry>
 
     <Entry Id="redzone_announcement_cop">
@@ -253,6 +259,7 @@
         <String xml:lang="sv-SE">Arrestera och döda brottslingar i röda zoner för en 1,5x bonus.</String>
         <String xml:lang="it-IT">Arresta e uccidi criminali nelle zone rosse per un 1.5x bonus.</String>
         <String xml:lang="vi-VN">Bắt giữ và tiêu diệt tội phạm trong khu vực màu đỏ để nhận thưởng gấp 1.5 lần.</String>
+        <String xml:lang="pl-PL">Aresztuj i zabijaj przestępców w strefach czerwonych, aby otrzymać premię 1,5x.</String>
     </Entry>
 
     <Entry Id="redzone_announcement_ems">
@@ -268,6 +275,7 @@
         <String xml:lang="sv-SE">Återuppliva och läka patienter i röda zoner för en 1,5x bonus.</String>
         <String xml:lang="it-IT">Rianima e cura i pazienti nelle zone rosse per un 1.5x bonus.</String>
         <String xml:lang="vi-VN">Hồi sinh và chữa trị bệnh nhân trong khu vực màu đỏ để nhận thưởng gấp 1.5 lần.</String>
+        <String xml:lang="pl-PL">Reanimuj i lecz pacjentów w czerwonych strefach aby dostać 1.5x bonus.</String>
     </Entry>
 
     <Entry Id="redzone_announcement_crim">
@@ -283,6 +291,7 @@
         <String xml:lang="sv-SE">Döda poliser och sjukvårdare i röda zoner för en belöning.</String>
         <String xml:lang="it-IT">Uccidi poliziotti e medici all'interno delle zone rosse per una ricompensa.</String>
         <String xml:lang="vi-VN">Giết cảnh sát và nhân viên y tế bên trong khu vực màu đỏ để nhận thưởng.</String>
+        <String xml:lang="pl-PL">Zabij policjantów i medyków w strefach czerwonych, a otrzymasz nagrodę.</String>
     </Entry>
 
     <Entry Id="redzone_left">
