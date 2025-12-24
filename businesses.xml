@@ -3060,6 +3060,11 @@
         <String xml:lang="vi-VN">~y~Bạn phải ở một cửa hàng độ xe.</String>
     </Entry>
 
+    <!-- {0} is one of the types defined in jobs.xml for example in string "mechanic_work_area_type_bodywork" -->
+    <Entry Id="stp_service_error_work_area">
+        <String xml:lang="en-US">~y~You must be at a ~b~{0} ~s~work area.</String>
+    </Entry>
+
     <Entry Id="stp_service_error_wanted">
         <String xml:lang="en-US">~y~You cannot purchase this item when you have an arrest warrant.</String>
         <String xml:lang="nl-NL">~y~Je kan dit voorwerp niet kopen wanneer je gezocht bent.</String>
