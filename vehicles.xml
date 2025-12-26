@@ -381,7 +381,6 @@
         <String xml:lang="zh-Hant">你把你的 ~b~{0} ~s~以~g~{1}~s~ 售給伺服器.</String>
     </Entry>
 
-    <!-- nullnull{0} = Reference to "running_low_fuel_unit" or "running_low_battery_unit" (for example: fuel) -->
     <Entry Id="running_low_fuel">
         <String xml:lang="en-US">You are running low on ~r~{0}~s~. Navigate to the nearest ~y~gas station~s~?</String>
         <String xml:lang="pl-PL">Masz mało ~r~{0}~s~. Nawigować to najbliższej ~y~stacji paliw~s~?</String>
@@ -1986,490 +1985,528 @@
     </Entry>
 
     <Entry Id="menu_vehicles_rent_end_info_destroyed">
-        <String xml:lang="en-US">~r~This vehicle has been destroyed. Request a replacement before returning it to the rental company.</String>
-        <String xml:lang="nl-NL">~r~Dit voertuig is vernietigd. Vraag een vervangend voertuig voordat je het terugbrengt naar het verhuurbedrijf.</String>
-        <String xml:lang="hi-Latn">~r~Yeh vehicle destroy ho chuki hai. Replace karne ki request kar do rental company ko wapas karne se pehle.</String>
-        <String xml:lang="de-DE">~r~Dieses Fahrzeug wurde zerstört. Fordere einen Ersatz an, bevor du es zum Verleih zurückgeben kannst.</String>
-        <String xml:lang="it-IT">~r~Questo veicolo è stato distrutto. Richiedi una sostituzione prima di restituirlo alla compagnia di noleggio.</String>
-        <String xml:lang="id-ID">~r~Kendaraan ini telah hancur. Minta penggantian kendaraan sebelum mengembalikan kendaraan kepada perusahaan rental.</String>
-        <String xml:lang="ar-001">~r~تم تدمير هذه السيارة. اطلب الاستبدال قبل إعادتها إلى شركة التأجير.</String>
-        <String xml:lang="cs-CZ">~r~Toto vozidlo bylo zničeno. Před vrácením vozidla půjčovně požádejte o náhradní vozidlo..</String>
-        <String xml:lang="lv-LV">~r~Šis transportlīdzeklis tika iznīcināts. Pieprasiet tā aizstāšanu pirms tā atgriešanas nomas uzņēmumam.</String>
-        <String xml:lang="fr-FR">~r~Ce véhicule a été détruit. Demandez un véhicule de remplacement avant de le retourner à la société de location.</String>
-        <String xml:lang="no-NO">~r~Dette kjøretøyet har blitt ødelagt. Be om en erstatning før du returnerer den til utleiefirmaet.</String>
-        <String xml:lang="sv-SE">~r~Det här fordonet har förstörts. Begär en ersättning innan du returnerar den till uthyrningsföretaget.</String>
-        <String xml:lang="zh-Hant">~r~ 該車輛已經被摧毀了. 請再還給租賃公司前先申請重製一台.</String>
-        <String xml:lang="vi-VN">~r~Phương tiện này đã bị phá hủy. Yêu cầu phương tiện thay thế trước khi trả lại cho công ty cho thuê.</String>
-    </Entry>
+        <String xml:lang="en-US">~r~This vehicle has been destroyed. Request a replacement before returning it to the rental company.</String>
+        <String xml:lang="pl-PL">~r~Ten pojazd został zniszczony. Zamów pojazd zastępczy przed zwróceniem go do wypożyczalni.</String>
+        <String xml:lang="nl-NL">~r~Dit voertuig is vernietigd. Vraag een vervangend voertuig voordat je het terugbrengt naar het verhuurbedrijf.</String>
+        <String xml:lang="hi-Latn">~r~Yeh vehicle destroy ho chuki hai. Replace karne ki request kar do rental company ko wapas karne se pehle.</String>
+        <String xml:lang="de-DE">~r~Dieses Fahrzeug wurde zerstört. Fordere einen Ersatz an, bevor du es zum Verleih zurückgeben kannst.</String>
+        <String xml:lang="it-IT">~r~Questo veicolo è stato distrutto. Richiedi una sostituzione prima di restituirlo alla compagnia di noleggio.</String>
+        <String xml:lang="id-ID">~r~Kendaraan ini telah hancur. Minta penggantian kendaraan sebelum mengembalikan kendaraan kepada perusahaan rental.</String>
+        <String xml:lang="ar-001">~r~تم تدمير هذه السيارة. اطلب الاستبدال قبل إعادتها إلى شركة التأجير.</String>
+        <String xml:lang="cs-CZ">~r~Toto vozidlo bylo zničeno. Před vrácením vozidla půjčovně požádejte o náhradní vozidlo..</String>
+        <String xml:lang="lv-LV">~r~Šis transportlīdzeklis tika iznīcināts. Pieprasiet tā aizstāšanu pirms tā atgriešanas nomas uzņēmumam.</String>
+        <String xml:lang="fr-FR">~r~Ce véhicule a été détruit. Demandez un véhicule de remplacement avant de le retourner à la société de location.</String>
+        <String xml:lang="no-NO">~r~Dette kjøretøyet har blitt ødelagt. Be om en erstatning før du returnerer den til utleiefirmaet.</String>
+        <String xml:lang="sv-SE">~r~Det här fordonet har förstörts. Begär en ersättning innan du returnerar den till uthyrningsföretaget.</String>
+        <String xml:lang="zh-Hant">~r~ 該車輛已經被摧毀了. 請再還給租賃公司前先申請重製一台.</String>
+        <String xml:lang="vi-VN">~r~Phương tiện này đã bị phá hủy. Yêu cầu phương tiện thay thế trước khi trả lại cho công ty cho thuê.</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_rent_end_info_ongoing">
-        <String xml:lang="en-US">~y~The rent of this vehicle is still ongoing and you will not be compensated for the time left.</String>
-        <String xml:lang="nl-NL">~y~De huur van dit actief is nogsteeds gaande en je wordt niet gecompenseert voor de overgebleven tijd.</String>
-        <String xml:lang="hi-Latn">~y~Is vehicle ka rent abhi bhi chal raha hai aur bache hue time ke liye aapko compensation nahi milega.</String>
-        <String xml:lang="de-DE">~y~Die Miete für dieses Fahrzeug läuft noch und du wirst für die verbleibende Zeit nicht entschädigt.</String>
-        <String xml:lang="it-IT">~y~Il noleggio di questo veicolo è ancora in corso e non sarai compensato per il tempo rimanente.</String>
-        <String xml:lang="id-ID">~y~Rental kendaraan ini masih berjalan dan kamu tidak akan diberikan kompensasi untuk waktu yang tersisa.</String>
-        <String xml:lang="ar-001">~y~يزال استئجار هذه السيارة مستمرًا ولن يتم تعويضك عن الوقت المتبقي.</String>
-        <String xml:lang="cs-CZ">~y~Pronájem tohoto vozidla stále trvá a za zbývající čas ti nebude vyplacena náhrada.</String>
-        <String xml:lang="lv-LV">~y~Šī transportlīdzekļa noma vēl ir aktīva un jūs netiks kompensēts par palikušo laiku.</String>
-        <String xml:lang="no-NO">~y~Leien av dette kjøretøyet pågår fortsatt, og du vil ikke bli kompensert for tiden som er igjen.</String>
-        <String xml:lang="sv-SE">~y~Hyran av detta fordon pågår fortfarande och du kommer inte att få kompensation för den tid som återstår.</String>
-        <String xml:lang="fr-FR">~y~La location de ce véhicule est toujours en cours et vous ne serez pas indemnisé pour le temps qu'il reste.</String>
-        <String xml:lang="vi-VN">~y~Việc thuê phương tiện này vẫn đang tiếp tục và bạn sẽ không được đền bù cho thời gian còn lại.</String>
-    </Entry>
+    <Entry Id="menu_vehicles_rent_end_info_ongoing">
+        <String xml:lang="en-US">~y~The rent of this vehicle is still ongoing and you will not be compensated for the time left.</String>
+        <String xml:lang="pl-PL">~y~Wynajem tego pojazdu wciąż trwa i nie otrzymasz rekompensaty za pozostały czas.</String>
+        <String xml:lang="nl-NL">~y~De huur van dit actief is nogsteeds gaande en je wordt niet gecompenseert voor de overgebleven tijd.</String>
+        <String xml:lang="hi-Latn">~y~Is vehicle ka rent abhi bhi chal raha hai aur bache hue time ke liye aapko compensation nahi milega.</String>
+        <String xml:lang="de-DE">~y~Die Miete für dieses Fahrzeug läuft noch und du wirst für die verbleibende Zeit nicht entschädigt.</String>
+        <String xml:lang="it-IT">~y~Il noleggio di questo veicolo è ancora in corso e non sarai compensato per il tempo rimanente.</String>
+        <String xml:lang="id-ID">~y~Rental kendaraan ini masih berjalan dan kamu tidak akan diberikan kompensasi untuk waktu yang tersisa.</String>
+        <String xml:lang="ar-001">~y~يزال استئجار هذه السيارة مستمرًا ولن يتم تعويضك عن الوقت المتبقي.</String>
+        <String xml:lang="cs-CZ">~y~Pronájem tohoto vozidla stále trvá a za zbývající čas ti nebude vyplacena náhrada.</String>
+        <String xml:lang="lv-LV">~y~Šī transportlīdzekļa noma vēl ir aktīva un jūs netiks kompensēts par palikušo laiku.</String>
+        <String xml:lang="no-NO">~y~Leien av dette kjøretøyet pågår fortsatt, og du vil ikke bli kompensert for tiden som er igjen.</String>
+        <String xml:lang="sv-SE">~y~Hyran av detta fordon pågår fortfarande och du kommer inte att få kompensation för den tid som återstår.</String>
+        <String xml:lang="fr-FR">~y~La location de ce véhicule est toujours en cours et vous ne serez pas indemnisé pour le temps qu'il reste.</String>
+        <String xml:lang="vi-VN">~y~Việc thuê phương tiện này vẫn đang tiếp tục và bạn sẽ không được đền bù cho thời gian còn lại.</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_history_title">
-        <String xml:lang="en-US">History</String>
-        <String xml:lang="nl-NL">Geschiedenis</String>
-        <String xml:lang="fr-FR">Historique</String>
-        <String xml:lang="hi-Latn">History</String>
-        <String xml:lang="de-DE">Historie</String>
-        <String xml:lang="it-IT">Cronologia</String>
-        <String xml:lang="id-ID">Sejarah</String>
-        <String xml:lang="ar-001">سجِل</String>
-        <String xml:lang="cs-CZ">Historie</String>
-        <String xml:lang="lv-LV">Vēsture</String>
-        <String xml:lang="sv-SE">Historik</String>
-        <String xml:lang="no-NO">Historie</String>
-        <String xml:lang="vi-VN">Lịch sử</String>
-    </Entry>
+    <Entry Id="menu_vehicles_history_title">
+        <String xml:lang="en-US">History</String>
+        <String xml:lang="pl-PL">Historia</String>
+        <String xml:lang="nl-NL">Geschiedenis</String>
+        <String xml:lang="fr-FR">Historique</String>
+        <String xml:lang="hi-Latn">History</String>
+        <String xml:lang="de-DE">Historie</String>
+        <String xml:lang="it-IT">Cronologia</String>
+        <String xml:lang="id-ID">Sejarah</String>
+        <String xml:lang="ar-001">سجِل</String>
+        <String xml:lang="cs-CZ">Historie</String>
+        <String xml:lang="lv-LV">Vēsture</String>
+        <String xml:lang="sv-SE">Historik</String>
+        <String xml:lang="no-NO">Historie</String>
+        <String xml:lang="vi-VN">Lịch sử</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_history_description">
-        <String xml:lang="en-US">View this vehicle's ownership history.</String>
-        <String xml:lang="nl-NL">Bekijk het eigendomsgeschiedenis van dit voertuig.</String>
-        <String xml:lang="hi-Latn">Iss vehicle ki ownership history dekhe.</String>
-        <String xml:lang="de-DE">Zeige die Historie der Besitzer des Fahrzeuges an.</String>
-        <String xml:lang="it-IT">Visualizza la cronologia di proprietà di questo veicolo.</String>
-        <String xml:lang="id-ID">Lihat sejarah kepemilikan kendaraan ini.</String>
-        <String xml:lang="ar-001">عرض سجِل ملكية هذه السيارة.</String>
-        <String xml:lang="fr-FR">Voir l'historique d'acquisition de ce véhicule.</String>
-        <String xml:lang="cs-CZ">Prohlédni si historii vlastnictví tohoto vozidla.</String>
-        <String xml:lang="lv-LV">Apskatiet šī transportlīdzekļa īpašumtiesību vēsturi.</String>
-        <String xml:lang="no-NO"> Se dette kjøretøyets eierskapshistorikk.</String>
-        <String xml:lang="sv-SE">Se detta fordons ägarhistorik.</String>
-        <String xml:lang="vi-VN">Xem lịch sử sở hữu phương tiện này.</String>
-    </Entry>
+    <Entry Id="menu_vehicles_history_description">
+        <String xml:lang="en-US">View this vehicle's ownership history.</String>
+        <String xml:lang="pl-PL">Zobacz historię własności tego pojazdu.</String>
+        <String xml:lang="nl-NL">Bekijk het eigendomsgeschiedenis van dit voertuig.</String>
+        <String xml:lang="hi-Latn">Iss vehicle ki ownership history dekhe.</String>
+        <String xml:lang="de-DE">Zeige die Historie der Besitzer des Fahrzeuges an.</String>
+        <String xml:lang="it-IT">Visualizza la cronologia di proprietà di questo veicolo.</String>
+        <String xml:lang="id-ID">Lihat sejarah kepemilikan kendaraan ini.</String>
+        <String xml:lang="ar-001">عرض سجِل ملكية هذه السيارة.</String>
+        <String xml:lang="fr-FR">Voir l'historique d'acquisition de ce véhicule.</String>
+        <String xml:lang="cs-CZ">Prohlédni si historii vlastnictví tohoto vozidla.</String>
+        <String xml:lang="lv-LV">Apskatiet šī transportlīdzekļa īpašumtiesību vēsturi.</String>
+        <String xml:lang="no-NO"> Se dette kjøretøyets eierskapshistorikk.</String>
+        <String xml:lang="sv-SE">Se detta fordons ägarhistorik.</String>
+        <String xml:lang="vi-VN">Xem lịch sử sở hữu phương tiện này.</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_history_entry_description">
-        <String xml:lang="en-US">~b~Purchase Date: ~s~{0}\n~b~Purchase Price: ~s~{1}</String>
-        <String xml:lang="nl-NL">~b~Aankoop Datum: ~s~{0}\n~b~Aankoop Prijs: ~s~{1}</String>
-        <String xml:lang="fr-FR">~b~Date d'achat: ~s~{0}\n~b~Prix d'achat: ~s~{1}</String>
-        <String xml:lang="hi-Latn">~b~Purchase ki Date: ~s~{0}\n~b~Purchase ki Price: ~s~{1}</String>
-        <String xml:lang="de-DE">~b~Kaufpreis: ~s~{0}\n~b~Kaufdatum: ~s~{1}</String>
-        <String xml:lang="it-IT">~b~Data di Acquisto: ~s~{0}\n~b~Prezzo di Acquisto: ~s~{1}</String>
-        <String xml:lang="id-ID">~b~Tanggal pembelian: ~s~{0}\n~b~Harga Beli: ~s~{1}</String>
-        <String xml:lang="ar-001">~b~تاريخ الشراء: ~s~{0}\n~b~سعر الشراء: ~s~{1}</String>
-        <String xml:lang="cs-CZ">~b~Datum Nákupu: ~s~{0}\n~b~Nákupní Cena: ~s~{1}</String>
-        <String xml:lang="lv-LV">~b~Pirkuma datums: ~s~{0}\n~b~Pirkuma cena: ~s~{1}</String>
-        <String xml:lang="no-NO">~b~Kjøpsdato: ~s~{0}\n~b~Kjøpspris: ~s~{1}</String>
-        <String xml:lang="sv-SE">~b~Köps Datum: ~s~{0}\n~b~Köps Pris: ~s~{1}</String>
-        <String xml:lang="vi-VN">~b~Ngày mua: ~s~{0}\n~b~Giá mua: ~s~{1}</String>
-    </Entry>
+    <Entry Id="menu_vehicles_history_entry_description">
+        <String xml:lang="en-US">~b~Purchase Date: ~s~{0}\n~b~Purchase Price: ~s~{1}</String>
+        <String xml:lang="pl-PL">~b~Data zakupu: ~s~{0}\n~b~Cena zakupu: ~s~{1}</String>
+        <String xml:lang="nl-NL">~b~Aankoop Datum: ~s~{0}\n~b~Aankoop Prijs: ~s~{1}</String>
+        <String xml:lang="fr-FR">~b~Date d'achat: ~s~{0}\n~b~Prix d'achat: ~s~{1}</String>
+        <String xml:lang="hi-Latn">~b~Purchase ki Date: ~s~{0}\n~b~Purchase ki Price: ~s~{1}</String>
+        <String xml:lang="de-DE">~b~Kaufpreis: ~s~{0}\n~b~Kaufdatum: ~s~{1}</String>
+        <String xml:lang="it-IT">~b~Data di Acquisto: ~s~{0}\n~b~Prezzo di Acquisto: ~s~{1}</String>
+        <String xml:lang="id-ID">~b~Tanggal pembelian: ~s~{0}\n~b~Harga Beli: ~s~{1}</String>
+        <String xml:lang="ar-001">~b~تاريخ الشراء: ~s~{0}\n~b~سعر الشراء: ~s~{1}</String>
+        <String xml:lang="cs-CZ">~b~Datum Nákupu: ~s~{0}\n~b~Nákupní Cena: ~s~{1}</String>
+        <String xml:lang="lv-LV">~b~Pirkuma datums: ~s~{0}\n~b~Pirkuma cena: ~s~{1}</String>
+        <String xml:lang="no-NO">~b~Kjøpsdato: ~s~{0}\n~b~Kjøpspris: ~s~{1}</String>
+        <String xml:lang="sv-SE">~b~Köps Datum: ~s~{0}\n~b~Köps Pris: ~s~{1}</String>
+        <String xml:lang="vi-VN">~b~Ngày mua: ~s~{0}\n~b~Giá mua: ~s~{1}</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_history_empty_title">
-        <String xml:lang="en-US">No history :(</String>
-        <String xml:lang="nl-NL">Geen geschiedenis :(</String>
-        <String xml:lang="fr-FR">Pas d'historique :(</String>
-        <String xml:lang="hi-Latn">Koi history nahi :(</String>
-        <String xml:lang="de-DE">Keine Historie :(</String>
-        <String xml:lang="it-IT">Nessuna cronologia :(</String>
-        <String xml:lang="id-ID">Tidak ada sejarah :(</String>
-        <String xml:lang="ar-001">لا يوجد سجِل :(</String>
-        <String xml:lang="cs-CZ">Žádná historie :(</String>
-        <String xml:lang="lv-LV">Nav vēstures :(</String>
-        <String xml:lang="sv-SE">Ingen historik :(</String>
-        <String xml:lang="no-NO"> Ingen historie :(</String>
-        <String xml:lang="vi-VN">Không có lịch sử :(</String>
-    </Entry>
+    <Entry Id="menu_vehicles_history_empty_title">
+        <String xml:lang="en-US">No history :(</String>
+        <String xml:lang="pl-PL">Brak historii :(</String>
+        <String xml:lang="nl-NL">Geen geschiedenis :(</String>
+        <String xml:lang="fr-FR">Pas d'historique :(</String>
+        <String xml:lang="hi-Latn">Koi history nahi :(</String>
+        <String xml:lang="de-DE">Keine Historie :(</String>
+        <String xml:lang="it-IT">Nessuna cronologia :(</String>
+        <String xml:lang="id-ID">Tidak ada sejarah :(</String>
+        <String xml:lang="ar-001">لا يوجد سجِل :(</String>
+        <String xml:lang="cs-CZ">Žádná historie :(</String>
+        <String xml:lang="lv-LV">Nav vēstures :(</String>
+        <String xml:lang="sv-SE">Ingen historik :(</String>
+        <String xml:lang="no-NO"> Ingen historie :(</String>
+        <String xml:lang="vi-VN">Không có lịch sử :(</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_history_empty_description">
-        <String xml:lang="en-US">This vehicle has no recorded ownership history.</String>
-        <String xml:lang="nl-NL">Dit voertuig heeft geen eigendomsgeschiedenis.</String>
-        <String xml:lang="hi-Latn">Iss vehicle ka koi ownership history record nahi hai.</String>
-        <String xml:lang="de-DE">Dieses Fahrzeug hat keine aufgezeichnete Besitzerhistorie.</String>
-        <String xml:lang="it-IT">Questo veicolo non ha una cronologia di proprietà registrata.</String>
-        <String xml:lang="id-ID">Kendaraan ini tidak ada sejarah kepemilikan yang tercatat. </String>
-        <String xml:lang="ar-001">هذه السيارة ليس لها تاريخ ملكية مسجل.</String>
-        <String xml:lang="cs-CZ">Toto vozidlo nemá žádnou historii vlastnictví.</String>
-        <String xml:lang="lv-LV">Šim transportlīdzekļam nav reģistrētas īpašumtiesību vēstures.</String>
-        <String xml:lang="fr-FR">Ce véhicule n'a pas d'historique d'acquisition enregistré.</String>
-        <String xml:lang="sv-SE">Detta fordonet har inget registrerat ägarhistorik.</String>
-        <String xml:lang="no-NO">Dette kjøretøyet har ingen registrert eierskapshistorikk</String>
-        <String xml:lang="vi-VN">Phương tiện này không có lịch sử sở hữu được ghi nhận.</String>
-    </Entry>
+    <Entry Id="menu_vehicles_history_empty_description">
+        <String xml:lang="en-US">This vehicle has no recorded ownership history.</String>
+        <String xml:lang="pl-PL">Ten pojazd nie ma zarejestrowanej historii własności.</String>
+        <String xml:lang="nl-NL">Dit voertuig heeft geen eigendomsgeschiedenis.</String>
+        <String xml:lang="hi-Latn">Iss vehicle ka koi ownership history record nahi hai.</String>
+        <String xml:lang="de-DE">Dieses Fahrzeug hat keine aufgezeichnete Besitzerhistorie.</String>
+        <String xml:lang="it-IT">Questo veicolo non ha una cronologia di proprietà registrata.</String>
+        <String xml:lang="id-ID">Kendaraan ini tidak ada sejarah kepemilikan yang tercatat. </String>
+        <String xml:lang="ar-001">هذه السيارة ليس لها تاريخ ملكية مسجل.</String>
+        <String xml:lang="cs-CZ">Toto vozidlo nemá žádnou historii vlastnictví.</String>
+        <String xml:lang="lv-LV">Šim transportlīdzekļam nav reģistrētas īpašumtiesību vēstures.</String>
+        <String xml:lang="fr-FR">Ce véhicule n'a pas d'historique d'acquisition enregistré.</String>
+        <String xml:lang="sv-SE">Detta fordonet har inget registrerat ägarhistorik.</String>
+        <String xml:lang="no-NO">Dette kjøretøyet har ingen registrert eierskapshistorikk</String>
+        <String xml:lang="vi-VN">Phương tiện này không có lịch sử sở hữu được ghi nhận.</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_sell_title">
-        <String xml:lang="en-US">Sell</String>
-        <String xml:lang="nl-NL">Verkoop</String>
-        <String xml:lang="fr-FR">Vendre</String>
-        <String xml:lang="hi-Latn">Sell</String>
-        <String xml:lang="de-DE">Verkaufen</String>
-        <String xml:lang="it-IT">Vendi</String>
-        <String xml:lang="id-ID">Jual</String>
-        <String xml:lang="ar-001">بيع</String>
-        <String xml:lang="cs-CZ">Prodat</String>
-        <String xml:lang="lv-LV">Pārdot</String>
-        <String xml:lang="sv-SE">Sälja</String>
-        <String xml:lang="no-NO">Selge</String>
-        <String xml:lang="vi-VN">Bán</String>
-    </Entry>
+    <Entry Id="menu_vehicles_sell_title">
+        <String xml:lang="en-US">Sell</String>
+        <String xml:lang="pl-PL">Sprzedaj</String>
+        <String xml:lang="nl-NL">Verkoop</String>
+        <String xml:lang="fr-FR">Vendre</String>
+        <String xml:lang="hi-Latn">Sell</String>
+        <String xml:lang="de-DE">Verkaufen</String>
+        <String xml:lang="it-IT">Vendi</String>
+        <String xml:lang="id-ID">Jual</String>
+        <String xml:lang="ar-001">بيع</String>
+        <String xml:lang="cs-CZ">Prodat</String>
+        <String xml:lang="lv-LV">Pārdot</String>
+        <String xml:lang="sv-SE">Sälja</String>
+        <String xml:lang="no-NO">Selge</String>
+        <String xml:lang="vi-VN">Bán</String>
+    </Entry>
 
-    <Entry Id="menu_player_eject">
-        <String xml:lang="en-US">Eject</String>
-        <String xml:lang="nl-NL">Uitwerpen</String>
-        <String xml:lang="hi-Latn">Nikaalo</String>
-        <String xml:lang="de-DE">Rauswerfen</String>
-        <String xml:lang="it-IT">Espelli</String>
-        <String xml:lang="id-ID">Keluarkan</String>
-        <String xml:lang="ar-001">طرد</String>
-        <String xml:lang="cs-CZ">Vyhodit</String>
-        <String xml:lang="lv-LV">Izstumt</String>
-        <String xml:lang="fr-FR">Éjecter</String>
-        <String xml:lang="sv-SE">Kasta ut</String>
-        <String xml:lang="no-NO">Støte</String>
-        <String xml:lang="vi-VN">Đuổi</String>
-    </Entry>
+    <Entry Id="menu_player_eject">
+        <String xml:lang="en-US">Eject</String>
+        <String xml:lang="pl-PL">Wyrzuć</String>
+        <String xml:lang="nl-NL">Uitwerpen</String>
+        <String xml:lang="hi-Latn">Nikaalo</String>
+        <String xml:lang="de-DE">Rauswerfen</String>
+        <String xml:lang="it-IT">Espelli</String>
+        <String xml:lang="id-ID">Keluarkan</String>
+        <String xml:lang="ar-001">طرد</String>
+        <String xml:lang="cs-CZ">Vyhodit</String>
+        <String xml:lang="lv-LV">Izstumt</String>
+        <String xml:lang="fr-FR">Éjecter</String>
+        <String xml:lang="sv-SE">Kasta ut</String>
+        <String xml:lang="no-NO">Støte</String>
+        <String xml:lang="vi-VN">Đuổi</String>
+    </Entry>
 
-    <Entry Id="menu_player_eject_desc">
-        <String xml:lang="en-US">Eject this player from your vehicle.</String>
-        <String xml:lang="nl-NL">Trap deze speler uit je voertuig.</String>
-        <String xml:lang="de-DE">Wirf diesen Spieler aus deinem Fahrzeug.</String>
-        <String xml:lang="it-IT">Espelli questo giocatore dal tuo veicolo.</String>
-        <String xml:lang="id-ID">Keluarkan pemain ini dari kendaraanmu.</String>
-        <String xml:lang="ar-001">أخرج هذا اللاعب من سيارتك.</String>
-        <String xml:lang="cs-CZ">Vyhoď tohoto hráče ze svého vozidla.</String>
-        <String xml:lang="lv-LV">Izstumiet šo spēlētāju no sava transportlīdzekļa.</String>
-        <String xml:lang="hi-Latn">Iss player ko apni vehicle se bahar nikaalo.</String>
-        <String xml:lang="fr-FR">Éjectez ce joueur de votre véhicule.</String>
-        <String xml:lang="sv-SE">Kasta ut denna spelare från ditt fordon</String>
-        <String xml:lang="no-NO"> Kast ut denne spilleren fra kjøretøyet ditt.</String>
-        <String xml:lang="vi-VN">Đuổi người chơi này ra khỏi xe của bạn.</String>
-    </Entry>
+    <Entry Id="menu_player_eject_desc">
+        <String xml:lang="en-US">Eject this player from your vehicle.</String>
+        <String xml:lang="pl-PL">Wyrzuć tego gracza ze swojego pojazdu.</String>
+        <String xml:lang="nl-NL">Trap deze speler uit je voertuig.</String>
+        <String xml:lang="de-DE">Wirf diesen Spieler aus deinem Fahrzeug.</String>
+        <String xml:lang="it-IT">Espelli questo giocatore dal tuo veicolo.</String>
+        <String xml:lang="id-ID">Keluarkan pemain ini dari kendaraanmu.</String>
+        <String xml:lang="ar-001">أخرج هذا اللاعب من سيارتك.</String>
+        <String xml:lang="cs-CZ">Vyhoď tohoto hráče ze svého vozidla.</String>
+        <String xml:lang="lv-LV">Izstumiet šo spēlētāju no sava transportlīdzekļa.</String>
+        <String xml:lang="hi-Latn">Iss player ko apni vehicle se bahar nikaalo.</String>
+        <String xml:lang="fr-FR">Éjectez ce joueur de votre véhicule.</String>
+        <String xml:lang="sv-SE">Kasta ut denna spelare från ditt fordon</String>
+        <String xml:lang="no-NO"> Kast ut denne spilleren fra kjøretøyet ditt.</String>
+        <String xml:lang="vi-VN">Đuổi người chơi này ra khỏi xe của bạn.</String>
+    </Entry>
 
-    <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
-    <Entry Id="menu_vehicles_rent_end_description">
-        <String xml:lang="en-US">Return this ~b~{0} ~s~to the rental company.</String>
-        <String xml:lang="nl-NL">Geef deze ~b~{0} ~s~terug aan het verhuurbedrijf.</String>
-        <String xml:lang="de-DE">Gib diesen ~b~{0} ~s~zum Verleih zurück.</String>
-        <String xml:lang="id-ID">Kembalikan kendaraan ini ~b~{0} ~s~kepada perusahaan rental.</String>
-        <String xml:lang="ar-001">ارجع ~b~{0} ~s~إلى شركة التأجير.</String>
-        <String xml:lang="cs-CZ">Vrať vozidlo ~b~{0} ~s~autopůjčovně.</String>
-        <String xml:lang="hi-Latn">Apni rent ki ~b~{0} ~s~return kardo rental company ko.</String>
-        <String xml:lang="lv-LV">Atgriezt šo ~b~{0} ~s~nomas uzņēmumam.</String>
-        <String xml:lang="it-IT">Restituisci questo ~b~{0}~s~ alla compagnia di noleggio.</String>
-        <String xml:lang="no-NO">Returner denne ~b~{0} ~s~til utleiefirmaet.</String>
-        <String xml:lang="sv-SE">Lämna tillbaka detta ~b~{0} ~s~till uthyrningsföretaget.</String>
-        <String xml:lang="fr-FR">Renvoyez cette ~b~{0} ~s~à la société de location.</String>
-        <String xml:lang="zh-Hant">將你的 ~b~{0} ~s~還給租賃公司.</String>
-        <String xml:lang="vi-VN">Trả lại ~b~{0} ~s~này cho công ty cho thuê.</String>
-    </Entry>
+    <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
+    <Entry Id="menu_vehicles_rent_end_description">
+        <String xml:lang="en-US">Return this ~b~{0} ~s~to the rental company.</String>
+        <String xml:lang="pl-PL">Zwróć ~b~{0} ~s~do wypożyczalni.</String>
+        <String xml:lang="nl-NL">Geef deze ~b~{0} ~s~terug aan het verhuurbedrijf.</String>
+        <String xml:lang="de-DE">Gib diesen ~b~{0} ~s~zum Verleih zurück.</String>
+        <String xml:lang="id-ID">Kembalikan kendaraan ini ~b~{0} ~s~kepada perusahaan rental.</String>
+        <String xml:lang="ar-001">ارجع ~b~{0} ~s~إلى شركة التأجير.</String>
+        <String xml:lang="cs-CZ">Vrať vozidlo ~b~{0} ~s~autopůjčovně.</String>
+        <String xml:lang="hi-Latn">Apni rent ki ~b~{0} ~s~return kardo rental company ko.</String>
+        <String xml:lang="lv-LV">Atgriezt šo ~b~{0} ~s~nomas uzņēmumam.</String>
+        <String xml:lang="it-IT">Restituisci questo ~b~{0}~s~ alla compagnia di noleggio.</String>
+        <String xml:lang="no-NO">Returner denne ~b~{0} ~s~til utleiefirmaet.</String>
+        <String xml:lang="sv-SE">Lämna tillbaka detta ~b~{0} ~s~till uthyrningsföretaget.</String>
+        <String xml:lang="fr-FR">Renvoyez cette ~b~{0} ~s~à la société de location.</String>
+        <String xml:lang="zh-Hant">將你的 ~b~{0} ~s~還給租賃公司.</String>
+        <String xml:lang="vi-VN">Trả lại ~b~{0} ~s~này cho công ty cho thuê.</String>
+    </Entry>
 
-    <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
-    <Entry Id="menu_vehicles_rent_renew_description">
-        <String xml:lang="en-US">Renew the rental agreement of this ~b~{0}~s~.</String>
-        <String xml:lang="nl-NL">Vernieuw het huurcontract van deze ~b~{0}~s~.</String>
-        <String xml:lang="de-DE">Erneuer den Mietvertrag von diesem ~b~{0}~s~.</String>
-        <String xml:lang="id-ID">Perbarui perjanjian rental dari kendaraan ini ~b~{0}~s~.</String>
-        <String xml:lang="ar-001">قم بتجديد الإيجار لـ ~b~{0}~s~.</String>
-        <String xml:lang="cs-CZ">Obnovení nájemní smlouvy u ~b~{0}~s~.</String>
-        <String xml:lang="hi-Latn">Renew karo rental agreement ~b~{0} ~s~ka.</String>
-        <String xml:lang="it-IT">Rinnova il contratto di noleggio di questo ~b~{0}~s~.</String>
-        <String xml:lang="lv-LV">Atjaunojiet šī ~b~{0} ~s~īres līgumu.</String>
-        <String xml:lang="no-NO"> Forny leieavtalen for denne ~b~{0}~s~</String>
-        <String xml:lang="sv-SE">Förnya hyresavtalet för denna ~b~{0}~s~.</String>
-        <String xml:lang="fr-FR">Renouvellez le contrat de location de cette ~b~{0}~s~.</String>
-        <String xml:lang="zh-Hant"> 將 ~b~{0}~s~ 的租賃期限續約.</String>
-        <String xml:lang="vi-VN">Gia hạn hợp đồng thuê ~b~{0}~s~.</String>
-    </Entry>
+    <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
+    <Entry Id="menu_vehicles_rent_renew_description">
+        <String xml:lang="en-US">Renew the rental agreement of this ~b~{0}~s~.</String>
+        <String xml:lang="pl-PL">Odnów umowę wynajmu tego ~b~{0}~s~.</String>
+        <String xml:lang="nl-NL">Vernieuw het huurcontract van deze ~b~{0}~s~.</String>
+        <String xml:lang="de-DE">Erneuer den Mietvertrag von diesem ~b~{0}~s~.</String>
+        <String xml:lang="id-ID">Perbarui perjanjian rental dari kendaraan ini ~b~{0}~s~.</String>
+        <String xml:lang="ar-001">قم بتجديد الإيجار لـ ~b~{0}~s~.</String>
+        <String xml:lang="cs-CZ">Obnovení nájemní smlouvy u ~b~{0}~s~.</String>
+        <String xml:lang="hi-Latn">Renew karo rental agreement ~b~{0} ~s~ka.</String>
+        <String xml:lang="it-IT">Rinnova il contratto di noleggio di questo ~b~{0}~s~.</String>
+        <String xml:lang="lv-LV">Atjaunojiet šī ~b~{0} ~s~īres līgumu.</String>
+        <String xml:lang="no-NO"> Forny leieavtalen for denne ~b~{0}~s~</String>
+        <String xml:lang="sv-SE">Förnya hyresavtalet för denna ~b~{0}~s~.</String>
+        <String xml:lang="fr-FR">Renouvellez le contrat de location de cette ~b~{0}~s~.</String>
+        <String xml:lang="zh-Hant"> 將 ~b~{0}~s~ 的租賃期限續約.</String>
+        <String xml:lang="vi-VN">Gia hạn hợp đồng thuê ~b~{0}~s~.</String>
+    </Entry>
 
-    <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
-    <Entry Id="menu_vehicles_sell_description">
-        <String xml:lang="en-US">Sell your ~b~{0} ~s~to the server for a percentage of the purchase price.</String>
-        <String xml:lang="nl-NL">Verkoop je ~b~{0} ~s~aan de server voor een percentage van de koopprijs.</String>
-        <String xml:lang="de-DE">Verkaufe dein ~b~{0} ~s~an den Server für einen Bruchteil des Kaufpreises.</String>
-        <String xml:lang="id-ID">Jual ~b~{0} ~s~kepada server dengan harga sebagian persen dari harga beli.</String>
-        <String xml:lang="ar-001">قم ببيع ~b~{0} ~s~الخاص بك إلى السيرفر مقابل نسبة مئوية من سعر الشراء.</String>
-        <String xml:lang="cs-CZ">Prodej své vozidlo ~b~{0} ~s~serveru za procento z kupní ceny.</String>
-        <String xml:lang="it-IT">Vendi il tuo ~b~{0}~s~ al server per una percentuale del prezzo di acquisto.</String>
-        <String xml:lang="hi-Latn">Aapni ~b~{0} ~s~server ko bech do purchase amount ke kuch percentage par.</String>
-        <String xml:lang="lv-LV">Pārdodiet savu ~b~{0} ~s~serverim par daļu no pirkuma cenas.</String>
-        <String xml:lang="sv-SE">Sälj denna ~b~{0} ~s~till servern för att få ett procent av ditt köps pris.</String>
-        <String xml:lang="no-NO"> Selg ~b~{0} ~s~ene dine til serveren for en prosentandel av kjøpesummen.</String>
-        <String xml:lang="fr-FR">Vendez votre ~b~{0} ~s~au serveur pour un pourcentage du prix d'achat.</String>
-        <String xml:lang="zh-Hant">將你的 ~b~{0} ~s~賣給伺服器並獲取部分的退款.</String>
-        <String xml:lang="vi-VN">Bán chiếc ~b~{0} ~s~của bạn cho máy chủ với một phần trăm giá mua.</String>
-    </Entry>
+    <!-- nullnull{0} = Vehicle name (for example: Nero Custom) -->
+    <Entry Id="menu_vehicles_sell_description">
+        <String xml:lang="en-US">Sell your ~b~{0} ~s~to the server for a percentage of the purchase price.</String>
+        <String xml:lang="pl-PL">Sprzedaj swój ~b~{0} ~s~serwerowi za procent ceny zakupu.</String>
+        <String xml:lang="nl-NL">Verkoop je ~b~{0} ~s~aan de server voor een percentage van de koopprijs.</String>
+        <String xml:lang="de-DE">Verkaufe dein ~b~{0} ~s~an den Server für einen Bruchteil des Kaufpreises.</String>
+        <String xml:lang="id-ID">Jual ~b~{0} ~s~kepada server dengan harga sebagian persen dari harga beli.</String>
+        <String xml:lang="ar-001">قم ببيع ~b~{0} ~s~الخاص بك إلى السيرفر مقابل نسبة مئوية من سعر الشراء.</String>
+        <String xml:lang="cs-CZ">Prodej své vozidlo ~b~{0} ~s~serveru za procento z kupní ceny.</String>
+        <String xml:lang="it-IT">Vendi il tuo ~b~{0}~s~ al server per una percentuale del prezzo di acquisto.</String>
+        <String xml:lang="hi-Latn">Aapni ~b~{0} ~s~server ko bech do purchase amount ke kuch percentage par.</String>
+        <String xml:lang="lv-LV">Pārdodiet savu ~b~{0} ~s~serverim par daļu no pirkuma cenas.</String>
+        <String xml:lang="sv-SE">Sälj denna ~b~{0} ~s~till servern för att få ett procent av ditt köps pris.</String>
+        <String xml:lang="no-NO"> Selg ~b~{0} ~s~ene dine til serveren for en prosentandel av kjøpesummen.</String>
+        <String xml:lang="fr-FR">Vendez votre ~b~{0} ~s~au serveur pour un pourcentage du prix d'achat.</String>
+        <String xml:lang="zh-Hant">將你的 ~b~{0} ~s~賣給伺服器並獲取部分的退款.</String>
+        <String xml:lang="vi-VN">Bán chiếc ~b~{0} ~s~của bạn cho máy chủ với một phần trăm giá mua.</String>
+    </Entry>
 
-    <!-- nullnull{0} = Vehicle name (for example: Nero Custom)
-         {1} = Garage name or (if not present) reference to "menu_vehicles_store_your_garage" (for example: Spanish Avenue) 
-    -->
-    <Entry Id="menu_vehicles_store_description">
-        <String xml:lang="en-US">Send your ~b~{0} ~s~back to ~y~{1}~s~.</String>
-        <String xml:lang="nl-NL">Stuur jouw ~b~{0} ~s~terug naar ~y~{1}~s~.</String>
-        <String xml:lang="de-DE">Lagere dein ~b~{0} ~s~in ~y~{1}~s~ ein.</String>
-        <String xml:lang="id-ID">Kirim kendaraan ~b~{0} ~s~kembali ke ~y~{1}~s~.</String>
-        <String xml:lang="cs-CZ">Pošli své vozidlo ~b~{0} ~s~zpět do ~y~{1}~s~.</String>
-        <String xml:lang="hi-Latn">Apni ~b~{0} ~s~wapas ~y~{1} ~s~mein bhejo.</String>
-        <String xml:lang="fr-FR">Renvoyez votre ~b~{0} ~s~à ~y~{1}~s~.</String>
-        <String xml:lang="lv-LV">Atgriezt jūsu ~b~{0} ~s~atpakaļ ~y~{1}~s~.</String>
-        <String xml:lang="no-NO">Send ~b~{0} ~s~tilbake til ~y~{1}~s~.</String>
-        <String xml:lang="sv-SE">Skicka ditt ~b~{0} ~s~tillbaka till ~y~{1}~s~.</String>
-        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracını ~y~{1} ~s~konumuna gönder.</String>
-        <String xml:lang="zh-Hant">將你的 ~b~{0} ~s~送回 ~y~{1}~s~.</String>
-        <String xml:lang="it-IT">Ritorna la tua ~b~{0} ~s~a ~y~{1}~s~.</String>
-        <String xml:lang="vi-VN">Gửi ~b~{0} ~s~của bạn trở lại ~y~{1}~s~.</String>
-    </Entry>
+    <!-- nullnull{0} = Vehicle name (for example: Nero Custom)
+         {1} = Garage name or (if not present) reference to "menu_vehicles_store_your_garage" (for example: Spanish Avenue) 
+    -->
+    <Entry Id="menu_vehicles_store_description">
+        <String xml:lang="en-US">Send your ~b~{0} ~s~back to ~y~{1}~s~.</String>
+        <String xml:lang="pl-PL">Odeślij swój ~b~{0} ~s~z powrotem do ~y~{1}~s~.</String>
+        <String xml:lang="nl-NL">Stuur jouw ~b~{0} ~s~terug naar ~y~{1}~s~.</String>
+        <String xml:lang="de-DE">Lagere dein ~b~{0} ~s~in ~y~{1}~s~ ein.</String>
+        <String xml:lang="id-ID">Kirim kendaraan ~b~{0} ~s~kembali ke ~y~{1}~s~.</String>
+        <String xml:lang="cs-CZ">Pošli své vozidlo ~b~{0} ~s~zpět do ~y~{1}~s~.</String>
+        <String xml:lang="hi-Latn">Apni ~b~{0} ~s~wapas ~y~{1} ~s~mein bhejo.</String>
+        <String xml:lang="fr-FR">Renvoyez votre ~b~{0} ~s~à ~y~{1}~s~.</String>
+        <String xml:lang="lv-LV">Atgriezt jūsu ~b~{0} ~s~atpakaļ ~y~{1}~s~.</String>
+        <String xml:lang="no-NO">Send ~b~{0} ~s~tilbake til ~y~{1}~s~.</String>
+        <String xml:lang="sv-SE">Skicka ditt ~b~{0} ~s~tillbaka till ~y~{1}~s~.</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~isimli aracını ~y~{1} ~s~konumuna gönder.</String>
+        <String xml:lang="zh-Hant">將你的 ~b~{0} ~s~送回 ~y~{1}~s~.</String>
+        <String xml:lang="it-IT">Ritorna la tua ~b~{0} ~s~a ~y~{1}~s~.</String>
+        <String xml:lang="vi-VN">Gửi ~b~{0} ~s~của bạn trở lại ~y~{1}~s~.</String>
+    </Entry>
 
-    <!-- Do not include information about an EV charger, electric cars will get the "on_foot_to_use_ev_charger" notification instead. -->
-    <Entry Id="on_foot_to_use_fuel_pump">
-        <String xml:lang="en-US">You must be ~r~on foot ~s~to use a ~y~gas pump~s~.</String>
-        <String xml:lang="nl-NL">Je moet ~r~te voet zijn ~s~om een ~y~benzinepomp~s~ te gebruiken.</String>
-        <String xml:lang="pl-PL">Musisz być ~r~pieszo ~s~by użyć ~y~dystrybutora paliw~s~.</String>
-        <String xml:lang="es-ES">Usted debe de estar ~r~parado ~s~para utilizar una ~y~bomba de combustible~s~.</String>
-        <String xml:lang="pt-BR">Você deve ~r~ter um pé ~s~para usar uma ~y~bomba de combustível~s~.</String>
-        <String xml:lang="de-DE">Du musst ~r~zu Fuß ~s~sein, Um die ~y~Zapfsäule zu nutzen~s~.</String>
-        <String xml:lang="id-ID">Anda harus ~r~turun dari mobil ~s~untuk menggunakan ~y~pom bensin~s~.</String>
-        <String xml:lang="it-IT">Devi essere a ~r~piedi ~s~per utilizzare una ~y~pompa di benzina~s~.</String>
-        <String xml:lang="hi-Latn">Aapko ~r~on foot ~s~rehna hoga ~y~petrol pump ~s~use karne ke liye.</String>
-        <String xml:lang="fr-FR">Vous devez être ~r~à pied ~s~pour utiliser une ~y~pompe à essence.~s~</String>
-        <String xml:lang="sv-SE">Du måste vara ~r~till fots ~s~för att använda en ~y~bränslepump~s~.</String>
-        <String xml:lang="no-NO">~y~Du må være ~r~til fots ~s~for å bruke en drivstoffpumpe.</String>
-        <String xml:lang="zh-Hant">你需要 ~r~離開車輛~s~ 已使用 ~y~自助加油~s~.</String>
-        <String xml:lang="vi-VN">Bạn phải ~r~đi bộ ~s~để sử dụng ~y~trạm bơm xăng~s~.</String>
-    </Entry>
+    <!-- Do not include information about an EV charger, electric cars will get the "on_foot_to_use_ev_charger" notification instead. -->
+    <Entry Id="on_foot_to_use_fuel_pump">
+        <String xml:lang="en-US">You must be ~r~on foot ~s~to use a ~y~gas pump~s~.</String>
+        <String xml:lang="pl-PL">Musisz być ~r~pieszo~s~, aby użyć ~y~dystrybutora paliwa~s~.</String>
+        <String xml:lang="nl-NL">Je moet ~r~te voet zijn ~s~om een ~y~benzinepomp~s~ te gebruiken.</String>
+        <String xml:lang="es-ES">Usted debe de estar ~r~parado ~s~para utilizar una ~y~bomba de combustible~s~.</String>
+        <String xml:lang="pt-BR">Você deve ~r~ter um pé ~s~para usar uma ~y~bomba de combustível~s~.</String>
+        <String xml:lang="de-DE">Du musst ~r~zu Fuß ~s~sein, Um die ~y~Zapfsäule zu nutzen~s~.</String>
+        <String xml:lang="id-ID">Anda harus ~r~turun dari mobil ~s~untuk menggunakan ~y~pom bensin~s~.</String>
+        <String xml:lang="it-IT">Devi essere a ~r~piedi ~s~per utilizzare una ~y~pompa di benzina~s~.</String>
+        <String xml:lang="hi-Latn">Aapko ~r~on foot ~s~rehna hoga ~y~petrol pump ~s~use karne ke liye.</String>
+        <String xml:lang="fr-FR">Vous devez être ~r~à pied ~s~pour utiliser une ~y~pompe à essence.~s~</String>
+        <String xml:lang="sv-SE">Du måste vara ~r~till fots ~s~för att använda en ~y~bränslepump~s~.</String>
+        <String xml:lang="no-NO">~y~Du må være ~r~til fots ~s~for å bruke en drivstoffpumpe.</String>
+        <String xml:lang="zh-Hant">你需要 ~r~離開車輛~s~ 已使用 ~y~自助加油~s~.</String>
+        <String xml:lang="vi-VN">Bạn phải ~r~đi bộ ~s~để sử dụng ~y~trạm bơm xăng~s~.</String>
+    </Entry>
 
-    <Entry Id="on_foot_to_use_ev_charger">
-        <String xml:lang="en-US">You must be ~r~on foot ~s~to use an ~g~EV charger~s~.</String>
-        <String xml:lang="nl-NL">Je moet ~r~te voet zijn ~s~om een ~g~EV oplader~s~ te gebruiken.</String>
-        <String xml:lang="hi-Latn">Aapko ~r~on foot ~s~rehna hoga apni vehicle ko ~g~EV charger ~s~se charge karne ke liye.</String>
-        <String xml:lang="de-DE">Du musst ~r~zu Fuß ~s~sein, um einen ~g~EV-Lader~s~ zu benutzen.</String>
-        <String xml:lang="it-IT">Devi essere ~r~a piedi ~s~per usare un ~g~caricatore EV~s~.</String>
-        <String xml:lang="id-ID">Anda harus ~r~dalam posisi berjalan ~s~untuk menggunakan ~g~Charger EV~s~.</String>
-        <String xml:lang="cs-CZ">Nesmíš být ~r~ve vozidle ~s~abys mohl použít ~g~nabíječkur~s~.</String>
-        <String xml:lang="lv-LV">Jums ir jābūt ~r~kājām~s~, lai izmantotu ~g~uzlādes staciju~s~.</String>
-        <String xml:lang="no-NO">Du må være ~r~til fots ~s~for å bruke en ~g~EV-lader~s~.</String>
-        <String xml:lang="sv-SE">Du måste vara ~r~till fots ~s~för att använda en ~g~EV-laddare~s~.</String>
-        <String xml:lang="fr-FR">Vous devez être ~r~à pied ~s~pour utiliser un ~g~chargeur électrique~s~.</String>
-        <String xml:lang="es-ES">Debe ir a ~r~pie ~s~para utilizar ~g~un cargador EV~s~.</String>
-        <String xml:lang="pt-BR">É preciso ir a ~r~pé ~s~para usar um ~g~carregador de EV~s~.</String>
-        <String xml:lang="tr-TR">~g~Şarj istasyonu~s~nu kullanmak için ~r~yaya ~s~olmanız gerekir.</String>
-        <String xml:lang="vi-VN">Bạn phải ~r~đi bộ ~s~để sử dụng ~g~trạm sạc xe điện~s~.</String>
-    </Entry>
+    <Entry Id="on_foot_to_use_ev_charger">
+        <String xml:lang="en-US">You must be ~r~on foot ~s~to use an ~g~EV charger~s~.</String>
+        <String xml:lang="pl-PL">Musisz być ~r~pieszo~s~, aby użyć ~g~ładowarki EV~s~.</String>
+        <String xml:lang="nl-NL">Je moet ~r~te voet zijn ~s~om een ~g~EV oplader~s~ te gebruiken.</String>
+        <String xml:lang="hi-Latn">Aapko ~r~on foot ~s~rehna hoga apni vehicle ko ~g~EV charger ~s~se charge karne ke liye.</String>
+        <String xml:lang="de-DE">Du musst ~r~zu Fuß ~s~sein, um einen ~g~EV-Lader~s~ zu benutzen.</String>
+        <String xml:lang="it-IT">Devi essere ~r~a piedi ~s~per usare un ~g~caricatore EV~s~.</String>
+        <String xml:lang="id-ID">Anda harus ~r~dalam posisi berjalan ~s~untuk menggunakan ~g~Charger EV~s~.</String>
+        <String xml:lang="cs-CZ">Nesmíš být ~r~ve vozidle ~s~abys mohl použít ~g~nabíječkur~s~.</String>
+        <String xml:lang="lv-LV">Jums ir jābūt ~r~kājām~s~, lai izmantotu ~g~uzlādes staciju~s~.</String>
+        <String xml:lang="no-NO">Du må være ~r~til fots ~s~for å bruke en ~g~EV-lader~s~.</String>
+        <String xml:lang="sv-SE">Du måste vara ~r~till fots ~s~för att använda en ~g~EV-laddare~s~.</String>
+        <String xml:lang="fr-FR">Vous devez être ~r~à pied ~s~pour utiliser un ~g~chargeur électrique~s~.</String>
+        <String xml:lang="es-ES">Debe ir a ~r~pie ~s~para utilizar ~g~un cargador EV~s~.</String>
+        <String xml:lang="pt-BR">É preciso ir a ~r~pé ~s~para usar um ~g~carregador de EV~s~.</String>
+        <String xml:lang="tr-TR">~g~Şarj istasyonu~s~nu kullanmak için ~r~yaya ~s~olmanız gerekir.</String>
+        <String xml:lang="vi-VN">Bạn phải ~r~đi bộ ~s~để sử dụng ~g~trạm sạc xe điện~s~.</String>
+    </Entry>
 
-    <!-- nullnull{0} = Membership (for example: a Silver Membership) -->
-    <Entry Id="menu_vehicles_delivery_info_membership">
-        <String xml:lang="en-US">~p~This vehicle requires {0}.\n~s~You can still use it by taking it out of your ~y~garage~s~, but the ~y~Delivery ~s~feature has been disabled for it.</String>
-        <String xml:lang="nl-NL">~p~Dit voertuig vereist {0}.\n~s~Je kan hem nogsteeds gebruiken door hem uit je ~y~garage~s~ te halen, maar de ~y~Bezorg ~s~functie is ervoor uitgeschakeld.</String>
-        <String xml:lang="de-DE">~p~Dieses Fahrzeug erfordert{0}.\n~s~Du kannst es weiterhin verwenden, indem du es aus deiner ~y~Garage~s~ holst, aber die ~y~Liefer~s~-Funktion dafür wurde deaktiiviert.</String>
-        <String xml:lang="id-ID">~p~Kendaraan ini membutuhkan {0}. \n~s~Kamu masih bisa menggunakannya dengan cara mengeluarkannya langsung dari ~y~garasimu~s~, tetapi fitur ~y~pengiriman ~s~telah dimatikan.</String>
-        <String xml:lang="cs-CZ">~p~Toto vozidlo vyžaduje {0}.\n~s~Stále s ním můžeš vyjet z ~y~garáže~s~, ale ~y~doručení ~s~je zablokované.</String>
-        <String xml:lang="it-IT">~p~Questo veicolo richiede {0}.\n~s~Puoi ancora usarlo portandolo fuori dal tuo ~y~garage~s~, ma la funzione ~y~Consegna ~s~è stata disabilitata per esso.</String>
-        <String xml:lang="hi-Latn">~p~Yeh vehicle ke liye aapko {0} chahiye.\n~s~Aap abhi bhi use kar sakte hain apni gaadi ~y~garage ~s~se nikaal ke, lekin ~y~Delivery ~s~feature band kar diya gaya hai.</String>
-        <String xml:lang="fr-FR">~p~Ce véhicule nécessite {0}.\n~s~Vous pouvez toujours l'utiliser en le sortant de votre ~y~garage~s~, mais la fonction ~y~Livraison ~s~est désactivée pour lui.</String>
-        <String xml:lang="lv-LV">~p~Šim transportlīdzeklim ir vajadzīgs {0}.\n~s~Jūs joprojām varat to izmantot izņemot to no jūsu ~y~garāžas~s~, bet ~y~Piegādes ~s~funkcija tika atspējota.</String>
-        <String xml:lang="sv-SE">~p~Det här fordonet kräver {0}.\n~s~Du kan fortfarande använda det genom att ta det ur ditt ~y~garage~s~, men ~y~Leverans~s~-funktionen har inaktiverats för det.</String>
-        <String xml:lang="no-NO"> ~p~Dette kjøretøyet krever {0}.\n~s~Du kan fortsatt bruke det ved å ta det ut av ~y~garasjen~s~, men ~y~Delivery ~s~-funksjonen er deaktivert for det.</String>
-        <String xml:lang="zh-Hant">~p~該車輛需 {0} 才得正常使用.\n~s~ 你還是可以從 ~y~車庫~s~ 中將他取出,但 ~y~運送功能~s~ 已被取消.</String>
-        <String xml:lang="vi-VN">~p~Phương tiện này yêu cầu {0}.\n~s~Bạn vẫn có thể sử dụng bằng cách lấy xe ra khỏi ~y~nhà để xe~s~ của mình, nhưng tính năng ~y~Giao xe ~s~đã bị vô hiệu hóa.</String>
-    </Entry>
+    <!-- nullnull{0} = Membership (for example: a Silver Membership) -->
+    <Entry Id="menu_vehicles_delivery_info_membership">
+        <String xml:lang="en-US">~p~This vehicle requires {0}.\n~s~You can still use it by taking it out of your ~y~garage~s~, but the ~y~Delivery ~s~feature has been disabled for it.</String>
+        <String xml:lang="pl-PL">~p~Ten pojazd wymaga {0}.\n~s~Nadal możesz go używać, wyciągając go z ~y~garażu~s~, ale funkcja ~y~Dostawy ~s~została dla niego wyłączona.</String>
+        <String xml:lang="nl-NL">~p~Dit voertuig vereist {0}.\n~s~Je kan hem nogsteeds gebruiken door hem uit je ~y~garage~s~ te halen, maar de ~y~Bezorg ~s~functie is ervoor uitgeschakeld.</String>
+        <String xml:lang="de-DE">~p~Dieses Fahrzeug erfordert{0}.\n~s~Du kannst es weiterhin verwenden, indem du es aus deiner ~y~Garage~s~ holst, aber die ~y~Liefer~s~-Funktion dafür wurde deaktiiviert.</String>
+        <String xml:lang="id-ID">~p~Kendaraan ini membutuhkan {0}. \n~s~Kamu masih bisa menggunakannya dengan cara mengeluarkannya langsung dari ~y~garasimu~s~, tetapi fitur ~y~pengiriman ~s~telah dimatikan.</String>
+        <String xml:lang="cs-CZ">~p~Toto vozidlo vyžaduje {0}.\n~s~Stále s ním můžeš vyjet z ~y~garáže~s~, ale ~y~doručení ~s~je zablokované.</String>
+        <String xml:lang="it-IT">~p~Questo veicolo richiede {0}.\n~s~Puoi ancora usarlo portandolo fuori dal tuo ~y~garage~s~, ma la funzione ~y~Consegna ~s~è stata disabilitata per esso.</String>
+        <String xml:lang="hi-Latn">~p~Yeh vehicle ke liye aapko {0} chahiye.\n~s~Aap abhi bhi use kar sakte hain apni gaadi ~y~garage ~s~se nikaal ke, lekin ~y~Delivery ~s~feature band kar diya gaya hai.</String>
+        <String xml:lang="fr-FR">~p~Ce véhicule nécessite {0}.\n~s~Vous pouvez toujours l'utiliser en le sortant de votre ~y~garage~s~, mais la fonction ~y~Livraison ~s~est désactivée pour lui.</String>
+        <String xml:lang="lv-LV">~p~Šim transportlīdzeklim ir vajadzīgs {0}.\n~s~Jūs joprojām varat to izmantot izņemot to no jūsu ~y~garāžas~s~, bet ~y~Piegādes ~s~funkcija tika atspējota.</String>
+        <String xml:lang="sv-SE">~p~Det här fordonet kräver {0}.\n~s~Du kan fortfarande använda det genom att ta det ur ditt ~y~garage~s~, men ~y~Leverans~s~-funktionen har inaktiverats för det.</String>
+        <String xml:lang="no-NO"> ~p~Dette kjøretøyet krever {0}.\n~s~Du kan fortsatt bruke det ved å ta det ut av ~y~garasjen~s~, men ~y~Delivery ~s~-funksjonen er deaktivert for det.</String>
+        <String xml:lang="zh-Hant">~p~該車輛需 {0} 才得正常使用.\n~s~ 你還是可以從 ~y~車庫~s~ 中將他取出,但 ~y~運送功能~s~ 已被取消.</String>
+        <String xml:lang="vi-VN">~p~Phương tiện này yêu cầu {0}.\n~s~Bạn vẫn có thể sử dụng bằng cách lấy xe ra khỏi ~y~nhà để xe~s~ của mình, nhưng tính năng ~y~Giao xe ~s~đã bị vô hiệu hóa.</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_active">
-        <String xml:lang="en-US">Active</String>
-        <String xml:lang="nl-NL">Actief</String>
-        <String xml:lang="it-IT">Attiva</String>
-        <String xml:lang="vi-VN">Còn hoạt động</String>
-        <String xml:lang="fr-FR">Actif</String>
-    </Entry>
+    <Entry Id="menu_vehicles_active">
+        <String xml:lang="en-US">Active</String>
+        <String xml:lang="pl-PL">Aktywny</String>
+        <String xml:lang="nl-NL">Actief</String>
+        <String xml:lang="it-IT">Attiva</String>
+        <String xml:lang="vi-VN">Còn hoạt động</String>
+        <String xml:lang="fr-FR">Actif</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_destroyed">
-        <String xml:lang="en-US">Destroyed</String>
-        <String xml:lang="nl-NL">Vernield</String>
-        <String xml:lang="it-IT">Distrutta</String>
-        <String xml:lang="vi-VN">Bị phá hủy</String>
-        <String xml:lang="fr-FR">Détruit</String>
-    </Entry>
+    <Entry Id="menu_vehicles_destroyed">
+        <String xml:lang="en-US">Destroyed</String>
+        <String xml:lang="pl-PL">Zniszczony</String>
+        <String xml:lang="nl-NL">Vernield</String>
+        <String xml:lang="it-IT">Distrutta</String>
+        <String xml:lang="vi-VN">Bị phá hủy</String>
+        <String xml:lang="fr-FR">Détruit</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_impounded">
-        <String xml:lang="en-US">Impounded</String>
-        <String xml:lang="nl-NL">In beslag genomen</String>
-        <String xml:lang="it-IT">Sequestrata</String>
-        <String xml:lang="vi-VN">Bị tịch thu</String>
-        <String xml:lang="fr-FR">saisi</String>
-    </Entry>
+    <Entry Id="menu_vehicles_impounded">
+        <String xml:lang="en-US">Impounded</String>
+        <String xml:lang="pl-PL">Odholowany</String>
+        <String xml:lang="nl-NL">In beslag genomen</String>
+        <String xml:lang="it-IT">Sequestrata</String>
+        <String xml:lang="vi-VN">Bị tịch thu</String>
+        <String xml:lang="fr-FR">saisi</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_in_maintenance">
-        <String xml:lang="en-US">In Maintenance</String>
-        <String xml:lang="nl-NL">In onderhoud</String>
-        <String xml:lang="it-IT">In manutenzione</String>
-        <String xml:lang="vi-VN">Đang bảo dưỡng</String>
-        <String xml:lang="fr-FR">En maintenance</String>
-    </Entry>
+    <Entry Id="menu_vehicles_in_maintenance">
+        <String xml:lang="en-US">In Maintenance</String>
+        <String xml:lang="pl-PL">W konserwacji</String>
+        <String xml:lang="nl-NL">In onderhoud</String>
+        <String xml:lang="it-IT">In manutenzione</String>
+        <String xml:lang="vi-VN">Đang bảo dưỡng</String>
+        <String xml:lang="fr-FR">En maintenance</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_damaged">
-        <String xml:lang="en-US">Damaged</String>
-        <String xml:lang="nl-NL">Beschadigd</String>
-        <String xml:lang="it-IT">Danneggiata</String>
-        <String xml:lang="vi-VN">Bị hư hỏng</String>
-        <String xml:lang="fr-FR">Endommagé</String>
-    </Entry>
+    <Entry Id="menu_vehicles_damaged">
+        <String xml:lang="en-US">Damaged</String>
+        <String xml:lang="pl-PL">Uszkodzony</String>
+        <String xml:lang="nl-NL">Beschadigd</String>
+        <String xml:lang="it-IT">Danneggiata</String>
+        <String xml:lang="vi-VN">Bị hư hỏng</String>
+        <String xml:lang="fr-FR">Endommagé</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_fuel_low">
-        <String xml:lang="en-US">Fuel Low</String>
-        <String xml:lang="nl-NL">Weinig brandstof</String>
-        <String xml:lang="it-IT">Carburante quasi finito</String>
-        <String xml:lang="vi-VN">Sắp hết nhiên liệu</String>
-        <String xml:lang="fr-FR">Carburant faible</String>
-    </Entry>
+    <Entry Id="menu_vehicles_fuel_low">
+        <String xml:lang="en-US">Fuel Low</String>
+        <String xml:lang="pl-PL">Mało paliwa</String>
+        <String xml:lang="nl-NL">Weinig brandstof</String>
+        <String xml:lang="it-IT">Carburante quasi finito</String>
+        <String xml:lang="vi-VN">Sắp hết nhiên liệu</String>
+        <String xml:lang="fr-FR">Carburant faible</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_battery_low">
-        <String xml:lang="en-US">Battery Low</String>
-        <String xml:lang="nl-NL">Weinig batterij</String>
-        <String xml:lang="it-IT">Batteria quasi scarica</String>
-        <String xml:lang="vi-VN">Sắp hết pin</String>
-        <String xml:lang="fr-FR">Batterie faible</String>
-    </Entry>
+    <Entry Id="menu_vehicles_battery_low">
+        <String xml:lang="en-US">Battery Low</String>
+        <String xml:lang="pl-PL">Niski poziom baterii</String>
+        <String xml:lang="nl-NL">Weinig batterij</String>
+        <String xml:lang="it-IT">Batteria quasi scarica</String>
+        <String xml:lang="vi-VN">Sắp hết pin</String>
+        <String xml:lang="fr-FR">Batterie faible</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_recalled">
-        <String xml:lang="en-US">Recalled</String>
-        <String xml:lang="nl-NL">Teruggeroepen</String>
-        <String xml:lang="it-IT">Richiamata</String>
-        <String xml:lang="vi-VN">Thu hồi</String>
-        <String xml:lang="fr-FR">Rappelé</String>
-    </Entry>
+    <Entry Id="menu_vehicles_recalled">
+        <String xml:lang="en-US">Recalled</String>
+        <String xml:lang="pl-PL">Wycofany</String>
+        <String xml:lang="nl-NL">Teruggeroepen</String>
+        <String xml:lang="it-IT">Richiamata</String>
+        <String xml:lang="vi-VN">Thu hồi</String>
+        <String xml:lang="fr-FR">Rappelé</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_color">
-        <String xml:lang="en-US">Color</String>
-        <String xml:lang="nl-NL">Kleur</String>
-        <String xml:lang="it-IT">Colore</String>
-        <String xml:lang="vi-VN">Màu</String>
-        <String xml:lang="fr-FR">Couleur</String>
-    </Entry>
+    <Entry Id="menu_vehicles_color">
+        <String xml:lang="en-US">Color</String>
+        <String xml:lang="pl-PL">Kolor</String>
+        <String xml:lang="nl-NL">Kleur</String>
+        <String xml:lang="it-IT">Colore</String>
+        <String xml:lang="vi-VN">Màu</String>
+        <String xml:lang="fr-FR">Couleur</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_plate">
-        <String xml:lang="en-US">License Plate</String>
-        <String xml:lang="nl-NL">Kentekenplaat</String>
-        <String xml:lang="it-IT">Targa</String>
-        <String xml:lang="vi-VN">Biển số xe</String>
-        <String xml:lang="fr-FR">Plaque d'immatriculation</String>
-    </Entry>
+    <Entry Id="menu_vehicles_plate">
+        <String xml:lang="en-US">License Plate</String>
+        <String xml:lang="pl-PL">Tablica rejestracyjna</String>
+        <String xml:lang="nl-NL">Kentekenplaat</String>
+        <String xml:lang="it-IT">Targa</String>
+        <String xml:lang="vi-VN">Biển số xe</String>
+        <String xml:lang="fr-FR">Plaque d'immatriculation</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_health">
-        <String xml:lang="en-US">Health</String>
-        <String xml:lang="nl-NL">Gezondheid</String>
-        <String xml:lang="it-IT">Salute</String>
-        <String xml:lang="vi-VN">Máu</String>
-        <String xml:lang="fr-FR">Santé</String>
-    </Entry>
+    <Entry Id="menu_vehicles_health">
+        <String xml:lang="en-US">Health</String>
+        <String xml:lang="pl-PL">Stan</String>
+        <String xml:lang="nl-NL">Gezondheid</String>
+        <String xml:lang="it-IT">Salute</String>
+        <String xml:lang="vi-VN">Máu</String>
+        <String xml:lang="fr-FR">Santé</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_fuel">
-        <String xml:lang="en-US">Fuel</String>
-        <String xml:lang="nl-NL">Brandstof</String>
-        <String xml:lang="it-IT">Carburante</String>
-        <String xml:lang="vi-VN">Nhiên liệu</String>
-        <String xml:lang="fr-FR">Carburant</String>
-    </Entry>
+    <Entry Id="menu_vehicles_fuel">
+        <String xml:lang="en-US">Fuel</String>
+        <String xml:lang="pl-PL">Paliwo</String>
+        <String xml:lang="nl-NL">Brandstof</String>
+        <String xml:lang="it-IT">Carburante</String>
+        <String xml:lang="vi-VN">Nhiên liệu</String>
+        <String xml:lang="fr-FR">Carburant</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_battery">
-        <String xml:lang="en-US">Battery</String>
-        <String xml:lang="nl-NL">Batterij</String>
-        <String xml:lang="it-IT">Batteria</String>
-        <String xml:lang="vi-VN">Pin</String>
-        <String xml:lang="fr-FR">Batterie</String>
-    </Entry>
+    <Entry Id="menu_vehicles_battery">
+        <String xml:lang="en-US">Battery</String>
+        <String xml:lang="pl-PL">Bateria</String>
+        <String xml:lang="nl-NL">Batterij</String>
+        <String xml:lang="it-IT">Batteria</String>
+        <String xml:lang="vi-VN">Pin</String>
+        <String xml:lang="fr-FR">Batterie</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_tank">
-        <String xml:lang="en-US">Tank</String>
-        <String xml:lang="nl-NL">Brandstoftank</String>
-        <String xml:lang="it-IT">Serbatoio</String>
-        <String xml:lang="vi-VN">Thùng xăng</String>
-        <String xml:lang="fr-FR">Réservoir</String>
-    </Entry>
+    <Entry Id="menu_vehicles_tank">
+        <String xml:lang="en-US">Tank</String>
+        <String xml:lang="pl-PL">Bak</String>
+        <String xml:lang="nl-NL">Brandstoftank</String>
+        <String xml:lang="it-IT">Serbatoio</String>
+        <String xml:lang="vi-VN">Thùng xăng</String>
+        <String xml:lang="fr-FR">Réservoir</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_tires">
-        <String xml:lang="en-US">Tires</String>
-        <String xml:lang="nl-NL">Banden</String>
-        <String xml:lang="it-IT">Pneumatici</String>
-        <String xml:lang="vi-VN">Lốp xe</String>
-        <String xml:lang="fr-FR">Pneus</String>
-    </Entry>
+    <Entry Id="menu_vehicles_tires">
+        <String xml:lang="en-US">Tires</String>
+        <String xml:lang="pl-PL">Opony</String>
+        <String xml:lang="nl-NL">Banden</String>
+        <String xml:lang="it-IT">Pneumatici</String>
+        <String xml:lang="vi-VN">Lốp xe</String>
+        <String xml:lang="fr-FR">Pneus</String>
+    </Entry>
 
-    <Entry Id="menu_vehicles_cleanliness">
-        <String xml:lang="en-US">Cleanliness</String>
-        <String xml:lang="nl-NL">Schoonheid</String>
-        <String xml:lang="it-IT">Pulizia</String>
-        <String xml:lang="vi-VN">Mức độ sạch</String>
-        <String xml:lang="fr-FR">Propreté</String>
-    </Entry>
+    <Entry Id="menu_vehicles_cleanliness">
+        <String xml:lang="en-US">Cleanliness</String>
+        <String xml:lang="pl-PL">Czystość</String>
+        <String xml:lang="nl-NL">Schoonheid</String>
+        <String xml:lang="it-IT">Pulizia</String>
+        <String xml:lang="vi-VN">Mức độ sạch</String>
+        <String xml:lang="fr-FR">Propreté</String>
+    </Entry>
 
-    <!-- specifically shown in the vehicles menu when the tires/tank are OK (no damage). This is NOT a confirmation "ok". -->
-    <Entry Id="menu_vehicles_ok">
-        <String xml:lang="en-US">OK</String>
-        <String xml:lang="nl-NL">OK</String>
-        <String xml:lang="it-IT">OK</String>
-        <String xml:lang="vi-VN">TỐT</String>
-        <String xml:lang="fr-FR">OK</String>
-    </Entry>
+    <!-- specifically shown in the vehicles menu when the tires/tank are OK (no damage). This is NOT a confirmation "ok". -->
+    <Entry Id="menu_vehicles_ok">
+        <String xml:lang="en-US">OK</String>
+        <String xml:lang="pl-PL">OK</String>
+        <String xml:lang="nl-NL">OK</String>
+        <String xml:lang="it-IT">OK</String>
+        <String xml:lang="vi-VN">TỐT</String>
+        <String xml:lang="fr-FR">OK</String>
+    </Entry>
 
-    <!-- Specifically shown for the tank (for now) when damaged -->
-    <Entry Id="menu_vehicles_tank_damaged">
-        <String xml:lang="en-US">Damaged</String>
-        <String xml:lang="nl-NL">Beschadigd</String>
-        <String xml:lang="it-IT">Danneggiato</String>
-        <String xml:lang="vi-VN">Hư hỏng</String>
-        <String xml:lang="fr-FR">Endommagé</String>
-    </Entry>
+    <!-- Specifically shown for the tank (for now) when damaged -->
+    <Entry Id="menu_vehicles_tank_damaged">
+        <String xml:lang="en-US">Damaged</String>
+        <String xml:lang="pl-PL">Uszkodzony</String>
+        <String xml:lang="nl-NL">Beschadigd</String>
+        <String xml:lang="it-IT">Danneggiato</String>
+        <String xml:lang="vi-VN">Hư hỏng</String>
+        <String xml:lang="fr-FR">Endommagé</String>
+    </Entry>
 
-    <!-- Specifically shown for the tires when at least one is punctured -->
-    <Entry Id="menu_vehicles_tire_flat">
-        <String xml:lang="en-US">{0} flat</String>
-        <String xml:lang="nl-NL">{0} lekke banden</String>
-        <String xml:lang="it-IT">{0} forati</String>
-        <String xml:lang="vi-VN">{0} lốp bị lủng</String>
-        <String xml:lang="fr-FR">{0} Crevaisons</String>
-    </Entry>
+    <!-- Specifically shown for the tires when at least one is punctured -->
+    <Entry Id="menu_vehicles_tire_flat">
+        <String xml:lang="en-US">{0} flat</String>
+        <String xml:lang="pl-PL">{0} przebita</String>
+        <String xml:lang="nl-NL">{0} lekke banden</String>
+        <String xml:lang="it-IT">{0} forati</String>
+        <String xml:lang="vi-VN">{0} lốp bị lủng</String>
+        <String xml:lang="fr-FR">{0} Crevaisons</String>
+    </Entry>
 
-    <!-- {0} = Vehicle name -->
-    <Entry Id="dealership_previewing_vehicle">
-        <String xml:lang="en-US">Previewing a ~b~{0}~s~.</String>
-        <String xml:lang="nl-NL">Voorbeeld van een ~b~{0}~s~.</String>
-        <String xml:lang="it-IT">Stai visualizzando una ~b~{0}~s~.</String>
-        <String xml:lang="vi-VN">Xem trước ~b~{0}~s~.</String>
-        <String xml:lang="fr-FR">Prévisualiser un ~b~{0}~s~.</String>
-    </Entry>
+    <!-- {0} = Vehicle name -->
+    <Entry Id="dealership_previewing_vehicle">
+        <String xml:lang="en-US">Previewing a ~b~{0}~s~.</String>
+        <String xml:lang="pl-PL">Podgląd ~b~{0}~s~.</String>
+        <String xml:lang="nl-NL">Voorbeeld van een ~b~{0}~s~.</String>
+        <String xml:lang="it-IT">Stai visualizzando una ~b~{0}~s~.</String>
+        <String xml:lang="vi-VN">Xem trước ~b~{0}~s~.</String>
+        <String xml:lang="fr-FR">Prévisualiser un ~b~{0}~s~.</String>
+    </Entry>
 
-    <Entry Id="dealership_credits_and_usage_rights">
-        <String xml:lang="en-US">Credits and Usage Rights</String>
-        <String xml:lang="nl-NL">Credits en auteursrechten</String>
-        <String xml:lang="it-IT">Riconoscimenti e Diritti d'Utilizzo</String>
-        <String xml:lang="vi-VN">Ghi công và quyền sử dụng</String>
-        <String xml:lang="fr-FR">Crédits et droits d'utilisation</String>
-    </Entry>
+    <Entry Id="dealership_credits_and_usage_rights">
+        <String xml:lang="en-US">Credits and Usage Rights</String>
+        <String xml:lang="pl-PL">Twórcy i prawa do użytkowania</String>
+        <String xml:lang="nl-NL">Credits en auteursrechten</String>
+        <String xml:lang="it-IT">Riconoscimenti e Diritti d'Utilizzo</String>
+        <String xml:lang="vi-VN">Ghi công và quyền sử dụng</String>
+        <String xml:lang="fr-FR">Crédits et droits d'utilisation</String>
+    </Entry>
 
-    <Entry Id="dealership_need_to_own_garage">
-        <String xml:lang="en-US">You need to own a garage before purchasing a vehicle.</String>
-        <String xml:lang="nl-NL">Je moet een garage bezitten voordat je een voertuig kunt kopen.</String>
-        <String xml:lang="it-IT">Devi possedere un garage prima di acquistare un veicolo.</String>
-        <String xml:lang="vi-VN">Bạn cần phải có nhà để xe trước khi mua xe.</String>
-        <String xml:lang="fr-FR">Vous avez besoin de posséder un garage avant d'acheter un véhicule.</String>
-    </Entry>
+    <Entry Id="dealership_need_to_own_garage">
+        <String xml:lang="en-US">You need to own a garage before purchasing a vehicle.</String>
+        <String xml:lang="pl-PL">Musisz posiadać garaż przed zakupem pojazdu.</String>
+        <String xml:lang="nl-NL">Je moet een garage bezitten voordat je een voertuig kunt kopen.</String>
+        <String xml:lang="it-IT">Devi possedere un garage prima di acquistare un veicolo.</String>
+        <String xml:lang="vi-VN">Bạn cần phải có nhà để xe trước khi mua xe.</String>
+        <String xml:lang="fr-FR">Vous avez besoin de posséder un garage avant d'acheter un véhicule.</String>
+    </Entry>
 
-    <!-- {0} = Vehicle name -->
-    <!-- {1} = Garage name -->
-    <!-- {2} = Location -->
-    <Entry Id="dealership_store_vehicle_in_garage">
-        <String xml:lang="en-US">Store your new ~b~{0} ~s~in your ~p~{1} ~s~garage in ~y~{2}~s~.</String>
-        <String xml:lang="nl-NL">Stal je nieuwe ~b~{0} ~s~in je ~p~{1} ~s~garage in ~y~{2}~s~.</String>
-        <String xml:lang="it-IT">Parcheggia la tua nuova ~b~{0} ~s~nel tuo garage ~p~{1} ~s~a ~y~{2}~s~.</String>
-        <String xml:lang="vi-VN">Cất ~b~{0} ~s~mới của bạn vào nhà để xe ~p~{1} ~s~ở ~y~{2}~s~.</String>
-        <String xml:lang="fr-FR">Entreposer votre nouveau ~b~{0} ~s~dans votre ~p~{1} ~s~garage dans ~y~{2}~s~.</String>
-    </Entry>
+    <!-- {0} = Vehicle name -->
+    <!-- {1} = Garage name -->
+    <!-- {2} = Location -->
+    <Entry Id="dealership_store_vehicle_in_garage">
+        <String xml:lang="en-US">Store your new ~b~{0} ~s~in your ~p~{1} ~s~garage in ~y~{2}~s~.</String>
+        <String xml:lang="pl-PL">Przechowaj swój nowy ~b~{0} ~s~w garażu ~p~{1} ~s~w ~y~{2}~s~.</String>
+        <String xml:lang="nl-NL">Stal je nieuwe ~b~{0} ~s~in je ~p~{1} ~s~garage in ~y~{2}~s~.</String>
+        <String xml:lang="it-IT">Parcheggia la tua nuova ~b~{0} ~s~nel tuo garage ~p~{1} ~s~a ~y~{2}~s~.</String>
+        <String xml:lang="vi-VN">Cất ~b~{0} ~s~mới của bạn vào nhà để xe ~p~{1} ~s~ở ~y~{2}~s~.</String>
+        <String xml:lang="fr-FR">Entreposer votre nouveau ~b~{0} ~s~dans votre ~p~{1} ~s~garage dans ~y~{2}~s~.</String>
+    </Entry>
 
-    <Entry Id="info_unmarked_vehicle">
-        <String xml:lang="en-US">~b~Unmarked police vehicle!~n~~s~Civilians will see you as a fellow civilian until you get close enough or turn on your siren.</String>
-        <String xml:lang="nl-NL">~b~Onopvallend politievoertuig!~n~~s~Burgers zullen je zien als een mede-burger totdat je dichtbij genoeg bent of je sirene aanzet.</String>
-        <String xml:lang="it-IT">~b~Veicolo della polizia non contrassegnato!~n~~s~I civili ti vedranno come un altro civile finché non ti avvicini abbastanza o non accendi la sirena.</String>
-        <String xml:lang="vi-VN">~b~Phương tiện cảnh sát không có dấu hiệu nhận dạng!~n~~s~Dân thường sẽ thấy bạn là thường dân cho đến khi bạn đến đủ gần hoặc bật còi.</String>
-        <String xml:lang="fr-FR">~b~Voiture de police banalisé!~n~~s~Les civils vous verront comme un autre civil jusqu'à ce que vous soyez assez proche ou allumez votre sirène.</String>
-    </Entry>
-    
-</Entries>
+    <Entry Id="info_unmarked_vehicle">
+        <String xml:lang="en-US">~b~Unmarked police vehicle!~n~~s~Civilians will see you as a fellow civilian until you get close enough or turn on your siren.</String>
+        <String xml:lang="pl-PL">~b~Nieoznakowany radiowóz!~n~~s~Cywile będą cię postrzegać jako cywila, dopóki nie zbliżysz się wystarczająco lub nie włączysz syreny.</String>
+        <String xml:lang="nl-NL">~b~Onopvallend politievoertuig!~n~~s~Burgers zullen je zien als een mede-burger totdat je dichtbij genoeg bent of je sirene aanzet.</String>
+        <String xml:lang="it-IT">~b~Veicolo della polizia non contrassegnato!~n~~s~I civili ti vedranno come un altro civile finché non ti avvicini abbastanza o non accendi la sirena.</String>
+        <String xml:lang="vi-VN">~b~Phương tiện cảnh sát không có dấu hiệu nhận dạng!~n~~s~Dân thường sẽ thấy bạn là thường dân cho đến khi bạn đến đủ gần hoặc bật còi.</String>
+        <String xml:lang="fr-FR">~b~Voiture de police banalisé!~n~~s~Les civils vous verront comme un autre civil jusqu'à ce que vous soyez assez proche ou allumez votre sirène.</String>
+    </Entry>
