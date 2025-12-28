@@ -256,6 +256,7 @@
         <String xml:lang="tr-TR">{0} ~r~hastalıktan~s~ öldü.</String>
         <String xml:lang="it-IT">{0} ~s~è morto a causa di ~r~una malattia~s~.</String>
         <String xml:lang="vi-VN">{0} ~s~đã chết vì ~r~bệnh tật~s~.</String>
+        <String xml:lang="es-ES">{0} ~s~ha muerto por una ~r~enfermedad~s~.</String>
     </Entry>
 
     <Entry Id="drowned">
@@ -712,6 +713,7 @@
         <String xml:lang="sv-SE">med ett ~r~automatgevär~s~</String>
         <String xml:lang="ar-001">مع ~r~بندقيه هجوميه~s~</String>
         <String xml:lang="no-NO">med en ~r~anfallsrifle~s~</String>
+        <String xml:lang="es-ES">con un ~r~fusil de asalto~s~</String>
     </Entry>
 
     <Entry Id="with_assault_rifle_headshot">
@@ -722,7 +724,7 @@
         <String xml:lang="tr-TR">bir ~r~saldırı tüfeğiyle (kafadan vuruş)~s~</String>
         <String xml:lang="zh-Hant">用~r~突擊步槍爆頭~s~</String>
         <String xml:lang="pl-PL">~r~strzałem w głowę z karabinu szturmowego ~s~</String>
-        <String xml:lang="es-ES">con un ~r~disparo en la cabeza de un rifle de asalto~s~</String>
+        <String xml:lang="es-ES">con un ~r~disparo en la cabeza de un fusil de asalto~s~</String>
         <String xml:lang="fr-FR">avec une balle de ~r~fusil d'assaut dans la tête~s~</String>
         <String xml:lang="pt-BR">com um ~r~tiro na cabeça com um fuzil de assalto~s~</String>
         <String xml:lang="ar-001">بسبب ~r~بندقية في الرأس~s~</String>
@@ -1588,10 +1590,12 @@
 
     <Entry Id="btn_ping_medic">
         <String xml:lang="en-US">Ping Medic</String>
+        <String xml:lang="es-ES">Indicar al médico</String>
     </Entry>
 
     <Entry Id="ping_medic_cooldown">
         <String xml:lang="en-US">You can ping again {0}</String>
+        <String xml:lang="es-ES">Puedes indicar otra vez {0}</String>
     </Entry>
 
     <!-- Recommended frequency on respawn -->
