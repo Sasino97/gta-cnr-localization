@@ -967,6 +967,27 @@
         <String xml:lang="vi-VN">~r~Bạn không có phương tiện!</String>
     </Entry>
 
+    <Entry Id="mechanic_real_players_available">
+        <String xml:lang="en-US">~r~There are real players available to work on your vehicle. Please, approach a player and browse their service list.</String>
+    </Entry>
+
+    <!-- {0} = Type of work area, for example Bodywork or Respray -->
+    <Entry Id="mechanic_entered_work_area">
+        <String xml:lang="en-US">You entered a ~b~work area ~s~({0}). Players can buy vehicle ~y~services ~s~from you here.</String>
+    </Entry>
+
+    <Entry Id="mechanic_left_work_area">
+        <String xml:lang="en-US">You left the ~b~work area~s~.</String>
+    </Entry>
+
+    <Entry Id="mechanic_work_area_type_bodywork">
+        <String xml:lang="en-US">Bodywork</String>
+    </Entry>
+
+    <Entry Id="mechanic_work_area_type_respray">
+        <String xml:lang="en-US">Respray</String>
+    </Entry>
+
     <Entry Id="mechanic_invalid_type">
         <String xml:lang="en-US">~r~This type of vehicle cannot be repaired here!</String>
         <String xml:lang="nl-NL">~r~Dit type voertuig kan hier niet worden gerepareerd!</String>

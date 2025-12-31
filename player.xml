@@ -1918,6 +1918,16 @@
         <String xml:lang="vi-VN">Tài khoản</String>
     </Entry>
 
+    <Entry Id="menu_options_account_subtitle">
+        <String xml:lang="en-US">You are currently logged in as ~b~{0}~s~. Select this option to configure your ~y~Cops and Robbers V Account ~s~settings.</String>
+        <String xml:lang="it-IT">Sei attualmente loggato come ~b~{0}~s~. Seleziona quest'opzione per gestire le opzioni del tuo ~y~Account di Cops and Robbers V~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_subscription">
+        <String xml:lang="en-US">Subscription</String>
+        <String xml:lang="it-IT">Abbonamento</String>
+    </Entry>
+
     <Entry Id="menu_options_account_subhistory_subtitle">
         <String xml:lang="en-US">Subscription History</String>
         <String xml:lang="nl-NL">Abonnement Geschiedenis</String>
@@ -1958,7 +1968,47 @@
         <String xml:lang="vi-VN">Mua hàng</String>
     </Entry>
 
-    <Entry Id="menu_options_account_linkedservices_subtitle">
+    <Entry Id="menu_options_account_refresh_desc">
+        <String xml:lang="en-US">Refresh your ~p~Member ~s~status and ~b~Purchases~s~. If you have just made a purchase and you don't have it in game, select this option.</String>
+        <String xml:lang="it-IT">Aggiorna lo stato del tuo ~p~Abbonamento ~s~e ~b~Acquisti~s~. Seleziona quest'opzion se hai appena fatto un acquisto e non l'hai ancora ricevuto nel gioco.</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_change_name">
+        <String xml:lang="en-US">Change Username</String>
+        <String xml:lang="it-IT">Cambia Nome Utente</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_change_name_desc">
+        <String xml:lang="en-US">Requires a ~p~{0} ~s~or a ~p~Premium Membership~s~. If you only want to add/remove a crew tag or fix a typo, contact the server staff for a free name change.</String>
+        <String xml:lang="it-IT">Richiede una ~p~{0} ~s~o un ~p~Abbonamento Premium~s~. Se vuoi semplicemente aggiungere o rimuovere un tag di squadra o correggere un errore, contatta lo staff del server per un cambio di nome gratuito.</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_change_email">
+        <String xml:lang="en-US">Change Email</String>
+        <String xml:lang="it-IT">Cambia Email</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_add_email">
+        <String xml:lang="en-US">Add Email</String>
+        <String xml:lang="it-IT">Aggiungi Email</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_link_email_desc">
+        <String xml:lang="en-US">Link your email address to your ~b~Cops and Robbers V Account ~s~so we can contact you about important ~y~account issues ~s~and ~y~game updates~s~. Don't worry, we have ~b~no annoying newsletter ~s~:).</String>
+        <String xml:lang="it-IT">Collega il tuo email al tuo account di ~b~Cops and Robbers V ~s~così possiamo contattarti a riguardo di ~y~problemi con il tuo account ~s~e ~y~aggiornamenti del gioco~s~. Non preoccuparti, non abbiamo alcuna ~b~fastidiosa newsletter ~s~:).</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_change_password">
+        <String xml:lang="en-US">Change Password</String>
+        <String xml:lang="it-IT">Cambia Password</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_change_password_desc">
+        <String xml:lang="en-US">Change the password of your ~b~Cops and Robbers V Account~s~. You can use this password to log in to the game with this account when you're not at your PC, you can also use it to access your personal profile at ~b~https://gtacnr.net~s~. ~y~Security tip~s~: never use the same password across multiple websites and services.</String>
+        <String xml:lang="it-IT">Cambia la password del tuo Account di ~b~Cops and Robbers V~s~. Puoi utilizzare questa password per accedere al gioco con questo account quando non sei al tuo PC, puoi anche usarla per accedere al tuo profilo personale su ~b~https://gtacnr.net~s~. ~y~Consiglio di sicurezza~s~: non usare mai la stessa password per diversi siti e servizi.</String>
+    </Entry>
+
+    <Entry Id="menu_options_account_linked_services">
         <String xml:lang="en-US">Linked Services</String>
         <String xml:lang="nl-NL">Gelinkte Diensten</String>
         <String xml:lang="pl-PL">Połączone Usługi</String>
@@ -1976,6 +2026,9 @@
         <String xml:lang="no-NO">Tilknyttede tjenester</String>
         <String xml:lang="sv-SE">Länkade tjänster</String>
         <String xml:lang="vi-VN">Các dịch vụ đã liên kết</String>
+    </Entry>
+    <Entry Id="menu_options_account_linked_services_desc">
+        <String xml:lang="en-US">Manage your ~b~third-party authentication services~s~.</String>
     </Entry>
 
     <Entry Id="menu_options_display_title">
@@ -2078,7 +2131,7 @@
         <String xml:lang="vi-VN">Phím tắt</String>
     </Entry>
 
-    <Entry Id="menu_options_chotkeys_subtitle">
+    <Entry Id="menu_options_hotkeys_subtitle">
         <String xml:lang="en-US">Custom hotkeys</String>
         <String xml:lang="nl-NL">Eigen sneltoetsen</String>
         <String xml:lang="fr-FR">Raccourcis clavier personnalisés</String>
@@ -2098,7 +2151,11 @@
         <String xml:lang="vi-VN">Tùy chỉnh phím tắt</String>
     </Entry>
 
-    <Entry Id="menu_options_hotkeys_subtitle">
+    <Entry Id="menu_options_hotkeys_subtitle_2">
+        <String xml:lang="en-US">Bind custom keys to actions</String>
+    </Entry>
+
+    <Entry Id="menu_options_hotkeys_subtitle_3">
         <String xml:lang="en-US">Select an action type</String>
         <String xml:lang="nl-NL">Selecteer eenn actie type</String>
         <String xml:lang="pl-PL">Wybierz typ akcji</String>
@@ -2156,6 +2213,258 @@
         <String xml:lang="no-NO">Velg et våpen å utstyre</String>
         <String xml:lang="sv-SE">Välj ett vapen att utrusta</String>
         <String xml:lang="vi-VN">Chọn vũ khí để trang bị</String>
+    </Entry>
+
+    <Entry Id="menu_options_gameplay_title">
+        <String xml:lang="en-US">Gameplay</String>
+    </Entry>
+
+    <Entry Id="menu_options_gameplay_subtitle">
+        <String xml:lang="en-US">Change gameplay settings</String>
+    </Entry>
+
+    <Entry Id="menu_options_gameplay_revenge_title">
+        <String xml:lang="en-US">Revenge</String>
+    </Entry>
+
+    <Entry Id="menu_options_gameplay_revenge_subtitle">
+        <String xml:lang="en-US">View revenge info and change settings. Also accessible via command ~y~/revenge~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_flashlights_stay_on_text">
+        <String xml:lang="en-US">Flashlights stay on</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_flashlights_stay_on_desc">
+        <String xml:lang="en-US">When activated, makes flashlights stay on also when not aiming.</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_radio_clicks_text">
+        <String xml:lang="en-US">Radio clicks</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_radio_clicks_desc">
+        <String xml:lang="en-US">Toggles the radio click sound effects.</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_cam_cycle_text">
+        <String xml:lang="en-US">Camera cycle</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_cam_cycle_desc">
+        <String xml:lang="en-US">Changes the camera cycle mode.</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_cam_cycle_normal">
+        <String xml:lang="en-US">Normal</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_cam_cycle_far_fp">
+        <String xml:lang="en-US">Far &gt; FP</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_cam_cycle_medium_fp">
+        <String xml:lang="en-US">Medium &gt; FP</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_cam_cycle_near_fp">
+        <String xml:lang="en-US">Near &gt; FP</String>
+    </Entry>
+
+    <Entry Id="menu_options_misc_cam_cycle_no_fp">
+        <String xml:lang="en-US">No FP</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_language_text">
+        <String xml:lang="en-US">Language</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_language_desc">
+        <String xml:lang="en-US">Change your display language.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_language_warning">
+        <String xml:lang="en-US">~r~Warning: ~s~translations are ~y~INCOMPLETE~s~, some languages more than others. Anyone can contribute at ~b~https://github.com/Sasino97/gta-cnr-localization~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_chat_pos_text">
+        <String xml:lang="en-US">Chat Position</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_chat_pos_desc">
+        <String xml:lang="en-US">~b~SA-MP Style: ~s~Chat on the left, menus on the right.\n~b~GTA:O Style: ~s~Chat on the right, menus on the left.\n~y~Try the GTA:O Style setting if you have an ultra wide monitor and have issues with the menus.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_chat_pos_option_1">
+        <String xml:lang="en-US">SA-MP Style</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_chat_pos_option_2">
+        <String xml:lang="en-US">GTA:O Style</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_death_feed_text">
+        <String xml:lang="en-US">Death Feed</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_death_feed_desc">
+        <String xml:lang="en-US">~b~Off: ~s~No death and arrest feed.\n~b~On: ~s~All deaths and arrests.\n~b~Proximity: ~s~Only nearby deaths and arrests.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_death_feed_option_proximity">
+        <String xml:lang="en-US">Proximity</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_speedometer_text">
+        <String xml:lang="en-US">Speedometer</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_speedometer_desc">
+        <String xml:lang="en-US">Display/hide speedometer. You can change the measurement system in your GTA settings.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_altimeter_text">
+        <String xml:lang="en-US">Altimeter</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_altimeter_desc">
+        <String xml:lang="en-US">Display/hide altimeter. You can change the measurement system in your GTA settings.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_immersive_mode_text">
+        <String xml:lang="en-US">Immersive Mode</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_immersive_mode_desc">
+        <String xml:lang="en-US">Disables the HUD when turned on. You can also toggle this option by pressing ~p~F9~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_text_chat_text">
+        <String xml:lang="en-US">Text Chat</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_text_chat_desc">
+        <String xml:lang="en-US">Display or hide the text chat. You can also toggle this option by pressing ~p~F10~s~.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_property_blips_text">
+        <String xml:lang="en-US">Property Blips</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_property_blips_desc">
+        <String xml:lang="en-US">Toggles property blips on the radar, such as warehouses and garages.</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_property_blips_option_all">
+        <String xml:lang="en-US">All</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_property_blips_option_owned">
+        <String xml:lang="en-US">Owned</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_health_percent_text">
+        <String xml:lang="en-US">Health Percentage</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_health_percent_desc">
+        <String xml:lang="en-US">Display/hide health in percentage above players' heads (impacts performance).</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_signs_text">
+        <String xml:lang="en-US">Custom Signs</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_signs_desc">
+        <String xml:lang="en-US">Display/hide custom player signs over their heads (could impact performance if too many players are using signs at the same time).</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_low_fuel_prompt_text">
+        <String xml:lang="en-US">Low Fuel Prompt</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_low_fuel_prompt_desc">
+        <String xml:lang="en-US">Display/hide low fuel prompt.</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_fuel_bar_text">
+        <String xml:lang="en-US">Fuel Bar</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_fuel_bar_desc">
+        <String xml:lang="en-US">Always show the fuel bar.</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_crosshair_text">
+        <String xml:lang="en-US">Crosshair</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_crosshair_desc">
+        <String xml:lang="en-US">Display/hide the default GTA crosshair. Recommended if you use an external crosshair software such as HudSight. You can also use ~b~/crosshair ~s~to open our editor for FiveM's custom crosshair.</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_usernames_on_blips_text">
+        <String xml:lang="en-US">Show Usernames on Blips</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_usernames_on_blips_desc">
+        <String xml:lang="en-US">Toggles whether or not name labels are shown on the expanded minimap next to player blips.</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_hide_xp_bar_text">
+        <String xml:lang="en-US">Hide XP Bar</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_hide_xp_bar_desc">
+        <String xml:lang="en-US">Hides the XP/Level indicator at the top of the screen</String>
+    </Entry>
+    
+    <Entry Id="menu_options_display_menu_offsets_text">
+        <String xml:lang="en-US">Menu Offsets</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_menu_offsets_desc">
+        <String xml:lang="en-US">Adjust the offsets of menu text.</String>
+    </Entry>
+    
+    <Entry Id="menu_options_accessibility_colorblind_mode_text">
+        <String xml:lang="en-US">Colorblind Mode</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_colorblind_mode_desc">
+        <String xml:lang="en-US">Adds shapes inside player circles to help you distinguish roles.</String>
+    </Entry>
+    
+    <Entry Id="menu_options_accessibility_flashbang_mode_text">
+        <String xml:lang="en-US">Flashbang Mode</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_flashbang_mode_desc">
+        <String xml:lang="en-US">~b~Standard: ~s~A white screen, similar to most games that have flashbangs.\n~b~Blackout: ~s~A black screen, more suitable for photosensitive people.</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_flashbang_mode_option_standard">
+        <String xml:lang="en-US">Standard</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_flashbang_mode_option_blackout">
+        <String xml:lang="en-US">Blackout</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_thousands_separator_text">
+        <String xml:lang="en-US">Thousands Separator</String>
+    </Entry>
+
+    <Entry Id="menu_options_accessibility_thousands_separator_desc">
+        <String xml:lang="en-US">Adds thousands separators to the money HUD.</String>
+    </Entry>
+
+    <Entry Id="menu_options_keybinds_btn_bind">
+        <String xml:lang="en-US">Bind</String>
+    </Entry>
+
+    <Entry Id="menu_options_keybinds_btn_unbind">
+        <String xml:lang="en-US">Unbind</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152))
