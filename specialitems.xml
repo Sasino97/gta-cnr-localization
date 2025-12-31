@@ -17,6 +17,7 @@
         <String xml:lang="no-NO">Du kan bare bruke ~r~ett ~s~skrapelodd om gangen.</String>
         <String xml:lang="sv-SE">Du kan bara använda ~r~en ~s~skraplott åt gången.</String>
         <String xml:lang="vi-VN">Bạn chỉ có thể sử dụng ~r~một ~s~thẻ cào tại một thời điểm.</String>
+        <String xml:lang="tr-TR">Tek seferde yalnızca ~r~bir ~s~kazı kazan kartı kullanabilirsin.</String>
     </Entry>
 
     <Entry Id="specialitem_armor_at_time">
@@ -25,7 +26,7 @@
         <String xml:lang="nl-NL">Je kan maar ~r~één ~s~kogelvrij vest tegelijk gebruiken.</String>
         <String xml:lang="de-DE">Du kannst Schutzwesten nur ~r~einzeln ~s~anlegen.</String>
         <String xml:lang="es-ES">Sólo puedes usar ~r~un ~s~chaleco antibalas a la vez.</String>
-        <String xml:lang="tr-TR">Bir seferde yalnızca ~r~bir ~s~vücut zırhı kullanabilirsiniz.</String>
+        <String xml:lang="tr-TR">Tek seferde yalnızca ~r~bir ~s~vücut zırhı giyebilirsin.</String>
         <String xml:lang="pl-PL">Możesz użyć tylko ~r~jedną ~s~kamizelkę kuloodporną w danym momencie.</String>
         <String xml:lang="pt-BR">Você só pode usar ~r~um ~s~colete à prova de balas por vez.</String>
         <String xml:lang="ar-001">يمكنك فقط استخدام ~r~واحد ~s~من الدرع الواقي من الرصاص في المرة الواحدة.</String>
@@ -45,7 +46,7 @@
         <String xml:lang="nl-NL">Je moet {0} seconden ~r~wachten ~s~voordat je dit type ~p~kogelvrij vest~s~ weer kan gebruiken.</String>
         <String xml:lang="de-DE">Du musst {0} Sekunden ~r~warten~s~, bevor du diesen ~p~Typ Schutzweste ~s~wieder verwenden kannst. </String>
         <String xml:lang="es-ES">Tienes que ~r~esperar ~s~{0} segundos para poder usar este tipo de ~p~chaleco antibalas ~s~otravez.</String>
-        <String xml:lang="tr-TR">Gerekli {0} saniye ~r~beklemelisin~s~, bu tip ~p~vücut zırhını ~s~tekrar kullanmadan önce.</String>
+        <String xml:lang="tr-TR">Bu tür bir ~p~vücut zırhı ~s~kullanmak için {0} saniye ~r~beklemen ~s~gerekiyor.</String>
         <String xml:lang="pl-PL">Musisz ~r~poczekać ~s~{0} sekund zanim użyjesz ten typ ~p~kamizelki kuloodpornej ~s~ponownie.</String>
         <String xml:lang="pt-BR">Você precisa ~r~esperar ~s~{0} segundos para poder usar esse tipo de ~p~colete à prova de balas ~s~uma vez.</String>
         <String xml:lang="ar-001">أنت بحاجة إلى ~r~الانتظار ~s~{0} ثانية لاستخدام هذا النوع من ~p~درع واقي للرصاص ~s~مرة أخرى.</String>
@@ -96,6 +97,7 @@
         <String xml:lang="no-NO">Du må ~r~vente ~s~30 sekunder mellom ~p~medkit ~s~bruk.</String>
         <String xml:lang="sv-SE">Du måste ~r~vänta ~s~30 sekunder mellan ~p~medkit ~s~användningar.</String>
         <String xml:lang="vi-VN">Bạn cần ~r~chờ ~s~30 giây giữa các lần sử dụng ~p~Bộ dụng cụ y tế~s~.</String>
+        <String xml:lang="tr-TR">~p~İlk yardım çantası ~s~kullanımları arasında 30 saniye ~r~beklemeniz ~s~gerekiyor</String>
     </Entry>
 
     <Entry Id="medkit_at_time">
@@ -115,6 +117,7 @@
         <String xml:lang="sv-SE">Du kan bara använda ~r~ett ~s~medkit åt gången.</String>
         <String xml:lang="fr-FR">Vous ne pouvez utiliser qu'~r~un seul ~s~kit de soin à la fois.</String>
         <String xml:lang="vi-VN">Bạn chỉ có thể sử dụng ~r~một ~s~Bộ dụng cụ y tế tại một thời điểm.</String>
+        <String xml:lang="tr-TR">Aynı anda sadece ~r~bir ~s~ilk yardım çantası kullanabilirsiniz.</String>
     </Entry>
 
     <Entry Id="bandage">
@@ -177,6 +180,7 @@
         <String xml:lang="no-NO">(C){0}(/C) vant (C){1}(/C) fra et skrapelodd!</String>
         <String xml:lang="sv-SE">(C){0}(/C) vann (C){1}(/C) från en skraplott!</String>
         <String xml:lang="vi-VN">(C){0}(/C) đã trúng thưởng (C){1}(/C) từ thẻ cào!</String>
+        <String xml:lang="tr-TR">(C){0}(/C) bir kazı kazan kartından (C){1}(/C) kazandı!</String>
     </Entry>
 
     <!-- {0} = Drug name (for example: Cocaine)
@@ -187,7 +191,7 @@
         <String xml:lang="nl-NL">Je kan geen ~r~{0}~s~ gebruiken wanneer je {1} bent</String>
         <String xml:lang="de-DE">Du kannst {0} nicht verwenden, wenn du {1}</String>
         <String xml:lang="es-ES">No puedes usar ~r~{0} ~s~cuando estas {1}</String>
-        <String xml:lang="tr-TR">Kullanamazsınız {0} şu durumlarda {1}</String>
+        <String xml:lang="tr-TR">{1} durumundayken ~r~{0} ~s~kullanamazsınız.</String>
         <String xml:lang="pl-PL">Nie możesz użyć ~r~{0} ~s~gdy jesteś {1}</String>
         <String xml:lang="pt-BR">Não é possível usar ~r~{0} ~s~quando você está {1}</String>
         <String xml:lang="ar-001">لا يمكنك استخدام ~r~{0} ~s~عندما تكون {1}</String>
@@ -220,6 +224,7 @@
         <String xml:lang="sv-SE">{0} ~s~använde ett ~p~medkit~s~.</String>
         <String xml:lang="fr-FR">{0} ~s~a utilisé un ~p~kit de soin~s~.</String>
         <String xml:lang="vi-VN">{0} ~s~đã sử dụng một ~p~Bộ dụng cụ y tế~s~.</String>
+        <String xml:lang="tr-TR">{0} ~s~bir ~p~ilk yardım kiti ~s~kullandı.</String>
     </Entry>
 
     <!-- {0} = Colored player name and id (for example: Stijnjw (152)) -->
@@ -240,6 +245,7 @@
         <String xml:lang="sv-SE">{0} ~s~använde ett ~p~bandage~s~.</String>
         <String xml:lang="id-ID">{0} ~s~menggunakan ~p~perban~s~.</String>
         <String xml:lang="vi-VN">{0} ~s~đã sử dụng một ~p~băng gạt~s~.</String>
+        <String xml:lang="tr-TR">{0} ~s~bir ~p~bandaj ~s~kullandı.</String>
     </Entry>
 
     <!-- {0} = Colored player name and id (for example: Stijnjw (152)) -->
@@ -260,6 +266,7 @@
         <String xml:lang="no-NO">{0} ~s~utstyrte en ~p~kroppsrustning~s~.</String>
         <String xml:lang="sv-SE">{0} ~s~utrustade sig med en ~p~kroppsrustning~s~.</String>
         <String xml:lang="vi-VN">{0} ~s~đã trang bị một ~p~áo giáp~s~.</String>
+        <String xml:lang="tr-TR">{0} ~s~bir ~p~vücut zırhı ~s~giydi.</String>
     </Entry>
 
     <Entry Id="on_fire">
@@ -468,7 +475,7 @@
         <String xml:lang="nl-NL">Je bent niet ~r~dichtbij genoeg ~s~om ~b~{0} ~s~te kunnen gebruiken op je voertuig.</String>
         <String xml:lang="de-DE">Du bist nicht ~r~nah genug~s~, um ein ~b~{0} ~s~an deinem Fahrzeug zu verwenden.</String>
         <String xml:lang="es-ES">No estás ~r~suficientemente cerca ~s~para usar un ~b~{0} ~s~en tu vehículo.</String>
-        <String xml:lang="tr-TR">Sen ~r~yeterince yakın ~s~değilsin ~b~{0} ~s~aracında kullanmak için.</String>
+        <String xml:lang="tr-TR">Aracına ~b~{0} ~s~kullanmak için ~r~yeterince yakın ~s~değilsin.</String>
         <String xml:lang="pl-PL">Nie jesteś ~r~wystarczająco blisko ~s~by użyć ~b~{0} ~s~na swoim pojeździe.</String>
         <String xml:lang="pt-BR">Você não está ~r~próximo o suficiente ~s~para usar um ~b~{0} ~s~em seu veículo..</String>
         <String xml:lang="ar-001">أنت لست ~r~قريبًا بدرجة كافية من ~s~لاستخدام ~b~{0} ~s~في سيارتك.</String>
@@ -499,6 +506,7 @@
         <String xml:lang="sv-SE">Kan inte ta kontroll över ~b~fordonet~s~. Om andra ~r~spelare ~s~är inne i den, be dem lämna.</String>
         <String xml:lang="fr-FR">Impossible de prendre le contrôle du ~b~véhicule~s~. Si d'autres ~r~joueurs ~s~se trouvent à l'intérieur, demandez-leur de sortir.</String>
         <String xml:lang="vi-VN">Không thể điều khiển ~b~phương tiện~s~. Nếu có ~r~người chơi ~s~khác ở bên trong, hãy yêu cầu họ ra ngoài.</String>
+        <String xml:lang="tr-TR">~b~Aracın ~s~kontrolü sağlanamıyor. İçinde başka ~r~oyuncular ~s~varsa, araçtan inmelerini isteyin.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_vehicle_type">
@@ -507,7 +515,7 @@
         <String xml:lang="nl-NL">Je ~r~kan geen ~b~{0} ~s~op voertuigen van dit type gebruiken.</String>
         <String xml:lang="de-DE">Du kannst kein {0} an diesem Fahrzeugtyp verwenden.</String>
         <String xml:lang="es-ES">~r~No puedes usar ~s~un ~b~{0} ~s~en vehículos de este tipo.</String>
-        <String xml:lang="tr-TR">Sen ~r~kullanamazsın ~b~{0} ~s~bu tip araçlarda.</String>
+        <String xml:lang="tr-TR">Bu tür araçlarda ~b~{0} ~r~kullanmazsın~s~.</String>
         <String xml:lang="pl-PL">~r~Nie możesz użyć~s~ ~b~{0} ~s~na pojazdach tego typu.</String>
         <String xml:lang="pt-BR">~r~Você não pode usar ~s~a ~b~{0} ~s~em veículos desse tipo.</String>
         <String xml:lang="ar-001">لا يمكنك ~r~استخدام ~s~a ~b~{0} ~s~في مركبات من هذا النوع.</String>
@@ -527,7 +535,7 @@
         <String xml:lang="nl-NL">Je voertuig's ~y~motorkap ~s~moet open zijn om een ~b~{0}~s~ te kunnen gebruiken.</String>
         <String xml:lang="de-DE">Die ~y~Motorhaube~s~ deines Fahrzeuges muss geöffnet sein, damit du ein ~b~{0}~s~ verwenden kannst.</String>
         <String xml:lang="es-ES">El ~y~capó ~s~de tu vehículo tiene que estar abierto para usar un ~b~{0}~s~.</String>
-        <String xml:lang="tr-TR">Aracınızın ~y~kaportası ~s~kullanılabilmesi için açık olması gerekmektedir ~b~{0}~s~.</String>
+        <String xml:lang="tr-TR">~b~{0} ~s~kullanmak için aracının ~y~kaputu ~s~açık olmalı.</String>
         <String xml:lang="pl-PL">~y~Maska ~s~twego samochodu musi być otwarta byś mógł użyć ~b~{0}~s~.</String>
         <String xml:lang="pt-BR">Os ~y~cap~s~ do seu veículo devem estar abertos para usar um ~b~{0}~s~.</String>
         <String xml:lang="ar-001">يجب أن يكون ~y~غطاء المحرك ~s~في سيارتك مفتوحًا حتى تتمكن من استخدام ~b~{0}~s~.</String>
@@ -556,6 +564,7 @@
         <String xml:lang="es-ES">El motor de tu vehículo no está lo suficientemente ~r~dañado~s~ como para usar un ~b~{0}~s~.</String>
         <String xml:lang="pt-BR">O motor do seu veículo não está ~r~danificado ~s~o suficiente para usar um ~b~{0}~s~.</String>
         <String xml:lang="vi-VN">Động cơ phương tiện của bạn chưa ~r~hư hỏng đủ~s~ để sử dụng ~b~{0}~s~.</String>
+        <String xml:lang="tr-TR">Aracın moturu ~b~{0} ~s~kullanmak için ~r~yeterince hasar görmedi~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_repairkit_engine_repair">
@@ -564,7 +573,7 @@
         <String xml:lang="nl-NL">Je hebt je ~b~voertuig~s~'s motor gerepareerd.</String>
         <String xml:lang="de-DE">Du hast den Motor deines ~b~Fahrzeuges ~s~repariert.</String>
         <String xml:lang="es-ES">Has reparado el motor de tu ~b~vehículo~s~.</String>
-        <String xml:lang="tr-TR">Tamir ettiniz ~b~arac~s~'ın moturunu.</String>
+        <String xml:lang="tr-TR">~b~Aracının ~s~motorunu tamir ettin.</String>
         <String xml:lang="pl-PL">Naprawiłeś silnik swojego ~b~pojazdu~s~</String>
         <String xml:lang="pt-BR">Você consertou o motor do seu ~b~veículo~s~.</String>
         <String xml:lang="ar-001">لقد أصلحت محرك ~b~سيارتك~s~</String>
@@ -584,7 +593,7 @@
         <String xml:lang="nl-NL">Je hebt je ~b~voertuig~s~'s banden gerepareerd.</String>
         <String xml:lang="de-DE">Du hast die Reifen deines ~b~Fahrzeuges ~s~repariert.</String>
         <String xml:lang="es-ES">Has reparado los neumáticos de tu ~b~vehículo~s~.</String>
-        <String xml:lang="tr-TR">Tamir ettiniz ~b~arac~s~'ın lastiklerini.</String>
+        <String xml:lang="tr-TR">~b~Aracının ~s~lastiklerini tamir ettin.</String>
         <String xml:lang="pl-PL">Naprawiłeś opony swojego ~b~pojazdu~s~</String>
         <String xml:lang="pt-BR">Você consertou os pneus do seu ~b~veículo~s~.</String>
         <String xml:lang="ar-001">لقد أصلحت إطارات ~b~سيارتك~s~</String>
@@ -604,7 +613,7 @@
         <String xml:lang="nl-NL">Je hebt je ~b~voertuig~s~ schoongemaakt.</String>
         <String xml:lang="de-DE">Du hast dein ~b~Fahrzeug~s~ gereinigt.</String>
         <String xml:lang="es-ES">Has limpiado tu ~b~vehículo~s~.</String>
-        <String xml:lang="tr-TR">Temizledin ~b~aracını~s~.</String>
+        <String xml:lang="tr-TR">~b~Aracını ~s~temizledin.</String>
         <String xml:lang="pl-PL">Umyłeś swój ~b~pojazd~s~</String>
         <String xml:lang="pt-BR">Você limpou seu ~b~veículo~s~.</String>
         <String xml:lang="ar-001">لقد قمت بتنظيف ~b~سيارتك~s~</String>
@@ -635,6 +644,7 @@
         <String xml:lang="no-NO">God! Du har ditt andre ~o~gresskar~s~. Ikke gi opp nå!</String>
         <String xml:lang="sv-SE">Bra! Du fick din andra ~o~pumpa~s~. Ge inte upp nu!</String>
         <String xml:lang="vi-VN">Tốt! Bạn đã có quả ~o~bí ngô~s~ thứ hai rồi. Đừng bỏ cuộc bây giờ</String>
+        <String xml:lang="tr-TR">Güzel! İkinci ~o~balkabağı~s~nı aldın. Sakın şimdi pes etme!</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_third_pumpkin">
@@ -653,6 +663,7 @@
         <String xml:lang="sv-SE">Tredje ~o~pumpa~s~! Samla ~o~20 pumpor ~s~för en ~b~liten belöning~s~!</String>
         <String xml:lang="fr-FR">Troisième ~o~citrouille~s~! Collectez ~o~20 citrouilles ~s~pour une ~b~petite récompense~s~!</String>
         <String xml:lang="vi-VN">Quả ~o~bí ngô~s~ thứ ba rồi! Thu thập ~o~20 quả bí ngô ~s~để nhận một ~b~phần thưởng nhỏ~s~!</String>
+        <String xml:lang="tr-TR">Üçüncü ~o~balkabak~s~! ~o~20 tane balkabağı ~s~toplayarak ~b~küçük bir öödül ~s~kazanın!</String>
     </Entry>
 
     <Entry Id="specialitem_hallooween_twenty_pumpkin">
@@ -672,6 +683,7 @@
         <String xml:lang="sv-SE">Bra! Du har samlat ~o~20 pumpor~s~! Du fick en ~b~bonusartikel ~s~i ditt lager, försök använda det!</String>
         <String xml:lang="fr-FR">Génial! Vous avez collecté ~o~20 citrouilles~s~! Vous avez un ~b~objet bonus ~s~dans votre inventaire, essayez de l'utiliser!</String>
         <String xml:lang="vi-VN">Tuyệt vời! Bạn đã thu thập đủ ~o~20 quả bí ngô~s~ rồi! Bạn đã nhận được một ~b~vật phẩm thưởng ~s~trong túi đồ, hãy thử sử dụng nó đi!</String>
+        <String xml:lang="tr-TR">Harika! ~o~20 balkabağı ~s~topladınız! Envanterinize bir ~b~bonus eşya ~s~eklendi, kullanmayı deneyin!</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_twenty_more_pumpkin">
@@ -691,6 +703,7 @@
         <String xml:lang="no-NO">Du fant 20 flere ~o~gresskar~s~! Sjekk inventaret ditt for din ~b~bonusartikkel~s~.</String>
         <String xml:lang="sv-SE">Du hittade 20 fler ~o~pumpor~s~! Kolla ditt förråd för ditt ~b~bonus föremål~s~.</String>
         <String xml:lang="vi-VN">Bạn vừa tìm thấy thêm 20 quả ~o~bí ngô~s~ nữa! Hãy kiểm tra túi đồ của bạn để xem ~b~vật phẩm thưởng~s~ nhé.</String>
+        <String xml:lang="tr-TR">20 Tane daha ~o~balkabağı ~s~buldun! ~b~Bonus eşya~s~nı almak için envanterini kontrol et.</String>
     </Entry>
 
     <Entry Id="specialitem_hallooween_fifty_pumpkin">
@@ -710,6 +723,7 @@
         <String xml:lang="sv-SE">Yay! Du kom till 50! Du kommer att få denna bonus var ~o~50:e pumpor ~s~hittas!</String>
         <String xml:lang="fr-FR">Bravo! Vous avez atteint les 50 citrouilles! Vous recevrez ce bonus à chaque ~o~50 citrouilles ~s~trouvées!</String>
         <String xml:lang="vi-VN">Tuyệt vời! Bạn đã đạt đến mốc 50 rồi! Bạn sẽ nhận được phần thưởng này cứ mỗi ~o~50 quả bí ngô ~s~tìm thấy!</String>
+        <String xml:lang="tr-TR">Harika! 50'ye ulaştın! Her ~o~50 balkabağı ~s~buluşunda bu bonusu alacaksın!</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_candy_inventory_full">
@@ -729,6 +743,7 @@
         <String xml:lang="no-NO">~r~Advarsel: ~s~Du kunne ikke motta en halloween-godteri fordi beholdningen din er full.</String>
         <String xml:lang="sv-SE">~r~Varning: ~s~Du kunde inte ta emot ett halloweengodis eftersom ditt lager är fullt.</String>
         <String xml:lang="vi-VN">~r~Cảnh báo: ~s~Bạn không thể nhận kẹo Halloween vì túi đồ của bạn đã đầy.</String>
+        <String xml:lang="tr-TR">~r~Uyarı: ~s~Envanteriniz dolu olduğu için bir Cadılar Bayramı şekeri alamadınız.</String>
     </Entry>
 
     <Entry Id="specialitem_halloween_find_all_pumpkins">
@@ -748,6 +763,7 @@
         <String xml:lang="sv-SE">Hitta alla ~o~Pumpor ~s~innan slutet av ~o~eventet ~s~för att vinna ett ~g~stort pris~s~.</String>
         <String xml:lang="fr-FR">Trouvez toutes les ~o~citrouilles ~s~avant la fin de l'~o~événement ~s~pour gagner un ~g~grand prix~s~.</String>
         <String xml:lang="vi-VN">Tìm tất cả ~o~Bí Ngô ~s~trước khi kết thúc ~o~sự kiện ~s~để giành được một ~g~giải thưởng lớn~s~.</String>
+        <String xml:lang="tr-TR">~g~Büyük ödül~s~ü kazanmak için ~o~etkinlik ~s~bitmeden önce tüm ~o~balkabaklarını ~s~bul.</String>
     </Entry>
 
     <Entry Id="specialitem_christmas_pick_snowball">
@@ -767,6 +783,7 @@
         <String xml:lang="sv-SE">Tryck på {0} för att plocka upp ~b~snöbollar~s~.</String>
         <String xml:lang="fr-FR">Appuyez sur {0} pour ramasser des ~b~boules de neige~s~.</String>
         <String xml:lang="vi-VN">Nhấn {0} để nhặt ~b~quả cầu tuyết~s~.</String>
+        <String xml:lang="tr-TR">~b~Kar topları~s~nı toplamak için {0} tuşuna bas</String>
     </Entry>
 
     <Entry Id="specialitem_christmas_present_collected_inventory">
@@ -786,6 +803,7 @@
         <String xml:lang="sv-SE">Du har samlat en ~g~present~s~! Du kan öppna dina presenter i ~b~M ~s~&gt; ~b~Lager~s~!</String>
         <String xml:lang="fr-FR">Vous avez collecté un ~g~cadeau~s~! Vous pouvez ouvrir vos cadeaux dans ~b~M ~s~&gt; ~b~Inventaire~s~!</String>
         <String xml:lang="vi-VN">Bạn đã thu thập được một ~g~món quà~s~! Bạn có thể mở quà của mình trong ~b~M ~s~&gt; ~b~Túi đồ~s~!</String>
+        <String xml:lang="tr-TR">Bir ~g~hediye ~s~topladın! Hediyelerini ~b~M ~s~&gt; ~b~Envanter ~s~bölümünden açabilirsin!</String>
     </Entry>
 
     <Entry Id="specialitem_christmas_present_collect_cooldown">
@@ -805,6 +823,7 @@
         <String xml:lang="sv-SE">Du måste ~r~vänta ~s~innan du hämtar en annan ~g~present~s~!</String>
         <String xml:lang="fr-FR">Vous devez ~r~attendre ~s~avant de pouvoir collecter un autre ~g~cadeau~s~!</String>
         <String xml:lang="vi-VN">Bạn phải ~r~chờ ~s~trước khi thu thập ~g~món quà~s~ khác!</String>
+        <String xml:lang="tr-TR">Başka bir ~g~hediye ~s~toplamadan önce ~r~beklemelisin~s~!</String>
     </Entry>
 
     <Entry Id="specialitem_christmas_present_despawned">
@@ -824,6 +843,7 @@
         <String xml:lang="no-NO">Den ~g~nåværende ~s~har ~r~forstått~s~.</String>
         <String xml:lang="sv-SE">~g~presenten ~s~har~r~ försvunnit~s~.</String>
         <String xml:lang="vi-VN">~g~Món quà ~s~đã ~r~biến mất~s~.</String>
+        <String xml:lang="tr-TR">~g~Hediye ~s~~r~yok oldu~s~.</String>
     </Entry>
 
     <Entry Id="specialitem_christmas_present_nearby">
@@ -843,6 +863,7 @@
         <String xml:lang="no-NO">~g~gaven innom ~r~nissen ~s~er i nærheten!</String>
         <String xml:lang="sv-SE">~g~presenten som släpptes av ~r~tomten ~s~är i närheten!</String>
         <String xml:lang="vi-VN">~g~Món quà~s~ do ~r~Ông già Noel ~s~đánh rơi ở gần đây!</String>
+        <String xml:lang="tr-TR">~r~Noel baba ~g~tarafından bırakılan hediye ~s~yakınlarda!</String>
     </Entry>
 
     <Entry Id="menu_specialitem_scratchcard_title">
@@ -862,6 +883,7 @@
         <String xml:lang="no-NO">Skrapekort</String>
         <String xml:lang="sv-SE">Skraplott</String>
         <String xml:lang="vi-VN">Cào</String>
+        <String xml:lang="tr-TR">Kazı Kazan Kartı</String>
     </Entry>
 
     <!-- nullnull{0} = Remaining seconds (for example: 5)
@@ -872,7 +894,7 @@
         <String xml:lang="nl-NL">Je moet ~r~{0} seconden ~s~wachten voordat je nog een ~b~{1}~s~ kan gebruiken.</String>
         <String xml:lang="de-DE">Du musst ~r~{0} Sekunden warten, bevor du ein weiteres ~b~{1}~s~ verwenden kannst.</String>
         <String xml:lang="es-ES">Debes esperar ~r~{0} segundos ~s~antes de usar otro ~b~{1}~s~.</String>
-        <String xml:lang="tr-TR">Beklemeniz gerekir ~r~{0} saniye ~s~başka birini kullanmadan önce ~b~{1}~s~.</String>
+        <String xml:lang="tr-TR">Başka bir ~b~{1} ~s~kullanmadan önce ~r~{0} saniye ~s~beklemelisiniz.</String>
         <String xml:lang="pl-PL">Musisz poczekać ~r~{0} sekund ~s~zanim użyjesz kolejny ~b~{1}~s~.</String>
         <String xml:lang="pt-BR">Você deve esperar ~r~{0} segundos ~s~antes de usar outro ~b~{1}~s~.</String>
         <String xml:lang="ar-001">يجب عليك الانتظار ~r~{0} ثانية ~s~قبل استخدام ~b~{1}~s~ أخرى.</String>
@@ -907,6 +929,7 @@
         <String xml:lang="no-NO">{0} ~s~har funnet {1} ~o~gresskar~s~!</String>
         <String xml:lang="sv-SE">{0} ~s~har hittat {1} ~o~pumpor~s~!</String>
         <String xml:lang="vi-VN">{0} ~s~đã tìm thấy {1} quả ~o~bí ngô~s~!</String>
+        <String xml:lang="tr-TR">{0}, {1} ~o~balkabağı ~s~buldu!</String>
     </Entry>
 
     <!-- nullnull{0} = Error code (for example: 123) -->
@@ -927,6 +950,7 @@
         <String xml:lang="sv-SE">~r~Varning: ~s~Du kunde inte ta emot ett halloween godis på grund av ett fel 0x88-{0}.</String>
         <String xml:lang="fr-FR">~r~Avertissement: ~s~Vous n'avez pas pu recevoir un bonbon d'Halloween en raison d'une erreur 0x88-{0}.</String>
         <String xml:lang="vi-VN">~r~Cảnh báo: ~s~Bạn không thể nhận kẹo Halloween do lỗi 0x88-{0}.</String>
+        <String xml:lang="tr-TR">~r~Uyarı: ~s~0x88-{0} Hatası nedeniyle cadılar bayramı şekerini alamadın.</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Stijnjw)
@@ -949,6 +973,7 @@
         <String xml:lang="no-NO">{0} ~s~har funnet alle 500 ~o~gresskar~s~ og mottatt ~g~{1}~s~!</String>
         <String xml:lang="sv-SE">{0} ~s~har hittat alla 500 ~o~pumpor~s~ och fått ~g~{1}~s~!</String>
         <String xml:lang="vi-VN">{0} ~s~đã tìm thấy tất cả 500 quả ~o~bí ngô~s~ và nhận được ~g~{1}~s~!</String>
+        <String xml:lang="tr-TR">{0} ~s~500 ~o~balkabağı~s~nın hepsini buldu ve ~g~{1} ~s~kazandı!</String>
     </Entry>
 
     <!-- nullnull{0} = Final prize (for example: $5,000,000) -->
@@ -969,6 +994,7 @@
         <String xml:lang="sv-SE">Du fick ~g~{0} ~s~och ~o~Freddy Krueger Outfit ~s~för din civila karaktär. Glad Halloween!</String>
         <String xml:lang="fr-FR">Vous avez reçu ~g~{0} ~s~et la ~o~tenue Freddy Krueger ~s~pour votre personnage civil. Joyeux Halloween!</String>
         <String xml:lang="vi-VN">Bạn đã nhận được ~g~{0} ~s~và ~o~Trang phục Freddy Krueger ~s~cho nhân vật thường dân của mình. Chúc mừng Halloween!</String>
+        <String xml:lang="tr-TR">Sivil karakterin için ~g~{0} ~s~ve ~o~Freddy Krueger kostümü~s~aldın. Cadılar Bayramın kutlu olsun!</String>
     </Entry>
 
     <!-- nullnull{0} = Cooldown (for example: 30) -->
@@ -989,6 +1015,7 @@
         <String xml:lang="sv-SE">Du måste ~r~vänta ~s~{0} sekunder innan du äter ytterligare ett ~o~halloween godis~s~.</String>
         <String xml:lang="no-NO">Du må ~r~vente ~s~{0} sekunder før du spiser en annen ~o~halloween-godteri~s~.</String>
         <String xml:lang="vi-VN">Bạn phải ~r~chờ ~s~{0} giây trước khi ăn một viên ~o~kẹo Halloween~s~ khác.</String>
+        <String xml:lang="tr-TR">Başka bir ~o~cadılar bayramı şekeri~s~ni yemeden önce {0} saniye ~r~beklemelisin~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Pumpkin identifier (for example: Downtown-1) -->
@@ -1009,6 +1036,7 @@
         <String xml:lang="no-NO"> ~r~Du har allerede samlet dette gresskaret ({0}).</String>
         <String xml:lang="sv-SE">~r~Du har redan samlat den här pumpan ({0}).</String>
         <String xml:lang="vi-VN">~r~Bạn đã thu thập quả bí ngô này rồi ({0}).</String>
+        <String xml:lang="tr-TR">~r~Bu balkabağını zaten topladın ({0}).</String>
     </Entry>
 
     <!-- nullnull{0} = Max amount of snowballs you can carry (for example: 5) -->
@@ -1029,6 +1057,7 @@
         <String xml:lang="sv-SE">Du kan inte bära mer än ~b~{0} snöbollar~s~!</String>
         <String xml:lang="fr-FR">Vous ne pouvez pas porter plus de ~b~{0} boules de neige~s~!</String>
         <String xml:lang="vi-VN">Bạn không thể mang quá ~b~{0} quả cầu tuyết~s~!</String>
+        <String xml:lang="tr-TR">~b~{0} kartopundan ~s~daha fazlasını taşıyamazsın!</String>
     </Entry>
 
     <!-- nullnull{0} = Cooldown (for example: 300)
@@ -1051,6 +1080,7 @@
         <String xml:lang="fr-FR">Vous devez ~r~attendre {0} secondes ~s~avant d'acheter un autre ~p~{1}~s~.</String>
         <String xml:lang="hi-Latn">Aapko ~r~wait karna hoga {0} seconds ~s~wapas purchase karne se pehle ~p~{1}~s~.</String>
         <String xml:lang="vi-VN">Bạn cần ~r~chờ {0} giây ~s~trước khi mua ~p~{1}~s~ khác.</String>
+        <String xml:lang="tr-TR">Başka bir ~p~{1}~s~ satın almadan önce ~r~{0} saniye ~s~beklemen gerekiyor.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount (for example: 1) -->
@@ -1059,7 +1089,7 @@
         <String xml:lang="nl-NL">Je hebt {0} ~p~verband~s~ gebruikt.</String>
         <String xml:lang="de-DE">Du hast {0} Bandagen verwendet.</String>
         <String xml:lang="es-ES">Has usado {0} ~p~vendajes~s~.</String>
-        <String xml:lang="tr-TR">Bir miktar {0} ~p~bandaj ~s~kullandın.</String>
+        <String xml:lang="tr-TR">{0} ~p~bandaj ~s~kullandın.</String>
         <String xml:lang="pl-PL">Użyłeś {0} ~p~bandaża~s~.</String>
         <String xml:lang="pt-BR">Você usou {0} ~p~bindings~s~.</String>
         <String xml:lang="ar-001">لقد استخدمت {0} ~p~ضمادات~s~.</String>
@@ -1080,7 +1110,7 @@
         <String xml:lang="nl-NL">Je ~r~kan geen ~b~{0} ~s~gebruiken wanneer je in een voertuig zit.</String>
         <String xml:lang="de-DE">Du kannst ~r~kein ~b~{0} ~s~verwenden, wenn du im Fahrzeug bist.</String>
         <String xml:lang="es-ES">~r~No puedes usar ~s~un ~b~{0} ~s~cuando estás dentro de un vehículo.</String>
-        <String xml:lang="tr-TR">Sen ~r~kullanamazsın ~b~{0} ~s~bir aracın içindeyken.</String>
+        <String xml:lang="tr-TR">Araç içindeyken ~b~{0} ~r~kullanamazsınız~s~.</String>
         <String xml:lang="pl-PL">~r~Nie możesz użyć ~s~a ~b~{0} ~s~w środku pojazdu.</String>
         <String xml:lang="pt-BR">você ~r~não pode usar ~s~a ~b~{0} ~s~quando estiver dentro de um veículo.</String>
         <String xml:lang="ar-001">لا يمكنك ~r~استخدام ~s~a ~b~{0} ~s~عندما تكون داخل السيارة.</String>
