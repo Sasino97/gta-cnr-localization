@@ -273,3 +273,13 @@ Text can also be highlighted with the `(C)(/C)` tags.
 - Vietnamese (Vietnam): `vi-VN`
 - Thai (Thailand): `th-TH`
 - Indonesian (Indonesia): `id-ID`
+
+## Developer: Validator
+
+- Use the `--show_lang` option to show missing translations for a specific language.
+
+Example:
+
+```bash
+python validator.py --show_lang de-DE
+```
