@@ -983,23 +983,28 @@
 
     <Entry Id="mechanic_real_players_available">
         <String xml:lang="en-US">~r~There are real players available to work on your vehicle. Please, approach a player and browse their service list.</String>
+        <String xml:lang="de-DE">~r~Es sind echte Spieler verfügbar, um an Ihrem Fahrzeug zu arbeiten. Bitte wenden Sie sich an einen Spieler und durchsuchen Sie dessen Serviceliste.</String>
     </Entry>
 
     <!-- {0} = Type of work area, for example Bodywork or Respray -->
     <Entry Id="mechanic_entered_work_area">
         <String xml:lang="en-US">You entered a ~b~work area ~s~({0}). Players can buy vehicle ~y~services ~s~from you here.</String>
+        <String xml:lang="de-DE">Sie haben einen ~b~Arbeitsbereich ~s~({0}) betreten. Spieler können hier Fahrzeug~y~dienstleistungen ~s~bei Ihnen kaufen.</String>
     </Entry>
 
     <Entry Id="mechanic_left_work_area">
         <String xml:lang="en-US">You left the ~b~work area~s~.</String>
+        <String xml:lang="de-DE">Sie haben den ~b~Arbeitsbereich~s~ verlassen.</String>
     </Entry>
 
     <Entry Id="mechanic_work_area_type_bodywork">
         <String xml:lang="en-US">Bodywork</String>
+        <String xml:lang="de-DE">Karosserie</String>
     </Entry>
 
     <Entry Id="mechanic_work_area_type_respray">
         <String xml:lang="en-US">Respray</String>
+        <String xml:lang="de-DE">Lackierung</String>
     </Entry>
 
     <Entry Id="mechanic_invalid_type">
@@ -2060,6 +2065,7 @@
 
     <Entry Id="paramedic_revival_canceled">
         <String xml:lang="en-US">~r~You have canceled the resuscitation procedure.</String>
+        <String xml:lang="de-DE">~r~Du hast die Wiederbelebung abgebrochen.</String>
         <String xml:lang="nl-NL">~r~Je hebt de reanimatieprocedure geannuleerd.</String>
         <String xml:lang="it-IT">~r~Hai annullato la procedura di rianimazione.</String>
         <String xml:lang="vi-VN">~r~Bạn đã hủy bỏ quy trình hồi sức.</String>
@@ -2758,6 +2764,7 @@
 
     <Entry Id="police_arrest_notification">
         <String xml:lang="en-US">Officer {0} arrested suspect {1}.</String>
+        <String xml:lang="de-DE">Officer {0} hat Verdächtigen {1} verhaftet.</String>
         <String xml:lang="nl-NL">Agent {0} heeft verdachte {1} gearresteerd.</String>
         <String xml:lang="vi-VN">Sĩ quan {0} đã bắt giữ nghi phạm {1}.</String>
     </Entry>
@@ -3996,6 +4003,7 @@
     The translations can be found in entries stp_press and stp_hold -->
     <Entry Id="police_bribe_menu_action">
         <String xml:lang="en-US">{0} to open the bribe menu.</String>
+        <String xml:lang="de-DE">{0} um den Cop zu bestechen</String>
         <String xml:lang="nl-NL">{0} om het omkopingsmenu te openen.</String>
         <String xml:lang="it-IT">{0} per aprire il menù tangente.</String>
         <String xml:lang="vi-VN">{0} để mở menu hối lộ.</String>
@@ -4097,6 +4105,7 @@
 
     <Entry Id="police_no_longer_in_custody">
         <String xml:lang="en-US">{0} ~r~is no longer in your custody!</String>
+        <String xml:lang="de-DE">{0} ~r~ist entflohen!</String>
         <String xml:lang="nl-NL">{0} ~r~is niet langer in jouw hechtenis!</String>
         <String xml:lang="vi-VN">{0} ~r~không còn bị bạn bắt giữ nữa!</String>
     </Entry>
@@ -4168,6 +4177,7 @@
 
     <Entry Id="police_player_ignored_bribe">
         <String xml:lang="en-US">{0} has ~r~ignored ~s~your bribe offer.</String>
+        <String xml:lang="de-DE">{0} hat dein Bestechungsangebot ~r~ignoriert~s~.</String>
         <String xml:lang="nl-NL">{0} heeft jouw omkopingsoffer ~r~genegeerd~s~.</String>
         <String xml:lang="it-IT">{0} ha ~r~ignorato ~s~la tua proposta di tangente.</String>
         <String xml:lang="vi-VN">{0} đã ~r~từ chối ~s~lời đề nghị hối lộ của bạn.</String>
@@ -4175,6 +4185,7 @@
 
     <Entry Id="police_player_canceled_bribe_disconnect">
         <String xml:lang="en-US">{0} has ~r~left the server ~s~and your bribe offer was canceled.</String>
+        <String xml:lang="de-DE">{0} hat den Server ~r~verlassen ~s~und dein Bestechungsangebot wurde abgebrochen.</String>
         <String xml:lang="nl-NL">{0} heeft de server ~r~verlaten ~s~en je omkopingsoffer is geannuleerd.</String>
         <String xml:lang="it-IT">{0} si è ~r~disconnesso dal server ~s~e la tua proposta di tangente è stata annullata.</String>
         <String xml:lang="vi-VN">{0} đã ~r~rời khỏi máy chủ ~s~và lời đề nghị hối lộ của bạn đã bị hủy.</String>
@@ -4246,6 +4257,7 @@
     <!-- {0} = player -->
     <Entry Id="police_player_already_has_open_offer">
         <String xml:lang="en-US">~r~{0} already has an open bribe offer.</String>
+        <String xml:lang="de-DE">~r~{0} hat bereits ein aktives Bestechungsangebot.</String>
         <String xml:lang="nl-NL">~r~{0} heeft al een actieve omkopingsoffer.</String>
         <String xml:lang="it-IT">~r~{0} ha già una offerta di tangente aperta.</String>
         <String xml:lang="vi-VN">~r~{0} hiện đang có một lời đề nghị hối lộ.</String>
@@ -5200,6 +5212,7 @@
 
     <Entry Id="police_received_bribe_instructional">
         <String xml:lang="en-US">View offer</String>
+        <String xml:lang="de-DE">Angebot ansehen</String>
         <String xml:lang="nl-NL">Bekijk aanbod</String>
         <String xml:lang="it-IT">Vedi offerta</String>
         <String xml:lang="vi-VN">Xem đề nghị</String>
@@ -6360,6 +6373,7 @@
 
     <Entry Id="robbery_looting_no_space_left">
         <String xml:lang="en-US">~r~You don't have enough space in your inventory, so the item has been dropped.</String>
+        <String xml:lang="de-DE">~r~Du hast nicht genug Platz in deinem Inventar, daher wurde der Gegenstand fallengelassen.</String>
         <String xml:lang="nl-NL">~r~Je hebt niet genoeg ruimte in je inventaris, dus het item is gedropt.</String>
         <String xml:lang="it-IT">~r~Non hai abbastanza spazio nel tuo inventario, quindi l'oggetto è stato fatto cadere.</String>
         <String xml:lang="vi-VN">~r~Bạn không có đủ chỗ trong túi đồ nên vật phẩm đã bị rơi.</String>
@@ -6369,6 +6383,7 @@
     <!-- {1} = Item -->
     <Entry Id="robbery_looted_item">
         <String xml:lang="en-US">You stole ~y~{0} {1}~s~.</String>
+        <String xml:lang="de-DE">Du hast ~y~{0} {1}~s~ gestohlen.</String>
         <String xml:lang="nl-NL">Je hebt ~y~{0} {1}~s~ gestolen.</String>
         <String xml:lang="it-IT">Hai rubato ~y~{0} {1}~s~.</String>
         <String xml:lang="vi-VN">Bạn đã bị trộm ~y~{0} {1}~s~.</String>
@@ -6379,6 +6394,7 @@
     <!-- {2} = Item -->
     <Entry Id="robbery_player_looted_item">
         <String xml:lang="en-US">{0} stole ~y~{1} {2}~s~.</String>
+        <String xml:lang="de-DE">{0} hat ~y~{1} {2}~s~ gestohlen.</String>
         <String xml:lang="nl-NL">{0} heeft ~y~{1} {2}~s~ gestolen.</String>
         <String xml:lang="it-IT">{0} ha rubato ~y~{1} {2}~s~.</String>
         <String xml:lang="vi-VN">{0} đã trộm ~y~{1} {2}~s~.</String>
@@ -6387,6 +6403,7 @@
     <!-- Imperative mode, it's a button -->
     <Entry Id="robbery_instructional_loot">
         <String xml:lang="en-US">Loot</String>
+        <String xml:lang="de-DE">Plündern</String>
         <String xml:lang="nl-NL">Plunderen</String>
         <String xml:lang="it-IT">Saccheggia</String>
         <String xml:lang="vi-VN">Nhặt Đồ</String>
@@ -8176,6 +8193,7 @@
 
     <Entry Id="police_off_duty_timer">
         <String xml:lang="en-US">OFF DUTY</String>
+        <String xml:lang="de-DE">AUS DIENST</String>
         <String xml:lang="nl-NL">UIT DIENST</String>
         <String xml:lang="it-IT">FUORI SERVIZIO</String>
         <String xml:lang="vi-VN">Kết thúc ca làm việc</String>
@@ -8304,6 +8322,7 @@
     <!-- Please try to keep it short, these will show up at the bottom right of the screen like the info bars that show up during normal robberies, and there's not much space there -->
     <Entry Id="jewelry_robbery_timer_bar_take">
         <String xml:lang="en-US">ITEMS TAKEN</String>
+        <String xml:lang="de-DE">GEGENSTÄNDE</String>
         <String xml:lang="nl-NL">ITEMS GESTOLEN</String>
         <String xml:lang="hi-Latn">ITEMS LIYE</String>
         <String xml:lang="cs-CZ">ITEMS TAKEN</String>
@@ -8319,6 +8338,7 @@
     <!-- This will show up as a subtitle (bottom middle of screen) -->
     <Entry Id="jewelry_robbery_leave_the_area">
         <String xml:lang="en-US">Leave the ~o~orange area~s~.</String>
+        <String xml:lang="de-DE">Verlasse das ~o~orange Gebiet~s~.</String>
         <String xml:lang="nl-NL">Verlaat het ~o~oranje gebied~s~.</String>
         <String xml:lang="hi-Latn">Leave karo ~o~orange area~s~.</String>
         <String xml:lang="cs-CZ">Leave the ~o~orange area~s~.</String>
@@ -8333,6 +8353,7 @@
 
     <Entry Id="jewelry_robbery_not_ideal">
         <String xml:lang="en-US">This is not the ideal way to rob the ~b~jewelry store~s~. Keep exploring the area, and you might find something.</String>
+        <String xml:lang="de-DE">Das ist nicht der ideale Weg, um den ~b~Juwelier~s~ zu überfallen. Erkunde weiter die Umgebung, vielleicht findest du etwas.</String>
         <String xml:lang="nl-NL">Dit is niet de ideale manier om de ~b~juwelier~s~ te beroven. Blijf de omgeving verkennen, en misschien vind je iets.</String>
         <String xml:lang="no-NO">Dette er ikke den ideelle måten å rane ~b~smykkebutikken~s~. Fortsett å utforske området, så finner du kanskje noe.</String>
         <String xml:lang="fr-FR">Ce n'est pas le moyen idéal pour braquer la ~b~Bijouterie~s~. Continuez à explorer autour, et peut-être trouverez-vous quelques chose.</String>
