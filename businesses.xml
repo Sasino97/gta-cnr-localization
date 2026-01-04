@@ -691,6 +691,7 @@
     <!-- Shows up in red in the description of stolen items -->
     <Entry Id="item_attribute_stolen">
         <String xml:lang="en-US">STOLEN</String>
+        <String xml:lang="de-DE">GESTOHLEN</String>
         <String xml:lang="nl-NL">GESTOLEN</String>
         <String xml:lang="it-IT">RUBATO</String>
         <String xml:lang="id-ID">DICURI</String>
@@ -1229,6 +1230,7 @@
 
     <Entry Id="menu_store_no_gun_for_attachment">
         <String xml:lang="en-US">You don't have the required weapon for this attachment.</String>
+        <String xml:lang="de-DE">Du hast nicht die benötigte Waffe für diesen Aufsatz.</String>
         <String xml:lang="nl-NL">Je hebt niet het benodigde wapen voor deze accessoire.</String>
         <String xml:lang="it-IT">Non hai l'arma necessaria per questo accessorio.</String>
         <String xml:lang="vi-VN">Bạn không có súng cần thiết cho phụ kiện này.</String>
@@ -1405,7 +1407,7 @@
     <!-- {2} = Cash amount -->
     <Entry Id="menu_store_sold_cash">
         <String xml:lang="en-US">You sold {0} ~p~{1} ~s~to the store for ~g~{2}.</String>
-        <String xml:lang="de-DE">Du hast {0} ~p~{1} ~s~für ~g~{2} ~s~an den Laden verkauft.</String>
+        <String xml:lang="de-DE">Du hast {0} ~p~{1}~s~ für ~g~{2}~g~ an den Laden verkauft.</String>
         <String xml:lang="it-IT">Hai venduto {0} ~p~{1} ~s~al negozio per ~g~{2}.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~verkocht aan de winkel voor ~g~{2}.</String>
         <String xml:lang="no-NO">Du solgte {0} ~p~{1} ~s~til butikken for ~g~{2}.</String>
@@ -3113,7 +3115,8 @@
     <!-- {0} is one of the types defined in jobs.xml for example in string "mechanic_work_area_type_bodywork" -->
     <Entry Id="stp_service_error_work_area">
         <String xml:lang="en-US">~y~You must be at a ~b~{0} ~s~work area.</String>
-        <String xml:lang="es-ES">~y~Tiene que estar en~s~ el area de trabajo de ~b~{0} ~s~.</String>
+        <String xml:lang="de-DE">~y~Du musst dich im ~b~{0} ~s~Arbeitsbereich befinden.</String>
+        <String xml:lang="es-ES">~y~Tiene que estar en~s~ el área de trabajo de ~b~{0} ~s~.</String>
     </Entry>
 
     <Entry Id="stp_service_error_wanted">
@@ -3208,6 +3211,7 @@
     <!-- {0} = Amount in stock -->
     <Entry Id="stp_item_in_stock">
         <String xml:lang="en-US">~g~{0} in stock</String>
+        <String xml:lang="de-DE">~g~{0} auf Lager</String>
         <String xml:lang="nl-NL">~g~{0} op voorraad</String>
         <String xml:lang="no-NO">~g~{0} på lager</String>
         <String xml:lang="fr-FR">~g~{0} en inventaire</String>
