@@ -4306,256 +4306,307 @@
         <String xml:lang="en-US">Racing</String>
         <String xml:lang="nl-NL">Races</String>
         <String xml:lang="pl-PL">Wyścigi</String>
+        <String xml:lang="vi-VN">Đua xe</String>
     </Entry>
 
     <!-- === Racing Menu Items === -->
     <Entry Id="racing_menu_item_edit_tracks">
         <String xml:lang="en-US">Edit Tracks</String>
         <String xml:lang="nl-NL">Bewerk Tracks</String>
+        <String xml:lang="vi-VN">Chỉnh sửa đường đua</String>
     </Entry>
 
     <Entry Id="racing_menu_item_select_track">
         <String xml:lang="en-US">Select Track</String>
         <String xml:lang="nl-NL">Selecteer Track</String>
+        <String xml:lang="vi-VN">Chọn đường đua</String>
     </Entry>
 
     <Entry Id="racing_menu_item_laps">
         <String xml:lang="en-US">Laps</String>
         <String xml:lang="nl-NL">Rondes</String>
+        <String xml:lang="vi-VN">Vòng đua</String>
     </Entry>
 
     <Entry Id="racing_menu_item_bet">
         <String xml:lang="en-US">Bet</String>
         <String xml:lang="nl-NL">Inzet</String>
+        <String xml:lang="vi-VN">Cược</String>
     </Entry>
 
     <Entry Id="racing_menu_item_register_race">
         <String xml:lang="en-US">Register Race</String>
         <String xml:lang="nl-NL">Registreer Race</String>
+        <String xml:lang="vi-VN">Đăng ký cuộc đua</String>
     </Entry>
 
     <Entry Id="racing_menu_item_invite_players">
         <String xml:lang="en-US">Invite Players</String>
         <String xml:lang="nl-NL">Nodig Spelers Uit</String>
+        <String xml:lang="vi-VN">Mời người chơi</String>
     </Entry>
 
     <Entry Id="racing_menu_item_start_race">
         <String xml:lang="en-US">Start Race</String>
         <String xml:lang="nl-NL">Start Race</String>
+        <String xml:lang="vi-VN">Bắt đầu cuộc đua</String>
     </Entry>
 
     <Entry Id="racing_menu_item_join_race">
         <String xml:lang="en-US">Join Race</String>
         <String xml:lang="nl-NL">Doe Mee Aan Race</String>
+        <String xml:lang="vi-VN">Tham gia cuộc đua</String>
     </Entry>
 
     <Entry Id="racing_menu_item_leave_race">
         <String xml:lang="en-US">Leave Race</String>
         <String xml:lang="nl-NL">Verlaat Race</String>
+        <String xml:lang="vi-VN">Rời cuộc đua</String>
     </Entry>
 
     <Entry Id="racing_menu_item_checkpoints">
         <String xml:lang="en-US">Checkpoints</String>
         <String xml:lang="nl-NL">Checkpoints</String>
+        <String xml:lang="vi-VN">Checkpoints</String>
     </Entry>
 
     <Entry Id="racing_got_invited">
         <String xml:lang="en-US">{0} invited you to a race with a bet of ~g~{1}~s~. ~y~{2}~s~ to view invitation.</String>
         <String xml:lang="nl-NL">{0} heeft je uitgenodigd voor een race met een inzet van ~g~{1}~s~. ~y~{2}~s~ om de uitnodiging te bekijken.</String>
+        <String xml:lang="vi-VN">{0} đã mời bạn tham gia cuộc đua với số tiền cược ~g~{1}~s~. ~y~{2}~s~ để xem lời mời.</String>
     </Entry>
 
     <Entry Id="racing_join_error">
         <String xml:lang="en-US">~r~Failed to join this race: {0}</String>
         <String xml:lang="nl-NL">~r~Kon niet deelnemen aan deze race: {0}</String>
+        <String xml:lang="vi-VN">~r~Không thể tham gia cuộc đua này: {0}</String>
     </Entry>
 
     <Entry Id="racing_error_no_vehicle">
         <String xml:lang="en-US">~r~You need to be inside a vehicle to take part in race!</String>
         <String xml:lang="nl-NL">~r~Je moet in een voertuig zitten om deel te nemen aan deze race!</String>
+        <String xml:lang="vi-VN">~r~Bạn cần ở trong xe để tham gia cuộc đua!</String>
     </Entry>
 
     <Entry Id="racing_error_wrong_vehicle">
         <String xml:lang="en-US">~r~You need to use the same vehicle model as you started this race in: ~y~{0}~s~!</String>
         <String xml:lang="nl-NL">~r~Je moet hetzelfde voertuigmodel gebruiken als waarmee je deze race bent gestart: ~y~{0}~s~!</String>
+        <String xml:lang="vi-VN">~r~Bạn cần sử dụng cùng loại xe mà bạn đã bắt đầu cuộc đua này: ~y~{0}~s~!</String>
     </Entry>
 
     <Entry Id="racing_error_no_track_selected">
         <String xml:lang="en-US">~r~You need to select race track first!</String>
         <String xml:lang="nl-NL">~r~Je moet eerst een racetrack selecteren!</String>
+        <String xml:lang="vi-VN">~r~Bạn cần chọn đường đua trước!</String>
     </Entry>
 
     <Entry Id="racing_error_too_far_from_first_checkpoint">
         <String xml:lang="en-US">~r~You are too far away from first checkpoint!</String>
         <String xml:lang="nl-NL">~r~Je bent te ver weg van het eerste checkpoint!</String>
+        <String xml:lang="vi-VN">~r~Bạn đang quá xa checkpoint đầu tiên!</String>
     </Entry>
 
     <Entry Id="racing_error_too_close_to_first_checkpoint">
         <String xml:lang="en-US">~r~You are too close to the first checkpoint!</String>
         <String xml:lang="nl-NL">~r~Je bent te dicht bij het eerste checkpoint!</String>
+        <String xml:lang="vi-VN">~r~Bạn đang quá gần checkpoint đầu tiên!</String>
     </Entry>
 
     <Entry Id="racing_error_track_too_few_checkpoints">
         <String xml:lang="en-US">~r~Race track needs at least {0} checkpoints!</String>
         <String xml:lang="nl-NL">~r~Racetrack heeft minstens {0} checkpoints nodig!</String>
+        <String xml:lang="vi-VN">~r~Đường đua cần ít nhất {0} điểm kiểm tra!</String>
     </Entry>
 
     <Entry Id="racing_error_lap_distance_too_far">
         <String xml:lang="en-US">~r~Track start and finish are too far apart for multiple laps!</String>
         <String xml:lang="nl-NL">~r~Het begin en einde van de track zijn te ver uit elkaar voor meerdere rondes!</String>
+        <String xml:lang="vi-VN">~r~Điểm bắt đầu và kết thúc đường đua quá xa nhau để chạy nhiều vòng!</String>
     </Entry>
 
     <Entry Id="racing_start_confirm_message">
         <String xml:lang="en-US">~y~Are you sure~s~ you want to start this race? You won't be able to use other vehicle than ~g~{0}~s~.</String>
         <String xml:lang="nl-NL">~y~Weet je het zeker~s~ dat je deze race wilt starten? Je kunt geen ander voertuig gebruiken dan ~g~{0}~s~.</String>
+        <String xml:lang="vi-VN">~y~Bạn có chắc~s~ muốn bắt đầu cuộc đua này? Bạn sẽ không thể sử dụng xe khác ngoài ~g~{0}~s~.</String>
     </Entry>
 
     <Entry Id="racing_join_confirm_message">
         <String xml:lang="en-US">~y~Are you sure~s~ you want to join this race? You won't be able to use other vehicle than ~g~{0}~s~.</String>
         <String xml:lang="nl-NL">~y~Weet je het zeker~s~ dat je aan deze race wilt deelnemen? Je kunt geen ander voertuig gebruiken dan ~g~{0}~s~.</String>
+        <String xml:lang="vi-VN">~y~Bạn có chắc~s~ muốn tham gia cuộc đua này? Bạn sẽ không thể sử dụng xe khác ngoài ~g~{0}~s~.</String>
     </Entry>
 
     <Entry Id="racing_leave_confirm_message">
         <String xml:lang="en-US">Are you sure you want to leave this race? You will lose your bet!</String>
         <String xml:lang="nl-NL">Weet je zeker dat je deze race wilt verlaten? Je verliest je inzet!</String>
+        <String xml:lang="vi-VN">Bạn có chắc muốn rời cuộc đua này? Bạn sẽ mất số tiền cược!</String>
     </Entry>
 
     <!-- === Race Editor Menus === -->
     <Entry Id="racing_menu_editor_main">
         <String xml:lang="en-US">Tracks</String>
         <String xml:lang="nl-NL">Tracks</String>
+        <String xml:lang="vi-VN">Đường đua</String>
     </Entry>
 
     <Entry Id="racing_menu_editor_editor">
         <String xml:lang="en-US">Race Track Editor</String>
         <String xml:lang="nl-NL">Race Track Bewerken</String>
+        <String xml:lang="vi-VN">Chỉnh sửa đường đua</String>
     </Entry>
 
     <!-- === Race Editor Menu Items === -->
     <Entry Id="racing_menu_item_create_track">
         <String xml:lang="en-US">Create Track</String>
         <String xml:lang="nl-NL">Maak Track</String>
+        <String xml:lang="vi-VN">Tạo đường đua</String>
     </Entry>
 
     <Entry Id="racing_menu_item_add_checkpoint_here">
         <String xml:lang="en-US">Add Checkpoint From Current Position</String>
         <String xml:lang="nl-NL">Voeg Checkpoint Toe Vanaf Huidige Positie</String>
+        <String xml:lang="vi-VN">Thêm điểm kiểm tra từ vị trí hiện tại</String>
     </Entry>
 
     <!-- === Race Editor Instructional Buttons === -->
     <Entry Id="racing_editor_instructions_replace">
         <String xml:lang="en-US">Replace</String>
         <String xml:lang="nl-NL">Vervangen</String>
+        <String xml:lang="vi-VN">Thay thế</String>
     </Entry>
 
     <Entry Id="racing_editor_instructions_move_here">
         <String xml:lang="en-US">Move Here</String>
         <String xml:lang="nl-NL">Verplaats Hiernaartoe</String>
+        <String xml:lang="vi-VN">Di chuyển đến đây</String>
     </Entry>
 
     <Entry Id="racing_editor_error_new_pos_too_close">
         <String xml:lang="en-US">~r~New checkpoint position is too close to another one!</String>
         <String xml:lang="nl-NL">~r~Nieuwe checkpoint positie is te dicht bij een andere!</String>
+        <String xml:lang="vi-VN">~r~Vị trí checkpoint mới quá gần với checkpoint khác!</String>
     </Entry>
 
     <Entry Id="racing_editor_error_new_pos_too_far_away">
         <String xml:lang="en-US">~r~New checkpoint position is too far away from previous one!</String>
         <String xml:lang="nl-NL">~r~Nieuwe checkpoint positie is te ver weg van de vorige!</String>
+        <String xml:lang="vi-VN">~r~Vị trí checkpoint mới quá xa so với vị trí trước đó!</String>
     </Entry>
 
     <Entry Id="racing_editor_error_track_limit">
         <String xml:lang="en-US">~r~Only {0} tracks can be created!</String>
         <String xml:lang="nl-NL">~r~Er kunnen maar {0} tracks worden gemaakt!</String>
+        <String xml:lang="vi-VN">~r~Chỉ có thể tạo tối đa {0} đường đua!</String>
     </Entry>
 
     <Entry Id="racing_editor_error_checkpoint_limit">
         <String xml:lang="en-US">~r~Only {0} checkpoints can be created!</String>
         <String xml:lang="nl-NL">~r~Er kunnen maar {0} checkpoints worden gemaakt!</String>
+        <String xml:lang="vi-VN">~r~Chỉ có thể tạo tối đa {0} checkpoint!</String>
     </Entry>
 
     <Entry Id="racing_editor_error_driver">
         <String xml:lang="en-US">~r~You must be in a vehicle to create a checkpoint!</String>
         <String xml:lang="nl-NL">~r~Je moet in een voertuig zitten om een checkpoint te maken!</String>
+        <String xml:lang="vi-VN">~r~Bạn phải ở trong phương tiện để tạo checkpoint!</String>
     </Entry>
 
     <Entry Id="racing_editor_error_ground">
         <String xml:lang="en-US">~r~You must be on the ground to create a checkpoint!</String>
         <String xml:lang="nl-NL">~r~Je moet op de grond staan om een checkpoint te maken!</String>
+        <String xml:lang="vi-VN">~r~Bạn phải ở trên mặt đất để tạo checkpoint!</String>
     </Entry>
 
     <Entry Id="racing_track">
         <String xml:lang="en-US">Track #{0}</String>
         <String xml:lang="nl-NL">Track #{0}</String>
+        <String xml:lang="vi-VN">Đường đua #{0}</String>
     </Entry>
 
     <Entry Id="racing_track_export_title">
         <String xml:lang="en-US">Track</String>
+        <String xml:lang="vi-VN">Đường đua</String>
     </Entry>
 
     <Entry Id="racing_track_export_text">
         <String xml:lang="en-US">Race track data.</String>
+        <String xml:lang="vi-VN">Dữ liệu đường đua.</String>
     </Entry>
 
     <Entry Id="racing_checkpoint">
         <String xml:lang="en-US">Checkpoint #{0}</String>
         <String xml:lang="nl-NL">Checkpoint #{0}</String>
+        <String xml:lang="vi-VN">Checkpoint #{0}</String>
     </Entry>
 
     <!-- {0} = (for example: in 30 seconds) -->
     <Entry Id="racing_time_warning">
         <String xml:lang="en-US">~o~This race will end if nobody reaches next checkpoint {0}!</String>
         <String xml:lang="nl-NL">~o~Deze race eindigt als niemand het volgende checkpoint bereikt {0}!</String>
+        <String xml:lang="vi-VN">~o~Cuộc đua này sẽ kết thúc nếu không ai đến được checkpoint tiếp theo {0}!</String>
     </Entry>
 
     <Entry Id="racing_timer_bar_checkpoint_label">
         <String xml:lang="en-US">Checkpoint</String>
         <String xml:lang="nl-NL">Checkpoint</String>
+        <String xml:lang="vi-VN">Checkpoint</String>
     </Entry>
 
     <Entry Id="racing_timer_bar_lap_label">
         <String xml:lang="en-US">Lap</String>
         <String xml:lang="nl-NL">Ronde</String>
+        <String xml:lang="vi-VN">Vòng</String>
     </Entry>
 
     <Entry Id="racing_timer_bar_participants_label">
         <String xml:lang="en-US">Participants</String>
         <String xml:lang="nl-NL">Deelnemers</String>
+        <String xml:lang="vi-VN">Người tham gia</String>
     </Entry>
 
     <Entry Id="racing_timer_bar_time_left_label">
         <String xml:lang="en-US">Time Left</String>
         <String xml:lang="nl-NL">Resterende Tijd</String>
+        <String xml:lang="vi-VN">Thời gian còn lại</String>
     </Entry>
 
     <Entry Id="racing_timer_bar_lap_time_label">
         <String xml:lang="en-US">Lap Time</String>
+        <String xml:lang="vi-VN">Thời gian vòng</String>
     </Entry>
 
     <Entry Id="racing_timer_bar_race_time_label">
         <String xml:lang="en-US">Race Time</String>
+        <String xml:lang="vi-VN">Thời gian đua</String>
     </Entry>
 
     <Entry Id="racing_start_new_race">
         <String xml:lang="en-US">Start new race</String>
         <String xml:lang="nl-NL">Start nieuwe race</String>
+        <String xml:lang="vi-VN">Bắt đầu cuộc đua mới</String>
     </Entry>
 
     <Entry Id="racing_participant_joined">
         <String xml:lang="en-US">{0} has joined this race with a bet of {1}</String>
         <String xml:lang="nl-NL">{0} heeft zich aangemeld voor deze race met een inzet van {1}</String>
+        <String xml:lang="vi-VN">{0} đã tham gia cuộc đua này với mức cược {1}</String>
     </Entry>
 
     <Entry Id="racing_participant_left">
         <String xml:lang="en-US">{0} has left this race</String>
         <String xml:lang="nl-NL">{0} heeft deze race verlaten</String>
+        <String xml:lang="vi-VN">{0} đã rời cuộc đua này</String>
     </Entry>
 
     <Entry Id="racing_ignored_your_invite">
         <String xml:lang="en-US">{0} has ignored your invite to this race</String>
         <String xml:lang="nl-NL">{0} heeft je uitnodiging voor deze race genegeerd</String>
+        <String xml:lang="vi-VN">{0} đã từ chối lời mời tham gia cuộc đua này của bạn</String>
     </Entry>
 
     <Entry Id="racing_invite_expired">
         <String xml:lang="en-US">Invite to race from {0} has expired</String>
         <String xml:lang="nl-NL">Uitnodiging voor race van {0} is verlopen</String>
+        <String xml:lang="vi-VN">Lời mời tham gia cuộc đua từ {0} đã hết hạn</String>
     </Entry>
 </Entries>
