@@ -256,7 +256,7 @@ Text can also be highlighted with the `(C)(/C)` tags.
 ## Used ISO Language Codes
 
 - English (US): `en-US`
-- German (Germany): `de-DE`
+- German (Germany): `de-DE` - Currently Full translated
 - French (France): `fr-FR`
 - Dutch (Netherlands): `nl-NL`
 - Czech (Czechia) `cs-CZ`
