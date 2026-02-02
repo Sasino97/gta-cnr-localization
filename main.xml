@@ -866,6 +866,7 @@
         <String xml:lang="en-US">~y~(C)Notice:(/C) ~s~Not everything will reload. To force a refresh you must log out and log in again.</String>
         <String xml:lang="nl-NL">~y~(C)Opmerking:(/C) ~s~Niet alles zal worden herladen. Als je alles wilt herladen, dan moet je uitloggen en opnieuw inloggen.</String>
         <String xml:lang="vi-VN">~y~(C)Thông báo:(/C) ~s~Không phải mọi thứ sẽ tải lại. Để làm mới hoàn toàn, bạn phải đăng xuất và đăng nhập lại.</String>
+        <String xml:lang="fr-FR">~y~(C)Notice:(/C) ~s~Tout ne se rechargera pas. Pour forcer un rafraîchissement, vous devez vous déconnecter et vous reconnecter.</String>
     </Entry>
 
     <Entry Id="menu_blocked_title">
@@ -909,6 +910,10 @@
     <Entry Id="btn_delete">
         <String xml:lang="en-US">Delete</String>
         <String xml:lang="nl-NL">Verwijder</String>
+    </Entry>
+
+    <Entry Id="btn_export">
+        <String xml:lang="en-US">Export</String>
     </Entry>
 
     <Entry Id="block_cmd_suggestion_help">
@@ -2042,6 +2047,14 @@
         <String xml:lang="vi-VN">{0} đã mời bạn tham gia ~y~nhóm~s~ của họ. Gõ ~b~/party-join {1} ~s~để chấp nhận.</String>
     </Entry>
 
+    <Entry Id="party_invite_accept_invite">
+        <String xml:lang="en-US">Accept Invite</String>
+    </Entry>
+
+    <Entry Id="party_invite_accept_invite_hold">
+        <String xml:lang="en-US">Accept Invite (hold)</String>
+    </Entry>
+
     <!-- ========================= -->
     <!-- Days of the week -->
     <!-- ========================= -->
@@ -2155,6 +2168,7 @@
         <String xml:lang="id-ID">TIDAK TERSEDIA</String>
         <String xml:lang="vi-VN">KHÔNG CÓ SẴN</String>
         <String xml:lang="de-DE">NICHT VERFÜGBAR</String>
+        <String xml:lang="fr-FR">INDISPONIBLE</String>
     </Entry>
 
     <Entry Id="label_on">
@@ -2164,6 +2178,7 @@
         <String xml:lang="id-ID">NYALA</String>
         <String xml:lang="vi-VN">BẬT</String>
         <String xml:lang="de-DE">AN</String>
+        <String xml:lang="fr-FR">MARCHE</String>
     </Entry>
 
     <Entry Id="label_off">
@@ -2173,6 +2188,7 @@
         <String xml:lang="id-ID">MATI</String>
         <String xml:lang="vi-VN">TẮT</String>
         <String xml:lang="de-DE">AUS</String>
+        <String xml:lang="fr-FR">ARRÊT</String>
     </Entry>
 
     <Entry Id="label_open">
@@ -2182,6 +2198,7 @@
         <String xml:lang="id-ID">BUKA</String>
         <String xml:lang="vi-VN">MỞ</String>
         <String xml:lang="de-DE">OFFEN</String>
+        <String xml:lang="fr-FR">OUVERT</String>
     </Entry>
 
     <Entry Id="label_closed">
@@ -2191,6 +2208,7 @@
         <String xml:lang="id-ID">TUTUP</String>
         <String xml:lang="vi-VN">ĐÓNG</String>
         <String xml:lang="de-DE">GESCHLOSSEN</String>
+        <String xml:lang="fr-FR">FERMÉ</String>
     </Entry>
 
     <Entry Id="label_enabled">
@@ -2200,6 +2218,7 @@
         <String xml:lang="id-ID">AKTIFKAN</String>
         <String xml:lang="vi-VN">ĐÃ KÍCH HOẠT</String>
         <String xml:lang="de-DE">AKTIVIERT</String>
+        <String xml:lang="fr-FR">ACTIVÉ</String>
     </Entry>
 
     <Entry Id="label_disabled">
@@ -2209,5 +2228,6 @@
         <String xml:lang="id-ID">NONAKTIFKAN</String>
         <String xml:lang="vi-VN">VÔ HIỆU HÓA</String>
         <String xml:lang="de-DE">DEAKTIVIERT</String>
+        <String xml:lang="fr-FR">DÉSACTIVÉ</String>
     </Entry>
 </Entries>
