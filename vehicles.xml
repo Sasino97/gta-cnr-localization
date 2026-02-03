@@ -408,7 +408,7 @@
         <String xml:lang="pl-PL">paliwa</String>
         <String xml:lang="nl-NL">brandstof</String>
         <String xml:lang="hi-Latn">Tel</String>
-        <String xml:lang="de-DE">Kraftstoff</String>
+        <String xml:lang="de-DE">Tank</String>
         <String xml:lang="it-IT">carburante</String>
         <String xml:lang="id-ID">Bensin</String>
         <String xml:lang="cs-CZ">palivo</String>
@@ -447,7 +447,7 @@
         <String xml:lang="nl-NL">BRANDSTOF</String>
         <String xml:lang="fr-FR">ESSENCE</String>
         <String xml:lang="hi-Latn">Tel</String>
-        <String xml:lang="de-DE">KRAFTSTOFF</String>
+        <String xml:lang="de-DE">TANK</String>
         <String xml:lang="it-IT">CARBURANTE</String>
         <String xml:lang="id-ID">BENSIN</String>
         <String xml:lang="cs-CZ">PALIVO</String>
@@ -712,6 +712,7 @@
 
     <Entry Id="dashboard_explanation">
         <String xml:lang="en-US">The vehicle dashboard allows you to access additional features of your vehicle, and to check its health and fuel level.</String>
+        <String xml:lang="de-DE">Das Fahrzeug-Dashboard ermöglicht dir den Zugriff auf zusätzliche Funktionen deines Fahrzeugs sowie die Überprüfung von Zustand und Tankstand.</String>
         <String xml:lang="pl-PL">Panel pojazdu umożliwia dostęp do dodatkowych funkcji pojazdu, a także sprawdzenie jego stanu i poziomu paliwa.</String>
         <String xml:lang="nl-NL">Het voertuig dashboard stelt je in staat om extra functies van je voertuig te gebruiken, en om de staat en brandstofniveau te controleren.</String>
         <String xml:lang="it-IT">Il cruscotto ti permette di accedere a funzionalità aggiuntive del tuo veicolo, e a visualizzarne la salute e il carburante.</String>
@@ -721,6 +722,7 @@
 
     <Entry Id="dashboard_menu_title">
         <String xml:lang="en-US">Dashboard</String>
+        <String xml:lang="de-DE">Dashboard</String>
         <String xml:lang="pl-PL">Panel</String>
         <String xml:lang="nl-NL">Dashboard</String>
         <String xml:lang="it-IT">Cruscotto</String>
@@ -730,6 +732,7 @@
 
     <Entry Id="dashboard_doors">
         <String xml:lang="en-US">Doors</String>
+        <String xml:lang="de-DE">Türen</String>
         <String xml:lang="pl-PL">Drzwi</String>
         <String xml:lang="nl-NL">Deuren</String>
         <String xml:lang="it-IT">Portiere</String>
@@ -739,6 +742,7 @@
 
     <Entry Id="dashboard_doors_desc">
         <String xml:lang="en-US">Lock or unlock vehicle doors.</String>
+        <String xml:lang="de-DE">Sperre oder entsperre die Fahrzeugtüren.</String>
         <String xml:lang="pl-PL">Zablokuj lub odblokuj drzwi pojazdu.</String>
         <String xml:lang="nl-NL">Vergrendel of ontgrendel de deuren van het voertuig.</String>
         <String xml:lang="it-IT">Chiudi a chiave o sblocca le portiere del veicolo.</String>
@@ -748,6 +752,7 @@
 
     <Entry Id="dashboard_doors_feature_unavailable">
         <String xml:lang="en-US">This feature is only available for personal or job vehicles.</String>
+        <String xml:lang="de-DE">Diese Funktion ist nur für private oder Dienstwagen verfügbar.</String>
         <String xml:lang="pl-PL">Ta funkcja jest dostępna tylko dla pojazdów osobistych lub służbowych.</String>
         <String xml:lang="nl-NL">Deze functie is alleen beschikbaar voor persoonlijke of werkvoertuigen.</String>
         <String xml:lang="it-IT">Questa funzionalità è disponibile solamente per i veicoli personali e di lavoro.</String>
@@ -757,6 +762,7 @@
 
     <Entry Id="dashboard_locked">
         <String xml:lang="en-US">~g~LOCKED</String>
+        <String xml:lang="de-DE">~g~ABGESCHLOSSEN</String>
         <String xml:lang="pl-PL">~g~ZABLOKOWANE</String>
         <String xml:lang="nl-NL">~g~VERGRENDELD</String>
         <String xml:lang="it-IT">~g~CHIUSE A CHIAVE</String>
@@ -766,6 +772,7 @@
 
     <Entry Id="dashboard_unlocked">
         <String xml:lang="en-US">~r~UNLOCKED</String>
+        <String xml:lang="de-DE">~r~AUFGESCHLOSSEN</String>
         <String xml:lang="pl-PL">~r~ODBLOKOWANE</String>
         <String xml:lang="nl-NL">~r~ONTGRENDELD</String>
         <String xml:lang="it-IT">~r~SBLOCCATE</String>
@@ -775,6 +782,7 @@
 
     <Entry Id="dashboard_engine">
         <String xml:lang="en-US">Engine</String>
+        <String xml:lang="de-DE">Motor</String>
         <String xml:lang="pl-PL">Silnik</String>
         <String xml:lang="nl-NL">Motor</String>
         <String xml:lang="it-IT">Motore</String>
@@ -784,6 +792,7 @@
 
     <Entry Id="dashboard_engine_desc">
         <String xml:lang="en-US">Turn your vehicle on or off.</String>
+        <String xml:lang="de-DE">Schalte dein Fahrzeug ein oder aus.</String>
         <String xml:lang="pl-PL">Włącz lub wyłącz silnik.</String>
         <String xml:lang="nl-NL">Zet je voertuig aan of uit.</String>
         <String xml:lang="it-IT">Accendi o spegni il tuo veicolo.</String>
@@ -793,18 +802,21 @@
 
     <Entry Id="dashboard_keep_engine_on">
         <String xml:lang="en-US">Keep Engine On</String>
+        <String xml:lang="de-DE">Motor Laufen Lassen</String>
         <String xml:lang="pl-PL">Zostaw silnik włączony</String>
         <String xml:lang="nl-NL">Motor laten draaien</String>
     </Entry>
 
     <Entry Id="dashboard_keep_engine_on_desc">
         <String xml:lang="en-US">Keep the engine running when you leave the vehicle.</String>
+        <String xml:lang="de-DE">Lass den Motor laufen, wenn du das Fahrzeug verlässt.</String>
         <String xml:lang="pl-PL">Utrzymuj pracę silnika po opuszczeniu pojazdu.</String>
         <String xml:lang="nl-NL">Laat de motor draaien als je het voertuig verlaat.</String>
     </Entry>
 
     <Entry Id="dashboard_windows">
         <String xml:lang="en-US">Windows</String>
+        <String xml:lang="de-DE">Fenster</String>
         <String xml:lang="pl-PL">Szyby</String>
         <String xml:lang="nl-NL">Ramen</String>
         <String xml:lang="it-IT">Finestrini</String>
@@ -814,6 +826,7 @@
 
     <Entry Id="dashboard_windows_desc">
         <String xml:lang="en-US">Roll up or down the windows.</String>
+        <String xml:lang="de-DE">Fenster hoch oder runter fahren.</String>
         <String xml:lang="pl-PL">Opuść lub podnieś szyby.</String>
         <String xml:lang="nl-NL">Ramen omhoog of omlaag doen.</String>
         <String xml:lang="it-IT">Alza o abbassa i finestrini.</String>
@@ -823,6 +836,7 @@
 
     <Entry Id="dashboard_window_fl">
         <String xml:lang="en-US">Front Left</String>
+        <String xml:lang="de-DE">Vorne Links</String>
         <String xml:lang="pl-PL">Lewy przód</String>
         <String xml:lang="nl-NL">Links Voor</String>
         <String xml:lang="it-IT">Anteriore sinistro</String>
@@ -832,6 +846,7 @@
 
     <Entry Id="dashboard_window_fr">
         <String xml:lang="en-US">Front Right</String>
+        <String xml:lang="de-DE">Vorne Rechts</String>
         <String xml:lang="pl-PL">Prawy przód</String>
         <String xml:lang="nl-NL">Rechts Voor</String>
         <String xml:lang="it-IT">Anteriore destro</String>
@@ -841,6 +856,7 @@
 
     <Entry Id="dashboard_window_bl">
         <String xml:lang="en-US">Back Left</String>
+        <String xml:lang="de-DE">Hinten Links</String>
         <String xml:lang="pl-PL">Lewy tył</String>
         <String xml:lang="nl-NL">Links Achter</String>
         <String xml:lang="it-IT">Posteriore sinistro</String>
@@ -850,6 +866,7 @@
 
     <Entry Id="dashboard_window_br">
         <String xml:lang="en-US">Back Right</String>
+        <String xml:lang="de-DE">Hinten Rechts</String>
         <String xml:lang="pl-PL">Prawy tył</String>
         <String xml:lang="nl-NL">Rechts Achter</String>
         <String xml:lang="it-IT">Posteriore destro</String>
@@ -859,6 +876,7 @@
 
     <Entry Id="dashboard_hood">
         <String xml:lang="en-US">Hood</String>
+        <String xml:lang="de-DE">Motorhaube</String>
         <String xml:lang="pl-PL">Maska</String>
         <String xml:lang="nl-NL">Motorkap</String>
         <String xml:lang="it-IT">Cofano</String>
@@ -868,6 +886,7 @@
 
     <Entry Id="dashboard_hood_desc">
         <String xml:lang="en-US">Open or close the hood. You can only do this when the car is stationary.</String>
+        <String xml:lang="de-DE">Öffne oder schließe die Motorhaube. Du kannst dies nur tun, wenn das Auto steht.</String>
         <String xml:lang="pl-PL">Otwórz lub zamknij maskę. Możesz to zrobić tylko na postoju.</String>
         <String xml:lang="nl-NL">Open of sluit de motorkap. Je kunt dit alleen doen als de auto stilstaat.</String>
         <String xml:lang="it-IT">Apri o chiudi il cofano. Puoi farlo solo quando l'auto è ferma.</String>
@@ -877,6 +896,7 @@
 
     <Entry Id="dashboard_trunk">
         <String xml:lang="en-US">Trunk</String>
+        <String xml:lang="de-DE">Kofferraum</String>
         <String xml:lang="pl-PL">Bagażnik</String>
         <String xml:lang="nl-NL">Kofferbak</String>
         <String xml:lang="it-IT">Bagagliaio</String>
@@ -886,6 +906,7 @@
 
     <Entry Id="dashboard_trunk_desc">
         <String xml:lang="en-US">Open or close the trunk. You can only do this when the car is stationary.</String>
+        <String xml:lang="de-DE">Öffne oder schließe den Kofferraum. Du kannst dies nur tun, wenn das Auto steht.</String>
         <String xml:lang="pl-PL">Otwórz lub zamknij bagażnik. Możesz to zrobić tylko na postoju.</String>
         <String xml:lang="nl-NL">Open of sluit de kofferbak. Je kunt dit alleen doen als de auto stilstaat.</String>
         <String xml:lang="it-IT">Apri o chiudi il bagagliaio. Puoi farlo solo quando l'auto è ferma.</String>
@@ -895,6 +916,7 @@
 
     <Entry Id="dashboard_siren">
         <String xml:lang="en-US">Siren</String>
+        <String xml:lang="de-DE">Sirene</String>
         <String xml:lang="pl-PL">Syrena</String>
         <String xml:lang="nl-NL">Sirene</String>
         <String xml:lang="it-IT">Sirena</String>
@@ -904,6 +926,7 @@
 
     <Entry Id="dashboard_siren_desc">
         <String xml:lang="en-US">Enable or disable the siren sound.</String>
+        <String xml:lang="de-DE">Schalte das Sirenengeräusch ein oder aus.</String>
         <String xml:lang="pl-PL">Włącz lub wyłącz dźwięk syreny.</String>
         <String xml:lang="nl-NL">Schakel het sirenegeluid in of uit.</String>
         <String xml:lang="it-IT">Abilita o disabilita il suono della sirena.</String>
@@ -913,6 +936,7 @@
 
     <Entry Id="dashboard_passengers">
         <String xml:lang="en-US">Passengers</String>
+        <String xml:lang="de-DE">Beifahrer</String>
         <String xml:lang="pl-PL">Pasażerowie</String>
         <String xml:lang="nl-NL">Passagiers</String>
         <String xml:lang="it-IT">Passegeri</String>
@@ -922,6 +946,7 @@
 
     <Entry Id="dashboard_passengers_desc">
         <String xml:lang="en-US">Interact with the occupants of this vehicle.</String>
+        <String xml:lang="de-DE">Interagiere mit den Beifahrern dieses Fahrzeugs.</String>
         <String xml:lang="pl-PL">Interakcja z pasażerami tego pojazdu.</String>
         <String xml:lang="nl-NL">Interactie met de passagiers van dit voertuig.</String>
         <String xml:lang="it-IT">Interagisci con i passegeri di questo veicolo.</String>
@@ -931,6 +956,7 @@
 
     <Entry Id="dashboard_passengers_none">
         <String xml:lang="en-US">There are no passengers.</String>
+        <String xml:lang="de-DE">Es sind keine Beifahrer da.</String>
         <String xml:lang="pl-PL">Brak pasażerów.</String>
         <String xml:lang="nl-NL">Er zijn geen passagiers.</String>
         <String xml:lang="it-IT">Non ci sono passegeri.</String>
@@ -940,6 +966,7 @@
 
     <Entry Id="dashboard_label_health">
         <String xml:lang="en-US">HEALTH</String>
+        <String xml:lang="de-DE">GESUNDHEIT</String>
         <String xml:lang="pl-PL">STAN</String>
         <String xml:lang="nl-NL">GEZONDHEID</String>
         <String xml:lang="it-IT">SALUTE</String>
@@ -949,6 +976,7 @@
 
     <Entry Id="dashboard_label_fuel">
         <String xml:lang="en-US">FUEL</String>
+        <String xml:lang="de-DE">TANK</String>
         <String xml:lang="pl-PL">PALIWO</String>
         <String xml:lang="nl-NL">BRANDSTOF</String>
         <String xml:lang="it-IT">CARBURANTE</String>
@@ -958,6 +986,7 @@
 
     <Entry Id="dashboard_label_battery">
         <String xml:lang="en-US">BATTERY</String>
+        <String xml:lang="de-DE">BATTERIE</String>
         <String xml:lang="pl-PL">BATERIA</String>
         <String xml:lang="nl-NL">BATTERIJ</String>
         <String xml:lang="it-IT">BATTERIA</String>
@@ -967,6 +996,7 @@
 
     <Entry Id="dashboard_no_active_vehicle">
         <String xml:lang="en-US">You currently have no active vehicle.</String>
+        <String xml:lang="de-DE">Du hast derzeit kein aktives Fahrzeug.</String>
         <String xml:lang="pl-PL">Nie masz obecnie aktywnego pojazdu.</String>
         <String xml:lang="nl-NL">Je hebt momenteel geen actief voertuig.</String>
         <String xml:lang="it-IT">Non hai alcun veicolo attivo al momento.</String>
@@ -2290,6 +2320,7 @@
 
     <Entry Id="menu_vehicles_active">
         <String xml:lang="en-US">Active</String>
+        <String xml:lang="de-DE">Aktiv</String>
         <String xml:lang="pl-PL">Aktywny</String>
         <String xml:lang="nl-NL">Actief</String>
         <String xml:lang="it-IT">Attiva</String>
@@ -2299,6 +2330,7 @@
 
     <Entry Id="menu_vehicles_destroyed">
         <String xml:lang="en-US">Destroyed</String>
+        <String xml:lang="de-DE">Zerstört</String>
         <String xml:lang="pl-PL">Zniszczony</String>
         <String xml:lang="nl-NL">Vernield</String>
         <String xml:lang="it-IT">Distrutta</String>
@@ -2308,6 +2340,7 @@
 
     <Entry Id="menu_vehicles_impounded">
         <String xml:lang="en-US">Impounded</String>
+        <String xml:lang="de-DE">Abgeschleppt</String>
         <String xml:lang="pl-PL">Odholowany</String>
         <String xml:lang="nl-NL">In beslag genomen</String>
         <String xml:lang="it-IT">Sequestrata</String>
@@ -2317,6 +2350,7 @@
 
     <Entry Id="menu_vehicles_in_maintenance">
         <String xml:lang="en-US">In Maintenance</String>
+        <String xml:lang="de-DE">In Wartung</String>
         <String xml:lang="pl-PL">W konserwacji</String>
         <String xml:lang="nl-NL">In onderhoud</String>
         <String xml:lang="it-IT">In manutenzione</String>
@@ -2326,6 +2360,7 @@
 
     <Entry Id="menu_vehicles_damaged">
         <String xml:lang="en-US">Damaged</String>
+        <String xml:lang="de-DE">Beschädigt</String>
         <String xml:lang="pl-PL">Uszkodzony</String>
         <String xml:lang="nl-NL">Beschadigd</String>
         <String xml:lang="it-IT">Danneggiata</String>
@@ -2335,6 +2370,7 @@
 
     <Entry Id="menu_vehicles_fuel_low">
         <String xml:lang="en-US">Fuel Low</String>
+        <String xml:lang="de-DE">Wenig Tank</String>
         <String xml:lang="pl-PL">Mało paliwa</String>
         <String xml:lang="nl-NL">Weinig brandstof</String>
         <String xml:lang="it-IT">Carburante quasi finito</String>
@@ -2344,6 +2380,7 @@
 
     <Entry Id="menu_vehicles_battery_low">
         <String xml:lang="en-US">Battery Low</String>
+        <String xml:lang="de-DE">Wenig Batterie</String>
         <String xml:lang="pl-PL">Niski poziom baterii</String>
         <String xml:lang="nl-NL">Weinig batterij</String>
         <String xml:lang="it-IT">Batteria quasi scarica</String>
@@ -2353,6 +2390,7 @@
 
     <Entry Id="menu_vehicles_recalled">
         <String xml:lang="en-US">Recalled</String>
+        <String xml:lang="de-DE">Zurückgerufen</String>
         <String xml:lang="pl-PL">Wycofany</String>
         <String xml:lang="nl-NL">Teruggeroepen</String>
         <String xml:lang="it-IT">Richiamata</String>
@@ -2362,6 +2400,7 @@
 
     <Entry Id="menu_vehicles_color">
         <String xml:lang="en-US">Color</String>
+        <String xml:lang="de-DE">Farbe</String>
         <String xml:lang="pl-PL">Kolor</String>
         <String xml:lang="nl-NL">Kleur</String>
         <String xml:lang="it-IT">Colore</String>
@@ -2371,6 +2410,7 @@
 
     <Entry Id="menu_vehicles_plate">
         <String xml:lang="en-US">License Plate</String>
+        <String xml:lang="de-DE">Kennzeichen</String>
         <String xml:lang="pl-PL">Tablica rejestracyjna</String>
         <String xml:lang="nl-NL">Kentekenplaat</String>
         <String xml:lang="it-IT">Targa</String>
@@ -2380,6 +2420,7 @@
 
     <Entry Id="menu_vehicles_health">
         <String xml:lang="en-US">Health</String>
+        <String xml:lang="de-DE">Zustand</String>
         <String xml:lang="pl-PL">Stan</String>
         <String xml:lang="nl-NL">Gezondheid</String>
         <String xml:lang="it-IT">Salute</String>
@@ -2389,6 +2430,7 @@
 
     <Entry Id="menu_vehicles_fuel">
         <String xml:lang="en-US">Fuel</String>
+        <String xml:lang="de-DE">Tank</String>
         <String xml:lang="pl-PL">Paliwo</String>
         <String xml:lang="nl-NL">Brandstof</String>
         <String xml:lang="it-IT">Carburante</String>
@@ -2398,6 +2440,7 @@
 
     <Entry Id="menu_vehicles_battery">
         <String xml:lang="en-US">Battery</String>
+        <String xml:lang="de-DE">Batterie</String>
         <String xml:lang="pl-PL">Bateria</String>
         <String xml:lang="nl-NL">Batterij</String>
         <String xml:lang="it-IT">Batteria</String>
@@ -2407,6 +2450,7 @@
 
     <Entry Id="menu_vehicles_tank">
         <String xml:lang="en-US">Tank</String>
+        <String xml:lang="de-DE">Tank</String>
         <String xml:lang="pl-PL">Bak</String>
         <String xml:lang="nl-NL">Brandstoftank</String>
         <String xml:lang="it-IT">Serbatoio</String>
@@ -2416,6 +2460,7 @@
 
     <Entry Id="menu_vehicles_tires">
         <String xml:lang="en-US">Tires</String>
+        <String xml:lang="de-DE">Reifen</String>
         <String xml:lang="pl-PL">Opony</String>
         <String xml:lang="nl-NL">Banden</String>
         <String xml:lang="it-IT">Pneumatici</String>
@@ -2425,6 +2470,7 @@
 
     <Entry Id="menu_vehicles_cleanliness">
         <String xml:lang="en-US">Cleanliness</String>
+        <String xml:lang="de-DE">Sauberkeit</String>
         <String xml:lang="pl-PL">Czystość</String>
         <String xml:lang="nl-NL">Schoonheid</String>
         <String xml:lang="it-IT">Pulizia</String>
@@ -2435,6 +2481,7 @@
     <!-- specifically shown in the vehicles menu when the tires/tank are OK (no damage). This is NOT a confirmation "ok". -->
     <Entry Id="menu_vehicles_ok">
         <String xml:lang="en-US">OK</String>
+        <String xml:lang="de-DE">OK</String>
         <String xml:lang="pl-PL">OK</String>
         <String xml:lang="nl-NL">OK</String>
         <String xml:lang="it-IT">OK</String>
@@ -2445,6 +2492,7 @@
     <!-- Specifically shown for the tank (for now) when damaged -->
     <Entry Id="menu_vehicles_tank_damaged">
         <String xml:lang="en-US">Damaged</String>
+        <String xml:lang="de-DE">Beschädigt</String>
         <String xml:lang="pl-PL">Uszkodzony</String>
         <String xml:lang="nl-NL">Beschadigd</String>
         <String xml:lang="it-IT">Danneggiato</String>
@@ -2455,6 +2503,7 @@
     <!-- Specifically shown for the tires when at least one is punctured -->
     <Entry Id="menu_vehicles_tire_flat">
         <String xml:lang="en-US">{0} flat</String>
+        <String xml:lang="de-DE">{0} platte</String>
         <String xml:lang="pl-PL">{0} przebita</String>
         <String xml:lang="nl-NL">{0} lekke banden</String>
         <String xml:lang="it-IT">{0} forati</String>
@@ -2465,6 +2514,7 @@
     <!-- {0} = Vehicle name -->
     <Entry Id="dealership_previewing_vehicle">
         <String xml:lang="en-US">Previewing a ~b~{0}~s~.</String>
+        <String xml:lang="de-DE">Vorschau eines ~b~{0}~s~.</String>
         <String xml:lang="pl-PL">Podgląd ~b~{0}~s~.</String>
         <String xml:lang="nl-NL">Voorbeeld van een ~b~{0}~s~.</String>
         <String xml:lang="it-IT">Stai visualizzando una ~b~{0}~s~.</String>
@@ -2474,6 +2524,7 @@
 
     <Entry Id="dealership_credits_and_usage_rights">
         <String xml:lang="en-US">Credits and Usage Rights</String>
+        <String xml:lang="de-DE">Credits und Nutzungsrechte</String>
         <String xml:lang="pl-PL">Twórcy i prawa do użytkowania</String>
         <String xml:lang="nl-NL">Credits en auteursrechten</String>
         <String xml:lang="it-IT">Riconoscimenti e Diritti d'Utilizzo</String>
@@ -2482,7 +2533,8 @@
     </Entry>
 
     <Entry Id="dealership_need_to_own_garage">
-        <String xml:lang="en-US">You need to own a garage before purchasing a vehicle.</String>
+        <String xml:lang="en-US">You need to own a garage before purchasing a vehicle.</String>
+        <String xml:lang="de-DE">Du musst eine Garage besitzen, bevor du ein Fahrzeug kaufen kannst.</String>
         <String xml:lang="pl-PL">Musisz posiadać garaż przed zakupem pojazdu.</String>
         <String xml:lang="nl-NL">Je moet een garage bezitten voordat je een voertuig kunt kopen.</String>
         <String xml:lang="it-IT">Devi possedere un garage prima di acquistare un veicolo.</String>
@@ -2495,6 +2547,7 @@
     <!-- {2} = Location -->
     <Entry Id="dealership_store_vehicle_in_garage">
         <String xml:lang="en-US">Store your new ~b~{0} ~s~in your ~p~{1} ~s~garage in ~y~{2}~s~.</String>
+        <String xml:lang="de-DE">Stelle dein neues ~b~{0} ~s~in deiner ~p~{1} ~s~Garage in ~y~{2}~s~ ab.</String>
         <String xml:lang="pl-PL">Przechowaj swój nowy ~b~{0} ~s~w garażu ~p~{1} ~s~w ~y~{2}~s~.</String>
         <String xml:lang="nl-NL">Stal je nieuwe ~b~{0} ~s~in je ~p~{1} ~s~garage in ~y~{2}~s~.</String>
         <String xml:lang="it-IT">Parcheggia la tua nuova ~b~{0} ~s~nel tuo garage ~p~{1} ~s~a ~y~{2}~s~.</String>
@@ -2504,7 +2557,8 @@
 
     <Entry Id="info_unmarked_vehicle">
         <String xml:lang="en-US">~b~Unmarked police vehicle!~n~~s~Civilians will see you as a fellow civilian until you get close enough or turn on your siren.</String>
-        <String xml:lang="pl-PL">~b~Nieoznakowany radiowóz!~n~~s~Cywile będą cię postrzegać jako cywila, dopóki nie zbliżysz się wystarczająco lub nie włączysz syreny.</String>
+        <String xml:lang="de-DE">~b~Undercover Unit!~n~~s~Zivilisten werden dich als normalen Zivilisten sehen, bis du nah genug herankommst oder deine Sirene einschaltest.</String>
+        <String xml:lang="pl-PL">~b~Nieoznakowany radiowóz!~n~~s~Cywile będą cię postrzegać jako cywila, dopóki nie zbliżysz się wystarczająco lub nie włączysz syreny.</String>
         <String xml:lang="nl-NL">~b~Onopvallend politievoertuig!~n~~s~Burgers zullen je zien als een mede-burger totdat je dichtbij genoeg bent of je sirene aanzet.</String>
         <String xml:lang="it-IT">~b~Veicolo della polizia non contrassegnato!~n~~s~I civili ti vedranno come un altro civile finché non ti avvicini abbastanza o non accendi la sirena.</String>
         <String xml:lang="vi-VN">~b~Phương tiện cảnh sát không có dấu hiệu nhận dạng!~n~~s~Dân thường sẽ thấy bạn là thường dân cho đến khi bạn đến đủ gần hoặc bật còi.</String>

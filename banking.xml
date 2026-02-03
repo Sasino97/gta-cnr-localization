@@ -500,7 +500,7 @@
         <String xml:lang="fr-FR">Vous avez indiqué un montant ~r~invalide~s~!</String>
         <String xml:lang="sv-SE">Du angav ett ~r~ogiligt ~s~belopp!</String>
         <String xml:lang="no-NO">Du skrev inn et ~r~ugyldig ~s~beløp!</String>
-        <String xml:lang="sr-RS">Uneli ste ~r~invalidnu ~s~gotivu!</String>
+        <String xml:lang="sr-SRP">Uneli ste ~r~invalidnu ~s~gotovinu!</String>
     </Entry>
 
     <Entry Id="atm_cant_pay_fee">
@@ -772,6 +772,7 @@
     <!--=======================-->
     <Entry Id="menu_bank_interest_rate">
         <String xml:lang="en-US">Daily interest rate</String>
+        <String xml:lang="de-DE">Täglicher Zinssatz</String>
         <String xml:lang="nl-NL">Dagelijkse rente</String>
         <String xml:lang="it-IT">Tasso d'interesse giornaliero</String>
         <String xml:lang="no-NO">Daglig rente</String>
@@ -787,6 +788,7 @@
     <!-- {0} = Formatted amount -->
     <Entry Id="bank_interest_received">
         <String xml:lang="en-US">You have received ~g~{0} ~s~in interest from ~b~Fleeca Bank~s~.</String>
+        <String xml:lang="de-DE">Sie haben ~g~{0} ~s~Zinsen von der ~b~Fleeca Bank~s~ erhalten.</String>
         <String xml:lang="nl-NL">Je hebt ~g~{0} ~s~aan rente ontvangen van ~b~Fleeca Bank~s~.</String>
         <String xml:lang="it-IT">Hai ricevuto ~g~{0} ~s~di interessi da ~b~Banca Fleeca~s~.</String>
         <String xml:lang="no-NO">Du har mottatt ~g~{0} ~s~i renter fra ~b~Fleeca Bank~s~.</String>
@@ -801,6 +803,7 @@
 
     <Entry Id="menu_bank_deposit">
         <String xml:lang="en-US">Deposit</String>
+        <String xml:lang="de-DE">Einzahlen</String>
         <String xml:lang="nl-NL">Storten</String>
         <String xml:lang="it-IT">Versamento</String>
         <String xml:lang="no-NO">Innskudd</String>
@@ -815,6 +818,7 @@
 
     <Entry Id="menu_bank_deposit_desc">
         <String xml:lang="en-US">Deposit money to your ~g~checking account~s~.</String>
+        <String xml:lang="de-DE">Zahlen Sie Geld auf Ihr ~g~Konto~s~ ein.</String>
         <String xml:lang="nl-NL">Stort geld op youw ~g~bankrekening~s~.</String>
         <String xml:lang="it-IT">Versa denaro sul tuo ~g~conto corrente~s~.</String>
         <String xml:lang="no-NO">Sett inn penger til din ~g~sjekkkonto~s~.</String>
@@ -828,6 +832,7 @@
 
     <Entry Id="menu_bank_withdraw">
         <String xml:lang="en-US">Withdraw</String>
+        <String xml:lang="de-DE">Abheben</String>
         <String xml:lang="nl-NL">Opnemen</String>
         <String xml:lang="it-IT">Prelievo</String>
         <String xml:lang="no-NO">Trekk tilbake</String>
@@ -841,6 +846,7 @@
 
     <Entry Id="menu_bank_withdraw_desc">
         <String xml:lang="en-US">Withdraw money from your ~g~checking account~s~.</String>
+        <String xml:lang="de-DE">Heben Sie Geld von Ihrem ~g~Konto~s~ ab.</String>
         <String xml:lang="nl-NL">Neem geld op van jouw ~g~bankrekening~s~.</String>
         <String xml:lang="it-IT">Preleva denaro dal tuo ~g~conto corrente~s~.</String>
         <String xml:lang="no-NO">Ta ut penger fra din ~g~sjekkkonto~s~.</String>
@@ -855,6 +861,7 @@
 
     <Entry Id="menu_bank_transfer">
         <String xml:lang="en-US">Transfer</String>
+        <String xml:lang="de-DE">Überweisen</String>
         <String xml:lang="nl-NL">Overmaken</String>
         <String xml:lang="it-IT">Bonifico</String>
         <String xml:lang="no-NO">Overføre</String>
@@ -869,6 +876,7 @@
 
     <Entry Id="menu_bank_transfer_desc">
         <String xml:lang="en-US">Transfer money to another player's ~g~checking account~s~.</String>
+        <String xml:lang="de-DE">Überweisen Sie Geld auf das ~g~Konto~s~ eines anderen Spielers.</String>
         <String xml:lang="nl-NL">Maak geld over naar een andere speler's ~g~bankrekening~s~.</String>
         <String xml:lang="it-IT">Trasferisci denaro sul ~g~conto corrente ~s~di un altro giocatore.</String>
         <String xml:lang="no-NO">Overfør penger til en annen spillers ~g~sjekkkonto~s~.</String>
@@ -883,6 +891,7 @@
 
     <Entry Id="menu_bank_transfer_amount">
         <String xml:lang="en-US">Enter the amount to transfer.</String>
+        <String xml:lang="de-DE">Geben Sie den zu überweisenden Betrag ein.</String>
         <String xml:lang="nl-NL">Voer het bedrag in om over te maken.</String>
         <String xml:lang="it-IT">Inserisci l'importo da trasferire.</String>
         <String xml:lang="no-NO">Angi beløpet som skal overføres.</String>
@@ -897,6 +906,7 @@
 
     <Entry Id="menu_bank_transfer_reason">
         <String xml:lang="en-US">Enter the reason of the transfer.</String>
+        <String xml:lang="de-DE">Geben Sie den Grund für die Überweisung ein.</String>
         <String xml:lang="nl-NL">Voer de reden van de overboeking in.</String>
         <String xml:lang="it-IT">Inserisci il motivo del bonifico.</String>
         <String xml:lang="no-NO">Angi årsaken til overføringen.</String>
@@ -911,6 +921,7 @@
 
     <Entry Id="menu_bank_transfer_successful">
         <String xml:lang="en-US">You have transfered ~g~{0} ~s~to {1}'s checking account.</String>
+        <String xml:lang="de-DE">Sie haben ~g~{0} ~s~auf das Konto von {1} überwiesen.</String>
         <String xml:lang="nl-NL">Je hebt ~g~{0} ~s~overgemaakt naar {1}'s bankrekening.</String>
         <String xml:lang="it-IT">Hai trasferito ~g~{0} ~s~sul conto corrente di {1}.</String>
         <String xml:lang="no-NO">Du har overført ~g~{0} ~s~til {1}s brukskonto.</String>
@@ -925,6 +936,7 @@
 
     <Entry Id="menu_bank_transfer_received">
         <String xml:lang="en-US">{0} has transfered ~g~{1} ~s~to your checking account for ~b~"{2}"~s~.</String>
+        <String xml:lang="de-DE">{0} hat ~g~{1} ~s~auf dein Konto überwiesen mit dem Verwendungszweck ~b~"{2}"~s~.</String>
         <String xml:lang="nl-NL">{0} heeft ~g~{1} ~s~overgemaakt naar jouw bankrekening met als reden ~b~"{2}"~s~.</String>
         <String xml:lang="it-IT">{0} ha trasferito ~g~{1} ~s~sul tuo conto corrente per ~b~"{2}"~s~.</String>
         <String xml:lang="no-NO">{0} har overført ~g~{1} ~s~til din brukskonto for ~b~"{2}"~s~.</String>
@@ -940,9 +952,9 @@
 
     <Entry Id="menu_bank_history">
         <String xml:lang="en-US">History</String>
+        <String xml:lang="de-DE">Verlauf</String>
         <String xml:lang="lv-LV">Vēsture</String>
         <String xml:lang="it-IT">Cronologia</String>
-        <String xml:lang="de-DE">Verlauf</String>
         <String xml:lang="nl-NL">Geschiedenis</String>
         <String xml:lang="fr-FR">Historique</String>
         <String xml:lang="pl-PL">Historia</String>
@@ -963,10 +975,10 @@
 
     <Entry Id="menu_bank_history_desc">
         <String xml:lang="en-US">Obtain a list of your recent transactions.</String>
+        <String xml:lang="de-DE">Erhalte eine Liste deiner letzten Transaktionen.</String>
         <String xml:lang="zh-Hant">獲取您最近的交易列表.</String>
         <String xml:lang="zh-Hans">获取您最近的交易列表.</String>
         <String xml:lang="it-IT">Ottieni lo storico delle tue ultime transazioni.</String>
-        <String xml:lang="de-DE">Erhalte eine Liste deiner letzten Transaktionen.</String>
         <String xml:lang="nl-NL">Krijg een lijst van je recent transacties.</String>
         <String xml:lang="fr-FR">Obtenir une liste de tes transactions récentes.</String>
         <String xml:lang="pl-PL">Otrzymaj listę ostatnich transakcji.</String>
@@ -986,6 +998,7 @@
 
     <Entry Id="menu_bank_history_sub">
         <String xml:lang="en-US">Recent transactions</String>
+        <String xml:lang="de-DE">Letzte Transaktionen</String>
         <String xml:lang="nl-NL">Recente transacties</String>
         <String xml:lang="no-NO">Nylige transaksjoner</String>
         <String xml:lang="it-IT">Transazioni recenti</String>
@@ -1001,6 +1014,7 @@
 
     <Entry Id="menu_bank_history_pre">
         <String xml:lang="en-US">PAGE {0}</String>
+        <String xml:lang="de-DE">SEITE {0}</String>
         <String xml:lang="nl-NL">PAGINA {0}</String>
         <String xml:lang="no-NO">SIDE {0}</String>
         <String xml:lang="it-IT">PAGINA {0}</String>
@@ -1016,6 +1030,7 @@
 
     <Entry Id="menu_bank_loan">
         <String xml:lang="en-US">Loan</String>
+        <String xml:lang="de-DE">Kredit</String>
         <String xml:lang="nl-NL">Lening</String>
         <String xml:lang="no-NO">Låne</String>
         <String xml:lang="it-IT">Prestito</String>
@@ -1031,6 +1046,7 @@
 
     <Entry Id="menu_bank_loan_desc">
         <String xml:lang="en-US">Obtain a ~r~loan ~s~from the bank.</String>
+        <String xml:lang="de-DE">Erhalten Sie einen ~r~Kredit ~s~von der Bank.</String>
         <String xml:lang="nl-NL">Krijg een ~r~lening ~s~van de bank.</String>
         <String xml:lang="it-IT">Ottieni un ~r~prestito ~s~dalla banca.</String>
         <String xml:lang="no-NO">Få et ~r~lån ~s~fra banken.</String>
@@ -1046,6 +1062,7 @@
 
     <Entry Id="menu_bank_debt">
         <String xml:lang="en-US">Pay debt</String>
+        <String xml:lang="de-DE">Schulden bezahlen</String>
         <String xml:lang="nl-NL">Betaal schuld</String>
         <String xml:lang="it-IT">Paga debito</String>
         <String xml:lang="no-NO">Betal gjeld</String>
@@ -1061,6 +1078,7 @@
 
     <Entry Id="menu_bank_debt_desc">
         <String xml:lang="en-US">Make a payment towards your ~r~debt~s~.</String>
+        <String xml:lang="de-DE">Leisten Sie eine Zahlung für Ihre ~r~Schulden~s~.</String>
         <String xml:lang="nl-NL">Doe een betaling voor je ~r~schuld~s~.</String>
         <String xml:lang="it-IT">Fai un pagamento verso il tuo ~r~debito~s~.</String>
         <String xml:lang="no-NO">Foreta en betaling mot din ~r~gjeld~s~.</String>

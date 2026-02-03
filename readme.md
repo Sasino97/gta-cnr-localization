@@ -256,7 +256,7 @@ Text can also be highlighted with the `(C)(/C)` tags.
 ## Used ISO Language Codes
 
 - English (US): `en-US`
-- German (Germany): `de-DE`
+- German (Germany): `de-DE` - Currently Full translated
 - French (France): `fr-FR`
 - Dutch (Netherlands): `nl-NL`
 - Czech (Czechia) `cs-CZ`
@@ -273,3 +273,13 @@ Text can also be highlighted with the `(C)(/C)` tags.
 - Vietnamese (Vietnam): `vi-VN`
 - Thai (Thailand): `th-TH`
 - Indonesian (Indonesia): `id-ID`
+
+## Developer: Validator
+
+- Use the `--show_lang` option to show missing translations for a specific language.
+
+Example:
+
+```bash
+python validator.py --show_lang de-DE
+```
