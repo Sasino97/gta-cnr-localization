@@ -131,6 +131,7 @@
         <String xml:lang="sv-SE">N/A</String>
         <String xml:lang="vi-VN">Không có</String>
         <String xml:lang="sr-RS">N/A</String>
+        <String xml:lang="es-ES">N/D</String>
     </Entry>
 
     <Entry Id="error_loading_loadout">
@@ -618,6 +619,7 @@
         <String xml:lang="hi-Latn">Sort</String>
         <String xml:lang="vi-VN">Sắp xếp</String>
         <String xml:lang="sr-RS">Sortiraj</String>
+        <String xml:lang="es-ES">Ordenar</String>
     </Entry>
 
     <Entry Id="btn_add">
@@ -669,6 +671,7 @@
         <String xml:lang="hi-Latn">Use</String>
         <String xml:lang="vi-VN">Sử dụng</String>
         <String xml:lang="sr-RS">Koristi</String>
+        <String xml:lang="es-ES">Usar</String>
     </Entry>
 
     <!-- ========================= -->
@@ -769,6 +772,7 @@
         <String xml:lang="nl-NL">Dat ~r~voertuig ~s~kan niet gebruikt worden in deze staat!</String>
         <String xml:lang="vi-VN">~r~Phương tiện ~s~đó không được sử dụng ở trạng thái này!</String>
         <String xml:lang="sr-RS">Ovo ~r~vozilo ~s~ne može biti korišćeno u ovom stanju!</String>
+        <String xml:lang="es-ES">¡Ese ~r~vehículo ~s~no se puede usar en este estado!</String>
     </Entry>
 
     <Entry Id="weapon_cannot_be_used">
@@ -832,6 +836,7 @@
         <String xml:lang="sv-SE">{0} (håll)</String>
         <String xml:lang="vi-VN">{0} (giữ)</String>
         <String xml:lang="sr-RS">{0} (drži)</String>
+        <String xml:lang="es-ES">{0} (mantener)</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Sasino)
@@ -843,7 +848,7 @@
         <String xml:lang="en-US">🛡️ ~b~CnR V Shield ~s~banned {0} for {1} for ~r~{2}~s~. Total players banned: {3}</String>
         <String xml:lang="nl-NL">🛡️ ~b~CnR V Shield ~s~heeft {0} verbannen voor {1} voor ~r~{2}~s~. Totaal spelers banned: {3}</String>
         <String xml:lang="pl-PL">🛡️ ~b~CnR V Shield ~s~zbanowała {0} za {1} na ~r~{2}~s~. Gracze zbanowani: {3}</String>
-        <String xml:lang="es-ES">🛡️ ~b~CnR V Shield ~s~baneo {0} por {1} por ~r~{2}~s~. Total de jugadores baneados: {3}</String>
+        <String xml:lang="es-ES">🛡️ ~b~CnR V Shield ~s~baneo {0} durante {1} por ~r~{2}~s~. Total de jugadores baneados: {3}</String>
         <String xml:lang="de-DE">🛡️ ~b~CnR V Shield ~s~hat {0} für {1} wegen ~r~{2}~s~ gebannt. Insgesamt gebannte Spieler: {3}</String>
         <String xml:lang="pt-BR">🛡️ ~b~CnR V Shield ~s~baneo {0} por {1} por ~r~{2}~s~. Total de jogadores banidos: {3}</String>
         <String xml:lang="ar-001">🛡️ ~b~CnR V Shield ~s~حظر {0} لـ {1} لـ ~r~{2}~s~. إجمالي اللاعبين المحظورين: {3}</String>
@@ -911,6 +916,7 @@
         <String xml:lang="vi-VN">~y~(C)Thông báo:(/C) ~s~Không phải mọi thứ sẽ tải lại. Để làm mới hoàn toàn, bạn phải đăng xuất và đăng nhập lại.</String>
         <String xml:lang="fr-FR">~y~(C)Notice:(/C) ~s~Tout ne se rechargera pas. Pour forcer un rafraîchissement, vous devez vous déconnecter et vous reconnecter.</String>
         <String xml:lang="sr-RS">~y~(C)Obaveštenje:(/C) ~s~Nece sve da se reloduje. Da bi ste forcirali reloud trebate izaci iz igricu i uci ponovo.</String>
+        <String xml:lang="es-ES">~y~(C)Aviso:(/C) ~s~No todo se refrescara. Para forzar un refresco, debes salir y entrar de nuevo.</String>
     </Entry>
 
     <Entry Id="menu_blocked_title">
@@ -957,11 +963,13 @@
         <String xml:lang="en-US">Delete</String>
         <String xml:lang="nl-NL">Verwijder</String>
         <String xml:lang="sr-RS">Obriši</String>
+        <String xml:lang="es-ES">Eliminar</String>
     </Entry>
 
     <Entry Id="btn_export">
         <String xml:lang="en-US">Export</String>
         <String xml:lang="sr-RS">Izvezi</String>
+        <String xml:lang="es-ES">Exportar</String>
     </Entry>
 
     <Entry Id="block_cmd_suggestion_help">
@@ -1103,6 +1111,7 @@
         <String xml:lang="hi-Latn">Player id ek number hona chahiye.</String>
         <String xml:lang="vi-VN">ID người chơi phải là một con số.</String>
         <String xml:lang="sr-RS">ID igrača mora biti broj.</String>
+        <String xml:lang="es-ES">El ID del jugador debe ser un número.</String>
     </Entry>
 
     <Entry Id="input_enter_id">
@@ -1136,6 +1145,7 @@
         <String xml:lang="hi-Latn">Ek party banata hai: ek temporary logon ka group. Ek hi party ke members ek dedicated radio channel par baat kar sakte hain, door se map par ek-dusre ko dekh sakte hain, aur ek-dusre ke ping markers dekh sakte hain. Iske alawa, kuch chote-mote crimes aur revenge wagera disable ho jata hai.</String>
         <String xml:lang="vi-VN">Tạo một nhóm: một nhóm người tạm thời. Các thành viên của cùng một nhóm có thể giao tiếp trên một kênh radio riêng, nhìn thấy nhau trên bản đồ ở khoảng cách xa và thấy các dấu ping của nhau. Thêm vào đó, một số tội nhẹ và hành vi trả thù giữa họ sẽ bị vô hiệu hóa.</String>
         <String xml:lang="sr-RS">Kreira partiju: privremena grupa ljudi. Članovi iste partije mogu komunicirati preko posebnog radio kanala, vidjeti jedni druge na mapi na velikim rastojanjima i vidjeti ping oznake jednih drugih. Takođe, neke manje krivnje i odmašćivanje između njih je onemogućeno.</String>
+        <String xml:lang="es-ES">Crea un grupo: un grupo temporal de personas. Los miembros del mismo grupo pueden comunicarse en un canal de radio dedicado, verse entre sí en el mapa a grandes distancias y ver las marcas de los demás. Además, algunos crímenes menores y venganza entre ellos están desactivados.</String>
     </Entry>
 
     <Entry Id="party_invite_desc">
@@ -1151,6 +1161,7 @@
         <String xml:lang="hi-Latn">Ek player ko aapki party mein bulata hai.</String>
         <String xml:lang="vi-VN">Mời một người chơi vào nhóm của bạn.</String>
         <String xml:lang="sr-RS">Poziva igrača u vašu partiju.</String>
+        <String xml:lang="es-ES">Invita a un jugador a tu grupo.</String>
     </Entry>
 
     <Entry Id="party_invite_param_player_desc">
@@ -1166,6 +1177,7 @@
         <String xml:lang="hi-Latn">Woh player id jise aap invite karna chahte hain.</String>
         <String xml:lang="vi-VN">ID của người chơi bạn muốn mời.</String>
         <String xml:lang="sr-RS">ID igrača kojeg želiš da pozoveš.</String>
+        <String xml:lang="es-ES">El ID del jugador que quieres invitar.</String>
     </Entry>
 
     <Entry Id="party_join_desc">
@@ -1181,6 +1193,7 @@
         <String xml:lang="hi-Latn">Ek player ki party join karne ki request bhejta hai.</String>
         <String xml:lang="vi-VN">Yêu cầu tham gia nhóm của người chơi.</String>
         <String xml:lang="sr-RS">Zahtevi za pristup partiji igrača.</String>
+        <String xml:lang="es-ES">Solicitudes para unirse al grupo de un jugador.</String>
     </Entry>
 
     <Entry Id="party_join_param_player_desc">
@@ -1196,6 +1209,7 @@
         <String xml:lang="hi-Latn">Woh player id jiski party aap join karna chahte hain.</String>
         <String xml:lang="vi-VN">ID của người chơi mà bạn muốn tham gia nhóm.</String>
         <String xml:lang="sr-RS">ID igrača čije partiju želiš da se pridružiš.</String>
+        <String xml:lang="es-ES">El ID del jugador cuya party quieres unirte.</String>
     </Entry>
 
     <Entry Id="party_leave_desc">
@@ -1211,6 +1225,7 @@
         <String xml:lang="hi-Latn">Aapki current party se leave karta hai.</String>
         <String xml:lang="vi-VN">Rời khỏi nhóm hiện tại.</String>
         <String xml:lang="rs-RS">Napušta trenutnu partiju.</String>
+        <String xml:lang="es-ES">Abandona tu grupo actual.</String>
     </Entry>
 
     <Entry Id="party_kick_desc">
@@ -1226,6 +1241,7 @@
         <String xml:lang="hi-Latn">Ek player ko aapki party se nikalta hai. Iss command ko use karne ke liye aapko party leader hona zaroori hai.</String>
         <String xml:lang="vi-VN">Loại bỏ một người chơi khỏi nhóm của bạn. Bạn phải là trưởng nhóm mới có thể sử dụng lệnh này.</String>
         <String xml:lang="sr-RS">Uklanja igrača iz vaše partije. Morate biti lider partije da biste koristili ovu komandu.</String>
+        <String xml:lang="es-ES">Elimina a un jugador de tu grupo. Debes ser el líder del grupo para usar este comando.</String>
     </Entry>
 
     <Entry Id="party_kick_param_player_desc">
@@ -1241,6 +1257,7 @@
         <String xml:lang="hi-Latn">Woh player id jise aap apni party se nikalna chahte hain.</String>
         <String xml:lang="vi-VN">ID của người chơi cần loại bỏ khỏi nhóm của bạn.</String>
         <String xml:lang="sr-RS">ID igrača kojeg želiš da ukloniš iz partije.</String>
+        <String xml:lang="es-ES">El ID del jugador que quieres expulsar de tu grupo.</String>
     </Entry>
 
     <Entry Id="party_list_desc">
@@ -1256,6 +1273,7 @@
         <String xml:lang="hi-Latn">Aapki party ke sabhi members ki list dikhata hai, current leader ke saath.</String>
         <String xml:lang="vi-VN">Liệt kê tất cả thành viên trong nhóm của bạn, bao gồm cả trưởng nhóm hiện tại.</String>
         <String xml:lang="sr-RS">Izlistava sve članove vaše partije, uključujući i trenutnog lidera.</String>
+        <String xml:lang="es-ES">Lista todos los miembros de tu grupo, incluyendo al líder actual.</String>
     </Entry>
 
     <Entry Id="party_leader_desc">
@@ -1271,6 +1289,7 @@
         <String xml:lang="it-IT">Trasferisce la leadership del party a un altro giocatore. Devi essere il leader del party per usare questo comando.</String>
         <String xml:lang="vi-VN">Chuyển quyền trưởng nhóm cho người chơi khác. Bạn phải là trưởng nhóm mới có thể sử dụng lệnh này.</String>
         <String xml:lang="sr-RS">Prebacuje liderstvo partije drugom igraču. Morate biti lider partije da biste koristili ovu komandu.</String>
+        <String xml:lang="es-ES">Transfiere el liderazgo del grupo a otro jugador. Debes ser el líder del grupo para usar este comando.</String>
     </Entry>
 
     <Entry Id="party_leader_param_player_desc">
@@ -1286,6 +1305,7 @@
         <String xml:lang="it-IT">L'ID del giocatore a cui desideri trasferire la leadership.</String>
         <String xml:lang="vi-VN">ID của người chơi mà bạn muốn chuyển quyền trưởng nhóm.</String>
         <String xml:lang="sr-RS">ID igrača kojem želiš da prebaciš liderstvo.</String>
+        <String xml:lang="es-ES">El ID del jugador al que quieres transferir el liderazgo.</String>
     </Entry>
 
     <Entry Id="party_create_already_in">
@@ -1301,6 +1321,7 @@
         <String xml:lang="hi-Latn">Aap pehle se hi ek party mein hain. New party banane se pehle current party leave kariye.</String>
         <String xml:lang="vi-VN">Bạn đã ở trong một nhóm. Hãy rời nhóm hiện tại trước khi tạo nhóm mới.</String>
         <String xml:lang="sr-RS">Već ste u partiji. Napustite trenutnu partiju pre nego što napravite novu.</String>
+        <String xml:lang="es-ES">Ya estás en un grupo. Abandona el grupo actual antes de crear uno nuevo.</String>
     </Entry>
 
     <Entry Id="party_create_success">
@@ -1316,6 +1337,7 @@
         <String xml:lang="hi-Latn">Aapne ek party banayi hai. Players ko invite karne ke liye /party-invite ka use karein.</String>
         <String xml:lang="vi-VN">Bạn đã tạo nhóm. Sử dụng lệnh /party-invite để mời người chơi.</String>
         <String xml:lang="sr-RS">Uspešno ste napravili partiju. Koristite /party-invite da pozovete igrače.</String>
+        <String xml:lang="es-ES">Has creado un grupo. Usa /party-invite para invitar jugadores.</String>
     </Entry>
 
     <Entry Id="party_join_already_in">
@@ -1331,6 +1353,7 @@
         <String xml:lang="hi-Latn">Aap pehle se hi ek party mein hain. New party join karne ke liye pehle current party leave kariye.</String>
         <String xml:lang="vi-VN">Bạn đã ở trong một nhóm. Hãy rời nhóm hiện tại trước khi gửi yêu cầu tham gia nhóm khác.</String>
         <String xml:lang="sr-RS">Već ste u partiji. Napustite trenutnu partiju pre nego što napravite novu.</String>
+        <String xml:lang="es-ES">Ya estás en un grupo. Abandona el grupo actual antes de solicitar el acceso a uno nuevo.</String>
     </Entry>
 
     <Entry Id="party_join_cooldown">
@@ -1346,6 +1369,7 @@
         <String xml:lang="hi-Latn">Please wait karein dubara party join request bhejne se pehle.</String>
         <String xml:lang="vi-VN">Vui lòng đợi trước khi gửi yêu cầu tham gia nhóm lần nữa.</String>
         <String xml:lang="sr-RS">Molimo vas da sačekate pre nego što ponovo zatražite pristup partiji.</String>
+        <String xml:lang="es-ES">Por favor, espera antes de solicitar unirte a un grupo otra vez.</String>
     </Entry>
 
     <Entry Id="party_join_requested_leader">
@@ -1361,6 +1385,7 @@
         <String xml:lang="hi-Latn">Party leader {0} ko request accept karni hogi.</String>
         <String xml:lang="vi-VN">Trưởng nhóm {0} sẽ phải chấp nhận yêu cầu này.</String>
         <String xml:lang="sr-RS">Party leader {0} će morati da prihvati zahtev.</String>
+        <String xml:lang="es-ES">El líder del grupo {0} tendrá que aceptar la solicitud.</String>
     </Entry>
 
     <Entry Id="party_not_in_party">
@@ -1376,6 +1401,7 @@
         <String xml:lang="hi-Latn">Aap kisi party mein nahi hain.</String>
         <String xml:lang="vi-VN">Bạn không đang ở trong nhóm nào.</String>
         <String xml:lang="sr-RS">Niste u partiji.</String>
+        <String xml:lang="es-ES">No estás en un grupo.</String>
     </Entry>
 
     <Entry Id="party_not_leader">
@@ -1391,6 +1417,7 @@
         <String xml:lang="hi-Latn">Aap party ke leader nahi hain.</String>
         <String xml:lang="vi-VN">Bạn không phải là trưởng nhóm.</String>
         <String xml:lang="sr-RS">Niste lider partije.</String>
+        <String xml:lang="es-ES">No eres el líder del grupo.</String>
     </Entry>
 
     <Entry Id="party_left">
@@ -1406,6 +1433,7 @@
         <String xml:lang="hi-Latn">Aapne party left kardi.</String>
         <String xml:lang="vi-VN">Bạn đã rời nhóm.</String>
         <String xml:lang="sr-RS">Napuštili ste partiju.</String>
+        <String xml:lang="es-ES">Has abandonado el grupo.</String>
     </Entry>
 
     <Entry Id="party_got_kicked">
@@ -1421,6 +1449,7 @@
         <String xml:lang="hi-Latn">Aapko party se nikaal diya gaya hai.</String>
         <String xml:lang="vi-VN">Bạn đã bị đá khỏi nhóm.</String>
         <String xml:lang="sr-RS">Izbačeni ste iz partije.</String>
+        <String xml:lang="es-ES">Has sido expulsado del grupo.</String>
     </Entry>
 
     <Entry Id="party_leader_you">
@@ -1436,6 +1465,7 @@
         <String xml:lang="hi-Latn">Ab aap leader hain.</String>
         <String xml:lang="vi-VN">Bạn bây giờ là trưởng nhóm.</String>
         <String xml:lang="sr-RS">Sada ste lider partije.</String>
+        <String xml:lang="es-ES">Ahora eres el líder del grupo.</String>
     </Entry>
 
     <Entry Id="party_leader_x">
@@ -1451,6 +1481,7 @@
         <String xml:lang="hi-Latn">{0} ab leader hain.</String>
         <String xml:lang="vi-VN">{0} bây giờ là trưởng nhóm.</String>
         <String xml:lang="sr-RS">{0} je sada lider partije.</String>
+        <String xml:lang="es-ES">{0} es ahora el líder.</String>
     </Entry>
 
     <Entry Id="party_no_other_members">
@@ -1466,6 +1497,7 @@
         <String xml:lang="hi-Latn">Koi aur party member nahi hai.</String>
         <String xml:lang="vi-VN">Không có thành viên nào khác trong nhóm.</String>
         <String xml:lang="sr-RS">Ne postoji nijedan drugi član partije.</String>
+        <String xml:lang="es-ES">No hay otros miembros en el grupo.</String>
     </Entry>
 
     <Entry Id="party_sendgps_desc">
@@ -1481,6 +1513,7 @@
         <String xml:lang="hi-Latn">Aapki GPS location ko dusre party members ko bhejta hai.</String>
         <String xml:lang="vi-VN">Gửi vị trí GPS của bạn tới các thành viên khác trong nhóm.</String>
         <String xml:lang="sr-RS">Šalje vašu GPS lokaciju drugim članovima partije.</String>
+        <String xml:lang="es-ES">Envía tu ubicación GPS a los demás miembros del grupo.</String>
     </Entry>
 
     <Entry Id="party_sendwaypoint_desc">
@@ -1496,6 +1529,7 @@
         <String xml:lang="hi-Latn">Aapka waypoint dusre party members ko bhejta hai.</String>
         <String xml:lang="vi-VN">Gửi điểm đánh dấu của bạn tới các thành viên khác trong nhóm.</String>
         <String xml:lang="sr-RS">Šalje vaš waypoint drugim članovima partije.</String>
+        <String xml:lang="es-ES">Envía tu waypoint a los demás miembros del grupo.</String>
     </Entry>
 
     <Entry Id="mission_late">
@@ -1511,6 +1545,7 @@
         <String xml:lang="hi-Latn">LATE</String>
         <String xml:lang="vi-VN">TRỄ</String>
         <String xml:lang="sr-RS">KAŠNIS</String>
+        <String xml:lang="es-ES">RETRASADO</String>
     </Entry>
 
     <Entry Id="mission_payout">
@@ -1526,6 +1561,7 @@
         <String xml:lang="hi-Latn">PAYOUT</String>
         <String xml:lang="vi-VN">TIỀN THƯỞNG</String>
         <String xml:lang="sr-RS">ISPLATA</String>
+        <String xml:lang="es-ES">PAGO</String>
     </Entry>
 
     <Entry Id="menu_playerlist_title">
@@ -1541,6 +1577,7 @@
         <String xml:lang="hi-Latn">Players</String>
         <String xml:lang="vi-VN">Người chơi</String>
         <String xml:lang="sr-RS">Igrači</String>
+        <String xml:lang="es-ES">Jugadores</String>
     </Entry>
 
     <Entry Id="menu_playerlist_subtitle">
@@ -1553,6 +1590,7 @@
         <String xml:lang="id-ID">Pilih pemain</String>
         <String xml:lang="vi-VN">Chọn một người chơi</String>
         <String xml:lang="sr-RS">Izaberite igrača</String>
+        <String xml:lang="es-ES">Seleccione un jugador</String>
     </Entry>
 
     <Entry Id="menu_playerlist_no_players_text">
@@ -1568,6 +1606,7 @@
         <String xml:lang="hi-Latn">Koi player nahi mile</String>
         <String xml:lang="vi-VN">Không tìm thấy người chơi nào</String>
         <String xml:lang="sr-RS">Nema pronađenih igrača</String>
+        <String xml:lang="es-ES">No se encontraron jugadores</String>
     </Entry>
 
     <Entry Id="menu_playerlist_no_players_description">
@@ -1583,6 +1622,7 @@
         <String xml:lang="hi-Latn">Koi player available nahi hai.</String>
         <String xml:lang="vi-VN">Hiện không có người chơi nào.</String>
         <String xml:lang="sr-RS">Nema dostupnih igrača.</String>
+        <String xml:lang="es-ES">No hay jugadores disponibles.</String>
     </Entry>
 
     <Entry Id="cleargps_desc">
@@ -1598,6 +1638,7 @@
         <String xml:lang="hi-Latn">GPS destination clear karta hai.</String>
         <String xml:lang="vi-VN">Xóa điểm đến GPS</String>
         <String xml:lang="sr-RS">Briše GPS destinaciju.</String>
+        <String xml:lang="es-ES">Limpia el destino GPS.</String>
     </Entry>
 
     <Entry Id="cleargps_active_mission">
@@ -1613,6 +1654,7 @@
         <String xml:lang="hi-Latn">Ek active mission GPS ki destination clear karne se rok rahi hai.</String>
         <String xml:lang="vi-VN">Một nhiệm vụ đang hoạt động đang ngăn không cho điểm đến GPS bị xóa.</String>
         <String xml:lang="sr-RS">Aktivna misija sprečava brisanje GPS destinacije.</String>
+        <String xml:lang="es-ES">Una misión activa está impidiendo que se borre el destino GPS.</String>
     </Entry>
 
     <Entry Id="cleargps_success">
@@ -1628,6 +1670,7 @@
         <String xml:lang="hi-Latn">GPS destination clear ho gayi.</String>
         <String xml:lang="vi-VN">Điểm đến GPS đã được xóa.</String>
         <String xml:lang="sr-RS">GPS destinacija je obrisana.</String>
+        <String xml:lang="es-ES">El destino GPS ha sido borrado.</String>
     </Entry>
 
     <Entry Id="cleargps_not_set">
@@ -1643,6 +1686,7 @@
         <String xml:lang="hi-Latn">GPS set nahi hai.</String>
         <String xml:lang="vi-VN">Chưa thiết lập điểm GPS.</String>
         <String xml:lang="sr-RS">GPS nije postavljen.</String>
+        <String xml:lang="es-ES">El GPS no está configurado.</String>
     </Entry>
 
     <Entry Id="sendgps_desc">
@@ -1658,6 +1702,7 @@
         <String xml:lang="hi-Latn">Aapki GPS location dusre player ko bhejta hai.</String>
         <String xml:lang="vi-VN">Gửi vị trí GPS của bạn đến người chơi khác.</String>
         <String xml:lang="sr-RS">Šalje vašu GPS lokaciju drugom igraču.</String>
+        <String xml:lang="es-ES">Envía tu ubicación GPS a otro jugador.</String>
     </Entry>
 
     <Entry Id="sendgps_param_player_desc">
@@ -1673,6 +1718,7 @@
         <String xml:lang="hi-Latn">Player jisse aap apni location share karna chahte hain.</String>
         <String xml:lang="vi-VN">Người chơi mà bạn muốn chia sẻ vị trí.</String>
         <String xml:lang="sr-RS">Igrač sa kojim želite da delite svoju lokaciju.</String>
+        <String xml:lang="es-ES">El jugador con el que quieres compartir tu ubicación.</String>
     </Entry>
 
     <Entry Id="sendwaypoint_desc">
@@ -1688,6 +1734,7 @@
         <String xml:lang="hi-Latn">Aapka waypoint dusre player ko bhejta hai.</String>
         <String xml:lang="vi-VN">Gửi điểm đánh dấu của bạn đến người chơi khác.</String>
         <String xml:lang="sr-RS">Šalje vaš waypoint drugom igraču.</String>
+        <String xml:lang="es-ES">Envía tu waypoint a otro jugador.</String>
     </Entry>
 
     <Entry Id="sendwaypoint_param_player_desc">
@@ -1703,6 +1750,7 @@
         <String xml:lang="hi-Latn">Player jisse aap apna waypoint share karna chahte hain.</String>
         <String xml:lang="vi-VN">Người chơi mà bạn muốn chia sẻ điểm đánh dấu.</String>
         <String xml:lang="sr-RS">Igrač sa kojim želite da delite svoj waypoint.</String>
+        <String xml:lang="es-ES">El jugador con el que quieres compartir tu waypoint.</String>
     </Entry>
 
     <Entry Id="sendwaypoint_not_selected">
@@ -1718,6 +1766,7 @@
         <String xml:lang="hi-Latn">Iss command ko use karne se pehle map par ek waypoint select karna hoga.</String>
         <String xml:lang="vi-VN">Bạn cần chọn một điểm đánh dấu trên bản đồ trước khi sử dụng lệnh này</String>
         <String xml:lang="sr-RS">Morate izabrati waypoint na mapi pre pozivanja ove komande</String>
+        <String xml:lang="es-ES">Necesitas seleccionar un waypoint en el mapa antes de llamar a este comando</String>
     </Entry>
 
     <Entry Id="gps_shared_prompt">
@@ -1733,6 +1782,7 @@
         <String xml:lang="hi-Latn">{0} apni location aapke saath share karna chahte hain.</String>
         <String xml:lang="vi-VN">{0} muốn chia sẻ vị trí của họ với bạn.</String>
         <String xml:lang="sr-RS">{0} želi da podeli svoju poziciju sa tobom.</String>
+        <String xml:lang="es-ES">{0} quiere compartir su posición contigo.</String>
     </Entry>
 
     <Entry Id="waypoint_shared_prompt">
@@ -1748,6 +1798,7 @@
         <String xml:lang="hi-Latn">{0} apna waypoint aapke saath share karna chahte hain.</String>
         <String xml:lang="vi-VN">{0} muốn chia sẻ điểm đánh dấu của họ với bạn.</String>
         <String xml:lang="sr-RS">{0} želi da podeli svoj waypoint sa tobom.</String>
+        <String xml:lang="es-ES">{0} quiere compartir su waypoint contigo.</String>
     </Entry>
 
     <Entry Id="gps_nobody_received">
@@ -1763,6 +1814,7 @@
         <String xml:lang="no-NO">~r~Ingen ~s~har mottatt din ~y~posisjon~s~.</String>
         <String xml:lang="vi-VN">~r~Không ai ~s~nhận được ~y~vị trí~s~ của bạn.</String>
         <String xml:lang="sr-RS">~r~Niko ~s~nije primio vašu ~y~poziciju~s~.</String>
+        <String xml:lang="es-ES">~r~Nadie ~s~ha recibido su ~y~posición~s~.</String>
     </Entry>
 
     <Entry Id="sendgps_player_received">
@@ -1778,6 +1830,7 @@
         <String xml:lang="no-NO">Du delte din ~y~posisjon ~s~med {0}.</String>
         <String xml:lang="vi-VN">Bạn đã chia sẻ ~y~vị trí ~s~của bạn với {0}.</String>
         <String xml:lang="sr-RS">Delili ste svoju ~y~poziciju ~s~sa {0}.</String>
+        <String xml:lang="es-ES">Ha compartido tu ~y~posición ~s~con {0}.</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Sasino) -->
@@ -1792,7 +1845,7 @@
         <String xml:lang="it-IT">Hai sbloccato {0}. Gestisci la tua lista di giocatori bloccati in M &gt; Aiuto &gt; Giocatori bloccati.</String>
         <String xml:lang="no-NO">Du har opphevet blokkeringen av {0}. Administrer blokkeringslisten din i M &gt; Hjelp &gt; Blokkerte spillere.</String>
         <String xml:lang="fr-FR">Vous avez débloqué {0}. Gérez votre liste de blocage dans M &gt; Aide &gt; Joueurs bloqués.</String>
-        <String xml:lang="es-ES">Has desbloqueado a {0}. Gestiona tu lista de bloqueados en M &gt; Ayuda &gt; Jugadores bloqueados.</String>
+        <String xml:lang="es-ES">Ha desbloqueado a {0}. Gestiona su lista de bloqueados en M &gt; Ayuda &gt; Jugadores bloqueados.</String>
         <String xml:lang="pt-BR">Você desbloqueou {0}. Gerencie sua lista de bloqueados em M &gt; Ajuda &gt; Jogadores bloqueados.</String>
         <String xml:lang="sv-SE">Du har avblockerat {0}. Hantera din blockeringslista i M &gt; Hjälp &gt; Blockerade spelare.</String>
         <String xml:lang="vi-VN">Bạn đã bỏ chặn {0}. Quản lý danh sách chặn của bạn trong M &gt; Trợ giúp &gt; Người chơi bị chặn.</String>
@@ -1832,6 +1885,7 @@
         <String xml:lang="hi-Latn">Player id {0} connected nahi hai.</String>
         <String xml:lang="vi-VN">Người chơi có ID {0} không kết nối.</String>
         <String xml:lang="sr-RS">Igrac Id {0} nije povezan.</String>
+        <String xml:lang="es-ES">El jugador con ID {0} no está conectado.</String>
     </Entry>
 
     <!-- nullnull{0} = Target player (for example: Stijnjw (152)) -->
@@ -1848,6 +1902,7 @@
         <String xml:lang="hi-Latn">{0} kisi party mein nahi hai.</String>
         <String xml:lang="vi-VN">{0} không thuộc nhóm nào.</String>
         <String xml:lang="sr-RS">{0} nije u partiji.</String>
+        <String xml:lang="es-ES">{0} no está en un grupo.</String>
     </Entry>
 
     <!-- nullnull{0} = Party leader (for example: Stijnjw (152)) -->
@@ -1864,6 +1919,7 @@
         <String xml:lang="hi-Latn">Party leader {0} connected nahi hai.</String>
         <String xml:lang="vi-VN">Trưởng nhóm {0} không kết nối.</String>
         <String xml:lang="sr-RS">Vlasnik Partia {0} nije povezan.</String>
+        <String xml:lang="es-ES">El líder del grupo {0} no está conectado.</String>
     </Entry>
 
     <!-- nullnull{0} = Party leader (for example: Stijnjw (152)) -->
@@ -1880,6 +1936,7 @@
         <String xml:lang="hi-Latn">Aap join kare {0} ki party.</String>
         <String xml:lang="vi-VN">Bạn đã tham gia nhóm của {0}.</String>
         <String xml:lang="sr-RS">Pridružili ste se partiji {0}.</String>
+        <String xml:lang="es-ES">Te has unido al grupo de {0}.</String>
     </Entry>
 
     <!-- nullnull{0} = New player in the party (for example: Sasino (153)) -->
@@ -1896,6 +1953,7 @@
         <String xml:lang="hi-Latn">{0} aapki party join kiye.</String>
         <String xml:lang="vi-VN">{0} đã tham gia nhóm của bạn.</String>
         <String xml:lang="sr-RS">{0} se pridružio vašoj partiji.</String>
+        <String xml:lang="es-ES">{0} se ha unido a tu grupo.</String>
     </Entry>
 
     <!-- nullnull{0} = Player that is trying to join the party (for example: Sasino (153))
@@ -1914,6 +1972,7 @@
         <String xml:lang="no-NO">{0} ønsker å bli med i din ~y~party~s~. Skriv ~b~/party-invite {1} ~s~for å godta.</String>
         <String xml:lang="vi-VN">{0} muốn tham gia ~y~nhóm~s~ của bạn. Gõ ~b~/party-invite {1} ~s~để chấp nhận.</String>
         <String xml:lang="sr-RS">{0} želi da se pridruži vašoj ~y~partiji~s~. Ukucajte ~b~/party-invite {1} ~s~da biste prihvatili zahtev.</String>
+        <String xml:lang="es-ES">{0} quiere unirse a tu ~y~grupo~s~. Escribe ~b~/party-invite {1} ~s~para aceptar.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152)) -->
@@ -1930,6 +1989,7 @@
         <String xml:lang="hi-Latn">{0} pehle se hi ek party mein hain.</String>
         <String xml:lang="vi-VN">{0} hiện đang trong một nhóm khác.</String>
         <String xml:lang="sr-RS">{0} je već u partiji.</String>
+        <String xml:lang="es-ES">{0} ya está en un grupo.</String>
     </Entry>
 
     <!-- {1} will only be added if the person you asked to join was NOT the leader of the party
@@ -1949,6 +2009,7 @@
         <String xml:lang="hi-Latn">Aapne {0} ki party join karne ki request bheji hai. {1}</String>
         <String xml:lang="vi-VN">Bạn đã gửi yêu cầu tham gia nhóm của {0}. {1}</String>
         <String xml:lang="sr-RS">Zahtev za pridruživanje partiji {0} je poslat. {1}</String>
+        <String xml:lang="es-ES">Ha solicitado unirse al grupo de {0}. {1}</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152)) -->
@@ -1965,6 +2026,7 @@
         <String xml:lang="no-NO">Du har invitert {0} til å bli med i festen din.</String>
         <String xml:lang="vi-VN">Bạn đã mời {0} tham gia nhóm của bạn.</String>
         <String xml:lang="sr-RS">Zahtev za pridruživanje partiji {0} je poslat.</String>
+        <String xml:lang="es-ES">Ha invitado a {0} a unirse a tu grupo.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152))
@@ -1983,6 +2045,7 @@
         <String xml:lang="hi-Latn">{0} ne aapki party left kardi. {1}</String>
         <String xml:lang="vi-VN">{0} đã rời nhóm của bạn. {1}</String>
         <String xml:lang="sr-RS">{0} je napustio vašu partiju. {1}</String>
+        <String xml:lang="es-ES">{0} ha dejado tu grupo. {1}</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152)) -->
@@ -1999,6 +2062,7 @@
         <String xml:lang="hi-Latn">{0} ko aapki party se nikaal diya gaya hai.</String>
         <String xml:lang="vi-VN">{0} đã bị đá khỏi nhóm của bạn.</String>
         <String xml:lang="sr-RS">{0} je izbačen iz vaše partije.</String>
+        <String xml:lang="es-ES">{0} ha sido expulsado de tu grupo.</String>
     </Entry>
 
     <!-- For bottom-left info boxes (timers etc..) (all upper case please) -->
@@ -2015,6 +2079,7 @@
         <String xml:lang="hi-Latn">BACHA HUA TIME</String>
         <String xml:lang="vi-VN">THỜI GIAN CÒN LẠI</String>
         <String xml:lang="sr-RS">VREME KOJEG OSTALO</String>
+        <String xml:lang="es-ES">TIEMPO RESTANTE</String>
     </Entry>
 
     <Entry Id="sendwaypoint_player_received">
@@ -2030,6 +2095,7 @@
         <String xml:lang="sv-SE">Du delade din ~p~waypoint ~s~med {0}.</String>
         <String xml:lang="vi-VN">Bạn đã chia sẻ ~p~điểm đánh dấu ~s~của bạn với {0}.</String>
         <String xml:lang="sr-RS">Vi ste podelili svoj ~p~waypoint ~s~sa {0}.</String>
+        <String xml:lang="es-ES">Ha compartido su ~p~waypoint ~s~con {0}.</String>
     </Entry>
 
     <Entry Id="sendgps_group_received">
@@ -2045,6 +2111,7 @@
         <String xml:lang="sv-SE">Du delade din ~y~position ~s~med ~y~{0} spelare~s~.</String>
         <String xml:lang="vi-VN">Bạn đã chia sẻ ~y~vị trí ~s~của bạn với ~y~{0} người chơi~s~.</String>
         <String xml:lang="sr-RS">Vi ste podelili svoju ~y~poziciju ~s~sa ~y~{0} igrača~s~.</String>
+        <String xml:lang="es-ES">Ha compartido su ~y~posición ~s~con ~y~{0} jugadores~s~.</String>
     </Entry>
 
     <Entry Id="sendwaypoint_group_received">
@@ -2060,6 +2127,7 @@
         <String xml:lang="fr-FR">Vous avez partagé votre ~p~point de repère ~s~avec ~y~{0} joueurs~s~.</String>
         <String xml:lang="vi-VN">Bạn đã chia sẻ ~p~điểm đánh dấu ~s~của bạn với ~y~{0} người chơi~s~.</String>
         <String xml:lang="sr-RS">Vi ste podelili svoj ~p~waypoint ~s~sa ~y~{0} igrača~s~.</String>
+        <String xml:lang="es-ES">Ha compartido su ~p~waypoint ~s~con ~y~{0} jugadores~s~.</String>
     </Entry>
 
     <Entry Id="gps_ignored">
@@ -2075,6 +2143,7 @@
         <String xml:lang="sv-SE">{0} accepterade inte din delade ~r~position~s~.</String>
         <String xml:lang="vi-VN">{0} đã không chấp nhận ~r~vị trí ~s~bạn chia sẻ.</String>
         <String xml:lang="sr-RS">{0} nije prihvatio vašu ~r~podeljenu poziciju~s~.</String>
+        <String xml:lang="es-ES">{0} no aceptó tu ~r~posición compartida~s~.</String>
     </Entry>
 
     <Entry Id="gps_accepted">
@@ -2090,6 +2159,7 @@
         <String xml:lang="fr-FR">{0} a accepté le partage de votre ~y~position~s~!</String>
         <String xml:lang="vi-VN">{0} đã chấp nhận ~y~vị trí~s~ bạn chia sẻ!</String>
         <String xml:lang="sr-RS">{0} je prihvatio vašu ~y~podeljenu poziciju~s~!</String>
+        <String xml:lang="es-ES">{0} ha aceptado tu ~y~posición compartida~s~!</String>
     </Entry>
 
     <!-- nullnull{0} = Player name (for example: Sasino)
@@ -2151,6 +2221,7 @@
         <String xml:lang="hi-Latn">Aap khud hi target player nahi ho sakte.</String>
         <String xml:lang="vi-VN">Người chơi bạn mời vào nhóm không thể là chính bạn.</String>
         <String xml:lang="sr-RS">Ciljani igrač ne može biti vi.</String>
+        <String xml:lang="es-ES">El jugador objetivo no puede ser usted mismo.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152))
@@ -2169,16 +2240,19 @@
         <String xml:lang="hi-Latn">{0} ne aapko apni ~y~party~s~ join karne ka invitation bheja hai. Accept karne ke liye ~b~/party-join {1} ~s~type karein.</String>
         <String xml:lang="vi-VN">{0} đã mời bạn tham gia ~y~nhóm~s~ của họ. Gõ ~b~/party-join {1} ~s~để chấp nhận.</String>
         <String xml:lang="sr-RS">{0} vas je pozvao da se pridružite svojoj ~y~partiji~s~. Ukucajte ~b~/party-join {1} ~s~da biste prihvatili poziv.</String>
+        <String xml:lang="es-ES">{0} te ha invitado a unirte a su ~y~grupo~s~. Escribe ~b~/party-join {1} ~s~para aceptar.</String>
     </Entry>
 
     <Entry Id="party_invite_accept_invite">
         <String xml:lang="en-US">Accept Invite</String>
         <String xml:lang="sr-RS">Prihvati poziv</String>
+        <String xml:lang="es-ES">Aceptar invitación</String>
     </Entry>
 
     <Entry Id="party_invite_accept_invite_hold">
         <String xml:lang="en-US">Accept Invite (hold)</String>
         <String xml:lang="sr-RS">Prihvati poziv (drži)</String>
+        <String xml:lang="es-ES">Aceptar invitación (mantener)</String>
     </Entry>
 
     <!-- ========================= -->
@@ -2195,6 +2269,7 @@
         <String xml:lang="id-ID">Minggu</String>
         <String xml:lang="vi-VN">Chủ nhật</String>
         <String xml:lang="sr-RS">Nedelja</String>
+        <String xml:lang="es-ES">Domingo</String>
     </Entry>
 
     <Entry Id="weekday_1">
@@ -2208,6 +2283,7 @@
         <String xml:lang="id-ID">Senin</String>
         <String xml:lang="vi-VN">Thứ hai</String>
         <String xml:lang="sr-RS">Ponedeljak</String>
+        <String xml:lang="es-ES">Lunes</String>
     </Entry>
 
     <Entry Id="weekday_2">
@@ -2221,6 +2297,7 @@
         <String xml:lang="id-ID">Selasa</String>
         <String xml:lang="vi-VN">Thứ ba</String>
         <String xml:lang="sr-RS">Utorak</String>
+        <String xml:lang="es-ES">Martes</String>
     </Entry>
 
     <Entry Id="weekday_3">
@@ -2234,6 +2311,7 @@
         <String xml:lang="id-ID">Rabu</String>
         <String xml:lang="vi-VN">Thứ tư</String>
         <String xml:lang="sr-RS">Sreda</String>
+        <String xml:lang="es-ES">Miércoles</String>
     </Entry>
 
     <Entry Id="weekday_4">
@@ -2247,6 +2325,7 @@
         <String xml:lang="id-ID">Kamis</String>
         <String xml:lang="vi-VN">Thứ năm</String>
         <String xml:lang="sr-RS">Četvrtak</String>
+        <String xml:lang="es-ES">Jueves</String>
     </Entry>
 
     <Entry Id="weekday_5">
@@ -2260,6 +2339,7 @@
         <String xml:lang="id-ID">Jumat</String>
         <String xml:lang="vi-VN">Thứ sáu</String>
         <String xml:lang="sr-RS">Petak</String>
+        <String xml:lang="es-ES">Viernes</String>
     </Entry>
 
     <Entry Id="weekday_6">
@@ -2273,6 +2353,7 @@
         <String xml:lang="id-ID">Sabtu</String>
         <String xml:lang="vi-VN">Thứ bảy</String>
         <String xml:lang="sr-RS">Subota</String>
+        <String xml:lang="es-ES">Sábado</String>
     </Entry>
 
     <Entry Id="party_desc">
@@ -2285,6 +2366,7 @@
         <String xml:lang="id-ID">Buka menu party.</String>
         <String xml:lang="vi-VN">Mở menu nhóm.</String>
         <String xml:lang="sr-RS">Otvara meni za partiju.</String>
+        <String xml:lang="es-ES">Abre el menú de grupo.</String>
     </Entry>
 
     <Entry Id="label_unavailable">
@@ -2295,6 +2377,7 @@
         <String xml:lang="vi-VN">KHÔNG CÓ SẴN</String>
         <String xml:lang="fr-FR">INDISPONIBLE</String>
         <String xml:lang="sr-RS">NEDOSTUPNO</String>
+        <String xml:lang="es-ES">NO DISPONIBLE</String>
     </Entry>
 
     <Entry Id="label_on">
@@ -2305,6 +2388,7 @@
         <String xml:lang="vi-VN">BẬT</String>
         <String xml:lang="fr-FR">MARCHE</String>
         <String xml:lang="sr-RS">UKLJUČENO</String>
+        <String xml:lang="es-ES">ENCENDIDO</String>
     </Entry>
 
     <Entry Id="label_off">
@@ -2315,6 +2399,7 @@
         <String xml:lang="vi-VN">TẮT</String>
         <String xml:lang="fr-FR">ARRÊT</String>
         <String xml:lang="sr-RS">ISKLJUČENO</String>
+        <String xml:lang="es-ES">APAGADO</String>
     </Entry>
 
     <Entry Id="label_open">
@@ -2325,6 +2410,7 @@
         <String xml:lang="vi-VN">MỞ</String>
         <String xml:lang="fr-FR">OUVERT</String>
         <String xml:lang="sr-RS">OTVORENO</String>
+        <String xml:lang="es-ES">ABIERTO</String>
     </Entry>
 
     <Entry Id="label_closed">
@@ -2335,6 +2421,7 @@
         <String xml:lang="vi-VN">ĐÓNG</String>
         <String xml:lang="fr-FR">FERMÉ</String>
         <String xml:lang="sr-RS">ZATVORENO</String>
+        <String xml:lang="es-ES">CERRADO</String>
     </Entry>
 
     <Entry Id="label_enabled">
@@ -2345,6 +2432,7 @@
         <String xml:lang="vi-VN">ĐÃ KÍCH HOẠT</String>
         <String xml:lang="fr-FR">ACTIVÉ</String>
         <String xml:lang="sr-RS">OMOGUĆENO</String>
+        <String xml:lang="es-ES">HABILITADO</String>
     </Entry>
 
     <Entry Id="label_disabled">
@@ -2355,5 +2443,6 @@
         <String xml:lang="vi-VN">VÔ HIỆU HÓA</String>
         <String xml:lang="fr-FR">DÉSACTIVÉ</String>
         <String xml:lang="sr-RS">ONEMOGUĆENO</String>
+        <String xml:lang="es-ES">DESHABILITADO</String>
     </Entry>
 </Entries>
