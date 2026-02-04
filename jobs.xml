@@ -7631,6 +7631,7 @@
         <String xml:lang="hi-Latn">Aapko deliveries menu dobara refresh karne se pehle ~r~wait ~s~karna hoga.</String>
         <String xml:lang="vi-VN">Bạn phải ~r~chờ ~s~trước khi làm mới lại menu giao hàng.</String>
         <String xml:lang="sr-RS">Morate ~r~čekati ~s~prije nego što ponovo osvježite meni dostave.</String>
+        <String xml:lang="es-ES">Debe ~r~esperar ~s~antes de actualizar el menú de repartos de nuevo.</String>
     </Entry>
 
     <!-- nullnull{0} = Player (for example: Stijnjw (152))
@@ -7640,7 +7641,7 @@
         <String xml:lang="en-US">You gave {0} a ~y~{1}~s~.</String>
         <String xml:lang="nl-NL">Je geeft {0} een ~y~{1}~s~.</String>
         <String xml:lang="pl-PL">Przekazałeś {0} ~y~{1}~s~.</String>
-        <String xml:lang="es-ES">Le diste a {0} un ~y~{1}~s~.</String>
+        <String xml:lang="es-ES">Le diste a {0} un/a ~y~{1}~s~.</String>
         <String xml:lang="pt-BR">Você deu a {0} um ~y~{1}~s~.</String>
         <String xml:lang="de-DE">Du hast {0} ein/e~y~{1}~s~.</String>
         <String xml:lang="id-ID">Anda memberikan {0} kepada ~y~{1}~s~.</String>
@@ -7662,7 +7663,7 @@
         <String xml:lang="en-US">{0} already has a ~y~{1}~s~.</String>
         <String xml:lang="nl-NL">{0} heeft al een ~y~{1}~s~.</String>
         <String xml:lang="pl-PL">{0} ma już ~y~{1}~s~.</String>
-        <String xml:lang="es-ES">{0} ya tiene un ~y~{1}~s~.</String>
+        <String xml:lang="es-ES">{0} ya tiene un/a ~y~{1}~s~.</String>
         <String xml:lang="pt-BR">{0} já tem um ~y~{1}~s~.</String>
         <String xml:lang="de-DE">{0} besitzt bereits ein/e ~y~{1}~s~.</String>
         <String xml:lang="id-ID">{0} sudah memiliki ~y~{1}~s~.</String>
@@ -7756,6 +7757,7 @@
         <String xml:lang="hi-Latn">Payout ke hisaab se sort kiya gaya</String>
         <String xml:lang="vi-VN">Sắp xếp theo số tiền nhận được</String>
         <String xml:lang="sr-RS">Sortirano po isplati</String>
+        <String xml:lang="es-ES">Ordenado por pago</String>
     </Entry>
 
     <!-- nullnull{0} = Time to await (for example: 5 minutes) -->
@@ -7772,6 +7774,7 @@
         <String xml:lang="hi-Latn">Aapko ~y~{0} ~s~wait karna hoga doosri delivery job lene se pehle.</String>
         <String xml:lang="vi-VN">Bạn phải đợi ~y~{0} ~s~trước khi nhận công việc giao hàng khác.</String>
         <String xml:lang="sr-RS">Morate ~y~{0} ~s~čekati pre nego što uzmete još jednu dostavu.</String>
+        <String xml:lang="es-ES">Debes esperar ~y~{0} ~s~antes de aceptar otro trabajo de entrega.</String>
     </Entry>
 
     <!-- nullnull{0} = Final destination name (for example: Downtown Los Santos) -->
@@ -7788,6 +7791,7 @@
         <String xml:lang="hi-Latn">{0} tak delivery</String>
         <String xml:lang="vi-VN">Giao hàng đến {0}</String>
         <String xml:lang="sr-RS">Dostava do {0}</String>
+        <String xml:lang="es-ES">Reparto a {0}</String>
     </Entry>
 
     <!-- nullnull{0} = Number of jobs (for example: 12)
@@ -7806,6 +7810,7 @@
         <String xml:lang="hi-Latn">Abhi ~y~{0} delivery jobs ~s~available hai. {1} delivery list kholne ke liye.</String>
         <String xml:lang="vi-VN">Hiện tại có ~y~{0} công việc giao hàng ~s~khả dụng. {1} để mở danh sách giao hàng.</String>
         <String xml:lang="sr-RS">Trenutno ima ~y~{0} dostava ~s~dostupnih. {1} za otvaranje liste dostava.</String>
+        <String xml:lang="es-ES">Hay ~y~{0} repartos ~s~disponibles en este momento. {1} para abrir la lista de repartos.</String>
     </Entry>
 
     <Entry Id="ddriver_already_on_job">
@@ -7821,6 +7826,7 @@
         <String xml:lang="hi-Latn">Aap already ek delivery job pe hai.</String>
         <String xml:lang="vi-VN">Bạn hiện đang làm công việc giao hàng.</String>
         <String xml:lang="sr-RS">Već ste na dostavi.</String>
+        <String xml:lang="es-ES">Ya está en un trabajo de reparto.</String>
     </Entry>
 
     <Entry Id="ddriver_job_no_longer_available">
@@ -7836,6 +7842,7 @@
         <String xml:lang="hi-Latn">Ye delivery job ab available nahi hai.</String>
         <String xml:lang="vi-VN">Nhiệm vụ giao hàng này đã hết hạn.</String>
         <String xml:lang="sr-RS">Ovaj posao dostave više nije dostupan.</String>
+        <String xml:lang="es-ES">Este trabajo de reparto ya no está disponible.</String>
     </Entry>
 
     <Entry Id="ddriver_job_pick_up_trailer">
@@ -7851,6 +7858,7 @@
         <String xml:lang="hi-Latn">Pick up karein ~y~trailer ~s~ek ~b~semi truck ~s~se.</String>
         <String xml:lang="vi-VN">Lấy ~y~rơ moóc ~s~bằng một chiếc ~b~xe đầu kéo~s~.</String>
         <String xml:lang="sr-RS">Pokupite ~y~prikolicu ~s~koristeći ~b~poluprikolica~s~.</String>
+        <String xml:lang="es-ES">Recoja el ~y~remolque ~s~usando un ~b~camión semi~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_truck_health">
@@ -7866,6 +7874,7 @@
         <String xml:lang="hi-Latn">TRUCK</String>
         <String xml:lang="vi-VN">XE TẢI</String>
         <String xml:lang="sr-RS">KAMION</String>
+        <String xml:lang="es-ES">CAMIÓN</String>
     </Entry>
 
     <Entry Id="ddriver_num_deliveries">
@@ -7881,6 +7890,7 @@
         <String xml:lang="hi-Latn">DELIVERIES</String>
         <String xml:lang="vi-VN">ĐƠN HÀNG</String>
         <String xml:lang="sr-RS">DOSTAVE</String>
+        <String xml:lang="es-ES">ENTREGAS</String>
     </Entry>
 
     <Entry Id="ddriver_job_park_truck_in_area">
@@ -7896,6 +7906,7 @@
         <String xml:lang="hi-Latn">~b~Truck~s~ ko ~y~marked area~s~ mein rokiye.</String>
         <String xml:lang="vi-VN">Dừng xe ~b~tải ~s~ở khu vực được ~y~đánh dấu~s~.</String>
         <String xml:lang="sr-RS">Zaustavite ~b~kamion ~s~u ~y~označenom području~s~.</String>
+        <String xml:lang="es-ES">Detenga el ~b~camión ~s~en el área ~y~marcada~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_park_trailer_in_area">
@@ -7911,6 +7922,7 @@
         <String xml:lang="hi-Latn">~b~Trailer~s~ ko ~y~marked area~s~ mein park karein.</String>
         <String xml:lang="vi-VN">Đỗ ~b~rơ-moóc ~s~vào khu vực được ~y~đánh dấu~s~.</String>
         <String xml:lang="sr-RS">Parkirajte ~b~prikolicu ~s~u ~y~označenom području~s~.</String>
+        <String xml:lang="es-ES">Aparque el ~b~remolque ~s~en el área ~y~marcada~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_deliver_package">
@@ -7926,6 +7938,7 @@
         <String xml:lang="hi-Latn">~b~Package~s~ deliver karein.</String>
         <String xml:lang="vi-VN">Giao ~b~gói hàng~s~.</String>
         <String xml:lang="sr-RS">Dostavite ~b~paket~s~.</String>
+        <String xml:lang="es-ES">Entregue el ~b~paquete~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_recover_vehicle">
@@ -7941,6 +7954,7 @@
         <String xml:lang="hi-Latn">~b~Delivery vehicle ~s~recover karien.</String>
         <String xml:lang="vi-VN">Khôi phục ~b~phương tiện giao hàng~s~.</String>
         <String xml:lang="sr-RS">Pokupite ~b~vozilo za dostavu~s~.</String>
+        <String xml:lang="es-ES">Recupere el ~b~vehículo de entrega~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_recover_package">
@@ -7956,6 +7970,7 @@
         <String xml:lang="hi-Latn">~y~Package ~s~recover karein ~b~delivery vehicle ~s~se.</String>
         <String xml:lang="vi-VN">Khôi phục ~y~gói hàng ~s~từ ~b~phương tiện giao hàng~s~.</String>
         <String xml:lang="sr-RS">Pokupite ~y~paket ~s~iz ~b~vozila za dostavu~s~.</String>
+        <String xml:lang="es-ES">Recupere el ~y~paquete ~s~del ~b~vehículo de entrega~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_detach_trailer">
@@ -7971,6 +7986,7 @@
         <String xml:lang="hi-Latn">~b~Trailer~s~ ko detach karein.</String>
         <String xml:lang="vi-VN">Tháo ~b~rơ-moóc~s~.</String>
         <String xml:lang="sr-RS">Odvojite ~b~prikolicu~s~.</String>
+        <String xml:lang="es-ES">Desacople el ~b~remolque~s~.</String>
     </Entry>
 
     <Entry Id="ddriver_job_canceled_by_user">
@@ -7986,6 +8002,7 @@
         <String xml:lang="hi-Latn">~r~Aapne ~s~delivery job ~r~cancel kiya hai.</String>
         <String xml:lang="vi-VN">~r~Bạn đã ~s~hủy ~r~nhiệm vụ giao hàng.</String>
         <String xml:lang="sr-RS">~r~Vi ste ~s~otkazali ~r~posao dostave.</String>
+        <String xml:lang="es-ES">~r~Ha ~s~cancelado ~r~el reparto.</String>
     </Entry>
 
     <Entry Id="ddriver_job_goods_destroyed">
@@ -8001,6 +8018,7 @@
         <String xml:lang="hi-Latn">~s~Samaan ~r~destroy ho gaye.</String>
         <String xml:lang="vi-VN">~r~Hàng hóa ~s~đã bị ~r~phá hủy.</String>
         <String xml:lang="sr-RS">~r~Ova ~s~roba ~r~je uništena.</String>
+        <String xml:lang="es-ES">~r~Los ~s~bienes ~r~han sido destruidos.</String>
     </Entry>
 
     <Entry Id="ddriver_job_goods_destroyed_not_covered">
@@ -8016,6 +8034,7 @@
         <String xml:lang="hi-Latn">~b~Insurance company ~s~ne aapki claim reject kar di hai</String>
         <String xml:lang="vi-VN">~b~Công ty bảo hiểm ~s~đã từ chối yêu cầu bồi thường của bạn.</String>
         <String xml:lang="sr-RS">~b~Osiguravajuća kompanija ~s~je odbila vaš zahtev</String>
+        <String xml:lang="es-ES">La ~b~compañía de seguros ~s~ha rechazado su reclamación.</String>
     </Entry>
 
     <Entry Id="ddriver_job_canceled_error">
@@ -8031,6 +8050,7 @@
         <String xml:lang="hi-Latn">~r~Delivery kisi error ki wajah se cancel ho gayi hai.</String>
         <String xml:lang="vi-VN">~r~Nhiệm vụ giao hàng đã bị hủy do lỗi.</String>
         <String xml:lang="sr-RS">~r~Dostava je otkazana zbog greške.</String>
+        <String xml:lang="es-ES">~r~La entrega ha sido cancelada debido a un error.</String>
     </Entry>
 
     <Entry Id="ddriver_job_goods_destroyed_by_player">
@@ -8045,6 +8065,7 @@
         <String xml:lang="it-IT">{0} ha ~r~distrutto~s~ la tua merce.</String>
         <String xml:lang="vi-VN">{0} ~r~đã phá hủy~s~ hàng hóa của bạn.</String>
         <String xml:lang="sr-RS">{0} je ~r~uništio~s~ vašu robu.</String>
+        <String xml:lang="es-ES">{0} ha ~r~destruido~s~ sus bienes.</String>
     </Entry>
 
     <Entry Id="hitman_target_selected_hint">
@@ -8060,6 +8081,7 @@
         <String xml:lang="hi-Latn">Apne ~r~target ~s~ke nearby location ko reveal karne ke liye kisi bhi ~y~payphone ~s~ka istemal karein.</String>
         <String xml:lang="vi-VN">Sử dụng bất kỳ ~y~điện thoại công cộng~s~ nào để phát hiện vị trí gần nhất của ~r~mục tiêu~s~.</String>
         <String xml:lang="sr-RS">Koristite bilo koji ~y~javni telefon~s~ da otkrijete lokaciju vašeg ~r~cilja~s~ u blizini.</String>
+        <String xml:lang="es-ES">Use cualquier ~y~teléfono público~s~ para revelar la ubicación cercana de su ~r~objetivo~s~.</String>
     </Entry>
 
     <Entry Id="hitman_payphone_cooldown">
@@ -8075,6 +8097,7 @@
         <String xml:lang="hi-Latn">Aapko ~y~payphone ~s~ko dobara use karne se pehle ~r~{0} seconds ~s~wait karna hoga.</String>
         <String xml:lang="vi-VN">Bạn cần chờ ~r~{0} giây ~s~trước khi sử dụng lại ~y~điện thoại công cộng~s~.</String>
         <String xml:lang="sr-RS">Morate sacekati ~r~{0} sekunde ~s~prenego što bi ste koristili ~y~telefon ~s~ponovo.</String>
+        <String xml:lang="es-ES">Tiene que esperar ~r~{0} segundos ~s~antes de usar de nuevo un ~y~teléfono público~s~.</String>
     </Entry>
 
     <!-- Shown at the bottom as mission text / subtitle
@@ -8093,6 +8116,7 @@
         <String xml:lang="hi-Latn">Jaayein ~y~{0} ~s~aur drop off karein ~b~samaan~s~.</String>
         <String xml:lang="vi-VN">Đi đến ~y~{0} ~s~và giao ~b~hàng hóa~s~.</String>
         <String xml:lang="sr-RS">Idite do ~y~{0} ~s~i istovarite ~b~robu~s~.</String>
+        <String xml:lang="es-ES">Vaya a ~y~{0} ~s~y entregue las ~b~mercancías~s~.</String>
     </Entry>
 
     <!-- nullnull{0} = Area name (for example: Downtown Los Santos) -->
@@ -8109,6 +8133,7 @@
         <String xml:lang="hi-Latn">Jaayein ~y~{0} ~s~aur deliver karein agla ~b~package~s~.</String>
         <String xml:lang="vi-VN">Đi đến ~y~{0} ~s~và giao ~b~gói hàng~s~tiếp theo.</String>
         <String xml:lang="sr-RS">Idite do ~y~{0} ~s~i isporučite sledeći ~b~paket~s~.</String>
+        <String xml:lang="es-ES">Vaya a ~y~{0} ~s~y entregue el siguiente ~b~paquete~s~.</String>
     </Entry>
 
     <!-- Shown at the bottom right as a box with a health bar (please all uppercase) -->
@@ -8125,6 +8150,7 @@
         <String xml:lang="hi-Latn">TRAILER</String>
         <String xml:lang="vi-VN">RƠ-MOÓC</String>
         <String xml:lang="sr-RS">PRIKOLICA</String>
+        <String xml:lang="es-ES">REMOLQUE</String>
     </Entry>
 
     <!-- nullnull{0} = Type of truck (for example: semi truck) -->
