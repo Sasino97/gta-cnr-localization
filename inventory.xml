@@ -4199,4 +4199,376 @@
         <String xml:lang="it-IT">Dovete ~r~aspettare ~s~{0} secondi prima di usare un'altro ~p~{1}~s~.</String>
         <String xml:lang="tr-TR">Başka bir ~p~{1} ~s~kullanmadan önce {0} saniye ~r~bekle~s~.</String>
     </Entry>
+
+    <!-- ================================= -->
+    <!-- ========= STORAGE MENU ========== -->
+    <!-- ================================= -->
+    <Entry Id="storage_main_menu_title">
+        <String xml:lang="en-US">Storage</String>
+    </Entry>
+
+    <Entry Id="storage_main_menu_description">
+        <String xml:lang="en-US">Manage your storage</String>
+    </Entry>
+
+    <Entry Id="storage_put_menu_item_text">
+        <String xml:lang="en-US">Put items in</String>
+    </Entry>
+    <Entry Id="storage_put_menu_item_description">
+        <String xml:lang="en-US">Put items in your storage.</String>
+    </Entry>
+    <Entry Id="storage_take_menu_item_text">
+        <String xml:lang="en-US">Take items out</String>
+    </Entry>
+
+    <Entry Id="storage_take_menu_item_description">
+        <String xml:lang="en-US">Take items out of your storage.</String>
+    </Entry>
+
+    <Entry Id="storage_put_sub_menu_title">
+        <String xml:lang="en-US">Storage</String>
+    </Entry>
+
+    <Entry Id="storage_put_sub_menu_description">
+        <String xml:lang="en-US">Put items in storage</String>
+    </Entry>
+
+    <Entry Id="storage_take_sub_menu_title">
+        <String xml:lang="en-US">Storage</String>
+    </Entry>
+
+    <Entry Id="storage_take_sub_menu_description">
+        <String xml:lang="en-US">Take items out of storage</String>
+    </Entry>
+
+    <Entry Id="storage_inventory_label">
+        <String xml:lang="en-US">Inventory</String>
+    </Entry>
+
+    <Entry Id="storage_inventory_description">
+        <String xml:lang="en-US">Items from your inventory</String>
+    </Entry>
+
+    <Entry Id="storage_stock_label">
+        <String xml:lang="en-US">Stock</String>
+    </Entry>
+
+    <Entry Id="storage_stock_description">
+        <String xml:lang="en-US">Items from your stock menu</String>
+    </Entry>
+
+    <Entry Id="storage_stock_warning">
+        <String xml:lang="en-US">~y~Warning: ~s~only compatible items will be shown.</String>
+    </Entry>
+
+    <Entry Id="storage_put_action_label">
+        <String xml:lang="en-US">Put</String>
+    </Entry>
+
+    <Entry Id="storage_take_action_label">
+        <String xml:lang="en-US">Take</String>
+    </Entry>
+
+    <Entry Id="storage_container_display_name">
+        <String xml:lang="en-US">storage</String>
+    </Entry>
+
+    <Entry Id="storage_container_display_name_capitalized">
+        <String xml:lang="en-US">Storage</String>
+    </Entry>
+
+    <Entry Id="storage_put_inventory_to_container_description">
+        <String xml:lang="en-US">Put items from your inventory into your storage.</String>
+    </Entry>
+
+    <Entry Id="storage_put_stock_to_container_description">
+        <String xml:lang="en-US">Put items from your stock menu into your storage.</String>
+    </Entry>
+
+    <Entry Id="storage_take_container_to_inventory_description">
+        <String xml:lang="en-US">Put storage items into your inventory.</String>
+    </Entry>
+
+    <Entry Id="storage_take_container_to_stock_description">
+        <String xml:lang="en-US">Put storage items into your stock menu.</String>
+    </Entry>
+
+    <Entry Id="storage_inventory_to_container_menu_subtitle">
+        <String xml:lang="en-US">Inventory &gt; Storage</String>
+    </Entry>
+
+    <Entry Id="storage_stock_to_container_menu_subtitle">
+        <String xml:lang="en-US">Stock &gt; Storage</String>
+    </Entry>
+
+    <Entry Id="storage_container_to_inventory_menu_subtitle">
+        <String xml:lang="en-US">Storage &gt; Inventory</String>
+    </Entry>
+
+    <Entry Id="storage_container_to_stock_menu_subtitle">
+        <String xml:lang="en-US">Storage &gt; Stock</String>
+    </Entry>
+
+    <Entry Id="storage_cannot_move_item_into_container_message">
+        <String xml:lang="en-US">You cannot ~r~move ~s~this item into storage.</String>
+    </Entry>
+
+    <Entry Id="storage_cannot_move_item_out_of_container_message">
+        <String xml:lang="en-US">You cannot ~r~move ~s~this item out of storage.</String>
+    </Entry>
+
+    <Entry Id="storage_put_amount_prompt_title">
+        <String xml:lang="en-US">Amount</String>
+    </Entry>
+
+    <Entry Id="storage_put_amount_prompt_description">
+        <String xml:lang="en-US">Enter the amount to put in storage.</String>
+    </Entry>
+
+    <Entry Id="storage_take_amount_prompt_title">
+        <String xml:lang="en-US">Amount</String>
+    </Entry>
+
+    <Entry Id="storage_take_amount_prompt_description">
+        <String xml:lang="en-US">Enter the amount to take from storage.</String>
+    </Entry>
+
+    <Entry Id="storage_not_enough_space_in_container_message">
+        <String xml:lang="en-US">~r~There's not enough space left in storage!</String>
+    </Entry>
+
+    <Entry Id="storage_insufficient_amount_message">
+        <String xml:lang="en-US">~r~You don't have that amount of this item!</String>
+    </Entry>
+
+    <Entry Id="storage_limit_reached_message">
+        <String xml:lang="en-US">~r~You can't hold that many of this item!</String>
+    </Entry>
+
+    <Entry Id="storage_cannot_move_item_in_or_out_of_container_message">
+        <String xml:lang="en-US">~r~This item cannot be put in or taken out of storage!</String>
+    </Entry>
+
+    <!-- {0} - job name -->
+    <Entry Id="storage_cannot_move_item_from_stock_inventory_message">
+        <String xml:lang="en-US">~r~This item cannot be taken from your {0} stock inventory!</String>
+    </Entry>
+
+    <Entry Id="storage_cannot_move_item_to_stock_inventory_message">
+        <String xml:lang="en-US">~r~This item cannot be put into your {0} stock inventory!</String>
+    </Entry>
+
+    <Entry Id="storage_put_item_success_message">
+        <String xml:lang="en-US">You put {0} ~p~{1} ~s~in your storage.</String>
+    </Entry>
+
+    <Entry Id="storage_take_item_success_message">
+        <String xml:lang="en-US">You took {0} ~p~{1} ~s~from your storage.</String>
+    </Entry>
+
+    <!-- ================================= -->
+    <!-- ==== WAREHOUSE STORAGE MENU  ==== -->
+    <!-- ================================= -->
+    <Entry Id="storage_wh_main_menu_title">
+        <String xml:lang="en-US">Warehouse</String>
+    </Entry>
+
+    <Entry Id="storage_wh_main_menu_description">
+        <String xml:lang="en-US">Manage your warehouse</String>
+    </Entry>
+
+    <Entry Id="storage_wh_put_menu_item_description">
+        <String xml:lang="en-US">Put items in your warehouse.</String>
+    </Entry>
+
+    <Entry Id="storage_wh_take_menu_item_description">
+        <String xml:lang="en-US">Take items out of your warehouse.</String>
+    </Entry>
+
+    <Entry Id="storage_wh_put_sub_menu_title">
+        <String xml:lang="en-US">Warehouse</String>
+    </Entry>
+
+    <Entry Id="storage_wh_put_sub_menu_description">
+        <String xml:lang="en-US">Put items in warehouse</String>
+    </Entry>
+
+    <Entry Id="storage_wh_take_sub_menu_title">
+        <String xml:lang="en-US">Warehouse</String>
+    </Entry>
+
+    <Entry Id="storage_wh_take_sub_menu_description">
+        <String xml:lang="en-US">Take items out of warehouse</String>
+    </Entry>
+
+    <Entry Id="storage_wh_container_display_name">
+        <String xml:lang="en-US">warehouse</String>
+    </Entry>
+
+    <Entry Id="storage_wh_container_display_name_capitalized">
+        <String xml:lang="en-US">Warehouse</String>
+    </Entry>
+
+    <Entry Id="storage_wh_put_inventory_to_container_description">
+        <String xml:lang="en-US">Put items from your inventory into your warehouse.</String>
+    </Entry>
+
+    <Entry Id="storage_wh_put_stock_to_container_description">
+        <String xml:lang="en-US">Put items from your stock menu into your warehouse.</String>
+    </Entry>
+
+    <Entry Id="storage_wh_take_container_to_inventory_description">
+        <String xml:lang="en-US">Put warehouse items into your inventory.</String>
+    </Entry>
+
+    <Entry Id="storage_wh_take_container_to_stock_description">
+        <String xml:lang="en-US">Put warehouse items into your stock menu.</String>
+    </Entry>
+
+    <Entry Id="storage_wh_inventory_to_container_menu_subtitle">
+        <String xml:lang="en-US">Inventory &gt; Warehouse</String>
+    </Entry>
+
+    <Entry Id="storage_wh_stock_to_container_menu_subtitle">
+        <String xml:lang="en-US">Stock &gt; Warehouse</String>
+    </Entry>
+
+    <Entry Id="storage_wh_container_to_inventory_menu_subtitle">
+        <String xml:lang="en-US">Warehouse &gt; Inventory</String>
+    </Entry>
+
+    <Entry Id="storage_wh_container_to_stock_menu_subtitle">
+        <String xml:lang="en-US">Warehouse &gt; Stock</String>
+    </Entry>
+
+    <Entry Id="storage_wh_cannot_move_item_into_container_message">
+        <String xml:lang="en-US">You cannot ~r~move ~s~this item into warehouse.</String>
+    </Entry>
+
+    <Entry Id="storage_wh_cannot_move_item_out_of_container_message">
+        <String xml:lang="en-US">You cannot ~r~move ~s~this item out of warehouse.</String>
+    </Entry>
+
+    <Entry Id="storage_wh_put_amount_prompt_description">
+        <String xml:lang="en-US">Enter the amount to put in warehouse.</String>
+    </Entry>
+
+    <Entry Id="storage_wh_take_amount_prompt_description">
+        <String xml:lang="en-US">Enter the amount to take from warehouse.</String>
+    </Entry>
+
+    <Entry Id="storage_wh_not_enough_space_in_container_message">
+        <String xml:lang="en-US">There's not enough space left in warehouse!</String>
+    </Entry>
+
+    <Entry Id="storage_wh_put_item_success_message">
+        <String xml:lang="en-US">You put {0} ~p~{1} ~s~in your warehouse.</String>
+    </Entry>
+
+    <Entry Id="storage_wh_take_item_success_message">
+        <String xml:lang="en-US">You took {0} ~p~{1} ~s~from your warehouse.</String>
+    </Entry>
+
+    <!-- ================================= -->
+    <!-- ======= TRUNK STORAGE MENU ====== -->
+    <!-- ================================= -->
+    <Entry Id="storage_trk_main_menu_title">
+        <String xml:lang="en-US">Trunk</String>
+    </Entry>
+
+    <Entry Id="storage_trk_main_menu_description">
+        <String xml:lang="en-US">Manage your trunk</String>
+    </Entry>
+
+    <Entry Id="storage_trk_put_menu_item_description">
+        <String xml:lang="en-US">Put items in your trunk.</String>
+    </Entry>
+
+    <Entry Id="storage_trk_take_menu_item_description">
+        <String xml:lang="en-US">Take items out of your trunk.</String>
+    </Entry>
+
+    <Entry Id="storage_trk_put_sub_menu_title">
+        <String xml:lang="en-US">Trunk</String>
+    </Entry>
+
+    <Entry Id="storage_trk_put_sub_menu_description">
+        <String xml:lang="en-US">Put items in trunk</String>
+    </Entry>
+
+    <Entry Id="storage_trk_take_sub_menu_title">
+        <String xml:lang="en-US">Trunk</String>
+    </Entry>
+
+    <Entry Id="storage_trk_take_sub_menu_description">
+        <String xml:lang="en-US">Take items out of trunk</String>
+    </Entry>
+
+    <Entry Id="storage_trk_container_display_name">
+        <String xml:lang="en-US">trunk</String>
+    </Entry>
+
+    <Entry Id="storage_trk_container_display_name_capitalized">
+        <String xml:lang="en-US">Trunk</String>
+    </Entry>
+
+    <Entry Id="storage_trk_put_inventory_to_container_description">
+        <String xml:lang="en-US">Put items from your inventory into your trunk.</String>
+    </Entry>
+
+    <Entry Id="storage_trk_put_stock_to_container_description">
+        <String xml:lang="en-US">Put items from your stock menu into your trunk.</String>
+    </Entry>
+
+    <Entry Id="storage_trk_take_container_to_inventory_description">
+        <String xml:lang="en-US">Put trunk items into your inventory.</String>
+    </Entry>
+
+    <Entry Id="storage_trk_take_container_to_stock_description">
+        <String xml:lang="en-US">Put trunk items into your stock menu.</String>
+    </Entry>
+
+    <Entry Id="storage_trk_inventory_to_container_menu_subtitle">
+        <String xml:lang="en-US">Inventory &gt; Trunk</String>
+    </Entry>
+
+    <Entry Id="storage_trk_stock_to_container_menu_subtitle">
+        <String xml:lang="en-US">Stock &gt; Trunk</String>
+    </Entry>
+
+    <Entry Id="storage_trk_container_to_inventory_menu_subtitle">
+        <String xml:lang="en-US">Trunk &gt; Inventory</String>
+    </Entry>
+
+    <Entry Id="storage_trk_container_to_stock_menu_subtitle">
+        <String xml:lang="en-US">Trunk &gt; Stock</String>
+    </Entry>
+
+    <Entry Id="storage_trk_cannot_move_item_into_container_message">
+        <String xml:lang="en-US">You cannot ~r~move ~s~this item into trunk.</String>
+    </Entry>
+
+    <Entry Id="storage_trk_cannot_move_item_out_of_container_message">
+        <String xml:lang="en-US">You cannot ~r~move ~s~this item out of trunk.</String>
+    </Entry>
+
+    <Entry Id="storage_trk_put_amount_prompt_description">
+        <String xml:lang="en-US">Enter the amount to put in trunk.</String>
+    </Entry>
+
+    <Entry Id="storage_trk_take_amount_prompt_description">
+        <String xml:lang="en-US">Enter the amount to take from trunk.</String>
+    </Entry>
+
+    <Entry Id="storage_trk_not_enough_space_in_container_message">
+        <String xml:lang="en-US">There's not enough space left in trunk!</String>
+    </Entry>
+
+    <Entry Id="storage_trk_put_item_success_message">
+        <String xml:lang="en-US">You put {0} ~p~{1} ~s~in your trunk.</String>
+    </Entry>
+
+    <Entry Id="storage_trk_take_item_success_message">
+        <String xml:lang="en-US">You took {0} ~p~{1} ~s~from your trunk.</String>
+    </Entry>
 </Entries>
