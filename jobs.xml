@@ -620,7 +620,7 @@
         <String xml:lang="sv-SE">~r~Säljaren har inte den certifiering som krävs för att tillhandahålla ~s~{0} ~r~tjänsten!</String>
         <String xml:lang="no-NO">~r~Selgeren har ikke den nødvendige sertifiseringen for å levere ~s~{0} ~r~tjenesten!</String>
         <String xml:lang="fr-FR">~r~Le vendeur n'est pas certifié pour fournir le ~s~{0} ~r~service!</String>
-        <String xml:lang="srRS">~r~Prodavac nema potrebnu sertifikaciju da pruži ~s~{0} ~r~uslugu!</String>
+        <String xml:lang="sr-RS">~r~Prodavac nema potrebnu sertifikaciju da pruži ~s~{0} ~r~uslugu!</String>
     </Entry>
 
     <Entry Id="stp_seller_updated_prices">
@@ -2272,7 +2272,7 @@
         <String xml:lang="fr-FR">~r~Votre tentative de réanimation a échoué.</String>
         <String xml:lang="sv-SE">~r~Ditt återupplivs försök har misslyckats.</String>
         <String xml:lang="vi-VN">~r~Nỗ lực hồi sức của bạn đã thất bại.</String>
-        <String xml:lang="srrs">~r~Vaš pokušaj oživljavanja nije uspio.</String>
+        <String xml:lang="sr-RS">~r~Vaš pokušaj oživljavanja nije uspio.</String>
     </Entry>
 
     <Entry Id="paramedic_npc_loss">
@@ -5043,7 +5043,7 @@
         <String xml:lang="es-ES">Un ~b~policía ~s~puede usar fuerza letal...</String>
         <String xml:lang="pt-BR">Um ~b~policial ~s~pode usar força letal...</String>
         <String xml:lang="vi-VN">Một ~b~cảnh sát ~s~có thể sử dụng vũ lực gây chết người...</String>
-        <String xml:lang="rs-RS">~b~Policajac ~s~može koristiti smrtonosnu silu...</String>
+        <String xml:lang="sr-RS">~b~Policajac ~s~može koristiti smrtonosnu silu...</String>
         <String xml:lang="tr-TR">~b~Polis ~s~şu durumlarda ölümcül güç kullanabilir...</String>
     </Entry>
 
@@ -7125,7 +7125,7 @@
         <String xml:lang="fr-FR">BUTIN</String>
         <String xml:lang="no-NO">TA</String>
         <String xml:lang="sv-SE">TA</String>
-        <String xml:lang="es-ES">LLEVAR</String>
+        <String xml:lang="es-ES">BOTÍN</String>
         <String xml:lang="pt-BR">LEVAR</String>
         <String xml:lang="vi-VN">PHẦN LẤY ĐƯỢC</String>
         <String xml:lang="sr-RS">PLENIDBA</String>
@@ -7323,7 +7323,7 @@
         <String xml:lang="no-NO">Knekk</String>
         <String xml:lang="fr-FR">Forcer</String>
         <String xml:lang="sv-SE">Knäck</String>
-        <String xml:lang="es-ES">Perforar</String>
+        <String xml:lang="es-ES">Forzar</String>
         <String xml:lang="pt-BR">Perfuração</String>
         <String xml:lang="vi-VN">Phá</String>
         <String xml:lang="sr-RS">Provali</String>
@@ -8588,6 +8588,7 @@
         <String xml:lang="en-US">{0} has delivered {1} and earned {2}.</String>
         <String xml:lang="it-IT">{0} ha consegnato {1} e guadagnato {2}.</String>
         <String xml:lang="es-ES">{0} ha entregado {1} y ganado {2}.</String>
+        <String xml:lang="de-DE">{0} hat {1} geliefert und {2} verdient.</String>
     </Entry>
 
     <!-- nullnull{0} = Amount charged (for example: $500,000) -->
@@ -8646,200 +8647,250 @@
 
     <Entry Id="ddriver_cargo_parcel">
         <String xml:lang="en-US">Parcel</String>
+        <String xml:lang="de-DE">Paket</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_gasoline">
         <String xml:lang="en-US">Gasoline</String>
+        <String xml:lang="de-DE">Kraftstoff</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_cocaine">
         <String xml:lang="en-US">Cocaine</String>
+        <String xml:lang="de-DE">Kokain</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_heroin">
         <String xml:lang="en-US">Heroin</String>
+        <String xml:lang="de-DE">Heroin</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_meth">
         <String xml:lang="en-US">Meth</String>
+        <String xml:lang="de-DE">Meth</String>
+
     </Entry>
 
     <Entry Id="ddriver_cargo_fentanyl">
         <String xml:lang="en-US">Fentanyl</String>
+        <String xml:lang="de-DE">Fentanyl</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_blue_meth">
         <String xml:lang="en-US">Blue Meth</String>
+        <String xml:lang="de-DE">Blaues Meth</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_crack">
         <String xml:lang="en-US">Crack Cocaine</String>
+        <String xml:lang="de-DE">Crack Kokain</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_illegal_weapons">
         <String xml:lang="en-US">Illegal Weapons</String>
+        <String xml:lang="de-DE">Illegale Waffen</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_illegal_ammo">
         <String xml:lang="en-US">Illegal Ammo</String>
+        <String xml:lang="de-DE">Illegale Munition</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_bombs">
         <String xml:lang="en-US">Bombs</String>
+        <String xml:lang="de-DE">Bomben</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_dirty_cash">
         <String xml:lang="en-US">Dirty Cash</String>
+        <String xml:lang="de-DE">Schwarzgeld</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_humans">
         <String xml:lang="en-US">People</String>
+        <String xml:lang="de-DE">Leute</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_dead_bodies">
         <String xml:lang="en-US">Dead Bodies</String>
+        <String xml:lang="de-DE">Leichen</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_hacking_devices">
         <String xml:lang="en-US">Hacking Devices</String>
+        <String xml:lang="de-DE">Hacking Geräte</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_nuclear">
         <String xml:lang="en-US">Nuclear Weapons</String>
+        <String xml:lang="de-DE">Atomwaffen</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_uranium">
         <String xml:lang="en-US">Enriched Uranium</String>
+        <String xml:lang="de-DE">Anreichertes Uran</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_island_files">
         <String xml:lang="en-US">Cayo Perico Files</String>
+        <String xml:lang="de-DE">Cayo Perico Akten</String>
     </Entry>
 
 
 
     <Entry Id="ddriver_cargo_corn">
         <String xml:lang="en-US">Corn</String>
+        <String xml:lang="de-DE">Mais</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_wheat">
         <String xml:lang="en-US">Wheat</String>
+        <String xml:lang="de-DE">Weizen</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_tomatoes">
         <String xml:lang="en-US">Tomatoes</String>
+        <String xml:lang="de-DE">Tomaten</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_potatos">
-        <String xml:lang="en-US">Potatoes</String>
+        <String xml:lang="en-US">Potatos</String>
+        <String xml:lang="de-DE">Kartoffeln</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_lettuce">
         <String xml:lang="en-US">Lettuce</String>
+        <String xml:lang="de-DE">Salat</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_milk">
         <String xml:lang="en-US">Milk</String>
+        <String xml:lang="de-DE">Milch</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_beer">
         <String xml:lang="en-US">Beer</String>
+        <String xml:lang="de-DE">Bier</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_bottled_water">
         <String xml:lang="en-US">Bottled Water</String>
+        <String xml:lang="de-DE">Flaschenwasser</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_soda">
         <String xml:lang="en-US">Soda</String>
+        <String xml:lang="de-DE">Limonade</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_chemical_equipment">
         <String xml:lang="en-US">Chemical Equipment</String>
+        <String xml:lang="de-DE">Chemische Ausrüstung</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_wagyu_beef">
         <String xml:lang="en-US">Wagyu Beef</String>
+        <String xml:lang="de-DE">Wagyu Fleisch</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_frozen_salmon">
         <String xml:lang="en-US">Frozen Salmon</String>
+        <String xml:lang="de-DE">Gefrorener Lachs</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_canned_tuna">
         <String xml:lang="en-US">Canned Tuna</String>
+        <String xml:lang="de-DE">Dosen Thunfisch</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_goat_meat">
         <String xml:lang="en-US">Goat Meat</String>
+        <String xml:lang="de-DE">Ziegenfleisch</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_poultry">
         <String xml:lang="en-US">Poultry</String>
+        <String xml:lang="de-DE">Geflügel</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_yoghurt">
         <String xml:lang="en-US">Yoghurt</String>
+        <String xml:lang="de-DE">Joghurt</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_prescription_drugs">
         <String xml:lang="en-US">Prescription Drugs</String>
+        <String xml:lang="de-DE">Verschreibungspflichtige Medikamente</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_tvs">
         <String xml:lang="en-US">OLED TVs</String>
+        <String xml:lang="de-DE">OLED-TV</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_soundbars">
         <String xml:lang="en-US">Soundbars</String>
+        <String xml:lang="de-DE">Soundbars</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_coffee">
         <String xml:lang="en-US">Coffee Beans</String>
+        <String xml:lang="de-DE">Kaffeebohnen</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_fruit_juice">
         <String xml:lang="en-US">Fruit Juice</String>
+        <String xml:lang="de-DE">Fruchtsaft</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_snacks">
         <String xml:lang="en-US">Snacks</String>
+        <String xml:lang="de-DE">Snacks</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_laptops">
         <String xml:lang="en-US">Laptops</String>
+        <String xml:lang="de-DE">Laptops</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_washing_machines">
         <String xml:lang="en-US">Washing Machines</String>
+        <String xml:lang="de-DE">Waschmaschinen</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_dishwashers">
         <String xml:lang="en-US">Dishwashers</String>
+        <String xml:lang="de-DE">Geschirrspüler</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_indian_spices">
         <String xml:lang="en-US">Indian Spices</String>
+        <String xml:lang="de-DE">Indische Gewürze</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_chinese_lobsters">
         <String xml:lang="en-US">Chinese Lobsters</String>
+        <String xml:lang="de-DE">Chinesischer Hummer</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_cooking_oil">
         <String xml:lang="en-US">Cooking Oil</String>
+        <String xml:lang="de-DE">Speiseöl</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_peanut_butter">
         <String xml:lang="en-US">Peanut Butter</String>
+        <String xml:lang="de-DE">Erdnussbutter</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_bread">
         <String xml:lang="en-US">Bread</String>
+        <String xml:lang="de-DE">Brot</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_eggs">
         <String xml:lang="en-US">Chicken Eggs</String>
+        <String xml:lang="de-DE">Hühnereier</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_aimbot">
@@ -8849,26 +8900,32 @@
 
     <Entry Id="ddriver_cargo_sasino_salad">
         <String xml:lang="en-US">Sasino Salads™</String>
+        <String xml:lang="de-DE">Sasino Salate™</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_67">
         <String xml:lang="en-US">"6-7"</String>
+        <String xml:lang="de-DE">"6-7"</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_chads">
         <String xml:lang="en-US">Gigachads</String>
+        <String xml:lang="de-DE">Gigachads</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_sigmas">
         <String xml:lang="en-US">Sigmas</String>
+        <String xml:lang="de-DE">Sigmas</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_securityguard92">
         <String xml:lang="en-US">SecurityGuard92</String>
+        <String xml:lang="de-DE">SecurityGuard92</String>
     </Entry>
 
     <Entry Id="ddriver_cargo_your_mom">
         <String xml:lang="en-US">Your Mom™</String>
+        <String xml:lang="de-DE">Deine Mutter™</String>
     </Entry>
 
     <!-- nullnull{0} = Name (id) of the target, including colors (for example: ~r~Stijnjw ~s~(152)) -->
