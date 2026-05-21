@@ -320,20 +320,7 @@
     </Entry>
     
     <Entry Id="business_hacker">
-        <String xml:lang="en-US">Lester's House</String>
-        <String xml:lang="de-DE">Lesters Haus</String>
-        <String xml:lang="nl-NL">Lesters Huis</String>
-        <String xml:lang="it-IT">Casa di Lester</String>
-        <String xml:lang="id-ID">Rumah Lester</String>
-        <String xml:lang="fr-FR">Maison de Lester</String>
-        <String xml:lang="zh-Hant">萊斯特的家</String>
-        <String xml:lang="lv-LV">Lestera māja</String>
-        <String xml:lang="vi-VN">Nhà của Lester</String>
-        <String xml:lang="es-ES">Casa de Lester</String>
-        <String xml:lang="sr-RS">Lesterova kuća</String>
-        <String xml:lang="ga-IE">Teach Lesters</String>
-        <String xml:lang="et-EE">Lesteri maja</String>
-        <String xml:lang="tr-TR">Lester'ın Evi</String>
+        <String xml:lang="en-US">Hacker</String>
     </Entry>
     
     <Entry Id="business_factory">
@@ -3662,16 +3649,6 @@
         <String xml:lang="et-EE">~y~Sa pead olema modifitseerimispoes.</String>
     </Entry>
 
-    <!-- {0} is one of the types defined in jobs.xml for example in string "mechanic_work_area_type_bodywork" -->
-    <Entry Id="stp_service_error_work_area">
-        <String xml:lang="en-US">~y~You must be at a ~b~{0} ~s~work area.</String>
-        <String xml:lang="de-DE">~y~Du musst dich im ~b~{0} ~s~Arbeitsbereich befinden.</String>
-        <String xml:lang="es-ES">~y~Tiene que estar en ~s~el area de trabajo de ~b~{0}~s~.</String>
-        <String xml:lang="sr-RS">~y~Morate biti u ~b~{0} ~s~radnom području.</String>
-        <String xml:lang="ga-IE">~y~Níl tú i dtír oibre ~b~{0} ~s~</String>
-        <String xml:lang="et-EE">~y~Sa pead olema ~b~{0} ~s~tööalas.</String>
-    </Entry>
-
     <Entry Id="stp_service_error_wanted">
         <String xml:lang="en-US">~y~You cannot purchase this item when you have an arrest warrant.</String>
         <String xml:lang="nl-NL">~y~Je kan dit voorwerp niet kopen wanneer je gezocht bent.</String>
@@ -5683,5 +5660,21 @@
         <String xml:lang="ga-IE">Tá an mhír seo faoi ghlas do chomhghleacaithe premium.</String>
         <String xml:lang="et-EE">See ese on reserveeritud premium-liikmetele.</String>
         <String xml:lang="tr-TR">Bu eşya yalnızca premium üyeler için.</String>
+    </Entry>
+    
+    <Entry Id="floating_text_lsia_welcome">
+        <String xml:lang="en-US">To buy a ~y~ticket~s~, visit the check-in desks to the left and to the right.</String>
+    </Entry>
+    
+    <Entry Id="floating_text_lsia_departures">
+        <String xml:lang="en-US">Once you have a ticket, proceed to ~b~Departures ~s~to board your plane.</String>
+    </Entry>
+    
+    <Entry Id="floating_text_lsia_sec">
+        <String xml:lang="en-US">I hope you don't mind having to go through a quick ~b~security check~s~.</String>
+    </Entry>
+    
+    <Entry Id="floating_text_lsia_gate">
+        <String xml:lang="en-US">The ~y~boarding gate ~s~is to the left. Feel free to visit the ~b~shops ~s~first.</String>
     </Entry>
 </Entries>

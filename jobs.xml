@@ -1084,13 +1084,9 @@
         <String xml:lang="tr-TR">~r~Aracınla ilgilenebilecek gerçek oyuncular mevcut. Lütfen, bir oyuncuya yaklaş ve hizmet listesini incele.</String>
     </Entry>
 
-    <!-- {0} = Type of work area, for example Bodywork or Respray -->
+    <!-- {0} = Number of work area, e.g. #1, #2-->
     <Entry Id="mechanic_entered_work_area">
-        <String xml:lang="en-US">You entered a ~b~work area ~s~({0}). Players can buy vehicle ~y~services ~s~from you here.</String>
-        <String xml:lang="es-ES">Ha accedido a un ~b~área de trabajo de ~s~({0}). Los jugadores pueden comprar ~y~servicios ~s~para su vehiculo desde aquí.</String>
-        <String xml:lang="sr-RS">Ušli ste u ~b~radno mesto ~s~({0}). Igrači mogu kupovati ~y~usluge ~s~za vaše vozilo od vas ovde.</String>
-        <String xml:lang="de-DE">Du bist in einem ~b~Arbeitsbereich~s~ ({0}) eingetreten. Spieler können hier Fahrzeug ~y~Dienstleistungen~s~ von dir kaufen.</String>
-        <String xml:lang="tr-TR">({0}) ~b~çalışma alanı~s~na girdin. Burada oyuncular senden araç ~y~hizmeti ~s~alabilir.</String>
+        <String xml:lang="en-US">You entered ~b~work area {0}~s~. Players can buy vehicle ~y~services ~s~from you here.</String>
     </Entry>
 
     <Entry Id="mechanic_left_work_area">
