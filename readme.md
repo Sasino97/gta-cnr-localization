@@ -79,7 +79,9 @@ Punctuation checks are skipped for `zh-Hans`, `zh-Hant`, and `ar-001` because th
 ## XML Format
 
 Every translation file uses this structure:
-- Each `String` uses `xml:lang` to identify the locale
+- String: Each `String` uses `xml:lang` to identify the locale
+- Entry: an abstract message used by game code, containing multiple Strings — one per language.
+- Entries: the root container holding all Entry elements in an XML file.
 
 Example:
 
@@ -94,7 +96,7 @@ Example:
 
 Remember that this is a game, keep the translation chilled, and not too formal.
 
-If the `en-US` translation does not make sense in the respective language, change the texts so that the user understands them
+If the `en-US` translation does not make sense in the respective language, change the texts so that the user understands them.
 
 ### Variables
 
@@ -231,4 +233,4 @@ Text can also be highlighted with the `(C)(/C)` tags.
 ## Help
 
 You can use the guide in the thread "Using GitHub Desktop for translations" for step-by-step guidance. 
-If you are unsure about a translation or validator error, ask a translator on our [Discord](https://discord.gg/cnr)
+If you are unsure about a translation or validator error, ask a translator on our [Discord](https://discord.gg/cnr).
