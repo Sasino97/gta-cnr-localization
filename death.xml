@@ -98,7 +98,7 @@
 
     <Entry Id="some_paramedics">
         <String xml:lang="en-US">There are one or more ~p~paramedics ~s~nearby. You can't respawn until the timer runs out, the paramedics leave the area, or they die.</String>
-        <String xml:lang="de-DE">Es sind ein oder mehrere ~p~Sanitäter ~s~in der Nähe. Du kannst erst wieder respawnen, wenn der Timer abgelaufen ist, die Sanitäter das Gebiet verlassen oder sie sterben.</String>
+        <String xml:lang="de-DE">Es sind ein oder mehrere ~p~Sanitäter ~s~in der Nähe. Du kannst erst wieder respawnen, wenn der Timer abgelaufen ist, die Sanitäter das Gebiet verlassen oder du stirbst.</String>
         <String xml:lang="nl-NL">Er zijn één of meerdere ~p~ambulanciers ~s~in de buurt. Je kan niet respawnen totdat de timer afloopt, de ambulanciers het gebied verlaten, of ze dood gaan.</String>
         <String xml:lang="it-IT">Ci sono uno o più ~p~paramedici ~s~nelle vicinanze. Non puoi respawnare finché il timer non scade, i paramedici non lasciano l'area, o muoiono.</String>
         <String xml:lang="pl-PL">W pobliżu jest co najmniej jeden ~p~medyk ~s~Nie możesz się odrodzić do póki nie minie czas, medycy oddalą się z okolicy lub zginą.</String>
@@ -515,7 +515,7 @@
         <String xml:lang="th-TH">โดย ~r~อาวุธระยะประชิด~s~</String>
         <String xml:lang="vi-VN">Với một ~r~Vũ khí cận chiến~s~</String>
         <String xml:lang="id-ID">dengan ~r~senjata jarak dekat~s~</String>
-        <String xml:lang="hi-Latn">ek ~r~melee weapon ~s~से</String>
+        <String xml:lang="hi-Latn">ek ~r~melee weapon ~s~se</String>
         <String xml:lang="lv-LV">ar ~r~tuvcīņas ieroci~s~</String>
         <String xml:lang="sv-SE">med ett ~r~närstridsvapen~s~</String>
         <String xml:lang="no-NO">med et ~r~nærkampvåpen~s~</String>
@@ -1741,6 +1741,7 @@
         <String xml:lang="sr-RS">Pinguj Hitnu pomoć</String>
         <String xml:lang="ga-IE">Seol fógra chuig an Dochtúir</String>
         <String xml:lang="tr-TR">Paramediğe bir işaret gönder</String>
+        <String xml:lang="hi-Latn">Medic ko ping karo</String>
     </Entry>
 
     <Entry Id="ping_medic_cooldown">
@@ -1750,6 +1751,7 @@
         <String xml:lang="sr-RS">Možeš ponovo pingovati za {0}</String>
         <String xml:lang="ga-IE">Is féidir leat ping a dhéanamh arís i {0}</String>
         <String xml:lang="tr-TR">{0} saniye sonra tekrar işaret gönderebilirsin</String>
+        <String xml:lang="hi-Latn">Aap {0} ke baad phir se ping kar sakte hain</String>
     </Entry>
 
     <!-- Recommended frequency on respawn -->

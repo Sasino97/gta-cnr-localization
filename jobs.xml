@@ -1080,13 +1080,14 @@
         <String xml:lang="en-US">~r~There are real players available to work on your vehicle. Please, approach a player and browse their service list.</String>
         <String xml:lang="es-ES">~r~Hay jugadores reales disponibles para trabajar en tu vehículo. Por favor, acércate a un jugador y consulta su lista de servicios.</String>
         <String xml:lang="sr-RS">~r~Postoji pravi igrač koji može raditi na vašem vozilu. Molimo vas da se približite igraču i pregledate njihovu listu usluga.</String>
-        <String xml:lang="de-DE">~r~Es sind echte Spieler verfügbar, um an Ihrem Fahrzeug zu arbeiten. Bitte nähern Sie sich einem Spieler und durchsuchen Sie dessen Service-Liste.</String>
+        <String xml:lang="de-DE">~r~Es sind echte Spieler verfügbar, um an deinem Fahrzeug zu arbeiten. Bitte nutzen sie deren Services.</String>
         <String xml:lang="tr-TR">~r~Aracınla ilgilenebilecek gerçek oyuncular mevcut. Lütfen, bir oyuncuya yaklaş ve hizmet listesini incele.</String>
     </Entry>
 
     <!-- {0} = Number of work area, e.g. #1, #2-->
     <Entry Id="mechanic_entered_work_area">
         <String xml:lang="en-US">You entered ~b~work area {0}~s~. Players can buy vehicle ~y~services ~s~from you here.</String>
+        <String xml:lang="de-DE">Du bist nun in ~b~Arbeitsbereich {0}~s~. Spieler können hier Fahrzeug ~y~Services ~s~von dir kaufen.</String>
     </Entry>
 
     <Entry Id="mechanic_left_work_area">
@@ -2429,7 +2430,7 @@
         <String xml:lang="en-US">~b~Police officers ~s~are expected to protect and serve citizens. Innocent civilian NPC casualties will result in small ~r~XP losses~s~.</String>
         <String xml:lang="it-IT">Gli ~b~Agenti di Polizia ~s~sono tenuti a proteggere e servire i cittadini. Causare vittime civili di NPC innocenti risulterà in piccole ~r~perdite di XP~s~.</String>
         <String xml:lang="nl-NL">~b~Politieagenten ~s~worden verwacht om om burgers te beschermen en te dienen. Ongelukken met onschuldige NPCS resulteert in kleine ~r~XP-verliezen~s~.</String>
-        <String xml:lang="de-DE">~b~Polizisten ~s~sollten Bürger schützen und ihnen dienen. Das Verletzen unschuldiger NPCs führt zu geringen ~r~XP-Verlusten~s~.</String>
+        <String xml:lang="de-DE">~b~Polizisten ~s~sollten Bürger schützen. Das Verletzen unschuldiger NPCs führt zu geringen ~r~XP-Verlusten~s~.</String>
         <String xml:lang="tr-TR">~b~Polis memurları~s~ndan vatandaşları korumaları ve onlara hizmet etmeleri beklenmektedir. Masum sivilleri (NPC) öldürmek az miktarda ~r~XP kaybına ~s~neden olur.</String>
         <String xml:lang="es-ES">~b~Se supone que los oficiales de policía ~s~protejan y sirvan a los ciudadanos. Las bajas civiles inocentes de NPC resultarán en pequeñas pérdidas de ~r~XP~s~.</String>
         <String xml:lang="pl-PL">~b~Gliny ~s~mają chronić i służyć mieszkańcom. Zabijanie niewinnych botów wiąże się ze ~r~stratami XP~s~.</String>
@@ -5066,7 +5067,7 @@
         <String xml:lang="nl-NL">Als wraak voor het beschadigen van zijn geparkeerde ~y~auto~s~</String>
         <String xml:lang="fr-FR">En représailles pour avoir endommagé sa ~y~voiture~s~ en stationnement</String>
         <String xml:lang="hi-Latn">Unke park ki hui ~y~car ~s~ko nuksaan pahunchane ka badla lete hue</String>
-        <String xml:lang="de-DE">Aus Rache für das Beschädigen ihres geparkten ~y~Fahrzeuges~s~</String>
+        <String xml:lang="de-DE">Aus Rache für das Beschädigen deines geparkten ~y~Fahrzeuges~s~</String>
         <String xml:lang="it-IT">In rappresaglia per aver danneggiato la loro ~y~auto~s~ parcheggiata</String>
         <String xml:lang="id-ID">Untuk membalas dendam karena merusak ~y~mobil~s~ mereka yang terparkir</String>
         <String xml:lang="lv-LV">Atriebībā par viņa pārkota ~y~transportlīdzekļa~s~ bojāšanu</String>
@@ -5444,7 +5445,7 @@
         <String xml:lang="nl-NL">Ze ~r~wraak ~s~willen nemen op de ~b~politieagent ~s~voor een eerdere negatieve interactie in dezelfde sessie</String>
         <String xml:lang="fr-FR">Il veut se ~r~venger ~s~sur le ~b~policier ~s~pour une action négative antérieure dans la même session</String>
         <String xml:lang="hi-Latn">Wo ~r~revenge ~s~lena chahte hain ~b~officer ~s~se, puchle kuch negative actions ke liye same session ke</String>
-        <String xml:lang="de-DE">sie ~r~Rache ~s~an dem ~b~Polizisten ~s~für eine frühere negative Handlung in derselben Sitzung nehmen wollen</String>
+        <String xml:lang="de-DE">~r~Räche ~s~dich an dem ~b~Polizisten ~s~für eine frühere negative Handlung</String>
         <String xml:lang="it-IT">Vogliono ~r~vendicarsi ~s~del ~b~poliziotto ~s~per una precedente azione negativa nella stessa sessione</String>
         <String xml:lang="id-ID">Mereka mau melakukan ~r~balas dendam ~s~terhadap ~b~petugas itu~s~karena tindakan negatif sebelumnya dalam sesi yang sama.</String>
         <String xml:lang="lv-LV">Viņi vēlas ~r~atriebties ~b~policistam~s~ par iepriekšējo negatīvo darbību tajā pašā sesijā</String>
@@ -5699,7 +5700,7 @@
         <String xml:lang="en-US">~g~Confirm ~s~and go to the next question (you ~r~cannot ~s~review it later).</String>
         <String xml:lang="nl-NL">~g~Bevestig ~s~en ga naar de volgende vraag (je kan het ~r~niet ~s~later bekijken).</String>
         <String xml:lang="hi-Latn">~g~Confirm ~s~kare aur jaaye next question pe (aap baad mein review ~r~nahi ~s~kar sakte).</String>
-        <String xml:lang="de-DE">~g~Bestätige ~s~und gehe zur nächsten Frage (du kannst sie später ~r~nicht ~s~überprüfen.</String>
+        <String xml:lang="de-DE">~g~Bestätige ~s~und gehe zur nächsten Frage (du kannst sie später ~r~nicht ~s~überprüfen).</String>
         <String xml:lang="it-IT">~g~Conferma ~s~e passa alla domanda successiva (non ~r~potrai ~s~rivederla dopo).</String>
         <String xml:lang="id-ID">~g~Konfirmasi ~s~dan melanjutkan ke pertanyaan selanjutnya (kamu ~r~tidak bisa ~s~memeriksa kembali nanti).</String>
         <String xml:lang="lv-LV">~g~Apstipriniet~s~ un pārejiet pie nākamā jautājuma (jūs ~r~nevarat~s~ pārskatīt to vēlāk).</String>
