@@ -27,7 +27,7 @@
     <Entry Id="unexpected_error_code">
         <String xml:lang="en-US">~r~An unexpected error has occurred (~y~{0}~r~).</String>
         <String xml:lang="it-IT">~r~Si è verificato un errore imprevisto (~y~{0}~r~).</String>
-        <String xml:lang="de-DE">~r~Ein unerwarteter fehler ist aufgetreten (~y~{0}~r~).</String>
+        <String xml:lang="de-DE">~r~Ein unerwarteter Fehler ist aufgetreten (~y~{0}~r~).</String>
         <String xml:lang="nl-NL">~r~Er is een onverwachte fout opgetreden (~y~{0}~r~).</String>
         <String xml:lang="fr-FR">~r~Une erreur inattendue s'est produite (~y~{0}~r~).</String>
         <String xml:lang="pl-PL">~r~Wystąpił nieoczekiwany błąd (~y~{0}~r~).</String>
@@ -141,7 +141,7 @@
         <String xml:lang="pl-PL">~r~Ostrzeżenie: ~s~wystąpił błąd wczytując twoje uzbrojenie. Ponowne zalogowanie może naprawić ten problem.</String>
         <String xml:lang="es-ES">~r~Atencion: ~s~hubo un error al cargar tu equipo. Salir y entrar al servidor puede solucionar este problema.</String>
         <String xml:lang="pt-BR">~r~Atenção: ~s~houve um erro ao carregar seu computador. Fazer logout e login novamente no servidor pode resolver o problema.</String>
-        <String xml:lang="de-DE">~r~Warnung: ~s~es gab einen Fehler beim Laden deines Loadouts. Re-loggen kann das Problem möglicherweise beheben.</String>
+        <String xml:lang="de-DE">~r~Warnung: ~s~Es gab einen Fehler beim Laden deiner Ausrüstung. Verbinde dich erneut mit dem Server, um das Problem möglicherweise zu beheben.</String>
         <String xml:lang="ar-001">~r~تحذير: ~s~حدث خطأ أثناء تحميل العتاد الخاص بك. قد تؤدي إعادة التسجيل إلى حل هذه المشكلة.</String>
         <String xml:lang="id-ID">~r~Peringatan: ~s~Telah terjadi kesalahan dalam memuat persenjataan anda. Login ulang dapat membantu untuk memperbaiki masalah ini.</String>
         <String xml:lang="th-TH">~r~คำเตือน: ~s~มีข้อผิดพลาดในการโหลดชุดปรับแต่งของคุณ การบันทึกซ้ำอาจแก้ไขปัญหานี้ได้</String>
@@ -368,7 +368,7 @@
         <String xml:lang="en-US">~r~You can't hold any more {0}!</String>
         <String xml:lang="nl-NL">~r~Je kan niet meer {0} vasthouden!</String>
         <String xml:lang="hi-Latn">~r~Aap aur nahi rakh sakte {0}!</String>
-        <String xml:lang="de-DE">~r~Du nicht mehr von {0} tragen!</String>
+        <String xml:lang="de-DE">~r~Du kannst nicht mehr von {0} tragen!</String>
         <String xml:lang="cs-CZ">~r~Už nemůžeš nést další {0}!</String>
         <String xml:lang="it-IT">~r~Non puoi reggere più di {0}!</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat membawa lebih banyak {0}!</String>
@@ -1272,7 +1272,7 @@
         <String xml:lang="en-US">Lists all members of your party, including the current leader.</String>
         <String xml:lang="nl-NL">Laat een lijst zien van alle spelers in je party, inclusief de party-leider</String>
         <String xml:lang="lv-LV">Rāda visus jūsu komandas locekļus, tostarp pašreizējo līderi.</String>
-        <String xml:lang="de-DE">Listet alle Mitglieder deiner Party, inklusive den aktuellen Partyleiter.</String>
+        <String xml:lang="de-DE">Listet alle Mitglieder deiner Party auf, inklusive des aktuellen Partyleiters.</String>
         <String xml:lang="fr-FR">Liste tous les membres de votre groupe, y compris le chef actuel.</String>
         <String xml:lang="id-ID">Daftar seluruh pemain yang berada di team mu. Termasuk pemimpin saat ini.</String>
         <String xml:lang="no-NO">Viser alle medlemmer av partiet ditt, inkludert den nåværende lederen.</String>
@@ -1367,7 +1367,7 @@
     <Entry Id="party_join_cooldown">
         <String xml:lang="en-US">Please wait before requesting to join a party again.</String>
         <String xml:lang="nl-NL">Wacht even voordat je opnieuw een verzoek indient om lid te worden van een party.</String>
-        <String xml:lang="de-DE">Bitte warte, bevor du erneut versuchst, bevor du den Beitritt zu einer anderen Party anfragst.</String>
+        <String xml:lang="de-DE">Bitte warte, bevor du erneut versuchst, einer anderen Party beizutreten.</String>
         <String xml:lang="it-IT">Attendi prima di richiedere nuovamente di unirti a un party.</String>
         <String xml:lang="id-ID">Mohon tunggu sebelum meminta untuk bergabung dengan party lagi.</String>
         <String xml:lang="lv-LV">Lūdzu, uzgaidiet, pirms atkārtoti pieprasāt pievienoties komandai.</String>
@@ -1497,7 +1497,7 @@
         <String xml:lang="nl-NL">Er zijn geen andere leden van de party.</String>
         <String xml:lang="it-IT">Non ci sono altri membri nel party.</String>
         <String xml:lang="fr-FR">Il n'y a pas d'autres membres dans le groupe.</String>
-        <String xml:lang="de-DE">Es gibt keine anderen Party-Mitglieder</String>
+        <String xml:lang="de-DE">Es gibt keine anderen Party-Mitglieder.</String>
         <String xml:lang="lv-LV">Nav citu komandas biedru.</String>
         <String xml:lang="id-ID">Tidak ada orang lain di teammu</String>
         <String xml:lang="sv-SE">Det finns inga andra partimedlemmar.</String>
@@ -1767,7 +1767,7 @@
         <String xml:lang="en-US">You need to select a waypoint on the map before calling this command</String>
         <String xml:lang="nl-NL">Je moet een GPS-bestemming hebben geselecteerd op de kaart voordat je dit commando kan gebruiken.</String>
         <String xml:lang="it-IT">Devi selezionare un waypoint sulla mappa prima di eseguire questo comando.</String>
-        <String xml:lang="de-DE">Du musst einen Wegpunkt auf der Karte setzen, bevor du diesen Command ausführen kannst.</String>
+        <String xml:lang="de-DE">Du musst einen Wegpunkt auf der Karte setzen, bevor du diesen Befehl ausführen kannst.</String>
         <String xml:lang="lv-LV">Pirms šīs komandas lietošanas kartē ir jāizvēlas waypoint.</String>
         <String xml:lang="fr-FR">Vous devez choisir un point de repère sur la carte avant d'envoyer cette commande.</String>
         <String xml:lang="id-ID">Kamu harus menunjuk titik lokasi di map sebelum menggunakan perintah ini</String>
