@@ -112,7 +112,7 @@ class Validator:
     """
     xml_files: list[str] = []
     supported_langs: list[str] = ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES", "pt-BR",
-        "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH", "id-ID", "cs-CZ", "da-DK", "sv-SE", "ru-RU", "lv-LV", "et-EE", "no-NO"]
+        "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH", "id-ID", "cs-CZ", "da-DK", "sv-SE", "ru-RU", "lv-LV", "et-EE", "no-NO", "sr-RS", "ga-IE"]
     punctuation_ignored_langs: list[str] = ["zh-Hans", "zh-Hant", "ar-001"]
     used_ids: set[str] = set()
     fatal_errors: int = 0
@@ -406,6 +406,8 @@ class Validator:
                     if key != XML_LANG_ATTRIB:
                         Validator.print_error(f"Unknown attribute: {repr(key)}", path, child_node.parse_position)
                         continue
+                    if value not in Validator.supported_langs:
+                        Validator.print_error(f"Unsupported language code: {repr(value)}", path, child_node.parse_position)
                     if value == "en-US":
                         found_formats = re.findall(SHORT_GTA_FORMAT_REGEX, str_from_node(child_node))
                         if len(found_formats) > 0:
