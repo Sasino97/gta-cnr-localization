@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Entries>
-    <!-- ========================= -->
-    <!-- ATMs -->
-    <!-- ========================= -->
     <Entry Id="menu_atm_title">
         <String xml:lang="en-US">ATM</String>
         <String xml:lang="it-IT">Bancomat</String>
@@ -21,6 +17,13 @@
         <String xml:lang="vi-VN">Máy ATM</String>
         <String xml:lang="id-ID">Mesin ATM</String>
         <String xml:lang="hi-Latn">ATM</String>
+        <String xml:lang="cs-CZ">Bankomat</String>
+        <String xml:lang="lv-LV">Bankomāts</String>
+        <String xml:lang="sv-SE">Bankautomat</String>
+        <String xml:lang="no-NO">MINIBANK</String>
+        <String xml:lang="sr-RS">Bankomat</String>
+        <String xml:lang="et-EE">Rahaautomaat</String>
+        <String xml:lang="ga-IE">Meaisín bainc</String>
     </Entry>
 
     <Entry Id="menu_atm_subtitle">
@@ -30,7 +33,7 @@
         <String xml:lang="nl-NL">Fleeca Bank</String>
         <String xml:lang="fr-FR">Banque Fleeca</String>
         <String xml:lang="pl-PL">Bank Fleeca</String>
-        <String xml:lang="tr-TR">Fleeca Banka</String>
+        <String xml:lang="tr-TR">Fleeca Bankası</String>
         <String xml:lang="zh-Hant">花園銀行</String>
         <String xml:lang="zh-Hans">花园银行</String>
         <String xml:lang="es-ES">Banco Fleeca</String>
@@ -40,6 +43,13 @@
         <String xml:lang="vi-VN">Ngân hàng Fleeca</String>
         <String xml:lang="id-ID">Bank Fleeca</String>
         <String xml:lang="hi-Latn">Fleeca Bank</String>
+        <String xml:lang="cs-CZ">Fleeca Bank</String>
+        <String xml:lang="lv-LV">Fleeca Banka</String>
+        <String xml:lang="sv-SE">Fleeca Bank</String>
+        <String xml:lang="no-NO">Fleeca Bank</String>
+        <String xml:lang="sr-RS">Fleeca Banka</String>
+        <String xml:lang="et-EE">Fleeca Pank</String>
+        <String xml:lang="ga-IE">Fleeca Bainc</String>
     </Entry>
 
     <Entry Id="menu_atm_custom_amount">
@@ -59,6 +69,13 @@
         <String xml:lang="vi-VN">Số tiền tuỳ chỉnh</String>
         <String xml:lang="id-ID">~b~Masukkan jumlah yang diinginkan</String>
         <String xml:lang="hi-Latn">~b~Custom amount</String>
+        <String xml:lang="cs-CZ">~b~vlastní částka</String>
+        <String xml:lang="lv-LV">~b~Cita summa</String>
+        <String xml:lang="sv-SE">~b~Anpassat belopp</String>
+        <String xml:lang="no-NO">~b~Egendefinert beløp</String>
+        <String xml:lang="sr-RS">~b~Prilagođena količina</String>
+        <String xml:lang="et-EE">~b~Kohandatud summa</String>
+        <String xml:lang="ga-IE">~b~Táirgeadh saincheaptha</String>
     </Entry>
 
     <Entry Id="menu_atm_no_funds">
@@ -68,7 +85,7 @@
         <String xml:lang="nl-NL">~r~Niet genoeg geld</String>
         <String xml:lang="fr-FR">~r~Pas de fonds</String>
         <String xml:lang="pl-PL">~r~Brak funduszy</String>
-        <String xml:lang="tr-TR">~r~Yetersiz miktar</String>
+        <String xml:lang="tr-TR">~r~Bakiye yok</String>
         <String xml:lang="zh-Hant">~r~餘額不足</String>
         <String xml:lang="zh-Hans">~r~余额不足</String>
         <String xml:lang="es-ES">~r~Sin fondos</String>
@@ -77,7 +94,39 @@
         <String xml:lang="th-TH">เงินไม่เพียงพอ</String>
         <String xml:lang="vi-VN">Không đủ tiền</String>
         <String xml:lang="id-ID">~r~Saldo atm anda kurang</String>
-        <String xml:lang="hi-Latn">~r~No funds</String>
+        <String xml:lang="cs-CZ">~r~Nedostatek prostředků</String>
+        <String xml:lang="lv-LV">~r~Nav līdzekļu</String>
+        <String xml:lang="sv-SE">~r~Inga pengar</String>
+        <String xml:lang="no-NO">~r~Ingen midler</String>
+        <String xml:lang="hi-Latn">~r~Paise nahi hain</String>
+        <String xml:lang="sr-RS">~r~Nema sredstava</String>
+        <String xml:lang="et-EE">~r~Raha puudub</String>
+        <String xml:lang="ga-IE">~r~Níl aon airgead ann</String>
+    </Entry>
+
+    <Entry Id="menu_atm_fee">
+        <String xml:lang="en-US">Fee: ~r~{0}</String>
+        <String xml:lang="it-IT">Commissione: ~r~{0}</String>
+        <String xml:lang="de-DE">Gebühr: ~r~{0}</String>
+        <String xml:lang="nl-NL">Tarief: ~r~{0}</String>
+        <String xml:lang="fr-FR">Frais: ~r~{0}</String>
+        <String xml:lang="pl-PL">Opłata: ~r~{0}</String>
+        <String xml:lang="tr-TR">Ücret: ~r~{0}</String>
+        <String xml:lang="zh-Hant">手續費: ~r~{0}</String>
+        <String xml:lang="zh-Hans">手续费: ~r~{0}</String>
+        <String xml:lang="es-ES">Tarifa: ~r~{0}</String>
+        <String xml:lang="ar-001">مصاريف: ~r~{0}</String>
+        <String xml:lang="pt-BR">Comissão: ~r~{0}</String>
+        <String xml:lang="th-TH">ค่าธรรมเนียม: ~r~{0}</String>
+        <String xml:lang="vi-VN">Phí: ~r~{0}</String>
+        <String xml:lang="id-ID">Pajak: ~r~{0}</String>
+        <String xml:lang="hi-Latn">Fees: ~r~{0}</String>
+        <String xml:lang="cs-CZ">Poplatek: ~r~{0}</String>
+        <String xml:lang="lv-LV">Komisija: ~r~{0}</String>
+        <String xml:lang="no-NO">Avgift: ~r~{0}</String>
+        <String xml:lang="sr-RS">Komisija : ~r~{0}</String>
+        <String xml:lang="et-EE">Tasu: ~r~{0}</String>
+        <String xml:lang="ga-IE">Táirgeadh: ~r~{0}</String>
     </Entry>
 
     <Entry Id="menu_atm_withdraw_text">
@@ -87,7 +136,7 @@
         <String xml:lang="nl-NL">Opnemen</String>
         <String xml:lang="fr-FR">Retirer</String>
         <String xml:lang="pl-PL">Wypłać</String>
-        <String xml:lang="tr-TR">Çekme</String>
+        <String xml:lang="tr-TR">Çek</String>
         <String xml:lang="zh-Hant">提款</String>
         <String xml:lang="zh-Hans">提款</String>
         <String xml:lang="es-ES">Retirar</String>
@@ -97,6 +146,13 @@
         <String xml:lang="vi-VN">Rút tiền</String>
         <String xml:lang="id-ID">Tarik tunai</String>
         <String xml:lang="hi-Latn">Withdraw</String>
+        <String xml:lang="cs-CZ">Vybrat</String>
+        <String xml:lang="lv-LV">Izņemt</String>
+        <String xml:lang="sv-SE">Ta ut</String>
+        <String xml:lang="no-NO">Trekk tilbake</String>
+        <String xml:lang="sr-RS">povući</String>
+        <String xml:lang="et-EE">Väljavõtt</String>
+        <String xml:lang="ga-IE">Tóg airgead</String>
     </Entry>
 
     <Entry Id="menu_atm_withdraw_descr">
@@ -106,16 +162,23 @@
         <String xml:lang="nl-NL">Neem geld op.~n~Tarief: ~r~{0}</String>
         <String xml:lang="fr-FR">Retirer en espèces.~n~Frais: ~r~{0}</String>
         <String xml:lang="pl-PL">Wypłać swoją gotówkę.~n~Opłata: ~r~{0}</String>
-        <String xml:lang="tr-TR">Paranızı çekin.~n~Ücret: ~r~{0}</String>
+        <String xml:lang="tr-TR">Paranızı çekin. ~n~Ücreti: ~r~{0}</String>
         <String xml:lang="zh-Hant">提領你的餘額.~n~手續費: ~r~{0}</String>
         <String xml:lang="zh-Hans">提领你的余额.~n~手续费: ~r~{0}</String>
-        <String xml:lang="es-ES">Retire su dinero.~n~Tarifa: ~r~{0}</String>
+        <String xml:lang="es-ES">Retire su dinero.~n~Tasa: ~r~{0}</String>
         <String xml:lang="ar-001">اسحب أموالك.~n~مصاريف: ~r~{0}</String>
         <String xml:lang="pt-BR">Retirar seu dinheiro.~n~Comissão: ~r~{0}</String>
         <String xml:lang="th-TH">ถอนเงินของคุฌ.~n~ค่าธรรมเนียม: ~r~{0}</String>
         <String xml:lang="vi-VN">Rút tiền của bạn.~n~Phí: ~r~{0}</String>
         <String xml:lang="id-ID">Anda akan menarik dana sejumlah. ~n~Pajak: ~r~{0}</String>
-        <String xml:lang="hi-Latn">Cash withdraw kare~n~Fees: ~r~{0}</String>
+        <String xml:lang="cs-CZ">Vyber své peníze.~n~Poplatek: ~r~{0}</String>
+        <String xml:lang="lv-LV">Izņemiet savu naudu.~n~Komisija: ~r~{0}</String>
+        <String xml:lang="hi-Latn">Cash withdraw karo~n~Fees: ~r~{0}</String>
+        <String xml:lang="sv-SE">Dra tillbaka dina pengar~n~Fee: ~r~{0}</String>
+        <String xml:lang="no-NO">Ta ut kontantene dine.~n~Gebyr: ~r~{0}</String>
+        <String xml:lang="sr-RS">Povuci novac.~n~komisija: ~r~{0}</String>
+        <String xml:lang="et-EE">Võta oma sularaha välja.~n~Tasu: ~r~{0}</String>
+        <String xml:lang="ga-IE">Tóg airgead de do chuntas.~n~Táirgeadh: ~r~{0}</String>
     </Entry>
 
     <Entry Id="menu_atm_deposit_text">
@@ -125,7 +188,7 @@
         <String xml:lang="nl-NL">Storten</String>
         <String xml:lang="fr-FR">Déposer</String>
         <String xml:lang="pl-PL">Wpłać</String>
-        <String xml:lang="tr-TR">Yatırma</String>
+        <String xml:lang="tr-TR">Yatır</String>
         <String xml:lang="zh-Hant">存款</String>
         <String xml:lang="zh-Hans">存款</String>
         <String xml:lang="es-ES">Depositar</String>
@@ -135,6 +198,13 @@
         <String xml:lang="vi-VN">Gửi tiền</String>
         <String xml:lang="id-ID">Setor tunai</String>
         <String xml:lang="hi-Latn">Deposit</String>
+        <String xml:lang="cs-CZ">Vložit</String>
+        <String xml:lang="lv-LV">Iemaksāt</String>
+        <String xml:lang="sv-SE">Sätta in</String>
+        <String xml:lang="no-NO">Innskudd</String>
+        <String xml:lang="sr-RS">podizanje</String>
+        <String xml:lang="et-EE">Sissemakse</String>
+        <String xml:lang="ga-IE">Iomlán</String>
     </Entry>
 
     <Entry Id="menu_atm_deposit_descr">
@@ -154,6 +224,13 @@
         <String xml:lang="vi-VN">Tiền đã chuyển vào tài khoản của bạn. ~n~Fee: ~r~{0}</String>
         <String xml:lang="id-ID">Anda akan menyetorkan dana sejumlah. ~n~Pajak: ~r~{0}</String>
         <String xml:lang="hi-Latn">Account mein deposit kare.~n~fees: ~r~{0}</String>
+        <String xml:lang="cs-CZ">Vlož peníze na svůj účet.~n~Poplatek: ~r~{0}</String>
+        <String xml:lang="lv-LV">Iemaksājiet savā kontā.~n~Komisija: ~r~{0}</String>
+        <String xml:lang="sv-SE">Sätt in på ditt konto.~n~Avgift: ~r~{0}</String>
+        <String xml:lang="no-NO">Sett inn på kontoen din.~n~Gebyr: ~r~{0}</String>
+        <String xml:lang="sr-RS">Uplata novca.~n~komisija: ~r~{0}</String>
+        <String xml:lang="et-EE">Sissemakse sinu pangakontole.~n~Tasu: ~r~{0}</String>
+        <String xml:lang="ga-IE">Iomlán ar do chuntas.~n~Táirgeadh: ~r~{0}</String>
     </Entry>
 
     <Entry Id="menu_atm_transfer_text">
@@ -163,7 +240,7 @@
         <String xml:lang="nl-NL">Overschrijving</String>
         <String xml:lang="fr-FR">Transférer</String>
         <String xml:lang="pl-PL">Przelew</String>
-        <String xml:lang="tr-TR">Aktarma</String>
+        <String xml:lang="tr-TR">Para Transferi</String>
         <String xml:lang="zh-Hant">轉帳</String>
         <String xml:lang="zh-Hans">转帐</String>
         <String xml:lang="es-ES">Transferir</String>
@@ -173,6 +250,13 @@
         <String xml:lang="vi-VN">Chuyển tiền</String>
         <String xml:lang="id-ID">Transfer</String>
         <String xml:lang="hi-Latn">Transfer</String>
+        <String xml:lang="cs-CZ">Převod</String>
+        <String xml:lang="lv-LV">Pārskaitīt</String>
+        <String xml:lang="sv-SE">Överföra</String>
+        <String xml:lang="no-NO">Overføre</String>
+        <String xml:lang="sr-RS">Prenos</String>
+        <String xml:lang="et-EE">Ülekanne</String>
+        <String xml:lang="ga-IE">Tarraing</String>
     </Entry>
 
     <Entry Id="menu_atm_transfer_descr">
@@ -180,9 +264,8 @@
         <String xml:lang="it-IT">Trasferisci denaro ad un altro conto.~n~~r~Questa funzione non è ancora disponibile.</String>
         <String xml:lang="de-DE">Überweise Geld auf ein anderes Konto~n~~r~Diese Funktion ist noch nicht verfügbar.</String>
         <String xml:lang="nl-NL">Schrijf geld over naar een ander account.~n~~r~Deze functie is nog niet beschikbaar.</String>
-        <String xml:lang="fr-FR">Transférer de l'argent sur un autre compte bancaire.~n~~r~Cette fonctionnalité n'est pas encore disponible.</String>
         <String xml:lang="pl-PL">Przelej pieniądze na inne konto..~n~~r~Ta funkcja jest niedostępna.</String>
-        <String xml:lang="tr-TR">Başka bir hesaba para aktarma.~n~~r~Bu özellik henüz aktif değil.</String>
+        <String xml:lang="tr-TR">Başka bir hesaba para transferi yap.~n~~r~Bu özellik henüz kullanılabilir değil.</String>
         <String xml:lang="zh-Hant">轉帳至其他賬戶.~n~~r~此功能暫不可用.</String>
         <String xml:lang="zh-Hans">转帐至其他账户.~n~~r~此功能暂不可用.</String>
         <String xml:lang="es-ES">Transferir dinero a otra cuenta.~n~~r~Esta función aún no está disponible.</String>
@@ -192,6 +275,14 @@
         <String xml:lang="vi-VN">Chuyển tiền cho người chơi khác.~n~~r~Tính năng này hiện tại chưa có.</String>
         <String xml:lang="id-ID">Transfer dana kepada akun lain.~n~~r~Fungsi ini belum tersedia untuk saat ini.</String>
         <String xml:lang="hi-Latn">Doosre account mein paise transfer kare.~n~~r~Ye feature abhi available nahi hai.</String>
+        <String xml:lang="cs-CZ">Převést peníze na jiný účet.~n~~r~Tato funkce zatím není k dispozici.</String>
+        <String xml:lang="lv-LV">Pārskaitiet naudu uz citu kontu.~n~~r~Šī funkcija vēl nav pieejama.</String>
+        <String xml:lang="sv-SE">Överför pengar till ett annat konto.~n~~r~Denna funktion är inte tillgänglig ännu.</String>
+        <String xml:lang="no-NO">Overfør penger til en annen konto.~n~~r~Denne funksjonen er ikke tilgjengelig ennå.</String>
+        <String xml:lang="fr-FR">Transférer de l'argent vers un autre compte.~n~~r~Cette fonctionnalité n'est pas encore disponible.</String>
+        <String xml:lang="sr-RS">Prenos novca.~n~~r~Ova funkcija još nije dostupna.</String>
+        <String xml:lang="et-EE">Kanna raha teisele kontole üle.~n~~r~See funktsioon ei ole veel saadaval.</String>
+        <String xml:lang="ga-IE">Tarraing airgead chuig cuntas eile.~n~~r~Níl an gné seo ar fáil fós.</String>
     </Entry>
 
     <Entry Id="menu_atm_history_text">
@@ -211,6 +302,13 @@
         <String xml:lang="vi-VN">Lịch sử chuyển tiền</String>
         <String xml:lang="id-ID">Riwayat</String>
         <String xml:lang="hi-Latn">History</String>
+        <String xml:lang="cs-CZ">Historie</String>
+        <String xml:lang="lv-LV">Vēsture</String>
+        <String xml:lang="sv-SE">Historik</String>
+        <String xml:lang="no-NO">Historie</String>
+        <String xml:lang="sr-RS">Historija</String>
+        <String xml:lang="et-EE">Ajalugu</String>
+        <String xml:lang="ga-IE">Stair</String>
     </Entry>
 
     <Entry Id="menu_atm_history_descr">
@@ -218,9 +316,8 @@
         <String xml:lang="it-IT">Ottieni lo storico delle tue ultime transazioni.~n~~r~Questa funzione non è ancora disponibile.</String>
         <String xml:lang="de-DE">Erhalte eine Liste deiner letzten Transaktionen~n~~r~Diese Funktion ist noch nicht verfügbar.</String>
         <String xml:lang="nl-NL">Krijg een lijst van je recent transacties.~n~~r~Deze functie is nog niet beschikbaar.</String>
-        <String xml:lang="fr-FR">Obtenir une liste de tes transactions récentes.~n~~r~Cette fonctionnalité n'est pas encore disponible.</String>
         <String xml:lang="pl-PL">Otrzymaj listę ostatnich transakcji.~n~~r~This feature is not available yet.</String>
-        <String xml:lang="tr-TR">Son işlemlerinizin bir listesini alın.~n~~r~Bu özellik henüz aktif değil.</String>
+        <String xml:lang="tr-TR">Son işlemlerinizin bir listesini alın.~n~~r~Bu özellik henüz kullanılabilir değil.</String>
         <String xml:lang="zh-Hant">獲取您最近的交易列表.~n~~r~此功能尚不可用.</String>
         <String xml:lang="zh-Hans">获取您最近的交易列表.~n~~r~此功能尚不可用.</String>
         <String xml:lang="es-ES">Obtén una lista de tus transacciones recientes.~n~~r~Esta función aún no está disponible.</String>
@@ -230,6 +327,14 @@
         <String xml:lang="vi-VN">Danh sách chuyển tiền gần đây của bạn.~n~~r~Tính năng này hiện tại chưa có.</String>
         <String xml:lang="id-ID">Menampilkan daftar riwayat transaksi anda. ~n~~r~Fitur ini belum tersedia untuk saat ini.</String>
         <String xml:lang="hi-Latn">Apne recent transactions ki list dekhe.~n~~r~Ye feature abhi available nahi hai.</String>
+        <String xml:lang="cs-CZ">Zobrazit seznam tvých nedávných transakcí.~n~~r~Tato funkce zatím není k dispozici.</String>
+        <String xml:lang="lv-LV">Iegūstiet savu pēdējo darījumu izrakstu.~n~~r~Šī funkcija vēl nav pieejama.</String>
+        <String xml:lang="sv-SE">Få en lista över dina senaste transaktioner.~n~~r~Denna funktion är inte tillgänglig ännu.</String>
+        <String xml:lang="no-NO">Få en liste over de siste transaksjonene dine.~n~~r~Denne funksjonen er ikke tilgjengelig ennå.</String>
+        <String xml:lang="fr-FR">Obtenir une liste de vos transactions récentes.~n~~r~Cette fonctionnalité n'est pas encore disponible.</String>
+        <String xml:lang="sr-RS">Povuci novac.~n~~r~Ova funkcija još nije dostupna.</String>
+        <String xml:lang="et-EE">Hangi nimekiri oma hiljutistest tehingutest.~n~~r~See funktsioon pole veel saadaval.</String>
+        <String xml:lang="ga-IE">Faigh liosta de do dh'ionsaithe le déanaí.~n~~r~Níl an gné seo ar fáil fós.</String>
     </Entry>
 
     <Entry Id="atm_cuffed">
@@ -237,7 +342,6 @@
         <String xml:lang="it-IT">Non puoi utilizzare un ~y~bancomat ~s~mentre sei ~r~ammanettato~s~!</String>
         <String xml:lang="de-DE">Du kannst keinen ~y~Geldautomaten ~s~verwenden, wenn du ~r~gefesselt~s~ bist!</String>
         <String xml:lang="nl-NL">Je kan geen ~y~geldautomaat ~s~gebruiken wanneer je bent ~r~geboeid~s~!</String>
-        <String xml:lang="fr-FR">Tu ne peux pas utiliser de ~y~distributeur de billets ~s~lorsque tu es ~r~menotté~s~!</String>
         <String xml:lang="pl-PL">Nie możesz użyć ~y~bankomatu ~s~gdy jesteś ~r~w kajdankach~s~!</String>
         <String xml:lang="tr-TR">~r~Kelepçeliyken ~y~bankamatik ~s~kullanamazsınız!</String>
         <String xml:lang="zh-Hant">當你~r~被上銬~s~時,你不能使用~y~提款機~s~!</String>
@@ -249,6 +353,14 @@
         <String xml:lang="vi-VN">Bạn không thể sử dụng ~y~Máy ATM ~s~khi bạn đang ~r~bị còng~s~!</String>
         <String xml:lang="id-ID">Anda tidak bisa menggunakan ~y~ATM ~s~ketika sedang ~r~diborgol~s~!</String>
         <String xml:lang="hi-Latn">Aap use nahi kar sakte ~y~ATM ~s~jab aap ~r~cuffed ~s~ho!</String>
+        <String xml:lang="cs-CZ">Nemůžeš použít ~y~bankomat~s~, pokud jsi ~r~spoutaný~s~!</String>
+        <String xml:lang="lv-LV">Jūs nevarat izmantot ~y~bankomātu ~s~kāmēr jūs esat ~r~rokudzelžos~s~!</String>
+        <String xml:lang="sv-SE">Du kan inte använda en ~y~bankautomat~s~ när du är ~r~arresterad~s~!</String>
+        <String xml:lang="no-NO">Du kan ikke bruke en ~y~minibank ~s~når du er ~r~mansjett~s~!</String>
+        <String xml:lang="fr-FR">Vous ne pouvez pas utiliser de ~y~distributeur de billets ~s~en étant ~r~menottés~s~!</String>
+        <String xml:lang="sr-RS">Ne možete koristiti ~y~bankomat ~s~kada ste ~r~uhapseni~s~!</String>
+        <String xml:lang="et-EE">Sa ei saa kasutada ~y~pangaautomaati ~s~kui oled ~r~käeraudades~s~!</String>
+        <String xml:lang="ga-IE">Ní féidir leat ~y~ATM ~s~a úsáid nuair a bhíonn tú ~r~cuffed~s~!</String>
     </Entry>
 
     <Entry Id="atm_out_of_service">
@@ -258,7 +370,7 @@
         <String xml:lang="nl-NL">Deze ~y~geldautomaat ~s~is ~r~buiten dienst~s~!</String>
         <String xml:lang="fr-FR">Ce ~y~distributeur de billets est ~r~hors-service~s~!</String>
         <String xml:lang="pl-PL">Ten ~y~bankomat ~s~jest ~r~nieczynny~s~!</String>
-        <String xml:lang="tr-TR">Bu ~y~bankamatik ~r~hizmet dışı~s~!</String>        
+        <String xml:lang="tr-TR">Bu ~y~bankamatik ~r~hizmet dışı~s~!</String>
         <String xml:lang="zh-Hant">這台 ~y~提款機 ~s~目前 ~r~無法使用~s~!</String>
         <String xml:lang="zh-Hans">这台 ~y~提款机 ~s~目前 ~r~无法使用~s~!</String>
         <String xml:lang="es-ES">!Este ~y~cajero automático ~s~está ~r~fuera de servicio~s~!</String>
@@ -268,6 +380,13 @@
         <String xml:lang="vi-VN">Máy ~y~ATM này ~s~không ~r~còn hoạt động~s~!</String>
         <String xml:lang="id-ID">~y~ATM ini ~s~sedang ~r~dalam perbaikan~s~!</String>
         <String xml:lang="hi-Latn">Ye ~y~ATM ~r~seva me nahi hai~s~!</String>
+        <String xml:lang="cs-CZ">Tento ~y~bankomat ~s~je ~r~mimo provoz~s~!</String>
+        <String xml:lang="lv-LV">Šīs ~y~bankomāts ~r~nestrādā~s~!</String>
+        <String xml:lang="sv-SE">Denna ~y~bankautomaten ~s~är ~r~ur funktion~s~!</String>
+        <String xml:lang="no-NO">Denne ~y~minibanken ~s~er ~r~ute av drift~s~!</String>
+        <String xml:lang="sr-RS">Ovaj ~y~bankomat ~s~er ~r~nije u funkciji~s~!</String>
+        <String xml:lang="et-EE">See ~y~pangaautomaat ~s~is ~r~on rikkis~s~!</String>
+        <String xml:lang="ga-IE">Tá an ~y~ATM ~s~seachaint ~r~as a bhaint as úsáide~s~!</String>
     </Entry>
 
     <Entry Id="input_atm_withdraw_title">
@@ -277,7 +396,7 @@
         <String xml:lang="nl-NL">Opnemen</String>
         <String xml:lang="fr-FR">Retirer</String>
         <String xml:lang="pl-PL">Wypłać</String>
-        <String xml:lang="tr-TR">Çekme</String>
+        <String xml:lang="tr-TR">Çek</String>
         <String xml:lang="zh-Hant">提款</String>
         <String xml:lang="zh-Hans">提款</String>
         <String xml:lang="es-ES">Retirar</String>
@@ -287,6 +406,13 @@
         <String xml:lang="vi-VN">Rút tiền</String>
         <String xml:lang="id-ID">Tarik tunai</String>
         <String xml:lang="hi-Latn">Withdraw</String>
+        <String xml:lang="cs-CZ">Vybrat</String>
+        <String xml:lang="lv-LV">Izņemt</String>
+        <String xml:lang="sv-SE">Ta ut</String>
+        <String xml:lang="no-NO">Trekk tilbake</String>
+        <String xml:lang="sr-RS">Povuci</String>
+        <String xml:lang="et-EE">Väljavõtt</String>
+        <String xml:lang="ga-IE">Tarraing</String>
     </Entry>
 
     <Entry Id="input_atm_withdraw_content">
@@ -294,10 +420,9 @@
         <String xml:lang="it-IT">Inserire l'importo da prelevare.</String>
         <String xml:lang="de-DE">Gib einen eigenen Betrag zum Geld abheben ein.</String>
         <String xml:lang="nl-NL">Voer een bedrag in om op te nemen.</String>
-        <String xml:lang="fr-FR">Indiquer le montant à retirer.</String>
         <String xml:lang="pl-PL">Podaj ilość do wypłacenia.</String>
-        <String xml:lang="tr-TR">Çekilecek tutarı girin.</String>
-        <String xml:lang="zh-Hant">輸入提款金額.</String>     
+        <String xml:lang="tr-TR">Çekmek istediğin tutarı gir.</String>
+        <String xml:lang="zh-Hant">輸入提款金額.</String>
         <String xml:lang="zh-Hans">输入提款金额.</String>
         <String xml:lang="es-ES">Ingresa un monto para retirar.</String>
         <String xml:lang="ar-001">أدخل المبلغ الذي تريد سحبه.</String>
@@ -306,6 +431,14 @@
         <String xml:lang="vi-VN">Nhập số lượng bạn muốn rút.</String>
         <String xml:lang="id-ID">Masukkan jumlah dana yang akan ditarik</String>
         <String xml:lang="hi-Latn">EK amount enter kare withdraw karne ke liye.</String>
+        <String xml:lang="cs-CZ">Zadej částku k výběru.</String>
+        <String xml:lang="lv-LV">Ievadiet summu kuru velāties izņemt.</String>
+        <String xml:lang="fr-FR">Indiquez le montant à retirer.</String>
+        <String xml:lang="sv-SE"> Ange ett belopp att ta ut.</String>
+        <String xml:lang="no-NO">Angi et beløp for å ta ut.</String>
+        <String xml:lang="sr-RS">iznos po izboru.</String>
+        <String xml:lang="et-EE">Sisesta väljavõtte summa.</String>
+        <String xml:lang="ga-IE">Cuir isteach uimhir airgead le tarraing.</String>
     </Entry>
 
     <Entry Id="withdraw_too_little">
@@ -313,9 +446,8 @@
         <String xml:lang="it-IT">~r~Non puoi prelevare meno di ~s~{0} ~r~alla volta.</String>
         <String xml:lang="de-DE">~r~Du kannst nicht weniger als ~s~{0} ~r~auf einmal abheben.</String>
         <String xml:lang="nl-NL">~r~Je mag per keer niet minder dan ~s~{0} ~r~opnemen.</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas retirer moins de ~s~{0} ~r~à la fois.</String>
         <String xml:lang="pl-PL">~r~Nie możesz wypłacić mniej niż ~s~{0} ~r~na transakcję.</String>
-        <String xml:lang="tr-TR">~r~Tek seferde ~s~{0}~r~'dan az çekemezsin.</String>
+        <String xml:lang="tr-TR">~r~Tek seferde ~s~{0} ~r~miktarından daha az çekemezsin.</String>
         <String xml:lang="zh-Hant">~r~您一次提款不能少於 ~s~{0}~r~.</String>
         <String xml:lang="zh-Hans">~r~您一次提款不能少于 ~s~{0}~r~.</String>
         <String xml:lang="es-ES">~r~No puedes retirar menos de ~s~{0} ~r~al mismo tiempo.</String>
@@ -325,6 +457,14 @@
         <String xml:lang="vi-VN">~r~Bạn không thể rút hơn ~s~{0} ~r~trong một lần</String>
         <String xml:lang="id-ID">~r~Anda tidak bisa mengambil dana kurang dari ~s~{0} ~r~dalam satu kali transaksi</String>
         <String xml:lang="hi-Latn">~r~Aap isse kam withdraw nahi kar sakte ~s~{0} ~r~ek time pe.</String>
+        <String xml:lang="cs-CZ">~r~Nemůžeš vybrat méně než ~s~{0} ~r~najednou.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat izņemt mazāk nēkā ~s~{0}~r~ vienā reizē.</String>
+        <String xml:lang="sv-SE">~r~Du kan inte ta ut mindre än ~s~{0} ~r~åt gången.</String>
+        <String xml:lang="no-NO">~r~Du kan ikke ta ut mindre enn ~s~{0} ~r~om gangen.</String>
+        <String xml:lang="fr-FR">~r~Vous ne pouvez pas retirer moins de ~s~{0} ~r~à la fois.</String>
+        <String xml:lang="sr-RS">~r~Ne možete podići manje od ~s~{0} ~r~odjednom.</String>
+        <String xml:lang="et-EE">~r~Sa ei saa korraga välja võtta vähem kui ~s~{0}.~r~</String>
+        <String xml:lang="ga-IE">~r~Ní féidir leat tarraing níos lú ná ~s~{0} ~r~i gcónaí.</String>
     </Entry>
 
     <Entry Id="withdraw_too_much">
@@ -332,9 +472,8 @@
         <String xml:lang="it-IT">~r~Puoi prelevare al massimo ~s~{0} ~r~alla volta.</String>
         <String xml:lang="de-DE">~r~Du kannst nur ~s~{0} ~r~auf einmal abheben.</String>
         <String xml:lang="nl-NL">~r~Je mag per keer niet meer dan ~s~{0} ~r~opnemen.</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux retirer que ~s~{0} ~r~à la fois.</String>
         <String xml:lang="pl-PL">~r~Nie możesz wypłacić więcej niż ~s~{0} ~r~na transakcję.</String>
-        <String xml:lang="tr-TR">~r~Tek seferde ~s~{0}~r~'dan daha fazla çekemezsinn.</String>
+        <String xml:lang="tr-TR">~r~Tek seferde ~s~{0} ~r~miktarından daha fazla çekemezsin.</String>
         <String xml:lang="zh-Hant">~r~一次只能提領~s~{0}~r~.</String>
         <String xml:lang="zh-Hans">~r~一次只能提现~s~{0}~r~.</String>
         <String xml:lang="es-ES">~r~Solo puedes retirar ~s~{0} ~r~a la vez.</String>
@@ -344,6 +483,14 @@
         <String xml:lang="vi-VN">~r~Bạn chỉ có thể rút ~s~{0} ~r~trong một lần</String>
         <String xml:lang="id-ID">~r~Anda hanya bisa mengambil ~s~{0} ~r~dalam satu kali transaksi</String>
         <String xml:lang="hi-Latn">~r~Aap isse zyada withdraw nahi kar sakte ~s~{0} ~r~ek time pe.</String>
+        <String xml:lang="cs-CZ">~r~Můžeš vybrat pouze ~s~{0} ~r~najednou.</String>
+        <String xml:lang="lv-LV">~r~Jūs varat izņemt tikai ~s~{0} ~r~vienā reizē.</String>
+        <String xml:lang="fr-FR">~r~Vous ne pouvez retirer que ~s~{0} ~r~à la fois.</String>
+        <String xml:lang="sv-SE">~r~Du kan bara ta ut ~s~{0} ~r~åt gången</String>
+        <String xml:lang="no-NO">~r~Du kan bare trekke ~s~{0} ~r~om gangen.</String>
+        <String xml:lang="sr-RS">~r~možete samo podići od ~s~{0} ~r~odjednom.</String>
+        <String xml:lang="et-EE">~r~Sa saad välja võtta ainult ~s~{0} ~r~korraga.</String>
+        <String xml:lang="ga-IE">~r~Ní féidir leat tarraing níos lú ná ~s~{0} ~r~i gcónaí.</String>
     </Entry>
 
     <Entry Id="atm_insufficient_funds">
@@ -351,9 +498,8 @@
         <String xml:lang="it-IT">I tuoi fondi sono ~r~insufficienti~s~!</String>
         <String xml:lang="de-DE">Du hast ~r~nicht genug ~s~Guthaben!</String>
         <String xml:lang="nl-NL">Je hebt ~r~niet genoeg ~s~geld!</String>
-        <String xml:lang="fr-FR">Tu n'as pas ~r~assez ~s~de fonds!</String>
         <String xml:lang="pl-PL">Masz ~r~niewystarczalne ~s~środki!</String>
-        <String xml:lang="tr-TR">~r~Yetersiz ~s~paraya sahipsin!</String>
+        <String xml:lang="tr-TR">~r~Yetersiz ~s~bakiye!</String>
         <String xml:lang="zh-Hant">您的~r~存款不足~s~.</String>
         <String xml:lang="zh-Hans">您的~r~存款不足~s~.</String>
         <String xml:lang="es-ES">!No tienes saldo ~r~suficientes~s~!</String>
@@ -362,7 +508,15 @@
         <String xml:lang="th-TH">คุฌมี ~r~ไม่เพียงพอ ~s~เงิน!</String>
         <String xml:lang="vi-VN">Bạn không có ~r~insufficient ~s~tiền</String>
         <String xml:lang="hi-Latn">Aap ke pass ~r~insufficient ~s~balace hai.</String>
-
+        <String xml:lang="id-ID">Kamu ~r~tidak punya cukup ~s~uang!</String>
+        <String xml:lang="cs-CZ">Máš ~r~nedostatek ~s~prostředků!</String>
+        <String xml:lang="lv-LV">Jums ~r~nepietiek ~s~līdzekļu!</String>
+        <String xml:lang="sv-SE">Du har ~r~otillräckligt~s~ saldo!</String>
+        <String xml:lang="no-NO">Du har ~r~ikke nok ~s~midler!</String>
+        <String xml:lang="fr-FR">Vous n'avez pas ~r~assez ~s~de fonds!</String>
+        <String xml:lang="sr-RS">Nemate dovoljno sredstava ~r~za ~s~fondove!</String>
+        <String xml:lang="et-EE">Sul ei ole ~r~piisavalt ~s~raha!</String>
+        <String xml:lang="ga-IE">Níl airgead ~r~cúramach ~s~agat!</String>
     </Entry>
 
     <Entry Id="atm_invalid_amount">
@@ -370,18 +524,25 @@
         <String xml:lang="it-IT">L'importo inserito ~r~non è valido~s~!</String>
         <String xml:lang="de-DE">Du hast einen ~r~ungültigen ~s~Betrag eingegeben!</String>
         <String xml:lang="nl-NL">Je hebt een ~r~ongeldige ~s~invoer ingegeven!</String>
-        <String xml:lang="fr-FR">Tu as indiqué un montant ~r~invalide~s~!</String>
         <String xml:lang="pl-PL">Podałeś ~r~niewłaściwą ~s~wartość!</String>
-        <String xml:lang="tr-TR">~r~Geçersiz ~s~bir tutar girdin!</String>    
+        <String xml:lang="tr-TR">~r~Geçersiz ~s~bir tutar girdin!</String>
         <String xml:lang="zh-Hant">您輸入的金額~r~無效~s~!</String>
         <String xml:lang="zh-Hans">您输入的金额~r~无效~s~!</String>
         <String xml:lang="es-ES">¡Has ingresado una ~s~cantidad ~r~inválida~s~!</String>
         <String xml:lang="ar-001">قمت بإدخال ~r~غير صالح ~s~مبلغ!</String>
-        <String xml:lang="pt-BR">Você digitou um valor ~r~inválido~s~!</String> 
-        <String xml:lang="th-TH">คุฌใส่ ~r~ผิด ~s~จำนวน!</String>  
-        <String xml:lang="vi-VN">Bạn đã nhập ~r~không hợp lệ ~s~số lượng</String> 
+        <String xml:lang="pt-BR">Você digitou um valor ~r~inválido~s~!</String>
+        <String xml:lang="th-TH">คุฌใส่ ~r~ผิด ~s~จำนวน!</String>
+        <String xml:lang="vi-VN">Bạn đã nhập ~r~không hợp lệ ~s~số lượng</String>
         <String xml:lang="id-ID">Anda memasukkan jumlah yang ~r~tidak valid~s~!</String>
         <String xml:lang="hi-Latn">Aapne ~r~invalid ~s~amount enter kiya hai.</String>
+        <String xml:lang="cs-CZ">Zdal jsi ~r~neplatnou ~s~hodnotu!</String>
+        <String xml:lang="lv-LV">Jūs ievādījat ~r~nederīgu ~s~summu!</String>
+        <String xml:lang="fr-FR">Vous avez indiqué un montant ~r~invalide~s~!</String>
+        <String xml:lang="sv-SE">Du angav ett ~r~ogiligt ~s~belopp!</String>
+        <String xml:lang="no-NO">Du skrev inn et ~r~ugyldig ~s~beløp!</String>
+        <String xml:lang="sr-RS">Uneli ste ~r~invalidnu ~s~gotovinu!</String>
+        <String xml:lang="et-EE">Sisestasid ~r~sobimatu ~s~summa!</String>
+        <String xml:lang="ga-IE">Chuir tú isteach ~r~mamount neamhbhailí~s~!</String>
     </Entry>
 
     <Entry Id="atm_cant_pay_fee">
@@ -389,9 +550,8 @@
         <String xml:lang="it-IT">Il tuo credito non copre la ~r~commissione del bancomat~s~!</String>
         <String xml:lang="de-DE">Dein Guthaben deckt die ~r~Gebühren des Geldautomates ~s~nicht!</String>
         <String xml:lang="nl-NL">Je rekening kan niet de ~r~geldautomaat kosten ~s~niet dekken!</String>
-        <String xml:lang="fr-FR">Les fonds de ton compte bancaire ne couvrent pas les ~r~frais du distributeur de billets~s~!</String>
         <String xml:lang="pl-PL">Nie stać cię na zapłacenie ~r~opłat bankomatowych~s~!</String>
-        <String xml:lang="tr-TR">Bakiyeniz ~r~bankamatik ücretlerini ~s~karşılayamıyor!</String>
+        <String xml:lang="tr-TR">Bakiyen ~r~bankamatik ücretlerini ~s~karşılayamıyor!</String>
         <String xml:lang="zh-Hant">您的餘額不足以支付~r~提款機的手續費~s~!</String>
         <String xml:lang="zh-Hans">您的余额不足以支付~r~提款机的手续费~s~!</String>
         <String xml:lang="es-ES">¡Tu saldo no cubre la ~r~tarifa del cajero automático~s~!</String>
@@ -400,7 +560,15 @@
         <String xml:lang="th-TH">ยอดคงเหลือของคุณไม่พอ ~r~ค่าธรรมเนียมเอทีเอ็ม~s~!</String>
         <String xml:lang="vi-VN">Số dư của bạn không bao gồm ~r~phí ATM~s~!</String>
         <String xml:lang="hi-Latn">Aapka balance ~r~ATM fees ~s~cover nahi kar sakta.</String>
-
+        <String xml:lang="id-ID">Uangmu tidak cukup untuk membayar ~r~biaya atm~s~!</String>
+        <String xml:lang="cs-CZ">Tvůj zůstatek nepokryje ~r~poplatky za použití bankomatu~s~!</String>
+        <String xml:lang="lv-LV">Jūsu atlikums nesedz ~r~bankomāta komisijas~s~!</String>
+        <String xml:lang="fr-FR">Vos fonds sont insuffisants pour couvrir les ~r~frais du distributeur de billets~s~!</String>
+        <String xml:lang="sv-SE">Ditt saldo täcker inte ~r~bankautomatafgifter~s~!</String>
+        <String xml:lang="no-NO">Saldoen din dekker ikke ~r~minibankgebyrer~s~!</String>
+        <String xml:lang="sr-RS">Vaš saldo ne pokriva ~r~bankomatske komisije~s~!</String>
+        <String xml:lang="et-EE">Sinu kontojääk ei kata ~r~pangaautomaadi tasusid~s~!</String>
+        <String xml:lang="ga-IE">Níl do chuntas in ann ~r~airgead a chur ar fáil~s~!</String>
     </Entry>
 
     <Entry Id="input_atm_deposit_title">
@@ -410,7 +578,7 @@
         <String xml:lang="nl-NL">Storten</String>
         <String xml:lang="fr-FR">Dépôt</String>
         <String xml:lang="pl-PL">Wpłać</String>
-        <String xml:lang="tr-TR">Yatırma</String>
+        <String xml:lang="tr-TR">Yatır</String>
         <String xml:lang="zh-Hant">存款</String>
         <String xml:lang="zh-Hans">存款</String>
         <String xml:lang="es-ES">Depositar</String>
@@ -420,6 +588,13 @@
         <String xml:lang="vi-VN">Gửi tiền</String>
         <String xml:lang="id-ID">Setor tunai</String>
         <String xml:lang="hi-Latn">Deposit</String>
+        <String xml:lang="cs-CZ">Vložit</String>
+        <String xml:lang="lv-LV">Iemaksāt</String>
+        <String xml:lang="sv-SE">Sätta in</String>
+        <String xml:lang="no-NO">Innskudd</String>
+        <String xml:lang="sr-RS">Uplata</String>
+        <String xml:lang="et-EE">Sisesta</String>
+        <String xml:lang="ga-IE">Iomlán</String>
     </Entry>
 
     <Entry Id="input_atm_deposit_content">
@@ -427,9 +602,8 @@
         <String xml:lang="it-IT">Inserire l'importo da depositare.</String>
         <String xml:lang="de-DE">Gib einen Betrag zum Einzahlen ein.</String>
         <String xml:lang="nl-NL">Voer een aantal in om te storten.</String>
-        <String xml:lang="fr-FR">Indiquer le montant à déposer.</String>
         <String xml:lang="pl-PL">Podaj kwotę do wpłaty.</String>
-        <String xml:lang="tr-TR">Yatırılacak bir tutar girin.</String>
+        <String xml:lang="tr-TR">Yatırmak istediğin tutarı gir.</String>
         <String xml:lang="zh-Hant">輸入存款金額.</String>
         <String xml:lang="zh-Hans">输入存款金额.</String>
         <String xml:lang="es-ES">Ingresa la cantidad que quiere depositar.</String>
@@ -439,6 +613,14 @@
         <String xml:lang="vi-VN">Nhấp số lượng bạn muốn gửi.</String>
         <String xml:lang="id-ID">Masukkan jumlah yang akan disetorkan.</String>
         <String xml:lang="hi-Latn">Deposit karne ke liye ek amount enter kare.</String>
+        <String xml:lang="cs-CZ">Zadej částku k vložení.</String>
+        <String xml:lang="lv-LV">Ievadiet summu kuru velāties iemaksāt.</String>
+        <String xml:lang="sv-SE">Ange ett belopp att sätta in</String>
+        <String xml:lang="no-NO">Angi et beløp som skal settes inn.</String>
+        <String xml:lang="fr-FR">Indiquez le montant à déposer.</String>
+        <String xml:lang="sr-RS">Unesite iznos za uplatu.</String>
+        <String xml:lang="et-EE">Sisesta sissemakse summa.</String>
+        <String xml:lang="ga-IE">Cuir isteach uimhir airgead le iomlán.</String>
     </Entry>
 
     <Entry Id="deposit_too_little">
@@ -446,9 +628,8 @@
         <String xml:lang="it-IT">~r~Non puoi depositare meno di ~s~{0} ~r~alla volta.</String>
         <String xml:lang="de-DE">~r~Du kannst nicht weniger als~s~{0} ~r~auf einmal einzahlen.</String>
         <String xml:lang="nl-NL">~r~Je kan per keer niet minder dan ~s~{0} ~r~storten.</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux pas déposer moins de ~s~{0} ~r~à la fois.</String>
         <String xml:lang="pl-PL">~r~Nie możesz wpłacić mniej niż ~s~{0} ~r~na transakcję.</String>
-        <String xml:lang="tr-TR">~r~Tek seferde ~s~{0}~r~'dan daha az para yatıramazsınız.</String>
+        <String xml:lang="tr-TR">~r~Tek seferde ~s~{0} ~r~miktarından daha az yatıramazsın.</String>
         <String xml:lang="zh-Hant">~r~您一次存入的金額不能少於 ~s~{0}~r~.</String>
         <String xml:lang="zh-Hans">~r~您一次存入的金额不能少于 ~s~{0}~r~.</String>
         <String xml:lang="es-ES">~r~No puedes depositar menos de ~s~{0} ~r~a la vez.</String>
@@ -458,6 +639,14 @@
         <String xml:lang="vi-VN">~r~Bạn không thể gửi hơn ~s~{0} ~r~trong một lần.</String>
         <String xml:lang="id-ID">~r~Anda tidak dapat menyetokan kurang dari ~s~{0} ~r~dalam satu kali transaksi</String>
         <String xml:lang="hi-Latn">~r~Aap isse kam ~s~{0} ~r~deposit nahi kar sakte ek time pe.</String>
+        <String xml:lang="cs-CZ">~r~Nemůžeš vložit méně než ~s~{0} ~r~najednou.</String>
+        <String xml:lang="lv-LV">~r~Jūs nevarat iemaksāt mazāk nēkā ~s~{0} ~r~vienā reizē.</String>
+        <String xml:lang="fr-FR">~r~Vous ne pouvez pas déposer moins de ~s~{0} ~r~à la fois.</String>
+        <String xml:lang="sv-SE">~r~Du kan inte sätta in mindre än ~s~{0} ~r~åt gången.</String>
+        <String xml:lang="no-NO">~r~Du kan ikke sette inn mindre enn ~s~{0} ~r~om gangen.</String>
+        <String xml:lang="sr-RS">~r~Ne možete postaviti manje od ~s~{0} ~r~odjednom.</String>
+        <String xml:lang="et-EE">~r~Sa ei saa korraga sisse kanda vähem kui ~s~{0}.~r~</String>
+        <String xml:lang="ga-IE">~r~Ní féidir leat iomlán níos lú ná ~s~{0} ~r~i gcónaí.</String>
     </Entry>
 
     <Entry Id="deposit_too_much">
@@ -465,9 +654,8 @@
         <String xml:lang="it-IT">~r~Puoi depositare al massimo ~s~{0} ~r~alla volta.</String>
         <String xml:lang="de-DE">~r~Du kannst nur ~s~{0} ~r~auf einmal einzahlen.</String>
         <String xml:lang="nl-NL">~r~Je kan per keer niet meer dan ~s~{0} ~r~storten.</String>
-        <String xml:lang="fr-FR">~r~Tu ne peux déposer que ~s~{0} ~r~à la fois.</String>
         <String xml:lang="pl-PL">~r~Nie możesz wpłacić więcej niż ~s~{0} ~r~na transakcję.</String>
-        <String xml:lang="tr-TR">~r~Tek seferde ~s~{0}~r~'dan fazla para yatıramazsınız </String>     
+        <String xml:lang="tr-TR">~r~Tek seferde yalnızca ~s~{0} ~r~yatırabilirsin.</String>
         <String xml:lang="zh-Hant">~r~一次只能存入~s~{0}~r~.</String>
         <String xml:lang="zh-Hans">~r~一次只能存入~s~{0}~r~.</String>
         <String xml:lang="es-ES">~r~Solo puedes depositar ~s~{0} ~r~a la vez.</String>
@@ -476,7 +664,15 @@
         <String xml:lang="th-TH">~r~คุณสามารถฝากเงินได้ ~s~{0} ~r~ในแต่ละครั้ง.</String>
         <String xml:lang="vi-VN">~r~Bạn chỉ có thể gửi ~s~{0} ~r~trong một lần.</String>
         <String xml:lang="id-ID">~r~Anda hanya mampu menyetorkan dana sebesar ~s~{0} ~r~dalam satu kali transaksi</String>
-        <String xml:lang="hi-Latn">~r~Aap isse zyada ~s~{0} ~r~deposit nahi kar sakte ek time pe.</String>
+        <String xml:lang="cs-CZ">~r~Můžeš vložit pouze ~s~{0} ~r~najednou.</String>
+        <String xml:lang="lv-LV">~r~Jūs varat iemaksāt tikai ~s~{0} ~r~vienā reizē.</String>
+        <String xml:lang="hi-Latn">~r~Aap ~s~{0} ~r~se zyada deposit nahi kar sakte ek time pe.</String>
+        <String xml:lang="sv-SE">~r~Du kan bara sätta in ~s~{0} ~r~åt gången.</String>
+        <String xml:lang="no-NO">~r~Du kan bare sette inn ~s~{0} ~r~om gangen.</String>
+        <String xml:lang="fr-FR">~r~Vous ne pouvez déposer que ~s~{0} ~r~à la fois.</String>
+        <String xml:lang="sr-RS">~r~možete samo postaviti od ~s~{0} ~r~odjednom.</String>
+        <String xml:lang="et-EE">~r~Sa saad korraga sisse kanda ainult ~s~{0}. ~r~</String>
+        <String xml:lang="ga-IE">~r~Ní féidir leat iomlán níos lú ná ~s~{0} ~r~i gcónaí.</String>
     </Entry>
 
     <Entry Id="atm_no_hacking_device">
@@ -484,9 +680,8 @@
         <String xml:lang="it-IT">Ti serve un ~y~{0}~s~.</String>
         <String xml:lang="de-DE">Du benötigst ein~y~{0}~s~.</String>
         <String xml:lang="nl-NL">Je hebt een ~y~{0}~s~ nodig.</String>
-        <String xml:lang="fr-FR">Il te faut un ~y~{0}~s~.</String>
         <String xml:lang="pl-PL">Potrzebujesz ~y~{0}~s~.</String>
-        <String xml:lang="tr-TR">Bir ~y~{0}~s~'a İhtiyacın var.</String>
+        <String xml:lang="tr-TR">Bir ~y~{0} ~s~cihazına ihtiyacın var.</String>
         <String xml:lang="zh-Hant">你需要 ~y~{0}~s~.</String>
         <String xml:lang="zh-Hans">你需要一个 ~y~{0}~s~.</String>
         <String xml:lang="es-ES">Necesitas un ~y~{0}~s~.</String>
@@ -495,7 +690,15 @@
         <String xml:lang="th-TH">คุณต้องมี ~y~{0}~s~.</String>
         <String xml:lang="vi-VN">Bạn cần có ~y~{0}~s~.</String>
         <String xml:lang="id-ID">Anda membutuhkan ~y~{0}~s~.</String>
-        <String xml:lang="hi-Latn">Aapke paas ~y~{0} ~s~nahi hai.</String>
+        <String xml:lang="cs-CZ">Na toto potřebuješ ~y~{0}~s~.</String>
+        <String xml:lang="lv-LV">Jums ir nepieciešams ~y~{0}~s~.</String>
+        <String xml:lang="hi-Latn">Aapko ek ~y~{0} ~s~chahiye.</String>
+        <String xml:lang="sv-SE">Du behöver en ~y~{0}~s~.</String>
+        <String xml:lang="no-NO">Du trenger en ~y~{0}~s~.</String>
+        <String xml:lang="fr-FR">Il vous faut un ~y~{0}~s~.</String>
+        <String xml:lang="sr-RS">Treba vam ~y~{0}~s~.</String>
+        <String xml:lang="et-EE">Sa vajad ~y~{0}~s~.</String>
+        <String xml:lang="ga-IE">Tá ~y~{0}~s~ de dhíth ort.</String>
     </Entry>
 
     <Entry Id="btn_atm_use">
@@ -515,6 +718,13 @@
         <String xml:lang="vi-VN">Sử dụng máy ATM</String>
         <String xml:lang="id-ID">Gunakan ATM</String>
         <String xml:lang="hi-Latn">Use ATM</String>
+        <String xml:lang="cs-CZ">Použít bankomat</String>
+        <String xml:lang="lv-LV">Izmantot bankomātu</String>
+        <String xml:lang="sv-SE">Använd bankautomat</String>
+        <String xml:lang="no-NO">Bruk minibank</String>
+        <String xml:lang="sr-RS">Koristi bankomat</String>
+        <String xml:lang="et-EE">Kasuta pangaautomaati</String>
+        <String xml:lang="ga-IE">Úsáid ATM</String>
     </Entry>
 
     <Entry Id="btn_atm_hack">
@@ -534,6 +744,13 @@
         <String xml:lang="vi-VN">Hack</String>
         <String xml:lang="id-ID">Meretas</String>
         <String xml:lang="hi-Latn">Hack</String>
+        <String xml:lang="cs-CZ">Hacknout</String>
+        <String xml:lang="lv-LV">Uzlauzt</String>
+        <String xml:lang="sv-SE">Hacka</String>
+        <String xml:lang="no-NO">Hacke</String>
+        <String xml:lang="sr-RS">Hackuj</String>
+        <String xml:lang="et-EE">Häki</String>
+        <String xml:lang="ga-IE">Hacaáil</String>
     </Entry>
 
     <Entry Id="atm_hacking_cooldown">
@@ -541,9 +758,8 @@
         <String xml:lang="it-IT">Devi aspettare ~r~{0} secondi ~s~prima di hackerare un altro ~y~bancomat~s~.</String>
         <String xml:lang="de-DE">Du musst ~r~{0} Sekunden ~s~warten, bevor du einen weiteren ~y~Geldautomat~s~ hacken kannst.</String>
         <String xml:lang="nl-NL">Je moet ~r~{0} seconden~s~ wachten voordat je nog een ~y~geldautomaat~s~ kan hacken.</String>
-        <String xml:lang="fr-FR">Tu dois attendre ~r~{0} secondes ~s~avant de pouvoir pirater un autre ~y~distributeur de billets~s~.</String>
         <String xml:lang="pl-PL">Musisz poczekać ~r~{0} sekund ~s~przed zhakowaniem kolejnego ~y~bankomatu~s~.</String>
-        <String xml:lang="tr-TR">Başka bir ~y~bankamatik ~s~hacklemek için ~r~{0} saniye ~s~beklemelisiniz.</String>
+        <String xml:lang="tr-TR">Başka bir ~y~bankamatik ~s~hacklemek için ~r~{0} saniye ~s~beklemelisin.</String>
         <String xml:lang="zh-Hant">你需要等待 ~r~{0} 秒 ~s~後才可以害入其他台r ~y~提款機~s~</String>
         <String xml:lang="zh-Hans">你需要等待 ~r~{0} 秒 ~s~后才可以骇入其他台r ~y~提款机~s~</String>
         <String xml:lang="es-ES">Tienes que esperar ~r~{0} segundos ~s~antes de hackear otro ~y~Cajero automatico~s~</String>
@@ -552,7 +768,15 @@
         <String xml:lang="th-TH">คุฌต้องรอ ~r~{0} วินาที ~s~ก่อนแฮ็ก ~y~เอทีเอ็ม~s~.</String>
         <String xml:lang="vi-VN">Bạn cần phải chờ ~r~{0} giây ~s~trước khi tiếp tục hack máy ~y~ATM~s~.</String>
         <String xml:lang="hi-Latn">Aap ko wait karna hoga ~r~{0} seconds ~s~doosra ~y~ATM ~s~hack karne se pehle.</String>
-
+        <String xml:lang="id-ID">Kamu harus menunggu ~r~{0} detik ~s~sebelum bisa melakukan hacking ~y~ATM ~s~lagi.</String>
+        <String xml:lang="cs-CZ">Musíš počkat ~r~{0} sekund ~s~než se pokusíš hacknout další ~y~bankomat~s~.</String>
+        <String xml:lang="lv-LV">Jums ir jāgaida ~r~{0} sekundes ~s~pirms cita ~y~bankomāta~s~ uzlaušanas.</String>
+        <String xml:lang="fr-FR">Vous devez attendre ~r~{0} secondes ~s~avant de pouvoir pirater un autre ~y~distributeur de billets~s~.</String>
+        <String xml:lang="sv-SE">Du behöver vänta ~r~{0} sekunder ~s~innan du hackar en till ~y~bankautomat~s~.</String>
+        <String xml:lang="no-NO">Du må vente ~r~{0} sekunder ~s~før du hacker en annen ~y~MINIBANK~s~.</String>
+        <String xml:lang="sr-RS">Trebate cekati ~r~{0} sekunde ~s~Prenego sto hakujete jos jedan ~y~bankomat~s~.</String>
+        <String xml:lang="et-EE">Sa pead ootama ~r~{0} sekundit ~s~enne kui häkid uut ~y~pangaautomaati~s~.</String>
+        <String xml:lang="ga-IE">Caithfidh tú ~r~{0} soicind ~s~a choinneáil sula ndéanann tú ~y~ATM~s~ eile a hackáil.</String>
     </Entry>
 
     <Entry Id="atm_hacking_success">
@@ -560,9 +784,8 @@
         <String xml:lang="it-IT">Hai hackerato il ~r~bancomat~s~ e hai rubato ~g~{0}~s~!</String>
         <String xml:lang="de-DE">Du hast den ~r~Geldautomat~s~ gehackt und ~g~{0}~s~ gestohlen!</String>
         <String xml:lang="nl-NL">Je hebt de ~r~geldautomaat~s~ gehackt en hebt ~g~{0}~s~ gestolen!</String>
-        <String xml:lang="fr-FR">Tu as piraté le ~r~distributeur de billets~s~ et volé ~g~{0}~s~!</String>
         <String xml:lang="pl-PL">zhakowałeś ~r~bankomat~s~ i zrabowałeś ~g~{0}~s~!</String>
-        <String xml:lang="tr-TR">~r~Bankamatik ~s~hackledin ve ~g~{0} ~s~çaldın!</String>
+        <String xml:lang="tr-TR">~r~Bankamatiği ~s~hackledin ve ~g~{0} ~s~çaldın!</String>
         <String xml:lang="zh-Hant">你駭入了 ~r~提款機~s~ 並獲取了 ~g~{0}~s~!</String>
         <String xml:lang="zh-Hans">你骇入了 ~r~提款机~s~ 并获取了 ~g~{0}~s~!</String>
         <String xml:lang="es-ES">¡Hackeaste el ~r~Cajero automatico~s~ y robaste ~g~{0}~s~!</String>
@@ -572,6 +795,14 @@
         <String xml:lang="vi-VN">Bạn đã thành công hack được ~r~ATM~s~ bạn đã cướp được ~g~{0}~s~!</String>
         <String xml:lang="id-ID">Anda berhasil meretas ~r~ATM~s~ dan berhasil mencuri ~g~{0}~s~!</String>
         <String xml:lang="hi-Latn">Aapne hack kiye ~r~ATM~s~ aur churaye ~g~{0}~s~!</String>
+        <String xml:lang="cs-CZ">Hacknul jsi ~r~bankomat~s~ a ukradl ~g~{0}~s~!</String>
+        <String xml:lang="lv-LV">Jūs uzlauzāt ~r~bankomātu~s~ un nozagāt ~g~{0}~s~!</String>
+        <String xml:lang="sv-SE">Du hackade ~r~bankautomaten~s~ och snodde ~g~{0}~s~!</String>
+        <String xml:lang="no-NO">Du hacket ~r~MINIBANK~s~ og du stjal ~g~{0}~s~!</String>
+        <String xml:lang="fr-FR">Vous avez piraté le ~r~distributeur de billets~s~ et volé ~g~{0}~s~!</String>
+        <String xml:lang="sr-RS">Hackuvali ste ~r~bankomat~s~ i ukradli ~g~{0}~s~!</String>
+        <String xml:lang="et-EE">Sa häkkisid ~r~pangaautomaati~s~ ja röövisid ~g~{0}~s~!</String>
+        <String xml:lang="ga-IE">Hacáil tú ~r~ATM~s~ agus chuir tú isteach ~g~{0}~s~!</String>
     </Entry>
 
     <Entry Id="atm_hacking_success_announcement">
@@ -590,5 +821,396 @@
         <String xml:lang="th-TH">{0} แฮ็กตู้เอทีเอ็มและขโมย {1}</String>
         <String xml:lang="vi-VN">{0} Đã hack máy ATM và cướp được {1}.</String>
         <String xml:lang="hi-Latn">{0} ne hack kiya aur churaya {1}.</String>
+        <String xml:lang="id-ID">{0} berhasil meretas ATM dan mencuri {1}!</String>
+        <String xml:lang="cs-CZ">{0} hacknul bankomat a ukradl {1}.</String>
+        <String xml:lang="lv-LV">{0} uzlauza bankomātu un nozaga {1}.</String>
+        <String xml:lang="sv-SE">{0} hackade en bankautomat och snodde {1}.</String>
+        <String xml:lang="no-NO">{0} hacket en minibank og stjal {1}.</String>
+        <String xml:lang="sr-RS">{0} hackovao bankomat i ukrado {1}.</String>
+        <String xml:lang="et-EE">{0} häkkis pangaautomaati ning röövis {1}.</String>
+        <String xml:lang="ga-IE">{0} hacáil tú ATM agus chuir tú isteach {1}.</String>
+    </Entry>
+
+    <!--=======================-->
+    <!--===    Bank Menu    ===-->
+    <!--=======================-->
+    <Entry Id="menu_bank_interest_rate">
+        <String xml:lang="en-US">Daily interest rate</String>
+        <String xml:lang="de-DE">Täglicher Zinssatz</String>
+        <String xml:lang="nl-NL">Dagelijkse rente</String>
+        <String xml:lang="it-IT">Tasso d'interesse giornaliero</String>
+        <String xml:lang="no-NO">Daglig rente</String>
+        <String xml:lang="fr-FR">Taux d'intêret journalier</String>
+        <String xml:lang="zh-Hant">每日利率</String>
+        <String xml:lang="lv-LV">Dienas procentu likme</String>
+        <String xml:lang="vi-VN">Lãi suất hàng ngày</String>
+        <String xml:lang="hi-Latn">Daily ka interest rate</String>
+        <String xml:lang="es-ES">Tasa de interés diaria</String>
+        <String xml:lang="sr-RS">Dnevna kamatna stopa</String>
+        <String xml:lang="et-EE">Igapäevane intressimäär</String>
+        <String xml:lang="ga-IE">Ráta airgead a chéile gach lá</String>
+        <String xml:lang="tr-TR">Günlük faiz oranı</String>
+    </Entry>
+
+    <!-- {0} = Formatted amount -->
+    <Entry Id="bank_interest_received">
+        <String xml:lang="en-US">You have received ~g~{0} ~s~in interest from ~b~Fleeca Bank~s~.</String>
+        <String xml:lang="de-DE">Du hast ~g~{0} ~s~Zinsen von der ~b~Fleeca Bank~s~ erhalten.</String>
+        <String xml:lang="nl-NL">Je hebt ~g~{0} ~s~aan rente ontvangen van ~b~Fleeca Bank~s~.</String>
+        <String xml:lang="it-IT">Hai ricevuto ~g~{0} ~s~di interessi da ~b~Banca Fleeca~s~.</String>
+        <String xml:lang="no-NO">Du har mottatt ~g~{0} ~s~i renter fra ~b~Fleeca Bank~s~.</String>
+        <String xml:lang="fr-FR">Vous avez reçu ~g~{0} ~s~d'intêret de la ~b~banque Fleeca~s~.</String>
+        <String xml:lang="zh-Hant">你收到了 ~b~全福銀行~s~ ~g~{0} ~s~的利息.</String>
+        <String xml:lang="lv-LV">Jūs saņēmat ~g~{0}~s~ procentos no ~b~Fleeca Bank~s~.</String>
+        <String xml:lang="vi-VN">Bạn đã nhận được ~g~{0} ~s~tiền lãi từ ~b~Ngân hàng Fleeca~s~.</String>
+        <String xml:lang="hi-Latn">Aapko ~b~Fleeca Bank ~s~se interest ke form mein ~g~{0} ~s~mile.</String>
+        <String xml:lang="es-ES">Ha recibido ~g~{0} ~s~en intereses de ~b~Banco Fleeca~s~.</String>
+        <String xml:lang="sr-RS">Dobili ste ~g~{0} ~s~interes od ~b~Fleeca banku~s~.</String>
+        <String xml:lang="et-EE">Sa oled saanud ~g~{0} ~s~intressi ~b~Fleeca Pangalt~s~.</String>
+        <String xml:lang="ga-IE">Fuair tú ~g~{0} ~s~airgead a chéile ó ~b~Fleeca Bank~s~.</String>
+        <String xml:lang="tr-TR">~b~Flecca Bank~s~asından ~g~{0} ~s~faiz ödemesi aldın.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_deposit">
+        <String xml:lang="en-US">Deposit</String>
+        <String xml:lang="de-DE">Einzahlen</String>
+        <String xml:lang="nl-NL">Storten</String>
+        <String xml:lang="it-IT">Versamento</String>
+        <String xml:lang="no-NO">Innskudd</String>
+        <String xml:lang="fr-FR">Déposer</String>
+        <String xml:lang="zh-Hant">存款</String>
+        <String xml:lang="lv-LV">Iemaksāt</String>
+        <String xml:lang="vi-VN">Gửi tiền</String>
+        <String xml:lang="hi-Latn">Deposit</String>
+        <String xml:lang="es-ES">Depósito</String>
+        <String xml:lang="sr-RS">Depozit</String>
+        <String xml:lang="et-EE">Sissemakse</String>
+        <String xml:lang="ga-IE">Iomlán</String>
+        <String xml:lang="tr-TR">Yatır</String>
+    </Entry>
+
+    <Entry Id="menu_bank_deposit_desc">
+        <String xml:lang="en-US">Deposit money to your ~g~checking account~s~.</String>
+        <String xml:lang="de-DE">Zahle Geld auf dein ~g~Konto~s~ ein.</String>
+        <String xml:lang="nl-NL">Stort geld op youw ~g~bankrekening~s~.</String>
+        <String xml:lang="it-IT">Versa denaro sul tuo ~g~conto corrente~s~.</String>
+        <String xml:lang="no-NO">Sett inn penger til din ~g~sjekkkonto~s~.</String>
+        <String xml:lang="fr-FR">Déposez de l'argent sur votre ~g~compte bancaire~s~.</String>
+        <String xml:lang="lv-LV">Iemaksājiet naudu savā~g~norēķinu kontā~s~.</String>
+        <String xml:lang="vi-VN">Gửi tiền vào ~g~Tài khoản thanh toán~s~.</String>
+        <String xml:lang="hi-Latn">Apne ~g~checking account ~s~me paise deposit kare.</String>
+        <String xml:lang="es-ES">Deposite dinero en su ~g~cuenta corriente~s~.</String>
+        <String xml:lang="sr-RS">Depozitujte novac na svoj ~g~Tekući račun~s~.</String>
+        <String xml:lang="et-EE">Sisesta raha oma ~g~arvelduskontole~s~.</String>
+        <String xml:lang="ga-IE">Iomlán airgead ar do ~g~chuntas seiceála~s~.</String>
+        <String xml:lang="tr-TR">~g~Vadesiz hesabın~s~a para yatır.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_withdraw">
+        <String xml:lang="en-US">Withdraw</String>
+        <String xml:lang="de-DE">Abheben</String>
+        <String xml:lang="nl-NL">Opnemen</String>
+        <String xml:lang="it-IT">Prelievo</String>
+        <String xml:lang="no-NO">Trekk tilbake</String>
+        <String xml:lang="fr-FR">Retirer</String>
+        <String xml:lang="lv-LV">Izņemt</String>
+        <String xml:lang="vi-VN">Rút tiền</String>
+        <String xml:lang="hi-Latn">Withdraw</String>
+        <String xml:lang="es-ES">Retirada</String>
+        <String xml:lang="sr-RS">Podignite novac</String>
+        <String xml:lang="et-EE">Väljamakse</String>
+        <String xml:lang="ga-IE">Tóg airgead</String>
+        <String xml:lang="tr-TR">Çek</String>
+    </Entry>
+
+    <Entry Id="menu_bank_withdraw_desc">
+        <String xml:lang="en-US">Withdraw money from your ~g~checking account~s~.</String>
+        <String xml:lang="de-DE">Hebe Geld von deinem ~g~Konto~s~ ab.</String>
+        <String xml:lang="nl-NL">Neem geld op van jouw ~g~bankrekening~s~.</String>
+        <String xml:lang="it-IT">Preleva denaro dal tuo ~g~conto corrente~s~.</String>
+        <String xml:lang="no-NO">Ta ut penger fra din ~g~sjekkkonto~s~.</String>
+        <String xml:lang="fr-FR">Retirez de l'argent depuis votre ~g~compte bancaire~s~.</String>
+        <String xml:lang="lv-LV">Izņemiet naudu no sava ~g~norēķinu konta~s~.</String>
+        <String xml:lang="id-ID">Menarik uang dari ~g~rekening tabungan~s~.</String>
+        <String xml:lang="vi-VN">Rút tiền từ tài khoản ~g~tài khoản thanh toán~s~.</String>
+        <String xml:lang="hi-Latn">Apne ~g~checking account~s~ se paise withdraw kare.</String>
+        <String xml:lang="es-ES">Retire dinero de su ~g~cuenta corriente~s~.</String>
+        <String xml:lang="sr-RS">Podignite novac sa svojeg ~g~Tekućeg računa~s~.</String>
+        <String xml:lang="et-EE">Võta raha välja oma ~g~arvelduskontolt~s~.</String>
+        <String xml:lang="ga-IE">Tóg airgead ó do ~g~chuntas seiceála~s~.</String>
+        <String xml:lang="tr-TR">~g~Vadesiz hesabın~s~dan para çek.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_transfer">
+        <String xml:lang="en-US">Transfer</String>
+        <String xml:lang="de-DE">Überweisen</String>
+        <String xml:lang="nl-NL">Overmaken</String>
+        <String xml:lang="it-IT">Bonifico</String>
+        <String xml:lang="no-NO">Overføre</String>
+        <String xml:lang="fr-FR">Virement</String>
+        <String xml:lang="lv-LV">Pārskaitīt</String>
+        <String xml:lang="id-ID">Transfer</String>
+        <String xml:lang="vi-VN">Chuyển tiền</String>
+        <String xml:lang="hi-Latn">Transfer</String>
+        <String xml:lang="es-ES">Transferencia</String>
+        <String xml:lang="sr-RS">Transfer</String>
+        <String xml:lang="et-EE">Ülekanne</String>
+        <String xml:lang="ga-IE">Tarraing</String>
+        <String xml:lang="tr-TR">Para Transferi</String>
+    </Entry>
+
+    <Entry Id="menu_bank_transfer_desc">
+        <String xml:lang="en-US">Transfer money to another player's ~g~checking account~s~.</String>
+        <String xml:lang="de-DE">Überweise Geld auf das ~g~Konto~s~ eines anderen Spielers.</String>
+        <String xml:lang="nl-NL">Maak geld over naar een andere speler's ~g~bankrekening~s~.</String>
+        <String xml:lang="it-IT">Trasferisci denaro sul ~g~conto corrente ~s~di un altro giocatore.</String>
+        <String xml:lang="no-NO">Overfør penger til en annen spillers ~g~sjekkkonto~s~.</String>
+        <String xml:lang="fr-FR">Effectuez un virement d'argent sur le ~g~compte bancaire~s~ d'un autre joueur.</String>
+        <String xml:lang="lv-LV">Pārskaitiet naudu uz cuta spēlētāja ~g~norēķinu kontu~s~.</String>
+        <String xml:lang="id-ID">Transfer uang kepada ~g~rekening tabungan~s~ pemain lain.</String>
+        <String xml:lang="vi-VN">Chuyển tiền vào ~g~tài khoản thanh toán~s~ của người chơi khác.</String>
+        <String xml:lang="hi-Latn">Kisi doosre player ke ~g~checking account ~s~mein paise transfer kijiye.</String>
+        <String xml:lang="es-ES">Transfiera dinero a la ~g~cuenta corriente ~s~de otro jugador.</String>
+        <String xml:lang="sr-RS">Transferuj novac na ~g~tekuci racun~s~ drugog igraca.</String>
+        <String xml:lang="et-EE">Kanna raha teise mängija ~g~arvelduskontole~s~.</String>
+        <String xml:lang="ga-IE">Tarraing airgead chuig ~g~chuntas seiceála~s~ de chéile.</String>
+        <String xml:lang="tr-TR">Başka bir oyuncunun ~g~vadesiz hesabı~s~na para transfer et.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_transfer_amount">
+        <String xml:lang="en-US">Enter the amount to transfer.</String>
+        <String xml:lang="de-DE">Gebe den zu überweisenden Betrag ein.</String>
+        <String xml:lang="nl-NL">Voer het bedrag in om over te maken.</String>
+        <String xml:lang="it-IT">Inserisci l'importo da trasferire.</String>
+        <String xml:lang="no-NO">Angi beløpet som skal overføres.</String>
+        <String xml:lang="fr-FR">Entrez la somme à virer.</String>
+        <String xml:lang="lv-LV">Ievadiet pārskaitāmo summu.</String>
+        <String xml:lang="id-ID">Masukkan jumlah yang akan ditransfer.</String>
+        <String xml:lang="vi-VN">Nhập số tiền cần chuyển.</String>
+        <String xml:lang="hi-Latn">Transfer karne ke liye amount enter kijiye.</String>
+        <String xml:lang="es-ES">Introduzca la cantidad a transferir.</String>
+        <String xml:lang="sr-RS">Unesite iznos za transfer.</String>
+        <String xml:lang="et-EE">Sisesta summa ülekandeks</String>
+        <String xml:lang="ga-IE">Cuir isteach an t-áireamh le tarraingt.</String>
+        <String xml:lang="tr-TR">Transfer etmek istediğin miktarı gir.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_transfer_reason">
+        <String xml:lang="en-US">Enter the reason of the transfer.</String>
+        <String xml:lang="de-DE">Gebe den Grund für die Überweisung ein.</String>
+        <String xml:lang="nl-NL">Voer de reden van de overboeking in.</String>
+        <String xml:lang="it-IT">Inserisci il motivo del bonifico.</String>
+        <String xml:lang="no-NO">Angi årsaken til overføringen.</String>
+        <String xml:lang="fr-FR">Entrez la raison du virement.</String>
+        <String xml:lang="lv-LV">Ievadiet pārskaitījuma iemeslu.</String>
+        <String xml:lang="id-ID">Masukkan alasan transfer.</String>
+        <String xml:lang="vi-VN">Nhập lý do chuyển tiền.</String>
+        <String xml:lang="hi-Latn">Transfer ka reason dijiye.</String>
+        <String xml:lang="es-ES">Introduzca el concepto de la transferencia.</String>
+        <String xml:lang="sr-RS">Unesite razlog za transfer.</String>
+        <String xml:lang="et-EE">Sisesta põhjus ülekandeks.</String>
+        <String xml:lang="ga-IE">Cuir isteach an fáth a chéile le tarraingt.</String>
+        <String xml:lang="tr-TR">Transfer sebebini gir.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_transfer_successful">
+        <String xml:lang="en-US">You have transfered ~g~{0} ~s~to {1}'s checking account.</String>
+        <String xml:lang="de-DE">Du hast ~g~{0} ~s~auf das Konto von {1} überwiesen.</String>
+        <String xml:lang="nl-NL">Je hebt ~g~{0} ~s~overgemaakt naar {1}'s bankrekening.</String>
+        <String xml:lang="it-IT">Hai trasferito ~g~{0} ~s~sul conto corrente di {1}.</String>
+        <String xml:lang="no-NO">Du har overført ~g~{0} ~s~til {1}s brukskonto.</String>
+        <String xml:lang="fr-FR">Vous avez viré ~g~{0} ~s~au compte bancaire de {1}.</String>
+        <String xml:lang="lv-LV">Jūs esat pārskaitījis ~g~{0}~s~ uz {1}'s norēķinu kontu.</String>
+        <String xml:lang="id-ID">Kamu telah melakukan transfer sejumlah ~g~{0} ~s~kepada rekening tabungan {1}.</String>
+        <String xml:lang="vi-VN">Bạn đã chuyển ~g~{0} ~s~vào tài khoản thanh toán của {1}'s</String>
+        <String xml:lang="hi-Latn">Aapne ~g~{0} ~s~{1} ke checking account mein transfer kiye hain.</String>
+        <String xml:lang="es-ES">Ha transferido ~g~{0} ~s~a la cuenta corriente de {1}.</String>
+        <String xml:lang="sr-RS">Prebacili ste ~g~{0} ~s~na {1} račun.</String>
+        <String xml:lang="et-EE">Sa oled kandnud ~g~{0} ~s~{1} arvelduskontole.</String>
+        <String xml:lang="ga-IE">Tá tú tarraingt ~g~{0} ~s~go dtí {1}'s chuntas seiceála.</String>
+        <String xml:lang="tr-TR">{1} isimli oyuncunun vadesiz hesabına ~g~{0} ~s~transfer ettin.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_transfer_received">
+        <String xml:lang="en-US">{0} has transfered ~g~{1} ~s~to your checking account for ~b~"{2}"~s~.</String>
+        <String xml:lang="de-DE">{0} hat ~g~{1} ~s~auf dein Konto überwiesen mit dem Verwendungszweck ~b~"{2}"~s~.</String>
+        <String xml:lang="nl-NL">{0} heeft ~g~{1} ~s~overgemaakt naar jouw bankrekening met als reden ~b~"{2}"~s~.</String>
+        <String xml:lang="it-IT">{0} ha trasferito ~g~{1} ~s~sul tuo conto corrente per ~b~"{2}"~s~.</String>
+        <String xml:lang="no-NO">{0} har overført ~g~{1} ~s~til din brukskonto for ~b~"{2}"~s~.</String>
+        <String xml:lang="fr-FR">{0} a viré~g~{1} ~s~sur votre compte bancaire pour ~b~"{2}"~s~.</String>
+        <String xml:lang="lv-LV">{0} ir pārskaitījis ~g~{1}~s~ uz jūsu norēķinu kontu par ~b~"{2}"~s~.</String>
+        <String xml:lang="zh-Hant">{0} 因為 ~b~"{2}"~s~ 轉了 ~g~{1}~s~ 到你的支票帳戶.</String>
+        <String xml:lang="id-ID">{0} telah melakukan transfer sejumlah ~g~{1} ~s~kedalam rekening tabunganmu dengan alasan ~b~"{2}"~s~.</String>
+        <String xml:lang="vi-VN">{0} đã chuyển ~g~{1} ~s~vào tài khoản thanh toán của bạn với lý do ~b~"{2}"~s~.</String>
+        <String xml:lang="hi-Latn">{0} ne aapke checking account mein ~g~{1} ~s~transfer kiye hain ~b~"{2}" ~s~ke liye.</String>
+        <String xml:lang="es-ES">{0} ha transferido ~g~{1} ~s~a tu cuenta corriente por ~b~"{2}"~s~.</String>
+        <String xml:lang="sr-RS">{0} je prebacio ~g~{1} ~s~na tvoj račun za ~b~"{2}"~s~.</String>
+        <String xml:lang="et-EE">{0} on kandnud ~g~{1} ~s~sinu arvelduskontole ~b~"{2}"~s~.</String>
+        <String xml:lang="ga-IE">{0} tarraingt ~g~{1} ~s~go dtí do chuntas seiceála le haghaidh ~b~"{2}"~s~.</String>
+        <String xml:lang="tr-TR">{0} ~b~"{2}" ~s~sebebiyle vadesiz hesabına ~g~{1} ~s~transfer etti.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_history">
+        <String xml:lang="en-US">History</String>
+        <String xml:lang="de-DE">Verlauf</String>
+        <String xml:lang="lv-LV">Vēsture</String>
+        <String xml:lang="it-IT">Cronologia</String>
+        <String xml:lang="nl-NL">Geschiedenis</String>
+        <String xml:lang="fr-FR">Historique</String>
+        <String xml:lang="pl-PL">Historia</String>
+        <String xml:lang="tr-TR">Geçmiş</String>
+        <String xml:lang="zh-Hant">交易紀錄</String>
+        <String xml:lang="zh-Hans">交易纪录</String>
+        <String xml:lang="es-ES">Historial</String>
+        <String xml:lang="ar-001">تاريخ</String>
+        <String xml:lang="pt-BR">Registro</String>
+        <String xml:lang="th-TH">ประวัติ</String>
+        <String xml:lang="vi-VN">Lịch sử chuyển tiền</String>
+        <String xml:lang="id-ID">Riwayat</String>
+        <String xml:lang="hi-Latn">History</String>
+        <String xml:lang="cs-CZ">Historie</String>
+        <String xml:lang="no-NO">Historie</String>
+        <String xml:lang="sr-RS">Historija</String>
+        <String xml:lang="et-EE">Ajalugu</String>
+        <String xml:lang="ga-IE">Stair</String>
+    </Entry>
+
+    <Entry Id="menu_bank_history_desc">
+        <String xml:lang="en-US">Obtain a list of your recent transactions.</String>
+        <String xml:lang="de-DE">Erhalte eine Liste deiner letzten Transaktionen.</String>
+        <String xml:lang="zh-Hant">獲取您最近的交易列表.</String>
+        <String xml:lang="zh-Hans">获取您最近的交易列表.</String>
+        <String xml:lang="it-IT">Ottieni lo storico delle tue ultime transazioni.</String>
+        <String xml:lang="nl-NL">Krijg een lijst van je recent transacties.</String>
+        <String xml:lang="fr-FR">Obtenir une liste de vos transactions récentes.</String>
+        <String xml:lang="pl-PL">Otrzymaj listę ostatnich transakcji.</String>
+        <String xml:lang="tr-TR">Son işlemlerinin bir listesini al.</String>
+        <String xml:lang="es-ES">Obtén una lista de tus transacciones recientes.</String>
+        <String xml:lang="ar-001">احصل على قائمة بمعاملاتك الأخيرة.</String>
+        <String xml:lang="pt-BR">Receber uma lista de todas as suas transações recentes.</String>
+        <String xml:lang="th-TH">รายการธุรกรรมล่าสุดของคุณ.</String>
+        <String xml:lang="vi-VN">Danh sách chuyển tiền gần đây của bạn.</String>
+        <String xml:lang="id-ID">Menampilkan daftar riwayat transaksi anda.</String>
+        <String xml:lang="hi-Latn">Apne recent transactions ki list dekhe.</String>
+        <String xml:lang="cs-CZ">Zobrazit seznam tvých nedávných transakcí.</String>
+        <String xml:lang="lv-LV">Iegūstiet savu pēdējo darījumu izrakstu.</String>
+        <String xml:lang="no-NO">Få en liste over de siste transaksjonene dine.</String>
+        <String xml:lang="sr-RS">Izrada vaše poslednje transakcije.</String>
+        <String xml:lang="et-EE">Hangi nimekiri oma hiljutistest tehingutest.</String>
+        <String xml:lang="ga-IE">Faigh liosta de do dh'ionsaithe is déanaí.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_history_sub">
+        <String xml:lang="en-US">Recent transactions</String>
+        <String xml:lang="de-DE">Letzte Transaktionen</String>
+        <String xml:lang="nl-NL">Recente transacties</String>
+        <String xml:lang="no-NO">Nylige transaksjoner</String>
+        <String xml:lang="it-IT">Transazioni recenti</String>
+        <String xml:lang="fr-FR">Transactions récentes</String>
+        <String xml:lang="lv-LV">Nesenas transakcijas</String>
+        <String xml:lang="zh-Hant">近期交易紀錄</String>
+        <String xml:lang="id-ID">Transaksi terbaru</String>
+        <String xml:lang="vi-VN">Các giao dịch gần đây</String>
+        <String xml:lang="hi-Latn">Recent ki transactions</String>
+        <String xml:lang="es-ES">Transacciones recientes</String>
+        <String xml:lang="sr-RS">Transakcije koje su bile u poslednje vreme</String>
+        <String xml:lang="et-EE">Lähiaegsed tehingud</String>
+        <String xml:lang="ga-IE">Ionsaithe is déanaí</String>
+        <String xml:lang="tr-TR">Son işlemler</String>
+    </Entry>
+
+    <Entry Id="menu_bank_history_pre">
+        <String xml:lang="en-US">PAGE {0}</String>
+        <String xml:lang="de-DE">SEITE {0}</String>
+        <String xml:lang="nl-NL">PAGINA {0}</String>
+        <String xml:lang="no-NO">SIDE {0}</String>
+        <String xml:lang="it-IT">PAGINA {0}</String>
+        <String xml:lang="fr-FR">PAGE {0}</String>
+        <String xml:lang="lv-LV">LAPA {0}</String>
+        <String xml:lang="zh-Hant">{0} 頁</String>
+        <String xml:lang="id-ID">HALAMAN {0}</String>
+        <String xml:lang="vi-VN">TRANG {0}</String>
+        <String xml:lang="hi-Latn">PAGE {0}</String>
+        <String xml:lang="es-ES">PÁGINA {0}</String>
+        <String xml:lang="sr-RS">Stranica {0}</String>
+        <String xml:lang="et-EE">LEHEKÜLG {0}</String>
+        <String xml:lang="ga-IE">LEATHANACH {0}</String>
+        <String xml:lang="tr-TR">SAYFA {0}</String>
+    </Entry>
+
+    <Entry Id="menu_bank_loan">
+        <String xml:lang="en-US">Loan</String>
+        <String xml:lang="de-DE">Kredit</String>
+        <String xml:lang="nl-NL">Lening</String>
+        <String xml:lang="no-NO">Låne</String>
+        <String xml:lang="it-IT">Prestito</String>
+        <String xml:lang="fr-FR">Prêt</String>
+        <String xml:lang="lv-LV">Aizdevums</String>
+        <String xml:lang="zh-Hant">借款</String>
+        <String xml:lang="id-ID">Pinjaman</String>
+        <String xml:lang="vi-VN">Khoản vay</String>
+        <String xml:lang="hi-Latn">Udhar</String>
+        <String xml:lang="es-ES">Préstamo</String>
+        <String xml:lang="sr-RS">Udhar</String>
+        <String xml:lang="et-EE">Laen</String>
+        <String xml:lang="ga-IE">Udar</String>
+        <String xml:lang="tr-TR">Kredi</String>
+    </Entry>
+
+    <Entry Id="menu_bank_loan_desc">
+        <String xml:lang="en-US">Obtain a ~r~loan ~s~from the bank.</String>
+        <String xml:lang="de-DE">Erhalte einen ~r~Kredit ~s~von der Bank.</String>
+        <String xml:lang="nl-NL">Krijg een ~r~lening ~s~van de bank.</String>
+        <String xml:lang="it-IT">Ottieni un ~r~prestito ~s~dalla banca.</String>
+        <String xml:lang="no-NO">Få et ~r~lån ~s~fra banken.</String>
+        <String xml:lang="fr-FR">Obtenez un ~r~prêt ~s~à votre banque.</String>
+        <String xml:lang="lv-LV">Saņemt ~r~aizdevumu~s~ no bankas.</String>
+        <String xml:lang="zh-Hant">向銀行 ~r~借款~s~.</String>
+        <String xml:lang="id-ID">Dapatkan ~r~pinjaman ~s~dari bank.</String>
+        <String xml:lang="vi-VN">Vay một ~r~khoản tiền ~s~từ ngân hàng.</String>
+        <String xml:lang="hi-Latn">Bank se ~r~udhari ~s~lijiye.</String>
+        <String xml:lang="es-ES">Reciba un ~r~préstamo ~s~del banco.</String>
+        <String xml:lang="sr-RS">Dobijo je ~r~udhar ~s~od banke.</String>
+        <String xml:lang="et-EE">Hangi nimekiri oma hiljutistest tehingutest.</String>
+        <String xml:lang="ga-IE">Faigh ~r~udhar ~s~ó bank.</String>
+        <String xml:lang="tr-TR">Bankadan ~r~kredi ~s~çek.</String>
+    </Entry>
+
+    <Entry Id="menu_bank_debt">
+        <String xml:lang="en-US">Pay debt</String>
+        <String xml:lang="de-DE">Schulden bezahlen</String>
+        <String xml:lang="nl-NL">Betaal schuld</String>
+        <String xml:lang="it-IT">Paga debito</String>
+        <String xml:lang="no-NO">Betal gjeld</String>
+        <String xml:lang="fr-FR">Paiement de dettes</String>
+        <String xml:lang="lv-LV">Maksāt parādu</String>
+        <String xml:lang="zh-Hant">還款</String>
+        <String xml:lang="id-ID">Bayar hutang</String>
+        <String xml:lang="vi-VN">Trả nợ</String>
+        <String xml:lang="hi-Latn">Karz chukao</String>
+        <String xml:lang="es-ES">Pagar deuda</String>
+        <String xml:lang="sr-RS">Plati dugove</String>
+        <String xml:lang="et-EE">Maksa laen</String>
+        <String xml:lang="ga-IE">Páigh airgead</String>
+        <String xml:lang="tr-TR">Borç öde</String>
+    </Entry>
+
+    <Entry Id="menu_bank_debt_desc">
+        <String xml:lang="en-US">Make a payment towards your ~r~debt~s~.</String>
+        <String xml:lang="de-DE">Leiste eine Zahlung für deine ~r~Schulden~s~.</String>
+        <String xml:lang="nl-NL">Doe een betaling voor je ~r~schuld~s~.</String>
+        <String xml:lang="it-IT">Fai un pagamento verso il tuo ~r~debito~s~.</String>
+        <String xml:lang="no-NO">Foreta en betaling mot din ~r~gjeld~s~.</String>
+        <String xml:lang="fr-FR">Effectuez un paiement envers votre ~r~dette~s~.</String>
+        <String xml:lang="lv-LV">Veiciet maksājumu par savu ~r~parādi~s~.</String>
+        <String xml:lang="zh-Hant">把你一部分的 ~r~欠款~s~ 還掉.</String>
+        <String xml:lang="id-ID">Lakukan pembayaran untuk ~r~hutangmu~s~.</String>
+        <String xml:lang="vi-VN">Thực hiện thanh toán cho ~r~khoản nợ~s~ của bạn.</String>
+        <String xml:lang="hi-Latn">Apne ~r~karz ~s~ka bhugtaan kijiye.</String>
+        <String xml:lang="es-ES">Realice un pago hacia su ~r~deuda~s~.</String>
+        <String xml:lang="sr-RS">Uplatite prema vasem ~r~dug~s~.</String>
+        <String xml:lang="et-EE">Tee makse oma ~r~võla~s~ tasumiseks.</String>
+        <String xml:lang="ga-IE">Déan íocaíocht ar do ~r~airgead~s~.</String>
+        <String xml:lang="tr-TR">~r~Borç ~s~ödemesi yap.</String>
     </Entry>
 </Entries>

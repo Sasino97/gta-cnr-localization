@@ -14,11 +14,11 @@ T = TypeVar("T")
 COLORAMA_INSTALLED = True
 DOMINATE_INSTALLED  = True
 XML_LANG_ATTRIB =  "xml:lang"
-SHORT_GTA_FORMAT_REGEX = r"~(?:[s,b,r,n,y,p,g,o,h,c]|HUD_COLOUR_NET_PLAYER1)~"
-TOO_MANY_SPACES_REGEX = r"\s~[s,b,r,n,y,p,g,o,h,c]~\s|\s\s+"
+SHORT_GTA_FORMAT_REGEX = r"~(?:[sbrnypgohc]|HUD_COLOUR_NET_PLAYER1)~"
+TOO_MANY_SPACES_REGEX = r"\s~[sbrnypgohc]~\s|\s\s+"
 TEXT_VARIABLE_REGEX = r"{[0-9]+}"
-PUNCTUATION_MARKS_REGEX = r"[.,?,!]"
-WRONG_PUNCTUATION_REGEX = r"\s" + PUNCTUATION_MARKS_REGEX + r"|\s" + SHORT_GTA_FORMAT_REGEX + PUNCTUATION_MARKS_REGEX
+PUNCTUATION_MARKS_REGEX = r"[,.?!]"
+WRONG_PUNCTUATION_REGEX = r"(?<!\d)\s" + PUNCTUATION_MARKS_REGEX + r"(?!\d)|\s" + SHORT_GTA_FORMAT_REGEX + PUNCTUATION_MARKS_REGEX
 
 
 try:
@@ -93,7 +93,7 @@ class Validator:
     """XML Validation
 
     This class provides utility functions for validating XML localization files.
-    
+
     Attributes:
         xml_files (list[str]): A list of XML filenames to be validated.
         supported_langs (list[str]): A list of supported language codes.
@@ -112,7 +112,8 @@ class Validator:
     """
     xml_files: list[str] = []
     supported_langs: list[str] = ["en-US", "de-DE", "fr-FR", "nl-NL", "it-IT", "es-ES", "pt-BR",
-        "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH", "id-ID", "cs-CS"]
+        "pl-PL", "tr-TR", "ar-001", "zh-Hans", "zh-Hant", "hi-Latn", "vi-VN", "th-TH", "id-ID", "cs-CZ", "da-DK", "sv-SE", "ru-RU", "lv-LV", "et-EE", "no-NO", "sr-RS", "ga-IE"]
+    punctuation_ignored_langs: list[str] = ["zh-Hans", "zh-Hant", "ar-001"]
     used_ids: set[str] = set()
     fatal_errors: int = 0
     errors: int = 0
@@ -179,10 +180,10 @@ class Validator:
 
         Args:
             error (str): The error message to print.
-            location (list[str]): A list of strings representing the location of the error. 
+            location (list[str]): A list of strings representing the location of the error.
 
-        Returns: 
-            None 
+        Returns:
+            None
         """
         Validator.errors += 1
         loc_string = Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)
@@ -200,10 +201,10 @@ class Validator:
 
         Args:
             error (str): The error message to print.
-            location (list[str]): A list of strings representing the location of the error. 
+            location (list[str]): A list of strings representing the location of the error.
 
-        Returns: 
-            None 
+        Returns:
+            None
         """
         Validator.fatal_errors += 1
         loc_string = Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)
@@ -221,10 +222,10 @@ class Validator:
 
         Args:
             warning (str): The warning message to print.
-            location (list[str]): A list of strings representing the location of the warning. 
+            location (list[str]): A list of strings representing the location of the warning.
 
-        Returns: 
-            None 
+        Returns:
+            None
         """
         loc_string = Validator.get_location_string(location, custom_file_cursor=custom_file_cursor)
         txt = f"[*] {loc_string}:\n{warning}"
@@ -405,6 +406,8 @@ class Validator:
                     if key != XML_LANG_ATTRIB:
                         Validator.print_error(f"Unknown attribute: {repr(key)}", path, child_node.parse_position)
                         continue
+                    if value not in Validator.supported_langs:
+                        Validator.print_error(f"Unsupported language code: {repr(value)}", path, child_node.parse_position)
                     if value == "en-US":
                         found_formats = re.findall(SHORT_GTA_FORMAT_REGEX, str_from_node(child_node))
                         if len(found_formats) > 0:
@@ -500,10 +503,11 @@ class Validator:
         if too_many_spaces_match:
             position: tuple[int] = (start_position[0], start_position[1]+too_many_spaces_match.end()-1)
             Validator.print_warning_or_error("Found too many spaces between words", path1, position)
-        wrong_punctuation_match: re.Match = re.search(WRONG_PUNCTUATION_REGEX, text)
-        if wrong_punctuation_match:
-            position: tuple[int] = (start_position[0], start_position[1]+wrong_punctuation_match.start())
-            Validator.print_warning_or_error("Found invalid punctuation mark placement", path1, position)
+        if (current_lang not in Validator.punctuation_ignored_langs):
+            wrong_punctuation_match: re.Match = re.search(WRONG_PUNCTUATION_REGEX, text)
+            if wrong_punctuation_match:
+                position: tuple[int] = (start_position[0], start_position[1]+wrong_punctuation_match.start())
+                Validator.print_warning_or_error("Found invalid punctuation mark placement", path1, position)
 
 
 if __name__ == '__main__':
