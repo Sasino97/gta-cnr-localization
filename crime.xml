@@ -52,7 +52,7 @@
 
     <Entry Id="crime_most_wanted">
         <String xml:lang="en-US">You are ~r~most wanted~s~ - other players can kill you on sight!</String>
-        <String xml:lang="de-DE">Du bist ~r~meistgesucht~s~ - andere Spieler dürfen dich bei Sichtkontakt töten!</String>
+        <String xml:lang="de-DE">Du bist ~r~Most Wanted~s~ - andere Spieler dürfen dich bei Sichtkontakt töten!</String>
         <String xml:lang="nl-NL">Je bent het ~r~meest gezocht~s~ - andere spelers mogen jou op zicht vermoorden!</String>
         <String xml:lang="fr-FR">Vous êtes ~r~l'un des plus recherchés~s~ - les autres joueurs peuvent vous tuer à vue!</String>
         <String xml:lang="it-IT">Sei tra i ~r~più ricercati~s~ - altri giocatori possono ucciderti a vista!</String>
@@ -206,7 +206,7 @@
 
     <Entry Id="crime_gta">
         <String xml:lang="en-US">Grand Theft Auto</String>
-        <String xml:lang="de-DE">Auto-Diebstahl</String>
+        <String xml:lang="de-DE">Autodiebstahl</String>
         <String xml:lang="nl-NL">Auto-diefstal</String>
         <String xml:lang="it-IT">Furto d'auto</String>
         <String xml:lang="id-ID">Pencurian Kendaraan</String>
@@ -336,7 +336,7 @@
 
     <Entry Id="crime_shoot_vehicle">
         <String xml:lang="en-US">Shooting at a Vehicle</String>
-        <String xml:lang="de-DE">Fahrzeug beschießen</String>
+        <String xml:lang="de-DE">Beschuss eines Fahrzeugs</String>
         <String xml:lang="nl-NL">Voertuig beschieten</String>
         <String xml:lang="it-IT">Sparare a un veicolo</String>
         <String xml:lang="id-ID">Menembak ke kendaraan</String>
@@ -504,7 +504,7 @@
 
     <Entry Id="crime_carjacking">
         <String xml:lang="en-US">Carjacking</String>
-        <String xml:lang="de-DE">Auto-Überfall</String>
+        <String xml:lang="de-DE">Autodiebstahl</String>
         <String xml:lang="nl-NL">Auto-overval</String>
         <String xml:lang="it-IT">Furto d'auto in movimento</String>
         <String xml:lang="id-ID">Pembajakan Kendaraan</String>
@@ -652,13 +652,13 @@
 
     <Entry Id="crime_illegal_delivery">
         <String xml:lang="en-US">Illegal Delivery</String>
-        <String xml:lang="de-DE">Illegale Zustellung</String>
+        <String xml:lang="de-DE">Illegale Lieferung</String>
         <String xml:lang="it-IT">Consegna Illegale</String>
     </Entry>
 
     <Entry Id="crime_kill_pet">
         <String xml:lang="en-US">Killing a Pet</String>
-        <String xml:lang="de-DE">Töten eines Tieres</String>
+        <String xml:lang="de-DE">Töten eines Haustiers</String>
         <String xml:lang="nl-NL">Doden van een huisdier</String>
         <String xml:lang="it-IT">Uccisione di un animale domestico</String>
         <String xml:lang="id-ID">Membunuh Hewan</String>
@@ -745,7 +745,7 @@
     <!-- {4} = Distance -->
     <Entry Id="dispatch_crime_reported">
         <String xml:lang="en-US">~b~(C)Dispatch:(/C) ~s~Suspect {0} ~s~committed a {1} ({2}).~n~Location: ~y~{3} ~s~({4}).</String>
-        <String xml:lang="de-DE">~b~(C)Dispatch:(/C) ~s~Verdächtiger {0} ~s~hat einen {1} ({2}) begangen.~n~Ort: ~y~{3} ~s~({4}).</String>
+        <String xml:lang="de-DE">~b~(C)Dispatch:(/C) ~s~Verdächtiger {0} ~s~hat {1} ({2}) begangen.~n~Ort: ~y~{3} ~s~({4}).</String>
         <String xml:lang="nl-NL">~b~(C)Meldkamer:(/C) ~s~Verdachte {0} ~s~heeft een {1} ({2}) gepleegd.~n~Locatie: ~y~{3} ~s~({4}).</String>
         <String xml:lang="it-IT">~b~(C)Centrale:(/C) ~s~Il sospettato {0} ~s~ha commesso un(a) {1} ({2}).~n~Luogo: ~y~{3} ~s~({4}).</String>
         <String xml:lang="vi-VN">~b~(C)Điều phối:(/C) ~s~Nghi phạm {0} ~s~đã phạm một tội {1} ({2}).~n~Vị trí: ~y~{3} ~s~({4}).</String>
@@ -772,7 +772,7 @@
     <!-- {2} = Crime name (Robbery, assault, etc..) -->
     <Entry Id="dispatch_crime_spotted">
         <String xml:lang="en-US">You spotted {0} ~s~committing a {1} - {2}.</String>
-        <String xml:lang="de-DE">Du hast {0} ~s~beim Begehen eines {1} - {2} gesehen.</String>
+        <String xml:lang="de-DE">Du hast {0} dabei gesehen, {1} - {2} zu begehen.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~s~gezien terwijl hij een {1} - {2} pleegde.</String>
         <String xml:lang="it-IT">Hai avvistato {0} ~s~mentre commetteva un(a) {1} - {2}.</String>
         <String xml:lang="vi-VN">Bạn đã phát hiện {0} ~s~đang phạm một tội {1} - {2}.</String>
@@ -784,7 +784,7 @@
 
     <Entry Id="dispatch_respond">
         <String xml:lang="en-US">Respond</String>
-        <String xml:lang="de-DE">Antworten</String>
+        <String xml:lang="de-DE">Anrücken</String>
         <String xml:lang="nl-NL">Reageren</String>
         <String xml:lang="it-IT">Rispondi</String>
         <String xml:lang="vi-VN">Phản hồi</String>
