@@ -1237,7 +1237,7 @@
     <!-- {0} = Date -->
     <Entry Id="item_attribute_limited_descr">
         <String xml:lang="en-US">~r~Limited time offer: ~s~available until ~r~{0}~s~.</String>
-        <String xml:lang="ru-RU">~r~ Ограниченное предложение: ~s~ доступно до ~r~{0}~s~.</String>
+        <String xml:lang="ru-RU">~r~Ограниченное предложение:~s~ доступно до ~r~{0}~s~.</String>
         <String xml:lang="nl-NL">~r~Tijdelijk afgeprijsd: ~s~korting loopt tot ~r~{0}~s~.</String>
         <String xml:lang="th-TH">~r~ข้อเสนอมีเวลาจำกัด: ~s~ใช้ได้จนถึง ~r~{0}~s~</String>
         <String xml:lang="pl-PL">~r~Oferta ograniczona czasowo: ~s~dostępna do ~r~{0}~s~.</String>
@@ -1739,7 +1739,7 @@
     <!-- {2} = Cash amount -->
     <Entry Id="menu_store_purchased_cash">
         <String xml:lang="en-US">You purchased {0} ~p~{1} ~s~for ~r~{2}~s~.</String>
-        <String xml:lang="ru-RU">Вы купили {0} ~p~{1} ~s~ за ~r~{2}~s~.</String>
+        <String xml:lang="ru-RU">Вы купили {0} ~p~{1}~s~ за ~r~{2}~s~.</String>
         <String xml:lang="de-DE">Du hast {0} ~p~{1} ~s~für ~r~{2}~s~ gekauft.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~gekocht voor ~r~{2}~s~.</String>
         <String xml:lang="tr-TR">~r~{2} ~s~karşılığında {0} adet ~p~{1} ~s~aldın.</String>
@@ -1767,7 +1767,7 @@
     <!-- {3} = Cash amount -->
     <Entry Id="menu_store_purchased_gift_card">
         <String xml:lang="en-US">You purchased {0} ~p~{1} ~s~for ~b~{2} ~s~in gift card balance and ~r~{3} ~s~in cash.</String>
-        <String xml:lang="ru-RU">Вы купили {0} ~p~{1} ~s~ за ~b~{2} ~s~ в балансе подарочной карты и ~r~{3} ~s~ наличными.</String>
+        <String xml:lang="ru-RU">Вы купили {0} ~p~{1}~s~ за ~b~{2}~s~ в балансе подарочной карты и ~r~{3}~s~ наличными.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~gekocht voor ~b~{2} ~s~met cadeaubonnen en ~r~{3} ~s~in cash.</String>
         <String xml:lang="tr-TR">{0} adet ~p~{1}~s~ öğesini ~b~{2} ~s~hediye kartı bakiyesi ve ~r~{3} ~s~nakit ile satın aldın.</String>
         <String xml:lang="hi-Latn">Aapne khareeda {0} ~p~{1} ~s~for ~b~{2} ~s~apne gift card ke balance aur ~r~{3} ~s~cash se.</String>
@@ -1794,7 +1794,7 @@
     <!-- {2} = Cash amount -->
     <Entry Id="menu_store_sold_cash">
         <String xml:lang="en-US">You sold {0} ~p~{1} ~s~to the store for ~g~{2}.</String>
-        <String xml:lang="ru-RU">Вы продали {0} ~p~{1} ~s~ магазину за ~g~{2}.</String>
+        <String xml:lang="ru-RU">Вы продали {0} ~p~{1}~s~ магазину за ~g~{2}.</String>
         <String xml:lang="de-DE">Du hast {0} ~p~{1}~s~ für ~g~{2} an den Laden verkauft.</String>
         <String xml:lang="it-IT">Hai venduto {0} ~p~{1} ~s~al negozio per ~g~{2}.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~p~{1} ~s~verkocht aan de winkel voor ~g~{2}.</String>
@@ -3384,7 +3384,7 @@
 
     <Entry Id="stp_offered">
         <String xml:lang="en-US">You've offered your ~y~services ~s~to {0}~s~.</String>
-        <String xml:lang="ru-RU">Вы предложили свои ~y~услуги ~s~ {0}~s~.</String>
+        <String xml:lang="ru-RU">Вы предложили свои ~y~услуги~s~ {0}~s~.</String>
         <String xml:lang="nl-NL">Je hebt je ~y~diensten ~s~aangeboden aan {0}~s~.</String>
         <String xml:lang="hi-Latn">Aapne apni ~y~services ~s~offer kari {0} ~s~ko.</String>
         <String xml:lang="de-DE">Du hast {0}~s~ deine ~y~Dienste~s~ angeboten.</String>
@@ -3457,7 +3457,7 @@
     <!-- {2} = Input instructions -->
     <Entry Id="stp_got_offer">
         <String xml:lang="en-US">{0} {1} ~s~has offered you ~y~their services~s~. {2} to view their menu.</String>
-        <String xml:lang="ru-RU">{0} {1} ~s~ предложил вам ~y~ свои услуги~s~. {2}, чтобы просмотреть их меню.</String>
+        <String xml:lang="ru-RU">{0} {1}~s~ предложил вам ~y~свои услуги~s~. {2}, чтобы просмотреть их меню.</String>
         <String xml:lang="nl-NL">{0} {1} ~s~heeft je ~y~zijn/haar diensten~s~ aangeboden. {2} om het menu te bekijken.</String>
         <String xml:lang="de-DE">{0} {1} ~s~hat dir ~y~seine Dienste~s~ angeboten. {2} um dessen Menü anzuzeigen.</String>
         <String xml:lang="id-ID">{0} {1} ~s~telah menawarakan kamu ~y~layanan mereka~s~. {2} untuk melihat menu mereka.</String>
@@ -5154,7 +5154,7 @@
 
     <Entry Id="menu_hitman_new_contract_reward_below_minimum">
         <String xml:lang="en-US">The reward amount ~r~is below ~s~the minimum required for a hitman contract (~r~{0}~s~)</String>
-        <String xml:lang="ru-RU">Сумма вознаграждения ~r~ ниже ~s~ минимальной, необходимой для контракта на убийство (~r~{0}~s~)</String>
+        <String xml:lang="ru-RU">Сумма вознаграждения ~r~ниже~s~ минимальной, необходимой для контракта на убийство (~r~{0}~s~)</String>
         <String xml:lang="nl-NL">Het beloningsbedrag is lager dan het minimale voor een moordcontract (~r~{0}~s~)</String>
         <String xml:lang="fr-FR">Le montant de la récompense est inférieur au minimum requis pour un contrat de tueur à gages (~r~{0}~s~)</String>
         <String xml:lang="id-ID">Jumlah hadiah ~r~dibawah ~s~minimal yang dibutuhkan untuk kontrak pembunuh bayaran (~r~{0}~s~)</String>
@@ -5422,7 +5422,7 @@
     -->
     <Entry Id="stp_item_purchased">
         <String xml:lang="en-US">You've purchased ~y~{0}{1} {2} ~s~for ~r~{3}~s~.</String>
-        <String xml:lang="ru-RU">Вы приобрели ~y~{0}{1} {2} ~s~ за ~r~{3}~s~.</String>
+        <String xml:lang="ru-RU">Вы приобрели ~y~{0}{1} {2}~s~ за ~r~{3}~s~.</String>
         <String xml:lang="nl-NL">Je hebt ~y~{0}{1} {2} ~s~gekocht voor ~r~{3}~s~.</String>
         <String xml:lang="hi-Latn">Aap khareede ~y~{0}{1} {2} ~s~sirf ~r~{3} ~s~mein.</String>
         <String xml:lang="de-DE">Du hast ~y~{0}{1} {2} ~s~für ~r~{3}~s~ gekauft.</String>
