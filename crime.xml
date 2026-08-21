@@ -10,6 +10,7 @@
     <!-- Example: You committed a Felony - Vehicle Theft -->
     <Entry Id="committed_crime">
         <String xml:lang="en-US">You committed a {0} ~s~- {1}</String>
+        <String xml:lang="ru-RU">Вы совершили {0} ~s~- {1}</String>
         <String xml:lang="de-DE">Du hast eine {0} ~s~begangen - {1}</String>
         <String xml:lang="nl-NL">Je hebt een {0} ~s~gepleegd - {1}</String>
         <String xml:lang="fr-FR">Vous avez commis un {0} ~s~- {1}</String>
@@ -31,6 +32,7 @@
 
     <Entry Id="crime_warrant_issued">
         <String xml:lang="en-US">~o~Arrest warrant ~s~issued - leave the area and stay away from the ~b~cops~s~!</String>
+        <String xml:lang="ru-RU">~o~Выдан ордер на арест~s~ - покиньте территорию и держитесь подальше от ~b~полицейских~s~!</String>
         <String xml:lang="de-DE">~o~Haftbefehl ~s~ausgestellt - verlasse das Gebiet und halte dich von den ~b~Polizisten~s~ fern!</String>
         <String xml:lang="nl-NL">~o~Arrestatiebevel ~s~uitgedeeld - verlaat de regio en blijf weg van de ~b~politie~s~!</String>
         <String xml:lang="fr-FR">~o~Mandat d'arrêt ~s~émis - quittez la zone et restez à l'écart des ~b~policiers~s~!</String>
@@ -52,6 +54,7 @@
 
     <Entry Id="crime_most_wanted">
         <String xml:lang="en-US">You are ~r~most wanted~s~ - other players can kill you on sight!</String>
+        <String xml:lang="ru-RU">У вас максимальный ~r~уровень розыска~s~ — другие игроки могут убить вас при встрече!</String>
         <String xml:lang="de-DE">Du bist ~r~Most Wanted~s~ - andere Spieler dürfen dich bei Sichtkontakt töten!</String>
         <String xml:lang="nl-NL">Je bent het ~r~meest gezocht~s~ - andere spelers mogen jou op zicht vermoorden!</String>
         <String xml:lang="fr-FR">Vous êtes ~r~l'un des plus recherchés~s~ - les autres joueurs peuvent vous tuer à vue!</String>
@@ -78,6 +81,7 @@
 
     <Entry Id="crime_severity_undefined">
         <String xml:lang="en-US">Crime</String>
+        <String xml:lang="ru-RU">Преступление</String>
         <String xml:lang="de-DE">Verbrechen</String>
         <String xml:lang="fr-FR">Crime</String>
         <String xml:lang="nl-NL">Misdaad</String>
@@ -92,6 +96,7 @@
 
     <Entry Id="crime_severity_misdemeanor">
         <String xml:lang="en-US">Misdemeanor</String>
+        <String xml:lang="ru-RU">Правонарушение</String>
         <String xml:lang="de-DE">Ordnungswidrigkeit</String>
         <String xml:lang="nl-NL">Overtreding</String>
         <String xml:lang="it-IT">Contravvenzione</String>
@@ -105,6 +110,7 @@
 
     <Entry Id="crime_severity_felony">
         <String xml:lang="en-US">Felony</String>
+        <String xml:lang="ru-RU">Преступление</String>
         <String xml:lang="de-DE">Straftat</String>
         <String xml:lang="it-IT">Delitto</String>
         <String xml:lang="nl-NL">Misdrijf</String>
@@ -126,6 +132,7 @@
 
     <Entry Id="crime_severity_major_felony">
         <String xml:lang="en-US">Major Felony</String>
+        <String xml:lang="ru-RU">Особо тяжкое преступление</String>
         <String xml:lang="de-DE">Schwere Straftat</String>
         <String xml:lang="it-IT">Delitto grave</String>
         <String xml:lang="nl-NL">Groot misdrijf</String>
@@ -149,6 +156,7 @@
     <!-- Example: violent major felony -->
     <Entry Id="crime_modifier_violent">
         <String xml:lang="en-US">violent {0}</String>
+        <String xml:lang="ru-RU">жестокое {0}</String>
         <String xml:lang="de-DE">gewalttätig {0}</String>
         <String xml:lang="nl-NL">gewelddadig {0}</String>
         <String xml:lang="it-IT">{0} violento</String>
@@ -167,6 +175,7 @@
 
     <Entry Id="crime_hit_n_run">
         <String xml:lang="en-US">Hit and Run</String>
+        <String xml:lang="ru-RU">Оставление места ДТП</String>
         <String xml:lang="de-DE">Unfallflucht</String>
         <String xml:lang="nl-NL">Aanrijding en doorrijden</String>
         <String xml:lang="it-IT">Investimento con fuga</String>
@@ -180,6 +189,7 @@
 
     <Entry Id="crime_pickpocketing">
         <String xml:lang="en-US">Pickpocketing</String>
+        <String xml:lang="ru-RU">Карманная кража</String>
         <String xml:lang="de-DE">Taschendiebstahl</String>
         <String xml:lang="nl-NL">Zakkenrollen</String>
         <String xml:lang="it-IT">Borseggio</String>
@@ -193,6 +203,7 @@
 
     <Entry Id="crime_shoplifting">
         <String xml:lang="en-US">Shoplifting</String>
+        <String xml:lang="ru-RU">Кража в магазине</String>
         <String xml:lang="de-DE">Ladendiebstahl</String>
         <String xml:lang="nl-NL">Winkeldiefstal</String>
         <String xml:lang="it-IT">Taccheggio</String>
@@ -206,6 +217,7 @@
 
     <Entry Id="crime_gta">
         <String xml:lang="en-US">Grand Theft Auto</String>
+        <String xml:lang="ru-RU">Угон автомобиля</String>
         <String xml:lang="de-DE">Autodiebstahl</String>
         <String xml:lang="nl-NL">Auto-diefstal</String>
         <String xml:lang="it-IT">Furto d'auto</String>
@@ -219,6 +231,7 @@
 
     <Entry Id="crime_gta_emergency_vehicle">
         <String xml:lang="en-US">Emergency Vehicle Theft</String>
+        <String xml:lang="ru-RU">Угон транспорта экстренных служб</String>
         <String xml:lang="de-DE">Diebstahl von Einsatzfahrzeugen</String>
         <String xml:lang="nl-NL">Noodvoertuigdiefstal</String>
         <String xml:lang="it-IT">Furto di veicolo d'emergenza</String>
@@ -232,6 +245,7 @@
 
     <Entry Id="crime_gta_armored_vehicle">
         <String xml:lang="en-US">Armored Police Vehicle Theft</String>
+        <String xml:lang="ru-RU">Угон бронированного полицейского транспорта</String>
         <String xml:lang="de-DE">Diebstahl von gepanzerten Polizeifahrzeugen</String>
         <String xml:lang="nl-NL">Gepantserde politiewagen-diefstal</String>
         <String xml:lang="it-IT">Furto di veicolo blindato della polizia</String>
@@ -245,6 +259,7 @@
 
     <Entry Id="crime_gta_military_vehicle">
         <String xml:lang="en-US">Military Vehicle Theft</String>
+        <String xml:lang="ru-RU">Угон военной техники</String>
         <String xml:lang="de-DE">Diebstahl von Militärfahrzeugen</String>
         <String xml:lang="nl-NL">Militaire voertuigdiefstal</String>
         <String xml:lang="it-IT">Furto di veicolo militare</String>
@@ -258,6 +273,7 @@
 
     <Entry Id="crime_export_vehicle">
         <String xml:lang="en-US">Illegal Vehicle Exportation</String>
+        <String xml:lang="ru-RU">Незаконный экспорт транспорта</String>
         <String xml:lang="de-DE">Illegaler Fahrzeugexport</String>
         <String xml:lang="nl-NL">Illegale voertuigenexport</String>
         <String xml:lang="it-IT">Esportazione illegale di veicolo</String>
@@ -271,6 +287,7 @@
 
     <Entry Id="crime_threat">
         <String xml:lang="en-US">Threatening with a Weapon</String>
+        <String xml:lang="ru-RU">Угроза оружием</String>
         <String xml:lang="de-DE">Bedrohung mit einer Waffe</String>
         <String xml:lang="nl-NL">Bedreiging met een wapen</String>
         <String xml:lang="it-IT">Minaccia con arma</String>
@@ -284,6 +301,7 @@
 
     <Entry Id="crime_police_threat">
         <String xml:lang="en-US">Threatening an Officer</String>
+        <String xml:lang="ru-RU">Угроза Сотруднику Полиции</String>
         <String xml:lang="de-DE">Bedrohung eines Beamten</String>
         <String xml:lang="nl-NL">Bedreiging van een agent</String>
         <String xml:lang="it-IT">Minaccia a un agente</String>
@@ -297,6 +315,7 @@
 
     <Entry Id="crime_damage_vehicle">
         <String xml:lang="en-US">Damaging a Vehicle</String>
+        <String xml:lang="ru-RU">Повреждение Транспортного Средства</String>
         <String xml:lang="de-DE">Fahrzeugbeschädigung</String>
         <String xml:lang="nl-NL">Voertuig beschadigen</String>
         <String xml:lang="it-IT">Danneggiamento di un veicolo</String>
@@ -310,6 +329,7 @@
 
     <Entry Id="crime_damage_emergency_vehicle">
         <String xml:lang="en-US">Damaging an Emergency Vehicle</String>
+        <String xml:lang="ru-RU">Повреждение транспорта экстренных служб</String>
         <String xml:lang="de-DE">Beschädigung von Einsatzfahrzeugen</String>
         <String xml:lang="nl-NL">Noodvoertuig beschadigen</String>
         <String xml:lang="it-IT">Danneggiamento di un veicolo d'emergenza</String>
@@ -323,6 +343,7 @@
 
     <Entry Id="crime_shoot_emergency_vehicle">
         <String xml:lang="en-US">Shooting at an Emergency Vehicle</String>
+        <String xml:lang="ru-RU">Стрельба по транспорту экстренных служб</String>
         <String xml:lang="de-DE">Beschuss von Einsatzfahrzeugen</String>
         <String xml:lang="nl-NL">Noodvoertuig beschieten</String>
         <String xml:lang="it-IT">Sparare a un veicolo di emergenza</String>
@@ -336,6 +357,7 @@
 
     <Entry Id="crime_shoot_vehicle">
         <String xml:lang="en-US">Shooting at a Vehicle</String>
+        <String xml:lang="ru-RU">Стрельба по Транспортному Средству</String>
         <String xml:lang="de-DE">Beschuss eines Fahrzeugs</String>
         <String xml:lang="nl-NL">Voertuig beschieten</String>
         <String xml:lang="it-IT">Sparare a un veicolo</String>
@@ -349,6 +371,7 @@
 
     <Entry Id="crime_assault">
         <String xml:lang="en-US">Assault</String>
+        <String xml:lang="ru-RU">Нападение</String>
         <String xml:lang="de-DE">Körperverletzung</String>
         <String xml:lang="nl-NL">Mishandeling</String>
         <String xml:lang="it-IT">Aggressione</String>
@@ -362,6 +385,7 @@
 
     <Entry Id="crime_armed_assault">
         <String xml:lang="en-US">Assault with a Deadly Weapon</String>
+        <String xml:lang="ru-RU">Нападение с применением оружия</String>
         <String xml:lang="de-DE">Körperverletzung mit einer tödlichen Waffe</String>
         <String xml:lang="nl-NL">Gewapende mishandeling</String>
         <String xml:lang="it-IT">Aggressione a mano armata</String>
@@ -375,6 +399,7 @@
 
     <Entry Id="crime_police_assault">
         <String xml:lang="en-US">Assault on an Officer</String>
+        <String xml:lang="ru-RU">Нападение на Сотрудника Полиции</String>
         <String xml:lang="de-DE">Angriff auf einen Beamten</String>
         <String xml:lang="nl-NL">Mishandeling van een agent</String>
         <String xml:lang="it-IT">Aggressione a un agente</String>
@@ -388,6 +413,7 @@
 
     <Entry Id="crime_robbery">
         <String xml:lang="en-US">Armed Robbery</String>
+        <String xml:lang="ru-RU">Вооружённое ограбление</String>
         <String xml:lang="de-DE">Bewaffneter Raub</String>
         <String xml:lang="nl-NL">Gewapende overval</String>
         <String xml:lang="it-IT">Rapina a mano armata</String>
@@ -401,6 +427,7 @@
 
     <Entry Id="crime_attempted_robbery">
         <String xml:lang="en-US">Attempted Robbery</String>
+        <String xml:lang="ru-RU">Попытка ограбления</String>
         <String xml:lang="de-DE">Versuchter Raub</String>
         <String xml:lang="nl-NL">Poging tot overval</String>
         <String xml:lang="it-IT">Tentata rapina</String>
@@ -414,6 +441,7 @@
 
     <Entry Id="crime_burglary">
         <String xml:lang="en-US">Burglary</String>
+        <String xml:lang="ru-RU">Кража со взломом</String>
         <String xml:lang="de-DE">Einbruch</String>
         <String xml:lang="nl-NL">Inbraak</String>
         <String xml:lang="it-IT">Scasso</String>
@@ -427,6 +455,7 @@
 
     <Entry Id="crime_home_invasion">
         <String xml:lang="en-US">Home Invasion</String>
+        <String xml:lang="ru-RU">Незаконное проникновение в жилище</String>
         <String xml:lang="de-DE">Hauseinbruch</String>
         <String xml:lang="nl-NL">Huisinbraak</String>
         <String xml:lang="it-IT">Invasione domestica</String>
@@ -448,6 +477,7 @@
 
     <Entry Id="crime_jewelry_robbery">
         <String xml:lang="en-US">Jewelry Robbery</String>
+        <String xml:lang="ru-RU">Ограбление ювелирного магазина</String>
         <String xml:lang="de-DE">Juwelenraub</String>
         <String xml:lang="nl-NL">Sieradenroof</String>
         <String xml:lang="it-IT">Rapina di gioielleria</String>
@@ -461,6 +491,7 @@
 
     <Entry Id="crime_attempted_jewelry_robbery">
         <String xml:lang="en-US">Attempted Jewelry Robbery</String>
+        <String xml:lang="ru-RU">Попытка ограбления ювелирного магазина</String>
         <String xml:lang="de-DE">Versuchter Juwelenraub</String>
         <String xml:lang="nl-NL">Poging tot sieradenroof</String>
         <String xml:lang="it-IT">Tentata rapina di gioielleria</String>
@@ -474,6 +505,7 @@
 
     <Entry Id="crime_bank_robbery">
         <String xml:lang="en-US">Bank Robbery</String>
+        <String xml:lang="ru-RU">Ограбление банка</String>
         <String xml:lang="de-DE">Banküberfall</String>
         <String xml:lang="nl-NL">Bankoverval</String>
         <String xml:lang="it-IT">Rapina in banca</String>
@@ -487,6 +519,7 @@
 
     <Entry Id="crime_attempted_bank_robbery">
         <String xml:lang="en-US">Attempted Bank Robbery</String>
+        <String xml:lang="ru-RU">Попытка ограбления банка</String>
         <String xml:lang="de-DE">Versuchter Banküberfall</String>
         <String xml:lang="nl-NL">Poging tot bankoverval</String>
         <String xml:lang="it-IT">Tentata rapina di banca</String>
@@ -499,6 +532,7 @@
 
     <Entry Id="crime_carjacking">
         <String xml:lang="en-US">Carjacking</String>
+        <String xml:lang="ru-RU">Насильственный угон автомобиля</String>
         <String xml:lang="de-DE">Autodiebstahl</String>
         <String xml:lang="nl-NL">Auto-overval</String>
         <String xml:lang="it-IT">Furto d'auto in movimento</String>
@@ -512,6 +546,7 @@
 
     <Entry Id="crime_murder">
         <String xml:lang="en-US">Murder</String>
+        <String xml:lang="ru-RU">Убийство</String>
         <String xml:lang="de-DE">Mord</String>
         <String xml:lang="nl-NL">Moord</String>
         <String xml:lang="it-IT">Omicidio</String>
@@ -525,6 +560,7 @@
 
     <Entry Id="crime_police_murder">
         <String xml:lang="en-US">Murder of an Officer</String>
+        <String xml:lang="ru-RU">Убийство сотрудника полиции</String>
         <String xml:lang="de-DE">Mord an einem Beamten</String>
         <String xml:lang="nl-NL">Moord van een agent</String>
         <String xml:lang="it-IT">Omicidio di un agente</String>
@@ -538,6 +574,7 @@
 
     <Entry Id="crime_eluding">
         <String xml:lang="en-US">Eluding an Officer</String>
+        <String xml:lang="ru-RU">Уход от полицейского преследования</String>
         <String xml:lang="de-DE">Sich einem Beamten entziehen</String>
         <String xml:lang="nl-NL">Negeren stopteken</String>
         <String xml:lang="it-IT">Eludere un agente</String>
@@ -551,6 +588,7 @@
 
     <Entry Id="crime_refusing_ticket">
         <String xml:lang="en-US">Refusing a Ticket</String>
+        <String xml:lang="ru-RU">Отказ от получения штрафа</String>
         <String xml:lang="de-DE">Ablehnen eines Strafzettels</String>
         <String xml:lang="nl-NL">Weigeren van boete</String>
         <String xml:lang="it-IT">Rifiuto di una multa</String>
@@ -564,6 +602,7 @@
 
     <Entry Id="crime_freeing">
         <String xml:lang="en-US">Freeing a Suspect</String>
+        <String xml:lang="ru-RU">Освобождение подозреваемого</String>
         <String xml:lang="de-DE">Befreiung eines Verdächtigen</String>
         <String xml:lang="nl-NL">Een verdachte vrijlaten</String>
         <String xml:lang="it-IT">Liberare un sospettato</String>
@@ -577,6 +616,7 @@
 
     <Entry Id="crime_harboring">
         <String xml:lang="en-US">Harboring a Fugitive</String>
+        <String xml:lang="ru-RU">Укрывательство беглеца</String>
         <String xml:lang="de-DE">Einen Flüchtigen beherbergen</String>
         <String xml:lang="nl-NL">Helpen van voortvluchtige</String>
         <String xml:lang="it-IT">Nascondere un fuggitivo</String>
@@ -590,6 +630,7 @@
 
     <Entry Id="crime_resisting">
         <String xml:lang="en-US">Resisting Arrest</String>
+        <String xml:lang="ru-RU">Сопротивление аресту</String>
         <String xml:lang="de-DE">Widerstand gegen die Festnahme</String>
         <String xml:lang="nl-NL">Weerstand bij arrestatie</String>
         <String xml:lang="it-IT">Resistenza all'arresto</String>
@@ -603,6 +644,7 @@
 
     <Entry Id="crime_drug_traffic">
         <String xml:lang="en-US">Drug Trafficking</String>
+        <String xml:lang="ru-RU">Наркоторговля</String>
         <String xml:lang="de-DE">Drogenhandel</String>
         <String xml:lang="nl-NL">Drugshandel</String>
         <String xml:lang="it-IT">Traffico di droga</String>
@@ -616,6 +658,7 @@
 
     <Entry Id="crime_weap_traffic">
         <String xml:lang="en-US">Arms Trafficking</String>
+        <String xml:lang="ru-RU">Торговля оружием</String>
         <String xml:lang="de-DE">Waffenhandel</String>
         <String xml:lang="nl-NL">Wapenhandel</String>
         <String xml:lang="it-IT">Traffico di armi</String>
@@ -629,30 +672,35 @@
 
     <Entry Id="crime_human_traffic">
         <String xml:lang="en-US">Human Trafficking</String>
+        <String xml:lang="ru-RU">Торговля людьми</String>
         <String xml:lang="de-DE">Menschenhandel</String>
         <String xml:lang="it-IT">Tratta di Esseri Umani</String>
     </Entry>
 
     <Entry Id="crime_interfering_with_body">
         <String xml:lang="en-US">Interfering with a Dead Body</String>
+        <String xml:lang="ru-RU">Незаконное взаимодействие с трупом</String>
         <String xml:lang="de-DE">Leichenschändung</String>
         <String xml:lang="it-IT">Violazione di Cadavere</String>
     </Entry>
 
     <Entry Id="crime_money_laundering">
         <String xml:lang="en-US">Money Laundering</String>
+        <String xml:lang="ru-RU">Отмывание денег</String>
         <String xml:lang="de-DE">Geldwäsche</String>
         <String xml:lang="it-IT">Riciclaggio di Denaro</String>
     </Entry>
 
     <Entry Id="crime_illegal_delivery">
         <String xml:lang="en-US">Illegal Delivery</String>
+        <String xml:lang="ru-RU">Незаконная доставка</String>
         <String xml:lang="de-DE">Illegale Lieferung</String>
         <String xml:lang="it-IT">Consegna Illegale</String>
     </Entry>
 
     <Entry Id="crime_kill_pet">
         <String xml:lang="en-US">Killing a Pet</String>
+        <String xml:lang="ru-RU">Убийство домашнего животного</String>
         <String xml:lang="de-DE">Töten eines Haustiers</String>
         <String xml:lang="nl-NL">Doden van een huisdier</String>
         <String xml:lang="it-IT">Uccisione di un animale domestico</String>
@@ -666,6 +714,7 @@
 
     <Entry Id="crime_kill_protected">
         <String xml:lang="en-US">Killing a Protected Species</String>
+        <String xml:lang="ru-RU">Убийство охраняемого вида</String>
         <String xml:lang="de-DE">Töten einer geschützten Art</String>
         <String xml:lang="nl-NL">Doden van een beschermde diersoort</String>
         <String xml:lang="it-IT">Uccisione di una specie protetta</String>
@@ -679,6 +728,7 @@
 
     <Entry Id="crime_hunting_wo_license">
         <String xml:lang="en-US">Hunting without a License</String>
+        <String xml:lang="ru-RU">Охота без лицензии</String>
         <String xml:lang="de-DE">Jagen ohne Lizenz</String>
         <String xml:lang="nl-NL">Jagen zonder vergunning</String>
         <String xml:lang="it-IT">Cacciare senza licenza</String>
@@ -692,6 +742,7 @@
 
     <Entry Id="crime_fishing_wo_license">
         <String xml:lang="en-US">Fishing without a License</String>
+        <String xml:lang="ru-RU">Рыбалка без лицензии</String>
         <String xml:lang="de-DE">Fischen ohne Lizenz</String>
         <String xml:lang="nl-NL">Vissen zonder vergunning</String>
         <String xml:lang="it-IT">Pescare senza licenza</String>
@@ -705,6 +756,7 @@
 
     <Entry Id="crime_bribery">
         <String xml:lang="en-US">Attempted Bribery</String>
+        <String xml:lang="ru-RU">Попытка подкупа</String>
         <String xml:lang="de-DE">Versuchte Bestechung</String>
         <String xml:lang="nl-NL">Poging tot omkoping</String>
         <String xml:lang="it-IT">Tentata corruzione</String>
@@ -718,6 +770,7 @@
 
     <Entry Id="crime_gambling">
         <String xml:lang="en-US">Illegal Gambling</String>
+        <String xml:lang="ru-RU">Незаконные азартные игры</String>
         <String xml:lang="de-DE">Illegales Glücksspiel</String>
         <String xml:lang="nl-NL">Illegaal gokken</String>
         <String xml:lang="it-IT">Gioco d'azzardo illegale</String>
@@ -740,6 +793,7 @@
     <!-- {4} = Distance -->
     <Entry Id="dispatch_crime_reported">
         <String xml:lang="en-US">~b~(C)Dispatch:(/C) ~s~Suspect {0} ~s~committed a {1} ({2}).~n~Location: ~y~{3} ~s~({4}).</String>
+        <String xml:lang="ru-RU">~b~(C)Диспетчер:(/C)~s~ Подозреваемый {0}~s~ совершил {1} ({2}).~n~Место: ~y~{3}~s~ ({4}).</String>
         <String xml:lang="de-DE">~b~(C)Dispatch:(/C) ~s~Verdächtiger {0} ~s~hat {1} ({2}) begangen.~n~Ort: ~y~{3} ~s~({4}).</String>
         <String xml:lang="nl-NL">~b~(C)Meldkamer:(/C) ~s~Verdachte {0} ~s~heeft een {1} ({2}) gepleegd.~n~Locatie: ~y~{3} ~s~({4}).</String>
         <String xml:lang="it-IT">~b~(C)Centrale:(/C) ~s~Il sospettato {0} ~s~ha commesso un(a) {1} ({2}).~n~Luogo: ~y~{3} ~s~({4}).</String>
@@ -752,6 +806,7 @@
 
     <Entry Id="dispatch_crime_reported_vehicle">
         <String xml:lang="en-US">Vehicle: {0}</String>
+        <String xml:lang="ru-RU">Транспортное средство: {0}</String>
         <String xml:lang="de-DE">Fahrzeug: {0}</String>
         <String xml:lang="nl-NL">Voertuig: {0}</String>
         <String xml:lang="it-IT">Veicolo: {0}</String>
@@ -767,6 +822,7 @@
     <!-- {2} = Crime name (Robbery, assault, etc..) -->
     <Entry Id="dispatch_crime_spotted">
         <String xml:lang="en-US">You spotted {0} ~s~committing a {1} - {2}.</String>
+        <String xml:lang="ru-RU">Вы заметили, что {0} ~s~совершает {1} - {2}.</String>
         <String xml:lang="de-DE">Du hast {0} dabei gesehen, {1} - {2} zu begehen.</String>
         <String xml:lang="nl-NL">Je hebt {0} ~s~gezien terwijl hij een {1} - {2} pleegde.</String>
         <String xml:lang="it-IT">Hai avvistato {0} ~s~mentre commetteva un(a) {1} - {2}.</String>
@@ -779,6 +835,7 @@
 
     <Entry Id="dispatch_respond">
         <String xml:lang="en-US">Respond</String>
+        <String xml:lang="ru-RU">Принять вызов</String>
         <String xml:lang="de-DE">Anrücken</String>
         <String xml:lang="nl-NL">Reageren</String>
         <String xml:lang="it-IT">Rispondi</String>
@@ -791,6 +848,7 @@
 
     <Entry Id="dispatch_respond_message">
         <String xml:lang="en-US">Head to ~y~{0} ~s~and capture {1}.</String>
+        <String xml:lang="ru-RU">Направляйтесь к ~y~{0} ~s~и задержите {1}.</String>
         <String xml:lang="de-DE">Begib dich nach ~y~{0} ~s~und nimm {1} fest.</String>
         <String xml:lang="nl-NL">Ga naar ~y~{0} ~s~en pak {1}.</String>
         <String xml:lang="it-IT">Dirigiti a ~y~{0} ~s~e cattura {1}.</String>
