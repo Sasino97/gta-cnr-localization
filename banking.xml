@@ -831,6 +831,18 @@
         <String xml:lang="ga-IE">{0} hacáil tú ATM agus chuir tú isteach {1}.</String>
     </Entry>
 
+    <Entry Id="atm_hacking_puzzle_info">
+        <String xml:lang="en-US">Crack the ATM's decryption key with brute force.~n~~n~You have {0} attempts to guess the {1} unique digits (0-9) of the encryption key. The fewer your attempts, the higher the payout.</String>
+    </Entry>
+
+    <Entry Id="atm_hacking_puzzle_menu_desc">
+        <String xml:lang="en-US">~g~Green ~s~= correct digit and place.~n~~y~Yellow ~s~= digit is in the wrong place~n~~r~Red ~s~= digit is not present in the key.</String>
+    </Entry>
+
+    <Entry Id="atm_hacking_puzzle_failed">
+        <String xml:lang="en-US">You have ~r~failed ~s~to hack the ATM.</String>
+    </Entry>
+
     <!--=======================-->
     <!--===    Bank Menu    ===-->
     <!--=======================-->
