@@ -219,7 +219,7 @@
         <String xml:lang="en-US">Deposit to your account.~n~Fee: ~r~{0}</String>
         <String xml:lang="ru-RU">Пополнить счет.~n~Комиссия: ~r~{0}</String>
         <String xml:lang="it-IT">Deposita il tuo contante sul conto.~n~Commissione: ~r~{0}</String>
-        <String xml:lang="de-DE">Auf dein Konto einzahlen.~n~Gebühr: ~r~{0}</String>
+        <String xml:lang="de-DE">Zahle auf dein Konto ein.~n~Gebühr: ~r~{0}</String>
         <String xml:lang="nl-NL">Stort geld op je bankrekening.~n~Tarief: ~r~{0}</String>
         <String xml:lang="fr-FR">Déposer sur son compte bancaire.~n~Frais: ~r~{0}</String>
         <String xml:lang="pl-PL">Wpłać pieniądze na swoje konto.~n~Opłata: ~r~{0}</String>
@@ -327,7 +327,7 @@
         <String xml:lang="en-US">Obtain a list of your recent transactions.~n~~r~This feature is not available yet.</String>
         <String xml:lang="ru-RU">Получить список ваших последних транзакций.~n~~r~Эта функция пока недоступна.</String>
         <String xml:lang="it-IT">Ottieni lo storico delle tue ultime transazioni.~n~~r~Questa funzione non è ancora disponibile.</String>
-        <String xml:lang="de-DE">Zeig eine Liste deiner letzten Transaktionen.~n~~r~Diese Funktion ist noch nicht verfügbar.</String>
+        <String xml:lang="de-DE">Erhalte eine Liste deiner letzten Transaktionen.~n~~r~Diese Funktion ist noch nicht verfügbar.</String>
         <String xml:lang="nl-NL">Krijg een lijst van je recent transacties.~n~~r~Deze functie is nog niet beschikbaar.</String>
         <String xml:lang="pl-PL">Otrzymaj listę ostatnich transakcji.~n~~r~This feature is not available yet.</String>
         <String xml:lang="tr-TR">Son işlemlerinizin bir listesini alın.~n~~r~Bu özellik henüz kullanılabilir değil.</String>
@@ -868,15 +868,15 @@
         <String xml:lang="sr-RS">Hackujte ključ za dešifrovanje ATM-a koristeći brute force.~n~~n~Imate {0} pokušaja da pogodite {1} jedinstvenih cifara (0-9) enkripcionog ključa. Što manje pokušaja, to veća nagrada.</String>
         <String xml:lang="it-IT">Hackera la chiave di decrittazione dell'ATM utilizzando forza eccessiva.~n~~n~Hai {0} tentativi per indovinare le {1} cifre uniche (0-9) della chiave di cifratura. Meno tentativi utilizzati, più alta sarà la ricompensa.</String>
         <String xml:lang="vi-VN">Phá khóa mã hóa của máy ATM bằng phương pháp thử lần lượt.~n~~n~Bạn có {0} lần thử để đoán {1} chữ số duy nhất (0-9) của mã khóa mã hóa. Càng ít lần thử, phần thưởng càng cao.</String>
-        <String xml:lang="de-DE">Knacke den Entschlüsselungscode des Geldautomaten per Brute Force.~n~~n~Du hast {0} Versuche, die {1} eindeutigen Ziffern (0-9) des Verschlüsselungscodes zu erratten. Je weniger Versuche, desto höher die Beute.</String>
+        <String xml:lang="de-DE">Knacke den Entschlüsselungscode des Geldautomaten per Brute Force.~n~~n~Du hast {0} Versuche, die {1} eindeutigen Ziffern (0-9) des Verschlüsselungscodes zu erraten. Je weniger Versuche, desto höher die Beute.</String>
     </Entry>
 
     <Entry Id="atm_hacking_puzzle_menu_desc">
-        <String xml:lang="en-US">~g~Green ~s~= correct digit and place.~n~~y~Yellow ~s~= digit is in the wrong place~n~~r~Red ~s~= digit is not present in the key.</String>
-        <String xml:lang="sr-RS">~g~Zeleno ~s~= tačna cifra i mesto.~n~~y~Žuto ~s~= cifra je na pogrešnom mestu~n~~r~Crveno ~s~= cifra nije prisutna u ključu.</String>
-        <String xml:lang="it-IT">~g~Verde ~s~= cifra e posizione corrette.~n~~y~Giallo ~s~= cifra è nella posizione sbagliata~n~~r~Rosso ~s~= cifra non è presente nella chiave.</String>
+        <String xml:lang="en-US">~g~Green ~s~= correct digit and place.~n~~y~Yellow ~s~= digit is in the wrong place.~n~~r~Red ~s~= digit is not present in the key.</String>
+        <String xml:lang="sr-RS">~g~Zeleno ~s~= tačna cifra i mesto.~n~~y~Žuto ~s~= cifra je na pogrešnom mestu.~n~~r~Crveno ~s~= cifra nije prisutna u ključu.</String>
+        <String xml:lang="it-IT">~g~Verde ~s~= cifra e posizione corrette.~n~~y~Giallo ~s~= cifra è nella posizione sbagliata.~n~~r~Rosso ~s~= cifra non è presente nella chiave.</String>
         <String xml:lang="vi-VN">~g~Xanh lá ~s~= chữ số và vị trí chính xác.~n~~y~Vàng ~s~= chữ số đúng nhưng sai vị trí.~n~~r~Đỏ ~s~= chữ số không xuất hiện trong mã khóa.</String>
-        <String xml:lang="de-DE">~g~Grün ~s~= Ziffer und Position korrekt.~n~~y~Gelb ~s~= Ziffer an der falschen Position~n~~r~Rot ~s~= Ziffer kommt nicht im Code vor.</String>
+        <String xml:lang="de-DE">~g~Grün ~s~= Ziffer und Position korrekt.~n~~y~Gelb ~s~= Ziffer an der falschen Position.~n~~r~Rot ~s~= Ziffer kommt nicht im Code vor.</String>
     </Entry>
 
     <Entry Id="atm_hacking_puzzle_failed">
@@ -1101,7 +1101,7 @@
     <Entry Id="menu_bank_transfer_received">
         <String xml:lang="en-US">{0} has transfered ~g~{1} ~s~to your checking account for ~b~"{2}"~s~.</String>
         <String xml:lang="ru-RU">{0} перевёл ~g~{1}~s~ на ваш банковский счёт с ~b~назначением «{2}»~s~.</String>
-        <String xml:lang="de-DE">{0} hat ~g~{1} ~s~auf dein Konto überwiesen mit dem Verwendungszweck ~b~"{2}"~s~.</String>
+        <String xml:lang="de-DE">{0} hat dir ~g~{1} ~s~mit dem Verwendungszweck ~b~"{2}" ~s~auf dein Konto überwiesen.</String>
         <String xml:lang="nl-NL">{0} heeft ~g~{1} ~s~overgemaakt naar jouw bankrekening met als reden ~b~"{2}"~s~.</String>
         <String xml:lang="it-IT">{0} ha trasferito ~g~{1} ~s~sul tuo conto corrente per ~b~"{2}"~s~.</String>
         <String xml:lang="no-NO">{0} har overført ~g~{1} ~s~til din brukskonto for ~b~"{2}"~s~.</String>
@@ -1273,7 +1273,7 @@
     <Entry Id="menu_bank_debt_desc">
         <String xml:lang="en-US">Make a payment towards your ~r~debt~s~.</String>
         <String xml:lang="ru-RU">Сделать платеж по вашему ~r~долгу~s~.</String>
-        <String xml:lang="de-DE">Leiste eine Zahlung für deine ~r~Schulden~s~.</String>
+        <String xml:lang="de-DE">Zahle einen Teil deiner ~r~Schulden ~s~ab.</String>
         <String xml:lang="nl-NL">Doe een betaling voor je ~r~schuld~s~.</String>
         <String xml:lang="it-IT">Fai un pagamento verso il tuo ~r~debito~s~.</String>
         <String xml:lang="no-NO">Foreta en betaling mot din ~r~gjeld~s~.</String>
