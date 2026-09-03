@@ -21,7 +21,7 @@
         <String xml:lang="no-NO">Gjenopprette</String>
         <String xml:lang="sv-SE">Återupplivas</String>
         <String xml:lang="sr-RS">Respawniraj</String>
-        <String xml:lang="ga">Atbheas arís</String>
+        <String xml:lang="ga-IE">Atbheas arís</String>
         <String xml:lang="et-EE">taasünni</String>
         <String xml:lang="ga-IE">Atbheas arís</String>
     </Entry>
@@ -97,7 +97,7 @@
         <String xml:lang="no-NO">Det var ingen ~p~ambulansepersonell ~s~i nærheten, og du ble automatisk overført til et ~r~sykehus~s~.</String>
         <String xml:lang="fr-FR">Il n'y avait pas d'~p~ambulanciers ~s~à proximité, vous avez été automatiquement transporté vers un ~r~hôpital~s~.</String>
         <String xml:lang="sr-RS">Nema ~p~Hitna pomoć ~s~u blizini i automatski ste prebačeni u ~r~bolnicu~s~.</String>
-        <String xml:lang="ga">Níl aon ~p~paramedics ~s~i gcoinne agus do thógadh go huathoibríoch chuig ~r~sláinteáras~s~.</String>
+        <String xml:lang="ga-IE">Níl aon ~p~paramedics ~s~i gcoinne agus do thógadh go huathoibríoch chuig ~r~sláinteáras~s~.</String>
         <String xml:lang="et-EE">Ei olnud ühtegi ~p~parameedikut ~s~ligiduses ja teid saadeti automaatselt ~r~haigla~s~.</String>
         <String xml:lang="ga-IE">Níl aon ~p~paramedics ~s~i gcoinne agus do thógadh go huathoibríoch chuig ~r~sláinteáras~s~.</String>
     </Entry>
@@ -123,8 +123,8 @@
         <String xml:lang="no-NO">Det er en eller flere ~p~ambulansepersonell ~s~i nærheten. Du kan ikke starte på nytt før timeren går ut, ambulansepersonellet forlater området, eller de dør.</String>
         <String xml:lang="fr-FR">Il y a un ou plusieurs ~p~ambulanciers ~s~à proximité. Vous ne pouvez pas réapparaître tant que le minuteur n'est pas écoulé, que les ambulanciers quittent la zone ou qu'ils meurent.</String>
         <String xml:lang="sr-RS">Ima jedan ili više ~p~hitna pomoć ~s~u blizini. Ne možete respawnirati dok se timer ne završi, hitna pomoć ne napusti područje, ili umre.</String>
-        <String xml:lang="ga">Tá ~p~paramedics ~s~i gcoinne agus níl tú in ann atzhuimh go dtí go bhfuil an t-am déanta, ní dhéanfaidh na paramedics an réimse, nó marfaidh siad.</String>
-        <String xml:lang="et-EE">Ligiduses on üks või enam ~p~parameediku. ~s~ saa ei saa taassündida kuni taimer saab otsa või parameedik lahkub alast, sureb.</String>
+        <String xml:lang="ga-IE">Tá ~p~paramedics ~s~i gcoinne agus níl tú in ann atzhuimh go dtí go bhfuil an t-am déanta, ní dhéanfaidh na paramedics an réimse, nó marfaidh siad.</String>
+        <String xml:lang="et-EE">Ligiduses on üks või enam ~p~parameedikut. ~s~Sa ei saa taassündida kuni taimer saab otsa või meedik lahkub alast või sureb.</String>
         <String xml:lang="ga-IE">Tá ~p~paramedics ~s~i gcoinne agus níl tú in ann atzhuimh go dtí go bhfuil an t-am déanta, ní dhéanfaidh na paramedics an réimse, nó marfaidh siad.</String>
     </Entry>
 
@@ -1164,7 +1164,7 @@
         <String xml:lang="fr-FR">~p~L'ambulancier ~s~n'a ~r~pas réussi ~s~à vous réanimer, vous avez été transporté vers un ~r~hôpital~s~.</String>
         <String xml:lang="sr-RS">Ova ~p~Hitna pomoć ~s~nije ~r~uspela ~s~da te oživi i bio si prebačen u ~r~bolnicu~s~.</String>
         <String xml:lang="ga-IE">Tá ~p~paramedic ~s~te ~r~theiptheach ~s~a chur ar do chaoi agus tú aige i ~r~slimnín~s~.</String>
-        <String xml:lang="et-EE"> ~p~parameedikul ~s~ei ~r~ õnnestunud ~s~ teid elustada ja teid liigutati ~r~haigla~s~.</String>
+        <String xml:lang="et-EE">~p~Meedikul ~s~ei ~r~õnnestunud ~s~teid elustada ja teid liigutati ~r~haiglasse~s~.</String>
     </Entry>
 
     <Entry Id="doctor_revived">
@@ -1436,7 +1436,7 @@
         <String xml:lang="cs-CZ">Žádní cíle pomsty :(</String>
         <String xml:lang="sr-RS">Nema ciljeva za osvetu :(</String>
         <String xml:lang="ga-IE">Níl aon mheas ar fíoch :(</String>
-        <String xml:lang="et-EE">ühtegi kättemaksu sihtmärki  :(</String>
+        <String xml:lang="et-EE">Kättemaksu sihtmärke pole saadaval.</String>
     </Entry>
 
     <Entry Id="menu_revenge_no_targets_descr">
@@ -1831,7 +1831,7 @@
         <String xml:lang="tr-TR">{0} saniye sonra tekrar işaret gönderebilirsin</String>
         <String xml:lang="hi-Latn">Aap {0} ke baad phir se ping kar sakte hain</String>
         <String xml:lang="it-IT">Puoi allertare di nuovo {0}</String>
-        <String xml:lang="en-US">Saad uuesti märguande saata {0}</String>
+        <String xml:lang="et-EE">Saad uuesti märguande saata {0}</String>
     </Entry>
 
     <!-- Recommended frequency on respawn -->
