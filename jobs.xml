@@ -10739,4 +10739,163 @@
         <String xml:lang="es-ES">(C){0}(/C) robó (C){1} joyas(/C) de la joyería!</String>
         <String xml:lang="it-IT">(C){0}(/C) ha rapinato (C){1} gioielli(/C) dalla gioielleria!</String>
     </Entry>
+    <Entry Id="fleeca_robbery_cooldown">
+        <String xml:lang="en-US">~r~The Fleeca bank robbery cannot be started for the next ~s~{0} minutes ~r~and ~s~{1} seconds~r~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_per_player_cooldown">
+        <String xml:lang="en-US">~r~You cannot rob the Fleeca bank for the next ~s~{0} minutes ~r~and ~s~{1} seconds~r~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_keep_hostages_intimidated">
+        <String xml:lang="en-US">Keep the ~r~hostages ~s~intimidated or open the ~b~vault~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_take_out_guard">
+        <String xml:lang="en-US">Immediately take out the ~r~guard ~s~with a silent weapon.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_need_hacking_device">
+        <String xml:lang="en-US">~r~You need a ~b~{0}~s~ to hack the vault keypad.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_open">
+        <String xml:lang="en-US">~g~The vault is open!~s~ You can now break the deposit boxes.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_place_thermite">
+        <String xml:lang="en-US">Place thermite on the gate</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_need_thermite">
+        <String xml:lang="en-US">~r~You need a ~b~{0}~s~ to burn the gate.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_gate_open">
+        <String xml:lang="en-US">~g~The gate is open!~s~ You can now loot the remaining deposit boxes.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_need_crowbar">
+        <String xml:lang="en-US">You need a ~y~crowbar ~s~to break this ~r~deposit box~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_break_canceled">
+        <String xml:lang="en-US">You ~r~canceled ~s~opening this ~b~deposit box~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_break_failed">
+        <String xml:lang="en-US">You ~r~failed ~s~to open this ~b~deposit box~s~. Try another one!</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_break_succeeded">
+        <String xml:lang="en-US">You ~g~successfully ~s~opened the ~b~deposit box~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_need_tool">
+        <String xml:lang="en-US">You need a ~b~Crowbar~s~ or a ~b~Drill~s~ to open this deposit box.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_menu_title">
+        <String xml:lang="en-US">Deposit Box</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_menu_subtitle">
+        <String xml:lang="en-US">Choose how to open it</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_tool_crowbar">
+        <String xml:lang="en-US">Crowbar (Loud)</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_tool_crowbar_desc">
+        <String xml:lang="en-US">Makes a lot of noise - trips the bank alarm.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_tool_drill">
+        <String xml:lang="en-US">Drill (Stealth)</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_tool_drill_desc">
+        <String xml:lang="en-US">Quiet, but the drill may break.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_drill_broke">
+        <String xml:lang="en-US">~r~Your drill broke!</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_drill_overheated">
+        <String xml:lang="en-US">~o~The drill overheated. Try again.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_alarm_tripped">
+        <String xml:lang="en-US">~r~The alarm has been tripped!</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_hack_vault_btn">
+        <String xml:lang="en-US">Hack the vault keypad</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_intimidate_hint">
+        <String xml:lang="en-US">~s~Point your weapon at the ~r~cashiers/hostages ~s~to keep them intimidated.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_hostage_panic">
+        <String xml:lang="en-US">~r~A hostage panicked and tripped the alarm!~s~ Keep them intimidated.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_instruction_stop">
+        <String xml:lang="en-US">Stop</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_stole_items">
+        <String xml:lang="en-US">You stole {0}.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_leave_area">
+        <String xml:lang="en-US">Leave the ~o~orange area~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_go_to_hideout">
+        <String xml:lang="en-US">You went far enough from the ~b~Fleeca bank~s~. Now go to a ~y~hideout ~s~to complete the ~r~robbery~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_no_hideouts">
+        <String xml:lang="en-US">You don't have a suitable ~r~hideout~s~. You can go to a ~g~friend~s~'s hideout to finish the robbery.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cuffed">
+        <String xml:lang="en-US">You have been ~r~cuffed ~s~and you failed the ~b~Fleeca bank robbery~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_police_notification">
+        <String xml:lang="en-US">(C)Dispatch:(/C) Attention all units. The (C)Fleeca bank(/C) is being robbed.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_success">
+        <String xml:lang="en-US">~g~Robbery completed! ~s~You successfully stole ~y~{0} items ~s~from the ~b~Fleeca bank~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_success_others_hideout">
+        <String xml:lang="en-US">~g~Robbery completed! ~s~You successfully stole ~y~{0} items ~s~from the ~b~Fleeca bank ~s~and stored them in {1}'s property.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_property_owner_offline">
+        <String xml:lang="en-US">~r~The owner of this property is offline. Use a different hideout.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_success_with_error">
+        <String xml:lang="en-US">~o~Robbery completed with an error: ~s~some items were not received likely due to ~r~insufficient space ~s~in the property.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_no_items_taken">
+        <String xml:lang="en-US">~r~You haven't stolen any items from the Fleeca bank.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_success_global_notification">
+        <String xml:lang="en-US">(C){0}(/C) robbed the Fleeca bank of ~y~{1}~s~ items worth ~g~{2}~s~!</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cmd_public_service">
+        <String xml:lang="en-US">You can't access information on the state of Fleeca bank robberies as a {0}.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cmd_in_progress">
+        <String xml:lang="en-US">A ~b~bank robbery ~s~is in progress at {0}.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cmd_not_enough_cops">
+        <String xml:lang="en-US">~b~Fleeca bank robberies ~s~can't be started because there are less than ~y~{0}~s~ cops online.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cmd_too_early">
+        <String xml:lang="en-US">~b~Fleeca bank robberies ~s~can't be started because it hasn't been ~y~10 minutes~s~ since restart.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cmd_too_late">
+        <String xml:lang="en-US">~b~Fleeca bank robberies ~s~can't be started because it's ~y~10 minutes or less~s~ before restart.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cmd_available">
+        <String xml:lang="en-US">~b~Fleeca bank robberies ~s~are available to be started!</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_choose_tool">
+        <String xml:lang="en-US">Choose Tool</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_respawned">
+        <String xml:lang="en-US">You ~r~died ~s~and you failed the ~b~Fleeca bank robbery~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_hideouts_available">
+        <String xml:lang="en-US">You have ~y~{0} ~s~suitable ~r~hideouts~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_list_hideouts_btn">
+        <String xml:lang="en-US">View Hideouts</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_list_hideouts">
+        <String xml:lang="en-US">Hideouts</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_list_hideouts_subtitle">
+        <String xml:lang="en-US">Available hideouts</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_timer_bar_alarm">
+        <String xml:lang="en-US">ALARM</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_timer_bar_take">
+        <String xml:lang="en-US">ITEMS TAKEN</String>
+    </Entry>
 </Entries>
