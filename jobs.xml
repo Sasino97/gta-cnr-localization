@@ -10867,9 +10867,10 @@
         <String xml:lang="en-US">You have been ~r~cuffed ~s~and you failed the ~b~Fleeca bank robbery~s~.</String>
         <String xml:lang="vi-VN">Bạn đã bị ~r~còng tay ~s~và thất bại trong ~b~vụ cướp ngân hàng Fleeca~s~.</String>
     </Entry>
+    <!-- {0} = location name, like Legion Square -->
     <Entry Id="fleeca_robbery_police_notification">
-        <String xml:lang="en-US">(C)Dispatch:(/C) Attention all units. The (C)Fleeca bank(/C) is being robbed.</String>
-        <String xml:lang="vi-VN">(C)Điều phối:(/C) Tất cả các đơn vị chú ý. (C)Ngân hàng Fleeca(/C) đang bị cướp.</String>
+        <String xml:lang="en-US">(C)Dispatch:(/C) Attention all units. The (C)Fleeca bank(/C) in{0} is being robbed.</String>
+        <String xml:lang="vi-VN">(C)Điều phối:(/C) Tất cả các đơn vị chú ý. (C)Ngân hàng Fleeca(/C) trong {0} đang bị cướp.</String>
     </Entry>
     <Entry Id="fleeca_robbery_success">
         <String xml:lang="en-US">~g~Robbery completed! ~s~You successfully stole ~y~{0} items ~s~from the ~b~Fleeca bank~s~.</String>
@@ -10900,7 +10901,7 @@
         <String xml:lang="vi-VN">Bạn không thể truy cập thông tin về tình trạng các vụ cướp ngân hàng Fleeca với tư cách là {0}.</String>
     </Entry>
     <Entry Id="fleeca_robbery_cmd_in_progress">
-        <String xml:lang="en-US">A ~b~bank robbery ~s~is in progress at {0}.</String>
+        <String xml:lang="en-US">A ~b~Fleeca bank robbery ~s~is in progress at {0}.</String>
         <String xml:lang="vi-VN">Một ~b~vụ cướp ngân hàng ~s~đang diễn ra tại {0}.</String>
     </Entry>
     <Entry Id="fleeca_robbery_cmd_not_enough_cops">
