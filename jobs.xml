@@ -10867,9 +10867,10 @@
         <String xml:lang="en-US">You have been ~r~cuffed ~s~and you failed the ~b~Fleeca bank robbery~s~.</String>
         <String xml:lang="de-DE">Dir wurden ~r~Handschellen ~s~angelegt und du bist beim ~b~Fleeca-Überfall ~s~gescheitert.</String>
     </Entry>
+    <!-- {0} = location name, like Legion Square -->
     <Entry Id="fleeca_robbery_police_notification">
-        <String xml:lang="en-US">(C)Dispatch:(/C) Attention all units. The (C)Fleeca bank(/C) is being robbed.</String>
-        <String xml:lang="de-DE">(C)Dispatch:(/C) Achtung an alle Einheiten. Die (C)Fleeca-Bank(/C) wird ausgeraubt.</String>
+        <String xml:lang="en-US">(C)Dispatch:(/C) Attention all units. The (C)Fleeca bank(/C) in {0} is being robbed.</String>
+        <String xml:lang="de-DE">(C)Dispatch:(/C) Achtung an alle Einheiten. Die (C)Fleeca-Bank(/C) bei {0} wird ausgeraubt.</String>
     </Entry>
     <Entry Id="fleeca_robbery_success">
         <String xml:lang="en-US">~g~Robbery completed! ~s~You successfully stole ~y~{0} items ~s~from the ~b~Fleeca bank~s~.</String>
@@ -10900,8 +10901,8 @@
         <String xml:lang="de-DE">Als {0} kannst du nicht auf Informationen über den Status von Fleeca-Überfällen zugreifen.</String>
     </Entry>
     <Entry Id="fleeca_robbery_cmd_in_progress">
-        <String xml:lang="en-US">A ~b~bank robbery ~s~is in progress at {0}.</String>
-        <String xml:lang="de-DE">Ein ~b~Banküberfall ~s~bei {0} ist im Gange.</String>
+        <String xml:lang="en-US">A ~b~Fleeca bank robbery ~s~is in progress at {0}.</String>
+        <String xml:lang="de-DE">Ein ~b~Fleeca-Überfall ~s~bei {0} ist im Gange.</String>
     </Entry>
     <Entry Id="fleeca_robbery_cmd_not_enough_cops">
         <String xml:lang="en-US">~b~Fleeca bank robberies ~s~can't be started because there are less than ~y~{0}~s~ cops online.</String>
@@ -10950,5 +10951,32 @@
     <Entry Id="fleeca_robbery_timer_bar_take">
         <String xml:lang="en-US">ITEMS TAKEN</String>
         <String xml:lang="de-DE">GEGENSTÄNDE</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_drill_vault_btn">
+        <String xml:lang="en-US">Drill the vault door</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_menu_title">
+        <String xml:lang="en-US">Bank Vault</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_menu_subtitle">
+        <String xml:lang="en-US">Choose how to open it</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_tool_hack">
+        <String xml:lang="en-US">Hack the keypad</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_tool_hack_desc">
+        <String xml:lang="en-US">Crack the keypad code with a hacking device.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_tool_drill">
+        <String xml:lang="en-US">Drill the vault door</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_tool_drill_desc">
+        <String xml:lang="en-US">Hard on the drill - it usually snaps if you fail.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_need_vault_drill">
+        <String xml:lang="en-US">~r~You need a ~b~{0}~s~ to drill through the vault door.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_need_vault_tool">
+        <String xml:lang="en-US">~r~You need a ~b~hacking device~s~ or a ~b~drill~s~ to open the vault.</String>
     </Entry>
 </Entries>
