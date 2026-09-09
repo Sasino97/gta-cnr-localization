@@ -10926,4 +10926,339 @@
     <Entry Id="fleeca_robbery_need_vault_tool">
         <String xml:lang="en-US">~r~You need a ~b~hacking device~s~ or a ~b~drill~s~ to open the vault.</String>
     </Entry>
+
+    <!-- ================================= -->
+    <!-- ========== TAXI JOB ========== -->
+    <!-- ================================= -->
+    <Entry Id="taxi_fare_heading_sub">
+        <String xml:lang="en-US">Fare: drive to ~b~{0}~s~ (passenger on the map).</String>
+    </Entry>
+
+    <Entry Id="taxi_take_passenger_sub">
+        <String xml:lang="en-US">Take the passenger to ~b~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="taxi_ride_assigned_sub">
+        <String xml:lang="en-US">Ride assigned - go pick the passenger up!</String>
+    </Entry>
+
+    <Entry Id="taxi_ride_complete_notify">
+        <String xml:lang="en-US">~g~Ride complete! ~s~You earned ~g~+{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="taxi_stop_boarding_help">
+        <String xml:lang="en-US">~y~Stop the taxi~s~ so the passenger can get in.</String>
+    </Entry>
+
+    <Entry Id="taxi_stop_dropoff_help">
+        <String xml:lang="en-US">~y~Stop the taxi~s~ so the passenger can get out.</String>
+    </Entry>
+
+    <Entry Id="taxi_ride_stop_help">
+        <String xml:lang="en-US">~y~Stop~s~ so the passenger can get in, then drive to the destination.</String>
+    </Entry>
+
+    <Entry Id="taxi_pickup_ride_notify">
+        <String xml:lang="en-US">Pick up the passenger and drive to ~y~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="taxi_spawn_failed">
+        <String xml:lang="en-US">~r~Could not spawn the passenger.~s~</String>
+    </Entry>
+
+    <Entry Id="taxi_fare_complete_help">
+        <String xml:lang="en-US">~g~Fare complete!~s~ Payment sent to your bank...</String>
+    </Entry>
+
+    <Entry Id="taxi_pickup_timer">
+        <String xml:lang="en-US">Pickup</String>
+    </Entry>
+
+    <Entry Id="taxi_fare_failed">
+        <String xml:lang="en-US">~r~Fare failed: ~s~{0}</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_passenger_tired_driver">
+        <String xml:lang="en-US">The passenger got tired of waiting for you.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_passenger_tired">
+        <String xml:lang="en-US">The passenger got tired of waiting.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_passenger_died">
+        <String xml:lang="en-US">The passenger died!</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_passenger_gone">
+        <String xml:lang="en-US">The passenger is gone!</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_scared_ran">
+        <String xml:lang="en-US">The passenger got scared and ran off!</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_ran_off">
+        <String xml:lang="en-US">The passenger ran off.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_no_seat">
+        <String xml:lang="en-US">No free seat in the vehicle.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_could_not_board">
+        <String xml:lang="en-US">The passenger could not get in.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_left_taxi">
+        <String xml:lang="en-US">The passenger left the taxi!</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_dangerous_driving">
+        <String xml:lang="en-US">Your dangerous driving scared the passenger away!</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_drove_off">
+        <String xml:lang="en-US">You drove off while the passenger was getting in!</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_left_cab">
+        <String xml:lang="en-US">You left the cab mid-ride!</String>
+    </Entry>
+
+    <Entry Id="taxi_gps_fare_pickup">
+        <String xml:lang="en-US">Fare pickup</String>
+    </Entry>
+
+    <Entry Id="taxi_gps_fare_destination">
+        <String xml:lang="en-US">Fare destination</String>
+    </Entry>
+
+    <Entry Id="taxi_gps_passenger">
+        <String xml:lang="en-US">Passenger</String>
+    </Entry>
+
+    <Entry Id="taxi_gps_ride_destination">
+        <String xml:lang="en-US">Ride destination</String>
+    </Entry>
+
+    <Entry Id="taxi_gps_your_taxi">
+        <String xml:lang="en-US">Your Taxi</String>
+    </Entry>
+
+    <Entry Id="taxi_already_call">
+        <String xml:lang="en-US">You already have a taxi call or ride in progress.</String>
+    </Entry>
+
+    <Entry Id="taxi_need_waypoint">
+        <String xml:lang="en-US">~r~Set a destination on the map first~s~, then call a taxi.</String>
+    </Entry>
+
+    <Entry Id="taxi_waiting_title">
+        <String xml:lang="en-US">Waiting for taxi drivers...</String>
+    </Entry>
+
+    <Entry Id="taxi_waiting_desc">
+        <String xml:lang="en-US">Set your destination on the map and stay in the area. Drivers near you will send you their fare.</String>
+    </Entry>
+
+    <Entry Id="taxi_cancel_call">
+        <String xml:lang="en-US">Cancel call</String>
+    </Entry>
+
+    <Entry Id="taxi_cancel_call_desc">
+        <String xml:lang="en-US">Cancel this taxi call.</String>
+    </Entry>
+
+    <Entry Id="taxi_waiting_fares">
+        <String xml:lang="en-US">Waiting for fares...</String>
+    </Entry>
+
+    <Entry Id="taxi_no_driver_yet">
+        <String xml:lang="en-US">No driver has accepted yet.</String>
+    </Entry>
+
+    <Entry Id="taxi_fare_offered_desc">
+        <String xml:lang="en-US">Taxi fare offered by this driver.{0}~n~Select to book this taxi.</String>
+    </Entry>
+
+    <Entry Id="taxi_markup_above">
+        <String xml:lang="en-US"> (above market)</String>
+    </Entry>
+
+    <Entry Id="taxi_markup_below">
+        <String xml:lang="en-US"> (below market)</String>
+    </Entry>
+
+    <Entry Id="taxi_status_arrived">
+        <String xml:lang="en-US">Your taxi is here</String>
+    </Entry>
+
+    <Entry Id="taxi_status_arrived_desc">
+        <String xml:lang="en-US">Get in the taxi. The driver will take you to your destination.</String>
+    </Entry>
+
+    <Entry Id="taxi_status_coming">
+        <String xml:lang="en-US">Your taxi is on the way</String>
+    </Entry>
+
+    <Entry Id="taxi_status_coming_desc">
+        <String xml:lang="en-US">A taxi driver accepted your fare and is coming to pick you up.</String>
+    </Entry>
+
+    <Entry Id="taxi_booked_notify">
+        <String xml:lang="en-US">{0} ~s~accepted your call (~g~{1}~s~). Your taxi is on the way!</String>
+    </Entry>
+
+    <Entry Id="taxi_arrived_help">
+        <String xml:lang="en-US">~y~Your taxi is here!~s~ Get in and enjoy the ride.</String>
+    </Entry>
+
+    <Entry Id="taxi_arrived_notify">
+        <String xml:lang="en-US">~g~You arrived! ~s~Your taxi ride cost ~y~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="taxi_cancelled_notify">
+        <String xml:lang="en-US">Taxi call cancelled.</String>
+    </Entry>
+
+    <Entry Id="taxi_timeout_no_driver">
+        <String xml:lang="en-US">No taxi driver accepted your call.</String>
+    </Entry>
+
+    <Entry Id="taxi_driver_offline">
+        <String xml:lang="en-US">Your taxi driver went offline.</String>
+    </Entry>
+
+    <Entry Id="taxi_board_item_desc">
+        <String xml:lang="en-US">Pickup: ~y~{0}~s~~n~Destination: ~b~{1}~s~~n~Status: {2}</String>
+    </Entry>
+
+    <Entry Id="taxi_status_fare_offered">
+        <String xml:lang="en-US">~g~Fare offered</String>
+    </Entry>
+
+    <Entry Id="taxi_status_not_responded">
+        <String xml:lang="en-US">~r~Not responded</String>
+    </Entry>
+
+    <Entry Id="taxi_interactive_call">
+        <String xml:lang="en-US">{0} is calling a taxi in ~y~{1}~s~ (to ~b~{2}~s~).</String>
+    </Entry>
+
+    <Entry Id="taxi_accept">
+        <String xml:lang="en-US">Accept</String>
+    </Entry>
+
+    <Entry Id="taxi_accept_hold">
+        <String xml:lang="en-US">Accept (hold)</String>
+    </Entry>
+
+    <Entry Id="taxi_fare_offer_sent">
+        <String xml:lang="en-US">Fare offer sent for the call in ~y~{0}~s~. Waiting for the caller to pick a driver...</String>
+    </Entry>
+
+    <Entry Id="taxi_jobmenu_calls_desc">
+        <String xml:lang="en-US">Accept player taxi calls and offer your fare.</String>
+    </Entry>
+
+    <Entry Id="taxi_jobmenu_npc_fares">
+        <String xml:lang="en-US">NPC fares</String>
+    </Entry>
+
+    <Entry Id="taxi_jobmenu_npc_fares_desc">
+        <String xml:lang="en-US">Receive random passenger calls while on duty. Turn off to only take player taxi calls.</String>
+    </Entry>
+
+    <Entry Id="taxi_jobmenu_services_desc">
+        <String xml:lang="en-US">Set the markup premium for your taxi rides. Your price is applied to the market fare when a player picks you.</String>
+    </Entry>
+
+    <Entry Id="taxi_npc_fares_on">
+        <String xml:lang="en-US">~g~Random NPC fares are ON.~s~</String>
+    </Entry>
+
+    <Entry Id="taxi_npc_fares_off">
+        <String xml:lang="en-US">~y~Random NPC fares are OFF.~s~ You'll only get player taxi calls.</String>
+    </Entry>
+
+    <Entry Id="taxi_server_pickup_first">
+        <String xml:lang="en-US">Pick up the passenger before ending the fare!</String>
+    </Entry>
+
+    <Entry Id="taxi_server_drive_to_dest">
+        <String xml:lang="en-US">Drive to the destination before ending the fare!</String>
+    </Entry>
+
+    <Entry Id="taxi_server_fare_complete">
+        <String xml:lang="en-US">~g~Fare complete ~s~+{0}~s~. Drive safe!</String>
+    </Entry>
+
+    <Entry Id="taxi_server_fare_complete_tip">
+        <String xml:lang="en-US">~g~Fare complete ~s~+{0}~s~ (~y~tip {1}~s~). Drive safe!</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_wait_cd">
+        <String xml:lang="en-US">You must wait {0} seconds before calling a taxi again.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_no_waypoint">
+        <String xml:lang="en-US">Set a destination on the map first, then call a taxi.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_dest_too_close">
+        <String xml:lang="en-US">Your destination is too close to call a taxi. Drive or pick a further spot.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_no_drivers">
+        <String xml:lang="en-US">Sorry, no taxi drivers are currently available in your area.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_driver_cancelled">
+        <String xml:lang="en-US">Your taxi driver cancelled the ride.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_call_cancelled">
+        <String xml:lang="en-US">The taxi call was cancelled.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_ride_ended_caller">
+        <String xml:lang="en-US">Your taxi ride ended.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_ride_ended_driver">
+        <String xml:lang="en-US">The ride ended.</String>
+    </Entry>
+
+    <Entry Id="taxi_server_drivers_received">
+        <String xml:lang="en-US">~y~{0} taxi driver(s) ~s~received your call. Waiting for fares...</String>
+    </Entry>
+
+    <Entry Id="taxi_server_busy">
+        <String xml:lang="en-US">~r~You're already busy ~s~with another fare!</String>
+    </Entry>
+
+    <Entry Id="taxi_server_call_gone">
+        <String xml:lang="en-US">This taxi call is ~r~no longer available~s~.</String>
+    </Entry>
+
+    <Entry Id="taxi_server_driver_gone">
+        <String xml:lang="en-US">That taxi driver is ~r~no longer available~s~.</String>
+    </Entry>
+
+    <Entry Id="taxi_server_not_at_dest">
+        <String xml:lang="en-US">You are not at the destination yet!</String>
+    </Entry>
+
+    <Entry Id="taxi_server_passenger_not_with">
+        <String xml:lang="en-US">The passenger is ~r~not with you~s~ yet!</String>
+    </Entry>
+
+    <Entry Id="taxi_server_passenger_no_cash">
+        <String xml:lang="en-US">~r~The passenger couldn't pay the fare~s~.</String>
+    </Entry>
+
+    <Entry Id="taxi_server_caller_no_cash">
+        <String xml:lang="en-US">~r~You don't have enough cash ~s~to pay the taxi fare!</String>
+    </Entry>
 </Entries>
