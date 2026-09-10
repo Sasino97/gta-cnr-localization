@@ -11261,4 +11261,203 @@
     <Entry Id="taxi_server_caller_no_cash">
         <String xml:lang="en-US">~r~You don't have enough cash ~s~to pay the taxi fare!</String>
     </Entry>
+
+    <Entry Id="taxi_reason_passenger_left_ride">
+        <String xml:lang="en-US">You got out of the taxi early - ~o~{0}~s~ was kept for the driver.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_passenger_killed_driver">
+        <String xml:lang="en-US">You killed your taxi driver - the full fare (~g~{0}~s~) was paid out.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_driver_killed_passenger">
+        <String xml:lang="en-US">Your taxi driver killed you - the full fare (~g~{0}~s~) was refunded.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_caller_left_area">
+        <String xml:lang="en-US">You left the pickup area - ~o~{0}~s~ was kept as your driver's no-show compensation.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_passenger_left_ride_driver">
+        <String xml:lang="en-US">Passenger left the taxi early - you earned ~g~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_passenger_killed_driver_driver">
+        <String xml:lang="en-US">Your passenger killed you - the full fare (~g~{0}~s~) was paid out.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_driver_killed_passenger_driver">
+        <String xml:lang="en-US">You killed your passenger - you received no fare.</String>
+    </Entry>
+
+    <Entry Id="taxi_reason_caller_left_area_driver">
+        <String xml:lang="en-US">Passenger left the pickup area - you earned ~g~{0}~s~ as a no-show compensation.</String>
+    </Entry>
+
+    <Entry Id="taxi_phone_fare_info">
+        <String xml:lang="en-US">Getting out of the taxi early still pays the driver at least {0}% of the fare, and leaving the pickup area pays them {1}%.</String>
+    </Entry>
+
+    <Entry Id="taxi_wait_area_help">
+        <String xml:lang="en-US">~y~Stay inside the pickup area~s~ until your taxi arrives.</String>
+    </Entry>
+
+    <!-- ================================= -->
+    <!-- ========== TRANSIT JOB ========== -->
+    <!-- ================================= -->
+    <Entry Id="job_transit_driver">
+        <String xml:lang="en-US">Transit Driver</String>
+    </Entry>
+
+    <Entry Id="transit_menu_title">
+        <String xml:lang="en-US">Transit Schedule</String>
+    </Entry>
+
+    <Entry Id="transit_menu_desc">
+        <String xml:lang="en-US">Pick a route that leaves soon.</String>
+    </Entry>
+
+    <Entry Id="transit_route_item_desc">
+        <String xml:lang="en-US">~y~{0} stops~s~ · leaves in ~b~{1}~s~</String>
+    </Entry>
+
+    <Entry Id="transit_route_origin_distance">
+        <String xml:lang="en-US">Starting point: ~b~{0}~s~ away</String>
+    </Entry>
+
+    <Entry Id="transit_departures_sorted_by_time">
+        <String xml:lang="en-US">Sorted by ~b~departure time~s~</String>
+    </Entry>
+
+    <Entry Id="transit_departures_sorted_by_distance">
+        <String xml:lang="en-US">Sorted by ~b~distance~s~</String>
+    </Entry>
+
+    <Entry Id="transit_no_routes">
+        <String xml:lang="en-US">No departures available right now. Check back in a few minutes.</String>
+    </Entry>
+
+    <Entry Id="transit_no_departures_nearby">
+        <String xml:lang="en-US">No departures nearby at this time. Check back in a few minutes.</String>
+    </Entry>
+
+    <Entry Id="transit_refresh">
+        <String xml:lang="en-US">Refresh</String>
+    </Entry>
+
+    <Entry Id="transit_cancel_current">
+        <String xml:lang="en-US">Cancel current route</String>
+    </Entry>
+
+    <Entry Id="transit_route_assigned_sub">
+        <String xml:lang="en-US">~g~Route assigned!~s~ Drive to the origin stop. Passengers board before the departure time.</String>
+    </Entry>
+
+    <Entry Id="transit_drive_to_stop_help">
+        <String xml:lang="en-US">~y~Drive to the next stop and park in the bay~s~.</String>
+    </Entry>
+
+    <Entry Id="transit_boarding_help">
+        <String xml:lang="en-US">~y~Parked~s~ - let passengers board, then continue when ready.</String>
+    </Entry>
+
+    <Entry Id="transit_server_route_assigned">
+        <String xml:lang="en-US">~g~Route assigned~s~ - departure at ~y~{0}~s~ (~b~{1} min~s~). Drive to the origin stop.</String>
+    </Entry>
+
+    <Entry Id="transit_server_stop_reached">
+        <String xml:lang="en-US">~g~Stop {0}/{1} reached!~s~ Passengers boarded.</String>
+    </Entry>
+
+    <Entry Id="transit_server_route_complete">
+        <String xml:lang="en-US">~g~Route complete!~s~ You earned ~g~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="transit_server_not_at_bay">
+        <String xml:lang="en-US">~r~Park in the bay~s~ (position + direction) to complete this stop.</String>
+    </Entry>
+
+    <Entry Id="transit_server_wrong_stop">
+        <String xml:lang="en-US">~r~That's not the next stop on the route.~s~</String>
+    </Entry>
+
+    <Entry Id="transit_server_route_canceled">
+        <String xml:lang="en-US">~r~Route canceled.~s~</String>
+    </Entry>
+
+    <Entry Id="transit_server_cancel_penalty">
+        <String xml:lang="en-US">~r~Route canceled~s~ - you paid ~o~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="transit_server_no_transit_vehicle">
+        <String xml:lang="en-US">~r~You must be driving a Coach or a Bus~s~ to run a transit route.</String>
+    </Entry>
+
+    <Entry Id="transit_server_busy_route">
+        <String xml:lang="en-US">~r~You already have an active transit route.~s~</String>
+    </Entry>
+
+    <Entry Id="transit_server_not_on_route">
+        <String xml:lang="en-US">~r~You don't have an active transit route.~s~</String>
+    </Entry>
+
+    <Entry Id="transit_server_departure_taken">
+        <String xml:lang="en-US">~r~Another driver already took that departure.~s~</String>
+    </Entry>
+
+    <Entry Id="transit_insurance_rejected">
+        <String xml:lang="en-US">~r~Your insurance claim was rejected.~s~</String>
+    </Entry>
+
+    <Entry Id="transit_vehicle_destroyed_covered">
+        <String xml:lang="en-US">~g~Insurance covered~s~ the loss of your transit vehicle.</String>
+    </Entry>
+
+    <Entry Id="transit_vehicle_destroyed_charged">
+        <String xml:lang="en-US">~r~Your transit vehicle was destroyed~s~ - you paid ~o~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="transit_passenger_died_covered">
+        <String xml:lang="en-US">~g~Insurance covered~s~ the passenger losses.</String>
+    </Entry>
+
+    <Entry Id="transit_passenger_died_charged">
+        <String xml:lang="en-US">~r~A passenger died on your route~s~ - you paid ~o~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="transit_route_failed_killed_passenger">
+        <String xml:lang="en-US">~r~Route failed!~s~ You killed a passenger - the transit company dropped you from this run.</String>
+    </Entry>
+
+    <Entry Id="transit_passenger_killed_payout_reduced">
+        <String xml:lang="en-US">~r~A passenger was killed on your route~s~ - your payout is reduced.</String>
+    </Entry>
+
+    <Entry Id="transit_passengers_bar">
+        <String xml:lang="en-US">Passengers</String>
+    </Entry>
+
+    <Entry Id="transit_passengers_left_behind">
+        <String xml:lang="en-US">~r~You left passengers behind~s~ - your payout is reduced.</String>
+    </Entry>
+
+    <Entry Id="transit_debt_recorded">
+        <String xml:lang="en-US">~y~You could not pay the full amount~s~ - ~o~{0}~s~ was added to your ~b~Transit Company~s~ debt.</String>
+    </Entry>
+
+    <Entry Id="transit_server_not_departed">
+        <String xml:lang="en-US">~y~This departure hasn't left yet.~s~ Wait at the origin stop for the scheduled time.</String>
+    </Entry>
+
+    <Entry Id="transit_departure_bar">
+        <String xml:lang="en-US">Departure</String>
+    </Entry>
+
+    <Entry Id="transit_grief_charged">
+        <String xml:lang="en-US">~r~You destroyed a transit vehicle~s~ - you paid ~o~{0}~s~.</String>
+    </Entry>
+
+    <Entry Id="transit_passenger_grief_charged">
+        <String xml:lang="en-US">~r~You killed a transit passenger~s~ - you paid ~o~{0}~s~.</String>
+    </Entry>
 </Entries>
