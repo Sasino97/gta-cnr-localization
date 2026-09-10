@@ -10739,4 +10739,253 @@
         <String xml:lang="es-ES">(C){0}(/C) robó (C){1} joyas(/C) de la joyería!</String>
         <String xml:lang="it-IT">(C){0}(/C) ha rapinato (C){1} gioielli(/C) dalla gioielleria!</String>
     </Entry>
+    <Entry Id="fleeca_robbery_cooldown">
+        <String xml:lang="en-US">~r~The Fleeca bank robbery cannot be started for the next ~s~{0} minutes ~r~and ~s~{1} seconds~r~.</String>
+        <String xml:lang="vi-VN">~r~Không thể bắt đầu vụ cướp ngân hàng Fleeca trong ~s~{0} phút ~r~và ~s~{1} giây~r~ tới.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_per_player_cooldown">
+        <String xml:lang="en-US">~r~You cannot rob the Fleeca bank for the next ~s~{0} minutes ~r~and ~s~{1} seconds~r~.</String>
+        <String xml:lang="vi-VN">~r~Bạn không thể cướp ngân hàng Fleeca trong ~s~{0} phút ~r~và ~s~{1} giây~r~ tới.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_keep_hostages_intimidated">
+        <String xml:lang="en-US">Keep the ~r~hostages ~s~intimidated or open the ~b~vault~s~.</String>
+        <String xml:lang="vi-VN">Hãy giữ ~r~con tin ~s~trong trạng thái bị đe dọa hoặc mở ~b~két sắt~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_take_out_guard">
+        <String xml:lang="en-US">Immediately take out the ~r~guard ~s~with a silent weapon.</String>
+        <String xml:lang="vi-VN">Ngay lập tức hạ ~r~tên bảo vệ ~s~bằng vũ khí giảm thanh.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_need_hacking_device">
+        <String xml:lang="en-US">~r~You need a ~b~{0}~s~ to hack the vault keypad.</String>
+        <String xml:lang="vi-VN">~r~Bạn cần ~b~{0}~s~ để hack bàn phím số của két sắt.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_open">
+        <String xml:lang="en-US">~g~The vault is open!~s~ You can now break the deposit boxes.</String>
+        <String xml:lang="vi-VN">~g~Két sắt đã mở!~s~ Bạn có thể phá các két gửi tiền.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_place_thermite">
+        <String xml:lang="en-US">Place thermite on the gate</String>
+        <String xml:lang="vi-VN">Đặt thermite lên cổng</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_need_thermite">
+        <String xml:lang="en-US">~r~You need a ~b~{0}~s~ to burn the gate.</String>
+        <String xml:lang="vi-VN">~r~Bạn cần ~b~{0}~s~ để đốt cháy cổng.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_gate_open">
+        <String xml:lang="en-US">~g~The gate is open!~s~ You can now loot the remaining deposit boxes.</String>
+        <String xml:lang="vi-VN">~g~Cổng đã mở!~s~ Bạn có thể lấy đồ từ các két gửi tiền còn lại.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_need_crowbar">
+        <String xml:lang="en-US">You need a ~y~crowbar ~s~to break this ~r~deposit box~s~.</String>
+        <String xml:lang="vi-VN">Bạn cần một ~y~xà beng ~s~để phá ~r~két gửi tiền~s~ này.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_break_canceled">
+        <String xml:lang="en-US">You ~r~canceled ~s~opening this ~b~deposit box~s~.</String>
+        <String xml:lang="vi-VN">Bạn đã ~r~hủy ~s~việc mở ~b~két gửi tiền~s~ này.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_break_failed">
+        <String xml:lang="en-US">You ~r~failed ~s~to open this ~b~deposit box~s~. Try another one!</String>
+        <String xml:lang="vi-VN">Bạn đã ~r~thất bại ~s~khi mở ~b~két gửi tiền~s~ này. Hãy thử một két khác!</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_break_succeeded">
+        <String xml:lang="en-US">You ~g~successfully ~s~opened the ~b~deposit box~s~.</String>
+        <String xml:lang="vi-VN">Bạn đã ~g~mở thành công~s~ ~b~két gửi tiền~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_need_tool">
+        <String xml:lang="en-US">You need a ~b~Crowbar~s~ or a ~b~Drill~s~ to open this deposit box.</String>
+        <String xml:lang="vi-VN">Bạn cần ~b~Xà beng~s~ hoặc ~b~Máy khoan~s~ để mở két gửi tiền này.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_menu_title">
+        <String xml:lang="en-US">Deposit Box</String>
+        <String xml:lang="vi-VN">Két gửi tiền</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_menu_subtitle">
+        <String xml:lang="en-US">Choose how to open it</String>
+        <String xml:lang="vi-VN">Chọn cách mở</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_tool_crowbar">
+        <String xml:lang="en-US">Crowbar (Loud)</String>
+        <String xml:lang="vi-VN">Xà beng (Gây tiếng động)</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_tool_crowbar_desc">
+        <String xml:lang="en-US">Makes a lot of noise - trips the bank alarm.</String>
+        <String xml:lang="vi-VN">Gây ra rất nhiều tiếng động - kích hoạt chuông báo động của ngân hàng.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_tool_drill">
+        <String xml:lang="en-US">Drill (Stealth)</String>
+        <String xml:lang="vi-VN">Máy khoan (Âm thầm)</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_tool_drill_desc">
+        <String xml:lang="en-US">Quiet, but the drill may break.</String>
+        <String xml:lang="vi-VN">Yên lặng, nhưng máy khoan có thể bị hỏng.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_drill_broke">
+        <String xml:lang="en-US">~r~Your drill broke!</String>
+        <String xml:lang="vi-VN">~r~Máy khoan của bạn đã bị hỏng!</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_drill_overheated">
+        <String xml:lang="en-US">~o~The drill overheated. Try again.</String>
+        <String xml:lang="vi-VN">~o~Máy khoan quá nóng. Hãy thử lại.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_alarm_tripped">
+        <String xml:lang="en-US">~r~The alarm has been tripped!</String>
+        <String xml:lang="vi-VN">~r~Chuông báo động đã được kích hoạt!</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_hack_vault_btn">
+        <String xml:lang="en-US">Hack the vault keypad</String>
+        <String xml:lang="vi-VN">Hack bàn phím số của két sắt</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_intimidate_hint">
+        <String xml:lang="en-US">~s~Point your weapon at the ~r~cashiers/hostages ~s~to keep them intimidated.</String>
+        <String xml:lang="vi-VN">~s~Chĩa vũ khí vào ~r~thu ngân/con tin ~s~để giữ họ trong trạng thái bị đe dọa.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_hostage_panic">
+        <String xml:lang="en-US">~r~A hostage panicked and tripped the alarm!~s~ Keep them intimidated.</String>
+        <String xml:lang="vi-VN">~r~Một con tin hoảng loạn và kích hoạt chuông báo động!~s~ Hãy tiếp tục đe dọa họ.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_instruction_stop">
+        <String xml:lang="en-US">Stop</String>
+        <String xml:lang="vi-VN">Dừng lại</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_stole_items">
+        <String xml:lang="en-US">You stole {0}.</String>
+        <String xml:lang="vi-VN">Bạn đã lấy trộm {0}.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_leave_area">
+        <String xml:lang="en-US">Leave the ~o~orange area~s~.</String>
+        <String xml:lang="vi-VN">Rời khỏi ~o~khu vực màu cam~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_go_to_hideout">
+        <String xml:lang="en-US">You went far enough from the ~b~Fleeca bank~s~. Now go to a ~y~hideout ~s~to complete the ~r~robbery~s~.</String>
+        <String xml:lang="vi-VN">Bạn đã đi đủ xa khỏi ~b~ngân hàng Fleeca~s~. Bây giờ hãy đến một ~y~nơi ẩn náu ~s~để hoàn thành ~r~vụ cướp~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_no_hideouts">
+        <String xml:lang="en-US">You don't have a suitable ~r~hideout~s~. You can go to a ~g~friend~s~'s hideout to finish the robbery.</String>
+        <String xml:lang="vi-VN">Bạn không có ~r~nơi ẩn náu~s~ phù hợp. Bạn có thể đến ~g~nơi ẩn náu của bạn bè~s~ để hoàn thành vụ cướp.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cuffed">
+        <String xml:lang="en-US">You have been ~r~cuffed ~s~and you failed the ~b~Fleeca bank robbery~s~.</String>
+        <String xml:lang="vi-VN">Bạn đã bị ~r~còng tay ~s~và thất bại trong ~b~vụ cướp ngân hàng Fleeca~s~.</String>
+    </Entry>
+    <!-- {0} = location name, like Legion Square -->
+    <Entry Id="fleeca_robbery_police_notification">
+        <String xml:lang="en-US">(C)Dispatch:(/C) Attention all units. The (C)Fleeca bank(/C) in{0} is being robbed.</String>
+        <String xml:lang="vi-VN">(C)Điều phối:(/C) Tất cả các đơn vị chú ý. (C)Ngân hàng Fleeca(/C) trong {0} đang bị cướp.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_success">
+        <String xml:lang="en-US">~g~Robbery completed! ~s~You successfully stole ~y~{0} items ~s~from the ~b~Fleeca bank~s~.</String>
+        <String xml:lang="vi-VN">~g~Hoàn thành vụ cướp! ~s~Bạn đã lấy thành công ~y~{0} vật phẩm ~s~từ ~b~ngân hàng Fleeca~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_success_others_hideout">
+        <String xml:lang="en-US">~g~Robbery completed! ~s~You successfully stole ~y~{0} items ~s~from the ~b~Fleeca bank ~s~and stored them in {1}'s property.</String>
+        <String xml:lang="vi-VN">~g~Hoàn thành vụ cướp! ~s~Bạn đã lấy thành công ~y~{0} vật phẩm ~s~từ ~b~ngân hàng Fleeca ~s~và cất chúng vào tài sản của {1}.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_property_owner_offline">
+        <String xml:lang="en-US">~r~The owner of this property is offline. Use a different hideout.</String>
+        <String xml:lang="vi-VN">~r~Chủ sở hữu của tài sản này đang ngoại tuyến. Hãy sử dụng một nơi ẩn náu khác.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_success_with_error">
+        <String xml:lang="en-US">~o~Robbery completed with an error: ~s~some items were not received likely due to ~r~insufficient space ~s~in the property.</String>
+        <String xml:lang="vi-VN">~o~Vụ cướp hoàn thành nhưng xảy ra lỗi: ~s~một số vật phẩm không được nhận, có thể do ~r~không đủ chỗ trống ~s~trong tài sản.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_no_items_taken">
+        <String xml:lang="en-US">~r~You haven't stolen any items from the Fleeca bank.</String>
+        <String xml:lang="vi-VN">~r~Bạn chưa lấy được vật phẩm nào từ ngân hàng Fleeca.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_success_global_notification">
+        <String xml:lang="en-US">(C){0}(/C) robbed the Fleeca bank of ~y~{1}~s~ items worth ~g~{2}~s~!</String>
+        <String xml:lang="vi-VN">(C){0}(/C) đã cướp ~y~{1}~s~ vật phẩm từ ngân hàng Fleeca, trị giá ~g~{2}~s~!</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cmd_public_service">
+        <String xml:lang="en-US">You can't access information on the state of Fleeca bank robberies as a {0}.</String>
+        <String xml:lang="vi-VN">Bạn không thể truy cập thông tin về tình trạng các vụ cướp ngân hàng Fleeca với tư cách là {0}.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cmd_in_progress">
+        <String xml:lang="en-US">A ~b~Fleeca bank robbery ~s~is in progress at {0}.</String>
+        <String xml:lang="vi-VN">Một ~b~vụ cướp ngân hàng ~s~đang diễn ra tại {0}.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cmd_not_enough_cops">
+        <String xml:lang="en-US">~b~Fleeca bank robberies ~s~can't be started because there are less than ~y~{0}~s~ cops online.</String>
+        <String xml:lang="vi-VN">~b~Các vụ cướp ngân hàng Fleeca ~s~không thể bắt đầu vì có ít hơn ~y~{0}~s~ cảnh sát đang trực tuyến.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cmd_too_early">
+        <String xml:lang="en-US">~b~Fleeca bank robberies ~s~can't be started because it hasn't been ~y~10 minutes~s~ since restart.</String>
+        <String xml:lang="vi-VN">~b~Các vụ cướp ngân hàng Fleeca ~s~không thể bắt đầu vì chưa đủ ~y~10 phút~s~ kể từ khi máy chủ khởi động lại.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cmd_too_late">
+        <String xml:lang="en-US">~b~Fleeca bank robberies ~s~can't be started because it's ~y~10 minutes or less~s~ before restart.</String>
+        <String xml:lang="vi-VN">~b~Các vụ cướp ngân hàng Fleeca ~s~không thể bắt đầu vì chỉ còn ~y~10 phút hoặc ít hơn~s~ trước khi máy chủ khởi động lại.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_cmd_available">
+        <String xml:lang="en-US">~b~Fleeca bank robberies ~s~are available to be started!</String>
+        <String xml:lang="vi-VN">~b~Các vụ cướp ngân hàng Fleeca ~s~đã sẵn sàng để bắt đầu!</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_choose_tool">
+        <String xml:lang="en-US">Choose Tool</String>
+        <String xml:lang="vi-VN">Chọn công cụ</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_respawned">
+        <String xml:lang="en-US">You ~r~died ~s~and you failed the ~b~Fleeca bank robbery~s~.</String>
+        <String xml:lang="vi-VN">Bạn đã ~r~chết ~s~và thất bại trong ~b~vụ cướp ngân hàng Fleeca~s~.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_hideouts_available">
+        <String xml:lang="en-US">You have ~y~{0} ~s~suitable ~r~hideouts~s~.</String>
+        <String xml:lang="vi-VN">Bạn có ~y~{0}~s~ ~r~nơi ẩn náu~s~ phù hợp.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_list_hideouts_btn">
+        <String xml:lang="en-US">View Hideouts</String>
+        <String xml:lang="vi-VN">Xem nơi ẩn náu</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_list_hideouts">
+        <String xml:lang="en-US">Hideouts</String>
+        <String xml:lang="vi-VN">Nơi ẩn náu</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_list_hideouts_subtitle">
+        <String xml:lang="en-US">Available hideouts</String>
+        <String xml:lang="vi-VN">Nơi ẩn náu khả dụng</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_timer_bar_alarm">
+        <String xml:lang="en-US">ALARM</String>
+        <String xml:lang="vi-VN">BÁO ĐỘNG</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_timer_bar_take">
+        <String xml:lang="en-US">ITEMS TAKEN</String>
+        <String xml:lang="vi-VN">VẬT PHẨM ĐÃ LẤY</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_drill_vault_btn">
+        <String xml:lang="en-US">Drill the vault door</String>
+        <String xml:lang="vi-VN">Khoan cửa két sắt</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_menu_title">
+        <String xml:lang="en-US">Bank Vault</String>
+        <String xml:lang="vi-VN">Két ngân hàng</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_menu_subtitle">
+        <String xml:lang="en-US">Choose how to open it</String>
+        <String xml:lang="vi-VN">Chọn cách mở</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_tool_hack">
+        <String xml:lang="en-US">Hack the keypad</String>
+        <String xml:lang="vi-VN">Hack bàn phím số</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_tool_hack_desc">
+        <String xml:lang="en-US">Crack the keypad code with a hacking device.</String>
+        <String xml:lang="vi-VN">Phá mã bàn phím bằng thiết bị hack.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_tool_drill">
+        <String xml:lang="en-US">Drill the vault door</String>
+        <String xml:lang="vi-VN">Khoan cửa két sắt</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_vault_tool_drill_desc">
+        <String xml:lang="en-US">Hard on the drill - it usually snaps if you fail.</String>
+        <String xml:lang="vi-VN">Cách này gây áp lực lớn lên máy khoan - thường sẽ làm gãy mũi khoan nếu bạn thất bại.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_need_vault_drill">
+        <String xml:lang="en-US">~r~You need a ~b~{0}~s~ to drill through the vault door.</String>
+        <String xml:lang="vi-VN">~r~Bạn cần ~b~{0}~s~ để khoan xuyên qua cửa két sắt.</String>
+    </Entry>
+    <Entry Id="fleeca_robbery_need_vault_tool">
+        <String xml:lang="en-US">~r~You need a ~b~hacking device~s~ or a ~b~drill~s~ to open the vault.</String>
+        <String xml:lang="vi-VN">~r~Bạn cần ~b~thiết bị hack~s~ hoặc ~b~máy khoan~s~ để mở két sắt.</String>
+    </Entry>
 </Entries>
