@@ -11500,31 +11500,86 @@
     </Entry>
 
     <Entry Id="transit_menu_desc">
-        <String xml:lang="en-US">Pick a route that leaves soon.</String>
+        <String xml:lang="en-US">View the available transit routes that are scheduled for departure soon</String>
     </Entry>
 
-    <Entry Id="transit_route_item_desc">
-        <String xml:lang="en-US">~y~{0} stops~s~ · leaves in ~b~{1}~s~</String>
+    <Entry Id="transit_menu_counter">
+        <String xml:lang="en-US">{0} jobs</String>
     </Entry>
 
-    <Entry Id="transit_route_origin_distance">
-        <String xml:lang="en-US">Starting point: ~b~{0}~s~ away</String>
+    <Entry Id="transit_vehicle_type_coach">
+        <String xml:lang="en-US">Coach</String>
+    </Entry>
+
+    <Entry Id="transit_vehicle_type_bus">
+        <String xml:lang="en-US">City Bus</String>
+    </Entry>
+
+    <Entry Id="transit_vehicle_type_metro_train">
+        <String xml:lang="en-US">Metro Train</String>
+    </Entry>
+
+    <Entry Id="transit_vehicle_type_freight_train">
+        <String xml:lang="en-US">Freight Train</String>
+    </Entry>
+
+    <!-- {0} = Coach/Bus/Train etc... -->
+    <!-- {1} = Line ID (e.g. DH 1088) -->
+    <!-- {2} = Destination (e.g. Sandy Shores) -->
+    <Entry Id="transit_route_item_text">
+        <String xml:lang="en-US">{0} {1} to ~b~{2}~s~</String>
+    </Entry>
+
+    <!-- {0} = Day & time (e.g. Tuesday 13:00) -->
+    <!-- {0} = Time left mm:ss (e.g. 2:23) -->
+    <Entry Id="transit_route_item_desc_scheduled_for">
+        <String xml:lang="en-US">Scheduled for: ~b~{0} ~s~(~g~in {1}~s~)</String>
+    </Entry>
+
+    <!-- {0} = Origin location (e.g. Los Santos Bus Station) -->
+    <!-- {1} = Distance from player to origin (e.g. 1.5km) - this is already formatted to km or miles based on user settings -->
+    <Entry Id="transit_route_item_desc_origin">
+        <String xml:lang="en-US">Origin: ~b~{0} ~s~(~y~{1}~s~)</String>
+    </Entry>
+
+    <!-- {0} = Destination location (e.g. Sandy Shores) -->
+    <!-- {1} = Distance from origin to destination (e.g. 6.3km) -->
+    <Entry Id="transit_route_item_desc_dest">
+        <String xml:lang="en-US">Destination: ~b~{0} ~s~(~y~{1}~s~)</String>
+    </Entry>
+
+    <!-- {0} = Number of stops -->
+    <Entry Id="transit_route_item_desc_stops">
+        <String xml:lang="en-US">Total stops: ~b~{0}</String>
+    </Entry>
+
+    <!-- {0} = Required vehicle type -->
+    <Entry Id="transit_route_item_desc_veh_type">
+        <String xml:lang="en-US">Vehicle type: ~g~{0}</String>
     </Entry>
 
     <Entry Id="transit_departures_sorted_by_time">
-        <String xml:lang="en-US">Sorted by ~b~departure time~s~</String>
+        <String xml:lang="en-US">Sorted by departure time</String>
     </Entry>
 
     <Entry Id="transit_departures_sorted_by_distance">
-        <String xml:lang="en-US">Sorted by ~b~distance~s~</String>
+        <String xml:lang="en-US">Sorted by distance</String>
     </Entry>
 
-    <Entry Id="transit_no_routes">
-        <String xml:lang="en-US">No departures available right now. Check back in a few minutes.</String>
+    <Entry Id="transit_departures_sorted_by_payout">
+        <String xml:lang="en-US">Sorted by payout</String>
+    </Entry>
+
+    <Entry Id="transit_no_routes_text">
+        <String xml:lang="en-US">No routes :(</String>
+    </Entry>
+
+    <Entry Id="transit_no_routes_desc">
+        <String xml:lang="en-US">There are no departures available right now. Check again later.</String>
     </Entry>
 
     <Entry Id="transit_no_departures_nearby">
-        <String xml:lang="en-US">No departures nearby at this time. Check back in a few minutes.</String>
+        <String xml:lang="en-US">No departures nearby at this time. Check again later.</String>
     </Entry>
 
     <Entry Id="transit_refresh">
@@ -11535,24 +11590,17 @@
         <String xml:lang="en-US">Cancel current route</String>
     </Entry>
 
+    <!-- {0} = Location name -->
     <Entry Id="transit_route_assigned_sub">
-        <String xml:lang="en-US">~g~Route assigned!~s~ Drive to the origin stop. Passengers board before the departure time.</String>
+        <String xml:lang="en-US">Drive to ~b~{0}~s~ and pick up the passengers</String>
     </Entry>
 
     <Entry Id="transit_drive_to_stop_help">
-        <String xml:lang="en-US">~y~Drive to the next stop and park in the bay~s~.</String>
+        <String xml:lang="en-US">Drive to ~b~{0}</String>
     </Entry>
 
     <Entry Id="transit_boarding_help">
-        <String xml:lang="en-US">~y~Parked~s~ - let passengers board, then continue when ready.</String>
-    </Entry>
-
-    <Entry Id="transit_server_route_assigned">
-        <String xml:lang="en-US">~g~Route assigned~s~ - departure at ~y~{0}~s~ (~b~{1} min~s~). Drive to the origin stop.</String>
-    </Entry>
-
-    <Entry Id="transit_server_stop_reached">
-        <String xml:lang="en-US">~g~Stop {0}/{1} reached!~s~ Passengers boarded.</String>
+        <String xml:lang="en-US">Wait for the passengers to ~y~board ~s~the vehicle</String>
     </Entry>
 
     <Entry Id="transit_server_route_complete">
@@ -11576,7 +11624,7 @@
     </Entry>
 
     <Entry Id="transit_server_no_transit_vehicle">
-        <String xml:lang="en-US">~r~You must be driving a Coach or a Bus~s~ to run a transit route.</String>
+        <String xml:lang="en-US">~r~Get back in the vehicle and finish the job.</String>
     </Entry>
 
     <Entry Id="transit_server_busy_route">
@@ -11620,7 +11668,7 @@
     </Entry>
 
     <Entry Id="transit_passengers_bar">
-        <String xml:lang="en-US">Passengers</String>
+        <String xml:lang="en-US">PASSENGERS</String>
     </Entry>
 
     <Entry Id="transit_passengers_left_behind">
@@ -11636,7 +11684,7 @@
     </Entry>
 
     <Entry Id="transit_departure_bar">
-        <String xml:lang="en-US">Departure</String>
+        <String xml:lang="en-US">DEPARTURE</String>
     </Entry>
 
     <Entry Id="transit_grief_charged">
