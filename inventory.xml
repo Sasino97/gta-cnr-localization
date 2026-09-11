@@ -301,7 +301,7 @@
     <Entry Id="item_curekit_desc">
         <String xml:lang="en-US">A kit for treating any disease; for use by medics only</String>
         <String xml:lang="ru-RU">Набор для лечения любого заболевания; предназначен только для медиков</String>
-        <String xml:lang="de-DE">Ein Kit gegen jede Krankheit – nur für Sanitäter.</String>
+        <String xml:lang="de-DE">Ein Kit gegen jede Krankheit; nur von Sanitätern verwendbar.</String>
         <String xml:lang="nl-NL">Een kit voor het behandelen van elke ziekte; alleen voor gebruik door medici</String>
         <String xml:lang="it-IT">Un kit per trattare ogni malattia; riservato esclusivamente all'uso da parte dei medici</String>
         <String xml:lang="id-ID">Kit yang digunakan untuk menyembukan segala penyakit; hanya bisa digunakan oleh medis</String>
@@ -1271,7 +1271,7 @@
         <String xml:lang="it-IT">Copre l'{0}% delle tue fatture dell'ospedale. Si attiverà automaticamente con la tua prossima fattura medica e durerà un giorno di gioco. C'è una probabilità del {1}% che la compagnia assicurativa rifiuti un reclamo.</String>
         <String xml:lang="id-ID">Menanggung {0}% dari total tagihan rumah sakit. Akan otomatis digunakan pada tagihan selanjutnya dan masa aktifnya hanya sehari. Ada kemungkinan {1}% perusahaan asuransi akan menolak klaim.</String>
         <String xml:lang="vi-VN">Chi trả {0}% viện phí của bạn. Bảo hiểm sẽ tự động kích hoạt khi bạn nhận hóa đơn y tế tiếp theo và có hiệu lực trong một ngày trong game. Có {1}% khả năng công ty bảo hiểm sẽ từ chối yêu cầu bồi thường.</String>
-        <String xml:lang="de-DE">Deckt {0} % deiner Krankenhausrechnungen ab. Wird automatisch bei der nächsten Krankenhausrechnung aktiviert und gilt einen Spieltag. Mit {1} % Chance lehnt die Versicherung den Antrag ab.</String>
+        <String xml:lang="de-DE">Deckt {0} % deiner Krankenhausrechnungen ab. Wird automatisch bei der nächsten Krankenhausrechnung aktiviert und gilt einen Spieltag. Es besteht eine Wahrscheinlichkeit von {1} %, dass die Versicherung einen Anspruch ablehnt.</String>
         <String xml:lang="es-ES">Cubre {0}% de los costes médicos. Se activará automáticamente en tu próxima factura médica y durará un día en el juego. Existe una probabilidad del {1}% de que la compañía de seguros rechace una reclamación.</String>
         <String xml:lang="sr-RS">Pokriva {0}% vaših hospitalnih računa. Automatski će se aktivirati na vašem sledećem medicinskom računu i važiti jedan dan u igri. Postoji {1}% šansa da kompanija osiguranja odbije zahtev.</String>
         <String xml:lang="tr-TR">Hastane faturalarının %{0} kadarını karşılar. Bir sonraki sağlık faturanda otomatik olarak devreye girer ve bir oyun günü boyunca geçerlidir. Sigorta şirketinin talebi reddetme ihtimali ise %{1}.</String>
@@ -1314,10 +1314,12 @@
 
     <Entry Id="item_transit_insurance">
         <String xml:lang="en-US">Transit Insurance</String>
+        <String xml:lang="de-DE">Nahverkehrsversicherung</String>
     </Entry>
 
     <Entry Id="item_transit_insurance_desc">
         <String xml:lang="en-US">Fully covers vehicle/passenger losses during one transit route. Consumed automatically the next time you take a route. There's a {0}% chance the insurance company rejects a claim.</String>
+        <String xml:lang="de-DE">Deckt Fahrzeug-/Fahrgastschäden während einer Nahverkehrsroute vollständig ab. Wird bei deiner nächsten Fahrt automatisch verbraucht. Es besteht eine Wahrscheinlichkeit von {0} %, dass die Versicherung einen Anspruch ablehnt.</String>
     </Entry>
 
     <Entry Id="item_boat_repair_certificate">
@@ -6819,7 +6821,7 @@
         <String xml:lang="sr-RS">Vi ste stavili {0} ~p~{1} ~s~u vaš gepek.</String>
         <String xml:lang="it-IT">Hai messo {0} ~p~{1} ~s~nel tuo bagagliaio.</String>
         <String xml:lang="vi-VN">Bạn đã cất {0} ~p~{1} ~s~vào cốp xe.</String>
-        <String xml:lang="et-EE">Panid {0} ~p~{1} ~s~ oma pagasiruumi.</String>
+        <String xml:lang="et-EE">Panid {0} ~p~{1} ~s~oma pagasiruumi.</String>
     </Entry>
 
     <Entry Id="storage_trk_take_item_success_message">
@@ -6829,6 +6831,6 @@
         <String xml:lang="sr-RS">Uzeli ste {0} ~p~{1} ~s~iz vašeg gepeku.</String>
         <String xml:lang="it-IT">Hai preso {0} ~p~{1} ~s~dal tuo bagagliaio.</String>
         <String xml:lang="vi-VN">Bạn đã lấy {0} ~p~{1} ~s~ra khỏi cốp xe.</String>
-        <String xml:lang="et-EE">Võtsid oma pagasiruumist {0} ~p~{1} ~s~.</String>
+        <String xml:lang="et-EE">Võtsid oma pagasiruumist {0} ~p~{1}~s~.</String>
     </Entry>
 </Entries>
