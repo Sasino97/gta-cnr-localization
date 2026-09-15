@@ -46,6 +46,12 @@
         <String xml:lang="et-EE">Garaaž</String>
     </Entry>
 
+    <Entry Id="house">
+        <String xml:lang="en-US">House</String>
+        <String xml:lang="es-ES">Casa</String>
+        <String xml:lang="pt-BR">Casa</String>
+    </Entry>
+
     <Entry Id="menu_property_owners">
         <String xml:lang="en-US">Owners</String>
         <String xml:lang="ru-RU">Владельцы</String>
@@ -1031,6 +1037,14 @@
         <String xml:lang="vi-VN">Độ chiếm chỗ: {0} ~b~trên {1}</String>
         <String xml:lang="sr-RS">Zauzetost: {0} ~b~od {1}</String>
         <String xml:lang="et-EE">Täitumus: {0} ~b~{1}-st</String>
+    </Entry>
+
+    <!-- {0} = Storage capacity in kilograms (for example: 20)
+    -->
+    <Entry Id="menu_properties_house_storage">
+        <String xml:lang="en-US">Storage: ~b~{0}kg</String>
+        <String xml:lang="es-ES">Almacenamiento: ~b~{0}kg</String>
+        <String xml:lang="pt-BR">Armazenamento: ~b~{0}kg</String>
     </Entry>
 
     <!-- nullnull{0} = Amount (for example: 5)
