@@ -873,6 +873,8 @@
         <String xml:lang="vi-VN">Phá khóa mã hóa của máy ATM bằng phương pháp thử lần lượt.~n~~n~Bạn có {0} lần thử để đoán {1} chữ số duy nhất (0-9) của mã khóa mã hóa. Càng ít lần thử, phần thưởng càng cao.</String>
         <String xml:lang="de-DE">Knacke den Entschlüsselungscode des Geldautomaten per Brute Force.~n~~n~Du hast {0} Versuche, die {1} eindeutigen Ziffern (0-9) des Verschlüsselungscodes zu erraten. Je weniger Versuche, desto höher die Beute.</String>
         <String xml:lang="hi-Latn">ATM ki decryption key ko brute force se crack karein.~n~~n~Aapke paas {0} attempts hain {1} unique digits (0-9) encryption key ko guess karne ke liye. Jitne kam attempts, utna zyada paise.</String>
+        <String xml:lang="zh-Hant">用暴力破解法破解提款機的解密密鑰。~n~~n~你有 {0} 次機會猜出密鑰中 {1} 個不重複的數字（0-9）。嘗試次數越少，獎勵越高。</String>
+        <String xml:lang="zh-Hans">用暴力破解法破解提款机的解密密钥。~n~~n~你有 {0} 次机会猜出密钥中 {1} 个不重复的数字（0-9）。尝试次数越少，奖励越高。</String>
     </Entry>
 
     <Entry Id="atm_hacking_puzzle_menu_desc">
@@ -885,6 +887,8 @@
         <String xml:lang="vi-VN">~g~Xanh lá ~s~= chữ số và vị trí chính xác.~n~~y~Vàng ~s~= chữ số đúng nhưng sai vị trí.~n~~r~Đỏ ~s~= chữ số không xuất hiện trong mã khóa.</String>
         <String xml:lang="de-DE">~g~Grün ~s~= Ziffer und Position korrekt.~n~~y~Gelb ~s~= Ziffer an der falschen Position.~n~~r~Rot ~s~= Ziffer kommt nicht im Code vor.</String>
         <String xml:lang="hi-Latn">~g~Green ~s~= matlab sahi digit aur place.~n~~y~Yellow ~s~= matlab digit galat jagah pe hai~n~~r~Red ~s~= matlab ye digit key me hai hi nahi.</String>
+        <String xml:lang="zh-Hant">~g~綠色 ~s~= 數字和位置都正確。~n~~y~黃色 ~s~= 數字正確但位置錯誤~n~~r~紅色 ~s~= 密鑰中沒有這個數字。</String>
+        <String xml:lang="zh-Hans">~g~绿色 ~s~= 数字和位置都正确。~n~~y~黄色 ~s~= 数字正确但位置错误~n~~r~红色 ~s~= 密钥中没有这个数字。</String>
     </Entry>
 
     <Entry Id="atm_hacking_puzzle_failed">
@@ -897,6 +901,8 @@
         <String xml:lang="vi-VN">Bạn đã ~r~thất bại ~s~trong việc hack máy ATM.</String>
         <String xml:lang="de-DE">Du hast es ~r~nicht geschafft~s~, den Geldautomaten zu hacken.</String>
         <String xml:lang="hi-Latn">Aap ~r~fail ~s~ho gaye ATM hack karne me.</String>
+        <String xml:lang="zh-Hant">你~r~未能 ~s~駭入這台提款機。</String>
+        <String xml:lang="zh-Hans">你~r~未能 ~s~骇入这台提款机。</String>
     </Entry>
 
     <!--=======================-->
@@ -911,6 +917,7 @@
         <String xml:lang="no-NO">Daglig rente</String>
         <String xml:lang="fr-FR">Taux d'intêret journalier</String>
         <String xml:lang="zh-Hant">每日利率</String>
+        <String xml:lang="zh-Hans">每日利率</String>
         <String xml:lang="lv-LV">Dienas procentu likme</String>
         <String xml:lang="vi-VN">Lãi suất hàng ngày</String>
         <String xml:lang="hi-Latn">Daily ka interest rate</String>
@@ -932,6 +939,7 @@
         <String xml:lang="no-NO">Du har mottatt ~g~{0} ~s~i renter fra ~b~Fleeca Bank~s~.</String>
         <String xml:lang="fr-FR">Vous avez reçu ~g~{0} ~s~d'intêret de la ~b~banque Fleeca~s~.</String>
         <String xml:lang="zh-Hant">你收到了 ~b~全福銀行~s~ ~g~{0} ~s~的利息.</String>
+        <String xml:lang="zh-Hans">你收到了 ~b~全福银行~s~ ~g~{0} ~s~的利息.</String>
         <String xml:lang="lv-LV">Jūs saņēmat ~g~{0}~s~ procentos no ~b~Fleeca Bank~s~.</String>
         <String xml:lang="vi-VN">Bạn đã nhận được ~g~{0} ~s~tiền lãi từ ~b~Ngân hàng Fleeca~s~.</String>
         <String xml:lang="hi-Latn">Aapko ~b~Fleeca Bank ~s~se interest ke form mein ~g~{0} ~s~mile.</String>
@@ -952,6 +960,7 @@
         <String xml:lang="no-NO">Innskudd</String>
         <String xml:lang="fr-FR">Déposer</String>
         <String xml:lang="zh-Hant">存款</String>
+        <String xml:lang="zh-Hans">存款</String>
         <String xml:lang="lv-LV">Iemaksāt</String>
         <String xml:lang="vi-VN">Gửi tiền</String>
         <String xml:lang="hi-Latn">Deposit</String>
@@ -980,6 +989,8 @@
         <String xml:lang="et-EE">Sisesta raha oma ~g~arvelduskontole~s~.</String>
         <String xml:lang="ga-IE">Iomlán airgead ar do ~g~chuntas seiceála~s~.</String>
         <String xml:lang="tr-TR">~g~Vadesiz hesabın~s~a para yatır.</String>
+        <String xml:lang="zh-Hant">將錢存入你的~g~支票帳戶~s~.</String>
+        <String xml:lang="zh-Hans">将钱存入你的~g~支票账户~s~.</String>
     </Entry>
 
     <Entry Id="menu_bank_withdraw">
@@ -999,6 +1010,8 @@
         <String xml:lang="et-EE">Väljamakse</String>
         <String xml:lang="ga-IE">Tóg airgead</String>
         <String xml:lang="tr-TR">Çek</String>
+        <String xml:lang="zh-Hant">提款</String>
+        <String xml:lang="zh-Hans">提款</String>
     </Entry>
 
     <Entry Id="menu_bank_withdraw_desc">
@@ -1019,6 +1032,8 @@
         <String xml:lang="et-EE">Võta raha välja oma ~g~arvelduskontolt~s~.</String>
         <String xml:lang="ga-IE">Tóg airgead ó do ~g~chuntas seiceála~s~.</String>
         <String xml:lang="tr-TR">~g~Vadesiz hesabın~s~dan para çek.</String>
+        <String xml:lang="zh-Hant">從你的~g~支票帳戶~s~提款.</String>
+        <String xml:lang="zh-Hans">从你的~g~支票账户~s~提款.</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer">
@@ -1039,6 +1054,8 @@
         <String xml:lang="et-EE">Ülekanne</String>
         <String xml:lang="ga-IE">Tarraing</String>
         <String xml:lang="tr-TR">Para Transferi</String>
+        <String xml:lang="zh-Hant">轉帳</String>
+        <String xml:lang="zh-Hans">转账</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_desc">
@@ -1059,6 +1076,8 @@
         <String xml:lang="et-EE">Kanna raha teise mängija ~g~arvelduskontole~s~.</String>
         <String xml:lang="ga-IE">Tarraing airgead chuig ~g~chuntas seiceála~s~ de chéile.</String>
         <String xml:lang="tr-TR">Başka bir oyuncunun ~g~vadesiz hesabı~s~na para transfer et.</String>
+        <String xml:lang="zh-Hant">將錢轉帳到另一名玩家的~g~支票帳戶~s~.</String>
+        <String xml:lang="zh-Hans">将钱转账到另一名玩家的~g~支票账户~s~.</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_amount">
@@ -1079,6 +1098,8 @@
         <String xml:lang="et-EE">Sisesta summa ülekandeks</String>
         <String xml:lang="ga-IE">Cuir isteach an t-áireamh le tarraingt.</String>
         <String xml:lang="tr-TR">Transfer etmek istediğin miktarı gir.</String>
+        <String xml:lang="zh-Hant">輸入要轉帳的金額.</String>
+        <String xml:lang="zh-Hans">输入要转账的金额.</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_reason">
@@ -1099,6 +1120,8 @@
         <String xml:lang="et-EE">Sisesta põhjus ülekandeks.</String>
         <String xml:lang="ga-IE">Cuir isteach an fáth a chéile le tarraingt.</String>
         <String xml:lang="tr-TR">Transfer sebebini gir.</String>
+        <String xml:lang="zh-Hant">輸入轉帳原因.</String>
+        <String xml:lang="zh-Hans">输入转账原因.</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_successful">
@@ -1119,6 +1142,8 @@
         <String xml:lang="et-EE">Sa oled kandnud ~g~{0} ~s~{1} arvelduskontole.</String>
         <String xml:lang="ga-IE">Tá tú tarraingt ~g~{0} ~s~go dtí {1}'s chuntas seiceála.</String>
         <String xml:lang="tr-TR">{1} isimli oyuncunun vadesiz hesabına ~g~{0} ~s~transfer ettin.</String>
+        <String xml:lang="zh-Hant">你已將 ~g~{0} ~s~轉帳到 {1} 的支票帳戶.</String>
+        <String xml:lang="zh-Hans">你已将 ~g~{0} ~s~转账到 {1} 的支票账户.</String>
     </Entry>
 
     <Entry Id="menu_bank_transfer_received">
@@ -1131,6 +1156,7 @@
         <String xml:lang="fr-FR">{0} a viré~g~{1} ~s~sur votre compte bancaire pour ~b~"{2}"~s~.</String>
         <String xml:lang="lv-LV">{0} ir pārskaitījis ~g~{1}~s~ uz jūsu norēķinu kontu par ~b~"{2}"~s~.</String>
         <String xml:lang="zh-Hant">{0} 因為 ~b~"{2}"~s~ 轉了 ~g~{1}~s~ 到你的支票帳戶.</String>
+        <String xml:lang="zh-Hans">{0} 因为 ~b~"{2}"~s~ 转了 ~g~{1}~s~ 到你的支票账户.</String>
         <String xml:lang="id-ID">{0} telah melakukan transfer sejumlah ~g~{1} ~s~kedalam rekening tabunganmu dengan alasan ~b~"{2}"~s~.</String>
         <String xml:lang="vi-VN">{0} đã chuyển ~g~{1} ~s~vào tài khoản thanh toán của bạn với lý do ~b~"{2}"~s~.</String>
         <String xml:lang="hi-Latn">{0} ne aapke checking account mein ~g~{1} ~s~transfer kiye hain ~b~"{2}" ~s~ke liye.</String>
@@ -1204,6 +1230,7 @@
         <String xml:lang="fr-FR">Transactions récentes</String>
         <String xml:lang="lv-LV">Nesenas transakcijas</String>
         <String xml:lang="zh-Hant">近期交易紀錄</String>
+        <String xml:lang="zh-Hans">近期交易记录</String>
         <String xml:lang="id-ID">Transaksi terbaru</String>
         <String xml:lang="vi-VN">Các giao dịch gần đây</String>
         <String xml:lang="hi-Latn">Recent ki transactions</String>
@@ -1225,6 +1252,7 @@
         <String xml:lang="fr-FR">PAGE {0}</String>
         <String xml:lang="lv-LV">LAPA {0}</String>
         <String xml:lang="zh-Hant">{0} 頁</String>
+        <String xml:lang="zh-Hans">{0} 页</String>
         <String xml:lang="id-ID">HALAMAN {0}</String>
         <String xml:lang="vi-VN">TRANG {0}</String>
         <String xml:lang="hi-Latn">PAGE {0}</String>
@@ -1246,6 +1274,7 @@
         <String xml:lang="fr-FR">Prêt</String>
         <String xml:lang="lv-LV">Aizdevums</String>
         <String xml:lang="zh-Hant">借款</String>
+        <String xml:lang="zh-Hans">借款</String>
         <String xml:lang="id-ID">Pinjaman</String>
         <String xml:lang="vi-VN">Khoản vay</String>
         <String xml:lang="hi-Latn">Udhar</String>
@@ -1267,6 +1296,7 @@
         <String xml:lang="fr-FR">Obtenez un ~r~prêt ~s~à votre banque.</String>
         <String xml:lang="lv-LV">Saņemt ~r~aizdevumu~s~ no bankas.</String>
         <String xml:lang="zh-Hant">向銀行 ~r~借款~s~.</String>
+        <String xml:lang="zh-Hans">向银行 ~r~借款~s~.</String>
         <String xml:lang="id-ID">Dapatkan ~r~pinjaman ~s~dari bank.</String>
         <String xml:lang="vi-VN">Vay một ~r~khoản tiền ~s~từ ngân hàng.</String>
         <String xml:lang="hi-Latn">Bank se ~r~udhari ~s~lijiye.</String>
@@ -1288,6 +1318,7 @@
         <String xml:lang="fr-FR">Paiement de dettes</String>
         <String xml:lang="lv-LV">Maksāt parādu</String>
         <String xml:lang="zh-Hant">還款</String>
+        <String xml:lang="zh-Hans">还款</String>
         <String xml:lang="id-ID">Bayar hutang</String>
         <String xml:lang="vi-VN">Trả nợ</String>
         <String xml:lang="hi-Latn">Karz chukao</String>
@@ -1309,6 +1340,7 @@
         <String xml:lang="fr-FR">Effectuez un paiement envers votre ~r~dette~s~.</String>
         <String xml:lang="lv-LV">Veiciet maksājumu par savu ~r~parādi~s~.</String>
         <String xml:lang="zh-Hant">把你一部分的 ~r~欠款~s~ 還掉.</String>
+        <String xml:lang="zh-Hans">把你一部分的 ~r~欠款~s~ 还掉.</String>
         <String xml:lang="id-ID">Lakukan pembayaran untuk ~r~hutangmu~s~.</String>
         <String xml:lang="vi-VN">Thực hiện thanh toán cho ~r~khoản nợ~s~ của bạn.</String>
         <String xml:lang="hi-Latn">Apne ~r~karz ~s~ka bhugtaan kijiye.</String>
