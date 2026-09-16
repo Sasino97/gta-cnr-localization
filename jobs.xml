@@ -12140,7 +12140,7 @@
 
     <Entry Id="taxi_server_busy">
         <String xml:lang="en-US">~r~You're already busy ~s~with another fare!</String>
-        <String xml:lang="de-DE">~r~Du bist bereits mit einer anderen Fahrt beschäftigt!~s~</String>
+        <String xml:lang="de-DE">~r~Du bist bereits ~s~mit einer anderen Fahrt ~r~beschäftigt~s~!</String>
         <String xml:lang="es-ES">~r~¡Ya estás ocupado ~s~con otra carrera!</String>
         <String xml:lang="pt-BR">~r~Você já está ocupado ~s~com outra corrida!</String>
         <String xml:lang="vi-VN">~r~Bạn đang bận ~s~với một chuyến xe khác!</String>
@@ -12295,36 +12295,42 @@
 
     <Entry Id="transit_menu_desc">
         <String xml:lang="en-US">View the available transit routes that are scheduled for departure soon</String>
+        <String xml:lang="de-DE">Sieh dir die verfügbaren Nahverkehrsverbindungen an, die bald abfahren</String>
         <String xml:lang="es-ES">Ve las rutas de transporte disponibles programadas para salir pronto</String>
         <String xml:lang="pt-BR">Veja as rotas de transporte disponíveis programadas para partir em breve</String>
     </Entry>
 
     <Entry Id="transit_menu_counter">
         <String xml:lang="en-US">{0} jobs</String>
+        <String xml:lang="de-DE">{0} Verbindungen</String>
         <String xml:lang="es-ES">{0} trabajos</String>
         <String xml:lang="pt-BR">{0} trabalhos</String>
     </Entry>
 
     <Entry Id="transit_vehicle_type_coach">
         <String xml:lang="en-US">Coach</String>
+        <String xml:lang="de-DE">Reisebus</String>
         <String xml:lang="es-ES">Autocar</String>
         <String xml:lang="pt-BR">Ônibus Rodoviário</String>
     </Entry>
 
     <Entry Id="transit_vehicle_type_bus">
         <String xml:lang="en-US">City Bus</String>
+        <String xml:lang="de-DE">Linienbus</String>
         <String xml:lang="es-ES">Autobús Urbano</String>
         <String xml:lang="pt-BR">Ônibus Urbano</String>
     </Entry>
 
     <Entry Id="transit_vehicle_type_metro_train">
         <String xml:lang="en-US">Metro Train</String>
+        <String xml:lang="de-DE">U-Bahn</String>
         <String xml:lang="es-ES">Tren de Metro</String>
         <String xml:lang="pt-BR">Trem do Metrô</String>
     </Entry>
 
     <Entry Id="transit_vehicle_type_freight_train">
         <String xml:lang="en-US">Freight Train</String>
+        <String xml:lang="de-DE">Güterzug</String>
         <String xml:lang="es-ES">Tren de Mercancías</String>
         <String xml:lang="pt-BR">Trem de Carga</String>
     </Entry>
@@ -12334,6 +12340,7 @@
     <!-- {2} = Destination (e.g. Sandy Shores) -->
     <Entry Id="transit_route_item_text">
         <String xml:lang="en-US">{0} {1} to ~b~{2}~s~</String>
+        <String xml:lang="de-DE">{0} {1} nach ~b~{2}~s~</String>
         <String xml:lang="es-ES">{0} {1} a ~b~{2}~s~</String>
         <String xml:lang="pt-BR">{0} {1} para ~b~{2}~s~</String>
     </Entry>
@@ -12342,6 +12349,7 @@
     <!-- {0} = Time left mm:ss (e.g. 2:23) -->
     <Entry Id="transit_route_item_desc_scheduled_for">
         <String xml:lang="en-US">Scheduled for: ~b~{0} ~s~(~g~in {1}~s~)</String>
+        <String xml:lang="de-DE">Geplant für: ~b~{0} ~s~(~g~in {1}~s~)</String>
         <String xml:lang="es-ES">Programado para: ~b~{0} ~s~(~g~en {1}~s~)</String>
         <String xml:lang="pt-BR">Programado para: ~b~{0} ~s~(~g~em {1}~s~)</String>
     </Entry>
@@ -12350,6 +12358,7 @@
     <!-- {1} = Distance from player to origin (e.g. 1.5km) - this is already formatted to km or miles based on user settings -->
     <Entry Id="transit_route_item_desc_origin">
         <String xml:lang="en-US">Origin: ~b~{0} ~s~(~y~{1}~s~)</String>
+        <String xml:lang="de-DE">Start: ~b~{0} ~s~(~y~{1}~s~)</String>
         <String xml:lang="es-ES">Origen: ~b~{0} ~s~(~y~{1}~s~)</String>
         <String xml:lang="pt-BR">Origem: ~b~{0} ~s~(~y~{1}~s~)</String>
     </Entry>
@@ -12358,6 +12367,7 @@
     <!-- {1} = Distance from origin to destination (e.g. 6.3km) -->
     <Entry Id="transit_route_item_desc_dest">
         <String xml:lang="en-US">Destination: ~b~{0} ~s~(~y~{1}~s~)</String>
+        <String xml:lang="de-DE">Ziel: ~b~{0} ~s~(~y~{1}~s~)</String>
         <String xml:lang="es-ES">Destino: ~b~{0} ~s~(~y~{1}~s~)</String>
         <String xml:lang="pt-BR">Destino: ~b~{0} ~s~(~y~{1}~s~)</String>
     </Entry>
@@ -12365,6 +12375,7 @@
     <!-- {0} = Number of stops -->
     <Entry Id="transit_route_item_desc_stops">
         <String xml:lang="en-US">Total stops: ~b~{0}</String>
+        <String xml:lang="de-DE">Haltestellen: ~b~{0}</String>
         <String xml:lang="es-ES">Paradas totales: ~b~{0}</String>
         <String xml:lang="pt-BR">Total de paradas: ~b~{0}</String>
     </Entry>
@@ -12372,42 +12383,49 @@
     <!-- {0} = Required vehicle type -->
     <Entry Id="transit_route_item_desc_veh_type">
         <String xml:lang="en-US">Vehicle type: ~g~{0}</String>
+        <String xml:lang="de-DE">Fahrzeugtyp: ~g~{0}</String>
         <String xml:lang="es-ES">Tipo de vehículo: ~g~{0}</String>
         <String xml:lang="pt-BR">Tipo de veículo: ~g~{0}</String>
     </Entry>
 
     <Entry Id="transit_departures_sorted_by_time">
         <String xml:lang="en-US">Sorted by departure time</String>
+        <String xml:lang="de-DE">Sortiert nach Abfahrtszeit</String>
         <String xml:lang="es-ES">Ordenado por hora de salida</String>
         <String xml:lang="pt-BR">Ordenado por horário de partida</String>
     </Entry>
 
     <Entry Id="transit_departures_sorted_by_distance">
         <String xml:lang="en-US">Sorted by distance</String>
+        <String xml:lang="de-DE">Sortiert nach Entfernung</String>
         <String xml:lang="es-ES">Ordenado por distancia</String>
         <String xml:lang="pt-BR">Ordenado por distância</String>
     </Entry>
 
     <Entry Id="transit_departures_sorted_by_payout">
         <String xml:lang="en-US">Sorted by payout</String>
+        <String xml:lang="de-DE">Sortiert nach Bezahlung</String>
         <String xml:lang="es-ES">Ordenado por pago</String>
         <String xml:lang="pt-BR">Ordenado por pagamento</String>
     </Entry>
 
     <Entry Id="transit_no_routes_text">
         <String xml:lang="en-US">No routes :(</String>
+        <String xml:lang="de-DE">Keine Verbindungen :(</String>
         <String xml:lang="es-ES">Sin rutas :(</String>
         <String xml:lang="pt-BR">Nenhuma rota :(</String>
     </Entry>
 
     <Entry Id="transit_no_routes_desc">
         <String xml:lang="en-US">There are no departures available right now. Check again later.</String>
+        <String xml:lang="de-DE">Derzeit sind keine Abfahrten verfügbar. Sieh später wieder nach.</String>
         <String xml:lang="es-ES">No hay salidas disponibles en este momento. Vuelve a comprobarlo más tarde.</String>
         <String xml:lang="pt-BR">Não há partidas disponíveis no momento. Verifique novamente mais tarde.</String>
     </Entry>
 
     <Entry Id="transit_no_departures_nearby">
         <String xml:lang="en-US">No departures nearby at this time. Check again later.</String>
+        <String xml:lang="de-DE">Derzeit sind keine Abfahrten in der Nähe verfügbar. Sieh später wieder nach.</String>
         <String xml:lang="es-ES">No hay salidas cercanas en este momento. Vuelve a comprobarlo más tarde.</String>
         <String xml:lang="pt-BR">Nenhuma partida próxima neste momento. Verifique novamente mais tarde.</String>
     </Entry>
@@ -12422,7 +12440,7 @@
 
     <Entry Id="transit_cancel_current">
         <String xml:lang="en-US">Cancel current route</String>
-        <String xml:lang="de-DE">Aktuelle Route abbrechen</String>
+        <String xml:lang="de-DE">Aktuelle Linienfahrt abbrechen</String>
         <String xml:lang="es-ES">Cancelar ruta actual</String>
         <String xml:lang="pt-BR">Cancelar rota atual</String>
         <String xml:lang="vi-VN">Hủy tuyến đường hiện tại</String>
@@ -12431,25 +12449,28 @@
     <!-- {0} = Location name -->
     <Entry Id="transit_route_assigned_sub">
         <String xml:lang="en-US">Drive to ~b~{0}~s~ and pick up the passengers</String>
+        <String xml:lang="de-DE">Fahre nach ~b~{0}~s~ und nimm die Fahrgäste auf</String>
         <String xml:lang="es-ES">Conduce hasta ~b~{0}~s~ y recoge a los pasajeros</String>
         <String xml:lang="pt-BR">Dirija até ~b~{0}~s~ e pegue os passageiros</String>
     </Entry>
 
     <Entry Id="transit_drive_to_stop_help">
         <String xml:lang="en-US">Drive to ~b~{0}</String>
+        <String xml:lang="de-DE">Fahre nach ~b~{0}</String>
         <String xml:lang="es-ES">Conduce hasta ~b~{0}</String>
         <String xml:lang="pt-BR">Dirija até ~b~{0}</String>
     </Entry>
 
     <Entry Id="transit_boarding_help">
         <String xml:lang="en-US">Wait for the passengers to ~y~board ~s~the vehicle</String>
+        <String xml:lang="de-DE">Warte, bis die Fahrgäste in das Fahrzeug ~y~einsteigen~s~</String>
         <String xml:lang="es-ES">Espera a que los pasajeros ~y~suban ~s~al vehículo</String>
         <String xml:lang="pt-BR">Espere os passageiros ~y~embarcarem ~s~no veículo</String>
     </Entry>
 
     <Entry Id="transit_server_route_complete">
         <String xml:lang="en-US">~g~Route complete!~s~ You earned ~g~{0}~s~.</String>
-        <String xml:lang="de-DE">~g~Route abgeschlossen!~s~ Du hast ~g~{0}~s~ verdient.</String>
+        <String xml:lang="de-DE">~g~Linienfahrt abgeschlossen!~s~ Du hast ~g~{0}~s~ verdient.</String>
         <String xml:lang="es-ES">~g~¡Ruta completada!~s~ Has ganado ~g~{0}~s~.</String>
         <String xml:lang="pt-BR">~g~Rota concluída!~s~ Você ganhou ~g~{0}~s~.</String>
         <String xml:lang="vi-VN">~g~Hoàn thành tuyến!~s~ Bạn kiếm được ~g~{0}~s~.</String>
@@ -12465,7 +12486,7 @@
 
     <Entry Id="transit_server_wrong_stop">
         <String xml:lang="en-US">~r~That's not the next stop on the route.~s~</String>
-        <String xml:lang="de-DE">~r~Das ist nicht die nächste Haltestelle auf der Route.~s~</String>
+        <String xml:lang="de-DE">~r~Das ist nicht die nächste Haltestelle dieser Linienfahrt.~s~</String>
         <String xml:lang="es-ES">~r~Esa no es la siguiente parada de la ruta.~s~</String>
         <String xml:lang="pt-BR">~r~Essa não é a próxima parada da rota.~s~</String>
         <String xml:lang="vi-VN">~r~Đó không phải là điểm dừng tiếp theo trên tuyến.~s~</String>
@@ -12473,7 +12494,7 @@
 
     <Entry Id="transit_server_route_canceled">
         <String xml:lang="en-US">~r~Route canceled.~s~</String>
-        <String xml:lang="de-DE">~r~Route abgebrochen.~s~</String>
+        <String xml:lang="de-DE">~r~Linienfahrt abgebrochen.~s~</String>
         <String xml:lang="es-ES">~r~Ruta cancelada.~s~</String>
         <String xml:lang="pt-BR">~r~Rota cancelada.~s~</String>
         <String xml:lang="vi-VN">~r~Tuyến đã bị hủy.~s~</String>
@@ -12481,7 +12502,7 @@
 
     <Entry Id="transit_server_cancel_penalty">
         <String xml:lang="en-US">~r~Route canceled~s~ - you paid ~o~{0}~s~.</String>
-        <String xml:lang="de-DE">~r~Route abgebrochen~s~ - du hast ~o~{0}~s~ bezahlt.</String>
+        <String xml:lang="de-DE">~r~Linienfahrt abgebrochen~s~ - du hast ~o~{0}~s~ bezahlt.</String>
         <String xml:lang="es-ES">~r~Ruta cancelada~s~: pagaste ~o~{0}~s~.</String>
         <String xml:lang="pt-BR">~r~Rota cancelada~s~ - você pagou ~o~{0}~s~.</String>
         <String xml:lang="vi-VN">~r~Tuyến đã bị hủy~s~ - bạn đã trả ~o~{0}~s~.</String>
@@ -12489,13 +12510,14 @@
 
     <Entry Id="transit_server_no_transit_vehicle">
         <String xml:lang="en-US">~r~Get back in the vehicle and finish the job.</String>
+        <String xml:lang="de-DE">~r~Steige wieder in das Fahrzeug ein und beende den Auftrag.</String>
         <String xml:lang="es-ES">~r~Vuelve al vehículo y termina el trabajo.</String>
         <String xml:lang="pt-BR">~r~Volte para o veículo e termine o trabalho.</String>
     </Entry>
 
     <Entry Id="transit_server_busy_route">
         <String xml:lang="en-US">~r~You already have an active transit route.~s~</String>
-        <String xml:lang="de-DE">~r~Du hast bereits eine aktive Nahverkehrsroute.~s~</String>
+        <String xml:lang="de-DE">~r~Du hast bereits eine aktive Linienfahrt.~s~</String>
         <String xml:lang="es-ES">~r~Ya tienes una ruta de transporte activa.~s~</String>
         <String xml:lang="pt-BR">~r~Você já tem uma rota de transporte ativa.~s~</String>
         <String xml:lang="vi-VN">~r~Bạn đã có một tuyến giao thông công cộng đang hoạt động.~s~</String>
@@ -12503,7 +12525,7 @@
 
     <Entry Id="transit_server_not_on_route">
         <String xml:lang="en-US">~r~You don't have an active transit route.~s~</String>
-        <String xml:lang="de-DE">~r~Du hast keine aktive Nahverkehrsroute.~s~</String>
+        <String xml:lang="de-DE">~r~Du hast keine aktive Linienfahrt.~s~</String>
         <String xml:lang="es-ES">~r~No tienes una ruta de transporte activa.~s~</String>
         <String xml:lang="pt-BR">~r~Você não tem uma rota de transporte ativa.~s~</String>
         <String xml:lang="vi-VN">~r~Bạn không có tuyến giao thông công cộng nào đang hoạt động.~s~</String>
@@ -12551,7 +12573,7 @@
 
     <Entry Id="transit_passenger_died_charged">
         <String xml:lang="en-US">~r~A passenger died on your route~s~ - you paid ~o~{0}~s~.</String>
-        <String xml:lang="de-DE">~r~Ein Fahrgast ist auf deiner Route gestorben~s~ - du hast ~o~{0}~s~ bezahlt.</String>
+        <String xml:lang="de-DE">~r~Ein Fahrgast ist während deiner Linienfahrt gestorben~s~ - du hast ~o~{0}~s~ bezahlt.</String>
         <String xml:lang="es-ES">~r~Un pasajero murió en tu ruta~s~: pagaste ~o~{0}~s~.</String>
         <String xml:lang="pt-BR">~r~Um passageiro morreu na sua rota~s~ - você pagou ~o~{0}~s~.</String>
         <String xml:lang="vi-VN">~r~Một hành khách đã chết trên tuyến của bạn~s~ - bạn đã trả ~o~{0}~s~.</String>
@@ -12559,7 +12581,7 @@
 
     <Entry Id="transit_route_failed_killed_passenger">
         <String xml:lang="en-US">~r~Route failed!~s~ You killed a passenger - the transit company dropped you from this run.</String>
-        <String xml:lang="de-DE">~r~Route fehlgeschlagen!~s~ Du hast einen Fahrgast getötet - der Nahverkehrsbetrieb hat dich von dieser Fahrt abgezogen.</String>
+        <String xml:lang="de-DE">~r~Linienfahrt fehlgeschlagen!~s~ Du hast einen Fahrgast getötet - der Nahverkehrsbetrieb hat dich von dieser Fahrt abgezogen.</String>
         <String xml:lang="es-ES">~r~¡Ruta fallida!~s~ Mataste a un pasajero, la empresa de transporte te dio de baja de este recorrido.</String>
         <String xml:lang="pt-BR">~r~Rota falhou!~s~ Você matou um passageiro - a empresa de transporte te removeu desta corrida.</String>
         <String xml:lang="vi-VN">~r~Tuyến thất bại!~s~ Bạn đã giết một hành khách - công ty giao thông đã loại bạn khỏi chuyến này.</String>
@@ -12567,7 +12589,7 @@
 
     <Entry Id="transit_passenger_killed_payout_reduced">
         <String xml:lang="en-US">~r~A passenger was killed on your route~s~ - your payout is reduced.</String>
-        <String xml:lang="de-DE">~r~Ein Fahrgast wurde auf deiner Route getötet~s~ - deine Auszahlung wurde gekürzt.</String>
+        <String xml:lang="de-DE">~r~Ein Fahrgast wurde während deiner Linienfahrt getötet~s~ - deine Auszahlung wurde gekürzt.</String>
         <String xml:lang="es-ES">~r~Un pasajero fue asesinado en tu ruta~s~: tu pago se ha reducido.</String>
         <String xml:lang="pt-BR">~r~Um passageiro foi morto na sua rota~s~ - seu pagamento foi reduzido.</String>
         <String xml:lang="vi-VN">~r~Một hành khách đã bị giết trên tuyến của bạn~s~ - khoản thanh toán của bạn bị giảm.</String>
@@ -12575,6 +12597,7 @@
 
     <Entry Id="transit_passengers_bar">
         <String xml:lang="en-US">PASSENGERS</String>
+        <String xml:lang="de-DE">FAHRGÄSTE</String>
         <String xml:lang="es-ES">PASAJEROS</String>
         <String xml:lang="pt-BR">PASSAGEIROS</String>
         <String xml:lang="vi-VN">HÀNH KHÁCH</String>
@@ -12607,6 +12630,7 @@
 
     <Entry Id="transit_departure_bar">
         <String xml:lang="en-US">DEPARTURE</String>
+        <String xml:lang="de-DE">ABFAHRT</String>
         <String xml:lang="es-ES">SALIDA</String>
         <String xml:lang="pt-BR">PARTIDA</String>
         <String xml:lang="vi-VN">KHỞI HÀNH</String>
