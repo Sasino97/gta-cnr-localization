@@ -11602,6 +11602,17 @@
         <String xml:lang="en-US">{0} jobs</String>
     </Entry>
 
+    <!-- {0} = Number of transit departures (for example: 12)
+         {1} = Action - reference to "stp_press" or "stp_hold"
+    -->
+    <Entry Id="transit_n_transits_available">
+        <String xml:lang="en-US">There are ~y~{0} transit departures ~s~available at the moment. {1} to open the transit schedule.</String>
+    </Entry>
+
+    <Entry Id="transit_view_transits">
+        <String xml:lang="en-US">View transits</String>
+    </Entry>
+
     <Entry Id="transit_vehicle_type_coach">
         <String xml:lang="en-US">Coach</String>
     </Entry>
