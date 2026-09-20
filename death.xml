@@ -110,7 +110,7 @@
         <String xml:lang="de-DE">Es sind ein oder mehrere ~p~Sanitäter ~s~in der Nähe. Du kannst erst wieder respawnen, wenn der Timer abgelaufen ist, die Sanitäter das Gebiet verlassen oder sie sterben.</String>
         <String xml:lang="nl-NL">Er zijn één of meerdere ~p~ambulanciers ~s~in de buurt. Je kan niet respawnen totdat de timer afloopt, de ambulanciers het gebied verlaten, of ze dood gaan.</String>
         <String xml:lang="it-IT">Ci sono uno o più ~p~paramedici ~s~nelle vicinanze. Non puoi respawnare finché il timer non scade, i paramedici non lasciano l'area, o muoiono.</String>
-        <String xml:lang="pl-PL">W pobliżu jest co najmniej jeden ~p~medyk ~s~Nie możesz się odrodzić do póki nie minie czas, medycy oddalą się z okolicy lub zginą.</String>
+        <String xml:lang="pl-PL">Niestety, w pobliżu jest co najmniej jeden ~p~medyk ~s~Nie możesz się odrodzić do póki nie minie czas, medycy oddalą się z okolicy lub zginą.</String>
         <String xml:lang="tr-TR">Yakınlarda bir veya daha fazla ~p~paramedik ~s~var. Zamanlayıcı bitene, sağlık görevlileri bölgeyi terk edene veya onlar ölenceye kadar yeniden doğamazsın.</String>
         <String xml:lang="zh-Hant">附近有一名或多名護理人員. 在倒數計時結束或護理人員離開該區域或死亡之前,您將無法重生.</String>
         <String xml:lang="zh-Hans">附近有一名或多名护理人员. 在倒数计时结束或护理人员离开该区域或死亡之前,您无法重生.</String>
@@ -241,7 +241,7 @@
         <String xml:lang="fr-FR">{0} ~s~a été tué par un ~r~animal~s~.</String>
         <String xml:lang="nl-NL">{0} ~s~is vermoord door een ~r~dier~s~.</String>
         <String xml:lang="it-IT">{0} ~s~è stato ucciso da un ~r~animale~s~.</String>
-        <String xml:lang="pl-PL">{0} ~s~został zabity przez ~r~zwierzę~s~.</String>
+        <String xml:lang="pl-PL">{0} ~s~został zagryziony przez ~r~zwierzę~s~.</String>
         <String xml:lang="tr-TR">{0} bir ~r~hayvan ~s~tarafından öldürüldü.</String>
         <String xml:lang="zh-Hant">{0} ~s~被 ~r~動物~s~ 擊殺了.</String>
         <String xml:lang="zh-Hans">{0} ~s~被 ~r~动物~s~ 击杀了.</String>
@@ -306,6 +306,7 @@
         <String xml:lang="sr-RS">{0} ~s~je umro od ~r~bolesti~s~.</String>
         <String xml:lang="ga-IE">{0} ~s~Tá bás aici ó ~r~NPC~s~.</String>
         <String xml:lang="et-EE">{0} ~s~Sai surma tänu ~r~haigusele~s~.</String>
+        <String xml:lang="pl-PL">{0} ~s~zginął z ~r~zarazy~s~.</String>
     </Entry>
 
     <Entry Id="drowned">
@@ -1164,7 +1165,7 @@
         <String xml:lang="de-DE">Sanitäter {0} hat dich wiederbelebt.</String>
         <String xml:lang="nl-NL">Ambulancier {0} heeft je gereanimeerd.</String>
         <String xml:lang="it-IT">Il paramedico {0} ti ha rianimato.</String>
-        <String xml:lang="pl-PL">Medyk {0} cię ocucił.</String>
+        <String xml:lang="pl-PL">Medyk {0} przywrócił cię do świata żywych.</String>
         <String xml:lang="tr-TR">Paramedik {0} seni yeniden canlandırdı.</String>
         <String xml:lang="zh-Hant">醫護 {0} 復活了你.</String>
         <String xml:lang="zh-Hans">医护 {0} 复活了你.</String>
@@ -1191,7 +1192,7 @@
         <String xml:lang="de-DE">Der ~p~Sanitäter ~s~hat es ~r~nicht geschafft~s~, dich wiederzubeleben, und du wurdest in ein ~r~Krankenhaus~s~ verlegt.</String>
         <String xml:lang="nl-NL">Het is de ~p~ambulancier ~r~niet gelukt ~s~om jou te reanimeren en je bent gestuurd naar een ~r~ziekenhuis~s~.</String>
         <String xml:lang="it-IT">Il ~p~paramedico ~s~ha ~r~fallito ~s~la rianimazione quindi sei stato trasferito in un ~r~ospedale~s~.</String>
-        <String xml:lang="pl-PL">~p~Medykowi ~r~nie udało się ~s~ciebie ocucić i zostałeś przetransportowany do ~r~szpitala~s~.</String>
+        <String xml:lang="pl-PL">~p~Medykowi ~r~nie udało się ~s~ciebie wskrzesić i zostałeś przetransportowany do ~r~szpitala~s~.</String>
         <String xml:lang="tr-TR">~p~Paramedik ~s~seni ~r~canlandıramadı. ~s~Bir ~r~hasteneye ~s~sevk edildin.</String>
         <String xml:lang="zh-Hant">~p~護理人員~s~~r~未能及時~s~救活你，你被轉移到~r~醫院~s~.</String>
         <String xml:lang="zh-Hans">~p~护理人员~s~~r~未能及时~s~救活你，你被转移到~r~医院~s~.</String>
@@ -1233,6 +1234,7 @@
         <String xml:lang="sr-RS">Doktor {0} te oživeo.</String>
         <String xml:lang="ga-IE">Dochtúir {0} atá ar do chaoi.</String>
         <String xml:lang="et-EE">Doktor {0} elustas teid.</String>
+        <String xml:lang="pl-PL">Doktor {0} przywrócił cię do świata żywych.</String>
     </Entry>
 
     <Entry Id="doctor_failed">
@@ -1256,6 +1258,7 @@
         <String xml:lang="sr-RS">~y~Doktor ~s~nije ~r~uspeo ~s~da te oživi i bio si prebačen u ~r~bolnicu~s~.</String>
         <String xml:lang="ga-IE">Tá ~y~dochtúir ~s~te ~r~theiptheach ~s~a chur ar do chaoi agus tú aige i ~r~slimnín~s~.</String>
         <String xml:lang="et-EE"> ~y~doktor ~s~ei ~r~suutnud ~s~suutnud teid elustada ja teid liigutati ~r~haigla~s~.</String>
+        <String xml:lang="pl-PL">~y~Doktorowi ~r~nie udało się ~s~ciebie wkrzesić i zostałeś przeniesiony do ~r~szpitala~s~.</String>
     </Entry>
 
     <Entry Id="menu_revenge_title">
@@ -1576,7 +1579,7 @@
         <String xml:lang="et-EE">Yay!Keegi ei ürita sind tappa kättemaksuks!</String>
     </Entry>
 
-    <Entry Id="menu_revenge_target_markers">
+<Entry Id="menu_revenge_target_markers">
         <String xml:lang="en-US">Target Markers</String>
         <String xml:lang="ru-RU">Маркеры целей</String>
         <String xml:lang="nl-NL">Doelwit Symbool</String>
@@ -1597,6 +1600,7 @@
         <String xml:lang="sr-RS">Oznake ciljeva</String>
         <String xml:lang="ga-IE">Marcálacha sprioc</String>
         <String xml:lang="et-EE">sihtmärgi markeeringud</String>
+        <String xml:lang="pl-PL">Znaczniki celów</String>
     </Entry>
 
     <Entry Id="menu_revenge_target_markers_descr">
@@ -1620,6 +1624,7 @@
         <String xml:lang="sr-RS">Omogući ~r~crveni krug ~s~oko blipove i ~r~crveni lebdeći kosač ~s~pored gamertaga vaših ciljeva za osvetu.</String>
         <String xml:lang="ga-IE">Cumasaigh ~r~ciorcal dhearg ~s~ar around blips agus ~r~craicín dhearg ~s~i gcoinneach an gamertag do dhuine a bhfuil tú ag iarraidh a mharú.</String>
         <String xml:lang="et-EE">Lülita sisse ~r~punane ring ~s~ümber kaardimärkide ja ~r~punane pealuu ~s~oma kättemaksu sihtmärkide nime kõrval.</String>
+        <String xml:lang="pl-PL">Włącz ~r~czerwony okrąg ~s~wokół znaczników oraz ~r~czerwoną czaszkę ~s~obok nazwy gracza twoich celów do zemsty.</String>
     </Entry>
 
     <Entry Id="menu_revenge_claimant_markers">
@@ -1643,6 +1648,7 @@
         <String xml:lang="sr-RS">Oznake zahtevača</String>
         <String xml:lang="ga-IE">Marcálacha sprioc</String>
         <String xml:lang="et-EE">Nõudlejate tähised</String>
+        <String xml:lang="pl-PL">Znaczniki żądających</String>
     </Entry>
 
     <Entry Id="menu_revenge_claimant_markers_descr">
@@ -1666,6 +1672,7 @@
         <String xml:lang="sr-RS">Omogući ~y~žuti krug ~s~oko blipove i ~y~žuti trougao ~s~pored gamertaga vaših zahtevača za osvetu.</String>
         <String xml:lang="ga-IE">Cumasaigh ~y~ciorcal dhearg ~s~ar around blips agus ~y~craicín dhearg ~s~i gcoinneach an gamertag do dhuine a bhfuil tú ag iarraidh a mharú.</String>
         <String xml:lang="et-EE">Lülita sisse ~y~kollane ring ~s~ümber kaardimärkide ja ~y~kollane kolmnurk ~s~oma kättemaksu nõudlejate nime kõrval.</String>
+        <String xml:lang="pl-PL">Włącz ~y~żółty okrąg ~s~wokół znaczników oraz ~y~żółty trójkąt ~s~obok nazwy gracza żądających na tobie zemsty.</String>
     </Entry>
 
     <Entry Id="hospital_bill">
@@ -1743,6 +1750,7 @@
         <String xml:lang="sr-RS">Ova~b~Osiguravajuća kompanija ~s~je odbila vaš zahtev</String>
         <String xml:lang="ga-IE">~b~Ceadúnas sláinte ~s~gníomhach</String>
         <String xml:lang="et-EE">The ~b~Kindlustus firma ~s~on lükanud tagasi sinu nõude.</String>
+        <String xml:lang="pl-PL">~b~Firma ubezpieczeniowa ~s~odrzuciła twoje roszczenie</String>
     </Entry>
 
     <Entry Id="covered_by_insurance">
@@ -1894,6 +1902,7 @@
         <String xml:lang="it-IT">Allerta il Medico</String>
         <String xml:lang="et-EE">Kutsu meedik</String>
         <String xml:lang="vi-VN">Gọi nhân viên y tế</String>
+        <String xml:lang="pl-PL">Powiadom medyka</String>
     </Entry>
 
     <Entry Id="ping_medic_cooldown">
@@ -1909,6 +1918,7 @@
         <String xml:lang="it-IT">Puoi allertare di nuovo {0}</String>
         <String xml:lang="et-EE">Saad uuesti märguande saata {0}</String>
         <String xml:lang="vi-VN">Bạn có thể gọi lại {0}</String>
+        <String xml:lang="pl-PL">Możesz powiadomić ponownie za {0}</String>
     </Entry>
 
     <!-- Recommended frequency on respawn -->
