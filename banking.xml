@@ -865,6 +865,7 @@
 
     <Entry Id="atm_hacking_puzzle_info">
         <String xml:lang="en-US">Crack the ATM's decryption key with brute force.~n~~n~You have {0} attempts to guess the {1} unique digits (0-9) of the encryption key. The fewer your attempts, the higher the payout.</String>
+        <String xml:lang="pl-PL">Złam klucz odszyfrowujący bankomatu metodą brute force.~n~~n~Masz {0} prób, aby odgadnąć {1} unikalnych cyfr (0-9) klucza szyfrującego. Im mniej prób, tym wyższa wygrana.</String>
         <String xml:lang="es-ES">Descifra la clave de encriptación del cajero automático por fuerza bruta.~n~~n~Tienes {0} intentos para adivinar los {1} dígitos únicos (0-9) de la clave de cifrado. Cuantos menos intentos uses, mayor será la recompensa.</String>
         <String xml:lang="pt-BR">Decifre a chave de criptografia do caixa eletrônico usando força bruta.~n~~n~Você tem {0} tentativas para adivinhar os {1} dígitos únicos (0-9) da chave de criptografia. Quanto menos tentativas você usar, maior será a recompensa.</String>
         <String xml:lang="ru-RU">Взломайте ключ дешифрирования банкомата методом перебора.~n~~n~У вас {0} попытки отгадать {1} уникальные цифры (0-9) ключа дешифрирования. Чем меньше попыток - тем больше награда.</String>
@@ -877,6 +878,7 @@
 
     <Entry Id="atm_hacking_puzzle_menu_desc">
         <String xml:lang="en-US">~g~Green ~s~= correct digit and place.~n~~y~Yellow ~s~= digit is in the wrong place~n~~r~Red ~s~= digit is not present in the key.</String>
+        <String xml:lang="pl-PL">~g~Zielony ~s~= właściwa cyfra i miejsce.~n~~y~Żółty ~s~= cyfra w złym miejscu~n~~r~Czerwony ~s~= cyfra nie występuje w kluczu.</String>
         <String xml:lang="es-ES">~g~Verde ~s~= dígito y posición correctos.~n~~y~Amarillo ~s~= el dígito está en el lugar equivocado~n~~r~Rojo ~s~= el dígito no está presente en la clave.</String>
         <String xml:lang="pt-BR">~g~Verde ~s~= dígito e posição corretos.~n~~y~Amarelo ~s~= o dígito está no lugar errado~n~~r~Vermelho ~s~= o dígito não está presente na chave.</String>
         <String xml:lang="ru-RU">~g~Зеленый ~s~= правильная цифра и положение.~n~~y~Желтый ~s~= цифра присутствует, но положение не верное~n~~r~Красный ~s~= цифра не присутствует в ключе.</String>
@@ -889,6 +891,7 @@
 
     <Entry Id="atm_hacking_puzzle_failed">
         <String xml:lang="en-US">You have ~r~failed ~s~to hack the ATM.</String>
+        <String xml:lang="pl-PL">~r~Nie udało ci się ~s~zhakować bankomatu.</String>
         <String xml:lang="es-ES">Has ~r~fracasado ~s~al intentar hackear el cajero automático.</String>
         <String xml:lang="pt-BR">Você ~r~falhou ~s~ao tentar hackear o caixa eletrônico.</String>
         <String xml:lang="ru-RU">Вам ~r~не удалось ~s~взломать банкомат.</String>
@@ -904,6 +907,7 @@
     <!--=======================-->
     <Entry Id="menu_bank_interest_rate">
         <String xml:lang="en-US">Daily interest rate</String>
+        <String xml:lang="pl-PL">Dzienna stopa procentowa</String>
         <String xml:lang="ru-RU">Ежедневная процентная ставка</String>
         <String xml:lang="de-DE">Täglicher Zinssatz</String>
         <String xml:lang="nl-NL">Dagelijkse rente</String>
@@ -925,6 +929,7 @@
     <!-- {0} = Formatted amount -->
     <Entry Id="bank_interest_received">
         <String xml:lang="en-US">You have received ~g~{0} ~s~in interest from ~b~Fleeca Bank~s~.</String>
+        <String xml:lang="pl-PL">Otrzymałeś ~g~{0} ~s~odsetek od ~b~Banku Fleeca~s~.</String>
         <String xml:lang="ru-RU">Вы получили ~g~{0}~s~ в виде процентов от ~b~Fleeca Bank~s~.</String>
         <String xml:lang="de-DE">Du hast ~g~{0} ~s~Zinsen von der ~b~Fleeca Bank~s~ erhalten.</String>
         <String xml:lang="nl-NL">Je hebt ~g~{0} ~s~aan rente ontvangen van ~b~Fleeca Bank~s~.</String>
@@ -945,6 +950,7 @@
 
     <Entry Id="menu_bank_deposit">
         <String xml:lang="en-US">Deposit</String>
+        <String xml:lang="pl-PL">Wpłata</String>
         <String xml:lang="ru-RU">Пополнить</String>
         <String xml:lang="de-DE">Einzahlen</String>
         <String xml:lang="nl-NL">Storten</String>
@@ -965,6 +971,7 @@
 
     <Entry Id="menu_bank_deposit_desc">
         <String xml:lang="en-US">Deposit money to your ~g~checking account~s~.</String>
+        <String xml:lang="pl-PL">Wpłać pieniądze na swoje ~g~konto osobiste~s~.</String>
         <String xml:lang="ru-RU">Внести деньги на ваш ~g~банковский счет~s~.</String>
         <String xml:lang="de-DE">Zahle Geld auf dein ~g~Konto~s~ ein.</String>
         <String xml:lang="nl-NL">Stort geld op youw ~g~bankrekening~s~.</String>
@@ -984,6 +991,7 @@
 
     <Entry Id="menu_bank_withdraw">
         <String xml:lang="en-US">Withdraw</String>
+        <String xml:lang="pl-PL">Wypłata</String>
         <String xml:lang="ru-RU">Снять</String>
         <String xml:lang="de-DE">Abheben</String>
         <String xml:lang="nl-NL">Opnemen</String>
@@ -1003,6 +1011,7 @@
 
     <Entry Id="menu_bank_withdraw_desc">
         <String xml:lang="en-US">Withdraw money from your ~g~checking account~s~.</String>
+        <String xml:lang="pl-PL">Wypłać pieniądze ze swojego ~g~konta osobistego~s~.</String>
         <String xml:lang="ru-RU">Снять деньги с вашего ~g~банковского счета~s~.</String>
         <String xml:lang="de-DE">Hebe Geld von deinem ~g~Konto~s~ ab.</String>
         <String xml:lang="nl-NL">Neem geld op van jouw ~g~bankrekening~s~.</String>
@@ -1023,6 +1032,7 @@
 
     <Entry Id="menu_bank_transfer">
         <String xml:lang="en-US">Transfer</String>
+        <String xml:lang="pl-PL">Przelew</String>
         <String xml:lang="ru-RU">Перевести</String>
         <String xml:lang="de-DE">Überweisen</String>
         <String xml:lang="nl-NL">Overmaken</String>
@@ -1043,6 +1053,7 @@
 
     <Entry Id="menu_bank_transfer_desc">
         <String xml:lang="en-US">Transfer money to another player's ~g~checking account~s~.</String>
+        <String xml:lang="pl-PL">Przelej pieniądze na ~g~konto osobiste~s~ innego gracza.</String>
         <String xml:lang="ru-RU">Перевести деньги на ~g~банковский счет~s~ другого игрока.</String>
         <String xml:lang="de-DE">Überweise Geld auf das ~g~Konto~s~ eines anderen Spielers.</String>
         <String xml:lang="nl-NL">Maak geld over naar een andere speler's ~g~bankrekening~s~.</String>
@@ -1063,6 +1074,7 @@
 
     <Entry Id="menu_bank_transfer_amount">
         <String xml:lang="en-US">Enter the amount to transfer.</String>
+        <String xml:lang="pl-PL">Wprowadź kwotę przelewu.</String>
         <String xml:lang="ru-RU">Введите сумму для перевода.</String>
         <String xml:lang="de-DE">Gib den Betrag ein, den du überweisen willst.</String>
         <String xml:lang="nl-NL">Voer het bedrag in om over te maken.</String>
@@ -1083,6 +1095,7 @@
 
     <Entry Id="menu_bank_transfer_reason">
         <String xml:lang="en-US">Enter the reason of the transfer.</String>
+        <String xml:lang="pl-PL">Wprowadź powód przelewu.</String>
         <String xml:lang="ru-RU">Введите причину перевода.</String>
         <String xml:lang="de-DE">Gib den Grund für die Überweisung ein.</String>
         <String xml:lang="nl-NL">Voer de reden van de overboeking in.</String>
@@ -1103,6 +1116,7 @@
 
     <Entry Id="menu_bank_transfer_successful">
         <String xml:lang="en-US">You have transfered ~g~{0} ~s~to {1}'s checking account.</String>
+        <String xml:lang="pl-PL">Przelano ~g~{0} ~s~na konto osobiste gracza {1}.</String>
         <String xml:lang="ru-RU">Вы перевели ~g~{0}~s~ на банковский счет {1}.</String>
         <String xml:lang="de-DE">Du hast ~g~{0} ~s~auf das Konto von {1} überwiesen.</String>
         <String xml:lang="nl-NL">Je hebt ~g~{0} ~s~overgemaakt naar {1}'s bankrekening.</String>
@@ -1123,6 +1137,7 @@
 
     <Entry Id="menu_bank_transfer_received">
         <String xml:lang="en-US">{0} has transfered ~g~{1} ~s~to your checking account for ~b~"{2}"~s~.</String>
+        <String xml:lang="pl-PL">Gracz {0} przelał ~g~{1} ~s~na Twoje konto osobiste z powodem ~b~"{2}"~s~.</String>
         <String xml:lang="ru-RU">{0} перевёл ~g~{1}~s~ на ваш банковский счёт с ~b~назначением «{2}»~s~.</String>
         <String xml:lang="de-DE">{0} hat dir ~g~{1} ~s~mit dem Verwendungszweck ~b~"{2}" ~s~auf dein Konto überwiesen.</String>
         <String xml:lang="nl-NL">{0} heeft ~g~{1} ~s~overgemaakt naar jouw bankrekening met als reden ~b~"{2}"~s~.</String>
@@ -1196,6 +1211,7 @@
 
     <Entry Id="menu_bank_history_sub">
         <String xml:lang="en-US">Recent transactions</String>
+        <String xml:lang="pl-PL">Ostatnie transakcje</String>
         <String xml:lang="ru-RU">Последние транзакции</String>
         <String xml:lang="de-DE">Letzte Transaktionen</String>
         <String xml:lang="nl-NL">Recente transacties</String>
@@ -1217,6 +1233,7 @@
 
     <Entry Id="menu_bank_history_pre">
         <String xml:lang="en-US">PAGE {0}</String>
+        <String xml:lang="pl-PL">STRONA {0}</String>
         <String xml:lang="ru-RU">СТРАНИЦА {0}</String>
         <String xml:lang="de-DE">SEITE {0}</String>
         <String xml:lang="nl-NL">PAGINA {0}</String>
@@ -1238,6 +1255,7 @@
 
     <Entry Id="menu_bank_loan">
         <String xml:lang="en-US">Loan</String>
+        <String xml:lang="pl-PL">Pożyczka</String>
         <String xml:lang="ru-RU">Заем</String>
         <String xml:lang="de-DE">Kredit</String>
         <String xml:lang="nl-NL">Lening</String>
@@ -1259,6 +1277,7 @@
 
     <Entry Id="menu_bank_loan_desc">
         <String xml:lang="en-US">Obtain a ~r~loan ~s~from the bank.</String>
+        <String xml:lang="pl-PL">Weź ~r~pożyczkę ~s~z banku.</String>
         <String xml:lang="ru-RU">Получить ~r~заем~s~ в банке.</String>
         <String xml:lang="de-DE">Erhalte einen ~r~Kredit ~s~von der Bank.</String>
         <String xml:lang="nl-NL">Krijg een ~r~lening ~s~van de bank.</String>
@@ -1280,6 +1299,7 @@
 
     <Entry Id="menu_bank_debt">
         <String xml:lang="en-US">Pay debt</String>
+        <String xml:lang="pl-PL">Spłać dług</String>
         <String xml:lang="ru-RU">Оплатить долг</String>
         <String xml:lang="de-DE">Schulden bezahlen</String>
         <String xml:lang="nl-NL">Betaal schuld</String>
@@ -1301,6 +1321,7 @@
 
     <Entry Id="menu_bank_debt_desc">
         <String xml:lang="en-US">Make a payment towards your ~r~debt~s~.</String>
+        <String xml:lang="pl-PL">Dokonaj wpłaty na poczet swojego ~r~długu~s~.</String>
         <String xml:lang="ru-RU">Сделать платеж по вашему ~r~долгу~s~.</String>
         <String xml:lang="de-DE">Zahle einen Teil deiner ~r~Schulden ~s~ab.</String>
         <String xml:lang="nl-NL">Doe een betaling voor je ~r~schuld~s~.</String>
