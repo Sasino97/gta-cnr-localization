@@ -4679,6 +4679,46 @@
         <String xml:lang="sr-RS">Pretraga: ''{0}''</String>
     </Entry>
 
+    <Entry Id="menu_wardrobe_saved_outfits">
+        <String xml:lang="en-US">Saved outfits</String>
+    </Entry>
+
+    <Entry Id="menu_wardrobe_saved_outfits_subtitle">
+        <String xml:lang="en-US">Save and apply custom outfits</String>
+    </Entry>
+
+    <Entry Id="btn_saved_outfit_save">
+        <String xml:lang="en-US">Save</String>
+    </Entry>
+
+    <Entry Id="btn_saved_outfit_apply">
+        <String xml:lang="en-US">Apply</String>
+    </Entry>
+
+    <!-- {0} = slot number -->
+    <Entry Id="saved_outfit_slot_empty">
+        <String xml:lang="en-US">Outfit {0} - ~y~empty</String>
+    </Entry>
+
+    <!-- {0} = slot number -->
+    <Entry Id="saved_outfit_slot_saved">
+        <String xml:lang="en-US">Outfit {0}</String>
+    </Entry>
+
+    <!-- {0} = slot number, {1} = localized membership tier name -->
+    <Entry Id="saved_outfit_slot_locked">
+        <String xml:lang="en-US">Outfit {0} - ~p~{1}~s~ required</String>
+    </Entry>
+
+    <!-- {0} = localized membership tier name -->
+    <Entry Id="saved_outfit_slot_locked_descr">
+        <String xml:lang="en-US">Only ~p~{0}~s~ members can save in this slot. An outfit that is already saved here can still be worn.</String>
+    </Entry>
+
+    <Entry Id="saved_outfit_save_failed">
+        <String xml:lang="en-US">~r~Could not save the outfit in this slot.</String>
+    </Entry>
+
     <Entry Id="trading_state_confirmed">
         <String xml:lang="en-US">Confirmed</String>
         <String xml:lang="ru-RU">Подтверждено</String>
