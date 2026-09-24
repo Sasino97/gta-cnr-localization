@@ -11598,6 +11598,14 @@
         <String xml:lang="en-US">View the available transit routes that are scheduled for departure soon</String>
     </Entry>
 
+    <Entry Id="transit_current_schedule">
+        <String xml:lang="en-US">Current schedule</String>
+    </Entry>
+
+    <Entry Id="transit_current_schedule_desc">
+        <String xml:lang="en-US">View your current route and the stops you still have to drive to</String>
+    </Entry>
+
     <Entry Id="transit_menu_counter">
         <String xml:lang="en-US">{0} jobs</String>
     </Entry>
@@ -11696,6 +11704,10 @@
     <Entry Id="transit_cancel_current">
         <String xml:lang="en-US">Cancel current route</String>
         <String xml:lang="vi-VN">Hủy tuyến đường hiện tại</String>
+    </Entry>
+
+    <Entry Id="transit_cancel_confirm">
+        <String xml:lang="en-US">Do you really want to ~r~cancel ~s~your current transit route?</String>
     </Entry>
 
     <!-- {0} = Location name -->
