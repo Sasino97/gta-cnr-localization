@@ -11667,9 +11667,14 @@
         <String xml:lang="en-US">Total stops: ~b~{0}</String>
     </Entry>
 
-    <!-- {0} = Required vehicle type -->
+    <!-- {0} = Required vehicle type, already colored by the caller (green = the player is in the right vehicle) -->
     <Entry Id="transit_route_item_desc_veh_type">
-        <String xml:lang="en-US">Vehicle type: ~g~{0}</String>
+        <String xml:lang="en-US">Vehicle type: {0}</String>
+    </Entry>
+
+    <!-- {0} = Required vehicle type (e.g. Coach / City Bus) -->
+    <Entry Id="transit_job_need_vehicle">
+        <String xml:lang="en-US">You need to be in a ~b~{0} ~s~to start this ~y~transit route~s~.</String>
     </Entry>
 
     <Entry Id="transit_departures_sorted_by_time">
