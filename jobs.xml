@@ -11380,6 +11380,10 @@
         <String xml:lang="vi-VN">~b~Các vụ cướp ngân hàng Fleeca ~s~đã sẵn sàng để bắt đầu!</String>
     </Entry>
 
+    <Entry Id="fleeca_robbery_not_in_progress">
+        <String xml:lang="en-US">The ~b~Fleeca bank robbery ~s~is no longer in progress.</String>
+    </Entry>
+
     <Entry Id="fleeca_robbery_choose_tool">
         <String xml:lang="en-US">Choose Tool</String>
         <String xml:lang="es-ES">Elegir Herramienta</String>
@@ -12289,6 +12293,14 @@
         <String xml:lang="pt-BR">Veja as rotas de transporte disponíveis programadas para partir em breve</String>
     </Entry>
 
+    <Entry Id="transit_current_schedule">
+        <String xml:lang="en-US">Current schedule</String>
+    </Entry>
+
+    <Entry Id="transit_current_schedule_desc">
+        <String xml:lang="en-US">View your current route and the stops you still have to drive to</String>
+    </Entry>
+
     <Entry Id="transit_menu_counter">
         <String xml:lang="en-US">{0} jobs</String>
         <String xml:lang="de-DE">{0} Verbindungen</String>
@@ -12382,12 +12394,17 @@
         <String xml:lang="pt-BR">Total de paradas: ~b~{0}</String>
     </Entry>
 
-    <!-- {0} = Required vehicle type -->
+    <!-- {0} = Required vehicle type, already colored by the caller (green = the player is in the right vehicle) -->
     <Entry Id="transit_route_item_desc_veh_type">
-        <String xml:lang="en-US">Vehicle type: ~g~{0}</String>
-        <String xml:lang="de-DE">Fahrzeugtyp: ~g~{0}</String>
-        <String xml:lang="es-ES">Tipo de vehículo: ~g~{0}</String>
-        <String xml:lang="pt-BR">Tipo de veículo: ~g~{0}</String>
+        <String xml:lang="en-US">Vehicle type: {0}</String>
+        <String xml:lang="de-DE">Fahrzeugtyp: {0}</String>
+        <String xml:lang="es-ES">Tipo de vehículo: {0}</String>
+        <String xml:lang="pt-BR">Tipo de veículo: {0}</String>
+    </Entry>
+
+    <!-- {0} = Required vehicle type (e.g. Coach / City Bus) -->
+    <Entry Id="transit_job_need_vehicle">
+        <String xml:lang="en-US">You need to be in a ~b~{0} ~s~to start this ~y~transit route~s~.</String>
     </Entry>
 
     <Entry Id="transit_departures_sorted_by_time">
@@ -12446,6 +12463,10 @@
         <String xml:lang="es-ES">Cancelar ruta actual</String>
         <String xml:lang="pt-BR">Cancelar rota atual</String>
         <String xml:lang="vi-VN">Hủy tuyến đường hiện tại</String>
+    </Entry>
+
+    <Entry Id="transit_cancel_confirm">
+        <String xml:lang="en-US">Do you really want to ~r~cancel ~s~your current transit route?</String>
     </Entry>
 
     <!-- {0} = Location name -->
