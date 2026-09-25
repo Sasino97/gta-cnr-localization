@@ -4027,6 +4027,23 @@
         <String xml:lang="en-US">Max players</String>
     </Entry>
 
+    <Entry Id="imenu_phone_party_max_players_custom">
+        <String xml:lang="en-US">~b~Custom size</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_party_max_players_input">
+        <String xml:lang="en-US">Party Size</String>
+    </Entry>
+
+    <!-- {0} = highest allowed party size -->
+    <Entry Id="imenu_phone_party_max_players_input_text">
+        <String xml:lang="en-US">Enter the maximum amount of players that can be in your party (1 - {0}).</String>
+    </Entry>
+
+    <Entry Id="imenu_phone_party_max_players_invalid">
+        <String xml:lang="en-US">You can only set the party size from ~b~1~s~ to ~b~{0}~s~.</String>
+    </Entry>
+
     <Entry Id="imenu_phone_party_request">
         <String xml:lang="en-US">Party request</String>
     </Entry>
