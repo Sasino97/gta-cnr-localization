@@ -12067,14 +12067,17 @@
 
     <Entry Id="taxi_server_fare_streak">
         <String xml:lang="en-US">~g~Fare complete ~s~+{0}~s~ (~y~streak x{1}~s~). Drive safe!</String>
+        <String xml:lang="de-DE">~g~Fahrt abgeschlossen ~s~+{0}~s~ (~y~Serie {1}x~s~). Fahr vorsichtig!</String>
     </Entry>
 
     <Entry Id="taxi_server_fare_streak_tip">
         <String xml:lang="en-US">~g~Fare complete ~s~+{0}~s~ (~y~tip {1}~s~, ~y~streak x{2}~s~). Drive safe!</String>
+        <String xml:lang="de-DE">~g~Fahrt abgeschlossen ~s~+{0}~s~ (~y~Trinkgeld {1}~s~, ~y~Serie {2}x~s~). Fahr vorsichtig!</String>
     </Entry>
 
     <Entry Id="taxi_server_fare_streak_reset">
         <String xml:lang="en-US">~r~Streak lost!~s~ A failed fare resets your streak. Chain NPC fares back-to-back to earn up to ~y~2x~s~.</String>
+        <String xml:lang="de-DE">~r~Serie verloren!~s~ Eine fehlgeschlagene Fahrt setzt deine Serie zurück. Schließe NPC-Fahrten nacheinander ab, um bis zu ~y~2x~s~ zu verdienen.</String>
     </Entry>
 
     <Entry Id="taxi_reason_wait_cd">
@@ -12313,6 +12316,7 @@
 
     <Entry Id="transit_on_duty_tip">
         <String xml:lang="en-US">~y~(C)Tip:(/C) ~s~check the ~b~Transit Schedule~s~, then drive the required vehicle type to the route origin before departure.</String>
+        <String xml:lang="de-DE">~y~(C)Tipp:(/C) ~s~Sieh dir den ~b~Fahrplan~s~ an, fahre dann vor der Abfahrt mit dem benötigten Fahrzeugtyp zum Start der Route.</String>
     </Entry>
 
     <Entry Id="transit_current_schedule">
