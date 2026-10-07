@@ -12065,6 +12065,18 @@
         <String xml:lang="vi-VN">~g~Hoàn thành chuyến xe ~s~+{0}~s~ (~y~tiền bo {1}~s~). Lái xe an toàn!</String>
     </Entry>
 
+    <Entry Id="taxi_server_fare_streak">
+        <String xml:lang="en-US">~g~Fare complete ~s~+{0}~s~ (~y~streak x{1}~s~). Drive safe!</String>
+    </Entry>
+
+    <Entry Id="taxi_server_fare_streak_tip">
+        <String xml:lang="en-US">~g~Fare complete ~s~+{0}~s~ (~y~tip {1}~s~, ~y~streak x{2}~s~). Drive safe!</String>
+    </Entry>
+
+    <Entry Id="taxi_server_fare_streak_reset">
+        <String xml:lang="en-US">~r~Streak lost!~s~ A failed fare resets your streak. Chain NPC fares back-to-back to earn up to ~y~2x~s~.</String>
+    </Entry>
+
     <Entry Id="taxi_reason_wait_cd">
         <String xml:lang="en-US">You must wait {0} seconds before calling a taxi again.</String>
         <String xml:lang="de-DE">Du musst {0} Sekunden warten, bevor du erneut ein Taxi rufen kannst.</String>
@@ -12297,6 +12309,10 @@
         <String xml:lang="de-DE">Sieh dir die verfügbaren Nahverkehrsverbindungen an, die bald abfahren</String>
         <String xml:lang="es-ES">Ve las rutas de transporte disponibles programadas para salir pronto</String>
         <String xml:lang="pt-BR">Veja as rotas de transporte disponíveis programadas para partir em breve</String>
+    </Entry>
+
+    <Entry Id="transit_on_duty_tip">
+        <String xml:lang="en-US">~y~(C)Tip:(/C) ~s~check the ~b~Transit Schedule~s~, then drive the required vehicle type to the route origin before departure.</String>
     </Entry>
 
     <Entry Id="transit_current_schedule">
