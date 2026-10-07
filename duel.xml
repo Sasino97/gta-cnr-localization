@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entries>
+    <!-- ========================= -->
+    <!-- Menus and buttons -->
+    <!-- ========================= -->
+    <Entry Id="duel_invite_menu_title">
+        <String xml:lang="en-US">Duel Invitation</String>
+    </Entry>
+
+    <Entry Id="duel_accept_desc">
+        <String xml:lang="en-US">Accept the duel invitation.</String>
+    </Entry>
+
+    <Entry Id="duel_decline_desc">
+        <String xml:lang="en-US">Decline the duel invitation. The inviter will have a {0}s cooldown before retrying.</String>
+    </Entry>
+
+    <Entry Id="duel_block_player">
+        <String xml:lang="en-US">Block from this player</String>
+    </Entry>
+
+    <Entry Id="duel_block_player_desc">
+        <String xml:lang="en-US">Stop duel invites from this player.</String>
+    </Entry>
+
+    <Entry Id="duel_block_all">
+        <String xml:lang="en-US">Block all duel invites</String>
+    </Entry>
+
+    <Entry Id="duel_block_all_desc">
+        <String xml:lang="en-US">Stop all future duel invites.</String>
+    </Entry>
+
+    <Entry Id="duel_invite_setup_title">
+        <String xml:lang="en-US">Duel Invite</String>
+    </Entry>
+
+    <Entry Id="duel_stake">
+        <String xml:lang="en-US">Duel Stake</String>
+    </Entry>
+
+    <Entry Id="duel_stake_desc">
+        <String xml:lang="en-US">Choose the duel stake. Select Custom to enter a custom amount.</String>
+    </Entry>
+
+    <!-- {0} = Custom stake amount (for example: $250,000) -->
+    <Entry Id="duel_stake_custom_selected">
+        <String xml:lang="en-US">Choose the duel stake. Custom selected: {0}.</String>
+    </Entry>
+
+    <Entry Id="duel_countdown">
+        <String xml:lang="en-US">Duel Countdown</String>
+    </Entry>
+
+    <Entry Id="duel_countdown_desc">
+        <String xml:lang="en-US">Choose how long the duel waits before it starts.</String>
+    </Entry>
+
+    <Entry Id="duel_send_invite">
+        <String xml:lang="en-US">Send Duel Invite</String>
+    </Entry>
+
+    <Entry Id="duel_send_invite_desc">
+        <String xml:lang="en-US">Send the challenge to the target player.</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Commands and suggestions -->
+    <!-- ========================= -->
+    <Entry Id="duel_sugg_block_all">
+        <String xml:lang="en-US">Toggle blocking all duel invitations.</String>
+    </Entry>
+
+    <Entry Id="duel_sugg_block_player">
+        <String xml:lang="en-US">Block or unblock duel invitations from a specific player.</String>
+    </Entry>
+
+    <Entry Id="duel_cmd_player_id">
+        <String xml:lang="en-US">player id</String>
+    </Entry>
+
+    <Entry Id="duel_cmd_player_id_desc">
+        <String xml:lang="en-US">The player's server ID</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Invite feedback -->
+    <!-- ========================= -->
+    <!-- {0} = Other player (for example: Stijnjw (152)) -->
+    <Entry Id="duel_prefs_updated">
+        <String xml:lang="en-US">Duel invite preferences updated for {0}.</String>
+    </Entry>
+
+    <Entry Id="duel_this_player">
+        <String xml:lang="en-US">this player</String>
+    </Entry>
+
+    <Entry Id="duel_block_state_updated">
+        <String xml:lang="en-US">Duel invite block state updated.</String>
+    </Entry>
+
+    <Entry Id="duel_canceled_wanted">
+        <String xml:lang="en-US">Duel invite canceled because one of the players has wanted level.</String>
+    </Entry>
+
+    <Entry Id="duel_custom_stake_title">
+        <String xml:lang="en-US">Custom duel stake</String>
+    </Entry>
+
+    <!-- {0} = Target player (for example: Stijnjw (152))
+         {1} = Minimum stake (for example: $50,000)
+         {2} = Maximum stake (for example: $5,000,000)
+    -->
+    <Entry Id="duel_custom_stake_desc">
+        <String xml:lang="en-US">Enter duel stake for {0} ({1} to {2})</String>
+    </Entry>
+
+    <!-- {0} = Minimum stake (for example: $50,000)
+         {1} = Maximum stake (for example: $5,000,000)
+    -->
+    <Entry Id="duel_invalid_stake">
+        <String xml:lang="en-US">Invalid duel stake. Allowed range: {0} to {1}.</String>
+    </Entry>
+
+    <!-- {0} = Target player (for example: Stijnjw (152))
+         {1} = Stake (for example: $250,000)
+    -->
+    <Entry Id="duel_invite_sent">
+        <String xml:lang="en-US">Duel invitation sent to {0} for {1}.</String>
+    </Entry>
+
+    <Entry Id="duel_wanted_both_civilians">
+        <String xml:lang="en-US">Both players must be civilians with zero wanted level to duel.</String>
+    </Entry>
+
+    <!-- {0} = Target player (for example: Stijnjw (152)) -->
+    <Entry Id="duel_target_blocks">
+        <String xml:lang="en-US">{0} is not accepting duel invites from you.</String>
+    </Entry>
+
+    <!-- {0} = Maximum distance in meters (for example: 250) -->
+    <Entry Id="duel_too_far">
+        <String xml:lang="en-US">You must be within {0}m of the target to invite them to a duel.</String>
+    </Entry>
+
+    <Entry Id="duel_not_enough_money">
+        <String xml:lang="en-US">You do not have enough cash for this duel stake.</String>
+    </Entry>
+
+    <Entry Id="duel_already_in">
+        <String xml:lang="en-US">One of the players is already in a duel or has a pending duel invite.</String>
+    </Entry>
+
+    <!-- {0} = Cooldown in seconds (for example: 30) -->
+    <Entry Id="duel_cooldown">
+        <String xml:lang="en-US">You must wait ~r~{0} seconds~s~ before sending another duel invite after a failed attempt.</String>
+    </Entry>
+
+    <!-- {0} = Error code (for example: 7) -->
+    <Entry Id="duel_unexpected_error">
+        <String xml:lang="en-US">Unexpected duel invite error: {0}</String>
+    </Entry>
+
+    <Entry Id="duel_wanted_zero">
+        <String xml:lang="en-US">Both players must have zero wanted level to duel.</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Invite received -->
+    <!-- ========================= -->
+    <Entry Id="duel_info">
+        <String xml:lang="en-US">Duel Info</String>
+    </Entry>
+
+    <!-- {0} = Source player (for example: Stijnjw (152))
+         {1} = Stake (for example: $250,000)
+         {2} = Countdown in seconds (for example: 10)
+    -->
+    <Entry Id="duel_invite_info_desc">
+        <String xml:lang="en-US">{0} invited you to a duel~n~Stake: ~g~{1}~s~~n~Countdown: ~y~{2}s~s~</String>
+    </Entry>
+
+    <!-- {0} = Source player (for example: Stijnjw (152))
+         {1} = Stake (for example: $250,000)
+         {2} = Countdown in seconds (for example: 10)
+    -->
+    <Entry Id="duel_invite_received_msg">
+        <String xml:lang="en-US">~y~Duel invite received~s~ from {0}~n~Stake: ~g~{1}~s~ | Countdown: ~y~{2}s~s~</String>
+    </Entry>
+
+    <Entry Id="duel_open_invite">
+        <String xml:lang="en-US">Open duel invite</String>
+    </Entry>
+
+    <!-- {0} = Other player (for example: Stijnjw (152)) -->
+    <Entry Id="duel_invite_expired_with">
+        <String xml:lang="en-US">Duel invitation with {0} has expired.</String>
+    </Entry>
+
+    <!-- {0} = Other player (for example: Stijnjw (152))
+         {1} = Cooldown in seconds (for example: 30)
+    -->
+    <Entry Id="duel_invite_declined">
+        <String xml:lang="en-US">{0} declined your duel invitation. Cooldown: {1}s before you can send another invite.</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Gameplay messages -->
+    <!-- ========================= -->
+    <Entry Id="duel_timer_title">
+        <String xml:lang="en-US">DUEL</String>
+    </Entry>
+
+    <Entry Id="duel_timer_preparing">
+        <String xml:lang="en-US">Preparing...</String>
+    </Entry>
+
+    <Entry Id="duel_started">
+        <String xml:lang="en-US">~y~Duel started.~s~ Stay inside the yellow zone.</String>
+    </Entry>
+
+    <!-- {0} - from: DUEL_DRAW_REASON_PAYOUT_ERROR, DUEL_DRAW_REASON_NO_OPPONENT, DUEL_DRAW_REASON_THIRD_PARTY,
+         DUEL_DRAW_REASON_COUNTDOWN, DUEL_DRAW_REASON_LEFT, DUEL_DRAW_REASON_PUBLIC_SERVICE,
+         DUEL_DRAW_REASON_TOO_FAR, DUEL_DRAW_REASON_LEFT_ZONE, DUEL_DRAW_REASON_DISCONNECTED
+    -->
+    <Entry Id="duel_aborted">
+        <String xml:lang="en-US">~y~Duel aborted.~s~ {0}</String>
+    </Entry>
+
+    <!-- {0} = Opponent (for example: Stijnjw (152))
+         {1} = Payout (for example: $500,000)
+    -->
+    <Entry Id="duel_won">
+        <String xml:lang="en-US">~g~You won the duel against {0}~s~ and received {1}.</String>
+    </Entry>
+
+    <!-- {0} = Opponent (for example: Stijnjw (152)) -->
+    <Entry Id="duel_lost">
+        <String xml:lang="en-US">~r~You lost the duel against {0}~s~.</String>
+    </Entry>
+
+    <Entry Id="duel_opponent">
+        <String xml:lang="en-US">opponent</String>
+    </Entry>
+
+    <!-- {0} = Seconds left (for example: 7) -->
+    <Entry Id="duel_fight_in">
+        <String xml:lang="en-US">Fight in {0}s</String>
+    </Entry>
+
+    <Entry Id="duel_fight">
+        <String xml:lang="en-US">Fight!</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Server messages -->
+    <!-- ========================= -->
+    <!-- {0} - from: DUEL_DRAW_REASON_PAYOUT_ERROR, DUEL_DRAW_REASON_NO_OPPONENT, DUEL_DRAW_REASON_THIRD_PARTY,
+         DUEL_DRAW_REASON_COUNTDOWN, DUEL_DRAW_REASON_LEFT, DUEL_DRAW_REASON_PUBLIC_SERVICE,
+         DUEL_DRAW_REASON_TOO_FAR, DUEL_DRAW_REASON_LEFT_ZONE, DUEL_DRAW_REASON_DISCONNECTED
+    -->
+    <Entry Id="duel_draw_ended">
+        <String xml:lang="en-US">~y~Duel ended in a draw.~s~ {0}</String>
+    </Entry>
+
+    <Entry Id="duel_draw_reason_payout_error">
+        <String xml:lang="en-US">A payout error occurred, both stakes were refunded.</String>
+    </Entry>
+
+    <Entry Id="duel_draw_reason_no_opponent">
+        <String xml:lang="en-US">One duelist died without a valid duel opponent kill.</String>
+    </Entry>
+
+    <Entry Id="duel_draw_reason_third_party">
+        <String xml:lang="en-US">A third party interfered with the duel.</String>
+    </Entry>
+
+    <Entry Id="duel_draw_reason_countdown">
+        <String xml:lang="en-US">Kill happened while the duel countdown was still active.</String>
+    </Entry>
+
+    <Entry Id="duel_draw_reason_left">
+        <String xml:lang="en-US">A participant left the server.</String>
+    </Entry>
+
+    <Entry Id="duel_draw_reason_public_service">
+        <String xml:lang="en-US">A participant gained wanted level or changed to a public-service job.</String>
+    </Entry>
+
+    <Entry Id="duel_draw_reason_too_far">
+        <String xml:lang="en-US">Participants moved too far apart.</String>
+    </Entry>
+
+    <Entry Id="duel_draw_reason_left_zone">
+        <String xml:lang="en-US">A participant left the duel zone.</String>
+    </Entry>
+
+    <Entry Id="duel_draw_reason_disconnected">
+        <String xml:lang="en-US">The duel was canceled because a participant disconnected.</String>
+    </Entry>
+
+    <Entry Id="duel_invite_expired_refund">
+        <String xml:lang="en-US">~y~Duel invitation expired.~s~ Your stake was refunded.</String>
+    </Entry>
+
+    <!-- {0} = Killer (for example: Sasino (249))
+         {1} = Victim (for example: Stijnjw (152))
+    -->
+    <Entry Id="duel_kill_announce">
+        <String xml:lang="en-US">{0} killed {1} in a duel.</String>
+    </Entry>
+
+    <!-- {0} = Payout (for example: $500,000) -->
+    <Entry Id="duel_result_won">
+        <String xml:lang="en-US">~g~You won the duel and received {0}~s~.</String>
+    </Entry>
+
+    <Entry Id="duel_result_lost">
+        <String xml:lang="en-US">~r~You lost the duel.~s~</String>
+    </Entry>
+
+    <!-- {0} = Countdown in seconds (for example: 10) -->
+    <Entry Id="duel_accepted">
+        <String xml:lang="en-US">~y~Duel accepted.~s~ Fight starts in {0}s.</String>
+    </Entry>
+
+    <Entry Id="duel_block_all_on">
+        <String xml:lang="en-US">Duel invites are now blocked.</String>
+    </Entry>
+
+    <Entry Id="duel_block_all_off">
+        <String xml:lang="en-US">Duel invites are now enabled.</String>
+    </Entry>
+
+    <!-- {0} = Target name (for example: Sasino)
+         {1} = Target id (for example: 249)
+    -->
+    <Entry Id="duel_blocked_player">
+        <String xml:lang="en-US">You blocked duel invites from {0} ({1}).</String>
+    </Entry>
+
+    <!-- {0} = Target name (for example: Sasino)
+         {1} = Target id (for example: 249)
+    -->
+    <Entry Id="duel_unblocked_player">
+        <String xml:lang="en-US">You unblocked duel invites from {0} ({1}).</String>
+    </Entry>
+
+    <!-- ========================= -->
+    <!-- Player menu -->
+    <!-- ========================= -->
+    <Entry Id="duel_player_menu_item">
+        <String xml:lang="en-US">Invite To Duel</String>
+    </Entry>
+
+    <Entry Id="duel_player_menu_item_desc">
+        <String xml:lang="en-US">Set the countdown and stake for a 1v1 duel.</String>
+    </Entry>
+</Entries>
