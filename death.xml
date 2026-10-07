@@ -1970,6 +1970,16 @@
         <String xml:lang="et-EE">{0} ~s~Tapetud {1} ~s~{2} {3}</String>
     </Entry>
 
+    <!-- nullnull{0} = Killer (for example: Stijnjw (152))
+         {1} = Victim (for example: Sasino (249))
+         {4} = Distance (for example: 420m)
+         {2} = Cause (for example: with a sniper rifle headshot)
+         {3} = Special case (bounty, revenge, redzone) (for example: in revenge)
+    -->
+    <Entry Id="kill_msg_distance">
+        <String xml:lang="en-US">{0} ~s~killed {1} ~s~from {4} {2} {3}</String>
+    </Entry>
+
     <!-- nullnull{0} = Job name (for example: Police Officer) -->
     <Entry Id="menu_revenge_invalid_job">
         <String xml:lang="en-US">~r~You can't take revenge on other players as a {0}.</String>
