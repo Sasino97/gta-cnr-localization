@@ -14,11 +14,13 @@ T = TypeVar("T")
 COLORAMA_INSTALLED = True
 DOMINATE_INSTALLED  = True
 XML_LANG_ATTRIB =  "xml:lang"
-SHORT_GTA_FORMAT_REGEX = r"~(?:[sbrnypgohc]|HUD_COLOUR_NET_PLAYER1)~"
+SHORT_GTA_FORMAT_REGEX = r"~(?:[sbrnypgohc]|HUD_COLOUR_NET_PLAYER[0-9]+)~"
 TOO_MANY_SPACES_REGEX = r"\s~[sbrnypgohc]~\s|\s\s+"
 TEXT_VARIABLE_REGEX = r"{[0-9]+}"
 PUNCTUATION_MARKS_REGEX = r"[,.?!]"
 WRONG_PUNCTUATION_REGEX = r"(?<!\d)\s" + PUNCTUATION_MARKS_REGEX + r"(?!\d)|\s" + SHORT_GTA_FORMAT_REGEX + PUNCTUATION_MARKS_REGEX
+GLUED_VARIABLE_REGEX = r"[A-Za-zÀ-ž]{[0-9]+}"
+TRAILING_SPACE_REGEX = r"\s$"
 
 
 try:
@@ -503,6 +505,14 @@ class Validator:
         if too_many_spaces_match:
             position: tuple[int] = (start_position[0], start_position[1]+too_many_spaces_match.end()-1)
             Validator.print_warning_or_error("Found too many spaces between words", path1, position)
+        trailing_space_match: re.Match = re.search(TRAILING_SPACE_REGEX, text)
+        if trailing_space_match:
+            position: tuple[int] = (start_position[0], start_position[1]+trailing_space_match.start())
+            Validator.print_warning_or_error("Found trailing space", path1, position)
+        glued_variable_match: re.Match = re.search(GLUED_VARIABLE_REGEX, text)
+        if glued_variable_match:
+            position: tuple[int] = (start_position[0], start_position[1]+glued_variable_match.start())
+            Validator.print_warning_or_error("Found variable glued to a word (missing space?)", path1, position)
         if (current_lang not in Validator.punctuation_ignored_langs):
             wrong_punctuation_match: re.Match = re.search(WRONG_PUNCTUATION_REGEX, text)
             if wrong_punctuation_match:
