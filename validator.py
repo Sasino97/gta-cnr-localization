@@ -8,13 +8,14 @@ import xml.sax.xmlreader
 import re
 from dataclasses import dataclass, field
 from typing import TypeVar, Optional
+import lib.gta_text_formatting
 
 
 T = TypeVar("T")
 COLORAMA_INSTALLED = True
 DOMINATE_INSTALLED  = True
 XML_LANG_ATTRIB =  "xml:lang"
-SHORT_GTA_FORMAT_REGEX = r"~(?:[sbrnypgohc]|HUD_COLOUR_NET_PLAYER1)~"
+SHORT_GTA_FORMAT_REGEX = r"~(?:[sbrnypgohc]|" + r"|".join(sorted(lib.gta_text_formatting.HUD_COLORS.keys(), key=len, reverse=True)) + r")~"
 TOO_MANY_SPACES_REGEX = r"\s~[sbrnypgohc]~\s|\s\s+"
 TEXT_VARIABLE_REGEX = r"{[0-9]+}"
 PUNCTUATION_MARKS_REGEX = r"[,.?!]"
