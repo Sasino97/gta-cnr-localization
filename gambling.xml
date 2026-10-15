@@ -5,87 +5,107 @@
     <!-- ========================= -->
     <Entry Id="gamble_menu_title">
         <String xml:lang="en-US">Gambling</String>
+        <String xml:lang="de-DE">Glücksspiel</String>
     </Entry>
 
     <Entry Id="gamble_invite_menu_title">
         <String xml:lang="en-US">Betting Invitation</String>
+        <String xml:lang="de-DE">Wetteinladung</String>
     </Entry>
 
     <Entry Id="gamble_accept_desc">
         <String xml:lang="en-US">Accept the bet.</String>
+        <String xml:lang="de-DE">Nimm die Wette an.</String>
     </Entry>
 
     <Entry Id="gamble_decline_desc">
         <String xml:lang="en-US">Decline the bet.</String>
+        <String xml:lang="de-DE">Lehne die Wette ab.</String>
     </Entry>
 
     <!-- "Coin Flip" (title case, used as the game name) -->
     <Entry Id="gamble_kind_coinflip">
         <String xml:lang="en-US">Coin Flip</String>
+        <String xml:lang="de-DE">Münzwurf</String>
     </Entry>
 
     <!-- "Dice Roll" (title case, used as the game name) -->
     <Entry Id="gamble_kind_diceroll">
         <String xml:lang="en-US">Dice Roll</String>
+        <String xml:lang="de-DE">Würfelwurf</String>
     </Entry>
 
     <!-- "the coin flip" (used inside sentences) -->
     <Entry Id="gamble_kind_coinflip_the">
         <String xml:lang="en-US">the coin flip</String>
+        <String xml:lang="de-DE">den Münzwurf</String>
     </Entry>
 
     <!-- "the death roll" (used inside sentences) -->
     <Entry Id="gamble_kind_diceroll_the">
         <String xml:lang="en-US">the death roll</String>
+        <String xml:lang="de-DE">den Würfelwurf</String>
     </Entry>
 
     <Entry Id="gamble_coinflip_desc">
         <String xml:lang="en-US">Bet on a 50/50 coin toss.</String>
+        <String xml:lang="de-DE">Wette auf einen 50/50-Münzwurf.</String>
     </Entry>
 
     <Entry Id="gamble_diceroll_desc">
         <String xml:lang="en-US">Death roll: players alternate rolling down towards 0; whoever rolls 0 loses.</String>
+        <String xml:lang="de-DE">Death Roll: Spieler würfeln abwechselnd runter in Richtung 0; wer 0 würfelt, verliert.</String>
     </Entry>
 
     <Entry Id="gamble_coinflip_bet_title">
         <String xml:lang="en-US">Coin Flip Bet</String>
+        <String xml:lang="de-DE">Münzwurf-Wette</String>
     </Entry>
 
     <Entry Id="gamble_diceroll_bet_title">
         <String xml:lang="en-US">Dice Roll Bet</String>
+        <String xml:lang="de-DE">Würfelwurf-Wette</String>
     </Entry>
 
     <Entry Id="gamble_send_coinflip">
         <String xml:lang="en-US">Send Coin Flip Invite</String>
+        <String xml:lang="de-DE">Münzwurf-Einladung senden</String>
     </Entry>
 
     <Entry Id="gamble_send_coinflip_desc">
         <String xml:lang="en-US">Challenge the target player to a 50/50 coin flip.</String>
+        <String xml:lang="de-DE">Fordere den Zielspieler zu einem 50/50-Münzwurf heraus.</String>
     </Entry>
 
     <Entry Id="gamble_send_diceroll">
         <String xml:lang="en-US">Send Dice Roll Invite</String>
+        <String xml:lang="de-DE">Würfelwurf-Einladung senden</String>
     </Entry>
 
     <Entry Id="gamble_send_diceroll_desc">
         <String xml:lang="en-US">Challenge the target player to a death roll: players alternate rolling down towards 0, and whoever rolls 0 loses.</String>
+        <String xml:lang="de-DE">Fordere den Zielspieler zu einem Death Roll heraus: Spieler würfeln abwechselnd runter in Richtung 0, und wer 0 würfelt, verliert.</String>
     </Entry>
 
     <Entry Id="gamble_wager">
         <String xml:lang="en-US">Wager</String>
+        <String xml:lang="de-DE">Wetteinsatz</String>
     </Entry>
 
     <Entry Id="gamble_wager_desc">
         <String xml:lang="en-US">Choose the wager. Select Custom to enter a custom amount.</String>
+        <String xml:lang="de-DE">Wähle den Wetteinsatz. Wähle Benutzerdefiniert, um einen eigenen Betrag einzugeben.</String>
     </Entry>
 
     <!-- {0} = Formatted custom wager amount (for example: $250,000) -->
     <Entry Id="gamble_wager_custom_selected">
         <String xml:lang="en-US">Choose the wager. Custom selected: {0}.</String>
+        <String xml:lang="de-DE">Wähle den Wetteinsatz. Benutzerdefiniert gewählt: {0}.</String>
     </Entry>
 
     <Entry Id="gamble_custom_wager_title">
         <String xml:lang="en-US">Custom wager</String>
+        <String xml:lang="de-DE">Benutzerdefinierter Wetteinsatz</String>
     </Entry>
 
     <!-- {0} = Target player (for example: Stijnjw (152))
@@ -94,6 +114,7 @@
     -->
     <Entry Id="gamble_custom_wager_desc">
         <String xml:lang="en-US">Enter wager for {0} ({1} to {2})</String>
+        <String xml:lang="de-DE">Gib den Wetteinsatz für {0} ein ({1} bis {2})</String>
     </Entry>
 
     <!-- ========================= -->
@@ -104,43 +125,52 @@
     -->
     <Entry Id="gamble_wager_range">
         <String xml:lang="en-US">{0} to {1}</String>
+        <String xml:lang="de-DE">{0} bis {1}</String>
     </Entry>
 
     <!-- {0} = Target player (for example: Stijnjw (152)) -->
     <Entry Id="gamble_invite_sent">
         <String xml:lang="en-US">Bet invitation sent to {0}. Waiting for them to accept...</String>
+        <String xml:lang="de-DE">Wetteinladung an {0} gesendet. Warte auf Annahme...</String>
     </Entry>
 
     <!-- {0} - from: GAMBLE_WAGER_RANGE -->
     <Entry Id="gamble_invalid_amount">
         <String xml:lang="en-US">Invalid wager. Allowed range: {0}.</String>
+        <String xml:lang="de-DE">Ungültiger Wetteinsatz. Erlaubter Bereich: {0}.</String>
     </Entry>
 
     <Entry Id="gamble_invalid_kind">
         <String xml:lang="en-US">That betting game is not available.</String>
+        <String xml:lang="de-DE">Dieses Wettspiel ist nicht verfügbar.</String>
     </Entry>
 
     <!-- {0} = Maximum distance in meters (for example: 50) -->
     <Entry Id="gamble_too_far">
         <String xml:lang="en-US">You must be within {0}m of the target to invite them.</String>
+        <String xml:lang="de-DE">Du musst maximal {0}m vom Ziel entfernt sein, um es einzuladen.</String>
     </Entry>
 
     <Entry Id="gamble_not_enough_money">
         <String xml:lang="en-US">You do not have enough cash for this wager.</String>
+        <String xml:lang="de-DE">Du hast nicht genug Bargeld für diesen Wetteinsatz.</String>
     </Entry>
 
     <Entry Id="gamble_already_betting">
         <String xml:lang="en-US">One of the players is already betting or has a pending invite.</String>
+        <String xml:lang="de-DE">Einer der Spieler wettet bereits oder hat eine offene Einladung.</String>
     </Entry>
 
     <!-- {0} = Cooldown in seconds (for example: 30) -->
     <Entry Id="gamble_invite_cooldown">
         <String xml:lang="en-US">You must wait ~r~{0}s~s~ before sending another bet invite.</String>
+        <String xml:lang="de-DE">Du musst ~r~{0}s~s~ warten, bevor du eine weitere Wetteinladung senden kannst.</String>
     </Entry>
 
     <!-- {0} = Error code (for example: 7) -->
     <Entry Id="gamble_unexpected_error">
         <String xml:lang="en-US">Unexpected bet error: {0}</String>
+        <String xml:lang="de-DE">Unerwarteter Wettfehler: {0}</String>
     </Entry>
 
     <!-- ========================= -->
@@ -149,6 +179,7 @@
     <!-- {0} - from: GAMBLE_KIND_COINFLIP, GAMBLE_KIND_DICEROLL -->
     <Entry Id="gamble_invite_received_title">
         <String xml:lang="en-US">{0} Invite</String>
+        <String xml:lang="de-DE">{0}-Einladung</String>
     </Entry>
 
     <!-- {0} = Source player (for example: Stijnjw (152))
@@ -157,6 +188,7 @@
     -->
     <Entry Id="gamble_invite_received_desc">
         <String xml:lang="en-US">{0} wants to play {1}~n~Wager: ~g~{2}~s~~n~Pick Accept to play, or Decline to refuse.</String>
+        <String xml:lang="de-DE">{0} möchte {1} spielen~n~Einsatz: ~g~{2}~s~~n~Wähle Annehmen zum Spielen oder Ablehnen zum Abweisen.</String>
     </Entry>
 
     <!-- {0} = Source player (for example: Stijnjw (152))
@@ -165,15 +197,18 @@
     -->
     <Entry Id="gamble_invite_received_msg">
         <String xml:lang="en-US">~y~Betting invite received~s~ from {0}~n~{1} | Wager: ~g~{2}~s~</String>
+        <String xml:lang="de-DE">~y~Wetteinladung erhalten~s~ von {0}~n~{1} | Einsatz: ~g~{2}~s~</String>
     </Entry>
 
     <Entry Id="gamble_open_invite">
         <String xml:lang="en-US">Open bet invite</String>
+        <String xml:lang="de-DE">Wetteinladung öffnen</String>
     </Entry>
 
     <!-- {0} = Other player (for example: Stijnjw (152)) -->
     <Entry Id="gamble_invite_expired">
         <String xml:lang="en-US">Bet invitation with {0} expired.</String>
+        <String xml:lang="de-DE">Wetteinladung mit {0} ist abgelaufen.</String>
     </Entry>
 
     <!-- {0} = Other player (for example: Stijnjw (152))
@@ -181,6 +216,7 @@
     -->
     <Entry Id="gamble_invite_declined">
         <String xml:lang="en-US">{0} declined your bet. Cooldown: {1}s.</String>
+        <String xml:lang="de-DE">{0} hat deine Wette abgelehnt. Abklingzeit: {1}s.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -192,6 +228,7 @@
     -->
     <Entry Id="gamble_started">
         <String xml:lang="en-US">~y~{0}~s~ vs {1} for ~g~{2}~s~</String>
+        <String xml:lang="de-DE">~y~{0}~s~ gegen {1} um ~g~{2}~s~</String>
     </Entry>
 
     <!-- {0} = Roller (for example: Stijnjw (152))
@@ -199,11 +236,13 @@
     -->
     <Entry Id="gamble_roll">
         <String xml:lang="en-US">{0} rolled ~y~{1}~s~</String>
+        <String xml:lang="de-DE">{0} hat ~y~{1}~s~ gewürfelt</String>
     </Entry>
 
     <!-- {0} = Roller (for example: Stijnjw (152)) -->
     <Entry Id="gamble_roll_zero">
         <String xml:lang="en-US">~r~{0}~s~ rolled ~r~0~s~!</String>
+        <String xml:lang="de-DE">~r~{0}~s~ hat ~r~0~s~ gewürfelt!</String>
     </Entry>
 
     <!-- {0} - from: GAMBLE_KIND_COINFLIP, GAMBLE_KIND_DICEROLL
@@ -213,6 +252,7 @@
     -->
     <Entry Id="gamble_won">
         <String xml:lang="en-US">~g~You won {0}~s~ against {1} and received {2}.{3}</String>
+        <String xml:lang="de-DE">~g~Du hast {0}~s~ gegen {1} gewonnen und {2} erhalten.{3}</String>
     </Entry>
 
     <!-- {0} - from: GAMBLE_KIND_COINFLIP, GAMBLE_KIND_DICEROLL
@@ -221,11 +261,13 @@
     -->
     <Entry Id="gamble_lost">
         <String xml:lang="en-US">~r~You lost {0}~s~ against {1}.{2}</String>
+        <String xml:lang="de-DE">~r~Du hast {0}~s~ gegen {1} verloren.{2}</String>
     </Entry>
 
     <!-- {0} - from: GAMBLE_DRAW_REASON_LEFT, GAMBLE_DRAW_REASON_TOO_LONG, GAMBLE_DRAW_REASON_PAYOUT_ERROR, GAMBLE_DRAW_REASON_DISCONNECTED, GAMBLE_DRAW_OPPONENT_DISCONNECTED -->
     <Entry Id="gamble_draw_ended">
         <String xml:lang="en-US">~y~Bet ended in a draw.~s~ {0}</String>
+        <String xml:lang="de-DE">~y~Wette endete unentschieden.~s~ {0}</String>
     </Entry>
 
     <!-- ========================= -->
@@ -234,6 +276,7 @@
     <!-- {0} - from: GAMBLE_KIND_COINFLIP_THE, GAMBLE_KIND_DICEROLL_THE -->
     <Entry Id="gamble_accepted">
         <String xml:lang="en-US">~y~Bet accepted.~s~ {0} is starting...</String>
+        <String xml:lang="de-DE">~y~Wette angenommen.~s~ Mach dich bereit für {0}...</String>
     </Entry>
 
     <!-- {0} - from: GAMBLE_KIND_COINFLIP_THE, GAMBLE_KIND_DICEROLL_THE
@@ -241,53 +284,65 @@
     -->
     <Entry Id="gamble_result_won">
         <String xml:lang="en-US">~g~You won {0}~s~ and received {1}.</String>
+        <String xml:lang="de-DE">~g~Du hast {0} gewonnen~s~ und {1} erhalten.</String>
     </Entry>
 
     <!-- {0} - from: GAMBLE_KIND_COINFLIP_THE, GAMBLE_KIND_DICEROLL_THE -->
     <Entry Id="gamble_result_lost">
         <String xml:lang="en-US">~r~You lost {0}.~s~</String>
+        <String xml:lang="de-DE">~r~Du hast {0} verloren.~s~</String>
     </Entry>
 
     <!-- {0} - from: GAMBLE_COIN_HEADS, GAMBLE_COIN_TAILS -->
     <Entry Id="gamble_coin_landed">
         <String xml:lang="en-US">The coin landed on {0}.</String>
+        <String xml:lang="de-DE">Die Münze landete auf {0}.</String>
     </Entry>
 
     <Entry Id="gamble_coin_heads">
         <String xml:lang="en-US">Heads</String>
+        <String xml:lang="de-DE">Kopf</String>
     </Entry>
 
     <Entry Id="gamble_coin_tails">
         <String xml:lang="en-US">Tails</String>
+        <String xml:lang="de-DE">Zahl</String>
     </Entry>
 
     <!-- {0} = Upper bound of the roll (for example: 500) -->
     <Entry Id="gamble_dice_detail">
         <String xml:lang="en-US">Rolled ~r~0~s~ from 1-{0}.</String>
+        <String xml:lang="de-DE">~r~0~s~ gewürfelt von 1-{0}.</String>
     </Entry>
 
     <Entry Id="gamble_draw_reason_left">
         <String xml:lang="en-US">A participant left the server.</String>
+        <String xml:lang="de-DE">Ein Teilnehmer hat den Server verlassen.</String>
     </Entry>
 
     <Entry Id="gamble_draw_reason_too_long">
         <String xml:lang="en-US">The death roll went on too long.</String>
+        <String xml:lang="de-DE">Das Death Roll dauerte zu lange.</String>
     </Entry>
 
     <Entry Id="gamble_draw_reason_payout_error">
         <String xml:lang="en-US">A payout error occurred, both wagers were refunded.</String>
+        <String xml:lang="de-DE">Ein Auszahlungsfehler ist aufgetreten, beide Einsätze wurden erstattet.</String>
     </Entry>
 
     <Entry Id="gamble_draw_reason_disconnected">
         <String xml:lang="en-US">The bet was canceled because a participant disconnected.</String>
+        <String xml:lang="de-DE">Die Wette wurde abgebrochen, da ein Teilnehmer die Verbindung getrennt hat.</String>
     </Entry>
 
     <Entry Id="gamble_invite_expired_refund">
         <String xml:lang="en-US">~y~Bet invitation expired.~s~ Your wager was refunded.</String>
+        <String xml:lang="de-DE">~y~Wetteinladung abgelaufen.~s~ Dein Einsatz wurde erstattet.</String>
     </Entry>
 
     <Entry Id="gamble_draw_opponent_disconnected">
         <String xml:lang="en-US">Your opponent disconnected; your wager was refunded.</String>
+        <String xml:lang="de-DE">Dein Gegner hat die Verbindung getrennt; dein Einsatz wurde erstattet.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -295,22 +350,27 @@
     <!-- ========================= -->
     <Entry Id="gamble_cmd_player_id">
         <String xml:lang="en-US">player id</String>
+        <String xml:lang="de-DE">Spieler-ID</String>
     </Entry>
 
     <Entry Id="gamble_cmd_player_id_desc">
         <String xml:lang="en-US">The player's server ID</String>
+        <String xml:lang="de-DE">Die Spieler-ID vom Server</String>
     </Entry>
 
     <Entry Id="gamble_sugg_gamble">
         <String xml:lang="en-US">Challenge a nearby player to a coin flip or a dice roll.</String>
+        <String xml:lang="de-DE">Fordere einen Spieler in der Nähe zu einem Münzwurf oder Würfelwurf heraus.</String>
     </Entry>
 
     <Entry Id="gamble_sugg_coinflip">
         <String xml:lang="en-US">Challenge a nearby player to a 50/50 coin flip.</String>
+        <String xml:lang="de-DE">Fordere einen Spieler in der Nähe zu einem 50/50-Münzwurf heraus.</String>
     </Entry>
 
     <Entry Id="gamble_sugg_dice">
         <String xml:lang="en-US">Challenge a nearby player to a dice roll (death roll).</String>
+        <String xml:lang="de-DE">Fordere einen Spieler in der Nähe zu einem Würfelwurf (Death Roll) heraus.</String>
     </Entry>
 
     <!-- ========================= -->
@@ -318,5 +378,6 @@
     <!-- ========================= -->
     <Entry Id="gamble_player_menu_item_desc">
         <String xml:lang="en-US">Bet cash against this player in a minigame.</String>
+        <String xml:lang="de-DE">Wette in einem Minispiel um Bargeld gegen diesen Spieler.</String>
     </Entry>
 </Entries>
