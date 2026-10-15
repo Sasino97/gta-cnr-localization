@@ -3351,6 +3351,30 @@
         <String xml:lang="pt-BR">Recuperação</String>
     </Entry>
 
+    <Entry Id="menu_vehicles_category_job">
+        <String xml:lang="en-US">Job</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_cancel_maintenance_title">
+        <String xml:lang="en-US">Cancel Maintenance</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_cancel_maintenance_description">
+        <String xml:lang="en-US">Cancel the maintenance this vehicle was sent to. Cancelling within ~b~{0} seconds~s~ refunds ~g~{1}%~s~ of the price.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_cancel_maintenance_info_not_in_maintenance">
+        <String xml:lang="en-US">This vehicle is not in maintenance.</String>
+    </Entry>
+
+    <Entry Id="vehicle_maintenance_cancelled">
+        <String xml:lang="en-US">Maintenance on ~y~{0}~s~ cancelled. ~g~{1}%~s~ of the price was refunded.</String>
+    </Entry>
+
+    <Entry Id="vehicle_maintenance_cancel_too_late">
+        <String xml:lang="en-US">~r~Too late~s~ - maintenance can only be cancelled within ~b~{0} seconds~s~.</String>
+    </Entry>
+
     <Entry Id="menu_vehicles_recovery_title">
         <String xml:lang="en-US">Recover vehicle</String>
         <String xml:lang="de-DE">Fahrzeug zurückholen</String>
@@ -3389,6 +3413,10 @@
         <String xml:lang="hi-Latn">~r~Is garage me koi free parking spot nahi hai.</String>
         <String xml:lang="es-ES">~r~Este garaje no tiene ninguna plaza de aparcamiento libre.</String>
         <String xml:lang="pt-BR">~r~Esta garagem não tem nenhuma vaga de estacionamento livre.</String>
+    </Entry>
+
+    <Entry Id="menu_vehicles_job_vehicle_in_personal_garage">
+        <String xml:lang="en-US">~r~A job vehicle can only be stored in its job's garage.</String>
     </Entry>
 
     <Entry Id="menu_vehicles_recovery_no_garage_title">

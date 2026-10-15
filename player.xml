@@ -3147,6 +3147,14 @@
         <String xml:lang="vi-VN">Hiển thị/ẩn Ký hiệu tùy chỉnh của người chơi phía trên đầu họ (có thể ảnh hưởng đến hiệu suất nếu có quá nhiều người chơi sử dụng ký hiệu cùng lúc).</String>
         <String xml:lang="hi-Latn">Apne head ke upar custom player signs ko dikhayein/chhupayein (agar ek hi time par bahut zyada players signs use kar rahe hain, to performance par asar pad sakta hai).</String>
     </Entry>
+
+    <Entry Id="menu_options_display_ems_timers_text">
+        <String xml:lang="en-US">EMS Respawn Timers</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_ems_timers_desc">
+        <String xml:lang="en-US">Show how long each dead player has left before they respawn, above their body (EMS and doctors only).</String>
+    </Entry>
     
     <Entry Id="menu_options_display_low_fuel_prompt_text">
         <String xml:lang="en-US">Low Fuel Prompt</String>
@@ -5878,6 +5886,10 @@
         <String xml:lang="hi-Latn">Redzone voting shuru ho gayi hai!</String>
     </Entry>
 
+    <Entry Id="redzone_vote_title">
+        <String xml:lang="en-US">Redzone vote</String>
+    </Entry>
+
     <!-- {0} = Number of available options (default is 3, might change in the future) -->
     <Entry Id="redzone_vote_instructions">
         <String xml:lang="en-US">Enter (C)/vote [1-{0}](/C) to cast your vote.</String>
@@ -6697,5 +6709,9 @@
         <String xml:lang="fr-FR">L'invitation à une course de {0} a expiré</String>
         <String xml:lang="vi-VN">Lời mời tham gia cuộc đua từ {0} đã hết hạn</String>
         <String xml:lang="hi-Latn">{0} se race ka invite expire ho gaya hai.</String>
+    </Entry>
+
+    <Entry Id="racing_daily_waiting">
+        <String xml:lang="en-US">🏁 Daily race: {0}/{1} participants waiting - the prize is now ~g~{2}~s~!</String>
     </Entry>
 </Entries>
