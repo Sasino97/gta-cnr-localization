@@ -3007,6 +3007,14 @@
         <String xml:lang="it-IT">Mostra/nascondi le insegne personalizzate dei giocatori sopra le loro teste (potrebbe influire sulle prestazioni se troppi giocatori usano insegne contemporaneamente).</String>
         <String xml:lang="vi-VN">Hiển thị/ẩn Ký hiệu tùy chỉnh của người chơi phía trên đầu họ (có thể ảnh hưởng đến hiệu suất nếu có quá nhiều người chơi sử dụng ký hiệu cùng lúc).</String>
     </Entry>
+
+    <Entry Id="menu_options_display_ems_timers_text">
+        <String xml:lang="en-US">EMS Respawn Timers</String>
+    </Entry>
+
+    <Entry Id="menu_options_display_ems_timers_desc">
+        <String xml:lang="en-US">Show how long each dead player has left before they respawn, above their body (EMS and doctors only).</String>
+    </Entry>
     
     <Entry Id="menu_options_display_low_fuel_prompt_text">
         <String xml:lang="en-US">Low Fuel Prompt</String>
@@ -5462,6 +5470,10 @@
         <String xml:lang="vi-VN">Bình chọn khu vực màu đỏ đã bắt đầu!</String>
         <String xml:lang="sr-RS">Redzone balsovanje počelo!</String>
         <String xml:lang="it-IT">La votazione per la zona rossa è iniziata!</String>
+    </Entry>
+
+    <Entry Id="redzone_vote_title">
+        <String xml:lang="en-US">Redzone vote</String>
     </Entry>
 
     <!-- {0} = Number of available options (default is 3, might change in the future) -->
