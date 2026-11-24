@@ -11219,12 +11219,32 @@
         <String xml:lang="vi-VN">~s~Chĩa vũ khí vào ~r~thu con tin ~s~để giữ họ trong trạng thái bị đe dọa.</String>
     </Entry>
 
-    <Entry Id="fleeca_robbery_hostage_panic">
-        <String xml:lang="en-US">~r~A hostage panicked and tripped the alarm!~s~ Keep them intimidated next time.</String>
-        <String xml:lang="es-ES">~r~¡Un rehén entró en pánico y activó la alarma!~s~ Mantenlos intimidados.</String>
-        <String xml:lang="pt-BR">~r~Um refém entrou em pânico e acionou o alarme!~s~ Mantenha-os intimidados.</String>
-        <String xml:lang="de-DE">~r~Eine Geisel ist in Panik geraten und hat den Alarm ausgelöst!~s~ Halte sie eingeschüchtert.</String>
-        <String xml:lang="vi-VN">~r~Một con tin hoảng loạn và kích hoạt chuông báo động!~s~ Hãy tiếp tục đe dọa họ.</String>
+    <Entry Id="fleeca_robbery_alarm_tripped_security">
+        <String xml:lang="en-US">The security guard has reported the robbery.</String>
+    </Entry>
+
+    <Entry Id="fleeca_robbery_alarm_tripped_police">
+        <String xml:lang="en-US">A police officer is nearby and has reported the robbery.</String>
+    </Entry>
+
+    <Entry Id="fleeca_robbery_alarm_tripped_hostage_panic">
+        <String xml:lang="en-US">A hostage panicked and called the police.~s~ Keep them intimidated next time!</String>
+    </Entry>
+
+    <Entry Id="fleeca_robbery_alarm_tripped_crowbar">
+        <String xml:lang="en-US">A security mechanism of the deposit boxes was triggered.</String>
+    </Entry>
+
+    <Entry Id="fleeca_robbery_alarm_tripped_cameras">
+        <String xml:lang="en-US">A smart security camera has automatically reported the robbery.</String>
+    </Entry>
+
+    <Entry Id="FLEECA_ROBBERY_ALARM_TRIPPED_DEAD_HOSTAGE">
+        <String xml:lang="en-US">A hostage died and other hostages panicked and called the police.</String>
+    </Entry>
+
+    <Entry Id="FLEECA_ROBBERY_ALARM_TRIPPED_LOUD_GUN">
+        <String xml:lang="en-US">A passerby has heard the gunshots and called the police.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_instruction_stop">
