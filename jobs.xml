@@ -3435,6 +3435,14 @@
         <String xml:lang="tr-TR">Memur {0} ~s~kelepçeni çözdü.</String>
     </Entry>
 
+    <Entry Id="uncuffing_you">
+        <String xml:lang="en-US">{0}~s~ is uncuffing you.</String>
+    </Entry>
+    
+    <Entry Id="uncuffed_you">
+        <String xml:lang="en-US">{0}~s~ uncuffed you.</String>
+    </Entry>
+
     <Entry Id="police_ordered_you_get_vehicle">
         <String xml:lang="en-US">The ~b~police officers ~s~ordered you to get in the ~b~vehicle~s~.</String>
         <String xml:lang="ru-RU">~b~Полицейские ~s~потребовали, чтобы вы сели в ~b~транспортное средство~s~.</String>
@@ -4076,6 +4084,18 @@
         <String xml:lang="vi-VN">~b~Đơn vị áp giải ~s~không thể chở một ~o~nghi phạm~s~ bị thương.</String>
         <String xml:lang="sr-RS">~b~Transportna jedinica ~s~ne može prevesti povređenog ~o~osumnjičenog~s~.</String>
         <String xml:lang="tr-TR">~b~Transfer birimi ~s~yaralanmış ~o~şüpheli~s~yi transfer edemez.</String>
+    </Entry>
+
+    <Entry Id="police_cuff_cancelled">
+        <String xml:lang="en-US">You stopped cuffing {0}.</String>
+    </Entry>
+
+    <Entry Id="police_uncuff_cancelled">
+        <String xml:lang="en-US">You stopped uncuffing {0}.</String>
+    </Entry>
+
+    <Entry Id="police_search_cancelled">
+        <String xml:lang="en-US">You stopped searching {0}.</String>
     </Entry>
 
     <Entry Id="police_cuffing_suspect">
