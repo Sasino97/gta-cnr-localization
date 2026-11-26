@@ -996,6 +996,10 @@
     </Entry>
 
     <!-- nullnull{0} = Property name (for example: Spanish Avenue) -->
+    <Entry Id="property_enter_cooldown">
+        <String xml:lang="en-US">You just left a property. Wait ~r~{0} seconds~s~ before entering another one.</String>
+    </Entry>
+
     <Entry Id="property_navigating">
         <String xml:lang="en-US">Navigating to ~y~{0}~s~.</String>
         <String xml:lang="ru-RU">Маршрут построен ~y~до {0}~s~.</String>
@@ -1043,6 +1047,26 @@
 
     <!-- {0} = Storage capacity in kilograms (for example: 20)
     -->
+    <Entry Id="menu_properties_category_favorite_garages">
+        <String xml:lang="en-US">Favorite Garages</String>
+    </Entry>
+
+    <Entry Id="menu_properties_category_favorite_houses">
+        <String xml:lang="en-US">Favorite Houses</String>
+    </Entry>
+
+    <Entry Id="menu_properties_category_favorite_warehouses">
+        <String xml:lang="en-US">Favorite Warehouses</String>
+    </Entry>
+
+    <Entry Id="menu_properties_favorite_added">
+        <String xml:lang="en-US">You ~g~added ~s~this property to your favorites.</String>
+    </Entry>
+
+    <Entry Id="menu_properties_favorite_removed">
+        <String xml:lang="en-US">You ~r~removed ~s~this property from your favorites.</String>
+    </Entry>
+    
     <Entry Id="menu_properties_house_storage">
         <String xml:lang="en-US">Storage: ~b~{0}kg</String>
         <String xml:lang="de-DE">Lager: ~b~{0}kg</String>
