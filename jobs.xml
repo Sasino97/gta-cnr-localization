@@ -11005,22 +11005,27 @@
 
     <Entry Id="jobs_carrying_loot">
         <String xml:lang="en-US">You are carrying ~r~robbery loot~s~. Hide it before switching to a ~b~public service job~s~.</String>
+        <String xml:lang="de-DE">Du trägst ~r~Beute~s~. Verstecke es, bevor du zu einem ~b~öffentlichen Dienstjob~s~wechselst.</String>
     </Entry>
 
     <Entry Id="loot_go_to_hideout">
         <String xml:lang="en-US">You left the area. Now go to a ~y~hideout ~s~to hide the ~r~loot~s~.</String>
+        <String xml:lang="de-DE">Du hast das Gebiet verlassen. Gehe nun zu einem ~y~Versteck~s~, um die ~r~Beute~s~ zu verstecken.</String>
     </Entry>
 
     <Entry Id="loot_no_hideouts_available">
         <String xml:lang="en-US">You don't have a suitable ~r~hideout~s~. You can go to a ~g~friend~s~'s hideout to hide the loot.</String>
+        <String xml:lang="de-DE">Du hast kein geeignetes ~r~Versteck~s~. Du kannst zu einem Versteck eines ~g~Freundes~s~ gehen, um die Beute zu verstecken.</String>
     </Entry>
 
     <Entry Id="loot_hidden">
         <String xml:lang="en-US">You hid ~y~{0} loot items~s~ in the hideout.</String>
+        <String xml:lang="de-DE">Du hast ~y~{0} Beutegegenstände~s~ im Versteck verstaut.</String>
     </Entry>
 
     <Entry Id="loot_hidden_others">
         <String xml:lang="en-US">You hid ~y~{0} loot items~s~ in {1}'s property.</String>
+        <String xml:lang="de-DE">Du hast ~y~{0} Beutegegenstände~s~ in der Immobilie von {1} versteckt.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success">
@@ -11233,6 +11238,7 @@
 
     <Entry Id="fleeca_robbery_tool_crowbar_desc">
         <String xml:lang="en-US">It takes a random amount of hits to open the deposit box. It's detected by the vault sensors and it instantly trips the alarm.</String>
+        <String xml:lang="de-DE">Es benötigt eine zufällige Anzahl von Treffern, um das Schließfach zu öffnen. Sie wird von den Tresorraum-Sensoren erkannt und löst sofort den Alarm aus.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_tool_drill">
@@ -11245,6 +11251,7 @@
 
     <Entry Id="fleeca_robbery_tool_drill_desc">
         <String xml:lang="en-US">Reliable, you can control it accurately, but it might take longer than a crowbar and the bit might snap. It doesn't trip any sensor.</String>
+        <String xml:lang="de-DE">Zuverlässig, du kannst es genau steuern, aber es könnte länger dauern als ein Brecheisen und der Bohrer könnte brechen. Es löst keine Sensoren aus.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_drill_broke">
@@ -11289,30 +11296,37 @@
 
     <Entry Id="fleeca_robbery_alarm_tripped_security">
         <String xml:lang="en-US">The security guard has reported the robbery.</String>
+        <String xml:lang="de-DE">Der Sicherheitsbeamte hat den Überfall gemeldet.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_alarm_tripped_police">
         <String xml:lang="en-US">A police officer is nearby and has reported the robbery.</String>
+        <String xml:lang="de-DE">Ein Polizist ist in der Nähe und hat den Überfall gemeldet.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_alarm_tripped_hostage_panic">
         <String xml:lang="en-US">A hostage panicked and called the police.</String>
+        <String xml:lang="de-DE">Eine Geisel hat Panik bekommen und die Polizei gerufen.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_alarm_tripped_crowbar">
         <String xml:lang="en-US">A security mechanism of the deposit boxes was triggered.</String>
+        <String xml:lang="de-DE">Ein Sicherheitsmechanismus der Schließfächer wurde ausgelöst.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_alarm_tripped_cameras">
         <String xml:lang="en-US">A smart security camera has automatically reported the robbery.</String>
+        <String xml:lang="de-DE">Eine intelligente Sicherheitskamera hat den Überfall automatisch gemeldet.</String>
     </Entry>
 
     <Entry Id="FLEECA_ROBBERY_ALARM_TRIPPED_DEAD_HOSTAGE">
         <String xml:lang="en-US">A hostage died and other hostages panicked and called the police.</String>
+        <String xml:lang="de-DE">Eine Geisel ist gestorben, sodass andere Geiseln in Panik die Polizei riefen.</String>
     </Entry>
 
     <Entry Id="FLEECA_ROBBERY_ALARM_TRIPPED_LOUD_GUN">
         <String xml:lang="en-US">A passerby has heard the gunshots and called the police.</String>
+        <String xml:lang="de-DE">Ein Passant hat die Schüsse gehört und die Polizei gerufen.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_instruction_stop">
@@ -11430,6 +11444,7 @@
 
     <Entry Id="fleeca_robbery_cmd_in_progress">
         <String xml:lang="en-US">A ~b~bank robbery ~s~is already in progress at {0}.</String>
+        <String xml:lang="de-DE">Ein ~b~Banküberfall ~s~bei {0} ist bereits im Gange.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_cmd_not_enough_cops">
