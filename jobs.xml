@@ -12707,10 +12707,14 @@
     </Entry>
 
     <Entry Id="transit_boarding_help">
-        <String xml:lang="en-US">Wait for the passengers to ~y~board ~s~the vehicle</String>
-        <String xml:lang="de-DE">Warte, bis die Fahrgäste in das Fahrzeug ~y~einsteigen~s~</String>
-        <String xml:lang="es-ES">Espera a que los pasajeros ~y~suban ~s~al vehículo</String>
-        <String xml:lang="pt-BR">Espere os passageiros ~y~embarcarem ~s~no veículo</String>
+        <String xml:lang="en-US">Wait for the passengers to ~y~board ~s~the vehicle.</String>
+        <String xml:lang="de-DE">Warte, bis die Fahrgäste in das Fahrzeug ~y~einsteigen~s~.</String>
+        <String xml:lang="es-ES">Espera a que los pasajeros ~y~suban ~s~al vehículo.</String>
+        <String xml:lang="pt-BR">Espere os passageiros ~y~embarcarem ~s~no veículo.</String>
+    </Entry>
+
+    <Entry Id="transit_wait_dep_time_help">
+        <String xml:lang="en-US">Wait here for the scheduled ~g~departure time~s~.</String>
     </Entry>
 
     <Entry Id="transit_server_route_complete">
@@ -12719,22 +12723,6 @@
         <String xml:lang="es-ES">~g~¡Ruta completada!~s~ Has ganado ~g~{0}~s~.</String>
         <String xml:lang="pt-BR">~g~Rota concluída!~s~ Você ganhou ~g~{0}~s~.</String>
         <String xml:lang="vi-VN">~g~Hoàn thành tuyến!~s~ Bạn kiếm được ~g~{0}~s~.</String>
-    </Entry>
-
-    <Entry Id="transit_server_not_at_bay">
-        <String xml:lang="en-US">~r~Park in the bay~s~ (position + direction) to complete this stop.</String>
-        <String xml:lang="de-DE">~r~Halte in der Haltebucht~s~ (Position + Richtung), um diesen Halt abzuschließen.</String>
-        <String xml:lang="es-ES">~r~Estaciona en el andén~s~ (posición + dirección) para completar esta parada.</String>
-        <String xml:lang="pt-BR">~r~Estacione na baia~s~ (posição + direção) para concluir esta parada.</String>
-        <String xml:lang="vi-VN">~r~Đỗ xe vào vị trí đón khách~s~ (đúng vị trí + hướng) để hoàn thành điểm dừng này.</String>
-    </Entry>
-
-    <Entry Id="transit_server_wrong_stop">
-        <String xml:lang="en-US">~r~That's not the next stop on the route.~s~</String>
-        <String xml:lang="de-DE">~r~Das ist nicht die nächste Haltestelle dieser Linienfahrt.~s~</String>
-        <String xml:lang="es-ES">~r~Esa no es la siguiente parada de la ruta.~s~</String>
-        <String xml:lang="pt-BR">~r~Essa não é a próxima parada da rota.~s~</String>
-        <String xml:lang="vi-VN">~r~Đó không phải là điểm dừng tiếp theo trên tuyến.~s~</String>
     </Entry>
 
     <Entry Id="transit_server_route_canceled">
