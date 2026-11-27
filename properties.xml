@@ -998,6 +998,7 @@
     <!-- nullnull{0} = Property name (for example: Spanish Avenue) -->
     <Entry Id="property_enter_cooldown">
         <String xml:lang="en-US">You just left a property. Wait ~r~{0} seconds~s~ before entering another one.</String>
+        <String xml:lang="de-DE">Du hast gerade eine Immobilie verlassen. Warte ~r~{0} Sekunden~s~, bevor du erneut eine betrittst.</String>
     </Entry>
 
     <Entry Id="property_navigating">
@@ -1049,22 +1050,27 @@
     -->
     <Entry Id="menu_properties_category_favorite_garages">
         <String xml:lang="en-US">Favorite Garages</String>
+        <String xml:lang="de-DE">Favorisierte Garagen</String>
     </Entry>
 
     <Entry Id="menu_properties_category_favorite_houses">
         <String xml:lang="en-US">Favorite Houses</String>
+        <String xml:lang="de-DE">Favorisierte Häuser</String>
     </Entry>
 
     <Entry Id="menu_properties_category_favorite_warehouses">
         <String xml:lang="en-US">Favorite Warehouses</String>
+        <String xml:lang="de-DE">Favorisierte Lagerhäuser</String>
     </Entry>
 
     <Entry Id="menu_properties_favorite_added">
         <String xml:lang="en-US">You ~g~added ~s~this property to your favorites.</String>
+        <String xml:lang="de-DE">Du hast diese Immobilie zu deinen Favoriten ~g~hinzugefügt~s~.</String>
     </Entry>
 
     <Entry Id="menu_properties_favorite_removed">
         <String xml:lang="en-US">You ~r~removed ~s~this property from your favorites.</String>
+        <String xml:lang="de-DE">Du hast diese Immobilie aus deinen Favoriten ~r~entfernt~s~.</String>
     </Entry>
     
     <Entry Id="menu_properties_house_storage">
@@ -1102,34 +1108,42 @@
 
     <Entry Id="menu_spawn_title">
         <String xml:lang="en-US">Spawn</String>
+        <String xml:lang="de-DE">Spawn</String>
     </Entry>
 
     <Entry Id="menu_spawn_subtitle">
         <String xml:lang="en-US">Select Spawn Location</String>
+        <String xml:lang="de-DE">Spawnpunkt wählen</String>
     </Entry>
 
     <Entry Id="menu_spawn_random">
         <String xml:lang="en-US">Random Location</String>
+        <String xml:lang="de-DE">Zufälliger Ort</String>
     </Entry>
 
     <Entry Id="menu_spawn_random_description">
         <String xml:lang="en-US">Spawn at a random location.</String>
+        <String xml:lang="de-DE">Spawne an einem zufälligen Ort.</String>
     </Entry>
 
     <Entry Id="menu_spawn_job">
         <String xml:lang="en-US">Job Location</String>
+        <String xml:lang="de-DE">Job-Spawnpunkt</String>
     </Entry>
 
     <!-- {0} = job name (like Police Officer) -->
     <Entry Id="menu_spawn_job_description">
         <String xml:lang="en-US">Spawn at a {0} location.</String>
+        <String xml:lang="de-DE">Spawne an einem {0}-Spawnpunkt.</String>
     </Entry>
 
     <Entry Id="menu_spawn_house_description">
         <String xml:lang="en-US">Spawn inside your property.</String>
+        <String xml:lang="de-DE">Spawne in deiner Immobilie.</String>
     </Entry>
 
     <Entry Id="menu_spawn_error">
         <String xml:lang="en-US">You can't spawn in this property.</String>
+        <String xml:lang="de-DE">Du kannst nicht in dieser Immobilie spawnen.</String>
     </Entry>
 </Entries>
