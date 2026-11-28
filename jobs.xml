@@ -3438,10 +3438,12 @@
 
     <Entry Id="uncuffing_you">
         <String xml:lang="en-US">{0}~s~ is uncuffing you.</String>
+        <String xml:lang="de-DE">{0}~s~ löst deine Handschellen.</String>
     </Entry>
     
     <Entry Id="uncuffed_you">
         <String xml:lang="en-US">{0}~s~ uncuffed you.</String>
+        <String xml:lang="de-DE">{0}~s~ hat deine Handschellen gelöst.</String>
     </Entry>
 
     <Entry Id="police_ordered_you_get_vehicle">
@@ -4089,35 +4091,52 @@
 
     <Entry Id="police_cuff_cancelled">
         <String xml:lang="en-US">You stopped cuffing {0}.</String>
+        <String xml:lang="de-DE">Du hast aufgehört, {0} Handschellen anzulegen.</String>
     </Entry>
 
     <Entry Id="police_uncuff_cancelled">
         <String xml:lang="en-US">You stopped uncuffing {0}.</String>
+        <String xml:lang="de-DE">Du hast aufgehört, {0} Handschellen zu lösen.</String>
     </Entry>
+
     <Entry Id="drug_delivery_call">
         <String xml:lang="en-US">A customer wants ~b~{0}g~s~ of ~y~{1}~s~ delivered to their house. Drop it off at the front door.</String>
+        <String xml:lang="de-DE">Ein Kunde möchte ~b~{0}g~s~ von ~y~{1}~s~ nach Hause geliefert bekommen. Stelle es vor der Haustür ab.</String>
     </Entry>
+
     <Entry Id="drug_delivery_completed">
         <String xml:lang="en-US">You delivered ~y~{0}g~s~ of ~y~{1}~s~ and got paid ~g~{2}~s~.</String>
+        <String xml:lang="de-DE">Du hast ~y~{0}g~s~ von ~y~{1}~s~ geliefert und dafür ~g~{2}~s~ erhalten.</String>
     </Entry>
+
     <Entry Id="drug_delivery_expired">
         <String xml:lang="en-US">The customer gave up waiting. The delivery was cancelled.</String>
+        <String xml:lang="de-DE">Der Kunde gab das Warten auf. Die Lieferung wurde abgebrochen.</String>
     </Entry>
+
     <Entry Id="drug_delivery_no_drugs">
         <String xml:lang="en-US">You don't have enough of the drug to deliver.</String>
+        <String xml:lang="de-DE">Du hast nicht genug von der Droge, um sie zu liefern.</String>
     </Entry>
+
     <Entry Id="drug_delivery_timer">
         <String xml:lang="en-US">DELIVERY</String>
+        <String xml:lang="de-DE">LIEFERUNG</String>
     </Entry>
+
     <Entry Id="drug_delivery_cancelled">
         <String xml:lang="en-US">You are no longer a drug dealer. The delivery was cancelled.</String>
+        <String xml:lang="de-DE">Du bist kein Drogenhändler mehr. Die Lieferung wurde abgebrochen.</String>
     </Entry>
+
     <Entry Id="drug_delivery_repackage">
         <String xml:lang="en-US">Go back to your vehicle to package the delivery again.</String>
+        <String xml:lang="de-DE">Gehe zurück zu deinem Fahrzeug, um die Lieferung erneut zu verpacken.</String>
     </Entry>
 
     <Entry Id="police_search_cancelled">
         <String xml:lang="en-US">You stopped searching {0}.</String>
+        <String xml:lang="de-DE">Du hast aufgehört, {0} zu durchsuchen.</String>
     </Entry>
 
     <Entry Id="police_cuffing_suspect">
@@ -4128,7 +4147,7 @@
         <String xml:lang="es-ES">Estás esposando a {0}.</String>
         <String xml:lang="pl-PL">Zakuwasz {0}.</String>
         <String xml:lang="pt-BR">Você está algemando a {0}.</String>
-        <String xml:lang="de-DE">Du nimmst {0} fest.</String>
+        <String xml:lang="de-DE">Du legst {0} Handschellen an.</String>
         <String xml:lang="zh-Hant">你正在上銬 {0}.</String>
         <String xml:lang="ar-001">أنت تقييد {0}.</String>
         <String xml:lang="id-ID">Anda mencoba memborgol {0}.</String>
@@ -4151,7 +4170,7 @@
         <String xml:lang="es-ES">Has esposado a {0}</String>
         <String xml:lang="pl-PL">Zakułeś {0}.</String>
         <String xml:lang="pt-BR">Você algemou a {0}.</String>
-        <String xml:lang="de-DE">Du hast {0} festgenommen.</String>
+        <String xml:lang="de-DE">Du hast {0} Handschellen angelegt.</String>
         <String xml:lang="zh-Hant">你上銬了 {0}.</String>
         <String xml:lang="ar-001">لقد قمت بتقييد {0}.</String>
         <String xml:lang="id-ID">Anda telah memborgol {0}.</String>
@@ -10991,22 +11010,27 @@
 
     <Entry Id="jobs_carrying_loot">
         <String xml:lang="en-US">You are carrying ~r~robbery loot~s~. Hide it before switching to a ~b~public service job~s~.</String>
+        <String xml:lang="de-DE">Du trägst ~r~Beute~s~. Verstecke sie, bevor du zu einem ~b~öffentlichen Dienstjob ~s~wechselst.</String>
     </Entry>
 
     <Entry Id="loot_go_to_hideout">
         <String xml:lang="en-US">You left the area. Now go to a ~y~hideout ~s~to hide the ~r~loot~s~.</String>
+        <String xml:lang="de-DE">Du hast das Gebiet verlassen. Gehe nun zu einem ~y~Versteck~s~, um die ~r~Beute~s~ zu verstecken.</String>
     </Entry>
 
     <Entry Id="loot_no_hideouts_available">
         <String xml:lang="en-US">You don't have a suitable ~r~hideout~s~. You can go to a ~g~friend~s~'s hideout to hide the loot.</String>
+        <String xml:lang="de-DE">Du hast kein geeignetes ~r~Versteck~s~. Du kannst zu einem Versteck eines ~g~Freundes~s~ gehen, um die Beute zu verstecken.</String>
     </Entry>
 
     <Entry Id="loot_hidden">
         <String xml:lang="en-US">You hid ~y~{0} loot items~s~ in the hideout.</String>
+        <String xml:lang="de-DE">Du hast ~y~{0} Beutegegenstände~s~ im Versteck verstaut.</String>
     </Entry>
 
     <Entry Id="loot_hidden_others">
         <String xml:lang="en-US">You hid ~y~{0} loot items~s~ in {1}'s property.</String>
+        <String xml:lang="de-DE">Du hast ~y~{0} Beutegegenstände~s~ in der Immobilie von {1} versteckt.</String>
     </Entry>
 
     <Entry Id="jewelry_robbery_success">
@@ -11219,6 +11243,7 @@
 
     <Entry Id="fleeca_robbery_tool_crowbar_desc">
         <String xml:lang="en-US">It takes a random amount of hits to open the deposit box. It's detected by the vault sensors and it instantly trips the alarm.</String>
+        <String xml:lang="de-DE">Es benötigt eine zufällige Anzahl von Treffern, um das Schließfach zu öffnen. Sie wird von den Tresorraum-Sensoren erkannt und löst sofort den Alarm aus.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_tool_drill">
@@ -11231,13 +11256,14 @@
 
     <Entry Id="fleeca_robbery_tool_drill_desc">
         <String xml:lang="en-US">Reliable, you can control it accurately, but it might take longer than a crowbar and the bit might snap. It doesn't trip any sensor.</String>
+        <String xml:lang="de-DE">Zuverlässig, du kannst es genau steuern, aber es könnte länger dauern als ein Brecheisen und der Bohrer könnte brechen. Es löst keine Sensoren aus.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_drill_broke">
         <String xml:lang="en-US">~r~The drill bit snapped! Try again.</String>
         <String xml:lang="es-ES">~r~¡Tu taladro se ha roto!</String>
         <String xml:lang="pt-BR">~r~Sua furadeira quebrou!</String>
-        <String xml:lang="de-DE">~r~Dein Bohrer ist kaputtgegangen!</String>
+        <String xml:lang="de-DE">~r~Der Bohrer ist abgebrochen! Versuch es noch einmal.</String>
         <String xml:lang="vi-VN">~r~Máy khoan của bạn đã bị hỏng!</String>
     </Entry>
 
@@ -11275,30 +11301,37 @@
 
     <Entry Id="fleeca_robbery_alarm_tripped_security">
         <String xml:lang="en-US">The security guard has reported the robbery.</String>
+        <String xml:lang="de-DE">Die Wache hat den Überfall gemeldet.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_alarm_tripped_police">
         <String xml:lang="en-US">A police officer is nearby and has reported the robbery.</String>
+        <String xml:lang="de-DE">Ein Polizist ist in der Nähe und hat den Überfall gemeldet.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_alarm_tripped_hostage_panic">
         <String xml:lang="en-US">A hostage panicked and called the police.</String>
+        <String xml:lang="de-DE">Eine Geisel hat Panik bekommen und die Polizei gerufen.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_alarm_tripped_crowbar">
         <String xml:lang="en-US">A security mechanism of the deposit boxes was triggered.</String>
+        <String xml:lang="de-DE">Ein Sicherheitsmechanismus der Schließfächer wurde ausgelöst.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_alarm_tripped_cameras">
         <String xml:lang="en-US">A smart security camera has automatically reported the robbery.</String>
+        <String xml:lang="de-DE">Eine intelligente Sicherheitskamera hat den Überfall automatisch gemeldet.</String>
     </Entry>
 
     <Entry Id="FLEECA_ROBBERY_ALARM_TRIPPED_DEAD_HOSTAGE">
         <String xml:lang="en-US">A hostage died and other hostages panicked and called the police.</String>
+        <String xml:lang="de-DE">Eine Geisel ist gestorben, weshalb andere Geiseln in Panik die Polizei gerufen haben.</String>
     </Entry>
 
     <Entry Id="FLEECA_ROBBERY_ALARM_TRIPPED_LOUD_GUN">
         <String xml:lang="en-US">A passerby has heard the gunshots and called the police.</String>
+        <String xml:lang="de-DE">Ein Passant hat die Schüsse gehört und die Polizei gerufen.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_instruction_stop">
@@ -11416,6 +11449,7 @@
 
     <Entry Id="fleeca_robbery_cmd_in_progress">
         <String xml:lang="en-US">A ~b~bank robbery ~s~is already in progress at {0}.</String>
+        <String xml:lang="de-DE">Ein ~b~Banküberfall ~s~bei {0} ist bereits im Gange.</String>
     </Entry>
 
     <Entry Id="fleeca_robbery_cmd_not_enough_cops">
@@ -12517,6 +12551,7 @@
     <!-- e.g. STOPS  3/7 -->
     <Entry Id="transit_num_stops">
         <String xml:lang="en-US">STOPS</String>
+        <String xml:lang="de-DE">HALT</String>
     </Entry>
 
     <Entry Id="transit_current_schedule_desc">
@@ -12715,10 +12750,12 @@
 
     <Entry Id="transit_boarding_help">
         <String xml:lang="en-US">Wait for the ~g~passengers ~s~to alight and board the vehicle.</String>
+        <String xml:lang="de-DE">Warte darauf, dass die ~g~Fahrgäste ~s~aus- und einsteigen.</String>
     </Entry>
 
     <Entry Id="transit_wait_dep_time_help">
         <String xml:lang="en-US">Wait here for the scheduled ~g~departure time~s~.</String>
+        <String xml:lang="de-DE">Warte hier auf die geplante ~g~Abfahrtszeit~s~.</String>
     </Entry>
 
     <Entry Id="transit_server_route_complete">
